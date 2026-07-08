@@ -2730,6 +2730,390 @@
       "faculty": []
     },
     {
+      "id": "duke-university-ph-d-in-integrated-toxicology-and-environmental-health",
+      "university": "Duke University",
+      "program_name": "Ph.D. in Integrated Toxicology and Environmental Health",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Toxicology",
+          "Environmental Health",
+          "Pharmacology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.duke.edu/academics/programs-degrees/integrated-toxicology-and-environmental-health/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "joel-n-meyer",
+          "name": "Joel N. Meyer",
+          "title": "Sally Kleberg Distinguished Professor; Professor of Environmental Genomics",
+          "sub_field": "Mitochondrial toxicology",
+          "tags": [
+            "toxicology",
+            "mitochondria",
+            "genotoxicity",
+            "environmental contaminants",
+            "PAHs"
+          ],
+          "summary": "Studies the toxicity and genotoxicity of environmental contaminants including polycyclic aromatic hydrocarbons and nanomaterials, with a particular focus on effects on mitochondria and mitochondrial DNA.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/joel.meyer",
+            "scholar": null
+          }
+        },
+        {
+          "id": "heather-m-stapleton",
+          "name": "Heather M. Stapleton",
+          "title": "Ronie-Richele Garcia-Johnson Distinguished Professor; Professor in the Division of Environmental Natural Sciences",
+          "sub_field": "Environmental chemistry / toxicology",
+          "tags": [
+            "flame retardants",
+            "organic contaminants",
+            "exposure science",
+            "thyroid disruption",
+            "environmental health"
+          ],
+          "summary": "Investigates the sources, fate, transport, transformation, and metabolism of organic contaminants, emphasizing flame retardants and mechanisms of thyroid system disruption.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/heather.stapleton",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nishad-jayasundara",
+          "name": "Nishad Jayasundara",
+          "title": "Juli Plant Grainger Assistant Professor of Global Environmental Health; Assistant Professor of Environmental Toxicology and Health",
+          "sub_field": "Environmental toxicology (One Health)",
+          "tags": [
+            "toxicology",
+            "One Health",
+            "chemical pollution",
+            "ecological health",
+            "environmental health"
+          ],
+          "summary": "Uses a One Health framework to study the ecological and human health implications of chemical pollution.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/nishad.jayasundara",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sven-eric-jordt",
+          "name": "Sven-Eric Jordt",
+          "title": "Distinguished Professor of Anesthesiology; Professor of Pharmacology and Cancer Biology",
+          "sub_field": "Pharmacology / chemical sensing",
+          "tags": [
+            "pharmacology",
+            "chemical irritation",
+            "chemical sensing",
+            "inflammation",
+            "lung injury"
+          ],
+          "summary": "Investigates the mechanisms of environmental chemical irritation and chemical sensing and their contributions to inflammation, asthma, and lung injury.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/sven.jordt",
+            "scholar": null
+          }
+        },
+        {
+          "id": "theodore-slotkin",
+          "name": "Theodore Slotkin",
+          "title": "Professor of Pharmacology and Cancer Biology",
+          "sub_field": "Developmental neurotoxicology",
+          "tags": [
+            "pharmacology",
+            "neurotoxicology",
+            "insecticides",
+            "nanoparticles",
+            "developmental toxicity"
+          ],
+          "summary": "Studies the effects of environmental toxicants including insecticides and nanoparticles, particularly on nervous-system development.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/t.slotkin",
+            "scholar": null
+          }
+        },
+        {
+          "id": "edward-d-levin",
+          "name": "Edward D. Levin",
+          "title": "Professor in Psychiatry and Behavioral Sciences; Professor of Psychology and Neuroscience",
+          "sub_field": "Behavioral neurotoxicology",
+          "tags": [
+            "neurotoxicology",
+            "learning and memory",
+            "zebrafish",
+            "rodent models",
+            "toxicology"
+          ],
+          "summary": "Studies toxicological influences on learning and memory, utilizing both rodent and zebrafish models.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/edlevin",
+            "scholar": null
+          }
+        },
+        {
+          "id": "donald-p-mcdonnell",
+          "name": "Donald P. McDonnell",
+          "title": "Glaxo-Wellcome Distinguished Professor of Molecular Cancer Biology; Professor of Pharmacology and Cancer Biology",
+          "sub_field": "Pharmacology / endocrine disruption",
+          "tags": [
+            "pharmacology",
+            "endocrine disruptors",
+            "nuclear receptors",
+            "cancer biology",
+            "molecular mechanisms"
+          ],
+          "summary": "Studies the molecular mechanisms through which both therapeutic agents and endocrine disrupters modulate cell function.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://medicine.duke.edu/faculty/donald-patrick-mcdonnell-phd",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christopher-m-counter",
+          "name": "Christopher M. Counter",
+          "title": "George Barth Geller Distinguished Professor of Pharmacology; Professor of Pharmacology and Cancer Biology",
+          "sub_field": "Environmental carcinogenesis",
+          "tags": [
+            "carcinogens",
+            "cancer biology",
+            "mouse models",
+            "sequencing",
+            "pharmacology"
+          ],
+          "summary": "Examines how environmental carcinogens induce specific cancers using mouse models and sequencing approaches.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/count004",
+            "scholar": null
+          }
+        },
+        {
+          "id": "laurie-h-sanders",
+          "name": "Laurie H. Sanders",
+          "title": "Associate Professor in Neurology; Associate Professor of Pathology",
+          "sub_field": "Environmental neurotoxicology",
+          "tags": [
+            "mitochondrial DNA damage",
+            "neurodegeneration",
+            "environmental exposures",
+            "toxicology",
+            "Parkinson's disease"
+          ],
+          "summary": "Investigates environmental influences on mitochondrial DNA damage in neurological disorders.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/laurie.sanders",
+            "scholar": null
+          }
+        },
+        {
+          "id": "samira-musah",
+          "name": "Samira Musah",
+          "title": "Assistant Professor in the Department of Biomedical Engineering; Assistant Professor in Medicine",
+          "sub_field": "Organ-on-chip toxicity models",
+          "tags": [
+            "stem cells",
+            "organ-on-chip",
+            "disease modeling",
+            "toxicity",
+            "biomedical engineering"
+          ],
+          "summary": "Develops stem cell and organ-on-chip systems to model toxicity and disease mechanisms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/samira.musah",
+            "scholar": null
+          }
+        },
+        {
+          "id": "robert-m-tighe",
+          "name": "Robert M. Tighe",
+          "title": "Associate Professor of Medicine; Associate Professor in the Division of Environmental Natural Sciences",
+          "sub_field": "Pulmonary environmental health",
+          "tags": [
+            "air pollution",
+            "lung injury",
+            "host response",
+            "susceptibility",
+            "environmental health"
+          ],
+          "summary": "Identifies susceptibility factors relevant to host responses to environmental pollutants, studying mechanisms of air pollution exposure and lung injury and repair.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://medicine.duke.edu/faculty/robert-matthew-tighe-md",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kate-hoffman",
+          "name": "Kate Hoffman",
+          "title": "Elizabeth Brooks Reid and Whitelaw Reid Associate Research Professor of Environmental Natural Sciences",
+          "sub_field": "Environmental exposure epidemiology",
+          "tags": [
+            "exposure pathways",
+            "children's health",
+            "environmental contaminants",
+            "epidemiology",
+            "environmental health"
+          ],
+          "summary": "Investigates environmental contaminant exposure pathways, particularly among children.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/kate.hoffman",
+            "scholar": null
+          }
+        },
+        {
+          "id": "junfeng-jim-zhang",
+          "name": "Junfeng (Jim) Zhang",
+          "title": "Professor of Global and Environmental Health",
+          "sub_field": "Air pollution exposure science",
+          "tags": [
+            "air pollution",
+            "biomarkers",
+            "exposure science",
+            "health effects",
+            "environmental health"
+          ],
+          "summary": "Develops novel biomarkers of exposure and adverse health effects related to air pollution and studies the co-benefits of pollution-reduction interventions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/junfeng.zhang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christine-k-payne",
+          "name": "Christine K. Payne",
+          "title": "Professor in the Thomas Lord Department of Mechanical Engineering and Materials Science",
+          "sub_field": "Nanoparticle toxicology",
+          "tags": [
+            "nanoparticles",
+            "cellular response",
+            "nanomaterials",
+            "environmental exposure",
+            "biophysics"
+          ],
+          "summary": "Investigates the cellular response to nanoparticles present in the environment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mems.duke.edu/faculty/christine-payne",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-h-bergin",
+          "name": "Michael H. Bergin",
+          "title": "Professor in the Department of Civil and Environmental Engineering",
+          "sub_field": "Air pollution and health",
+          "tags": [
+            "air pollution",
+            "PM2.5",
+            "aerosols",
+            "human health",
+            "environmental engineering"
+          ],
+          "summary": "Investigates the influence of air pollution, particularly PM2.5, on both climate and human health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cee.duke.edu/faculty/michael-bergin",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yan-lin",
+          "name": "Yan Lin",
+          "title": "Assistant Research Professor in the Division of Environmental Natural Sciences",
+          "sub_field": "Air pollution cardiopulmonary health",
+          "tags": [
+            "air pollution",
+            "lipid metabolism",
+            "cardiopulmonary disease",
+            "exposure",
+            "environmental health"
+          ],
+          "summary": "Examines the role of lipid metabolism in cardiopulmonary diseases arising from air pollution exposure.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/yan.lin",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mercedes-bravo",
+          "name": "Mercedes Bravo",
+          "title": "Assistant Research Professor of Global Health; Assistant Research Professor in the Division of Environmental Natural Sciences",
+          "sub_field": "Environmental health disparities",
+          "tags": [
+            "air pollution",
+            "environmental justice",
+            "health disparities",
+            "social exposures",
+            "environmental health"
+          ],
+          "summary": "Studies connections between social and environmental exposures and health disparities, focusing on air pollution and environmental justice.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/mercedes.bravo",
+            "scholar": null
+          }
+        },
+        {
+          "id": "annmarie-walton",
+          "name": "AnnMarie Walton",
+          "title": "Dorothy L. Powell Term Chair of Nursing; Associate Professor in the School of Nursing",
+          "sub_field": "Occupational and environmental health",
+          "tags": [
+            "occupational exposure",
+            "carcinogens",
+            "pesticides",
+            "farmworkers",
+            "environmental health"
+          ],
+          "summary": "Studies occupational exposure to carcinogens, particularly pesticide exposure among farmworkers.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/annmarie.walton",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
       "id": "duke-university-ph-d-in-molecular-cancer-biology",
       "university": "Duke University",
       "program_name": "Ph.D. in Molecular Cancer Biology",
@@ -5896,6 +6280,1546 @@
       "faculty": []
     },
     {
+      "id": "rutgers-university-new-brunswick-entomology-phd",
+      "university": "Rutgers University-New Brunswick",
+      "program_name": "Entomology, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Entomology",
+          "Insect Biology",
+          "Vector Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://entomology.rutgers.edu/graduate/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "dina-m-fonseca",
+          "name": "Dina M. Fonseca",
+          "title": "Professor, Chair of the Department of Entomology, Director of the Center for Vector Biology",
+          "sub_field": "Vector biology and molecular ecology",
+          "tags": [
+            "invasive mosquitoes",
+            "vectorial capacity",
+            "mosquito control",
+            "environmental DNA",
+            "molecular ecology"
+          ],
+          "summary": "Fonseca examines how invasive mosquito populations differ in disease-transmission capacity across space and time, affecting epidemiological risk. She develops mosquito control strategies through extension partnerships and citizen-science initiatives that use environmental DNA to detect and manage invasive species.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://fonseca-lab.com",
+            "scholar": "http://scholar.google.com/citations?user=Sjx4rv0AAAAJ&hl"
+          }
+        },
+        {
+          "id": "alvaro-toledo",
+          "name": "Alvaro Toledo",
+          "title": "Associate Professor",
+          "sub_field": "Tick biology and tick-borne disease",
+          "tags": [
+            "Lyme disease",
+            "Borrelia burgdorferi",
+            "tick-borne pathogens",
+            "tick microbiome",
+            "vector-borne diseases"
+          ],
+          "summary": "Toledo investigates ticks and tick-borne pathogens, particularly Borrelia burgdorferi (the Lyme disease agent). His work examines how cholesterol and lipid rafts function in bacterial sensing and adaptation, along with the role of tick microbiomes in pathogen transmission.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "dana-c-price",
+          "name": "Dana C. Price",
+          "title": "Associate Research Professor",
+          "sub_field": "Vector functional genomics",
+          "tags": [
+            "vector biology",
+            "functional genomics",
+            "zoonotic disease surveillance",
+            "tick-borne pathogens",
+            "metagenomics"
+          ],
+          "summary": "Price's lab conducts functional genomic analyses of vector arthropods and their associated microorganisms to identify and surveil emerging zoonotic infectious diseases. Current work includes non-destructive pathogen sampling, reverse-vaccine approaches for invasive ticks, and spatiotemporal studies of tick-borne and arbovirus disease dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://price-lab.weebly.com",
+            "scholar": "https://scholar.google.com/citations?user=ayI9H30AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "chloe-hawkings",
+          "name": "Chloe Hawkings",
+          "title": "Assistant Professor, Undergraduate Program Director",
+          "sub_field": "Insect behavioral physiology",
+          "tags": [
+            "social insects",
+            "gene expression",
+            "caste biology",
+            "behavioral physiology",
+            "ecological adaptation"
+          ],
+          "summary": "Hawkings investigates the physiological mechanisms that underlie social insect behavior. Her work uses gene expression analysis to examine how insects adapt ecologically and make behavioral decisions across different life stages and castes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://chloehawkings.weebly.com",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lena-b-brattsten",
+          "name": "Lena B. Brattsten",
+          "title": "Research Professor",
+          "sub_field": "Insect biochemistry and toxicology",
+          "tags": [
+            "biochemical toxicology",
+            "insecticide resistance",
+            "cytochrome P450",
+            "insect-plant interactions",
+            "detoxification enzymes"
+          ],
+          "summary": "Brattsten investigates biochemical resistance mechanisms in insects exposed to toxic chemicals, focusing on detoxification enzymes such as cytochrome P450s and general esterases. Her work examines physiological, behavioral, and phenological resistance mechanisms alongside the molecular genetics of insect defense systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "anne-l-nielsen",
+          "name": "Anne L. Nielsen",
+          "title": "Associate Extension Specialist in Entomology, Graduate Program Director",
+          "sub_field": "Fruit insect ecology and IPM",
+          "tags": [
+            "phenological modeling",
+            "invasive species",
+            "brown marmorated stink bug",
+            "biological control",
+            "integrated pest management"
+          ],
+          "summary": "Nielsen develops phenological models for tree fruit and small fruit pests, integrating insect physiology and behavior into sustainable management programs. Her work emphasizes invasive species, particularly the brown marmorated stink bug (Halyomorpha halys), along with monitoring, biological control, and IPM.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.Nielsenentlab.weebly.com",
+            "scholar": null
+          }
+        },
+        {
+          "id": "cesar-rodriguez-saona",
+          "name": "Cesar Rodriguez-Saona",
+          "title": "Extension Specialist in Entomology",
+          "sub_field": "Insect chemical ecology and IPM",
+          "tags": [
+            "integrated pest management",
+            "tritrophic interactions",
+            "biological control",
+            "insect chemical ecology",
+            "insect-plant interactions"
+          ],
+          "summary": "Rodriguez-Saona develops and implements cost-effective, reduced-risk integrated pest management practices for blueberries and cranberries. His work integrates chemical, behavioral, and biological control methods with an understanding of pest ecology and natural enemies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.rutgers.edu/cesar-rodriguez-saona/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "albrecht-koppenhofer",
+          "name": "Albrecht Koppenhofer",
+          "title": "Extension Specialist in Entomology",
+          "sub_field": "Turfgrass IPM and insect pathology",
+          "tags": [
+            "integrated pest management",
+            "entomopathogenic nematodes",
+            "biological control",
+            "insect pathology",
+            "turfgrass pests"
+          ],
+          "summary": "Koppenhofer develops ecologically based integrated pest management for turfgrass systems with an emphasis on sustainability and biological control. His research focuses on conservation of natural enemies and interactions among chemical, biological, and cultural control components.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "george-c-hamilton",
+          "name": "George C. Hamilton",
+          "title": "Extension Specialist in Pest Management",
+          "sub_field": "Insect biocontrol and pest management",
+          "tags": [
+            "integrated pest management",
+            "biological control",
+            "brown marmorated stink bug",
+            "spotted lanternfly",
+            "invasive insects"
+          ],
+          "summary": "Hamilton focuses on implementing integrated pest management programs and insect biocontrol, with current emphasis on conservation biological control for ornamental and vegetable pests. He also works on managing invasive insects including brown marmorated stink bug, spotted lanternfly, and emerald ash borer.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://pestmanagement.rutgers.edu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "changlu-wang",
+          "name": "Changlu Wang",
+          "title": "Extension Specialist in Entomology",
+          "sub_field": "Urban pest management",
+          "tags": [
+            "urban pest management",
+            "insect behavior",
+            "bed bugs",
+            "cockroaches",
+            "insecticide resistance"
+          ],
+          "summary": "Wang develops urban pest management technologies by studying the biology, behavior, and ecology of pests such as cockroaches, bed bugs, ants, and termites. His extension program delivers research-based urban pest management technologies to pest management professionals and the public.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "rutgers-university-new-brunswick-plant-biology-phd",
+      "university": "Rutgers University-New Brunswick",
+      "program_name": "Plant Biology, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Plant Biology",
+          "Genomics",
+          "Plant Pathology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://plantbiology.rutgers.edu/graduate/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "andrea-gallavotti",
+          "name": "Andrea Gallavotti",
+          "title": "Professor",
+          "sub_field": "Plant development and genetics",
+          "tags": [
+            "maize genetics",
+            "functional genomics",
+            "plant architecture",
+            "auxin signaling",
+            "meristem development"
+          ],
+          "summary": "His lab investigates the molecular mechanisms regulating plant architecture using maize as a model system, including how the hormone auxin regulates meristem formation and transcriptional repression in development.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.waksman.rutgers.edu/gallavotti",
+            "scholar": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=49zvHC4AAAAJ"
+          }
+        },
+        {
+          "id": "mark-zander",
+          "name": "Mark Zander",
+          "title": "Assistant Professor",
+          "sub_field": "Plant (epi)genomics and immunity",
+          "tags": [
+            "epigenomics",
+            "plant immunity",
+            "hormone signaling",
+            "transcriptional regulation",
+            "stress responses"
+          ],
+          "summary": "His work spans plant (epi)genomics, plant immunity, hormone signaling, and transcriptional regulation, focused on understanding the molecular mechanisms governing plant defense and developmental regulation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.waksman.rutgers.edu/zander",
+            "scholar": null
+          }
+        },
+        {
+          "id": "eric-lam",
+          "name": "Eric Lam",
+          "title": "Distinguished Professor",
+          "sub_field": "Plant epigenetics and genomics",
+          "tags": [
+            "programmed cell death",
+            "chromatin organization",
+            "stress tolerance",
+            "duckweed genomics",
+            "biomass"
+          ],
+          "summary": "He studies mechanisms controlling programmed cell death and stress tolerance in plants and the regulation of gene expression via chromatin organization, with current work developing duckweed-based aquatic agriculture including a reference genome for Spirodela polyrhiza.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.ruduckweed.org/",
+            "scholar": "https://scholar.google.com/citations?hl=en&user=Uzba980AAAAJ"
+          }
+        },
+        {
+          "id": "pal-maliga",
+          "name": "Pal Maliga",
+          "title": "Distinguished Professor",
+          "sub_field": "Plastid molecular biology",
+          "tags": [
+            "plastid biology",
+            "chloroplast transformation",
+            "biotechnology",
+            "molecular biology"
+          ],
+          "summary": "He specializes in plastid molecular biology within the broader areas of molecular biology, biotechnology, and plant genetic improvement.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.waksman.rutgers.edu/maliga/home",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nilgun-tumer",
+          "name": "Nilgun Tumer",
+          "title": "Distinguished Professor, Director of SEBS Core Facility",
+          "sub_field": "Molecular biology of ribosome-inactivating toxins",
+          "tags": [
+            "ribosome-inactivating proteins",
+            "ricin",
+            "Shiga toxins",
+            "mycotoxins",
+            "inhibitor discovery"
+          ],
+          "summary": "Her laboratory investigates the basic mechanism of toxicity of ribosome-inactivating proteins such as ricin, Shiga toxins, and trichothecene mycotoxins, using yeast models and fragment-based inhibitor discovery.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": "https://scholar.google.com/citations?user=ERdxWXoAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "ning-zhang",
+          "name": "Ning Zhang",
+          "title": "Professor",
+          "sub_field": "Fungal biodiversity and genomics",
+          "tags": [
+            "fungal taxonomy",
+            "phylogenetics",
+            "Magnaporthales",
+            "plant pathogens",
+            "molecular diagnosis"
+          ],
+          "summary": "She investigates the taxonomy, biodiversity, and genomics of Magnaporthales, an ascomycete fungal order containing several important plant pathogens, and develops molecular methods for rapid diagnosis of fungal pathogens.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://magnaporthales.sebs.rutgers.edu/",
+            "scholar": "https://scholar.google.com/citations?hl=en&user=10Y6OIMAAAAJ&view_op=list_works"
+          }
+        },
+        {
+          "id": "james-f-white-jr",
+          "name": "James F. White, Jr.",
+          "title": "Professor of Plant Pathology",
+          "sub_field": "Plant symbiosis and endophytes",
+          "tags": [
+            "plant pathology",
+            "symbiosis",
+            "endophytic microbes",
+            "microbiome",
+            "sustainable agriculture"
+          ],
+          "summary": "He specializes in symbiosis research, particularly endophytic microbes, investigating the diversity of endophytic microorganisms and their various effects on host plants.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": "https://scholar.google.com/citations?user=5iYm42cAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "donald-y-kobayashi",
+          "name": "Donald Y. Kobayashi",
+          "title": "Professor, Department Chair",
+          "sub_field": "Bacterial plant pathology",
+          "tags": [
+            "plant pathology",
+            "bacterial pathogens",
+            "plant microbiology",
+            "plant disease"
+          ],
+          "summary": "His laboratory focuses on characterizing bacterial plant pathogens and the diseases they cause, especially in the greater northeast region of the US.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": "https://scholar.google.com/citations?user=HMW0hHEAAAAJ&hl=en&oi=ao"
+          }
+        },
+        {
+          "id": "peter-oudemans",
+          "name": "Peter Oudemans",
+          "title": "Professor",
+          "sub_field": "Plant pathology of berry crops",
+          "tags": [
+            "plant pathology",
+            "blueberry",
+            "cranberry",
+            "Colletotrichum",
+            "GIS disease management"
+          ],
+          "summary": "He specializes in plant pathology of blueberry and cranberry, studying pathogenic fungi affecting these berry crops and using geospatial (GIS) technologies for disease management.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-lawton",
+          "name": "Michael Lawton",
+          "title": "Associate Professor",
+          "sub_field": "Plant disease resistance",
+          "tags": [
+            "disease resistance",
+            "fungal pathogens",
+            "bacterial pathogens",
+            "Fusarium head blight",
+            "programmed cell death"
+          ],
+          "summary": "He studies disease resistance mechanisms and pathogen interactions, with a focus on fungal and bacterial pathogens, Fusarium head blight, toxins, and programmed cell death using functional genomics approaches.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "c-andrew-wyenandt",
+          "name": "C. Andrew Wyenandt",
+          "title": "Extension Specialist in Vegetable Pathology",
+          "sub_field": "Vegetable plant pathology",
+          "tags": [
+            "vegetable pathology",
+            "fungicide resistance",
+            "phytophthora blight",
+            "anthracnose",
+            "disease resistance breeding"
+          ],
+          "summary": "His lab investigates fungicide programs for managing diseases such as phytophthora blight and anthracnose in peppers and cucurbits, evaluates control of basil downy mildew, and develops fungicide resistance management strategies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": "https://scholar.google.com/citations?user=UyxbfXQAAAAJ&hl=en&oi=ao"
+          }
+        },
+        {
+          "id": "stacy-bonos",
+          "name": "Stacy Bonos",
+          "title": "Professor",
+          "sub_field": "Plant breeding and genetics",
+          "tags": [
+            "turfgrass breeding",
+            "disease resistance",
+            "stress tolerance",
+            "switchgrass",
+            "bioenergy"
+          ],
+          "summary": "She develops improved turfgrass species with enhanced disease resistance and stress tolerance, and breeds switchgrass for biomass yield and bioenergy applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://turf.rutgers.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "gina-sideli",
+          "name": "Gina Sideli",
+          "title": "Assistant Professor",
+          "sub_field": "Plant breeding and genomics",
+          "tags": [
+            "cranberry breeding",
+            "blueberry breeding",
+            "molecular breeding",
+            "genomics",
+            "phenomics"
+          ],
+          "summary": "Her lab focuses on classical and molecular breeding of cranberry and blueberry, integrating genomics and phenomics to understand trait genetics and implement marker-assisted or genomic selection for crop improvement.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pemaruccicenter.rutgers.edu/people/sideli/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "thomas-j-molnar",
+          "name": "Thomas J. Molnar",
+          "title": "Associate Professor",
+          "sub_field": "Plant breeding of tree crops",
+          "tags": [
+            "plant breeding",
+            "hazelnut",
+            "dogwood",
+            "disease resistance",
+            "eastern filbert blight"
+          ],
+          "summary": "His work concentrates on the genetic improvement of hazelnuts (Corylus) and large-bracted dogwoods, including developing and characterizing genetic resistance to eastern filbert blight, the primary limiting factor of hazelnut production in eastern North America.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": "https://scholar.google.com/citations?user=gsxIJAEAAAAJ&hl=en&oi=ao"
+          }
+        },
+        {
+          "id": "joseph-goffreda",
+          "name": "Joseph Goffreda",
+          "title": "Associate Professor",
+          "sub_field": "Tree fruit breeding",
+          "tags": [
+            "fruit breeding",
+            "peach",
+            "nectarine",
+            "apple",
+            "apricot"
+          ],
+          "summary": "His research area, per the department directory, is the breeding of tree fruit crops including peach, nectarine, apple, and apricot.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "rong-di",
+          "name": "Rong Di",
+          "title": "Associate Professor",
+          "sub_field": "Plant biotechnology",
+          "tags": [
+            "plant biotechnology",
+            "CRISPR",
+            "genetic engineering",
+            "botanical extracts",
+            "disease resistance"
+          ],
+          "summary": "Her lab uses the C. elegans model to study anti-diabetic, anti-obesity, anti-Alzheimer's, anti-inflammatory, and anti-carcinogenic effects of plant extracts, and employs genetic engineering and CRISPR to develop disease-resistant and nutrition-enhanced plants.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": "https://scholar.google.com/citations?hl=en&user=5i796BcAAAAJ&cstart=0&pagesize=20"
+          }
+        },
+        {
+          "id": "ilya-raskin",
+          "name": "Ilya Raskin",
+          "title": "Distinguished Professor",
+          "sub_field": "Plant-derived functional foods and medicines",
+          "tags": [
+            "natural products",
+            "functional foods",
+            "phytoremediation",
+            "plant immunity",
+            "bioexploration"
+          ],
+          "summary": "His research has spanned plant growth regulation, plant immunity to disease, and phytoremediation, and in the last decade has focused on plant-derived functional foods and medicines alongside international bioexploration and conservation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.rutgers.edu/ilya-raskin-lab",
+            "scholar": "http://scholar.google.com/citations?user=7k2HHF4AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "james-e-simon",
+          "name": "James E. Simon",
+          "title": "Distinguished Professor",
+          "sub_field": "New crop development and natural products",
+          "tags": [
+            "new crops",
+            "plant domestication",
+            "natural products",
+            "non-timber forest species",
+            "sustainable development"
+          ],
+          "summary": "He specializes in new crop development, domestication of high-value crops, non-timber forest species, and sustainable development of indigenous plant resources.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://newuseag.rutgers.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lena-struwe",
+          "name": "Lena Struwe",
+          "title": "Professor and Director of Chrysler Herbarium",
+          "sub_field": "Plant systematics and ethnobotany",
+          "tags": [
+            "plant systematics",
+            "evolutionary biology",
+            "Gentianales",
+            "ethnobotany",
+            "biogeography"
+          ],
+          "summary": "She studies plant evolutionary biology and systematics (particularly gentians and urban weeds) alongside modern ethnobotany, with over 25 years of experience in plant diversity and botanical nomenclature across multiple continents.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.rutgers.edu/lena-struwe",
+            "scholar": "https://scholar.google.com/citations?hl=en&user=a9ImJDcAAAAJ"
+          }
+        },
+        {
+          "id": "bingru-huang",
+          "name": "Bingru Huang",
+          "title": "Distinguished Professor",
+          "sub_field": "Turfgrass stress physiology",
+          "tags": [
+            "turfgrass",
+            "stress physiology",
+            "plant biochemistry",
+            "molecular biology"
+          ],
+          "summary": "Her expertise is in turfgrass stress physiology, biochemistry, and molecular biology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "rutgers-university-new-brunswick-food-science-phd",
+      "university": "Rutgers University-New Brunswick",
+      "program_name": "Food Science, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Food Science",
+          "Food Chemistry",
+          "Food Microbiology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://foodsci.rutgers.edu/Graduate/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "chi-tang-ho",
+          "name": "Chi-Tang Ho",
+          "title": "Distinguished Professor",
+          "sub_field": "Food Chemistry / Flavor Chemistry",
+          "tags": [
+            "flavor chemistry",
+            "natural products",
+            "nutraceuticals",
+            "lipid chemistry"
+          ],
+          "summary": "Professor Ho's research concentrates on flavor chemistry and the bioactivities of natural products, and he has authored more than 700 scholarly papers during his tenure at Rutgers.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "karen-m-schaich",
+          "name": "Karen M. Schaich",
+          "title": "Associate Professor",
+          "sub_field": "Food Chemistry / Lipid Oxidation",
+          "tags": [
+            "lipid oxidation",
+            "free radicals",
+            "EPR spectroscopy",
+            "antioxidants"
+          ],
+          "summary": "Dr. Schaich uses EPR spectroscopy to study free radical intermediates and their reactions, focusing on the mechanisms of lipid oxidation across contexts ranging from food preservation to cellular pathology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "qingrong-huang",
+          "name": "Qingrong Huang",
+          "title": "Professor",
+          "sub_field": "Food Chemistry / Food Colloids and Nanotechnology",
+          "tags": [
+            "food colloids",
+            "biopolymers",
+            "nanoencapsulation",
+            "functional foods"
+          ],
+          "summary": "Dr. Huang's work focuses on the assembly and applications of food colloids and biopolymers, including nano- and micro-encapsulation technologies for delivering active food ingredients.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-chikindas",
+          "name": "Michael Chikindas",
+          "title": "Professor",
+          "sub_field": "Food Microbiology / Applied Molecular Microbiology",
+          "tags": [
+            "antimicrobials",
+            "probiotics",
+            "bacteriocins",
+            "food safety"
+          ],
+          "summary": "Dr. Chikindas investigates natural-derived antimicrobials and probiotics for use in human health, personal care, and agricultural applications, and has authored over 100 papers and multiple book chapters on these topics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "karl-r-matthews",
+          "name": "Karl R. Matthews",
+          "title": "Professor, Graduate Program Director",
+          "sub_field": "Food Microbiology / Microbial Food Safety",
+          "tags": [
+            "microbial food safety",
+            "antibiotic resistance",
+            "foodborne pathogens",
+            "photoinactivation"
+          ],
+          "summary": "Dr. Matthews investigates microbial safety in food production and processing, focusing on antibiotic-resistant bacteria in vegetable crops and antimicrobial treatments using light and plant-derived compounds to control foodborne pathogens.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "donald-w-schaffner",
+          "name": "Donald W. Schaffner",
+          "title": "Department Chair, Distinguished Professor, Extension Specialist",
+          "sub_field": "Food Microbiology / Quantitative Microbial Risk Assessment",
+          "tags": [
+            "quantitative microbial risk assessment",
+            "predictive microbiology",
+            "cross-contamination",
+            "handwashing"
+          ],
+          "summary": "Dr. Schaffner's work focuses on quantitative microbial risk assessment, predictive food microbiology, and handwashing and cross-contamination, with expertise extending to pandemic-related microbial transmission risks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "george-m-carman",
+          "name": "George M. Carman",
+          "title": "Board of Governors Professor, Distinguished Professor; Founding Director, Rutgers Center for Lipid Research",
+          "sub_field": "Lipid Biochemistry and Metabolism",
+          "tags": [
+            "lipid synthesis",
+            "phospholipids",
+            "enzymes",
+            "gene regulation"
+          ],
+          "summary": "Dr. Carman's laboratory has contributed to understanding lipid synthesis and regulation through the isolation and characterization of key genes and their encoded enzymes, with research continuously supported by NIH grants since 1980.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "loredana-quadro",
+          "name": "Loredana Quadro",
+          "title": "Professor",
+          "sub_field": "Nutrient Metabolism / Fat-Soluble Vitamins",
+          "tags": [
+            "fat-soluble vitamins",
+            "nutrient metabolism",
+            "genetics",
+            "lipid research"
+          ],
+          "summary": "Dr. Quadro is a Professor of Food Science and member of the Rutgers Center for Lipid Research whose research addresses the genetics and metabolism of fat-soluble vitamins and nutrient metabolism.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "diana-e-roopchand",
+          "name": "Diana E. Roopchand",
+          "title": "Associate Professor",
+          "sub_field": "Nutritional Sciences / Gut Microbiota and Dietary Phytochemicals",
+          "tags": [
+            "polyphenols",
+            "gut microbiota",
+            "phytochemicals",
+            "metabolomics"
+          ],
+          "summary": "Dr. Roopchand investigates how plant phytochemicals such as dietary polyphenols interact with gut microbiota and the host to explain health benefits, and also explores cannabidiol's potential therapeutic applications for menopausal women through changes in estrogen metabolism.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "nuanyi-liang",
+          "name": "Nuanyi Liang",
+          "title": "Assistant Professor",
+          "sub_field": "Food Biochemistry / Metabolomics and Lipidomics",
+          "tags": [
+            "metabolomics",
+            "lipidomics",
+            "oxylipins",
+            "food upcycling"
+          ],
+          "summary": "Dr. Liang applies advanced analytical techniques to investigate lipid metabolites and oxylipins and their connections to chronic disease prevention, with applications in sustainable food innovation and food upcycling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "tianming-yao",
+          "name": "Tianming Yao",
+          "title": "Assistant Professor",
+          "sub_field": "Carbohydrate Science / Nutritional Microbiology",
+          "tags": [
+            "dietary fiber",
+            "gut microbiota",
+            "polysaccharides",
+            "prebiotics"
+          ],
+          "summary": "Dr. Yao investigates how the structure of dietary fibers and complex polysaccharides influences gut microbiota composition and function, and how these interactions promote beneficial metabolic outcomes and microbial diversity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "beverly-j-tepper",
+          "name": "Beverly J. Tepper",
+          "title": "Professor, Graduate Program Director",
+          "sub_field": "Sensory Science / Taste Genetics",
+          "tags": [
+            "sensory evaluation",
+            "taste perception",
+            "PROP bitter taste",
+            "fat perception",
+            "obesity"
+          ],
+          "summary": "Dr. Tepper investigates how genetic variation in taste perception influences food preferences, dietary choices, and body weight, using genetic markers such as PROP and the oral fat sensor CD36, and studies salivary proteins in taste perception and oral health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "mukund-v-karwe",
+          "name": "Mukund V. Karwe",
+          "title": "Distinguished Professor",
+          "sub_field": "Food Processing and Engineering",
+          "tags": [
+            "high pressure processing",
+            "extrusion",
+            "cold plasma processing",
+            "food engineering"
+          ],
+          "summary": "Dr. Karwe's research focuses on advanced food processing technologies, including high pressure processing, cold plasma processing, and extrusion methods for food applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "paul-takhistov",
+          "name": "Paul Takhistov",
+          "title": "Associate Professor, Master of Business and Science Program Director",
+          "sub_field": "Food Innovation and Safety Engineering",
+          "tags": [
+            "formulation engineering",
+            "intelligent packaging",
+            "non-thermal processing",
+            "delivery systems"
+          ],
+          "summary": "Dr. Takhistov's group develops innovative food products using formulation engineering principles, emphasizing shelf-life extension, supply-chain stability, and contamination prevention through intelligent packaging, smart sensing, and non-thermal processing technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "kit-l-yam",
+          "name": "Kit L. Yam",
+          "title": "Professor",
+          "sub_field": "Food Packaging Engineering",
+          "tags": [
+            "food packaging",
+            "controlled/modified atmosphere packaging",
+            "packaging development"
+          ],
+          "summary": "Dr. Yam's research addresses food packaging, including controlled and modified atmosphere packaging and packaging development, as listed in the department faculty directory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "rutgers-university-new-brunswick-endocrinology-and-animal-biosciences-phd",
+      "university": "Rutgers University-New Brunswick",
+      "program_name": "Endocrinology and Animal Biosciences, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Endocrinology",
+          "Animal Biosciences",
+          "Physiology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://animalsciences.rutgers.edu/graduate/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "carol-a-bagnell",
+          "name": "Carol A. Bagnell",
+          "title": "Professor and Chair, Department of Animal Sciences",
+          "sub_field": "Reproductive endocrinology and maternal programming",
+          "tags": [
+            "lactocrine signaling",
+            "relaxin",
+            "maternal programming",
+            "reproductive tract development",
+            "porcine models"
+          ],
+          "summary": "Dr. Bagnell's lab studies how maternal factors transmitted through nursing (the 'lactocrine' mechanism) influence neonatal development, examining immediate and long-term effects of milk-borne signals on reproductive health and fertility.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://animalsciences.rutgers.edu/faculty/carol-bagnell",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nicholas-t-bello",
+          "name": "Nicholas T. Bello",
+          "title": "Professor",
+          "sub_field": "Neuroscience of feeding behavior and obesity",
+          "tags": [
+            "feeding behavior",
+            "diet-induced obesity",
+            "binge eating",
+            "norepinephrine",
+            "dietary supplements"
+          ],
+          "summary": "Dr. Bello's lab investigates mechanisms by which dietary supplements prevent metabolic consequences of obesity in rodent models, and how dysregulation of brain norepinephrine pathways contributes to aberrant eating behaviors and loss-of-control episodes in binge eating.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://animalsciences.rutgers.edu/faculty/nicholas-bello",
+            "scholar": null
+          }
+        },
+        {
+          "id": "wendie-s-cohick",
+          "name": "Wendie S. Cohick",
+          "title": "Vice Provost for Research and Professor",
+          "sub_field": "Endocrine physiology and mammary gland biology",
+          "tags": [
+            "insulin-like growth factor system",
+            "IGF-binding proteins",
+            "mammary gland development",
+            "breast cancer",
+            "apoptosis"
+          ],
+          "summary": "Dr. Cohick's lab examines how the insulin-like growth factor system regulates mammary gland physiology and breast cancer development, including stromal-epithelial interactions and how prenatal alcohol exposure influences lifetime breast cancer susceptibility.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://animalsciences.rutgers.edu/faculty/wendie-cohick",
+            "scholar": null
+          }
+        },
+        {
+          "id": "meli-sa-s-crawford",
+          "name": "Meli'sa S. Crawford",
+          "title": "Assistant Professor",
+          "sub_field": "Environmental physiology and toxicology of metabolic disease",
+          "tags": [
+            "air pollution",
+            "gut dysbiosis",
+            "metabolic syndrome",
+            "inter-organ communication",
+            "gastrointestinal disease"
+          ],
+          "summary": "Dr. Crawford investigates how environmental pollutants from air and food sources contribute to metabolic diseases and gastrointestinal disorders through altered gut bacteria, intestinal inflammation, and organ crosstalk, using animal models to trace pollutant pathways.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://animalsciences.rutgers.edu/faculty/meli%27sa-crawford",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kenneth-h-mckeever",
+          "name": "Kenneth H. McKeever",
+          "title": "Professor",
+          "sub_field": "Equine science and exercise physiology",
+          "tags": [
+            "equine exercise physiology",
+            "cardiovascular responses",
+            "animal performance",
+            "sustainable animal agriculture"
+          ],
+          "summary": "Professor McKeever's research focuses on equine physiology and performance, with expertise in cardiovascular responses to exercise, bridging exercise science and animal agriculture at Rutgers' Equine Science Center.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://esc.rutgers.edu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "troy-a-roepke",
+          "name": "Troy A. Roepke",
+          "title": "Professor and Associate Dean of Faculty Development and Workplace Culture (SEBS)",
+          "sub_field": "Neuroendocrinology and endocrine physiology",
+          "tags": [
+            "neuroendocrinology",
+            "endocrine disrupting compounds",
+            "hypothalamus",
+            "energy balance",
+            "estrogen signaling"
+          ],
+          "summary": "Dr. Roepke investigates how environmental stresses and hormones affect hypothalamic physiological functions, with focus on novel membrane-initiated estrogen signaling pathways and the long-term effects of low-dose endocrine disruptor exposure on offspring.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://animalsciences.rutgers.edu/faculty/troy-roepke",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dipak-k-sarkar",
+          "name": "Dipak K. Sarkar",
+          "title": "Distinguished Professor and Director, Endocrine Program",
+          "sub_field": "Endocrine physiology and neuroimmune communication",
+          "tags": [
+            "fetal alcohol exposure",
+            "hypothalamus",
+            "neuroimmune communication",
+            "stress response",
+            "epigenetics"
+          ],
+          "summary": "Dr. Sarkar investigates how prenatal alcohol exposure disrupts neuroimmune signaling in the hypothalamus through epigenetic pathways, causing stress dysregulation, metabolic dysfunction, immune deficiency, and increased cancer susceptibility.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://endocrine.rutgers.edu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "igor-shmarakov",
+          "name": "Igor Shmarakov",
+          "title": "Assistant Professor",
+          "sub_field": "Nutritional biochemistry and endocrine physiology",
+          "tags": [
+            "retinoid metabolism",
+            "vitamin A signaling",
+            "adipose tissue",
+            "metabolic disease",
+            "endocrine-disrupting chemicals"
+          ],
+          "summary": "Dr. Shmarakov studies how retinoids and retinoid-interacting proteins regulate physiological functions across hepatic, adipose, pulmonary, and intestinal cells, examining disrupted retinoid signaling in lung injury and metabolic diseases.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://animalsciences.rutgers.edu/faculty/igor-shmarakov",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elizabeth-snyder",
+          "name": "Elizabeth Snyder",
+          "title": "Associate Professor",
+          "sub_field": "Male reproductive biology and germ cell RNA biology",
+          "tags": [
+            "male germ cell RNA biology",
+            "transcriptome",
+            "RNA modifications",
+            "male fertility",
+            "reproductive physiology"
+          ],
+          "summary": "Dr. Snyder's lab studies male germ cell RNA biology to improve reproductive health in animals and humans, focusing on novel RNA expression and nucleotide-level RNA modifications using computational, molecular, and genetic approaches.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://animalsciences.rutgers.edu/faculty/elizabeth-snyder",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mehmet-uzumcu",
+          "name": "Mehmet Uzumcu",
+          "title": "Associate Professor",
+          "sub_field": "Reproductive and developmental toxicology",
+          "tags": [
+            "endocrine-disrupting chemicals",
+            "ovarian development",
+            "female reproductive system",
+            "developmental toxicology",
+            "methoxychlor"
+          ],
+          "summary": "Dr. Uzumcu investigates how environmental factors and endocrine-disrupting chemicals affect the female reproductive system's long-term health, examining developmental effects of pesticides and plasticizers on ovarian follicular composition and gene expression following fetal and neonatal exposures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://animalsciences.rutgers.edu/faculty/mehmet-uzumcu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tess-stahl",
+          "name": "Tess Stahl",
+          "title": "Assistant Extension Specialist in Animal Sciences",
+          "sub_field": "Ruminant nutrition and livestock management",
+          "tags": [
+            "prepartum nutrition",
+            "colostrum quality",
+            "ruminant nutrition",
+            "beef cattle",
+            "co-product feed utilization"
+          ],
+          "summary": "Dr. Stahl studies prepartum nutrition changes in beef cows, sheep, and goats and their effects on offspring development, colostrum quantity and quality, and the use of byproduct feeds in livestock diets.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://animalsciences.rutgers.edu/faculty/tess-stahl",
+            "scholar": null
+          }
+        },
+        {
+          "id": "carey-a-williams",
+          "name": "Carey A. Williams",
+          "title": "Extension Specialist in Equine Management",
+          "sub_field": "Equine nutrition and exercise physiology",
+          "tags": [
+            "equine nutrition",
+            "oxidative stress",
+            "antioxidant supplements",
+            "equine gut microbiome",
+            "pasture grazing systems"
+          ],
+          "summary": "Dr. Williams investigates how nutrition impacts equine athletic performance, focusing on reducing oxidative stress and inflammation with antioxidant supplements, and examining grazing system effects on equine health and gut microbial communities.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://animalsciences.rutgers.edu/faculty/carey-williams",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "rutgers-university-new-brunswick-nutritional-sciences-phd",
+      "university": "Rutgers University-New Brunswick",
+      "program_name": "Nutritional Sciences, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Nutritional Sciences",
+          "Metabolism",
+          "Molecular Nutrition"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://nutrition.rutgers.edu/graduate/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "tracy-g-anthony",
+          "name": "Tracy G. Anthony",
+          "title": "Professor of Nutritional Sciences (Graduate Program Co-Director)",
+          "sub_field": "Amino acid sensing and metabolic signaling",
+          "tags": [
+            "amino acid sensing",
+            "nutrient stress",
+            "proteostasis",
+            "metabolism",
+            "aging"
+          ],
+          "summary": "Anthony's lab studies how the body senses nutrients and converts that information into decisions about growth, stress resistance, and survival, using mouse models, cell culture, and omics approaches to examine nutrient-sensing pathways during stress and aging.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://theanthonylab.com",
+            "scholar": null
+          }
+        },
+        {
+          "id": "paul-breslin",
+          "name": "Paul Breslin",
+          "title": "Distinguished Professor of Nutritional Sciences",
+          "sub_field": "Genetics of human oral perception and nutrient intake",
+          "tags": [
+            "taste perception",
+            "chemosensation",
+            "flavor",
+            "genetics",
+            "feeding behavior"
+          ],
+          "summary": "Breslin investigates the genetic basis of human oral perception and its impact on nutrient intake, studying taste discrimination, chemesthesis, and flavor using both human research and parallel genetic studies in Drosophila.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "carol-byrd-bredbenner",
+          "name": "Carol Byrd-Bredbenner",
+          "title": "Distinguished Professor of Nutritional Sciences (Director, Graduate Program in Nutritional Sciences)",
+          "sub_field": "Nutrition education and behavior change",
+          "tags": [
+            "nutrition education",
+            "behavior change",
+            "health promotion",
+            "food environment",
+            "intervention"
+          ],
+          "summary": "Her work uses a socioecological approach to examine intrapersonal, interpersonal, and environmental factors affecting dietary choices, developing and validating theory-driven nutrition education interventions that promote healthier lifestyles.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://healthyhomestyles.com",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joseph-l-dixon",
+          "name": "Joseph L. Dixon",
+          "title": "Associate Professor of Nutritional Sciences",
+          "sub_field": "Lipid and lipoprotein metabolism",
+          "tags": [
+            "lipid metabolism",
+            "lipoproteins",
+            "apolipoprotein B",
+            "cardiovascular disease",
+            "diabetes"
+          ],
+          "summary": "Dixon's laboratory investigates how abnormal blood lipids contribute to coronary artery disease, focusing on apoB-lipoprotein secretion from liver cells and altered lipoprotein composition in diabetes that may accelerate atherosclerosis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://josephldixon.com",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mackenzie-ferrante",
+          "name": "Mackenzie Ferrante",
+          "title": "Assistant Professor of Nutritional Sciences",
+          "sub_field": "Behavioral nutrition and children's eating behaviors",
+          "tags": [
+            "child nutrition",
+            "eating behavior",
+            "food environment",
+            "behavioral economics",
+            "obesity prevention"
+          ],
+          "summary": "Ferrante's research investigates the predictors of young children's eating behaviors early in life and develops environmental and behavioral interventions across restaurants, grocery stores, and homes to foster healthy dietary habits and prevent obesity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.mackenziejferrante.com/",
+            "scholar": "https://scholar.google.com/citations?user=rz56Sn8AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "nurg-l-fitzgerald",
+          "name": "Nurgül Fitzgerald",
+          "title": "Associate Professor of Nutritional Sciences / Extension Specialist",
+          "sub_field": "Type 2 diabetes prevention and health disparities",
+          "tags": [
+            "diabetes prevention",
+            "food insecurity",
+            "health disparities",
+            "food environment",
+            "community nutrition"
+          ],
+          "summary": "Fitzgerald studies prevention of type 2 diabetes risk factors among underserved populations, examining individual, family, organizational, community, and policy-level determinants and integrating food systems analysis with lifestyle intervention research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "christy-gliniak",
+          "name": "Christy Gliniak",
+          "title": "Assistant Professor of Nutritional Sciences",
+          "sub_field": "Adipose tissue biology and metabolism",
+          "tags": [
+            "adipose tissue",
+            "obesity",
+            "interorgan crosstalk",
+            "lipid biology",
+            "inflammation"
+          ],
+          "summary": "Gliniak's lab studies adipose tissue biology and interorgan crosstalk during obesity and inflammatory bowel disease, with a focus on lipid regulation of cellular stress and the role of mesenteric visceral fat in metabolic disease.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.rutgers.edu/gliniak-lab/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-j-hoffman",
+          "name": "Daniel J. Hoffman",
+          "title": "Professor of Nutritional Sciences",
+          "sub_field": "Growth, metabolism, and international nutrition",
+          "tags": [
+            "growth",
+            "metabolism",
+            "early-life nutrition",
+            "international nutrition",
+            "stunting"
+          ],
+          "summary": "Hoffman studies how poor early-life nutrition affects long-term health, investigating metabolic adaptations in growth-stunted children and how households in transitional countries respond to economic crises through changes in food purchasing and diet.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hoffmanrutgersnutrition.wordpress.com",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joshua-w-miller",
+          "name": "Joshua W. Miller",
+          "title": "Professor and Chair of Nutritional Sciences",
+          "sub_field": "B vitamins and one-carbon metabolism",
+          "tags": [
+            "B vitamins",
+            "one-carbon metabolism",
+            "homocysteine",
+            "cognitive function",
+            "vitamin D"
+          ],
+          "summary": "Miller investigates how B vitamins and vitamin D influence cognitive decline and neurodegenerative disease in aging populations, examining relationships among homocysteine, vitamin deficiencies, Alzheimer's disease, and hypertension.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "virginia-quick",
+          "name": "Virginia Quick",
+          "title": "Associate Teaching Professor of Nutritional Sciences (Director, Didactic Program in Dietetics)",
+          "sub_field": "Obesity prevention and disordered eating",
+          "tags": [
+            "obesity prevention",
+            "disordered eating",
+            "behavior change",
+            "socioecological model",
+            "lifespan nutrition"
+          ],
+          "summary": "Quick's research examines the interplay of intrapersonal, interpersonal, and socio-environmental factors affecting health behaviors using a socioecological model, developing evidence-based interventions for obesity and disordered eating across the lifespan.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "harini-sampath",
+          "name": "Harini Sampath",
+          "title": "Associate Professor of Nutritional Sciences",
+          "sub_field": "Lipid metabolism and metabolic disease",
+          "tags": [
+            "lipid metabolism",
+            "metabolic disease",
+            "oxidative DNA damage",
+            "gut microbiome",
+            "fatty liver"
+          ],
+          "summary": "Sampath's lab investigates cellular alterations during the development of metabolic diseases such as fatty liver, cardiovascular disease, and diabetes, using transgenic mouse models and cell culture to examine lipid metabolism regulation and DNA repair pathways.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://sampathlab.com/",
+            "scholar": "https://scholar.google.com/citations?hl=en&user=lIcrufMAAAAJ"
+          }
+        },
+        {
+          "id": "sue-a-shapses",
+          "name": "Sue A. Shapses",
+          "title": "Professor of Nutritional Sciences (Director, Human Nutrition, Exercise and Metabolism Center)",
+          "sub_field": "Endocrine regulation of obesity and bone metabolism",
+          "tags": [
+            "bone metabolism",
+            "obesity",
+            "vitamin D",
+            "caloric restriction",
+            "aging"
+          ],
+          "summary": "Shapses examines mechanisms that regulate organs affected during caloric restriction and how nutrients such as protein, monounsaturated fatty acids, and vitamin D influence bone metabolism and metabolic health, particularly in aging populations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ifnh.rutgers.edu/centers/nutrition-exercise-metabolism/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "judith-storch",
+          "name": "Judith Storch",
+          "title": "Distinguished Professor of Nutritional Sciences",
+          "sub_field": "Intracellular lipid trafficking",
+          "tags": [
+            "lipid trafficking",
+            "fatty acid-binding proteins",
+            "cholesterol",
+            "molecular nutrition",
+            "lipid metabolism"
+          ],
+          "summary": "Storch investigates how lipids are transported and targeted within cells, examining fatty acid-binding proteins and the NPC2 cholesterol-trafficking protein using biochemical, biophysical, cellular, and whole-animal approaches relevant to obesity, cardiovascular, and lipid-storage diseases.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "malcolm-watford",
+          "name": "Malcolm Watford",
+          "title": "Professor of Nutritional Sciences (Undergraduate Program Director)",
+          "sub_field": "Amino acid and nitrogen metabolism",
+          "tags": [
+            "amino acid metabolism",
+            "glutamine",
+            "gluconeogenesis",
+            "urea synthesis",
+            "nitrogen metabolism"
+          ],
+          "summary": "Watford's laboratory studies the role of amino acids, notably glutamine and glutamate, as substrates for gluconeogenesis and urea synthesis, examining tissue-specific glutamine metabolism and the regulation of glutaminase and glutamine synthetase across species.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
       "id": "rutgers-university-new-brunswick-molecular-biosciences-phd",
       "university": "Rutgers University-New Brunswick",
       "program_name": "Molecular Biosciences, PhD",
@@ -8925,6 +10849,47 @@
       "faculty": []
     },
     {
+      "id": "university-of-california-los-angeles-environmental-and-molecular-toxicology",
+      "university": "University of California, Los Angeles",
+      "program_name": "Environmental and Molecular Toxicology",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Toxicology",
+          "Molecular Toxicology",
+          "Environmental Health"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucla.edu/programs/school-of-public-health/environmental-and-molecular-toxicology/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
       "id": "university-of-california-los-angeles-epidemiology",
       "university": "University of California, Los Angeles",
       "program_name": "Epidemiology",
@@ -10439,6 +12404,47 @@
       "faculty": []
     },
     {
+      "id": "university-of-georgia-biological-and-agricultural-engineering",
+      "university": "University of Georgia",
+      "program_name": "Biological and Agricultural Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Agricultural Engineering",
+          "Bioprocess Engineering",
+          "Environmental Systems"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Research assistantships (tuition waiver + stipend), fellowships, TAships"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-biological-and-agricultural-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
       "id": "university-of-georgia-integrated-life-sciences",
       "university": "University of Georgia",
       "program_name": "Integrated Life Sciences",
@@ -10890,6 +12896,334 @@
       "faculty": []
     },
     {
+      "id": "university-of-georgia-plant-pathology",
+      "university": "University of Georgia",
+      "program_name": "Plant Pathology",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Plant Pathology",
+          "Mycology",
+          "Plant Microbe Interactions"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-plant-pathology/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-entomology",
+      "university": "University of Georgia",
+      "program_name": "Entomology",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Entomology",
+          "Insect Ecology",
+          "Pest Management"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-entomology/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-plant-breeding-genetics-and-genomics",
+      "university": "University of Georgia",
+      "program_name": "Plant Breeding, Genetics & Genomics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Plant Breeding",
+          "Plant Genomics",
+          "Quantitative Genetics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-plant-breeding-genetics-and-genomics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-crop-and-soil-sciences",
+      "university": "University of Georgia",
+      "program_name": "Crop & Soil Sciences",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Soil Science",
+          "Crop Science",
+          "Agronomy"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-crop-and-soil-sciences/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-horticulture",
+      "university": "University of Georgia",
+      "program_name": "Horticulture",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Horticulture",
+          "Plant Physiology",
+          "Plant Biotechnology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-horticulture/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-animal-and-dairy-science",
+      "university": "University of Georgia",
+      "program_name": "Animal & Dairy Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Animal Science",
+          "Reproductive Biology",
+          "Animal Nutrition"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-animal-and-dairy-science/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-poultry-science",
+      "university": "University of Georgia",
+      "program_name": "Poultry Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Poultry Science",
+          "Avian Biology",
+          "Food Safety"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-poultry-science/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-food-science",
+      "university": "University of Georgia",
+      "program_name": "Food Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Food Science",
+          "Food Microbiology",
+          "Food Safety"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-food-science/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
       "id": "university-of-georgia-forestry-and-natural-resources",
       "university": "University of Georgia",
       "program_name": "Forestry & Natural Resources",
@@ -10926,6 +13260,47 @@
       },
       "links": {
         "program": "https://grad.uga.edu/degree/phd-forestry-and-natural-resources/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-integrated-plant-sciences",
+      "university": "University of Georgia",
+      "program_name": "Integrated Plant Sciences",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Plant Sciences",
+          "Interdisciplinary",
+          "Plant Genomics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Interdisciplinary plant sciences umbrella program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-integrated-plant-sciences/"
       },
       "data_currency": "2026-07-05 · top-50 sweep · US News #46",
       "faculty": []
@@ -12786,6 +15161,47 @@
           "Pharmacology",
           "Signal Transduction",
           "Drug Discovery"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-11-17",
+        "deadline_display": "Nov 17, 2026",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Umbrella admission via BBSP; students select PhD program after first-year rotations",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded while in good standing; $37,500 stipend (2025-26) plus tuition, fees, health insurance"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.sites.unc.edu/biological-and-biomedical-sciences/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-north-carolina-at-chapel-hill-toxicology-and-environmental-medicin",
+      "university": "University of North Carolina at Chapel Hill",
+      "program_name": "Toxicology and Environmental Medicine (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Toxicology",
+          "Environmental Health",
+          "Pharmacology"
         ]
       },
       "requirements": {
@@ -15279,6 +17695,47 @@
       },
       "links": {
         "program": "https://guide.wisc.edu/graduate/medicine-public-health-school-wide/endocrinology-reproductive-physiology-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-wisconsin-madison-molecular-and-environmental-toxicology-phd",
+      "university": "University of Wisconsin-Madison",
+      "program_name": "Molecular and Environmental Toxicology, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Biology & Life Sciences",
+        "subs": [
+          "Toxicology",
+          "Environmental Health",
+          "Molecular Toxicology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://guide.wisc.edu/graduate/medicine-public-health-school-wide/molecular-environmental-toxicology-phd/"
       },
       "data_currency": "2026-07-05 · top-50 sweep · US News #36",
       "faculty": []
