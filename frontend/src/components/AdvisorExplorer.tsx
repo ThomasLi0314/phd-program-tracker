@@ -149,8 +149,8 @@ export function AdvisorExplorer({
         <header className="mb-3">
           <h1 className="font-serif text-lg font-bold text-slate-900">Advisor Explorer</h1>
           <p className="text-[12px] text-slate-500">
-            Search a research direction — matching advisors across all schools (that pass the
-            sidebar filters) appear below, recruiting advisors first.
+            Search a research direction — advisors across the whole database are searched
+            automatically (no field selection needed), recruiting advisors first.
           </p>
           <input
             type="search"

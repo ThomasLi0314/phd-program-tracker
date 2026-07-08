@@ -67,10 +67,17 @@ function App() {
     return s
   }, [filters.primaries, filters.subs])
 
-  // Lazy-load the chunk of every selected field that isn't loaded yet.
+  // Fields whose data must be fetched. The advisor view searches across the
+  // whole database, so entering it auto-selects every field.
+  const neededPrimaries = useMemo(() => {
+    if (view === 'advisors' && index) return new Set(index.fields.map((f) => f.primary))
+    return selectedPrimaries
+  }, [view, index, selectedPrimaries])
+
+  // Lazy-load the chunk of every needed field that isn't loaded yet.
   useEffect(() => {
     if (!index) return
-    for (const primary of selectedPrimaries) {
+    for (const primary of neededPrimaries) {
       if (loaded[primary] || loadingFields.has(primary)) continue
       const entry = index.fields.find((f) => f.primary === primary)
       if (!entry) continue
@@ -86,7 +93,7 @@ function App() {
           }),
         )
     }
-  }, [index, selectedPrimaries, loaded, loadingFields])
+  }, [index, neededPrimaries, loaded, loadingFields])
 
   // Pool = programs of the selected fields that have arrived.
   const pool = useMemo(() => {
@@ -105,6 +112,21 @@ function App() {
     return sortPrograms(result, sortBy)
   }, [pool, filters, facets, onlyMyList, myList, sortBy])
 
+  // Advisor view: every program in the database (discipline selection ignored);
+  // the other sidebar filters (degree, region, GRE, fee) still apply.
+  const advisorPrograms = useMemo(() => {
+    if (!facets || !index) return []
+    const noDiscipline: Filters = { ...filters, primaries: new Set(), subs: new Set() }
+    let result: Program[] = []
+    for (const f of index.fields) {
+      const chunk = loaded[f.primary]
+      if (chunk) result = result.concat(chunk)
+    }
+    result = result.filter((p) => programMatches(p, noDiscipline, facets.feeCap))
+    if (onlyMyList) result = result.filter((p) => myList.has(p.id))
+    return sortPrograms(result, 'university')
+  }, [facets, index, loaded, filters, onlyMyList, myList])
+
   // Keep a valid selection as filters change.
   useEffect(() => {
     if (filtered.length === 0) {
@@ -115,7 +137,8 @@ function App() {
   }, [filtered, selectedId])
 
   const selected = filtered.find((p) => p.id === selectedId) ?? null
-  const facultyCount = filtered.reduce((n, p) => n + p.faculty.length, 0)
+  const shown = view === 'advisors' ? advisorPrograms : filtered
+  const facultyCount = shown.reduce((n, p) => n + p.faculty.length, 0)
   const stillLoading = loadingFields.size > 0
 
   const pickField = (primary: string) => {
@@ -124,6 +147,11 @@ function App() {
   }
 
   const openProgram = (id: string) => {
+    // Tick the program's field so the deep-dive is visible in the programs view.
+    const prog = advisorPrograms.find((p) => p.id === id)
+    if (prog && !selectedPrimaries.has(prog.discipline.primary)) {
+      setFilters((f) => ({ ...f, primaries: new Set(f.primaries).add(prog.discipline.primary) }))
+    }
     setSelectedId(id)
     setView('programs')
   }
@@ -197,7 +225,7 @@ function App() {
           <div className="text-[11px] tabular-nums text-slate-300">
             {stillLoading
               ? 'loading field data…'
-              : `${filtered.length} programs · ${facultyCount} faculty`}{' '}
+              : `${shown.length} programs · ${facultyCount} faculty`}{' '}
             <span className="text-slate-400">
               · {index.total} in database · data {index.meta.generated_at}
             </span>
@@ -266,7 +294,7 @@ function App() {
           )
         ) : (
           <AdvisorExplorer
-            programs={filtered}
+            programs={advisorPrograms}
             query={advisorQuery}
             onQueryChange={setAdvisorQuery}
             onOpenProgram={openProgram}
