@@ -10886,8 +10886,237 @@
       "links": {
         "program": "https://grad.ucla.edu/programs/school-of-public-health/environmental-and-molecular-toxicology/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "oliver-hankinson",
+          "name": "Oliver Hankinson",
+          "title": "Distinguished Research Professor of Pathology & Laboratory Medicine and Environmental Health Sciences; Chair, Environmental and Molecular Toxicology Program",
+          "sub_field": "Molecular toxicology and carcinogenesis",
+          "tags": [
+            "aryl hydrocarbon receptor",
+            "polycyclic aromatic hydrocarbons",
+            "dioxin",
+            "carcinogenesis",
+            "cancer biology"
+          ],
+          "summary": "Dr. Hankinson investigates the mechanisms of carcinogenesis by polycyclic aromatic hydrocarbons, dioxin, and related compounds, focusing on how the Aryl Hydrocarbon Receptor mediates their toxic and carcinogenic effects. He chairs the interdepartmental Environmental and Molecular Toxicology program.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ph.ucla.edu/about/faculty-staff-directory/oliver-hankinson",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andr-nel",
+          "name": "André Nel",
+          "title": "Professor of Environmental Health Sciences and Medicine",
+          "sub_field": "Nanotoxicology and air pollution mechanisms",
+          "tags": [
+            "nanotoxicology",
+            "ultrafine particles",
+            "oxidative stress",
+            "engineered nanomaterials",
+            "airway inflammation"
+          ],
+          "summary": "Dr. Nel studies how air pollutants, particularly ultrafine particles, induce oxidative stress leading to airway inflammation and asthma. His broader work in nanobiology addresses the toxicological effects and safe design of engineered nanomaterials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ph.ucla.edu/about/faculty-staff-directory/andre-nel",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jesus-a-araujo",
+          "name": "Jesus A. Araujo",
+          "title": "Associate Professor of Medicine and Environmental Health Sciences",
+          "sub_field": "Air pollution toxicology and environmental cardiology",
+          "tags": [
+            "air particulate matter",
+            "vascular oxidative stress",
+            "atherosclerosis",
+            "diesel exhaust",
+            "gene-environment interactions"
+          ],
+          "summary": "Dr. Araujo examines the genetic and environmental factors involved in vascular oxidative stress and atherosclerosis, including the cardiovascular effects of air pollutants. His work elucidates mechanisms by which particulate matter exposure promotes ischemic heart disease.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ph.ucla.edu/about/faculty-staff-directory/jesus-araujo",
+            "scholar": null
+          }
+        },
+        {
+          "id": "beate-ritz",
+          "name": "Beate Ritz",
+          "title": "Professor of Epidemiology and Environmental Health Sciences",
+          "sub_field": "Neurotoxicology and environmental epidemiology",
+          "tags": [
+            "pesticides",
+            "neurodegeneration",
+            "Parkinson's disease",
+            "occupational toxins",
+            "gene-environment interactions"
+          ],
+          "summary": "Dr. Ritz studies the effects of occupational and environmental toxins on neurodegenerative disorders, cancer, and adverse birth outcomes, with particular attention to pesticides and air pollution in the etiology of Parkinson's disease. She integrates population data with analysis of genetic susceptibility.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ph.ucla.edu/about/faculty-staff-directory/beate-ritz",
+            "scholar": null
+          }
+        },
+        {
+          "id": "candace-tsai",
+          "name": "Candace Tsai",
+          "title": "Associate Professor of Environmental Health Sciences",
+          "sub_field": "Nanoparticle and aerosol toxicology",
+          "tags": [
+            "nanoparticles",
+            "aerosol exposure",
+            "nanomaterial toxicology",
+            "particle sampling",
+            "occupational hygiene"
+          ],
+          "summary": "Dr. Tsai investigates exposure to aerosols, nanoparticles, and toxic airborne substances in occupational and environmental settings, combining exposure assessment with toxicological studies. Her work includes computational modeling of aerosol exposure and evaluation of protective equipment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ph.ucla.edu/about/faculty-staff-directory/candace-tsai",
+            "scholar": null
+          }
+        },
+        {
+          "id": "wendie-robbins",
+          "name": "Wendie Robbins",
+          "title": "Professor of Environmental Health Sciences and Nursing",
+          "sub_field": "Reproductive toxicology",
+          "tags": [
+            "reproductive toxicology",
+            "germ cell damage",
+            "sperm biomarkers",
+            "occupational exposures",
+            "environmental health"
+          ],
+          "summary": "Dr. Robbins investigates environmentally induced germ cell damage and the development of biomarkers in sperm, examining relationships between work, environment, and reproductive health. Her research combines laboratory and epidemiological approaches in pollution-affected communities.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ph.ucla.edu/about/faculty-staff-directory/wendie-robbins",
+            "scholar": null
+          }
+        },
+        {
+          "id": "feng-gao",
+          "name": "Feng Gao",
+          "title": "Assistant Professor of Environmental Health Sciences",
+          "sub_field": "Computational toxicology and multi-omics",
+          "tags": [
+            "toxicity prediction",
+            "multi-omics",
+            "PFAS",
+            "metals",
+            "computational methods"
+          ],
+          "summary": "Dr. Gao analyzes the effects of environmental exposures such as metals, pesticides, and PFAS on human health using multi-omics data and novel computational methodologies. His work spans toxicity prediction, exposure modeling, and disease-mechanism analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ph.ucla.edu/about/faculty-staff-directory/feng-gao",
+            "scholar": "https://scholar.google.com/citations?user=edoZR8oAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "patrick-allard",
+          "name": "Patrick Allard",
+          "title": "Professor, UCLA Institute for Society and Genetics (and Environmental Health Sciences)",
+          "sub_field": "Reproductive and epigenetic toxicology",
+          "tags": [
+            "germ cell toxicology",
+            "epigenetics",
+            "C. elegans",
+            "plastics and pesticides",
+            "environmental memory"
+          ],
+          "summary": "Dr. Allard uses C. elegans to investigate germ cell maintenance and differentiation and how environmental exposures such as plastics and pesticides affect reproduction and heritable epigenetic changes. His research sits at the intersection of genetics, developmental biology, and environmental health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://socgen.ucla.edu/people/patrick-allard/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeff-bronstein",
+          "name": "Jeff Bronstein",
+          "title": "Professor of Neurology; Director of Movement Disorders, David Geffen School of Medicine at UCLA",
+          "sub_field": "Neurotoxicology of Parkinson's disease",
+          "tags": [
+            "Parkinson's disease",
+            "pesticides",
+            "diesel exhaust",
+            "dopaminergic neurons",
+            "zebrafish models"
+          ],
+          "summary": "Dr. Bronstein directs a laboratory investigating the environmental and genetic causes of Parkinson's disease using cell and zebrafish models alongside population-based studies. His work has linked pesticide and air pollutant exposures to increased Parkinson's disease risk.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://bri.ucla.edu/people/jeff-bronstein/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xia-yang",
+          "name": "Xia Yang",
+          "title": "Professor of Integrative Biology and Physiology and Molecular & Medical Pharmacology",
+          "sub_field": "Systems biology of gene-environment interactions",
+          "tags": [
+            "gene networks",
+            "gene-environment interaction",
+            "metabolic disease",
+            "systems biology",
+            "data science"
+          ],
+          "summary": "Dr. Yang identifies key regulatory genes and gene networks that mediate genetic and environmental effects on metabolic and other complex diseases. She applies integrative, data-driven systems-biology approaches to uncover mechanisms of environmentally influenced disease.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.ibp.ucla.edu/faculty/xia-yang/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "srinivasa-t-reddy",
+          "name": "Srinivasa T. Reddy",
+          "title": "Professor In-Residence of Molecular & Medical Pharmacology and Medicine",
+          "sub_field": "Lipid mediators, inflammation, and cardiovascular toxicology",
+          "tags": [
+            "arachidonic acid",
+            "lipid metabolites",
+            "inflammation",
+            "cardiovascular disease",
+            "oxidative stress"
+          ],
+          "summary": "Dr. Reddy studies arachidonic acid and its metabolites and their roles in inflammation and cardiovascular disease. His work connects lipid-mediated signaling to environmentally and metabolically driven disease processes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pharmacology.ucla.edu/people/srinivasa-t-reddy",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-krantz",
+          "name": "David Krantz",
+          "title": "Professor In-Residence of Psychiatry and Biobehavioral Sciences, David Geffen School of Medicine at UCLA",
+          "sub_field": "Neurotoxicology of neurotransmitter systems",
+          "tags": [
+            "neurotransmitter transporters",
+            "pesticides",
+            "Drosophila",
+            "synaptic function",
+            "neurotoxicity"
+          ],
+          "summary": "Dr. Krantz uses Drosophila to study how neurotransmitter transporters and pesticide exposures influence synaptic transmission and behavior. His research probes molecular mechanisms of neurotoxicity relevant to environmental exposures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.semel.ucla.edu/icng/team/david-krantz",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "university-of-california-los-angeles-epidemiology",
