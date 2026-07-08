@@ -1,0 +1,2639 @@
+{
+  "primary": "Materials Science",
+  "programs": [
+    {
+      "id": "mit-dmse-phd",
+      "university": "Massachusetts Institute of Technology",
+      "program_name": "PhD in Materials Science & Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Computational Materials",
+          "Electronic & Photonic Materials",
+          "Energy Materials",
+          "Structural Materials & Metallurgy",
+          "Nanomaterials",
+          "Polymers"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "TOEFL iBT >=100 (PBT 600) or IELTS >=7 (Institute code 3514); waiver possible for applicants whose prior degree/schooling was conducted in English.",
+        "admission_model": "Committee-Based",
+        "admission_model_note": "Admission decisions are made by a departmental committee; applicants are admitted to DMSE rather than to an individual professor. Students identify and join a thesis advisor's group during the first year after completing core coursework and a research-progress review.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 5,
+          "note": "SM/PhD students are supported by fellowships, research assistantships, and teaching assistantships that cover full tuition, a competitive stipend, and health insurance; external fellowships (NSF, NDSEG, Hertz, Whitaker) also supplement support."
+        },
+        "pre_application_contact": "Discouraged",
+        "contact_note": "DMSE explicitly asks applicants not to contact faculty directly about admissions, and says students should wait for official admission before contacting faculty about research assistantships or thesis supervision.",
+        "ects": null,
+        "duration": "~5 years"
+      },
+      "links": {
+        "program": "https://dmse.mit.edu/education/graduate-program/",
+        "admissions": "https://dmse.mit.edu/education/graduate-program/applying/"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "rafael-gomez-bombarelli",
+          "name": "Rafael Gomez-Bombarelli",
+          "title": "Paul M. Cook Career Development Professor, Associate Professor of Materials Science and Engineering",
+          "sub_field": "Computational Materials",
+          "tags": [
+            "machine learning",
+            "atomistic simulation",
+            "materials discovery",
+            "generative models",
+            "interatomic potentials"
+          ],
+          "summary": "Leads the Learning Matter Lab, fusing physics-based atomistic simulation with machine learning to accelerate materials discovery. Recent work spans generative and graph-neural-network models for molecules and inorganic crystals, machine-learned interatomic potentials for large-scale dynamics, and closed-loop screening of electrolytes, catalysts, sustainable polymers, and battery materials. His group builds differentiable simulation and active-learning pipelines that bypass trial-and-error design and benchmarks how reliably ML models generalize in real discovery campaigns, targeting applications in energy, sustainability, and health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://gomezbombarelli.mit.edu/",
+            "scholar": "https://scholar.google.com/citations?user=jJ5JkCQAAAAJ"
+          }
+        },
+        {
+          "id": "juejun-hu",
+          "name": "Juejun Hu",
+          "title": "John F. Elliott Professor, Professor of Materials Science and Engineering",
+          "sub_field": "Electronic & Photonic Materials",
+          "tags": [
+            "integrated photonics",
+            "phase-change materials",
+            "metasurfaces",
+            "chalcogenide glass",
+            "on-chip sensing"
+          ],
+          "summary": "Directs a photonic-materials group engineering reconfigurable, nonvolatile optics from low-loss phase-change materials such as Sb2Se3 and Sb2S3. Recent advances include electrically reconfigurable nonvolatile metasurfaces and transmissive phase-change meta-optics, wide-field-of-view long-wave-infrared silicon metalenses, and miniaturized Fourier-transform spectrometers and on-chip sensors. His group also develops chalcogenide-glass and flexible/polymer photonics, exploiting giant nonvolatile refractive-index contrast to build zero-static-power tunable optical devices for imaging, sensing, and spaceborne applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://web.mit.edu/hujuejun/www/",
+            "scholar": "https://scholar.google.com/citations?user=s4jxg7sAAAAJ"
+          }
+        },
+        {
+          "id": "caroline-ross",
+          "name": "Caroline A. Ross",
+          "title": "Ford Professor of Engineering",
+          "sub_field": "Electronic & Photonic Materials",
+          "tags": [
+            "magnetic thin films",
+            "spintronics",
+            "magneto-optics",
+            "complex oxides",
+            "block copolymer self-assembly"
+          ],
+          "summary": "Leads the Magnetic Materials and Devices Group studying complex-oxide thin films - garnets and perovskites - for spintronic and integrated-photonic devices. Recent work demonstrates coherent magnon-driven domain-wall motion in magnetic insulators, atomic ordering of rare-earth ions in oxides, and rare-earth iron-garnet superlattices with sub-unit-cell composition modulation. Her group engineers magneto-optical garnets for on-chip optical isolators, tunable-anisotropy magnetic films, and uses block-copolymer self-assembly for nanoscale lithography and templated nanofabrication. She also serves as Associate Head of DMSE.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://caross.mit.edu/",
+            "scholar": "https://scholar.google.com/citations?user=DQqmERYAAAAJ"
+          }
+        },
+        {
+          "id": "yang-shao-horn",
+          "name": "Yang Shao-Horn",
+          "title": "JR East Professor, Professor of Mechanical Engineering, Professor of Materials Science and Engineering",
+          "sub_field": "Energy Materials",
+          "tags": [
+            "electrocatalysis",
+            "batteries",
+            "solid electrolytes",
+            "ion transport",
+            "CO2 reduction"
+          ],
+          "summary": "Directs the Electrochemical Energy Laboratory, using electronic-structure descriptors to design catalysts and energy-storage materials. Recent work establishes best-practice frameworks for oxygen electrocatalysis, demonstrates CO2-to-methanol electroconversion on molecular cobalt catalysts aided by acidic cations, and elucidates the molecular thermodynamics of Li+ transport to electrode-electrolyte interfaces. Her group studies phonon-coupled ion conduction in solid electrolytes and works to extend lithium-air battery lifetime and performance as a high-energy alternative for electrified transportation and sustainable fuels.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.rle.mit.edu/eel/",
+            "scholar": "https://scholar.google.com/citations?user=YrBMNvkAAAAJ"
+          }
+        },
+        {
+          "id": "bilge-yildiz",
+          "name": "Bilge Yildiz",
+          "title": "Breene M. Kerr (1951) Professor, Professor of Materials Science and Engineering, Professor of Nuclear Science and Engineering",
+          "sub_field": "Energy Materials",
+          "tags": [
+            "solid-state electrochemistry",
+            "solid oxide fuel cells",
+            "ion/defect transport",
+            "neuromorphic computing",
+            "hydrogen"
+          ],
+          "summary": "Leads the Laboratory for Electrochemical Interfaces, probing how ions and defects move in oxides and at interfaces via synchrotron spectroscopy, scanning-probe microscopy, and first-principles calculations. Recent directions include proton-transport-based programmable resistors - nanoscale ionic synapses - for energy-efficient analog deep learning, surface chemistry and degradation of perovskite electrodes in solid-oxide fuel and electrolysis cells, and voltage control of magnetism. Her group targets durable materials for CO2-free electricity, hydrogen, fuels, and computing; she was named a 2023 Electrochemical Society Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://yildizgroup.mit.edu/",
+            "scholar": "https://scholar.google.com/citations?user=o0KkshwAAAAJ"
+          }
+        },
+        {
+          "id": "c-cem-tasan",
+          "name": "C. Cem Tasan",
+          "title": "POSCO Associate Professor of Metallurgy",
+          "sub_field": "Structural Materials & Metallurgy",
+          "tags": [
+            "physical metallurgy",
+            "high-entropy alloys",
+            "hydrogen embrittlement",
+            "in situ electron microscopy",
+            "damage-resistant alloys"
+          ],
+          "summary": "Leads a physical-metallurgy group coupling alloy design, solid mechanics, and in situ electron microscopy to create damage-resistant metals. Using home-built miniaturized SEM stages, the group watches deformation, phase transformation, and fracture unfold in real time. Recent work develops new methods to probe and mitigate hydrogen embrittlement in steels and designs metastable dual-phase and refractory high-entropy alloys, TRIP-maraging steels, and transformation-toughened microstructures. He directs MIT's Materials Research Laboratory and delivered the 2024 Wulff Lecture on hydrogen in steel.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://tasan.mit.edu/",
+            "scholar": "https://scholar.google.com/citations?user=a_7CH0MAAAAJ"
+          }
+        },
+        {
+          "id": "angela-belcher",
+          "name": "Angela M. Belcher",
+          "title": "James Mason Crafts Professor, Professor of Materials Science and Engineering, Professor of Biological Engineering",
+          "sub_field": "Biomaterials",
+          "tags": [
+            "biotemplated nanomaterials",
+            "M13 bacteriophage",
+            "cancer imaging",
+            "organic-inorganic interfaces",
+            "clean energy"
+          ],
+          "summary": "Directs the Biomolecular Materials Group, using directed evolution of viruses - especially M13 bacteriophage - to template hybrid organic-inorganic nanomaterials for energy, electronics, and medicine. Recent work develops carbon-nanotube and rare-earth nanoparticle probes for near-infrared in vivo imaging, enabling intraoperative detection of sub-millimeter ovarian and brain tumors, with animal studies showing extended median survival. Her group continues biotemplated battery and catalytic-materials research, and she emphasizes building accessible early-detection and diagnostic technologies for ovarian cancer.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://belcherlab.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "aristide-gumyusenge",
+          "name": "Aristide Gumyusenge",
+          "title": "Henry L. Doherty Career Development Professor in Ocean Utilization, Assistant Professor of Materials Science and Engineering",
+          "sub_field": "Polymers",
+          "tags": [
+            "semiconducting polymers",
+            "organic electronics",
+            "mixed ionic-electronic conductors",
+            "high-temperature electronics",
+            "wearable bio-interfaces"
+          ],
+          "summary": "Leads the OMSE Lab designing and processing semiconducting polymers for organic electronics, transistors, electrochemical devices, and bio-interfaces. A signature focus is operational stability of plastic electronics under extreme heat, pioneering high-temperature semiconducting-polymer blends. Recent work exploits mixed ionic-electronic conduction for efficient ion-to-electron signal transduction in longer-lasting, intelligent wearables and body-machine interfaces, and develops bistable organic electrochemical transistors and large-area manufacturing that links molecular design to device performance.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aristide.mit.edu/",
+            "scholar": "https://scholar.google.com/citations?user=DxrYpM4AAAAJ"
+          }
+        },
+        {
+          "id": "robert-macfarlane",
+          "name": "Robert J. Macfarlane",
+          "title": "Richard P. Simmons (1953) Professor in Metallurgy, Associate Professor of Materials Science and Engineering",
+          "sub_field": "Nanomaterials",
+          "tags": [
+            "self-assembly",
+            "nanocomposite tectons",
+            "supramolecular chemistry",
+            "DNA-programmed superlattices",
+            "polymer-grafted nanoparticles"
+          ],
+          "summary": "Develops design principles for hierarchically ordered materials with controlled structure across length scales. Building on DNA-programmed nanoparticle superlattices, his group's nanocomposite tectons - polymer-grafted nanoparticle building blocks - enable scalable self-assembly of free-standing, macroscopic solids with programmed nanoscale arrangements and tunable microstructure. Recent work uses cost-effective synthetic-polymer coatings to drive assembly, producing nanocomposites for adhesives, coatings, sensors, optical and electronic devices, and energy storage, while characterizing their mechanical, optical, electrical, and thermal properties.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://macfarlanelab.mit.edu/",
+            "scholar": "https://scholar.google.com/citations?user=TFjjczEAAAAJ"
+          }
+        },
+        {
+          "id": "alfredo-alexander-katz",
+          "name": "Alfredo Alexander-Katz",
+          "title": "Michael (1949) and Sonja Koerner Professor, Professor of Materials Science and Engineering",
+          "sub_field": "Soft Matter",
+          "tags": [
+            "soft matter",
+            "random heteropolymers",
+            "self-assembly",
+            "active matter",
+            "theory & simulation"
+          ],
+          "summary": "Leads the Laboratory for Soft Materials, studying self-assembly and dynamics of biological and bio-inspired soft matter through theory, simulation, and experiment. Recent work centers on bio-inspired random heteropolymers as protein-mimetic macromolecules, including RHP enzyme mimics informed by analysis of roughly 1,300 metalloproteins (Nature, 2025) and an autonomous robot-driven evolutionary workflow that discovers RHP blends outperforming their constituents for protein stabilization. Additional threads include designer 3D copolymer self-assembly and controlling phases of active soft matter.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://soft-materials-lab.mit.edu/",
+            "scholar": "https://scholar.google.com/citations?user=PgO-zHIAAAAJ"
+          }
+        },
+        {
+          "id": "mit-dmse-polina-anikeeva",
+          "name": "Polina Anikeeva",
+          "title": "Professor and Department Head",
+          "sub_field": "Bioelectronics and Neural Interface Materials",
+          "tags": [
+            "bioelectronics",
+            "neural interfaces",
+            "multimaterial fibers",
+            "magnetic nanomaterials",
+            "nanomaterials"
+          ],
+          "summary": "Anikeeva heads DMSE and leads the Bioelectronics group, engineering multimaterial, multifunctional fibers and magnetic nanomaterials that create optical, electrical, and chemical interfaces with the nervous system. Her team builds soft, flexible probes for the brain, spinal cord, and peripheral organs, and uses magnetic nanoparticles to wirelessly modulate neural activity. A major thrust explores gut-brain circuits and brain-body communication, combining materials synthesis with neuroscience. She also directs the K. Lisa Yang Brain-Body Center and holds appointments in brain and cognitive sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://bioelectronics.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mit-dmse-jeffrey-grossman",
+          "name": "Jeffrey Grossman",
+          "title": "Professor",
+          "sub_field": "Computational Materials and Energy",
+          "tags": [
+            "computational materials",
+            "energy",
+            "nanomaterials",
+            "DFT",
+            "desalination membranes"
+          ],
+          "summary": "Grossman leads the Grossman Group, pairing computational modeling with experiment to design nanomaterials for energy and sustainability. His research spans solar energy conversion and storage, thermal energy, membranes for water desalination and industrial separations, and new electronic and optoelectronic materials. The group combines first-principles simulation, machine learning, and materials synthesis to move fundamental understanding toward practical devices, and Grossman has co-founded companies to commercialize advanced separation membranes. He co-directs the MIT Climate and Sustainability Consortium and previously served as department head.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gg.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mit-dmse-rodrigo-freitas",
+          "name": "Rodrigo Freitas",
+          "title": "Assistant Professor",
+          "sub_field": "Computational Materials Science",
+          "tags": [
+            "computational materials",
+            "machine learning",
+            "atomistic simulation",
+            "microstructure",
+            "metals"
+          ],
+          "summary": "Freitas leads a computational materials group that studies the fundamental mechanisms of microstructural evolution in metals and other structural materials. Combining atomistic simulation via molecular dynamics and free-energy methods, quantum-mechanical calculations, and machine-learning interatomic potentials, his team bridges atomic-scale simulation data with the mesoscale descriptions materials scientists use. A central theme is applying data-science and AI tools to build physically consistent models of defects, interfaces, and phase transformations, augmenting rather than replacing human scientific intuition, with the goal of accelerating the discovery and design of advanced alloys.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://freitas.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mit-dmse-yet-ming-chiang",
+          "name": "Yet-Ming Chiang",
+          "title": "Kyocera Professor",
+          "sub_field": "Electrochemical Energy Storage",
+          "tags": [
+            "batteries",
+            "energy storage",
+            "electrochemistry",
+            "grid storage",
+            "ceramics"
+          ],
+          "summary": "Chiang, the Kyocera Professor, works on materials and electrochemical systems for clean energy, including lithium-ion, aqueous, and long-duration batteries for transportation and grid-scale storage, and electrochemical routes to low-carbon construction materials. His lab pioneered high-power lithium iron phosphate electrodes and a semi-solid electrode approach to low-cost battery manufacturing. A prolific inventor and entrepreneur, he has co-founded companies including A123 Systems, 24M Technologies, Form Energy, and Sublime Systems to commercialize these discoveries. He is a member of the National Academy of Engineering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://dmse.mit.edu/people/faculty/yet-ming-chiang/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mit-dmse-elsa-olivetti",
+          "name": "Elsa Olivetti",
+          "title": "Jerry McAfee Professor",
+          "sub_field": "Materials Sustainability and Economics",
+          "tags": [
+            "sustainability",
+            "materials economics",
+            "recycling",
+            "life-cycle analysis",
+            "manufacturing"
+          ],
+          "summary": "Olivetti, the Jerry McAfee Professor, works to improve the environmental and economic sustainability of materials by developing analytical and computational models that estimate cost and environmental impact early in design. The Olivetti Group studies recycling-friendly material design, efficient use of industrial waste and recycled feedstocks in concrete, metals, and plastics, and the effects of substitution and dematerialization on materials markets. She co-directs the MIT Climate and Sustainability Consortium and serves as associate dean of engineering, linking materials science with systems-level sustainability analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://dmse.mit.edu/people/faculty/elsa-a-olivetti/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mit-dmse-geoffrey-beach",
+          "name": "Geoffrey S.D. Beach",
+          "title": "Professor",
+          "sub_field": "Magnetic Materials and Spintronics",
+          "tags": [
+            "spintronics",
+            "magnetic materials",
+            "spin dynamics",
+            "thin films",
+            "memory devices"
+          ],
+          "summary": "Beach heads the Spin Dynamics Laboratory, an experimental group studying magnetism and spin-electronics in nanoscale materials and devices. His research harnesses the electron's spin in magnetic thin films to develop new approaches to data storage and computation, including current-driven domain-wall motion, chiral spin textures, and magnetic skyrmions. The group also explores voltage and ionic control of magnetism, engineering materials whose magnetic properties can be switched electrically to enable energy-efficient, high-density spintronic memory and logic devices for beyond-CMOS information technology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://beach.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mit-dmse-jeehwan-kim",
+          "name": "Jeehwan Kim",
+          "title": "Associate Professor",
+          "sub_field": "Electronic and 2D Materials",
+          "tags": [
+            "2D materials",
+            "remote epitaxy",
+            "semiconductors",
+            "neuromorphic computing",
+            "3D integration"
+          ],
+          "summary": "Kim, jointly appointed in DMSE and mechanical engineering, leads a group pioneering atomically engineered two-dimensional materials and advanced device integration. His lab developed remote epitaxy, growing and peeling single-crystalline films from underlying wafers, and monolithic three-dimensional chip stacking that grows semiconducting layers directly atop one another without bulky silicon substrates. The group also builds artificial synapses and neuromorphic hardware, aiming to extend Moore's-law scaling and enable next-generation electronics, flexible devices, and energy-efficient computing through nanoscale heterogeneous integration and 2D-material engineering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://jeehwanlab.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mit-dmse-gregory-olson",
+          "name": "Gregory B. Olson",
+          "title": "Professor of the Practice",
+          "sub_field": "Computational Alloy Design and Metallurgy",
+          "tags": [
+            "alloy design",
+            "ICME",
+            "metallurgy",
+            "steels",
+            "computational design"
+          ],
+          "summary": "Olson, the Thermo-Calc Professor of the Practice, is a founder of integrated computational materials engineering, the practice of designing materials and their processing paths on the computer. His work links thermodynamics, kinetics, and mechanistic structure-property models to design high-performance alloys, especially advanced steels, along with intermetallics, ceramics, and composites. Computationally designed landing-gear steels developed through his methods have reached full flight qualification. He teaches DMSE's computational materials design course and has mentored award-winning student alloy-design teams tackling aerospace and transportation applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://dmse.mit.edu/people/faculty/gregory-b-olson/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mit-dmse-lorna-gibson",
+          "name": "Lorna J. Gibson",
+          "title": "Matoula S. Salapatas Professor",
+          "sub_field": "Cellular Solids and Materials Mechanics",
+          "tags": [
+            "cellular solids",
+            "mechanical behavior",
+            "foams",
+            "tissue scaffolds",
+            "natural materials"
+          ],
+          "summary": "Gibson, the Matoula S. Salapatas Professor, studies the mechanical behavior of materials with a cellular structure, including engineering honeycombs and foams, tissue-engineering scaffolds, and natural materials such as wood, bamboo, and plant stems. The Gibson Group established foundational models linking cellular architecture to stiffness, strength, and energy absorption. Current projects span osteochondral scaffolds for cartilage and bone regeneration, aerogels for building insulation, impact-protective foams, and structural bamboo and balsa-inspired materials. She is co-author of the standard reference text Cellular Solids.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://lornagibson.org/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mit-dmse-michael-cima",
+          "name": "Michael J. Cima",
+          "title": "David H. Koch Professor of Engineering",
+          "sub_field": "Biomedical Materials and Devices",
+          "tags": [
+            "biomaterials",
+            "drug delivery",
+            "medical devices",
+            "MEMS",
+            "3D printing"
+          ],
+          "summary": "Cima, the David H. Koch Professor of Engineering and a Koch Institute member, develops materials and engineered systems to improve human health, targeting cancer, metabolic disease, trauma, and urological disorders. His group creates implantable MEMS and microfabricated devices for controlled drug delivery and in-vivo diagnostics, and advances colloidal processing and pharmaceutical formulation methods. A co-inventor of MIT's three-dimensional printing process, Cima holds numerous patents and is a member of the National Academy of Engineering, bridging materials science with translational clinical medicine.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cima-lab.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mit-dmse-harry-tuller",
+          "name": "Harry L. Tuller",
+          "title": "R.P. Simmons Professor of Ceramics and Electronic Materials",
+          "sub_field": "Electroceramics and Solid-State Ionics",
+          "tags": [
+            "electroceramics",
+            "solid-state ionics",
+            "fuel cells",
+            "sensors",
+            "ceramics"
+          ],
+          "summary": "Tuller, the R.P. Simmons Professor of Ceramics and Electronic Materials, heads the Crystal Physics and Electroceramics Laboratory. His research centers on solid-state ionics, the transport of ions and electrons in ceramics, and on the defect chemistry that governs their electrical, electrochemical, and optical properties. The group models, processes, and optimizes energy and sensing devices including solid-oxide fuel cells, gas sensors, memristive elements, and MEMS. A world authority on electroceramics, he edits the Journal of Electroceramics and co-founded Boston MicroSystems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://electroceramics.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mit-dmse-yoel-fink",
+          "name": "Yoel Fink",
+          "title": "Professor",
+          "sub_field": "Multimaterial Fibers and Fabrics",
+          "tags": [
+            "multimaterial fibers",
+            "fabric computing",
+            "photonics",
+            "smart textiles",
+            "soft matter"
+          ],
+          "summary": "Fink, jointly appointed in DMSE and electrical engineering, leads the Fibers@MIT group, which pioneered multimaterial, multifunctional fibers. By co-drawing metals, semiconductors, and polymers into a single fiber, his team creates threads that sense, communicate, emit and detect light, produce sound, and even perform computation, then assembles them into functional fabrics. The work extends fibers from optical transmission to electronic, optoelectronic, and acoustic function, underpinning advanced smart-textile and wearable technologies. He founded the Advanced Functional Fabrics of America manufacturing institute.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://dmse.mit.edu/people/faculty/yoel-fink/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mit-dmse-iwnetim-abate",
+          "name": "Iwnetim Abate",
+          "title": "Assistant Professor",
+          "sub_field": "Energy Materials and Electrochemistry",
+          "tags": [
+            "energy storage",
+            "sodium-ion batteries",
+            "electrochemistry",
+            "sustainable materials",
+            "geologic hydrogen"
+          ],
+          "summary": "Abate leads a group integrating electrochemistry, condensed-matter physics, and earth science to design sustainable materials for energy storage, computing, and resource extraction. His team develops low-cost sodium-ion battery cathodes using abundant manganese and iron, and extends battery-style ion insertion to control magnetic and electronic states for future computing. Another thrust seeks to stimulate and harvest natural, geologic hydrogen from rocks. Recognized as an MIT Technology Review Innovator Under 35 and a C&EN Talented 12 honoree, he combines computation with experiment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://dmse.mit.edu/people/faculty/iwnetim-abate/",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "northwestern-mse-phd",
+      "university": "Northwestern University",
+      "program_name": "PhD in Materials Science & Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Computational Materials",
+          "Energy Materials",
+          "Nanomaterials",
+          "Electronic & Photonic Materials",
+          "Structural Materials & Metallurgy",
+          "Biomaterials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-03",
+        "deadline_display": "Dec 3, 2026",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Not Accepted",
+        "letters": 2,
+        "english": "TOEFL iBT 90+ (PBT 550 / CBT 213) or IELTS 7.0; waived for applicants who earn a Bachelor's or Master's degree from an institution where English is the language of instruction.",
+        "admission_model": "Committee-Based",
+        "admission_model_note": "A departmental committee makes all admission and financial decisions; individual faculty do not influence admission. Admitted students match with an adviser after enrolling, and over 80% receive their first-choice adviser.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Most PhD students are supported by research assistantships and/or fellowships that include full tuition, a take-home stipend, and health insurance. Support continues as long as students make satisfactory progress and funds are available; no fixed year cap is stated."
+        },
+        "pre_application_contact": "Discouraged",
+        "contact_note": "The department instructs applicants not to contact individual faculty before acceptance because a committee makes all admission and funding decisions.",
+        "ects": null,
+        "duration": "~5 years (typical)"
+      },
+      "links": {
+        "program": "https://www.mccormick.northwestern.edu/materials-science/academics/graduate/phd/",
+        "admissions": "https://www.mccormick.northwestern.edu/materials-science/academics/graduate/phd/admissions.html"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "chris-wolverton",
+          "name": "Chris Wolverton",
+          "title": "Frank C. Engelhart Professor of Materials Science and Engineering",
+          "sub_field": "Computational Materials",
+          "tags": [
+            "First-principles/DFT",
+            "Materials informatics",
+            "OQMD database",
+            "Machine learning",
+            "Energy materials"
+          ],
+          "summary": "Wolverton's group applies first-principles density functional theory, molecular dynamics, and machine learning to accelerate materials discovery. He develops and maintains the Open Quantum Materials Database (OQMD), a high-throughput repository enabling data-driven screening of thousands of compounds. Recent work spans battery electrodes and solid electrolytes, catalysts, thermoelectrics, hydrogen storage, and structural alloys, coupling ab initio thermodynamics with materials informatics and generative AI models to predict stable phases and guide experimental synthesis. He was named a 2025 Materials Research Society Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.wolverton.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=DJxLkJMAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "james-rondinelli",
+          "name": "James Rondinelli",
+          "title": "Walter Dill Scott Professor of Materials Science and Engineering; Associate Chair",
+          "sub_field": "Computational Materials",
+          "tags": [
+            "Electronic structure theory",
+            "Complex oxides",
+            "Quantum materials",
+            "Materials design",
+            "High-throughput computation"
+          ],
+          "summary": "Rondinelli leads the Materials Theory and Design Group, using first-principles electronic-structure theory to design functional quantum and electronic materials atom-by-atom. His research targets transition-metal oxides, complex perovskites, and heterostructures, engineering picoscale structural distortions to control ferroelectric, magnetic, superconducting, and optical responses. Recent efforts integrate high-throughput computation, symmetry analysis, and machine learning to discover materials for microelectronics, nonlinear optics, and quantum information. The group also develops data-driven frameworks and open tools connecting crystal structure to emergent properties for predictive materials design.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mtd.mccormick.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=SXOK2NgAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "mark-hersam",
+          "name": "Mark Hersam",
+          "title": "Department Chair; Walter P. Murphy Professor of Materials Science and Engineering; Director, Materials Research Center (MRSEC)",
+          "sub_field": "Nanomaterials",
+          "tags": [
+            "2D materials",
+            "Carbon nanotubes",
+            "Nanoelectronics",
+            "van der Waals heterostructures",
+            "Scanning probe microscopy"
+          ],
+          "summary": "Hersam, department chair and MRSEC director, synthesizes, sorts, and assembles low-dimensional nanomaterials including carbon nanotubes, graphene, borophene, and transition-metal dichalcogenides. His group builds mixed-dimensional van der Waals heterostructures for transistors, memristors, neuromorphic and quantum devices, photovoltaics, batteries, and biosensors. Recent work advances scalable nanomaterial separation, borophene chemistry, energy-efficient neuromorphic computing hardware, and solid-state battery electrodes. He couples atomic-resolution scanning probe microscopy with device engineering, and has commercialized nanomaterials through founded companies NanoIntegris and Volexion.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.hersam-group.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=PSBBkUoAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "lincoln-lauhon",
+          "name": "Lincoln Lauhon",
+          "title": "Professor of Materials Science and Engineering",
+          "sub_field": "Electronic & Photonic Materials",
+          "tags": [
+            "Semiconductor nanowires",
+            "Atom-probe tomography",
+            "2D semiconductors",
+            "Quantum devices",
+            "Nanoelectronics"
+          ],
+          "summary": "Lauhon investigates nanoscale structure-property relationships in semiconductor nanowires and two-dimensional materials, pioneering atom-probe tomography to map composition and dopants in three dimensions. His group synthesizes III-V and III-nitride nanowires and integrates 2D transition-metal dichalcogenides into mixed-dimensional heterostructures. Recent projects include III-As-Sb nanowire networks for topological quantum computing, vertical GaN diodes for high-power electronics, atomic-layer-deposited oxides and chalcogenides, and devices for photodetection, energy conversion, and novel computing paradigms, combining scanning-probe imaging with predictive modeling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://lauhon.mccormick.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=YOw9UuwAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "sossina-haile",
+          "name": "Sossina Haile",
+          "title": "Walter P. Murphy Professor of Materials Science and Engineering",
+          "sub_field": "Energy Materials",
+          "tags": [
+            "Solid acid fuel cells",
+            "Solid oxide fuel cells",
+            "Solid-state ionics",
+            "Electrocatalysis",
+            "Solar fuels"
+          ],
+          "summary": "Haile studies solid-state ionic materials and electrochemical energy devices. She pioneered solid-acid fuel cells and achieved record power densities in solid-oxide fuel cells, and her group develops mixed ionic-electronic conductors, proton conductors, and electrocatalysts. Recent work targets thermochemical and electrochemical fuel production, including solar-driven water and CO2 splitting to generate hydrogen and synthetic fuels, plus new electrolytes and electrode materials for lower-temperature fuel cells and electrolyzers. Research combines materials synthesis, defect chemistry, and device engineering for sustainable energy conversion.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://addis.ms.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=3SMrXrcAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "jeffrey-snyder",
+          "name": "G. Jeffrey Snyder",
+          "title": "Professor of Materials Science and Engineering",
+          "sub_field": "Energy Materials",
+          "tags": [
+            "Thermoelectrics",
+            "Thermal transport",
+            "Defect engineering",
+            "Zintl phases",
+            "Energy conversion"
+          ],
+          "summary": "Snyder's group studies electronic and thermal transport in thermoelectric materials that convert waste heat to electricity. He develops design principles linking band structure, defect chemistry, and microstructure to the thermoelectric figure of merit, working on materials such as skutterudites, Zintl phases, half-Heuslers, and lead and tin chalcogenides. Recent work advances band-convergence and nanostructuring strategies, quality-factor analysis, and machine-learning-guided screening to optimize carrier mobility and minimize lattice thermal conductivity for practical thermoelectric generators and cooling devices.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://thermoelectrics.matsci.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=EJDZSYMAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "david-dunand",
+          "name": "David Dunand",
+          "title": "Professor of Materials Science and Engineering",
+          "sub_field": "Structural Materials & Metallurgy",
+          "tags": [
+            "Metallurgy",
+            "Additive manufacturing",
+            "Metal foams",
+            "Superalloys",
+            "Mechanical properties"
+          ],
+          "summary": "Dunand's Structural Metallic Materials group studies the mechanical metallurgy of advanced alloys, composites, foams, and scaffolds, linking microstructure to properties. Research spans nickel- and titanium-based superalloys, oxide-dispersion-strengthened steels, shape-memory alloys, and metallic foams for structural and biomedical use. A major recent focus is additive manufacturing of metals via ink extrusion plus sintering and laser melting, alongside sustainable, low-carbon metals processing including hydrogen-based reduction. The group combines synchrotron characterization, creep and mechanical testing, and microstructural modeling to design high-performance metals.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.dunand.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=KfDdVlkAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "samuel-stupp",
+          "name": "Samuel Stupp",
+          "title": "Board of Trustees Professor of Materials Science and Engineering; Director, Center for Regenerative Nanomedicine",
+          "sub_field": "Biomaterials",
+          "tags": [
+            "Supramolecular self-assembly",
+            "Peptide amphiphiles",
+            "Regenerative medicine",
+            "Bioactive nanomaterials",
+            "Soft robotics"
+          ],
+          "summary": "Stupp directs the Center for Regenerative Nanomedicine and designs self-assembling supramolecular biomaterials. His group creates peptide amphiphiles that assemble into bioactive nanofibers for regenerating brain, spinal cord, bone, cartilage, and muscle tissue. Recent breakthroughs include 'dancing molecules' - supramolecular systems with intense internal motion that enhance signaling to repair spinal-cord injury - plus scaffolds for cardiovascular and neural regeneration, targeted drug delivery, and bio-inspired materials for renewable energy and soft robotics. Work integrates organic synthesis, self-assembly, and in vivo regenerative medicine.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://stupp.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=70K3_2IAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "monica-olvera-de-la-cruz",
+          "name": "Monica Olvera de la Cruz",
+          "title": "Lawyer Taylor Professor of Materials Science and Engineering; Director, Center for Computation & Theory of Soft Materials",
+          "sub_field": "Soft Matter",
+          "tags": [
+            "Soft matter theory",
+            "Electrostatics",
+            "Self-assembly",
+            "Polyelectrolytes",
+            "Computational modeling"
+          ],
+          "summary": "Olvera de la Cruz directs the Center for Computation and Theory of Soft Materials, developing theory and simulations of charged soft matter. Her group models electrostatics and self-assembly in polyelectrolytes, ionic liquids, block copolymers, membranes, and biological assemblies, predicting how heterogeneous molecules organize. Recent work explores stimuli-responsive and reconfigurable materials, ionic transport in batteries and electrolytes, crystallization of nanoparticle superlattices and virus capsids, and design of programmable, adaptive soft materials, coupling statistical mechanics with machine learning and multiscale computation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aztec.tech.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=bLeuseAAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "chad-mirkin",
+          "name": "Chad Mirkin",
+          "title": "George B. Rathmann Professor of Materials Science and Engineering; Director, International Institute for Nanotechnology",
+          "sub_field": "Nanomaterials",
+          "tags": [
+            "Spherical nucleic acids",
+            "DNA nanotechnology",
+            "Colloidal crystals",
+            "Dip-pen nanolithography",
+            "Nanomedicine"
+          ],
+          "summary": "Mirkin directs the International Institute for Nanotechnology and invented spherical nucleic acids (SNAs) and dip-pen nanolithography. His group programs DNA-functionalized nanoparticles to build colloidal crystals with designed symmetries and uses SNAs for intracellular gene regulation, diagnostics, immunotherapy, and vaccines. Recent work advances SNA-based cancer immunotherapeutics and CRISPR delivery, megalibrary combinatorial nanoparticle synthesis accelerated by machine learning, and structural nanomedicine. The group bridges materials chemistry, nanofabrication, and medicine, translating discoveries through numerous startups and clinical-stage therapeutics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/mirkin-chad.html",
+            "scholar": "https://scholar.google.com/citations?user=Qxl6qsMAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "erik-luijten",
+          "name": "Erik Luijten",
+          "title": "Liu-Wang Liming Professor; Professor of Materials Science and Engineering",
+          "sub_field": "Computational Materials and Soft Matter",
+          "tags": [
+            "computational materials",
+            "soft matter",
+            "self-assembly",
+            "statistical mechanics",
+            "molecular simulation"
+          ],
+          "summary": "Luijten leads the Computational Soft Matter Lab, using large-scale simulation and statistical mechanics to predict the collective behavior of complex fluids, colloids, electrolytes, polymers, and active matter. His group models self-assembly spanning colloidal crystals to nanoparticles for drug delivery, along with charge transport in electrolytes, programmable and dielectric materials, and pattern formation. By connecting microscopic interactions to emergent structure, the work tests analytic theories and guides experimental design of responsive, self-organizing materials. He also holds appointments in engineering sciences and applied mathematics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://csml.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=Byn331gAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "scott-barnett",
+          "name": "Scott Barnett",
+          "title": "Professor of Materials Science and Engineering",
+          "sub_field": "Energy Materials and Ceramics",
+          "tags": [
+            "solid oxide fuel cells",
+            "energy storage",
+            "ceramics",
+            "electrochemistry",
+            "thin films"
+          ],
+          "summary": "Barnett has studied solid oxide fuel and electrolysis cells for over three decades, focusing on the ceramic electrodes and electrolytes that convert between chemical and electrical energy. His group develops novel processing methods, including 3D printing and thin-electrolyte deposition, and probes electrode reaction mechanisms, intermediate-temperature operation, and direct utilization of hydrocarbon fuels. Using 3D imaging of electrode microstructures, the team links structure to performance and degradation, and designs reversible cells that store renewable energy while advancing efficient, durable electrochemical devices.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://barnett.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=3VGvLrEAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "vinayak-dravid",
+          "name": "Vinayak Dravid",
+          "title": "Abraham Harris Professor of Materials Science and Engineering",
+          "sub_field": "Nanomaterials and Characterization",
+          "tags": [
+            "nanomaterials",
+            "electron microscopy",
+            "characterization",
+            "nanotechnology",
+            "interfaces"
+          ],
+          "summary": "Dravid is founding director of Northwestern's NUANCE Center and the SHyNE nanotechnology resource, and his group centers on structure-property and form-function relationships across diverse materials. The team develops advanced microscopy, spectroscopy, and metrology to image and sense complex nanostructures, from metal and alloy nanocrystals to biomolecular patterns and inorganic-biological interfaces. Applications span energy, sensing, and environmental remediation, including sorbents for water purification. By pushing quantitative hard metrology into soft and hybrid matter, the group bridges fundamental nanoscience with real technological deployment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/dravid-vinayak.html",
+            "scholar": "https://scholar.google.com/citations?user=mj365oIAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "jennifer-fowlie",
+          "name": "Jennifer Fowlie",
+          "title": "Assistant Professor of Materials Science and Engineering",
+          "sub_field": "Quantum and Electronic Oxides",
+          "tags": [
+            "quantum materials",
+            "transition metal oxides",
+            "thin films",
+            "pulsed laser deposition",
+            "electronic materials"
+          ],
+          "summary": "Fowlie leads the Quantum Oxide Layers Lab, engineering transition-metal-oxide heterostructures that host unusual electronic and magnetic behavior. Using pulsed laser deposition, soft chemistry, and epitaxial design, her group grows nanometric films and tunes their structural, electronic, and magnetic properties by moving ions, altering boundary conditions, or applying mechanical strain. Recent work examines metal-insulator transitions and magnetism in nickelates and related complex oxides. By combining precise synthesis with novel magnetic, nuclear, and optical probes, the lab seeks emergent quantum phenomena and new device concepts.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.jenfowlie.com/",
+            "scholar": "https://scholar.google.com/citations?user=HcbR9B4AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "christopher-schuh",
+          "name": "Christopher Schuh",
+          "title": "Dean of Engineering; John G. Searle Professor of Materials Science and Engineering",
+          "sub_field": "Structural Materials and Metallurgy",
+          "tags": [
+            "metallurgy",
+            "structural materials",
+            "mechanical behavior",
+            "microstructure",
+            "nanocrystalline alloys"
+          ],
+          "summary": "Schuh, Dean of the McCormick School, studies structural metals and ceramics, seeking to control disorder in microstructures to optimize mechanical properties. His research spans nanocrystalline and amorphous metals, grain-boundary engineering and thermodynamic stabilization of nanostructured alloys, mechanical behavior across length scales, and protective coatings. The group combines experiment, modeling, and stochastic approaches to design harder, tougher, and more thermally stable materials, and his work has spun out several metallurgical companies. As Dean, his direct student-advising availability should be confirmed.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/schuh-christopher.html",
+            "scholar": "https://scholar.google.com/citations?user=i4TmpfMAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "ian-mccue",
+          "name": "Ian McCue",
+          "title": "Assistant Professor of Materials Science and Engineering; Morris E. Fine Junior Professor",
+          "sub_field": "Structural Metals and Advanced Manufacturing",
+          "tags": [
+            "metals",
+            "advanced manufacturing",
+            "nanostructured materials",
+            "self-organization",
+            "mechanical behavior"
+          ],
+          "summary": "McCue tackles scalable processing of advanced nanostructured materials through advanced manufacturing and self-organization phenomena such as dealloying and directional solidification. His group engineers nanocomposites for structural applications, studies the mechanical behavior of bulk nanostructured metals, and maps how architecture, length scale, and composition couple to diffusion, external fields, and phase transformations. The aim is materials that are stronger, tougher, more thermally stable, and even self-healing. He has earned DARPA Young Faculty and NASA Early Career awards for this work.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.northwestern.edu/mccue/",
+            "scholar": "https://scholar.google.com/citations?user=WitPnWAAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "derk-joester",
+          "name": "Derk Joester",
+          "title": "Professor of Materials Science and Engineering",
+          "sub_field": "Biomaterials and Biomineralization",
+          "tags": [
+            "biomineralization",
+            "biomaterials",
+            "atom probe tomography",
+            "bio-inspired materials",
+            "characterization"
+          ],
+          "summary": "Joester's Biomineral Engineering group studies how organisms grow crystals under physiological conditions with exquisite control over composition and morphology, and translates those lessons into bio-inspired synthesis. The team pioneered atom probe tomography of biominerals, resolving nanoscale chemistry in chiton teeth, bone, and tooth enamel, and develops quantitative imaging of mineralizing cells and tissues. This work links structure and formation mechanisms to properties such as hardness and caries resistance, informing strategies for stronger functional materials and improved dental and skeletal health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://joester.mccormick.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=0jBxUsgAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "nathan-gianneschi",
+          "name": "Nathan Gianneschi",
+          "title": "Jacob and Rosaline Cohn Professor of Chemistry, Materials Science and Engineering, and Biomedical Engineering",
+          "sub_field": "Biomaterials and Nanomedicine",
+          "tags": [
+            "nanomaterials",
+            "biomaterials",
+            "polymers",
+            "in situ electron microscopy",
+            "therapeutics"
+          ],
+          "summary": "Gianneschi leads an interdisciplinary group of chemists, engineers, and materials scientists developing programmable nanomaterials for biomedical applications. The team designs multifunctional polymers and nanoparticles that respond to biological cues, engineering enzyme-responsive assemblies, protein-like polymers, and melanin-inspired materials for therapeutics, diagnostics, and imaging. A signature capability is in situ liquid-cell electron microscopy for watching soft materials evolve in real time. Spanning fundamental nanoscale design through translational therapeutics and biomimicry, the work connects synthesis and characterization to targeted drug delivery and disease detection.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.northwestern.edu/gianneschigroup/",
+            "scholar": "https://scholar.google.com/citations?user=QCHhvXcAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "kenneth-shull",
+          "name": "Kenneth Shull",
+          "title": "Professor of Materials Science and Engineering",
+          "sub_field": "Polymers and Soft Materials",
+          "tags": [
+            "polymers",
+            "adhesion",
+            "soft materials",
+            "hydrogels",
+            "mechanics"
+          ],
+          "summary": "Shull studies the interfacial properties of polymers, with emphasis on adhesion, fracture, and the mechanics of thin films, gels, and coatings. His group uses polymer physics to understand self-assembly and structure-property relationships in soft materials across mesoscopic length scales, including non-covalently assembled hydrogels and polyelectrolyte complexes formed from oppositely charged polymers. The team develops quartz crystal microbalance and contact-mechanics methods to quantify these behaviors, and applies them to problems ranging from tough adhesives to the aging of oil-paint films in cultural heritage.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://shullgroup.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=3x3lsEMAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "john-torkelson",
+          "name": "John Torkelson",
+          "title": "Walter P. Murphy Professor of Chemical and Biological Engineering and Materials Science and Engineering",
+          "sub_field": "Polymer Science and Engineering",
+          "tags": [
+            "polymers",
+            "polymer recycling",
+            "nanoconfinement",
+            "dynamic chemistry",
+            "glass transition"
+          ],
+          "summary": "Torkelson's group links molecular-scale polymer behavior to macroscale properties and engineers those properties through dynamic chemistry, nanoscale confinement, chain architecture, and novel solid-state processing. A major thrust develops covalent adaptable networks and dynamic-bond chemistries that let crosslinked thermosets be reprocessed and recycled with full recovery of crosslink density, addressing plastic waste. The team also studies confinement effects on the glass transition in thin films and gradients, and uses solid-state shear pulverization to make well-mixed polymer blends, nanocomposites, and sustainable materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://torkelson.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=xpGFF3kAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "fadi-abdeljawad",
+          "name": "Fadi Abdeljawad",
+          "title": "Associate Professor of Materials Science and Engineering",
+          "sub_field": "Computational Materials Science",
+          "tags": [
+            "computational materials",
+            "microstructure evolution",
+            "phase-field modeling",
+            "machine learning",
+            "mesoscale modeling"
+          ],
+          "summary": "Abdeljawad's group uses computational modeling to understand how a material's internal microstructure forms during processing and evolves under thermal, mechanical, and other external fields. Combining phase-field and mesoscale simulations with machine learning, the team tackles microstructure-based problems including grain growth, interfacial phenomena, and defect evolution in metals and additively manufactured materials. Trained at Princeton and Sandia National Laboratories, he brings a data-driven, physics-based perspective aimed at predicting and controlling structure-property relationships to accelerate the design of durable, high-performance structural materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/abdeljawad-fadi.html",
+            "scholar": "https://scholar.google.com/citations?user=7GrGVvQAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "jonathan-rivnay",
+          "name": "Jonathan Rivnay",
+          "title": "Jerome B. Cohen Professor in Engineering; Professor of Biomedical Engineering and Materials Science and Engineering",
+          "sub_field": "Organic Bioelectronics",
+          "tags": [
+            "organic electronics",
+            "bioelectronics",
+            "conducting polymers",
+            "mixed ionic-electronic conductors",
+            "sensors"
+          ],
+          "summary": "Rivnay engineers organic and biohybrid electronic materials, devices, and systems that interface biology with optoelectronics. His group studies mixed ionic-electronic conduction and electrochemical actuation in conjugated polymers, using them to build electrophysiological and biomarker-specific sensors, stimulators, and transistors for less invasive in vivo and lab-on-chip platforms. Applications extend to surgical robotics, tissue engineering, and regenerative interfaces. By connecting polymer microstructure and processing to device performance, the lab advances soft, conformable bioelectronics for health monitoring, neural interfacing, and localized therapy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://rivnay.northwestern.edu/",
+            "scholar": "https://scholar.google.com/citations?user=sngchgsAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "john-rogers",
+          "name": "John Rogers",
+          "title": "Louis Simpson and Kimberly Querrey Professor of Materials Science and Engineering, Biomedical Engineering and Neurological Surgery",
+          "sub_field": "Flexible and Bio-Integrated Electronics",
+          "tags": [
+            "flexible electronics",
+            "bioelectronics",
+            "stretchable devices",
+            "photonics",
+            "soft materials"
+          ],
+          "summary": "Rogers, founding director of the Querrey Simpson Institute for Bioelectronics, pioneers flexible and stretchable electronic and photonic systems that integrate seamlessly with the human body. His group develops materials, mechanics, and patterning techniques for bio-integrated devices, including wireless, skin-mounted and implantable sensors that monitor cardiac, neural, and physiological signals and can bioresorb after use. The work spans fundamental nano- and molecular-scale fabrication through clinical translation in e-health and neuroscience, producing widely deployed technologies for diagnostics, monitoring, and treatment across diverse patient populations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://rogersgroup.northwestern.edu/",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "eth-zurich-materials-phd",
+      "university": "ETH Zürich (Swiss Federal Institute of Technology Zurich)",
+      "program_name": "Doctorate in Materials Science",
+      "degree_type": "PhD",
+      "region": "Europe",
+      "country": "Switzerland",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Computational Materials",
+          "Electronic & Photonic Materials",
+          "Nanomaterials",
+          "Energy Materials",
+          "Structural Materials & Metallurgy",
+          "Soft Matter"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Rolling / position-based (no central deadline; recruited by professors year-round)",
+        "application_fee_usd": 186,
+        "fee_display": "~$186 (CHF 150 for foreign-university applicants; CHF 50 for Swiss)",
+        "gre": "Not Accepted",
+        "letters": 2,
+        "english": "Proficiency in written and spoken English required; no official certificate (TOEFL/IELTS) mandated for the doctorate, though proof may be submitted. ETH and Swiss master's graduates are also exempt from reference letters.",
+        "admission_model": "Direct Advisor Match",
+        "admission_model_note": "Applicants must first secure a doctoral position with an ETH professor who confirms supervision and funding, then register through eApply; there is no central admissions committee or application deadline.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "Doctoral researchers are salaried ETH employees on an employment contract (typically ETH salary rate 4/5) that funds living costs for the duration of the doctorate; there is no fellowship stipend and only nominal semester fees apply."
+        },
+        "pre_application_contact": "Encouraged",
+        "contact_note": "Securing an ETH professor as supervisor before registering is mandatory, so direct pre-application contact with prospective advisors is essential.",
+        "ects": 12,
+        "duration": "3-4 years"
+      },
+      "links": {
+        "program": "https://mat.ethz.ch/doctoral-studies.html",
+        "admissions": "https://ethz.ch/en/doctorate/registration-admission.html"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "nicola-spaldin",
+          "name": "Nicola A. Spaldin",
+          "title": "Professor of Materials Theory",
+          "sub_field": "Computational Materials",
+          "tags": [
+            "First-principles / DFT",
+            "Multiferroics",
+            "Magnetoelectrics",
+            "Materials by design"
+          ],
+          "summary": "Spaldin is a theoretical materials scientist who pioneered the field of multiferroics - materials combining magnetism and ferroelectricity. Using first-principles density-functional and phenomenological methods, her Materials Theory group designs new functional oxides and studies magnetoelectric coupling, domain walls, higher-order multipole order and out-of-equilibrium phenomena. Recent work explores multiferroics for low-power electronics and cosmology-in-the-laboratory analogues of the early universe realized via structural phase transitions. She has received numerous honours including the Korber and L'Oreal-UNESCO awards.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://theory.mat.ethz.ch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jorg-loffler",
+          "name": "Jörg F. Löffler",
+          "title": "Full Professor of Metal Physics and Technology",
+          "sub_field": "Structural Materials & Metallurgy",
+          "tags": [
+            "Bulk metallic glasses",
+            "Bioresorbable Mg implants",
+            "Amorphous alloys",
+            "Nanostructured metals"
+          ],
+          "summary": "Löffler leads the Laboratory of Metal Physics and Technology, focusing on the synthesis and characterization of novel nanostructured and amorphous metallic materials. His group is internationally recognized for bulk metallic glasses and for developing lean, micro-alloyed magnesium-zinc-calcium alloys for bioresorbable medical implants that safely dissolve in the body, with demonstrated clinical applicability. Recent work spans additive manufacturing of metallic glasses, thermophysical and magnetic properties at the nanoscale, and neutron/synchrotron scattering. He received the International Magnesium Science & Technology Award in 2023.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://metphys.mat.ethz.ch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andre-studart",
+          "name": "André R. Studart",
+          "title": "Professor of Complex Materials",
+          "sub_field": "Complex & Bioinspired Materials",
+          "tags": [
+            "Bioinspired composites",
+            "3D printing",
+            "Living materials",
+            "Hierarchical structures"
+          ],
+          "summary": "Studart heads the Complex Materials group, developing bioinspired engineering approaches to fabricate heterogeneous, hierarchically structured materials with properties found in nature. His group pioneers magnetically assisted and multi-material 3D printing of composites, liquid-crystal polymers and ceramics, and creates living materials by printing bacteria- and mycelium-laden inks that grow, self-heal and sense. Applications range from bioinspired heart-valve prostheses made by silicone additive manufacturing to robust lightweight composites. He holds an SNSF Consolidator Grant and publishes recent work in Nature and Science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://complex.mat.ethz.ch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ralph-spolenak",
+          "name": "Ralph Spolenak",
+          "title": "Full Professor of Nanometallurgy",
+          "sub_field": "Nanomaterials",
+          "tags": [
+            "Thin films",
+            "Nanoscale mechanics",
+            "Size effects",
+            "Functional coatings"
+          ],
+          "summary": "Spolenak leads the Laboratory for Nanometallurgy, studying thin films and small-scale structures where at least one dimension lies in the nanometre regime. His group investigates the mechanical and functional properties of metals at the nano- and microscale, the scaling of strength from the macro to the nanoscale, and rational materials-design strategies to tailor these properties. Recent research includes reactive multilayers, heat-resistant high-strength thin films, structural colour, stretchable conductors and micro-mechanical testing, bridging fundamental size effects with applications in coatings, electronics and MEMS.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://met.mat.ethz.ch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "markus-niederberger",
+          "name": "Markus Niederberger",
+          "title": "Professor of Multifunctional Materials",
+          "sub_field": "Energy Materials",
+          "tags": [
+            "Nanoparticle aerogels",
+            "Nonaqueous sol-gel",
+            "Li/Na-ion batteries",
+            "Energy storage",
+            "Photocatalysis"
+          ],
+          "summary": "Niederberger heads the Laboratory for Multifunctional Materials, developing wet-chemistry (nonaqueous sol-gel) routes to functional inorganic and hybrid nanomaterials and assembling nanoparticles into films, foams, composites and especially aerogels. Recent work centres on nanoparticle-based aerogels for energy storage and conversion - lithium- and sodium-ion battery electrodes, transparent and flexible energy-storage devices, and conductive ITO aerogels - plus photocatalytic water splitting, gas sensing and catalysis. His group emphasizes scalable synthesis and structure-property relationships in porous nanostructured bulk materials for sustainable energy applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://multimat.mat.ethz.ch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "athina-anastasaki",
+          "name": "Athina Anastasaki",
+          "title": "Professor of Polymeric Materials",
+          "sub_field": "Polymers",
+          "tags": [
+            "Controlled radical polymerization",
+            "RAFT",
+            "Chemical recycling / depolymerization",
+            "Smart polymers",
+            "Dispersity control"
+          ],
+          "summary": "Anastasaki leads the Polymeric Materials group, developing new methods to synthesize smart polymers and polymeric nanomaterials with precise control over architecture, molecular weight, dispersity and functionality via controlled radical polymerization (RAFT, ATRP). A major recent focus is chemical recycling: her group achieved near-quantitative, often catalyst-free thermal depolymerization of polymethacrylates back to monomer, alongside acid-triggered polymerization and switchable RAFT agents for dispersity control. This work targets fully recyclable, sustainable plastics. She has received an ERC grant and multiple early-career awards.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mat.ethz.ch/research/research-groups/polymeric-materials.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jan-vermant",
+          "name": "Jan Vermant",
+          "title": "Professor of Soft Materials",
+          "sub_field": "Soft Matter",
+          "tags": [
+            "Interfacial rheology",
+            "Complex fluids",
+            "Colloids",
+            "Emulsions & foams"
+          ],
+          "summary": "Vermant heads the Soft Materials group, studying the fundamentals and engineering of soft matter - colloids, polymers, surfactants, gels and biological membranes - with the rheology-structure-properties triangle at its core. He is a world leader in interfacial rheology, developing new instruments and analysis methods to probe the flow and thermodynamics of fluid interfaces, bilayers and particle-laden surfaces, informing stable emulsions, foams and coatings. Recent work spans microstructured suspensions, lung-surfactant mechanics and living/biological materials. He received the Weissenberg Award (2019) and Bingham Medal (2021).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://softmat.mat.ethz.ch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "manfred-fiebig",
+          "name": "Manfred Fiebig",
+          "title": "Professor of Multifunctional Ferroic Materials",
+          "sub_field": "Electronic & Photonic Materials",
+          "tags": [
+            "Multiferroics",
+            "Nonlinear optics",
+            "Ultrafast spectroscopy",
+            "Magnetoelectric coupling",
+            "Oxide heterostructures"
+          ],
+          "summary": "Fiebig leads the Laboratory for Multifunctional Ferroic Materials, investigating oxides where strong electron coupling produces novel ordering of spins and charges. His group studies multiferroics - simultaneously (anti)ferromagnetic, ferroelectric, ferroelastic or ferrotoroidic - and epitaxial thin-film heterostructures aimed at low-energy spintronics. Their core technique is nonlinear optical spectroscopy with pulsed lasers, used to image coexisting ferroic domains and to probe and ultrafast-switch ferroic order on femtosecond timescales. Recent work explores domain-wall functionality and light-driven control of magnetism. He received the Stern-Gerlach Medal in 2023.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ferroic.mat.ethz.ch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "pietro-gambardella",
+          "name": "Pietro Gambardella",
+          "title": "Professor of Magnetism and Interface Physics",
+          "sub_field": "Magnetic & Spintronic Materials",
+          "tags": [
+            "Spintronics",
+            "Spin-orbit torques",
+            "Magnetic memories (MRAM)",
+            "Thin-film heterostructures",
+            "Single-atom magnets"
+          ],
+          "summary": "Gambardella heads the Magnetism and Interface Physics group, an experimental effort on magnetic materials and devices for magnetoelectronics such as memories and sensors. His group pioneered current-induced spin-orbit torques, using them to electrically switch ferromagnetic and antiferromagnetic layers and magnetic tunnel junctions - a route to energy-efficient MRAM. Research spans the interplay of magnetism, spin-orbit coupling and electron transport in thin-film heterostructures, coupled nanomagnets and single-atom magnets, plus emerging orbitronics. Recent papers demonstrate spin-orbit-torque switching for memory and probe ultrafast current-induced magnetization dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://intermag.mat.ethz.ch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lucio-isa",
+          "name": "Lucio Isa",
+          "title": "Full Professor of Soft Materials and Interfaces",
+          "sub_field": "Soft Matter & Colloids",
+          "tags": [
+            "Colloids at interfaces",
+            "Active matter",
+            "Self-assembly",
+            "Nanoparticles",
+            "Dense suspensions"
+          ],
+          "summary": "Isa leads the Laboratory for Soft Materials and Interfaces, exploring the fundamental behaviour of colloidal particles and fluid interfaces to design new soft and active materials. His group studies nanoparticles at liquid-liquid and liquid-solid interfaces, develops raspberry-like colloids that stabilize both water-in-oil and oil-in-water emulsions, and builds micro-robotic active particles that adapt their shape and motion to their surroundings. Recent work covers interfacial self-assembly, the friction and jamming of dense suspensions, and reconfigurable colloidal machines. He holds an ERC Consolidator Grant (2020).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://isa.mat.ethz.ch/",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "boston-university-materials-science-and-engineering",
+      "university": "Boston University",
+      "program_name": "Materials Science & Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Photonic Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend, tuition, insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bu.edu/eng/academics/explore-degree-programs/phd-in-materials-science-engineering-mse/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "carnegie-mellon-university-ph-d-in-materials-science-and-engineering",
+      "university": "Carnegie Mellon University",
+      "program_name": "Ph.D. in Materials Science and Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Metallurgy",
+          "Nanomaterials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-06",
+        "deadline_display": "Jan 6, 2026 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental admission",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://mse.engineering.cmu.edu/education/graduate/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "cornell-university-materials-science-and-engineering-phd",
+      "university": "Cornell University",
+      "program_name": "Materials Science and Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Electronic Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.cornell.edu/graduate-school/materials-science-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #12",
+      "faculty": []
+    },
+    {
+      "id": "duke-university-ph-d-in-materials-science-and-engineering",
+      "university": "Duke University",
+      "program_name": "Ph.D. in Materials Science and Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Metamaterials"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.duke.edu/academics/programs-degrees/materials-science-and-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "georgia-institute-of-technology-materials-science-and-engineering-phd",
+      "university": "Georgia Institute of Technology",
+      "program_name": "Materials Science and Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Polymers",
+          "Nanomaterials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 95,
+        "fee_display": "$95 domestic / $105 international",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Recurring Dec 15 fall deadline (year not posted)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Funding prioritized for doctoral candidates"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.mse.gatech.edu/graduate/app-requirements"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-materials-science-and-engineering-phd",
+      "university": "Johns Hopkins University",
+      "program_name": "Materials Science and Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Soft Matter"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/materials-science-engineering/materials-science-engineering-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "lehigh-university-materials-science-and-engineering-phd",
+      "university": "Lehigh University",
+      "program_name": "Materials Science and Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Nanomaterials",
+          "Electron Microscopy",
+          "Polymers",
+          "Ceramics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 50,
+        "fee_display": "$50",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (all Rossin College PhDs 100% funded)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.lehigh.edu/mse/graduate/phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "massachusetts-institute-of-technology-program-in-polymers-and-soft-matter-phd",
+      "university": "Massachusetts Institute of Technology",
+      "program_name": "Program in Polymers and Soft Matter (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Polymers",
+          "Soft Matter",
+          "Materials Science"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Apply through a home department (BE/Chem/ChemE/DMSE/MechE)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Managed by home department"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://oge.mit.edu/programs/program-in-polymers-and-soft-matter/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #2",
+      "faculty": []
+    },
+    {
+      "id": "princeton-university-materials-science-and-engineering-ph-d",
+      "university": "Princeton University",
+      "program_name": "Materials Science and Engineering (Ph.D.)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Soft Materials",
+          "Electronic Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/materials-science-and-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #1",
+      "faculty": []
+    },
+    {
+      "id": "purdue-university-materials-engineering-phd",
+      "university": "Purdue University",
+      "program_name": "Materials Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Metallurgy",
+          "Soft Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 domestic / $75 intl",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.purdue.edu/MSE/academics/graduate"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "rutgers-university-new-brunswick-materials-science-and-engineering-phd",
+      "university": "Rutgers University-New Brunswick",
+      "program_name": "Materials Science and Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Ceramics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://mse.rutgers.edu/graduate-academics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "stanford-university-materials-science-and-engineering-phd",
+      "university": "Stanford University",
+      "program_name": "Materials Science and Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Electronic Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 125,
+        "fee_display": "$125",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://mse.stanford.edu/academics-admissions/graduate-admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    },
+    {
+      "id": "the-ohio-state-university-materials-science-and-engineering",
+      "university": "The Ohio State University",
+      "program_name": "Materials Science and Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Metallurgy"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (domestic) / $70 (international)",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Rolling admissions; no set deadline",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Complete Autumn application by Nov 30 for all funding eligibility; rolling review"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://mse.osu.edu/graduate-degrees-mse-and-we/prospective-graduate-students/application-requirements-mse-and-we"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
+      "faculty": []
+    },
+    {
+      "id": "the-ohio-state-university-welding-engineering",
+      "university": "The Ohio State University",
+      "program_name": "Welding Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Welding Engineering",
+          "Joining",
+          "Manufacturing"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (domestic) / $70 (international)",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Rolling admissions; no set deadline",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Complete Autumn application by Nov 30 for all funding eligibility; rolling review"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://mse.osu.edu/academics/welding-engineering-graduate-program"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-berkeley-materials-science-and-engineering-phd",
+      "university": "University of California, Berkeley",
+      "program_name": "Materials Science & Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanotechnology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.berkeley.edu/program/materials-science-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-davis-materials-science-and-engineering",
+      "university": "University of California, Davis",
+      "program_name": "Materials Science and Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Electronic Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 (US) / $155 (intl)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucdavis.edu/programs/gems"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-irvine-materials-science-and-engineering-ph-d",
+      "university": "University of California, Irvine",
+      "program_name": "Materials Science and Engineering, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Priority deadline Dec 15 (for funding), final deadline Feb 28",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.uci.edu/dept/mse/graduate"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-los-angeles-materials-science-and-engineering",
+      "university": "University of California, Los Angeles",
+      "program_name": "Materials Science and Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Electronic Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-09",
+        "deadline_display": "Dec 9, 2026",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/materials-science-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-san-diego-materials-science-and-engineering-phd",
+      "university": "University of California, San Diego",
+      "program_name": "Materials Science and Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Electronic Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-07",
+        "deadline_display": "Jan 7, 2026 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Merit-based fellowships/GSR/TA; top first-year PhD may get fellowships"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://matsci.ucsd.edu/admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #29",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-santa-barbara-materials-phd",
+      "university": "University of California, Santa Barbara",
+      "program_name": "Materials PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Semiconductors",
+          "Structural Materials",
+          "Soft Matter"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 ($155 intl)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.graddiv.ucsb.edu/graduate-programs/departments/materials"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #40",
+      "faculty": []
+    },
+    {
+      "id": "university-of-florida-materials-science-and-engineering",
+      "university": "University of Florida",
+      "program_name": "Materials Science and Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Electronic Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 30,
+        "fee_display": "$30",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-to-department PhD admission; fall only",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Departmental financial aid for complete-by-deadline applicants"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://mse.ufl.edu/admissions/mse-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-florida-nuclear-engineering-sciences",
+      "university": "University of Florida",
+      "program_name": "Nuclear Engineering Sciences",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Nuclear Engineering",
+          "Reactor Physics",
+          "Radiation"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-05",
+        "deadline_display": "Dec 5, 2026",
+        "application_fee_usd": 30,
+        "fee_display": "$30",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-to-department PhD admission",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "College assistantships; funding tied to Dec 5 priority deadline"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.eng.ufl.edu/graduate/prospects/ph-d-admissions/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-polymer-fiber-and-textile-sciences",
+      "university": "University of Georgia",
+      "program_name": "Polymer, Fiber, & Textile Sciences",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Polymer Science",
+          "Materials Science",
+          "Fiber Science"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-polymer-fiber-and-textile-sciences/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-illinois-urbana-champaign-materials-science-and-engineering-phd",
+      "university": "University of Illinois Urbana-Champaign",
+      "program_name": "Materials Science & Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Electronic Materials",
+          "Polymers"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Grainger PhD guaranteed funded appointment (tuition waiver + stipend) first 5 years"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://matse.illinois.edu/admissions/graduate/apply"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-maryland-college-park-materials-science-and-engineering-ph-d",
+      "university": "University of Maryland, College Park",
+      "program_name": "Materials Science and Engineering, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Energy Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-11",
+        "deadline_display": "Dec 11, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Teaching/research assistantships and fellowships; funding considered for Fall only"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://academiccatalog.umd.edu/graduate/programs/materials-science-engineering-enma/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-michigan-ann-arbor-materials-science-and-engineering-phd",
+      "university": "University of Michigan, Ann Arbor",
+      "program_name": "Materials Science and Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Electronic Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.engin.umich.edu/admissions-aid/graduate-professional/deadlines/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-north-carolina-at-chapel-hill-materials-science-phd",
+      "university": "University of North Carolina at Chapel Hill",
+      "program_name": "Materials Science (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Soft Matter",
+          "Nanotechnology",
+          "Applied Physics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-05-12",
+        "deadline_display": "May 12, 2026 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct department admission; department also participates in BBSP umbrella",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://aps.unc.edu/graduate-program-overview/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-pennsylvania-materials-science-and-engineering-phd",
+      "university": "University of Pennsylvania",
+      "program_name": "Materials Science and Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Soft Matter",
+          "Energy Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 2,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "PhD students typically fully funded (tuition, fees, stipend, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://mse.seas.upenn.edu/doctoral/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "university-of-rochester-phd-in-materials-science",
+      "university": "University of Rochester",
+      "program_name": "PhD in Materials Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Photonic Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Interdepartmental program admission",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.hajim.rochester.edu/matsci/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-texas-at-austin-materials-science-and-engineering",
+      "university": "University of Texas at Austin",
+      "program_name": "Materials Science and Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Energy Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 65,
+        "fee_display": "$65 (US) / $90 (international)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.tmi.utexas.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-virginia-materials-science-and-engineering-phd",
+      "university": "University of Virginia",
+      "program_name": "Materials Science and Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Structural Materials",
+          "Corrosion",
+          "Electronic Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 0,
+        "fee_display": "$0 (waived for 2026 admission cycle)",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct admission to department",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Most PhD students fully funded (tuition, fees, health insurance + stipend)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.virginia.edu/department/materials-science-and-engineering/academics/graduate-programs/phd-materials-science-and-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-washington-materials-science-and-engineering-phd",
+      "university": "University of Washington",
+      "program_name": "Materials Science & Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Semiconductors"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://depts.washington.edu/mse"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-wisconsin-madison-materials-science-and-engineering-phd",
+      "university": "University of Wisconsin-Madison",
+      "program_name": "Materials Science and Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Electronic Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://guide.wisc.edu/graduate/materials-science-engineering/materials-science-engineering-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "vanderbilt-university-interdisciplinary-materials-science-phd",
+      "university": "Vanderbilt University",
+      "program_name": "Interdisciplinary Materials Science (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Semiconductors"
+        ]
+      },
+      "requirements": {
+        "deadline": "2027-01-15",
+        "deadline_display": "Jan 15, 2027",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Interdisciplinary program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.vanderbilt.edu/materials-science/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "washington-university-in-st-louis-phd-in-materials-science-and-engineering",
+      "university": "Washington University in St. Louis",
+      "program_name": "PhD in Materials Science & Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Soft Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition + stipend)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://imse.washu.edu/graduate-program/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    }
+  ]
+}

@@ -1,0 +1,4707 @@
+{
+  "primary": "Physics",
+  "programs": [
+    {
+      "id": "mit-physics-phd",
+      "university": "Massachusetts Institute of Technology",
+      "program_name": "PhD in Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "Atomic, Molecular & Optical",
+          "Astrophysics & Cosmology",
+          "Particle & High-Energy",
+          "Quantum Information",
+          "Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "TOEFL (typ. iBT 100) or IELTS (typ. 7.0), Cambridge English, or Duolingo; waived for native speakers or a recent degree from an English-medium institution in the US/UK/Ireland/Canada/Australia/NZ.",
+        "admission_model": "Committee-Based",
+        "admission_model_note": "Applicants are admitted by a departmental admissions committee via holistic review routed by stated area of interest; students typically identify a research advisor during the first year through lab visits and research assistantships rather than being matched at admission.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "All PhD students are fully supported for the program's duration with tuition, a living stipend, and health insurance via fellowships and research/teaching assistantships."
+        },
+        "pre_application_contact": "Neutral / Not Required",
+        "contact_note": "Admission is by committee; contacting individual faculty before applying is not required and does not affect the decision.",
+        "ects": null,
+        "duration": "3-7 years (avg ~5.6)"
+      },
+      "links": {
+        "program": "https://physics.mit.edu/academic-programs/graduate-students/",
+        "admissions": "https://physics.mit.edu/academic-programs/graduate-students/graduate-admissions/"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "pablo-jarillo-herrero",
+          "name": "Pablo Jarillo-Herrero",
+          "title": "Cecil and Ida Green Professor of Physics",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "twisted bilayer graphene",
+            "moiré materials",
+            "superconductivity",
+            "2D materials",
+            "twistronics"
+          ],
+          "summary": "Jarillo-Herrero pioneered 'twistronics,' discovering superconductivity and correlated insulating states in magic-angle twisted bilayer graphene. Recent work (2024-2025) measured the superfluid stiffness of magic-angle twisted bilayer and trilayer graphene, revealing unconventional pairing, and explored topological superconductivity and quantum-geometric effects in moiré systems. His group also demonstrated on-chip multi-degree-of-freedom control of two-dimensional materials and studied plasmons and correlated phases in engineered van der Waals heterostructures. He was named a 2024 Clarivate Citation Laureate for this work.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://jarillo-herrero.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "senthil-todadri",
+          "name": "Senthil Todadri",
+          "title": "William and Emma Rogers Professor of Physics",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "quantum spin liquids",
+            "deconfined criticality",
+            "correlated electrons",
+            "topological phases",
+            "moiré theory"
+          ],
+          "summary": "Senthil develops theories of strongly correlated quantum matter beyond the Landau paradigm, including quantum spin liquids, deconfined quantum criticality, and non-Fermi-liquid metals. His recent work applies these ideas to moiré heterostructures, predicting ferromagnetism and quantum anomalous Hall effects later observed in twisted graphene experiments, and to the correlated and superconducting phases of magic-angle graphene. He continues to study continuous Mott transitions, fractionalized Fermi liquids, and the interplay of topology, gauge structure, and criticality in two-dimensional electron systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://senthil.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "wolfgang-ketterle",
+          "name": "Wolfgang Ketterle",
+          "title": "John D. MacArthur Professor of Physics",
+          "sub_field": "Atomic, Molecular & Optical Physics",
+          "tags": [
+            "ultracold atoms",
+            "Bose-Einstein condensates",
+            "superfluidity",
+            "dipolar atoms",
+            "ultracold molecules"
+          ],
+          "summary": "Ketterle, a 2001 Nobel laureate for Bose-Einstein condensation, studies ultracold atomic gases, superfluidity, spin physics, and ultracold molecules. Recent work (2024) realized a bilayer system of dipolar atoms separated by roughly 50 nanometers, probing dipolar interactions at unprecedented length scales. His group has investigated coherent and incoherent light scattering by single-atom wavepackets, probed quantum many-body dynamics via subsystem Loschmidt echoes, and developed high-density magneto-optical trapping of calcium monofluoride molecules for studies of ultracold chemistry and quantum simulation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.rle.mit.edu/people/wolfgang-ketterle/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nergis-mavalvala",
+          "name": "Nergis Mavalvala",
+          "title": "Curtis and Kathleen Marble Professor of Astrophysics; Dean of the School of Science",
+          "sub_field": "Astrophysics (Gravitational Waves)",
+          "tags": [
+            "gravitational waves",
+            "LIGO",
+            "quantum squeezing",
+            "optomechanics"
+          ],
+          "summary": "Mavalvala works on gravitational-wave detection with LIGO and on quantum measurement science. She and collaborators developed and deployed frequency-dependent squeezed light in LIGO, and in 2024 reported squeezing the detectors' quantum noise below the standard quantum limit, broadening sensitivity across the astrophysical frequency band. Her group also explores macroscopic quantum effects and optomechanical squeezing to prepare and measure mechanical oscillators near their quantum ground state, extending the reach of gravitational-wave observatories. She serves as Dean of MIT's School of Science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.mit.edu/faculty/nergis-mavalvala/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tracy-slatyer",
+          "name": "Tracy Slatyer",
+          "title": "Professor of Physics; Director, MIT Center for Theoretical Physics",
+          "sub_field": "Particle Astrophysics (Dark Matter Theory)",
+          "tags": [
+            "dark matter",
+            "indirect detection",
+            "Fermi bubbles",
+            "gamma-ray astrophysics",
+            "particle astrophysics"
+          ],
+          "summary": "Slatyer is a theoretical astrophysicist searching for signatures of dark matter in astrophysical and cosmological data. She co-discovered the 'Fermi bubbles,' giant gamma-ray structures above and below the galactic plane. Recent work develops precision predictions for photon signals from annihilating dark matter, models dark-sector forces and their imprint on the early universe and cosmic microwave background, and applies data-analysis and machine-learning methods to gamma-ray observations of the Galactic Center. She directs the MIT Center for Theoretical Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.mit.edu/faculty/tracy-slatyer/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "or-hen",
+          "name": "Or Hen",
+          "title": "Associate Professor of Physics",
+          "sub_field": "Nuclear Physics",
+          "tags": [
+            "nuclear physics",
+            "short-range correlations",
+            "EMC effect",
+            "neutron stars",
+            "electron scattering"
+          ],
+          "summary": "Hen studies short-range correlations (SRCs) in atomic nuclei: fleeting, high-momentum neutron-proton pairs probed by high-energy electron, photon, proton, and ion scattering. His group has linked SRCs to the nuclear EMC effect, connecting nucleon-structure modifications to two-nucleon dynamics, and extended measurements to neutrino scattering and dense nuclear matter. Recent work (2024-2025) measured SRCs via bremsstrahlung gamma-ray emission in heavy-ion collisions and examined three-body correlations and their consequences for the neutron-star equation of state.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.hen-lab.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "soonwon-choi",
+          "name": "Soonwon Choi",
+          "title": "Victor F. Weisskopf Associate Professor of Physics",
+          "sub_field": "Quantum Information",
+          "tags": [
+            "quantum information",
+            "many-body dynamics",
+            "quantum chaos",
+            "deep thermalization",
+            "quantum simulation"
+          ],
+          "summary": "Choi is a theorist studying far-from-equilibrium dynamics of strongly interacting quantum many-body systems and their applications to quantum information. He predicted and helped observe the emergence of universal random-state ensembles ('deep thermalization') under natural Hamiltonian dynamics, enabling efficient benchmarking of quantum simulators via many-body quantum chaos. His recent work analyzes measurement-induced phase transitions in the dynamics of quantum information and designs protocols for quantum sensing, simulation, and error correction using programmable atom arrays and other platforms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://schoi.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nikta-fakhri",
+          "name": "Nikta Fakhri",
+          "title": "Professor of Physics",
+          "sub_field": "Biophysics",
+          "tags": [
+            "active matter",
+            "non-equilibrium physics",
+            "biophysics",
+            "living systems",
+            "self-organization"
+          ],
+          "summary": "Fakhri leads the Physics of Living Systems group, studying active, non-equilibrium matter from molecules to cells to whole organisms. Her group uses starfish oocytes and embryos as model systems to reveal how microscopic, energy-consuming fluctuations produce macroscopic symmetry breaking, including odd elasticity and chiral 'active crystals' of spinning embryos. She pioneered fluorescent single-walled carbon nanotubes as probes of intracellular mechanics and develops theoretical frameworks connecting broken time-reversal symmetry, entropy production, and pattern formation in living matter.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.fakhrilab.com/",
+            "scholar": "https://scholar.google.com/citations?user=L4MWW8wAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "anna-frebel",
+          "name": "Anna Frebel",
+          "title": "Professor of Physics, Division Head for Astrophysics",
+          "sub_field": "Astrophysics (Stellar Archaeology)",
+          "tags": [
+            "stellar archaeology",
+            "metal-poor stars",
+            "nucleosynthesis",
+            "r-process",
+            "galactic chemical evolution"
+          ],
+          "summary": "Frebel practices 'stellar archaeology,' using high-resolution spectroscopy of the oldest, most metal-poor stars in the Milky Way halo and nearby dwarf galaxies to reconstruct chemical conditions in the early universe. Her measurements of individual stars over 12 billion years old constrain the first stars, supernova nucleosynthesis yields, and the r-process that forges heavy elements. Recent work characterizes r-process-enhanced stars and dwarf-galaxy chemical evolution, probing early star formation and the assembly history of the Galaxy and its satellites.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.space.mit.edu/people/anna-frebel/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "liang-fu",
+          "name": "Liang Fu",
+          "title": "Professor of Physics",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "topological materials",
+            "moire systems",
+            "correlated electrons",
+            "superconductivity",
+            "quantum geometry"
+          ],
+          "summary": "Fu is a condensed matter theorist known for co-predicting topological crystalline insulators and advancing the theory of topological superconductivity and Majorana states. His recent work explores fractional quantum anomalous Hall states and correlated phases in moire and twisted transition-metal-dichalcogenide bilayers, the role of quantum geometry and Berry curvature in flat-band physics, and unconventional superconductivity. He also develops ideas connecting band topology, ferroelectricity, and nonlinear optical and transport responses in quantum materials for potential device applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.mit.edu/faculty/liang-fu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joseph-checkelsky",
+          "name": "Joseph Checkelsky",
+          "title": "Professor of Physics",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "quantum materials",
+            "kagome lattices",
+            "flat bands",
+            "geometric frustration",
+            "topology"
+          ],
+          "summary": "Checkelsky's group synthesizes and measures crystalline quantum materials to uncover exotic electronic states arising from topology and geometric frustration. His team pioneered kagome-lattice metals hosting flat electronic bands and recently reported realizing a flat band in a three-dimensional crystal, a route toward strong correlations and possible superconductivity. Recent work includes evidence of striped electronic phases in structurally modulated superlattices and studies linking flat bands, strange-metal behavior, and the Kondo effect, aiming to engineer materials with tailored quantum functionality.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.mit.edu/faculty/joseph-checkelsky/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "martin-zwierlein",
+          "name": "Martin Zwierlein",
+          "title": "Thomas A. Frank (1977) Professor of Physics",
+          "sub_field": "Atomic, Molecular and Optical Physics",
+          "tags": [
+            "ultracold atoms",
+            "Fermi gases",
+            "quantum simulation",
+            "superfluidity",
+            "quantum gas microscopy"
+          ],
+          "summary": "Zwierlein studies strongly interacting ultracold Fermi gases as tunable analogs of complex quantum matter. His group uses quantum gas microscopy to image individual fermionic atoms in optical lattices, probing Hubbard-model physics, pairing, and transport relevant to high-temperature superconductivity. Recent efforts include creating and cooling ultracold polar molecules toward molecular quantum computing and simulation, measuring universal thermodynamics and spin transport in unitary Fermi gases, and directly visualizing pairing and magnetic correlations to test theories of correlated fermion systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.mit.edu/faculty/martin-zwierlein/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "vladan-vuletic",
+          "name": "Vladan Vuletic",
+          "title": "Lester Wolfe Professor of Physics",
+          "sub_field": "Atomic, Molecular and Optical Physics",
+          "tags": [
+            "quantum optics",
+            "neutral-atom arrays",
+            "entanglement",
+            "quantum metrology",
+            "Rydberg atoms"
+          ],
+          "summary": "Vuletic works at the interface of quantum optics and quantum information with atoms and light. His group generates spin-squeezed and entangled atomic ensembles to push optical atomic clocks and sensors beyond the standard quantum limit. Working with neutral-atom and Rydberg-array platforms, his collaborations have demonstrated programmable quantum simulators and, more recently, logical qubits and error-corrected operations in reconfigurable atom arrays. He also studies strong photon-photon interactions mediated by atoms, building toward scalable quantum networks and computation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.mit.edu/faculty/vladan-vuletic/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sara-seager",
+          "name": "Sara Seager",
+          "title": "Professor of Physics; Professor of Aeronautics and Astronautics; Class of 1941 Professor of Planetary Science",
+          "sub_field": "Astrophysics / Exoplanets",
+          "tags": [
+            "exoplanets",
+            "planetary atmospheres",
+            "biosignatures",
+            "astrobiology",
+            "space missions"
+          ],
+          "summary": "Seager is a leader in exoplanet science, pioneering theory of exoplanet atmospheres, interiors, and the search for signs of life on worlds beyond the Solar System. She develops frameworks for identifying atmospheric biosignature gases and studies how starlight interacts with planetary atmospheres. She has led and contributed to space missions including TESS and small satellites, and continues designing concepts for directly imaging Earth-like planets. Recent work spans candidate biosignatures, exoplanet atmosphere characterization, and instrumentation for future missions to detect habitable environments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.saraseager.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "erin-kara",
+          "name": "Erin Kara",
+          "title": "Associate Professor of Physics",
+          "sub_field": "Astrophysics / High-Energy",
+          "tags": [
+            "black holes",
+            "X-ray reverberation",
+            "accretion",
+            "tidal disruption events",
+            "AXIS mission"
+          ],
+          "summary": "Kara is an observational astrophysicist studying how black holes grow and shape their surroundings. She advanced X-ray reverberation mapping, using time lags between X-ray light echoes off infalling gas to map accretion flows and probe strongly curved spacetime near event horizons. Her group analyzes black hole X-ray binaries, active galactic nuclei, tidal disruption events, and quasi-periodic eruptions using missions such as NICER. She serves as deputy principal investigator for the proposed AXIS X-ray probe mission concept targeting a 2030s launch.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.erinkara.space/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "iain-stewart",
+          "name": "Iain Stewart",
+          "title": "Otto (1939) and Jane Morningstar Professor of Science",
+          "sub_field": "Particle Theory",
+          "tags": [
+            "effective field theory",
+            "QCD",
+            "collider physics",
+            "jets",
+            "soft-collinear EFT"
+          ],
+          "summary": "Stewart is a theoretical particle physicist and a founder of soft-collinear effective theory, a framework for describing energetic quarks and gluons in QCD. His research develops precision predictions for collider observables at the LHC, including jet substructure, event shapes, and factorization theorems that separate physics across energy scales. Recent work refines high-precision extractions of Standard Model parameters such as the strong coupling and top-quark mass, and applies effective field theory methods to jets, resummation, and searches for new physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.mit.edu/faculty/iain-stewart/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "phiala-shanahan",
+          "name": "Phiala Shanahan",
+          "title": "Professor of Physics",
+          "sub_field": "Nuclear Theory",
+          "tags": [
+            "lattice QCD",
+            "machine learning",
+            "hadron structure",
+            "nuclear physics",
+            "gluons"
+          ],
+          "summary": "Shanahan is a nuclear and particle theorist using lattice quantum chromodynamics to compute the structure of hadrons and light nuclei from first principles. She pioneers physics-informed machine learning, embedding gauge and spacetime symmetries into generative models to sample high-dimensional lattice field-theory distributions far more efficiently than conventional methods. Her group achieved early calculations of the gluon structure of nuclei and studies the origin of nuclear properties, supporting interpretation of experiments at facilities including the future Electron-Ion Collider.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.mit.edu/faculty/phiala-shanahan/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "janet-conrad",
+          "name": "Janet Conrad",
+          "title": "Professor of Physics",
+          "sub_field": "Experimental Neutrino Physics",
+          "tags": [
+            "neutrinos",
+            "sterile neutrinos",
+            "oscillations",
+            "MiniBooNE",
+            "IceCube"
+          ],
+          "summary": "Conrad is an experimental particle physicist searching for new physics in the neutrino sector. She has led and contributed to accelerator and detector experiments including MiniBooNE, MicroBooNE, and IceCube, investigating anomalies that could signal light sterile neutrinos beyond the three known flavors. Her group develops the IsoDAR concept, a compact cyclotron-driven decay-at-rest source designed for definitive sterile-neutrino and precision electroweak searches. Recent work spans global fits to oscillation data, detector R&D, and interpretation of persistent short-baseline anomalies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.mit.edu/faculty/janet-conrad/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "william-oliver",
+          "name": "William Oliver",
+          "title": "Professor of Physics; Henry Ellis Warren (1894) Professor of Electrical Engineering and Computer Science",
+          "sub_field": "Quantum Information Science",
+          "tags": [
+            "superconducting qubits",
+            "quantum computing",
+            "fluxonium",
+            "quantum control",
+            "quantum error correction"
+          ],
+          "summary": "Oliver leads MIT's Engineering Quantum Systems group, developing superconducting qubits and the materials, fabrication, and control systems needed for scalable quantum processors. His team studies coherence-limiting noise, high-fidelity gates, and architectures for modular and chiplet-based quantum computers. Recent work demonstrated commensurate-pulse control that suppresses counter-rotating errors in low-frequency fluxonium qubits, enabling faster, more accurate operations, and advanced fast, high-fidelity two-qubit gates. He also directs MIT quantum-engineering initiatives bridging campus and Lincoln Laboratory toward fault-tolerant quantum computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://equs.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeff-gore",
+          "name": "Jeff Gore",
+          "title": "Professor of Physics",
+          "sub_field": "Biophysics",
+          "tags": [
+            "microbial ecology",
+            "population dynamics",
+            "ecological stability",
+            "evolution",
+            "complex systems"
+          ],
+          "summary": "Gore applies quantitative experimental and theoretical physics to living systems, using laboratory microbial communities as tractable models of ecology and evolution. His group tests theories of population dynamics, cooperation, and cheating, mapping how interactions produce stability, tipping points, and early-warning signals before ecosystem collapse. Recent work explores how diversity, coexistence, and emergent phases arise in communities of many species, drawing analogies to statistical-physics phase transitions and probing rules that govern assembly, resilience, and evolutionary dynamics in complex biological systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.mit.edu/faculty/jeff-gore/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "miklos-porkolab",
+          "name": "Miklos Porkolab",
+          "title": "Professor of Physics, Post-Tenure",
+          "sub_field": "Plasma Physics",
+          "tags": [
+            "magnetic fusion",
+            "plasma waves",
+            "turbulence",
+            "RF heating",
+            "tokamaks"
+          ],
+          "summary": "Porkolab is a plasma physicist focused on magnetically confined fusion and the fundamental physics of hot plasmas. He founded and long directed MIT's Plasma Science and Fusion Center research on wave-plasma interactions, radio-frequency heating and current drive, parametric instabilities, and turbulence-driven transport in tokamaks. His group develops advanced microwave and laser scattering diagnostics to measure plasma fluctuations, validating turbulence models on devices such as Alcator C-Mod and DIII-D and informing the physics basis for burning-plasma experiments including ITER and compact high-field fusion concepts.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.mit.edu/faculty/miklos-porkolab/",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "cambridge-cavendish-physics-phd",
+      "university": "University of Cambridge",
+      "program_name": "PhD in Physics (Cavendish Laboratory)",
+      "degree_type": "PhD",
+      "region": "UK",
+      "country": "United Kingdom",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "Quantum Information",
+          "Astrophysics & Cosmology",
+          "Particle & High-Energy",
+          "Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "~Dec 2026 / early Jan 2027 funding rounds; course closes later — 2027 dates not yet published, verify",
+        "application_fee_usd": 25,
+        "fee_display": "£20",
+        "gre": "Not Accepted",
+        "letters": 2,
+        "english": "IELTS Academic 7.0 overall (min 7.0 listening/writing/speaking, 6.5 reading) or TOEFL iBT 100 (min 25 in each element); some English-medium academic backgrounds may be exempt.",
+        "admission_model": "Direct Advisor Match",
+        "admission_model_note": "Applicants apply to a specific research group and a named supervisor must agree to supervise before an offer is made; identifying and contacting a prospective supervisor beforehand is encouraged.",
+        "funding": {
+          "status": "Partial / Merit-Based",
+          "years": 4,
+          "note": "Funding is competitive via scholarships (Cambridge Trust, Gates Cambridge, EPSRC/STFC studentships, and Cavendish/college awards); one application is considered for most schemes but funding is not guaranteed."
+        },
+        "pre_application_contact": "Encouraged",
+        "contact_note": "Applicants are encouraged to identify and contact a prospective supervisor or research group before applying.",
+        "ects": null,
+        "duration": "3-4 years"
+      },
+      "links": {
+        "program": "https://www.phy.cam.ac.uk/study/postgraduate/programmes/phd-in-physics/",
+        "admissions": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphpdphy"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "mete-atature",
+          "name": "Mete Atatüre",
+          "title": "Professor of Physics (Head of Department)",
+          "sub_field": "Quantum Information & Control",
+          "tags": [
+            "quantum optics",
+            "spin qubits",
+            "2D materials",
+            "single photons",
+            "quantum networks"
+          ],
+          "summary": "Atatüre leads the Quantum Information and Control group and is Head of the Cavendish. His experimental work builds light-matter quantum interfaces in solids for quantum-network hardware, using single spins in semiconductor quantum dots and colour centres in diamond and hexagonal boron nitride. Recent efforts focus on optically active spin qubits and single-photon sources in atomically thin 2D materials and van der Waals heterostructures, nanoscale quantum sensing and imaging, and generating spin-photon entanglement for distributed quantum communication.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-mete-atature/",
+            "scholar": "https://scholar.google.com/citations?user=Yn5idQMAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "suchitra-sebastian",
+          "name": "Suchitra Sebastian",
+          "title": "Professor of Physics",
+          "sub_field": "Quantum Matter",
+          "tags": [
+            "quantum matter",
+            "superconductivity",
+            "high magnetic fields",
+            "quantum oscillations",
+            "correlated electrons"
+          ],
+          "summary": "Sebastian leads the Fundamental Physics of Quantum Matter group, creating and probing complex correlated materials under extreme conditions of ultra-low temperature, intense magnetic fields, and high pressure. Using quantum-oscillation and transport measurements, her recent work has uncovered an unconventional insulating state that unexpectedly displays metal-like quantum oscillations, explored unconventional and high-temperature superconductivity, and searched for exotic emergent phases in Kondo insulators and strongly correlated electron systems. She was awarded the 2022 New Horizons in Physics Prize for this research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-suchitra-sebastian/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "claudio-castelnovo",
+          "name": "Claudio Castelnovo",
+          "title": "Professor of Theoretical Physics",
+          "sub_field": "Theory of Condensed Matter",
+          "tags": [
+            "frustrated magnetism",
+            "spin ice",
+            "topological order",
+            "many-body dynamics",
+            "quantum spin liquids"
+          ],
+          "summary": "Castelnovo is a Professor of Theoretical Physics in the Theory of Condensed Matter group. His research addresses emergent and out-of-equilibrium phenomena in strongly correlated many-body systems, notably frustrated magnets and spin ice, where he helped predict emergent magnetic monopoles. Recent work spans the slow relaxation and dynamics of spin-ice materials, fractionalised excitations and topological order, quantum spin liquids, and how disorder and non-equilibrium driving shape quantum matter, increasingly connecting these ideas to quantum simulation and quantum information.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-claudio-castelnovo/",
+            "scholar": "https://scholar.google.com/citations?user=NXQcu4wAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "roberto-maiolino",
+          "name": "Roberto Maiolino",
+          "title": "Professor of Experimental Astrophysics",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "galaxy evolution",
+            "supermassive black holes",
+            "JWST",
+            "early universe",
+            "instrumentation"
+          ],
+          "summary": "Maiolino is Professor of Experimental Astrophysics and a Royal Society Research Professor studying galaxy formation and the growth of supermassive black holes in the early Universe. He co-leads JWST-NIRSpec guaranteed-time surveys and has recently reported some of the earliest and most distant galaxies and black holes yet found, including candidate direct-collapse black holes and unexpectedly chemically enriched primordial systems. His group also works on galaxy chemical evolution, outflows and star-formation quenching, and instrumentation for JWST, the VLT and the ELT.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/directory/maiolinor",
+            "scholar": "https://scholar.google.com/citations?user=MyqMuWEAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "paula-alvarez-cartelle",
+          "name": "Paula Álvarez Cartelle",
+          "title": "Associate Professor",
+          "sub_field": "High Energy Physics",
+          "tags": [
+            "LHCb",
+            "flavour physics",
+            "rare B decays",
+            "Standard Model tests",
+            "CERN"
+          ],
+          "summary": "Álvarez Cartelle is an Associate Professor in the High Energy Physics group and a member of the LHCb collaboration at CERN's Large Hadron Collider. Her research centres on precision tests of the Standard Model through rare b-quark decays, particularly b to s(d) dilepton transitions that probe lepton-flavour universality and potential new physics. She led Cambridge's LHCb team from 2022 to 2025 and works on flavour-physics measurements and detector operations exploiting the high-statistics datasets delivered by LHC Run 3.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/dr-paula-alvarez-cartelle/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "akshay-rao",
+          "name": "Akshay Rao",
+          "title": "Professor of Physics",
+          "sub_field": "Optoelectronics",
+          "tags": [
+            "ultrafast spectroscopy",
+            "perovskites",
+            "organic semiconductors",
+            "singlet fission",
+            "energy materials"
+          ],
+          "summary": "Rao is a Professor of Physics leading optoelectronics and energy-materials research at the Cavendish and Maxwell Centre. His group uses ultrafast optical spectroscopy and microscopy to map electronic, structural and transport dynamics in organic semiconductors, metal-halide perovskites and other energy materials with high spatial and temporal precision. Recent work includes singlet fission for enhanced photovoltaics, long-range triplet and charge transport, and photon multiplication; he co-founded Cambridge Photon Technology and Illumion to commercialise these advances.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-akshay-rao/",
+            "scholar": "https://scholar.google.com/citations?user=ZUM0sVEAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "sarah-bohndiek",
+          "name": "Sarah Bohndiek",
+          "title": "Professor of Biomedical Physics",
+          "sub_field": "Physics of Life",
+          "tags": [
+            "biomedical imaging",
+            "photoacoustics",
+            "cancer detection",
+            "hyperspectral endoscopy",
+            "optics"
+          ],
+          "summary": "Bohndiek is Professor of Biomedical Physics, jointly appointed with the CRUK Cambridge Institute, and leads the VISION lab within the Physics of Life theme. Her group develops low-cost optics and photonics for early cancer detection, especially photoacoustic imaging and hyperspectral endoscopy to interrogate tumour vasculature, oxygenation and the microenvironment. Recent efforts translate these methods toward the clinic, including endoscopic detection of oesophageal disease, and use imaging to track tumour evolution and metabolic changes during cancer progression.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-sarah-bohndiek/",
+            "scholar": "https://scholar.google.com/citations?user=E2Zre_oAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "jeremy-baumberg",
+          "name": "Jeremy Baumberg",
+          "title": "Harold Aspden Professor of Fundamental Physics",
+          "sub_field": "NanoPhotonics",
+          "tags": [
+            "nanophotonics",
+            "plasmonics",
+            "picocavities",
+            "SERS",
+            "metamaterials"
+          ],
+          "summary": "Baumberg, the Harold Aspden Professor of Fundamental Physics, directs the NanoPhotonics Centre and the NanoDTC. His group studies strong light-matter coupling at the nanoscale, using plasmonic nanostructures and 'picocavities' that confine light to sub-nanometre volumes for single-molecule and single-atom spectroscopy and chemistry. Recent work spans molecular optomechanics, real-time SERS tracking of chemical reactions, tunable nanoparticle-on-mirror architectures, self-assembled metamaterials, and scalable approaches to nanophotonic devices, bridging fundamental optics with applications in sensing, catalysis and energy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-jeremy-baumberg/",
+            "scholar": "https://scholar.google.com/citations?user=cwuj3YUAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "sian-dutton",
+          "name": "Siân Dutton",
+          "title": "Professor of Physics and Solid-State Chemistry",
+          "sub_field": "Quantum Matter",
+          "tags": [
+            "energy materials",
+            "batteries",
+            "frustrated magnets",
+            "magnetocalorics",
+            "solid-state chemistry"
+          ],
+          "summary": "Dutton is a Professor of Physics and Solid-State Chemistry in the Quantum Matter group and Director of the Winton Programme for the Physics of Sustainability. Her multidisciplinary group synthesises and characterises functional inorganic materials, linking composition and structure to physical properties. Recent research targets energy materials, including new cathodes for lithium- and sodium-ion batteries, alongside geometrically frustrated magnets, hybrid perovskites, and low-temperature magnetocaloric materials for magnetic refrigeration, combining crystal chemistry with magnetometry, neutron scattering and low-temperature measurements.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-sian-dutton/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nicola-marzari",
+          "name": "Nicola Marzari",
+          "title": "Cavendish Professor of Physics",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "computational materials",
+            "electronic structure",
+            "condensed matter theory",
+            "machine learning",
+            "materials discovery"
+          ],
+          "summary": "Marzari, elected Cavendish Professor of Physics, is a computational condensed-matter physicist developing electronic-structure theory, transport methods, and data-driven materials discovery. His group builds first-principles quantum-mechanical simulations to predict and design the properties of complex materials, pioneering maximally-localized Wannier functions and open infrastructures such as Quantum ESPRESSO, AiiDA, and the Materials Cloud. Recent work integrates machine learning and AI into high-throughput screening for energy materials, topological insulators, and two-dimensional systems. He received the 2026 APS David Adler Award in Materials Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-nicola-marzari/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "henning-sirringhaus",
+          "name": "Henning Sirringhaus",
+          "title": "Hitachi Professor of Electron Device Physics",
+          "sub_field": "Condensed Matter / Optoelectronics",
+          "tags": [
+            "organic semiconductors",
+            "spintronics",
+            "optoelectronics",
+            "charge transport",
+            "flexible electronics"
+          ],
+          "summary": "Sirringhaus, Hitachi Professor of Electron Device Physics and a Royal Society Research Professor, leads the Optoelectronics group studying charge and spin transport and photophysics of organic and solution-processed inorganic semiconductors, including halide perovskites. Recent work uses field-induced electron spin resonance to probe spin-charge dynamics, and examines non-equilibrium transport in polymer mixed ionic-electronic conductors at ultrahigh charge densities. His group targets spin relaxation, spin-to-charge conversion, and doping strategies that improve organic semiconductor performance for flexible electronics, spintronics, and bioelectronic devices.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-henning-sirringhaus/",
+            "scholar": "https://scholar.google.com/citations?user=KYBKt50AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "zoran-hadzibabic",
+          "name": "Zoran Hadzibabic",
+          "title": "Professor of Physics",
+          "sub_field": "Atomic, Mesoscopic & Optical Physics (AMOP)",
+          "tags": [
+            "ultracold atoms",
+            "quantum gases",
+            "superfluidity",
+            "non-equilibrium",
+            "wave turbulence"
+          ],
+          "summary": "Hadzibabic leads an AMOP experimental group using ultracold nanokelvin quantum gases in optical box traps as clean, homogeneous platforms for many-body physics. Interests span superfluidity, reduced dimensionality, and far-from-equilibrium dynamics. Recent Nature work established a universal equation of state for wave turbulence in a quantum gas, alongside studies of turbulent cascades, driven disordered gases, and universal coarsening. The box-trap approach simplifies comparison with theory and enables qualitatively new experiments on non-equilibrium phenomena that remain hard to understand elsewhere.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-zoran-hadzibabic/",
+            "scholar": "https://scholar.google.com/citations?user=44myIR8AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "ulrich-keyser",
+          "name": "Ulrich Keyser",
+          "title": "Professor of Applied Physics",
+          "sub_field": "Biological & Soft Matter Physics",
+          "tags": [
+            "nanopores",
+            "single-molecule sensing",
+            "DNA nanotechnology",
+            "biophysics",
+            "biosensing"
+          ],
+          "summary": "Keyser, Professor of Applied Physics, works at the interface of physics, chemistry, and the life sciences, developing single-molecule sensing with solid-state and DNA nanopores. His group engineers digitally encoded DNA nanostructures and dumbbell nanoswitches for highly multiplexed detection of nucleic acids, proteins, and bacterial identification, integrable into small, portable devices. Recent work advances DNA nanopore design, self-assembled molecular sensors, and optical-tweezers control of DNA translocation. He also serves as Director of Graduate Education at the Cavendish Laboratory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-ulrich-keyser/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "eugene-terentjev",
+          "name": "Eugene Terentjev",
+          "title": "Professor of Polymer Physics",
+          "sub_field": "Biological & Soft Matter Physics",
+          "tags": [
+            "soft matter",
+            "liquid crystal elastomers",
+            "polymer physics",
+            "biophysics",
+            "active materials"
+          ],
+          "summary": "Terentjev, Professor of Polymer Physics, studies the structure and dynamics of complex soft materials, including polymers, liquid crystals, and colloids, with growing impact on molecular and cell biophysics. He is a foundational figure in liquid crystal elastomers, co-authoring the standard monograph with the late Mark Warner. Recent work covers liquid-crystal elastomer actuators and sensors, mechanobiology of the cytoskeleton, protein folding, and self-assembly. His group couples theory with a purpose-built chemistry lab to advance stimuli-responsive and programmable materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-eugene-terentjev/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "russell-cowburn",
+          "name": "Russell Cowburn",
+          "title": "Professor of Physics",
+          "sub_field": "Condensed Matter / Nanomagnetism",
+          "tags": [
+            "nanomagnetism",
+            "spintronics",
+            "3D nanomagnetism",
+            "data storage",
+            "magnetic devices"
+          ],
+          "summary": "Cowburn FRS returned to Cambridge in 2010 and researches nanoscale magnetism and spintronics, pioneering three-dimensional nanomagnetic systems. His group studies magnetic solitons and domain walls in multilayered synthetic antiferromagnets as data carriers for vertical, 3D data transfer, plus interconnected magnetic nanowire networks as candidate multistate memristors. Applications target low-energy computing, ultrahigh-density storage, and healthcare devices. A prolific inventor with many patents and start-ups, he bridges fundamental magnetization dynamics with commercial nanotechnology and anti-counterfeiting security.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/directory/cowburnr",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sandro-tacchella",
+          "name": "Sandro Tacchella",
+          "title": "Assistant Professor of Extragalactic Astrophysics",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "galaxy formation",
+            "JWST",
+            "extragalactic astrophysics",
+            "early universe",
+            "star formation"
+          ],
+          "summary": "Tacchella, Assistant Professor of Extragalactic Astrophysics and a member of the Kavli Institute for Cosmology, investigates how the first galaxies formed, how bulges and disks assemble, and how star formation shuts down in massive galaxies. He plays a key role in JWST NIRCam data processing and early-universe surveys. Recent 2025 work analyzing hundreds of low-mass galaxies shows early galaxies were turbulent and dynamically unsettled, growing through frequent mergers and bursts of star formation rather than smooth, orderly assembly.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.astro.phy.cam.ac.uk/staff/dr-sandro-tacchella",
+            "scholar": null
+          }
+        },
+        {
+          "id": "eloy-de-lera-acedo",
+          "name": "Eloy de Lera Acedo",
+          "title": "Professor of Radioastronomy",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "21-cm cosmology",
+            "radio astronomy",
+            "cosmic dawn",
+            "REACH",
+            "SKA"
+          ],
+          "summary": "De Lera Acedo, Professor of Radioastronomy, heads Cavendish Radio Astronomy and Cosmology, studying the infant Universe through the redshifted hyperfine 21-cm line from primordial hydrogen. He is international PI of the REACH experiment and the CosmoCube space mission, targeting the Dark Ages, Cosmic Dawn, and Epoch of Reionization. He leads Cambridge SKA development activities and sits on the HERA executive board. Recent work advances antenna design, foreground modeling, and receiver calibration needed to extract these extremely faint cosmological signals.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/directory/dr-eloy-de-lera-acedo",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tina-potter",
+          "name": "Tina Potter",
+          "title": "Professor of High Energy Physics",
+          "sub_field": "High Energy Physics",
+          "tags": [
+            "high energy physics",
+            "ATLAS",
+            "dark matter",
+            "supersymmetry",
+            "LHC"
+          ],
+          "summary": "Potter, Professor of High Energy Physics, searches for physics beyond the Standard Model using the ATLAS detector at the LHC. Her research focuses on dark matter and supersymmetry, hunting for new particles produced in high-energy proton collisions and developing novel analysis techniques to isolate subtle signatures from overwhelming Standard Model backgrounds. She holds ATLAS experiment leadership responsibilities within the Cambridge group. Her work combines collider phenomenology, detector understanding, and statistical methods to constrain candidate explanations for dark matter.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/directory/dr-tina-potter",
+            "scholar": null
+          }
+        },
+        {
+          "id": "crispin-barnes",
+          "name": "Crispin Barnes",
+          "title": "Professor of Quantum Physics",
+          "sub_field": "Quantum Physics / Condensed Matter",
+          "tags": [
+            "quantum information",
+            "spin qubits",
+            "thin-film magnetism",
+            "quantum devices",
+            "molecular beam epitaxy"
+          ],
+          "summary": "Barnes, Professor of Quantum Physics, leads the Thin Film Magnetism and Quantum Information groups, with interests spanning quantum information theory, spintronics, materials science, and beyond. He operates bespoke molecular-beam-epitaxy, cleanroom, and low-temperature facilities to grow and measure magnetic oxides, topological insulators, and quantum devices. Recent work addresses fast, pulse-based state preparation in silicon spin qubits, deriving minimal evolution times for high-fidelity control. His eclectic program also touches environmental physics and financial modeling alongside solid-state quantum device engineering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-crispin-barnes/",
+            "scholar": "https://scholar.google.com/citations?user=m9thVwgAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "anton-souslov",
+          "name": "Anton Souslov",
+          "title": "Associate Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "active matter",
+            "metamaterials",
+            "topological mechanics",
+            "soft matter theory",
+            "condensed matter theory"
+          ],
+          "summary": "Souslov, Associate Professor in the Theory of Condensed Matter group, develops theories of soft and active materials, mechanical metamaterials, topological states, and polymer physics. He combines motors with elastic elements to describe self-driven, shape-changing matter, and uses topological band theory to design exotic classical waves, including the first optical fiber guiding light via a topological state. Recent work explores topological active matter, odd elasticity, and non-reciprocal mechanics, revealing robust edge modes and unusual responses in driven, out-of-equilibrium systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/dr-anton-souslov/",
+            "scholar": "https://scholar.google.com/citations?user=bFwvizEAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "didier-queloz",
+          "name": "Didier Queloz",
+          "title": "Jacksonian Professor of Natural Philosophy",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "exoplanets",
+            "habitability",
+            "origins of life",
+            "radial velocity",
+            "astrophysics"
+          ],
+          "summary": "Queloz, Jacksonian Professor of Natural Philosophy and 2019 Nobel laureate for the first detection of an exoplanet around a Sun-like star, now leads efforts to detect Earth-like planets and assess their habitability. He directs the Leverhulme Centre for Life in the Universe, integrating astrophysics, chemistry, and biology to study the origins and prevalence of life. Recent work advances radial-velocity and transit instrumentation, atmospheric characterization of small planets, and interdisciplinary programs connecting exoplanet discovery to prebiotic chemistry and biosignatures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.phy.cam.ac.uk/profile/prof-didier-queloz/",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "eth-zurich-physics-doctorate",
+      "university": "ETH Zürich (Swiss Federal Institute of Technology Zurich)",
+      "program_name": "Doctorate in Physics (Dr. sc. ETH Zürich)",
+      "degree_type": "PhD",
+      "region": "Europe",
+      "country": "Switzerland",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "Quantum Information",
+          "Atomic, Molecular & Optical",
+          "Particle & High-Energy",
+          "Astrophysics & Cosmology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Rolling — no fixed deadline (apply once a supervising professor offers a position)",
+        "application_fee_usd": null,
+        "fee_display": "No formal application fee (one-time doctoral tuition ~CHF 1,500)",
+        "gre": "Not Accepted",
+        "letters": 2,
+        "english": "No standard department-level English test required; English proficiency and language of supervision are assessed by the hiring professor — verify.",
+        "admission_model": "Direct Advisor Match",
+        "admission_model_note": "You must first secure a professor at ETH Zürich willing to offer you a doctoral position; applications go directly to individual research groups and admission follows from that arrangement.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "Doctoral researchers are employed with a salary (standard gross ~CHF 61,300 in year 1, rising annually) rather than paying tuition beyond a one-time ~CHF 1,500 fee."
+        },
+        "pre_application_contact": "Encouraged",
+        "contact_note": "Contacting a prospective supervisor is effectively required — you must find a professor willing to offer a position before you can be admitted.",
+        "ects": 12,
+        "duration": "~4 years (avg just over 4; max 6)"
+      },
+      "links": {
+        "program": "https://www.phys.ethz.ch/doctoral-studies.html",
+        "admissions": "https://ethz.ch/en/doctorate/registration-admission.html"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "andreas-wallraff",
+          "name": "Andreas Wallraff",
+          "title": "Full Professor",
+          "sub_field": "Superconducting Quantum Circuits",
+          "tags": [
+            "superconducting qubits",
+            "circuit QED",
+            "quantum error correction",
+            "quantum networks"
+          ],
+          "summary": "Wallraff's Quantum Device Lab builds superconducting circuits for quantum computing and communication. Recent work demonstrated repeated real-time quantum error correction with a distance-three surface code on a 17-qubit processor, fast feedback and leakage mitigation, and deterministic microwave-photon state transfer and remote entanglement between cryogenically separated nodes over a cryogenic link. The group also develops hybrid systems coupling superconducting circuits to semiconductor spin qubits and Rydberg atoms, advancing scalable error-corrected processors and modular quantum networks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://qudev.phys.ethz.ch/",
+            "scholar": "https://scholar.google.com/citations?user=nXO5vugAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "jonathan-home",
+          "name": "Jonathan Home",
+          "title": "Full Professor",
+          "sub_field": "Trapped-Ion Quantum Computing",
+          "tags": [
+            "trapped ions",
+            "bosonic codes",
+            "GKP states",
+            "quantum error correction"
+          ],
+          "summary": "Home's Trapped Ion Quantum Information group encodes and controls quantum information in the motional and internal states of trapped ions. Recent work realized and stabilized Gottesman-Kitaev-Preskill bosonic error-correcting codes, using dissipative and feedback schemes to extend logical coherence, and demonstrated real-time correction of oscillator errors that lengthened coherence times. The group also pursues scalable architectures with integrated photonics for ion addressing, multi-zone traps, and mixed-species operations, pushing toward fault-tolerant trapped-ion quantum computation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://tiqi.ethz.ch/",
+            "scholar": "https://scholar.google.com/citations?user=hIVXn-EAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "tilman-esslinger",
+          "name": "Tilman Esslinger",
+          "title": "Full Professor",
+          "sub_field": "Ultracold Atoms / Quantum Optics",
+          "tags": [
+            "ultracold atoms",
+            "optical lattices",
+            "quantum simulation",
+            "Hubbard model",
+            "cavity QED"
+          ],
+          "summary": "Esslinger's Quantum Optics group uses ultracold fermionic and bosonic atoms in optical lattices to simulate strongly correlated many-body physics. Recent experiments studied transport and conductance in mesoscopic atomic channels, engineered dynamical and Floquet lattices, and realized geometric two-qubit gates using doublon states of fermionic atoms. The group also couples atomic gases to optical cavities to explore cavity-mediated interactions, self-organization, dissipative and supersolid phases, and probes quantum magnetism and Fermi-Hubbard physics in tunable synthetic quantum matter.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.quantumoptics.ethz.ch/",
+            "scholar": "https://scholar.google.com/citations?user=iHxT7SkAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "jerome-faist",
+          "name": "Jérôme Faist",
+          "title": "Full Professor",
+          "sub_field": "Quantum Optoelectronics",
+          "tags": [
+            "quantum cascade lasers",
+            "terahertz",
+            "frequency combs",
+            "intersubband",
+            "light-matter coupling"
+          ],
+          "summary": "Faist's Quantum Optoelectronics group pioneers quantum cascade lasers and intersubband devices. Recent work developed broadband terahertz and mid-infrared frequency combs and dual-comb spectroscopy sources, including surface-emitting THz combs with inverse-designed integrated reflectors and frequency-modulated combs in field-enhancing tapered waveguides. The group studies cavity and ultrastrong light-matter coupling, engineers high-power octave-spanning emitters, and explores non-classical light generation and quantum sensing with intersubband systems, advancing compact coherent sources spanning the mid-infrared to terahertz range.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://qoe.ethz.ch/",
+            "scholar": "https://scholar.google.com/citations?user=AfqWB1oAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "rainer-wallny",
+          "name": "Rainer Wallny",
+          "title": "Full Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "CMS",
+            "Higgs boson",
+            "LHC",
+            "silicon detectors",
+            "beyond Standard Model"
+          ],
+          "summary": "Wallny leads an experimental high-energy physics group on the CMS experiment at CERN's LHC and heads the Institute for Particle Physics and Astrophysics. Recent activity centers on precision characterization of the Higgs boson, especially in diphoton and b-quark final states, searches for supersymmetry and physics beyond the Standard Model, and top-quark physics. The group leads substantial detector R&D, developing and characterizing silicon pixel and tracking sensors and readout electronics for the CMS upgrade toward the High-Luminosity LHC.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://wallny-group.phys.ethz.ch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alexandre-refregier",
+          "name": "Alexandre Refregier",
+          "title": "Full Professor",
+          "sub_field": "Cosmology",
+          "tags": [
+            "weak lensing",
+            "dark energy",
+            "dark matter",
+            "cosmological surveys",
+            "simulation-based inference"
+          ],
+          "summary": "Refregier's Cosmology group studies dark matter, dark energy and cosmic structure formation using weak gravitational lensing and large surveys. Recent work delivered cosmological constraints from the Dark Energy Survey and developed forward-modeling and simulation-based inference pipelines, combined-probe analyses, and machine-learning methods for cosmic shear and dark-matter mass mapping. The group builds fast simulation and baryonification frameworks to control systematics and prepares analyses for upcoming surveys, testing the standard cosmological model and the validity of general relativity on cosmological scales.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cosmology.ethz.ch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "renato-renner",
+          "name": "Renato Renner",
+          "title": "Full Professor",
+          "sub_field": "Quantum Information Theory",
+          "tags": [
+            "quantum information",
+            "quantum cryptography",
+            "quantum thermodynamics",
+            "quantum foundations"
+          ],
+          "summary": "Renner heads the Quantum Information Theory group, working on the foundations of quantum mechanics, quantum cryptography and quantum thermodynamics. Recent contributions include results on the generalized quantum Stein's lemma and the second law, finite-size and one-shot information theory, and conceptual analyses of what a quantum state represents and how observers consistently describe one another, extending Wigner's-friend-type arguments. The group also develops security proofs for quantum key distribution and applies information-theoretic and machine-learning tools at the interface of thermodynamics and information.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://itp.phys.ethz.ch/research/qinfo.html",
+            "scholar": "https://scholar.google.com/citations?user=OEBtlWgAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "eugene-demler",
+          "name": "Eugene Demler",
+          "title": "Full Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "quantum simulation",
+            "strongly correlated systems",
+            "Hubbard model",
+            "nonequilibrium",
+            "machine learning"
+          ],
+          "summary": "Demler's group develops theory for strongly correlated and out-of-equilibrium quantum many-body systems, closely tied to quantum-simulation experiments. Recent work interprets and guides ultracold-atom and superconducting-qubit simulators, studies controlled dissipation as a resource for engineering correlated states, and analyzes doped Hubbard systems, magnetic polarons and their detection via quantum-gas microscopy. The group applies machine learning to many-body data, explores cavity-QED control of materials and quantum optics of solids, and models driven, nonequilibrium quantum matter.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cmt-zh.ethz.ch/groups/group-demler-ethz.html",
+            "scholar": "https://scholar.google.com/citations?user=0qjME1gAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "gabriel-aeppli",
+          "name": "Gabriel Aeppli",
+          "title": "Full Professor",
+          "sub_field": "Quantum Materials",
+          "tags": [
+            "quantum materials",
+            "X-ray scattering",
+            "kagome magnets",
+            "solid-state qubits",
+            "neutron scattering"
+          ],
+          "summary": "Aeppli's Quantum Technologies group, linked to PSI's photon science division, studies quantum materials and solid-state qubit platforms using X-ray, neutron and synchrotron techniques. Recent work probed kagome magnets such as Fe3Sn2 and their topological electronic and spin states via resonant inelastic X-ray scattering and X-ray-detected ferromagnetic resonance at SwissFEL, and demonstrated highly coherent two-level systems relevant to solid-state qubits. The group also develops silicon donor-based and rare-earth qubit platforms and helped establish the ETH-PSI Quantum Computing Hub.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://qt.ethz.ch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "klaus-ensslin",
+          "name": "Klaus Ensslin",
+          "title": "Full Professor, Laboratory for Solid State Physics",
+          "sub_field": "Condensed matter / nanophysics",
+          "tags": [
+            "nanophysics",
+            "quantum transport",
+            "2D materials",
+            "quantum dots",
+            "spin qubits"
+          ],
+          "summary": "Ensslin is a full professor in the Laboratory for Solid State Physics, leading the Nanophysics group. His experimental research probes quantum transport in nanostructures, including quantum dots, graphene and other two-dimensional materials, gallium arsenide heterostructures, and hybrid superconductor-semiconductor devices. The group studies electron confinement, spin qubits, and topological states for quantum information, using low-temperature and high-magnetic-field measurements to reveal the electronic properties of engineered mesoscopic systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://nanophys.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christian-degen",
+          "name": "Christian Degen",
+          "title": "Full Professor, Laboratory for Solid State Physics",
+          "sub_field": "Condensed matter / quantum sensing",
+          "tags": [
+            "quantum sensing",
+            "NV centers",
+            "nanoscale MRI",
+            "magnetometry",
+            "nanomechanics"
+          ],
+          "summary": "Degen is a full professor in the Laboratory for Solid State Physics, leading the Spin Physics group. His research develops ultrasensitive quantum sensing based on nitrogen-vacancy centers in diamond and scanning-probe techniques, aiming at nanoscale magnetic resonance imaging of individual molecules and spins. The group also explores nanomechanical resonators and precision measurements, pushing the spatial resolution and sensitivity of magnetometry toward single-spin detection for applications in condensed matter physics, chemistry, and the life sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://spin.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrey-zheludev",
+          "name": "Andrey Zheludev",
+          "title": "Full Professor, Laboratory for Solid State Physics",
+          "sub_field": "Condensed matter / quantum magnetism",
+          "tags": [
+            "neutron scattering",
+            "quantum magnetism",
+            "frustrated magnets",
+            "quantum phase transitions",
+            "spin liquids"
+          ],
+          "summary": "Zheludev is a full professor in the Laboratory for Solid State Physics and heads the group for neutron scattering and magnetism. His research investigates quantum magnetism and novel states of matter in low-dimensional and frustrated magnetic materials, using neutron scattering, high magnetic fields, and thermodynamic probes. Central topics include quantum phase transitions, magnetic Bose-Einstein condensation, spin liquids, and emergent quasiparticles, combining single-crystal synthesis with experiments at international neutron and X-ray facilities.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://neutron.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "atac-imamoglu",
+          "name": "Atac Imamoglu",
+          "title": "Full Professor, Institute for Quantum Electronics",
+          "sub_field": "Quantum optics / quantum photonics",
+          "tags": [
+            "quantum photonics",
+            "semiconductor quantum optics",
+            "exciton-polaritons",
+            "2D materials",
+            "cavity QED"
+          ],
+          "summary": "Imamoglu is a full professor at the Institute for Quantum Electronics, leading the Quantum Photonics group at the interface of quantum optics and condensed matter. His research explores light-matter interaction in solid-state systems, including semiconductor quantum dots, exciton-polaritons, and two-dimensional and moire materials. The group studies strongly correlated electrons probed optically, single-photon sources, and cavity quantum electrodynamics, developing new platforms where photons and electronic excitations reveal and control quantum many-body phenomena.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://quantumphotonics.ethz.ch",
+            "scholar": "https://scholar.google.com/citations?user=DfmFBWMAAAAJ"
+          }
+        },
+        {
+          "id": "rachel-grange",
+          "name": "Rachel Grange",
+          "title": "Professor, Institute for Quantum Electronics",
+          "sub_field": "Nanophotonics / optical materials",
+          "tags": [
+            "nanophotonics",
+            "nonlinear optics",
+            "electro-optics",
+            "metasurfaces",
+            "integrated photonics"
+          ],
+          "summary": "Grange is a professor at the Institute for Quantum Electronics, leading the Optical Nanomaterial Group. Her research engineers nonlinear and electro-optic nanomaterials, such as barium titanate and lithium niobate nanostructures, for photonic and quantum devices. The group develops second-harmonic imaging, metasurfaces, and integrated photonics, exploiting nanoscale light-matter interaction for frequency conversion, sensing, and reconfigurable optics. Her work bridges materials science and nanophotonics to create compact components for classical and quantum information technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ong.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "gunther-dissertori",
+          "name": "Günther Dissertori",
+          "title": "Full Professor, Institute for Particle Physics and Astrophysics",
+          "sub_field": "Experimental particle physics",
+          "tags": [
+            "particle physics",
+            "CMS",
+            "Higgs boson",
+            "LHC",
+            "calorimetry"
+          ],
+          "summary": "Dissertori is a full professor of particle physics at the Institute for Particle Physics and Astrophysics and serves in ETH Zurich's leadership as Rector. His experimental group works on the CMS experiment at CERN's Large Hadron Collider, contributing to the discovery and precision study of the Higgs boson, tests of the Standard Model, and searches for new physics. He also develops advanced calorimetry and detector technologies, including applications of scintillating crystals in medical imaging.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://dissertori-group.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "didier-queloz",
+          "name": "Didier Queloz",
+          "title": "Full Professor, Institute for Particle Physics and Astrophysics",
+          "sub_field": "Astrophysics / exoplanets",
+          "tags": [
+            "exoplanets",
+            "astrophysics",
+            "habitability",
+            "origin of life",
+            "Nobel laureate"
+          ],
+          "summary": "Queloz is a full professor at the Institute for Particle Physics and Astrophysics and a 2019 Nobel laureate in Physics for the first discovery of an exoplanet orbiting a Sun-like star. His group studies the detection and characterization of extrasolar planets and the conditions for planetary habitability. He founded and directs ETH's Centre for the Origin and Prevalence of Life, pursuing interdisciplinary research on how life emerges and how it might be detected beyond Earth.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://queloz-group.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sascha-quanz",
+          "name": "Sascha Quanz",
+          "title": "Associate Professor, Institute for Particle Physics and Astrophysics",
+          "sub_field": "Astrophysics / exoplanets",
+          "tags": [
+            "exoplanets",
+            "direct imaging",
+            "biosignatures",
+            "instrumentation",
+            "LIFE mission"
+          ],
+          "summary": "Quanz is an associate professor at the Institute for Particle Physics and Astrophysics, leading the Exoplanets and Habitability group. His research targets the direct imaging and characterization of extrasolar planets, searching for atmospheric biosignatures on potentially habitable worlds. The group develops observational techniques and instruments for large ground- and space-based telescopes, and he is principal investigator of LIFE, a proposed space mission using mid-infrared nulling interferometry to study nearby terrestrial exoplanets.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://quanz-group.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andre-rubbia",
+          "name": "André Rubbia",
+          "title": "Full Professor, Institute for Particle Physics and Astrophysics",
+          "sub_field": "Neutrino / astroparticle physics",
+          "tags": [
+            "neutrino physics",
+            "liquid argon TPC",
+            "DUNE",
+            "astroparticle physics",
+            "dark matter"
+          ],
+          "summary": "Rubbia is a full professor at the Institute for Particle Physics and Astrophysics, leading a research group in neutrino and astroparticle physics. He pioneered large liquid-argon time-projection chamber detectors and plays a leading role in international long-baseline neutrino experiments such as DUNE. His group investigates neutrino oscillations, matter-antimatter asymmetry, and searches for exotic and dark matter, developing novel detector technologies to probe fundamental questions about the nature and interactions of neutrinos.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://rubbia-group.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "matthias-gaberdiel",
+          "name": "Matthias Gaberdiel",
+          "title": "Full Professor, Institute for Theoretical Physics",
+          "sub_field": "Theory / string theory",
+          "tags": [
+            "string theory",
+            "conformal field theory",
+            "AdS/CFT",
+            "holography",
+            "quantum gravity"
+          ],
+          "summary": "Gaberdiel is a full professor at the Institute for Theoretical Physics, working on string theory and two-dimensional conformal field theory. His research focuses on the AdS/CFT correspondence, higher-spin symmetries, and exactly solvable string backgrounds, seeking to understand the mathematical structure of quantum gravity and holography. He has contributed foundational results on conformal field theories, vertex operator algebras, and the tensionless limit of string theory, deepening the connection between gauge theories and gravitational dualities.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://itp.phys.ethz.ch/people/professors/gaberdiel.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "gian-michele-graf",
+          "name": "Gian Michele Graf",
+          "title": "Full Professor, Institute for Theoretical Physics",
+          "sub_field": "Theory / mathematical physics",
+          "tags": [
+            "mathematical physics",
+            "topological insulators",
+            "quantum Hall effect",
+            "transport theory",
+            "open quantum systems"
+          ],
+          "summary": "Graf is a full professor at the Institute for Theoretical Physics, working in mathematical physics. His research applies rigorous mathematics to condensed matter and quantum theory, including topological insulators, the quantum Hall effect, transport in mesoscopic systems, and open quantum systems. He has also studied the foundations of thermodynamics, many-body scattering, and quantum pumps, providing exact results that clarify the physical origin of topological invariants and the stability of quantized responses in matter.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://itp.phys.ethz.ch/people/professors/graf.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yiwen-chu",
+          "name": "Yiwen Chu",
+          "title": "Associate Professor, Laboratory for Solid State Physics",
+          "sub_field": "Quantum information / hybrid quantum systems",
+          "tags": [
+            "quantum acoustics",
+            "circuit QED",
+            "hybrid quantum systems",
+            "superconducting qubits",
+            "quantum memories"
+          ],
+          "summary": "Chu is an associate professor and head of the Laboratory for Solid State Physics, leading the Hybrid Quantum Systems group. Her research couples superconducting circuits to high-frequency mechanical resonators, creating quantum acoustic devices that store and manipulate quantum information in sound. The group explores circuit quantum acoustodynamics, mechanical quantum memories, and interfaces between disparate quantum platforms, aiming to harness massive acoustic modes as a resource for quantum computing, sensing, and tests of macroscopic quantum mechanics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hyqu.ethz.ch",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "boston-college-physics-phd",
+      "university": "Boston College",
+      "program_name": "Physics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Quantum Materials",
+          "Quantum Information",
+          "Photonics",
+          "Biological Physics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2027-01-02",
+        "deadline_display": "Jan 2, 2027",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "100% of PhD candidates supported in research"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bc.edu/bc-web/schools/morrissey/departments/physics/graduate.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "boston-university-physics",
+      "university": "Boston University",
+      "program_name": "Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "Particle Physics",
+          "Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (GRS fellowship)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bu.edu/academics/grs/programs/physics/phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "boston-university-program-in-biomedical-sciences-pibs",
+      "university": "Boston University",
+      "program_name": "Program in Biomedical Sciences (PiBS)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biomedical Sciences",
+          "Biochemistry",
+          "Genetics",
+          "Microbiology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Umbrella admission with 3 lab rotations first year",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Full tuition, fees, insurance, $46,350 stipend/yr"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bu.edu/academics/gms/programs/pibs/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "boston-university-pharmacology-and-experimental-therapeutics",
+      "university": "Boston University",
+      "program_name": "Pharmacology & Experimental Therapeutics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Pharmacology",
+          "Drug Discovery",
+          "Therapeutics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend, tuition, insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bu.edu/academics/gms/programs/pharmacology-experimental-therapeutics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "brown-university-physics-phd",
+      "university": "Brown University",
+      "program_name": "Physics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "High Energy Physics",
+          "Condensed Matter",
+          "Astrophysics",
+          "Biological Physics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-09",
+        "deadline_display": "Jan 9, 2026 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, health)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://graduateprograms.brown.edu/graduate-program/physics-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #13",
+      "faculty": []
+    },
+    {
+      "id": "california-institute-of-technology-applied-physics",
+      "university": "California Institute of Technology",
+      "program_name": "Applied Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Applied Physics",
+          "Photonics",
+          "Quantum Science"
+        ]
+      },
+      "requirements": {
+        "deadline": "2024-12-15",
+        "deadline_display": "Dec 15, 2024 (prior cycle)",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admission by option; committee review",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://aph.caltech.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
+      "faculty": []
+    },
+    {
+      "id": "california-institute-of-technology-biochemistry-and-molecular-biophysics",
+      "university": "California Institute of Technology",
+      "program_name": "Biochemistry and Molecular Biophysics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biochemistry",
+          "Biophysics",
+          "Structural Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2024-12-01",
+        "deadline_display": "Dec 1, 2024 (prior cycle)",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admission by option; committee review",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.cce.caltech.edu/graduate/graduate-biochemistry-and-molecular-biophysics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
+      "faculty": []
+    },
+    {
+      "id": "california-institute-of-technology-materials-science",
+      "university": "California Institute of Technology",
+      "program_name": "Materials Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Energy Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2024-12-15",
+        "deadline_display": "Dec 15, 2024 (prior cycle)",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admission by option; committee review",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://ms.caltech.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
+      "faculty": []
+    },
+    {
+      "id": "carnegie-mellon-university-ph-d-in-physics",
+      "university": "Carnegie Mellon University",
+      "program_name": "Ph.D. in Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Physics",
+          "Condensed Matter",
+          "Particle Physics",
+          "Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 25,
+        "fee_display": "$25",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental admission; holistic review of full record",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.cmu.edu/physics/graduate-program/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "columbia-university-chemical-physics-phd",
+      "university": "Columbia University",
+      "program_name": "Chemical Physics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Chemical Physics",
+          "Theoretical Chemistry",
+          "Spectroscopy"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-04",
+        "deadline_display": "Dec 4, 2025 (prior cycle)",
+        "application_fee_usd": 120,
+        "fee_display": "$120",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Interdepartmental subcommittee; PhD-only admission",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (GSAS fellowship: tuition, fees, stipend)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.gsas.columbia.edu/content/chemical-physics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "columbia-university-physics-phd",
+      "university": "Columbia University",
+      "program_name": "Physics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Particle Physics",
+          "Condensed Matter",
+          "Astrophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-04",
+        "deadline_display": "Dec 4, 2025 (prior cycle)",
+        "application_fee_usd": 120,
+        "fee_display": "$120",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct admission to department; all admits assumed PhD candidates",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (GSAS fellowship: tuition, fees, stipend)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.gsas.columbia.edu/content/physics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "cornell-university-applied-physics-phd",
+      "university": "Cornell University",
+      "program_name": "Applied Physics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Applied Physics",
+          "Photonics",
+          "Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.cornell.edu/graduate-school/applied-physics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #12",
+      "faculty": []
+    },
+    {
+      "id": "cornell-university-physics-phd",
+      "university": "Cornell University",
+      "program_name": "Physics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "Particle Physics",
+          "Quantum"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.cornell.edu/graduate-school/physics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #12",
+      "faculty": []
+    },
+    {
+      "id": "cornell-university-biophysics-phd",
+      "university": "Cornell University",
+      "program_name": "Biophysics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Structural Biology",
+          "Molecular Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.cornell.edu/graduate-school/biophysics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #12",
+      "faculty": []
+    },
+    {
+      "id": "duke-university-ph-d-in-medical-physics",
+      "university": "Duke University",
+      "program_name": "Ph.D. in Medical Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Medical Physics",
+          "Radiation Oncology",
+          "Imaging"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.duke.edu/academics/programs-degrees/medical-physics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "duke-university-ph-d-in-physics",
+      "university": "Duke University",
+      "program_name": "Ph.D. in Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Physics",
+          "Condensed Matter",
+          "High Energy Physics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.duke.edu/academics/programs-degrees/physics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "emory-university-physics",
+      "university": "Emory University",
+      "program_name": "Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Soft Matter",
+          "Biophysics",
+          "Condensed Matter"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-19",
+        "deadline_display": "Dec 19, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "$42,000 stipend + full tuition + health insurance"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://physics.emory.edu/grad/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #24",
+      "faculty": []
+    },
+    {
+      "id": "georgetown-university-ph-d-in-physics",
+      "university": "Georgetown University",
+      "program_name": "Ph.D. in Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "Soft Matter",
+          "Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Assistantships/fellowships available; see department graduate fellowships page"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://physics.georgetown.edu/prospective-students-and-applicants/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #24",
+      "faculty": []
+    },
+    {
+      "id": "georgia-institute-of-technology-physics-phd",
+      "university": "Georgia Institute of Technology",
+      "program_name": "Physics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Physics",
+          "Condensed Matter",
+          "Astrophysics",
+          "Quantum"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 95,
+        "fee_display": "$95 domestic / $105 international",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "School graduate committee recommends admission to Office of Graduate Education; recurring Dec 15 deadline (year not posted)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://physics.gatech.edu/graduate-program"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "harvard-university-applied-physics",
+      "university": "Harvard University",
+      "program_name": "Applied Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Applied Physics",
+          "Photonics",
+          "Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (SEAS PhD guarantee: tuition + stipend)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.harvard.edu/program/applied-physics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #3",
+      "faculty": []
+    },
+    {
+      "id": "harvard-university-biophysics",
+      "university": "Harvard University",
+      "program_name": "Biophysics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Structural Biology",
+          "Molecular Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (GSAS PhD guarantee)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.harvard.edu/program/biophysics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #3",
+      "faculty": []
+    },
+    {
+      "id": "harvard-university-chemical-physics",
+      "university": "Harvard University",
+      "program_name": "Chemical Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Chemical Physics",
+          "Physical Chemistry",
+          "Spectroscopy"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Required",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (GSAS PhD guarantee)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.harvard.edu/program/chemical-physics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #3",
+      "faculty": []
+    },
+    {
+      "id": "harvard-university-physics",
+      "university": "Harvard University",
+      "program_name": "Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Physics",
+          "Condensed Matter",
+          "Quantum Physics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Required",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (GSAS PhD guarantee)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.harvard.edu/program/physics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #3",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-biology-cellular-molecular-developmental-biology-and-bi",
+      "university": "Johns Hopkins University",
+      "program_name": "Biology (Cellular, Molecular, Developmental Biology and Biophysics), PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Cell Biology",
+          "Molecular Biology",
+          "Developmental Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/biology/cellular-molecular-developmental-biology-biophysics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-biophysics-phd-jenkins-biophysics-program",
+      "university": "Johns Hopkins University",
+      "program_name": "Biophysics, PhD (Jenkins Biophysics Program)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Structural Biology",
+          "Macromolecules"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/biophysics/biophysics-phd-jenkins/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-medical-physics-phd",
+      "university": "Johns Hopkins University",
+      "program_name": "Medical Physics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Medical Physics",
+          "Imaging",
+          "Radiation"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/medicine/graduate-programs/medical-physics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-molecular-biophysics-phd-program-in-molecular-biophysic",
+      "university": "Johns Hopkins University",
+      "program_name": "Molecular Biophysics, PhD (Program in Molecular Biophysics)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Molecular Biophysics",
+          "Structural Biology",
+          "Biophysical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Application processed through Krieger School",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/medicine/graduate-programs/molecular-biophysics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "lehigh-university-physics-phd",
+      "university": "Lehigh University",
+      "program_name": "Physics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "Astrophysics",
+          "Optics",
+          "Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2027-01-15",
+        "deadline_display": "Jan 15, 2027",
+        "application_fee_usd": 50,
+        "fee_display": "$50",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "All admitted PhD students fully supported (TA/RA/fellowship, tuition + health benefits)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://wordpress.lehigh.edu/physics/graduate"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "massachusetts-institute-of-technology-health-sciences-and-technology-medical-eng",
+      "university": "Massachusetts Institute of Technology",
+      "program_name": "Health Sciences and Technology - Medical Engineering and Medical Physics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biomedical Engineering",
+          "Medical Physics",
+          "Bioengineering"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Fully supported (living expenses, tuition, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://oge.mit.edu/programs/harvard-mit-health-sciences-and-technology/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #2",
+      "faculty": []
+    },
+    {
+      "id": "new-york-university-ph-d-in-physics",
+      "university": "New York University",
+      "program_name": "Ph.D. in Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "Particle Physics",
+          "Astrophysics",
+          "Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-30",
+        "deadline_display": "Dec 30, 2025 (prior cycle)",
+        "application_fee_usd": 110,
+        "fee_display": "$110",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded via MacCracken (full tuition + stipend + health insurance, 4-5 yrs + 3 summers)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.nyu.edu/admissions/arc/programs/physics.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "northeastern-university-physics-phd",
+      "university": "Northeastern University",
+      "program_name": "Physics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "Particle Physics",
+          "Biophysics",
+          "Network Science"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Assistantships, stipend positions, and fellowships (per College of Science)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://phd.northeastern.edu/program/physics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "northeastern-university-biophysics-phd-cross-disciplinary-science",
+      "university": "Northeastern University",
+      "program_name": "Biophysics, PhD (Cross-Disciplinary Science)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Molecular Biophysics",
+          "Quantitative Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Assistantships, stipend positions, and fellowships (per College of Science)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.northeastern.edu/graduate/science/interdisciplinary/biophysics-phd-bos/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "northwestern-university-applied-physics-phd",
+      "university": "Northwestern University",
+      "program_name": "Applied Physics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Applied Physics",
+          "Condensed Matter"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://appliedphysics.northwestern.edu/apply-to-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "princeton-university-biophysics-ph-d",
+      "university": "Princeton University",
+      "program_name": "Biophysics (Ph.D.)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Quantitative Biology",
+          "Systems Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/biophysics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #1",
+      "faculty": []
+    },
+    {
+      "id": "princeton-university-physics-ph-d",
+      "university": "Princeton University",
+      "program_name": "Physics (Ph.D.)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Physics",
+          "Condensed Matter",
+          "High Energy Physics",
+          "Quantum Physics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/physics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #1",
+      "faculty": []
+    },
+    {
+      "id": "rice-university-applied-physics-phd",
+      "university": "Rice University",
+      "program_name": "Applied Physics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Applied Physics",
+          "Quantum",
+          "Materials",
+          "Photonics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-31",
+        "deadline_display": "Dec 31, 2025 (prior cycle)",
+        "application_fee_usd": 0,
+        "fee_display": "$0 (waived)",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Program-level faculty admissions committee",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://appliedphysics.rice.edu/prospective-students/application/apply"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "stanford-university-applied-physics-phd",
+      "university": "Stanford University",
+      "program_name": "Applied Physics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "Quantum",
+          "Photonics",
+          "Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-14",
+        "deadline_display": "Dec 14, 2026",
+        "application_fee_usd": 125,
+        "fee_display": "$125",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Research Assistantships fund salary, tuition allowance, health subsidy"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://appliedphysics.stanford.edu/admissions/overview"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    },
+    {
+      "id": "stanford-university-physics-phd",
+      "university": "Stanford University",
+      "program_name": "Physics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Particle Physics",
+          "Astrophysics",
+          "Condensed Matter"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-14",
+        "deadline_display": "Dec 14, 2026",
+        "application_fee_usd": 125,
+        "fee_display": "$125",
+        "gre": "Required",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://physics.stanford.edu/academics/prospective-students/graduate-admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    },
+    {
+      "id": "stanford-university-geophysics-phd",
+      "university": "Stanford University",
+      "program_name": "Geophysics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Seismology",
+          "Geophysics",
+          "Rock Physics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-02",
+        "deadline_display": "Dec 2, 2025 (prior cycle)",
+        "application_fee_usd": 125,
+        "fee_display": "$125",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://geophysics.stanford.edu/academics-admissions/admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    },
+    {
+      "id": "stanford-university-biophysics-phd",
+      "university": "Stanford University",
+      "program_name": "Biophysics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Structural Biology",
+          "Molecular Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-02",
+        "deadline_display": "Dec 2, 2025 (prior cycle)",
+        "application_fee_usd": 125,
+        "fee_display": "$125",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Biosciences umbrella / Home Program with lab rotations",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend, tuition, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://med.stanford.edu/biophysics.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    },
+    {
+      "id": "the-ohio-state-university-physics",
+      "university": "The Ohio State University",
+      "program_name": "Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "High Energy Physics",
+          "Astrophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (domestic) / $70 (international)",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental admission; intl deadline Nov 30",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "All admitted students supported via TA/RA/fellowships; apply by Dec 1 for fellowships"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://physics.osu.edu/graduate/admissions-prospective-new-students/graduate-admissions-how-apply"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
+      "faculty": []
+    },
+    {
+      "id": "the-ohio-state-university-chemical-physics",
+      "university": "The Ohio State University",
+      "program_name": "Chemical Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Chemical Physics",
+          "Spectroscopy",
+          "Quantum Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (domestic) / $70 (international)",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gpadmissions.osu.edu/programs/program.aspx?prog=0043"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
+      "faculty": []
+    },
+    {
+      "id": "the-ohio-state-university-biophysics",
+      "university": "The Ohio State University",
+      "program_name": "Biophysics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Structural Biology",
+          "Biophysical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-03",
+        "deadline_display": "Dec 3, 2025 (prior cycle)",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (domestic) / $70 (international)",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Interdisciplinary program admission",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://biophysics.osu.edu/prospective-students"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
+      "faculty": []
+    },
+    {
+      "id": "tufts-university-materials-science-and-engineering-joint-phd",
+      "university": "Tufts University",
+      "program_name": "Materials Science and Engineering (Joint PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Polymers"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Apply through home department; deadline Dec 1 (BME/Chemistry/Physics) or Jan 15 (other engineering depts)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Full-time PhD students often receive tuition scholarship"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://asegrad.tufts.edu/program/materials-science-and-engineering-joint-phd-doctorate"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-berkeley-biophysics-phd",
+      "university": "University of California, Berkeley",
+      "program_name": "Biophysics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Life Sciences"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.berkeley.edu/program/biophysics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-berkeley-physics-phd",
+      "university": "University of California, Berkeley",
+      "program_name": "Physics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Physics",
+          "Physical Sciences"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.berkeley.edu/program/physics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-davis-biophysics",
+      "university": "University of California, Davis",
+      "program_name": "Biophysics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Structural Biology",
+          "Computational Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 (US) / $155 (intl)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucdavis.edu/programs/gbph"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-los-angeles-geophysics-and-space-physics",
+      "university": "University of California, Los Angeles",
+      "program_name": "Geophysics and Space Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Geophysics",
+          "Space Physics",
+          "Seismology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucla.edu/programs/physical-sciences/earth-planetary-and-space-sciences-department/geophysics-space-physics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-los-angeles-physics-and-biology-in-medicine",
+      "university": "University of California, Los Angeles",
+      "program_name": "Physics and Biology in Medicine",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Medical Physics",
+          "Biomedical Physics",
+          "Imaging"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucla.edu/programs/david-geffen-school-of-medicine/physics-and-biology-in-medicine/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-san-diego-physics-phd",
+      "university": "University of California, San Diego",
+      "program_name": "Physics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Physics",
+          "Condensed Matter",
+          "Particle Physics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-23",
+        "deadline_display": "Dec 23, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://physics.ucsd.edu/students/graduate/requirements"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #29",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-san-diego-biochemistry-and-molecular-biophysics-phd",
+      "university": "University of California, San Diego",
+      "program_name": "Biochemistry and Molecular Biophysics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biochemistry",
+          "Biophysics",
+          "Molecular Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-03",
+        "deadline_display": "Dec 3, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "12-month stipend plus fees and tuition; TA/RA/fellowships"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.ucsd.edu/graduate-program/bmb/bmb-admissions/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #29",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-santa-barbara-physics-phd",
+      "university": "University of California, Santa Barbara",
+      "program_name": "Physics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "Quantum Physics",
+          "Astrophysics",
+          "High Energy"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 ($155 intl)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.graddiv.ucsb.edu/graduate-programs/departments/physics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #40",
+      "faculty": []
+    },
+    {
+      "id": "university-of-chicago-physics",
+      "university": "University of Chicago",
+      "program_name": "Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Physics",
+          "Condensed Matter",
+          "Particle Physics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-04",
+        "deadline_display": "Dec 4, 2025 (prior cycle)",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Full financial support to all admitted PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://physicsrecruitment.psd.uchicago.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #6",
+      "faculty": []
+    },
+    {
+      "id": "university-of-chicago-biochemistry-and-molecular-biophysics",
+      "university": "University of Chicago",
+      "program_name": "Biochemistry and Molecular Biophysics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biochemistry",
+          "Molecular Biophysics",
+          "Structural Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-02",
+        "deadline_display": "Dec 2, 2025 (prior cycle)",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded PhD"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://biosciences.uchicago.edu/programs/biochemistry-and-molecular-biophysics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #6",
+      "faculty": []
+    },
+    {
+      "id": "university-of-chicago-medical-physics",
+      "university": "University of Chicago",
+      "program_name": "Medical Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Medical Physics",
+          "Imaging",
+          "Radiation"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-02",
+        "deadline_display": "Dec 2, 2025 (prior cycle)",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded PhD"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://biosciences.uchicago.edu/programs/medical-physics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #6",
+      "faculty": []
+    },
+    {
+      "id": "university-of-florida-physics",
+      "university": "University of Florida",
+      "program_name": "Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "High Energy Physics",
+          "Astrophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 30,
+        "fee_display": "$30",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-to-department; fall only",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "TA: $29,000 12-month stipend + subsidized health (Fall 2027); fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://phys.ufl.edu/graduate/admissions/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-illinois-urbana-champaign-physics-phd",
+      "university": "University of Illinois Urbana-Champaign",
+      "program_name": "Physics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "High Energy Physics",
+          "Quantum",
+          "Astrophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "GRE General and Physics Subject optional",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Grainger PhD guaranteed funded appointment (tuition waiver + stipend) first 5 years"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://physics.illinois.edu/admissions/graduates/apply"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-illinois-urbana-champaign-biophysics-and-quantitative-biology-phd",
+      "university": "University of Illinois Urbana-Champaign",
+      "program_name": "Biophysics & Quantitative Biology, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Quantitative Biology",
+          "Computational Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.illinois.edu/graduate/las/biophysics-quantitative-biology-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-maryland-college-park-physics-ph-d",
+      "university": "University of Maryland, College Park",
+      "program_name": "Physics, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Physics",
+          "Condensed Matter",
+          "Quantum"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-12",
+        "deadline_display": "Dec 12, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Virtually all Ph.D. students fully funded for duration via TA/RA positions"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://academiccatalog.umd.edu/graduate/programs/physics-phys/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-maryland-college-park-chemical-physics-ph-d",
+      "university": "University of Maryland, College Park",
+      "program_name": "Chemical Physics, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Chemical Physics",
+          "Spectroscopy",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-09",
+        "deadline_display": "Jan 9, 2026 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Admitted with TA or RA; university and Chemical Physics fellowships available"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://academiccatalog.umd.edu/graduate/programs/chemical-physics-chph/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-maryland-college-park-biophysics-ph-d",
+      "university": "University of Maryland, College Park",
+      "program_name": "Biophysics, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Molecular Biophysics",
+          "Computational Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-09",
+        "deadline_display": "Jan 9, 2026 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "TAs and Dean's Fellowships to all entering students with tuition and health insurance"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://academiccatalog.umd.edu/graduate/programs/biophysics-biph/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-michigan-ann-arbor-applied-physics-phd",
+      "university": "University of Michigan, Ann Arbor",
+      "program_name": "Applied Physics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Applied Physics",
+          "Photonics",
+          "Condensed Matter"
+        ]
+      },
+      "requirements": {
+        "deadline": "2027-01-05",
+        "deadline_display": "Jan 5, 2027",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://lsa.umich.edu/appliedphysics/prospectivestudents/admissions.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-michigan-ann-arbor-physics-phd",
+      "university": "University of Michigan, Ann Arbor",
+      "program_name": "Physics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Physics",
+          "Condensed Matter",
+          "High Energy"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://lsa.umich.edu/physics/graduate-students/application.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-michigan-ann-arbor-biophysics-phd",
+      "university": "University of Michigan, Ann Arbor",
+      "program_name": "Biophysics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Structural Biology",
+          "Molecular Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://lsa.umich.edu/biophysics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-north-carolina-at-chapel-hill-biochemistry-and-biophysics-phd",
+      "university": "University of North Carolina at Chapel Hill",
+      "program_name": "Biochemistry and Biophysics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biochemistry",
+          "Biophysics",
+          "Structural Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-11-17",
+        "deadline_display": "Nov 17, 2026",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Umbrella admission via BBSP; students select PhD program after first-year rotations",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded while in good standing; $37,500 stipend (2025-26) plus tuition, fees, health insurance"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.sites.unc.edu/biological-and-biomedical-sciences/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-notre-dame-biophysics-phd",
+      "university": "University of Notre Dame",
+      "program_name": "Biophysics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Structural Biology",
+          "Computational Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Rotation-based (three lab rotations before advisor selection); Grad School page states program is not accepting applications for AY 2026-2027 - verify status for Fall 2027",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://biophysics.nd.edu"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-pennsylvania-biochemistry-biophysics-and-chemical-biology-phd",
+      "university": "University of Pennsylvania",
+      "program_name": "Biochemistry, Biophysics and Chemical Biology, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biochemistry",
+          "Biophysics",
+          "Chemical Biology",
+          "Structural Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Umbrella graduate group (BGS), independent of departments",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.med.upenn.edu/bmbgrad/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "university-of-texas-at-austin-physics",
+      "university": "University of Texas at Austin",
+      "program_name": "Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Physics",
+          "Condensed Matter",
+          "Astrophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 65,
+        "fee_display": "$65 (US) / $90 (international)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Five years of funding as TA, GRA, or Fellow (typical)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://physics.utexas.edu/graduate/explore-our-graduate-program"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-virginia-physics-phd",
+      "university": "University of Virginia",
+      "program_name": "Physics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Condensed Matter",
+          "High Energy Physics",
+          "AMO Physics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Optional",
+        "letters": 2,
+        "english": "Unknown/Verify",
+        "admission_model": "Department-based admission via GSAS",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs ($37,080/yr stipend + tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://graduate.as.virginia.edu/graduate-degree-programs/physics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-virginia-biophysics-phd-bims",
+      "university": "University of Virginia",
+      "program_name": "Biophysics PhD (BIMS)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Structural Biology",
+          "Molecular Imaging"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Umbrella (BIMS) admission with lab rotations before program affiliation",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (UVA-wide 5-yr PhD support norm; see BIMS Funding page)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://med.virginia.edu/bims/programs/ph-d-degree-options/biophysics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-washington-physics-phd",
+      "university": "University of Washington",
+      "program_name": "Physics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Particle Physics",
+          "Condensed Matter",
+          "Astrophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Autumn quarter only; holistic review",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Aims to fund all full-time PhD students; TA/RA + tuition + insurance"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://phys.washington.edu/graduate-programs"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-washington-biological-physics-structure-and-design-phd",
+      "university": "University of Washington",
+      "program_name": "Biological Physics, Structure & Design (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Protein Design",
+          "Structural Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://depts.washington.edu/bpsd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-wisconsin-madison-nuclear-engineering-and-engineering-physics-phd",
+      "university": "University of Wisconsin-Madison",
+      "program_name": "Nuclear Engineering and Engineering Physics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Nuclear Engineering",
+          "Plasma Physics",
+          "Fusion"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://guide.wisc.edu/graduate/nuclear-engineering-engineering-physics/nuclear-engineering-engineering-physics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-wisconsin-madison-physics-phd",
+      "university": "University of Wisconsin-Madison",
+      "program_name": "Physics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Physics",
+          "Particle Physics",
+          "Condensed Matter"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "All PhD students funded (50% assistantships) for degree duration"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://guide.wisc.edu/graduate/physics/physics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-wisconsin-madison-biophysics-phd",
+      "university": "University of Wisconsin-Madison",
+      "program_name": "Biophysics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Structural Biology",
+          "Biophysical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://guide.wisc.edu/graduate/graduate-school-wide/biophysics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "vanderbilt-university-human-genetics-phd",
+      "university": "Vanderbilt University",
+      "program_name": "Human Genetics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Human Genetics",
+          "Genomics",
+          "Statistical Genetics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admitted via IGP umbrella, then home program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend, tuition, health)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://medschool.vanderbilt.edu/bret/our-doctoral-programs/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "vanderbilt-university-molecular-physiology-and-biophysics-phd",
+      "university": "Vanderbilt University",
+      "program_name": "Molecular Physiology and Biophysics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Physiology",
+          "Metabolism"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admitted via IGP umbrella, then home program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend, tuition, health)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://medschool.vanderbilt.edu/bret/our-doctoral-programs/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "washington-university-in-st-louis-phd-in-physics",
+      "university": "Washington University in St. Louis",
+      "program_name": "PhD in Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Physics",
+          "Condensed Matter",
+          "Astrophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 45,
+        "fee_display": "$45",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend + tuition waiver)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://physics.washu.edu/graduate-program"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "washington-university-in-st-louis-phd-in-biochemistry-biophysics-and-structural-",
+      "university": "Washington University in St. Louis",
+      "program_name": "PhD in Biochemistry, Biophysics & Structural Biology",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Structural Biology",
+          "Biochemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 20,
+        "fee_display": "$20 (by Oct 31) / $45 (after Nov 1)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Apply to DBBS division; affiliate with program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded; all admits receive equal support"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://dbbs.wustl.edu/programs/biochemistry-biophysics-structural-biology/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "yale-university-applied-physics",
+      "university": "Yale University",
+      "program_name": "Applied Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Quantum",
+          "Condensed Matter",
+          "Photonics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct to program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.yale.edu/programs-of-study/applied-physics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    },
+    {
+      "id": "yale-university-physics",
+      "university": "Yale University",
+      "program_name": "Physics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Particle Physics",
+          "Quantum",
+          "Astrophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct to program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.yale.edu/programs-of-study/physics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    },
+    {
+      "id": "yale-university-molecular-biophysics-and-biochemistry",
+      "university": "Yale University",
+      "program_name": "Molecular Biophysics & Biochemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Biophysics",
+          "Biochemistry",
+          "Structural Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admitted via BBS umbrella (Biochemistry/Biophysics track)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.yale.edu/programs-of-study/molecular-biophysics-biochemistry"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    }
+  ]
+}

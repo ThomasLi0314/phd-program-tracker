@@ -1,0 +1,46 @@
+{
+  "primary": "Other STEM",
+  "programs": [
+    {
+      "id": "rutgers-university-new-brunswick-exposure-science-and-assessment-phd",
+      "university": "Rutgers University-New Brunswick",
+      "program_name": "Exposure Science and Assessment, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other STEM",
+        "subs": [
+          "Exposure Science",
+          "Environmental Health",
+          "Risk Assessment"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://eohsi.rutgers.edu/graduate-programs/joint-graduate-program-in-exposure-science/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    }
+  ]
+}

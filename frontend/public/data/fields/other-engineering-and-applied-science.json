@@ -1,0 +1,740 @@
+{
+  "primary": "Other Engineering & Applied Science",
+  "programs": [
+    {
+      "id": "brown-university-engineering-phd",
+      "university": "Brown University",
+      "program_name": "Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Materials Science",
+          "Chemical Engineering"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Single Engineering PhD with tracks: Chemical & Environmental, Electrical & Computer, Fluids & Thermal, Materials Science, Mechanics of Solids",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, health)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://graduateprograms.brown.edu/graduate-program/engineering-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #13",
+      "faculty": []
+    },
+    {
+      "id": "california-institute-of-technology-medical-engineering",
+      "university": "California Institute of Technology",
+      "program_name": "Medical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Medical Devices",
+          "Biomedical Engineering",
+          "Microfluidics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2024-12-15",
+        "deadline_display": "Dec 15, 2024 (prior cycle)",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admission by option; committee review",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://www.mede.caltech.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
+      "faculty": []
+    },
+    {
+      "id": "carnegie-mellon-university-ph-d-in-engineering-and-public-policy",
+      "university": "Carnegie Mellon University",
+      "program_name": "Ph.D. in Engineering and Public Policy",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Energy Systems",
+          "Technology Policy",
+          "Climate and Environment"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 0,
+        "fee_display": "$0 (no application fee)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental admission; writing sample required",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://epp.engineering.cmu.edu/education/graduate/phd-program/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "dartmouth-college-engineering-sciences-phd",
+      "university": "Dartmouth College",
+      "program_name": "Engineering Sciences PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Biomedical Engineering",
+          "Electrical Engineering",
+          "Materials Science",
+          "Mechanical Engineering"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Single Engineering Sciences PhD with concentrations (Biomedical, Electrical & Computer, Energy, Materials, Mechanical/Operations/Systems, Biological & Chemical); Dec 15 priority then rolling",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded via GRA/fellowship; stipend $47,000/yr (2024-25) + full tuition"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.dartmouth.edu/academics/graduate/phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #13",
+      "faculty": []
+    },
+    {
+      "id": "harvard-university-quantum-science-and-engineering",
+      "university": "Harvard University",
+      "program_name": "Quantum Science and Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Quantum Science",
+          "Quantum Computing",
+          "Quantum Engineering"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (GSAS/SEAS PhD guarantee)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.harvard.edu/program/quantum-science-and-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #3",
+      "faculty": []
+    },
+    {
+      "id": "massachusetts-institute-of-technology-social-and-engineering-systems-phd",
+      "university": "Massachusetts Institute of Technology",
+      "program_name": "Social and Engineering Systems (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Data Science",
+          "Statistics",
+          "Systems"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://oge.mit.edu/programs/institute-for-data-systems-and-society/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #2",
+      "faculty": []
+    },
+    {
+      "id": "northeastern-university-interdisciplinary-engineering-phd",
+      "university": "Northeastern University",
+      "program_name": "Interdisciplinary Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Interdisciplinary Engineering",
+          "Engineering Research"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 2,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://phd.northeastern.edu/program/interdisciplinary-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "princeton-university-quantum-science-and-engineering-ph-d",
+      "university": "Princeton University",
+      "program_name": "Quantum Science and Engineering (Ph.D.)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Quantum Computing",
+          "Quantum Information",
+          "Quantum Devices"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/quantum-science-and-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #1",
+      "faculty": []
+    },
+    {
+      "id": "purdue-university-engineering-education-phd",
+      "university": "Purdue University",
+      "program_name": "Engineering Education (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Engineering Education",
+          "STEM Education"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 domestic / $75 intl",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.purdue.edu/ENE/Academics/Graduate"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-berkeley-applied-science-and-technology-phd",
+      "university": "University of California, Berkeley",
+      "program_name": "Applied Science and Technology PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Applied Science",
+          "Interdisciplinary"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-02",
+        "deadline_display": "Dec 2, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.berkeley.edu/program/applied-science-tech/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-irvine-engineering-ph-d",
+      "university": "University of California, Irvine",
+      "program_name": "Engineering, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Engineering",
+          "Interdisciplinary"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Materials and Manufacturing Technology concentration requires GRE",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalogue.uci.edu/thehenrysamuelischoolofengineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-irvine-networked-systems-ph-d",
+      "university": "University of California, Irvine",
+      "program_name": "Networked Systems, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Networked Systems",
+          "Networking",
+          "Distributed Systems"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.networkedsystems.uci.edu/application.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-san-diego-nanoengineering-phd",
+      "university": "University of California, San Diego",
+      "program_name": "NanoEngineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Nanoengineering",
+          "Nanomaterials",
+          "Nanotechnology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-10",
+        "deadline_display": "Dec 10, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://cne.ucsd.edu/graduate-programs/admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #29",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-engineering",
+      "university": "University of Georgia",
+      "program_name": "Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Engineering",
+          "Electrical Engineering",
+          "Interdisciplinary"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Interdisciplinary engineering PhD with emphasis areas (incl. Electrical & Computer)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Research assistantships (tuition waiver + stipend), fellowships, TAships"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-michigan-ann-arbor-engineering-education-research-phd",
+      "university": "University of Michigan, Ann Arbor",
+      "program_name": "Engineering Education Research PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Engineering Education"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.engin.umich.edu/admissions-aid/graduate-professional/deadlines/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-rochester-phd-in-optics",
+      "university": "University of Rochester",
+      "program_name": "PhD in Optics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Optics",
+          "Photonics",
+          "Quantum Optics",
+          "Optical Engineering"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct admission to department",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.hajim.rochester.edu/optics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-washington-human-centered-design-and-engineering-phd",
+      "university": "University of Washington",
+      "program_name": "Human Centered Design & Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Human Computer Interaction",
+          "UX",
+          "Design"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Reviewed by >=3 graduate faculty members",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.hcde.washington.edu/phd/admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "washington-university-in-st-louis-phd-in-imaging-science",
+      "university": "Washington University in St. Louis",
+      "program_name": "PhD in Imaging Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Other Engineering & Applied Science",
+        "subs": [
+          "Imaging Science",
+          "Computational Imaging",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition + stipend)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.washu.edu/programs/imaging-science/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    }
+  ]
+}

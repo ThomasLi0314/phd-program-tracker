@@ -1,0 +1,3518 @@
+{
+  "primary": "Mechanical & Aerospace Engineering",
+  "programs": [
+    {
+      "id": "caltech-galcit-aerospace-phd",
+      "university": "California Institute of Technology",
+      "program_name": "PhD in Aeronautics / Space Engineering (GALCIT)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Fluid Dynamics",
+          "Solid Mechanics",
+          "Combustion & Propulsion",
+          "Robotics & Control",
+          "Computational Mechanics",
+          "Biomechanics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "TOEFL, IELTS, PTE, or Duolingo accepted with no minimum score; exempt if you studied 2+ years in the US or hold a degree taught in English.",
+        "admission_model": "Committee-Based",
+        "admission_model_note": "Students are admitted to the aerospace option by committee, not to a specific lab; they must select and be accepted by a research advisor by the end of the first year.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "All PhD students receive full tuition plus a living stipend (about $50,000/yr from Sept 2026) via fellowships, research, or teaching assistantships, guaranteed while making satisfactory progress."
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "No official guidance; because admission is by committee with advisors chosen after enrollment, pre-application contact is not part of the stated process.",
+        "ects": null,
+        "duration": "4-5 years (min. 3 yrs residency)"
+      },
+      "links": {
+        "program": "https://aerospace.caltech.edu/academics/grad",
+        "admissions": "https://aerospace.caltech.edu/academics/admissions"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "h-jane-bae",
+          "name": "H. Jane Bae",
+          "title": "Assistant Professor of Aerospace; Susan Wu Scholar",
+          "sub_field": "Turbulence & CFD",
+          "tags": [
+            "wall-bounded turbulence",
+            "turbulence modeling",
+            "machine learning",
+            "large-eddy simulation",
+            "high-Reynolds-number flows"
+          ],
+          "summary": "Bae develops physics-based and data-driven models of near-wall turbulence to cut the cost of simulating high-Reynolds-number flows relevant to aircraft, wind farms, and atmospheric prediction. Recent work applies machine learning, reinforcement learning, and information theory to build wall models for large-eddy simulation, including a multi-agent reinforcement-learning wall model published in Nature Communications, and probes the self-sustaining process and streak dynamics of the buffer and logarithmic layers with minimal empirical input.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aerospace.caltech.edu/people/jbae",
+            "scholar": "https://scholar.google.com/citations?user=8Y1FiKYAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "adrian-lozano-duran",
+          "name": "Adrián Lozano-Durán",
+          "title": "Associate Professor of Aerospace",
+          "sub_field": "Turbulence & CFD",
+          "tags": [
+            "turbulence",
+            "causal inference",
+            "reduced-order modeling",
+            "machine-learning closures",
+            "hypersonics"
+          ],
+          "summary": "Lozano-Durán studies turbulence through theory, high-fidelity simulation, and experiment. A signature theme applies causal inference and information theory to identify the dynamical mechanisms and energy transfers that sustain wall turbulence, then uses those insights with machine learning to build closure and reduced-order models for CFD. His target applications span low-speed aerodynamics through supersonic and hypersonic flows. He joined Caltech aerospace from MIT following a visiting-associate appointment, and continues to bridge fundamental turbulence physics with data-driven modeling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aerospace.caltech.edu/people/adrian-lozano-duran",
+            "scholar": "https://scholar.google.com/citations?hl=en&user=Zl3wUvIAAAAJ"
+          }
+        },
+        {
+          "id": "joanna-austin",
+          "name": "Joanna Austin",
+          "title": "Professor of Aerospace",
+          "sub_field": "Hypersonics & High-Speed Flow",
+          "tags": [
+            "hypersonics",
+            "detonation",
+            "shock waves",
+            "planetary entry",
+            "real-gas effects"
+          ],
+          "summary": "Austin leads an experimental group studying compressible high-speed fluid mechanics: hypervelocity flight and planetary entry, supersonic combustion and detonation, shock-bubble and shock-shock interactions, and hypersonic boundary-layer instabilities. The group operates major GALCIT facilities including the T5 free-piston reflected-shock tunnel, a hypervelocity expansion tube, and a Ludwieg tube, characterizing real-gas and thermochemical nonequilibrium effects relevant to atmospheric-entry vehicles and high-speed air-breathing propulsion.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.austin.caltech.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ares-rosakis",
+          "name": "Ares J. Rosakis",
+          "title": "Theodore von Karman Professor of Aeronautics and Mechanical Engineering",
+          "sub_field": "Dynamic Fracture & Solid Mechanics",
+          "tags": [
+            "dynamic fracture",
+            "laboratory earthquakes",
+            "rupture dynamics",
+            "supershear rupture",
+            "experimental mechanics"
+          ],
+          "summary": "Rosakis designs experiments elucidating the physics of dynamic fracture and catastrophic failure in metals, polymers, metallic glasses, composites, layered solids, and frictional interfaces. His laboratory-earthquake paradigm creates controlled, repeatable surrogate ruptures to study dynamic shear rupture and frictional sliding, demonstrating supershear rupture speeds and rupture propagating as cracks or pulses. Recent work in Nature and PNAS shows that slowly creeping faults are not immune to major ruptures and examines fluid-injection-induced rupture initiation and propagation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://rosakis.caltech.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "guruswami-ravichandran",
+          "name": "Guruswami (Ravi) Ravichandran",
+          "title": "John E. Goode, Jr., Professor of Aerospace and Mechanical Engineering",
+          "sub_field": "Dynamic Behavior of Materials",
+          "tags": [
+            "dynamic deformation",
+            "wave propagation",
+            "active materials",
+            "cell/biomaterials mechanics",
+            "composites"
+          ],
+          "summary": "Ravichandran studies the deformation and failure of materials, emphasizing dynamic behavior, wave propagation, and micro/nano-mechanics. His group works on active materials and structures (ferroelectrics, shape-memory alloys, MEMS), composites, fracture and adhesion, biomaterials and cell mechanics, and experimental methods. Recent efforts include the dynamic strength of materials at high pressures and shock-driven material response. He is a National Academy of Engineering member and former Otis Booth Leadership Chair of Caltech's Division of Engineering and Applied Science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.eas.caltech.edu/people/ravichan",
+            "scholar": null
+          }
+        },
+        {
+          "id": "aaron-ames",
+          "name": "Aaron D. Ames",
+          "title": "Bren Professor of Mechanical and Civil Engineering, Control and Dynamical Systems, and Aerospace",
+          "sub_field": "Robotics & Control",
+          "tags": [
+            "safety-critical control",
+            "control barrier functions",
+            "legged robots",
+            "exoskeletons",
+            "learning for control"
+          ],
+          "summary": "Ames develops formal, optimization-based control that provably guarantees safety via control barrier functions and stability via control Lyapunov functions, unified in real-time quadratic programs. His group demonstrates these methods on hardware: bipedal and humanoid robots achieving dynamic walking and running, quadrupeds, drones, and assistive exoskeletons that restore mobility. Recent work fuses the framework with machine learning (neural gaits, episodic learning) for safe locomotion in natural environments. He directs Caltech's Center for Autonomous Systems and Technologies (CAST).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://ames.caltech.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sergio-pellegrino",
+          "name": "Sergio Pellegrino",
+          "title": "Joyce and Kent Kresa Professor of Aerospace and Civil Engineering; Director, Graduate Aerospace Laboratories",
+          "sub_field": "Space Structures",
+          "tags": [
+            "deployable structures",
+            "ultrathin structures",
+            "space solar power",
+            "packaging & deployment",
+            "shape control"
+          ],
+          "summary": "Pellegrino works on the mechanics of lightweight structures: packaging, deployment, shape control, and stability for future space telescopes, spacecraft antennas, and space-based solar power. He co-leads the Caltech Space Solar Power Project, designing constellations of ultralight modular spacecraft that collect sunlight and wirelessly beam power to Earth; the core module is a giant coilable structure of paper-thin materials that elastically self-deploys in orbit. His group invents foldable ultrathin composites integrating photovoltaics and power-beaming electronics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.pellegrino.caltech.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-dabiri",
+          "name": "John O. Dabiri",
+          "title": "Centennial Professor of Aeronautics and Mechanical Engineering",
+          "sub_field": "Biological & Environmental Fluid Dynamics",
+          "tags": [
+            "biological propulsion",
+            "biohybrid robotics",
+            "vertical-axis wind turbines",
+            "wind-farm optimization",
+            "vortex dynamics"
+          ],
+          "summary": "Dabiri studies fluid mechanics at the intersection of biology, renewable energy, and environmental flows. His work on jellyfish propulsion and vortex dynamics informs bio-inspired energy systems; drawing on fish-schooling hydrodynamics, he pioneered densely packed vertical-axis wind-turbine arrays and wake-steering for conventional wind farms. Related efforts span biohybrid robotic jellyfish for ocean sensing and cardiovascular flow diagnostics. He is a MacArthur Fellow and National Medal of Science laureate.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aerospace.caltech.edu/people/jodabiri",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-dickinson",
+          "name": "Michael H. Dickinson",
+          "title": "Esther M. and Abe M. Zarem Professor of Bioengineering and Aeronautics",
+          "sub_field": "Insect Flight & Biomechanics",
+          "tags": [
+            "insect flight aerodynamics",
+            "flapping-wing flight",
+            "Drosophila neuromechanics",
+            "wing-hinge control",
+            "sensorimotor navigation"
+          ],
+          "summary": "Dickinson integrates aerodynamics, neuroscience, and biomechanics to explain how insects fly. Using high-speed imaging, custom flight rigs, genetically targeted muscle-activity microscopy, and machine learning, his lab recently mapped how the roughly twelve steering muscles of the fruit fly Drosophila actuate the wing hinge to produce agile maneuvers, analyzing tens of thousands of wingbeats. The group also builds state-space aerodynamic models of flapping flight and studies long-range navigation and sensory control, bridging model-organism neuroscience with powered flight.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://dickinsonlab.caltech.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "angkur-shaikeea",
+          "name": "Angkur J. D. Shaikeea",
+          "title": "Assistant Professor of Aerospace; Bren Scholar",
+          "sub_field": "Architected Materials & Additive Manufacturing",
+          "tags": [
+            "mechanical metamaterials",
+            "fracture of architected solids",
+            "additive manufacturing",
+            "in-situ X-ray tomography",
+            "data-driven mechanics"
+          ],
+          "summary": "Shaikeea (PhD Cambridge 2022; joined Caltech 2025) studies the mechanics of 3D architected metamaterials and scalable additive manufacturing. He extended elastic fracture mechanics to truss-based metamaterials, showing their performance is limited by damage and defect tolerance, and derived design protocols for optimally robust discrete solids. His new lab builds advanced in-situ X-ray tools (tomography, hyperspectral imaging, ptychography, EDXRD, 3DXRD) to extract full 3D stress and strain fields under load, feeding data-driven models of material behavior.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aerospace.caltech.edu/people/angkur-j-shaikeea",
+            "scholar": "https://scholar.google.com/citations?user=xZGvIAoAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "tim-colonius",
+          "name": "Tim Colonius",
+          "title": "Frank and Ora Lee Marble Professor of Mechanical Engineering and Medical Engineering",
+          "sub_field": "Computational Fluid Dynamics",
+          "tags": [
+            "aeroacoustics",
+            "flow control",
+            "reduced-order models",
+            "shock and bubble dynamics",
+            "CFD"
+          ],
+          "summary": "Colonius leads the Computational and Data-Driven Fluid Dynamics group, using high-fidelity numerical simulation to study multiscale flow phenomena including jet aeroacoustics, flow instabilities, shock waves, and bubble dynamics. Recent work develops reduced-order models, data assimilation, and control theory to predict and manipulate flow structure, with applications spanning unsteady and bio-inspired aerodynamics, flow-energy harvesting, and jet-noise reduction. His group also applies ultrasound, shock waves, and cavitation to biomedical therapies such as lithotripsy, histotripsy, and targeted drug delivery.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://colonius.caltech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=zrUK8W0AAAAJ"
+          }
+        },
+        {
+          "id": "guillaume-blanquart",
+          "name": "Guillaume Blanquart",
+          "title": "Professor of Mechanical Engineering",
+          "sub_field": "Combustion and Propulsion",
+          "tags": [
+            "turbulent combustion",
+            "hydrogen flames",
+            "direct numerical simulation",
+            "soot formation",
+            "flame instabilities"
+          ],
+          "summary": "Blanquart models the coupling between combustion chemistry and turbulent flow using direct numerical simulation with detailed chemistry and transport. Recent research targets lean premixed hydrogen and hydrogen/air flames at high Karlovitz number, examining how intense turbulence reshapes flame structure, vorticity, and the two-way coupling between turbulence and chemical reactions. His group also studies pollutant and soot nano-particle formation, thermal diffusion effects, and hydrodynamic and flame instabilities, advancing predictive models relevant to cleaner combustion and next-generation propulsion.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.eas.caltech.edu/people/gblanqu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "soon-jo-chung",
+          "name": "Soon-Jo Chung",
+          "title": "Bren Professor of Control and Dynamical Systems",
+          "sub_field": "Aerospace Autonomy and Robotics",
+          "tags": [
+            "autonomous vehicles",
+            "spacecraft swarms",
+            "learning-based control",
+            "estimation and navigation",
+            "aerospace robotics"
+          ],
+          "summary": "Chung directs the Autonomous Robotics and Control Lab, developing theory and flight systems for autonomous aerial, space, and underwater vehicles. His work spans learning-based control, estimation, planning, and navigation, with a signature focus on multi-agent swarm flight on Earth and in space, pursued jointly with JPL. Recent projects include neural-network control with stability guarantees and mission concepts such as inflatable regolith shielding for lunar landing. He received the 2024 IEEE Robotics and Automation Letters Best Paper Award.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://aerospacerobotics.caltech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=-ClLU3EAAAAJ"
+          }
+        },
+        {
+          "id": "chiara-daraio",
+          "name": "Chiara Daraio",
+          "title": "G. Bradford Jones Professor of Mechanical Engineering and Applied Physics",
+          "sub_field": "Mechanical Metamaterials",
+          "tags": [
+            "metamaterials",
+            "mechanical intelligence",
+            "acoustics",
+            "soft robotics",
+            "sensing materials"
+          ],
+          "summary": "Daraio designs materials whose micro- and meso-structure yields advanced mechanical and sensing functions, bridging mechanical engineering and applied physics. Her group engineers ordered and disordered mechanical metamaterials for soft robotics, wearable devices, and shock and vibration absorption, and develops acoustic imaging and thermal-sensing methods for health monitoring. Recent work applies machine learning to design disordered metamaterials and explores smart tunable fabrics and sustainable materials for packaging and construction, embedding computation and mechanical intelligence directly into matter.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.daraio.caltech.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nadia-lapusta",
+          "name": "Nadia Lapusta",
+          "title": "Lawrence A. Hanson, Jr., Professor of Mechanical Engineering and Geophysics",
+          "sub_field": "Solid Mechanics and Friction",
+          "tags": [
+            "friction",
+            "fracture",
+            "earthquake mechanics",
+            "fault slip modeling",
+            "geomaterials"
+          ],
+          "summary": "Lapusta studies the mechanics and physics of friction, fracture, and earthquake source processes, combining analytical theory with large-scale numerical modeling of seismic and aseismic fault slip. Recent work shows that slip velocity, more than total slip, governs how friction evolves during simulated earthquakes, and that interfaces which appear stationary continue to heal, raising subsequent sliding friction by roughly twenty percent after a year of contact. Her group links laboratory friction experiments to fault-scale models of geomaterial deformation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.eas.caltech.edu/people/lapusta",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kaushik-bhattacharya",
+          "name": "Kaushik Bhattacharya",
+          "title": "Howell N. Tyson, Sr., Professor of Mechanics and Materials Science",
+          "sub_field": "Solid Mechanics and Materials",
+          "tags": [
+            "solid mechanics",
+            "active materials",
+            "shape-memory alloys",
+            "phase-field modeling",
+            "morphing structures"
+          ],
+          "summary": "Bhattacharya studies the mechanical behavior of solids at the intersection of mechanics, materials science, and applied mathematics, using theory to guide the design and directed discovery of new materials. His group works on active materials including shape-memory alloys, ferroelectrics, and liquid-crystal elastomers, and on heterogeneous materials and structures. Recent 2025 work includes light-induced deformation of photoactive shells, an artificial sunflower, and a phase-field framework for systematically designing compliant morphing structures. He also serves as Caltech's Vice Provost.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mechmat.caltech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=-yVjvkIAAAAJ"
+          }
+        },
+        {
+          "id": "morteza-gharib",
+          "name": "Morteza Gharib",
+          "title": "Hans W. Liepmann Professor of Aeronautics and Medical Engineering",
+          "sub_field": "Experimental Fluid Dynamics",
+          "tags": [
+            "vortex dynamics",
+            "flow control",
+            "flow imaging",
+            "bio-inspired engineering",
+            "microfluidics"
+          ],
+          "summary": "Gharib, a longtime GALCIT director, conducts experimental fluid dynamics spanning vortex dynamics, active and passive flow control, and nano and micro fluid mechanics. His group develops advanced flow-imaging diagnostics and studies autonomous flight and underwater systems, alongside bio-inspired devices drawing on cardiovascular and animal-locomotion flows. Recent efforts include Mars aerial-vehicle concepts and vortex-based approaches to propulsion and energy. Elected to the National Academy of Engineering and awarded the APS Fluid Dynamics Prize, he bridges fundamental fluid physics with engineered and medical applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.gharib.caltech.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jose-andrade",
+          "name": "José E. Andrade",
+          "title": "George W. Housner Professor of Civil and Mechanical Engineering",
+          "sub_field": "Computational Mechanics",
+          "tags": [
+            "computational mechanics",
+            "granular materials",
+            "multiscale modeling",
+            "geomechanics",
+            "regolith"
+          ],
+          "summary": "Andrade works in computational mechanics at the interface of physics and mechanics, building predictive multiscale models of granular and porous materials such as sand, snow, rock, concrete, and bone. His group connects micro-scale grain-to-grain force transmission with macro-scale continuum behavior, with applications in energy exploration and space missions, including regolith mechanics and planetary sampling. Recent work addresses the seismic performance of multiblock tower structures for gravity energy storage. He leads Caltech's computational geomechanics effort and received the Zienkiewicz Medal.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.eas.caltech.edu/people/jandrade",
+            "scholar": null
+          }
+        },
+        {
+          "id": "paul-dimotakis",
+          "name": "Paul E. Dimotakis",
+          "title": "John K. Northrop Professor of Aeronautics and Professor of Applied Physics",
+          "sub_field": "Turbulence and Mixing",
+          "tags": [
+            "turbulent mixing",
+            "shear flows",
+            "hypersonic propulsion",
+            "scalar dispersion",
+            "flow diagnostics"
+          ],
+          "summary": "Dimotakis conducts experimental and computational research on turbulent mixing and chemical reactions in subsonic and supersonic free-shear flows, including the mixing transition, scalar dispersion, and the geometry of interfaces in turbulence. His interests extend to hypersonic propulsion and high-speed endoatmospheric flight. Recent collaborations with JPL address remote sensing of the atmosphere from space and parachute dynamics for planetary entry, descent, and landing. A Fellow of APS, AAAS, and AIAA, he received the AIAA Fluid Dynamics Award for his mixing and combustion research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.dimotakis.caltech.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dan-meiron",
+          "name": "Dan Meiron",
+          "title": "Fletcher Jones Professor of Aeronautics and Applied and Computational Mathematics",
+          "sub_field": "Computational Science",
+          "tags": [
+            "shock-driven instabilities",
+            "turbulence simulation",
+            "high strain-rate solid mechanics",
+            "high-performance computing",
+            "uncertainty quantification"
+          ],
+          "summary": "Meiron develops computational methods and models for fundamental fluid-mechanical phenomena, with particular emphasis on shock-driven flow instabilities, turbulence, and simulation of solid mechanics at high strain rates. Bridging aeronautics with applied and computational mathematics, his work supports large-scale, high-performance simulation of coupled multiphysics problems. He has held leadership roles in Caltech's predictive-science and computational research efforts, guiding uncertainty quantification and verification and validation for complex engineering systems. He serves as Caltech's graduate option representative for aeronautics and space engineering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cms.caltech.edu/people/dim",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-watkins",
+          "name": "Michael Watkins",
+          "title": "Professor of Aerospace and Geophysics; Director, Keck Institute for Space Studies",
+          "sub_field": "Space Systems and Geodesy",
+          "tags": [
+            "satellite geodesy",
+            "space missions",
+            "orbit determination",
+            "GRACE",
+            "planetary exploration"
+          ],
+          "summary": "Watkins works in aerospace and geophysics and directs the Keck Institute for Space Studies, which incubates new space missions and technologies with campus and JPL researchers. Over a 27-year JPL career, culminating as JPL director, he co-originated the GRACE satellite-gravimetry concept and served as project scientist for GRACE, GRACE Follow-On, and GRAIL, and as mission manager for the Curiosity Mars rover. His expertise spans satellite geodesy, precise orbit determination, and space-mission systems engineering. He is a member of the National Academy of Engineering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.eas.caltech.edu/people/watkins",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sandra-troian",
+          "name": "Sandra M. Troian",
+          "title": "Professor of Applied Physics, Aeronautics, and Mechanical Engineering",
+          "sub_field": "Interfacial and Microscale Transport",
+          "tags": [
+            "microfluidics",
+            "interfacial flows",
+            "thin films",
+            "thermocapillary transport",
+            "spacecraft micropropulsion"
+          ],
+          "summary": "Troian heads the Laboratory of Interfacial and Small Scale Transport, studying micro- and nanoscale fluidic systems dominated by capillary, van der Waals, Maxwell, thermocapillary, and Marangoni surface forces. Her group combines fundamental analysis with engineering design of thin films, droplet manipulation, and spacecraft micropropulsion, controlling fluid transport through chemical patterning and temperature gradients rather than mechanical pumps. She is known for the Thompson-Troian slip condition for liquid flow at solid interfaces and for thermocapillary methods of directing microscopic droplets.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://troian.caltech.edu/",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "georgia-tech-woodruff-me-phd",
+      "university": "Georgia Institute of Technology",
+      "program_name": "PhD in Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Thermosciences",
+          "Combustion & Propulsion",
+          "Robotics & Control",
+          "Design & Manufacturing",
+          "Solid Mechanics",
+          "Biomechanics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "TOEFL iBT 94+ (19+ per section) or IELTS 7.0+ overall; exemptions for degrees from the US or qualifying English-speaking countries. MyBest scores not accepted.",
+        "admission_model": "Direct Advisor Match",
+        "admission_model_note": "Students are admitted by the graduate committee, then confirm a thesis advisor during the first month; those seeking GRA funding typically arrange support with a specific faculty member.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "About 90% of PhD students are funded via GRA or GTA with out-of-state tuition waivers; support is typically renewed yearly with satisfactory progress."
+        },
+        "pre_application_contact": "Encouraged",
+        "contact_note": "Contacting faculty directly is encouraged to secure GRA/research-assistant support.",
+        "ects": null,
+        "duration": "~4-5 years (from BS)"
+      },
+      "links": {
+        "program": "https://www.me.gatech.edu/phd-degree-program",
+        "admissions": "https://www.me.gatech.edu/prospective-graduate-students"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "cyrus-aidun",
+          "name": "Cyrus K. Aidun",
+          "title": "Professor",
+          "sub_field": "Multiphase Fluid Mechanics",
+          "tags": [
+            "multiphase flows",
+            "particle-fluid interaction",
+            "lattice-Boltzmann",
+            "blood/cellular flow",
+            "high-performance computing"
+          ],
+          "summary": "Aidun develops and applies computational and experimental methods for multiphase and particulate suspension flows. Recent work couples high-fidelity numerical models, including lattice-Boltzmann approaches, with high-performance computing to resolve particle-fluid interactions, interfacial transport, and dense suspension dynamics, with applications spanning biological cellular and blood-flow transport and industrial process flows. He integrates modeling, theory, and experiment to link microscale particle dynamics to macroscopic rheology, targeting predictive, physics-based simulation of complex suspensions across scales.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": "https://scholar.google.com/citations?user=XmfAKNgAAAAJ"
+          }
+        },
+        {
+          "id": "tim-lieuwen",
+          "name": "Tim Lieuwen",
+          "title": "Regents' Professor; David S. Lewis, Jr. Chair",
+          "sub_field": "Combustion & Propulsion",
+          "tags": [
+            "combustion instabilities",
+            "clean energy",
+            "alternative fuels",
+            "acoustics",
+            "unsteady combustion"
+          ],
+          "summary": "Lieuwen studies clean combustion and propulsion, combustion dynamics and instabilities, acoustics, and the utilization of alternative and low-carbon fuels such as hydrogen in gas-turbine and energy systems. Recent activity emphasizes resilient clean-energy systems and the fundamental physics of unsteady, fuel-flexible combustion. He directs Georgia Tech's Strategic Energy Institute, has authored or edited multiple combustion books including Unsteady Combustor Physics and over 400 papers, and received the 2025 ASME Medal.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.comblab.gatech.edu/people/tim-lieuwen",
+            "scholar": "https://scholar.google.com/citations?user=6ipMUqMAAAAJ"
+          }
+        },
+        {
+          "id": "ye-zhao",
+          "name": "Ye Zhao",
+          "title": "Associate Professor; Woodruff Faculty Fellow",
+          "sub_field": "Robotics & Control",
+          "tags": [
+            "legged/humanoid robots",
+            "motion planning",
+            "optimization & control",
+            "reinforcement learning",
+            "loco-manipulation"
+          ],
+          "summary": "Zhao directs the Laboratory for Intelligent Decision and Autonomous Robots, developing planning, control, decision-making, and learning for highly dynamic, underactuated, and human-cooperative robots in unstructured environments. Recent projects include perturbation-resilient bipedal locomotion via model-predictive control, humanoid loco-manipulation through imitation learning, traversability estimation for rough terrain, and socially and emotion-aware navigation via deep reinforcement learning. His work bridges optimization-based control and learning to enable agile legged robots. He holds an NSF CAREER award.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://lab-idar.gatech.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "satish-kumar",
+          "name": "Satish Kumar",
+          "title": "Rae S. and Frank H. Neely Professor",
+          "sub_field": "Thermosciences / Heat Transfer",
+          "tags": [
+            "electronics thermal management",
+            "nanoscale thermal transport",
+            "thermal metrology",
+            "physics-informed ML",
+            "hypersonics"
+          ],
+          "summary": "Kumar works on micro- and nanoscale electrical and thermal transport in microelectronics and nano-engineered systems, thermal management, and high-precision thermal metrology. Recent work applies physics-informed neural networks to phase-change problems, machine-learning-enabled thermal-property inversion, microfluidic cooling for computing processors, and electric-motor thermal management, plus DARPA-funded high-temperature materials for hypersonics. His group targets the thermal bottlenecks limiting next-generation electronics and propulsion, blending multi-physics transport modeling with machine learning and metrology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.gatech.edu/minds/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "shreyes-melkote",
+          "name": "Shreyes N. Melkote",
+          "title": "Morris M. Bryan, Jr. Professor; Interim Chair, Woodruff School",
+          "sub_field": "Design & Manufacturing",
+          "tags": [
+            "precision machining",
+            "process mechanics",
+            "additive/hybrid manufacturing",
+            "industrial robotics",
+            "AI/ML for manufacturing"
+          ],
+          "summary": "Melkote studies the mechanics and dynamics of manufacturing processes to improve accuracy and efficiency through tool-material interactions. Recent projects include deep-learning approaches to supplier selection and machining-sequence planning, bimetallic interface engineering via directed-energy deposition, and deflection-limited trajectory planning for robotic milling. His group spans precision machining, industrial robotics, and data-driven manufacturing, with over 300 publications. He serves as Interim Chair of the Woodruff School and Executive Director of the Novelis Innovation Hub.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://melkote.me.gatech.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "antonia-antoniou",
+          "name": "Antonia Antoniou",
+          "title": "Professor",
+          "sub_field": "Solid Mechanics / Mechanics of Materials",
+          "tags": [
+            "experimental mechanics",
+            "structure-property relations",
+            "flexible materials",
+            "materials reliability",
+            "digital image correlation"
+          ],
+          "summary": "Antoniou investigates structure-property-performance relationships using experimental mechanics, materials characterization, and data-driven analysis to understand material reliability under mechanical and environmental loading. Recent work covers digital image correlation methods, nanocomposite and conductive inks, and characterization of flexible and functional material systems, bridging theoretical analysis with experimental validation to improve system reliability. Her research connects micro-scale deformation mechanisms to macroscopic durability in emerging material systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ting-zhu",
+          "name": "Ting Zhu",
+          "title": "Professor; Woodruff Faculty Fellow",
+          "sub_field": "Computational Mechanics of Materials",
+          "tags": [
+            "atomistic/multiscale modeling",
+            "nanomechanics",
+            "high-entropy alloys",
+            "battery electrode mechanics",
+            "fracture & failure"
+          ],
+          "summary": "Zhu models the mechanical behavior of advanced structural and energy materials from nano- to macro-scale using atomistic, continuum, and multiscale simulation to uncover mechanisms of deformation, damage, and failure. Current topics include ultra-strength and 3D-printed metal alloys, strengthening in high-entropy alloys, electrode degradation in lithium-ion batteries, fracture in 2D materials, irradiation damage, hydrogen embrittlement, and nanostructured shape-memory alloys. He received the 2023 ASME Centennial Mid-Career Award.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.zhugroup.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=3_80JesAAAAJ"
+          }
+        },
+        {
+          "id": "costas-arvanitis",
+          "name": "Costas D. Arvanitis",
+          "title": "Associate Professor",
+          "sub_field": "Biomechanics / Focused Ultrasound",
+          "tags": [
+            "ultrasound biophysics",
+            "acoustic cavitation",
+            "blood-brain barrier",
+            "drug/gene delivery",
+            "closed-loop control"
+          ],
+          "summary": "Arvanitis uses acoustic cavitation and wave physics to build precise, feedback-controlled focused-ultrasound systems that modulate biological function noninvasively. Recent work focuses on brain applications: transient blood-brain-barrier opening for targeted cell, gene, and drug delivery, cancer immunotherapy, and augmenting immune-cell trafficking into tumors. He combines microbubble dynamics, thermal and mechanical bioeffects, and closed-loop control, developing integrated imaging and therapy platforms that translate ultrasound-based treatments for neurological disease toward the clinic.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://arvanitis.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=8I1e-u8AAAAJ"
+          }
+        },
+        {
+          "id": "yuhang-hu",
+          "name": "Yuhang Hu",
+          "title": "Associate Professor",
+          "sub_field": "Biomechanics / Soft Active Materials",
+          "tags": [
+            "soft active materials",
+            "hydrogels",
+            "chemomechanical modeling",
+            "multiscale characterization",
+            "soft living systems"
+          ],
+          "summary": "Hu studies soft active materials that combine solid and liquid components, such as gels, integrating mechanics with materials chemistry. Her work spans fundamental chemomechanical modeling, multi-scale experimental characterization, and design of dynamic, adaptive, multifunctional responsive materials. She extends these principles to soft living systems including cells, tissues, and organs, developing methods to measure and predict the coupled mechanical and transport behavior of hydrogels.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://pwp.gatech.edu/yuhanghu/",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "eth-zurich-dmavt-doctorate",
+      "university": "ETH Zürich (Swiss Federal Institute of Technology Zurich)",
+      "program_name": "Doctorate in Mechanical Engineering (D-MAVT)",
+      "degree_type": "PhD",
+      "region": "Europe",
+      "country": "Switzerland",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Robotics & Control",
+          "Fluid Dynamics",
+          "Solid Mechanics",
+          "Computational Mechanics",
+          "Combustion & Propulsion",
+          "Biomechanics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Rolling — no fixed deadline (positions advertised year-round)",
+        "application_fee_usd": null,
+        "fee_display": "CHF 150 registration (foreign MSc) — verify",
+        "gre": "Optional",
+        "letters": 2,
+        "english": "No formal TOEFL/IELTS required for the doctorate; strong written and spoken English proficiency is expected.",
+        "admission_model": "Direct Advisor Match",
+        "admission_model_note": "You must first secure a professor with funding who agrees to supervise you, then register; the D-MAVT doctoral committee formally approves admission after consultation with the supervisor.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "Doctoral students are salaried scientific assistants (roughly CHF 61,000+ gross in year one, rising annually), not tuition-payers; SNSF-funded contracts cap at four years."
+        },
+        "pre_application_contact": "Encouraged",
+        "contact_note": "Emailing prospective supervisors directly is the primary and expected application pathway.",
+        "ects": 12,
+        "duration": "3-4 years"
+      },
+      "links": {
+        "program": "https://mavt.ethz.ch/doctoral-studies.html",
+        "admissions": "https://mavt.ethz.ch/doctoral-studies/admission.html"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "filippo-coletti",
+          "name": "Filippo Coletti",
+          "title": "Full Professor of Experimental Fluid Dynamics",
+          "sub_field": "Experimental Fluid Dynamics",
+          "tags": [
+            "experimental fluid mechanics",
+            "particle-laden turbulence",
+            "flow imaging (PIV/PTV)",
+            "aerosol transport",
+            "biomedical flows"
+          ],
+          "summary": "Coletti's group uses advanced imaging to study the fundamental dynamics of flowing matter across scales. Recent thrusts include particle-laden and multiphase turbulence, the subject of his 2022 Annual Review of Fluid Mechanics article, aerosol dispersal and transport, snow and precipitation physics, and microscale biomedical flows such as hepatic microcirculation, plus ocean-microplastics-relevant studies. He holds an ERC Consolidator Grant and was named an APS Fellow in 2025 for contributions to particle-laden turbulence.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ifd.ethz.ch/people/person-detail.fcoletti.html",
+            "scholar": "https://scholar.google.com/citations?user=Bn2BVJoAAAAJ"
+          }
+        },
+        {
+          "id": "marco-hutter",
+          "name": "Marco Hutter",
+          "title": "Full Professor of Robotic Systems",
+          "sub_field": "Robotics & Control",
+          "tags": [
+            "legged robotics",
+            "deep reinforcement learning",
+            "perceptive locomotion",
+            "mobile manipulation",
+            "autonomous navigation"
+          ],
+          "summary": "Hutter leads a leading legged-robotics group built around the ANYmal quadruped. Landmark recent work includes learning robust perceptive locomotion in the wild, training walking policies in minutes via massively parallel deep reinforcement learning, perceptive locomotion via nonlinear model-predictive control, and ANYmal Parkour agile navigation. The group builds simulation frameworks and deploys robots for industrial inspection, DARPA SubT search-and-rescue, and autonomous forest inventory. Its lab open-positions page states it continuously seeks excellent PhD students.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://rsl.ethz.ch/the-lab/people/person-detail.hutter.html",
+            "scholar": "https://scholar.google.com/citations?user=DO3quJYAAAAJ"
+          }
+        },
+        {
+          "id": "melanie-zeilinger",
+          "name": "Melanie N. Zeilinger",
+          "title": "Associate Professor of Intelligent Control Systems",
+          "sub_field": "Learning-based Control",
+          "tags": [
+            "model predictive control",
+            "learning-based control",
+            "safety filters",
+            "optimization",
+            "autonomous systems"
+          ],
+          "summary": "Zeilinger works at the intersection of control theory and machine learning, emphasizing safety and performance guarantees for learning-based systems. Recent contributions include predictive safety filters for constrained nonlinear systems, a unifying view of data-driven safety across Hamilton-Jacobi reachability, control barrier functions, and predictive control, robust moving-horizon estimation, and active-learning-based MPC. Work from 2024-2025 extends to MPC for mobile-robot navigation in cluttered environments and distributed coverage control, with autonomous miniature race cars as a testbed.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://idsc.ethz.ch/research-zeilinger.html",
+            "scholar": "https://scholar.google.com/citations?user=BSf9OLAAAAAJ"
+          }
+        },
+        {
+          "id": "laura-de-lorenzis",
+          "name": "Laura De Lorenzis",
+          "title": "Professor of Computational Mechanics",
+          "sub_field": "Computational Mechanics",
+          "tags": [
+            "phase-field fracture",
+            "automated model discovery (EUCLID)",
+            "data-driven constitutive modeling",
+            "isogeometric analysis",
+            "physics-informed ML"
+          ],
+          "summary": "De Lorenzis develops computational methods for solid mechanics. A central recent thrust is automated, data-driven discovery of material models via her EUCLID framework, performing simultaneous model selection and parameter identification. She continues advancing variational phase-field models for brittle, anisotropic, and cohesive fracture and fatigue, plus hybrid physics-based and physics-informed deep-learning approaches. She is an editor of Computer Methods in Applied Mechanics and Engineering and currently Deputy Head of D-MAVT, and a EUROMECH Solid Mechanics Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mavt.ethz.ch/people/person-detail.delorenzis.html",
+            "scholar": "https://scholar.google.com/citations?user=qYnztGgAAAAJ"
+          }
+        },
+        {
+          "id": "dennis-kochmann",
+          "name": "Dennis M. Kochmann",
+          "title": "Professor of Mechanics and Materials; Head of D-MAVT",
+          "sub_field": "Solid Mechanics / Mechanics & Materials",
+          "tags": [
+            "architected materials",
+            "multiscale modeling",
+            "generative/ML inverse design",
+            "coarse-grained atomistics",
+            "instabilities"
+          ],
+          "summary": "Kochmann links material microstructure to macroscopic behavior through theory, computation, and experiment, exploiting instabilities across scales. Recent highlights center on inverse design of nonlinear mechanical metamaterials via generative machine learning, including a 2023 Nature Machine Intelligence paper using video-diffusion models and a Nature Communications paper optimizing truss metamaterials by generative modeling. Newer work couples diffusion transformers with an algebraic language for 3D geometries. He currently serves as Head of D-MAVT.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://imes.ethz.ch/the-institute/people/person-detail.kochmann.html",
+            "scholar": "https://scholar.google.com/citations?user=lSRRffMAAAAJ"
+          }
+        },
+        {
+          "id": "edoardo-mazza",
+          "name": "Edoardo Mazza",
+          "title": "Professor of Mechanics",
+          "sub_field": "Biomechanics / Experimental Continuum Mechanics",
+          "tags": [
+            "soft tissue mechanics",
+            "in-vivo measurement",
+            "nonlinear viscoelasticity",
+            "mechanobiology",
+            "implant biocompatibility"
+          ],
+          "summary": "Mazza experimentally characterizes soft biological tissues, which are inhomogeneous, viscoelastic, anisotropic, and undergo large deformation, and describes them with nonlinear viscoelastic constitutive models across scales. Recent work includes in-vivo skin biomechanics linked to microstructure and pathology, shear-wave elastography of the pregnant uterine cervix showing reduced wave speed in pre-term-labor patients, reactive viscoelastic cervical-remodeling models, and mechanobiology using 3D in-vitro bioreactors. He also studies the mechanical biocompatibility of mesh implants and stents.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mavt.ethz.ch/people/person-detail.mazza.html",
+            "scholar": "https://scholar.google.com/citations?user=ohe2sf4AAAAJ"
+          }
+        },
+        {
+          "id": "nicolas-noiray",
+          "name": "Nicolas Noiray",
+          "title": "Full Professor of Combustion, Acoustics and Flow Physics",
+          "sub_field": "Combustion & Propulsion",
+          "tags": [
+            "thermoacoustic instabilities",
+            "hydrogen combustion",
+            "aeroacoustics",
+            "nonlinear dynamics",
+            "gas-turbine combustors"
+          ],
+          "summary": "Noiray's CAPS laboratory studies combustion instabilities and their control in power and propulsion systems, with a strong recent pivot to hydrogen and low-carbon fuels. Work includes real-time digital twins of azimuthal thermoacoustics in hydrogen-fired annular combustors, intrinsic aeroacoustic instabilities in can-annular gas turbines, and stochastic, nonlinear-dynamics modeling of flame-acoustic coupling. He also develops acoustic metamaterials, flow sensors and actuators, and passive and active control for cleaner hydrogen burners, supported by ERC Consolidator and Synergy grants.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://caps.ethz.ch/",
+            "scholar": "https://scholar.google.com/citations?user=k1llunMAAAAJ"
+          }
+        },
+        {
+          "id": "kristina-shea",
+          "name": "Kristina Shea",
+          "title": "Professor of Engineering Design and Computing",
+          "sub_field": "Design & Manufacturing",
+          "tags": [
+            "computational design synthesis",
+            "4D printing",
+            "additive manufacturing",
+            "mechanical metamaterials",
+            "generative design"
+          ],
+          "summary": "Shea's Engineering Design and Computing Laboratory develops computational models, methods, and tools to automate the design and fabrication of complex optimized engineered systems. Recent work centers on computational design synthesis for 3D and 4D printing, including multi-state 4D-printed architected active composites, redeployable 4D-printed wave-spring actuators, and design-for-additive-manufacturing of architected lattices and mechanical metamaterials. Themes include design heuristics, generative and data-driven design, and reconfigurable stimuli-responsive structures, extending to soft and aquatic robotics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://edac.ethz.ch/",
+            "scholar": "https://scholar.google.com/citations?user=T3ZCB1oAAAAJ"
+          }
+        },
+        {
+          "id": "andre-bardow",
+          "name": "André Bardow",
+          "title": "Full Professor of Energy and Process Systems Engineering",
+          "sub_field": "Thermosciences / Energy Systems",
+          "tags": [
+            "carbon capture (CCUS)",
+            "life-cycle assessment",
+            "net-zero energy systems",
+            "power-to-X",
+            "molecular thermodynamics"
+          ],
+          "summary": "Bardow's Energy and Process Systems Engineering group designs sustainable energy and process systems, integrating molecular-to-systems-scale modeling with environmental life-cycle assessment. Recent work evaluates carbon-capture, utilization, and storage supply chains for reaching net-zero greenhouse-gas emissions, including a 2024 Nature paper on a platform to accelerate sorbent-based carbon capture and density-functional-theory prediction of CO2-capture properties of metal-organic frameworks. Other themes include power-to-X, the circular carbon economy, and computer-aided optimization of low-carbon fuels and refrigerants.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://epse.ethz.ch/",
+            "scholar": "https://scholar.google.com/citations?user=ZhPuOc4AAAAJ"
+          }
+        },
+        {
+          "id": "bradley-nelson",
+          "name": "Bradley J. Nelson",
+          "title": "Professor of Robotics and Intelligent Systems",
+          "sub_field": "Micro/Nanorobotics",
+          "tags": [
+            "magnetic microrobots",
+            "medical microrobotics",
+            "nanorobotics",
+            "wireless magnetic navigation",
+            "low-Reynolds locomotion"
+          ],
+          "summary": "Nelson's Multi-Scale Robotics Lab builds millimeter- to nanometer-scale intelligent machines for biomedical use, focusing on wirelessly powered magnetic microrobots. Recent advances include a clinically oriented magnetically guided microrobot platform integrating navigation, therapeutic delivery, and imaging, with multiple locomotion modes such as vessel-wall rolling, gradient pulling, and in-flow navigation to reach targets in endovascular and cerebrospinal spaces while carrying thrombolytic, antibiotic, or tumor drugs. Related work covers electromagnetic navigation systems for operating theatres and remote magnetic telesurgery.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://msrl.ethz.ch/the-lab/team/Brad_Nelson.html",
+            "scholar": "https://scholar.google.com/citations?user=lFI6TqAAAAAJ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "boston-university-mechanical-engineering",
+      "university": "Boston University",
+      "program_name": "Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics",
+          "Fluid Dynamics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend, tuition, insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bu.edu/academics/eng/programs/mechanical-engineering/phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "california-institute-of-technology-aeronautics-galcit",
+      "university": "California Institute of Technology",
+      "program_name": "Aeronautics (GALCIT)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Fluid Mechanics",
+          "Solid Mechanics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2024-12-15",
+        "deadline_display": "Dec 15, 2024 (prior cycle)",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admission by option; committee review",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://galcit.caltech.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
+      "faculty": []
+    },
+    {
+      "id": "california-institute-of-technology-space-engineering",
+      "university": "California Institute of Technology",
+      "program_name": "Space Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Space Engineering",
+          "Aerospace",
+          "Spacecraft"
+        ]
+      },
+      "requirements": {
+        "deadline": "2024-12-15",
+        "deadline_display": "Dec 15, 2024 (prior cycle)",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admission by option; committee review",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://galcit.caltech.edu/academics/grad_as"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
+      "faculty": []
+    },
+    {
+      "id": "carnegie-mellon-university-ph-d-in-mechanical-engineering",
+      "university": "Carnegie Mellon University",
+      "program_name": "Ph.D. in Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Thermal Fluids",
+          "Manufacturing",
+          "Design"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental admission",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.meche.engineering.cmu.edu/education/graduate-programs/phd/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "columbia-university-mechanical-engineering-phd",
+      "university": "Columbia University",
+      "program_name": "Mechanical Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Robotics",
+          "Energy Systems",
+          "Micro Nano Engineering"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental committee admission (SEAS)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Comprehensive doctoral funding package: stipend, full tuition, health insurance and fees"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.engineering.columbia.edu/academics/programs/doctoral-programs/mechanical-engineering-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "cornell-university-aerospace-engineering-phd",
+      "university": "Cornell University",
+      "program_name": "Aerospace Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Fluid Dynamics",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.cornell.edu/graduate-school/aerospace-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #12",
+      "faculty": []
+    },
+    {
+      "id": "cornell-university-mechanical-engineering-phd",
+      "university": "Cornell University",
+      "program_name": "Mechanical Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics",
+          "Thermofluids"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.cornell.edu/graduate-school/mechanical-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #12",
+      "faculty": []
+    },
+    {
+      "id": "duke-university-ph-d-in-mechanical-engineering-and-materials-science",
+      "university": "Duke University",
+      "program_name": "Ph.D. in Mechanical Engineering and Materials Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Materials Science",
+          "Fluid Dynamics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-11",
+        "deadline_display": "Dec 11, 2025 (prior cycle)",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.duke.edu/phd-mechanical-engineering-and-materials-science/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "georgia-institute-of-technology-aerospace-engineering-phd",
+      "university": "Georgia Institute of Technology",
+      "program_name": "Aerospace Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Propulsion",
+          "Autonomy",
+          "Structures"
+        ]
+      },
+      "requirements": {
+        "deadline": "2027-03-01",
+        "deadline_display": "Mar 1, 2027",
+        "application_fee_usd": 95,
+        "fee_display": "$95 domestic / $105 international",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Apply early for full research assistantship consideration"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.gatech.edu/programs/aerospace-engineering-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "georgia-institute-of-technology-nuclear-engineering-phd",
+      "university": "Georgia Institute of Technology",
+      "program_name": "Nuclear Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Nuclear Engineering",
+          "Medical Physics",
+          "Radiological Science"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 95,
+        "fee_display": "$95 domestic / $105 international",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Options include Medical Physics and Nuclear Enterprise Management",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.gatech.edu/programs/nuclear-engineering-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "harvard-university-materials-science-and-mechanical-engineering",
+      "university": "Harvard University",
+      "program_name": "Materials Science and Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Materials Science",
+          "Mechanical Engineering",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (SEAS PhD guarantee: tuition + stipend)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.harvard.edu/program/materials-science-and-mechanical-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #3",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-mechanical-engineering-phd",
+      "university": "Johns Hopkins University",
+      "program_name": "Mechanical Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Fluid Mechanics",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 25,
+        "fee_display": "$25",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/mechanical-engineering/mechanical-engineering-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "lehigh-university-mechanical-engineering-phd",
+      "university": "Lehigh University",
+      "program_name": "Mechanical Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Fluid Mechanics",
+          "Robotics",
+          "Solid Mechanics",
+          "Energy"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 50,
+        "fee_display": "$50",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (all Rossin College PhDs 100% funded)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.lehigh.edu/meche/graduate/phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "massachusetts-institute-of-technology-aeronautics-and-astronautics-phd-scd",
+      "university": "Massachusetts Institute of Technology",
+      "program_name": "Aeronautics and Astronautics (PhD/ScD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Autonomy",
+          "Controls"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "PhD students fully supported (fellowship/RA/TA)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://oge.mit.edu/programs/aeronautics-and-astronautics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #2",
+      "faculty": []
+    },
+    {
+      "id": "massachusetts-institute-of-technology-mechanical-engineering-phd-scd",
+      "university": "Massachusetts Institute of Technology",
+      "program_name": "Mechanical Engineering (PhD/ScD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics",
+          "Design"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Research-track fully supported (full tuition, stipend)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://oge.mit.edu/programs/mechanical-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #2",
+      "faculty": []
+    },
+    {
+      "id": "new-york-university-ph-d-in-mechanical-engineering",
+      "university": "New York University",
+      "program_name": "Ph.D. in Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Robotics",
+          "Dynamics Control",
+          "Aerospace",
+          "Mechatronics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": 2,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.nyu.edu/academics/programs/mechanical-engineering-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "northwestern-university-mechanical-engineering-phd",
+      "university": "Northwestern University",
+      "program_name": "Mechanical Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics",
+          "Fluid Dynamics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Nearly all admitted PhD students receive full support (tuition, stipend, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.mccormick.northwestern.edu/mechanical/academics/graduate/prospective-phd/how-to-apply.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "princeton-university-mechanical-and-aerospace-engineering-ph-d",
+      "university": "Princeton University",
+      "program_name": "Mechanical and Aerospace Engineering (Ph.D.)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Fluid Dynamics",
+          "Combustion",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mechanical-and-aerospace-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #1",
+      "faculty": []
+    },
+    {
+      "id": "purdue-university-mechanical-engineering-phd",
+      "university": "Purdue University",
+      "program_name": "Mechanical Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Thermal Sciences",
+          "Robotics",
+          "Manufacturing",
+          "Dynamics Controls"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 60,
+        "fee_display": "$60 domestic / $75 intl",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Research PhD students funded via fellowships/TA/RA; tuition covered"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.purdue.edu/ME/Graduate/Prospective"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "purdue-university-aeronautics-and-astronautics-phd",
+      "university": "Purdue University",
+      "program_name": "Aeronautics and Astronautics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Propulsion",
+          "Astrodynamics",
+          "Autonomy"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 domestic / $75 intl",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.purdue.edu/AAE/academics/graduate"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "rutgers-university-new-brunswick-mechanical-and-aerospace-engineering-phd",
+      "university": "Rutgers University-New Brunswick",
+      "program_name": "Mechanical and Aerospace Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Aerospace",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://mae.rutgers.edu/graduate-academics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "stanford-university-aeronautics-and-astronautics-phd",
+      "university": "Stanford University",
+      "program_name": "Aeronautics and Astronautics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Fluid Dynamics",
+          "Space Systems"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 125,
+        "fee_display": "$125",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://aa.stanford.edu/academics-admissions/graduate-programs/phd-admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    },
+    {
+      "id": "stanford-university-mechanical-engineering-phd",
+      "university": "Stanford University",
+      "program_name": "Mechanical Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics",
+          "Thermosciences",
+          "Design"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 125,
+        "fee_display": "$125",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://me.stanford.edu/academics-admissions/graduate-programs/doctoral-program/phd-admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    },
+    {
+      "id": "the-ohio-state-university-aerospace-engineering",
+      "university": "The Ohio State University",
+      "program_name": "Aerospace Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Fluid Dynamics",
+          "Propulsion"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (domestic) / $70 (international)",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "PhD/MS-thesis students automatically considered for financial aid (GTA/GRA/fellowships)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gpadmissions.osu.edu/programs/program.aspx?prog=0005"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
+      "faculty": []
+    },
+    {
+      "id": "the-ohio-state-university-mechanical-engineering",
+      "university": "The Ohio State University",
+      "program_name": "Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics",
+          "Thermal Sciences"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (domestic) / $70 (international)",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "PhD/MS-thesis students automatically considered for financial aid"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://mae.osu.edu/graduate/admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
+      "faculty": []
+    },
+    {
+      "id": "the-ohio-state-university-nuclear-engineering",
+      "university": "The Ohio State University",
+      "program_name": "Nuclear Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Nuclear Engineering",
+          "Reactor Physics",
+          "Radiation"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (domestic) / $70 (international)",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Complete Autumn application by Nov 30 for all College of Engineering funding"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gpadmissions.osu.edu/programs/program.aspx?prog=0150"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
+      "faculty": []
+    },
+    {
+      "id": "tufts-university-phd-in-mechanical-engineering",
+      "university": "Tufts University",
+      "program_name": "PhD in Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Robotics",
+          "Thermal Fluids",
+          "Mechanics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Full-time PhD students in School of Engineering often receive tuition scholarship"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://asegrad.tufts.edu/program/mechanical-engineering-doctorate"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-berkeley-mechanical-engineering-phd",
+      "university": "University of California, Berkeley",
+      "program_name": "Mechanical Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-03",
+        "deadline_display": "Dec 3, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.berkeley.edu/program/mechanical-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-davis-mechanical-and-aerospace-engineering",
+      "university": "University of California, Davis",
+      "program_name": "Mechanical and Aerospace Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Aerospace",
+          "Fluid Dynamics",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 (US) / $155 (intl)",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucdavis.edu/programs/gmae"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-irvine-mechanical-and-aerospace-engineering-ph-d",
+      "university": "University of California, Irvine",
+      "program_name": "Mechanical and Aerospace Engineering, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Aerospace Engineering",
+          "Fluid Dynamics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Jan 15 deadline for full consideration and financial support",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.uci.edu/dept/mae/graduate/phd-degree-requirements"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-los-angeles-aerospace-engineering",
+      "university": "University of California, Los Angeles",
+      "program_name": "Aerospace Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Fluid Dynamics",
+          "Structures"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Departmental support (fellowships/TA/RA) by merit"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/mechanical-aerospace-engineering-department/aerospace-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-los-angeles-mechanical-engineering",
+      "university": "University of California, Los Angeles",
+      "program_name": "Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics",
+          "Thermodynamics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Departmental support (fellowships/TA/RA) by merit"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/mechanical-aerospace-engineering-department/mechanical-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-san-diego-mechanical-and-aerospace-engineering-phd-engi",
+      "university": "University of California, San Diego",
+      "program_name": "Mechanical and Aerospace Engineering PhD (Engineering Sciences)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Aerospace",
+          "Fluid Dynamics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "PhD typically funded via fellowships/TA/GSR (~$3,600/mo plus tuition & fees)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://maeweb.ucsd.edu/grad/graduate-admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #29",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-santa-barbara-mechanical-engineering-phd",
+      "university": "University of California, Santa Barbara",
+      "program_name": "Mechanical Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Dynamics Control",
+          "Fluids",
+          "Solid Mechanics",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 ($155 intl)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.graddiv.ucsb.edu/graduate-programs/departments/mechanical-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #40",
+      "faculty": []
+    },
+    {
+      "id": "university-of-florida-aerospace-engineering",
+      "university": "University of Florida",
+      "program_name": "Aerospace Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Fluid Dynamics",
+          "Structures"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-05",
+        "deadline_display": "Dec 5, 2026",
+        "application_fee_usd": 30,
+        "fee_display": "$30",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-to-department PhD admission",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "College assistantships; funding tied to Dec 5 priority deadline"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.eng.ufl.edu/graduate/prospects/ph-d-admissions/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-florida-mechanical-engineering",
+      "university": "University of Florida",
+      "program_name": "Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics",
+          "Thermofluids"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-05",
+        "deadline_display": "Dec 5, 2026",
+        "application_fee_usd": 30,
+        "fee_display": "$30",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-to-department PhD admission",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "College assistantships; funding tied to Dec 5 priority deadline"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.eng.ufl.edu/graduate/prospects/ph-d-admissions/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-mechanical-engineering",
+      "university": "University of Georgia",
+      "program_name": "Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics",
+          "Thermofluids"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Research assistantships (tuition waiver + stipend), fellowships, TAships"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-mechanical-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-illinois-urbana-champaign-aerospace-engineering-phd",
+      "university": "University of Illinois Urbana-Champaign",
+      "program_name": "Aerospace Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Fluid Dynamics",
+          "Structures"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Grainger PhD guaranteed funded appointment (tuition waiver + stipend) first 5 years"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.illinois.edu/graduate/engineering/aerospace-engineering-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-illinois-urbana-champaign-mechanical-engineering-phd",
+      "university": "University of Illinois Urbana-Champaign",
+      "program_name": "Mechanical Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Fluid Dynamics",
+          "Thermal Sciences",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Fall deadline Dec 1; materials due 11:59pm CST",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Grainger PhD guaranteed funded appointment (tuition waiver + stipend) first 5 years"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://mechse.illinois.edu/graduate/applying-mechse-graduate-programs/application-deadlines"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-illinois-urbana-champaign-theoretical-and-applied-mechanics-phd",
+      "university": "University of Illinois Urbana-Champaign",
+      "program_name": "Theoretical & Applied Mechanics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Applied Mechanics",
+          "Solid Mechanics",
+          "Computational Mechanics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Administered via MechSE; Fall deadline Dec 1",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Grainger PhD guaranteed funded appointment (tuition waiver + stipend) first 5 years"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.illinois.edu/graduate/engineering/theoretical-applied-mechanics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-maryland-college-park-aerospace-engineering-ph-d",
+      "university": "University of Maryland, College Park",
+      "program_name": "Aerospace Engineering, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Fluid Dynamics",
+          "Rotorcraft"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-03-13",
+        "deadline_display": "Mar 13, 2026 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Fellowships and research/teaching assistantships often cover tuition plus stipend"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://academiccatalog.umd.edu/graduate/programs/aerospace-engineering-enae/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-maryland-college-park-mechanical-engineering-ph-d",
+      "university": "University of Maryland, College Park",
+      "program_name": "Mechanical Engineering, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics",
+          "Thermal Sciences"
+        ]
+      },
+      "requirements": {
+        "deadline": "2027-03-05",
+        "deadline_display": "Mar 5, 2027",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Research/teaching assistantships; top applicants get fellowships; all auto-considered"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://academiccatalog.umd.edu/graduate/programs/mechanical-engineering-enme/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-maryland-college-park-reliability-engineering-ph-d",
+      "university": "University of Maryland, College Park",
+      "program_name": "Reliability Engineering, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Reliability Engineering",
+          "Risk Analysis",
+          "Prognostics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-03-06",
+        "deadline_display": "Mar 6, 2026 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Research/teaching assistantships and fellowships; all full-time auto-considered"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://academiccatalog.umd.edu/graduate/programs/reliability-engineering-enre/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-michigan-ann-arbor-aerospace-engineering-phd",
+      "university": "University of Michigan, Ann Arbor",
+      "program_name": "Aerospace Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Fluid Dynamics",
+          "Propulsion"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.engin.umich.edu/admissions-aid/graduate-professional/deadlines/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-michigan-ann-arbor-mechanical-engineering-phd",
+      "university": "University of Michigan, Ann Arbor",
+      "program_name": "Mechanical Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Dynamics",
+          "Thermofluids"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://me.engin.umich.edu/admissions/graduate/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-notre-dame-aerospace-and-mechanical-engineering-phd",
+      "university": "University of Notre Dame",
+      "program_name": "Aerospace and Mechanical Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Fluid Dynamics",
+          "Robotics",
+          "Mechanical Engineering"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-31",
+        "deadline_display": "Dec 31, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://ame.nd.edu/graduate/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-pennsylvania-mechanical-engineering-and-applied-mechanics-phd",
+      "university": "University of Pennsylvania",
+      "program_name": "Mechanical Engineering and Applied Mechanics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics",
+          "Fluid Mechanics",
+          "Mechanics of Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 2,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "PhD students typically fully funded (tuition, fees, stipend, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.me.upenn.edu/doctoral/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "university-of-rochester-phd-in-mechanical-engineering",
+      "university": "University of Rochester",
+      "program_name": "PhD in Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Fluid Dynamics",
+          "Solid Mechanics",
+          "Laser Fusion Energy"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-02-01",
+        "deadline_display": "Feb 1, 2026 (prior cycle)",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct admission to department",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.me.rochester.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-southern-california-aerospace-engineering-phd",
+      "university": "University of Southern California",
+      "program_name": "Aerospace Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Fluid Dynamics",
+          "Aerospace",
+          "Propulsion"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 120,
+        "fee_display": "$120",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-admit to department; Fall admission only",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "PhD applicants considered for funding (RA/TA/fellowship); verify package"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://viterbigradadmission.usc.edu/doctoral/phddegrees/phd-aerospace-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #28",
+      "faculty": []
+    },
+    {
+      "id": "university-of-southern-california-astronautical-engineering-phd",
+      "university": "University of Southern California",
+      "program_name": "Astronautical Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Astronautics",
+          "Space Systems",
+          "Spacecraft"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 120,
+        "fee_display": "$120",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-admit to department; Fall admission only",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "PhD applicants considered for funding (RA/TA/fellowship); verify package"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://viterbigradadmission.usc.edu/doctoral/phddegrees/phd-astronautical-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #28",
+      "faculty": []
+    },
+    {
+      "id": "university-of-southern-california-mechanical-engineering-phd",
+      "university": "University of Southern California",
+      "program_name": "Mechanical Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Dynamics",
+          "Thermofluids"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 120,
+        "fee_display": "$120",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-admit to department; Fall admission only",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "PhD applicants considered for funding (RA/TA/fellowship); verify package"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://viterbigradadmission.usc.edu/doctoral/phddegrees/phd-mechanical-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #28",
+      "faculty": []
+    },
+    {
+      "id": "university-of-texas-at-austin-aerospace-engineering",
+      "university": "University of Texas at Austin",
+      "program_name": "Aerospace Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Fluid Dynamics",
+          "Structures"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 65,
+        "fee_display": "$65 (US) / $90 (international)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.ae.utexas.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-texas-at-austin-engineering-mechanics",
+      "university": "University of Texas at Austin",
+      "program_name": "Engineering Mechanics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Engineering Mechanics",
+          "Solid Mechanics",
+          "Computational Mechanics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 65,
+        "fee_display": "$65 (US) / $90 (international)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.ae.utexas.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-texas-at-austin-mechanical-engineering",
+      "university": "University of Texas at Austin",
+      "program_name": "Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Thermofluids",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 65,
+        "fee_display": "$65 (US) / $90 (international)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.me.utexas.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-virginia-mechanical-and-aerospace-engineering-phd",
+      "university": "University of Virginia",
+      "program_name": "Mechanical and Aerospace Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Fluid Dynamics",
+          "Aerospace",
+          "Robotics",
+          "Thermal Sciences"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 0,
+        "fee_display": "$0 (waived for 2026 admission cycle)",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct admission to department",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Most PhD students fully funded (tuition, fees, health insurance + stipend)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.virginia.edu/department/mechanical-and-aerospace-engineering/academics/graduate-programs/phd-mechanical-and-aerospace-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-washington-aeronautics-and-astronautics-phd",
+      "university": "University of Washington",
+      "program_name": "Aeronautics & Astronautics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Aerospace",
+          "Fluid Dynamics",
+          "Controls"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Not Accepted",
+        "letters": 2,
+        "english": "Unknown/Verify",
+        "admission_model": "Autumn quarter only",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Post-Master's applicants expected to have ~3 yrs funding; verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://www.aa.washington.edu/admissions/phd.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-washington-mechanical-engineering-phd",
+      "university": "University of Washington",
+      "program_name": "Mechanical Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Robotics",
+          "Thermal Sciences",
+          "Manufacturing"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Pre-Master and Post-Master tracks",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://www.me.washington.edu"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-wisconsin-madison-mechanical-engineering-phd",
+      "university": "University of Wisconsin-Madison",
+      "program_name": "Mechanical Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Thermofluids",
+          "Controls"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Fellowships, assistantships, traineeships"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://guide.wisc.edu/graduate/mechanical-engineering/mechanical-engineering-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-wisconsin-madison-engineering-mechanics-phd",
+      "university": "University of Wisconsin-Madison",
+      "program_name": "Engineering Mechanics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Engineering Mechanics",
+          "Solid Mechanics",
+          "Astronautics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://guide.wisc.edu/graduate/mechanical-engineering/engineering-mechanics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "vanderbilt-university-mechanical-engineering-phd",
+      "university": "Vanderbilt University",
+      "program_name": "Mechanical Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics",
+          "Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2027-01-01",
+        "deadline_display": "Jan 1, 2027",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct to department",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.vanderbilt.edu/departments/mechanical-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "washington-university-in-st-louis-phd-in-mechanical-engineering",
+      "university": "Washington University in St. Louis",
+      "program_name": "PhD in Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Solid Mechanics",
+          "Fluid Dynamics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition + stipend)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://mems.washu.edu/academics/graduate/PhD-in-Mechanical-Engineering.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "yale-university-materials-science",
+      "university": "Yale University",
+      "program_name": "Materials Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Materials Science",
+          "Nanomaterials",
+          "Soft Matter"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct to program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.yale.edu/programs-of-study/materials-science"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    },
+    {
+      "id": "yale-university-mechanical-engineering",
+      "university": "Yale University",
+      "program_name": "Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mechanical & Aerospace Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Fluid Dynamics",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct to program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.yale.edu/programs-of-study/mechanical-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    }
+  ]
+}

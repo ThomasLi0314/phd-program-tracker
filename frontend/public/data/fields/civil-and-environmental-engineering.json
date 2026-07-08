@@ -1,0 +1,375 @@
+{
+  "primary": "Civil & Environmental Engineering",
+  "programs": [
+    {
+      "id": "california-institute-of-technology-applied-mechanics",
+      "university": "California Institute of Technology",
+      "program_name": "Applied Mechanics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Civil & Environmental Engineering",
+        "subs": [
+          "Mechanics",
+          "Structural Engineering",
+          "Computational Mechanics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2024-12-15",
+        "deadline_display": "Dec 15, 2024 (prior cycle)",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admission by option; committee review",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://www.mce.caltech.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
+      "faculty": []
+    },
+    {
+      "id": "california-institute-of-technology-civil-engineering",
+      "university": "California Institute of Technology",
+      "program_name": "Civil Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Civil & Environmental Engineering",
+        "subs": [
+          "Civil Engineering",
+          "Structural Engineering",
+          "Earthquake Engineering"
+        ]
+      },
+      "requirements": {
+        "deadline": "2024-12-15",
+        "deadline_display": "Dec 15, 2024 (prior cycle)",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admission by option; committee review",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://www.mce.caltech.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
+      "faculty": []
+    },
+    {
+      "id": "california-institute-of-technology-mechanical-engineering",
+      "university": "California Institute of Technology",
+      "program_name": "Mechanical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Civil & Environmental Engineering",
+        "subs": [
+          "Mechanical Engineering",
+          "Robotics",
+          "Fluid Mechanics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2024-12-15",
+        "deadline_display": "Dec 15, 2024 (prior cycle)",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admission by option; committee review",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://www.mce.caltech.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
+      "faculty": []
+    },
+    {
+      "id": "columbia-university-civil-engineering-phd",
+      "university": "Columbia University",
+      "program_name": "Civil Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Civil & Environmental Engineering",
+        "subs": [
+          "Structural Engineering",
+          "Infrastructure",
+          "Geotechnical"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental committee admission (SEAS); MS required before PhD candidacy",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Comprehensive doctoral funding package: stipend, full tuition, health insurance and fees"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.civil.columbia.edu/content/doctoral"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "columbia-university-engineering-mechanics-phd",
+      "university": "Columbia University",
+      "program_name": "Engineering Mechanics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Civil & Environmental Engineering",
+        "subs": [
+          "Solid Mechanics",
+          "Computational Mechanics",
+          "Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental committee admission (SEAS)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Comprehensive doctoral funding package: stipend, full tuition, health insurance and fees"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.engineering.columbia.edu/academics/programs/doctoral-programs/engineering-mechanics-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "purdue-university-civil-engineering-phd",
+      "university": "Purdue University",
+      "program_name": "Civil Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Civil & Environmental Engineering",
+        "subs": [
+          "Structures",
+          "Transportation",
+          "Geotechnical",
+          "Water Resources"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 domestic / $75 intl",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.purdue.edu/CE/Academics/Graduate"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-davis-transportation-technology-and-policy",
+      "university": "University of California, Davis",
+      "program_name": "Transportation Technology and Policy",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Civil & Environmental Engineering",
+        "subs": [
+          "Transportation",
+          "Sustainability",
+          "Transport Policy"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 (US) / $155 (intl)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucdavis.edu/programs/gttp"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-irvine-transportation-science-ph-d",
+      "university": "University of California, Irvine",
+      "program_name": "Transportation Science, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Civil & Environmental Engineering",
+        "subs": [
+          "Transportation Science",
+          "Operations Research",
+          "Systems Modeling"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-03-01",
+        "deadline_display": "Mar 1, 2026 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "GRE required; March 1 deadline for Fall entry",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://transci.uci.edu/program_phd.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-san-diego-structural-engineering-phd",
+      "university": "University of California, San Diego",
+      "program_name": "Structural Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Civil & Environmental Engineering",
+        "subs": [
+          "Structural Engineering",
+          "Computational Mechanics",
+          "Earthquake Engineering"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://structures.ucsd.edu/academics/graduate-program/admissions-faqs"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #29",
+      "faculty": []
+    }
+  ]
+}

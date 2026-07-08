@@ -1,0 +1,3038 @@
+{
+  "primary": "Electrical Engineering",
+  "programs": [
+    {
+      "id": "stanford-phd-electrical-engineering",
+      "university": "Stanford University",
+      "program_name": "PhD in Electrical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Photonics & Optics",
+          "Circuits & Systems",
+          "Signal Processing",
+          "Machine Learning",
+          "Nanoelectronics",
+          "Power & Energy Systems"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 125,
+        "fee_display": "$125",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "TOEFL iBT 90 or IELTS Academic 7 minimum for consideration (TOEFL 109 / IELTS 8 exempts the English Placement Test); waiver possible for applicants whose qualifying degree was taught in English.",
+        "admission_model": "Committee-Based",
+        "admission_model_note": "The EE department admissions committee reviews all applications together shortly after the deadline. Admitted PhD students identify a dissertation advisor during the early part of the program, who then provides research-assistantship funding.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "All PhD students in good academic standing receive full support (tuition plus stipend via fellowships, research assistantships, training grants, or teaching assistantships) for the duration of the doctoral program, contingent on satisfactory progress."
+        },
+        "pre_application_contact": "Neutral / Not Required",
+        "contact_note": "Admissions are committee-based, so contacting faculty before applying is not required, though admitted students must eventually secure a dissertation advisor.",
+        "ects": null,
+        "duration": "5-7 years (typical completion)"
+      },
+      "links": {
+        "program": "https://ee.stanford.edu/admissions/phd",
+        "admissions": "https://gradadmissions.stanford.edu/programs/electrical-engineering"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "jelena-vuckovic",
+          "name": "Jelena Vuckovic",
+          "title": "Jensen Huang Professor of Global Leadership, Professor of Electrical Engineering (by courtesy, Applied Physics)",
+          "sub_field": "Quantum & Nanophotonics",
+          "tags": [
+            "Quantum Photonics",
+            "Nanophotonics",
+            "Inverse Design",
+            "Cavity QED",
+            "Quantum Information"
+          ],
+          "summary": "Vuckovic leads the Nanoscale and Quantum Photonics Lab in the Ginzton Laboratory, developing semiconductor chip-scale photonic systems for classical and quantum information processing. Recent work emphasizes inverse-designed photonic devices, quantum emitters based on color centers in diamond and silicon carbide, cavity QED, integrated Ti:sapphire lasers, and nonlinear optics including optical parametric oscillation. Her group also pursues heterogeneously integrated photonic chips and on-chip laser-driven particle accelerators, probing new regimes of light-matter interaction for future quantum technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/jelena-vuckovic",
+            "scholar": "http://scholar.google.com/citations?user=-afJI14AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "shanhui-fan",
+          "name": "Shanhui Fan",
+          "title": "Joseph and Hon Mai Goodman Professor of the School of Engineering, Professor of Electrical Engineering",
+          "sub_field": "Nanophotonics & Electromagnetics",
+          "tags": [
+            "Nanophotonics",
+            "Metamaterials",
+            "Topological Photonics",
+            "Radiative Cooling",
+            "Electromagnetics"
+          ],
+          "summary": "Fan studies fundamental nanophotonic structures, including photonic crystals and metamaterials, and applies them to energy and information technologies. Recent research spans topological and non-Hermitian photonics, radiative cooling and thermal management, free-electron quantum optics, synthetic frequency dimensions, twisted bilayer (moire) photonics, and space-time structured light. His group combines rigorous electromagnetic theory with computational design to engineer light-matter interactions, advancing sustainable energy applications such as passive daytime cooling alongside novel platforms for optical information processing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/shanhui-fan",
+            "scholar": null
+          }
+        },
+        {
+          "id": "eric-pop",
+          "name": "Eric Pop",
+          "title": "Pease-Ye Professor of Electrical Engineering",
+          "sub_field": "Nanoelectronics & 2D Materials",
+          "tags": [
+            "2D Materials",
+            "Nanoelectronics",
+            "Phase-Change Memory",
+            "Thermal Transport",
+            "Transistors"
+          ],
+          "summary": "Pop works at the intersection of nanoelectronics and nanoscale energy conversion. Recent research scales monolayer transition-metal-dichalcogenide (MoS2, WS2, WSe2) transistors into nanoribbon devices, optimizes low-resistance metal contacts to 2D materials, and develops low-power phase-change memory. His group also studies self-heating, high-field breakdown, and thermal transport in nanoscale and oxide-semiconductor devices, plus flexible transistors and sensors. The work blends experiment and computation to improve the energy efficiency and performance of future electronics and memory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/epop",
+            "scholar": null
+          }
+        },
+        {
+          "id": "hs-philip-wong",
+          "name": "H.-S. Philip Wong",
+          "title": "Willard R. and Inez Kerr Bell Professor in the School of Engineering, Professor of Electrical Engineering",
+          "sub_field": "Nanoelectronics & Memory Systems",
+          "tags": [
+            "RRAM / Memory",
+            "Nanoelectronics",
+            "3D Integration",
+            "In-Memory Computing",
+            "AI Hardware"
+          ],
+          "summary": "Wong, founding faculty co-director of the Stanford SystemX Alliance, researches nanoelectronic devices and systems that push beyond conventional scaling. His work covers non-volatile and resistive memory (RRAM), monolithic 3D integration of logic and memory, 2D layered materials, carbon nanotube electronics, and brain-inspired in-memory computing for energy-efficient AI hardware. He collaborates on N3XT-style nanosystems that co-locate computation and storage, and on wireless implantable biosensors, spanning device physics, fabrication, and system-level demonstrations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://web.stanford.edu/~hspwong/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "amin-arbabian",
+          "name": "Amin Arbabian",
+          "title": "Professor of Electrical Engineering",
+          "sub_field": "Integrated Circuits & Sensing",
+          "tags": [
+            "Integrated Circuits",
+            "Medical Implants",
+            "mm-Wave Radar",
+            "Wireless Sensing",
+            "Imaging"
+          ],
+          "summary": "Arbabian designs integrated circuits and systems for biomedical, sensing, and IoT applications. Recent projects include wireless and ultrasonically powered medical implants with power and data links, wireless electrochemical drug-delivery systems, and millimeter-wave radar for imaging and human-computer interfaces with motion compensation. His group also develops radically miniaturized sensors, hybrid and emerging medical imaging modalities, remote detection methods, and high-throughput wireless and wireline links, combining circuit design with signal processing and physics for next-generation sensing platforms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/amin-arbabian",
+            "scholar": null
+          }
+        },
+        {
+          "id": "subhasish-mitra",
+          "name": "Subhasish Mitra",
+          "title": "William E. Ayer Professor in the Departments of Electrical Engineering and Computer Science",
+          "sub_field": "Robust Systems & Circuits",
+          "tags": [
+            "Robust Systems",
+            "Nanosystems",
+            "EDA",
+            "AI Hardware",
+            "3D Integration"
+          ],
+          "summary": "Mitra directs the Stanford Robust Systems Group and researches robust computing, nanosystems, and electronic design automation. His work spans monolithic 3D nanosystems that integrate emerging logic such as carbon nanotube transistors with dense non-volatile memory for energy-efficient AI, resilient system design and error detection, and hardware validation and test. He co-leads efforts in the SystemX Alliance and the Microelectronics Commons AI Hardware Hub, and applies computing advances to neuroscience, bridging device, circuit, and architecture layers.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/subhasish-mitra",
+            "scholar": null
+          }
+        },
+        {
+          "id": "stephen-boyd",
+          "name": "Stephen P. Boyd",
+          "title": "Samsung Professor in the School of Engineering, Professor of Electrical Engineering",
+          "sub_field": "Optimization & Control",
+          "tags": [
+            "Convex Optimization",
+            "Control",
+            "Machine Learning",
+            "Optimization Software"
+          ],
+          "summary": "Boyd works on convex optimization and its applications across control, signal processing, machine learning, finance, and engineering design. His group develops theory, algorithms, and widely used open-source software, including domain-specific modeling languages and solvers, for large-scale and embedded real-time convex optimization. Recent directions include distributed and operator-splitting methods, convex-optimization-based control and model predictive control, and data-driven optimization for portfolio and resource-allocation problems, emphasizing methods that are reliable, interpretable, and deployable in practical systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://web.stanford.edu/~boyd/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mert-pilanci",
+          "name": "Mert Pilanci",
+          "title": "Assistant Professor of Electrical Engineering",
+          "sub_field": "Machine Learning & Optimization",
+          "tags": [
+            "Optimization",
+            "Machine Learning",
+            "Neural Network Theory",
+            "Randomized Algorithms"
+          ],
+          "summary": "Pilanci researches mathematical optimization, machine learning, and signal processing. A central theme is convex formulations of neural networks: he has shown ReLU networks can be trained via equivalent convex programs, exposing their convex geometry, duality, and global optimality. Other work covers randomized numerical linear algebra and sketching for large-scale learning, quantization for efficient ML, and distributed optimization. His theoretically grounded methods aim to make training faster, more reliable, and better understood, recognized by an NSF CAREER award.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/mert-pilanci",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tsachy-weissman",
+          "name": "Tsachy Weissman",
+          "title": "Robert and Barbara Kleist Professor in the School of Engineering, Professor of Electrical Engineering",
+          "sub_field": "Information Theory & Signal Processing",
+          "tags": [
+            "Information Theory",
+            "Data Compression",
+            "Signal Processing",
+            "Genomic Compression"
+          ],
+          "summary": "Weissman, founding director of the Stanford Compression Forum, researches information theory, data compression, communications, and statistical signal processing. Recent work develops learned and nonlinear transforms for compression and information processing, and applies information-theoretic methods to genomic data compression and analysis, as well as to machine learning. His group studies fundamental limits and practical algorithms at the interface of these fields, spanning source and channel coding, denoising, and emerging biological and neural data applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/itschak-weissman",
+            "scholar": "https://scholar.google.com/citations?user=nTiSnwUAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "juan-rivas-davila",
+          "name": "Juan M. Rivas-Davila",
+          "title": "Associate Professor of Electrical Engineering",
+          "sub_field": "Power Electronics",
+          "tags": [
+            "Power Electronics",
+            "High-Frequency Converters",
+            "Wide-Bandgap Devices",
+            "Magnetics"
+          ],
+          "summary": "Rivas-Davila leads Stanford's power electronics research on high-frequency energy conversion. His group designs DC-DC power converters and resonant topologies operating from megahertz up to about 100 MHz using silicon and wide-bandgap (GaN and SiC) devices. Research emphasizes resonant gate-drive techniques, high-frequency magnetics, and compact high-efficiency converters, targeting applications in renewable energy, grid interfaces, transportation, and miniaturized power supplies. The work spans circuit topology, magnetics design, and device integration to shrink and improve power electronic systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/juan-rivas-davila",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joseph-kahn",
+          "name": "Joseph M. Kahn",
+          "title": "Harald Trap Friis Professor of Electrical Engineering",
+          "sub_field": "Optical Communications / Photonics",
+          "tags": [
+            "fiber optics",
+            "spatial multiplexing",
+            "coherent detection",
+            "optical signal processing"
+          ],
+          "summary": "Kahn works on communication and imaging through optical fibers. Recent efforts address mode- and space-division multiplexing in multimode and multicore fibers, coherent data-center interconnects, optical frequency-comb sources, rate-adaptive access networks, and mitigation of Kerr nonlinearity in ultra-long-haul submarine links. His group also studies optimal free-space transmission through atmospheric turbulence and modal statistics in scrambled multimode systems, combining device physics with advanced digital signal processing to push fiber capacity and reach.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ee.stanford.edu/~jmk/",
+            "scholar": "https://scholar.google.com/citations?user=D22GptUAAAAJ"
+          }
+        },
+        {
+          "id": "olav-solgaard",
+          "name": "Olav Solgaard",
+          "title": "Professor of Electrical Engineering",
+          "sub_field": "Photonics / Optical MEMS",
+          "tags": [
+            "optical MEMS",
+            "nanophotonics",
+            "photonic sensors",
+            "LiDAR"
+          ],
+          "summary": "Solgaard develops micro- and nano-optical devices that merge photonics with MEMS. Recent work spans optical MEMS scanners and LiDAR, photonic-crystal and fiber-based sensors, and micro-optical systems for imaging and spectroscopy. His group also pursues optical MEMS for solar-energy concentration, retinal prosthetics, and structured-light and light-field capture, engineering movable and reconfigurable optical structures at small scales to enable compact, high-performance sensing and beam-steering systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/olav-solgaard",
+            "scholar": null
+          }
+        },
+        {
+          "id": "thomas-lee",
+          "name": "Thomas H. Lee",
+          "title": "Professor of Electrical Engineering",
+          "sub_field": "RF / Analog Circuits",
+          "tags": [
+            "RF integrated circuits",
+            "mm-wave CMOS",
+            "oscillators",
+            "low-power radios"
+          ],
+          "summary": "Lee designs high-frequency analog and RF integrated circuits in silicon. Recent interests include millimeter-wave and terahertz CMOS, low-power and energy-harvesting radios, high-speed clocking and low-phase-noise oscillators, and imaging systems. His group explores circuit techniques for compact wireless transceivers and sensor front ends, and he is well known for foundational textbooks on RF CMOS design and phase-locked systems that connect device behavior to system-level radio performance.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/thomas-lee",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ada-poon",
+          "name": "Ada S. Y. Poon",
+          "title": "Associate Professor of Electrical Engineering",
+          "sub_field": "RF / Bioelectronics",
+          "tags": [
+            "wireless power",
+            "implantable devices",
+            "bioelectronics",
+            "electromagnetics"
+          ],
+          "summary": "Poon builds miniaturized wireless and bioelectronic systems that interface electronics with the body. She pioneered mid-field wireless powering that delivers energy to millimeter-scale implants deep in tissue, enabling batteryless pacemakers, neural stimulators, and electroceutical devices. Recent work develops integrated circuits and electromagnetic techniques for closed-loop implantable therapies, wireless neural interfaces, and energy-efficient sensing, spanning antenna and coil design, low-power circuits, and safe power transfer for chronic biomedical implants.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/ada-poon",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-pauly",
+          "name": "John M. Pauly",
+          "title": "Professor of Electrical Engineering",
+          "sub_field": "Signal Processing / Medical Imaging",
+          "tags": [
+            "MRI",
+            "image reconstruction",
+            "deep learning",
+            "compressed sensing"
+          ],
+          "summary": "Pauly develops signal-processing methods for magnetic resonance imaging. His group designs RF pulse sequences, non-Cartesian and rapid acquisition strategies, and reconstruction algorithms, including compressed sensing and, increasingly, deep-learning approaches that accelerate scans and improve image quality. Recent work applies machine learning to MRI reconstruction, motion correction, and quantitative imaging, bridging optimization and neural networks with the underlying physics of magnetic resonance to enable faster, higher-fidelity clinical imaging.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/john-pauly",
+            "scholar": null
+          }
+        },
+        {
+          "id": "gordon-wetzstein",
+          "name": "Gordon Wetzstein",
+          "title": "Associate Professor of Electrical Engineering",
+          "sub_field": "Computational Imaging / Displays",
+          "tags": [
+            "computational imaging",
+            "AR/VR displays",
+            "neural rendering",
+            "optical computing"
+          ],
+          "summary": "Wetzstein leads the Stanford Computational Imaging Lab, jointly designing optics and algorithms. Recent work covers holographic and near-eye AR/VR displays, neural scene representations and rendering, end-to-end optimized cameras and lenses, single-photon and time-of-flight imaging, and optical neural networks that compute with light. His group blends physics-based optics with machine learning to build next-generation imaging, display, and sensing systems for computer vision, graphics, and immersive computing applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.computationalimaging.org/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "abbas-el-gamal",
+          "name": "Abbas El Gamal",
+          "title": "Hitachi America Professor of Electrical Engineering",
+          "sub_field": "Information Theory",
+          "tags": [
+            "network information theory",
+            "image sensors",
+            "coding",
+            "energy-efficient sensing"
+          ],
+          "summary": "El Gamal is a foundational figure in network information theory, co-author of a standard graduate text on the subject. His research spans capacity and coding for multi-user channels and networks, and he has also made major contributions to CMOS image sensors and energy-efficient integrated sensing. Recent interests connect information-theoretic limits with practical sensing and communication systems, including low-power imaging architectures and the theory underlying reliable communication over networks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://isl.stanford.edu/~abbas/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-tse",
+          "name": "David Tse",
+          "title": "Thomas Kailath and Guanghan Xu Professor",
+          "sub_field": "Information Theory / Communications",
+          "tags": [
+            "information theory",
+            "wireless",
+            "blockchain",
+            "computational biology"
+          ],
+          "summary": "Tse works at the intersection of information theory, wireless communication, and its applications. He co-authored a leading text on wireless communication and contributed opportunistic-communication and MIMO fundamentals. Recent research analyzes the security and scalability of blockchain consensus protocols, including proof-of-stake and longest-chain systems, and applies information-theoretic tools to computational biology and genomics. His group develops rigorous foundations for distributed systems, decentralized finance, and reliable communication and inference.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://tselab.stanford.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sanjay-lall",
+          "name": "Sanjay Lall",
+          "title": "Professor of Electrical Engineering",
+          "sub_field": "Control / Optimization",
+          "tags": [
+            "control theory",
+            "convex optimization",
+            "decentralized control",
+            "dynamical systems"
+          ],
+          "summary": "Lall studies control, optimization, and dynamical systems, with emphasis on decentralized and distributed control of large interconnected systems. His research develops convex-optimization methods for controller synthesis, model reduction, and analysis of networked and multi-agent systems. Recent work addresses structured and information-constrained control, learning for control, and scalable algorithms, connecting theory with applications in engineering networks, autonomy, and optimization-based decision-making across distributed sensing and actuation architectures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://web.stanford.edu/~lall/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "priyanka-raina",
+          "name": "Priyanka Raina",
+          "title": "Associate Professor of Electrical Engineering",
+          "sub_field": "Hardware / ML Accelerators",
+          "tags": [
+            "domain-specific accelerators",
+            "CGRA",
+            "hardware-software codesign",
+            "compute-in-memory"
+          ],
+          "summary": "Raina leads the Stanford AHA (Agile Hardware) group, building energy-efficient domain-specific accelerators and the tools to design them rapidly. Recent work includes coarse-grained reconfigurable arrays (CGRAs), the Amber SoC for dense linear algebra, and compute-in-memory chips using resistive RAM published in Nature. Her research couples hardware architecture with compilers and software in an agile codesign methodology, targeting machine learning, image processing, and emerging memory technologies for efficient computation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://priyanka-raina.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kwabena-boahen",
+          "name": "Kwabena Boahen",
+          "title": "Professor of Bioengineering and Electrical Engineering",
+          "sub_field": "Neuromorphic Hardware",
+          "tags": [
+            "neuromorphic computing",
+            "brain-inspired hardware",
+            "spiking systems",
+            "energy-efficient AI"
+          ],
+          "summary": "Boahen directs the Brains in Silicon lab, building neuromorphic hardware that emulates the brain's energy efficiency. His group created the Neurogrid and Braindrop mixed-signal systems that simulate large spiking neural networks at low power. Recent work develops dendritic and 3D-integrated computing primitives, brain-inspired architectures for AI, and algorithms that exploit analog device physics, aiming to close the enormous energy gap between biological brains and conventional digital processors for scalable intelligent computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://web.stanford.edu/group/brainsinsilicon/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "srabanti-chowdhury",
+          "name": "Srabanti Chowdhury",
+          "title": "Professor of Electrical Engineering",
+          "sub_field": "Power / Wide-Bandgap Devices",
+          "tags": [
+            "gallium nitride",
+            "diamond",
+            "wide-bandgap semiconductors",
+            "power electronics"
+          ],
+          "summary": "Chowdhury leads the Wide-Bandgap Lab, developing GaN, diamond, gallium oxide, and other wide- and ultra-wide-bandgap semiconductor devices for power and RF applications. A recognized leader in thermal management, her group integrates diamond with GaN and SiC to achieve very low thermal boundary resistance, keeping transistors cool at high power density. Recent work advances energy-efficient device and system architectures, vertical power transistors, and materials engineering for compact, robust, high-efficiency electronics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://wbglab.stanford.edu/",
+            "scholar": "https://scholar.google.com/citations?user=KB8jnsMAAAAJ"
+          }
+        },
+        {
+          "id": "ram-rajagopal",
+          "name": "Ram Rajagopal",
+          "title": "Associate Professor of Civil and Environmental Engineering (and Electrical Engineering, by courtesy)",
+          "sub_field": "Power Systems / Energy Data Science",
+          "tags": [
+            "smart grid",
+            "renewable integration",
+            "machine learning",
+            "energy systems"
+          ],
+          "summary": "Rajagopal leads the Stanford Sustainable Systems Lab, applying data science and stochastic control to power and energy systems. His research develops methods for integrating solar, wind, and distributed energy resources into the grid, managing electric-vehicle charging, and coordinating flexible demand. Recent work uses machine learning and large-scale sensor and satellite data to model energy consumption, forecast renewables, and design resilient, decarbonized grids, bridging signal processing, optimization, and electricity-market and infrastructure applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://s3l.stanford.edu/",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "georgia-tech-ece-phd",
+      "university": "Georgia Institute of Technology",
+      "program_name": "PhD in Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Control Systems",
+          "Photonics & Optics",
+          "Circuits & Systems",
+          "Communications & Networks",
+          "Power & Energy Systems"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-16",
+        "deadline_display": "Dec 16, 2026 (prior cycle — verify)",
+        "application_fee_usd": 95,
+        "fee_display": "$95 (US) / $105 (international)",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "TOEFL iBT 90+ or IELTS 7.0+ required for international applicants; exemptions determined by the Office of Graduate Education (verify)",
+        "admission_model": "Committee-Based",
+        "admission_model_note": "Admission is decided by an ECE committee informed by the applicant's selected research concentration areas. The School does not assign advisors; admitted students select their own PhD advisor after enrolling, typically via coursework or independent study once funding is secured.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Most applicants admitted to the Atlanta-campus PhD program receive a Graduate Research Assistantship (GRA) or Graduate Teaching Assistantship (GTA) offer covering tuition plus a stipend; external fellowships are also available. Funding is not explicitly guaranteed for every admit."
+        },
+        "pre_application_contact": "Neutral / Not Required",
+        "contact_note": "ECE uses committee-based admissions, so contacting faculty in advance is not required, though identifying potential advisors can strengthen fit.",
+        "ects": null,
+        "duration": "~5 years (candidacy requirements must be completed within 7 years)"
+      },
+      "links": {
+        "program": "https://ece.gatech.edu/academics/graduate/phd-degrees",
+        "admissions": "https://ece.gatech.edu/future-students/graduate-admissions"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "omer-inan",
+          "name": "Omer T. Inan",
+          "title": "Professor and Linda J. and Mark C. Smith Chair in Bioscience and Bioengineering; Associate Chair for Entrepreneurship",
+          "sub_field": "Wearable Bioelectronics & Health Sensing",
+          "tags": [
+            "wearable sensing",
+            "cardiovascular monitoring",
+            "bioelectronics",
+            "digital health",
+            "physiological signals"
+          ],
+          "summary": "Inan leads work on non-invasive, wearable medical devices and machine learning for physiological time-series signals. Recent projects include joint-health monitoring wearables (Arthroba), multimodal systems tracking cardiovascular and respiratory dynamics, and closed-loop stress mitigation via transcutaneous nerve stimulation, with publications in Biosensors and Bioelectronics. An AIMBE Fellow and 2023 EMBS Distinguished Lecturer, his research bridges circuits, sensing, and clinical translation for cardiovascular and musculoskeletal health assessment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ece.gatech.edu/directory/omer-t-inan",
+            "scholar": "https://scholar.google.com/citations?user=CURXz5UAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "justin-romberg",
+          "name": "Justin Romberg",
+          "title": "Schlumberger Professor of Electrical and Computer Engineering; Associate Chair for Research",
+          "sub_field": "Signal Processing & Data Science",
+          "tags": [
+            "compressed sensing",
+            "signal processing",
+            "machine learning",
+            "inverse problems",
+            "data acquisition"
+          ],
+          "summary": "Romberg works on signal processing, machine learning, and data science, developing theory and algorithms for efficient data acquisition and inference from structured, high-dimensional signals. A pioneer of compressed sensing, he co-received the 2021 IEEE Jack S. Kilby Signal Processing Medal for groundbreaking contributions to the field. Recent work spans structured signal models, computational imaging, and inference. He is Associate Director of Georgia Tech's Center for Machine Learning and a PECASE and Packard Fellowship recipient.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://jrom.ece.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=mOrJx1wAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "emmanouil-tentzeris",
+          "name": "Emmanouil M. Tentzeris",
+          "title": "Ed and Pat Joy Chair Professor in Antennas; Ken Byers Professor in Flexible Electronics",
+          "sub_field": "Electromagnetics, RF & Flexible Electronics",
+          "tags": [
+            "antennas",
+            "flexible electronics",
+            "millimeter-wave",
+            "3D-printed RF",
+            "wireless sensing"
+          ],
+          "summary": "Tentzeris directs the ATHENA lab, developing microwave, millimeter-wave, and sub-terahertz components, circuits, and systems for wireless communications and sensing. His research emphasizes 3D-printed and inkjet-printed RF electronics, flexible and origami/morphing electromagnetics, paper-based RFIDs and sensors, wireless power transfer and energy harvesting, and highly integrated multilayer packaging. Named inaugural Ed and Pat Joy Chair in Antennas in 2023, he is a prolific contributor to additively manufactured and reconfigurable RF front-ends and integrated antenna systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://tentzeris.ece.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=zMR4S7EAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "ali-adibi",
+          "name": "Ali Adibi",
+          "title": "Professor, Joseph M. Pettit Professorship in Electronics",
+          "sub_field": "Integrated Nanophotonics",
+          "tags": [
+            "nanophotonics",
+            "integrated photonics",
+            "lab-on-chip sensing",
+            "optoelectronics",
+            "biomedical imaging"
+          ],
+          "summary": "Adibi leads the Photonics Research Group, focused on design, optimization, simulation, and fabrication of integrated photonic structures for optical sensing and communications. His work spans nanophotonics, optical information processing, lab-on-chip sensing, volume holography, biomedical imaging, and optoelectronics. Editor-in-Chief of the journal Nanophotonics and an Optica/OSA Fellow, he won the 2025 SPIE Innovation Award in Quantum Sensing and Nano Electronics and Photonics. His group has produced 240+ journal papers and numerous patents.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ece.gatech.edu/directory/ali-adibi",
+            "scholar": "https://scholar.google.com/citations?user=JjCg2CMAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "santiago-grijalva",
+          "name": "Santiago Grijalva",
+          "title": "Southern Company Distinguished Professor of Electrical and Computer Engineering; Director, ACES Laboratory",
+          "sub_field": "Power Systems & Smart Grids",
+          "tags": [
+            "power systems",
+            "smart grids",
+            "renewable integration",
+            "grid cybersecurity",
+            "electricity markets"
+          ],
+          "summary": "Grijalva directs the Advanced Computational Electricity Systems (ACES) Laboratory, researching power system operation, electricity markets, and smart grids. A pioneer of decentralized and autonomous power system architectures, he works on renewable energy integration, grid cybersecurity, real-time optimization, and machine-learning methods for electricity grids. With a decade of prior power-industry experience and a former NREL directorship, he has authored roughly 250 peer-reviewed papers and led projects for DOE, ARPA-E, EPRI, NSF, and national laboratories.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aces.ece.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=MK-6O2oAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "samuel-coogan",
+          "name": "Samuel Coogan",
+          "title": "Associate Professor, Demetrius T. Paris Junior Professor (ECE and Civil & Environmental Engineering)",
+          "sub_field": "Control Systems & Autonomy",
+          "tags": [
+            "control theory",
+            "cyber-physical systems",
+            "verification",
+            "formal methods",
+            "networked systems"
+          ],
+          "summary": "Coogan researches dynamical systems and autonomy, developing scalable tools for verification and control of networked cyber-physical systems, with emphasis on transportation networks and safety-critical control. His work spans hybrid systems, reachability analysis, formal methods for synthesis, and run-time assurance/safety filtering for autonomous systems. He holds a joint appointment in Civil & Environmental Engineering and received an AFOSR Young Investigator Award (2018) and an NSF CAREER Award (2018). He also coordinates ECE graduate recruitment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ece.gatech.edu/directory/samuel-coogan",
+            "scholar": "https://scholar.google.com/citations?user=mTf9sk8AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "azad-naeemi",
+          "name": "Azad J. Naeemi",
+          "title": "Professor and Dean's Professor of Electrical and Computer Engineering",
+          "sub_field": "Nanoelectronics & Emerging Devices",
+          "tags": [
+            "nanoelectronics",
+            "spintronics",
+            "interconnects",
+            "emerging devices",
+            "device-circuit co-design"
+          ],
+          "summary": "Naeemi's research crosses materials, devices, circuits, and systems, investigating integrated circuits based on conventional and emerging nanoelectronic and spintronic devices and interconnects. His group builds end-to-end modeling and optimization frameworks for emerging memory and logic devices, from fundamental physics through devices to circuits and applications. Appointed Dean's Professor in 2025, he received the inaugural IEEE SSCS James D. Meindl Innovators Award (2022) and the IEEE EDS Paul Rappaport Award for interconnect and beyond-CMOS device research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://nrl.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=21ojWWUAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "saibal-mukhopadhyay",
+          "name": "Saibal Mukhopadhyay",
+          "title": "Joseph M. Pettit Professor of Electrical and Computer Engineering",
+          "sub_field": "VLSI & Energy-Efficient Systems",
+          "tags": [
+            "VLSI",
+            "neuromorphic computing",
+            "mixed-signal systems",
+            "hardware for ML",
+            "low-power design"
+          ],
+          "summary": "Mukhopadhyay designs energy-efficient, intelligent, and secure integrated systems in nanometer technologies. His current research emphasizes neuromorphic computing, mixed-signal and in-memory computing, and hardware for machine learning, along with reliable intelligence in unreliable environments and technology-circuit co-design. Director of the GREEN Lab, he has authored over 250 papers and holds several US patents, with recognition including the ONR Young Investigator Award (2012) and an NSF CAREER Award (2011).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://greenlab.ece.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=5KRtMEkAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "faramarz-fekri",
+          "name": "Faramarz Fekri",
+          "title": "John E. Pippin Chair Professor in Wireless Communications; ECE-GTRI Fellow",
+          "sub_field": "Communications, Coding & Learning",
+          "tags": [
+            "wireless communications",
+            "information theory",
+            "coding",
+            "machine learning",
+            "reinforcement learning"
+          ],
+          "summary": "Fekri founded and directs the SENTINEL Research Lab, spanning information, processing/learning, communications, and decision intelligence. His research covers information theory, error-control coding, wireless communications, machine learning, reinforcement learning, inductive logic learning and reasoning, and computational biology. He has secured more than fifteen NSF awards, including a CAREER Award, and holds the John E. Pippin Chair in Wireless Communications. His work integrates learning and reasoning with classical communication and information-theoretic frameworks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://fekri.ece.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=sB1XU4kAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "ghassan-alregib",
+          "name": "Ghassan AlRegib",
+          "title": "Professor, John and Marilu McCarty Chair; Director, Center for Signal and Information Processing",
+          "sub_field": "Signal Processing & Machine Learning",
+          "tags": [
+            "machine learning",
+            "image and video processing",
+            "robustness",
+            "uncertainty",
+            "scene understanding"
+          ],
+          "summary": "AlRegib directs the OLIVES lab (Omni Lab for Intelligent Visual Engineering and Science) and the Center for Signal and Information Processing, developing robust and interpretable machine learning with emphasis on uncertainty, trust, and human-in-the-loop systems. Applications span autonomous systems, medical imaging, and subsurface/seismic interpretation. An IEEE Fellow selected to the 2026 IEEE Signal Processing Society Distinguished Lecturer class, he received the 2024 ECE Distinguished Faculty Achievement Award and co-founded Georgia Tech's AI Makerspace.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://alregib.ece.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=7k5QSdoAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "arijit-raychowdhury",
+          "name": "Arijit Raychowdhury",
+          "title": "Professor; Steve W. Chaddick School Chair",
+          "sub_field": "Integrated Circuits & Systems",
+          "tags": [
+            "energy-efficient VLSI",
+            "hardware accelerators",
+            "mixed-signal circuits",
+            "in-memory computing"
+          ],
+          "summary": "Raychowdhury, who chairs Georgia Tech's ECE school, designs energy-efficient integrated circuits and systems at the boundary of circuits, devices, and computing. His Integrated Circuits and Systems Research Lab builds low-power digital and mixed-signal hardware, specialized accelerators for AI and optimization, on-chip power converters, and autonomous edge processors. A recurring theme is co-designing circuit architectures with emerging device technologies to squeeze performance and efficiency from next-generation computing platforms, spanning machine-learning inference, sensing, and control.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ece.gatech.edu/directory/arijit-raychowdhury",
+            "scholar": "https://scholar.google.com/citations?user=lXUce-0AAAAJ"
+          }
+        },
+        {
+          "id": "christopher-rozell",
+          "name": "Christopher J. Rozell",
+          "title": "Julian T. Hightower Chair Professor of Electrical & Computer Engineering",
+          "sub_field": "Signal Processing / Neuroengineering",
+          "tags": [
+            "computational neuroscience",
+            "brain-computer interfaces",
+            "signal processing",
+            "machine learning"
+          ],
+          "summary": "Rozell works at the intersection of signal processing, machine learning, and neuroscience, directing the Sensory Information Processing Lab and serving as executive director of Georgia Tech's neuroscience institute. His group develops theory and algorithms for sparse coding, high-dimensional inference, and optimization inspired by how neural circuits represent information. Applied efforts include closed-loop deep brain stimulation and brain-computer interfaces for treatment-resistant depression, connecting foundational computational models to neuroengineering systems that measure and modulate brain activity in health and disease.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://siplab.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=JHuo2D0AAAAJ"
+          }
+        },
+        {
+          "id": "mark-davenport",
+          "name": "Mark A. Davenport",
+          "title": "Professor; Associate Chair for Graduate Affairs",
+          "sub_field": "Signal Processing / Machine Learning",
+          "tags": [
+            "compressive sensing",
+            "high-dimensional inference",
+            "statistical learning",
+            "information theory"
+          ],
+          "summary": "Davenport researches signal processing and statistical machine learning, focusing on how structure and randomness shape efficient data acquisition and analysis. His work spans compressive sensing, matrix completion, high-dimensional inference, and the theoretical limits of recovering signals from limited or noisy measurements. He develops algorithms and performance bounds for problems ranging from sparse recovery to low-rank estimation, bridging applied harmonic analysis, optimization, and information theory to understand when and how large-scale data can be represented and reconstructed reliably.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://mdav.ece.gatech.edu",
+            "scholar": "https://scholar.google.com/citations?user=DpuKx_oAAAAJ"
+          }
+        },
+        {
+          "id": "matthieu-bloch",
+          "name": "Matthieu R. Bloch",
+          "title": "Professor",
+          "sub_field": "Communications / Information Theory",
+          "tags": [
+            "information theory",
+            "physical-layer security",
+            "covert communication",
+            "error-control coding"
+          ],
+          "summary": "Bloch studies information theory and its applications to secure and reliable communication, directing a lab on adaptive communication, decision, and information systems. His research develops the theory of physical-layer security, covert and stealthy communication, secret-key generation, and error-control coding, characterizing fundamental limits when messages must remain both reliable and undetectable or confidential. Recent interests extend to quantum communication and sensing, connecting classical and quantum information theory with practical coding and signal-processing techniques for wireless and networked systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://bloch.ece.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=cglpZYQAAAAJ"
+          }
+        },
+        {
+          "id": "shimeng-yu",
+          "name": "Shimeng Yu",
+          "title": "Professor (Dean's Professorship)",
+          "sub_field": "Nanoelectronics / Emerging Memory",
+          "tags": [
+            "non-volatile memory",
+            "compute-in-memory",
+            "AI hardware",
+            "3D integration"
+          ],
+          "summary": "Yu leads the Laboratory for Emerging Devices and Circuits, developing semiconductor devices and integrated circuits for energy-efficient computing. His research centers on emerging non-volatile memories, compute-in-memory accelerators for AI, and heterogeneous and monolithic 3D integration to overcome the memory-wall bottleneck beyond conventional Moore's-law scaling. Working across device physics, circuit design, and computer architecture, he serves as a theme lead in national semiconductor research centers and targets hardware that co-optimizes new memory technologies with machine-learning workloads.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://shimeng.ece.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=XFgMpqYAAAAJ"
+          }
+        },
+        {
+          "id": "suman-datta",
+          "name": "Suman Datta",
+          "title": "Joseph M. Pettit Chair in Advanced Computing; Georgia Research Alliance Eminent Scholar; Professor",
+          "sub_field": "Nanoelectronics / Devices",
+          "tags": [
+            "ferroelectric transistors",
+            "beyond-CMOS devices",
+            "compute-in-memory",
+            "oxide semiconductors"
+          ],
+          "summary": "Datta researches emerging semiconductor devices and their integration into new computing architectures that push past the physical limits of CMOS scaling. His lab investigates ferroelectric transistors and memory arrays, amorphous oxide semiconductors, and compute-in-memory accelerators, including hardware for state-space and machine-learning models. Combining device physics, materials, reliability modeling, and circuit-architecture co-design, he aims to deliver energy-efficient logic and memory technologies that extend performance for data-intensive and AI computing well beyond traditional transistor roadmaps.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://dattalab.ece.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=glw0_RkAAAAJ"
+          }
+        },
+        {
+          "id": "muhannad-bakir",
+          "name": "Muhannad S. Bakir",
+          "title": "Dan Fielder Professor; Director, 3D Systems Packaging Research Center",
+          "sub_field": "Nanoelectronics / Heterogeneous Integration",
+          "tags": [
+            "advanced packaging",
+            "heterogeneous integration",
+            "3D interconnects",
+            "microfluidic cooling"
+          ],
+          "summary": "Bakir directs Georgia Tech's 3D Systems Packaging Research Center and leads the Integrated 3D Systems Lab, focusing on semiconductor advanced packaging and heterogeneous integration. His group develops novel materials, fabrication processes, and system architectures for dense chip-to-chip interconnects, co-packaged optics, and microscale liquid cooling that manage heat in high-power stacked systems. The overarching goal is to advance the performance, bandwidth, and energy efficiency of next-generation electronic systems by tightly integrating logic, memory, photonics, and thermal management at the package level.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.bakirlab.gatech.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "maryam-saeedifard",
+          "name": "Maryam Saeedifard",
+          "title": "Professor",
+          "sub_field": "Power Electronics",
+          "tags": [
+            "power electronics",
+            "modular multilevel converters",
+            "HVDC",
+            "electric transportation"
+          ],
+          "summary": "Saeedifard researches power electronics and its applications in power systems and transportation electrification. Her work centers on the modeling, analysis, and control of power-electronic converters and electric machines, including modular multilevel converters, high-voltage DC transmission, and motor-drive control strategies. She studies how advanced converter topologies and control methods can integrate renewable energy, strengthen grid resilience, and enable efficient electrified vehicles and systems, spanning converter design, real-time control, protection, and the energy-conversion challenges of modern power and mobility infrastructure.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ece.gatech.edu/directory/maryam-saeedifard",
+            "scholar": "https://scholar.google.com/citations?user=SlOD0lIAAAAJ"
+          }
+        },
+        {
+          "id": "thomas-habetler",
+          "name": "Thomas G. Habetler",
+          "title": "Professor",
+          "sub_field": "Power / Electric Machines",
+          "tags": [
+            "electric machines",
+            "motor drives",
+            "condition monitoring",
+            "power electronics"
+          ],
+          "summary": "Habetler is a leading researcher in electric machines, motor drives, and power electronics, best known for sensorless condition monitoring and fault diagnosis of electric machines. His work develops signal-processing and control techniques that detect incipient faults, estimate machine parameters, and improve the reliability and efficiency of drives across industrial, transportation, and energy applications. A past president of the IEEE Power Electronics Society, he combines machine modeling, drive control, and diagnostics to keep motor-driven systems running safely and efficiently.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ece.gatech.edu/directory/thomas-g-habetler",
+            "scholar": "https://scholar.google.com/citations?user=RUeCkzIAAAAJ"
+          }
+        },
+        {
+          "id": "stephen-ralph",
+          "name": "Stephen E. Ralph",
+          "title": "Professor; Glen Robinson Chair in Electro-Optics",
+          "sub_field": "Photonics / Optical Communications",
+          "tags": [
+            "integrated photonics",
+            "high-speed optical links",
+            "coherent systems",
+            "microwave photonics"
+          ],
+          "summary": "Ralph works on high-capacity optical systems and interconnects, at the intersection of electronics, photonics, and signal processing. He directs Georgia Tech's Terabit Optical Networking Consortium and studies advanced modulation formats, coherent receivers, microwave photonics, and integrated photonic devices for next-generation communication links. His research couples photonic hardware with digital signal processing and machine learning to increase the speed, reach, and energy efficiency of optical networks and data-center interconnects, spanning device physics, system design, and link-level performance optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ece.gatech.edu/directory/stephen-e-ralph",
+            "scholar": "https://scholar.google.com/citations?user=ufG_N44AAAAJ"
+          }
+        },
+        {
+          "id": "patricio-vela",
+          "name": "Patricio A. Vela",
+          "title": "Professor",
+          "sub_field": "Robotics / Control",
+          "tags": [
+            "robot autonomy",
+            "computer vision",
+            "nonlinear control",
+            "SLAM"
+          ],
+          "summary": "Vela directs the Intelligent Vision and Automation Lab, developing algorithms for perception and control that enable robot autonomy. His research applies geometric perspectives to nonlinear control and computer vision, tackling visual odometry, SLAM, motion planning, and feedback control of robotic systems operating in unstructured environments. He also draws on statistical signal processing and machine learning, with applications to autonomous navigation, manipulation, and sensor networks, aiming for robots that perceive their surroundings robustly and act reliably under real-world uncertainty and limited computation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pvela.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=qL6ycTgAAAAJ"
+          }
+        },
+        {
+          "id": "pamela-bhatti",
+          "name": "Pamela T. Bhatti",
+          "title": "Professor; Associate Chair for Strategic Initiatives and Innovation",
+          "sub_field": "Bioengineering / Neural Interfaces",
+          "tags": [
+            "neural stimulation",
+            "implantable sensors",
+            "cochlear implants",
+            "biomedical devices"
+          ],
+          "summary": "Bhatti develops implantable devices and sensors that interface electronics with the body, focusing on restoring lost sensory function. Her lab designs high-density neural stimulation electrodes and interfaces to improve cochlear and vestibular implants, along with novel biosensors and instrumentation. She also pursues cardiac imaging and monitoring technologies for cardiovascular disease and healthcare workflow. Combining microfabrication, circuits, and signal processing with clinical translation, her work aims to turn biomedical device concepts into practical systems that address hearing loss and other health needs.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://bhatti.ece.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=apVd1c4AAAAJ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "epfl-edee-electrical-engineering",
+      "university": "École polytechnique fédérale de Lausanne",
+      "program_name": "PhD in Electrical Engineering (EDEE)",
+      "degree_type": "PhD",
+      "region": "Europe",
+      "country": "Switzerland",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Photonics & Optics",
+          "Signal Processing",
+          "Control Systems",
+          "Circuits & Systems",
+          "Power & Energy Systems",
+          "Communications & Networks"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026 (next round for 2027 entry). EDEE has TWO deadlines per year: Apr 15 and Dec 1 (verify exact date and CET cutoff before applying)",
+        "application_fee_usd": 0,
+        "fee_display": "No application fee — EPFL PhD applications are free of charge (CHF 0). Note: the CHF 50 fee applies to Master's, not PhD, applications.",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "No mandatory English test; application documents accepted in English/French/German/Italian. TOEFL (and/or GRE) strongly recommended for applicants whose first language is not English or French.",
+        "admission_model": "Committee-Based",
+        "admission_model_note": "Applications are submitted to the EDEE program and reviewed by an expert admissions committee. Admitted candidates enroll in the doctoral school and must then secure a thesis director and funding (typically within one year). In practice many EPFL labs also recruit doctoral candidates directly, so securing a supervisor is essential.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "Most EDEE doctoral candidates are employed as salaried doctoral assistants with a dual student-employee status; the basic starting salary is CHF 55,225 gross per year (valid from 01/01/2026), funded via SNSF, ERC, EU and other lab/agency grants."
+        },
+        "pre_application_contact": "Encouraged",
+        "contact_note": "Because admitted candidates must secure a thesis director and many labs hire directly, contacting professors whose research interests you is advisable.",
+        "ects": 12,
+        "duration": "4 years"
+      },
+      "links": {
+        "program": "https://www.epfl.ch/education/phd/edee-electrical-engineering/",
+        "admissions": "https://www.epfl.ch/education/phd/edee-electrical-engineering/edee-how-to-apply/"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "tobias-kippenberg",
+          "name": "Tobias Kippenberg",
+          "title": "Full Professor; Head, Laboratory of Photonics and Quantum Measurements (K-Lab)",
+          "sub_field": "Integrated Photonics & Optomechanics",
+          "tags": [
+            "Optical frequency combs",
+            "Cavity optomechanics",
+            "Integrated photonics",
+            "Microresonators",
+            "Microwave photonics"
+          ],
+          "summary": "Kippenberg leads the Laboratory of Photonics and Quantum Measurements, having pioneered chip-scale Kerr optical frequency combs (microcombs) and helped found the field of cavity optomechanics. Recent work advances ultralow-loss silicon-nitride photonic integrated circuits, soliton microcombs for coherent communications, LiDAR, optical clocks and microwave photonics, and hybrid laser-photonic-chip integration. His group also explores superconducting microwave optomechanics and quantum measurement. Widely cited, he holds an ERC Synergy Grant and multiple awards for inventing chip-scale frequency combs.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.epfl.ch/tobias.kippenberg?lang=en",
+            "scholar": "https://scholar.google.com/citations?user=PRCbG2kAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "camille-bres",
+          "name": "Camille-Sophie Brès",
+          "title": "Associate Professor; Head, Photonic Systems Laboratory (PHOSL)",
+          "sub_field": "Nonlinear & Integrated Photonics",
+          "tags": [
+            "Nonlinear optics",
+            "Frequency combs",
+            "Supercontinuum",
+            "Integrated waveguides",
+            "Mid-infrared photonics"
+          ],
+          "summary": "Brès heads the Photonic Systems Laboratory, designing optical waveguides and devices that harness nonlinear processes for light generation, signal processing and sensing. Recent work spans chip-based supercontinuum and frequency-comb sources, thin-film lithium niobate and silicon-nitride photonics, mid-infrared gas spectroscopy, and broadband photonic sources for high-speed optical communications. Her group develops parametric conversion and light amplification for telecom and sensing applications. An Optica (OSA) Fellow, she joined EPFL in 2011 after a PhD at Princeton.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.epfl.ch/camille.bres?lang=en",
+            "scholar": "https://scholar.google.com/citations?user=ekPiTVcAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "anja-skrivervik",
+          "name": "Anja K. Skrivervik",
+          "title": "Professeur Titulaire; Head, Microwave and Antenna Group (MAG)",
+          "sub_field": "Antennas & Microwaves",
+          "tags": [
+            "Electrically small antennas",
+            "Implantable antennas",
+            "Biomedical RF",
+            "Periodic structures",
+            "Computational electromagnetics"
+          ],
+          "summary": "Skrivervik leads the Microwave and Antenna Group, focusing on electrically small antennas, antennas operating in biological media for implantable and body-worn devices, reflect/transmit arrays, periodic structures and numerical electromagnetics. Recent research derives fundamental radiation-efficiency and gain bounds for miniature and body-implanted antennas and models free-space path loss for implanted antennas, while developing compact antennas for wireless body-area networks and microwave sensors. Author of over 200 peer-reviewed papers, she is active in EurAAP and the European School on Antennas.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.epfl.ch/anja.skrivervik?lang=en",
+            "scholar": "https://scholar.google.com/citations?user=WrKWuvsAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "drazen-dujic",
+          "name": "Drazen Dujic",
+          "title": "Associate Professor; Head, Power Electronics Laboratory (PEL)",
+          "sub_field": "Power Electronics",
+          "tags": [
+            "Medium-voltage conversion",
+            "Solid-state transformers",
+            "DC systems",
+            "High-power drives",
+            "Energy storage"
+          ],
+          "summary": "Dujic heads the Power Electronics Laboratory, designing and controlling high-power medium-voltage conversion systems. Recent work develops solid-state transformers, medium-voltage DC distribution and protection, modular multilevel converters, and power-electronic interfaces for electrical energy generation, conversion and storage, including shipboard and datacenter DC grids. Formerly a principal scientist at ABB, he holds an ERC Consolidator Grant (EMPOWER) and is an IEEE Fellow with more than 200 publications and 22 patents.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.epfl.ch/drazen.dujic",
+            "scholar": "https://scholar.google.com/citations?user=UYrKjgIAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "mario-paolone",
+          "name": "Mario Paolone",
+          "title": "Full Professor; Chair, Distributed Electrical Systems Laboratory (DESL)",
+          "sub_field": "Power Systems & Smart Grids",
+          "tags": [
+            "Smart grids",
+            "Distributed generation & storage",
+            "Real-time state estimation",
+            "Synchrophasors",
+            "Grid control"
+          ],
+          "summary": "Paolone chairs the Distributed Electrical Systems Laboratory, developing smart-grid solutions for a sustainable and secure electricity supply. Recent work covers real-time monitoring and control of active distribution networks, synchrophasor-based state estimation, integration of distributed generation and battery storage, optimal power flow, and advanced protection. His group operates experimental microgrids and grid-connected battery systems for fast frequency and voltage support. Author of over 300 papers and an IEEE Fellow (2022), he previously taught at the University of Bologna.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.epfl.ch/mario.paolone?lang=en",
+            "scholar": "https://scholar.google.com/citations?user=iJ5dtDkAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "pascal-frossard",
+          "name": "Pascal Frossard",
+          "title": "Full Professor; Head, Signal Processing Laboratory (LTS4)",
+          "sub_field": "Signal Processing & Machine Learning",
+          "tags": [
+            "Graph signal processing",
+            "Image/video processing",
+            "Geometric deep learning",
+            "Network data analysis",
+            "Machine learning"
+          ],
+          "summary": "Frossard heads Signal Processing Laboratory 4, working at the frontier of signal processing, machine learning and applied mathematics. Recent research advances graph signal processing and geometric deep learning, robustness of neural networks, image/video representation and coding, immersive and 3D visual communications, and distributed and biomedical data analysis. He serves as academic co-director of the EPFL AI Center. An IEEE Fellow, he has received IBM, Google and multiple IEEE best-paper awards; he earned his PhD at EPFL and worked at IBM Research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.epfl.ch/pascal.frossard",
+            "scholar": "https://scholar.google.com/citations?user=-Ve9sJ0AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "edoardo-charbon",
+          "name": "Edoardo Charbon",
+          "title": "Full Professor; Head, Advanced Quantum Architecture Laboratory (AQUA)",
+          "sub_field": "Integrated Circuits & Sensors",
+          "tags": [
+            "SPAD arrays",
+            "CMOS image sensors",
+            "Cryo-CMOS",
+            "Quantum-computing electronics",
+            "Time-of-flight sensing"
+          ],
+          "summary": "Charbon heads the Advanced Quantum Architecture Laboratory in Neuchâtel, having pioneered deep-submicron CMOS single-photon avalanche diode (SPAD) technology now mass-produced in smartphones and medical devices. Recent work develops large SPAD image-sensor arrays for LiDAR, quantum imaging and time-resolved sensing, and cryogenic CMOS control electronics for scalable quantum computers. His group spans 2D/3D optical sensing, reconfigurable architectures and quantum systems. Author of more than 500 papers and 31 patents, he received the 2023 IISS Pioneering Achievement Award.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.epfl.ch/edoardo.charbon?lang=en",
+            "scholar": "https://scholar.google.com/citations?user=KWhGcA4AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "herbert-shea",
+          "name": "Herbert Shea",
+          "title": "Full Professor; Head, Soft Transducers Laboratory (LMTS)",
+          "sub_field": "MEMS & Soft Microsystems",
+          "tags": [
+            "Dielectric elastomer actuators",
+            "Haptics",
+            "Soft robotics",
+            "MEMS",
+            "Stretchable electronics"
+          ],
+          "summary": "Shea leads the Soft Transducers Laboratory on EPFL's Neuchâtel campus, developing elastomer-based actuators and sensors, MEMS and printed microsystems. Recent work advances dielectric elastomer actuators for wearable haptic displays and soft robots, stretchable and flexible electronics, electroadhesion, and microsystems for space technologies. His group engineers thin polymer transducers that deliver strong forces and rich tactile feedback. A physicist trained at McGill and Harvard, he has over 20,000 citations and is a leading figure in soft-transducer research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.epfl.ch/herbert.shea",
+            "scholar": "https://scholar.google.com/citations?user=N-oSbkMAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "colin-jones",
+          "name": "Colin N. Jones",
+          "title": "Associate Professor; Automatic Control Laboratory (LA)",
+          "sub_field": "Control & Optimization",
+          "tags": [
+            "Model predictive control",
+            "Real-time optimization",
+            "Data-driven control",
+            "Smart grids",
+            "Building energy control"
+          ],
+          "summary": "Jones is an Associate Professor in the Automatic Control Laboratory, researching the theory and computation of predictive control and optimization. Recent work develops fast and embedded model predictive control, data-driven and learning-based control, distributed control of energy systems, and applications to renewable-energy generation, building climate control and smart grids. He held an ERC Starting Grant for optimal control of building networks and earned his PhD at Cambridge on polyhedral computation for constrained control.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.epfl.ch/colin.jones",
+            "scholar": "https://scholar.google.com/citations?user=SulkJJQAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "andreas-burg",
+          "name": "Andreas Burg",
+          "title": "Associate Professor; Head, Telecommunications Circuits Laboratory (TCL)",
+          "sub_field": "Communication Circuits & Systems",
+          "tags": [
+            "VLSI signal processing",
+            "Wireless communication ASICs",
+            "MIMO",
+            "Approximate computing",
+            "Low-power digital ICs"
+          ],
+          "summary": "Burg heads the Telecommunications Circuits Laboratory, bridging communication algorithms and their silicon implementation. Recent work covers low-power VLSI signal processing for wireless and wired communications, MIMO and channel-decoding ASICs, full-duplex and self-interference cancellation, in-memory and approximate computing, and hardware for edge machine learning. A co-founder of the ETH spin-off Celestrius, he champions fault-tolerant 'good-enough' computing and silicon prototyping of new communication technologies. He is a member of IEEE and EURASIP.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.epfl.ch/andreas.burg?lang=en",
+            "scholar": "https://scholar.google.com/citations?user=Uf6DIFMAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "epfl-adrian-ionescu",
+          "name": "Adrian Ionescu",
+          "title": "Full Professor of Electrical Engineering",
+          "sub_field": "Microelectronics / Nanoelectronics",
+          "tags": [
+            "Nanoelectronics",
+            "Semiconductor Devices",
+            "Tunnel FETs",
+            "Edge AI Hardware",
+            "Low-Power Electronics"
+          ],
+          "summary": "Adrian Ionescu is a Full Professor of Electrical Engineering at EPFL, where he founded and directs the Nanoelectronic Devices Laboratory (NANOLAB) and, from late 2025, serves as Dean of the School of Engineering. His research advances nanoscale solid-state devices, exploring new materials, fabrication techniques, and device concepts such as tunnel FETs and steep-slope switches. He targets energy-efficient edge artificial intelligence, the Internet of Things, and quantum computing, bridging fundamental device physics with future low-power electronics. He is a member of Academia Europaea.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.epfl.ch/labs/nanolab/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "epfl-elison-matioli",
+          "name": "Elison Matioli",
+          "title": "Associate Professor of Electrical Engineering",
+          "sub_field": "Power Electronics",
+          "tags": [
+            "Power Electronics",
+            "Wide-Bandgap Semiconductors",
+            "GaN Devices",
+            "Terahertz Electronics",
+            "Thermal Management"
+          ],
+          "summary": "Elison Matioli is an Associate Professor of Electrical Engineering at EPFL and director of the Power and Wide-band-gap Electronics Research Laboratory (POWERLAB). His group engineers semiconductor devices at the nanoscale to achieve breakthrough performance in power conversion, terahertz electronics, and thermal management, working extensively with gallium nitride and ultra-wide-bandgap materials. He develops electronic metadevices and integrated microfluidic cooling for high-power, high-frequency applications. His work aims to make power electronics dramatically more efficient for energy, communications, and computing systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.epfl.ch/labs/powerlab/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "epfl-christophe-moser",
+          "name": "Christophe Moser",
+          "title": "Full Professor of Microengineering",
+          "sub_field": "Photonics",
+          "tags": [
+            "Applied Photonics",
+            "Multimode Fiber Imaging",
+            "Holography",
+            "Volumetric 3D Printing",
+            "Optical Computing"
+          ],
+          "summary": "Christophe Moser is a Full Professor of Microengineering at EPFL, where he leads the Laboratory of Applied Photonics Devices (LAPD). His research develops optical systems for imaging and manufacturing, including ultra-compact endoscopy through multimode optical fibers, analog and digital holography, retinal imaging, and high-speed volumetric 3D printing. He also explores optical computing and machine learning through complex media. His work translates photonic device concepts into biomedical diagnostics and additive manufacturing, and he has co-founded companies commercializing these technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.epfl.ch/labs/lapd/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "epfl-cristina-benea-chelmus",
+          "name": "Ileana-Cristina Benea-Chelmus",
+          "title": "Tenure-Track Assistant Professor of Microengineering",
+          "sub_field": "Photonics / Terahertz",
+          "tags": [
+            "Terahertz Photonics",
+            "Integrated Photonics",
+            "Quantum Sensing",
+            "Electro-Optics",
+            "Nonlinear Optics"
+          ],
+          "summary": "Ileana-Cristina Benea-Chelmus is a Tenure-Track Assistant Professor of Microengineering at EPFL, where she heads the Hybrid Photonics Laboratory (HYLAB). Her research focuses on terahertz and microwave photonics, quantum sensing, and metrology on ultrafast timescales, developing integrated photonic platforms to generate and detect far-infrared waveforms on demand. She combines nanophotonics, nonlinear optics, and electro-optic materials to control light-matter interaction at the sub-cycle level. She received the 2025 Fresnel Prize from the European Physical Society for her contributions to the field.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cristinabenea.wordpress.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "epfl-stephanie-lacour",
+          "name": "Stéphanie Lacour",
+          "title": "Full Professor of Microengineering",
+          "sub_field": "Bioelectronics",
+          "tags": [
+            "Soft Bioelectronics",
+            "Stretchable Electronics",
+            "Neural Implants",
+            "Electronic Skin",
+            "Neuroprosthetics"
+          ],
+          "summary": "Stéphanie Lacour is a Full Professor of Microengineering at EPFL and holds the Bertarelli Foundation Chair in Neuroprosthetic Technology, directing the Laboratory for Soft Bioelectronic Interfaces (LSBI). Her research develops stretchable, skin-like electronics that conform to biological tissue, engineering soft materials and integration technologies for electronic skins and long-term neural implants. Applications range from robotic and prosthetic skins to implantable neuroprostheses that interface with the brain, spinal cord, and nerves. Her work bridges materials science, microfabrication, and neurotechnology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.epfl.ch/labs/lsbi/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "epfl-mahsa-shoaran",
+          "name": "Mahsa Shoaran",
+          "title": "Associate Professor of Electrical and Micro Engineering",
+          "sub_field": "Bioelectronics / Neural Circuits",
+          "tags": [
+            "Neural Interfaces",
+            "Integrated Circuits",
+            "On-Chip Machine Learning",
+            "Neurostimulation",
+            "Bioelectronics"
+          ],
+          "summary": "Mahsa Shoaran is an Associate Professor of Electrical and Micro Engineering at EPFL, affiliated with the NeuroX Institute, where she directs the Integrated Neurotechnologies Laboratory (INL). Her research designs low-power integrated circuits for neural signal processing and closed-loop stimulation, embedding modern machine learning directly on-chip to track brain activity at high energy efficiency. She develops implantable neural interfaces and neurostimulators for treating disorders such as epilepsy and psychiatric conditions. Her work unites microelectronics, machine learning, and clinical neurotechnology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.epfl.ch/labs/inl/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "epfl-sandro-carrara",
+          "name": "Sandro Carrara",
+          "title": "Adjunct Professor of Electrical Engineering",
+          "sub_field": "Bioelectronics / Biosensors",
+          "tags": [
+            "Biosensors",
+            "Bio/CMOS Interfaces",
+            "Electrochemical Sensing",
+            "Implantable Devices",
+            "Nanobiosensing"
+          ],
+          "summary": "Sandro Carrara is an Adjunct Professor at EPFL and head of the Bio/CMOS Interfaces Laboratory (BCI), an IEEE Fellow recognized for designing nanoscale biological CMOS sensors. His research co-designs biological, nano-, and CMOS layers to build integrated electrochemical biosensors with improved specificity, sensitivity, and autonomy. He develops implantable and wearable systems for remote health monitoring of metabolites and drugs. Founding Editor-in-Chief of IEEE Sensors Magazine, he works at the intersection of microelectronics, nanomaterials, and biosensing for personalized medicine.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.epfl.ch/sandro.carrara",
+            "scholar": null
+          }
+        },
+        {
+          "id": "epfl-pierre-vandergheynst",
+          "name": "Pierre Vandergheynst",
+          "title": "Full Professor of Electrical Engineering",
+          "sub_field": "Signal Processing",
+          "tags": [
+            "Graph Signal Processing",
+            "Sparse Approximation",
+            "Machine Learning",
+            "Harmonic Analysis",
+            "Data Science"
+          ],
+          "summary": "Pierre Vandergheynst is a Full Professor of Electrical Engineering at EPFL, where he directs Signal Processing Laboratory 2 (LTS2). His research spans harmonic analysis, sparse approximation, and mathematical data processing, with applications to signal, image, and high-dimensional data analysis, computer vision, and machine learning. He is a pioneer of graph signal processing, extending classical signal processing tools to data on networks and irregular domains. He also develops methods for data science and geometric deep learning across scientific and engineering applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://lts2.epfl.ch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "epfl-michael-unser",
+          "name": "Michaël Unser",
+          "title": "Full Professor of Microengineering",
+          "sub_field": "Signal Processing / Imaging",
+          "tags": [
+            "Biomedical Imaging",
+            "Wavelets",
+            "Splines",
+            "Inverse Problems",
+            "Image Reconstruction"
+          ],
+          "summary": "Michaël Unser is a Full Professor of Microengineering at EPFL, where he directs the Biomedical Imaging Laboratory (LIB) and serves as academic director of the Center for Imaging. He is internationally recognized for contributions to sampling theory, wavelets, splines for image processing, stochastic processes, and computational bioimaging. His group develops algorithms and mathematical tools for image reconstruction, inverse problems, and analysis of biomedical and biological images. A prolific author and IEEE Fellow, he has shaped modern biomedical image processing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://bigwww.epfl.ch/unser/",
+            "scholar": "https://scholar.google.com/citations?user=nKVDcQoAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "epfl-ali-sayed",
+          "name": "Ali H. Sayed",
+          "title": "Full Professor of Electrical Engineering",
+          "sub_field": "Adaptive Systems / Signal Processing",
+          "tags": [
+            "Adaptive Filtering",
+            "Distributed Learning",
+            "Multi-Agent Networks",
+            "Statistical Inference",
+            "Signal Processing"
+          ],
+          "summary": "Ali H. Sayed is a Full Professor of Electrical Engineering at EPFL, where he leads the Adaptive Systems Laboratory and served as Dean of the School of Engineering from 2017 to 2025. He is world-renowned for pioneering research on adaptive filters and adaptive networks, including energy-conservation and diffusion-learning frameworks for distributed inference. His interests span adaptation and learning theory, network science, statistical inference, multi-agent systems, and biologically inspired designs. A highly cited researcher and IEEE Fellow, he has authored several influential textbooks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://asl.epfl.ch/",
+            "scholar": "https://scholar.google.com/citations?user=uDG9sXQAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "epfl-jurgen-brugger",
+          "name": "Jürgen Brugger",
+          "title": "Full Professor of Microengineering",
+          "sub_field": "MEMS / Microsystems",
+          "tags": [
+            "MEMS",
+            "Nanofabrication",
+            "Scanning-Probe Lithography",
+            "3D Printing",
+            "Microsystems"
+          ],
+          "summary": "Jürgen Brugger is a Full Professor of Microengineering at EPFL, where he directs Microsystems Laboratory 1 (LMIS1). His research advances micro- and nanofabrication at the mesoscopic scale, pioneering techniques such as thermal scanning-probe lithography, stencil lithography, melt electrowriting, and voxelated 3D printing for high-resolution patterning and material deposition. His group applies these methods to wearable and implantable medical devices and to miniaturized NMR and ESR spectroscopy. He also develops mixed-reality tools for cleanroom education and emerging manufacturing technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.epfl.ch/labs/lmis1/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "epfl-volkan-cevher",
+          "name": "Volkan Cevher",
+          "title": "Full Professor of Electrical Engineering",
+          "sub_field": "Signal Processing / Machine Learning",
+          "tags": [
+            "Optimization",
+            "Machine Learning",
+            "Signal Processing",
+            "Information Theory",
+            "Reinforcement Learning"
+          ],
+          "summary": "Volkan Cevher is a Full Professor of Electrical Engineering at EPFL, where he heads the Laboratory for Information and Inference Systems (LIONS). His research develops mathematical theory and computational methods for recovering information from highly incomplete, high-dimensional data, spanning machine learning, optimization, signal processing, information theory, and statistics. He works on adaptive representations, scalable optimization algorithms, and the theory and practice of reinforcement learning and adversarial machine learning. An IEEE and ELLIS Fellow, he collaborates widely across academia and industry.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.epfl.ch/labs/lions/",
+            "scholar": "https://scholar.google.com/citations?user=hlWhzU8AAAAJ&hl=en"
+          }
+        }
+      ]
+    },
+    {
+      "id": "boston-university-computer-engineering",
+      "university": "Boston University",
+      "program_name": "Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Computer Engineering",
+          "Hardware",
+          "Embedded Systems"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend, tuition, insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bu.edu/eng/academics/explore-degree-programs/phd-in-computer-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "boston-university-electrical-engineering",
+      "university": "Boston University",
+      "program_name": "Electrical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Photonics",
+          "Signal Processing"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend, tuition, insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bu.edu/academics/eng/programs/electrical-engineering/phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "california-institute-of-technology-electrical-engineering",
+      "university": "California Institute of Technology",
+      "program_name": "Electrical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Photonics",
+          "Signal Processing",
+          "Circuits"
+        ]
+      },
+      "requirements": {
+        "deadline": "2024-12-15",
+        "deadline_display": "Dec 15, 2024 (prior cycle)",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admission by option; committee review",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://ee.caltech.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
+      "faculty": []
+    },
+    {
+      "id": "carnegie-mellon-university-ph-d-in-electrical-and-computer-engineering",
+      "university": "Carnegie Mellon University",
+      "program_name": "Ph.D. in Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Computer Engineering",
+          "Signal Processing",
+          "Embedded Systems"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental holistic review; early review deadline Dec 1",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.ece.cmu.edu/admissions/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "columbia-university-electrical-engineering-phd",
+      "university": "Columbia University",
+      "program_name": "Electrical Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Integrated Circuits",
+          "Photonics",
+          "Networking",
+          "Neuroengineering"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental committee admission (SEAS)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Comprehensive doctoral funding package: stipend, full tuition, health insurance and fees"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.engineering.columbia.edu/academics/programs/doctoral-programs/electrical-engineering-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "cornell-university-electrical-and-computer-engineering-phd",
+      "university": "Cornell University",
+      "program_name": "Electrical and Computer Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "VLSI",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.cornell.edu/graduate-school/electrical-computer-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #12",
+      "faculty": []
+    },
+    {
+      "id": "duke-university-ph-d-in-electrical-and-computer-engineering",
+      "university": "Duke University",
+      "program_name": "Ph.D. in Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Signal Processing",
+          "Photonics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.duke.edu/academics/programs-degrees/electrical-and-computer-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "harvard-university-electrical-and-computer-engineering",
+      "university": "Harvard University",
+      "program_name": "Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Signal Processing",
+          "Circuits"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (SEAS PhD guarantee: tuition + stipend)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.harvard.edu/program/electrical-and-computer-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #3",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-electrical-and-computer-engineering-phd",
+      "university": "Johns Hopkins University",
+      "program_name": "Electrical and Computer Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Signal Processing",
+          "Photonics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/electrical-computer-engineering/electrical-computer-engineering-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "lehigh-university-computer-engineering-phd",
+      "university": "Lehigh University",
+      "program_name": "Computer Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Computer Architecture",
+          "Embedded Systems",
+          "VLSI"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 50,
+        "fee_display": "$50",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (all Rossin College PhDs 100% funded)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.lehigh.edu/ece/graduate/computer-engineering-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "lehigh-university-electrical-engineering-phd",
+      "university": "Lehigh University",
+      "program_name": "Electrical Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Photonics",
+          "Signal Processing",
+          "Microelectronics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 50,
+        "fee_display": "$50",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (all Rossin College PhDs 100% funded)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.lehigh.edu/ece/graduate/electrical-engineering-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "new-york-university-ph-d-in-electrical-and-computer-engineering",
+      "university": "New York University",
+      "program_name": "Ph.D. in Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Wireless Communications",
+          "Signal Processing",
+          "Machine Learning",
+          "Cybersecurity"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": 2,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.nyu.edu/academics/programs/electrical-engineering-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "northeastern-university-computer-engineering-phd",
+      "university": "Northeastern University",
+      "program_name": "Computer Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Computer Architecture",
+          "Embedded Systems",
+          "Hardware Security"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 2,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://phd.northeastern.edu/program/computer-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "northeastern-university-electrical-engineering-phd",
+      "university": "Northeastern University",
+      "program_name": "Electrical Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Communications",
+          "Photonics",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 2,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://phd.northeastern.edu/program/electrical-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "northwestern-university-electrical-engineering-phd",
+      "university": "Northwestern University",
+      "program_name": "Electrical Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Signal Processing"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.mccormick.northwestern.edu/electrical-computer/academics/graduate/admissions/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "northwestern-university-computer-engineering-phd",
+      "university": "Northwestern University",
+      "program_name": "Computer Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Computer Engineering",
+          "Embedded Systems"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.mccormick.northwestern.edu/electrical-computer/academics/graduate/admissions/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "princeton-university-electrical-and-computer-engineering-ph-d",
+      "university": "Princeton University",
+      "program_name": "Electrical and Computer Engineering (Ph.D.)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Photonics",
+          "Circuits",
+          "Machine Learning",
+          "Quantum Devices"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/electrical-and-computer-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #1",
+      "faculty": []
+    },
+    {
+      "id": "purdue-university-electrical-and-computer-engineering-phd",
+      "university": "Purdue University",
+      "program_name": "Electrical and Computer Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Microelectronics",
+          "Signal Processing",
+          "Machine Learning",
+          "Power Systems"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 60,
+        "fee_display": "$60 domestic / $75 intl",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Most funding offered to applicants meeting Dec 1 priority date (fellowships/TA/RA)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.purdue.edu/ECE/Academics/Graduates"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "rutgers-university-new-brunswick-electrical-and-computer-engineering-phd",
+      "university": "Rutgers University-New Brunswick",
+      "program_name": "Electrical and Computer Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Signal Processing",
+          "Computer Engineering"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.ece.rutgers.edu/graduate-academics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "the-ohio-state-university-electrical-and-computer-engineering",
+      "university": "The Ohio State University",
+      "program_name": "Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Electromagnetics",
+          "Power Systems"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (domestic) / $70 (international)",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "GRA/GTA and fellowships; fellowship application by Nov 30"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://ece.osu.edu/graduate-admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
+      "faculty": []
+    },
+    {
+      "id": "tufts-university-phd-in-electrical-and-computer-engineering",
+      "university": "Tufts University",
+      "program_name": "PhD in Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Microelectronics",
+          "Networks"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Full-time PhD students in School of Engineering often receive tuition scholarship"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://asegrad.tufts.edu/program/electrical-and-computer-engineering-doctorate"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-davis-electrical-and-computer-engineering",
+      "university": "University of California, Davis",
+      "program_name": "Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Electronics",
+          "Communications",
+          "Embedded Systems"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 (US) / $155 (intl)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucdavis.edu/programs/geec"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-los-angeles-electrical-and-computer-engineering",
+      "university": "University of California, Los Angeles",
+      "program_name": "Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Signal Processing",
+          "Circuits"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/electrical-computer-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-san-diego-electrical-engineering-phd",
+      "university": "University of California, San Diego",
+      "program_name": "Electrical Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Signal Processing",
+          "Communications"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-17",
+        "deadline_display": "Dec 17, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "ECE Faculty Admissions Committee review (department admit)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.ece.ucsd.edu/graduate/graduate-admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #29",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-santa-barbara-electrical-and-computer-engineering-phd",
+      "university": "University of California, Santa Barbara",
+      "program_name": "Electrical and Computer Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Photonics",
+          "Communications",
+          "Semiconductors",
+          "Signal Processing"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-16",
+        "deadline_display": "Dec 16, 2026",
+        "application_fee_usd": 135,
+        "fee_display": "$135 ($155 intl)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "PhD applicants must already hold a Master's degree (else apply MS/PhD)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Merit-based GSR/TA/fellowships covering stipend, fees, health insurance, NRST"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.ece.ucsb.edu/grad/apply"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #40",
+      "faculty": []
+    },
+    {
+      "id": "university-of-florida-electrical-and-computer-engineering",
+      "university": "University of Florida",
+      "program_name": "Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Electrophysics",
+          "Electronics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-05",
+        "deadline_display": "Dec 5, 2026",
+        "application_fee_usd": 30,
+        "fee_display": "$30",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-to-department; name up to 3 faculty of interest",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "All eligible PhD applicants auto-considered for departmental funding"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.ece.ufl.edu/admissions/graduate/application-procedure/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-illinois-urbana-champaign-electrical-and-computer-engineering-phd",
+      "university": "University of Illinois Urbana-Champaign",
+      "program_name": "Electrical & Computer Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Microelectronics",
+          "Machine Learning",
+          "Communications"
+        ]
+      },
+      "requirements": {
+        "deadline": "2027-01-15",
+        "deadline_display": "Jan 15, 2027",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Fall priority deadline Dec 15 for fellowships; ECE Interest form required",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Grainger PhD guaranteed funded appointment (tuition waiver + stipend) first 5 years"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://ece.illinois.edu/admissions/graduate/phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-maryland-college-park-electrical-and-computer-engineering-ph-d",
+      "university": "University of Maryland, College Park",
+      "program_name": "Electrical and Computer Engineering, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Signal Processing",
+          "Communications"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-02-27",
+        "deadline_display": "Feb 27, 2026 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Research/teaching assistantships and fellowships; auto-considered if indicated"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://academiccatalog.umd.edu/graduate/programs/electrical-computer-engineering-enee/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-michigan-ann-arbor-electrical-and-computer-engineering-phd",
+      "university": "University of Michigan, Ann Arbor",
+      "program_name": "Electrical and Computer Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Circuits",
+          "Optics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.engin.umich.edu/admissions-aid/graduate-professional/deadlines/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-notre-dame-electrical-engineering-phd",
+      "university": "University of Notre Dame",
+      "program_name": "Electrical Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Semiconductors",
+          "Communications",
+          "Signal Processing",
+          "Nanoelectronics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://ee.nd.edu/graduate/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-rochester-phd-in-electrical-and-computer-engineering",
+      "university": "University of Rochester",
+      "program_name": "PhD in Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Computer Architecture",
+          "Audio Engineering",
+          "Robotics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct admission to department",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://hajim.rochester.edu/ece/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-southern-california-computer-engineering-phd",
+      "university": "University of Southern California",
+      "program_name": "Computer Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Computer Architecture",
+          "Embedded Systems",
+          "VLSI"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 120,
+        "fee_display": "$120",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-admit to department; Fall admission only",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "PhD applicants considered for funding (RA/TA/fellowship); verify package"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://viterbigradadmission.usc.edu/doctoral/phddegrees/phd-computer-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #28",
+      "faculty": []
+    },
+    {
+      "id": "university-of-southern-california-electrical-and-computer-engineering-phd",
+      "university": "University of Southern California",
+      "program_name": "Electrical and Computer Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Communications",
+          "Photonics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 120,
+        "fee_display": "$120",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-admit to department; Fall admission only",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "PhD applicants considered for funding (RA/TA/fellowship); verify package"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://viterbigradadmission.usc.edu/doctoral/phddegrees/phd-electrical-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #28",
+      "faculty": []
+    },
+    {
+      "id": "university-of-texas-at-austin-electrical-and-computer-engineering",
+      "university": "University of Texas at Austin",
+      "program_name": "Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Computer Engineering",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 65,
+        "fee_display": "$65 (US) / $90 (international)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://ece.utexas.edu/academics/graduate/admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-virginia-computer-engineering-phd",
+      "university": "University of Virginia",
+      "program_name": "Computer Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Embedded Systems",
+          "Computer Architecture",
+          "Cyber Physical Systems"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-06",
+        "deadline_display": "Jan 6, 2026 (prior cycle)",
+        "application_fee_usd": 0,
+        "fee_display": "$0 (waived for 2026 admission cycle)",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct admission to cross-departmental program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Most PhD students fully funded (tuition, fees, health insurance + stipend)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.virginia.edu/offices-programs/computer-engineering-program/academics/cpe-graduate-programs"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-virginia-electrical-engineering-phd",
+      "university": "University of Virginia",
+      "program_name": "Electrical Engineering PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Photonics",
+          "Signal Processing",
+          "Low Power Systems",
+          "Controls"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 0,
+        "fee_display": "$0 (waived for 2026 admission cycle)",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct admission to department; late applications considered up to Jul 31 subject to funding",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Most PhD students fully funded (tuition, fees, health insurance + stipend)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.virginia.edu/department/electrical-and-computer-engineering/academics/graduate-programs/phd-electrical-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-washington-electrical-and-computer-engineering-phd",
+      "university": "University of Washington",
+      "program_name": "Electrical & Computer Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Electronics",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Autumn quarter admission; apply ~1 year in advance",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.ece.uw.edu/academics/grad/admissions/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-wisconsin-madison-electrical-and-computer-engineering-phd",
+      "university": "University of Wisconsin-Madison",
+      "program_name": "Electrical and Computer Engineering, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Computer Engineering",
+          "Signal Processing"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Support package at admission (RA/TA/fellowship combinations)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://guide.wisc.edu/graduate/electrical-computer-engineering/electrical-computer-engineering-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "vanderbilt-university-electrical-and-computer-engineering-phd",
+      "university": "Vanderbilt University",
+      "program_name": "Electrical and Computer Engineering (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Robotics",
+          "Signal Processing"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct to department",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://engineering.vanderbilt.edu/departments/electrical-computer-engineering/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "yale-university-electrical-and-computer-engineering",
+      "university": "Yale University",
+      "program_name": "Electrical & Computer Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Electrical Engineering",
+          "Signal Processing",
+          "Circuits"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct to program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.yale.edu/programs-of-study/electrical-computer-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    }
+  ]
+}

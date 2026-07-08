@@ -1,0 +1,4628 @@
+{
+  "primary": "Chemistry",
+  "programs": [
+    {
+      "id": "caltech-chemistry-phd",
+      "university": "California Institute of Technology",
+      "program_name": "PhD in Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Inorganic Chemistry",
+          "Physical Chemistry",
+          "Computational Chemistry",
+          "Catalysis",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "TOEFL/IELTS no longer required for Chemistry applicants; English proficiency is assessed through faculty interviews.",
+        "admission_model": "Committee-Based",
+        "admission_model_note": "Admissions are decided by a faculty committee and students are admitted to the department rather than to a specific advisor. PhD students typically choose a research group by the end of the first term rather than through formal lab rotations.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 5,
+          "note": "PhD students receive full support (stipend plus tuition) through research assistantships, teaching assistantships, and fellowships."
+        },
+        "pre_application_contact": "Neutral / Not Required",
+        "contact_note": "Applicants are admitted to the department, not to individual advisors, so contacting faculty in advance is not required.",
+        "ects": null,
+        "duration": "5-6 years"
+      },
+      "links": {
+        "program": "https://cce.caltech.edu/graduate/graduate-chemistry",
+        "admissions": "https://cce.caltech.edu/graduate/graduate-admissions"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "theodor-agapie",
+          "name": "Theodor Agapie",
+          "title": "John Stauffer Professor of Chemistry; Executive Officer of Chemistry",
+          "sub_field": "Inorganic / Organometallic",
+          "tags": [
+            "bioinorganic",
+            "electrocatalysis",
+            "CO2 reduction",
+            "metalloclusters",
+            "N2 activation"
+          ],
+          "summary": "Agapie's group designs multimetallic complexes to understand and drive small-molecule activation. Recent work builds synthetic models of the oxygen-evolving Mn4Ca cluster of photosystem II to probe how redox-inactive metals tune water oxidation, and develops molecular and electrode-supported catalysts for CO2 and CO reduction to multicarbon products. The group also studies secondary-sphere and cation effects in electrocatalysis and organometallic intermediates relevant to nitrogen and hydrocarbon chemistry, bridging bioinorganic modeling with practical energy conversion.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://agapie.caltech.edu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "garnet-chan",
+          "name": "Garnet K. Chan",
+          "title": "Bren Professor of Chemistry; Director of the Rudolph A. Marcus Center for Theoretical Chemistry",
+          "sub_field": "Theoretical / Computational",
+          "tags": [
+            "electronic structure",
+            "DMRG",
+            "quantum embedding",
+            "quantum computing",
+            "correlated materials"
+          ],
+          "summary": "Chan develops methods to simulate the quantum mechanics of complex molecules and materials. His group advances the density matrix renormalization group, tensor networks, and quantum embedding theories to treat strongly correlated electrons in transition-metal clusters, solids, and catalysts. Recent efforts target near-exact benchmarks for challenging systems, ab initio simulation of superconductors and correlated materials, and algorithms for quantum computers. The work combines new theory with large-scale computation to make predictive electronic-structure calculations feasible for previously intractable problems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "gregory-fu",
+          "name": "Gregory C. Fu",
+          "title": "Norman Chandler Professor of Chemistry",
+          "sub_field": "Catalysis / Organic",
+          "tags": [
+            "asymmetric catalysis",
+            "photoredox",
+            "nickel catalysis",
+            "radical coupling",
+            "cross-coupling"
+          ],
+          "summary": "Fu develops enantioselective catalytic reactions, particularly transition-metal and photoinduced methods that forge carbon-carbon and carbon-heteroatom bonds via radical intermediates. His group is known for nickel-catalyzed asymmetric cross-couplings of alkyl electrophiles and for photoinduced, copper-catalyzed couplings of amines, thiols, and other nucleophiles. Recent work expands enantioconvergent radical reactions, mechanistic understanding of how chiral catalysts control open-shell intermediates, and new bond constructions that are difficult by classical two-electron pathways, broadening access to stereodefined building blocks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://fugroup.caltech.edu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sarah-reisman",
+          "name": "Sarah E. Reisman",
+          "title": "Bren Professor of Chemistry; Norman Davidson Leadership Chair, Division of Chemistry and Chemical Engineering",
+          "sub_field": "Synthetic Organic",
+          "tags": [
+            "total synthesis",
+            "natural products",
+            "asymmetric catalysis",
+            "reductive coupling",
+            "electrochemistry"
+          ],
+          "summary": "Reisman's group targets the total synthesis of structurally complex, bioactive natural products and uses these campaigns to inspire new catalytic methods. Recent work features nickel- and cobalt-catalyzed reductive cross-couplings, asymmetric bond-forming reactions, and electrochemically driven transformations that streamline access to polycyclic terpenoids and alkaloids. The group emphasizes strategies that build molecular complexity efficiently and stereoselectively, and it studies reaction mechanisms to render couplings enantioselective, connecting fundamental methodology development with the synthesis of challenging targets.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://reismangroup.caltech.edu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "brian-stoltz",
+          "name": "Brian M. Stoltz",
+          "title": "Victor and Elizabeth Atkins Professor of Chemistry; Investigator, Heritage Medical Research Institute",
+          "sub_field": "Synthetic Organic",
+          "tags": [
+            "total synthesis",
+            "enantioselective catalysis",
+            "quaternary stereocenters",
+            "alkaloids",
+            "Pd catalysis"
+          ],
+          "summary": "Stoltz pursues the total synthesis of complex natural products alongside the development of catalytic asymmetric methods, notably palladium-catalyzed enantioselective allylic alkylations that construct quaternary stereocenters. Recent campaigns deliver intricate alkaloid and terpenoid targets and translate synthetic insights into scalable routes and medicinal applications. The group also explores new catalytic C-C bond formations, C-H functionalization, and reaction discovery, using demanding targets to test and refine methodology while pursuing molecules of biological and therapeutic interest.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://stoltz.caltech.edu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jonas-peters",
+          "name": "Jonas C. Peters",
+          "title": "Bren Professor of Chemistry; Director, Resnick Sustainability Institute",
+          "sub_field": "Inorganic / Catalysis",
+          "tags": [
+            "nitrogen fixation",
+            "electrocatalysis",
+            "photoredox",
+            "metal-ligand cooperation",
+            "energy conversion"
+          ],
+          "summary": "Peters designs transition-metal complexes and electrocatalysts for challenging small-molecule transformations, especially catalytic nitrogen-to-ammonia conversion under mild conditions. His group elucidates mechanisms of Fe- and Mo-mediated N2 reduction, develops metal complexes that manage proton-coupled electron transfer, and applies these principles to CO2 reduction and other energy-relevant reactions. Recent work also spans light-driven catalysis and merging molecular catalysis with electrode interfaces, aiming to convert abundant feedstocks into fuels and fertilizers sustainably.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "kimberly-see",
+          "name": "Kimberly A. See",
+          "title": "Professor of Chemistry",
+          "sub_field": "Materials / Energy",
+          "tags": [
+            "batteries",
+            "energy storage",
+            "multivalent ions",
+            "solid-state chemistry",
+            "electrochemistry"
+          ],
+          "summary": "See's group studies the chemistry underlying next-generation energy-storage materials, focusing on multivalent-ion (such as magnesium and calcium) and alternative battery systems beyond lithium. Combining synthesis, spectroscopy, and operando characterization, the group probes ion transport, electrode-electrolyte interfaces, and reaction mechanisms that govern capacity and reversibility. Recent work examines conversion cathodes, sulfur redox, and speciation in nonaqueous electrolytes to identify design rules for safer, more abundant, and higher-energy batteries, connecting fundamental solid-state and electrochemistry to practical storage.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://seegroup.caltech.edu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "maxwell-robb",
+          "name": "Maxwell J. Robb",
+          "title": "Professor of Chemistry",
+          "sub_field": "Polymers / Mechanochemistry",
+          "tags": [
+            "polymer mechanochemistry",
+            "mechanophores",
+            "stimuli-responsive polymers",
+            "force-responsive materials",
+            "self-reporting materials"
+          ],
+          "summary": "Robb develops mechanophores, molecules that undergo productive chemical change in response to mechanical force, and integrates them into polymers to create materials that sense and respond to stress. Recent work designs mechanophores that release small molecules, change color, or trigger cascade reactions when a material is stretched or damaged, and elucidates how molecular structure controls force reactivity. The group aims to harness mechanical energy for constructive chemistry, enabling self-reporting, damage-responsive, and remotely activated functional polymer materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ryan-hadt",
+          "name": "Ryan G. Hadt",
+          "title": "Professor of Chemistry",
+          "sub_field": "Physical Inorganic",
+          "tags": [
+            "spectroscopy",
+            "quantum information science",
+            "spin dynamics",
+            "molecular qubits",
+            "electronic structure"
+          ],
+          "summary": "Hadt combines advanced spectroscopy, electronic-structure theory, and synthesis to understand how the geometric and electronic structure of transition-metal complexes governs their function. Recent work targets molecular qubits and quantum information science, establishing design principles that lengthen spin coherence times in metal complexes, and probes excited-state and spin dynamics relevant to catalysis and magnetism. By connecting spectroscopic observables to structure, the group develops predictive frameworks for tuning electron transfer, reactivity, and quantum coherence in inorganic systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "scott-cushing",
+          "name": "Scott K. Cushing",
+          "title": "Assistant Professor of Chemistry",
+          "sub_field": "Physical / Ultrafast",
+          "tags": [
+            "ultrafast spectroscopy",
+            "attosecond",
+            "X-ray spectroscopy",
+            "quantum sensing",
+            "photocatalysis"
+          ],
+          "summary": "Cushing develops table-top ultrafast X-ray and attosecond spectroscopies to watch electrons and energy move in materials and molecules on their natural timescales. His group builds high-harmonic and entangled-photon sources to probe charge-transfer, catalytic, and semiconductor dynamics with element specificity, and explores quantum-light spectroscopy for enhanced sensing. Recent work tracks carrier and structural dynamics in photocatalysts and quantum materials, aiming to connect femtosecond-to-attosecond electronic motion with function in energy-conversion and information technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hosea-nelson",
+          "name": "Hosea M. Nelson",
+          "title": "Professor of Chemistry",
+          "sub_field": "Organic synthesis / methodology",
+          "tags": [
+            "organic synthesis",
+            "microED",
+            "C-H functionalization",
+            "carbocations",
+            "natural products"
+          ],
+          "summary": "Nelson's group develops next-generation tools for organic chemistry, pairing new reaction discovery with structural methods. A signature effort adapts microcrystal electron diffraction (microED) into a routine, 'small-molecule cryo-EM' technique for rapidly determining structures of complex molecules from nanogram samples. The lab also studies reactive silylium and carbocation intermediates to enable C-H functionalization and catalysis, and applies these methods to the efficient total synthesis of bioactive natural products and potential therapeutics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.thenelsonlab.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "harry-gray",
+          "name": "Harry B. Gray",
+          "title": "Arnold O. Beckman Professor of Chemistry; Founding Director, Beckman Institute",
+          "sub_field": "Bioinorganic chemistry / electron transfer",
+          "tags": [
+            "bioinorganic",
+            "electron transfer",
+            "metalloproteins",
+            "solar fuels",
+            "spectroscopy"
+          ],
+          "summary": "Gray's interdisciplinary program centers on electron-transfer chemistry spanning inorganic chemistry, biochemistry and biophysics. His group probes long-range electron tunneling in metalloproteins, using engineered redox probes to map biological charge-transport pathways and protein dynamics. A parallel effort pursues solar-fuels catalysis, developing earth-abundant materials and molecular catalysts that use sunlight and water to generate hydrogen. Gray, who helped found biological inorganic chemistry, continues to advance artificial photosynthesis and remains active through the Beckman Institute and solar-energy initiatives.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": "https://scholar.google.com/citations?user=eESpR1IAAAAJ"
+          }
+        },
+        {
+          "id": "nathan-lewis",
+          "name": "Nathan S. Lewis",
+          "title": "George L. Argyros Professor of Chemistry",
+          "sub_field": "Physical / energy & materials chemistry",
+          "tags": [
+            "solar fuels",
+            "photoelectrochemistry",
+            "semiconductors",
+            "artificial photosynthesis",
+            "energy"
+          ],
+          "summary": "Lewis's Energy and Electrochemistry Laboratory studies the chemistry of semiconductor and nanostructured interfaces for renewable energy. The group develops solar-fuels systems that split water into hydrogen using sunlight, engineering silicon microwire arrays, protective coatings and earth-abundant electrocatalysts for efficient, stable photoelectrochemical cells. Related work targets artificial photosynthesis architectures and molecular-recognition-based chemical sensor arrays ('electronic noses'). Lewis has been a longtime leader in solar-energy conversion and the global-scale energy challenge.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://nsl.caltech.edu/home/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mitchio-okumura",
+          "name": "Mitchio Okumura",
+          "title": "Professor of Chemical Physics",
+          "sub_field": "Physical chemistry / spectroscopy",
+          "tags": [
+            "laser spectroscopy",
+            "atmospheric chemistry",
+            "reaction dynamics",
+            "kinetics",
+            "free radicals"
+          ],
+          "summary": "Okumura's group applies laser spectroscopy, kinetics and reaction dynamics to problems in atmospheric and combustion chemistry. Using high-resolution and time-resolved techniques, they characterize short-lived free radicals and transient intermediates, such as Criegee intermediates and peroxy radicals, that govern tropospheric and stratospheric photochemistry. The lab measures reaction rates, product branching and isotope effects to build fundamental, molecular-level understanding of processes controlling air quality and climate-relevant chemistry.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://okumuragroup.caltech.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sandeep-sharma",
+          "name": "Sandeep Sharma",
+          "title": "Professor of Chemistry",
+          "sub_field": "Theoretical / computational chemistry",
+          "tags": [
+            "electronic structure",
+            "quantum chemistry",
+            "DMRG",
+            "quantum Monte Carlo",
+            "algorithms"
+          ],
+          "summary": "Sharma, who moved to Caltech in 2025, develops advanced algorithms for electronic-structure theory to simulate strongly correlated molecules with high accuracy. His group pioneers methods including the density matrix renormalization group, semistochastic heat-bath configuration interaction and auxiliary-field and variational quantum Monte Carlo, combining physics, chemistry and computer science. These tools target challenging systems relevant to catalysis, transition-metal complexes and materials, and increasingly connect classical simulation with quantum-computing approaches to chemistry.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sharma-group.caltech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=J0Lt4tAAAAAJ"
+          }
+        },
+        {
+          "id": "william-goddard",
+          "name": "William A. Goddard III",
+          "title": "Charles and Mary Ferkel Professor of Chemistry, Materials Science, and Applied Physics",
+          "sub_field": "Theoretical / computational materials",
+          "tags": [
+            "first-principles",
+            "ReaxFF",
+            "catalysis",
+            "batteries",
+            "molecular dynamics"
+          ],
+          "summary": "Goddard directs the Materials and Process Simulation Center, predicting properties of chemical, biological and materials systems directly from first principles. His group builds a hierarchy of methods spanning quantum mechanics, reactive force fields (ReaxFF), electron dynamics and multiscale molecular dynamics. Applications include heterogeneous and electro-catalysis, battery and fuel-cell materials, polymers, and structure-based design of GPCR-targeted drugs, translating fundamental theory into predictive design of new catalysts and materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.wag.caltech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=yMZlErUAAAAJ"
+          }
+        },
+        {
+          "id": "shasha-chong",
+          "name": "Shasha Chong",
+          "title": "Assistant Professor of Chemistry; Ronald and JoAnne Willens Scholar",
+          "sub_field": "Chemical biology / biophysics",
+          "tags": [
+            "transcription",
+            "single-molecule imaging",
+            "phase separation",
+            "disordered proteins",
+            "biophysics"
+          ],
+          "summary": "Chong's lab works at the interface of chemistry, physics and biology to dissect how cells regulate transcription. Using single-molecule and super-resolution imaging in living cells, the group studies how transcription factors with intrinsically disordered regions form biomolecular condensates through phase separation to control gene expression. They connect these dynamic, multivalent interactions to normal cellular function and to disease states such as cancer, aiming to reveal and ultimately target aberrant condensate behavior.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.schonglab.com/",
+            "scholar": "https://scholar.google.com/citations?user=94xcSNsAAAAJ"
+          }
+        },
+        {
+          "id": "linda-hsieh-wilson",
+          "name": "Linda C. Hsieh-Wilson",
+          "title": "Milton and Rosalind Chang Professor of Chemistry; Merkin Institute Professor",
+          "sub_field": "Chemical biology / glycoscience",
+          "tags": [
+            "glycobiology",
+            "O-GlcNAc",
+            "glycosaminoglycans",
+            "neuroplasticity",
+            "chemical tools"
+          ],
+          "summary": "Hsieh-Wilson's group develops chemical approaches to understand the roles of carbohydrates and protein glycosylation in the nervous system and disease. The lab devises efficient syntheses of defined oligosaccharides and glycan mimetics and builds tools to probe O-GlcNAc modification and chondroitin sulfate glycosaminoglycans. They have shown that specific sulfation patterns regulate neuronal signaling, plasticity and axon regeneration after injury, linking glycan structure to function in neurobiology and neurodegeneration.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsiehwilsonlab.caltech.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lu-wei",
+          "name": "Lu Wei",
+          "title": "Professor of Chemistry; Investigator, Heritage Medical Research Institute; Ronald and JoAnne Willens Scholar",
+          "sub_field": "Physical chemical biology / imaging",
+          "tags": [
+            "Raman microscopy",
+            "vibrational imaging",
+            "super-multiplex",
+            "bioorthogonal probes",
+            "live-cell imaging"
+          ],
+          "summary": "Wei's group works at the interface of optical spectroscopy, chemical biology and life science, creating vibrational imaging tools to visualize molecules in living systems. They advance stimulated Raman scattering microscopy and pre-resonance approaches to achieve super-multiplexed, high-sensitivity imaging with small bioorthogonal tags. Recent work enables label-free and super-resolution chemical imaging, quantifies disease hallmarks such as protein aggregation, and tracks subcellular metabolism, expanding the palette of colors available for imaging cellular chemistry.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.weilab.caltech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=Y9JWeogAAAAJ"
+          }
+        },
+        {
+          "id": "dennis-dougherty",
+          "name": "Dennis A. Dougherty",
+          "title": "George Grant Hoag Professor of Chemistry",
+          "sub_field": "Physical organic / chemical neuroscience",
+          "tags": [
+            "cation-pi interactions",
+            "neuroreceptors",
+            "unnatural amino acids",
+            "physical organic",
+            "ion channels"
+          ],
+          "summary": "Dougherty pioneered the study of cation-pi interactions and their role in protein structure, molecular recognition and enzyme catalysis. His group applies physical-organic principles and unnatural amino acid mutagenesis to neuroreceptors and ion channels, including nicotinic acetylcholine, serotonin and dopamine receptors. By incorporating subtly modified amino acids, the lab maps the precise chemical interactions, such as cation-pi binding and backbone hydrogen bonds, that govern how drugs like nicotine bind and activate their targets.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "karthish-manthiram",
+          "name": "Karthish Manthiram",
+          "title": "Bren Professor of Chemical Engineering and Chemistry; William H. Hurt Scholar; Executive Officer for Chemical Engineering",
+          "sub_field": "Electrocatalysis / chemical engineering",
+          "tags": [
+            "electrocatalysis",
+            "electrosynthesis",
+            "CO2 reduction",
+            "nitrogen fixation",
+            "sustainable chemistry"
+          ],
+          "summary": "Manthiram's lab creates electrified molecular systems for sustainable chemical manufacturing. The group designs heterogeneous electrocatalysts that convert abundant inputs, nitrogen, carbon dioxide and water, into fuels and chemicals using renewable electricity, and develops electrochemical routes for organic synthesis and ammonia production. A newer direction electrifies metabolism in living cells by controlling transmembrane charge transfer and cellular redox balance. Together this work advances distributed, decarbonized approaches to producing molecules on demand.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://manthiramlab.com/",
+            "scholar": "https://scholar.google.com/citations?user=6fvLXlQAAAAJ"
+          }
+        },
+        {
+          "id": "johannes-morstein",
+          "name": "Johannes Morstein",
+          "title": "Assistant Professor of Chemistry and Chemical Engineering",
+          "sub_field": "Chemical biology / photopharmacology",
+          "tags": [
+            "photopharmacology",
+            "lipid biology",
+            "photoswitches",
+            "optical control",
+            "chemical tools"
+          ],
+          "summary": "Morstein, who joined Caltech in 2025, leads a chemical biology group that uses chemistry to study, target and reprogram the human lipidome. Integrating organic synthesis with molecular and cell biology, high-throughput screening, lipidomics and imaging, the lab builds photoswitchable lipids and small molecules for photopharmacology, enabling light control of biological processes. Examples include photoswitchable ceramides that optically control apoptosis, tools for phosphatidic acid signaling, and light-gated inhibitors of membrane transporters.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://morsteinlab.caltech.edu/",
+            "scholar": "https://scholar.google.com/citations?user=qnpndgYAAAAJ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "uc-berkeley-chemistry-phd",
+      "university": "University of California, Berkeley",
+      "program_name": "PhD in Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Inorganic Chemistry",
+          "Physical Chemistry",
+          "Chemical Biology",
+          "Computational Chemistry",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026 (prior cycle date — verify)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 (US citizens/PR) / $155 (international)",
+        "gre": "Required",
+        "letters": 3,
+        "english": "TOEFL iBT minimum 90 or IELTS minimum 7.0; waived with one year of full-time study at a recognized U.S. (or English-medium) institution.",
+        "admission_model": "Committee-Based",
+        "admission_model_note": "Students are admitted to the department by a faculty committee and select a research advisor during the first semester after meeting with groups; the Chemistry program does not use formal lab rotations.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 5,
+          "note": "All admitted PhD students receive full support (stipend, tuition, and fees) through a mix of fellowships, teaching assistantships, and research assistantships for the duration of study, contingent on good progress."
+        },
+        "pre_application_contact": "Neutral / Not Required",
+        "contact_note": "The department states contacting faculty is not required, though applicants may list faculty of interest on the application.",
+        "ects": null,
+        "duration": "5-6 years"
+      },
+      "links": {
+        "program": "https://chemistry.berkeley.edu/grad/chem",
+        "admissions": "https://chemistry.berkeley.edu/grad/chem/apply"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "dean-toste",
+          "name": "F. Dean Toste",
+          "title": "Gerald E. K. Branch Distinguished Professor of Chemistry; Department Chair",
+          "sub_field": "Catalysis / Organic",
+          "tags": [
+            "gold catalysis",
+            "asymmetric catalysis",
+            "chiral anions",
+            "supramolecular catalysis",
+            "fluorine chemistry"
+          ],
+          "summary": "Toste develops new catalytic reactions and strategies for enantioselective synthesis, pioneering homogeneous gold catalysis and chiral anion-directed asymmetric catalysis. Recent work exploits ion pairing and supramolecular hosts to control reactivity and selectivity, advances catalytic fluorination and C-H functionalization, and applies catalysis to problems in energy and plastics upcycling. Collaborating across disciplines, the group studies confined catalytic environments and machine-learning-guided reaction development, uniting mechanistic physical-organic insight with the invention of practical, selective transformations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cchem.berkeley.edu/~toste/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-hartwig",
+          "name": "John F. Hartwig",
+          "title": "Henry Rapoport Chair in Organic Chemistry",
+          "sub_field": "Organometallic Catalysis",
+          "tags": [
+            "C-H functionalization",
+            "cross-coupling",
+            "base-metal catalysis",
+            "artificial metalloenzymes",
+            "homogeneous catalysis"
+          ],
+          "summary": "Hartwig develops transition-metal-catalyzed reactions that form carbon-heteroatom and carbon-carbon bonds, including foundational work on C-N cross-coupling and catalytic, site-selective C-H functionalization of complex molecules. Recent research advances earth-abundant base-metal catalysis, undirected borylation and functionalization, and the merger of chemical catalysis with biological catalysis through artificial metalloenzymes containing non-native metals. The group combines detailed mechanistic study with methodology, targeting selective, practical transformations for pharmaceutical synthesis, feedstock conversion, and new catalyst design.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "thomas-maimone",
+          "name": "Thomas J. Maimone",
+          "title": "Professor of Chemistry",
+          "sub_field": "Synthetic Organic",
+          "tags": [
+            "total synthesis",
+            "terpenoids",
+            "natural products",
+            "biomimetic synthesis",
+            "methodology"
+          ],
+          "summary": "Maimone's group develops concise, scalable total syntheses of architecturally complex natural products, particularly heavily oxidized and rearranged terpenoids. By identifying strategic bond disconnections and inventing new oxidation, cyclization, and rearrangement methods, the group compresses lengthy routes and enables access to biologically active meroterpenoids, limonoids, and related targets. Recent work also mines plant and microbial metabolites for chemistry-driven insights and pursues fragment-coupling and C-H functionalization strategies that make demanding molecules practically available for study.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "martin-head-gordon",
+          "name": "Martin Head-Gordon",
+          "title": "Kenneth S. Pitzer Distinguished Professor of Chemistry",
+          "sub_field": "Theoretical / Computational",
+          "tags": [
+            "electronic structure theory",
+            "density functional theory",
+            "coupled cluster",
+            "energy decomposition",
+            "quantum chemistry methods"
+          ],
+          "summary": "Head-Gordon develops electronic-structure theory and algorithms that make accurate quantum-chemical calculations practical for large molecules. His group is known for widely used density functionals (including the wB97 family), efficient coupled-cluster and perturbation methods, and energy-decomposition analyses that dissect intermolecular interactions and bonding. Recent work improves the accuracy-cost tradeoff of DFT, characterizes reaction mechanisms and open-shell species, and creates tools that interpret chemical bonding, supporting both fundamental theory and applications across catalysis and materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "peidong-yang",
+          "name": "Peidong Yang",
+          "title": "S.K. and Angela Chan Distinguished Professor of Energy; Professor of Chemistry",
+          "sub_field": "Materials / Inorganic",
+          "tags": [
+            "nanowires",
+            "artificial photosynthesis",
+            "semiconductor nanocrystals",
+            "CO2 reduction",
+            "solar-to-fuel"
+          ],
+          "summary": "Yang's group synthesizes inorganic nanomaterials, including semiconductor nanowires, halide perovskites, and metal nanocrystals, and applies them to energy conversion and catalysis. A signature effort couples light-absorbing nanowires with microbes or molecular catalysts to build artificial-photosynthetic systems that convert CO2 and water into fuels and chemicals. Recent work explores nanocrystal superlattices, perovskite optoelectronics, and interfacial charge transfer for solar-to-chemical conversion, combining precise materials synthesis with mechanistic study to push efficiency and selectivity in sustainable energy technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-neumark",
+          "name": "Daniel M. Neumark",
+          "title": "Melvin Calvin Distinguished Professor of Chemistry",
+          "sub_field": "Physical Chemistry",
+          "tags": [
+            "ultrafast dynamics",
+            "attosecond spectroscopy",
+            "photoelectron spectroscopy",
+            "clusters",
+            "liquid microjets"
+          ],
+          "summary": "Neumark studies chemical dynamics using ultrafast lasers and molecular beams. His group pioneered anion photoelectron methods to characterize transition states and reactive intermediates, and now applies attosecond and femtosecond XUV spectroscopy to follow electron and nuclear motion in atoms, molecules, and liquids. Recent work probes charge and energy relaxation in liquid microjets, dynamics of clusters and nanodroplets, and attosecond charge migration, providing detailed, time-resolved pictures of fundamental processes that underpin photochemistry and energy flow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "t-don-tilley",
+          "name": "T. Don Tilley",
+          "title": "Professor of Chemistry",
+          "sub_field": "Inorganic / Organometallic",
+          "tags": [
+            "organometallic",
+            "catalysis",
+            "silicon chemistry",
+            "molecular precursors",
+            "water oxidation"
+          ],
+          "summary": "Tilley's group explores synthetic and mechanistic inorganic and organometallic chemistry aimed at catalysis and materials. Longstanding interests include metal-silicon and metal-heteroatom multiple bonds, sigma-bond metathesis, and reactive intermediates that enable new bond activations. The group designs molecular precursors and single-site catalysts for polymerization, hydrocarbon functionalization, and energy-relevant reactions such as water oxidation, and prepares tailored nanomaterials from molecular building blocks, connecting fundamental coordination chemistry to practical catalytic and materials applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ke-xu",
+          "name": "Ke Xu",
+          "title": "Professor of Chemistry",
+          "sub_field": "Physical / Chemical Biology",
+          "tags": [
+            "super-resolution microscopy",
+            "single-molecule imaging",
+            "spectral imaging",
+            "cell membranes",
+            "STORM"
+          ],
+          "summary": "Xu develops advanced optical microscopy to visualize chemistry and structure in cells at the nanoscale and single-molecule level. His group created spectrally resolved single-molecule imaging and functional super-resolution methods that map local physicochemical properties such as polarity, viscosity, and charge inside cells. Recent work images membrane organization, the cytoskeleton, and cellular interfaces with molecular specificity, and extends single-molecule spectroscopy to reveal heterogeneity invisible to conventional techniques, bridging physical chemistry, imaging technology, and cell biology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-limmer",
+          "name": "David T. Limmer",
+          "title": "Associate Professor of Chemistry",
+          "sub_field": "Theoretical / Statistical Mechanics",
+          "tags": [
+            "statistical mechanics",
+            "nonequilibrium dynamics",
+            "rare events",
+            "electrochemistry theory",
+            "driven systems"
+          ],
+          "summary": "Limmer develops statistical-mechanical theory and simulation to understand systems far from equilibrium. His group formulates methods for sampling rare events and computing dynamical fluctuations, and applies them to charge transfer at electrochemical interfaces, self-assembly, energy transport in nanomaterials, and driven, dissipative systems. Recent work clarifies how microscopic fluctuations control interfacial reactivity, exciton and carrier dynamics, and nonequilibrium self-organization, providing predictive frameworks that connect molecular-scale dynamics to emergent behavior in complex chemical and materials systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "kwabena-bediako",
+          "name": "Kwabena Bediako",
+          "title": "Associate Professor of Chemistry",
+          "sub_field": "Materials / Physical",
+          "tags": [
+            "2D materials",
+            "electrochemistry",
+            "moire materials",
+            "intercalation",
+            "quantum materials"
+          ],
+          "summary": "Bediako investigates the chemistry and physics of two-dimensional and layered materials, engineering atomically thin interfaces to control electronic and electrochemical behavior. His group studies how twisting, stacking, and ion intercalation tune correlated and quantum states, and develops electrochemical methods to modify and probe these materials. Recent work combines synthesis, electrochemistry, and X-ray and transport measurements to reveal structure-property relationships in moire and layered systems, targeting new platforms for energy storage, catalysis, and quantum information at the chemistry-condensed-matter interface.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "richmond-sarpong",
+          "name": "Richmond Sarpong",
+          "title": "Maxine J. Elliott Endowed University Chair; Professor of Chemistry",
+          "sub_field": "Synthetic organic chemistry",
+          "tags": [
+            "total synthesis",
+            "C-C bond formation",
+            "natural products",
+            "reaction methodology",
+            "alkaloids"
+          ],
+          "summary": "Sarpong's group develops strategies and methods for synthesizing complex, biologically active natural products, especially architecturally intricate alkaloids and terpenoids. A central theme is inventing new C-C bond-forming and C-C bond-cleaving reactions, including strain-release and aromatization-driven approaches, that reorganize readily available scaffolds into challenging targets. The lab also formalizes retrosynthetic 'network analysis' logic and pyrolytic fragmentations, translating fundamental reaction discovery into shorter, more efficient, and more sustainable routes to medicinally relevant and stereochemically dense molecules.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sarponggroup.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "omar-yaghi",
+          "name": "Omar M. Yaghi",
+          "title": "University Professor; James and Neeltje Tretter Endowed Chair in Chemistry",
+          "sub_field": "Reticular chemistry / porous materials",
+          "tags": [
+            "metal-organic frameworks",
+            "covalent organic frameworks",
+            "reticular chemistry",
+            "carbon capture",
+            "water harvesting"
+          ],
+          "summary": "Yaghi, a 2025 Nobel laureate in chemistry, pioneered reticular chemistry, the stitching of molecular building blocks into extended crystalline frameworks through strong bonds. His group created and developed metal-organic frameworks (MOFs), covalent organic frameworks (COFs) and zeolitic imidazolate frameworks, materials with extraordinary porosity and tunable structure. Applications span hydrogen and methane storage, carbon dioxide capture, catalysis, and harvesting drinking water from desert air. The lab continues designing frameworks with atomic precision to address pressing energy and environmental challenges.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://yaghi.berkeley.edu/",
+            "scholar": "https://scholar.google.com/citations?user=Sczy43gAAAAJ"
+          }
+        },
+        {
+          "id": "jeffrey-long",
+          "name": "Jeffrey R. Long",
+          "title": "C. Judson King Distinguished Professor of Chemistry",
+          "sub_field": "Inorganic / materials chemistry",
+          "tags": [
+            "metal-organic frameworks",
+            "gas separations",
+            "molecular magnetism",
+            "carbon capture",
+            "porous materials"
+          ],
+          "summary": "Long's group designs and synthesizes new inorganic materials and molecules to uncover and exploit novel physical phenomena. A major effort tailors metal-organic frameworks with coordinatively unsaturated metal sites for selective gas adsorption and separation, targeting carbon capture, oxygen and hydrocarbon purification, and hydrogen storage. Related work explores single-molecule magnets, spin-crossover behavior, and electrically conductive frameworks. By tuning metal-ligand interactions with atomic precision, the lab connects fundamental coordination chemistry to applications in energy, sustainable separations, and molecular magnetism.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://alchemy.cchem.berkeley.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-arnold",
+          "name": "John Arnold",
+          "title": "Professor of Chemistry",
+          "sub_field": "Synthetic inorganic / organometallic chemistry",
+          "tags": [
+            "organometallic",
+            "main-group chemistry",
+            "actinides",
+            "small-molecule activation",
+            "catalysis"
+          ],
+          "summary": "Arnold's group pursues synthetic inorganic and organometallic chemistry across the d-, p- and f-block, making unusual molecules and studying their structure and reactivity. Using tailored ligand frameworks, the lab prepares low-coordinate and low-valent complexes that activate small molecules such as dinitrogen, carbon dioxide, hydrogen and nitrous oxide, and that display novel catalytic behavior. A longstanding interest in actinide chemistry exploits the distinctive oxidation states and 5f orbitals of these elements to access bonding and reactivity unavailable elsewhere in the periodic table.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.pbn2au.com/",
+            "scholar": "https://scholar.google.com/citations?user=m9YARWEAAAAJ"
+          }
+        },
+        {
+          "id": "felix-fischer",
+          "name": "Felix R. Fischer",
+          "title": "Professor of Chemistry",
+          "sub_field": "Nanoscience / carbon materials",
+          "tags": [
+            "graphene nanoribbons",
+            "on-surface synthesis",
+            "molecular electronics",
+            "carbon nanomaterials",
+            "scanning probe microscopy"
+          ],
+          "summary": "Fischer's group develops bottom-up synthetic routes to atomically precise carbon nanomaterials, most notably graphene nanoribbons built from custom molecular precursors. By linking and cyclodehydrogenating designed monomers on surfaces, the lab controls ribbon width, edge structure and heteroatom doping to engineer electronic and magnetic properties emerging from quantum confinement and topology. Combining organic synthesis with scanning probe microscopy, they create nanoscale heterojunctions and quantum-engineered lattices, and collaborate with industry to integrate these materials into next-generation semiconductor devices.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "matthew-francis",
+          "name": "Matthew B. Francis",
+          "title": "Professor of Chemistry",
+          "sub_field": "Chemical biology / protein bioconjugation",
+          "tags": [
+            "bioconjugation",
+            "protein modification",
+            "biomaterials",
+            "viral capsids",
+            "imaging agents"
+          ],
+          "summary": "Francis's group invents new organic reactions for site-specific protein modification and uses them to build functional protein-based materials. The lab has developed highly selective bioconjugation chemistries, including oxidative couplings that target tyrosine and N-terminal residues, to attach cargo to proteins and viral capsids with precise control. These modified assemblies become platforms for diagnostic imaging agents, drug delivery, light-harvesting systems, and materials for water treatment, uniting synthetic methodology with applications that span medicine, energy, and the environment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.mbfberkeley.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alanna-schepartz",
+          "name": "Alanna Schepartz",
+          "title": "T.Z. and Irmgard Chu Distinguished Professor of Chemistry",
+          "sub_field": "Chemical biology / synthetic biology",
+          "tags": [
+            "synthetic biology",
+            "genetic code expansion",
+            "sequence-defined polymers",
+            "cell-permeant molecules",
+            "super-resolution imaging"
+          ],
+          "summary": "Schepartz works across the chemistry-biology continuum to understand complex cellular processes and to design molecules with new functions. Her lab leads efforts to reprogram the ribosome and expand the genetic code, aiming to biosynthesize sequence-defined non-protein polymers through the NSF Center for Genetically Encoded Materials. Other projects develop cell-permeant molecular carriers that efficiently cross membranes and super-resolution probes for imaging organelle dynamics in living cells, connecting foundational chemistry to synthetic biology, biophysics, and cell biology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://schepartzlab.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "teresa-head-gordon",
+          "name": "Teresa Head-Gordon",
+          "title": "Chancellor's Professor of Chemistry, Bioengineering, and Chemical & Biomolecular Engineering",
+          "sub_field": "Theoretical / computational chemistry",
+          "tags": [
+            "molecular simulation",
+            "water models",
+            "machine-learning potentials",
+            "biophysics",
+            "catalysis"
+          ],
+          "summary": "Head-Gordon develops theoretical and computational methods to model molecular liquids, biomolecules, and catalysis. Her group is known for advanced models of water and solvation and for multiscale simulations that bridge quantum mechanics and molecular dynamics. Current directions include machine-learning interatomic potentials that go beyond single-point energies, the surprising chemistry of accelerated reactions in aqueous microdroplets, and computational protein and drug design. By combining physical theory with data-driven approaches, the lab seeks predictive, transferable descriptions of complex chemical and biological systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://thglab.berkeley.edu/",
+            "scholar": "https://scholar.google.com/citations?user=LP_1xT4AAAAJ"
+          }
+        },
+        {
+          "id": "birgitta-whaley",
+          "name": "K. Birgitta Whaley",
+          "title": "Professor of Chemistry; Director, Berkeley Quantum Information and Computation Center",
+          "sub_field": "Theoretical / quantum information science",
+          "tags": [
+            "quantum information",
+            "quantum control",
+            "open quantum systems",
+            "quantum biology",
+            "quantum simulation"
+          ],
+          "summary": "Whaley's theoretical group studies quantum information, quantum computation, and the control and simulation of complex quantum systems. Research spans quantum control and measurement, the analysis of open quantum systems and decoherence, macroscopic quantum states and quantum metrology, and algorithms for simulating chemistry on quantum computers. The group also probes possible quantum effects in biological processes such as energy and charge transfer. Directing Berkeley's quantum information center, Whaley connects fundamental quantum theory to emerging quantum technologies and coherent-science applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cchem.berkeley.edu/~kbwgrp/",
+            "scholar": "https://scholar.google.com/citations?user=9kzo1XUAAAAJ"
+          }
+        },
+        {
+          "id": "naomi-ginsberg",
+          "name": "Naomi S. Ginsberg",
+          "title": "Professor of Chemistry and Physics",
+          "sub_field": "Physical chemistry / nanoscale imaging",
+          "tags": [
+            "ultrafast spectroscopy",
+            "nanoscale imaging",
+            "energy materials",
+            "cathodoluminescence",
+            "excited-state dynamics"
+          ],
+          "summary": "Ginsberg's group develops new optical, electron, and X-ray imaging methods to spatially resolve fast dynamics in soft electronic and biological materials. By combining ultrafast spectroscopy, light microscopy, and cathodoluminescence electron microscopy, the lab visualizes how energy and charge move through heterogeneous systems, from photosynthetic light harvesting to semiconductor nanocrystals and organic semiconductors. Tracking these processes across many length and time scales reveals how nanoscale structure and disorder govern function, guiding the design of better light-harvesting and optoelectronic materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cchem.berkeley.edu/~nsggrp/",
+            "scholar": "https://scholar.google.com/citations?user=vDiCUv4AAAAJ"
+          }
+        },
+        {
+          "id": "stephen-leone",
+          "name": "Stephen R. Leone",
+          "title": "Professor of Chemistry and Physics",
+          "sub_field": "Physical chemistry / ultrafast dynamics",
+          "tags": [
+            "attosecond science",
+            "ultrafast lasers",
+            "X-ray spectroscopy",
+            "electron dynamics",
+            "reaction dynamics"
+          ],
+          "summary": "Leone's group uses ultrafast lasers and soft X-ray probes to watch electrons and nuclei move in real time. Pioneering attosecond and femtosecond transient-absorption methods, the lab captures the earliest steps of chemical and physical processes, tracking valence and core-level electronic dynamics in molecules, solids, and nanomaterials. Related work addresses state-resolved collision and reaction dynamics, aerosol and nanoparticle chemistry, and charge-carrier motion in semiconductors. These measurements reveal how energy flows during bond breaking, excitation, and charge transfer on natural timescales.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://bromine.cchem.berkeley.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "evan-williams",
+          "name": "Evan R. Williams",
+          "title": "Professor of Chemistry",
+          "sub_field": "Analytical / physical chemistry (mass spectrometry)",
+          "tags": [
+            "mass spectrometry",
+            "biophysical chemistry",
+            "ion spectroscopy",
+            "protein structure",
+            "hydration"
+          ],
+          "summary": "Williams develops and applies novel mass spectrometry, tandem mass spectrometry, and laser spectroscopy techniques to probe the structure and energetics of biomolecules and clusters. His group investigates protein and complex conformations in the gas phase, ion-water interactions and stepwise hydration, and the fundamental thermochemistry of charged species, connecting isolated-molecule measurements to behavior in solution. The lab also advances instrumentation and methods, including native mass spectrometry and ion mobility, and directs Berkeley's mass spectrometry facility supporting research across chemistry and biology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cchem.berkeley.edu/~erwgrp/",
+            "scholar": "https://scholar.google.com/citations?user=BZDdXOIAAAAJ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eth-zurich-chemistry-doctorate",
+      "university": "ETH Zürich (Swiss Federal Institute of Technology Zurich)",
+      "program_name": "Doctorate in Chemistry (D-CHAB)",
+      "degree_type": "PhD",
+      "region": "Europe",
+      "country": "Switzerland",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Inorganic Chemistry",
+          "Physical Chemistry",
+          "Catalysis",
+          "Computational Chemistry",
+          "Chemical Engineering"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Rolling / no fixed deadline — doctoral positions are advertised year-round by individual professors",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify (no central application fee; you apply to a professor's advertised position)",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "English is the working language of doctoral research; strong English proficiency is expected but there is no single fixed centralized test score (requirements set by the supervisor/ETH) — verify.",
+        "admission_model": "Direct Advisor Match",
+        "admission_model_note": "Applicants must first secure a doctoral position by contacting and being accepted by an ETH professor; formal matriculation follows only after a supervisor agrees to take the student. There are no first-year rotations.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "Doctoral researchers are employed and salaried by ETH as research/teaching assistants (among the highest PhD salaries in Europe); positions typically run about 3-4 years and include teaching or service duties."
+        },
+        "pre_application_contact": "Encouraged",
+        "contact_note": "Contacting a professor is effectively required — you must be accepted into a research group before you can register for the doctorate.",
+        "ects": null,
+        "duration": "3-4 years (typically ~4)"
+      },
+      "links": {
+        "program": "https://chab.ethz.ch/en/doctoral-studies.html",
+        "admissions": "https://chab.ethz.ch/en/doctoral-studies/how-to-apply.html"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "erick-carreira",
+          "name": "Erick M. Carreira",
+          "title": "Full Professor of Organic Chemistry",
+          "sub_field": "Synthetic Organic",
+          "tags": [
+            "total synthesis",
+            "natural products",
+            "asymmetric catalysis",
+            "iridium catalysis",
+            "methodology"
+          ],
+          "summary": "Carreira's group conducts research in complex natural-product total synthesis and the development of catalytic asymmetric methods. The group is known for iridium-catalyzed enantioselective allylic substitutions and other stereoselective transformations, which it applies to concise syntheses of intricate, biologically active targets. Recent work spans new catalytic reactions, medicinal-chemistry collaborations, and molecules that probe biological function, combining inventive strategy with mechanistic understanding to access architecturally demanding compounds and to establish broadly useful, selective synthetic methodology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://carreira.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "bill-morandi",
+          "name": "Bill Morandi",
+          "title": "Full Professor of Organic Chemistry",
+          "sub_field": "Homogeneous Catalysis",
+          "tags": [
+            "homogeneous catalysis",
+            "shuttle catalysis",
+            "sustainable synthesis",
+            "C-H functionalization",
+            "skeletal editing"
+          ],
+          "summary": "Morandi develops new catalytic reactions that improve the efficiency and sustainability of organic synthesis. The group pioneered shuttle catalysis and isodesmic strategies that transfer functional groups reversibly between molecules, enabling reactions such as retro-hydroformylation and the interconversion of nitriles and alkenes. Recent work advances metal-catalyzed C-H and C-C functionalization, single-atom and skeletal editing, and mechanistic tools for reaction discovery. By reimagining how bonds are made and broken, the group targets greener routes and previously inaccessible disconnections.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://morandi.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "helma-wennemers",
+          "name": "Helma Wennemers",
+          "title": "Full Professor of Organic Chemistry",
+          "sub_field": "Organic / Chemical Biology",
+          "tags": [
+            "peptide catalysis",
+            "collagen",
+            "asymmetric catalysis",
+            "chemical biology",
+            "self-assembly"
+          ],
+          "summary": "Wennemers combines organic chemistry and chemical biology to design functional peptides. Her group develops short peptide catalysts that achieve high stereoselectivity in aldol and conjugate-addition reactions, and studies collagen model peptides to understand and program the stability and assembly of this key structural protein. Recent work also creates peptide-based scaffolds for controlled delivery, tumor targeting, and templated synthesis of metal nanoparticles. By linking sequence to function, the group builds tunable molecular systems bridging catalysis, materials, and biomedical applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://wennemers.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeffrey-bode",
+          "name": "Jeffrey W. Bode",
+          "title": "Full Professor of Organic Chemistry",
+          "sub_field": "Synthesis / Chemical Biology",
+          "tags": [
+            "chemical synthesis",
+            "ligation chemistry",
+            "peptides",
+            "bioconjugation",
+            "synthetic methods"
+          ],
+          "summary": "Bode develops synthetic methods and reagents for making and modifying complex molecules, with an emphasis on chemoselective ligations. His group invented the KAHA (alpha-ketoacid-hydroxylamine) ligation for peptide and protein synthesis and SnAP reagents for saturated N-heterocycles, and builds molecular tools for bioconjugation and diversity synthesis. Recent work spans synthetic peptides and proteins, functional materials, and platforms for rapid reaction discovery and screening, aiming to make challenging chemical structures reliably accessible for chemical biology and pharmaceutical research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bode.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christophe-coperet",
+          "name": "Christophe Copéret",
+          "title": "Full Professor of Surface and Interfacial Chemistry",
+          "sub_field": "Inorganic / Catalysis",
+          "tags": [
+            "surface organometallic chemistry",
+            "heterogeneous catalysis",
+            "solid-state NMR",
+            "single-site catalysts",
+            "CO2 conversion"
+          ],
+          "summary": "Copéret bridges molecular and materials chemistry through surface organometallic chemistry, building well-defined single-site catalysts on oxide supports to connect structure with catalytic function. The group uses advanced solid-state NMR, including dynamic nuclear polarization, and spectroscopy to characterize active sites and mechanisms. Recent work targets CO2 hydrogenation to methanol, alkane and olefin conversion, and tailored materials for energy and sustainability, alongside fundamental studies of bonding at interfaces, uniting precise synthesis with deep spectroscopic and mechanistic understanding of catalysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://coperet.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "maksym-kovalenko",
+          "name": "Maksym Kovalenko",
+          "title": "Full Professor of Inorganic Chemistry; Head of the Laboratory of Inorganic Chemistry",
+          "sub_field": "Inorganic Materials",
+          "tags": [
+            "nanocrystals",
+            "halide perovskites",
+            "quantum dots",
+            "optoelectronics",
+            "energy materials"
+          ],
+          "summary": "Kovalenko's group synthesizes and studies inorganic nanomaterials, especially colloidal semiconductor nanocrystals and lead-halide perovskite quantum dots. The group develops precise, scalable syntheses and surface chemistries and explores how size, composition, and assembly control light emission and charge transport. Recent work advances perovskite nanocrystals for displays, LEDs, single-photon sources, and quantum-information applications, as well as materials for batteries and photodetectors. Jointly appointed with Empa, the group links fundamental nanochemistry to optoelectronic and energy technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://kovalenkolab.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "victor-mougel",
+          "name": "Victor Mougel",
+          "title": "Assistant Professor (Tenure Track) of Inorganic Chemistry",
+          "sub_field": "Bioinorganic / Electrocatalysis",
+          "tags": [
+            "bioinspired catalysis",
+            "iron-sulfur clusters",
+            "electrocatalysis",
+            "CO2 reduction",
+            "renewable fuels"
+          ],
+          "summary": "Mougel designs bioinspired molecules and materials for sustainable catalysis, drawing on the structures of natural metalloenzymes. His group builds synthetic iron-sulfur clusters and molecular catalysts to drive small-molecule transformations such as CO2 reduction, nitrogen and nitrate conversion, and water oxidation, and integrates them into electrodes and materials for renewable-energy applications. Recent work, recognized by the Ruzicka Prize, elucidates how cluster structure controls redox behavior and catalysis, connecting fundamental bioinorganic chemistry to practical electrocatalytic and environmental technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mougel.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sereina-riniker",
+          "name": "Sereina Riniker",
+          "title": "Associate Professor of Computational Chemistry",
+          "sub_field": "Computational Chemistry",
+          "tags": [
+            "molecular dynamics",
+            "force fields",
+            "cheminformatics",
+            "free-energy calculations",
+            "machine learning"
+          ],
+          "summary": "Riniker develops computational methods to model molecules in solution and to predict their properties. Her group advances classical and machine-learned force fields, enhanced-sampling and free-energy techniques, and cheminformatics approaches such as molecular dynamics fingerprints. Recent work couples physics-based simulation with machine learning to improve accuracy and speed for drug-discovery-relevant conformational sampling and binding predictions, and studies reactive and condensed-phase systems. By connecting molecular dynamics with data-driven models, the group builds tools that make simulation more predictive and broadly applicable.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://riniker.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "renato-zenobi",
+          "name": "Renato Zenobi",
+          "title": "Full Professor of Analytical Chemistry",
+          "sub_field": "Analytical Chemistry",
+          "tags": [
+            "mass spectrometry",
+            "ambient ionization",
+            "single-cell analysis",
+            "tip-enhanced Raman",
+            "bioanalysis"
+          ],
+          "summary": "Zenobi develops analytical and bioanalytical chemistry, particularly advanced mass spectrometry and nanoscale spectroscopy. His group creates methods for ambient ionization, breath and exhaled-aerosol analysis for diagnostics, single-cell and spatially resolved metabolomics, and studies of noncovalent complexes. The group also pioneers tip-enhanced Raman spectroscopy and near-field techniques that push chemical imaging toward the nanometer scale. Recent work applies these tools to biomedical diagnostics, environmental monitoring, and fundamental measurement science, advancing the sensitivity, resolution, and reach of chemical analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.zenobi.ethz.ch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "javier-perez-ramirez",
+          "name": "Javier Pérez-Ramírez",
+          "title": "Full Professor of Catalysis Engineering",
+          "sub_field": "Catalysis / Chemical Engineering",
+          "tags": [
+            "heterogeneous catalysis",
+            "catalysis engineering",
+            "CO2 utilization",
+            "sustainable chemistry",
+            "single-atom catalysis"
+          ],
+          "summary": "Pérez-Ramírez leads research in catalysis engineering aimed at carbon-neutral and resource-efficient chemical manufacturing. His group designs and scales heterogeneous catalysts, including single-atom and zeolite materials, for CO2 and CO valorization, methane and alkane activation, plastics recycling, and halogen chemistry, integrating catalyst discovery with reaction engineering and life-cycle thinking. As director of NCCR Catalysis, the group pursues sustainable routes across the value chain, combining high-throughput experimentation, mechanistic study, and process design to translate fundamental catalysis into greener industrial technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ace.ethz.ch/en/jpr",
+            "scholar": "https://scholar.google.com/citations?user=mgjVjH8AAAAJ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "boston-college-chemistry-phd",
+      "university": "Boston College",
+      "program_name": "Chemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Inorganic Chemistry",
+          "Chemical Biology",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Statement of Purpose names preferred faculty advisors; department admission",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bc.edu/bc-web/schools/morrissey/departments/chemistry/academics/graduate.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "boston-university-chemistry",
+      "university": "Boston University",
+      "program_name": "Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Physical Chemistry",
+          "Chemical Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (GRS fellowship)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bu.edu/academics/grs/programs/chemistry/phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "boston-university-molecular-biology-cell-biology-and-biochemistry",
+      "university": "Boston University",
+      "program_name": "Molecular Biology, Cell Biology & Biochemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Molecular Biology",
+          "Cell Biology",
+          "Biochemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (GRS fellowship)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bu.edu/academics/grs/programs/molecular-biology-cell-biology-biochemistry/phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "brown-university-chemistry-phd",
+      "university": "Brown University",
+      "program_name": "Chemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Materials Chemistry",
+          "Chemical Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs; first-year fellowship, no teaching required in year 1"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://graduateprograms.brown.edu/graduate-program/chemistry-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #13",
+      "faculty": []
+    },
+    {
+      "id": "brown-university-molecular-biology-cell-biology-and-biochemistry-phd",
+      "university": "Brown University",
+      "program_name": "Molecular Biology, Cell Biology, and Biochemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Molecular Biology",
+          "Cell Biology",
+          "Biochemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Rotation-based (three lab rotations in year 1 before choosing thesis advisor)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, health)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://graduateprograms.brown.edu/graduate-program/biomed-molecular-biology-cell-biology-and-biochemistry-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #13",
+      "faculty": []
+    },
+    {
+      "id": "california-institute-of-technology-chemical-engineering",
+      "university": "California Institute of Technology",
+      "program_name": "Chemical Engineering",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemical Engineering",
+          "Catalysis",
+          "Soft Matter"
+        ]
+      },
+      "requirements": {
+        "deadline": "2024-12-01",
+        "deadline_display": "Dec 1, 2024 (prior cycle)",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admission by option; committee review",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026); RA/TA/fellowships"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.cce.caltech.edu/graduate/graduate-chemical-engineering"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
+      "faculty": []
+    },
+    {
+      "id": "carnegie-mellon-university-ph-d-in-chemistry",
+      "university": "Carnegie Mellon University",
+      "program_name": "Ph.D. in Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Polymer Science",
+          "Chemical Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental admission; research statement naming at least two faculty of interest",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition + stipend) for all incoming full-time PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.cmu.edu/chemistry/grad/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "columbia-university-chemistry-phd",
+      "university": "Columbia University",
+      "program_name": "Chemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Materials Chemistry",
+          "Chemical Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-04",
+        "deadline_display": "Dec 4, 2025 (prior cycle)",
+        "application_fee_usd": 120,
+        "fee_display": "$120",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct admission to department; PhD-only (no MA program)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (GSAS fellowship: tuition, fees, stipend); 5-yr completion expected"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.gsas.columbia.edu/content/chemistry"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "cornell-university-chemistry-and-chemical-biology-phd",
+      "university": "Cornell University",
+      "program_name": "Chemistry and Chemical Biology (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Chemical Biology",
+          "Organic Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.cornell.edu/graduate-school/chemistry-chemical-biology/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #12",
+      "faculty": []
+    },
+    {
+      "id": "cornell-university-biochemistry-molecular-and-cell-biology-phd",
+      "university": "Cornell University",
+      "program_name": "Biochemistry, Molecular and Cell Biology (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Molecular Biology",
+          "Cell Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.cornell.edu/graduate-school/biochemistry-molecular-cell-biology/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #12",
+      "faculty": []
+    },
+    {
+      "id": "dartmouth-college-chemistry-phd",
+      "university": "Dartmouth College",
+      "program_name": "Chemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Materials Chemistry",
+          "Biochemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs; 12-mo stipend $49,862 (2026-27)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://graduate.dartmouth.edu/academics/programs/chemistry"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #13",
+      "faculty": []
+    },
+    {
+      "id": "duke-university-ph-d-in-biochemistry",
+      "university": "Duke University",
+      "program_name": "Ph.D. in Biochemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Structural Biology",
+          "Molecular Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.duke.edu/academics/programs-degrees/biochemistry/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "duke-university-ph-d-in-chemistry",
+      "university": "Duke University",
+      "program_name": "Ph.D. in Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.duke.edu/academics/programs-degrees/chemistry/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "emory-university-chemistry",
+      "university": "Emory University",
+      "program_name": "Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Inorganic Chemistry",
+          "Physical Chemistry",
+          "Biomolecular"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Rotations program; no advisor commitment before admission",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "$42,000 base stipend + full tuition + benefits"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.emory.edu/graduate/apply.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #24",
+      "faculty": []
+    },
+    {
+      "id": "emory-university-biochemistry-cell-and-developmental-biology",
+      "university": "Emory University",
+      "program_name": "Biochemistry, Cell and Developmental Biology",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Cell Biology",
+          "Developmental Biology",
+          "Biochemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "GDBBS umbrella; lab rotations",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded, stipend + tuition + benefits"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://biomed.emory.edu/PROGRAM_SITES/BCDB/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #24",
+      "faculty": []
+    },
+    {
+      "id": "georgetown-university-ph-d-in-chemistry",
+      "university": "Georgetown University",
+      "program_name": "Ph.D. in Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Materials Chemistry",
+          "Catalysis",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.georgetown.edu/phdprogram/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #24",
+      "faculty": []
+    },
+    {
+      "id": "georgetown-university-ph-d-in-biochemistry-and-molecular-and-cellular-biology",
+      "university": "Georgetown University",
+      "program_name": "Ph.D. in Biochemistry and Molecular & Cellular Biology",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Molecular Biology",
+          "Biophysics",
+          "Proteomics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Rotation-based; up to 5 students admitted per year; summer start",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://bmcb.georgetown.edu/phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #24",
+      "faculty": []
+    },
+    {
+      "id": "georgia-institute-of-technology-chemistry-phd",
+      "university": "Georgia Institute of Technology",
+      "program_name": "Chemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Biochemistry",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95 domestic / $105 international",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Priority deadline Dec 1; late applications reviewed on rolling basis",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.gatech.edu/graduate-admission"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "harvard-university-chemistry-and-chemical-biology",
+      "university": "Harvard University",
+      "program_name": "Chemistry and Chemical Biology",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Inorganic Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Required",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (GSAS PhD guarantee)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.harvard.edu/program/chemistry-and-chemical-biology"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #3",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-chemical-biology-phd",
+      "university": "Johns Hopkins University",
+      "program_name": "Chemical Biology, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemical Biology",
+          "Chemistry",
+          "Biochemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/chemical-biology/chemical-biology-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-chemistry-phd",
+      "university": "Johns Hopkins University",
+      "program_name": "Chemistry, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/chemistry/chemistry-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-biochemistry-cellular-and-molecular-biology-phd-bcmb",
+      "university": "Johns Hopkins University",
+      "program_name": "Biochemistry, Cellular and Molecular Biology, PhD (BCMB)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Molecular Biology",
+          "Cell Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Lab rotations; thesis adviser drawn from seven departments",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/medicine/graduate-programs/biochemistry-cellular-molecular-biology-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-biological-chemistry-phd",
+      "university": "Johns Hopkins University",
+      "program_name": "Biological Chemistry, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biological Chemistry",
+          "Biochemistry",
+          "Structural Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Admission typically via BCMB umbrella; verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/medicine/graduate-programs/biological-chemistry-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-biochemistry-and-molecular-biology-phd",
+      "university": "Johns Hopkins University",
+      "program_name": "Biochemistry and Molecular Biology, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Molecular Biology",
+          "Biophysics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 150,
+        "fee_display": "$150",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "SOPHAS application",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/public-health/departments/biochemistry-molecular-biology/biochemistry-molecular-biology-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "lehigh-university-chemistry-phd",
+      "university": "Lehigh University",
+      "program_name": "Chemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Physical Chemistry",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2027-01-01",
+        "deadline_display": "Jan 1, 2027",
+        "application_fee_usd": 50,
+        "fee_display": "$50",
+        "gre": "Not Accepted",
+        "letters": 2,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Full tuition, health benefits, and stipend for students in good standing (TA/RA/fellowship)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.cas.lehigh.edu/graduate"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "massachusetts-institute-of-technology-chemistry-phd",
+      "university": "Massachusetts Institute of Technology",
+      "program_name": "Chemistry (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Inorganic Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "First-year fellowships/RAs; RA support thereafter"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://oge.mit.edu/programs/chemistry/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #2",
+      "faculty": []
+    },
+    {
+      "id": "new-york-university-ph-d-in-chemistry",
+      "university": "New York University",
+      "program_name": "Ph.D. in Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Chemical Biology",
+          "Theoretical Chemistry",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 110,
+        "fee_display": "$110",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded via MacCracken (full tuition + stipend + health insurance, 4-5 yrs + 3 summers)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.nyu.edu/admissions/arc/programs/chemistry.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "northeastern-university-chemistry-phd",
+      "university": "Northeastern University",
+      "program_name": "Chemistry, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Chemical Biology",
+          "Analytical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 100,
+        "fee_display": "$100",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Assistantships, stipend positions, and fellowships (per College of Science)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://phd.northeastern.edu/program/chemistry-2/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "northeastern-university-medicinal-chemistry-and-drug-discovery-phd",
+      "university": "Northeastern University",
+      "program_name": "Medicinal Chemistry and Drug Discovery, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Medicinal Chemistry",
+          "Drug Discovery",
+          "Chemical Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://bouve.northeastern.edu/programs/medicinal-chemistry-and-drug-discovery-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "northwestern-university-chemistry-phd",
+      "university": "Northwestern University",
+      "program_name": "Chemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Catalysis",
+          "Nanotechnology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "PhD students teach 5 quarters in first two years; full support (verify details)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.northwestern.edu/graduate/prospective/application-for-admission.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "princeton-university-chemistry-ph-d",
+      "university": "Princeton University",
+      "program_name": "Chemistry (Ph.D.)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Catalysis",
+          "Chemical Biology",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/chemistry"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #1",
+      "faculty": []
+    },
+    {
+      "id": "purdue-university-chemistry-phd",
+      "university": "Purdue University",
+      "program_name": "Chemistry (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Analytical Chemistry",
+          "Organic Chemistry",
+          "Biochemistry",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 60,
+        "fee_display": "$60 domestic / $75 intl",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded up to 5 yrs (tuition waiver + stipend via TA/RA)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.chem.purdue.edu/academic_programs/graduate/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "purdue-university-medicinal-chemistry-and-molecular-pharmacology-phd",
+      "university": "Purdue University",
+      "program_name": "Medicinal Chemistry and Molecular Pharmacology (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Drug Discovery",
+          "Chemical Biology",
+          "Pharmacology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 domestic / $75 intl",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.mcmp.purdue.edu/graduateprogram"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "rice-university-biochemistry-and-cell-biology-phd",
+      "university": "Rice University",
+      "program_name": "Biochemistry and Cell Biology (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Cell Biology",
+          "Molecular Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-31",
+        "deadline_display": "Dec 31, 2025 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Fall-only; priority Dec 1, final Dec 31",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Research stipend included with admission"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://biosciences.rice.edu/biochemistry-and-cell-biology-graduate-program"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "rice-university-chemistry-phd",
+      "university": "Rice University",
+      "program_name": "Chemistry (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic",
+          "Physical Chemistry",
+          "Nanoscience"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Program-level faculty admissions committee",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.rice.edu/graduate-program-overview"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "rutgers-university-new-brunswick-chemistry-and-chemical-biology-phd",
+      "university": "Rutgers University-New Brunswick",
+      "program_name": "Chemistry and Chemical Biology, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Chemical Biology",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.chem.rutgers.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "rutgers-university-new-brunswick-microbial-biology-phd",
+      "university": "Rutgers University-New Brunswick",
+      "program_name": "Microbial Biology, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Microbiology",
+          "Microbial Genetics",
+          "Molecular Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://dbm.rutgers.edu/graduate"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "stanford-university-chemistry-phd",
+      "university": "Stanford University",
+      "program_name": "Chemistry (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Physical Chemistry",
+          "Chemical Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-11-30",
+        "deadline_display": "Nov 30, 2026",
+        "application_fee_usd": 125,
+        "fee_display": "$125",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.stanford.edu/academics/phd-program/admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    },
+    {
+      "id": "stanford-university-biochemistry-phd",
+      "university": "Stanford University",
+      "program_name": "Biochemistry (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Molecular Biology",
+          "Structural Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-02",
+        "deadline_display": "Dec 2, 2025 (prior cycle)",
+        "application_fee_usd": 125,
+        "fee_display": "$125",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Biosciences umbrella / Home Program with lab rotations",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend, tuition, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://biochemistry.stanford.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    },
+    {
+      "id": "the-ohio-state-university-chemistry",
+      "university": "The Ohio State University",
+      "program_name": "Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (domestic) / $70 (international)",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental admission",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.osu.edu/graduate/chem-apply"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
+      "faculty": []
+    },
+    {
+      "id": "the-ohio-state-university-ohio-state-biochemistry-program",
+      "university": "The Ohio State University",
+      "program_name": "Ohio State Biochemistry Program",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Enzymology",
+          "Molecular Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (domestic) / $70 (international)",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Interdisciplinary program; application review begins early December",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://osbp.osu.edu/admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
+      "faculty": []
+    },
+    {
+      "id": "tufts-university-phd-in-chemistry",
+      "university": "Tufts University",
+      "program_name": "PhD in Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Physical Chemistry",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://asegrad.tufts.edu/program/chemistry-doctorate"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "tufts-university-phd-in-chemistry-biotechnology",
+      "university": "Tufts University",
+      "program_name": "PhD in Chemistry/Biotechnology",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biotechnology",
+          "Chemical Biology",
+          "Biochemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://asegrad.tufts.edu/program/chemistrybiotechnology-doctorate"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-berkeley-comparative-biochemistry-phd",
+      "university": "University of California, Berkeley",
+      "program_name": "Comparative Biochemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Life Sciences"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-06",
+        "deadline_display": "Jan 6, 2026 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.berkeley.edu/program/comparative-biochemistry/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-davis-chemistry-and-chemical-biology",
+      "university": "University of California, Davis",
+      "program_name": "Chemistry and Chemical Biology",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Chemical Biology",
+          "Physical Chemistry",
+          "Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 (US) / $155 (intl)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucdavis.edu/programs/gccb"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-davis-soils-and-biogeochemistry",
+      "university": "University of California, Davis",
+      "program_name": "Soils and Biogeochemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Soil Science",
+          "Biogeochemistry",
+          "Environmental Science"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 (US) / $155 (intl)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucdavis.edu/programs/gsbg"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-davis-biochemistry-molecular-cellular-and-developmental",
+      "university": "University of California, Davis",
+      "program_name": "Biochemistry, Molecular, Cellular and Developmental Biology",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Molecular Biology",
+          "Cell Biology",
+          "Developmental Biology",
+          "Biochemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 (US) / $155 (intl)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucdavis.edu/programs/gbcb"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-davis-agricultural-and-environmental-chemistry",
+      "university": "University of California, Davis",
+      "program_name": "Agricultural and Environmental Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Environmental Chemistry",
+          "Agricultural Chemistry",
+          "Analytical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-05",
+        "deadline_display": "Jan 5, 2026 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 (US) / $155 (intl)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucdavis.edu/programs/gach"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-irvine-chemistry-ph-d",
+      "university": "University of California, Irvine",
+      "program_name": "Chemistry, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Rolling review from Dec 1; final deadline Mar 15",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.chem.uci.edu/graduate/prospective-students"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-los-angeles-chemistry",
+      "university": "University of California, Los Angeles",
+      "program_name": "Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 120,
+        "fee_display": "$120",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucla.edu/programs/physical-sciences/chemistry-and-biochemistry-department/chemistry/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-los-angeles-biochemistry-molecular-and-structural-biolo",
+      "university": "University of California, Los Angeles",
+      "program_name": "Biochemistry, Molecular and Structural Biology",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Structural Biology",
+          "Molecular Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-05",
+        "deadline_display": "Dec 5, 2026",
+        "application_fee_usd": 120,
+        "fee_display": "$120",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucla.edu/programs/physical-sciences/chemistry-and-biochemistry-department/biochemistry-molecular-and-structural-biology/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-los-angeles-geochemistry",
+      "university": "University of California, Los Angeles",
+      "program_name": "Geochemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Geochemistry",
+          "Earth Science",
+          "Isotope Geochemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucla.edu/programs/physical-sciences/earth-planetary-and-space-sciences-department/geochemistry/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-san-diego-chemistry-phd",
+      "university": "University of California, San Diego",
+      "program_name": "Chemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-03",
+        "deadline_display": "Dec 3, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "12-month stipend plus fees and tuition; TA/RA/fellowships"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.ucsd.edu/graduate-program/doctoral-program/admissions/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #29",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-santa-barbara-chemistry-and-biochemistry-phd",
+      "university": "University of California, Santa Barbara",
+      "program_name": "Chemistry and Biochemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Physical Chemistry",
+          "Biochemistry",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 ($155 intl)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "All students in good standing fully supported; ~$37,000 annual salary plus tuition, fees, health insurance"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.chem.ucsb.edu/graduate/prospective-students"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #40",
+      "faculty": []
+    },
+    {
+      "id": "university-of-chicago-chemistry",
+      "university": "University of Chicago",
+      "program_name": "Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Materials",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded PhD"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.uchicago.edu/graduate-program"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #6",
+      "faculty": []
+    },
+    {
+      "id": "university-of-florida-chemistry",
+      "university": "University of Florida",
+      "program_name": "Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Physical Chemistry",
+          "Analytical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 30,
+        "fee_display": "$30",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-to-department; fall only",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "All students in good standing supported via TA/RA stipend + benefits"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.chem.ufl.edu/graduate/apply/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-chemistry",
+      "university": "University of Georgia",
+      "program_name": "Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Physical Chemistry",
+          "Computational Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Assistantships typically available"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-chemistry/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-biochemistry-and-molecular-biology",
+      "university": "University of Georgia",
+      "program_name": "Biochemistry & Molecular Biology",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Molecular Biology",
+          "Structural Biology",
+          "Glycobiology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-biochemistry-and-molecular-biology/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-illinois-urbana-champaign-chemistry-phd",
+      "university": "University of Illinois Urbana-Champaign",
+      "program_name": "Chemistry, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Physical Chemistry",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "GRE general and subject not required (do not submit)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.illinois.edu/admissions/chemistry-graduate-admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-illinois-urbana-champaign-biochemistry-phd",
+      "university": "University of Illinois Urbana-Champaign",
+      "program_name": "Biochemistry, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Structural Biology",
+          "Molecular Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "MCB PhD; GRE not considered",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://mcb.illinois.edu/academics/phd-programs/apply-our-mcb-phd-program"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-maryland-college-park-chemistry-ph-d",
+      "university": "University of Maryland, College Park",
+      "program_name": "Chemistry, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-11-18",
+        "deadline_display": "Nov 18, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Ph.D. candidates supported on teaching assistantships in year one with tuition waiver"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://academiccatalog.umd.edu/graduate/programs/chemistry-chem/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-maryland-college-park-biochemistry-ph-d",
+      "university": "University of Maryland, College Park",
+      "program_name": "Biochemistry, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Structural Biology",
+          "Enzymology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-11-18",
+        "deadline_display": "Nov 18, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Ph.D. candidates supported via TA in year one, RA thereafter"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://academiccatalog.umd.edu/graduate/programs/biochemistry-bchm/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-michigan-ann-arbor-chemistry-phd",
+      "university": "University of Michigan, Ann Arbor",
+      "program_name": "Chemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://lsa.umich.edu/chem/graduates/phd-program/how-to-apply.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-michigan-ann-arbor-biological-chemistry-phd",
+      "university": "University of Michigan, Ann Arbor",
+      "program_name": "Biological Chemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Molecular Biology",
+          "Enzymology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Umbrella admissions via Program in Biomedical Sciences (PIBS)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://medschool.umich.edu/programs-admissions/phd-programs/pibs"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-north-carolina-at-chapel-hill-chemistry-phd",
+      "university": "University of North Carolina at Chapel Hill",
+      "program_name": "Chemistry (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Materials Chemistry",
+          "Chemical Biology",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-06-09",
+        "deadline_display": "Jun 9, 2026 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct department admission; also participates in BBSP umbrella",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Unknown/Verify (Dec 16 recommended for fellowship/aid consideration)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chem.unc.edu/graduate-programs-intro/graduate-application/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-notre-dame-biochemistry-phd",
+      "university": "University of Notre Dame",
+      "program_name": "Biochemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Chemical Biology",
+          "Structural Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.nd.edu/graduate/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-notre-dame-chemistry-phd",
+      "university": "University of Notre Dame",
+      "program_name": "Chemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Physical Chemistry",
+          "Inorganic Chemistry",
+          "Analytical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.nd.edu/graduate/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-pennsylvania-chemistry-phd",
+      "university": "University of Pennsylvania",
+      "program_name": "Chemistry, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Physical Chemistry",
+          "Organic Chemistry",
+          "Chemical Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-08",
+        "deadline_display": "Dec 8, 2025 (prior cycle)",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.chem.upenn.edu/graduate/graduate-admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "university-of-rochester-phd-in-chemistry",
+      "university": "University of Rochester",
+      "program_name": "PhD in Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Physical Chemistry",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct admission to department",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.sas.rochester.edu/chm/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-rochester-phd-in-biochemistry-and-molecular-biology",
+      "university": "University of Rochester",
+      "program_name": "PhD in Biochemistry and Molecular Biology",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Molecular Biology",
+          "Structural Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (waived if submitted by Nov 15)",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Apply to one SMD PhD program per admissions year",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.urmc.rochester.edu/education/graduate/phd/biochemistry/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-southern-california-chemistry-phd",
+      "university": "University of Southern California",
+      "program_name": "Chemistry (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemical Biology",
+          "Materials Chemistry",
+          "Nanoscience"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 0,
+        "fee_display": "$0",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-admit to department; often offers early admission",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: stipend, full tuition, health/dental via TA/RA; university fellowships"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://dornsife.usc.edu/chemistry/graduate-program/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #28",
+      "faculty": []
+    },
+    {
+      "id": "university-of-texas-at-austin-chemistry",
+      "university": "University of Texas at Austin",
+      "program_name": "Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 65,
+        "fee_display": "$65 (US) / $90 (international)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.utexas.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-texas-at-austin-biochemistry",
+      "university": "University of Texas at Austin",
+      "program_name": "Biochemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Structural Biology",
+          "Molecular Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 65,
+        "fee_display": "$65 (US) / $90 (international)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://molecularbiosci.utexas.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-virginia-chemistry-phd",
+      "university": "University of Virginia",
+      "program_name": "Chemistry PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Chemical Biology",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Optional",
+        "letters": 2,
+        "english": "Unknown/Verify",
+        "admission_model": "Department-based admission via GSAS",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs ($37,080/yr stipend + tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://graduate.as.virginia.edu/graduate-degree-programs/chemistry"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-virginia-biochemistry-and-molecular-genetics-phd-bims",
+      "university": "University of Virginia",
+      "program_name": "Biochemistry & Molecular Genetics PhD (BIMS)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Molecular Genetics",
+          "Gene Regulation"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Umbrella (BIMS) admission with lab rotations before program affiliation",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (UVA-wide 5-yr PhD support norm; see BIMS Funding page)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://med.virginia.edu/bims/programs/ph-d-degree-options/biochemistry-molecular-genetics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-washington-chemistry-phd",
+      "university": "University of Washington",
+      "program_name": "Chemistry (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Materials Chemistry",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Autumn admission; GRE not used for 2026-27 cycle",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "All applicants auto-considered for TA/RA"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://www.chem.washington.edu/grad"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-washington-biochemistry-phd",
+      "university": "University of Washington",
+      "program_name": "Biochemistry (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Structural Biology",
+          "Protein Science"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://depts.washington.edu/biowww/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-washington-medicinal-chemistry-phd",
+      "university": "University of Washington",
+      "program_name": "Medicinal Chemistry (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Medicinal Chemistry",
+          "Drug Metabolism",
+          "Chemical Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://sop.washington.edu/medchem"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-wisconsin-madison-chemistry-phd",
+      "university": "University of Wisconsin-Madison",
+      "program_name": "Chemistry, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (TA/RA/fellowships)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://guide.wisc.edu/graduate/chemistry/chemistry-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-wisconsin-madison-biochemistry-phd",
+      "university": "University of Wisconsin-Madison",
+      "program_name": "Biochemistry, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Structural Biology",
+          "Molecular Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://guide.wisc.edu/graduate/biochemistry/biochemistry-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "vanderbilt-university-chemistry-phd",
+      "university": "Vanderbilt University",
+      "program_name": "Chemistry (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Materials Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2027-01-01",
+        "deadline_display": "Jan 1, 2027",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct to department",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://as.vanderbilt.edu/chemistry/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "vanderbilt-university-biochemistry-phd",
+      "university": "Vanderbilt University",
+      "program_name": "Biochemistry (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Biochemistry",
+          "Structural Biology",
+          "Molecular Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Admitted via IGP umbrella, then home program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend, tuition, health)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://medschool.vanderbilt.edu/bret/our-doctoral-programs/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "washington-university-in-st-louis-phd-in-chemistry",
+      "university": "Washington University in St. Louis",
+      "program_name": "PhD in Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Chemistry",
+          "Organic Chemistry",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 45,
+        "fee_display": "$45",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded; stipend $36,050 (2024-25) + tuition"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://chemistry.washu.edu/graduate-program"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "yale-university-chemistry",
+      "university": "Yale University",
+      "program_name": "Chemistry",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Chemistry",
+        "subs": [
+          "Organic Chemistry",
+          "Inorganic Chemistry",
+          "Physical Chemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct to program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.yale.edu/programs-of-study/chemistry"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    }
+  ]
+}

@@ -1,0 +1,3977 @@
+{
+  "primary": "Statistics & Data Science",
+  "programs": [
+    {
+      "id": "stanford-statistics-phd",
+      "university": "Stanford University",
+      "program_name": "PhD in Statistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistical Theory",
+          "High-Dimensional Statistics",
+          "Probability",
+          "Causal Inference",
+          "Computational Statistics",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-02",
+        "deadline_display": "Dec 2, 2026",
+        "application_fee_usd": 125,
+        "fee_display": "$125",
+        "gre": "Required",
+        "letters": 3,
+        "english": "TOEFL iBT or IELTS required for non-native English speakers; waived for applicants who earned a prior degree where English is the language of instruction.",
+        "admission_model": "Committee-Based",
+        "admission_model_note": "A faculty admissions committee selects students; there are no lab rotations. Admitted students identify a research advisor during the first year after qualifying exams, so no advisor needs to be secured before applying.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 5,
+          "note": "All admitted PhD students are guaranteed five years of 12-month funding (through spring of year 5) covering tuition, a salary/stipend, and Cardinal Care health insurance via fellowships, teaching and research assistantships."
+        },
+        "pre_application_contact": "Neutral / Not Required",
+        "contact_note": "Admission is committee-based, so contacting faculty in advance is not necessary and does not affect the decision.",
+        "ects": null,
+        "duration": "5 years"
+      },
+      "links": {
+        "program": "https://statistics.stanford.edu/",
+        "admissions": "https://statistics.stanford.edu/admissions/statistics-phd-admissions/phd-admissions-requirements-and-procedures"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "emmanuel-candes",
+          "name": "Emmanuel Candès",
+          "title": "Barnum-Simons Chair of Math and Statistics, and Professor of Statistics and, by courtesy, of Electrical Engineering",
+          "sub_field": "Selective Inference & Uncertainty Quantification",
+          "tags": [
+            "conformal prediction",
+            "knockoffs",
+            "FDR control",
+            "high-dimensional inference"
+          ],
+          "summary": "Candès develops rigorous statistical methods for reliable inference in modern, high-dimensional and black-box settings. His recent work centers on conformal prediction for distribution-free uncertainty quantification, the knockoff framework for controlled variable selection with false-discovery-rate guarantees, and model-free tests of conditional independence. He also studies calibration, robustness, and the interplay of optimization and statistics, with applications to genomics, clinical prediction, and machine learning. He received the 2026 Shaw Prize in Mathematical Sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/emmanuel-candes",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sourav-chatterjee",
+          "name": "Sourav Chatterjee",
+          "title": "Professor of Statistics and of Mathematics",
+          "sub_field": "Probability",
+          "tags": [
+            "concentration",
+            "large deviations",
+            "random graphs",
+            "statistical physics"
+          ],
+          "summary": "Chatterjee works in probability theory and its statistical applications. Recent research spans concentration of measure and Stein's method, large deviations for random graphs and nonlinear functionals, mean-field spin glasses, and rigorous approaches to problems from statistical physics and gauge theory. He has developed tools for the fluctuations of complex random systems and studied questions in random matrix theory and interacting particle systems, bridging deep probabilistic theory with applications across statistics and mathematical physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/sourav-chatterjee",
+            "scholar": null
+          }
+        },
+        {
+          "id": "amir-dembo",
+          "name": "Amir Dembo",
+          "title": "Marjorie Mhoon Fair Professor of Quantitative Science, Professor of Statistics and, by courtesy, of Electrical Engineering",
+          "sub_field": "Probability",
+          "tags": [
+            "large deviations",
+            "random graphs",
+            "interacting particle systems",
+            "stochastic processes"
+          ],
+          "summary": "Dembo is a probabilist whose recent work addresses large deviations, random graphs and sparse networks, interacting particle systems, and the analysis of stochastic processes on high-dimensional and combinatorial structures. He studies phase transitions, extremal behavior, and universality in random systems, along with problems connecting probability to statistical physics and information theory. His contributions provide sharp asymptotic descriptions of rare events and limiting behavior for large random ensembles arising across statistics and applied probability.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/amir-dembo",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-duchi",
+          "name": "John Duchi",
+          "title": "Associate Professor of Statistics, of Electrical Engineering and, by courtesy, of Computer Science",
+          "sub_field": "Optimization & Statistical Machine Learning",
+          "tags": [
+            "distributional robustness",
+            "stochastic optimization",
+            "differential privacy",
+            "minimax theory"
+          ],
+          "summary": "Duchi works at the interface of statistics, optimization, and machine learning. His recent research develops distributionally robust optimization for models that perform reliably under distribution shift, methods for differential privacy with statistical guarantees, and minimax analyses of estimation and stochastic optimization. He studies adaptive gradient methods, uncertainty quantification, and the fundamental limits of learning under resource and robustness constraints, aiming to build algorithms that are simultaneously computationally efficient and statistically optimal for large-scale problems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/john-duchi",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emily-fox",
+          "name": "Emily Fox",
+          "title": "Professor of Statistics and of Computer Science",
+          "sub_field": "Machine Learning & Time Series",
+          "tags": [
+            "time series",
+            "state-space models",
+            "health data",
+            "deep learning"
+          ],
+          "summary": "Fox develops machine learning and statistical methods for complex time series and dynamical systems, with a strong focus on health. Recent work spans deep state-space and sequence models, scalable Bayesian inference, and foundation models applied to wearable-sensor, mobile-health, and electronic-health-record data. She studies interpretable modeling of physiological signals, causal and predictive analysis of longitudinal measurements, and machine learning for scientific discovery, combining probabilistic modeling with modern deep learning to extract actionable structure from heterogeneous, high-dimensional temporal data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/emily-fox",
+            "scholar": null
+          }
+        },
+        {
+          "id": "scott-linderman",
+          "name": "Scott Linderman",
+          "title": "Assistant Professor of Statistics",
+          "sub_field": "Probabilistic Machine Learning & Neuroscience",
+          "tags": [
+            "state-space models",
+            "computational neuroscience",
+            "variational inference",
+            "point processes"
+          ],
+          "summary": "Linderman builds probabilistic machine learning methods for analyzing large-scale neural and behavioral data. His recent research develops state-space models, switching dynamical systems, and scalable variational and Bayesian inference to uncover latent structure and dynamics from neural recordings and animal behavior. He works on point-process models, deep generative approaches, and tools that connect computational neuroscience with modern machine learning, enabling interpretable descriptions of how neural populations evolve and generate behavior over time.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/scott-linderman",
+            "scholar": null
+          }
+        },
+        {
+          "id": "art-owen",
+          "name": "Art Owen",
+          "title": "Max H. Stein Professor",
+          "sub_field": "Computational Statistics & Monte Carlo",
+          "tags": [
+            "quasi-Monte Carlo",
+            "variance reduction",
+            "importance sampling",
+            "empirical likelihood"
+          ],
+          "summary": "Owen specializes in Monte Carlo and computational statistics. His recent work advances quasi-Monte Carlo and randomized quasi-Monte Carlo methods for high-dimensional integration, variance reduction, and scrambled-net theory, along with importance sampling, control variates, and the analysis of estimators for rare events. He also studies empirical likelihood, U-statistics, higher-order interactions, and the reliability of large-scale simulations, providing both sharp theory and practical algorithms for accurate numerical integration in statistics and machine learning applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/art-owen",
+            "scholar": null
+          }
+        },
+        {
+          "id": "julia-palacios",
+          "name": "Julia Palacios",
+          "title": "Associate Professor of Statistics and of Biomedical Data Science",
+          "sub_field": "Bayesian Phylogenetics & Population Genetics",
+          "tags": [
+            "phylodynamics",
+            "Bayesian nonparametrics",
+            "coalescent",
+            "Gaussian processes"
+          ],
+          "summary": "Palacios develops Bayesian and computational statistical methods for evolutionary biology and genetics. Her recent work builds nonparametric models of population size histories and phylodynamics from genealogies and genomic sequence data, including scalable inference for the coalescent and applications to viral evolution and infectious-disease surveillance. She studies tree-valued and combinatorial spaces, Gaussian-process priors for demographic inference, and statistical summaries of phylogenies, combining probabilistic modeling with efficient computation to reconstruct evolutionary and epidemiological dynamics from data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/julia-palacios",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dominik-rothenhausler",
+          "name": "Dominik Rothenhäusler",
+          "title": "Assistant Professor of Statistics",
+          "sub_field": "Causal Inference & Distributional Robustness",
+          "tags": [
+            "causal inference",
+            "distributional robustness",
+            "transportability",
+            "replicability"
+          ],
+          "summary": "Rothenhäusler studies causal inference, distributional robustness, and the reliability of statistical conclusions across heterogeneous environments. His recent work develops methods that leverage data from multiple settings to produce estimators stable under distribution shift, formalizes notions of replicability and transportability, and connects causality with robust prediction. He also studies distributional anchoring, calibration of uncertainty under sampling variability, and inference that remains valid when models are misspecified, aiming to make data-driven findings generalize dependably to new populations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/dominik-rothenhaeusler",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chiara-sabatti",
+          "name": "Chiara Sabatti",
+          "title": "Professor of Biomedical Data Science and of Statistics",
+          "sub_field": "Statistical Genetics & Selective Inference",
+          "tags": [
+            "statistical genetics",
+            "knockoffs",
+            "multiple testing",
+            "GWAS"
+          ],
+          "summary": "Sabatti develops statistical methodology for genetics and genomics motivated by large-scale biomedical studies. Her recent work applies and extends the knockoff framework for reproducible variable selection in genome-wide association studies, hierarchical and multi-resolution testing across the genome, and methods that control false discoveries while accounting for population structure and relatedness. She studies multiple testing, selective inference, and integration of diverse omics and clinical data, translating rigorous statistical theory into tools for reliable genetic discovery.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/chiara-sabatti",
+            "scholar": null
+          }
+        },
+        {
+          "id": "robert-tibshirani",
+          "name": "Robert Tibshirani",
+          "title": "Professor of Biomedical Data Science and of Statistics",
+          "sub_field": "Statistical Learning / Biostatistics",
+          "tags": [
+            "lasso",
+            "sparsity",
+            "post-selection inference",
+            "conformal prediction",
+            "genomics"
+          ],
+          "summary": "Tibshirani is a foundational figure in statistical learning, best known for the lasso and its many extensions. Recent work develops post-selection and conformal inference for valid uncertainty quantification, false-discovery-rate controlling procedures, and the 'pretraining' lasso for transfer across related problems. He continues to co-author widely used texts (Elements of Statistical Learning, Introduction to Statistical Learning) and applies sparse and adaptive methods to genomics, proteomics, and clinical biomedical data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://statistics.stanford.edu/people/robert-tibshirani",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jonathan-taylor",
+          "name": "Jonathan Taylor",
+          "title": "Professor of Statistics",
+          "sub_field": "Selective Inference / Theory",
+          "tags": [
+            "selective inference",
+            "post-selection inference",
+            "random fields",
+            "false discovery",
+            "neuroimaging"
+          ],
+          "summary": "Taylor works on the theory of selective and post-selection inference, providing valid confidence intervals and tests after data-driven model selection such as the lasso, forward stepwise, and cross-validation. His earlier work on the geometry of Gaussian random fields and Euler characteristic heuristics underpins multiple-testing corrections in neuroimaging. Recent research refines conditional selective inference, inference after adaptive procedures, and software (the selectiveInference framework) that makes these guarantees practical for applied statisticians.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://statistics.stanford.edu/people/jonathan-taylor",
+            "scholar": null
+          }
+        },
+        {
+          "id": "guenther-walther",
+          "name": "Guenther Walther",
+          "title": "John A. Overdeck Professor and Professor of Statistics",
+          "sub_field": "Nonparametric Statistics / Theory",
+          "tags": [
+            "scan statistics",
+            "detection",
+            "multiscale methods",
+            "nonparametric",
+            "mixtures"
+          ],
+          "summary": "Walther develops nonparametric methods for detecting hidden structure such as clusters, spatial signals, and change regions in large and high-dimensional data. His research establishes optimal detection thresholds and fast, calibrated multiscale and scan-statistic procedures. Recent work provides computationally efficient tests that achieve statistical optimality for signal detection, cluster identification, and mixture problems, along with tools for calibrating likelihood-ratio statistics, bridging rigorous minimax theory with scalable algorithms for practical detection tasks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://statistics.stanford.edu/people/guenther-walther",
+            "scholar": null
+          }
+        },
+        {
+          "id": "persi-diaconis",
+          "name": "Persi Diaconis",
+          "title": "Mary V. Sunseri Professor of Statistics and of Mathematics",
+          "sub_field": "Probability",
+          "tags": [
+            "Markov chains",
+            "mixing times",
+            "random walks",
+            "Bayesian statistics",
+            "combinatorics"
+          ],
+          "summary": "Diaconis is a leading probabilist known for analyzing mixing times of Markov chains, most famously card shuffling and random walks on groups. His work connects representation theory, combinatorics, and statistics, and includes deep contributions to Bayesian foundations and exchangeability. Recent research studies convergence rates for Gibbs samplers and Metropolis chains, probabilistic number theory, and combinatorial models, continuing to quantify how quickly randomizing processes reach their stationary distributions with rigorous mathematical bounds.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://statistics.stanford.edu/people/persi-diaconis",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-donoho",
+          "name": "David Donoho",
+          "title": "Anne T. and Robert M. Bass Professor in the School of Humanities and Sciences; Professor of Statistics",
+          "sub_field": "High-Dimensional Statistics",
+          "tags": [
+            "compressed sensing",
+            "sparsity",
+            "phase transitions",
+            "approximate message passing",
+            "data science"
+          ],
+          "summary": "Donoho pioneered wavelets, sparsity, and compressed sensing, and the analysis of phase transitions in high-dimensional estimation. His recent work centers on approximate message passing algorithms and their universality, optimal singular-value shrinkage and thresholding (ScreeNOT) for denoising, and empirical scaling laws. He has also studied the 'neural collapse' phenomenon in deep networks and advocates reproducible, quantitative foundations for data science, linking precise theory to modern machine-learning practice.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://statistics.stanford.edu/people/david-donoho",
+            "scholar": null
+          }
+        },
+        {
+          "id": "wing-hung-wong",
+          "name": "Wing Hung Wong",
+          "title": "Stephen R. Pierce Family Goldman Sachs Professor of Science and Human Health; Professor of Statistics and of Biomedical Data Science",
+          "sub_field": "Bayesian / Computational Biology",
+          "tags": [
+            "Bayesian computation",
+            "MCMC",
+            "genomics",
+            "gene networks",
+            "generative models"
+          ],
+          "summary": "Wong develops Bayesian and computational methods with deep applications to genomics and systems biology. His foundational contributions include theory for Markov chain Monte Carlo and nonparametric Bayesian inference. Recent work builds flow-based and deep generative models for density estimation (roundtrip and related methods), reconstructs gene regulatory networks, and analyzes single-cell and spatial transcriptomic data, aiming to infer causal biological structure from large-scale high-throughput measurements using scalable statistical learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://statistics.stanford.edu/people/wing-hung-wong",
+            "scholar": null
+          }
+        },
+        {
+          "id": "trevor-hastie",
+          "name": "Trevor Hastie",
+          "title": "Professor of Statistics and of Biomedical Data Science, Emeritus",
+          "sub_field": "Statistical Learning / Machine Learning",
+          "tags": [
+            "statistical learning",
+            "elastic net",
+            "glmnet",
+            "matrix completion",
+            "high-dimensional regression"
+          ],
+          "summary": "Hastie is a central figure in statistical and machine learning, co-developer of generalized additive models, the elastic net, and the glmnet software for regularized regression. His recent research examines matrix completion (softImpute), comparisons of best-subset selection and the lasso, and surprising behavior of ridgeless and overparameterized regression in high dimensions. He continues to shape the field through widely used textbooks and scalable methods for large sparse datasets and biomedical applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://statistics.stanford.edu/people/trevor-hastie",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lester-mackey",
+          "name": "Lester Mackey",
+          "title": "Adjunct Professor of Statistics",
+          "sub_field": "Machine Learning / Computational Statistics",
+          "tags": [
+            "kernel methods",
+            "Stein's method",
+            "distribution compression",
+            "scalable inference",
+            "AI for weather"
+          ],
+          "summary": "Mackey works on scalable machine learning and statistical inference, with a focus on kernel methods and Stein's method for measuring and improving distributional approximation. Recent contributions include kernel thinning and Compress++ for compressing samples with strong accuracy guarantees, kernel Stein discrepancies for sampler evaluation, and gradient-based optimization theory. He also leads applied efforts using machine learning for subseasonal weather and climate forecasting, connecting rigorous methodology with high-impact prediction problems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://statistics.stanford.edu/people/lester-mackey",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrea-montanari",
+          "name": "Andrea Montanari",
+          "title": "John D. and Sigrid Banks Professor; Professor of Mathematics and of Statistics",
+          "sub_field": "High-Dimensional Statistics / ML Theory",
+          "tags": [
+            "approximate message passing",
+            "statistical physics",
+            "neural network theory",
+            "high-dimensional inference",
+            "overparameterization"
+          ],
+          "summary": "Montanari studies the mathematical foundations of high-dimensional statistics and machine learning, drawing on statistical physics and probability. He is a leading developer of approximate message passing algorithms and their universality, and of theory explaining generalization, benign overfitting, and feature learning in overparameterized and two-layer neural networks. Recent work analyzes mean-field dynamics of training, phase transitions in estimation, sampling algorithms, and precise asymptotics for regression and classification in the modern high-dimensional regime.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://web.stanford.edu/~montanar/",
+            "scholar": "https://scholar.google.com/citations?user=r3q68rcAAAAJ"
+          }
+        },
+        {
+          "id": "tselil-schramm",
+          "name": "Tselil Schramm",
+          "title": "Assistant Professor of Statistics",
+          "sub_field": "Theory / Computational Statistics",
+          "tags": [
+            "sum-of-squares",
+            "computational-statistical tradeoffs",
+            "spectral algorithms",
+            "low-degree lower bounds",
+            "random graphs"
+          ],
+          "summary": "Schramm works at the interface of theoretical computer science and statistics, studying computational-statistical tradeoffs in high-dimensional inference. Her research uses the sum-of-squares hierarchy, spectral algorithms, and low-degree polynomial lower bounds to characterize when planted and estimation problems become computationally hard despite being statistically solvable. Recent work addresses computational barriers to estimation, inference in sparse random geometric graphs, and expansion properties, mapping the boundary between efficient algorithms and fundamental hardness in statistical problems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://tselilschramm.org/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "susan-athey",
+          "name": "Susan Athey",
+          "title": "The Economics of Technology Professor, Graduate School of Business (associated with Statistics)",
+          "sub_field": "Causal Inference / ML (Associated)",
+          "tags": [
+            "causal inference",
+            "machine learning",
+            "causal forests",
+            "policy learning",
+            "digital economy"
+          ],
+          "summary": "Athey combines econometrics, causal inference, and machine learning, and advises Statistics doctoral students through her methodological work. She co-developed generalized random forests and causal forests for estimating heterogeneous treatment effects, along with methods for policy learning, contextual bandits, and experimental design. Recent research applies causal machine learning to marketplace and platform design, evaluates interventions in the digital economy, and explores large language models as tools for social-science measurement and decision-making.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey",
+            "scholar": null
+          }
+        },
+        {
+          "id": "stefan-wager",
+          "name": "Stefan Wager",
+          "title": "Associate Professor of Operations, Information and Technology, Graduate School of Business, and, by courtesy, of Statistics",
+          "sub_field": "Causal Inference (Courtesy)",
+          "tags": [
+            "causal inference",
+            "heterogeneous treatment effects",
+            "causal forests",
+            "policy learning",
+            "adaptive experiments"
+          ],
+          "summary": "Wager develops statistical machine learning for causal inference, holding a courtesy appointment in Statistics and advising Statistics doctoral students. He co-created causal forests and the grf software for estimating heterogeneous treatment effects with valid confidence intervals, and has advanced double/debiased machine learning, cross-fitting, and semiparametric efficiency. Recent work studies policy learning, off-policy evaluation, and the design and analysis of adaptive experiments, connecting nonparametric estimation theory with data-driven decision-making in economics and operations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.gsb.stanford.edu/faculty-research/faculty/stefan-wager",
+            "scholar": "https://scholar.google.com/citations?user=_koixUEAAAAJ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oxford-statistics-dphil",
+      "university": "University of Oxford",
+      "program_name": "DPhil in Statistics",
+      "degree_type": "PhD",
+      "region": "UK",
+      "country": "United Kingdom",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Bayesian Methods",
+          "Machine Learning",
+          "Causal Inference",
+          "Probability",
+          "Computational Statistics",
+          "Biostatistics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify (January funding deadline typical; 2027-28 dates not yet published)",
+        "application_fee_usd": null,
+        "fee_display": "£20 (research course fee — verify)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "IELTS or TOEFL required for non-native English speakers to Oxford's required level; exemptions for degrees taught in a majority-English-speaking country — verify exact level.",
+        "admission_model": "Direct Advisor Match",
+        "admission_model_note": "Applicants apply to work with specific supervisor(s) and are assigned a named supervisor responsible for their research; research fit with particular faculty is central to admission decisions.",
+        "funding": {
+          "status": "Partial / Merit-Based",
+          "years": null,
+          "note": "Funding is not guaranteed for all admits; students compete for scholarships (e.g., Clarendon, EPSRC/StatML CDT studentships, departmental awards) covering fees and stipend. Apply by the January deadline for automatic scholarship consideration."
+        },
+        "pre_application_contact": "Encouraged",
+        "contact_note": "Applicants are encouraged to identify and contact potential supervisors before applying to confirm research fit and availability.",
+        "ects": null,
+        "duration": "3-4 years"
+      },
+      "links": {
+        "program": "https://www.stats.ox.ac.uk/dphil-statistics",
+        "admissions": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-statistics"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "judith-rousseau",
+          "name": "Judith Rousseau",
+          "title": "Professor of Statistics",
+          "sub_field": "Bayesian Theory & Nonparametrics",
+          "tags": [
+            "Bayesian nonparametrics",
+            "asymptotics",
+            "posterior concentration",
+            "mixture models"
+          ],
+          "summary": "Rousseau is a leading researcher in theoretical and Bayesian statistics. Her recent work analyzes the frequentist properties of Bayesian procedures in high-dimensional and nonparametric models, including posterior concentration rates, coverage of credible sets, and behavior under model misspecification. She studies Bayesian nonparametrics, mixture and latent-structure models, empirical and nonparametric Bayes, and asymptotic theory that clarifies when Bayesian methods yield valid uncertainty quantification, bridging Bayesian and frequentist perspectives across complex statistical models and applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/~rousseau/",
+            "scholar": "https://scholar.google.com/citations?user=3SdlafgAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "yee-whye-teh",
+          "name": "Yee Whye Teh",
+          "title": "Professor of Statistical Machine Learning",
+          "sub_field": "Statistical Machine Learning",
+          "tags": [
+            "deep learning",
+            "Bayesian nonparametrics",
+            "generative models",
+            "probabilistic inference"
+          ],
+          "summary": "Teh works on statistical machine learning, spanning Bayesian nonparametrics, probabilistic modeling, and deep learning. His recent research develops generative models, including diffusion and Riemannian approaches, meta-learning and neural processes, scalable and amortized inference, and methods for uncertainty and distribution shift. He studies large-scale learning on heterogeneous data with applications from drug discovery to network analysis, combining principled probabilistic reasoning with modern deep-learning architectures to build flexible, data-efficient, and well-calibrated learning systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/yee-whye-teh",
+            "scholar": null
+          }
+        },
+        {
+          "id": "robin-evans",
+          "name": "Robin Evans",
+          "title": "Professor of Statistical Science",
+          "sub_field": "Causal Inference & Graphical Models",
+          "tags": [
+            "graphical models",
+            "causal inference",
+            "marginal models",
+            "algebraic statistics"
+          ],
+          "summary": "Evans works on graphical models, causal inference, and algebraic statistics. His recent research develops marginal and structural causal models, methods for parameterizing and simulating from causal models, and techniques for combining evidence across study designs. He studies identification, testing generalizability and transportability of causal effects, and the geometry of discrete statistical models, providing theory and computational tools that make causal reasoning from observational and experimental data more rigorous and practically usable.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/robin-evans",
+            "scholar": null
+          }
+        },
+        {
+          "id": "gesine-reinert",
+          "name": "Gesine Reinert",
+          "title": "Professor of Statistics",
+          "sub_field": "Networks & Applied Probability",
+          "tags": [
+            "network statistics",
+            "Stein's method",
+            "random graphs",
+            "computational biology"
+          ],
+          "summary": "Reinert specializes in applied probability and statistical network analysis. Her recent work uses Stein's method for distributional approximation and goodness-of-fit, develops tools to compare, summarize, and test random graphs, and designs synthetic network generators with provable guarantees. She studies random graph limits, subgraph counts, and network-based inference, with applications spanning computational biology, text analysis, and complex systems, connecting deep probabilistic theory with practical methods for understanding structure and uncertainty in large networks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/gesine-reinert",
+            "scholar": null
+          }
+        },
+        {
+          "id": "patrick-rebeschini",
+          "name": "Patrick Rebeschini",
+          "title": "Professor of Statistics and Machine Learning",
+          "sub_field": "Statistical Machine Learning & Optimization",
+          "tags": [
+            "high-dimensional probability",
+            "optimization",
+            "learning theory",
+            "implicit regularization"
+          ],
+          "summary": "Rebeschini studies the theoretical foundations of machine learning at the interface of high-dimensional probability, statistics, and optimization. His recent work analyzes implicit regularization in gradient methods, statistically optimal and computationally efficient algorithms, stochastic and non-stationary optimization, bandits, diffusion models, and phase retrieval. He develops sharp finite-sample and minimax analyses that explain generalization and design principled learning algorithms, aiming to reconcile computational and statistical efficiency in modern high-dimensional learning problems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/patrick-rebeschini",
+            "scholar": null
+          }
+        },
+        {
+          "id": "francois-caron",
+          "name": "François Caron",
+          "title": "Professor of Statistics",
+          "sub_field": "Bayesian Methods & Network Models",
+          "tags": [
+            "Bayesian nonparametrics",
+            "sparse networks",
+            "random measures",
+            "neural network theory"
+          ],
+          "summary": "Caron works on Bayesian statistics, machine learning, and network modeling. His recent research develops Bayesian nonparametric methods, models for sparse random graphs and networks based on completely random measures, and prediction-powered inference. He also studies the theoretical behavior of deep neural networks, including scaling and infinite-width limits. Combining flexible probabilistic modeling with rigorous theory, he builds scalable methods for complex dependent data such as interaction networks, with applications across the sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/francois-caron",
+            "scholar": "https://scholar.google.com/citations?user=gLdZZJcAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "tom-rainforth",
+          "name": "Tom Rainforth",
+          "title": "Associate Professor of Statistical Machine Learning",
+          "sub_field": "Probabilistic Machine Learning",
+          "tags": [
+            "Bayesian experimental design",
+            "active learning",
+            "Monte Carlo",
+            "uncertainty quantification"
+          ],
+          "summary": "Rainforth develops probabilistic and data-efficient machine learning, with a focus on Bayesian experimental design. His recent work builds methods for adaptively choosing informative experiments, semi-amortized and policy-based design, Monte Carlo and variational inference, and active learning. He studies uncertainty quantification in deep networks, deep generative models, and the principled use of simulation and probabilistic programming, aiming to make learning systems gather and use data efficiently while producing reliable, well-calibrated uncertainty estimates.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/tom-rainforth",
+            "scholar": null
+          }
+        },
+        {
+          "id": "frank-windmeijer",
+          "name": "Frank Windmeijer",
+          "title": "Professorial Research Fellow, Head of Department",
+          "sub_field": "Causal Inference & Econometrics",
+          "tags": [
+            "instrumental variables",
+            "Mendelian randomization",
+            "weak instruments",
+            "causal inference"
+          ],
+          "summary": "Windmeijer works on causal inference and econometrics, specializing in instrumental variables estimation. His recent research develops weak-instrument-robust inference, including robust F-statistics for detecting weak instruments, and high-dimensional methods for selecting instruments and moment conditions. He applies these tools to Mendelian randomization in genetic epidemiology, using genetic variants as instruments to estimate causal effects of risk factors on health outcomes, contributing methodology that improves the reliability of causal conclusions from observational and genetic data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/frank-windmeijer",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chris-holmes",
+          "name": "Chris Holmes",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Biostatistics & Bayesian Machine Learning",
+          "tags": [
+            "Bayesian inference",
+            "robustness",
+            "genomics",
+            "healthcare AI"
+          ],
+          "summary": "Holmes works on Bayesian statistics and machine learning for biomedicine and genomics. His recent research addresses the stability and robustness of Bayesian inference under model misspecification, semiparametric and nonparametric-Bayes learning, predictive approaches to inference, and general Bayesian updating. He develops scalable methods for genomic and clinical data, including work on health equity and AI-driven disease classification, combining decision-theoretic and probabilistic principles to deliver trustworthy inference and prediction in high-stakes healthcare applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/chris-holmes",
+            "scholar": null
+          }
+        },
+        {
+          "id": "julien-berestycki",
+          "name": "Julien Berestycki",
+          "title": "Associate Professor of Probability",
+          "sub_field": "Probability",
+          "tags": [
+            "branching processes",
+            "population genetics",
+            "random trees",
+            "log-correlated fields"
+          ],
+          "summary": "Berestycki is a probabilist studying branching processes, population genetics, and connections to statistical physics. His recent work analyzes branching Brownian motion and branching random walks, the extremal behavior of log-correlated fields, coalescent theory, and random tree structures arising in models of evolving populations. He studies phase transitions, front propagation, and the genealogies of large populations under selection, developing rigorous probabilistic descriptions of these systems with implications for mathematical biology and disordered systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/julien-berestycki",
+            "scholar": null
+          }
+        },
+        {
+          "id": "charlotte-deane",
+          "name": "Charlotte Deane",
+          "title": "Professor of Structural Bioinformatics",
+          "sub_field": "Structural Bioinformatics / Computational Biology",
+          "tags": [
+            "structural bioinformatics",
+            "protein structure",
+            "drug discovery",
+            "machine learning",
+            "immunoinformatics"
+          ],
+          "summary": "Charlotte Deane leads the Oxford Protein Informatics Group (OPIG), applying statistics, machine learning and computation to protein structure, antibody engineering and small-molecule drug discovery. Her group develops methods spanning immunoinformatics, protein folding and structure-based design, generating biological and medical insight from large biomolecular datasets. Elected a Fellow of the Royal Society, she has also held senior national research-strategy roles. Her work bridges rigorous statistical modelling and modern deep learning for therapeutics, offering DPhil projects at the interface of biology, chemistry and data science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/charlotte-deane",
+            "scholar": "https://scholar.google.com/citations?user=QAdcBnQAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "christl-donnelly",
+          "name": "Christl Donnelly",
+          "title": "Professor of Applied Statistics",
+          "sub_field": "Statistical Epidemiology / Biostatistics",
+          "tags": [
+            "epidemiology",
+            "infectious disease",
+            "applied statistics",
+            "disease transmission",
+            "public health"
+          ],
+          "summary": "Christl Donnelly develops and applies statistical and biomathematical methods to understand the epidemiology of infectious diseases, from BSE and foot-and-mouth to Ebola, influenza and COVID-19. Her research quantifies transmission dynamics and evaluates control strategies, often informing real-time public-health policy. A Fellow of the Royal Society with a joint role at the Big Data Institute, she is among the most highly cited researchers in her field. She supervises DPhil students working on outbreak modelling, transmission inference and applied statistical epidemiology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/christl-donnelly",
+            "scholar": "https://scholar.google.com/citations?user=nW0imhcAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "alison-etheridge",
+          "name": "Alison Etheridge",
+          "title": "Professor of Probability",
+          "sub_field": "Probability / Mathematical Population Genetics",
+          "tags": [
+            "probability",
+            "stochastic processes",
+            "population genetics",
+            "mathematical biology",
+            "spatial models"
+          ],
+          "summary": "Dame Alison Etheridge works on infinite-dimensional stochastic analysis and its applications, with a sustained focus on mathematical models in population genetics and ecology. She studies how genetic variation is shaped by evolutionary forces in spatially structured populations, developing rigorous probabilistic frameworks such as the spatial Lambda-Fleming-Viot process. Holding a joint appointment across Statistics and Mathematics and a Fellow of the Royal Society, she offers DPhil projects in stochastic processes, mathematical ecology and the probability theory underpinning modern population genetics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/alison-etheridge",
+            "scholar": "https://scholar.google.com/citations?user=7tNSX_cAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "christina-goldschmidt",
+          "name": "Christina Goldschmidt",
+          "title": "Professor of Probability",
+          "sub_field": "Probability / Random Combinatorial Structures",
+          "tags": [
+            "probability",
+            "random graphs",
+            "random trees",
+            "scaling limits",
+            "combinatorial stochastic processes"
+          ],
+          "summary": "Christina Goldschmidt studies random discrete structures, particularly random trees and graphs and their scaling limits, along with combinatorial stochastic processes such as coalescence and fragmentation. Her work connects probability theory with combinatorics, illuminating the large-scale geometry of objects like the minimum spanning tree and critical random graphs. Based in the Department of Statistics and a Fellow of Lady Margaret Hall, she supervises DPhil students in modern probability, offering projects on continuum random trees, random networks and their universal limiting behaviour.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/christina-goldschmidt",
+            "scholar": "https://scholar.google.com/citations?user=QIU2VSwAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "james-martin",
+          "name": "James Martin",
+          "title": "Associate Professor of Probability",
+          "sub_field": "Probability / Interacting Particle Systems",
+          "tags": [
+            "probability",
+            "interacting particle systems",
+            "random growth",
+            "percolation",
+            "queueing networks"
+          ],
+          "summary": "James Martin researches probability theory with strong links to statistical physics and theoretical computer science. His interests include models of random growth and percolation, interacting particle systems, coagulation and fragmentation, and queueing and communication networks. He studies exactly solvable structures and phase-transition phenomena in large random systems, drawing connections between combinatorics, algorithms and stochastic dynamics. Based in the Department of Statistics, he supervises DPhil students on particle systems, random graphs and the probabilistic analysis of networks and growth processes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/james-martin",
+            "scholar": null
+          }
+        },
+        {
+          "id": "george-deligiannidis",
+          "name": "George Deligiannidis",
+          "title": "Professor of Statistics",
+          "sub_field": "Computational Statistics / Monte Carlo",
+          "tags": [
+            "Monte Carlo",
+            "MCMC",
+            "computational statistics",
+            "sampling",
+            "generative models"
+          ],
+          "summary": "George Deligiannidis works at the interface of probability and statistics, analysing the random processes that arise in computational statistics and machine learning. Much of his research concerns the theory and methodology of Monte Carlo sampling, especially Markov chain Monte Carlo, pseudo-marginal methods and diffusion-based generative models, together with limit theorems for stochastic processes. Affiliated with the Alan Turing Institute, he supervises DPhil students on scalable sampling algorithms, the mathematics of generative modelling and the theoretical foundations of computational statistics and machine learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/george-deligiannidis",
+            "scholar": "https://scholar.google.com/citations?user=EF1FwN4AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "geoff-nicholls",
+          "name": "Geoff Nicholls",
+          "title": "Professor of Statistics",
+          "sub_field": "Bayesian Inference / Computational Statistics",
+          "tags": [
+            "Bayesian inference",
+            "computational statistics",
+            "Monte Carlo",
+            "statistical genetics",
+            "model misspecification"
+          ],
+          "summary": "Geoff Nicholls develops Bayesian methods and computational statistics, with a focus on Monte Carlo inference for complex models. He has applied these tools across statistical genetics, phylogenetics and linguistics, historical and archaeological dating, and other areas where uncertainty must be quantified from structured data. His methodological interests include model selection, calibration and inference under model misspecification. Based in the Department of Statistics, he supervises DPhil students working on Bayesian modelling, Monte Carlo algorithms and applied statistical inference across the sciences and humanities.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/geoff-nicholls",
+            "scholar": null
+          }
+        },
+        {
+          "id": "anastasia-ignatieva",
+          "name": "Anastasia Ignatieva",
+          "title": "Associate Professor of Statistical Genomics",
+          "sub_field": "Statistical Genomics / Population Genetics",
+          "tags": [
+            "statistical genomics",
+            "population genetics",
+            "genealogies",
+            "evolutionary inference",
+            "computational statistics"
+          ],
+          "summary": "Anastasia Ignatieva works at the intersection of probability, statistics and computation, motivated by problems in genetics and evolution. Her research develops methods to reconstruct genealogies and ancestral recombination graphs from large-scale genome sequencing data, and uses these structures to infer evolutionary events and processes such as recombination, selection and structural variation. A Fellow of Somerville College, she trained on the Oxford-Warwick Statistics Programme. She supervises DPhil students on statistical and population genetics, genealogy-based inference and the computational analysis of genomic data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/professor-anastasia-ignatieva",
+            "scholar": "https://scholar.google.com/citations?user=vjj3EpoAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "simon-myers",
+          "name": "Simon Myers",
+          "title": "Professor of Mathematical Genomics",
+          "sub_field": "Statistical & Population Genetics",
+          "tags": [
+            "statistical genetics",
+            "population genetics",
+            "recombination",
+            "human evolution",
+            "genomics"
+          ],
+          "summary": "Simon Myers develops statistical methods to study genetic variation, its drivers and its consequences, splitting his time between the Department of Statistics and the Wellcome Centre for Human Genetics. His group uses stochastic models to understand recombination, mutation and the history of human populations, combining novel statistical techniques with experimental genomics. His influential work spans recombination hotspots, admixture dating and the biology of meiosis. He supervises DPhil students on statistical and population genetics, method development for large genomic datasets and human evolutionary history.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/simon-myers",
+            "scholar": "https://scholar.google.com/citations?user=IUkRO7gAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "fergus-imrie",
+          "name": "Fergus Imrie",
+          "title": "Associate Professor of Statistics",
+          "sub_field": "Statistical Machine Learning / ML for Health",
+          "tags": [
+            "machine learning",
+            "drug discovery",
+            "healthcare",
+            "experimental design",
+            "causality"
+          ],
+          "summary": "Fergus Imrie develops machine learning methods for drug discovery and healthcare, focusing on structure-based drug design, experimental design and decision-making, and learning from small, noisy or biased datasets. He is interested in methods that support scientific decisions when data are limited, measurements uncertain and downstream experiments costly. Previously a Florence Nightingale Fellow at Oxford and a postdoc with Mihaela van der Schaar at UCLA, he now leads research in the Department of Statistics, supervising DPhil students on trustworthy machine learning for medicine and the molecular sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/dr-fergus-imrie",
+            "scholar": "https://scholar.google.com/citations?user=4qCGgpsAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "david-steinsaltz",
+          "name": "David Steinsaltz",
+          "title": "Associate Professor of Statistics",
+          "sub_field": "Biostatistics / Applied Probability",
+          "tags": [
+            "biodemography",
+            "survival analysis",
+            "stochastic processes",
+            "ageing",
+            "genomics"
+          ],
+          "summary": "David Steinsaltz applies stochastic-process theory and statistics to biodemography, survival analysis and genomics. His research addresses the mathematics of ageing and mortality, models of population dynamics, and statistical questions arising in evolutionary demography and genetics. He also engages with quantitative methods in public policy and the interpretation of statistical evidence. Based in the Department of Statistics, he supervises DPhil students on survival and event-history analysis, applied probability for the life sciences, and statistical modelling of ageing, mortality and genomic data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/david-steinsaltz",
+            "scholar": null
+          }
+        },
+        {
+          "id": "pier-palamara",
+          "name": "Pier Palamara",
+          "title": "Professor of Statistical Genomics",
+          "sub_field": "Statistical Genomics / Computational Genetics",
+          "tags": [
+            "statistical genetics",
+            "genomics",
+            "machine learning",
+            "genealogies",
+            "complex traits"
+          ],
+          "summary": "Pier Palamara develops statistical and machine learning algorithms for analysing large-scale human genomic data, working across the Department of Statistics and the Centre for Human Genetics. His group builds methods for reconstructing and analysing gene genealogies, haplotype sharing, phasing and imputation, and uses them to study demographic history, natural selection and the genetic architecture of complex traits. Trained at Columbia and the Broad Institute, he supervises DPhil students on scalable algorithms for population genetics, genealogy-based inference, and heritability and polygenic prediction.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.stats.ox.ac.uk/people/pier-palamara",
+            "scholar": "https://scholar.google.com/citations?user=QonjxsMAAAAJ&hl=en"
+          }
+        }
+      ]
+    },
+    {
+      "id": "toronto-statistical-sciences-phd",
+      "university": "University of Toronto",
+      "program_name": "PhD in Statistics",
+      "degree_type": "PhD",
+      "region": "Canada",
+      "country": "Canada",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistical Theory",
+          "Bayesian Methods",
+          "Causal Inference",
+          "Biostatistics",
+          "Computational Statistics",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-11-22",
+        "deadline_display": "Nov 22, 2026",
+        "application_fee_usd": null,
+        "fee_display": "CAD $130",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "TOEFL/IELTS required for applicants from universities where English is not the primary language of instruction (taken within 24 months); exempt otherwise.",
+        "admission_model": "Committee-Based",
+        "admission_model_note": "A graduate admissions committee selects students; applicants indicate research interests in a letter of intent. Supervisor matching typically occurs during the first two years of coursework and research rather than being arranged before admission.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 5,
+          "note": "Students in the funded cohort receive a guaranteed package for five years. As of Fall 2025 the minimum support is $40,000/year (about $31,551 net of tuition and fees), delivered via fellowships, teaching and research assistantships."
+        },
+        "pre_application_contact": "Neutral / Not Required",
+        "contact_note": "Admission is committee-based, so contacting faculty beforehand is optional and not required.",
+        "ects": null,
+        "duration": "4 years (5 for direct entry)"
+      },
+      "links": {
+        "program": "https://www.statistics.utoronto.ca/graduate",
+        "admissions": "https://www.statistics.utoronto.ca/graduate/admission-information"
+      },
+      "data_currency": "Researched 2026-07-05 from official pages — verify before applying.",
+      "faculty": [
+        {
+          "id": "nancy-reid",
+          "name": "Nancy Reid",
+          "title": "University Professor",
+          "sub_field": "Statistical Theory",
+          "tags": [
+            "likelihood inference",
+            "higher-order asymptotics",
+            "composite likelihood",
+            "design"
+          ],
+          "summary": "Reid is a foundational researcher in statistical theory and inference. Her recent work advances higher-order asymptotics and likelihood-based inference, composite and pseudo-likelihood for complex and intractable models, and the interface between Bayesian and frequentist approaches. She studies accurate approximations for p-values and confidence limits, inference under nuisance parameters, and principled design and analysis of studies, contributing both deep theory and practical guidance that shape how uncertainty is quantified across the statistical sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "radu-craiu",
+          "name": "Radu Craiu",
+          "title": "Professor",
+          "sub_field": "Bayesian Computation",
+          "tags": [
+            "MCMC",
+            "Bayesian computation",
+            "copulas",
+            "data augmentation"
+          ],
+          "summary": "Craiu works on Bayesian computation and applied statistics. His recent research develops Markov chain Monte Carlo methodology, including adaptive, parallel, and divide-and-conquer schemes for large and complex models, together with copula-based approaches for modeling dependence. He studies data augmentation, mixture and latent-variable models, and inference for correlated and high-dimensional data, with applications in health, genetics, and environmental science, aiming to make flexible Bayesian modeling computationally practical for challenging real-world datasets.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeffrey-rosenthal",
+          "name": "Jeffrey Rosenthal",
+          "title": "Professor",
+          "sub_field": "Probability & Monte Carlo",
+          "tags": [
+            "MCMC theory",
+            "convergence rates",
+            "adaptive MCMC",
+            "optimal scaling"
+          ],
+          "summary": "Rosenthal specializes in the theory and methodology of Markov chain Monte Carlo and applied probability. His recent work establishes quantitative convergence-rate bounds for Markov chains, analyzes adaptive MCMC algorithms and optimal scaling of proposal distributions, and studies the reliability of simulation-based inference. He contributes broadly to probability theory and its applications, and is also known for communicating probability and statistics to wide audiences, connecting rigorous theory with practical guidance for computational Bayesian methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-roy",
+          "name": "Daniel Roy",
+          "title": "Professor",
+          "sub_field": "Machine Learning Theory",
+          "tags": [
+            "PAC-Bayes",
+            "generalization",
+            "probabilistic programming",
+            "exchangeability"
+          ],
+          "summary": "Roy studies the theoretical foundations of machine learning and probabilistic modeling. His recent work develops generalization theory, including PAC-Bayes and information-theoretic bounds, analyses of stochastic optimization and deep learning, and nonparametric Bayesian models grounded in exchangeability and computability. He studies probabilistic programming, the limits of learning and inference, and principled uncertainty quantification, combining probability, statistics, and computer science to understand when and why modern learning algorithms generalize and how to make them more reliable.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "linbo-wang",
+          "name": "Linbo Wang",
+          "title": "Associate Professor",
+          "sub_field": "Causal Inference",
+          "tags": [
+            "causal machine learning",
+            "unmeasured confounding",
+            "instrumental variables",
+            "proximal inference"
+          ],
+          "summary": "Wang works on causal inference and causal machine learning, and holds a Canada Research Chair in Causal Machine Learning. His recent research develops estimators robust to unmeasured confounding, methods using instrumental variables, negative controls, and proximal inference, and high-dimensional and nonparametric approaches to estimating causal effects. He studies mediation, semiparametric efficiency, and the integration of causal reasoning with machine learning, with applications in biomedicine and genetics, aiming to draw reliable causal conclusions from complex observational data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "stanislav-volgushev",
+          "name": "Stanislav Volgushev",
+          "title": "Associate Professor",
+          "sub_field": "Time Series & Nonparametrics",
+          "tags": [
+            "time series",
+            "quantile methods",
+            "extreme values",
+            "distributed inference"
+          ],
+          "summary": "Volgushev works on time series, nonparametric statistics, and large-scale inference. His recent research develops methods for high-dimensional and dependent data, including quantile and copula-based approaches, extreme value analysis, and distributed inference that aggregates estimates across many machines. He studies asymptotic theory for weakly dependent processes, change-point and structural analysis, and resampling methods, providing rigorous guarantees for statistical procedures applied to complex temporal and spatial data arising in modern applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "lei-sun",
+          "name": "Lei Sun",
+          "title": "Professor",
+          "sub_field": "Statistical Genetics & Biostatistics",
+          "tags": [
+            "statistical genetics",
+            "GWAS",
+            "multiple testing",
+            "robust methods"
+          ],
+          "summary": "Sun develops statistical methods for genetics and genomics, working at the interface of biostatistics and statistical theory. Her recent research addresses genome-wide association analysis, multiple hypothesis testing, and robust and rank-based methods for detecting genetic associations. She studies quality control, pleiotropy, gene-environment interaction, and analysis of the X chromosome, along with methods for combining evidence across studies, translating rigorous statistical ideas into practical tools for reliable discovery in large-scale human genetic data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "dehan-kong",
+          "name": "Dehan Kong",
+          "title": "Associate Professor",
+          "sub_field": "High-Dimensional & Neuroimaging Statistics",
+          "tags": [
+            "neuroimaging",
+            "tensor methods",
+            "functional data",
+            "dimension reduction"
+          ],
+          "summary": "Kong develops statistical methods for complex, high-dimensional biomedical data, with emphasis on neuroimaging. His recent work builds tensor and functional data methods, dimension-reduction and regression techniques for imaging and genetics, and approaches integrating causal inference and machine learning in health applications. He studies scalable estimation for structured high-dimensional objects and methods for brain-imaging biomarkers, aiming to extract interpretable signals from massive, richly structured datasets relevant to neuroscience and precision medicine.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jessica-gronsbell",
+          "name": "Jessica Gronsbell",
+          "title": "Associate Professor",
+          "sub_field": "Biostatistics & Machine Learning",
+          "tags": [
+            "electronic health records",
+            "semi-supervised learning",
+            "risk prediction",
+            "clinical NLP"
+          ],
+          "summary": "Gronsbell develops statistical machine learning methods for large-scale biomedical data, particularly electronic health records. Her recent research advances semi-supervised and weakly-supervised learning that exploits abundant unlabeled data alongside scarce expert labels, robust evaluation of risk-prediction models, and phenotyping using clinical text and natural language processing. She studies efficient inference when gold-standard labels are limited, and methods for digital and data-driven health, bridging biostatistics and machine learning to make real-world clinical data usable for reliable prediction.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "murat-erdogdu",
+          "name": "Murat Erdogdu",
+          "title": "Assistant Professor",
+          "sub_field": "Machine Learning Theory & Optimization",
+          "tags": [
+            "optimization",
+            "sampling",
+            "high-dimensional statistics",
+            "deep learning theory"
+          ],
+          "summary": "Erdogdu works on the theoretical foundations of machine learning at the intersection of optimization, statistics, and probability. His recent research analyzes sampling algorithms and Langevin-type dynamics, high-dimensional asymptotics of estimators, and the optimization and generalization behavior of neural networks, including feature learning. He studies stochastic gradient methods, non-convex optimization, and the statistical limits of learning, developing rigorous analyses that explain when and why modern learning and sampling algorithms succeed in high dimensions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "boston-university-biostatistics",
+      "university": "Boston University",
+      "program_name": "Biostatistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistical Methods",
+          "Public Health"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bu.edu/academics/grs/programs/biostatistics/phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "boston-university-mathematics",
+      "university": "Boston University",
+      "program_name": "Mathematics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Pure Mathematics",
+          "Dynamical Systems",
+          "Geometry"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (GRS fellowship)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bu.edu/academics/grs/programs/mathematics-statistics/phd-mathematics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "boston-university-statistics",
+      "university": "Boston University",
+      "program_name": "Statistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Probability",
+          "Data Science"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (GRS fellowship)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.bu.edu/academics/grs/programs/mathematics-statistics/phd-statistics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "brown-university-biostatistics-phd",
+      "university": "Brown University",
+      "program_name": "Biostatistics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistics",
+          "Health Data Science"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, health)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://graduateprograms.brown.edu/graduate-program/biostatistics-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #13",
+      "faculty": []
+    },
+    {
+      "id": "carnegie-mellon-university-joint-ph-d-in-statistics-and-machine-learning",
+      "university": "Carnegie Mellon University",
+      "program_name": "Joint Ph.D. in Statistics and Machine Learning",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Machine Learning",
+          "Statistics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90 + $10 joint-program fee (via Statistics application)",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Joint review by both departments",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Full tuition + stipend (per Statistics dept policy)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://ml.cmu.edu/academics/joint-ml-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "carnegie-mellon-university-ph-d-in-statistics-and-data-science",
+      "university": "Carnegie Mellon University",
+      "program_name": "Ph.D. in Statistics & Data Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Data Science",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90 (+$10 per joint-program option)",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental admission; application opens Oct 1, 2026",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Full tuition scholarship + ~$3,100/month academic-year stipend (TA/RA) for all PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.cmu.edu/dietrich/statistics-datascience/academics/phd/application-process.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "columbia-university-statistics-phd",
+      "university": "Columbia University",
+      "program_name": "Statistics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Machine Learning",
+          "Probability"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-08",
+        "deadline_display": "Jan 8, 2026 (prior cycle)",
+        "application_fee_usd": 120,
+        "fee_display": "$120",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct admission to department (GSAS)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Full fellowship up to 5 yrs: tuition, health fees, insurance, 9-month stipend; summer support generally provided"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.gsas.columbia.edu/content/statistics-phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "columbia-university-biostatistics-phd",
+      "university": "Columbia University",
+      "program_name": "Biostatistics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistical Genetics",
+          "Clinical Trials"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.publichealth.columbia.edu/academics/degrees/doctoral-programs/doctor-philosophy/biostatistics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "cornell-university-statistics-phd",
+      "university": "Cornell University",
+      "program_name": "Statistics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Machine Learning",
+          "Data Science"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.cornell.edu/graduate-school/statistics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #12",
+      "faculty": []
+    },
+    {
+      "id": "duke-university-ph-d-in-biostatistics",
+      "university": "Duke University",
+      "program_name": "Ph.D. in Biostatistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistical Genetics",
+          "Clinical Trials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.duke.edu/academics/programs-degrees/biostatistics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "duke-university-ph-d-in-statistical-science",
+      "university": "Duke University",
+      "program_name": "Ph.D. in Statistical Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Bayesian Statistics",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradschool.duke.edu/academics/programs-degrees/statistical-science/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "emory-university-biostatistics",
+      "university": "Emory University",
+      "program_name": "Biostatistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Bioinformatics",
+          "Statistics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded, stipend + tuition"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://sph.emory.edu/degrees-programs/phd/biostatistics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #24",
+      "faculty": []
+    },
+    {
+      "id": "georgetown-university-ph-d-in-applied-mathematics",
+      "university": "Georgetown University",
+      "program_name": "Ph.D. in Applied Mathematics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Applied Math",
+          "PDEs",
+          "Inverse Problems",
+          "Mathematical Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "All admitted students offered Graduate School Assistantship: full tuition, health insurance, stipend"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://mathstat.georgetown.edu/phd-program/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #24",
+      "faculty": []
+    },
+    {
+      "id": "georgetown-university-ph-d-in-biostatistics",
+      "university": "Georgetown University",
+      "program_name": "Ph.D. in Biostatistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Bioinformatics",
+          "Clinical Trials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Merit-based fellowships (tuition, stipend, health/dental, fees); all applicants automatically considered"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://biostatistics.georgetown.edu/education/phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #24",
+      "faculty": []
+    },
+    {
+      "id": "harvard-university-biostatistics",
+      "university": "Harvard University",
+      "program_name": "Biostatistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistical Genetics",
+          "Data Science"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Required",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (GSAS PhD guarantee)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.harvard.edu/program/biostatistics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #3",
+      "faculty": []
+    },
+    {
+      "id": "harvard-university-statistics",
+      "university": "Harvard University",
+      "program_name": "Statistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Machine Learning",
+          "Bayesian Methods"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (GSAS PhD guarantee)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.harvard.edu/program/statistics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #3",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-applied-mathematics-and-statistics-phd",
+      "university": "Johns Hopkins University",
+      "program_name": "Applied Mathematics and Statistics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Applied Mathematics",
+          "Statistics",
+          "Optimization"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/applied-mathematics-statistics/applied-mathematics-statistics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-health-sciences-informatics-phd-bids",
+      "university": "Johns Hopkins University",
+      "program_name": "Health Sciences Informatics, PhD (BIDS)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biomedical Informatics",
+          "Data Science",
+          "Bioinformatics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/medicine/graduate-programs/health-sciences-informatics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "johns-hopkins-university-biostatistics-phd",
+      "university": "Johns Hopkins University",
+      "program_name": "Biostatistics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistics",
+          "Statistical Genetics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 150,
+        "fee_display": "$150",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "SOPHAS application",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://e-catalogue.jhu.edu/public-health/departments/biostatistics/biostatistics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "new-york-university-ph-d-in-data-science",
+      "university": "New York University",
+      "program_name": "Ph.D. in Data Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Machine Learning",
+          "Data Science",
+          "AI",
+          "Statistics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-04",
+        "deadline_display": "Dec 4, 2025 (prior cycle)",
+        "application_fee_usd": 110,
+        "fee_display": "$110",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded via MacCracken (full tuition + stipend + health insurance, 4-5 yrs + 3 summers)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.nyu.edu/admissions/arc/programs/data-science.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "northwestern-university-statistics-and-data-science-phd",
+      "university": "Northwestern University",
+      "program_name": "Statistics and Data Science PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Data Science",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-06",
+        "deadline_display": "Jan 6, 2026 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://statistics.northwestern.edu/graduate/phd-program/how-to-apply.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "purdue-university-statistics-phd",
+      "university": "Purdue University",
+      "program_name": "Statistics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Probability",
+          "Data Science"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 domestic / $75 intl",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.stat.purdue.edu/academic_programs/graduate/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "rice-university-statistics-phd",
+      "university": "Rice University",
+      "program_name": "Statistics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Bayesian",
+          "Machine Learning",
+          "Biostatistics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-31",
+        "deadline_display": "Dec 31, 2025 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Priority review Dec 1; program-level committee",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://statistics.rice.edu/academics/graduate/phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "rutgers-university-new-brunswick-statistics-phd",
+      "university": "Rutgers University-New Brunswick",
+      "program_name": "Statistics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Probability",
+          "Data Science"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 70,
+        "fee_display": "$70",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://statistics.rutgers.edu/graduate-academics/phd-degree-program"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "stanford-university-biomedical-data-science-phd",
+      "university": "Stanford University",
+      "program_name": "Biomedical Data Science (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Bioinformatics",
+          "Biostatistics",
+          "Computational Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-02",
+        "deadline_display": "Dec 2, 2025 (prior cycle)",
+        "application_fee_usd": 125,
+        "fee_display": "$125",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Biosciences umbrella / Home Program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend, tuition, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://dbds.stanford.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    },
+    {
+      "id": "the-ohio-state-university-statistics",
+      "university": "The Ohio State University",
+      "program_name": "Statistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Bayesian Methods",
+          "Statistical Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (domestic) / $70 (international)",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental admission",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Priority funding consideration for complete applications by Dec 15"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://stat.osu.edu/graduates/prospective-students/admission"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
+      "faculty": []
+    },
+    {
+      "id": "the-ohio-state-university-biostatistics",
+      "university": "The Ohio State University",
+      "program_name": "Biostatistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Clinical Trials",
+          "Statistical Genetics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (domestic) / $70 (international)",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gpadmissions.osu.edu/programs/program.aspx?prog=0036"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-berkeley-biostatistics-phd",
+      "university": "University of California, Berkeley",
+      "program_name": "Biostatistics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Required",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.berkeley.edu/program/biostatistics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-berkeley-statistics-phd",
+      "university": "University of California, Berkeley",
+      "program_name": "Statistics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Not Accepted",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.berkeley.edu/program/statistics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-davis-statistics",
+      "university": "University of California, Davis",
+      "program_name": "Statistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Probability",
+          "Data Science"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 (US) / $155 (intl)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucdavis.edu/programs/gsta"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-davis-biostatistics",
+      "university": "University of California, Davis",
+      "program_name": "Biostatistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistical Genetics",
+          "Clinical Trials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 (US) / $155 (intl)",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucdavis.edu/programs/gbst"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-irvine-statistics-ph-d",
+      "university": "University of California, Irvine",
+      "program_name": "Statistics, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Bayesian Methods",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.ics.uci.edu/grad/admissions/index"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-los-angeles-statistics",
+      "university": "University of California, Los Angeles",
+      "program_name": "Statistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Data Science",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-10",
+        "deadline_display": "Dec 10, 2026",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucla.edu/programs/physical-sciences/statistics-and-data-science-department/statistics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-los-angeles-biostatistics",
+      "university": "University of California, Los Angeles",
+      "program_name": "Biostatistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistical Genetics",
+          "Data Science"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.ucla.edu/programs/school-of-public-health/biostatistics-department/biostatistics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-san-diego-data-science-phd",
+      "university": "University of California, San Diego",
+      "program_name": "Data Science PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Data Science",
+          "Machine Learning",
+          "Statistics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-23",
+        "deadline_display": "Dec 23, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://datascience.ucsd.edu/graduate/graduate-admissions/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #29",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-san-diego-biostatistics-phd",
+      "university": "University of California, San Diego",
+      "program_name": "Biostatistics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistics",
+          "Public Health"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-03",
+        "deadline_display": "Dec 3, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://ph.ucsd.edu/phd/biostat/prospective-students-phd/index.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #29",
+      "faculty": []
+    },
+    {
+      "id": "university-of-california-santa-barbara-statistics-and-applied-probability-phd",
+      "university": "University of California, Santa Barbara",
+      "program_name": "Statistics and Applied Probability PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Probability",
+          "Data Science",
+          "Financial Math"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 135,
+        "fee_display": "$135 ($155 intl)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Department provides full funding via TA, research grants, and scholarships"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.graddiv.ucsb.edu/graduate-programs/departments/statistics-and-applied-probability"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #40",
+      "faculty": []
+    },
+    {
+      "id": "university-of-chicago-data-science",
+      "university": "University of Chicago",
+      "program_name": "Data Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Data Science",
+          "Machine Learning",
+          "Statistics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded PhD"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://codas.uchicago.edu/academics/phd-in-data-science/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #6",
+      "faculty": []
+    },
+    {
+      "id": "university-of-chicago-statistics",
+      "university": "University of Chicago",
+      "program_name": "Statistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Probability",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded PhD"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://stat.uchicago.edu/academics/phd-in-statistics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #6",
+      "faculty": []
+    },
+    {
+      "id": "university-of-florida-statistics",
+      "university": "University of Florida",
+      "program_name": "Statistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Bayesian Methods",
+          "Biostatistics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 30,
+        "fee_display": "$30",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct-to-department; fall only",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://stat.ufl.edu/academics/graduate/applying-to-the-graduate-program/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-florida-biostatistics",
+      "university": "University of Florida",
+      "program_name": "Biostatistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistical Genetics",
+          "Clinical Trials"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 30,
+        "fee_display": "$30",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gradcatalog.ufl.edu/graduate/degrees/table/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-statistics",
+      "university": "University of Georgia",
+      "program_name": "Statistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Bayesian Methods",
+          "Statistical Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Assistantships typically available"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-statistics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-georgia-epidemiology-and-biostatistics",
+      "university": "University of Georgia",
+      "program_name": "Epidemiology & Biostatistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Epidemiology",
+          "Statistical Methods"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://grad.uga.edu/degree/phd-epidemiology-and-biostatistics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-illinois-urbana-champaign-computer-science-phd",
+      "university": "University of Illinois Urbana-Champaign",
+      "program_name": "Computer Science, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Machine Learning",
+          "Systems",
+          "Theory",
+          "Artificial Intelligence"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Fall admission only; decision deadline Mar 15",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Grainger PhD guaranteed funded appointment (tuition waiver + stipend) first 5 years"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://siebelschool.illinois.edu/admissions/graduate/application-deadlines"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-illinois-urbana-champaign-statistics-phd",
+      "university": "University of Illinois Urbana-Champaign",
+      "program_name": "Statistics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Machine Learning",
+          "Probability",
+          "Data Science"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Fall admission; GRE optional",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://stat.illinois.edu/admissions/prospective-graduate-students/application-requirements"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-maryland-college-park-mathematical-statistics-statistics-ph-d",
+      "university": "University of Maryland, College Park",
+      "program_name": "Mathematical Statistics (Statistics), Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Probability",
+          "Statistical Inference"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-17",
+        "deadline_display": "Dec 17, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "~20 students supported, mainly teaching assistantships plus some RAs/fellowships"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://academiccatalog.umd.edu/graduate/programs/mathematical-statistics-stat/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-maryland-college-park-applied-mathematics-and-statistics-and-scien",
+      "university": "University of Maryland, College Park",
+      "program_name": "Applied Mathematics & Statistics, and Scientific Computation, Ph.D.",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Applied Mathematics",
+          "Scientific Computing",
+          "Numerical Analysis"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Teaching assistantships with stipend and tuition; research assistantships for doctoral students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://academiccatalog.umd.edu/graduate/programs/applied-mathematics-statistics-scientific-computation-amsc/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-michigan-ann-arbor-statistics-phd",
+      "university": "University of Michigan, Ann Arbor",
+      "program_name": "Statistics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Machine Learning",
+          "Probability"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://lsa.umich.edu/stats/phd-students/ProspectiveGraduateStudents/graduate-degree-application.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-michigan-ann-arbor-biostatistics-phd",
+      "university": "University of Michigan, Ann Arbor",
+      "program_name": "Biostatistics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistical Genetics",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Full funding (tuition, stipend, GradCare) for all admitted PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://sph.umich.edu/biostat/apply-phd-biostat.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-north-carolina-at-chapel-hill-statistics-and-operations-research-p",
+      "university": "University of North Carolina at Chapel Hill",
+      "program_name": "Statistics and Operations Research (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Operations Research",
+          "Probability",
+          "Optimization"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-16",
+        "deadline_display": "Dec 16, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://stor.unc.edu/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-north-carolina-at-chapel-hill-biostatistics-phd",
+      "university": "University of North Carolina at Chapel Hill",
+      "program_name": "Biostatistics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistical Genetics",
+          "Clinical Trials",
+          "Causal Inference"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-02",
+        "deadline_display": "Dec 2, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://sph.unc.edu/bios/biostatistics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-north-carolina-at-chapel-hill-data-science-phd",
+      "university": "University of North Carolina at Chapel Hill",
+      "program_name": "Data Science (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Data Science",
+          "Machine Learning",
+          "AI",
+          "Data Driven Discovery"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-02-10",
+        "deadline_display": "Feb 10, 2026 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Applicants list up to 5 faculty of interest in application",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://datascience.unc.edu/phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-notre-dame-applied-and-computational-mathematics-and-statistics-ph",
+      "university": "University of Notre Dame",
+      "program_name": "Applied and Computational Mathematics and Statistics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Applied Math",
+          "Statistics",
+          "Computational Science",
+          "Data Science"
+        ]
+      },
+      "requirements": {
+        "deadline": "2027-01-05",
+        "deadline_display": "Jan 5, 2027",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://acms.nd.edu/graduate-programs/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "university-of-pennsylvania-epidemiology-and-biostatistics-phd-biostatistics-trac",
+      "university": "University of Pennsylvania",
+      "program_name": "Epidemiology and Biostatistics, PhD (Biostatistics track)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Epidemiology",
+          "Statistical Genetics",
+          "Clinical Research"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Umbrella graduate group (BGS)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.med.upenn.edu/ggeb/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "university-of-pennsylvania-statistics-and-data-science-phd",
+      "university": "University of Pennsylvania",
+      "program_name": "Statistics and Data Science, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Data Science",
+          "Machine Learning",
+          "Probability"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-15",
+        "deadline_display": "Dec 15, 2025 (prior cycle)",
+        "application_fee_usd": 80,
+        "fee_display": "$80",
+        "gre": "Required",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Department admits via Wharton Doctoral Programs",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Full fellowship covering tuition plus living stipend for all doctoral students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://statistics.wharton.upenn.edu/programs/phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    },
+    {
+      "id": "university-of-rochester-phd-in-statistics",
+      "university": "University of Rochester",
+      "program_name": "PhD in Statistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Biostatistics",
+          "Statistical Theory"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 60,
+        "fee_display": "$60 (waived if submitted by Nov 15)",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Apply to one SMD PhD program per admissions year",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.urmc.rochester.edu/education/graduate/phd/statistics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
+      "faculty": []
+    },
+    {
+      "id": "university-of-southern-california-biostatistics-phd",
+      "university": "University of Southern California",
+      "program_name": "Biostatistics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistical Genetics",
+          "Clinical Trials"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Applied via SOPHAS application",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Full financial support via RA/TA (tuition + monthly stipend); fellowships available"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://keck.usc.edu/biostatistics-phd-program/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #28",
+      "faculty": []
+    },
+    {
+      "id": "university-of-texas-at-austin-statistics",
+      "university": "University of Texas at Austin",
+      "program_name": "Statistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Machine Learning",
+          "Bayesian Statistics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 65,
+        "fee_display": "$65 (US) / $90 (international)",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://stat.utexas.edu/phd-in-statistics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
+      "faculty": []
+    },
+    {
+      "id": "university-of-virginia-statistics-phd",
+      "university": "University of Virginia",
+      "program_name": "Statistics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistical Machine Learning",
+          "Bayesian Statistics",
+          "Biostatistics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-15",
+        "deadline_display": "Jan 15, 2026 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Required",
+        "letters": 2,
+        "english": "Unknown/Verify",
+        "admission_model": "Department-based admission via GSAS",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5 yrs ($37,080/yr stipend + tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://graduate.as.virginia.edu/graduate-degree-programs/statistics"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-virginia-data-science-phd",
+      "university": "University of Virginia",
+      "program_name": "Data Science PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Data Science",
+          "Machine Learning",
+          "Responsible AI"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-01-05",
+        "deadline_display": "Jan 5, 2026 (prior cycle)",
+        "application_fee_usd": 85,
+        "fee_display": "$85",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "School-based admission (research/teaching assistantship model)",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (~$40,000/yr assistantship + full tuition, fees, health insurance)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://datascience.virginia.edu/phd/admissions"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
+      "faculty": []
+    },
+    {
+      "id": "university-of-washington-statistics-phd",
+      "university": "University of Washington",
+      "program_name": "Statistics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Machine Learning",
+          "Statistical Theory"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://www.stat.uw.edu"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-washington-biostatistics-phd",
+      "university": "University of Washington",
+      "program_name": "Biostatistics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistical Genetics",
+          "Clinical Trials"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 90,
+        "fee_display": "$90",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "See note",
+          "years": null,
+          "note": "Financial support available; verify details"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.biostat.washington.edu/academics/phd"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
+      "faculty": []
+    },
+    {
+      "id": "university-of-wisconsin-madison-statistics-phd",
+      "university": "University of Wisconsin-Madison",
+      "program_name": "Statistics, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Statistical Machine Learning",
+          "Biostatistics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://guide.wisc.edu/graduate/statistics/statistics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "university-of-wisconsin-madison-biomedical-data-science-phd",
+      "university": "University of Wisconsin-Madison",
+      "program_name": "Biomedical Data Science, PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biomedical Data Science",
+          "Biostatistics",
+          "Bioinformatics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 75,
+        "fee_display": "$75",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://guide.wisc.edu/graduate/biostatistics-medical-informatics/biomedical-data-science-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
+      "faculty": []
+    },
+    {
+      "id": "vanderbilt-university-biostatistics-phd",
+      "university": "Vanderbilt University",
+      "program_name": "Biostatistics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Biostatistics",
+          "Statistics",
+          "Data Science"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Required",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct to department",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "http://www.vanderbilt.edu/biostatistics/graduate/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
+      "faculty": []
+    },
+    {
+      "id": "washington-university-in-st-louis-phd-in-mathematics",
+      "university": "Washington University in St. Louis",
+      "program_name": "PhD in Mathematics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Mathematics",
+          "Pure Mathematics",
+          "Applied Mathematics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 45,
+        "fee_display": "$45",
+        "gre": "Unknown/Verify",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend + tuition waiver)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://math.washu.edu/graduate-program"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "washington-university-in-st-louis-phd-in-statistics",
+      "university": "Washington University in St. Louis",
+      "program_name": "PhD in Statistics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Data Science",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 45,
+        "fee_display": "$45",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (stipend + tuition waiver)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://sds.washu.edu/graduate-application-information"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "washington-university-in-st-louis-phd-in-biomedical-informatics-and-data-science",
+      "university": "Washington University in St. Louis",
+      "program_name": "PhD in Biomedical Informatics & Data Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Bioinformatics",
+          "Data Science",
+          "Computational Biology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-01",
+        "deadline_display": "Dec 1, 2025 (prior cycle)",
+        "application_fee_usd": 20,
+        "fee_display": "$20 (by Oct 31) / $45 (after Nov 1)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Apply to DBBS division; affiliate with program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded; all admits receive equal support"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://dbbs.wustl.edu/programs/biomedical-informatics-data-science/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
+      "faculty": []
+    },
+    {
+      "id": "yale-university-statistics-and-data-science",
+      "university": "Yale University",
+      "program_name": "Statistics & Data Science",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Statistics & Data Science",
+        "subs": [
+          "Statistics",
+          "Data Science",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify",
+        "admission_model": "Direct to program",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://gsas.yale.edu/programs-of-study/statistics-data-science"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #4",
+      "faculty": []
+    }
+  ]
+}

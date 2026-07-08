@@ -1,0 +1,16 @@
+# dependencies / build intermediates
+node_modules/
+frontend/dist/
+
+# visitor field-request submissions — private, never publish
+frontend/reports/
+
+# pipeline scratch
+pipeline/.cache/
+pipeline/output/
+__pycache__/
+*.pyc
+
+# local env
+.env
+*.local

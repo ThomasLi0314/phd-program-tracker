@@ -1,0 +1,66 @@
+# Scrape targets for the Graduate Program & Faculty Intelligence pipeline.
+# Each entry becomes one program object in the output JSON.
+#
+# pages.requirements      — official pages to mine for hard admission metrics
+# pages.faculty_directory — directory page + CSS selectors for faculty cards
+# overrides               — curated facts that always win over scraped values
+#
+# Selector tip: open the directory page in a browser, inspect one faculty card,
+# and adjust `card` / `name` / `title` / `link` until the pipeline logs the
+# expected entry count.
+
+cycle: "Fall 2027"
+
+programs:
+  - id: stanford-icme-phd
+    university: Stanford University
+    program_name: "Computational & Mathematical Engineering (ICME)"
+    degree_type: PhD
+    region: US
+    country: United States
+    discipline:
+      primary: Computational Science
+      subs: [Scientific Computing, Fluid Dynamics, Machine Learning, Uncertainty Quantification]
+    links:
+      program: https://icme.stanford.edu/academics-admission/icme-doctor-philosophy
+      admissions: https://icme.stanford.edu/academics-admission/icme-graduate-program-application
+    pages:
+      requirements:
+        - https://icme.stanford.edu/academics-admission/icme-application-deadlines
+        - https://icme.stanford.edu/academics-admission/icme-graduate-program-application
+        - https://icme.stanford.edu/academics-admission/graduate-funding
+      faculty_directory:
+        url: https://icme.stanford.edu/research-impact/affiliated-faculty
+        selectors:
+          card: ".ds-entity--stanford-person"
+          name: ".node-title"
+          title: ".su-person-short-title"
+          link: "a"
+
+  - id: princeton-aos-phd
+    university: Princeton University
+    program_name: "Atmospheric & Oceanic Sciences (AOS)"
+    degree_type: PhD
+    region: US
+    country: United States
+    discipline:
+      primary: Geosciences
+      subs: [Atmospheric Science, Physical Oceanography, Climate Dynamics, Cryosphere]
+    links:
+      program: https://aos.princeton.edu/phd_program/overview
+      admissions: https://aos.princeton.edu/phd_program/prospective-students
+    pages:
+      requirements:
+        - https://aos.princeton.edu/phd_program/prospective-students
+        - https://aos.princeton.edu/phd_program/overview
+        - https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/atmospheric-and-oceanic-sciences
+      faculty_directory:
+        url: https://aos.princeton.edu/people/faculty
+        selectors:
+          card: ".views-row, .people-list-item"
+          name: "h2, h3, .field--name-title"
+          title: ".field--name-field-people-title, .people-title"
+          link: "a"
+    overrides:
+      # Program paused for Fall 2026; whether it reopens for Fall 2027 is TBD (check Sept 2026).
+      deadline_display: "PAUSED for Fall 2026 — verify Fall 2027 (historically Jan 3)"

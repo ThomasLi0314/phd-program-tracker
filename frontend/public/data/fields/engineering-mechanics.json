@@ -1,0 +1,223 @@
+{
+  "primary": "Engineering Mechanics",
+  "programs": [
+    {
+      "id": "imperial-fluids-mres",
+      "university": "Imperial College London",
+      "program_name": "MRes Fluid Dynamics",
+      "degree_type": "MRes",
+      "region": "UK",
+      "country": "United Kingdom",
+      "discipline": {
+        "primary": "Engineering Mechanics",
+        "subs": [
+          "Fluid Dynamics",
+          "Machine Learning",
+          "Scientific Computing"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Rolling — apply early (Verify)",
+        "application_fee_usd": 105,
+        "fee_display": "£80",
+        "gre": "Optional",
+        "letters": 2,
+        "english": "IELTS ≥6.5 (standard Imperial requirement) unless prior English-medium degree — Verify",
+        "admission_model": "Direct Advisor Match",
+        "admission_model_note": "MRes projects are supervisor-attached from the start; applicants indicate project/supervisor preferences at application.",
+        "funding": {
+          "status": "Partial / Merit-Based",
+          "years": 1,
+          "note": "Departmental and CDT-linked studentships for some places; many students self-fund the 1-year MRes — Verify."
+        },
+        "pre_application_contact": "Encouraged",
+        "contact_note": "Because projects are supervisor-attached, emailing potential supervisors before applying is expected practice.",
+        "ects": 90,
+        "duration": "1 year (MRes)"
+      },
+      "links": {
+        "program": "https://www.imperial.ac.uk/study/courses/",
+        "admissions": "https://www.imperial.ac.uk/study/apply/postgraduate-taught/"
+      },
+      "data_currency": "MOCK entry for UI testing — programme structure and values illustrative; verify against imperial.ac.uk before use.",
+      "faculty": [
+        {
+          "id": "spencer-sherwin",
+          "name": "Spencer Sherwin",
+          "title": "Professor of Computational Fluid Mechanics, Aeronautics",
+          "sub_field": "Turbulence & CFD",
+          "tags": [
+            "spectral/hp element methods",
+            "Nektar++",
+            "transition to turbulence",
+            "high-order CFD"
+          ],
+          "summary": "Develops high-order spectral/hp element methods and leads the Nektar++ open-source framework used across academia and industry for high-fidelity flow simulation. Research spans transition and separation in complex geometries, vortex dynamics, stability analysis, and industrial LES for motorsport and aeronautics. Recent work couples high-order methods with data-driven stabilization and GPU implementation. A strong supervisor for numerics-heavy fluid dynamics research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.nektar.info/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "luca-magri",
+          "name": "Luca Magri",
+          "title": "Professor of Scientific Machine Learning, Aeronautics",
+          "sub_field": "ML for Fluids",
+          "tags": [
+            "physics-informed ML",
+            "thermoacoustics",
+            "data assimilation",
+            "chaotic systems"
+          ],
+          "summary": "Works at the interface of machine learning and fluid mechanics: physics-constrained neural networks and reservoir computing for predicting chaotic flows, adjoint-based sensitivity and data assimilation for thermoacoustic instabilities in aeroengines, and uncertainty-aware digital twins of reacting flows. Recent projects develop stability-preserving ML surrogates and real-time flow reconstruction from sparse sensors. An exact match for students targeting ML-augmented fluid dynamics.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://www.imperial.ac.uk/people/l.magri",
+            "scholar": null
+          }
+        },
+        {
+          "id": "maarten-van-reeuwijk",
+          "name": "Maarten van Reeuwijk",
+          "title": "Professor of Environmental Fluid Mechanics, Civil Engineering",
+          "sub_field": "Environmental & Atmospheric Fluids",
+          "tags": [
+            "urban boundary layers",
+            "LES",
+            "turbulent entrainment",
+            "plumes and jets"
+          ],
+          "summary": "Studies environmental turbulence with high-resolution simulation: large-eddy and direct numerical simulation of urban boundary layers and city-scale heat and pollutant dispersion (uDALES), the physics of turbulent entrainment in plumes, jets, and gravity currents, and mixing in stratified flows. Recent projects connect urban microclimate simulation to building design and climate adaptation. Bridges engineering CFD and atmospheric boundary-layer science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.imperial.ac.uk/people/m.vanreeuwijk",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "cornell-university-theoretical-and-applied-mechanics-phd",
+      "university": "Cornell University",
+      "program_name": "Theoretical and Applied Mechanics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Engineering Mechanics",
+        "subs": [
+          "Mechanics",
+          "Fluid Dynamics",
+          "Solid Mechanics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 105,
+        "fee_display": "$105",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Fully Funded",
+          "years": null,
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.cornell.edu/graduate-school/theoretical-applied-mechanics/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #12",
+      "faculty": []
+    },
+    {
+      "id": "georgia-institute-of-technology-engineering-science-and-mechanics-phd",
+      "university": "Georgia Institute of Technology",
+      "program_name": "Engineering Science and Mechanics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Engineering Mechanics",
+        "subs": [
+          "Mechanics",
+          "Engineering Science"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": 95,
+        "fee_display": "$95 domestic / $105 international",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://catalog.gatech.edu/programs/engineering-science-mechanics-phd/"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
+      "faculty": []
+    },
+    {
+      "id": "northwestern-university-theoretical-and-applied-mechanics-phd",
+      "university": "Northwestern University",
+      "program_name": "Theoretical and Applied Mechanics PhD",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Engineering Mechanics",
+        "subs": [
+          "Applied Mechanics",
+          "Solid Mechanics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2025-12-31",
+        "deadline_display": "Dec 31, 2025 (prior cycle)",
+        "application_fee_usd": 95,
+        "fee_display": "$95",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Unknown/Verify"
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.tgs.northwestern.edu/admission/academic-programs/explore-programs/theoretical-and-applied-mechanics.html"
+      },
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
+      "faculty": []
+    }
+  ]
+}
