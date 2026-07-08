@@ -15456,8 +15456,275 @@
       "links": {
         "program": "https://gradschool.sites.unc.edu/biological-and-biomedical-sciences/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #26",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #26 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "ilona-jaspers",
+          "name": "Ilona Jaspers",
+          "title": "Professor of Pediatrics, Microbiology and Immunology; Director, Curriculum in Toxicology and Environmental Medicine",
+          "sub_field": "Toxicology",
+          "tags": [
+            "inhalation toxicology",
+            "air pollution",
+            "respiratory viruses",
+            "immunotoxicology",
+            "host defense"
+          ],
+          "summary": "Director of the Toxicology program. Research focuses on how inhaled environmental agents, particularly air pollutants, alter respiratory immune responses and enhance susceptibility to respiratory virus infections. Studies mechanisms at the respiratory mucosal barrier.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/ilona-jaspers/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kim-l-r-brouwer",
+          "name": "Kim L.R. Brouwer",
+          "title": "Professor, UNC Eshelman School of Pharmacy",
+          "sub_field": "Toxicology",
+          "tags": [
+            "hepatic toxicology",
+            "pharmacokinetics",
+            "biliary excretion",
+            "drug transporters",
+            "hepatobiliary disposition"
+          ],
+          "summary": "Renowned expert in hepatobiliary drug disposition and hepatotoxicity. Research investigates the mechanisms governing hepatic drug transport, metabolism, and toxicity, with application to predicting and preventing drug-induced liver injury.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/kim-brouwer/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rebecca-fry",
+          "name": "Rebecca Fry",
+          "title": "Carol Remmer Angle Distinguished Professor, Department of Environmental Sciences and Engineering",
+          "sub_field": "Toxicology",
+          "tags": [
+            "toxicogenomics",
+            "systems biology",
+            "developmental toxicology",
+            "metal toxicity",
+            "susceptibility"
+          ],
+          "summary": "Uses toxicogenomic and systems biology approaches to understand molecular mechanisms of metal-induced disease and inter-individual susceptibility to environmental exposures, with focus on developmental origins of health and disease.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/rebecca-fry/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "julia-rager",
+          "name": "Julia Rager",
+          "title": "Associate Professor, Department of Environmental Sciences and Engineering",
+          "sub_field": "Toxicology",
+          "tags": [
+            "computational toxicology",
+            "chemical mixtures",
+            "exposure science",
+            "bioinformatics",
+            "risk assessment"
+          ],
+          "summary": "Integrates computational toxicology, bioinformatics, and high-throughput exposure science to evaluate health effects of environmental chemical mixtures. Develops data-driven frameworks to modernize chemical risk assessment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/julia-rager/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "leena-nylander-french",
+          "name": "Leena Nylander-French",
+          "title": "Professor, Department of Environmental Sciences and Engineering",
+          "sub_field": "Toxicology",
+          "tags": [
+            "exposure assessment",
+            "skin exposure",
+            "pharmacogenetics",
+            "occupational health",
+            "biomonitoring"
+          ],
+          "summary": "Research focuses on dermal and inhalation exposure assessment, the role of genetic polymorphisms in detoxification pathways on individual susceptibility, and the development of biomarkers for occupational and environmental exposures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/leena-nylander-french/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "paul-watkins",
+          "name": "Paul Watkins",
+          "title": "Professor, Departments of Medicine and Environmental Sciences and Engineering",
+          "sub_field": "Toxicology",
+          "tags": [
+            "mechanistic toxicology",
+            "hepatic toxicology",
+            "DILI",
+            "biomarkers",
+            "clinical translation"
+          ],
+          "summary": "Internationally recognized expert in drug-induced liver injury (DILI) and mechanistic toxicology. Research bridges preclinical models and clinical translation, developing safety biomarkers and novel approaches to predict and understand hepatotoxicity in patients.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/paul-watkins/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "samir-kelada",
+          "name": "Samir Kelada",
+          "title": "Professor, Department of Genetics",
+          "sub_field": "Toxicology",
+          "tags": [
+            "gene-environment interactions",
+            "airway disease",
+            "asthma",
+            "genetic susceptibility",
+            "respiratory toxicology"
+          ],
+          "summary": "Studies gene-environment interactions in airway diseases such as asthma, using mouse genetic models to identify genes that modify susceptibility to environmental exposures including air pollutants and allergens.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/samir-kelada/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "meghan-rebuli",
+          "name": "Meghan Rebuli",
+          "title": "Assistant Professor, Department of Pediatrics",
+          "sub_field": "Toxicology",
+          "tags": [
+            "respiratory toxicology",
+            "sex differences",
+            "air pollution",
+            "clinical research",
+            "inhaled exposures"
+          ],
+          "summary": "Research on respiratory immune toxicology with emphasis on sex-based differences in response to inhaled environmental exposures. Conducts translational and clinical studies characterizing airway responses to pollutants.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/meghan-rebuli/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mark-zylka",
+          "name": "Mark Zylka",
+          "title": "Professor, Department of Cell Biology and Physiology; Director, UNC Neuroscience Center",
+          "sub_field": "Toxicology",
+          "tags": [
+            "neurotoxicology",
+            "developmental neurotoxicity",
+            "autism",
+            "environmental risks",
+            "pain"
+          ],
+          "summary": "Research on environmental risk factors in neurodevelopmental disorders including autism, using mouse models to identify chemicals that disrupt brain development. Also develops CRISPR-based gene therapies and studies chronic pain mechanisms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/mark-zylka/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "matthew-redinbo",
+          "name": "Matthew Redinbo",
+          "title": "Professor, Department of Chemistry",
+          "sub_field": "Toxicology",
+          "tags": [
+            "structural biology",
+            "drug metabolism",
+            "microbiome",
+            "enzyme inhibition",
+            "drug toxicity"
+          ],
+          "summary": "Uses structural and chemical biology to understand human and microbial enzymes involved in drug metabolism and toxicity. Discovers interventions targeting the microbiome to prevent drug toxicity and improve therapeutic outcomes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/matthew-redinbo/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alexander-tropsha",
+          "name": "Alexander Tropsha",
+          "title": "Professor, UNC Eshelman School of Pharmacy",
+          "sub_field": "Toxicology",
+          "tags": [
+            "computational toxicology",
+            "cheminformatics",
+            "QSAR modeling",
+            "machine learning",
+            "drug safety"
+          ],
+          "summary": "Research in biomolecular informatics and computational toxicology, developing quantitative structure-activity relationship (QSAR) models and machine learning approaches to predict chemical toxicity and drug safety.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/alexander-tropsha/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "bernard-weissman",
+          "name": "Bernard Weissman",
+          "title": "Professor, Department of Pathology and Laboratory Medicine",
+          "sub_field": "Toxicology",
+          "tags": [
+            "epigenetics",
+            "chromatin remodeling",
+            "cancer biology",
+            "tumor suppressor genes",
+            "environmental carcinogenesis"
+          ],
+          "summary": "Studies chromatin remodeling and epigenetic alterations in human cancers, investigating how environmental exposures contribute to epigenetic changes that drive carcinogenesis. Research focuses on tumor suppressor gene regulation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/bernard-weissman/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "cyrus-vaziri",
+          "name": "Cyrus Vaziri",
+          "title": "Professor, Department of Pathology and Laboratory Medicine",
+          "sub_field": "Toxicology",
+          "tags": [
+            "DNA repair",
+            "cancer pharmacology",
+            "genomic instability",
+            "DNA damage response",
+            "replication stress"
+          ],
+          "summary": "Research defines DNA repair dependencies and vulnerabilities of cancer cells, investigating mechanisms of DNA damage tolerance and bypass that are relevant to both environmental carcinogenesis and cancer therapeutic resistance.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/cyrus-vaziri/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "folami-ideraabdullah",
+          "name": "Folami Ideraabdullah",
+          "title": "Associate Professor, Department of Genetics and Nutrition",
+          "sub_field": "Toxicology",
+          "tags": [
+            "developmental toxicology",
+            "epigenetics",
+            "nutritional toxicology",
+            "DOAD",
+            "genetic susceptibility"
+          ],
+          "summary": "Studies the interplay of genetics, nutrition, and environmental factors in developmental programming, investigating how maternal exposures and diet influence offspring health through epigenetic mechanisms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.unc.edu/toxicology/directory/folami-ideraabdullah/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "university-of-notre-dame-biological-sciences-phd",
@@ -17966,8 +18233,309 @@
       "links": {
         "program": "https://guide.wisc.edu/graduate/medicine-public-health-school-wide/molecular-environmental-toxicology-phd/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "chad-vezina",
+          "name": "Chad Vezina",
+          "title": "Professor of Comparative Biosciences; Director, Molecular and Environmental Toxicology Center",
+          "sub_field": "Developmental Toxicology, Urology",
+          "tags": [
+            "developmental toxicology",
+            "prostate development",
+            "dioxin",
+            "TCDD",
+            "environmental contaminants",
+            "urology"
+          ],
+          "summary": "Director of the Molecular and Environmental Toxicology Center. Research focuses on toxicology, pharmacology, physiology, and genetics of benign urinary disease, particularly how environmental contaminants like TCDD/dioxin disrupt prostate development. Also directs the Multidisciplinary K12 Urologic Research Career Development Program.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://metc.wisc.edu/staff/vezina-chad/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sathish-kumar",
+          "name": "Sathish Kumar",
+          "title": "Professor of Comparative Biosciences; Director, Molecular and Environmental Toxicology PhD Program",
+          "sub_field": "Cardiovascular Toxicology, Reproductive Toxicology",
+          "tags": [
+            "cardiovascular toxicology",
+            "pregnancy",
+            "preeclampsia",
+            "fetal origins of adult disease",
+            "placental function",
+            "vascular biology"
+          ],
+          "summary": "Director of the Molecular and Environmental Toxicology PhD program. Investigates cellular and molecular mechanisms regulating vascular, metabolic, and placental function with emphasis on pregnancy-related disorders and how adverse prenatal environments program later-life disease. Background in cardiovascular toxicology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.vetmed.wisc.edu/people/skumar82/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christopher-bradfield",
+          "name": "Christopher Bradfield",
+          "title": "Professor of Oncology, McArdle Laboratory for Cancer Research",
+          "sub_field": "Molecular Toxicology, Xenobiotic Metabolism",
+          "tags": [
+            "molecular toxicology",
+            "Ah receptor",
+            "ARNT",
+            "dioxin",
+            "PAS proteins",
+            "circadian rhythms"
+          ],
+          "summary": "Studies PAS protein family of transcriptional regulators controlling xenobiotic metabolism (Ah-receptor/ARNT), circadian rhythms, and hypoxia signaling. Major focus on the Ah receptor pathway mediating responses to dioxins, PCBs, and PAHs. Identified the cellular receptor for dioxin. Former METC director. NIEHS RIVER and MERIT Award recipient.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mcardle.wisc.edu/faculty/christopher-bradfield/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lauren-trepanier",
+          "name": "Lauren Trepanier",
+          "title": "Professor of Medical Sciences; Melita Grunow Family Professor in Companion Animal Health",
+          "sub_field": "Environmental Carcinogenesis, Comparative Toxicology",
+          "tags": [
+            "environmental carcinogenesis",
+            "veterinary toxicology",
+            "bladder cancer",
+            "lymphoma",
+            "GST enzymes",
+            "chemical exposures"
+          ],
+          "summary": "Examines interaction between genetics and environmental chemicals in cancer risk in dogs and humans. Studies links between tap-water contaminants (acrolein, arsenic), household chemicals, herbicides/pesticides and canine cancers including lymphoma and bladder cancer. Investigates genetic variations in glutathione S-transferase enzymes affecting carcinogen detoxification. Retired from clinical practice but remains research-active.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://uwveterinarycare.wisc.edu/people/latrepanier/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeffrey-johnson",
+          "name": "Jeffrey Johnson",
+          "title": "Professor of Pharmaceutical Sciences",
+          "sub_field": "Neurotoxicology, Neurodegeneration",
+          "tags": [
+            "neurotoxicology",
+            "Nrf2 pathway",
+            "Alzheimer's disease",
+            "Parkinson's disease",
+            "ALS",
+            "oxidative stress"
+          ],
+          "summary": "Research in molecular neurotoxicology and neurodegeneration, focusing on the Nrf2-ARE antioxidant response pathway as a neuroprotective mechanism. Studies Alzheimer's, Parkinson's, Huntington's diseases and ALS. Develops small molecule activators and cell transplantation approaches for neuroprotection. PhD in Environmental Toxicology from UW-Madison.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pharmacy.wisc.edu/tag/jeff-johnson/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "james-schauer",
+          "name": "James Schauer",
+          "title": "Professor of Civil and Environmental Engineering; Director, Wisconsin State Laboratory of Hygiene",
+          "sub_field": "Environmental Chemistry, Air Pollution Toxicology",
+          "tags": [
+            "air pollution",
+            "PM2.5",
+            "source apportionment",
+            "oxidative potential",
+            "atmospheric aerosols",
+            "chemical characterization"
+          ],
+          "summary": "Develops measurement and chemical characterization tools to understand origin and health impacts of air pollution. Studies oxidative potential and toxicity of particulate matter, source apportionment using molecular markers, and indoor/urban/regional air quality. U.S. Science Envoy for Air Quality (2018). Over 500 publications and 38,000 citations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://directory.engr.wisc.edu/display.php/faculty/schauer_james",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christy-remucal",
+          "name": "Christy Remucal",
+          "title": "Professor of Civil and Environmental Engineering",
+          "sub_field": "Environmental Chemistry, Aquatic Contaminants",
+          "tags": [
+            "environmental chemistry",
+            "water quality",
+            "aquatic contaminants",
+            "photochemistry",
+            "PFAS",
+            "organic pollutants"
+          ],
+          "summary": "Research focuses on environmental chemistry of aquatic contaminants, photochemical transformation of organic pollutants, and fate of emerging contaminants including PFAS in surface waters. Investigates how sunlight and other natural processes transform contaminants in the environment. METC faculty affiliate.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.wisc.edu/directory/profile/christy-remucal/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "katherine-mcmahon",
+          "name": "Katherine McMahon",
+          "title": "Vilas Distinguished Achievement Professor of Civil and Environmental Engineering",
+          "sub_field": "Environmental Microbiology, Microbial Ecology",
+          "tags": [
+            "environmental microbiology",
+            "microbial ecology",
+            "freshwater systems",
+            "nutrient cycling",
+            "wastewater",
+            "microbiome"
+          ],
+          "summary": "Studies microbial communities in freshwater ecosystems and engineered systems, including lakes, wastewater treatment plants, and drinking water. Research connects environmental microbiology to human and ecosystem health. METC faculty affiliate. Vilas Distinguished Achievement Professor.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.wisc.edu/directory/profile/trina-mcmahon/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nihal-ahmad",
+          "name": "Nihal Ahmad",
+          "title": "Professor of Dermatology",
+          "sub_field": "Cancer Biology, Molecular Oncology",
+          "tags": [
+            "cancer biology",
+            "molecular oncology",
+            "skin cancer",
+            "chemoprevention",
+            "UV radiation",
+            "melanoma"
+          ],
+          "summary": "Research in molecular oncology with focus on skin cancer biology, chemoprevention, and mechanisms of UV radiation-induced carcinogenesis. Studies how environmental exposures contribute to cancer development and progression. METC faculty affiliate.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.med.wisc.edu/dermatology/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "robert-lipinski",
+          "name": "Robert Lipinski",
+          "title": "Associate Professor of Comparative Biosciences",
+          "sub_field": "Developmental Toxicology, Birth Defects Research",
+          "tags": [
+            "developmental toxicology",
+            "birth defects",
+            "craniofacial development",
+            "genetic susceptibility",
+            "environmental exposures",
+            "gene-environment interactions"
+          ],
+          "summary": "Investigates gene-environment interactions in developmental toxicology, particularly how environmental exposures interact with genetic susceptibility to cause birth defects including craniofacial malformations. Uses mouse models to study developmental toxicity mechanisms. METC faculty affiliate.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.vetmed.wisc.edu/department/comparative-biosciences/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kimberly-keil-stietz",
+          "name": "Kimberly Keil Stietz",
+          "title": "Assistant Professor of Comparative Biosciences",
+          "sub_field": "Neurotoxicology, Developmental Neurobiology",
+          "tags": [
+            "neurotoxicology",
+            "developmental neurobiology",
+            "environmental exposures",
+            "neurodevelopment",
+            "gene-environment interactions",
+            "neurodegeneration"
+          ],
+          "summary": "Research focuses on neurotoxicology and developmental neurobiology, studying how environmental exposures affect brain development and contribute to neurodevelopmental and neurodegenerative disorders. Uses molecular and cellular approaches to understand mechanisms of neurotoxicity. METC faculty affiliate.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.vetmed.wisc.edu/department/comparative-biosciences/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "heather-barkholtz",
+          "name": "Heather Barkholtz",
+          "title": "Assistant Professor of Pharmaceutical Sciences",
+          "sub_field": "Analytical Toxicology, Bioanalytical Chemistry",
+          "tags": [
+            "analytical toxicology",
+            "bioanalytical chemistry",
+            "mass spectrometry",
+            "toxin detection",
+            "drug metabolism",
+            "forensic toxicology"
+          ],
+          "summary": "Develops analytical chemistry methods for toxicological applications including mass spectrometry-based approaches for toxin detection and drug metabolism studies. Bridges analytical chemistry and toxicology. METC faculty affiliate.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pharmacy.wisc.edu/directory/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lingjun-li",
+          "name": "Lingjun Li",
+          "title": "Professor of Pharmaceutical Sciences; Vilas Distinguished Achievement Professor",
+          "sub_field": "Analytical Chemistry, Neuroproteomics",
+          "tags": [
+            "analytical chemistry",
+            "mass spectrometry",
+            "neuroproteomics",
+            "peptidomics",
+            "neuropeptides",
+            "neurodegeneration"
+          ],
+          "summary": "Develops mass spectrometry-based analytical methods for neuroproteomics and peptidomics to study neuropeptide signaling in neurodegenerative diseases. Research contributes to understanding molecular mechanisms of neurotoxicity and neurodegeneration. Vilas Distinguished Achievement Professor. METC faculty affiliate.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pharmacy.wisc.edu/directory/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jyoti-watters",
+          "name": "Jyoti Watters",
+          "title": "Professor of Comparative Biosciences",
+          "sub_field": "Neuroinflammation, Environmental Stressors",
+          "tags": [
+            "neuroinflammation",
+            "environmental stressors",
+            "microglia",
+            "innate immunity",
+            "respiratory toxicology",
+            "sex differences"
+          ],
+          "summary": "Studies neuroinflammation and innate immunity in the central nervous system, particularly how environmental stressors including respiratory challenges modulate microglial function and neuroinflammation. Investigates sex differences in neuroinflammatory responses. METC faculty affiliate.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.vetmed.wisc.edu/department/comparative-biosciences/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emery-bresnick",
+          "name": "Emery Bresnick",
+          "title": "Professor of Cell and Regenerative Biology",
+          "sub_field": "Hematology, Gene Regulation",
+          "tags": [
+            "hematology",
+            "GATA transcription factors",
+            "gene regulation",
+            "hemoglobin",
+            "leukemia",
+            "environmental hematotoxicology"
+          ],
+          "summary": "Research on GATA transcription factor regulation in hematopoiesis, with implications for understanding how environmental toxicants disrupt blood cell development and contribute to hematological diseases including leukemia. Studies mechanisms of gene regulation in blood stem and progenitor cells. METC faculty affiliate.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://crb.wisc.edu/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "university-of-wisconsin-madison-pharmaceutical-sciences-phd",
