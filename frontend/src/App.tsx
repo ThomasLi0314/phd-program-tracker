@@ -15,9 +15,10 @@ import { FieldSearch } from './components/FieldSearch'
 import { ProgramIndex } from './components/ProgramIndex'
 import { DeepDive } from './components/DeepDive'
 import { AdvisorExplorer } from './components/AdvisorExplorer'
+import { SchoolExplorer } from './components/SchoolExplorer'
 import { RequestFieldModal } from './components/RequestFieldModal'
 
-type View = 'programs' | 'advisors'
+type View = 'programs' | 'advisors' | 'schools'
 
 function App() {
   const [index, setIndex] = useState<DataIndex | null>(null)
@@ -31,6 +32,7 @@ function App() {
   const [view, setView] = useState<View>('programs')
   const [sortBy, setSortBy] = useState<SortKey>('university')
   const [advisorQuery, setAdvisorQuery] = useState('')
+  const [schoolQuery, setSchoolQuery] = useState('')
   const [onlyMyList, setOnlyMyList] = useState(false)
   const [showRequest, setShowRequest] = useState(false)
   const { myList, toggle: toggleMyList } = useMyList()
@@ -67,10 +69,10 @@ function App() {
     return s
   }, [filters.primaries, filters.subs])
 
-  // Fields whose data must be fetched. The advisor view searches across the
-  // whole database, so entering it auto-selects every field.
+  // Fields whose data must be fetched. The advisor and school views search
+  // across the whole database, so entering them auto-selects every field.
   const neededPrimaries = useMemo(() => {
-    if (view === 'advisors' && index) return new Set(index.fields.map((f) => f.primary))
+    if (view !== 'programs' && index) return new Set(index.fields.map((f) => f.primary))
     return selectedPrimaries
   }, [view, index, selectedPrimaries])
 
@@ -112,9 +114,9 @@ function App() {
     return sortPrograms(result, sortBy)
   }, [pool, filters, facets, onlyMyList, myList, sortBy])
 
-  // Advisor view: every program in the database (discipline selection ignored);
-  // the other sidebar filters (degree, region, GRE, fee) still apply.
-  const advisorPrograms = useMemo(() => {
+  // Advisor/school views: every program in the database (discipline selection
+  // ignored); the other sidebar filters (degree, region, GRE, fee) still apply.
+  const fullPool = useMemo(() => {
     if (!facets || !index) return []
     const noDiscipline: Filters = { ...filters, primaries: new Set(), subs: new Set() }
     let result: Program[] = []
@@ -137,7 +139,7 @@ function App() {
   }, [filtered, selectedId])
 
   const selected = filtered.find((p) => p.id === selectedId) ?? null
-  const shown = view === 'advisors' ? advisorPrograms : filtered
+  const shown = view === 'programs' ? filtered : fullPool
   const facultyCount = shown.reduce((n, p) => n + p.faculty.length, 0)
   const stillLoading = loadingFields.size > 0
 
@@ -148,7 +150,7 @@ function App() {
 
   const openProgram = (id: string) => {
     // Tick the program's field so the deep-dive is visible in the programs view.
-    const prog = advisorPrograms.find((p) => p.id === id)
+    const prog = fullPool.find((p) => p.id === id)
     if (prog && !selectedPrimaries.has(prog.discipline.primary)) {
       setFilters((f) => ({ ...f, primaries: new Set(f.primaries).add(prog.discipline.primary) }))
     }
@@ -189,7 +191,7 @@ function App() {
 
         <div className="flex items-center gap-3">
           <div className="flex overflow-hidden rounded border border-slate-600 text-[11px] font-medium">
-            {(['programs', 'advisors'] as View[]).map((v) => (
+            {(['programs', 'advisors', 'schools'] as View[]).map((v) => (
               <button
                 key={v}
                 onClick={() => setView(v)}
@@ -292,11 +294,18 @@ function App() {
               />
             </>
           )
-        ) : (
+        ) : view === 'advisors' ? (
           <AdvisorExplorer
-            programs={advisorPrograms}
+            programs={fullPool}
             query={advisorQuery}
             onQueryChange={setAdvisorQuery}
+            onOpenProgram={openProgram}
+          />
+        ) : (
+          <SchoolExplorer
+            programs={fullPool}
+            query={schoolQuery}
+            onQueryChange={setSchoolQuery}
             onOpenProgram={openProgram}
           />
         )}
