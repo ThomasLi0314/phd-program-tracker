@@ -37,7 +37,7 @@ for (const file of readdirSync(STAGING).sort()) {
   if (!file.endsWith('.json') || file.startsWith('_')) continue
   let doc
   try {
-    doc = JSON.parse(readFileSync(join(STAGING, file), 'utf8'))
+    doc = JSON.parse(readFileSync(join(STAGING, file), 'utf8').replace(/^﻿/, ''))
   } catch (e) {
     problems.push(`${file}: unparseable (${e.message})`)
     continue
