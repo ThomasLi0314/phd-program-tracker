@@ -40,7 +40,14 @@ for (const [primary, programs] of byPrimary) {
   const subs = [...new Set(programs.flatMap((p) => p.discipline.subs))].sort()
   const withFaculty = programs.filter((p) => (p.faculty?.length ?? 0) > 0).length
   const facultyCount = programs.reduce((n, p) => n + (p.faculty?.length ?? 0), 0)
-  fields.push({ primary, slug, count: programs.length, withFaculty, facultyCount, subs })
+  // Sub-fields that appear on at least one faculty-bearing program. The rest are
+  // folded away in the sidebar (most sub-fields have no advisors scanned yet).
+  const subsWithFaculty = [
+    ...new Set(
+      programs.filter((p) => (p.faculty?.length ?? 0) > 0).flatMap((p) => p.discipline.subs),
+    ),
+  ].sort()
+  fields.push({ primary, slug, count: programs.length, withFaculty, facultyCount, subs, subsWithFaculty })
   writeFileSync(join(FIELDS_DIR, `${slug}.json`), JSON.stringify({ primary, programs }, null, 2))
 }
 fields.sort((a, b) => b.count - a.count || a.primary.localeCompare(b.primary))

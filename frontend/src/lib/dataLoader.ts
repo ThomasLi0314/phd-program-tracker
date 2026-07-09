@@ -9,6 +9,8 @@ export interface FieldEntry {
   /** total faculty across all programs in this field */
   facultyCount: number
   subs: string[]
+  /** sub-fields that appear on at least one faculty-bearing program */
+  subsWithFaculty: string[]
 }
 
 export interface DataIndex {
