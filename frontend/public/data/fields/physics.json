@@ -3538,8 +3538,566 @@
       "links": {
         "program": "https://www.cmu.edu/physics/graduate-program/index.html"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "rachel-mandelbaum",
+          "name": "Rachel Mandelbaum",
+          "title": "Professor and Department Head",
+          "sub_field": "Astrophysics and Cosmology",
+          "tags": [
+            "weak gravitational lensing",
+            "galaxy surveys",
+            "dark matter",
+            "dark energy",
+            "LSST/Rubin"
+          ],
+          "summary": "Observational cosmology using weak gravitational lensing. Galaxy-galaxy lensing, intrinsic alignments, and large-scale structure. Key roles in Rubin Observatory LSST and DES.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/mandelbaum.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "curtis-meyer",
+          "name": "Curtis Meyer",
+          "title": "Otto Stern Professor of Physics",
+          "sub_field": "Nuclear and Particle Physics",
+          "tags": [
+            "quark interactions",
+            "hadron spectroscopy",
+            "GlueX experiment",
+            "Jefferson Lab"
+          ],
+          "summary": "Experimental nuclear/particle physics. Quark interaction and hadron spectroscopy. Search for exotic hybrid mesons with the GlueX experiment at Jefferson Lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/meyer.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "scott-dodelson",
+          "name": "Scott Dodelson",
+          "title": "Professor",
+          "sub_field": "Astrophysics and Cosmology",
+          "tags": [
+            "cosmology",
+            "dark energy",
+            "dark matter",
+            "large-scale structure",
+            "CMB"
+          ],
+          "summary": "Theoretical cosmology. Dark energy, dark matter, cosmological probes of fundamental physics. Co-author of the standard textbook Modern Cosmology. Key role in LSST/DESI.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/dodelson.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rupert-croft",
+          "name": "Rupert Croft",
+          "title": "Professor",
+          "sub_field": "Astrophysics and Cosmology",
+          "tags": [
+            "cosmological simulations",
+            "large-scale structure",
+            "galaxy formation",
+            "dark matter"
+          ],
+          "summary": "Computational cosmology. Large-scale structure of the universe, galaxy formation, and cosmological hydrodynamical simulations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/croft.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tiziana-di-matteo",
+          "name": "Tiziana Di Matteo",
+          "title": "Professor; Director, McWilliams Center for Cosmology and Astrophysics",
+          "sub_field": "Astrophysics and Cosmology",
+          "tags": [
+            "cosmological simulations",
+            "black holes",
+            "galaxy formation",
+            "quasars"
+          ],
+          "summary": "Computational astrophysics. Large-scale cosmological simulations of black hole growth and galaxy formation. Director of McWilliams Center.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/dimatteo.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "manfred-paulini",
+          "name": "Manfred Paulini",
+          "title": "Professor; MCS Associate Dean for Research",
+          "sub_field": "Nuclear and Particle Physics",
+          "tags": [
+            "CMS experiment",
+            "LHC",
+            "collider physics",
+            "Higgs physics"
+          ],
+          "summary": "Experimental high-energy physics at the CMS experiment (LHC). Higgs boson physics, electroweak measurements, and detector development.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/paulini.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "colin-morningstar",
+          "name": "Colin Morningstar",
+          "title": "Professor",
+          "sub_field": "Nuclear and Particle Physics",
+          "tags": [
+            "Lattice QCD",
+            "hadron spectroscopy",
+            "exotic hadrons",
+            "computational physics"
+          ],
+          "summary": "Theoretical nuclear/particle physics. Lattice QCD calculations of hadron spectroscopy. Exotic hadrons and resonances from first-principles QCD.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/morningstar.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeffrey-peterson",
+          "name": "Jeffrey Peterson",
+          "title": "Professor",
+          "sub_field": "Astrophysics and Cosmology",
+          "tags": [
+            "21cm cosmology",
+            "radio astronomy",
+            "epoch of reionization",
+            "instrumentation"
+          ],
+          "summary": "Observational cosmology with 21cm radio astronomy. Probing the epoch of reionization and cosmic dawn through neutral hydrogen surveys.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/peterson.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ira-rothstein",
+          "name": "Ira Rothstein",
+          "title": "Professor",
+          "sub_field": "Nuclear and Particle Physics",
+          "tags": [
+            "effective field theory",
+            "high energy theory",
+            "gravitational wave physics",
+            "collider physics"
+          ],
+          "summary": "Theoretical high energy physics. Effective field theories for QCD, heavy quarks, and gravitational-wave physics. Connections to collider phenomenology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/rothstein.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "matthew-walker",
+          "name": "Matthew Walker",
+          "title": "Professor",
+          "sub_field": "Astrophysics and Cosmology",
+          "tags": [
+            "dwarf galaxies",
+            "dark matter",
+            "stellar dynamics",
+            "near-field cosmology"
+          ],
+          "summary": "Observational astrophysics of dwarf galaxies. Using stellar kinematics of dwarf spheroidals to constrain dark matter distribution and galaxy formation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/walker.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-widom",
+          "name": "Michael Widom",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "electronic structure",
+            "quasicrystals",
+            "alloys",
+            "computational materials"
+          ],
+          "summary": "Theoretical condensed matter physics. Electronic structure of complex materials, quasicrystals, metallic alloys, and computational modeling of materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/widom.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "roy-briere",
+          "name": "Roy Briere",
+          "title": "Professor",
+          "sub_field": "Nuclear and Particle Physics",
+          "tags": [
+            "BESIII",
+            "charm physics",
+            "CP violation",
+            "tau physics"
+          ],
+          "summary": "Experimental high-energy physics. Charm physics, CP violation studies, and tau lepton physics with the BESIII experiment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/briere.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sara-majetich",
+          "name": "Sara Majetich",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "magnetic nanoparticles",
+            "nanomagnetism",
+            "spintronics",
+            "materials synthesis"
+          ],
+          "summary": "Experimental condensed matter physics. Magnetic nanoparticles, nanomagnetism, and spintronics. Synthesis and characterization of magnetic nanomaterials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/majetich.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "markus-deserno",
+          "name": "Markus Deserno",
+          "title": "Professor; Director of Graduate Affairs",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "membranes",
+            "lipid bilayers",
+            "coarse-grained simulations",
+            "computational biophysics"
+          ],
+          "summary": "Theoretical biological physics. Computational modeling of lipid membranes, membrane-protein interactions, and coarse-grained simulations of soft biological matter.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/deserno.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-alison",
+          "name": "John Alison",
+          "title": "Associate Professor",
+          "sub_field": "Nuclear and Particle Physics",
+          "tags": [
+            "ATLAS experiment",
+            "LHC",
+            "Higgs physics",
+            "machine learning in HEP"
+          ],
+          "summary": "Experimental high-energy physics at ATLAS (LHC). Higgs boson physics, top quark studies, and machine learning for particle physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/alison.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "benjamin-hunt",
+          "name": "Benjamin Hunt",
+          "title": "Associate Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "2D materials",
+            "quantum transport",
+            "van der Waals heterostructures",
+            "mesoscopic physics"
+          ],
+          "summary": "Experimental condensed matter. Quantum transport in 2D materials and van der Waals heterostructures. Mesoscopic physics and correlated electron systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/hunt.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jyoti-katoch",
+          "name": "Jyoti Katoch",
+          "title": "Associate Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "2D materials",
+            "angle-resolved photoemission",
+            "electronic structure",
+            "quantum materials"
+          ],
+          "summary": "Experimental condensed matter. ARPES studies of electronic structure in 2D materials and quantum materials. Strongly correlated and topological systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/katoch.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "diana-parno",
+          "name": "Diana Parno",
+          "title": "Falco-DeBenedetti Associate Professor of Physics",
+          "sub_field": "Nuclear and Particle Physics",
+          "tags": [
+            "neutrino physics",
+            "neutrino mass",
+            "KATRIN",
+            "direct neutrino mass measurement"
+          ],
+          "summary": "Experimental neutrino physics. Direct neutrino mass measurement with KATRIN experiment. Neutrino properties and their cosmological implications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/parno.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "riccardo-penco",
+          "name": "Riccardo Penco",
+          "title": "Associate Professor",
+          "sub_field": "Nuclear and Particle Physics",
+          "tags": [
+            "effective field theory",
+            "scattering amplitudes",
+            "cosmology"
+          ],
+          "summary": "Theoretical high energy physics. Effective field theory methods for particle physics and cosmology. Scattering amplitudes and cosmological correlators.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/penco.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rachel-rosen",
+          "name": "Rachel Rosen",
+          "title": "Associate Professor",
+          "sub_field": "Nuclear and Particle Physics",
+          "tags": [
+            "quantum field theory",
+            "gravity",
+            "cosmology",
+            "effective field theory"
+          ],
+          "summary": "Theoretical physics at the intersection of quantum field theory, gravity, and cosmology. Effective field theory techniques for gravitational physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/rosen.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sufei-shi",
+          "name": "Sufei Shi",
+          "title": "Associate Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "2D materials",
+            "quantum transport",
+            "optoelectronics",
+            "heterostructures"
+          ],
+          "summary": "Experimental condensed matter. Quantum transport and optoelectronic properties of 2D materials and their heterostructures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/shi.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "simranjeet-singh",
+          "name": "Simranjeet Singh",
+          "title": "Associate Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "spintronics",
+            "quantum materials",
+            "spin transport",
+            "2D magnets"
+          ],
+          "summary": "Experimental condensed matter. Spintronics and spin transport in quantum materials. 2D magnetic materials and spin-orbit coupling phenomena.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/singh-s.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "hy-trac",
+          "name": "Hy Trac",
+          "title": "Associate Professor",
+          "sub_field": "Astrophysics and Cosmology",
+          "tags": [
+            "cosmological simulations",
+            "large-scale structure",
+            "reionization",
+            "galaxy clusters"
+          ],
+          "summary": "Computational cosmology. Numerical simulations of large-scale structure, galaxy clusters, and cosmic reionization. Hydrodynamical simulations of structure formation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/trac.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "katelyn-breivik",
+          "name": "Katelyn Breivik",
+          "title": "Assistant Professor",
+          "sub_field": "Astrophysics and Cosmology",
+          "tags": [
+            "binary star evolution",
+            "gravitational wave sources",
+            "stellar populations",
+            "LISA"
+          ],
+          "summary": "Computational astrophysics. Binary star evolution and population synthesis. Predicting gravitational wave source populations for LIGO/Virgo and LISA.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/breivik.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "shubhayu-chatterjee",
+          "name": "Shubhayu Chatterjee",
+          "title": "Assistant Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "topological phases",
+            "strongly correlated systems",
+            "quantum materials"
+          ],
+          "summary": "Theory of topological phases of matter and strongly correlated electron systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/chatterjee.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "matteo-cremonesi",
+          "name": "Matteo Cremonesi",
+          "title": "Assistant Professor",
+          "sub_field": "Nuclear and Particle Physics",
+          "tags": [
+            "neutrino physics",
+            "DUNE",
+            "liquid argon detectors",
+            "particle physics"
+          ],
+          "summary": "Experimental particle physics. Neutrino physics with DUNE experiment. Liquid argon time projection chamber technology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/cremonesi.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "valentina-dutta",
+          "name": "Valentina Dutta",
+          "title": "Assistant Professor",
+          "sub_field": "Nuclear and Particle Physics",
+          "tags": [
+            "collider physics",
+            "Higgs physics",
+            "beyond Standard Model",
+            "CMS experiment"
+          ],
+          "summary": "Experimental particle physics at CMS (LHC). Precision Higgs measurements and searches for new physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/dutta.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "vladyslav-kozii",
+          "name": "Vladyslav Kozii",
+          "title": "Assistant Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "topological materials",
+            "superconductivity",
+            "quantum transport",
+            "Dirac/Weyl semimetals"
+          ],
+          "summary": "Theoretical condensed matter physics. Topological materials, superconductivity, and quantum transport in Dirac and Weyl semimetals.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/kozii.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "antonella-palmese",
+          "name": "Antonella Palmese",
+          "title": "Assistant Professor",
+          "sub_field": "Astrophysics and Cosmology",
+          "tags": [
+            "dark energy",
+            "gravitational wave cosmology",
+            "multimessenger astronomy",
+            "DES"
+          ],
+          "summary": "Observational cosmology. Dark energy studies with gravitational wave standard sirens and large-scale structure surveys including DES and LSST.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/palmese.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "fangwei-si",
+          "name": "Fangwei Si",
+          "title": "Cooper-Siegel Assistant Professor of Physics",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "bacterial cell biology",
+            "quantitative microscopy",
+            "single-cell dynamics",
+            "systems biology"
+          ],
+          "summary": "Experimental biological physics. Quantitative studies of bacterial cell physiology. Single-cell dynamics, growth control, and cellular decision-making.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/si.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "grigory-tarnopolskiy",
+          "name": "Grigory Tarnopolskiy",
+          "title": "Assistant Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "condensed matter theory",
+            "high energy theory",
+            "quantum field theory"
+          ],
+          "summary": "Theoretical physics spanning condensed matter and high energy theory. Quantum field theory methods applied to condensed matter systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/physics/people/faculty/tarnopolskiy.html",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "columbia-university-chemical-physics-phd",
