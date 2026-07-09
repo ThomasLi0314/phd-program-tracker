@@ -3235,7 +3235,7 @@
             "neutron stars",
             "instrumentation"
           ],
-          "summary": "High-energy astrophysics. Principal Investigator of NuSTAR (Nuclear Spectroscopic Telescope Array). X-ray studies of black holes and neutron stars.",
+          "summary": "High-energy astrophysics. Principal Investigator of NuSTAR. X-ray studies of black holes and neutron stars.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://pma.caltech.edu/people/fiona-a-harrison",
@@ -3316,24 +3316,6 @@
           }
         },
         {
-          "id": "oskar-j-painter",
-          "name": "Oskar J. Painter",
-          "title": "Professor of Applied Physics and Physics",
-          "sub_field": "Quantum Optics",
-          "tags": [
-            "nanophotonics",
-            "optomechanics",
-            "quantum information",
-            "superconducting circuits"
-          ],
-          "summary": "Quantum photonics and optomechanics. Chip-based quantum optical devices, optomechanical crystals, and superconducting quantum circuits.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://pma.caltech.edu/people/oskar-j-painter",
-            "scholar": null
-          }
-        },
-        {
           "id": "ryan-b-patterson",
           "name": "Ryan B. Patterson",
           "title": "Professor of Physics",
@@ -3359,8 +3341,7 @@
           "tags": [
             "quantum computing",
             "quantum error correction",
-            "topological quantum computation",
-            "quantum information"
+            "topological quantum computation"
           ],
           "summary": "Pioneer of quantum information science. Quantum computation, quantum error correction, topological quantum computation, and foundations of quantum information.",
           "recruitment_status": "Unknown/Verify",
@@ -3390,7 +3371,7 @@
         {
           "id": "maria-spiropulu",
           "name": "Maria Spiropulu",
-          "title": "Professor of Physics; Shang-Yi Ch'en Professor of Physics",
+          "title": "Professor of Physics; Shang-Yi Chen Professor of Physics",
           "sub_field": "Experimental High Energy Physics",
           "tags": [
             "CMS experiment",
@@ -3439,6 +3420,41 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://pma.caltech.edu/people/nai-chang-yeh",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nelson-darkwah-oppong",
+          "name": "Nelson Darkwah Oppong",
+          "title": "Assistant Professor of Physics",
+          "sub_field": "AMO Experiment",
+          "tags": [
+            "ultracold atoms",
+            "quantum simulation",
+            "quantum many-body physics"
+          ],
+          "summary": "Experimental atomic physics. Ultracold atoms and molecules for quantum simulation of many-body systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/nelson-darkwah-oppong",
+            "scholar": null
+          }
+        },
+        {
+          "id": "robert-huang",
+          "name": "Robert Huang",
+          "title": "Assistant Professor of Theoretical Physics; William H. Hurt Scholar",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "quantum field theory",
+            "gravity",
+            "black holes",
+            "holography"
+          ],
+          "summary": "Theoretical physics. Quantum field theory, gravity, black hole information, and holographic duality.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/robert-huang",
             "scholar": null
           }
         }

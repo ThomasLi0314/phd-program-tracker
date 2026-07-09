@@ -3008,7 +3008,7 @@
             "metamaterials",
             "solar fuels"
           ],
-          "summary": "Interdisciplinary materials and device research spanning photonics and electronics. Si-based photonics, plasmonics, artificial photosynthesis, and mechanically active thin-film devices. Director, Joint Center for Artificial Photosynthesis (past).",
+          "summary": "Interdisciplinary materials and device research spanning photonics and electronics. Si-based photonics, plasmonics, artificial photosynthesis, and mechanically active thin-film devices.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://daedalus.caltech.edu",
@@ -3044,7 +3044,7 @@
             "ultrafast dynamics",
             "first-principles theory"
           ],
-          "summary": "Theory and ab initio computation of light-matter interaction, carrier dynamics, and transport in materials. Electron-phonon physics from first principles.",
+          "summary": "Theory and ab initio computation of light-matter interaction, carrier dynamics, and transport in materials.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.aphms.caltech.edu/people/marco-bernardi",
@@ -3081,7 +3081,7 @@
             "robotics",
             "energy"
           ],
-          "summary": "Design and characterization of architected materials with unusual mechanical and thermal properties. Acoustic metamaterials, soft robotics, and advanced manufacturing.",
+          "summary": "Design and characterization of architected materials with unusual mechanical and thermal properties. Acoustic metamaterials, soft robotics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.aphms.caltech.edu/people/chiara-daraio",
@@ -3130,7 +3130,7 @@
           "title": "Assistant Professor of Materials Science",
           "sub_field": "Quantum Materials",
           "tags": [
-            "molecular beam epitaxy",
+            "MBE",
             "quantum materials",
             "superconductivity",
             "topological systems"
@@ -3154,7 +3154,7 @@
             "quantum networks",
             "spin-photon interfaces"
           ],
-          "summary": "On-chip quantum photonic devices for quantum information. Rare-earth ions coupled to nanophotonic resonators. Flat optics based on dielectric metasurfaces. Director of KNI.",
+          "summary": "On-chip quantum photonic devices. Rare-earth ions coupled to nanophotonic resonators for quantum networks. Flat optics based on dielectric metasurfaces. Director of KNI.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.aphms.caltech.edu/people/andrei-faraon",
@@ -3209,7 +3209,7 @@
             "mechanical metamaterials",
             "deformation"
           ],
-          "summary": "Nano- and micro-architected materials. 3D nanofabrication, mechanical size effects, and hierarchical materials. Director of the Kavli Nanoscience Institute (past).",
+          "summary": "Nano- and micro-architected materials. 3D nanofabrication, mechanical size effects, and hierarchical materials.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.aphms.caltech.edu/people/julia-r-greer",
@@ -3228,7 +3228,7 @@
             "femtosecond lasers",
             "Ising machines"
           ],
-          "summary": "Nonlinear photonic devices and systems for quantum optics, optical computing, and information processing. On-chip femtosecond lasers and optical Ising machines.",
+          "summary": "Nonlinear photonic devices and systems for quantum optics, optical computing, and information processing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.aphms.caltech.edu/people/alireza-marandi",
@@ -3264,7 +3264,7 @@
             "microwave photonics",
             "quantum transduction"
           ],
-          "summary": "Superconducting qubits and chip-based quantum devices. Quantum optics at microwave frequencies, quantum transduction, and multi-physics quantum information processing.",
+          "summary": "Superconducting qubits and chip-based quantum devices. Quantum optics at microwave frequencies, quantum transduction.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.aphms.caltech.edu/people/mohammad-mirhosseini",
@@ -3300,7 +3300,7 @@
             "biomechanics",
             "quantitative biology"
           ],
-          "summary": "Physical biology of the cell. Quantitative models of gene regulation, allostery, membrane biophysics, and the biophysics of viral infection.",
+          "summary": "Physical biology of the cell. Quantitative models of gene regulation, allostery, membrane biophysics, and viral infection biophysics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.aphms.caltech.edu/people/rob-phillips",
@@ -3318,7 +3318,7 @@
             "biosensing",
             "quantum measurement"
           ],
-          "summary": "Nanoscale electromechanical systems (NEMS). Nanofluidic devices for single-molecule analysis, NEMS-based biosensing, and quantum-limited measurements.",
+          "summary": "Nanoscale electromechanical systems (NEMS). Nanofluidic devices for single-molecule analysis and NEMS-based biosensing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.aphms.caltech.edu/people/michael-l-roukes",
@@ -3336,7 +3336,7 @@
             "magneto-optics",
             "biophotonics"
           ],
-          "summary": "Nanofabrication for opto-electronic, magneto-optic, and photonic devices. Integrated photonics, biophotonics, and nanoscale device engineering.",
+          "summary": "Nanofabrication for opto-electronic, magneto-optic, and photonic devices. Integrated photonics and biophotonics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.aphms.caltech.edu/people/axel-scherer",
@@ -3354,7 +3354,7 @@
             "superconducting devices",
             "quantum acoustics"
           ],
-          "summary": "Quantum-limited microwave amplifiers and optomechanical structures. Nanomechanical systems at the quantum limit, quantum acoustics, and advanced superconducting devices.",
+          "summary": "Quantum-limited microwave amplifiers and optomechanical structures. Nanomechanical systems at the quantum limit, quantum acoustics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.aphms.caltech.edu/people/keith-c-schwab",
@@ -3372,7 +3372,7 @@
             "nanoscale hydrodynamics",
             "pattern formation"
           ],
-          "summary": "Micro/nanoscale fluid dynamics and interfacial phenomena. Pattern formation in thin films, electrohydrodynamics, and nanofluidic transport.",
+          "summary": "Micro/nanoscale fluid dynamics and interfacial phenomena. Pattern formation in thin films and electrohydrodynamics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.aphms.caltech.edu/people/sandra-troian",
@@ -3589,7 +3589,7 @@
             "large-scale structure",
             "CMB"
           ],
-          "summary": "Theoretical cosmology. Dark energy, dark matter, cosmological probes of fundamental physics. Co-author of the standard textbook Modern Cosmology. Key role in LSST/DESI.",
+          "summary": "Theoretical cosmology. Dark energy, dark matter, cosmological probes of fundamental physics. Co-author of the standard textbook Modern Cosmology.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/dodelson.html",
@@ -3697,7 +3697,7 @@
             "gravitational wave physics",
             "collider physics"
           ],
-          "summary": "Theoretical high energy physics. Effective field theories for QCD, heavy quarks, and gravitational-wave physics. Connections to collider phenomenology.",
+          "summary": "Theoretical high energy physics. Effective field theories for QCD, heavy quarks, and gravitational-wave physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/rothstein.html",
@@ -3715,7 +3715,7 @@
             "stellar dynamics",
             "near-field cosmology"
           ],
-          "summary": "Observational astrophysics of dwarf galaxies. Using stellar kinematics of dwarf spheroidals to constrain dark matter distribution and galaxy formation.",
+          "summary": "Observational astrophysics of dwarf galaxies. Using stellar kinematics of dwarf spheroidals to constrain dark matter distribution.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/walker.html",
@@ -3733,7 +3733,7 @@
             "alloys",
             "computational materials"
           ],
-          "summary": "Theoretical condensed matter physics. Electronic structure of complex materials, quasicrystals, metallic alloys, and computational modeling of materials.",
+          "summary": "Theoretical condensed matter physics. Electronic structure of complex materials, quasicrystals, metallic alloys.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/widom.html",
@@ -3769,7 +3769,7 @@
             "spintronics",
             "materials synthesis"
           ],
-          "summary": "Experimental condensed matter physics. Magnetic nanoparticles, nanomagnetism, and spintronics. Synthesis and characterization of magnetic nanomaterials.",
+          "summary": "Experimental condensed matter physics. Magnetic nanoparticles, nanomagnetism, and spintronics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/majetich.html",
@@ -3787,7 +3787,7 @@
             "coarse-grained simulations",
             "computational biophysics"
           ],
-          "summary": "Theoretical biological physics. Computational modeling of lipid membranes, membrane-protein interactions, and coarse-grained simulations of soft biological matter.",
+          "summary": "Theoretical biological physics. Computational modeling of lipid membranes and membrane-protein interactions.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/deserno.html",
@@ -3823,7 +3823,7 @@
             "van der Waals heterostructures",
             "mesoscopic physics"
           ],
-          "summary": "Experimental condensed matter. Quantum transport in 2D materials and van der Waals heterostructures. Mesoscopic physics and correlated electron systems.",
+          "summary": "Experimental condensed matter. Quantum transport in 2D materials and van der Waals heterostructures.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/hunt.html",
@@ -3841,7 +3841,7 @@
             "electronic structure",
             "quantum materials"
           ],
-          "summary": "Experimental condensed matter. ARPES studies of electronic structure in 2D materials and quantum materials. Strongly correlated and topological systems.",
+          "summary": "Experimental condensed matter. ARPES studies of electronic structure in 2D materials and quantum materials.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/katoch.html",
@@ -3859,7 +3859,7 @@
             "KATRIN",
             "direct neutrino mass measurement"
           ],
-          "summary": "Experimental neutrino physics. Direct neutrino mass measurement with KATRIN experiment. Neutrino properties and their cosmological implications.",
+          "summary": "Experimental neutrino physics. Direct neutrino mass measurement with KATRIN experiment.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/parno.html",
@@ -3876,7 +3876,7 @@
             "scattering amplitudes",
             "cosmology"
           ],
-          "summary": "Theoretical high energy physics. Effective field theory methods for particle physics and cosmology. Scattering amplitudes and cosmological correlators.",
+          "summary": "Theoretical high energy physics. Effective field theory methods for particle physics and cosmology.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/penco.html",
@@ -3894,7 +3894,7 @@
             "cosmology",
             "effective field theory"
           ],
-          "summary": "Theoretical physics at the intersection of quantum field theory, gravity, and cosmology. Effective field theory techniques for gravitational physics.",
+          "summary": "Theoretical physics at the intersection of quantum field theory, gravity, and cosmology.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/rosen.html",
@@ -3930,7 +3930,7 @@
             "spin transport",
             "2D magnets"
           ],
-          "summary": "Experimental condensed matter. Spintronics and spin transport in quantum materials. 2D magnetic materials and spin-orbit coupling phenomena.",
+          "summary": "Experimental condensed matter. Spintronics and spin transport in quantum materials.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/singh-s.html",
@@ -3948,7 +3948,7 @@
             "reionization",
             "galaxy clusters"
           ],
-          "summary": "Computational cosmology. Numerical simulations of large-scale structure, galaxy clusters, and cosmic reionization. Hydrodynamical simulations of structure formation.",
+          "summary": "Computational cosmology. Numerical simulations of large-scale structure, galaxy clusters, and cosmic reionization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/trac.html",
@@ -3966,7 +3966,7 @@
             "stellar populations",
             "LISA"
           ],
-          "summary": "Computational astrophysics. Binary star evolution and population synthesis. Predicting gravitational wave source populations for LIGO/Virgo and LISA.",
+          "summary": "Computational astrophysics. Binary star evolution and population synthesis for gravitational wave source predictions.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/breivik.html",
@@ -3998,8 +3998,7 @@
           "tags": [
             "neutrino physics",
             "DUNE",
-            "liquid argon detectors",
-            "particle physics"
+            "liquid argon detectors"
           ],
           "summary": "Experimental particle physics. Neutrino physics with DUNE experiment. Liquid argon time projection chamber technology.",
           "recruitment_status": "Unknown/Verify",
@@ -4037,7 +4036,7 @@
             "quantum transport",
             "Dirac/Weyl semimetals"
           ],
-          "summary": "Theoretical condensed matter physics. Topological materials, superconductivity, and quantum transport in Dirac and Weyl semimetals.",
+          "summary": "Theoretical condensed matter physics. Topological materials, superconductivity, and quantum transport.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/kozii.html",
@@ -4055,7 +4054,7 @@
             "multimessenger astronomy",
             "DES"
           ],
-          "summary": "Observational cosmology. Dark energy studies with gravitational wave standard sirens and large-scale structure surveys including DES and LSST.",
+          "summary": "Observational cosmology. Dark energy studies with gravitational wave standard sirens and large-scale structure surveys.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/palmese.html",
@@ -4073,7 +4072,7 @@
             "single-cell dynamics",
             "systems biology"
           ],
-          "summary": "Experimental biological physics. Quantitative studies of bacterial cell physiology. Single-cell dynamics, growth control, and cellular decision-making.",
+          "summary": "Experimental biological physics. Quantitative studies of bacterial cell physiology and single-cell dynamics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/si.html",
@@ -4090,7 +4089,7 @@
             "high energy theory",
             "quantum field theory"
           ],
-          "summary": "Theoretical physics spanning condensed matter and high energy theory. Quantum field theory methods applied to condensed matter systems.",
+          "summary": "Theoretical physics spanning condensed matter and high energy theory.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/physics/people/faculty/tarnopolskiy.html",
