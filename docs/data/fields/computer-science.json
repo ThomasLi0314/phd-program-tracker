@@ -3003,8 +3003,456 @@
       "links": {
         "program": "https://computerscience.emory.edu/graduate-phd/admissions/index.html"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #24",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #24 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "eugene-agichtein",
+          "name": "Eugene Agichtein",
+          "title": "Professor",
+          "sub_field": "Machine Learning",
+          "tags": [
+            "Information Retrieval",
+            "Recommender Systems",
+            "Conversational AI",
+            "NLP",
+            "Data Mining",
+            "HCI"
+          ],
+          "summary": "Research on information retrieval, recommender systems, conversational AI, and web search. Leads the Intelligent Information Access Lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.cs.emory.edu/~eugene",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dorian-arnold",
+          "name": "Dorian Arnold",
+          "title": "Associate Professor; Director of Graduate Studies",
+          "sub_field": "Systems",
+          "tags": [
+            "Distributed Systems",
+            "High-Performance Computing",
+            "Systems Software",
+            "Fault-tolerance"
+          ],
+          "summary": "Research on operating and distributed systems, high-performance computing, systems software, and resilience/fault-tolerance.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://dorianarnold.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yana-bromberg",
+          "name": "Yana Bromberg",
+          "title": "Professor",
+          "sub_field": "Bioinformatics",
+          "tags": [
+            "Computational Biology",
+            "Genomics",
+            "Machine Learning",
+            "Protein Function Prediction"
+          ],
+          "summary": "Research on molecular function prediction from genomic data using computational, machine learning, and network-based methods for annotation and analysis of molecular functions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bromberglab.org",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jinho-choi",
+          "name": "Jinho Choi",
+          "title": "Associate Professor",
+          "sub_field": "NLP",
+          "tags": [
+            "Natural Language Processing",
+            "Machine Learning",
+            "Text Mining",
+            "Medical Informatics",
+            "Conversational AI"
+          ],
+          "summary": "Research on natural language processing, machine learning, text mining, and medical informatics. Leads the Emory NLP lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://cs.emory.edu/~choi",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ali-emami",
+          "name": "Ali Emami",
+          "title": "Assistant Professor",
+          "sub_field": "NLP",
+          "tags": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "AI Interpretability",
+            "Computational Social Science"
+          ],
+          "summary": "Research on NLP, exploring advanced reasoning capabilities in large language models and innovative benchmarking methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "michelangelo-grigni",
+          "name": "Michelangelo Grigni",
+          "title": "Associate Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory of Computation",
+            "Graph Algorithms",
+            "Approximation Algorithms",
+            "Metric Approximation"
+          ],
+          "summary": "Research on theory of computation: approximate subgraph optimization problems, graph decomposition algorithms (spanners and separators), metric approximation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.cs.emory.edu/~mic/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joyce-ho",
+          "name": "Joyce Ho",
+          "title": "Associate Professor; Director of Graduate Studies CS MS",
+          "sub_field": "Machine Learning",
+          "tags": [
+            "Data Mining",
+            "Machine Learning",
+            "Healthcare Informatics",
+            "Interpretable Models",
+            "EHR"
+          ],
+          "summary": "Research on data mining, machine learning, healthcare informatics, dimensionality reduction, interpretable models, and electronic health records.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://joyceho.github.io",
+            "scholar": null
+          }
+        },
+        {
+          "id": "wei-jin",
+          "name": "Wei Jin",
+          "title": "Assistant Professor",
+          "sub_field": "Machine Learning",
+          "tags": [
+            "Graph Neural Networks",
+            "Graph Machine Learning",
+            "Trustworthy AI",
+            "AI for Science"
+          ],
+          "summary": "Research on graph neural networks, graph machine learning, data-centric AI, trustworthy AI, and AI for science and healthcare.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.cs.emory.edu/~wjin30/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joon-seok-kim",
+          "name": "Joon-Seok Kim",
+          "title": "Assistant Professor",
+          "sub_field": "Data Science",
+          "tags": [
+            "Data Science",
+            "AI",
+            "Simulation",
+            "Urban Computing",
+            "Spatial Data Mining"
+          ],
+          "summary": "Research on data science with emphasis on AI and simulation for urban environments, human mobility, social networks, and public health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.joonseok.org/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "youngjoong-kwon",
+          "name": "Youngjoong Kwon",
+          "title": "Assistant Professor",
+          "sub_field": "Computer Vision",
+          "tags": [
+            "Computer Vision",
+            "Computer Graphics",
+            "3D Reconstruction",
+            "AR/VR",
+            "Healthcare"
+          ],
+          "summary": "Research on computer vision and computer graphics, human digitization, 3D reconstruction, AR/VR, and healthcare applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "fei-liu",
+          "name": "Fei Liu",
+          "title": "Associate Professor",
+          "sub_field": "NLP",
+          "tags": [
+            "Natural Language Processing",
+            "Deep Learning",
+            "Summarization",
+            "Large Language Models",
+            "Generative AI"
+          ],
+          "summary": "Research on natural language processing and deep learning, including summarization, large language models, and generative AI.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.emory.edu/~fliu40",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ken-mandelberg",
+          "name": "Ken Mandelberg",
+          "title": "Associate Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Operating Systems",
+            "Networking",
+            "Graphics"
+          ],
+          "summary": "Research on operating systems, networking, and graphics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "temiloluwa-prioleau",
+          "name": "Temiloluwa Prioleau",
+          "title": "Assistant Professor",
+          "sub_field": "Health Informatics",
+          "tags": [
+            "Digital Health",
+            "Mobile Health",
+            "Wearable Technology",
+            "Data Science",
+            "Machine Learning",
+            "HCI"
+          ],
+          "summary": "Research on digital and computational health, mobile/wearable technology, and data science/machine learning for human-centered computing and personalized health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.t-prioleau.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yolanda-rankin",
+          "name": "Yolanda Rankin",
+          "title": "Associate Professor",
+          "sub_field": "HCI",
+          "tags": [
+            "Human-Computer Interaction",
+            "CS Education",
+            "Gaming"
+          ],
+          "summary": "Research on human-computer interaction, with interests in CS education and gaming.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "kai-shu",
+          "name": "Kai Shu",
+          "title": "Assistant Professor",
+          "sub_field": "Machine Learning",
+          "tags": [
+            "Trustworthy AI",
+            "Misinformation",
+            "Self-supervised Learning",
+            "Meta Learning",
+            "Foundation Models"
+          ],
+          "summary": "Research on AI for social good (disinformation, privacy, security, healthcare), trustworthy AI, self-/weakly-supervised learning, and large foundation model factuality and reliability.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.emory.edu/~kshu5/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "vaidy-sunderam",
+          "name": "Vaidy Sunderam",
+          "title": "Professor; Department Chair",
+          "sub_field": "Systems",
+          "tags": [
+            "Distributed Computing",
+            "Heterogeneous Computing",
+            "Collaborative Computing",
+            "Networked Data Management"
+          ],
+          "summary": "Research on concurrent and distributed heterogeneous computing systems, collaborative computing, and software infrastructures for networked data management and computation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.cs.emory.edu/~vss",
+            "scholar": null
+          }
+        },
+        {
+          "id": "shengpu-tang",
+          "name": "Shengpu Tang",
+          "title": "Assistant Professor",
+          "sub_field": "Machine Learning",
+          "tags": [
+            "Machine Learning",
+            "Reinforcement Learning",
+            "Healthcare Informatics",
+            "Precision Medicine",
+            "EHR"
+          ],
+          "summary": "Research on machine learning, reinforcement learning, healthcare informatics, precision medicine, and electronic health records.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://shengpu-tang.me/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dishita-turakhia",
+          "name": "Dishita Turakhia",
+          "title": "Assistant Professor",
+          "sub_field": "HCI",
+          "tags": [
+            "Human-Computer Interaction",
+            "Learning Sciences",
+            "AR/VR/XR",
+            "Generative AI",
+            "Ubiquitous Sensing"
+          ],
+          "summary": "Research on HCI and learning sciences, designing systems for learning physical/motor/fabrication skills using ubiquitous sensing, AR/VR/XR tools, and generative AI.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://dishitaturakhia.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emily-wall",
+          "name": "Emily Wall",
+          "title": "Assistant Professor",
+          "sub_field": "HCI",
+          "tags": [
+            "Information Visualization",
+            "Visual Analytics",
+            "Decision Making",
+            "Human-Computer Interaction"
+          ],
+          "summary": "Research on information visualization, visual analytics, decision making, and human-computer interaction.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://emilywall.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kristin-williams",
+          "name": "Kristin Williams",
+          "title": "Assistant Professor",
+          "sub_field": "HCI",
+          "tags": [
+            "Human-Computer Interaction",
+            "IoT",
+            "Backscatter Communication",
+            "Battery-free Wireless",
+            "Physical Computing"
+          ],
+          "summary": "Research on HCI, lightweight Internet of Things for the home, backscatter communication, battery-free wireless UI, and upcycled IoT.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.emory.edu/~kwil271/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "li-xiong",
+          "name": "Li Xiong",
+          "title": "Professor",
+          "sub_field": "Data Science",
+          "tags": [
+            "Data Privacy",
+            "Data Security",
+            "Data Management",
+            "Biomedical Informatics"
+          ],
+          "summary": "Research on data privacy and security, data and information management, and biomedical informatics. Leads the AIMS lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.cs.emory.edu/~lxiong/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "carl-yang",
+          "name": "Carl Yang",
+          "title": "Assistant Professor",
+          "sub_field": "Machine Learning",
+          "tags": [
+            "Graph Data Mining",
+            "Applied Machine Learning",
+            "Knowledge Graphs",
+            "Recommender Systems",
+            "Biomedical Informatics"
+          ],
+          "summary": "Research on graph data mining, applied machine learning, biomedical informatics, knowledge bases, social networks, and recommender systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://jiyang3.web.engr.illinois.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "liang-zhao",
+          "name": "Liang Zhao",
+          "title": "Associate Professor",
+          "sub_field": "Machine Learning",
+          "tags": [
+            "Data Mining",
+            "Machine Learning",
+            "Nonconvex Optimization",
+            "Graph Deep Learning",
+            "Spatio-temporal Mining",
+            "Interpretable ML"
+          ],
+          "summary": "Research on data mining, machine learning, and nonconvex optimization, with deep learning on graphs, societal event prediction, spatio-temporal data mining, and interpretable machine learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cs.emory.edu/~lzhao41/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andreas-z-fle",
+          "name": "Andreas Z眉fle",
+          "title": "Associate Professor",
+          "sub_field": "Data Science",
+          "tags": [
+            "Databases",
+            "Data Mining",
+            "Simulation",
+            "Spatial Computing",
+            "Efficient Algorithms"
+          ],
+          "summary": "Research on databases, data mining, simulation, efficient algorithms, and spatial computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.zuefle.org/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "georgetown-university-ph-d-in-computer-science",
@@ -3045,8 +3493,406 @@
       "links": {
         "program": "https://cs.georgetown.edu/graduate/phd/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #24",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #24 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "sarah-adel-bargal",
+          "name": "Sarah Adel Bargal",
+          "title": "Assistant Professor; Provost's Distinguished Faculty Fellow",
+          "sub_field": "Computer Vision",
+          "tags": [
+            "Computer Vision",
+            "Machine Learning",
+            "Deep Learning"
+          ],
+          "summary": "Research on computer vision and machine learning, with focus on deep learning for visual understanding.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://bargal.georgetown.domains",
+            "scholar": null
+          }
+        },
+        {
+          "id": "matt-blaze",
+          "name": "Matt Blaze",
+          "title": "Professor; Robert L. McDevitt Chair",
+          "sub_field": "Security",
+          "tags": [
+            "Cryptography",
+            "Computer Security",
+            "Network Security",
+            "Technology Policy"
+          ],
+          "summary": "Research on cryptography, computer and network security, and technology policy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.mattblaze.org/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeremy-fineman",
+          "name": "Jeremy Fineman",
+          "title": "Provost's Distinguished Professor; Wagner Term Chair",
+          "sub_field": "Theory",
+          "tags": [
+            "Algorithm Design",
+            "Data Structures",
+            "Parallel Algorithms",
+            "Scheduling",
+            "Memory-Efficient Algorithms"
+          ],
+          "summary": "Research on algorithm design, data structures, parallel algorithms, scheduling, and memory-efficient algorithms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.cs.georgetown.edu/~jfineman/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ophir-frieder",
+          "name": "Ophir Frieder",
+          "title": "Professor",
+          "sub_field": "NLP",
+          "tags": [
+            "Information Retrieval",
+            "Medical Informatics",
+            "Communication Systems"
+          ],
+          "summary": "Research on information retrieval, medical informatics, and communication systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.cs.georgetown.edu/~ophir/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sasha-golovnev",
+          "name": "Sasha Golovnev",
+          "title": "Assistant Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "Computational Complexity",
+            "Algorithms",
+            "Pseudorandomness",
+            "Cryptography",
+            "Learning Theory"
+          ],
+          "summary": "Research on computational complexity, algorithms, pseudorandomness, cryptography, and learning theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://golovnev.org/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "bala-kalyanasundaram",
+          "name": "Bala Kalyanasundaram",
+          "title": "Craves Family Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "Online Algorithms",
+            "Parallel Algorithms",
+            "Randomized Algorithms",
+            "Learning Theory",
+            "Bioinformatics"
+          ],
+          "summary": "Research on online, parallel, and randomized algorithms, concrete complexity, learning theory, networking, and bioinformatics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.cs.georgetown.edu/~kalyan/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yoshi-kohno",
+          "name": "Yoshi Kohno",
+          "title": "Professor; Robert L. McDevitt Chair",
+          "sub_field": "Security",
+          "tags": [
+            "Computer Security",
+            "AI and Society",
+            "Technology Policy",
+            "Ethics"
+          ],
+          "summary": "Research on computer security, artificial intelligence and society, technology policy, and ethics and technology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "mark-maloof",
+          "name": "Mark Maloof",
+          "title": "Professor",
+          "sub_field": "Machine Learning",
+          "tags": [
+            "Machine Learning",
+            "Data Mining",
+            "Online Learning",
+            "Concept Drift",
+            "Security Applications"
+          ],
+          "summary": "Research on machine learning, data mining, online learning, concept drift, and security applications of ML.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.cs.georgetown.edu/~maloof/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "calvin-newport",
+          "name": "Calvin Newport",
+          "title": "Provost's Distinguished Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Distributed Algorithms",
+            "Wireless Networks",
+            "Theory of Distributed Computing"
+          ],
+          "summary": "Research on distributed algorithms and wireless networks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.cs.georgetown.edu/~cnewport/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kobbi-nissim",
+          "name": "Kobbi Nissim",
+          "title": "Professor; Robert L. McDevitt Term Chair",
+          "sub_field": "Security",
+          "tags": [
+            "Cryptography",
+            "Differential Privacy",
+            "Privacy Law",
+            "Privacy Policy"
+          ],
+          "summary": "Research on cryptography, differential privacy, and privacy law and policy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.cs.georgetown.edu/~kobbi/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elissa-redmiles",
+          "name": "Elissa Redmiles",
+          "title": "Clare Boothe Luce Assistant Professor",
+          "sub_field": "Security",
+          "tags": [
+            "Usable Security",
+            "Privacy",
+            "Ethics",
+            "HCI",
+            "Data Science"
+          ],
+          "summary": "Research on security, privacy, and ethics, with focus on usable security, measurement, HCI, and data science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://elissaredmiles.com",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nathan-schneider",
+          "name": "Nathan Schneider",
+          "title": "Associate Professor (joint with Linguistics)",
+          "sub_field": "NLP",
+          "tags": [
+            "Computational Linguistics",
+            "Natural Language Processing",
+            "Corpus Annotation",
+            "Machine Learning"
+          ],
+          "summary": "Research on computational linguistics and natural language processing, including corpus annotation, machine learning, and applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.cs.georgetown.edu/nschneid/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "micah-sherr",
+          "name": "Micah Sherr",
+          "title": "Callahan Family Professor",
+          "sub_field": "Security",
+          "tags": [
+            "Security",
+            "Privacy",
+            "Networks"
+          ],
+          "summary": "Research on security, privacy, and networks. Leads the Georgetown Security Lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://seclab.cs.georgetown.edu/msherr/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "clay-shields",
+          "name": "Clay Shields",
+          "title": "Professor",
+          "sub_field": "Security",
+          "tags": [
+            "Computer Security",
+            "Network Security",
+            "Digital Forensics"
+          ],
+          "summary": "Research on computer security, network security, and digital forensics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.cs.georgetown.edu/~clay/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lisa-singh",
+          "name": "Lisa Singh",
+          "title": "Professor; Department Chair",
+          "sub_field": "Machine Learning",
+          "tags": [
+            "Data Mining",
+            "Social Mining",
+            "Privacy",
+            "Visual Analytics",
+            "Data Science",
+            "Databases"
+          ],
+          "summary": "Research on data mining, social mining, privacy, visual analytics, data science, and databases.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.cs.georgetown.edu/~singh/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "justin-thaler",
+          "name": "Justin Thaler",
+          "title": "Provost's Distinguished Associate Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "Algorithms for Massive Data",
+            "Verifiable Computation",
+            "Computational Learning"
+          ],
+          "summary": "Research on algorithms for massive data sets, verifiable computation, and computational learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.cs.georgetown.edu/jthaler/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "benjamin-ujcich",
+          "name": "Benjamin Ujcich",
+          "title": "Assistant Professor",
+          "sub_field": "Security",
+          "tags": [
+            "Security",
+            "Networking",
+            "Systems",
+            "Provenance"
+          ],
+          "summary": "Research on security, networking, systems, and provenance.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://benujcich.georgetown.domains",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nitin-vaidya",
+          "name": "Nitin Vaidya",
+          "title": "Professor; Robert L. McDevitt Chair",
+          "sub_field": "Systems",
+          "tags": [
+            "Distributed Algorithms",
+            "Fault-Tolerant Algorithms",
+            "Secure ML",
+            "Optimization"
+          ],
+          "summary": "Research on distributed algorithms and systems, secure and fault-tolerant algorithms for optimization and machine learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://disc.georgetown.domains",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mahe-velauthapillai",
+          "name": "Mahe Velauthapillai",
+          "title": "Professor; McBride Family Endowed Chair",
+          "sub_field": "Machine Learning",
+          "tags": [
+            "Learning Theory",
+            "Algorithms",
+            "Bioinformatics"
+          ],
+          "summary": "Research on learning theory, algorithms, and bioinformatics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "radha-venkatagiri",
+          "name": "Radha Venkatagiri",
+          "title": "Assistant Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Computer Architecture",
+            "Hardware Resiliency",
+            "Approximate Computing"
+          ],
+          "summary": "Research on computer architecture, hardware resiliency, and approximate computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "muthu-venkitasubramaniam",
+          "name": "Muthu Venkitasubramaniam",
+          "title": "Professor",
+          "sub_field": "Security",
+          "tags": [
+            "Cryptography",
+            "Privacy",
+            "Network Security",
+            "Complexity Theory"
+          ],
+          "summary": "Research on cryptography, privacy, network security, and complexity theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://muthu.georgetown.domains",
+            "scholar": null
+          }
+        },
+        {
+          "id": "grace-hui-yang",
+          "name": "Grace Hui Yang",
+          "title": "Professor",
+          "sub_field": "NLP",
+          "tags": [
+            "Information Retrieval",
+            "Deep Reinforcement Learning",
+            "Machine Learning",
+            "Ontology",
+            "Question Answering",
+            "Privacy"
+          ],
+          "summary": "Research on information retrieval, deep reinforcement learning, machine learning, ontology, question answering, and privacy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://infosense.cs.georgetown.edu/grace/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "georgia-institute-of-technology-bioinformatics-phd",
