@@ -23531,6 +23531,25 @@
             "homepage": null,
             "scholar": null
           }
+        },
+        {
+          "id": "mattia-serra",
+          "name": "Mattia Serra",
+          "title": "Associate Professor",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "active matter",
+            "morphogenesis",
+            "nonlinear dynamics",
+            "biophysics",
+            "fluid dynamics"
+          ],
+          "summary": "Develops data-driven mathematical methods and physical models for nonlinear biological and physical systems, focusing on self-organization in embryonic development, morphogenesis control, active matter, and fluid dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.mattiaserra.com/",
+            "scholar": "https://scholar.google.com/citations?user=XQIJlgIAAAAJ&hl=en"
+          }
         }
       ]
     },
