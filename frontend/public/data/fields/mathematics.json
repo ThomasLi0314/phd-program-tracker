@@ -15961,8 +15961,434 @@
       "links": {
         "program": "https://math.osu.edu/grad/future/apply"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #41",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #41 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "vitaly-bergelson",
+          "name": "Vitaly Bergelson",
+          "title": "Distinguished Professor of Math and Physical Sciences",
+          "sub_field": "Ergodic Theory, Ramsey Theory, Combinatorial Number Theory",
+          "tags": [
+            "Pure Math",
+            "Dynamical Systems",
+            "Combinatorics"
+          ],
+          "summary": "Ergodic theory, combinatorial number theory, multiple recurrence, ultra filters, dynamical systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/bergelson.1",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-anderson",
+          "name": "David Anderson",
+          "title": "Professor",
+          "sub_field": "Algebraic Geometry, Toric Varieties, Intersection Theory",
+          "tags": [
+            "Pure Math",
+            "Algebra",
+            "Geometry"
+          ],
+          "summary": "Algebraic geometry, toric varieties, Schubert calculus, equivariant intersection theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/anderson.2804",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ovidiu-costin",
+          "name": "Ovidiu Costin",
+          "title": "Professor",
+          "sub_field": "Analysis, PDE, Applied Math",
+          "tags": [
+            "Pure Math",
+            "Applied Math",
+            "PDE"
+          ],
+          "summary": "Asymptotic analysis, resurgence theory, ODE, PDE, mathematical physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/costin.9",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rodica-costin",
+          "name": "Rodica Costin",
+          "title": "Professor",
+          "sub_field": "Analysis, ODE, Mathematical Physics",
+          "tags": [
+            "Pure Math",
+            "Applied Math",
+            "Analysis"
+          ],
+          "summary": "Asymptotic analysis, ODE, integrable systems, Painleve equations, mathematical physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/costin.10",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrey-gogolyev",
+          "name": "Andrey Gogolyev",
+          "title": "Professor",
+          "sub_field": "Dynamical Systems, Smooth Dynamics, Geometry",
+          "tags": [
+            "Pure Math",
+            "Dynamical Systems",
+            "Geometry"
+          ],
+          "summary": "Smooth dynamical systems, partially hyperbolic systems, rigidity theory, Anosov systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/gogolyev.1",
+            "scholar": null
+          }
+        },
+        {
+          "id": "bo-guan",
+          "name": "Bo Guan",
+          "title": "Professor",
+          "sub_field": "PDE, Geometric Analysis",
+          "tags": [
+            "Pure Math",
+            "PDE",
+            "Geometry"
+          ],
+          "summary": "Fully nonlinear elliptic PDE, geometric analysis, complex Monge-Ampere equations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/guan.19",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-harper",
+          "name": "John Harper",
+          "title": "Professor",
+          "sub_field": "Algebraic Topology, Homotopy Theory",
+          "tags": [
+            "Pure Math",
+            "Topology",
+            "Algebra"
+          ],
+          "summary": "Algebraic topology, homotopy theory, structured ring spectra, spectral sequences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/harper.903",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ivo-herzog",
+          "name": "Ivo Herzog",
+          "title": "Professor",
+          "sub_field": "Model Theory, Algebra, Representation Theory",
+          "tags": [
+            "Pure Math",
+            "Algebra",
+            "Logic"
+          ],
+          "summary": "Pure model theory, model theory of modules, representation theory of Artin algebras.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/herzog.23",
+            "scholar": null
+          }
+        },
+        {
+          "id": "roman-holowinsky",
+          "name": "Roman Holowinsky",
+          "title": "Associate Professor",
+          "sub_field": "Number Theory, Automorphic Forms",
+          "tags": [
+            "Pure Math",
+            "Number Theory",
+            "Analysis"
+          ],
+          "summary": "Analytic number theory, automorphic forms, L-functions, subconvexity problems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/holowinsky.1",
+            "scholar": null
+          }
+        },
+        {
+          "id": "roy-joshua",
+          "name": "Roy Joshua",
+          "title": "Professor",
+          "sub_field": "Algebraic Geometry, K-Theory, Motivic Cohomology",
+          "tags": [
+            "Pure Math",
+            "Algebra",
+            "Geometry"
+          ],
+          "summary": "Algebraic geometry, algebraic K-theory, motivic homotopy theory, intersection theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/joshua.3",
+            "scholar": null
+          }
+        },
+        {
+          "id": "matthew-kahle",
+          "name": "Matthew Kahle",
+          "title": "Professor and Chair",
+          "sub_field": "Random Topology, Combinatorics, Probability",
+          "tags": [
+            "Pure Math",
+            "Topology",
+            "Combinatorics"
+          ],
+          "summary": "Topological combinatorics, random simplicial complexes, random graphs, topological data analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/kahle.37",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jean-francois-lafont",
+          "name": "Jean-Francois Lafont",
+          "title": "Professor",
+          "sub_field": "Geometric Group Theory, Topology",
+          "tags": [
+            "Pure Math",
+            "Topology",
+            "Geometry"
+          ],
+          "summary": "Geometric group theory, hyperbolic geometry, topology, rigidity theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/lafont.1",
+            "scholar": null
+          }
+        },
+        {
+          "id": "king-yeung-adrian-lam",
+          "name": "King-Yeung (Adrian) Lam",
+          "title": "Professor",
+          "sub_field": "PDE, Mathematical Biology",
+          "tags": [
+            "Applied Math",
+            "PDE",
+            "Math Biology"
+          ],
+          "summary": "Reaction-diffusion equations, mathematical biology, spatial ecology, propagation phenomena.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/lam.184",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dustin-mixon",
+          "name": "Dustin Mixon",
+          "title": "Associate Professor",
+          "sub_field": "Applied Math, Signal Processing, Combinatorics",
+          "tags": [
+            "Applied Math",
+            "Combinatorics",
+            "Data Science"
+          ],
+          "summary": "Frame theory, compressed sensing, equiangular lines, combinatorial geometry.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/mixon.23",
+            "scholar": null
+          }
+        },
+        {
+          "id": "hoi-nguyen",
+          "name": "Hoi Nguyen",
+          "title": "Professor",
+          "sub_field": "Probability, Random Matrix Theory",
+          "tags": [
+            "Pure Math",
+            "Probability",
+            "Math Physics"
+          ],
+          "summary": "Random matrix theory, probability, universality, concentration inequalities.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/nguyen.1261",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jennifer-park",
+          "name": "Jennifer Park",
+          "title": "Associate Professor",
+          "sub_field": "Arithmetic Geometry, Number Theory",
+          "tags": [
+            "Pure Math",
+            "Number Theory",
+            "Algebra"
+          ],
+          "summary": "Arithmetic geometry, Diophantine geometry, rational points, Campana points.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/park.2720",
+            "scholar": null
+          }
+        },
+        {
+          "id": "stefan-patrikis",
+          "name": "Stefan Patrikis",
+          "title": "Professor",
+          "sub_field": "Number Theory, Algebraic Geometry, Langlands Program",
+          "tags": [
+            "Pure Math",
+            "Number Theory",
+            "Algebra"
+          ],
+          "summary": "Automorphic forms, Galois representations, Langlands program, p-adic methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/patrikis.1",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nimish-shah",
+          "name": "Nimish Shah",
+          "title": "Professor",
+          "sub_field": "Ergodic Theory, Homogeneous Dynamics, Number Theory",
+          "tags": [
+            "Pure Math",
+            "Dynamical Systems",
+            "Number Theory"
+          ],
+          "summary": "Homogeneous dynamics, unipotent flows, measure rigidity, Diophantine approximation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/shah.59",
+            "scholar": null
+          }
+        },
+        {
+          "id": "saleh-tanveer",
+          "name": "Saleh Tanveer",
+          "title": "Professor",
+          "sub_field": "Applied Math, Fluid Dynamics, Asymptotic Analysis",
+          "tags": [
+            "Applied Math",
+            "Fluid Dynamics",
+            "PDE"
+          ],
+          "summary": "Fluid dynamics, asymptotic analysis, free boundary problems, conformal mapping methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/tanveer.1",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joseph-tien",
+          "name": "Joseph Tien",
+          "title": "Professor",
+          "sub_field": "Mathematical Biology, Dynamical Systems",
+          "tags": [
+            "Applied Math",
+            "Math Biology",
+            "Dynamical Systems"
+          ],
+          "summary": "Mathematical biology, epidemiology, network dynamics, cholera modeling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/tien.20",
+            "scholar": null
+          }
+        },
+        {
+          "id": "hsian-hua-tseng",
+          "name": "Hsian-Hua Tseng",
+          "title": "Professor",
+          "sub_field": "Algebraic Geometry, Symplectic Geometry, Mirror Symmetry",
+          "tags": [
+            "Pure Math",
+            "Algebra",
+            "Geometry"
+          ],
+          "summary": "Algebraic geometry, Gromov-Witten theory, mirror symmetry, derived categories.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/tseng.112",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dongbin-xiu",
+          "name": "Dongbin Xiu",
+          "title": "Professor and Ohio Eminent Scholar",
+          "sub_field": "Scientific Computing, Uncertainty Quantification, ML",
+          "tags": [
+            "Applied Math",
+            "Computational Math",
+            "ML"
+          ],
+          "summary": "Uncertainty quantification, scientific machine learning, numerical methods for stochastic systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/xiu.16",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yulong-xing",
+          "name": "Yulong Xing",
+          "title": "Professor and Vice Chair for Graduate Studies",
+          "sub_field": "Numerical PDE, Scientific Computing",
+          "tags": [
+            "Applied Math",
+            "Computational Math",
+            "PDE"
+          ],
+          "summary": "Discontinuous Galerkin methods, numerical PDE for geophysical flows, climate modeling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/xing.205",
+            "scholar": null
+          }
+        },
+        {
+          "id": "janet-best",
+          "name": "Janet Best",
+          "title": "Professor and Vice Chair",
+          "sub_field": "Mathematical Biology, Dynamical Systems",
+          "tags": [
+            "Applied Math",
+            "Math Biology",
+            "Dynamical Systems"
+          ],
+          "summary": "Mathematical biology, neuroscience, sleep-wake dynamics, biochemical reaction networks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/best.82",
+            "scholar": null
+          }
+        },
+        {
+          "id": "adriana-dawes",
+          "name": "Adriana Dawes",
+          "title": "Professor",
+          "sub_field": "Mathematical Biology, Biophysics",
+          "tags": [
+            "Applied Math",
+            "Math Biology",
+            "Biophysics"
+          ],
+          "summary": "Mathematical modeling of cell biology, protein dynamics, pattern formation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.osu.edu/people/dawes.33",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "tufts-university-phd-in-mathematics",

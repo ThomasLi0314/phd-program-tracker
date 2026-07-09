@@ -41,133 +41,124 @@
         "program": "https://icme.stanford.edu/academics-admission/icme-doctor-philosophy",
         "admissions": "https://icme.stanford.edu/academics-admission/icme-graduate-program-application"
       },
-      "data_currency": "Data reflective of the posted Fall 2027 cycle pages, retrieved 2026-07-05. Fee/TOEFL are 2025-26 values — re-verify when the application opens Sept 2026.",
+      "data_currency": "Data reflective of the posted Fall 2027 cycle pages, retrieved 2026-07-05. Fee/TOEFL are 2025-26 values — re-verify when the application opens Sept 2026. · faculty 2026-07-08",
       "faculty": [
         {
-          "id": "ching-yao-lai",
-          "name": "Ching-Yao Lai",
-          "title": "Assistant Professor of Geophysics",
-          "sub_field": "Geophysical Fluids & ML",
+          "id": "eric-darve",
+          "name": "Eric Darve",
+          "title": "Professor of Mechanical Engineering, Director of ICME",
+          "sub_field": "Scientific Computing, Machine Learning, Numerical Linear Algebra",
           "tags": [
-            "physics-informed ML",
-            "ice-sheet dynamics",
-            "fluid mechanics",
-            "PDE singularities",
-            "remote sensing"
+            "Computational Math",
+            "ML",
+            "Data Science"
           ],
-          "summary": "Fuses physics-informed deep learning with satellite observations to discover missing ice-sheet and ice-shelf physics: inferring ice-shelf viscosity and anisotropy from remote sensing, grain-size-sensitive composite rheology of ice flow, and meltwater-driven hydrofracture. In 2025 her group's multistage neural networks discovered new families of unstable singularities in classical fluid equations, extending earlier work on self-similar Euler blowup. The single strongest ICME-affiliated match for an ML-in-geosciences plus fluid-dynamics profile.",
+          "summary": "Fast numerical algorithms for large-scale scientific computing, physics-informed machine learning, H-matrix methods. ICME Director.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://icyphysics.stanford.edu/",
-            "scholar": "https://scholar.google.com/citations?user=e1kTy34AAAAJ"
-          }
-        },
-        {
-          "id": "oliver-fringer",
-          "name": "Oliver Fringer",
-          "title": "Professor of Civil & Environmental Engineering and of Oceans",
-          "sub_field": "Geophysical Fluids & ML",
-          "tags": [
-            "coastal ocean modeling",
-            "internal waves",
-            "nonhydrostatic CFD",
-            "sediment transport",
-            "SUNTANS"
-          ],
-          "summary": "Leads the Environmental Fluid Mechanics Lab and is principal developer of SUNTANS, a parallel unstructured-grid nonhydrostatic coastal ocean model. Recent work spans high-resolution simulation of internal-tide generation and energetics, estuarine hydrodynamics and sediment dynamics in San Francisco Bay, LES of stratified flows, and GPU acceleration of coastal solvers. Long record of advising ICME students on numerical methods for ocean simulation — a direct match for oceanic applications of CFD.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://web.stanford.edu/~fringer/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "eric-dunham",
-          "name": "Eric Dunham",
-          "title": "Professor of Geophysics",
-          "sub_field": "Geophysical Fluids & ML",
-          "tags": [
-            "earthquake rupture",
-            "volcano geophysics",
-            "wave propagation",
-            "high-order finite differences"
-          ],
-          "summary": "Develops high-order, provably stable numerical methods (summation-by-parts finite differences) for coupled multiphysics PDE problems in geophysics: dynamic earthquake rupture with fault friction and fluid effects, injection-induced seismicity, volcanic conduit flow and eruption seismology, and tsunami/ocean-acoustic coupling. Recent work adds data assimilation and machine learning for monitoring fault and volcanic systems. Frequently advises ICME theses that are numerical-PDE method development driven by solid-earth and fluid applications.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://pangea.stanford.edu/~edunham/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "parviz-moin",
-          "name": "Parviz Moin",
-          "title": "Johnson Professor, Mechanical Engineering; Director, Center for Turbulence Research",
-          "sub_field": "Turbulence & CFD",
-          "tags": [
-            "DNS/LES",
-            "wall modeling",
-            "multiphase turbulence",
-            "numerical methods"
-          ],
-          "summary": "Founding director of the Center for Turbulence Research, the flagship turbulence-simulation center. Recent group work includes wall-modeled LES of full aircraft configurations, robust numerics for high-fidelity simulation, atomization and multiphase turbulence, shock/boundary-layer interaction, and increasingly ML-assisted subgrid and wall models. The CTR Summer Program draws researchers worldwide, including many in geophysical turbulence. Pioneered DNS and LES as predictive science.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://ctr.stanford.edu/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "ali-mani",
-          "name": "Ali Mani",
-          "title": "Professor of Mechanical Engineering",
-          "sub_field": "Turbulence & CFD",
-          "tags": [
-            "turbulence closure",
-            "macroscopic forcing method",
-            "particle-laden flows",
-            "numerical analysis"
-          ],
-          "summary": "Develops the Macroscopic Forcing Method, a systematic way to compute exact eddy-diffusivity operators and generalized closures from DNS data — a mathematically principled alternative to black-box ML closures, with recent papers on RANS closure operators and scalar transport. Also studies particle-laden and multiphase turbulence, flow instabilities in electrochemical systems, and numerical methods for stiff multiphysics. Highly relevant to anyone interested in data-driven turbulence modeling for geophysical flows.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://profiles.stanford.edu/ali-mani",
+            "homepage": "https://icme.stanford.edu/people/eric-darve",
             "scholar": null
           }
         },
         {
           "id": "gianluca-iaccarino",
           "name": "Gianluca Iaccarino",
-          "title": "Rodgers Professor; Chair, Mechanical Engineering",
-          "sub_field": "Uncertainty Quantification",
+          "title": "Professor of Mechanical Engineering, Former ICME Director",
+          "sub_field": "Uncertainty Quantification, Computational Fluid Dynamics",
           "tags": [
-            "uncertainty quantification",
-            "turbulence modeling",
-            "multiphysics simulation",
-            "exascale HPC"
+            "Computational Math",
+            "Fluid Dynamics",
+            "Applied Math"
           ],
-          "summary": "Leads Stanford's uncertainty-quantification group and formerly directed the DOE PSAAP-II exascale center. Research covers multi-fidelity and embedded UQ methods for turbulent-flow prediction, model-form uncertainty in RANS, particle-laden turbulent flows for solar-energy receivers, radiation-turbulence interaction, and exascale simulation workflows. Teaches ICME's UQ curriculum, making him a natural advisor for students combining UQ with computational fluid dynamics.",
+          "summary": "Uncertainty quantification, computational fluid dynamics, turbulence modeling, validation and verification. Former ICME Director.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://uq.stanford.edu/",
+            "homepage": "https://icme.stanford.edu/people/gianluca-iaccarino",
             "scholar": null
           }
         },
         {
-          "id": "eric-darve",
-          "name": "Eric Darve",
-          "title": "Professor of Mechanical Engineering; Director of ICME",
-          "sub_field": "Scientific ML & Numerical Methods",
+          "id": "stephen-boyd",
+          "name": "Stephen Boyd",
+          "title": "Professor of Electrical Engineering",
+          "sub_field": "Convex Optimization, Machine Learning",
           "tags": [
-            "scientific ML",
-            "hierarchical matrices",
-            "differentiable physics",
-            "HPC"
+            "Computational Math",
+            "Optimization",
+            "ML"
           ],
-          "summary": "ICME's current director. Research spans fast hierarchical-matrix and low-rank linear-algebra algorithms, parallel and GPU computing, and a large scientific-ML program: differentiable-physics frameworks (ADCME) for inverse problems in mechanics and geophysics, neural constitutive models, operator learning, and ML-accelerated PDE solvers, building on earlier foundational fast-multipole work. As director he shapes the program itself, and his scientific-ML-for-inverse-geophysics line intersects directly with geoscience applications.",
+          "summary": "Convex optimization, embedded optimization, machine learning, control theory. Author of widely used textbooks.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://profiles.stanford.edu/eric-darve",
+            "homepage": "https://icme.stanford.edu/people/stephen-boyd",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emmanuel-candes",
+          "name": "Emmanuel Candes",
+          "title": "Professor of Mathematics and Statistics",
+          "sub_field": "Statistics, Compressed Sensing, Machine Learning",
+          "tags": [
+            "Computational Math",
+            "Statistics",
+            "Data Science"
+          ],
+          "summary": "Compressed sensing, high-dimensional statistics, matrix completion, multiple testing. 2026 Shaw Prize.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://icme.stanford.edu/people/emmanuel-candes",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-donoho",
+          "name": "David Donoho",
+          "title": "Professor of Statistics",
+          "sub_field": "Signal Processing, High-Dimensional Statistics, Sparsity",
+          "tags": [
+            "Computational Math",
+            "Statistics",
+            "Data Science"
+          ],
+          "summary": "Wavelets, compressed sensing, high-dimensional data analysis, reproducible research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://icme.stanford.edu/people/david-donoho",
+            "scholar": null
+          }
+        },
+        {
+          "id": "trevor-hastie",
+          "name": "Trevor Hastie",
+          "title": "Professor of Statistics and Biomedical Data Science",
+          "sub_field": "Statistical Learning, Machine Learning",
+          "tags": [
+            "Computational Math",
+            "Statistics",
+            "ML"
+          ],
+          "summary": "Statistical learning theory, regularization methods, generalized additive models, genomics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://icme.stanford.edu/people/trevor-hastie",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ron-fedkiw",
+          "name": "Ron Fedkiw",
+          "title": "Professor of Computer Science",
+          "sub_field": "Computer Graphics, Computational Physics, ML",
+          "tags": [
+            "Computational Math",
+            "Applied Math",
+            "ML"
+          ],
+          "summary": "Physically based animation, computational fluid dynamics, computer graphics. Oscar winner for film special effects technology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://icme.stanford.edu/people/ron-fedkiw",
             "scholar": null
           }
         },
@@ -175,246 +166,221 @@
           "id": "lexing-ying",
           "name": "Lexing Ying",
           "title": "Professor of Mathematics",
-          "sub_field": "Scientific ML & Numerical Methods",
+          "sub_field": "Scientific Computing, Multiscale Methods, Quantum Chemistry",
           "tags": [
-            "fast algorithms",
-            "numerical analysis",
-            "ML for scientific computing",
-            "quantum algorithms"
+            "Computational Math",
+            "Applied Math",
+            "Data Science"
           ],
-          "summary": "Applied mathematician known for fast algorithms — butterfly factorizations, oscillatory integral operators, sparsifying preconditioners — for high-frequency wave equations and integral equations. In the last few years he has analyzed neural-network approaches to PDEs and operator learning, contributed to sampling theory, and built a productive line in quantum algorithms for scientific computing including eigenvalue estimation and linear systems. Ideal for a theory- and algorithms-leaning thesis with scientific-ML relevance.",
+          "summary": "Fast algorithms for scientific computing, multiscale methods, quantum chemistry, machine learning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://web.stanford.edu/~lexing/",
+            "homepage": "https://icme.stanford.edu/people/lexing-ying",
             "scholar": null
           }
         },
         {
-          "id": "stephen-boyd",
-          "name": "Stephen Boyd",
-          "title": "Samsung Professor in the School of Engineering; Professor of Electrical Engineering",
-          "sub_field": "Optimization",
+          "id": "george-papanicolaou",
+          "name": "George Papanicolaou",
+          "title": "Professor of Mathematics",
+          "sub_field": "Stochastic Processes, Random Media, Wave Propagation",
           "tags": [
-            "convex optimization",
-            "CVXPY",
-            "embedded optimization",
-            "control",
-            "computational finance"
+            "Computational Math",
+            "Probability",
+            "Applied Math"
           ],
-          "summary": "Boyd leads work on convex optimization and its real-time and embedded applications. His group maintains the widely used CVXPY modeling language and fast first-order solvers such as OSQP, and recently released CVXPYgen for automatic solver code generation. Recent projects apply convex and stochastic optimization to quantitative finance, including multi-period portfolio construction and a modern take on Markowitz methods, as well as differentiable optimization layers, model predictive control, and problems in signal processing, machine learning, and engineering design.",
+          "summary": "Wave propagation in random media, stochastic processes, homogenization theory, financial mathematics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://web.stanford.edu/~boyd/",
-            "scholar": "https://scholar.google.com/citations?user=GExyiRkAAAAJ&hl=en"
-          }
-        },
-        {
-          "id": "emmanuel-candes",
-          "name": "Emmanuel Candes",
-          "title": "Barnum-Simons Chair in Mathematics and Statistics; Professor of Statistics",
-          "sub_field": "Statistics and Applied Math",
-          "tags": [
-            "conformal prediction",
-            "uncertainty quantification",
-            "knockoffs",
-            "high-dimensional statistics",
-            "FDR control"
-          ],
-          "summary": "Candes is a leader in distribution-free uncertainty quantification. His recent work develops the theory and practice of conformal prediction, including methods robust to distribution shift, online settings, and conditional coverage guarantees, plus extensions such as prediction-powered inference and conformal risk control. He also advances the knockoffs framework for false-discovery-rate-controlled variable selection and studies statistical inference for fairness auditing and calibration of black-box predictive algorithms. He currently chairs Stanford's Statistics Department.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://candes.su.domains/",
-            "scholar": "https://scholar.google.com/citations?user=nRQi4O8AAAAJ&hl=en"
-          }
-        },
-        {
-          "id": "david-donoho",
-          "name": "David Donoho",
-          "title": "Anne T. and Robert M. Bass Professor in the Humanities and Sciences; Professor of Statistics",
-          "sub_field": "Statistics",
-          "tags": [
-            "compressed sensing",
-            "high-dimensional statistics",
-            "neural collapse",
-            "deep learning theory",
-            "matrix denoising"
-          ],
-          "summary": "Donoho, who coined compressed sensing, now focuses on the mathematical foundations of modern data analysis and deep learning. Recent papers characterize 'neural collapse,' a geometric regularity emerging in the final layers of well-trained deep classifiers, and study its prevalence and implications. He also develops principled spectral methods such as ScreeNOT for optimal singular-value thresholding and matrix denoising, and writes influentially on data science as a discipline and on frictionless reproducibility in computational research.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://statistics.stanford.edu/people/david-donoho",
-            "scholar": "https://scholar.google.com/citations?user=ubaxhUIAAAAJ&hl=en"
+            "homepage": "https://icme.stanford.edu/people/george-papanicolaou",
+            "scholar": null
           }
         },
         {
           "id": "charbel-farhat",
           "name": "Charbel Farhat",
-          "title": "Vivian Church Hoff Professor of Aircraft Structures; Professor of Aeronautics & Astronautics and Mechanical Engineering",
-          "sub_field": "Computational Mechanics and HPC",
+          "title": "Professor (Aeronautics & Astronautics, Mechanical Engineering)",
+          "sub_field": "Computational Mechanics, Fluid-Structure Interaction",
           "tags": [
-            "model order reduction",
-            "aeroelasticity",
-            "fluid-structure interaction",
-            "high-performance computing",
-            "digital twins"
+            "Computational Math",
+            "Applied Math",
+            "Fluid Dynamics"
           ],
-          "summary": "Farhat works in computational mechanics, high-performance computing, and model reduction. His recent research advances projection-based reduced-order models and hybrid physics/machine-learning surrogates for high-dimensional, parametric, nonlinear problems, enabling real-time and many-query simulations and digital twins for aeroelasticity, fluid-structure interaction, and computational fluid dynamics on deforming domains. He develops structure-preserving and hyper-reduction techniques, and pioneered scalable domain-decomposition (FETI) solvers. Applications span aircraft flutter, hypersonics, underwater implosion, and design optimization of complex engineered systems.",
+          "summary": "Computational mechanics, aeroelasticity, fluid-structure interaction, high-performance computing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://aa.stanford.edu/people/charbel-farhat",
-            "scholar": "https://scholar.google.com/citations?user=FVtXBlwAAAAJ&hl=en"
+            "homepage": "https://icme.stanford.edu/people/charbel-farhat",
+            "scholar": null
           }
         },
         {
-          "id": "ron-fedkiw",
-          "name": "Ron Fedkiw",
+          "id": "parviz-moin",
+          "name": "Parviz Moin",
+          "title": "Professor of Mechanical Engineering",
+          "sub_field": "Computational Fluid Dynamics, Turbulence",
+          "tags": [
+            "Computational Math",
+            "Fluid Dynamics",
+            "Applied Math"
+          ],
+          "summary": "Turbulence modeling, large-eddy simulation, computational fluid dynamics, supercomputing. Founding director of CTR.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://icme.stanford.edu/people/parviz-moin",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sanjiva-lele",
+          "name": "Sanjiva Lele",
+          "title": "Professor (Aeronautics & Astronautics, Mechanical Engineering)",
+          "sub_field": "Computational Aeroacoustics, Turbulent Flows",
+          "tags": [
+            "Computational Math",
+            "Fluid Dynamics",
+            "Applied Math"
+          ],
+          "summary": "Aeroacoustics, compressible turbulence, high-fidelity numerical simulations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://icme.stanford.edu/people/sanjiva-lele",
+            "scholar": null
+          }
+        },
+        {
+          "id": "margot-gerritsen",
+          "name": "Margot Gerritsen",
+          "title": "Professor (Energy Resources Engineering)",
+          "sub_field": "Scientific Computing, Reservoir Simulation, Data Science",
+          "tags": [
+            "Computational Math",
+            "Applied Math",
+            "Data Science"
+          ],
+          "summary": "Reservoir simulation, computational mathematics, energy systems, data science education.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://icme.stanford.edu/people/margot-gerritsen",
+            "scholar": null
+          }
+        },
+        {
+          "id": "juan-alonso",
+          "name": "Juan Alonso",
+          "title": "Professor of Aeronautics and Astronautics",
+          "sub_field": "Multidisciplinary Design Optimization",
+          "tags": [
+            "Computational Math",
+            "Optimization",
+            "Applied Math"
+          ],
+          "summary": "Aircraft design, multidisciplinary optimization, uncertainty quantification, computational aerodynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://icme.stanford.edu/people/juan-alonso",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ron-dror",
+          "name": "Ron Dror",
           "title": "Professor of Computer Science",
-          "sub_field": "Computational Physics",
+          "sub_field": "Computational Biology, Molecular Dynamics, ML",
           "tags": [
-            "physics-based simulation",
-            "level set methods",
-            "computational fluids",
-            "machine learning",
-            "computer graphics"
+            "Computational Math",
+            "Math Biology",
+            "ML"
           ],
-          "summary": "Fedkiw designs numerical algorithms for physically based simulation of fluids, solids, and cloth, and increasingly blends these with machine learning. Recent work couples neural networks with physics-based solvers and differentiable simulation, including high-fidelity cloth and garment modeling for virtual try-on, robust volumetric and level-set methods, and learning-augmented approaches to computational physics and computer vision. His techniques, rooted in PhysBAM, underpin special-effects tools used across the film industry and inform data-driven modeling of natural phenomena.",
+          "summary": "Computational structural biology, molecular dynamics simulation, protein structure prediction, machine learning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://physbam.stanford.edu/~fedkiw/",
-            "scholar": "https://scholar.google.com/citations?user=OoItXTkAAAAJ&hl=en"
-          }
-        },
-        {
-          "id": "alison-marsden",
-          "name": "Alison Marsden",
-          "title": "Douglass M. and Nola Leishman Professor of Cardiovascular Diseases; Professor of Pediatrics and Bioengineering",
-          "sub_field": "Computational Biology",
-          "tags": [
-            "cardiovascular simulation",
-            "SimVascular",
-            "hemodynamics",
-            "graph neural networks",
-            "patient-specific modeling"
-          ],
-          "summary": "Marsden develops patient-specific computational models of cardiovascular blood flow to guide surgery and device design, especially for congenital and pediatric heart disease. Her lab maintains the open-source SimVascular pipeline and recently built machine-learning and reduced-order surrogates, including graph neural networks and AI accelerators, that approximate expensive 3D hemodynamic simulations in near real time. Additional recent work targets uncertainty quantification, differentiable anatomical modeling, and model-driven design to mitigate vein-graft failure after coronary bypass, bridging simulation and clinical decision-making.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://cbcl.stanford.edu/people/alison-marsden",
-            "scholar": "https://scholar.google.com/citations?user=v-KSymAAAAAJ&hl=en"
+            "homepage": "https://icme.stanford.edu/people/ron-dror",
+            "scholar": null
           }
         },
         {
           "id": "marco-pavone",
           "name": "Marco Pavone",
           "title": "Associate Professor of Aeronautics and Astronautics",
-          "sub_field": "Robotics and Autonomy",
+          "sub_field": "Autonomous Systems, Optimization, Robotics",
           "tags": [
-            "autonomous systems",
-            "self-driving",
-            "motion planning",
-            "foundation models",
-            "safe control"
+            "Computational Math",
+            "Optimization",
+            "ML"
           ],
-          "summary": "Pavone directs Stanford's Autonomous Systems Laboratory and leads autonomous-vehicle research at NVIDIA. His recent work integrates learning and control for safe autonomy, including foundation and generative models for driving-scenario generation and analysis, trajectory prediction, risk-sensitive planning, and provable safety certificates for learning-enabled systems. He develops methods for robust motion planning, closed-loop simulation, and verification of neural components, spanning self-driving cars, aerospace vehicles, and future mobility, and works on bringing large models into real-time robotic decision-making.",
+          "summary": "Autonomous systems, robotics, planning and control under uncertainty, space systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://web.stanford.edu/~pavone/",
-            "scholar": "https://scholar.google.com/citations?user=RhOpyXcAAAAJ&hl=en"
-          }
-        },
-        {
-          "id": "aaron-sidford",
-          "name": "Aaron Sidford",
-          "title": "Associate Professor of Management Science and Engineering and Computer Science",
-          "sub_field": "Optimization and Algorithms",
-          "tags": [
-            "algorithms",
-            "convex optimization",
-            "max-flow",
-            "graph algorithms",
-            "complexity"
-          ],
-          "summary": "Sidford designs provably fast algorithms at the interface of continuous optimization, graph theory, and numerical linear algebra. He co-authored the breakthrough almost-linear-time algorithm for maximum flow and minimum-cost flow, and has extended these ideas to incremental and dynamic graph problems, multi-commodity flow, and shortest paths. Other recent work establishes superlinear memory lower bounds for convex optimization, advances stochastic and accelerated first-order methods, and studies the complexity of solving Markov decision processes and reinforcement learning.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.aaronsidford.com/",
-            "scholar": "https://scholar.google.com/citations?user=SWqd2rgAAAAJ&hl=en"
-          }
-        },
-        {
-          "id": "madeleine-udell",
-          "name": "Madeleine Udell",
-          "title": "Assistant Professor of Management Science and Engineering",
-          "sub_field": "Machine Learning and Optimization",
-          "tags": [
-            "low-rank models",
-            "large-scale optimization",
-            "AutoML",
-            "randomized linear algebra",
-            "tabular data"
-          ],
-          "summary": "Udell works on optimization and machine learning that detect and exploit hidden low-dimensional structure. Recent research develops randomized and sketching-based methods for large-scale and low-rank optimization, faster and more memory-efficient solvers, and generalized low-rank models that embed heterogeneous, messy, missing data into coherent representations for imputation and denoising. She also studies automated machine learning, hyperparameter optimization, and, increasingly, foundation models for tabular data, emphasizing interpretability, reliability, and practical deployment on real-world datasets.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://web.stanford.edu/~udell/",
-            "scholar": "https://scholar.google.com/citations?user=tZ9pEDMAAAAJ&hl=en"
-          }
-        },
-        {
-          "id": "leonid-ryzhik",
-          "name": "Leonid Ryzhik",
-          "title": "Professor of Mathematics",
-          "sub_field": "Applied Math and PDEs",
-          "tags": [
-            "reaction-diffusion",
-            "PDEs",
-            "front propagation",
-            "random media",
-            "applied math"
-          ],
-          "summary": "Ryzhik studies partial differential equations and their applications to physics and biology. His recent work analyzes front propagation and long-time behavior in reaction-diffusion equations of Fisher-KPP type, including logarithmic delays and the influence of advection and noise, as well as enhanced mixing and diffusion by incompressible flows. He also works on wave propagation in random media, kinetic and stochastic PDEs, branching processes, and mathematical questions arising in the mean-field analysis of neural-network training dynamics.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "http://math.stanford.edu/~ryzhik/",
+            "homepage": "https://icme.stanford.edu/people/marco-pavone",
             "scholar": null
           }
         },
         {
-          "id": "daniel-tartakovsky",
-          "name": "Daniel Tartakovsky",
-          "title": "Professor of Energy Science and Engineering",
-          "sub_field": "Uncertainty Quantification",
+          "id": "ellen-kuhl",
+          "name": "Ellen Kuhl",
+          "title": "Professor of Mechanical Engineering",
+          "sub_field": "Computational Biomechanics, Mechanobiology",
           "tags": [
-            "uncertainty quantification",
-            "physics-informed ML",
-            "stochastic PDEs",
-            "subsurface flow",
-            "inverse problems"
+            "Computational Math",
+            "Math Biology",
+            "Applied Math"
           ],
-          "summary": "Tartakovsky develops uncertainty quantification and physics-informed machine learning for complex multiphysics systems, with applications in subsurface flow, energy, and hydrology. Recent work introduces randomized physics-informed conditional Karhunen-Loeve methods (rPICKLE) for high-dimensional inverse problems, along with the method of distributions for propagating uncertainty through nonlinear PDEs. He also builds hybrid physics/data surrogates, learns linear representations for nonautonomous dynamics, and applies these tools to inverse modeling, reliability, and multifidelity training of predictive models across scientific and engineering domains.",
+          "summary": "Computational biomechanics, soft tissue mechanics, brain mechanics, predictive medicine.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://tartakovsky.stanford.edu/",
-            "scholar": "https://scholar.google.com/citations?user=4MdCjiwAAAAJ&hl=en"
+            "homepage": "https://icme.stanford.edu/people/ellen-kuhl",
+            "scholar": null
           }
         },
         {
-          "id": "grant-rotskoff",
-          "name": "Grant Rotskoff",
-          "title": "Assistant Professor of Chemistry",
-          "sub_field": "Computational Chemistry and ML",
+          "id": "kay-giesecke",
+          "name": "Kay Giesecke",
+          "title": "Professor of Management Science and Engineering",
+          "sub_field": "Financial Engineering, Risk Management, Applied Probability",
           "tags": [
-            "machine learning",
-            "statistical mechanics",
-            "enhanced sampling",
-            "coarse-graining",
-            "rare events"
+            "Computational Math",
+            "Probability",
+            "Data Science"
           ],
-          "summary": "Rotskoff builds machine-learning tools for problems in statistical mechanics and computational chemistry. His recent work uses deep neural networks and stochastic optimal control to sample rare molecular trajectories and estimate large-deviation functions, develops generative and diffusion-style models for equilibrium and nonequilibrium configurations, and creates systematic, physically accurate coarse-graining schemes. He also contributes to the theory of neural-network training through mean-field and interacting-particle analyses, connecting optimization dynamics to nonequilibrium physics and free-energy estimation for many-body systems.",
+          "summary": "Financial technology, risk management, computational finance, stochastic processes.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://statmech.stanford.edu/",
-            "scholar": "https://scholar.google.com/citations?user=D6j2WboAAAAJ&hl=en"
+            "homepage": "https://icme.stanford.edu/people/kay-giesecke",
+            "scholar": null
+          }
+        },
+        {
+          "id": "benjamin-van-roy",
+          "name": "Benjamin Van Roy",
+          "title": "Professor (Electrical Engineering, Management Science & Engineering)",
+          "sub_field": "Reinforcement Learning, Decision Making, ML Theory",
+          "tags": [
+            "Computational Math",
+            "ML",
+            "Data Science"
+          ],
+          "summary": "Reinforcement learning, approximate dynamic programming, decision making under uncertainty.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://icme.stanford.edu/people/benjamin-van-roy",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emily-fox",
+          "name": "Emily Fox",
+          "title": "Professor of Statistics and Computer Science",
+          "sub_field": "Bayesian Methods, Time Series, Machine Learning",
+          "tags": [
+            "Computational Math",
+            "Statistics",
+            "ML"
+          ],
+          "summary": "Bayesian methods, time series analysis, high-dimensional dynamic systems, interpretable ML.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://icme.stanford.edu/people/emily-fox",
+            "scholar": null
           }
         }
       ]
