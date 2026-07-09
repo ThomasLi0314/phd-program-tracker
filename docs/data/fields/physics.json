@@ -2994,8 +2994,428 @@
       "links": {
         "program": "http://aph.caltech.edu/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "harry-a-atwater",
+          "name": "Harry A. Atwater",
+          "title": "Otis Booth Leadership Chair; Professor of Applied Physics and Materials Science",
+          "sub_field": "Photonics and Plasmonics",
+          "tags": [
+            "silicon photonics",
+            "plasmonics",
+            "renewable energy",
+            "metamaterials",
+            "solar fuels"
+          ],
+          "summary": "Interdisciplinary materials and device research spanning photonics and electronics. Si-based photonics, plasmonics, artificial photosynthesis, and mechanically active thin-film devices. Director, Joint Center for Artificial Photosynthesis (past).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://daedalus.caltech.edu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "paul-m-bellan",
+          "name": "Paul M. Bellan",
+          "title": "Professor of Applied Physics",
+          "sub_field": "Plasma Physics",
+          "tags": [
+            "laboratory plasma",
+            "magnetohydrodynamics",
+            "solar coronal loops",
+            "plasma jets"
+          ],
+          "summary": "Laboratory plasma physics. Magnetohydrodynamics, solar coronal loop simulations in the laboratory, and astrophysical plasma jet experiments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/paul-m-bellan",
+            "scholar": null
+          }
+        },
+        {
+          "id": "marco-bernardi",
+          "name": "Marco Bernardi",
+          "title": "Professor of Applied Physics, Physics and Materials Science",
+          "sub_field": "Computational Materials Physics",
+          "tags": [
+            "electron-phonon coupling",
+            "carrier transport",
+            "ultrafast dynamics",
+            "first-principles theory"
+          ],
+          "summary": "Theory and ab initio computation of light-matter interaction, carrier dynamics, and transport in materials. Electron-phonon physics from first principles.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/marco-bernardi",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kaushik-bhattacharya",
+          "name": "Kaushik Bhattacharya",
+          "title": "Howell N. Tyson, Sr., Professor of Mechanics and Materials Science; Vice Provost",
+          "sub_field": "Mechanics of Materials",
+          "tags": [
+            "multifunctional materials",
+            "microstructure evolution",
+            "soft matter",
+            "active materials"
+          ],
+          "summary": "Mechanics and physics of materials. Multifunctional materials, microstructure evolution, soft active materials, and deformation mechanisms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/kaushik-bhattacharya",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chiara-daraio",
+          "name": "Chiara Daraio",
+          "title": "G. Bradford Jones Professor of Mechanical Engineering and Applied Physics",
+          "sub_field": "Engineered Materials",
+          "tags": [
+            "metamaterials",
+            "architected materials",
+            "acoustic materials",
+            "robotics",
+            "energy"
+          ],
+          "summary": "Design and characterization of architected materials with unusual mechanical and thermal properties. Acoustic metamaterials, soft robotics, and advanced manufacturing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/chiara-daraio",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-b-elowitz",
+          "name": "Michael B. Elowitz",
+          "title": "Professor of Biology and Biological Engineering; Applied Physics",
+          "sub_field": "Biophysics",
+          "tags": [
+            "synthetic biology",
+            "gene circuits",
+            "systems biology",
+            "cellular dynamics"
+          ],
+          "summary": "Synthetic biology and biophysics. Design and study of gene circuits in living cells. Cellular information processing and noise in biological systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/michael-b-elowitz",
+            "scholar": null
+          }
+        },
+        {
+          "id": "katherine-t-faber",
+          "name": "Katherine T. Faber",
+          "title": "Simon Ramo Professor of Materials Science",
+          "sub_field": "Materials Science",
+          "tags": [
+            "ceramics",
+            "composites",
+            "cultural heritage science",
+            "mechanical properties"
+          ],
+          "summary": "Materials science of ceramics and composites. Mechanical properties, thermal barrier coatings, and cultural heritage conservation science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/katherine-t-faber",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joseph-falson",
+          "name": "Joseph Falson",
+          "title": "Assistant Professor of Materials Science",
+          "sub_field": "Quantum Materials",
+          "tags": [
+            "molecular beam epitaxy",
+            "quantum materials",
+            "superconductivity",
+            "topological systems"
+          ],
+          "summary": "Synthesis of quantum materials via molecular beam epitaxy. Unconventional superconductors and topological materials in thin film form.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/joseph-falson",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrei-faraon",
+          "name": "Andrei Faraon",
+          "title": "William L. Valentine Professor of Applied Physics; Director, Kavli Nanoscience Institute",
+          "sub_field": "Quantum Photonics",
+          "tags": [
+            "quantum optics",
+            "metasurfaces",
+            "rare-earth ions",
+            "quantum networks",
+            "spin-photon interfaces"
+          ],
+          "summary": "On-chip quantum photonic devices for quantum information. Rare-earth ions coupled to nanophotonic resonators. Flat optics based on dielectric metasurfaces. Director of KNI.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/andrei-faraon",
+            "scholar": null
+          }
+        },
+        {
+          "id": "brent-fultz",
+          "name": "Brent Fultz",
+          "title": "Barbara and Stanley R. Rawn, Jr., Professor of Materials Science and Applied Physics",
+          "sub_field": "Materials Science",
+          "tags": [
+            "neutron scattering",
+            "phonons",
+            "thermodynamics",
+            "alloys",
+            "energy materials"
+          ],
+          "summary": "Neutron and X-ray scattering studies of materials. Phonon thermodynamics, phase stability in alloys, and energy materials for batteries and hydrogen storage.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/brent-fultz",
+            "scholar": null
+          }
+        },
+        {
+          "id": "william-a-goddard",
+          "name": "William A. Goddard",
+          "title": "Charles and Mary Ferkel Professor of Chemistry, Materials Science, and Applied Physics",
+          "sub_field": "Computational Materials",
+          "tags": [
+            "molecular dynamics",
+            "materials genome",
+            "catalysis",
+            "electronic structure"
+          ],
+          "summary": "Computational materials science and chemistry. First-principles predictions of materials properties, catalysis, and molecular dynamics simulations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/william-a-bill-goddard",
+            "scholar": null
+          }
+        },
+        {
+          "id": "julia-r-greer",
+          "name": "Julia R. Greer",
+          "title": "Ruben F. and Donna Mettler Professor of Materials Science, Mechanics, and Medical Engineering",
+          "sub_field": "Nanomechanics",
+          "tags": [
+            "nanoarchitected materials",
+            "3D nanofabrication",
+            "mechanical metamaterials",
+            "deformation"
+          ],
+          "summary": "Nano- and micro-architected materials. 3D nanofabrication, mechanical size effects, and hierarchical materials. Director of the Kavli Nanoscience Institute (past).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/julia-r-greer",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alireza-marandi",
+          "name": "Alireza Marandi",
+          "title": "Associate Professor of Electrical Engineering and Applied Physics",
+          "sub_field": "Nonlinear Photonics",
+          "tags": [
+            "optical computing",
+            "quantum optics",
+            "mid-IR photonics",
+            "femtosecond lasers",
+            "Ising machines"
+          ],
+          "summary": "Nonlinear photonic devices and systems for quantum optics, optical computing, and information processing. On-chip femtosecond lasers and optical Ising machines.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/alireza-marandi",
+            "scholar": null
+          }
+        },
+        {
+          "id": "austin-j-minnich",
+          "name": "Austin J. Minnich",
+          "title": "Professor of Mechanical Engineering and Applied Physics",
+          "sub_field": "Thermal and Transport Physics",
+          "tags": [
+            "heat transport",
+            "phonon physics",
+            "thermoelectrics",
+            "ballistic transport"
+          ],
+          "summary": "Fundamental understanding of heat transport at the nanoscale. Ballistic phonon transport, thermal management, and thermoelectric energy conversion.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/austin-j-minnich",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mohammad-mirhosseini",
+          "name": "Mohammad Mirhosseini",
+          "title": "Assistant Professor of Electrical Engineering and Applied Physics",
+          "sub_field": "Quantum Information Devices",
+          "tags": [
+            "superconducting qubits",
+            "quantum optics",
+            "microwave photonics",
+            "quantum transduction"
+          ],
+          "summary": "Superconducting qubits and chip-based quantum devices. Quantum optics at microwave frequencies, quantum transduction, and multi-physics quantum information processing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/mohammad-mirhosseini",
+            "scholar": null
+          }
+        },
+        {
+          "id": "stevan-nadj-perge",
+          "name": "Stevan Nadj-Perge",
+          "title": "Professor of Applied Physics",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "topological superconductivity",
+            "STM/STS",
+            "Majorana modes",
+            "2D materials"
+          ],
+          "summary": "Low-temperature STM/STS studies of topological and correlated quantum materials. Majorana zero modes in topological superconductors and 2D moire materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/stevan-nadj-perge",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rob-phillips",
+          "name": "Rob Phillips",
+          "title": "Fred and Nancy Morris Professor of Biophysics, Biology, and Physics",
+          "sub_field": "Biophysics",
+          "tags": [
+            "physical biology",
+            "gene regulation",
+            "biomechanics",
+            "quantitative biology"
+          ],
+          "summary": "Physical biology of the cell. Quantitative models of gene regulation, allostery, membrane biophysics, and the biophysics of viral infection.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/rob-phillips",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-l-roukes",
+          "name": "Michael L. Roukes",
+          "title": "Frank J. Roshek Professor of Physics, Applied Physics, and Bioengineering",
+          "sub_field": "Nanoscale Systems",
+          "tags": [
+            "NEMS",
+            "nanofluidics",
+            "biosensing",
+            "quantum measurement"
+          ],
+          "summary": "Nanoscale electromechanical systems (NEMS). Nanofluidic devices for single-molecule analysis, NEMS-based biosensing, and quantum-limited measurements.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/michael-l-roukes",
+            "scholar": null
+          }
+        },
+        {
+          "id": "axel-scherer",
+          "name": "Axel Scherer",
+          "title": "Bernard Neches Professor of Electrical Engineering, Applied Physics, and Medical Engineering",
+          "sub_field": "Nanofabrication",
+          "tags": [
+            "nanophotonics",
+            "optoelectronics",
+            "magneto-optics",
+            "biophotonics"
+          ],
+          "summary": "Nanofabrication for opto-electronic, magneto-optic, and photonic devices. Integrated photonics, biophotonics, and nanoscale device engineering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/axel-scherer",
+            "scholar": null
+          }
+        },
+        {
+          "id": "keith-c-schwab",
+          "name": "Keith C. Schwab",
+          "title": "Professor of Applied Physics",
+          "sub_field": "Quantum Measurement",
+          "tags": [
+            "quantum-limited amplifiers",
+            "optomechanics",
+            "superconducting devices",
+            "quantum acoustics"
+          ],
+          "summary": "Quantum-limited microwave amplifiers and optomechanical structures. Nanomechanical systems at the quantum limit, quantum acoustics, and advanced superconducting devices.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/keith-c-schwab",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sandra-troian",
+          "name": "Sandra Troian",
+          "title": "Professor of Applied Physics, Aeronautics, and Mechanical Engineering",
+          "sub_field": "Fluid Physics",
+          "tags": [
+            "microfluidics",
+            "interfacial phenomena",
+            "nanoscale hydrodynamics",
+            "pattern formation"
+          ],
+          "summary": "Micro/nanoscale fluid dynamics and interfacial phenomena. Pattern formation in thin films, electrohydrodynamics, and nanofluidic transport.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/sandra-troian",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kerry-j-vahala",
+          "name": "Kerry J. Vahala",
+          "title": "Ted and Ginger Jenkins Professor of Information Science and Technology, and Applied Physics",
+          "sub_field": "Photonics",
+          "tags": [
+            "microcavities",
+            "optical frequency combs",
+            "nonlinear optics",
+            "precision metrology"
+          ],
+          "summary": "Ultra-high-Q optical microcavities. Soliton microcombs, nonlinear optics in microresonators, and precision optical metrology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/kerry-j-vahala",
+            "scholar": null
+          }
+        },
+        {
+          "id": "amnon-yariv",
+          "name": "Amnon Yariv",
+          "title": "Martin and Eileen Summerfield Professor of Applied Physics and Electrical Engineering",
+          "sub_field": "Photonics",
+          "tags": [
+            "nonlinear optics",
+            "quantum electronics",
+            "phase-conjugate optics",
+            "photonic integrated circuits"
+          ],
+          "summary": "Pioneer of nonlinear optics and quantum electronics. Semiconductor lasers, photonic integrated circuits, and slow light. National Medal of Science (2010).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.aphms.caltech.edu/people/amnon-yariv",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "california-institute-of-technology-biochemistry-and-molecular-biophysics",

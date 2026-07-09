@@ -1530,12 +1530,13 @@
             "Deep Learning",
             "Spatial Data Science",
             "Network Data Science",
-            "Urban Computing"
+            "Urban Computing",
+            "Point Processes"
           ],
-          "summary": "Research in statistical and deep learning approaches to solving problems in spatial, urban, and network data science. Applications to public safety, infectious diseases, and climate impacts.",
+          "summary": "Research in statistical and deep learning for spatial, urban, and network data science. Applications to public safety, infectious diseases, and climate impacts. Point process modeling and fairness/interpretability in forecasting.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://www.georgemohler.com/",
             "scholar": null
           }
         },
@@ -1547,30 +1548,14 @@
           "tags": [
             "ML",
             "Data Mining",
-            "Computational Science"
+            "Clinical Data",
+            "Kernel Methods",
+            "Biomedical Signals"
           ],
-          "summary": "PhD program director for the new doctoral program. Research interests in machine learning and data mining.",
+          "summary": "PhD program director for the new doctoral program. Research in machine learning and data mining for clinical/medical data, analysis of physiological signals (EEG, ECG, PPG), and kernel methods.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://cs.bc.edu/alvarez/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "howard-straubing",
-          "name": "Howard Straubing",
-          "title": "Professor of Computer Science",
-          "sub_field": "Theory of Computation",
-          "tags": [
-            "Theory of Computation",
-            "Logic",
-            "Automata",
-            "Computational Complexity"
-          ],
-          "summary": "Research in theory of computation, focusing on connections among logic, automata, and computational complexity. Algebraic and model-theoretic approaches to circuit complexity.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://cs.bc.edu/straubin/",
+            "homepage": "http://cs.bc.edu/alvarez/",
             "scholar": null
           }
         },
@@ -1584,9 +1569,10 @@
             "Control Theory",
             "AI",
             "ML",
-            "Multi-Agent Systems"
+            "Multi-Agent Systems",
+            "Foundation Models"
           ],
-          "summary": "IEEE Fellow. Research in optimization, control theory, and AI/ML. Formerly on the faculty at Tufts University.",
+          "summary": "IEEE Fellow. Research in optimization, control theory, machine learning, multi-agent robotics, and foundation model scalability and interpretability.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -1594,20 +1580,115 @@
           }
         },
         {
+          "id": "jose-bento",
+          "name": "Jose Bento",
+          "title": "Associate Professor of Computer Science",
+          "sub_field": "Machine Learning/Optimization",
+          "tags": [
+            "ML",
+            "Distributed Optimization",
+            "Graphical Models",
+            "Bioinformatics",
+            "Graph Matching"
+          ],
+          "summary": "Research in distributed optimization, graphical models, graph matching, network theory, and bioinformatics (antibiotic resistance, genetic networks). Amazon Scholar with Amazon Robotics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://jbento.info/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emily-prud-hommeaux",
+          "name": "Emily Prud'hommeaux",
+          "title": "Associate Professor of Computer Science",
+          "sub_field": "Natural Language Processing/Speech",
+          "tags": [
+            "NLP",
+            "Speech Recognition",
+            "Computational Linguistics",
+            "Low-Resource Languages",
+            "Autism and Communication"
+          ],
+          "summary": "Research in NLP and automatic speech recognition for low-resource and endangered languages, and language in autism and communication disorders. Giannino Family Sesquicentennial Assistant Professor 2020-2024, promoted 2024.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://cs.bc.edu/prudhome/index.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "howard-straubing",
+          "name": "Howard Straubing",
+          "title": "Professor of Computer Science",
+          "sub_field": "Theory of Computation",
+          "tags": [
+            "Theory of Computation",
+            "Finite Automata",
+            "Logic",
+            "Circuit Complexity",
+            "Algebraic Automata Theory"
+          ],
+          "summary": "Research in theory of computation, focusing on connections among logic, automata, and computational complexity. Algebraic and model-theoretic approaches to circuit complexity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://cs.bc.edu/~straubin/",
+            "scholar": null
+          }
+        },
+        {
           "id": "aaron-stump",
           "name": "Aaron Stump",
-          "title": "Professor of Computer Science",
+          "title": "Professor of Computer Science; John R. and Pamela Egan Chair",
           "sub_field": "Computational Logic/Programming Languages",
           "tags": [
             "Computational Logic",
             "Programming Languages",
             "Formal Verification",
-            "Type Theory"
+            "Type Theory",
+            "Computer-Checked Proofs"
           ],
-          "summary": "Research in computational logic, programming languages, and formal verification.",
+          "summary": "John R. and Pamela Egan Chair (joined Summer 2024). Research in computational logic, programming languages theory, formal verification, and type theory.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://cs.bc.edu/stumpaa/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ilya-volkovich",
+          "name": "Ilya Volkovich",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "Computational Complexity/Theory",
+          "tags": [
+            "Computational Complexity",
+            "Algebraic Complexity",
+            "Derandomization",
+            "Cryptography",
+            "Computational Learning Theory"
+          ],
+          "summary": "Research in computational complexity theory, algebraic complexity, derandomization and randomness in computation, cryptography, and computational learning theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hsin-hao-su",
+          "name": "Hsin-Hao Su",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "Distributed Computing/Theory",
+          "tags": [
+            "Distributed Graph Algorithms",
+            "Parallel Computing",
+            "Massively Parallel Computation",
+            "Combinatorial Optimization"
+          ],
+          "summary": "Research in distributed graph algorithms, parallel and massively parallel computation (MPC), combinatorial optimization (matching, clustering, routing), and biologically inspired algorithms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
             "scholar": null
           }
         },
@@ -1620,9 +1701,10 @@
             "Computer Vision",
             "Deep Learning",
             "Connectomics",
-            "Biomedical Image Analysis"
+            "Biomedical Image Analysis",
+            "AI for Science"
           ],
-          "summary": "NSF CAREER awardee. Research in computer vision and ML for connectomics -- reconstructing brain wiring diagrams from 3D microscopy images. Leads the BC Computer Vision Lab.",
+          "summary": "NSF CAREER awardee (2023). Research in computer vision and ML for connectomics -- reconstructing brain wiring diagrams from 3D microscopy images. Leads the BC Computer Vision Lab.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://donglaiw.github.io/",
@@ -1638,7 +1720,8 @@
             "Data Visualization",
             "HCI",
             "Accessible Visualization",
-            "LLM for Design"
+            "LLM for Design",
+            "AI Literacy"
           ],
           "summary": "Research in data visualization and HCI, focusing on accessible visualization, LLM-based design feedback, narrative visualization, and visualization literacy. PhD from Harvard.",
           "recruitment_status": "Unknown/Verify",
@@ -1651,50 +1734,38 @@
           "id": "yuan-yuan",
           "name": "Yuan Yuan",
           "title": "Assistant Professor of Computer Science",
-          "sub_field": "Machine Learning/Computer Vision",
+          "sub_field": "Multisensory AI/Generative AI",
           "tags": [
             "ML",
-            "Deep Learning",
-            "Computer Vision"
+            "Computer Vision",
+            "Generative AI",
+            "Multisensory AI",
+            "AIoT",
+            "Trustworthy AI"
           ],
-          "summary": "Research in machine learning, deep learning, and computer vision.",
+          "summary": "Research in multisensory and generative AI (vision, AIoT, language/LLMs, medical data), AI for medicine and health (digital biomarker discovery, Parkinson's detection), and trustworthy/safe AI.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://yyuanad.github.io/",
             "scholar": null
           }
         },
         {
-          "id": "hsin-hao-su",
-          "name": "Hsin-Hao Su",
+          "id": "jessica-finocchiaro",
+          "name": "Jessica Finocchiaro",
           "title": "Assistant Professor of Computer Science",
-          "sub_field": "Distributed Computing/Theory",
+          "sub_field": "Theoretical Machine Learning/Algorithmic Economics",
           "tags": [
-            "Distributed Computing",
-            "Theory",
-            "Algorithms"
+            "ML Theory",
+            "Algorithmic Economics",
+            "Property Elicitation",
+            "Fairness",
+            "Convex Analysis"
           ],
-          "summary": "Research in distributed systems theory and algorithms.",
+          "summary": "Research in theoretical machine learning, algorithmic economics, property elicitation, fairness and algorithmic discrimination, and objective function design. Joined September 2024.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "lewis-tseng",
-          "name": "Lewis Tseng",
-          "title": "Associate Professor of Computer Science",
-          "sub_field": "Distributed Computing",
-          "tags": [
-            "Distributed Computing",
-            "Algorithms",
-            "Fault Tolerance"
-          ],
-          "summary": "Research in distributed computing, algorithms, and fault-tolerant systems.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
+            "homepage": "https://www.jessiefin.com/",
             "scholar": null
           }
         },
@@ -1708,9 +1779,10 @@
             "Algorithms",
             "AI for Social Good",
             "Public Health",
-            "DeFi"
+            "DeFi",
+            "LLM-Based Preference Elicitation"
           ],
-          "summary": "Research in applied modeling, algorithms, and AI for societally-facing challenges including public health and access to financial services. Faculty Associate at Harvard's Berkman Klein Center. DPhil from Oxford.",
+          "summary": "Research in applied modeling, algorithms, and AI for societally-facing challenges including public health and access to financial services. Faculty Associate at Harvard's Berkman Klein Center. DPhil from Oxford. Joined January 2025.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.fmarmolejo.com/",

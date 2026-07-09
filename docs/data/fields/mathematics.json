@@ -2985,8 +2985,464 @@
       "links": {
         "program": "http://pma.caltech.edu/research-and-academics/physics"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "rana-x-adhikari",
+          "name": "Rana X. Adhikari",
+          "title": "Professor of Physics",
+          "sub_field": "Experimental Gravitational-Wave Physics",
+          "tags": [
+            "LIGO",
+            "gravitational waves",
+            "quantum measurement",
+            "optomechanics"
+          ],
+          "summary": "Experimental gravity and gravitational-wave detection. LIGO scientific collaboration. Quantum noise reduction in interferometric detectors.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/rana-x-adhikari",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jason-f-alicea",
+          "name": "Jason F. Alicea",
+          "title": "William K. Davis Professor of Theoretical Physics",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "topological phases",
+            "quantum computing",
+            "Majorana fermions",
+            "topological superconductors"
+          ],
+          "summary": "Theoretical condensed matter physics. Topological phases of matter, Majorana fermions, and topological quantum computation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/jason-f-alicea",
+            "scholar": null
+          }
+        },
+        {
+          "id": "marco-bernardi",
+          "name": "Marco Bernardi",
+          "title": "Professor of Applied Physics, Physics and Materials Science",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "electron-phonon interactions",
+            "transport",
+            "ultrafast dynamics",
+            "first-principles calculations"
+          ],
+          "summary": "Theory and ab initio computation of light-matter interaction, carrier dynamics, and transport in materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/marco-bernardi",
+            "scholar": null
+          }
+        },
+        {
+          "id": "james-j-jamie-bock",
+          "name": "James J. (Jamie) Bock",
+          "title": "Marvin L. Goldberger Professor of Physics; JPL Senior Research Scientist",
+          "sub_field": "Experimental Cosmology",
+          "tags": [
+            "CMB",
+            "inflation",
+            "BICEP",
+            "SPIDER",
+            "submillimeter instrumentation"
+          ],
+          "summary": "Experimental cosmology. CMB polarization measurements searching for inflationary gravitational waves. BICEP/Keck and SPIDER experiments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/james-j-jamie-bock",
+            "scholar": null
+          }
+        },
+        {
+          "id": "fernando-brandao",
+          "name": "Fernando Brandao",
+          "title": "Bren Professor of Theoretical Physics",
+          "sub_field": "Quantum Information",
+          "tags": [
+            "quantum computing",
+            "entanglement",
+            "many-body quantum systems",
+            "quantum algorithms"
+          ],
+          "summary": "Quantum information science. Entanglement theory, quantum algorithms, and connections between quantum information and many-body physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/fernando-brandao",
+            "scholar": null
+          }
+        },
+        {
+          "id": "katerina-chatziioannou",
+          "name": "Katerina Chatziioannou",
+          "title": "Professor of Physics; William H. Hurt Scholar",
+          "sub_field": "Gravitational-Wave Astrophysics",
+          "tags": [
+            "LIGO",
+            "gravitational waves",
+            "neutron stars",
+            "compact binaries",
+            "nuclear physics"
+          ],
+          "summary": "Gravitational-wave physics and astrophysics. LIGO data analysis, neutron star equation of state from gravitational waves, and multimessenger astronomy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/katerina-chatziioannou",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xie-chen",
+          "name": "Xie Chen",
+          "title": "Eddleman Professor of Theoretical Physics; Director, Walter Burke Institute for Theoretical Physics",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "topological phases",
+            "symmetry-protected topological order",
+            "quantum information",
+            "many-body physics"
+          ],
+          "summary": "Theory of topological phases of matter and quantum information. Symmetry-protected topological order and classification of quantum phases.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/xie-chen",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yanbei-chen",
+          "name": "Yanbei Chen",
+          "title": "Professor of Physics",
+          "sub_field": "Gravitational-Wave Theory",
+          "tags": [
+            "LIGO",
+            "gravitational waves",
+            "quantum optics",
+            "black holes"
+          ],
+          "summary": "Theoretical gravitational-wave physics. Quantum noise in LIGO, black hole spectroscopy, and tests of general relativity with gravitational waves.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/yanbei-chen",
+            "scholar": null
+          }
+        },
+        {
+          "id": "clifford-w-cheung",
+          "name": "Clifford W. Cheung",
+          "title": "Professor of Theoretical Physics; Director, Leinweber Forum for Theoretical Physics",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "scattering amplitudes",
+            "effective field theory",
+            "quantum field theory",
+            "gravity"
+          ],
+          "summary": "Theoretical particle physics. Scattering amplitudes, effective field theories, and connections between field theory and gravity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/clifford-w-cheung",
+            "scholar": null
+          }
+        },
+        {
+          "id": "manuel-a-endres",
+          "name": "Manuel A. Endres",
+          "title": "Professor of Physics",
+          "sub_field": "AMO Experiment",
+          "tags": [
+            "ultracold atoms",
+            "quantum simulation",
+            "optical tweezers",
+            "Rydberg atoms"
+          ],
+          "summary": "Atomic, molecular, and optical physics. Quantum simulation with ultracold atoms in optical tweezers. Rydberg atom arrays for quantum information.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/manuel-a-endres",
+            "scholar": null
+          }
+        },
+        {
+          "id": "bradley-w-filippone",
+          "name": "Bradley W. Filippone",
+          "title": "Francis L. Moseley Professor of Physics",
+          "sub_field": "Experimental Nuclear Physics",
+          "tags": [
+            "fundamental symmetries",
+            "neutron physics",
+            "dark matter",
+            "neutron EDM"
+          ],
+          "summary": "Experimental nuclear and particle physics. Precision measurements of fundamental symmetries, neutron electric dipole moment, and dark matter searches.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/bradley-w-filippone",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sunil-golwala",
+          "name": "Sunil Golwala",
+          "title": "Professor of Physics; Deputy Executive Officer for Astrophysics",
+          "sub_field": "Experimental Cosmology",
+          "tags": [
+            "dark matter",
+            "submillimeter detectors",
+            "CMB",
+            "superconducting detectors"
+          ],
+          "summary": "Experimental cosmology. Direct dark matter detection and CMB instrumentation using superconducting detectors.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/sunil-golwala",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sergei-gukov",
+          "name": "Sergei Gukov",
+          "title": "John D. MacArthur Professor of Theoretical Physics and Mathematics",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "string theory",
+            "mathematical physics",
+            "quantum topology",
+            "geometric representation theory"
+          ],
+          "summary": "String theory and mathematical physics. Quantum topology, geometric representation theory, and connections to high-energy physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/sergei-gukov",
+            "scholar": null
+          }
+        },
+        {
+          "id": "fiona-a-harrison",
+          "name": "Fiona A. Harrison",
+          "title": "Harold A. Rosen Professor of Physics",
+          "sub_field": "High-Energy Astrophysics",
+          "tags": [
+            "NuSTAR",
+            "X-ray astronomy",
+            "black holes",
+            "neutron stars",
+            "instrumentation"
+          ],
+          "summary": "High-energy astrophysics. Principal Investigator of NuSTAR (Nuclear Spectroscopic Telescope Array). X-ray studies of black holes and neutron stars.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/fiona-a-harrison",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-g-hitlin",
+          "name": "David G. Hitlin",
+          "title": "Professor of Physics",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "elementary particle physics",
+            "CP violation",
+            "B physics",
+            "Belle II"
+          ],
+          "summary": "Experimental elementary particle physics. CP violation, heavy flavor physics, and Belle II experiment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/david-g-hitlin",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-hsieh",
+          "name": "David Hsieh",
+          "title": "Donald A. Glaser Professor of Physics; Executive Officer for Physics",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "topological materials",
+            "ultrafast spectroscopy",
+            "nonlinear optics",
+            "quantum materials"
+          ],
+          "summary": "Experimental condensed matter physics. Ultrafast optical spectroscopy of topological materials and quantum phases of matter.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/david-hsieh",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alexei-kitaev",
+          "name": "Alexei Kitaev",
+          "title": "Professor of Theoretical Physics",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "topological quantum computation",
+            "anyons",
+            "quantum information",
+            "many-body physics"
+          ],
+          "summary": "Theoretical physics and quantum information. Pioneer of topological quantum computation. Anyons, Majorana fermions, and quantum error correction.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/alexei-kitaev",
+            "scholar": null
+          }
+        },
+        {
+          "id": "harvey-b-newman",
+          "name": "Harvey B. Newman",
+          "title": "Professor of Physics",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "CMS experiment",
+            "LHC",
+            "collider physics",
+            "computing",
+            "Higgs physics"
+          ],
+          "summary": "Experimental high-energy physics at CMS (LHC). Higgs physics, computing and networking for particle physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/harvey-b-newman",
+            "scholar": null
+          }
+        },
+        {
+          "id": "oskar-j-painter",
+          "name": "Oskar J. Painter",
+          "title": "Professor of Applied Physics and Physics",
+          "sub_field": "Quantum Optics",
+          "tags": [
+            "nanophotonics",
+            "optomechanics",
+            "quantum information",
+            "superconducting circuits"
+          ],
+          "summary": "Quantum photonics and optomechanics. Chip-based quantum optical devices, optomechanical crystals, and superconducting quantum circuits.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/oskar-j-painter",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ryan-b-patterson",
+          "name": "Ryan B. Patterson",
+          "title": "Professor of Physics",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "neutrino physics",
+            "neutrino oscillations",
+            "NOvA",
+            "DUNE"
+          ],
+          "summary": "Experimental high-energy physics. Neutrino oscillations and neutrino properties with NOvA and DUNE experiments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/ryan-b-patterson",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-p-preskill",
+          "name": "John P. Preskill",
+          "title": "Richard P. Feynman Professor of Theoretical Physics",
+          "sub_field": "Quantum Information",
+          "tags": [
+            "quantum computing",
+            "quantum error correction",
+            "topological quantum computation",
+            "quantum information"
+          ],
+          "summary": "Pioneer of quantum information science. Quantum computation, quantum error correction, topological quantum computation, and foundations of quantum information.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/john-p-preskill",
+            "scholar": null
+          }
+        },
+        {
+          "id": "gil-refael",
+          "name": "Gil Refael",
+          "title": "Professor of Theoretical Physics",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "topological phases",
+            "disordered systems",
+            "Floquet engineering",
+            "non-equilibrium quantum systems"
+          ],
+          "summary": "Theory of topological phases, disordered quantum systems, Floquet engineering, and non-equilibrium quantum dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/gil-refael",
+            "scholar": null
+          }
+        },
+        {
+          "id": "maria-spiropulu",
+          "name": "Maria Spiropulu",
+          "title": "Professor of Physics; Shang-Yi Ch'en Professor of Physics",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "CMS experiment",
+            "LHC",
+            "dark matter",
+            "quantum networks",
+            "beyond Standard Model"
+          ],
+          "summary": "Experimental high-energy physics at CMS (LHC). Dark matter searches, beyond-Standard-Model physics, and quantum network experiments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/maria-spiropulu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kathryn-m-zurek",
+          "name": "Kathryn M. Zurek",
+          "title": "Professor of Theoretical Physics",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "dark matter",
+            "cosmology",
+            "particle phenomenology",
+            "early universe"
+          ],
+          "summary": "Theoretical physics of dark matter. Particle dark matter models, cosmology, and connections to laboratory and astrophysical searches.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/kathryn-m-zurek",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nai-chang-yeh",
+          "name": "Nai-Chang Yeh",
+          "title": "Professor of Physics",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "superconductivity",
+            "topological materials",
+            "nanoscience",
+            "energy materials"
+          ],
+          "summary": "Experimental condensed matter physics. Unconventional superconductivity, topological materials, and nanoscience.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/nai-chang-yeh",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "carnegie-mellon-university-ph-d-in-algorithms-combinatorics-and-optimization-aco",
