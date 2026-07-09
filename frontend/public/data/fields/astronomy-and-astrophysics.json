@@ -39,8 +39,306 @@
       "links": {
         "program": "https://www.bu.edu/academics/grs/programs/astronomy/phd/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "paul-withers",
+          "name": "Paul Withers",
+          "title": "Professor and Chair",
+          "sub_field": "Space Physics",
+          "tags": [
+            "Mars",
+            "planetary ionospheres",
+            "upper atmospheres",
+            "radio science",
+            "accelerometer"
+          ],
+          "summary": "Upper atmospheres and ionospheres of planets, especially Mars. Radio occultation and accelerometer measurements from spacecraft.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/paul-withers/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "catherine-espaillat",
+          "name": "Catherine Espaillat",
+          "title": "Professor and Associate Chair; Director, Institute for Astrophysical Research",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "protoplanetary disks",
+            "planet formation",
+            "star formation",
+            "radiative transfer",
+            "T Tauri stars"
+          ],
+          "summary": "Structure and evolution of circumstellar disks around young stars. Planet formation, dust growth, radiative transfer modeling. Observations with JWST, ALMA.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/catherine-espaillat/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elizabeth-blanton",
+          "name": "Elizabeth Blanton",
+          "title": "Professor; Director of Undergraduate Studies",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "galaxy clusters",
+            "radio galaxies",
+            "high-energy astrophysics",
+            "optical/IR astronomy"
+          ],
+          "summary": "Galaxy clusters, radio galaxies, and high-energy astrophysics. Multiwavelength studies of clusters and AGN feedback.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/elizabeth-blanton/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tereasa-brainerd",
+          "name": "Tereasa Brainerd",
+          "title": "Professor",
+          "sub_field": "Cosmology",
+          "tags": [
+            "dark matter halos",
+            "weak gravitational lensing",
+            "large-scale structure",
+            "galaxy formation"
+          ],
+          "summary": "Observational cosmology. Dark matter halos of galaxies, weak gravitational lensing, large-scale structure, and galaxy evolution.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/tereasa-brainerd/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-mendillo",
+          "name": "Michael Mendillo",
+          "title": "Professor",
+          "sub_field": "Space Physics",
+          "tags": [
+            "planetary atmospheres",
+            "ionospheric physics",
+            "space weather",
+            "observational astronomy"
+          ],
+          "summary": "Space physics and planetary atmospheres. Ionospheric observations and models, comparative planetary atmospheres.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/michael-mendillo/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "merav-opher",
+          "name": "Merav Opher",
+          "title": "Professor; Director, SHIELD NASA Drive Center",
+          "sub_field": "Space Physics",
+          "tags": [
+            "heliosphere",
+            "solar wind",
+            "interstellar medium",
+            "plasma physics",
+            "T-Tauri winds"
+          ],
+          "summary": "Computational/theoretical plasma physics. Heliosphere structure, solar wind interaction with the interstellar medium, and astrospheres. Leads NASA SHIELD DRIVE Science Center.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/merav-opher/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "meers-oppenheim",
+          "name": "Meers Oppenheim",
+          "title": "Professor; Associate Director, Center for Space Physics",
+          "sub_field": "Space Physics",
+          "tags": [
+            "ionosphere",
+            "plasma turbulence",
+            "meteor trails",
+            "wave-particle interactions",
+            "electrojet"
+          ],
+          "summary": "Space plasma physics. E-region ionosphere and electrojet dynamics, meteor trail plasma, and wave-particle interactions in space plasmas.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/meers-oppenheim/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "thomas-bania",
+          "name": "Thomas Bania",
+          "title": "Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "radio spectroscopy",
+            "galactic structure",
+            "interstellar medium",
+            "Galactic Center"
+          ],
+          "summary": "Radio astronomy and spectroscopy. Galactic structure, interstellar medium, and the Galactic Center. Studies of helium abundance in the Galaxy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/thomas-bania/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alan-marscher",
+          "name": "Alan Marscher",
+          "title": "Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "quasars",
+            "AGN",
+            "relativistic jets",
+            "black holes",
+            "high-energy astrophysics",
+            "blazars"
+          ],
+          "summary": "Active galactic nuclei, quasars, and blazars. Relativistic jets from supermassive black holes. Multiwavelength observations from radio to gamma rays.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/alan-marscher/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jj-hermes",
+          "name": "JJ Hermes",
+          "title": "Associate Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "white dwarfs",
+            "stellar astrophysics",
+            "exoplanet remnants",
+            "compact objects"
+          ],
+          "summary": "Stellar astrophysics of white dwarf stars. Pulsating white dwarfs, planetary debris around white dwarfs, compact binary evolution.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/jj-hermes/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "wen-li",
+          "name": "Wen Li",
+          "title": "Associate Professor; Director of Graduate Studies",
+          "sub_field": "Space Physics",
+          "tags": [
+            "magnetospheric physics",
+            "aurora",
+            "radiation belts",
+            "wave-particle interactions"
+          ],
+          "summary": "Magnetospheric physics. Aurora, radiation belt dynamics, and wave-particle interactions in Earth's magnetosphere.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/wen-li/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "philip-muirhead",
+          "name": "Philip Muirhead",
+          "title": "Associate Professor; Director, Perkins Telescope Observatory",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "exoplanets",
+            "low-mass stars",
+            "M dwarfs",
+            "instrumentation",
+            "Perkins Telescope"
+          ],
+          "summary": "Exoplanets and low-mass stars. Occurrence and characterization of planets around M dwarfs. Astronomical instrumentation. Director of Perkins Telescope Observatory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/philip-muirhead/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "toshi-nishimura",
+          "name": "Toshi Nishimura",
+          "title": "Associate Professor; Director of Graduate Admissions",
+          "sub_field": "Space Physics",
+          "tags": [
+            "magnetosphere-ionosphere coupling",
+            "aurora",
+            "space weather",
+            "GPS scintillation"
+          ],
+          "summary": "Magnetosphere-ionosphere coupling. Aurora dynamics, space weather, and ionospheric disturbances. Multisatellite and ground-based observations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/toshi-nishimura/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dillon-brout",
+          "name": "Dillon Brout",
+          "title": "Assistant Professor; Director of Graduate Admissions",
+          "sub_field": "Cosmology",
+          "tags": [
+            "supernova cosmology",
+            "dark energy",
+            "Hubble constant",
+            "Pantheon+",
+            "DES",
+            "DESI"
+          ],
+          "summary": "Supernova cosmology. Dark energy, Hubble constant tension. Leads SH0ES, Pantheon+, DES supernova cosmology, and DESI analyses.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/dillon-brout/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emily-cunningham",
+          "name": "Emily Cunningham",
+          "title": "Assistant Professor",
+          "sub_field": "Cosmology",
+          "tags": [
+            "Milky Way",
+            "dark matter",
+            "galactic archaeology",
+            "near-field cosmology"
+          ],
+          "summary": "Dark matter in the Milky Way. Using stellar kinematics and galactic archaeology to constrain the Milky Way's dark matter distribution.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/emily-cunningham/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chuanfei-dong",
+          "name": "Chuanfei Dong",
+          "title": "Assistant Professor",
+          "sub_field": "Space Physics",
+          "tags": [
+            "solar wind",
+            "planetary magnetospheres",
+            "Mars atmosphere escape",
+            "plasma simulation"
+          ],
+          "summary": "Computational space plasma physics. Solar wind interaction with planets, Mars atmospheric escape, magnetospheric physics, and exoplanetary space environments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/astronomy/profile/chuanfei-dong/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "brown-university-earth-environmental-and-planetary-sciences-phd",

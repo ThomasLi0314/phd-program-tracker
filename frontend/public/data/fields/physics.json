@@ -1369,8 +1369,297 @@
       "links": {
         "program": "https://www.bc.edu/bc-web/schools/morrissey/departments/physics/graduate.html"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "kenneth-burch",
+          "name": "Kenneth Burch",
+          "title": "Professor and Chair; John H. Rourke Professor of Physics",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "quantum materials",
+            "optical spectroscopy",
+            "biosensing",
+            "graphene",
+            "2D materials"
+          ],
+          "summary": "APS Fellow. Research on quantum materials, optical spectroscopy of 2D materials, graphene-based biosensors for disease detection. 100+ publications in Nature, Nature Physics etc. NSF/AFOSR/NIH/DOE funded.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.bc.edu/kennethburch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-broido",
+          "name": "David Broido",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "thermal transport",
+            "phonon physics",
+            "thermoelectrics",
+            "nanoscale heat transfer"
+          ],
+          "summary": "Clarivate Highly Cited Researcher (2020-2022). APS Fellow. Theory of lattice thermal conductivity, phonon transport in nanostructures and 2D materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.bc.edu/broido/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-j-naughton",
+          "name": "Michael J. Naughton",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "superconductivity",
+            "photonics",
+            "plasmonics",
+            "nanocoaxial sensors",
+            "metamaterials"
+          ],
+          "summary": "Research on photonic crystals, plasmonics, nanocoaxial biosensors, organic conductors, optical metamaterials. 212+ publications, 6200+ citations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bc.edu/bc-web/schools/morrissey/departments/physics/labs/naughton-lab.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ilija-zeljkovic",
+          "name": "Ilija Zeljkovic",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "quantum materials",
+            "STM/STS",
+            "topological insulators",
+            "kagome metals",
+            "superconductors"
+          ],
+          "summary": "Nanoscale synthesis (MBE) and characterization (STM/STS) of quantum materials. DOE Early Career Award, NSF CAREER, ARO Young Investigator, DARPA Young Faculty Award.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bc.edu/bc-web/schools/morrissey/departments/physics/labs/Zeljkovic-Lab.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ziqiang-wang",
+          "name": "Ziqiang Wang",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "correlated electron systems",
+            "superconductivity",
+            "topological materials",
+            "kagome metals"
+          ],
+          "summary": "Theory of strongly correlated electron systems, iron-based superconductors, kagome superconductors, topological materials. PI on multiple DOE grants.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bc.edu/bc-web/schools/morrissey/departments/physics/labs/ziqiang-wang.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ying-ran",
+          "name": "Ying Ran",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "topological materials",
+            "quantum spin liquids",
+            "Weyl semimetals",
+            "strongly correlated systems"
+          ],
+          "summary": "Theory of topological phases of matter, quantum spin liquids, Weyl semimetals, topological semimetals. High-profile publications on kagome materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bc.edu/bc-web/schools/morrissey/departments/physics/labs/ying-ran.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "krzysztof-kempa",
+          "name": "Krzysztof Kempa",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "Weyl semimetals",
+            "plasmonics",
+            "light-electricity conversion",
+            "nanophotonics"
+          ],
+          "summary": "Pioneering work on Weyl semimetals and plasmonics. Developed technique to image Weyl photocurrent flow in topological semimetals.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bc.edu/bc-web/schools/morrissey/departments/physics/labs/kempa-lab.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-graf",
+          "name": "Michael Graf",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "quantum spin liquids",
+            "frustrated magnetism",
+            "muon spin spectroscopy"
+          ],
+          "summary": "Research on quantum spin liquids, frustrated magnetic systems, muon spin rotation/relaxation spectroscopy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bc.edu/bc-web/schools/morrissey/departments/physics/labs/graf-lab.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kevin-bedell",
+          "name": "Kevin Bedell",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "strongly correlated electrons",
+            "superconductivity",
+            "Fermi liquid theory"
+          ],
+          "summary": "Theory of strongly correlated electron systems, high-temperature superconductivity, heavy fermions, non-Fermi liquids.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "cyril-opeil",
+          "name": "Cyril Opeil",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "thermoelectrics",
+            "heat capacity",
+            "materials characterization",
+            "calorimetry"
+          ],
+          "summary": "Experimental condensed matter physics focusing on thermoelectric materials, specific heat measurements, and materials characterization at low temperatures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bc.edu/content/bc-web/schools/morrissey/departments/physics/labs/opeil-lab.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "fazel-tafti",
+          "name": "Fazel Tafti",
+          "title": "Associate Professor and Graduate Chair",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "quantum spin liquids",
+            "frustrated magnets",
+            "high-pressure physics",
+            "crystal growth"
+          ],
+          "summary": "Experimental study of quantum spin liquids and frustrated magnetic systems using high-pressure techniques. Crystal growth of quantum materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bc.edu/bc-web/schools/morrissey/departments/physics/labs/tafti-lab.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jan-engelbrecht",
+          "name": "Jan Engelbrecht",
+          "title": "Associate Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "strongly correlated systems",
+            "non-equilibrium physics",
+            "BEC"
+          ],
+          "summary": "Theory of Bose-Einstein condensation, strongly correlated quantum systems, and non-equilibrium dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "benedetta-flebus",
+          "name": "Benedetta Flebus",
+          "title": "Assistant Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "topological magnetics",
+            "spintronics",
+            "magnonics",
+            "chiral phonons",
+            "quantum sensing"
+          ],
+          "summary": "NSF CAREER Award (2022). Theory of topological phases in magnetic materials, magnon-magnon interactions, chiral phonons, thermal Hall transport. DoD funded for quantum sensing and computing with hybrid solid-state systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bc.edu/bc-web/schools/morrissey/departments/physics/labs/flebus-lab.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "qiong-ma",
+          "name": "Qiong Ma",
+          "title": "Assistant Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "2D materials",
+            "optoelectronics",
+            "infrared spectroscopy",
+            "quantum materials",
+            "ferroelectric nanoelectronics"
+          ],
+          "summary": "NSF CAREER Award (2022), CIFAR Azrieli Global Scholar. Research on 2D quantum materials, light-matter interactions, infrared optoelectronics. DoD YIP Award for multi-functional ferroelectric nanoelectronics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bc.edu/bc-web/schools/morrissey/departments/physics/labs/qiong-ma.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xiao-chen",
+          "name": "Xiao Chen",
+          "title": "Assistant Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "quantum many-body physics",
+            "topological phases",
+            "quantum information"
+          ],
+          "summary": "Theory of quantum many-body systems, topological phases of matter, entanglement and quantum information aspects of condensed matter.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bc.edu/content/bc-web/schools/morrissey/departments/physics/labs/xiao-chen.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alexander-auner",
+          "name": "Alexander Auner",
+          "title": "Assistant Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "quantum materials",
+            "thin films",
+            "molecular beam epitaxy"
+          ],
+          "summary": "Experimental condensed matter physics with focus on synthesis and characterization of quantum materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "boston-university-physics",
@@ -1410,8 +1699,632 @@
       "links": {
         "program": "https://www.bu.edu/academics/grs/programs/physics/phd/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "david-bishop",
+          "name": "David Bishop",
+          "title": "Professor (ECE, Physics, ME, MSE)",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "low temperature physics",
+            "MEMS/NEMS",
+            "mechanical properties of materials"
+          ],
+          "summary": "Low temperature physics and mechanical properties of materials at low temperatures. Cross-appointed in ECE, ME, and MSE.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/david-bishop/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-campbell",
+          "name": "David Campbell",
+          "title": "Professor (Physics, ECE, MSE); Director of Graduate Studies",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "nonlinear physics",
+            "condensed matter theory",
+            "complex systems"
+          ],
+          "summary": "Theoretical physics of nonlinear and complex systems, condensed matter theory. Former Provost and Boston University Professor.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/david-campbell/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "robert-carey",
+          "name": "Robert Carey",
+          "title": "Professor",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "particle physics",
+            "muon physics",
+            "g-2 experiment"
+          ],
+          "summary": "Experimental particle physics including muon g-2 measurements and precision tests of the Standard Model.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/robert-carey/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-el-batanouny",
+          "name": "Michael El-Batanouny",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "surface physics",
+            "phonon spectroscopy",
+            "helium atom scattering"
+          ],
+          "summary": "Experimental and theoretical surface physics. Nonlinear surface phonon spectroscopy, helium atom scattering from surfaces.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/michael-el-batanouny/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "shyamsunder-erramilli",
+          "name": "Shyamsunder Erramilli",
+          "title": "Professor",
+          "sub_field": "Biophysics",
+          "tags": [
+            "molecular biophysics",
+            "infrared spectroscopy",
+            "protein dynamics"
+          ],
+          "summary": "Molecular biophysics and spectroscopy. Development of novel optical techniques for studying biomolecular dynamics and structure.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/shyamsunder-erramilli/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emanuel-katz",
+          "name": "Emanuel Katz",
+          "title": "Professor",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "quantum field theory",
+            "conformal field theory",
+            "particle phenomenology",
+            "string theory"
+          ],
+          "summary": "Theoretical particle physics. Quantum field theory, conformal bootstrap, effective field theories, and physics beyond the Standard Model.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/emanuel-katz/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ed-kearns",
+          "name": "Ed Kearns",
+          "title": "Professor and Interim Chair; Director of Undergraduate Studies",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "neutrino physics",
+            "Super-Kamiokande",
+            "T2K",
+            "Hyper-Kamiokande",
+            "proton decay"
+          ],
+          "summary": "Experimental neutrino physics. Major roles in Super-Kamiokande, T2K, and Hyper-Kamiokande experiments. Studies of neutrino oscillations, proton decay.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/ed-kearns/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "karl-ludwig",
+          "name": "Karl Ludwig",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "X-ray scattering",
+            "surface physics",
+            "thin films",
+            "real-time materials studies"
+          ],
+          "summary": "Real-time X-ray studies of materials processes. Surface and interface physics using synchrotron X-ray scattering techniques.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/karl-ludwig/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "pankaj-mehta",
+          "name": "Pankaj Mehta",
+          "title": "Professor",
+          "sub_field": "Biophysics",
+          "tags": [
+            "theoretical biophysics",
+            "statistical physics",
+            "machine learning",
+            "ecology",
+            "evolution"
+          ],
+          "summary": "Theoretical biological physics. Statistical physics approaches to ecology, evolution, immunology, and machine learning. Interdisciplinary research at the physics-biology interface.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/pankaj-mehta/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "james-miller",
+          "name": "James Miller",
+          "title": "Professor",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "neutrino physics",
+            "muon physics",
+            "precision measurements"
+          ],
+          "summary": "Experimental particle physics with focus on precision measurements. Neutrino physics and muon experiments including mu2e.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/james-miller/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "raj-mohanty",
+          "name": "Raj Mohanty",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "nanomechanics",
+            "NEMS",
+            "biophysics",
+            "nanofabrication"
+          ],
+          "summary": "Nanomechanical systems (NEMS), nanoscale biophysics, single-molecule manipulation, and fluid dynamics at the nanoscale.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/raj-mohanty/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "anatoli-polkovnikov",
+          "name": "Anatoli Polkovnikov",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "quantum dynamics",
+            "non-equilibrium physics",
+            "many-body systems",
+            "adiabatic processes"
+          ],
+          "summary": "Theory of quantum many-body systems out of equilibrium. Quantum dynamics, adiabatic theorems, Floquet systems, and connections to quantum information.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/anatoli-polkovnikov/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lee-roberts",
+          "name": "Lee Roberts",
+          "title": "Professor",
+          "sub_field": "Experimental Nuclear/Particle Physics",
+          "tags": [
+            "precision measurements",
+            "fundamental symmetries",
+            "muon g-2",
+            "electric dipole moments"
+          ],
+          "summary": "Precision measurements of fundamental symmetries. Muon g-2 experiment spokesperson (past). Searches for electric dipole moments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/lee-roberts/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "james-rohlf",
+          "name": "James Rohlf",
+          "title": "Professor",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "CMS experiment",
+            "LHC",
+            "collider physics",
+            "Standard Model tests"
+          ],
+          "summary": "Experimental particle physics at the LHC with the CMS experiment. Hadron calorimetry, Standard Model measurements, and beyond Standard Model searches.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/james-rohlf/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrei-ruckenstein",
+          "name": "Andrei Ruckenstein",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "strongly correlated electrons",
+            "superconductivity",
+            "cold atoms",
+            "ultracold gases"
+          ],
+          "summary": "Theory of strongly correlated electron systems and ultracold atomic gases. Superconductivity, magnetism, and quantum criticality.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/andrei-ruckenstein/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "anders-sandvik",
+          "name": "Anders Sandvik",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "computational condensed matter",
+            "quantum magnetism",
+            "quantum Monte Carlo",
+            "spin liquids"
+          ],
+          "summary": "Computational condensed matter theory. Large-scale quantum Monte Carlo simulations of quantum spin systems, spin liquids, and quantum phase transitions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/anders-sandvik/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "martin-schmaltz",
+          "name": "Martin Schmaltz",
+          "title": "Professor",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "particle phenomenology",
+            "dark matter",
+            "composite Higgs",
+            "collider physics"
+          ],
+          "summary": "Theoretical particle physics beyond the Standard Model. Dark matter models, composite Higgs theories, and collider phenomenology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/martin-schmaltz/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kevin-smith",
+          "name": "Kevin Smith",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "surface science",
+            "photoemission",
+            "novel materials",
+            "2D materials"
+          ],
+          "summary": "Photoemission spectroscopy of novel materials. Electronic structure of surfaces, interfaces, and 2D materials using synchrotron-based techniques.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/kevin-smith/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lawrence-r-sulak",
+          "name": "Lawrence R. Sulak",
+          "title": "Professor; David M. Myers Distinguished Professor",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "neutrino physics",
+            "proton decay",
+            "LHC",
+            "calorimetry"
+          ],
+          "summary": "Distinguished experimental particle physicist. Pioneering work in neutrino physics, proton decay searches (IMB), and collider experiments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/lawrence-sulak/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "anushya-chandran",
+          "name": "Anushya Chandran",
+          "title": "Associate Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "quantum dynamics",
+            "many-body localization",
+            "Floquet systems",
+            "quantum information"
+          ],
+          "summary": "Theory of quantum many-body systems out of equilibrium. Many-body localization, Floquet engineering, and connections to quantum information science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/anushya-chandran/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "zeynep-demiragli",
+          "name": "Zeynep Demiragli",
+          "title": "Associate Professor",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "CMS experiment",
+            "dark matter",
+            "collider physics",
+            "jet substructure"
+          ],
+          "summary": "Experimental particle physics at the CMS experiment (LHC). Dark matter searches, jet substructure techniques, and machine learning for particle physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/zeynep-demiragli/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrew-liam-fitzpatrick",
+          "name": "Andrew Liam Fitzpatrick",
+          "title": "Associate Professor",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "conformal field theory",
+            "quantum gravity",
+            "holography",
+            "effective field theory"
+          ],
+          "summary": "Theoretical physics of conformal field theory, quantum gravity, and holography. Conformal bootstrap methods and effective field theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/andrew-liam-fitzpatrick/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "frank-golf",
+          "name": "Frank Golf",
+          "title": "Associate Professor",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "CMS experiment",
+            "Higgs physics",
+            "collider physics"
+          ],
+          "summary": "Experimental particle physics with CMS at the LHC. Higgs boson properties and beyond Standard Model searches.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/frank-golf/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christopher-grant",
+          "name": "Christopher Grant",
+          "title": "Associate Professor; Associate Chair",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "neutrino physics",
+            "KamLAND-Zen",
+            "neutrinoless double beta decay"
+          ],
+          "summary": "Experimental neutrino physics. Search for neutrinoless double beta decay with KamLAND-Zen to probe Majorana nature of neutrinos.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/christopher-grant/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "maria-kamenetska",
+          "name": "Maria Kamenetska",
+          "title": "Associate Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "single-molecule techniques",
+            "nanomaterials",
+            "biophysics",
+            "molecular electronics"
+          ],
+          "summary": "Single-molecule measurements and nanoscale biophysics. STM break-junction techniques for molecular electronics and nanomaterial characterization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/maria-kamenetska/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kirill-korolev",
+          "name": "Kirill Korolev",
+          "title": "Associate Professor",
+          "sub_field": "Biophysics",
+          "tags": [
+            "statistical physics of populations",
+            "evolutionary dynamics",
+            "microbial ecology",
+            "spatial patterns"
+          ],
+          "summary": "Statistical physics of biological systems. Population dynamics, evolutionary theory, spatial ecology, and microbial communities.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/kirill-korolev/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christopher-laumann",
+          "name": "Christopher Laumann",
+          "title": "Associate Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "quantum many-body physics",
+            "quantum information",
+            "disorder",
+            "quantum optimization"
+          ],
+          "summary": "Theory of quantum many-body systems. Quantum spin glasses, many-body localization, and connections to quantum computation and optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/christopher-laumann/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dries-sels",
+          "name": "Dries Sels",
+          "title": "Associate Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "quantum many-body physics",
+            "quantum control",
+            "open quantum systems",
+            "machine learning"
+          ],
+          "summary": "Theory of quantum many-body systems, quantum control, and machine learning for physics. Optimal control of quantum systems and connections to information theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/dries-sels/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "indara-suarez",
+          "name": "Indara Suarez",
+          "title": "Associate Professor",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "CMS experiment",
+            "dark matter",
+            "long-lived particles"
+          ],
+          "summary": "Experimental particle physics at CMS (LHC). Dark matter searches, long-lived particle searches, and detector development.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/indara-suarez/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "wanzheng-hu",
+          "name": "Wanzheng Hu",
+          "title": "Assistant Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "dynamical materials",
+            "ultrafast optics",
+            "2D materials",
+            "light-matter interaction"
+          ],
+          "summary": "Ultrafast optical control of quantum materials. Dynamical materials control with light, probing emergent phases in 2D and correlated materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/wanzheng-hu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kirit-karkare",
+          "name": "Kirit Karkare",
+          "title": "Assistant Professor",
+          "sub_field": "Observational Cosmology",
+          "tags": [
+            "CMB",
+            "line intensity mapping",
+            "cosmological surveys",
+            "instrumentation"
+          ],
+          "summary": "Observational cosmology using CMB and line intensity mapping. Probing cosmic inflation, dark energy, and neutrino physics from cosmological surveys.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/kirit-karkare/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joseph-larkin",
+          "name": "Joseph Larkin",
+          "title": "Assistant Professor",
+          "sub_field": "AMO Experiment",
+          "tags": [
+            "ultracold atoms",
+            "quantum simulation",
+            "optical lattices",
+            "quantum gases"
+          ],
+          "summary": "Experimental atomic, molecular, and optical physics. Ultracold atoms in optical lattices for quantum simulation of condensed matter systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/joseph-larkin/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "hongwan-liu",
+          "name": "Hongwan Liu",
+          "title": "Assistant Professor",
+          "sub_field": "Theoretical Cosmology",
+          "tags": [
+            "dark matter",
+            "cosmology",
+            "particle physics",
+            "21cm cosmology"
+          ],
+          "summary": "Theoretical cosmology at the interface with particle physics. Dark matter theory, 21cm cosmology, and early universe physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/hongwan-liu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nikola-maksimovic",
+          "name": "Nikola Maksimovic",
+          "title": "Assistant Professor",
+          "sub_field": "Condensed Matter Experiment",
+          "tags": [
+            "quantum sensing",
+            "quantum materials",
+            "NV centers",
+            "nanoscale imaging"
+          ],
+          "summary": "Quantum sensing and quantum materials using NV centers in diamond. Nanoscale magnetic imaging of correlated and topological materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/nikola-maksimovic/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-sperka",
+          "name": "David Sperka",
+          "title": "Assistant Professor",
+          "sub_field": "Experimental High Energy Physics",
+          "tags": [
+            "CMS experiment",
+            "collider physics",
+            "Higgs physics",
+            "beyond Standard Model"
+          ],
+          "summary": "Experimental particle physics at CMS (LHC). Higgs boson physics and searches for physics beyond the Standard Model.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bu.edu/physics/profile/david-sperka/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "boston-university-program-in-biomedical-sciences-pibs",
@@ -2275,8 +3188,483 @@
       "links": {
         "program": "https://gsas.harvard.edu/program/physics"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #3",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #3 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "cumrun-vafa",
+          "name": "Cumrun Vafa",
+          "title": "Hollis Professor of Mathematicks and Natural Philosophy; Department Chair",
+          "sub_field": "High Energy Theory / String Theory",
+          "tags": [
+            "string theory",
+            "F-theory",
+            "swampland program",
+            "quantum gravity",
+            "topological strings"
+          ],
+          "summary": "One of the most influential string theorists in the world. Originator of F-theory and the swampland program. Breakthrough Prize in Fundamental Physics (2017) and Dirac Medal (2008). Member of the National Academy of Sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hetg.physics.harvard.edu/people/cumrun-vafa",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrew-strominger",
+          "name": "Andrew Strominger",
+          "title": "Gwill E. York Professor of Physics; Director, Center for the Fundamental Laws of Nature",
+          "sub_field": "High Energy Theory / Quantum Gravity",
+          "tags": [
+            "quantum gravity",
+            "black holes",
+            "holography",
+            "string theory",
+            "soft hair"
+          ],
+          "summary": "Towering figure in quantum gravity. Made foundational contributions to black hole physics, including the Strominger-Vafa entropy counting and recent work on black hole soft hair and asymptotic symmetries. Breakthrough Prize (2017).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hetg.physics.harvard.edu/people/andrew-strominger",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mikhail-lukin",
+          "name": "Mikhail Lukin",
+          "title": "Joshua and Beth Friedman University Professor",
+          "sub_field": "Atomic, Molecular, and Optical Physics / Quantum Information",
+          "tags": [
+            "quantum optics",
+            "quantum simulation",
+            "Rydberg atoms",
+            "quantum networks",
+            "diamond NV centers"
+          ],
+          "summary": "Leading experimentalist in quantum optics and quantum information science. Co-director of the Harvard Quantum Initiative. Pioneered quantum simulation with Rydberg atom arrays and quantum networking with diamond color centers. Member of the National Academy of Sciences. Highly Cited Researcher.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://lukin.physics.harvard.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "subir-sachdev",
+          "name": "Subir Sachdev",
+          "title": "Herchel Smith Professor of Physics",
+          "sub_field": "Theoretical Condensed Matter Physics",
+          "tags": [
+            "quantum phase transitions",
+            "strange metals",
+            "SYK model",
+            "spin liquids",
+            "high-Tc superconductivity"
+          ],
+          "summary": "World-leading condensed matter theorist. Author of the definitive textbook on quantum phase transitions. Developed the SYK model for strange metals and made foundational contributions to understanding high-temperature superconductivity. Dirac Medal (2018). Member of the National Academy of Sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sachdev.physics.harvard.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lisa-randall",
+          "name": "Lisa Randall",
+          "title": "Frank B. Baird, Jr. Professor of Science",
+          "sub_field": "High Energy Theory / Particle Physics / Cosmology",
+          "tags": [
+            "extra dimensions",
+            "Randall-Sundrum model",
+            "dark matter",
+            "baryogenesis",
+            "warped geometry"
+          ],
+          "summary": "One of the most cited particle physicists. Co-originator of the Randall-Sundrum warped extra dimensions model. Author of influential popular science books. Research spans particle physics, cosmology, and dark matter. Member of the National Academy of Sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.harvard.edu/people/facpages/randall",
+            "scholar": null
+          }
+        },
+        {
+          "id": "philip-kim",
+          "name": "Philip Kim",
+          "title": "Professor of Physics and of Applied Physics",
+          "sub_field": "Experimental Condensed Matter Physics",
+          "tags": [
+            "2D materials",
+            "graphene",
+            "quantum transport",
+            "moiré systems",
+            "van der Waals heterostructures"
+          ],
+          "summary": "Pioneer in graphene and 2D materials research. Led early experiments measuring graphene's remarkable electronic properties. Now working on moiré quantum matter. Highly Cited Researcher and member of the National Academy of Sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://kim.physics.harvard.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ashvin-vishwanath",
+          "name": "Ashvin Vishwanath",
+          "title": "Professor of Physics",
+          "sub_field": "Theoretical Condensed Matter Physics",
+          "tags": [
+            "topological phases",
+            "Weyl semimetals",
+            "quantum magnetism",
+            "moiré materials",
+            "spin liquids"
+          ],
+          "summary": "Prominent condensed matter theorist who predicted Weyl semimetals and contributed foundational ideas to topological insulators and the theory of moiré heterostructures. Highly Cited Researcher. Recipient of the Rahman Prize (2025).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.harvard.edu/people/facpages/vishwanath",
+            "scholar": null
+          }
+        },
+        {
+          "id": "howard-georgi",
+          "name": "Howard Georgi",
+          "title": "Mallinckrodt Professor of Physics",
+          "sub_field": "High Energy Theory / Quantum Field Theory",
+          "tags": [
+            "grand unification",
+            "effective field theory",
+            "QFT",
+            "composite Higgs",
+            "unparticle physics"
+          ],
+          "summary": "Pioneer of Grand Unified Theories (GUTs) and co-developer of the Georgi-Glashow SU(5) model. Major contributions to effective field theory and quantum field theory. Longtime Director of Undergraduate Studies and legendary pedagogical influence.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.harvard.edu/people/facpages/georgi",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-doyle",
+          "name": "John Doyle",
+          "title": "Henry B. Silsbee Professor of Physics",
+          "sub_field": "Atomic, Molecular, and Optical Physics / Precision Measurement",
+          "tags": [
+            "cold molecules",
+            "buffer-gas cooling",
+            "EDM",
+            "fundamental symmetries",
+            "precision measurement"
+          ],
+          "summary": "Leading experimentalist in cold molecule physics and precision tests of fundamental symmetries. Co-director of the ACME collaboration measuring the electron electric dipole moment. 2024 Norman F. Ramsey Prize recipient. Member of the National Academy of Sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.harvard.edu/people/facpages/doyle",
+            "scholar": null
+          }
+        },
+        {
+          "id": "markus-greiner",
+          "name": "Markus Greiner",
+          "title": "George Vasmer Leverett Professor of Physics",
+          "sub_field": "Atomic, Molecular, and Optical Physics / Quantum Simulation",
+          "tags": [
+            "quantum gas microscope",
+            "optical lattices",
+            "Hubbard model",
+            "many-body physics",
+            "Fermi-Hubbard"
+          ],
+          "summary": "Pioneer of the quantum gas microscope technique, which enables single-atom, single-site resolved imaging of ultracold atoms in optical lattices. This has become one of the most powerful platforms for experimental quantum simulation. Highly Cited Researcher.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://greiner.physics.harvard.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-a-weitz",
+          "name": "David A. Weitz",
+          "title": "Mallinckrodt Professor of Physics and of Applied Physics",
+          "sub_field": "Soft Condensed Matter / Biophysics",
+          "tags": [
+            "colloids",
+            "microfluidics",
+            "soft matter",
+            "biosensors",
+            "droplet-based microfluidics"
+          ],
+          "summary": "World leader in soft condensed matter physics. Pioneered droplet-based microfluidics and its applications in biology and materials science. His group develops widely used tools for high-throughput single-cell analysis. Highly Cited Researcher.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://weitzlab.seas.harvard.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-jafferis",
+          "name": "Daniel Jafferis",
+          "title": "Professor of Physics",
+          "sub_field": "High Energy Theory / Quantum Gravity",
+          "tags": [
+            "AdS/CFT",
+            "wormholes",
+            "quantum information",
+            "string theory",
+            "holography"
+          ],
+          "summary": "Rising star in theoretical physics. Known for groundbreaking work on the connection between wormholes and quantum teleportation, and for the Gao-Jafferis-Wall traversable wormhole protocol. Frontiers of Science Award recipient.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hetg.physics.harvard.edu/people/daniel-jafferis",
+            "scholar": null
+          }
+        },
+        {
+          "id": "matthew-schwartz",
+          "name": "Matthew Schwartz",
+          "title": "Professor of Physics",
+          "sub_field": "High Energy Theory / QCD",
+          "tags": [
+            "precision QCD",
+            "jets",
+            "effective field theory",
+            "LHC phenomenology",
+            "quantum field theory"
+          ],
+          "summary": "Leading expert in precision QCD calculations for the LHC. Author of the widely adopted graduate textbook 'Quantum Field Theory and the Standard Model.' Research on jet physics, precision collider phenomenology, and effective field theories.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.harvard.edu/people/facpages/schwartz",
+            "scholar": null
+          }
+        },
+        {
+          "id": "amir-yacoby",
+          "name": "Amir Yacoby",
+          "title": "Professor of Physics and of Applied Physics",
+          "sub_field": "Experimental Condensed Matter Physics",
+          "tags": [
+            "spin qubits",
+            "topological insulators",
+            "quantum Hall",
+            "NV centers",
+            "quantum sensing"
+          ],
+          "summary": "Leading experimentalist in quantum condensed matter systems. Research on spin qubits in quantum dots, topological insulators, and quantum Hall edge states. Co-developed scanning NV magnetometry techniques for probing magnetic materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://yacoby.physics.harvard.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "norman-yao",
+          "name": "Norman Yao",
+          "title": "Professor of Physics",
+          "sub_field": "AMO / Condensed Matter / Quantum Information",
+          "tags": [
+            "Floquet engineering",
+            "time crystals",
+            "many-body localization",
+            "quantum sensing",
+            "topological phases"
+          ],
+          "summary": "Brilliant theorist working at the intersection of AMO physics, condensed matter, and quantum information. Pioneered Floquet time crystals and made key contributions to many-body localization and quantum sensing protocols. PECASE award (2025). Highly Cited Researcher.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://yao.physics.harvard.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "melissa-franklin",
+          "name": "Melissa Franklin",
+          "title": "Mallinckrodt Professor of Physics",
+          "sub_field": "High Energy Experiment",
+          "tags": [
+            "ATLAS experiment",
+            "CDF",
+            "top quark",
+            "LHC",
+            "particle detectors"
+          ],
+          "summary": "First woman tenured in Harvard Physics (1992). Key contributor to the CDF experiment that provided early evidence for the top quark. Currently co-director of the Harvard LPPC and leading ATLAS experiment research. Breakthrough Prize recipient (ATLAS collaboration).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.harvard.edu/people/facpages/franklin",
+            "scholar": null
+          }
+        },
+        {
+          "id": "matthew-reece",
+          "name": "Matthew Reece",
+          "title": "Professor of Physics",
+          "sub_field": "High Energy Theory / BSM Phenomenology",
+          "tags": [
+            "Beyond Standard Model",
+            "axion physics",
+            "dark matter models",
+            "early universe",
+            "model building"
+          ],
+          "summary": "Prominent theorist working on particle physics beyond the Standard Model. Key contributor to axion physics, dark matter model building, and precision tests of fundamental physics. Sloan Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.harvard.edu/people/facpages/reece",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kang-kuen-ni",
+          "name": "Kang-Kuen Ni",
+          "title": "Professor of Chemistry and Chemical Biology; Professor of Physics",
+          "sub_field": "Atomic, Molecular, and Optical Physics",
+          "tags": [
+            "ultracold molecules",
+            "quantum chemistry",
+            "dipolar quantum matter",
+            "optical tweezers",
+            "single-molecule control"
+          ],
+          "summary": "Pioneer in assembling individual ultracold molecules from atoms using optical tweezers, enabling full quantum control of molecular quantum states. Opens new frontiers in quantum chemistry and dipolar quantum simulation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ni.physics.harvard.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jenny-hoffman",
+          "name": "Jenny Hoffman",
+          "title": "Clowes Professor of Science",
+          "sub_field": "Experimental Condensed Matter Physics",
+          "tags": [
+            "STM",
+            "quantum materials",
+            "high-Tc superconductors",
+            "topological insulators",
+            "thin films"
+          ],
+          "summary": "Expert in scanning tunneling microscopy of quantum materials, including high-temperature superconductors and topological materials. Co-author of the highly influential textbook 'The Physics and Chemistry of Materials.' Also known for completing a cross-country run across the US.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hoffman.physics.harvard.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-huth",
+          "name": "John Huth",
+          "title": "Donner Professor of Science",
+          "sub_field": "High Energy Experiment",
+          "tags": [
+            "ATLAS experiment",
+            "electroweak symmetry breaking",
+            "LHC",
+            "Higgs physics"
+          ],
+          "summary": "Longtime ATLAS collaborator studying electroweak physics and Higgs boson production at the LHC. Recipient of the U.S. ATLAS Lifetime Achievement Award. Also known for teaching a popular course on primitive navigation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.harvard.edu/people/facpages/huth",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lene-vestergaard-hau",
+          "name": "Lene Vestergaard Hau",
+          "title": "Mallinckrodt Professor of Physics and of Applied Physics",
+          "sub_field": "Atomic, Molecular, and Optical Physics",
+          "tags": [
+            "slow light",
+            "Bose-Einstein condensates",
+            "quantum optics",
+            "light storage",
+            "nanophotonics"
+          ],
+          "summary": "Famous for experimentally slowing light to 17 meters per second and stopping it entirely in a Bose-Einstein condensate. These dramatic demonstrations opened new possibilities for quantum information storage and manipulation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.harvard.edu/people/facpages/hau",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xiaowei-zhuang",
+          "name": "Xiaowei Zhuang",
+          "title": "David B. Arnold Jr. Professor of Science; Professor of Chemistry and Chemical Biology and of Physics",
+          "sub_field": "Biophysics / Imaging",
+          "tags": [
+            "STORM microscopy",
+            "super-resolution imaging",
+            "single-molecule biophysics",
+            "chromatin structure",
+            "neuroscience"
+          ],
+          "summary": "Inventor of STORM (stochastic optical reconstruction microscopy), a revolutionary super-resolution imaging technique that broke the diffraction limit. Breakthrough Prize in Life Sciences (2019). Member of the National Academy of Sciences. Highly Cited Researcher.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://zhuang.harvard.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "efthimios-kaxiras",
+          "name": "Efthimios Kaxiras",
+          "title": "John Hasbrouck Van Vleck Professor of Pure and Applied Physics",
+          "sub_field": "Computational Condensed Matter Physics",
+          "tags": [
+            "density functional theory",
+            "materials modeling",
+            "2D materials",
+            "energy materials",
+            "electronic structure"
+          ],
+          "summary": "Leading computational physicist developing and applying first-principles methods to study condensed matter systems. Wide-ranging research spanning 2D materials, energy materials, and complex oxides. Highly Cited Researcher.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.harvard.edu/people/facpages/kaxiras",
+            "scholar": null
+          }
+        },
+        {
+          "id": "carlos-arg-elles-delgado",
+          "name": "Carlos Argüelles-Delgado",
+          "title": "Assistant Professor of Physics",
+          "sub_field": "High Energy Experiment / Neutrino Physics",
+          "tags": [
+            "neutrino physics",
+            "IceCube",
+            "beyond Standard Model",
+            "dark matter",
+            "multi-messenger astronomy"
+          ],
+          "summary": "Rising star in neutrino physics and multi-messenger astronomy. Group works on IceCube neutrino observatory physics, quantum decoherence searches in neutrino oscillations, and detecting supernova neutrinos with the LHC detectors.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.harvard.edu/people/facpages/arguelles",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jordan-cotler",
+          "name": "Jordan Cotler",
+          "title": "Assistant Professor of Physics",
+          "sub_field": "High Energy Theory / Quantum Information",
+          "tags": [
+            "quantum information",
+            "quantum gravity",
+            "AdS/CFT",
+            "black holes",
+            "Sachdev-Ye-Kitaev"
+          ],
+          "summary": "Sloan Fellow (2024) working at the exciting intersection of quantum information theory, quantum gravity, and high-energy physics. Made key contributions connecting the SYK model, black holes, and quantum chaos.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hetg.physics.harvard.edu/people/jordan-cotler",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "johns-hopkins-university-biology-cellular-molecular-developmental-biology-and-bi",
