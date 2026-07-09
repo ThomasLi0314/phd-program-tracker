@@ -18613,6 +18613,25 @@
             "homepage": "https://profiles.rice.edu/faculty/chen-wei",
             "scholar": null
           }
+        },
+        {
+          "id": "alireza-fallah",
+          "name": "Alireza Fallah",
+          "title": "Assistant Professor",
+          "sub_field": "Machine Learning Theory, Mechanism Design, Game Theory",
+          "tags": [
+            "ML theory",
+            "mechanism design",
+            "game theory",
+            "optimization",
+            "privacy"
+          ],
+          "summary": "Assistant Professor working on ML theory and economic theory. Research bridges ML, game theory, and mechanism design to understand incentives and fairness in data-driven systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/alireza-fallah",
+            "scholar": null
+          }
         }
       ]
     },

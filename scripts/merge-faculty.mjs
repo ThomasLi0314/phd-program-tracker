@@ -78,7 +78,14 @@ for (const file of readdirSync(STAGING).sort()) {
       },
     })
   }
-  prog.faculty = faculty
+  // Additive union: keep every faculty member already on the program, add or
+  // update by id from staging. Re-scans only ADD people (e.g. filling in the
+  // assistant professors the capped first pass dropped) and never remove — so a
+  // blocked or partial re-scan can't regress the roster, and manual additions
+  // survive.
+  const existingById = new Map((prog.faculty || []).map((f) => [f.id, f]))
+  for (const f of faculty) existingById.set(f.id, f)
+  prog.faculty = [...existingById.values()]
   if (typeof doc.scanned_at === 'string' && doc.scanned_at) {
     prog.data_currency = `${prog.data_currency.split(' · faculty ')[0]} · faculty ${doc.scanned_at}`
   }
