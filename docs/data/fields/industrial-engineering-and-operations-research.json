@@ -286,8 +286,484 @@
       "links": {
         "program": "https://catalog.gatech.edu/programs/industrial-engineering-phd/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "christos-alexopoulos",
+          "name": "Christos Alexopoulos",
+          "title": "Professor",
+          "sub_field": "Simulation, Applied Probability, Statistics",
+          "tags": [
+            "simulation output analysis",
+            "sequential methods",
+            "quantile estimation",
+            "machine learning for operations",
+            "stochastic processes"
+          ],
+          "summary": "Develops simulation analysis methodology and applied probability models, with recent work on sequential procedures for risk-measure estimation and ML-driven optimization of production-inventory systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/christos-alexopoulos",
+            "scholar": null
+          }
+        },
+        {
+          "id": "turgay-ayer",
+          "name": "Turgay Ayer",
+          "title": "Professor",
+          "sub_field": "Health Systems, Operations Research, Data Science",
+          "tags": [
+            "healthcare analytics",
+            "medical decision-making",
+            "health policy",
+            "reinforcement learning",
+            "humanitarian operations"
+          ],
+          "summary": "Develops data-driven mathematical and computational models to support medical decision-making, inform health policy, and improve socially responsible operations, with applications in disease screening, drug pricing, and blood collection logistics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/turgay-ayer",
+            "scholar": null
+          }
+        },
+        {
+          "id": "santanu-dey",
+          "name": "Santanu Dey",
+          "title": "Professor",
+          "sub_field": "Integer and Discrete Optimization",
+          "tags": [
+            "mixed integer programming",
+            "non-convex optimization",
+            "cutting planes",
+            "global optimization",
+            "power systems optimization"
+          ],
+          "summary": "Designs and evaluates algorithms for solving non-convex optimization problems, particularly mixed integer linear and nonlinear programs, with applications in power engineering, logistics, and sparse PCA.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/santanu-dey",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alan-erera",
+          "name": "Alan Erera",
+          "title": "Professor",
+          "sub_field": "Logistics, Transportation, Supply Chain",
+          "tags": [
+            "vehicle routing",
+            "freight transportation",
+            "service network design",
+            "resilient logistics",
+            "same-day delivery"
+          ],
+          "summary": "Focuses on transportation and logistics systems planning and control under uncertainty, including dynamic vehicle routing for same-day distribution, resilient food supply chain design, and freight consolidation networks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/alan-erera",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nagi-gebraeel",
+          "name": "Nagi Gebraeel",
+          "title": "Professor",
+          "sub_field": "Manufacturing, Reliability Engineering, Machine Learning",
+          "tags": [
+            "predictive maintenance",
+            "prognostics",
+            "federated learning",
+            "cyberattack detection",
+            "power systems"
+          ],
+          "summary": "Develops federated and causal representation learning methods for trustworthy decisions in distributed industrial systems, with applications in equipment prognostics, smart grid security, and sensor-driven maintenance optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/nagi-gebraeel",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xiaoming-huo",
+          "name": "Xiaoming Huo",
+          "title": "Professor",
+          "sub_field": "Statistics, High-Dimensional Data Analysis, Signal Processing",
+          "tags": [
+            "high-dimensional inference",
+            "sparse representation",
+            "wavelets",
+            "multiscale analysis",
+            "statistical computing"
+          ],
+          "summary": "Works at the intersection of statistics and data science, developing algorithmic tools for high-dimensional inference, sparse representation, and multiscale analysis with applications in biomedical imaging, cybersecurity, and finance.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/xiaoming-huo",
+            "scholar": null
+          }
+        },
+        {
+          "id": "roshan-joseph",
+          "name": "Roshan Joseph",
+          "title": "Professor",
+          "sub_field": "Statistics, Experimental Design, Uncertainty Quantification",
+          "tags": [
+            "experimental design",
+            "computer experiments",
+            "Bayesian computation",
+            "surrogate modeling",
+            "quality engineering"
+          ],
+          "summary": "Develops novel data analytic methods for complex engineering problems, with contributions spanning experimental design methodology, Bayesian computation, computer experiments, and uncertainty quantification for physical systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/roshan-joseph",
+            "scholar": null
+          }
+        },
+        {
+          "id": "pinar-keskinocak",
+          "name": "Pinar Keskinocak",
+          "title": "Professor",
+          "sub_field": "Health Systems, Humanitarian Logistics, Supply Chain",
+          "tags": [
+            "infectious disease modeling",
+            "disaster preparedness",
+            "vaccine scheduling",
+            "hospital operations",
+            "supply chain resilience"
+          ],
+          "summary": "Applies operations research to societal-impact problems including infectious disease spread and control, vaccine catch-up scheduling, hospital operations management, and disaster preparedness, partnering with CDC, American Red Cross, and the Carter Center.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/pinar-keskinocak",
+            "scholar": null
+          }
+        },
+        {
+          "id": "seong-hee-kim",
+          "name": "Seong-Hee Kim",
+          "title": "Professor",
+          "sub_field": "Simulation, Quality Control, Manufacturing",
+          "tags": [
+            "simulation optimization",
+            "ranking and selection",
+            "statistical output analysis",
+            "shipbuilding",
+            "battery manufacturing"
+          ],
+          "summary": "Develops data-based decision-making methods with theoretical rigor, focusing on stochastic simulation optimization, ranking and selection procedures, and statistical process monitoring with manufacturing applications in shipbuilding and battery systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/seong-hee-kim",
+            "scholar": null
+          }
+        },
+        {
+          "id": "guanghui-george-lan",
+          "name": "Guanghui (George) Lan",
+          "title": "Professor",
+          "sub_field": "Optimization, Machine Learning, Stochastic Methods",
+          "tags": [
+            "stochastic optimization",
+            "first-order methods",
+            "reinforcement learning",
+            "risk-averse optimization",
+            "nonlinear programming"
+          ],
+          "summary": "Builds foundational optimization methods for machine learning and intelligent decision-making, with emphasis on efficient first-order and stochastic algorithms, optimization for reinforcement learning, and parameter-free adaptive methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/george-lan",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jing-li",
+          "name": "Jing Li",
+          "title": "Professor",
+          "sub_field": "Statistics, Machine Learning, Biomedical Analytics",
+          "tags": [
+            "high-dimensional data",
+            "knowledge-informed ML",
+            "precision medicine",
+            "Alzheimer's disease",
+            "brain imaging"
+          ],
+          "summary": "Develops ML/AI methods for complex-structured data integrating domain knowledge, with applications in precision medicine for brain conditions (cancer, Alzheimer's, TBI), manufacturing quality, and precision agriculture.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/jing-li",
+            "scholar": null
+          }
+        },
+        {
+          "id": "siva-theja-maguluri",
+          "name": "Siva Theja Maguluri",
+          "title": "Associate Professor",
+          "sub_field": "Stochastic Models, Reinforcement Learning, Queueing Networks",
+          "tags": [
+            "stochastic optimization",
+            "scheduling",
+            "cloud computing",
+            "ride-hailing",
+            "matching queues"
+          ],
+          "summary": "Investigates fundamental problems in stochastic systems and learning, developing algorithms for resource allocation, scheduling, and dynamic pricing in networked systems including data centers, wireless networks, and ride-hailing platforms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/siva-theja-maguluri",
+            "scholar": null
+          }
+        },
+        {
+          "id": "renato-monteiro",
+          "name": "Renato Monteiro",
+          "title": "Professor",
+          "sub_field": "Continuous Optimization, Convex Programming",
+          "tags": [
+            "semidefinite programming",
+            "large-scale LP",
+            "saddle-point problems",
+            "complexity of algorithms",
+            "convex quadratic programming"
+          ],
+          "summary": "Focuses on theory, complexity analysis, and implementation of algorithms for continuous optimization, including semidefinite programming, large-scale linear programming, and saddle-point/variational inequality problems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/renato-monteiro",
+            "scholar": null
+          }
+        },
+        {
+          "id": "benoit-montreuil",
+          "name": "Benoit Montreuil",
+          "title": "Professor",
+          "sub_field": "Supply Chain Engineering, Physical Internet, Logistics",
+          "tags": [
+            "Physical Internet",
+            "hyperconnected logistics",
+            "circular supply chains",
+            "omnichannel retail",
+            "digital twin"
+          ],
+          "summary": "Leads the Physical Internet Initiative, researching hyperconnected logistics ecosystems that integrate systems science, optimization, simulation, and AI to enable efficient, resilient, and sustainable global supply chains and urban logistics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/benoit-montreuil",
+            "scholar": null
+          }
+        },
+        {
+          "id": "arkadi-nemirovski",
+          "name": "Arkadi Nemirovski",
+          "title": "Professor",
+          "sub_field": "Convex Optimization, Complexity Theory",
+          "tags": [
+            "interior point methods",
+            "conic programming",
+            "robust optimization",
+            "first-order methods",
+            "nonparametric statistics"
+          ],
+          "summary": "Pioneer of modern convex optimization theory and algorithms, with foundational contributions to interior point methods, the ellipsoid algorithm, robust optimization, and complexity analysis of nonlinear convex programs with engineering and statistical applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/arkadi-nemirovski",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kamran-paynabar",
+          "name": "Kamran Paynabar",
+          "title": "Professor",
+          "sub_field": "Statistics, Quality Engineering, Manufacturing",
+          "tags": [
+            "high-dimensional data",
+            "statistical process monitoring",
+            "tensor modeling",
+            "transfer learning",
+            "anomaly detection"
+          ],
+          "summary": "Develops engineering-driven statistical modeling and learning methods for high-dimensional complex data including multi-stream signals, images, and point clouds, with applications in automotive, aerospace, medical devices, and public health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/kamran-paynabar",
+            "scholar": null
+          }
+        },
+        {
+          "id": "spyros-reveliotis",
+          "name": "Spyros Reveliotis",
+          "title": "Professor",
+          "sub_field": "Manufacturing Automation, Discrete Event Systems, Control Theory",
+          "tags": [
+            "flexibly automated systems",
+            "deadlock avoidance",
+            "multi-agent robotics",
+            "quantum computing traffic",
+            "resource allocation"
+          ],
+          "summary": "Applies modern control theory and operations research to automated manufacturing and logistics, including deadlock avoidance in resource allocation systems, mobile robot coordination, and qubit traffic control for quantum computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/spyros-reveliotis",
+            "scholar": null
+          }
+        },
+        {
+          "id": "katya-scheinberg",
+          "name": "Katya Scheinberg",
+          "title": "Professor",
+          "sub_field": "Continuous Optimization, Derivative-Free Methods, Machine Learning",
+          "tags": [
+            "derivative-free optimization",
+            "convex optimization",
+            "stochastic methods",
+            "probabilistic analysis",
+            "reinforcement learning"
+          ],
+          "summary": "Develops practical algorithms and theoretical analysis for continuous optimization, with seminal contributions in derivative-free optimization and recent work on probabilistic methods and stochastic optimization for machine learning and reinforcement learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/katya-scheinberg",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jianjun-shi",
+          "name": "Jianjun Shi",
+          "title": "Professor",
+          "sub_field": "Manufacturing Systems, Quality Engineering, Data Fusion",
+          "tags": [
+            "Stream of Variation",
+            "multistage manufacturing",
+            "in-process quality improvement",
+            "multimodal data fusion",
+            "system informatics"
+          ],
+          "summary": "Created the Stream of Variation (SoV) methodology for modeling and controlling variation in multistage manufacturing processes, integrating system informatics, advanced statistics, and control theory for data-driven quality improvement across automotive and aerospace industries.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/jianjun-shi",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mohit-singh",
+          "name": "Mohit Singh",
+          "title": "Professor",
+          "sub_field": "Discrete Optimization, Approximation Algorithms",
+          "tags": [
+            "combinatorial optimization",
+            "approximation algorithms",
+            "network design",
+            "traveling salesman problem",
+            "fair PCA"
+          ],
+          "summary": "Develops approximation algorithms for discrete optimization problems with applications in cloud computing, logistics, and machine learning, recognized for pioneering iterative methods in combinatorial optimization (Tucker Prize 2009).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/mohit-singh",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alejandro-toriello",
+          "name": "Alejandro Toriello",
+          "title": "Professor",
+          "sub_field": "Logistics, Supply Chain, Optimization",
+          "tags": [
+            "vehicle routing",
+            "dynamic matching",
+            "prophet inequalities",
+            "submodular dispatching",
+            "supply chain theory"
+          ],
+          "summary": "Develops theory and algorithms for supply chain management and logistics, with contributions in submodular dispatching, dynamic matching for on-demand platforms, and approximation methods for vehicle routing and network problems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/alejandro-toriello",
+            "scholar": null
+          }
+        },
+        {
+          "id": "pascal-van-hentenryck",
+          "name": "Pascal Van Hentenryck",
+          "title": "Professor",
+          "sub_field": "Artificial Intelligence, Optimization, Constraint Programming",
+          "tags": [
+            "constraint programming",
+            "energy systems",
+            "trustworthy AI",
+            "supply chains",
+            "mobility systems"
+          ],
+          "summary": "Pioneer of constraint programming who fuses AI and optimization to solve large-scale societal problems in energy, supply chains, health care, and mobility, and directs the NSF AI Institute for Advances in Optimization (AI4OPT).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/pascal-van-hentenryck",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yao-xie",
+          "name": "Yao Xie",
+          "title": "Professor",
+          "sub_field": "Statistics, Machine Learning, Sequential Inference",
+          "tags": [
+            "change-point detection",
+            "high-dimensional data",
+            "uncertainty quantification",
+            "generative modeling",
+            "power grid resilience"
+          ],
+          "summary": "Develops theory-driven, computationally efficient methods for sequential inference with high-dimensional and spatio-temporal data, emphasizing change-point detection, uncertainty quantification, and recent integration of generative AI for robust decision-making.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/yao-xie",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chuck-zhang",
+          "name": "Chuck Zhang",
+          "title": "Professor",
+          "sub_field": "Advanced Manufacturing, Composite Structures, Additive Manufacturing",
+          "tags": [
+            "additive manufacturing",
+            "3D printing",
+            "composite materials",
+            "nanomanufacturing",
+            "manufacturing cybersecurity"
+          ],
+          "summary": "Researches additive and advanced manufacturing processes including 3D printing of electronics, scalable nano-manufacturing, and composite structures joining and repair, directing the NSF CHMI IUCRC for composite and hybrid material innovation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/chuck-zhang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "enlu-zhou",
+          "name": "Enlu Zhou",
+          "title": "Professor",
+          "sub_field": "Simulation, Stochastic Optimization, Reinforcement Learning",
+          "tags": [
+            "simulation optimization",
+            "Bayesian methods",
+            "risk-averse RL",
+            "stochastic control",
+            "optimal computing budget"
+          ],
+          "summary": "Develops theory and algorithms for decision-making under uncertainty, connecting simulation, stochastic optimization, and control with modern ML techniques including Bayesian optimization, risk-averse reinforcement learning, and natural policy gradients.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/enlu-zhou",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "georgia-institute-of-technology-operations-research-phd",

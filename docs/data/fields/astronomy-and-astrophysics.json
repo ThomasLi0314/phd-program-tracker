@@ -748,8 +748,328 @@
       "links": {
         "program": "https://catalog.cornell.edu/graduate-school/astronomy-space-sciences/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #12",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #12 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "jonathan-lunine",
+          "name": "Jonathan Lunine",
+          "title": "Professor of Astronomy (Chair)",
+          "sub_field": "Planetary Science",
+          "tags": [
+            "planetary atmospheres",
+            "astrobiology",
+            "giant planets",
+            "exoplanets"
+          ],
+          "summary": "Department chair and planetary scientist studying giant planets, planetary atmospheres, astrobiology, and the search for habitable worlds including Titan and ocean worlds.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rachel-bean",
+          "name": "Rachel Bean",
+          "title": "Jacob Gould Schurman Professor of Astronomy",
+          "sub_field": "Cosmology",
+          "tags": [
+            "dark energy",
+            "cosmic microwave background",
+            "modified gravity"
+          ],
+          "summary": "Cosmologist testing theories of dark energy and modified gravity using cosmic microwave background, large-scale structure, and weak gravitational lensing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nicholas-battaglia",
+          "name": "Nicholas Battaglia",
+          "title": "Associate Professor of Astronomy",
+          "sub_field": "Cosmology",
+          "tags": [
+            "CMB",
+            "Sunyaev-Zeldovich effect",
+            "galaxy clusters",
+            "cosmological simulations"
+          ],
+          "summary": "Cosmologist using the Sunyaev-Zeldovich effect and CMB data to study galaxy clusters, cosmic structure formation, and the thermal history of the universe.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "shami-chatterjee",
+          "name": "Shami Chatterjee",
+          "title": "Associate Professor of Astronomy",
+          "sub_field": "Radio Astronomy / Neutron Stars",
+          "tags": [
+            "pulsars",
+            "neutron stars",
+            "gravitational waves",
+            "radio astronomy"
+          ],
+          "summary": "Radio astronomer studying pulsars and neutron stars, using them as probes of fundamental physics, gravitational waves, and the interstellar medium.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-f-chernoff",
+          "name": "David F. Chernoff",
+          "title": "Professor of Astronomy (Director of Graduate Studies)",
+          "sub_field": "Theoretical Astrophysics",
+          "tags": [
+            "cosmic strings",
+            "gravitational lensing",
+            "binary systems"
+          ],
+          "summary": "Director of graduate studies and theoretical astrophysicist studying cosmic strings, gravitational lensing, and dynamical evolution of stellar systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "james-m-cordes",
+          "name": "James M. Cordes",
+          "title": "Professor of Astronomy",
+          "sub_field": "Radio Astronomy / Neutron Stars",
+          "tags": [
+            "pulsars",
+            "interstellar medium",
+            "gravitational waves",
+            "NANOGrav"
+          ],
+          "summary": "Radio astronomer and NANOGrav collaborator studying pulsars as probes of the interstellar medium, gravitational wave backgrounds, and fundamental physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alexander-g-hayes",
+          "name": "Alexander G. Hayes",
+          "title": "Associate Professor of Astronomy",
+          "sub_field": "Planetary Science",
+          "tags": [
+            "Titan",
+            "planetary surfaces",
+            "remote sensing",
+            "Cassini"
+          ],
+          "summary": "Planetary scientist studying the surfaces and atmospheres of outer solar system bodies, particularly Titan, using Cassini and remote sensing data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "martha-p-haynes",
+          "name": "Martha P. Haynes",
+          "title": "Distinguished Professor of Arts and Sciences in Astronomy",
+          "sub_field": "Extragalactic Astronomy / Radio Astronomy",
+          "tags": [
+            "ALFALFA",
+            "HI galaxies",
+            "galaxy evolution",
+            "radio astronomy"
+          ],
+          "summary": "Extragalactic astronomer leading the ALFALFA survey, using HI 21cm observations to study galaxy evolution, gas content, and large-scale structure.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "terry-l-herter",
+          "name": "Terry L. Herter",
+          "title": "Professor of Astronomy",
+          "sub_field": "Infrared Astronomy / Instrumentation",
+          "tags": [
+            "infrared astronomy",
+            "instrumentation",
+            "galactic center"
+          ],
+          "summary": "Infrared astronomer developing instrumentation for ground-based and space-based observatories to study star formation and the galactic center.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lisa-kaltenegger",
+          "name": "Lisa Kaltenegger",
+          "title": "Associate Professor of Astronomy; Director of the Carl Sagan Institute",
+          "sub_field": "Exoplanets / Astrobiology",
+          "tags": [
+            "exoplanet atmospheres",
+            "biosignatures",
+            "habitability",
+            "JWST"
+          ],
+          "summary": "Director of the Carl Sagan Institute studying exoplanet atmospheres, biosignatures, and the characterization of potentially habitable worlds using JWST and future missions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dong-lai",
+          "name": "Dong Lai",
+          "title": "Professor of Astrophysics",
+          "sub_field": "Theoretical Astrophysics",
+          "tags": [
+            "binary systems",
+            "black holes",
+            "neutron stars",
+            "exoplanets"
+          ],
+          "summary": "Theoretical astrophysicist studying the formation and evolution of binary systems, including black hole and neutron star mergers, and exoplanetary system dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ness-lewis",
+          "name": "Ness Lewis",
+          "title": "Assistant Professor of Astronomy",
+          "sub_field": "Exoplanets / Observational Astronomy",
+          "tags": [
+            "exoplanet atmospheres",
+            "transmission spectroscopy",
+            "JWST"
+          ],
+          "summary": "Observational astronomer characterizing exoplanet atmospheres using transmission and emission spectroscopy with ground-based telescopes and JWST.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "philip-d-nicholson",
+          "name": "Philip D. Nicholson",
+          "title": "Professor of Astronomy",
+          "sub_field": "Planetary Science",
+          "tags": [
+            "planetary rings",
+            "dynamics",
+            "occultations"
+          ],
+          "summary": "Planetary scientist studying planetary ring systems, orbital dynamics, and using stellar occultations to probe planetary atmospheres.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-niemack",
+          "name": "Michael Niemack",
+          "title": "Associate Professor of Astronomy",
+          "sub_field": "Cosmology / Experimental Astrophysics",
+          "tags": [
+            "CMB",
+            "instrumentation",
+            "ACT",
+            "Simons Observatory"
+          ],
+          "summary": "Experimental cosmologist developing CMB instrumentation for the Atacama Cosmology Telescope and Simons Observatory to probe inflationary physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dominik-a-riechers",
+          "name": "Dominik A. Riechers",
+          "title": "Associate Professor of Astronomy",
+          "sub_field": "Extragalactic Astronomy / Submillimeter",
+          "tags": [
+            "high-redshift galaxies",
+            "ALMA",
+            "galaxy formation",
+            "ISM"
+          ],
+          "summary": "Extragalactic astronomer using ALMA and other submillimeter facilities to study the interstellar medium and star formation in high-redshift galaxies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "britney-schmidt",
+          "name": "Britney Schmidt",
+          "title": "Associate Professor of Astronomy",
+          "sub_field": "Planetary Science / Earth and Atmospheric Sciences",
+          "tags": [
+            "icy moons",
+            "ocean worlds",
+            "Europa",
+            "planetary habitability"
+          ],
+          "summary": "Planetary scientist studying icy moons and ocean worlds including Europa, using geophysical methods and developing robotic exploration technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "gordon-j-stacey",
+          "name": "Gordon J. Stacey",
+          "title": "Professor of Astronomy (Director of Undergraduate Studies)",
+          "sub_field": "Infrared / Submillimeter Astronomy",
+          "tags": [
+            "far-infrared",
+            "interstellar medium",
+            "star formation",
+            "ZCAL"
+          ],
+          "summary": "Infrared/submillimeter astronomer studying the interstellar medium and star formation in galaxies using far-infrared spectroscopy and instrumentation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ira-m-wasserman",
+          "name": "Ira M. Wasserman",
+          "title": "Professor of Astronomy",
+          "sub_field": "Theoretical Astrophysics / Cosmology",
+          "tags": [
+            "neutron stars",
+            "cosmic strings",
+            "dark energy",
+            "gravitation"
+          ],
+          "summary": "Theoretical astrophysicist working on neutron star physics, cosmology, dark energy models, cosmic strings, and general relativistic astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://astro.cornell.edu/people/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "dartmouth-college-physics-and-astronomy-phd",
@@ -996,8 +1316,549 @@
       "links": {
         "program": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/physics-astronomy/physics-phd/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "n-peter-armitage",
+          "name": "N. Peter Armitage",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Physics",
+          "tags": [
+            "condensed matter",
+            "experiment",
+            "superconductivity",
+            "quantum magnetism",
+            "terahertz spectroscopy",
+            "topological materials"
+          ],
+          "summary": "Experimental condensed matter physicist investigating exotic electronic states at low temperatures using terahertz and microwave spectroscopy, including superconductors, quantum spin liquids, topological insulators, and Weyl/Dirac semimetals.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/n-peter-armitage/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "collin-broholm",
+          "name": "Collin Broholm",
+          "title": "Gerhard H. Dieke Professor",
+          "sub_field": "Condensed Matter Physics",
+          "tags": [
+            "condensed matter",
+            "experiment",
+            "neutron scattering",
+            "quantum magnetism",
+            "superconductivity",
+            "frustrated magnetism"
+          ],
+          "summary": "Director of the Institute for Quantum Matter (IQM). Experimentalist using neutron scattering to study quantum disordered phases, frustrated magnetism in 2D and 3D, and strongly correlated magnetic superconductors.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://iqm.jhu.edu/directory/collin-broholm/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tyrel-m-mcqueen",
+          "name": "Tyrel M. McQueen",
+          "title": "Professor and Henry A. Rowland Chair",
+          "sub_field": "Condensed Matter Physics",
+          "tags": [
+            "condensed matter",
+            "experiment",
+            "crystal growth",
+            "quantum materials",
+            "solid state chemistry",
+            "superconductivity"
+          ],
+          "summary": "Solid state chemist and condensed matter physicist focused on discovering new materials with exotic electronic states. Directs the NSF-funded PARADIM Bulk Crystal Growth Facility for quantum materials synthesis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/tyrel-mcqueen/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "robert-l-leheny",
+          "name": "Robert L. Leheny",
+          "title": "Professor and Department Chair",
+          "sub_field": "Condensed Matter Physics",
+          "tags": [
+            "condensed matter",
+            "experiment",
+            "soft matter",
+            "complex fluids",
+            "XPCS",
+            "glasses"
+          ],
+          "summary": "Department Chair and experimental soft condensed matter physicist studying complex fluids, glass-forming liquids, liquid crystal-colloid composites, gels, and biofilms using X-ray Photon Correlation Spectroscopy (XPCS). Elected APS Fellow in 2024.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/robert-leheny/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-h-reich",
+          "name": "Daniel H. Reich",
+          "title": "Professor",
+          "sub_field": "Condensed Matter Physics",
+          "tags": [
+            "condensed matter",
+            "experiment",
+            "magnetism",
+            "superconductivity",
+            "biological physics",
+            "soft matter"
+          ],
+          "summary": "Experimental physicist spanning hard condensed matter (quantum magnets, superconductor-ferromagnet heterostructures) and soft matter/biological physics (cell mechanics, active matter microrheology).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/daniel-h-reich/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yi-li",
+          "name": "Yi Li",
+          "title": "Assistant Professor",
+          "sub_field": "Condensed Matter Physics",
+          "tags": [
+            "condensed matter",
+            "theory",
+            "topological superconductivity",
+            "itinerant ferromagnetism",
+            "flat bands",
+            "strongly correlated systems"
+          ],
+          "summary": "Theoretical condensed matter physicist exploring exotic quantum phases including topological superconductivity, itinerant ferromagnetism, and flat band physics using non-perturbative analytic and quantum Monte Carlo methods. Sloan Fellow (2018).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/yi-li/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "matthieu-wyart",
+          "name": "Matthieu Wyart",
+          "title": "W. H. Miller Professor",
+          "sub_field": "Condensed Matter Physics",
+          "tags": [
+            "condensed matter",
+            "theory",
+            "soft matter",
+            "glass transition",
+            "jamming",
+            "granular flows"
+          ],
+          "summary": "Theoretical physicist studying the glass transition, yielding transition, jamming of granular materials, marginal stability in amorphous solids, and the theory of deep learning. Simons Investigator. Joined JHU in November 2024 from EPFL.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/matthieu-wyart/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "charles-l-bennett",
+          "name": "Charles L. Bennett",
+          "title": "Bloomberg Distinguished Professor",
+          "sub_field": "Astrophysics / Cosmology",
+          "tags": [
+            "astrophysics",
+            "cosmology",
+            "CMB",
+            "WMAP",
+            "experiment",
+            "inflation"
+          ],
+          "summary": "Observational cosmologist and Principal Investigator of NASA's WMAP mission, which established the Standard Cosmological Model. Co-PI of the CLASS telescope mapping CMB polarization from Chile to search for inflationary gravitational waves. Recipient of the Breakthrough Prize (2018).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/charles-bennett/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "adam-g-riess",
+          "name": "Adam G. Riess",
+          "title": "Bloomberg Distinguished Professor",
+          "sub_field": "Astrophysics / Cosmology",
+          "tags": [
+            "astrophysics",
+            "cosmology",
+            "dark energy",
+            "supernovae",
+            "Hubble constant",
+            "Hubble tension"
+          ],
+          "summary": "Nobel Laureate in Physics (2011) for discovering the accelerating expansion of the universe. Leads the SH0ES program using Hubble and JWST to precisely measure the Hubble constant and investigate the Hubble tension suggesting possible new physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/adam-riess/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "marc-kamionkowski",
+          "name": "Marc Kamionkowski",
+          "title": "William R. Kenan, Jr. Professor",
+          "sub_field": "Astrophysics / Cosmology",
+          "tags": [
+            "astrophysics",
+            "cosmology",
+            "theory",
+            "dark matter",
+            "CMB",
+            "inflation"
+          ],
+          "summary": "Theoretical cosmologist whose work spans dark matter, cosmic microwave background, inflation, dark energy, and gravitational waves. Pioneered tools for CMB analysis and early-universe probes. Member of the American Academy of Arts and Sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/marc-kamionkowski/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "timothy-m-heckman",
+          "name": "Timothy M. Heckman",
+          "title": "Dr. A. Hermann Pfund Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "astrophysics",
+            "galaxy formation",
+            "AGN",
+            "supermassive black holes",
+            "galactic winds",
+            "observation"
+          ],
+          "summary": "Observational astrophysicist studying galaxy formation and evolution, the co-evolution of galaxies and supermassive black holes, and galactic superwinds. Member of the National Academy of Sciences. Former Department Chair (2015-2021).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/timothy-heckman/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rosemary-f-g-wyse",
+          "name": "Rosemary F. G. Wyse",
+          "title": "Alumni Centennial Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "astrophysics",
+            "galactic archaeology",
+            "Milky Way",
+            "stellar populations",
+            "dark matter",
+            "galaxy formation"
+          ],
+          "summary": "World-leading expert in galactic archaeology, using the fossil record in old stars to decode the formation history of the Milky Way. Studies stellar populations, dark matter distribution, and galaxy formation physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/rosemary-wyse/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nadia-l-zakamska",
+          "name": "Nadia L. Zakamska",
+          "title": "Professor and Vice Chair for Academics",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "astrophysics",
+            "supermassive black holes",
+            "quasars",
+            "galaxy evolution",
+            "gravitational waves",
+            "AGN feedback"
+          ],
+          "summary": "Observational and theoretical astrophysicist studying quasar-driven winds and their role in galaxy evolution, dual supermassive black holes in mergers, and compact object binaries as gravitational wave progenitors. Recipient of the AAS Newton Lacy Pierce Prize.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/nadia-zakamska/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "julian-h-krolik",
+          "name": "Julian H. Krolik",
+          "title": "Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "astrophysics",
+            "theory",
+            "black holes",
+            "accretion disks",
+            "AGN",
+            "MHD"
+          ],
+          "summary": "Theoretical astrophysicist specializing in black hole accretion, active galactic nuclei, relativistic MHD simulations, and electromagnetic counterparts of gravitational wave sources. Author of the standard graduate text Active Galactic Nuclei.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/julian-h-krolik/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joseph-silk",
+          "name": "Joseph Silk",
+          "title": "Homewood Professor of Physics and Astronomy",
+          "sub_field": "Astrophysics / Cosmology",
+          "tags": [
+            "astrophysics",
+            "cosmology",
+            "CMB",
+            "dark matter",
+            "galaxy formation",
+            "theory"
+          ],
+          "summary": "Pioneering theoretical cosmologist whose work on CMB damping (Silk damping) and galaxy formation shaped modern cosmology. Recipient of the Balzan Prize (2011) and Henry Norris Russell Lectureship (2018).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/joseph-silk/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tobias-marriage",
+          "name": "Tobias Marriage",
+          "title": "Professor",
+          "sub_field": "Astrophysics / Cosmology",
+          "tags": [
+            "astrophysics",
+            "cosmology",
+            "CMB",
+            "experiment",
+            "CLASS",
+            "ACT"
+          ],
+          "summary": "Observational cosmologist co-leading the CLASS CMB polarization telescope in Chile, searching for inflationary B-mode signatures. Also studies galaxy clusters via the Sunyaev-Zeldovich effect and serves as Director of Graduate Studies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/tobias-marriage/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alessandra-corsi",
+          "name": "Alessandra Corsi",
+          "title": "W. H. Miller Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "astrophysics",
+            "multi-messenger",
+            "gravitational waves",
+            "radio astronomy",
+            "transients",
+            "LIGO"
+          ],
+          "summary": "Multi-messenger time-domain astronomer studying relativistic transients and gravitational wave sources via radio follow-up. Key leadership roles in LIGO, Cosmic Explorer, and the JHU-NRAO ngVLA partnership. Recipient of the 2022 New Horizons in Physics Prize.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/alessandra-corsi/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-k-sing",
+          "name": "David K. Sing",
+          "title": "Bloomberg Distinguished Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "astrophysics",
+            "exoplanets",
+            "atmospheres",
+            "transmission spectroscopy",
+            "JWST",
+            "HST"
+          ],
+          "summary": "Exoplanetary physicist leading the largest Hubble exoplanet program (Panchromatic Comparative Exoplanetary Treasury Survey), characterizing exoplanet atmospheres. Uses JWST and HST transmission spectroscopy to measure atmospheric composition, clouds, and core masses.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/david-sing/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kevin-schlaufman",
+          "name": "Kevin Schlaufman",
+          "title": "Associate Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "astrophysics",
+            "exoplanets",
+            "galactic astronomy",
+            "planet formation",
+            "stellar populations",
+            "metal-poor stars"
+          ],
+          "summary": "Observational astrophysicist at the intersection of exoplanets and galactic astronomy, studying planet formation and evolution. Leads the first all-sky search for the oldest and most chemically primitive stars in the Milky Way.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/kevin-schlaufman/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "meredith-macgregor",
+          "name": "Meredith MacGregor",
+          "title": "Vera C. Rubin Assistant Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "astrophysics",
+            "planet formation",
+            "exoplanets",
+            "debris disks",
+            "ALMA",
+            "JWST"
+          ],
+          "summary": "Observational astrophysicist using multi-wavelength facilities (ALMA, JWST, HST) to study planet formation in debris disks, exoplanet habitability, and the impact of stellar flares on planetary atmospheres. Deputy PI of FIRSST space telescope concept.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/meredith-macgregor/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "benjamin-d-wandelt",
+          "name": "Benjamin D. Wandelt",
+          "title": "Bloomberg Distinguished Professor",
+          "sub_field": "Astrophysics / Cosmology",
+          "tags": [
+            "astrophysics",
+            "cosmology",
+            "scientific AI",
+            "CMB",
+            "statistical inference",
+            "large-scale structure"
+          ],
+          "summary": "Cosmologist and data scientist bridging cosmology with AI/ML, developing Bayesian inference methods (BORG algorithm, Gibbs sampling for CMB) to extract fundamental physics from astronomical surveys. Co-recipient of the 2018 Gruber Cosmology Prize with Planck.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/benjamin-d-wandelt/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-e-kaplan",
+          "name": "David E. Kaplan",
+          "title": "Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "particle physics",
+            "theory",
+            "phenomenology",
+            "dark matter",
+            "beyond Standard Model",
+            "LHC"
+          ],
+          "summary": "Theoretical particle physicist working on extensions to the Standard Model, dark matter theory, novel experimental approaches, and the hierarchy problem. Creator and producer of the documentary film Particle Fever about the LHC. Simons Investigator.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/david-kaplan/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrei-gritsan",
+          "name": "Andrei Gritsan",
+          "title": "Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "particle physics",
+            "experiment",
+            "LHC",
+            "CMS",
+            "Higgs boson",
+            "collider physics"
+          ],
+          "summary": "Experimental high-energy physicist on the CMS experiment at the LHC, contributing to the Higgs boson discovery and characterization. Developer of the MELA technique and JHU Generator framework for measuring spin/parity of new resonances at hadron colliders.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/andrei-gritsan/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "surjeet-rajendran",
+          "name": "Surjeet Rajendran",
+          "title": "Associate Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "particle physics",
+            "theory",
+            "dark matter",
+            "gravitational waves",
+            "axions",
+            "beyond Standard Model"
+          ],
+          "summary": "Theoretical physicist inventing novel experimental methods to detect dark matter (axion/ultralight), dark energy, and high-frequency gravitational waves using NMR, semiconductor detectors, and quantum sensing techniques.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/rajendran/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ibrahima-bah",
+          "name": "Ibrahima Bah",
+          "title": "Associate Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "particle physics",
+            "theory",
+            "string theory",
+            "holography",
+            "quantum field theory",
+            "black holes"
+          ],
+          "summary": "Theoretical high-energy physicist working on string theory, supergravity, holography, and geometric engineering of QFTs. Studies topological solitons in gravity and black hole microstate geometries. Former UC President's Postdoctoral Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/ibrahima-bah/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-demille",
+          "name": "David DeMille",
+          "title": "Bloomberg Distinguished Professor",
+          "sub_field": "AMO Physics",
+          "tags": [
+            "AMO",
+            "experiment",
+            "precision measurement",
+            "polar molecules",
+            "quantum science",
+            "laser cooling"
+          ],
+          "summary": "World-leading AMO physicist specializing in precision measurement using cold and ultracold polar molecules to test fundamental symmetries and search for the electron electric dipole moment. Elected to the National Academy of Sciences (2024). Ramsey Prize recipient.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/david-demille/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christopher-overstreet",
+          "name": "Christopher Overstreet",
+          "title": "Assistant Professor",
+          "sub_field": "AMO Physics",
+          "tags": [
+            "AMO",
+            "experiment",
+            "atom interferometry",
+            "dark matter",
+            "precision measurement",
+            "ytterbium"
+          ],
+          "summary": "Experimental AMO physicist using ytterbium atom interferometry to perform precision tests of fundamental physics, including searches for ultralight dark matter and tests of the equivalence principle.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/christopher-overstreet/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "johns-hopkins-university-astronomy-and-astrophysics-phd",

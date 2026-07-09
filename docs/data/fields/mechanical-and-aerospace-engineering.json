@@ -1492,8 +1492,445 @@
       "links": {
         "program": "https://oge.mit.edu/programs/aeronautics-and-astronautics/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #2",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #2 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "hamsa-balakrishnan",
+          "name": "Hamsa Balakrishnan",
+          "title": "William E. Leonhard (1940) Professor; Associate Dean of Engineering",
+          "sub_field": "Air Transportation / Autonomous Systems",
+          "tags": [
+            "air traffic management",
+            "air transportation systems",
+            "network optimization"
+          ],
+          "summary": "Developing models and algorithms for air traffic management, airport operations, and sustainable air transportation systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kerri-cahoy",
+          "name": "Kerri Cahoy",
+          "title": "Sheila Evans Widnall (1960) Professor",
+          "sub_field": "Space Systems / Small Satellites",
+          "tags": [
+            "small satellites",
+            "CubeSats",
+            "exoplanet imaging",
+            "laser communications"
+          ],
+          "summary": "Director of the Small Satellite Collaborative, developing small satellite technologies for Earth and space science, exoplanet imaging, and laser communications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "luca-carlone",
+          "name": "Luca Carlone",
+          "title": "Associate Professor with Tenure",
+          "sub_field": "Autonomous Systems / Robotics",
+          "tags": [
+            "robot perception",
+            "SLAM",
+            "certifiable algorithms",
+            "spatial AI"
+          ],
+          "summary": "Developing certifiably correct algorithms for robot perception, simultaneous localization and mapping, and spatial AI for autonomous systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "zachary-cordero",
+          "name": "Zachary Cordero",
+          "title": "Esther and Harold E. Edgerton Associate Professor",
+          "sub_field": "Materials / Manufacturing",
+          "tags": [
+            "additive manufacturing",
+            "high-temperature materials",
+            "ceramics",
+            "space propulsion"
+          ],
+          "summary": "Developing novel additive manufacturing processes for high-temperature materials and ceramic matrix composites for aerospace propulsion applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "edward-f-crawley",
+          "name": "Edward F. Crawley",
+          "title": "Professor of Aeronautics and Astronautics (Post Tenure)",
+          "sub_field": "Space Systems / Systems Engineering",
+          "tags": [
+            "space systems design",
+            "systems architecture",
+            "engineering education"
+          ],
+          "summary": "Pioneer in space systems design and systems architecture, founder of CDIO initiative in engineering education, and former NASA committee chair.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-l-darmofal",
+          "name": "David L. Darmofal",
+          "title": "Jerome B. Wiesner Professor; MIT Vice Chancellor",
+          "sub_field": "Computational Fluid Dynamics",
+          "tags": [
+            "CFD",
+            "aerodynamics",
+            "discontinuous Galerkin",
+            "turbulence"
+          ],
+          "summary": "Developer of high-order computational fluid dynamics methods using discontinuous Galerkin discretizations for aerodynamics, turbulence, and multi-physics simulations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "olivier-l-de-weck",
+          "name": "Olivier L. de Weck",
+          "title": "Apollo Program Professor; Interim Department Head",
+          "sub_field": "Systems Engineering / Space Logistics",
+          "tags": [
+            "systems engineering",
+            "space logistics",
+            "technology management"
+          ],
+          "summary": "Interim department head studying systems engineering methodology, space logistics, and technology roadmapping for complex aerospace systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mark-drela",
+          "name": "Mark Drela",
+          "title": "Terry J. Kohler Professor",
+          "sub_field": "Aerodynamics / Aircraft Design",
+          "tags": [
+            "aerodynamics",
+            "aircraft design",
+            "boundary layers",
+            "Daedalus"
+          ],
+          "summary": "Renowned aerodynamicist and aircraft designer (Daedalus human-powered aircraft), developing computational aerodynamic design tools and low-speed aerodynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "edward-m-greitzer",
+          "name": "Edward M. Greitzer",
+          "title": "Professor of Aeronautics and Astronautics (Post Tenure)",
+          "sub_field": "Gas Turbines / Propulsion",
+          "tags": [
+            "turbomachinery",
+            "compressor aerodynamics",
+            "propulsion",
+            "gas turbines"
+          ],
+          "summary": "Leading propulsion researcher studying internal flow in turbomachinery, compressor stability, and gas turbine engine aerodynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "carmen-guerra-garcia",
+          "name": "Carmen Guerra-Garcia",
+          "title": "Esther and Harold E. Edgerton Associate Professor",
+          "sub_field": "Plasma Physics / Space Propulsion",
+          "tags": [
+            "plasma-assisted combustion",
+            "electric propulsion",
+            "lightning physics"
+          ],
+          "summary": "Studying plasma-assisted combustion, atmospheric electricity and lightning physics, and plasma-based space propulsion systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "steven-r-hall",
+          "name": "Steven R. Hall",
+          "title": "Richard Cockburn Maclaurin Professor",
+          "sub_field": "Autonomous Systems / Control",
+          "tags": [
+            "control theory",
+            "autonomous vehicles",
+            "guidance and navigation"
+          ],
+          "summary": "Developing robust control methods for autonomous aerospace vehicles including guidance, navigation, and control of UAVs and spacecraft.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "r-john-hansman",
+          "name": "R. John Hansman",
+          "title": "T. Wilson (1953) Professor",
+          "sub_field": "Air Transportation Systems",
+          "tags": [
+            "air transportation",
+            "aviation safety",
+            "flight deck automation"
+          ],
+          "summary": "Leading researcher in air transportation systems, studying human factors in aviation, flight deck automation, and air traffic management.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "wesley-l-harris",
+          "name": "Wesley L. Harris",
+          "title": "Charles Stark Draper Professor",
+          "sub_field": "Aerodynamics / Acoustics",
+          "tags": [
+            "aeroacoustics",
+            "fluid dynamics",
+            "helicopter noise",
+            "STEM diversity"
+          ],
+          "summary": "Aerodynamicist and first African-American PhD in aerospace engineering studying aeroacoustics, helicopter rotor noise, and advancing STEM diversity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-e-hastings",
+          "name": "Daniel E. Hastings",
+          "title": "Cecil (1923) and Ida Green Professor",
+          "sub_field": "Space Systems / Space Policy",
+          "tags": [
+            "spacecraft-environment interactions",
+            "space policy",
+            "systems engineering"
+          ],
+          "summary": "Studying spacecraft-environment interactions, space systems engineering, and the intersection of space technology with policy and national security.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jonathan-p-how",
+          "name": "Jonathan P. How",
+          "title": "Ford Professor of Engineering",
+          "sub_field": "Autonomous Systems / Decision Making",
+          "tags": [
+            "multi-agent systems",
+            "reinforcement learning",
+            "autonomous UAVs"
+          ],
+          "summary": "Pioneering multi-agent autonomous systems using reinforcement learning and decentralized decision-making for UAV swarms and robot coordination.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nancy-leveson",
+          "name": "Nancy Leveson",
+          "title": "Jerome C. Hunsaker Professor",
+          "sub_field": "System Safety / Software Safety",
+          "tags": [
+            "system safety engineering",
+            "STAMP",
+            "software safety",
+            "human factors"
+          ],
+          "summary": "Creator of STAMP (System-Theoretic Accident Model and Processes), transforming system safety engineering for complex aerospace and software systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "paulo-lozano",
+          "name": "Paulo Lozano",
+          "title": "Miguel Aleman Velasco Professor",
+          "sub_field": "Electric Propulsion / Spacecraft Propulsion",
+          "tags": [
+            "ion electrospray thrusters",
+            "electric propulsion",
+            "microfabricated thrusters"
+          ],
+          "summary": "Director of the Space Propulsion Laboratory, developing microfabricated ion electrospray propulsion systems for small satellites and CubeSats.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "youssef-m-marzouk",
+          "name": "Youssef M. Marzouk",
+          "title": "Breene M. Kerr (1951) Professor",
+          "sub_field": "Computational Science / Uncertainty Quantification",
+          "tags": [
+            "Bayesian inference",
+            "uncertainty quantification",
+            "computational statistics"
+          ],
+          "summary": "Developing Bayesian inference and uncertainty quantification methods for complex aerospace computational models and data assimilation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dava-j-newman",
+          "name": "Dava J. Newman",
+          "title": "Apollo Program Professor",
+          "sub_field": "Human Spaceflight / Space Suits",
+          "tags": [
+            "space suit design",
+            "human factors",
+            "astronaut performance",
+            "space policy"
+          ],
+          "summary": "Former NASA Deputy Administrator and designer of the BioSuit mechanical counter-pressure spacesuit, advancing human spaceflight and astronaut performance.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jaime-peraire",
+          "name": "Jaime Peraire",
+          "title": "H.N. Slater Professor",
+          "sub_field": "Computational Mechanics / CFD",
+          "tags": [
+            "computational mechanics",
+            "reduced-order modeling",
+            "multiscale methods"
+          ],
+          "summary": "Developing computational methods for multiscale and multiphysics aerospace problems including aerodynamics, fracture, and reduced-order modeling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "raul-radovitzky",
+          "name": "Raul Radovitzky",
+          "title": "Jerome C. Hunsaker Professor",
+          "sub_field": "Computational Solid Mechanics / Materials",
+          "tags": [
+            "computational mechanics",
+            "impact dynamics",
+            "multiscale modeling"
+          ],
+          "summary": "Developing computational multiscale methods for solid mechanics, studying impact dynamics, penetration, and failure of aerospace materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nicholas-roy",
+          "name": "Nicholas Roy",
+          "title": "Jerome C. Hunsaker Professor",
+          "sub_field": "Autonomous Systems / Robotics",
+          "tags": [
+            "aerial robotics",
+            "autonomous navigation",
+            "machine learning"
+          ],
+          "summary": "Director of the Robust Robotics Group, developing autonomous aerial robots capable of navigating cluttered environments without GPS.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sara-seager",
+          "name": "Sara Seager",
+          "title": "Class of 1941 Professor (Joint with EAPS)",
+          "sub_field": "Exoplanets / Astrobiology",
+          "tags": [
+            "exoplanet atmospheres",
+            "biosignatures",
+            "TESS",
+            "Starshade"
+          ],
+          "summary": "World-renowned exoplanet scientist characterizing exoplanet atmospheres and leading the search for biosignature gases on potentially habitable worlds.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "julie-shah",
+          "name": "Julie Shah",
+          "title": "H.N. Slater Professor; Department Head",
+          "sub_field": "Human-Robot Collaboration / Autonomous Systems",
+          "tags": [
+            "human-robot interaction",
+            "collaborative robotics",
+            "manufacturing"
+          ],
+          "summary": "Department head and pioneer in human-robot collaboration, developing AI systems that enable robots to work safely and efficiently alongside humans.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "zoltan-spakovszky",
+          "name": "Zoltan Spakovszky",
+          "title": "T. Wilson (1953) Professor",
+          "sub_field": "Propulsion / Turbomachinery",
+          "tags": [
+            "gas turbine aerodynamics",
+            "propulsion",
+            "compressor stability",
+            "NASA"
+          ],
+          "summary": "Director of the Gas Turbine Laboratory, studying unsteady flows in turbomachinery, compressor stability, and advanced propulsion for sustainable aviation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://aeroastro.mit.edu/people/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "massachusetts-institute-of-technology-mechanical-engineering-phd-scd",
