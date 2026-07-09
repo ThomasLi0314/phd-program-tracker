@@ -2095,8 +2095,28 @@
       "links": {
         "program": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mechanical-and-aerospace-engineering"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #1",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #1 · faculty 2026-07-09",
+      "faculty": [
+        {
+          "id": "luc-deike",
+          "name": "Luc Deike",
+          "title": "Associate Professor",
+          "sub_field": "Fluid Dynamics",
+          "tags": [
+            "fluid dynamics",
+            "air-sea interaction",
+            "wave breaking",
+            "multiphase flows",
+            "ocean waves"
+          ],
+          "summary": "Studies fundamental fluid dynamics of nonlinear, multiscale systems — ocean wave statistics and breaking, air-sea gas and spray transfer, bubbles and droplets — motivated by environmental and climate applications. Joint with the High Meadows Environmental Institute.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ldeike.princeton.edu/",
+            "scholar": "https://scholar.google.com/citations?user=AwAbo-MAAAAJ&hl=en"
+          }
+        }
+      ]
     },
     {
       "id": "purdue-university-mechanical-engineering-phd",

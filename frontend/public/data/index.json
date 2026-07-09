@@ -4,7 +4,7 @@
     "generated_at": "2026-07-06",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep",
-    "note": "1377 STEM PhD/MSc programs; faculty rosters on 534 programs (10486 faculty). Unknown/Verify = not yet confirmed on an official page."
+    "note": "1377 STEM PhD/MSc programs; faculty rosters on 535 programs (10487 faculty). Unknown/Verify = not yet confirmed on an official page."
   },
   "total": 1377,
   "fields": [
@@ -1229,8 +1229,8 @@
       "primary": "Mechanical & Aerospace Engineering",
       "slug": "mechanical-and-aerospace-engineering",
       "count": 66,
-      "withFaculty": 4,
-      "facultyCount": 66,
+      "withFaculty": 5,
+      "facultyCount": 67,
       "subs": [
         "Aerospace",
         "Aerospace Engineering",
@@ -1292,11 +1292,13 @@
         "Aerospace",
         "Autonomy",
         "Biomechanics",
+        "Combustion",
         "Combustion & Propulsion",
         "Computational Mechanics",
         "Controls",
         "Design & Manufacturing",
         "Fluid Dynamics",
+        "Robotics",
         "Robotics & Control",
         "Solid Mechanics",
         "Thermosciences"
