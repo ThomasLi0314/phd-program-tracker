@@ -1518,8 +1518,206 @@
       "links": {
         "program": "https://www.bc.edu/bc-web/schools/morrissey/departments/computer-science/academics/phd.html"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #36",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "george-mohler",
+          "name": "George Mohler",
+          "title": "Daniel J. Fitzgerald Professor of Computer Science; Department Chair",
+          "sub_field": "Machine Learning/Data Science",
+          "tags": [
+            "ML",
+            "Deep Learning",
+            "Spatial Data Science",
+            "Network Data Science",
+            "Urban Computing"
+          ],
+          "summary": "Research in statistical and deep learning approaches to solving problems in spatial, urban, and network data science. Applications to public safety, infectious diseases, and climate impacts.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "sergio-a-alvarez",
+          "name": "Sergio A. Alvarez",
+          "title": "Associate Professor of Computer Science; PhD Program Director",
+          "sub_field": "Machine Learning/Data Mining",
+          "tags": [
+            "ML",
+            "Data Mining",
+            "Computational Science"
+          ],
+          "summary": "PhD program director for the new doctoral program. Research interests in machine learning and data mining.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cs.bc.edu/alvarez/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "howard-straubing",
+          "name": "Howard Straubing",
+          "title": "Professor of Computer Science",
+          "sub_field": "Theory of Computation",
+          "tags": [
+            "Theory of Computation",
+            "Logic",
+            "Automata",
+            "Computational Complexity"
+          ],
+          "summary": "Research in theory of computation, focusing on connections among logic, automata, and computational complexity. Algebraic and model-theoretic approaches to circuit complexity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cs.bc.edu/straubin/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "usman-khan",
+          "name": "Usman Khan",
+          "title": "Professor of Computer Science",
+          "sub_field": "Optimization/Control/AI",
+          "tags": [
+            "Optimization",
+            "Control Theory",
+            "AI",
+            "ML",
+            "Multi-Agent Systems"
+          ],
+          "summary": "IEEE Fellow. Research in optimization, control theory, and AI/ML. Formerly on the faculty at Tufts University.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "aaron-stump",
+          "name": "Aaron Stump",
+          "title": "Professor of Computer Science",
+          "sub_field": "Computational Logic/Programming Languages",
+          "tags": [
+            "Computational Logic",
+            "Programming Languages",
+            "Formal Verification",
+            "Type Theory"
+          ],
+          "summary": "Research in computational logic, programming languages, and formal verification.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://cs.bc.edu/stumpaa/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "donglai-wei",
+          "name": "Donglai Wei",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "Computer Vision/Connectomics",
+          "tags": [
+            "Computer Vision",
+            "Deep Learning",
+            "Connectomics",
+            "Biomedical Image Analysis"
+          ],
+          "summary": "NSF CAREER awardee. Research in computer vision and ML for connectomics -- reconstructing brain wiring diagrams from 3D microscopy images. Leads the BC Computer Vision Lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://donglaiw.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nam-wook-kim",
+          "name": "Nam Wook Kim",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "Data Visualization/HCI",
+          "tags": [
+            "Data Visualization",
+            "HCI",
+            "Accessible Visualization",
+            "LLM for Design"
+          ],
+          "summary": "Research in data visualization and HCI, focusing on accessible visualization, LLM-based design feedback, narrative visualization, and visualization literacy. PhD from Harvard.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.namwkim.org/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yuan-yuan",
+          "name": "Yuan Yuan",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "Machine Learning/Computer Vision",
+          "tags": [
+            "ML",
+            "Deep Learning",
+            "Computer Vision"
+          ],
+          "summary": "Research in machine learning, deep learning, and computer vision.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hsin-hao-su",
+          "name": "Hsin-Hao Su",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "Distributed Computing/Theory",
+          "tags": [
+            "Distributed Computing",
+            "Theory",
+            "Algorithms"
+          ],
+          "summary": "Research in distributed systems theory and algorithms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "lewis-tseng",
+          "name": "Lewis Tseng",
+          "title": "Associate Professor of Computer Science",
+          "sub_field": "Distributed Computing",
+          "tags": [
+            "Distributed Computing",
+            "Algorithms",
+            "Fault Tolerance"
+          ],
+          "summary": "Research in distributed computing, algorithms, and fault-tolerant systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "francisco-marmolejo",
+          "name": "Francisco Marmolejo",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "Mechanism Design/AI for Social Good",
+          "tags": [
+            "Mechanism Design",
+            "Algorithms",
+            "AI for Social Good",
+            "Public Health",
+            "DeFi"
+          ],
+          "summary": "Research in applied modeling, algorithms, and AI for societally-facing challenges including public health and access to financial services. Faculty Associate at Harvard's Berkman Klein Center. DPhil from Oxford.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.fmarmolejo.com/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "boston-university-computer-science",
@@ -15187,8 +15385,480 @@
       "links": {
         "program": "https://phd.northeastern.edu/program/computer-science-2/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "amal-ahmed",
+          "name": "Amal Ahmed",
+          "title": "Professor, Associate Dean of Graduate Programs",
+          "sub_field": "Programming Languages",
+          "tags": [
+            "Programming Languages",
+            "Type Systems",
+            "Secure Compilation",
+            "Gradual Typing",
+            "Semantics"
+          ],
+          "summary": "Professor and Associate Dean. Research in programming languages, semantics, type systems, secure compilation, gradual typing, and software contracts.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "javed-aslam",
+          "name": "Javed Aslam",
+          "title": "Professor, Chief of Artificial Intelligence",
+          "sub_field": "Machine Learning and Information Retrieval",
+          "tags": [
+            "Machine Learning",
+            "Information Retrieval",
+            "Human Computation",
+            "Medical Informatics"
+          ],
+          "summary": "Professor and Chief of AI. Research in machine learning and information retrieval, with work in human computation, transportation, computer security, wireless networking, and medical informatics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-bau",
+          "name": "David Bau",
+          "title": "Assistant Professor",
+          "sub_field": "HCI and Machine Learning",
+          "tags": [
+            "HCI",
+            "Machine Learning",
+            "AI Interpretability",
+            "Computer Vision"
+          ],
+          "summary": "Assistant Professor. Research centers on human-computer interaction and machine learning, including the gap between AI efficacy and scientists' ability to explain it. Lead PI of the National Deep Inference Fabric (NDIF).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "soheil-behnezhad",
+          "name": "Soheil Behnezhad",
+          "title": "Assistant Professor",
+          "sub_field": "Theoretical Computer Science",
+          "tags": [
+            "Theory",
+            "Graph Algorithms",
+            "Big Data Algorithms",
+            "Streaming Algorithms"
+          ],
+          "summary": "Assistant Professor broadly interested in theoretical computer science, especially graph algorithms and the theoretical foundations of big data algorithms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jonathan-bell",
+          "name": "Jonathan Bell",
+          "title": "Associate Professor",
+          "sub_field": "Software Engineering",
+          "tags": [
+            "Software Engineering",
+            "Program Analysis",
+            "Automated Testing",
+            "Java",
+            "JavaScript"
+          ],
+          "summary": "Associate Professor. Research focuses on automated approaches to help developers write better software, particularly in Java and JavaScript ecosystems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "enrico-bertini",
+          "name": "Enrico Bertini",
+          "title": "Associate Professor, Jointly with CAMD",
+          "sub_field": "Data Visualization",
+          "tags": [
+            "Data Visualization",
+            "Visual Analytics",
+            "Machine Learning"
+          ],
+          "summary": "Associate Professor working to make data visualization more understandable and useful for broad audiences. Research at the intersection of visualization and machine learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "carla-brodley",
+          "name": "Carla Brodley",
+          "title": "Professor, Former Dean",
+          "sub_field": "Computing Education and Machine Learning",
+          "tags": [
+            "Computing Education",
+            "Broadening Participation",
+            "Machine Learning",
+            "AI"
+          ],
+          "summary": "Professor and former Dean (2014-2021) who hired 46 tenure/tenure-track faculty. Research in computing education, broadening participation in CS, and machine learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://redesign.khoury.northeastern.edu/khoury-story/carla-brodley/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "seth-cooper",
+          "name": "Seth Cooper",
+          "title": "Associate Professor",
+          "sub_field": "Games and Crowdsourcing",
+          "tags": [
+            "Games",
+            "Crowdsourcing",
+            "HCI",
+            "Scientific Discovery",
+            "Game Design"
+          ],
+          "summary": "Associate Professor and pioneer of scientific discovery games. Combines game design with crowdsourcing for scientific problem-solving.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "gene-cooperman",
+          "name": "Gene Cooperman",
+          "title": "Professor",
+          "sub_field": "High-Performance Computing",
+          "tags": [
+            "HPC",
+            "Fault Tolerance",
+            "Supercomputing",
+            "Formal Verification"
+          ],
+          "summary": "Professor leading the High Performance Computing Laboratory. Research in interdisciplinary computing, math, and physics topics including fault tolerance and formal verification.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "peter-desnoyers",
+          "name": "Peter Desnoyers",
+          "title": "Associate Professor",
+          "sub_field": "Operating Systems and Storage",
+          "tags": [
+            "Operating Systems",
+            "Storage Systems",
+            "Cloud Computing",
+            "Emerging Storage"
+          ],
+          "summary": "Associate Professor researching storage issues in operating systems and integration of emerging storage tech into existing software infrastructures. Co-founder of Massachusetts Open Cloud.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jennifer-dy",
+          "name": "Jennifer Dy",
+          "title": "Professor, Jointly with College of Engineering",
+          "sub_field": "Machine Learning",
+          "tags": [
+            "Machine Learning",
+            "Data Mining",
+            "Statistical Pattern Recognition",
+            "Computer Vision"
+          ],
+          "summary": "Professor. Research in machine learning, data mining, statistical pattern recognition, and computer vision.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ehsan-elhamifar",
+          "name": "Ehsan Elhamifar",
+          "title": "Associate Professor, Jointly with College of Engineering",
+          "sub_field": "Computer Vision and Machine Learning",
+          "tags": [
+            "AI",
+            "Computer Vision",
+            "Machine Learning",
+            "Visual Data Understanding"
+          ],
+          "summary": "Associate Professor developing AI that learns from and makes inferences about visual data. Research in computer vision, machine learning, and AI.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yun-raymond-fu",
+          "name": "Yun Raymond Fu",
+          "title": "Professor, University Distinguished Professor, Jointly with Engineering",
+          "sub_field": "Artificial Intelligence",
+          "tags": [
+            "AI",
+            "Machine Learning",
+            "Computer Vision",
+            "Data Mining",
+            "Deep Learning"
+          ],
+          "summary": "Professor and University Distinguished Professor. Research in AI, machine learning, computer vision, and data mining. Over 500 scientific publications and 40+ patented inventions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "wolfgang-gatterbauer",
+          "name": "Wolfgang Gatterbauer",
+          "title": "Associate Professor",
+          "sub_field": "Data Management",
+          "tags": [
+            "Data Management",
+            "Databases",
+            "Scalable Data Systems"
+          ],
+          "summary": "Associate Professor working on the theory of scalable data management, aiming to expand data management systems with novel functionalities.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "fatemeh-ghoreishi",
+          "name": "Fatemeh Ghoreishi",
+          "title": "Assistant Professor, Jointly with College of Engineering",
+          "sub_field": "Machine Learning and Bayesian Statistics",
+          "tags": [
+            "Machine Learning",
+            "Bayesian Statistics",
+            "Decision-Making",
+            "Uncertainty"
+          ],
+          "summary": "Assistant Professor examining machine learning and Bayesian statistics for design and decision-making under uncertainty.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "arjun-guha",
+          "name": "Arjun Guha",
+          "title": "Associate Professor",
+          "sub_field": "Programming Languages",
+          "tags": [
+            "Programming Languages",
+            "Type Systems",
+            "Software Engineering"
+          ],
+          "summary": "Associate Professor. Research in programming languages, type systems, and software engineering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "huaizu-jiang",
+          "name": "Huaizu Jiang",
+          "title": "Assistant Professor",
+          "sub_field": "Computer Vision",
+          "tags": [
+            "Computer Vision",
+            "Computational Photography",
+            "Machine Learning",
+            "3D Vision"
+          ],
+          "summary": "Assistant Professor. Research in computer vision, computational photography, and machine learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "karl-lieberherr",
+          "name": "Karl Lieberherr",
+          "title": "Professor",
+          "sub_field": "Software Engineering",
+          "tags": [
+            "Software Engineering",
+            "Modularity",
+            "Test-Driven Development",
+            "Adaptive Programming"
+          ],
+          "summary": "Professor. Research in modularity in software, test-driven development, and adaptive programming.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "stacy-marsella",
+          "name": "Stacy Marsella",
+          "title": "Professor",
+          "sub_field": "Computational Modeling",
+          "tags": [
+            "Computational Cognition",
+            "Emotion Modeling",
+            "Social Behavior",
+            "Virtual Agents",
+            "AI"
+          ],
+          "summary": "Professor. Research in computational modeling of cognition, emotion, and social behavior, with applications in virtual agents and human-AI interaction.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "huy-l-nguyen",
+          "name": "Huy Lê Nguyen",
+          "title": "Associate Professor",
+          "sub_field": "Algorithms and Machine Learning",
+          "tags": [
+            "Algorithms",
+            "Massive Data",
+            "Optimization",
+            "Machine Learning",
+            "Streaming"
+          ],
+          "summary": "Associate Professor. Research in algorithmic techniques for massive data, optimization, and machine learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jose-perea",
+          "name": "Jose Perea",
+          "title": "Associate Professor",
+          "sub_field": "Data Science and Machine Learning",
+          "tags": [
+            "Data Science",
+            "Machine Learning",
+            "Topological Data Analysis",
+            "Algorithms"
+          ],
+          "summary": "Associate Professor. Research in data science, machine learning, topological data analysis, and algorithms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mirek-riedewald",
+          "name": "Mirek Riedewald",
+          "title": "Professor",
+          "sub_field": "Data Management",
+          "tags": [
+            "Databases",
+            "Data Management",
+            "Big Data",
+            "Data Science"
+          ],
+          "summary": "Professor and co-founder of the DATA Lab at Northeastern. Research in data management systems and big data analytics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/home/mirek/research.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ji-yong-shin",
+          "name": "Ji-Yong Shin",
+          "title": "Assistant Professor",
+          "sub_field": "Distributed Systems and Cloud Computing",
+          "tags": [
+            "Distributed Systems",
+            "Formal Verification",
+            "Cloud Storage",
+            "Reliability"
+          ],
+          "summary": "Assistant Professor. Research in distributed systems, formal verification, and cloud storage reliability.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "frank-tip",
+          "name": "Frank Tip",
+          "title": "Professor",
+          "sub_field": "Programming Languages and Software Engineering",
+          "tags": [
+            "Programming Languages",
+            "Software Engineering",
+            "Program Analysis",
+            "Refactoring"
+          ],
+          "summary": "Professor. Research in programming languages, software engineering, program analysis, and automated refactoring.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emanuele-viola",
+          "name": "Emanuele Viola",
+          "title": "Professor",
+          "sub_field": "Theoretical Computer Science",
+          "tags": [
+            "Theory",
+            "Computational Complexity",
+            "Lower Bounds",
+            "Pseudorandomness"
+          ],
+          "summary": "Professor. Research in theoretical computer science, computational complexity, lower bounds, and pseudorandomness.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jan-vitek",
+          "name": "Jan Vitek",
+          "title": "Professor",
+          "sub_field": "Programming Languages",
+          "tags": [
+            "Programming Languages",
+            "Compilers",
+            "Type Systems",
+            "Runtime Systems"
+          ],
+          "summary": "Professor. Research in programming languages, compilers, type systems, and runtime systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "northeastern-university-cybersecurity-phd",
@@ -15228,8 +15898,364 @@
       "links": {
         "program": "https://phd.northeastern.edu/program/cybersecurity-2/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "abhi-shelat",
+          "name": "Abhi Shelat",
+          "title": "Professor",
+          "sub_field": "Cryptography",
+          "tags": [
+            "Cryptography",
+            "Applied Security",
+            "Secure Computation",
+            "Zero-Knowledge Proofs"
+          ],
+          "summary": "Professor in cryptography. Ph.D. from MIT. Previously tenured at University of Virginia. NSF CAREER award, Microsoft Faculty Fellowship. Research in applied cryptography and secure computation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://redesign.khoury.northeastern.edu/people/abhi-shelat/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-wichs",
+          "name": "Daniel Wichs",
+          "title": "Professor",
+          "sub_field": "Cryptography",
+          "tags": [
+            "Cryptography",
+            "Computing on Encrypted Data",
+            "Program Obfuscation",
+            "Lattice-Based Cryptography",
+            "Information-Theoretic Cryptography"
+          ],
+          "summary": "Professor in cryptography. Research on computing on encrypted data, program obfuscation, lattice-based cryptography, and information-theoretic cryptography. Senior Scientist at NTT Research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.ccs.neu.edu/home/wichs/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alina-oprea",
+          "name": "Alina Oprea",
+          "title": "Professor",
+          "sub_field": "AI and Cybersecurity",
+          "tags": [
+            "Adversarial ML",
+            "Trustworthy AI",
+            "Privacy in ML",
+            "Security for LLM Agents",
+            "Cloud Security"
+          ],
+          "summary": "Professor. Research at the intersection of AI and cybersecurity, including adversarial ML, trustworthy AI, privacy in ML, security for LLM agents, and cloud security. Google Security and Privacy Award (2019).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.ccs.neu.edu/home/alina/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "cristina-nita-rotaru",
+          "name": "Cristina Nita-Rotaru",
+          "title": "Professor",
+          "sub_field": "Network and Distributed Systems Security",
+          "tags": [
+            "Network Security",
+            "Distributed Systems Security",
+            "Formal Verification",
+            "Blockchain",
+            "Trustworthy AI"
+          ],
+          "summary": "Professor and founding member of the Cybersecurity and Privacy Institute. Research in security of network protocols and distributed systems, adversarial testing, formal verification, and blockchains. NSF CAREER (2006).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://cnitarot.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "engin-kirda",
+          "name": "Engin Kirda",
+          "title": "Professor",
+          "sub_field": "Systems and Software Security",
+          "tags": [
+            "Systems Security",
+            "Software Security",
+            "Network Security",
+            "Malware Detection",
+            "Web Security"
+          ],
+          "summary": "Professor. Research in systems, software, and network security, malware detection and analysis, and web application security.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-choffnes",
+          "name": "David Choffnes",
+          "title": "Professor",
+          "sub_field": "Network Privacy and Security",
+          "tags": [
+            "Network Measurement",
+            "Privacy",
+            "Security",
+            "IoT",
+            "Mobile Systems"
+          ],
+          "summary": "Professor. Research to improve the privacy, security, performance, and reliability of internet systems. Former Executive Director of the Cybersecurity and Privacy Institute. NSF CAREER awardee.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://david.choffnes.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alan-mislove",
+          "name": "Alan Mislove",
+          "title": "Professor",
+          "sub_field": "Network Privacy and Security",
+          "tags": [
+            "Network Measurement",
+            "Privacy",
+            "Online Social Networks",
+            "Algorithm Auditing"
+          ],
+          "summary": "Professor. Research in network measurement and privacy/security in online social networks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christo-wilson",
+          "name": "Christo Wilson",
+          "title": "Professor",
+          "sub_field": "Algorithm Auditing and Privacy",
+          "tags": [
+            "Algorithm Auditing",
+            "Online Tracking",
+            "Privacy",
+            "Platform Accountability"
+          ],
+          "summary": "Professor. Research in algorithm auditing, online tracking, privacy, and platform accountability.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "guevara-noubir",
+          "name": "Guevara Noubir",
+          "title": "Professor",
+          "sub_field": "Network and Wireless Security",
+          "tags": [
+            "Privacy",
+            "Security",
+            "Robustness",
+            "Networked Systems",
+            "Wireless Security"
+          ],
+          "summary": "Professor. Research in privacy and security, robustness of networked systems, and wireless security.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jonathan-ullman",
+          "name": "Jonathan Ullman",
+          "title": "Associate Professor",
+          "sub_field": "Privacy and Cryptography",
+          "tags": [
+            "Differential Privacy",
+            "Cryptography",
+            "ML Statistics",
+            "Algorithms",
+            "Foundations of Privacy"
+          ],
+          "summary": "Associate Professor researching foundations of privacy for ML and statistics, differential privacy, and cryptography. Member of Theory Group and Cybersecurity and Privacy Institute. NSF CAREER awardee.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://jonathan-ullman.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "long-lu",
+          "name": "Long Lu",
+          "title": "Associate Professor",
+          "sub_field": "Systems Security",
+          "tags": [
+            "Software Security",
+            "Embedded Security",
+            "IoT Security",
+            "Program Analysis",
+            "Confidential Computing"
+          ],
+          "summary": "Associate Professor and co-director of SecLab. Research in low-level software security, embedded and IoT/CPS systems security, program analysis, and trusted computing. NSF CAREER awardee.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ziming-zhao",
+          "name": "Ziming Zhao",
+          "title": "Associate Professor",
+          "sub_field": "Systems and Software Security",
+          "tags": [
+            "Systems Security",
+            "Software Security",
+            "Network Security",
+            "Web Security",
+            "Human-Centric Security"
+          ],
+          "summary": "Associate Professor. Research in systems and software security, network and web security, and human-centric security. NSF CAREER Award, ACM SACMAT Test-of-Time Award 2024.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://redesign.khoury.northeastern.edu/people/ziming-zhao/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tianshi-li",
+          "name": "Tianshi Li",
+          "title": "Assistant Professor",
+          "sub_field": "HCI, Privacy, and AI",
+          "tags": [
+            "HCI",
+            "Privacy",
+            "AI",
+            "LLM Privacy",
+            "Human-Centered Privacy"
+          ],
+          "summary": "Assistant Professor. Directs the PEACH (Privacy-Enabling AI and Computer-Human interaction) Lab. Core faculty at Cybersecurity and Privacy Institute. Research in HCI, privacy, AI, and LLM privacy issues.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://tianshili.me/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jayshree-sarathy",
+          "name": "Jayshree Sarathy",
+          "title": "Assistant Professor",
+          "sub_field": "Privacy and Data Science",
+          "tags": [
+            "Privacy",
+            "Data Science",
+            "Responsible Data Science",
+            "Sociotechnical Systems"
+          ],
+          "summary": "Assistant Professor. Member of Cybersecurity and Privacy Institute. Research in privacy, data science, and sociotechnical dynamics of responsible data science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/jayshree-sarathy/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "laura-edelson",
+          "name": "Laura Edelson",
+          "title": "Assistant Professor",
+          "sub_field": "Cybersecurity and Online Platforms",
+          "tags": [
+            "Cybersecurity",
+            "Privacy",
+            "HCI",
+            "Harmful Content",
+            "Online Networks"
+          ],
+          "summary": "Assistant Professor in cybersecurity and privacy and human-centered computing. Studies the spread of harmful content through large online networks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kevin-fu",
+          "name": "Kevin Fu",
+          "title": "Professor, Jointly with College of Engineering",
+          "sub_field": "Medical Device Cybersecurity",
+          "tags": [
+            "Medical Device Security",
+            "Embedded Systems Security",
+            "Cybersecurity",
+            "Hardware Security"
+          ],
+          "summary": "Professor jointly appointed with Engineering. Research seeks to improve the security of embedded systems and devices, particularly in healthcare. Pioneer in medical device cybersecurity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joshua-gancher",
+          "name": "Joshua Gancher",
+          "title": "Assistant Professor",
+          "sub_field": "Cryptographic Software and Formal Methods",
+          "tags": [
+            "Cybersecurity",
+            "Cryptographic Software",
+            "Formal Methods",
+            "Software Verification"
+          ],
+          "summary": "Assistant Professor. Aims to mathematically verify the security of foundational software and create tools to do that process at scale.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elettra-bietti",
+          "name": "Elettra Bietti",
+          "title": "Assistant Professor, Jointly with School of Law",
+          "sub_field": "Technology Law and Privacy",
+          "tags": [
+            "Privacy",
+            "Data Law",
+            "Antitrust",
+            "Digital Economy",
+            "Tech Policy"
+          ],
+          "summary": "Assistant Professor jointly appointed with Law. Researches how technology overlaps with data law, privacy, and antitrust laws in the digital economy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "don-fallis",
+          "name": "Don Fallis",
+          "title": "Professor, Jointly with CSSH",
+          "sub_field": "Adversarial Epistemology",
+          "tags": [
+            "Cybersecurity",
+            "Privacy",
+            "Disinformation",
+            "Epistemology",
+            "Algorithms"
+          ],
+          "summary": "Professor jointly appointed with CSSH. Studies adversarial epistemology -- how people learn in a disinformation-filled world.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "northeastern-university-personal-health-informatics-phd",
@@ -15269,8 +16295,199 @@
       "links": {
         "program": "https://phd.northeastern.edu/program/personal-health-informatics-2/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "timothy-w-bickmore",
+          "name": "Timothy W. Bickmore",
+          "title": "Professor",
+          "sub_field": "Health Informatics and HCI",
+          "tags": [
+            "Personal Health Informatics",
+            "HCI",
+            "Dialogue Systems",
+            "Intelligent Virtual Agents",
+            "Health Behavior Change"
+          ],
+          "summary": "Professor and Director of the Relational Agents Group. Develops computer agents for health provider-patient interactions. Research in HCI, natural language processing, and animation for health counseling. Ph.D. from MIT Media Lab (2003). NSF CAREER awardee. Top 2% most-cited scientists worldwide.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://redesign.khoury.northeastern.edu/people/timothy-bickmore/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elizabeth-mynatt",
+          "name": "Elizabeth Mynatt",
+          "title": "Dean and Professor",
+          "sub_field": "Health Informatics and HCI",
+          "tags": [
+            "HCI",
+            "Health Informatics",
+            "Ubiquitous Computing",
+            "Aging",
+            "Chronic Disease Management"
+          ],
+          "summary": "Dean of Khoury College. Research in human-computer interaction, health informatics, and ubiquitous computing with focus on aging-in-place and chronic disease self-management.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "stephen-intille",
+          "name": "Stephen Intille",
+          "title": "Professor",
+          "sub_field": "Personal Health Technologies and Wearable Sensing",
+          "tags": [
+            "Wearable Sensing",
+            "Behavioral Informatics",
+            "Mobile Health",
+            "Ubiquitous Computing",
+            "Health Interventions"
+          ],
+          "summary": "Professor. Research on personal health technologies, wearable sensing, behavioral informatics, and mobile health interventions. Develops sensor-based systems for continuous health monitoring.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://ccs.neu.edu/home/intille/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "aarti-sathyanarayana",
+          "name": "Aarti Sathyanarayana",
+          "title": "Assistant Professor",
+          "sub_field": "Digital Health and Wearables",
+          "tags": [
+            "Digital Health",
+            "Wearable Devices",
+            "Digital Biomarkers",
+            "Health Monitoring",
+            "Time Series"
+          ],
+          "summary": "Assistant Professor. Research in digital health, wearable devices, digital biomarkers, and machine learning for health monitoring.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "herman-saksono",
+          "name": "Herman Saksono",
+          "title": "Assistant Professor",
+          "sub_field": "Human-Centered Computing and Health Informatics",
+          "tags": [
+            "Human-Centered Computing",
+            "Health Informatics",
+            "Health Equity",
+            "Community Health",
+            "HCI"
+          ],
+          "summary": "Assistant Professor. Research in human-centered computing and health informatics, with focus on health equity and community-based health interventions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dakuo-wang",
+          "name": "Dakuo Wang",
+          "title": "Associate Professor",
+          "sub_field": "HCI and Health Informatics",
+          "tags": [
+            "HCI",
+            "Human-AI Collaboration",
+            "NLP",
+            "Health Informatics",
+            "Conversational AI"
+          ],
+          "summary": "Associate Professor. Research in HCI, human-AI collaboration, NLP, and health informatics. Focus on designing AI systems that support healthcare work.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "predrag-radivojac",
+          "name": "Predrag Radivojac",
+          "title": "Professor",
+          "sub_field": "Bioinformatics and Health Data Science",
+          "tags": [
+            "Bioinformatics",
+            "Machine Learning",
+            "Proteomics",
+            "Health Informatics",
+            "Precision Medicine"
+          ],
+          "summary": "Professor. Research in bioinformatics, machine learning, and proteomics applied to health informatics and precision medicine. Develops computational methods for biological and clinical data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.ccs.neu.edu/home/radivojac/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "maitraye-das",
+          "name": "Maitraye Das",
+          "title": "Assistant Professor, Jointly with CAMD",
+          "sub_field": "HCI and Health Equity",
+          "tags": [
+            "HCI",
+            "Equity",
+            "Accessibility",
+            "Health",
+            "Education",
+            "Employment"
+          ],
+          "summary": "Assistant Professor jointly with CAMD. HCI research on equity and accessibility gaps in education, employment, and creative work, including health-related contexts.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "armando-cortez",
+          "name": "Armando Cortez",
+          "title": "Part-Time Lecturer, Health Informatics",
+          "sub_field": "Healthcare Technology",
+          "tags": [
+            "Health Informatics",
+            "Healthcare Technology",
+            "Health IT",
+            "Digital Health"
+          ],
+          "summary": "Part-Time Lecturer and CIO at Harbor Health Services. Focus on co-evolution of healthcare and technology. Brings industry perspective on health informatics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "byron-wallace",
+          "name": "Byron Wallace",
+          "title": "Associate Professor",
+          "sub_field": "NLP and Health Informatics",
+          "tags": [
+            "Data Mining",
+            "Machine Learning",
+            "NLP",
+            "Health Informatics",
+            "Evidence-Based Medicine"
+          ],
+          "summary": "Associate Professor. Research in data mining, machine learning, and NLP with applications to health informatics and evidence-based medicine. Focus on automating systematic reviews and clinical text mining.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "northeastern-university-network-science-phd",
@@ -15310,8 +16527,198 @@
       "links": {
         "program": "https://phd.northeastern.edu/program/network-science/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "albert-l-szl-barab-si",
+          "name": "Albert-László Barabási",
+          "title": "Robert Gray Dodge Professor of Network Science, University Distinguished Professor",
+          "sub_field": "Network Science",
+          "tags": [
+            "Network Science",
+            "Scale-Free Networks",
+            "Network Biology",
+            "Complex Systems",
+            "Science of Success"
+          ],
+          "summary": "Distinguished Professor who discovered scale-free networks and developed the Barabási-Albert preferential attachment model. Director of Center for Complex Network Research. Elected to National Academy of Sciences (2024). Appointments at Harvard Medical School and Dana-Farber Cancer Institute. Author of 'Linked' and 'The Formula'.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/albert-laszlo-barabasi/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tina-eliassi-rad",
+          "name": "Tina Eliassi-Rad",
+          "title": "Inaugural Joseph E. Aoun Professor",
+          "sub_field": "Network Science and Machine Learning",
+          "tags": [
+            "Data Mining",
+            "Machine Learning",
+            "Network Science",
+            "Graph Mining",
+            "Complex Networks"
+          ],
+          "summary": "Inaugural Joseph E. Aoun Professor. Core faculty of Network Science Institute and Institute for Experiential AI. Research at intersection of data mining, machine learning, and network science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-lazer",
+          "name": "David Lazer",
+          "title": "University Distinguished Professor, Jointly with CSSH",
+          "sub_field": "Computational Social Science and Network Science",
+          "tags": [
+            "Computational Social Science",
+            "Network Science",
+            "Social Networks",
+            "Political Networks",
+            "Data Science"
+          ],
+          "summary": "University Distinguished Professor and core faculty of the Network Science Institute. Research in computational social science and network science, studying social and political networks at scale.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "cody-dunne",
+          "name": "Cody Dunne",
+          "title": "Associate Professor",
+          "sub_field": "Network Visualization",
+          "tags": [
+            "Information Visualization",
+            "Network Science",
+            "HCI",
+            "Visual Analytics",
+            "Data Science"
+          ],
+          "summary": "Associate Professor. Research in information visualization, network science, and human-computer interaction. Strives to make network data and visualizations easier to analyze and share.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alan-mislove",
+          "name": "Alan Mislove",
+          "title": "Professor",
+          "sub_field": "Network Measurement and Social Networks",
+          "tags": [
+            "Network Measurement",
+            "Online Social Networks",
+            "Privacy",
+            "Algorithm Auditing"
+          ],
+          "summary": "Professor. Research in network measurement and online social networks, studying the structure and dynamics of large-scale online platforms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christo-wilson",
+          "name": "Christo Wilson",
+          "title": "Professor",
+          "sub_field": "Algorithm Auditing and Platform Networks",
+          "tags": [
+            "Algorithm Auditing",
+            "Online Platforms",
+            "Network Science",
+            "Privacy",
+            "Social Computing"
+          ],
+          "summary": "Professor. Research in algorithm auditing, online platform dynamics, and how algorithmic systems shape networked information flows.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christoph-riedl",
+          "name": "Christoph Riedl",
+          "title": "Professor, Jointly with D'Amore-McKim School of Business",
+          "sub_field": "Collective Intelligence and Network Science",
+          "tags": [
+            "Collective Intelligence",
+            "Human-AI Teaming",
+            "Crowdsourcing",
+            "Network Science",
+            "Collaboration"
+          ],
+          "summary": "Professor. Research in collective intelligence, human-AI teaming, and crowdsourcing, studying how networked collaboration shapes outcomes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alessandro-vespignani",
+          "name": "Alessandro Vespignani",
+          "title": "Sternberg Family Distinguished University Professor, Jointly with COS",
+          "sub_field": "Epidemic Modeling and Complex Networks",
+          "tags": [
+            "Complex Networks",
+            "Epidemic Modeling",
+            "Computational Epidemiology",
+            "Network Theory",
+            "Data Science"
+          ],
+          "summary": "Sternberg Family Distinguished University Professor. Research in complex networks, computational epidemiology, and epidemic modeling. Core faculty of the Network Science Institute.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ricardo-baeza-yates",
+          "name": "Ricardo Baeza-Yates",
+          "title": "Professor of the Practice",
+          "sub_field": "Information Retrieval and Web Science",
+          "tags": [
+            "Information Retrieval",
+            "Web Search",
+            "AI",
+            "Network Science",
+            "Web Science"
+          ],
+          "summary": "Professor of the Practice. Research in information retrieval, web search, AI, and web science with applications to network analysis. Former VP of Research at Yahoo.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mahsa-derakhshan",
+          "name": "Mahsa Derakhshan",
+          "title": "Assistant Professor",
+          "sub_field": "Algorithms and Network Theory",
+          "tags": [
+            "Algorithms",
+            "Network Theory",
+            "Uncertainty",
+            "Optimization",
+            "Graph Algorithms"
+          ],
+          "summary": "Assistant Professor. Research in design and analysis of algorithms, specifically algorithms under uncertainty with applications to networked systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "northwestern-university-computer-science-phd",
@@ -16338,8 +17745,405 @@
       "links": {
         "program": "https://www.cs.purdue.edu/graduate/admission/index.html"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "elisa-bertino",
+          "name": "Elisa Bertino",
+          "title": "Samuel D. Conte Distinguished Professor",
+          "sub_field": "Security",
+          "tags": [
+            "Security",
+            "Databases"
+          ],
+          "summary": "Research in information security, database systems, data privacy, and trust management. Leading figure in security with work on access control, data protection, and secure distributed systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/bertino.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "simina-branzei",
+          "name": "Simina Branzei",
+          "title": "Associate Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "AI/ML",
+            "Theory/Algorithms"
+          ],
+          "summary": "Research at the intersection of AI, algorithmic game theory, and theoretical computer science, focusing on fairness in machine learning and multi-agent systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/simina.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "z-berkay-celik",
+          "name": "Z. Berkay Celik",
+          "title": "Associate Professor",
+          "sub_field": "Security",
+          "tags": [
+            "Security",
+            "Systems",
+            "AI/ML"
+          ],
+          "summary": "Research in systems security, IoT security, and the intersection of AI and security, including adversarial machine learning and secure cyber-physical systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/zcelik.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "douglas-e-comer",
+          "name": "Douglas E. Comer",
+          "title": "Distinguished Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Networking"
+          ],
+          "summary": "Pioneer in computer networking and operating systems. Author of widely-used textbooks on TCP/IP and internetworking. Research spans network protocols, OS design, and distributed systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/comer.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tamal-krishna-dey",
+          "name": "Tamal Krishna Dey",
+          "title": "Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory/Algorithms",
+            "AI/ML",
+            "Graphics"
+          ],
+          "summary": "Research in computational geometry, topology, and their applications in data analysis, machine learning, and scientific visualization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/tamaldey.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "petros-drineas",
+          "name": "Petros Drineas",
+          "title": "Professor and Department Head",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory/Algorithms",
+            "AI/ML",
+            "Computational Science"
+          ],
+          "summary": "Research in randomized numerical linear algebra, algorithms for large-scale data analysis, and their applications in genomics and machine learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/pdrineas.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sonia-fahmy",
+          "name": "Sonia Fahmy",
+          "title": "Professor and Associate Department Head",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Security",
+            "Networking"
+          ],
+          "summary": "Research in computer networks, network security, and networked systems, with focus on measurement, protocol design, and IoT security.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/fahmy.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "pedro-fonseca",
+          "name": "Pedro Fonseca",
+          "title": "Associate Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Security",
+            "Distributed Systems"
+          ],
+          "summary": "Research in operating systems, distributed systems, and fault tolerance, with focus on building reliable and secure systems software.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/pfonseca.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-gleich",
+          "name": "David Gleich",
+          "title": "Professor",
+          "sub_field": "ML",
+          "tags": [
+            "AI/ML",
+            "Computational Science"
+          ],
+          "summary": "Research in scientific computing, machine learning, and network analysis, with work on matrix computations, graph algorithms, and data science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/dgleich.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dan-goldwasser",
+          "name": "Dan Goldwasser",
+          "title": "Associate Professor",
+          "sub_field": "ML",
+          "tags": [
+            "AI/ML",
+            "NLP"
+          ],
+          "summary": "Research in natural language processing and machine learning, focusing on structured prediction, weakly-supervised learning, and computational social science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/dgoldwas.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "steve-hanneke",
+          "name": "Steve Hanneke",
+          "title": "Assistant Professor",
+          "sub_field": "ML",
+          "tags": [
+            "AI/ML",
+            "Theory/Algorithms"
+          ],
+          "summary": "Research in machine learning theory, including active learning, statistical learning theory, and interactive learning algorithms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/hanneke.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "suresh-jagannathan",
+          "name": "Suresh Jagannathan",
+          "title": "Samuel D. Conte Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Programming Languages",
+            "Distributed Systems"
+          ],
+          "summary": "Research in programming languages, compilers, and distributed systems, with work on verified compilation, concurrent programming, and runtime systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/sjaganna.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "changhee-jung",
+          "name": "Changhee Jung",
+          "title": "Samuel D. Conte Associate Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Security",
+            "Architecture",
+            "Programming Languages"
+          ],
+          "summary": "Research in computer architecture, systems security, and programming languages, with work on memory safety, speculative execution defenses, and compiler design.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/chjung.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "aniket-kate",
+          "name": "Aniket Kate",
+          "title": "Associate Professor",
+          "sub_field": "Security",
+          "tags": [
+            "Security",
+            "Distributed Systems"
+          ],
+          "summary": "Research in applied cryptography and distributed systems security, including blockchain technologies, privacy-preserving protocols, and secure multi-party computation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/akate.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ninghui-li",
+          "name": "Ninghui Li",
+          "title": "Samuel D. Conte Professor and Associate Department Head",
+          "sub_field": "Security",
+          "tags": [
+            "Security",
+            "AI/ML",
+            "Databases"
+          ],
+          "summary": "Research in computer security and privacy, including differential privacy, access control, and the security implications of machine learning systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/ninghui.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "anuran-makur",
+          "name": "Anuran Makur",
+          "title": "Assistant Professor of Computer Science and ECE",
+          "sub_field": "ML",
+          "tags": [
+            "AI/ML",
+            "Theory/Algorithms"
+          ],
+          "summary": "Research in information theory, machine learning, and statistical inference, with work on learning from data with constraints and theoretical foundations of ML.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/amakur.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jennifer-neville",
+          "name": "Jennifer Neville",
+          "title": "Samuel D. Conte Professor",
+          "sub_field": "ML",
+          "tags": [
+            "AI/ML",
+            "Databases"
+          ],
+          "summary": "Research in machine learning and data mining for relational and network data, including graph-based learning, collective classification, and statistical relational learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/neville.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kent-quanrud",
+          "name": "Kent Quanrud",
+          "title": "Assistant Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory/Algorithms"
+          ],
+          "summary": "Research in theoretical computer science and algorithm design, with focus on approximation algorithms, online algorithms, and combinatorial optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/krq.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "bruno-ribeiro",
+          "name": "Bruno Ribeiro",
+          "title": "Associate Professor",
+          "sub_field": "ML",
+          "tags": [
+            "AI/ML",
+            "Systems"
+          ],
+          "summary": "Research in machine learning on graphs and networks, including graph neural networks, network representation learning, and causal inference on relational data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/ribeirob.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "wojciech-szpankowski",
+          "name": "Wojciech Szpankowski",
+          "title": "Saul Rosen Distinguished Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory/Algorithms",
+            "Bioinformatics"
+          ],
+          "summary": "Research in information theory, analysis of algorithms, and bioinformatics, with seminal contributions to probabilistic analysis of data structures and algorithms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/szpan.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lin-tan",
+          "name": "Lin Tan",
+          "title": "Mary J. Elmore New Frontiers Professor",
+          "sub_field": "Security",
+          "tags": [
+            "Security",
+            "AI/ML",
+            "Software Engineering"
+          ],
+          "summary": "Research in software security, software engineering, and AI for code, focusing on vulnerability detection, program repair, and trustworthy software systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/lintan.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dongyan-xu",
+          "name": "Dongyan Xu",
+          "title": "Samuel D. Conte Professor",
+          "sub_field": "Security",
+          "tags": [
+            "Security",
+            "Systems",
+            "Networking"
+          ],
+          "summary": "Research in systems and network security, including virtualization security, cloud security, and cyber threat analysis with emphasis on practical system building.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/dxu.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xiangyu-zhang",
+          "name": "Xiangyu Zhang",
+          "title": "Samuel D. Conte Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Software Engineering",
+            "Programming Languages"
+          ],
+          "summary": "Research in software engineering and programming languages, focusing on program analysis, debugging, and dynamic instrumentation for reliability and security.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/xyzhang.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tianyi-zhang",
+          "name": "Tianyi Zhang",
+          "title": "Assistant Professor",
+          "sub_field": "ML",
+          "tags": [
+            "AI/ML",
+            "Software Engineering",
+            "HCI"
+          ],
+          "summary": "Research at the intersection of AI/ML, software engineering, and HCI, focusing on building intelligent tools that augment human programming and creative capabilities.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.purdue.edu/people/faculty/tianyi.html",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "rice-university-bioengineering-phd",
@@ -16464,8 +18268,418 @@
       "links": {
         "program": "https://csweb.rice.edu/academics/graduate-programs/admission/graduate-program-application"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "moshe-y-vardi",
+          "name": "Moshe Y. Vardi",
+          "title": "University Professor and Karen Ostrum George Distinguished Service Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory",
+            "Logic",
+            "Verification",
+            "Databases"
+          ],
+          "summary": "Research in automated reasoning, databases, computational complexity, and logic in computer science. Member of NAE, NAS, AAAS, and Royal Society. Knuth Prize and Allen Newell Award recipient.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~vardi/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lydia-kavraki",
+          "name": "Lydia Kavraki",
+          "title": "Noah Harding Professor of Computer Science",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "Robotics",
+            "Computational Biology"
+          ],
+          "summary": "Research in robotics, AI, and computational biomedicine, focusing on motion planning, reasoning under uncertainty, and biomolecular interactions. Member of NAE, NAS, NAM. Director of Ken Kennedy Institute.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~kavraki/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christopher-jermaine",
+          "name": "Christopher Jermaine",
+          "title": "Professor and Department Chair",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Databases",
+            "ML"
+          ],
+          "summary": "Research in large-scale data analytics, database systems, and machine learning systems. Sloan Fellow and NSF CAREER awardee. Department Chair.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~cmj4/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "anshumali-shrivastava",
+          "name": "Anshumali Shrivastava",
+          "title": "Professor of Computer Science",
+          "sub_field": "ML",
+          "tags": [
+            "ML",
+            "Systems",
+            "Theory"
+          ],
+          "summary": "Research in large-scale machine learning, randomized algorithms for big data, and large language models. Founder of ThirdAI. NSF CAREER awardee. Lead PI of Rice Generative AI 2.0 cluster.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~as143/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xia-ben-hu",
+          "name": "Xia (Ben) Hu",
+          "title": "Professor of Computer Science",
+          "sub_field": "ML",
+          "tags": [
+            "ML",
+            "AI",
+            "Data Science"
+          ],
+          "summary": "Research in machine learning algorithms for large-scale complex datasets, with applications in social informatics, healthcare, and cybersecurity. Creator of AutoKeras. NSF CAREER awardee.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://csweb.rice.edu/people/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "vladimir-vova-braverman",
+          "name": "Vladimir (Vova) Braverman",
+          "title": "Victor E. Cameron Professor of Computer Science",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory",
+            "ML",
+            "Systems"
+          ],
+          "summary": "Research in algorithms, machine learning, computer networks, and computational biology including radiomics and single-cell genomics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~vb21/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "luay-nakhleh",
+          "name": "Luay Nakhleh",
+          "title": "Professor of Computer Science",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "Computational Biology",
+            "Theory"
+          ],
+          "summary": "Research in computational biology and phylogenomics, focusing on evolutionary analysis of genomic data. ISCB Fellow, AAAS Fellow, AIMBE Fellow, Guggenheim Fellow. Former Department Chair.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~nakhleh/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "t-s-eugene-ng",
+          "name": "T. S. Eugene Ng",
+          "title": "Professor of Computer Science and ECE",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Networking"
+          ],
+          "summary": "Research in computer networks, network architecture, and robust global networked infrastructure. IEEE Fellow and Sloan Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~eugeneng/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "keith-d-cooper",
+          "name": "Keith D. Cooper",
+          "title": "L. John and Ann H. Doerr Chair in Computational Engineering, Professor of Computer Science and ECE",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Compilers",
+            "Programming Languages",
+            "HPC"
+          ],
+          "summary": "Research in compilers, programming languages, and high-performance computing, with seminal work on compiler optimization and code generation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~keith/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-mellor-crummey",
+          "name": "John Mellor-Crummey",
+          "title": "Professor of Computer Science and ECE",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "HPC",
+            "Programming Languages"
+          ],
+          "summary": "Research in high-performance computing, parallel programming tools, and performance analysis, with work on scalable performance measurement and optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~johnmc/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "devika-subramanian",
+          "name": "Devika Subramanian",
+          "title": "Professor of Computer Science",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "ML",
+            "Complex Systems"
+          ],
+          "summary": "Research in artificial intelligence and machine learning, with work on complex systems, learning from data, and applications in socio-technical systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~devika/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ang-chen",
+          "name": "Ang Chen",
+          "title": "Associate Professor of Computer Science",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Security",
+            "Networking"
+          ],
+          "summary": "Research in computer systems and security, including cloud systems, network security, and software-defined networking.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~angchen/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alan-cox",
+          "name": "Alan Cox",
+          "title": "Associate Professor of Computer Science",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "OS",
+            "Distributed Systems"
+          ],
+          "summary": "Research in operating systems and distributed systems, with work on memory management, virtualization, and concurrent systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~alc/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-johnson",
+          "name": "David Johnson",
+          "title": "Associate Professor of Computer Science",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Networking",
+            "Wireless"
+          ],
+          "summary": "Research in computer networks and wireless systems, including network protocols, wireless communication, and mobile systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~dbj/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "todd-treangen",
+          "name": "Todd Treangen",
+          "title": "Associate Professor of Computer Science",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "Computational Biology",
+            "Bioinformatics"
+          ],
+          "summary": "Research in computational genomics, metagenomics algorithm development, and microbial evolution. NSF CAREER awardee.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~treangen/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "konstantinos-mamouras",
+          "name": "Konstantinos Mamouras",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory",
+            "Programming Languages",
+            "Formal Methods"
+          ],
+          "summary": "Research in programming languages and formal methods, with work on program verification, synthesis, and the design of domain-specific languages.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rice.edu/~mamouras/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "hanjie-chen",
+          "name": "Hanjie Chen",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "ML",
+          "tags": [
+            "ML",
+            "NLP",
+            "Trustworthy AI"
+          ],
+          "summary": "Research in trustworthy AI, natural language processing, and interpretable machine learning. Joined Rice CS in Fall 2024.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://csweb.rice.edu/people/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nai-hui-chia",
+          "name": "Nai-Hui Chia",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory",
+            "Quantum Computing",
+            "Cryptography"
+          ],
+          "summary": "Research in quantum algorithms, quantum complexity theory, and quantum cryptography. Joined Rice CS in 2022.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://csweb.rice.edu/people/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "arlei-lopes-da-silva",
+          "name": "Arlei Lopes da Silva",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "ML",
+          "tags": [
+            "ML",
+            "Graph Mining",
+            "Data Science"
+          ],
+          "summary": "Research in graph mining, network science, and machine learning, with applications in climate forecasting, urban resilience, and disaster response. Joined Rice CS in 2021.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://csweb.rice.edu/people/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alireza-fallah",
+          "name": "Alireza Fallah",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "ML",
+          "tags": [
+            "ML",
+            "Theory",
+            "Economics and Computation"
+          ],
+          "summary": "Research in machine learning theory, algorithmic game theory, mechanism design, and privacy. PhD from MIT. ACM SIGecom Doctoral Dissertation Award Honorable Mention. Joined Rice CS in 2025.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://csweb.rice.edu/people/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yuke-wang",
+          "name": "Yuke Wang",
+          "title": "Vinay and Aarti Pai Chair in CS, Assistant Professor of Computer Science",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "ML",
+            "Compilers"
+          ],
+          "summary": "Research in building intelligent, efficient systems and compilers for deep learning applications including deep neural networks, graph neural networks, recommendation models, and large language models. Joining Rice CS in Fall 2025.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://csweb.rice.edu/people/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chen-wei",
+          "name": "Chen Wei",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "ML",
+          "tags": [
+            "ML",
+            "Computer Vision",
+            "AI"
+          ],
+          "summary": "Research at the intersection of machine learning and computer vision, focusing on developing flexible and general-purpose intelligent systems. Joining Rice CS in Fall 2025.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://csweb.rice.edu/people/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jiarong-xing",
+          "name": "Jiarong Xing",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Networking",
+            "Security"
+          ],
+          "summary": "Research in computer systems, networking, and security, focusing on efficient cloud systems and large-scale ML systems. Rice CS PhD (2024). Joining Rice CS in Fall 2025.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://csweb.rice.edu/people/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "anders-aamand",
+          "name": "Anders Aamand",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory",
+            "Privacy",
+            "Algorithms"
+          ],
+          "summary": "Research in theoretical computer science including differential privacy, learning-augmented algorithms, distribution testing, hashing, graph theory, and computational geometry. Joining Rice CS in January 2026.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://csweb.rice.edu/people/faculty",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "rice-university-electrical-and-computer-engineering-phd",
@@ -16670,8 +18884,432 @@
       "links": {
         "program": "https://www.cs.rutgers.edu/academics/graduate/ph-d-program"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #42",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #42 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "dimitris-metaxas",
+          "name": "Dimitris Metaxas",
+          "title": "Distinguished Professor",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "Computer Vision",
+            "Intelligent Systems"
+          ],
+          "summary": "Research in artificial intelligence and computer vision, with applications in medical imaging, human behavior analysis, and smart cities. Leads the Computational Biomedicine, Imaging, and Modeling Center.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/dimitris-metaxas",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mario-szegedy",
+          "name": "Mario Szegedy",
+          "title": "Distinguished Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory",
+            "Quantum Computing",
+            "Complexity"
+          ],
+          "summary": "Research in computational complexity theory, quantum computing, combinatorics, and probability theory. Recipient of the FOCS Test of Time Award for foundational work in streaming algorithms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/mario-szegedy",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ahmed-elgammal",
+          "name": "Ahmed Elgammal",
+          "title": "Professor",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "Computer Vision"
+          ],
+          "summary": "Research in artificial intelligence and computer vision, with work on generative models, creative AI, and human motion analysis. Director of the Art and AI Lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/ahmed-elgammal",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jie-gao",
+          "name": "Jie Gao",
+          "title": "Professor and Graduate Program Director",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory",
+            "Algorithms",
+            "Networks"
+          ],
+          "summary": "Research in algorithms, computational geometry, wireless networks, and social network analysis, bridging theory and networked systems problems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/jie-gao",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ulrich-kremer",
+          "name": "Ulrich Kremer",
+          "title": "Professor and Department Chair",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Compilers",
+            "Programming Languages"
+          ],
+          "summary": "Research in compilers, programming languages, and computer architecture, with focus on energy-efficient computing and program optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/ulrich-kremer",
+            "scholar": null
+          }
+        },
+        {
+          "id": "amelie-marian",
+          "name": "Amelie Marian",
+          "title": "Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Databases",
+            "Data Management"
+          ],
+          "summary": "Research in data management, accountability and transparency of algorithms, explainable rankings, personal information management, and digital democracy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/amelie-marian",
+            "scholar": null
+          }
+        },
+        {
+          "id": "badri-nath",
+          "name": "Badri Nath",
+          "title": "Professor and Master of Science Program Director",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Networking",
+            "Mobile Computing"
+          ],
+          "summary": "Research in computer networks, mobile and wireless systems, and networked sensing, with work on location-based services and mobile data management.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/badri-nath",
+            "scholar": null
+          }
+        },
+        {
+          "id": "thu-nguyen",
+          "name": "Thu Nguyen",
+          "title": "Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Computer Architecture"
+          ],
+          "summary": "Research in computer architecture and systems, with work on data-intensive computing, heterogeneous architectures, and resilient infrastructure.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/thu-nguyen",
+            "scholar": null
+          }
+        },
+        {
+          "id": "santosh-nagarakatte",
+          "name": "Santosh Nagarakatte",
+          "title": "Professor and Undergraduate Program Director",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Security",
+            "Programming Languages",
+            "Architecture"
+          ],
+          "summary": "Research in computer architecture, systems security, and programming languages. Known for work on correctly rounded math libraries (RLIBM) and formally verified cryptography.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/santosh-nagarakatte",
+            "scholar": null
+          }
+        },
+        {
+          "id": "vladimir-pavlovic",
+          "name": "Vladimir Pavlovic",
+          "title": "Professor",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "ML",
+            "Computer Vision"
+          ],
+          "summary": "Research in machine learning, computer vision, and probabilistic models, with applications in human behavior understanding and biomedical data analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/vladimir-pavlovic",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-pennock",
+          "name": "David Pennock",
+          "title": "Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory",
+            "AI",
+            "Economics and Computation"
+          ],
+          "summary": "Research in economics and computation, prediction markets, collective intelligence, and machine learning. Director of DIMACS.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/david-pennock",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lirong-xia",
+          "name": "Lirong Xia",
+          "title": "Professor",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "Theory",
+            "ML",
+            "Economics and Computation"
+          ],
+          "summary": "Research at the intersection of AI, machine learning, and economics, focusing on computational social choice, multi-agent systems, mechanism design, differential privacy, and blockchain.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/lirong-xia",
+            "scholar": null
+          }
+        },
+        {
+          "id": "zheng-zhang",
+          "name": "Zheng Zhang",
+          "title": "Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Distributed Systems"
+          ],
+          "summary": "Research in computer and networked systems, including distributed computing and system infrastructure.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/zheng-zhang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kostas-bekris",
+          "name": "Kostas Bekris",
+          "title": "Professor",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "Robotics",
+            "Computer Vision"
+          ],
+          "summary": "Research in robotics, AI, and computer vision, focusing on robot motion planning, manipulation, and task planning. Leads the PRACSYS lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/kostas-bekris",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mubbasir-kapadia",
+          "name": "Mubbasir Kapadia",
+          "title": "Associate Professor",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "Intelligent Systems",
+            "Graphics"
+          ],
+          "summary": "Research in intelligent virtual environments, character animation, crowd simulation, and social behavior modeling. Director of the IVI Lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/mubbasir-kapadia",
+            "scholar": null
+          }
+        },
+        {
+          "id": "abdeslam-boularias",
+          "name": "Abdeslam Boularias",
+          "title": "Associate Professor",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "Robotics",
+            "ML"
+          ],
+          "summary": "Research in robot learning, reinforcement learning, and planning under uncertainty, with focus on enabling robots to learn manipulation skills autonomously.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/abdeslam-boularias",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dong-deng",
+          "name": "Dong Deng",
+          "title": "Associate Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Databases",
+            "Data Management"
+          ],
+          "summary": "Research in databases, data integration, data cleaning, and data management systems for AI and ML pipelines.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/dong-deng",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sudarsun-kannan",
+          "name": "Sudarsun Kannan",
+          "title": "Associate Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "OS",
+            "Architecture"
+          ],
+          "summary": "Research in operating systems, high-performance storage, and I/O for heterogeneous architectures. NSF CAREER awardee and SOSP Best Paper recipient.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/sudarsun-kannan",
+            "scholar": null
+          }
+        },
+        {
+          "id": "konstantinos-michmizos",
+          "name": "Konstantinos Michmizos",
+          "title": "Associate Professor",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "Computational Neuroscience",
+            "Robotics"
+          ],
+          "summary": "Research in computational neuroscience and robotics, focusing on neuromorphic computing and brain-inspired AI for robotic motor control.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/konstantinos-michmizos",
+            "scholar": null
+          }
+        },
+        {
+          "id": "srinivas-narayana",
+          "name": "Srinivas Narayana",
+          "title": "Associate Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "Networking"
+          ],
+          "summary": "Research in computer networks and networked systems, including software-defined networking, network verification, and programmable data planes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/srinivas-narayana",
+            "scholar": null
+          }
+        },
+        {
+          "id": "desheng-zhang",
+          "name": "Desheng Zhang",
+          "title": "Associate Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "Systems",
+            "ML",
+            "Mobile Computing"
+          ],
+          "summary": "Research in mobile computing, networked systems, and spatial-temporal data mining, with applications in cyber-physical systems and urban data analytics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/desheng-zhang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yongfeng-zhang",
+          "name": "Yongfeng Zhang",
+          "title": "Associate Professor",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "ML",
+            "Systems"
+          ],
+          "summary": "Research in machine learning, data science, and explainable AI, with focus on explainable recommendation systems, information retrieval, and trustworthy AI.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/yongfeng-zhang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lesia-semenova",
+          "name": "Lesia Semenova",
+          "title": "Assistant Professor",
+          "sub_field": "AI",
+          "tags": [
+            "AI",
+            "ML",
+            "Trustworthy AI"
+          ],
+          "summary": "Research in machine learning and responsible AI, focusing on interpretability, human-centered design, and AI applications in healthcare.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/lesia-semenova",
+            "scholar": null
+          }
+        },
+        {
+          "id": "arpita-biswas",
+          "name": "Arpita Biswas",
+          "title": "Assistant Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory",
+            "AI",
+            "ML"
+          ],
+          "summary": "Research in algorithmic game theory, optimization, and machine learning, with work on fairness in algorithmic decision-making and resource allocation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/arpita-biswas",
+            "scholar": null
+          }
+        },
+        {
+          "id": "aarushi-goel",
+          "name": "Aarushi Goel",
+          "title": "Assistant Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "Theory",
+            "Security",
+            "Cryptography"
+          ],
+          "summary": "Research in cryptography and security, with work on secure multi-party computation, zero-knowledge proofs, and privacy-preserving protocols.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.rutgers.edu/people/professors/details/aarushi-goel",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "stanford-university-computer-science-phd",
@@ -19024,8 +21662,509 @@
       "links": {
         "program": "https://grad.berkeley.edu/program/eecs/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "alberto-l-sangiovanni-vincentelli",
+          "name": "Alberto L. Sangiovanni-Vincentelli",
+          "title": "Professor",
+          "sub_field": "Electronic Design Automation & Cyber-Physical Systems",
+          "tags": [
+            "EDA",
+            "embedded systems",
+            "cyber-physical systems",
+            "formal methods",
+            "VLSI design",
+            "platform-based design"
+          ],
+          "summary": "Pioneer in electronic design automation who co-founded both Cadence Design Systems and Synopsys. His research spans formal methods, contract-based design, and platform-based design for cyber-physical systems with applications in automotive, avionics, and healthcare. Member of the National Academy of Engineering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/sangiovanni-vicentelli.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "s-shankar-sastry",
+          "name": "S. Shankar Sastry",
+          "title": "Professor",
+          "sub_field": "Robotics & Control",
+          "tags": [
+            "robotics",
+            "control theory",
+            "cyber-physical systems",
+            "computer vision",
+            "autonomous systems",
+            "AI"
+          ],
+          "summary": "Thomas Siebel Professor with research spanning nonlinear and adaptive control, hybrid systems, robotics, computer vision, and autonomous systems. Served as Dean of Engineering (2007–2018) and Director of CITRIS. Member of the National Academy of Engineering and American Academy of Arts and Sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.eecs.berkeley.edu/~sastry/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "claire-j-tomlin",
+          "name": "Claire J. Tomlin",
+          "title": "Professor",
+          "sub_field": "Hybrid Systems & Safety-Critical Control",
+          "tags": [
+            "hybrid systems",
+            "control theory",
+            "safe learning",
+            "autonomous systems",
+            "air traffic control",
+            "reachability analysis"
+          ],
+          "summary": "MacArthur Fellow and National Academy of Engineering member whose research focuses on hybrid control systems, safe learning in robotics, and air traffic management. Pioneered reachability-based methods for safety verification of autonomous and human-in-the-loop systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/tomlin.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ali-m-niknejad",
+          "name": "Ali M. Niknejad",
+          "title": "Professor",
+          "sub_field": "RF & Millimeter-Wave Integrated Circuits",
+          "tags": [
+            "RF circuits",
+            "mm-wave",
+            "integrated circuits",
+            "CMOS",
+            "phased arrays",
+            "wireless communication"
+          ],
+          "summary": "Donald O. Pederson Distinguished Professor and Director of the Berkeley Wireless Research Center. Specializes in RF, mm-wave, and sub-THz integrated circuits in CMOS and SiGe for communication, sensing, radar, and biomedical applications. Co-founder of LifeSignals and RF Pixels (acquired by Skyworks).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://rfic.eecs.berkeley.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "borivoje-nikolic",
+          "name": "Borivoje Nikolic",
+          "title": "Professor",
+          "sub_field": "VLSI Circuits & Digital Design",
+          "tags": [
+            "VLSI",
+            "digital circuits",
+            "mixed-signal",
+            "RISC-V",
+            "low-power design",
+            "computer architecture"
+          ],
+          "summary": "IEEE Fellow specializing in digital and mixed-signal integrated circuit design and VLSI implementation of communication and signal processing algorithms. Co-author of the widely-used textbook Digital Integrated Circuits: A Design Perspective. Co-leads the SLICE lab for specialized computing ecosystems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/nikolic.html",
+            "scholar": "https://scholar.google.com/citations?user=QEqPllIAAAAJ"
+          }
+        },
+        {
+          "id": "sayeef-salahuddin",
+          "name": "Sayeef Salahuddin",
+          "title": "Professor",
+          "sub_field": "Nanoelectronics & Spintronics",
+          "tags": [
+            "nanoelectronics",
+            "spintronics",
+            "negative capacitance",
+            "ferroelectrics",
+            "energy-efficient computing",
+            "transistors"
+          ],
+          "summary": "TSMC Distinguished Professor who pioneered the concept of negative capacitance transistors enabling sub-kT/q switching for ultra-low-power electronics. His work on ferroelectric materials has been adopted in advanced memory and processor technologies. IEEE Fellow, APS Fellow, and AAAS Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://leed.eecs.berkeley.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ali-javey",
+          "name": "Ali Javey",
+          "title": "Professor",
+          "sub_field": "Nanomaterials & Flexible Electronics",
+          "tags": [
+            "nanomaterials",
+            "flexible electronics",
+            "2D semiconductors",
+            "wearable sensors",
+            "carbon nanotubes",
+            "photovoltaics"
+          ],
+          "summary": "Lam Research Distinguished Chair in Semiconductor Processing working on next-generation electronic materials including 2D semiconductors, wearable sweat sensors, and flexible electronics. Published landmark work on MoS2 transistors with 1-nm gate length. IEEE Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://nano.eecs.berkeley.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ming-c-wu",
+          "name": "Ming C. Wu",
+          "title": "Professor",
+          "sub_field": "Photonics & MEMS",
+          "tags": [
+            "photonics",
+            "MEMS",
+            "silicon photonics",
+            "optofluidics",
+            "optical switching",
+            "optoelectronic tweezers"
+          ],
+          "summary": "Nortel Distinguished Professor pioneering large-scale optical switches combining MEMS with silicon photonics, achieving 240x240 switch fabrics. Co-founder of Berkeley Lights, which commercialized optoelectronic tweezers for single-cell manipulation used in antibody discovery and cell line development.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.mingwulab.berkeley.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "laura-waller",
+          "name": "Laura Waller",
+          "title": "Professor",
+          "sub_field": "Computational Imaging & Optics",
+          "tags": [
+            "computational imaging",
+            "optical microscopy",
+            "Fourier ptychography",
+            "phase imaging",
+            "lensless imaging",
+            "deep learning"
+          ],
+          "summary": "Ted Van Duzer Endowed Professor leading the Computational Imaging Lab, developing methods where optical systems and computational algorithms are jointly designed. Fellow of Optica and AIMBE, recipient of the Adolph Lomb Medal for contributions to computational microscopy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.laurawaller.com/",
+            "scholar": "https://scholar.google.com/citations?user=aPxDp7wAAAAJ"
+          }
+        },
+        {
+          "id": "alexandre-m-bayen",
+          "name": "Alexandre M. Bayen",
+          "title": "Professor",
+          "sub_field": "Control & Transportation Systems",
+          "tags": [
+            "control theory",
+            "transportation systems",
+            "autonomous vehicles",
+            "cyber-physical systems",
+            "deep learning",
+            "traffic flow"
+          ],
+          "summary": "Liao-Cho Professor working on control, optimization, and machine learning for transportation and cyber-physical systems. Led the Mobile Millennium traffic monitoring project and served as Director of the Institute of Transportation Studies (2014–2021). IEEE Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://bayen.berkeley.edu/alex-bayen",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sanjit-a-seshia",
+          "name": "Sanjit A. Seshia",
+          "title": "Professor",
+          "sub_field": "Formal Methods & Cyber-Physical Systems",
+          "tags": [
+            "formal methods",
+            "cyber-physical systems",
+            "SMT",
+            "verification",
+            "security",
+            "program synthesis"
+          ],
+          "summary": "Cadence Founders Chair Professor and pioneer in satisfiability modulo theories (SMT) and SMT-based verification for cyber-physical systems, AI, and security. Co-author of a widely-used embedded/CPS textbook. ACM Fellow and IEEE Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.eecs.berkeley.edu/~sseshia/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "robert-c-n-pilawa-podgurski",
+          "name": "Robert C. N. Pilawa-Podgurski",
+          "title": "Professor",
+          "sub_field": "Power Electronics",
+          "tags": [
+            "power electronics",
+            "DC-DC converters",
+            "renewable energy",
+            "electric vehicles",
+            "energy harvesting",
+            "multilevel converters"
+          ],
+          "summary": "Director of the Berkeley Power and Energy Center, specializing in high-density, high-efficiency power converters using flying capacitor multilevel and hybrid switched-capacitor topologies. IEEE Fellow with 17 IEEE prize papers for contributions to power conversion.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://pilawa-group.berkeley.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "boubacar-kant",
+          "name": "Boubacar Kanté",
+          "title": "Professor",
+          "sub_field": "Nanophotonics & Metamaterials",
+          "tags": [
+            "nanophotonics",
+            "metamaterials",
+            "lasers",
+            "quantum optics",
+            "BIC lasers",
+            "topological photonics"
+          ],
+          "summary": "Inaugural Chenming Hu Endowed Chair Professor who invented Berkeley Surface Emitting Lasers (BerkSELs) and demonstrated the first topological laser based on the quantum Hall effect for light. Holds world records in plasmonic nanosensing and metalens bandwidth. Moore Inventor Fellow and Optica Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://kante.berkeley.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-wawrzynek",
+          "name": "John Wawrzynek",
+          "title": "Professor",
+          "sub_field": "Reconfigurable Computing & FPGA",
+          "tags": [
+            "FPGA",
+            "reconfigurable computing",
+            "computer architecture",
+            "VLSI",
+            "RISC-V",
+            "hardware accelerators"
+          ],
+          "summary": "CS Division Chair specializing in reconfigurable computing and FPGA architectures. Key contributor to the Garp architecture (MIPS + reconfigurable coprocessor), BEE2 high-end reconfigurable computing system, and RISC-V ecosystem development at Berkeley.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.eecs.berkeley.edu/~johnw/",
+            "scholar": "https://scholar.google.com/citations?hl=en&user=hdnpRKsAAAAJ"
+          }
+        },
+        {
+          "id": "clark-t-c-nguyen",
+          "name": "Clark T.-C. Nguyen",
+          "title": "Professor",
+          "sub_field": "MEMS & Microsystems",
+          "tags": [
+            "MEMS",
+            "micromechanical resonators",
+            "RF MEMS",
+            "timing",
+            "frequency control",
+            "integrated circuits"
+          ],
+          "summary": "Conexant Systems Distinguished Professor and BSAC Co-Director. Pioneer in MEMS resonators for timing and frequency control. Founded Discera, the first company to commercialize MEMS-based timing products, and served as DARPA Program Manager overseeing microsystems programs.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.eecs.berkeley.edu/~ctnguyen/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kristofer-s-j-pister",
+          "name": "Kristofer S. J. Pister",
+          "title": "Professor",
+          "sub_field": "MEMS & Micro-Robotics",
+          "tags": [
+            "MEMS",
+            "smart dust",
+            "wireless sensor networks",
+            "micro-robotics",
+            "low-power circuits",
+            "IoT"
+          ],
+          "summary": "BSAC Co-Director who pioneered the Smart Dust project aiming to put complete sensing/communication platforms inside cubic millimeter volumes. His work on wireless mesh networking and low-power RF inspired the IEEE 802.15.4 standard and Time Synchronized Mesh Protocol (TSMP).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.eecs.berkeley.edu/~pister/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "murat-arcak",
+          "name": "Murat Arcak",
+          "title": "Professor",
+          "sub_field": "Control Theory & Autonomous Systems",
+          "tags": [
+            "control theory",
+            "nonlinear systems",
+            "multi-agent systems",
+            "synthetic biology",
+            "transportation",
+            "cyber-physical systems"
+          ],
+          "summary": "IEEE and IFAC Fellow specializing in nonlinear control theory and autonomous multi-agent systems. Applies control methods to synthetic biology (genetic circuit design), transportation networks, and energy systems with emphasis on compositional analysis and data-driven reachability.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.eecs.berkeley.edu/~arcak/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kameshwar-poolla",
+          "name": "Kameshwar Poolla",
+          "title": "Professor",
+          "sub_field": "Control & Semiconductor Manufacturing",
+          "tags": [
+            "control theory",
+            "system identification",
+            "semiconductor manufacturing",
+            "metrology",
+            "energy systems",
+            "robust control"
+          ],
+          "summary": "Cadence Design Systems Distinguished Professor working on control theory, system identification, and semiconductor manufacturing metrology. Co-founded OnWafer Technologies (acquired by KLA-Tencor). IFAC Fellow and IEEE Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/poolla.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jaijeet-roychowdhury",
+          "name": "Jaijeet Roychowdhury",
+          "title": "Professor",
+          "sub_field": "Electronic Design Automation & Novel Computing",
+          "tags": [
+            "EDA",
+            "nonlinear circuits",
+            "oscillator Ising machines",
+            "simulation",
+            "model reduction",
+            "analog design"
+          ],
+          "summary": "IEEE Fellow specializing in nonlinear circuit and system simulation and novel computational paradigms. Co-invented Oscillator Ising Machines using self-sustaining oscillators for combinatorial optimization, winning the Bell Labs Prize. Co-founder of Berkeley Design Automation (acquired by Mentor Graphics).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://jaijeet.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "prabal-dutta",
+          "name": "Prabal Dutta",
+          "title": "Professor",
+          "sub_field": "Embedded Systems & Internet of Things",
+          "tags": [
+            "embedded systems",
+            "Internet of Things",
+            "cyber-physical systems",
+            "wireless sensor networks",
+            "low-power design",
+            "computer architecture"
+          ],
+          "summary": "Sloan Research Fellow and Brilliant 10 honoree specializing in embedded systems, wireless sensor networks, and IoT. Research spans ultra-low-power computing, energy-harvesting sensing platforms, and cyber-physical system architectures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.eecs.berkeley.edu/~prabal/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rikky-muller",
+          "name": "Rikky Muller",
+          "title": "Associate Professor",
+          "sub_field": "Biomedical Integrated Circuits & Neural Interfaces",
+          "tags": [
+            "biomedical circuits",
+            "neural interfaces",
+            "implantable devices",
+            "low-power ICs",
+            "wireless medical devices",
+            "neuromodulation"
+          ],
+          "summary": "S. Shankar Sastry Professor in Emerging Technologies and Co-Director of BWRC, developing miniaturized wireless integrated systems for neural recording, stimulation, and biomedical imaging. MIT TR35 honoree and co-founder of Cortera Neurotechnologies (acquired).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.rikkymuller.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yakun-sophia-shao",
+          "name": "Yakun Sophia Shao",
+          "title": "Associate Professor",
+          "sub_field": "Computer Architecture & Domain-Specific Accelerators",
+          "tags": [
+            "computer architecture",
+            "domain-specific accelerators",
+            "machine learning systems",
+            "VLSI design",
+            "hardware prototyping",
+            "agile hardware"
+          ],
+          "summary": "Sloan Research Fellow and Class of 1951 Chair designing domain-specific hardware accelerators for machine learning and emerging workloads. Research spans agile VLSI design methodology, open-source hardware, and heterogeneous computing architectures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.eecs.berkeley.edu/~ysshao/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "giuseppe-loianno",
+          "name": "Giuseppe Loianno",
+          "title": "Associate Professor",
+          "sub_field": "Aerial Robotics & Autonomous Navigation",
+          "tags": [
+            "aerial robotics",
+            "autonomous navigation",
+            "perception",
+            "control",
+            "machine learning",
+            "multi-robot systems"
+          ],
+          "summary": "Director of the Agile Robotics and Perception Lab (ARPL), developing perception, learning, and control algorithms for agile autonomous aerial robots that navigate using only onboard sensors without GPS or motion capture. NSF CAREER and DARPA Young Faculty Award recipient.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://arplaboratory.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ana-claudia-arias",
+          "name": "Ana Claudia Arias",
+          "title": "Professor",
+          "sub_field": "Flexible & Printed Electronics",
+          "tags": [
+            "flexible electronics",
+            "printed electronics",
+            "wearable sensors",
+            "organic transistors",
+            "photovoltaics",
+            "flexible batteries"
+          ],
+          "summary": "EE Division Chair specializing in solution-processed electronic materials and printing techniques for flexible large-area electronics. Develops wearable medical sensors, flexible MRI receive coils for infant imaging, and printed biodegradable sensors. IEEE Fellow and NAI Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://arias.berkeley.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "steven-m-conolly",
+          "name": "Steven M. Conolly",
+          "title": "Professor",
+          "sub_field": "Medical Imaging & Biosensing",
+          "tags": [
+            "medical imaging",
+            "magnetic particle imaging",
+            "MRI",
+            "biosensing",
+            "signal processing",
+            "hardware"
+          ],
+          "summary": "Montford G. Cook Chair Professor and pioneer in Magnetic Particle Imaging (MPI), having built all MPI scanners currently operating in the USA. Co-founder of Magnetic Insight, commercializing preclinical MPI scanners for stem cell tracking, perfusion imaging, and cancer diagnostics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/sconolly.html",
+            "scholar": "https://scholar.google.com/citations?user=DVnrB-4AAAAJ"
+          }
+        }
+      ]
     },
     {
       "id": "university-of-california-davis-computer-science",
@@ -24672,8 +27811,350 @@
       "links": {
         "program": "https://grad.uga.edu/degree/phd-computer-science/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "gagan-agrawal",
+          "name": "Gagan Agrawal",
+          "title": "Professor and Director, School of Computing",
+          "sub_field": "High-Performance Computing",
+          "tags": [
+            "HPC",
+            "Data-Intensive Computing",
+            "Cloud/Grid Systems",
+            "Scientific Data Management",
+            "Data Mining"
+          ],
+          "summary": "Director of the School of Computing. Research in high-performance computing, data-intensive computing, cloud computing, and scientific data management. Over 300 publications and 35+ advised PhD students. Previously at Ohio State University.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.uga.edu/team_member/gagan-agrawal/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "suchendra-m-bhandarkar",
+          "name": "Suchendra M. Bhandarkar",
+          "title": "Professor",
+          "sub_field": "Computer Vision",
+          "tags": [
+            "Computer Vision",
+            "Image Processing",
+            "Pattern Recognition",
+            "AI",
+            "Parallel Processing",
+            "Computational Biology"
+          ],
+          "summary": "Professor with Ph.D. from Syracuse University (1989). Research in computer vision, image and video processing, pattern recognition, AI, and computational biology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "liming-cai",
+          "name": "Liming Cai",
+          "title": "Professor and Director of Graduate Studies",
+          "sub_field": "Algorithms and Theory",
+          "tags": [
+            "Algorithms",
+            "Combinatorial Optimization",
+            "Computational Complexity",
+            "Bioinformatics",
+            "Machine Learning"
+          ],
+          "summary": "Professor and Graduate Director. Ph.D. from Texas A&M (1994). Research in algorithms, combinatorial optimization, computational complexity, bioinformatics, probabilistic graphical models, and machine learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.uga.edu/team_member/liming-cai/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ismailcem-budak-arpinar",
+          "name": "Ismailcem Budak Arpinar",
+          "title": "Associate Professor",
+          "sub_field": "Semantic Web and Data Analytics",
+          "tags": [
+            "Semantic Web",
+            "Knowledge Graphs",
+            "Social Media Analytics",
+            "Time Series Forecasting",
+            "Machine Learning"
+          ],
+          "summary": "Associate Professor. Research in semantic web, knowledge graphs, machine learning, social media analytics, and time-series forecasting. Ph.D. from METU (1998).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "maria-hybinette",
+          "name": "Maria Hybinette",
+          "title": "Associate Professor",
+          "sub_field": "Distributed Systems",
+          "tags": [
+            "Distributed Systems",
+            "Modeling and Simulation",
+            "Parallel Computing",
+            "Multi-Agent Systems"
+          ],
+          "summary": "Associate Professor. Research in distributed systems, modeling and simulation, and parallel discrete event simulation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "in-kee-kim",
+          "name": "In Kee Kim",
+          "title": "Associate Professor",
+          "sub_field": "Cloud Computing and Systems",
+          "tags": [
+            "Cloud Computing",
+            "Distributed Systems",
+            "Operating Systems",
+            "Serverless Computing"
+          ],
+          "summary": "Associate Professor. Research in cloud computing, serverless computing, distributed systems, and operating systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://inkeekim.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "krzysztof-kochut",
+          "name": "Krzysztof Kochut",
+          "title": "Professor",
+          "sub_field": "Knowledge Graphs and Semantic Web",
+          "tags": [
+            "Knowledge Graphs",
+            "Semantic Web",
+            "Ontologies",
+            "SPARQL",
+            "Bioinformatics"
+          ],
+          "summary": "Professor and former Department Head (2002-2008). Research in knowledge graphs, semantic web, ontology engineering, and bioinformatics. Co-founder of LSDIS Lab. Ph.D. from LSU (1987).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.uga.edu/team_member/krzysztof-j-kochut/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-a-miller",
+          "name": "John A. Miller",
+          "title": "Professor",
+          "sub_field": "Modeling and Simulation",
+          "tags": [
+            "Modeling",
+            "Simulation",
+            "Databases",
+            "Data Science",
+            "Bioinformatics"
+          ],
+          "summary": "Professor specializing in modeling and simulation, databases, data science, and bioinformatics. Leads ScalaTion big data analytics testbed. Over 233 publications, 14,000+ citations. Ph.D. from Georgia Tech (1986).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lakshmish-ramaswamy",
+          "name": "Lakshmish Ramaswamy",
+          "title": "Professor and Associate Director, School of Computing",
+          "sub_field": "Distributed Systems",
+          "tags": [
+            "Distributed Systems",
+            "Cloud Computing",
+            "Big Data",
+            "Health Informatics",
+            "Information Security"
+          ],
+          "summary": "Professor and Associate Director. Ph.D. from Georgia Tech. Research in large-scale distributed systems, data-intensive and cloud computing, social media systems, and health informatics. Directs the Data-Intensive Pervasive Systems Lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "wenwen-wang",
+          "name": "Wenwen Wang",
+          "title": "Associate Professor",
+          "sub_field": "Systems and Compilers",
+          "tags": [
+            "Systems",
+            "Compilers",
+            "Programming Languages",
+            "Runtime Systems",
+            "Virtualization"
+          ],
+          "summary": "Associate Professor. Research in systems, compilers, programming languages, runtime optimization, and virtualization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jian-liu",
+          "name": "Jian Liu",
+          "title": "Associate Professor",
+          "sub_field": "Mobile and AI Systems",
+          "tags": [
+            "Trustworthy AI",
+            "Computational Sensing",
+            "Augmented Reality",
+            "HCI",
+            "Mobile Systems"
+          ],
+          "summary": "Associate Professor (joined 2025). Leads MoSIS Lab. Research in trustworthy AI, computational sensing, augmented/mixed reality, HCI, and intelligent fitness. Previously at UT Knoxville. Ph.D. from Rutgers.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "zhenlin-an",
+          "name": "Zhenlin An",
+          "title": "Assistant Professor",
+          "sub_field": "Wireless Systems and Networking",
+          "tags": [
+            "Wireless Systems",
+            "Networking",
+            "AI for Wireless",
+            "Sensing",
+            "VR/AR",
+            "Battery-free Sensors"
+          ],
+          "summary": "Assistant Professor (joined 2025). Research in wireless systems and networking including AI4wireless, communication and sensing, battery-free sensor networks, and immersive VR/AR.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jin-lu",
+          "name": "Jin Lu",
+          "title": "Assistant Professor",
+          "sub_field": "Machine Learning",
+          "tags": [
+            "Machine Learning",
+            "Optimization",
+            "Federated Learning",
+            "Health Informatics",
+            "Deep Learning"
+          ],
+          "summary": "Assistant Professor (joined 2023). Research in machine learning, optimization, federated learning, and health informatics. Publications at NeurIPS, ICML, ICLR. Ph.D. from UConn (2019).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://jinlucs.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "fei-dou",
+          "name": "Fei Dou",
+          "title": "Assistant Professor",
+          "sub_field": "Machine Learning for IoT",
+          "tags": [
+            "Federated Learning",
+            "Reinforcement Learning",
+            "IoT",
+            "Sensing",
+            "Indoor Localization"
+          ],
+          "summary": "Assistant Professor (joined 2023). Research in machine learning for IoT and cyber-physical systems, federated learning, reinforcement learning, and health sensing. Ph.D. from UConn (2023).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.uga.edu/team_member/fei-dou/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "wei-niu",
+          "name": "Wei Niu",
+          "title": "Assistant Professor",
+          "sub_field": "Efficient Machine Learning",
+          "tags": [
+            "Efficient ML",
+            "Edge AI",
+            "Mobile Computing",
+            "Deep Learning Systems",
+            "Model Compression"
+          ],
+          "summary": "Assistant Professor. Research in efficient machine learning, edge AI, deep learning systems optimization, and model compression for resource-constrained devices.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "le-guan",
+          "name": "Le Guan",
+          "title": "Associate Professor",
+          "sub_field": "Systems and Security",
+          "tags": [
+            "Systems Security",
+            "Program Analysis",
+            "IoT Security",
+            "Firmware Analysis"
+          ],
+          "summary": "Associate Professor. Research in systems security, program analysis, IoT firmware analysis, and vulnerability discovery.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kyu-hyung-lee",
+          "name": "Kyu Hyung Lee",
+          "title": "Associate Professor, Associate Director of IICP",
+          "sub_field": "Cybersecurity and Forensics",
+          "tags": [
+            "Systems Security",
+            "Software Security",
+            "Digital Forensics",
+            "Program Analysis",
+            "Mobile Security"
+          ],
+          "summary": "Associate Professor and Associate Director of the Institute for Cybersecurity and Privacy. Ph.D. from Purdue (2014). Research in system/software security, digital forensics, and program analysis. NSF CAREER and publications at IEEE S&P, USENIX Security, NDSS.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://kyuhlee.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "zichen-gui",
+          "name": "Zichen Gui",
+          "title": "Assistant Professor",
+          "sub_field": "Applied Cryptography",
+          "tags": [
+            "Applied Cryptography",
+            "Searchable Encryption",
+            "Fully Homomorphic Encryption",
+            "Cryptanalysis",
+            "Distributed Systems"
+          ],
+          "summary": "Assistant Professor (joined 2024). Research in applied cryptography, encrypted databases, searchable encryption, and privacy-preserving computation. Postdoc at ETH Zurich with Kenny Paterson. Ph.D. from Bristol. Publications at IEEE S&P, USENIX Security, CCS.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://computing.uga.edu/directory/people/zichen-gui",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "university-of-georgia-artificial-intelligence",
@@ -24713,8 +28194,218 @@
       "links": {
         "program": "https://grad.uga.edu/degree/phd-artificial-intelligence/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "prashant-doshi",
+          "name": "Prashant Doshi",
+          "title": "UGA Foundation Distinguished Professor of Artificial Intelligence",
+          "sub_field": "AI and Multi-Agent Systems",
+          "tags": [
+            "AI",
+            "Multi-Agent Systems",
+            "Reinforcement Learning",
+            "I-POMDP",
+            "Robotics",
+            "Human-Robot Collaboration"
+          ],
+          "summary": "Executive Director of the Institute for Artificial Intelligence. Co-pioneered the Interactive POMDP (I-POMDP) framework. Research in AI, multi-agent systems, reinforcement learning, inverse RL, and robotics. NSF CAREER (2009). Co-founded InversAI for agricultural robotics. UGA Entrepreneur of the Year 2025.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ai.uga.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "khaled-rasheed",
+          "name": "Khaled Rasheed",
+          "title": "Professor, Director of the Evolutionary Computation and Machine Learning Lab",
+          "sub_field": "Evolutionary Computation",
+          "tags": [
+            "Evolutionary Computation",
+            "Genetic Algorithms",
+            "Machine Learning",
+            "Bioinformatics",
+            "Agriculture AI"
+          ],
+          "summary": "Professor and Director of the Evolutionary Computation and ML Lab. Interim Executive Director of IAI (2024-2025). Research in genetic algorithms, evolutionary computation, machine learning, and applications in agriculture, bioinformatics, and public health. Ph.D. from Rutgers (1998).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://khaledmrasheed.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tianming-liu",
+          "name": "Tianming Liu",
+          "title": "Distinguished Research Professor",
+          "sub_field": "Brain-Inspired AI and Neuroimaging",
+          "tags": [
+            "Brain-Inspired AI",
+            "Neuroimaging",
+            "Computer Vision",
+            "Deep Learning",
+            "Medical Imaging",
+            "NLP"
+          ],
+          "summary": "Distinguished Research Professor. Research in brain imaging, computational neuroscience, and brain-inspired AI. Also works on computer vision, deep learning, NLP, and knowledge graphs. AIMBE Fellow, NIH/NSF CAREER awardee. Ph.D. from Shanghai Jiao Tong (2002).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ramviyas-nattanmai-parasuraman",
+          "name": "Ramviyas Nattanmai Parasuraman",
+          "title": "Associate Professor, Director of Graduate Studies, Institute for AI",
+          "sub_field": "Robotics and Multi-Robot Systems",
+          "tags": [
+            "Multi-Robot Systems",
+            "Reinforcement Learning",
+            "Edge Robotics",
+            "AI",
+            "Human-Robot Interaction"
+          ],
+          "summary": "Associate Professor and IAI Graduate Director. Leads HeRoLab. Research in multi-robot systems, reinforcement learning, edge robotics, explainable AI, and human-robot interaction. 5 ICRA 2026 papers. $1.68M Army Research Lab grant with Prof. Doshi.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jin-sun",
+          "name": "Jin Sun",
+          "title": "Assistant Professor",
+          "sub_field": "Computer Vision and Deep Learning",
+          "tags": [
+            "Computer Vision",
+            "Deep Learning",
+            "Representation Learning",
+            "3D Scene Understanding",
+            "Generative Models"
+          ],
+          "summary": "Assistant Professor and IAI Faculty Fellow. Research in computer vision and deep learning, representation learning from unlabeled data, and scene understanding. CVPR Best Paper Nominee. Postdoc at Cornell Tech. Ph.D. from Maryland (2018).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://jinsungit.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "shannon-quinn",
+          "name": "Shannon Quinn",
+          "title": "Associate Professor",
+          "sub_field": "Machine Learning for Public Health",
+          "tags": [
+            "Machine Learning",
+            "Biomedical Imaging",
+            "Biosurveillance",
+            "Graph Methods",
+            "Distributed Systems"
+          ],
+          "summary": "Associate Professor. NSF CAREER awardee. Research in large-scale algorithms and machine learning for public health, biomedical imaging, biosurveillance, and graph-based neuroimaging analysis. Joint with Cellular Biology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "zhen-xiang",
+          "name": "Zhen Xiang",
+          "title": "Assistant Professor",
+          "sub_field": "Trustworthy Machine Learning",
+          "tags": [
+            "Trustworthy ML",
+            "AI Security",
+            "Large Language Models",
+            "LLM Agents",
+            "Signal Processing"
+          ],
+          "summary": "Assistant Professor (joined 2024). Research in trustworthy machine learning, AI security, large language models and agents, and statistical signal processing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "geng-yuan",
+          "name": "Geng Yuan",
+          "title": "Assistant Professor",
+          "sub_field": "Efficient AI",
+          "tags": [
+            "Efficient ML",
+            "Model Compression",
+            "Edge AI",
+            "Deep Learning",
+            "Hardware-Aware AI"
+          ],
+          "summary": "Assistant Professor. Research in efficient machine learning, model compression, edge AI, and hardware-aware neural network design.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jaewoo-lee",
+          "name": "Jaewoo Lee",
+          "title": "Associate Professor",
+          "sub_field": "Privacy and Data Mining",
+          "tags": [
+            "Data Privacy",
+            "Machine Learning",
+            "Differential Privacy",
+            "Data Mining"
+          ],
+          "summary": "Associate Professor. Research in data privacy, differential privacy, privacy-preserving machine learning, and data mining. Affiliated with the Institute for Cybersecurity and Privacy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ari-schlesinger",
+          "name": "Ari Schlesinger",
+          "title": "Assistant Professor",
+          "sub_field": "Human-Centered AI and Tech Ethics",
+          "tags": [
+            "Human-Centered Computing",
+            "AI Ethics",
+            "Responsible AI",
+            "Technology Policy",
+            "AI Safety"
+          ],
+          "summary": "Assistant Professor (joined 2023) and IAI Faculty Fellow. Directs the Socially Responsible Tech Lab. Research in human-centered AI, AI ethics, and anti-discriminatory computing. Google Research Award (2025) for AI safety literacy. ACM US Technology Policy Committee member.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://arischlesinger.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "frederick-maier",
+          "name": "Frederick Maier",
+          "title": "Associate Director for Academic Programs, Institute for AI",
+          "sub_field": "Logic and AI",
+          "tags": [
+            "Logic",
+            "AI",
+            "Knowledge Representation",
+            "Nonclassical Reasoning"
+          ],
+          "summary": "Associate Director for Academic Programs at IAI. Research in logic and AI, knowledge representation, and nonclassical reasoning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ai.uga.edu/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "university-of-georgia-bioinformatics",
@@ -24754,8 +28445,217 @@
       "links": {
         "program": "https://grad.uga.edu/degree/phd-bioinformatics/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "ying-xu",
+          "name": "Ying Xu",
+          "title": "Regents and Georgia Research Alliance Eminent Scholar Chair of Bioinformatics and Computational Biology",
+          "sub_field": "Computational Systems Biology",
+          "tags": [
+            "Cancer Systems Biology",
+            "Microbial Genomics",
+            "Protein Structure Prediction",
+            "Computational Biology"
+          ],
+          "summary": "Regents Professor and GRA Eminent Scholar. Founding Director of the Institute of Bioinformatics. Research in cancer systems biology, microbial genomics, and protein structure prediction. Leads the Computational Systems Biology Lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.x-mol.com/university/faculty/59385",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jessica-kissinger",
+          "name": "Jessica Kissinger",
+          "title": "Professor of Genetics, Director of the Institute of Bioinformatics",
+          "sub_field": "Genomics and Bioinformatics",
+          "tags": [
+            "Genomics",
+            "Eukaryotic Pathogens",
+            "Genome Evolution",
+            "Bioinformatics",
+            "Parasitology"
+          ],
+          "summary": "Professor of Genetics and Director of the Institute of Bioinformatics. Research in genomics of eukaryotic pathogens (Toxoplasma, Plasmodium), genome evolution, and bioinformatics tool development.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.genetics.uga.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "casey-bergman",
+          "name": "Casey Bergman",
+          "title": "Associate Professor of Genetics and Institute of Bioinformatics",
+          "sub_field": "Computational Genomics",
+          "tags": [
+            "Genome Structure",
+            "Genome Evolution",
+            "Computational Biology",
+            "Bioinformatics",
+            "Population Genetics"
+          ],
+          "summary": "Associate Professor. Research on genome structure, function, and evolution using computational and statistical methods. Leads the Bergman Lab focusing on transposable element biology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://bergmanlab.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "liming-cai",
+          "name": "Liming Cai",
+          "title": "Professor of Computer Science",
+          "sub_field": "Computational Biology",
+          "tags": [
+            "Algorithms",
+            "Computational Biology",
+            "Bioinformatics",
+            "Probabilistic Graphical Models",
+            "Combinatorial Optimization"
+          ],
+          "summary": "Professor of Computer Science with research bridging algorithms, computational complexity, and bioinformatics. Applications in probabilistic graphical models for biological data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.uga.edu/team_member/liming-cai/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tianming-liu",
+          "name": "Tianming Liu",
+          "title": "Distinguished Research Professor of Computer Science",
+          "sub_field": "Neuroimaging and Brain Informatics",
+          "tags": [
+            "Brain Imaging",
+            "Computational Neuroscience",
+            "Neuroimaging",
+            "Bioinformatics",
+            "Biomedical Image Analysis"
+          ],
+          "summary": "Distinguished Research Professor. Research in brain imaging, computational neuroscience, neuroinformatics, and biomedical image analysis. AIMBE Fellow. NIH and NSF CAREER awardee.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "shannon-quinn",
+          "name": "Shannon Quinn",
+          "title": "Associate Professor of Computer Science",
+          "sub_field": "Biomedical Imaging and Machine Learning",
+          "tags": [
+            "Biomedical Imaging",
+            "Machine Learning",
+            "Biosurveillance",
+            "Bioinformatics",
+            "Public Health"
+          ],
+          "summary": "Associate Professor with NSF CAREER award. Research in machine learning for biomedical imaging, ciliary motion analysis (published in Science Translational Medicine), and graph methods for neuroimaging.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-a-miller",
+          "name": "John A. Miller",
+          "title": "Professor of Computer Science",
+          "sub_field": "Bioinformatics Data Systems",
+          "tags": [
+            "Modeling",
+            "Simulation",
+            "Data Science",
+            "Bioinformatics",
+            "Genome Research"
+          ],
+          "summary": "Professor. Research includes bioinformatics applications in modeling and simulation, database systems, and genome research. Over 233 publications and 14,000+ citations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.uga.edu/directory/faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "khaled-rasheed",
+          "name": "Khaled Rasheed",
+          "title": "Professor of Computer Science",
+          "sub_field": "AI for Bioinformatics",
+          "tags": [
+            "Machine Learning",
+            "Evolutionary Computation",
+            "Bioinformatics",
+            "Kinase Prediction",
+            "Cancer Research"
+          ],
+          "summary": "Professor. Applies machine learning and evolutionary computation to bioinformatics, including kinase conformation classification and cancer research applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://khaledmrasheed.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "krzysztof-kochut",
+          "name": "Krzysztof Kochut",
+          "title": "Professor of Computer Science",
+          "sub_field": "Bioinformatics and Knowledge Graphs",
+          "tags": [
+            "Knowledge Graphs",
+            "Ontologies",
+            "Bioinformatics",
+            "Glycomics",
+            "Semantic Web"
+          ],
+          "summary": "Professor. Research includes bioinformatics applications, particularly glycomics data integration using knowledge graph and semantic web technologies. Co-founder of LSDIS Lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.uga.edu/team_member/krzysztof-j-kochut/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xiangyu-deng",
+          "name": "Xiangyu Deng",
+          "title": "Associate Professor, Center for Food Safety",
+          "sub_field": "Food Safety Bioinformatics",
+          "tags": [
+            "Food Safety",
+            "Bioinformatics",
+            "Genomics",
+            "Pathogen Detection",
+            "Salmonella"
+          ],
+          "summary": "Associate Professor affiliated with the Institute of Bioinformatics. Developed SeqSero for Salmonella serotyping from whole genome sequences. Research in food safety informatics and outbreak detection.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bioinformatics.uga.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "hanwen-huang",
+          "name": "Hanwen Huang",
+          "title": "Assistant Professor of Epidemiology and Biostatistics",
+          "sub_field": "Statistical Bioinformatics",
+          "tags": [
+            "Statistical Machine Learning",
+            "Biostatistics",
+            "Bioinformatics",
+            "Statistical Genetics",
+            "High-Dimensional Data"
+          ],
+          "summary": "Assistant Professor. Research in statistical machine learning, biostatistics, bioinformatics, and high-dimensional data analysis for genetic and genomic applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bioinformatics.uga.edu/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "university-of-illinois-urbana-champaign-informatics-phd",

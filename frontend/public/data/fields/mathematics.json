@@ -2345,8 +2345,440 @@
       "links": {
         "program": "http://www.astro.caltech.edu/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #11",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "james-j-jamie-bock",
+          "name": "James J. (Jamie) Bock",
+          "title": "Marvin L. Goldberger Professor of Physics; JPL Senior Research Scientist",
+          "sub_field": "Observational Cosmology",
+          "tags": [
+            "CMB",
+            "B-mode polarization",
+            "inflation",
+            "BICEP",
+            "SPIDER",
+            "submillimeter instrumentation"
+          ],
+          "summary": "Experimental cosmology focusing on CMB polarization measurements to detect inflationary gravitational waves. Leads BICEP/Keck Array and SPIDER experiments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/james-j-jamie-bock",
+            "scholar": null
+          }
+        },
+        {
+          "id": "katherine-l-katie-bouman",
+          "name": "Katherine L. (Katie) Bouman",
+          "title": "Professor of Computing and Mathematical Sciences, Electrical Engineering and Astronomy; Rosenberg Scholar",
+          "sub_field": "Computational Astrophysics",
+          "tags": [
+            "computational imaging",
+            "black holes",
+            "Event Horizon Telescope",
+            "computer vision"
+          ],
+          "summary": "Computational imaging for astronomy. Led imaging of the M87 black hole shadow with the Event Horizon Telescope. Machine learning and computer vision for astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/katherine-l-katie-bouman",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yanbei-chen",
+          "name": "Yanbei Chen",
+          "title": "Professor of Physics",
+          "sub_field": "Gravitational-Wave Astrophysics",
+          "tags": [
+            "LIGO",
+            "black holes",
+            "quantum measurement",
+            "gravitational-wave astronomy"
+          ],
+          "summary": "Theoretical gravitational-wave physics and astrophysics. Black hole spectroscopy, tests of general relativity, and quantum noise in gravitational-wave detectors.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/yanbei-chen",
+            "scholar": null
+          }
+        },
+        {
+          "id": "katherine-r-de-kleer",
+          "name": "Katherine R. de Kleer",
+          "title": "Professor of Planetary Science and Astronomy; Hufstedler Family Scholar",
+          "sub_field": "Planetary Science",
+          "tags": [
+            "solar system",
+            "planetary surfaces",
+            "Io",
+            "volcanism",
+            "planetary atmospheres"
+          ],
+          "summary": "Planetary science with focus on solar system bodies. Io's volcanic activity, planetary surface composition, and planetary atmospheres.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/katherine-r-de-kleer",
+            "scholar": null
+          }
+        },
+        {
+          "id": "s-george-djorgovski",
+          "name": "S. George Djorgovski",
+          "title": "Professor of Astronomy and Data Science; Director, Center for Data Driven Discovery",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "globular clusters",
+            "galaxy evolution",
+            "gamma-ray bursts",
+            "dark energy",
+            "astroinformatics",
+            "AI/ML"
+          ],
+          "summary": "Computational astrophysics and data science. Globular clusters, galaxy evolution, gamma-ray bursts, and the application of AI/ML to astronomical discovery.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/s-george-djorgovski",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kareem-j-el-badry",
+          "name": "Kareem J. El-Badry",
+          "title": "Assistant Professor of Astronomy",
+          "sub_field": "Stellar Astrophysics",
+          "tags": [
+            "binary stars",
+            "stellar evolution",
+            "black holes",
+            "neutron stars",
+            "Gaia"
+          ],
+          "summary": "Stellar astrophysics. Binary star populations and evolution, dormant black holes and neutron stars revealed through Gaia astrometry.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/kareem-j-el-badry",
+            "scholar": null
+          }
+        },
+        {
+          "id": "james-jim-fuller",
+          "name": "James (Jim) Fuller",
+          "title": "Professor of Theoretical Astrophysics",
+          "sub_field": "Theoretical Astrophysics",
+          "tags": [
+            "stellar physics",
+            "asteroseismology",
+            "stellar evolution",
+            "compact objects",
+            "tidal interactions"
+          ],
+          "summary": "Theoretical astrophysics of stars. Asteroseismology, stellar interiors, tidal interactions in binary systems, and compact object formation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/james-jim-fuller",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sunil-golwala",
+          "name": "Sunil Golwala",
+          "title": "Professor of Physics; Deputy Executive Officer for Astrophysics",
+          "sub_field": "Observational Cosmology",
+          "tags": [
+            "dark matter",
+            "CMB",
+            "superconducting detectors",
+            "submillimeter astronomy"
+          ],
+          "summary": "Experimental cosmology and astrophysics. Direct dark matter searches, CMB measurements, and superconducting detector development for submillimeter astronomy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/sunil-golwala",
+            "scholar": null
+          }
+        },
+        {
+          "id": "gregg-w-hallinan",
+          "name": "Gregg W. Hallinan",
+          "title": "Professor of Astronomy; Director, Owens Valley Radio Observatory",
+          "sub_field": "Radio Astronomy",
+          "tags": [
+            "radio astronomy",
+            "exoplanets",
+            "time-domain",
+            "magnetic fields",
+            "OVRO"
+          ],
+          "summary": "Radio astronomy and time-domain astrophysics. Exoplanet magnetospheres, stellar flares, and radio transients. Director of Owens Valley Radio Observatory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/gregg-w-hallinan",
+            "scholar": null
+          }
+        },
+        {
+          "id": "fiona-a-harrison",
+          "name": "Fiona A. Harrison",
+          "title": "Harold A. Rosen Professor of Physics",
+          "sub_field": "High-Energy Astrophysics",
+          "tags": [
+            "X-ray astronomy",
+            "NuSTAR",
+            "black holes",
+            "neutron stars",
+            "multimessenger astronomy"
+          ],
+          "summary": "High-energy astrophysics. PI of NuSTAR, the first focusing hard X-ray telescope in space. Studies of black holes, neutron stars, and multimessenger astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/fiona-a-harrison",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lynne-hillenbrand",
+          "name": "Lynne Hillenbrand",
+          "title": "Professor of Astronomy",
+          "sub_field": "Stellar Astrophysics",
+          "tags": [
+            "star formation",
+            "young stellar objects",
+            "stellar populations",
+            "protostars",
+            "disks"
+          ],
+          "summary": "Observational studies of star formation and young stellar objects. Properties of protostars, circumstellar disks, and stellar populations in star-forming regions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/lynne-hillenbrand",
+            "scholar": null
+          }
+        },
+        {
+          "id": "philip-f-hopkins",
+          "name": "Philip F. Hopkins",
+          "title": "Ira S. Bowen Professor of Theoretical Astrophysics",
+          "sub_field": "Theoretical Astrophysics",
+          "tags": [
+            "galaxy formation",
+            "cosmological simulations",
+            "ISM",
+            "star formation",
+            "black holes"
+          ],
+          "summary": "Theoretical astrophysics of galaxy formation and evolution. Large-scale cosmological simulations (FIRE), interstellar medium physics, and black hole-galaxy co-evolution.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/philip-f-hopkins",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrew-w-howard",
+          "name": "Andrew W. Howard",
+          "title": "Professor of Astronomy; Executive Officer for Astronomy",
+          "sub_field": "Exoplanets",
+          "tags": [
+            "exoplanets",
+            "radial velocity",
+            "planet occurrence",
+            "super-Earths",
+            "Keck"
+          ],
+          "summary": "Exoplanet detection and characterization. Radial velocity surveys for exoplanets around nearby stars. Planet population statistics and super-Earth compositions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/andrew-w-howard",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mansi-m-kasliwal",
+          "name": "Mansi M. Kasliwal",
+          "title": "Professor of Astronomy; Director, Palomar Observatory",
+          "sub_field": "Time-Domain Astrophysics",
+          "tags": [
+            "transients",
+            "supernovae",
+            "gravitational wave counterparts",
+            "ZTF",
+            "infrared astronomy"
+          ],
+          "summary": "Time-domain astrophysics. Optical and infrared transients, gravitational wave electromagnetic counterparts, Zwicky Transient Facility (ZTF). Director of Palomar Observatory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/mansi-m-kasliwal",
+            "scholar": null
+          }
+        },
+        {
+          "id": "shrinivas-r-shri-kulkarni",
+          "name": "Shrinivas R. (Shri) Kulkarni",
+          "title": "George Ellery Hale Professor of Astronomy and Planetary Science",
+          "sub_field": "Time-Domain Astrophysics",
+          "tags": [
+            "optical transients",
+            "gamma-ray bursts",
+            "neutron stars",
+            "ZTF",
+            "Palomar"
+          ],
+          "summary": "Pioneer of time-domain astronomy. Gamma-ray bursts, optical transients, neutron stars, and fast radio bursts. Led the Palomar Transient Factory and ZTF.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/shrinivas-r-shri-kulkarni",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christopher-martin",
+          "name": "Christopher Martin",
+          "title": "Edward C. Stone Professor of Physics; Director, Caltech Optical Observatories",
+          "sub_field": "Observational Astrophysics",
+          "tags": [
+            "UV/optical astronomy",
+            "instrumentation",
+            "galaxy evolution",
+            "intergalactic medium"
+          ],
+          "summary": "UV/optical astronomy and instrumentation. Galaxy evolution, the circumgalactic and intergalactic medium. Director of Caltech Optical Observatories.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/christopher-martin",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dimitri-mawet",
+          "name": "Dimitri Mawet",
+          "title": "David Morrisroe Professor of Astronomy; JPL Senior Research Scientist",
+          "sub_field": "Exoplanets",
+          "tags": [
+            "exoplanet direct imaging",
+            "high-contrast imaging",
+            "coronagraphy",
+            "JWST",
+            "Keck"
+          ],
+          "summary": "Exoplanet direct imaging and high-contrast instrumentation. Coronagraphy, adaptive optics, and characterization of exoplanet atmospheres with Keck and JWST.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/dimitri-mawet",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elias-r-most",
+          "name": "Elias R. Most",
+          "title": "Assistant Professor of Theoretical Astrophysics",
+          "sub_field": "Theoretical Astrophysics",
+          "tags": [
+            "compact objects",
+            "neutron star mergers",
+            "gravitational waves",
+            "relativistic astrophysics"
+          ],
+          "summary": "Theoretical astrophysics of compact objects. Neutron star mergers as multimessenger sources, general-relativistic magnetohydrodynamics, and equation of state of dense matter.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/elias-r-most",
+            "scholar": null
+          }
+        },
+        {
+          "id": "e-sterl-phinney",
+          "name": "E. Sterl Phinney",
+          "title": "Professor of Theoretical Astrophysics",
+          "sub_field": "Theoretical Astrophysics",
+          "tags": [
+            "neutron stars",
+            "black holes",
+            "gravitational waves",
+            "stellar dynamics",
+            "accretion"
+          ],
+          "summary": "Theoretical astrophysics of compact objects. Neutron stars, black holes, gravitational-wave sources, and accretion physics. Founding theorist of LISA gravitational-wave science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/e-sterl-phinney",
+            "scholar": null
+          }
+        },
+        {
+          "id": "vikram-ravi",
+          "name": "Vikram Ravi",
+          "title": "Professor of Astronomy",
+          "sub_field": "Radio Astrophysics",
+          "tags": [
+            "fast radio bursts",
+            "radio transients",
+            "FRB localization",
+            "OVRO",
+            "DSA-110"
+          ],
+          "summary": "Fast radio bursts (FRBs) and radio transient astronomy. Localization and host galaxy studies of FRBs as cosmological probes. Leads DSA-110 FRB survey.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/vikram-ravi",
+            "scholar": null
+          }
+        },
+        {
+          "id": "charles-chuck-steidel",
+          "name": "Charles (Chuck) Steidel",
+          "title": "Lee A. DuBridge Professor of Astronomy",
+          "sub_field": "Observational Cosmology",
+          "tags": [
+            "galaxy formation",
+            "high-redshift universe",
+            "intergalactic medium",
+            "spectroscopy"
+          ],
+          "summary": "Observational cosmology of galaxy formation. Pioneered the Lyman-break technique for finding high-redshift galaxies. Keck Cosmic Web Imager science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/charles-chuck-steidel",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alan-j-weinstein",
+          "name": "Alan J. Weinstein",
+          "title": "Professor of Physics",
+          "sub_field": "Gravitational-Wave Astrophysics",
+          "tags": [
+            "LIGO",
+            "gravitational waves",
+            "multimessenger astronomy",
+            "data analysis"
+          ],
+          "summary": "Experimental gravitational-wave physics. LIGO data analysis, detection of compact binary mergers, and multimessenger follow-up of gravitational-wave events.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/alan-j-weinstein",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jonas-zmuidzinas",
+          "name": "Jonas Zmuidzinas",
+          "title": "Merle Kingsley Professor of Physics",
+          "sub_field": "Astrophysical Instrumentation",
+          "tags": [
+            "submillimeter/Terahertz detectors",
+            "superconducting detectors",
+            "MKIDs",
+            "instrumentation"
+          ],
+          "summary": "Development of superconducting detectors and instrumentation for submillimeter/Terahertz astronomy. Microwave Kinetic Inductance Detectors (MKIDs) for astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pma.caltech.edu/people/jonas-zmuidzinas",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "california-institute-of-technology-computer-science",
@@ -2800,8 +3232,484 @@
       "links": {
         "program": "https://www.engineering.columbia.edu/academics/programs/doctoral-programs/applied-physics-phd"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15 · faculty 2026-07-08",
+      "faculty": [
+        {
+          "id": "michal-lipson",
+          "name": "Michal Lipson",
+          "title": "Professor of Electrical Engineering and of Applied Physics",
+          "sub_field": "Photonics / Nanophotonics",
+          "tags": [
+            "silicon photonics",
+            "integrated photonics",
+            "nanophotonics",
+            "optical interconnects",
+            "quantum photonics"
+          ],
+          "summary": "MacArthur Fellow and one of the world's leading researchers in silicon photonics. Pioneered the development of silicon-based photonic devices for optical interconnects, sensing, and quantum information. Highly Cited Researcher.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/michal-lipson",
+            "scholar": null
+          }
+        },
+        {
+          "id": "allen-h-boozer",
+          "name": "Allen H. Boozer",
+          "title": "Professor of Applied Physics",
+          "sub_field": "Plasma Physics / Fusion Energy",
+          "tags": [
+            "magnetic confinement fusion",
+            "stellarators",
+            "tokamaks",
+            "plasma theory",
+            "nonlinear dynamics"
+          ],
+          "summary": "World authority on magnetic confinement fusion and stellarator theory. His work on magnetic field line Hamiltonian dynamics and omnigeneity has been fundamental to the design of optimized stellarator fusion reactors. Member of the National Academy of Sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/allen-boozer",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alexander-l-gaeta",
+          "name": "Alexander L. Gaeta",
+          "title": "Professor of Applied Physics and of Electrical Engineering",
+          "sub_field": "Nonlinear Optics / Photonics",
+          "tags": [
+            "ultrafast optics",
+            "nonlinear optics",
+            "frequency combs",
+            "integrated photonics",
+            "supercontinuum"
+          ],
+          "summary": "Leading researcher in ultrafast and nonlinear optics. Pioneered the generation of optical frequency combs in microresonators and demonstrated record-breaking nonlinear optical effects in photonic crystal fibers and on-chip platforms. Highly Cited Researcher.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/alexander-gaeta",
+            "scholar": null
+          }
+        },
+        {
+          "id": "latha-venkataraman",
+          "name": "Latha Venkataraman",
+          "title": "Professor of Applied Physics and of Chemistry",
+          "sub_field": "Molecular Electronics / Nanoscience",
+          "tags": [
+            "single-molecule transport",
+            "molecular junctions",
+            "electron transport",
+            "thermoelectrics",
+            "molecular devices"
+          ],
+          "summary": "Pioneer in single-molecule electronics. Developed the scanning tunneling microscope break-junction technique to measure electron transport through individual molecules. Her work established fundamental understanding of charge transport at the single-molecule scale.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/latha-venkataraman",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-i-weinstein",
+          "name": "Michael I. Weinstein",
+          "title": "Professor of Applied Mathematics",
+          "sub_field": "Applied Mathematics / Mathematical Physics",
+          "tags": [
+            "PDEs",
+            "wave propagation",
+            "nonlinear dynamics",
+            "photonic crystals",
+            "solitons"
+          ],
+          "summary": "Distinguished applied mathematician known for rigorous analysis of nonlinear waves in periodic and inhomogeneous media. Contributions to understanding of defect modes in photonic crystals, soliton dynamics, and topological edge states. Fellow of the AMS and SIAM.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/michael-weinstein",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lorenzo-m-polvani",
+          "name": "Lorenzo M. Polvani",
+          "title": "Professor of Applied Mathematics and of Earth and Environmental Sciences",
+          "sub_field": "Atmospheric and Climate Dynamics",
+          "tags": [
+            "climate dynamics",
+            "atmospheric physics",
+            "geophysical fluid dynamics",
+            "ozone depletion",
+            "climate modeling"
+          ],
+          "summary": "Leading climate scientist studying atmospheric dynamics and climate change. Research on the atmospheric response to ozone depletion and greenhouse gases, stratosphere-troposphere coupling, and Arctic amplification. Fellow of the American Geophysical Union.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/lorenzo-polvani",
+            "scholar": null
+          }
+        },
+        {
+          "id": "qiang-du",
+          "name": "Qiang Du",
+          "title": "Professor of Applied Mathematics",
+          "sub_field": "Applied Mathematics / Scientific Computing",
+          "tags": [
+            "numerical analysis",
+            "nonlocal models",
+            "phase field methods",
+            "finite elements",
+            "uncertainty quantification"
+          ],
+          "summary": "Leading applied mathematician working on numerical methods for partial differential equations, nonlocal and fractional models, and phase field approaches. Major contributions to finite element methods and scientific computing. Fellow of SIAM, AMS, and AAAS.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/qiang-du",
+            "scholar": null
+          }
+        },
+        {
+          "id": "oleg-gang",
+          "name": "Oleg Gang",
+          "title": "Professor of Applied Physics and of Chemical Engineering",
+          "sub_field": "Soft Matter Physics / Nanomaterials",
+          "tags": [
+            "DNA nanotechnology",
+            "self-assembly",
+            "nanoparticles",
+            "programmable materials",
+            "X-ray scattering"
+          ],
+          "summary": "Leader in DNA-directed self-assembly of nanoscale systems. Uses DNA as a programmable linker to create complex 3D nanoparticle architectures with applications in photonics, catalysis, and drug delivery. Director of the Center for Programmable Assembly at Columbia.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/oleg-gang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "liliana-borcea",
+          "name": "Liliana Borcea",
+          "title": "George P. Livanos Professor of Applied Mathematics",
+          "sub_field": "Applied Mathematics / Inverse Problems",
+          "tags": [
+            "wave propagation",
+            "inverse scattering",
+            "random media",
+            "imaging",
+            "seismic exploration"
+          ],
+          "summary": "Expert in wave propagation in random and complex media. Develops mathematical theory and computational methods for inverse scattering and imaging, with applications to seismic exploration, medical imaging, and radar. Fellow of SIAM.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/liliana-borcea",
+            "scholar": null
+          }
+        },
+        {
+          "id": "renata-wentzcovitch",
+          "name": "Renata Wentzcovitch",
+          "title": "Professor of Applied Physics and of Earth and Environmental Sciences",
+          "sub_field": "Computational Materials Physics",
+          "tags": [
+            "first-principles calculations",
+            "high pressure physics",
+            "Earth's interior",
+            "mineral physics",
+            "density functional theory"
+          ],
+          "summary": "Leading computational physicist modeling materials at extreme conditions. Pioneered computational mineral physics, providing first-principles predictions of mineral properties in Earth's deep interior. Fellow of the American Geophysical Union and Mineralogical Society of America.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/renata-wentzcovitch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "gerald-a-navratil",
+          "name": "Gerald A. Navratil",
+          "title": "Professor of Applied Physics",
+          "sub_field": "Plasma Physics / Fusion Energy",
+          "tags": [
+            "plasma diagnostics",
+            "tokamak physics",
+            "magnetic fusion",
+            "MHD",
+            "fusion technology"
+          ],
+          "summary": "Experimental plasma physicist with decades of contributions to fusion energy science. Research on magnetohydrodynamic instabilities, plasma control, and diagnostics in tokamaks. Former Dean and long-time leader in the fusion community.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/gerald-navratil",
+            "scholar": null
+          }
+        },
+        {
+          "id": "adam-h-sobel",
+          "name": "Adam H. Sobel",
+          "title": "Professor of Applied Mathematics and of Earth and Environmental Sciences",
+          "sub_field": "Atmospheric Physics / Climate Science",
+          "tags": [
+            "tropical meteorology",
+            "atmospheric dynamics",
+            "climate extremes",
+            "tropical cyclones",
+            "monsoons"
+          ],
+          "summary": "Leading atmospheric scientist studying tropical meteorology and climate. Research on the dynamics of tropical cyclones, monsoons, and extreme weather events in a changing climate. Frequent public communicator on climate science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/adam-sobel",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nanfang-yu",
+          "name": "Nanfang Yu",
+          "title": "Associate Professor of Applied Physics",
+          "sub_field": "Nanophotonics / Optics",
+          "tags": [
+            "metasurfaces",
+            "mid-infrared optics",
+            "quantum cascade lasers",
+            "wavefront shaping",
+            "flat optics"
+          ],
+          "summary": "Rising star in nanophotonics. Known for pioneering metasurface-based flat optics, particularly in the mid-infrared. His group develops ultrathin optical elements that manipulate light with unprecedented control using subwavelength antenna arrays.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/nanfang-yu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "carlos-paz-soldan",
+          "name": "Carlos Paz-Soldan",
+          "title": "Associate Professor of Applied Physics",
+          "sub_field": "Plasma Physics / Fusion Energy",
+          "tags": [
+            "tokamak physics",
+            "runaway electrons",
+            "disruption mitigation",
+            "DIII-D",
+            "magnetic confinement"
+          ],
+          "summary": "Experimental plasma physicist specializing in tokamak stability and disruption mitigation. Key contributor to the DIII-D and other tokamak programs, with focus on understanding and controlling runaway electron beams and disruption avoidance.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/carlos-paz-soldan",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chris-a-marianetti",
+          "name": "Chris A. Marianetti",
+          "title": "Professor of Applied Physics and of Applied Mathematics",
+          "sub_field": "Computational Condensed Matter Physics",
+          "tags": [
+            "first-principles calculations",
+            "correlated materials",
+            "density functional theory",
+            "DMFT",
+            "lattice dynamics"
+          ],
+          "summary": "Computational materials scientist developing and applying first-principles methods to correlated electron systems. Combines density functional theory with dynamical mean-field theory to predict properties of transition metal oxides, quantum materials, and energy materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/chris-marianetti",
+            "scholar": null
+          }
+        },
+        {
+          "id": "simon-j-l-billinge",
+          "name": "Simon J. L. Billinge",
+          "title": "Professor of Applied Physics and of Materials Science and Engineering",
+          "sub_field": "Materials Science / Nanostructured Materials",
+          "tags": [
+            "PDF analysis",
+            "total scattering",
+            "nanomaterials",
+            "X-ray diffraction",
+            "pair distribution function"
+          ],
+          "summary": "Pioneer of the atomic pair distribution function (PDF) method for determining the local structure of nanostructured and disordered materials. His techniques are widely used at synchrotron and neutron facilities worldwide.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/simon-billinge",
+            "scholar": null
+          }
+        },
+        {
+          "id": "marc-w-spiegelman",
+          "name": "Marc W. Spiegelman",
+          "title": "Professor of Applied Mathematics; Department Chair",
+          "sub_field": "Applied Mathematics / Geophysics",
+          "tags": [
+            "magma dynamics",
+            "computational geophysics",
+            "multi-phase flow",
+            "numerical methods",
+            "subduction zones"
+          ],
+          "summary": "Current Department Chair. Expert in computational geophysics focusing on magma migration, fluid-solid interaction in Earth's interior, and multi-phase flow. Develops advanced numerical methods for geophysical fluid dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/marc-spiegelman",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kui-ren",
+          "name": "Kui Ren",
+          "title": "Professor of Applied Mathematics",
+          "sub_field": "Applied Mathematics / Inverse Problems",
+          "tags": [
+            "uncertainty quantification",
+            "inverse problems",
+            "PDEs",
+            "computational mathematics",
+            "medical imaging"
+          ],
+          "summary": "Applied mathematician developing theory and computational methods for inverse problems and uncertainty quantification. Applications span medical imaging, geophysics, and material characterization. Major awards for contributions to computational mathematics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/kui-ren",
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-bienstock",
+          "name": "Daniel Bienstock",
+          "title": "Professor of Applied Mathematics and of Industrial Engineering and Operations Research",
+          "sub_field": "Optimization / Applied Mathematics",
+          "tags": [
+            "optimization algorithms",
+            "power grid security",
+            "network flows",
+            "mixed-integer programming",
+            "robust optimization"
+          ],
+          "summary": "Leading optimization researcher working on algorithms for preventing national-scale blackouts in power grids. His work on robust optimization and network flows has had significant practical impact on critical infrastructure security.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/daniel-bienstock",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chris-h-wiggins",
+          "name": "Chris H. Wiggins",
+          "title": "Professor of Applied Mathematics",
+          "sub_field": "Machine Learning / Data Science",
+          "tags": [
+            "machine learning",
+            "computational biology",
+            "network science",
+            "Bayesian inference",
+            "data ethics"
+          ],
+          "summary": "Data scientist and applied mathematician working at the interface of machine learning and biology. Research spans Bayesian inference, network analysis in computational biology, and data ethics. Former Chief Data Scientist of The New York Times.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/chris-wiggins",
+            "scholar": null
+          }
+        },
+        {
+          "id": "irving-p-herman",
+          "name": "Irving P. Herman",
+          "title": "Professor of Applied Physics",
+          "sub_field": "Optical Spectroscopy / Nanomaterials",
+          "tags": [
+            "nanocrystals",
+            "optical spectroscopy",
+            "laser diagnostics",
+            "thin films",
+            "nanostructured materials"
+          ],
+          "summary": "Experimental physicist studying optical properties of nanocrystals and nanostructured materials. Research includes nanoparticle assembly, laser diagnostics for thin films, and nanomaterial photophysics. Author of widely used textbook on optical diagnostics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/irving-herman",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elizabeth-paul",
+          "name": "Elizabeth Paul",
+          "title": "Assistant Professor of Applied Physics",
+          "sub_field": "Plasma Physics / Fusion Energy",
+          "tags": [
+            "stellarator optimization",
+            "magnetic confinement",
+            "fusion theory",
+            "plasma equilibrium",
+            "computational physics"
+          ],
+          "summary": "Rising star in fusion energy theory. Develops computational methods for optimizing stellarator magnetic configurations. Her work bridges plasma equilibrium theory and machine learning to design next-generation fusion reactors.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/elizabeth-paul",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xueyue-sherry-zhang",
+          "name": "Xueyue (Sherry) Zhang",
+          "title": "Assistant Professor of Applied Physics",
+          "sub_field": "Quantum Devices / Photonics",
+          "tags": [
+            "superconducting qubits",
+            "quantum information",
+            "integrated photonics",
+            "quantum transduction",
+            "nanophotonics"
+          ],
+          "summary": "Early-career researcher bridging superconducting quantum circuits and integrated photonics. Develops quantum interconnects and transducers for linking microwave quantum processors with optical quantum networks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/xueyue-zhang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yuan-yang",
+          "name": "Yuan Yang",
+          "title": "Associate Professor of Applied Physics and of Materials Science and Engineering",
+          "sub_field": "Energy Materials / Nanostructured Materials",
+          "tags": [
+            "battery materials",
+            "thermal management",
+            "energy storage",
+            "intercalation",
+            "electrochemical devices"
+          ],
+          "summary": "Materials scientist developing nanostructured materials for electrochemical energy storage and thermal management. Research on next-generation batteries, electrochromic devices, and thermal interface materials. Sloan Fellow.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/yuan-yang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michele-simoncelli",
+          "name": "Michele Simoncelli",
+          "title": "Assistant Professor of Applied Physics",
+          "sub_field": "Condensed Matter Theory / Quantum Transport",
+          "tags": [
+            "quantum transport",
+            "thermal transport",
+            "Wigner formulation",
+            "electron-phonon coupling",
+            "neuromorphic computing"
+          ],
+          "summary": "Early-career theorist developing quantum mechanical theories of charge and heat transport in materials. Known for the Wigner formulation of transport with wide applications from thermoelectrics to neuromorphic computing materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.apam.columbia.edu/people/michele-simoncelli",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "columbia-university-materials-science-and-engineering-phd",
