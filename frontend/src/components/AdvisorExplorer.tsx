@@ -156,17 +156,25 @@ export function AdvisorExplorer({
       .map(([tag]) => tag)
   }, [allHits])
 
-  const terms = query.toLowerCase().split(/\s+/).filter(Boolean)
-  const hits = allHits
-    .filter((h) => matchesQuery(h, terms))
-    .sort(
-      (a, b) =>
-        (STATUS_RANK[a.faculty.recruitment_status] ?? 1) -
-          (STATUS_RANK[b.faculty.recruitment_status] ?? 1) ||
-        a.program.university.localeCompare(b.program.university) ||
-        a.faculty.name.localeCompare(b.faculty.name),
-    )
+  const terms = useMemo(() => query.toLowerCase().split(/\s+/).filter(Boolean), [query])
+  const hits = useMemo(
+    () =>
+      allHits
+        .filter((h) => matchesQuery(h, terms))
+        .sort(
+          (a, b) =>
+            (STATUS_RANK[a.faculty.recruitment_status] ?? 1) -
+              (STATUS_RANK[b.faculty.recruitment_status] ?? 1) ||
+            a.program.university.localeCompare(b.program.university) ||
+            a.faculty.name.localeCompare(b.faculty.name),
+        ),
+    [allHits, terms],
+  )
 
+  // Rendering thousands of cards in a CSS multi-column layout freezes the page,
+  // so only mount the first RENDER_CAP; the count line reports the true total.
+  const RENDER_CAP = 120
+  const visible = hits.slice(0, RENDER_CAP)
   const schools = new Set(hits.map((h) => h.program.id))
 
   return (
@@ -204,6 +212,12 @@ export function AdvisorExplorer({
           <p className="mt-2 text-[11px] font-medium text-slate-500">
             {hits.length} advisor{hits.length === 1 ? '' : 's'} across {schools.size} program
             {schools.size === 1 ? '' : 's'}
+            {hits.length > RENDER_CAP && (
+              <span className="text-slate-400">
+                {' '}
+                · showing first {RENDER_CAP} — type to narrow the search
+              </span>
+            )}
           </p>
         </header>
 
@@ -213,7 +227,7 @@ export function AdvisorExplorer({
           </p>
         ) : (
           <div className="gap-3 lg:columns-2 2xl:columns-3">
-            {hits.map((h) => {
+            {visible.map((h) => {
               const key = advisorKey(h.program.id, h.faculty.id)
               return (
                 <AdvisorCard
