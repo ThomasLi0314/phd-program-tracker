@@ -29879,8 +29879,232 @@
       "links": {
         "program": "https://lsa.umich.edu/biophysics"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #20",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #20 · faculty 2026-07-09",
+      "faculty": [
+        {
+          "id": "sarah-veatch",
+          "name": "Sarah Veatch",
+          "title": "Director of Biophysics; Daniel Axelrod Collegiate Professor of Biophysics and Physics",
+          "sub_field": "Membrane Biophysics",
+          "tags": [
+            "membrane biophysics",
+            "lipid rafts",
+            "phase separation",
+            "fluorescence microscopy",
+            "super-resolution imaging"
+          ],
+          "summary": "Studies the organization of cell membranes, using fluorescence and super-resolution imaging to understand how lipid-mediated phase separation and membrane heterogeneity (lipid rafts) contribute to cellular function.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://lsa.umich.edu/biophysics/people/core-faculty/sarah-veatch.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "charles-l-brooks-iii",
+          "name": "Charles L. Brooks III",
+          "title": "Cyrus Levinthal Distinguished University Professor of Chemistry and Biophysics; Warner-Lambert/Parke-Davis Professor of Chemistry",
+          "sub_field": "Computational Biophysics",
+          "tags": [
+            "molecular dynamics",
+            "protein folding",
+            "CHARMM",
+            "constant-pH methods",
+            "computational drug discovery"
+          ],
+          "summary": "Develops and applies computational and theoretical methods, including molecular dynamics and the CHARMM software, to study protein folding, conformational dynamics, and biomolecular recognition relevant to drug discovery.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jens-christian-meiners",
+          "name": "Jens-Christian Meiners",
+          "title": "Professor of Physics and Biophysics",
+          "sub_field": "Single-Molecule Biophysics",
+          "tags": [
+            "single-molecule",
+            "optical tweezers",
+            "DNA mechanics",
+            "DNA topology",
+            "DNA-protein complexes"
+          ],
+          "summary": "Investigates the dynamics of single DNA molecules and DNA-protein complexes using optical single-molecule techniques such as laser trapping, focusing on how DNA topology and mechanics affect molecular function.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://lsa.umich.edu/biophysics/people/core-faculty/jens-christian-meiners.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "qiong-yang",
+          "name": "Qiong Yang",
+          "title": "Associate Professor of Biophysics and Physics",
+          "sub_field": "Systems Biophysics/Nonlinear Dynamics",
+          "tags": [
+            "cell cycle oscillations",
+            "microfluidics",
+            "single-cell imaging",
+            "nonlinear dynamics",
+            "developmental clocks"
+          ],
+          "summary": "Combines microfluidics, single-cell imaging, and nonlinear dynamics theory to study self-organizing biological oscillators such as the cell cycle and developmental segmentation clock in early embryos.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://lsa.umich.edu/biophysics/people/core-faculty/qiong-yang.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jordan-horowitz",
+          "name": "Jordan Horowitz",
+          "title": "Associate Professor of Biophysics and Complex Systems",
+          "sub_field": "Nonequilibrium Statistical Physics",
+          "tags": [
+            "stochastic thermodynamics",
+            "nonequilibrium thermodynamics",
+            "thermodynamic uncertainty relations",
+            "information theory"
+          ],
+          "summary": "Develops theory of nonequilibrium and stochastic thermodynamics, including thermodynamic uncertainty relations, to understand the energetic costs and tradeoffs of information processing in biological and physical systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.lsa.umich.edu/horowitz-lab/",
+            "scholar": "https://scholar.google.com/citations?user=CnGHjKwAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "michal-zochowski",
+          "name": "Michal Zochowski",
+          "title": "Professor of Physics and Biophysics",
+          "sub_field": "Computational Neuroscience",
+          "tags": [
+            "computational neuroscience",
+            "neural network dynamics",
+            "collective dynamics",
+            "theoretical biophysics"
+          ],
+          "summary": "Uses theoretical and computational physics to study the dynamics of neural networks and how collective patterns of activity emerge in the brain.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "james-e-penner-hahn",
+          "name": "James E. Penner-Hahn",
+          "title": "George A. Lindsay Collegiate Professor of Chemistry and Biophysics; Associate Director of Undergraduate Studies",
+          "sub_field": "Bioinorganic Spectroscopy",
+          "tags": [
+            "X-ray absorption spectroscopy",
+            "metalloproteins",
+            "bioinorganic chemistry",
+            "metal active sites"
+          ],
+          "summary": "Uses X-ray absorption spectroscopy and related methods to determine the structure of metal sites in metalloproteins and to understand how metal centers govern biological function.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "sarah-keane",
+          "name": "Sarah Keane",
+          "title": "Assistant Professor of Biophysics and Chemistry; Associate Director of Graduate Studies",
+          "sub_field": "RNA Structural Biophysics",
+          "tags": [
+            "NMR spectroscopy",
+            "non-coding RNA",
+            "RNA structure",
+            "protein-RNA interactions"
+          ],
+          "summary": "Studies the structure and dynamics of non-coding RNAs and protein-RNA complexes, particularly in microRNA biogenesis, using solution NMR spectroscopy and biophysical methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://lsa.umich.edu/biophysics/people/core-faculty/sarah-keane.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "markos-koutmos",
+          "name": "Markos Koutmos",
+          "title": "Seyhan N. Ege Assistant Professor of Chemistry; Assistant Professor of Biophysics",
+          "sub_field": "Structural Biology/Enzymology",
+          "tags": [
+            "structural biology",
+            "mitochondrial RNA processing",
+            "vitamin B12 metabolism",
+            "methionine synthase",
+            "enzymology"
+          ],
+          "summary": "Examines how biomolecular structure governs mitochondrial RNA processing and vitamin B12 metabolism, including methionine synthase, aiming to develop therapeutics for diseases of dysfunctional biomolecular maturation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://lsa.umich.edu/biophysics/people/core-faculty/markos-koutmos.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "anna-maurer",
+          "name": "Anna Maurer",
+          "title": "Assistant Professor of Biophysics",
+          "sub_field": "Viral Biophysics/Gene Therapy",
+          "tags": [
+            "adeno-associated virus",
+            "viral capsid assembly",
+            "gene therapy",
+            "host-virus interactions"
+          ],
+          "summary": "Investigates adeno-associated viral (AAV) vector biology, studying how host cells regulate AAV-delivered DNA and viral capsid assembly to advance gene therapy applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://lsa.umich.edu/biophysics/people/core-faculty/anna-maurer.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lauren-mccormick",
+          "name": "Lauren McCormick",
+          "title": "Assistant Professor of Biophysics",
+          "sub_field": "Cytoskeletal Biophysics",
+          "tags": [
+            "microtubules",
+            "tubulin code",
+            "cytoskeleton",
+            "biophysical assays",
+            "simulations"
+          ],
+          "summary": "Studies how the microtubule cytoskeleton adapts to the structural and mechanical needs of specialized cells through the tubulin code, combining simulations of microtubule assembly with cell-based work and biophysical assays using recombinant human tubulin.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://lsa.umich.edu/biophysics/people/core-faculty/lauren-mccormick.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jung-shen-benny-tai",
+          "name": "Jung-Shen Benny Tai",
+          "title": "Assistant Professor of Biophysics",
+          "sub_field": "Microbial Biophysics/Soft Matter",
+          "tags": [
+            "bacterial biofilms",
+            "soft matter physics",
+            "microbial communities",
+            "liquid crystals",
+            "single-cell"
+          ],
+          "summary": "Studies bacterial biofilms from the perspectives of microbiology, soft matter physics, and ecology, deciphering how single-cell heterogeneities in shape, organization, and gene expression give rise to the collective function of microbial communities.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://lsa.umich.edu/biophysics/people/core-faculty/jung-shen-benny-tai.html",
+            "scholar": "https://scholar.google.com/citations?user=9o3_-swAAAAJ&hl=en"
+          }
+        }
+      ]
     },
     {
       "id": "university-of-north-carolina-at-chapel-hill-biochemistry-and-biophysics-phd",

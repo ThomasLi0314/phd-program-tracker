@@ -4,7 +4,7 @@
     "generated_at": "2026-07-06",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep",
-    "note": "1377 STEM PhD/MSc programs; faculty rosters on 528 programs (10378 faculty). Unknown/Verify = not yet confirmed on an official page."
+    "note": "1377 STEM PhD/MSc programs; faculty rosters on 529 programs (10390 faculty). Unknown/Verify = not yet confirmed on an official page."
   },
   "total": 1377,
   "fields": [
@@ -768,8 +768,8 @@
       "primary": "Physics",
       "slug": "physics",
       "count": 85,
-      "withFaculty": 84,
-      "facultyCount": 1896,
+      "withFaculty": 85,
+      "facultyCount": 1908,
       "subs": [
         "AMO Physics",
         "Applied Physics",
