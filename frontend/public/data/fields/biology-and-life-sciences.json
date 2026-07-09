@@ -13285,8 +13285,200 @@
       "links": {
         "program": "https://grad.uga.edu/degree/phd-crop-and-soil-sciences/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #46",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46 · faculty 2026-07-09",
+      "faculty": [
+        {
+          "id": "miguel-l-cabrera",
+          "name": "Miguel L. Cabrera",
+          "title": "Professor",
+          "sub_field": "Soil Science, Environmental Remediation",
+          "tags": [
+            "Soil Science",
+            "Environmental Chemistry",
+            "Soil Chemistry",
+            "Nutrient Cycling"
+          ],
+          "summary": "GA Power Professor in Environmental Remediation and Soil Chemistry, studying soil nutrient cycling, nitrogen transformations, and environmental soil chemistry.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "mussie-habteselassie",
+          "name": "Mussie Habteselassie",
+          "title": "Professor",
+          "sub_field": "Soil Microbiology",
+          "tags": [
+            "Soil Microbiology",
+            "Biogeochemistry",
+            "Environmental Microbiology"
+          ],
+          "summary": "Studies soil microbiology with research on microbial processes in soils, nutrient cycling, and the role of soil microorganisms in environmental quality.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "matthew-levi",
+          "name": "Matthew Levi",
+          "title": "Associate Professor",
+          "sub_field": "Soil Pedology, Digital Soil Mapping",
+          "tags": [
+            "Soil Science",
+            "Pedology",
+            "Digital Soil Mapping",
+            "GIS"
+          ],
+          "summary": "Studies soil pedology and digital soil mapping, applying geospatial technologies to characterize soil spatial variability and landscape-soil relationships.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "nandita-gaur",
+          "name": "Nandita Gaur",
+          "title": "Assistant Professor",
+          "sub_field": "Soil Physics",
+          "tags": [
+            "Soil Physics",
+            "Water Flow",
+            "Contaminant Transport"
+          ],
+          "summary": "Studies soil physics with research on water flow and contaminant transport in soils, focusing on physical processes governing soil-water interactions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "douglas-amaral",
+          "name": "Douglas Amaral",
+          "title": "Assistant Professor",
+          "sub_field": "Soil Fertility, Plant Nutrition",
+          "tags": [
+            "Soil Fertility",
+            "Plant Nutrition",
+            "Agronomy"
+          ],
+          "summary": "Studies soil fertility and plant nutrition as an Extension Specialist, focusing on sustainable nutrient management in agricultural systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "george-vellidis",
+          "name": "George Vellidis",
+          "title": "Professor",
+          "sub_field": "Precision Agriculture, Water Resources",
+          "tags": [
+            "Precision Agriculture",
+            "Water Resources",
+            "Environmental Sensors"
+          ],
+          "summary": "University Professor studying precision agriculture and water resources management, with research on sensor-based technologies for agricultural and environmental monitoring.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "leo-m-bastos",
+          "name": "Leo M. Bastos",
+          "title": "Assistant Professor",
+          "sub_field": "Integrative Precision Agriculture",
+          "tags": [
+            "Precision Agriculture",
+            "Data Analytics",
+            "Crop Modeling"
+          ],
+          "summary": "Studies integrative precision agriculture with research on data-driven approaches for optimizing crop production and environmental sustainability.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "lorena-n-lacerda",
+          "name": "Lorena N. Lacerda",
+          "title": "Assistant Professor",
+          "sub_field": "Integrative Precision Agriculture, Remote Sensing",
+          "tags": [
+            "Precision Agriculture",
+            "Remote Sensing",
+            "Crop Monitoring"
+          ],
+          "summary": "Studies integrative precision agriculture with focus on remote sensing applications for crop monitoring, phenotyping, and agricultural management.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "liang-dong",
+          "name": "Liang Dong",
+          "title": "Professor",
+          "sub_field": "Sensors, Precision Agriculture",
+          "tags": [
+            "Sensors",
+            "Precision Agriculture",
+            "IoT",
+            "Environmental Monitoring"
+          ],
+          "summary": "GRA Eminent Scholar studying sensors and precision agriculture technologies, developing novel sensing platforms for agricultural and environmental applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "gary-l-hawkins",
+          "name": "Gary L. Hawkins",
+          "title": "Associate Professor",
+          "sub_field": "Water Resource Management",
+          "tags": [
+            "Water Resources",
+            "Irrigation",
+            "Water Quality"
+          ],
+          "summary": "Studies water resource management in agricultural systems, with research on irrigation efficiency, water conservation, and agricultural water quality.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "pam-knox",
+          "name": "Pam Knox",
+          "title": "Senior Public Service Associate",
+          "sub_field": "Agricultural Climatology",
+          "tags": [
+            "Climatology",
+            "Agriculture",
+            "Weather",
+            "Climate Services"
+          ],
+          "summary": "Director of the UGA Weather Network and Agricultural Climatologist, providing climate and weather information for agricultural decision-making in Georgia.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "university-of-georgia-horticulture",

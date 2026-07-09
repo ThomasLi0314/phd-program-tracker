@@ -15320,59 +15320,38 @@
       "links": {
         "program": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/geosciences"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #1 · faculty 2026-07-08",
+      "data_currency": "2026-07-05 · top-50 sweep · US News #1 · faculty 2026-07-09",
       "faculty": [
-        {
-          "id": "jie-deng",
-          "name": "Jie Deng",
-          "title": "Assistant Professor of Geosciences",
-          "sub_field": "Computational mineral physics",
-          "tags": [
-            "atomistic simulations",
-            "high pressure",
-            "machine learning",
-            "mineral physics",
-            "planetary evolution"
-          ],
-          "summary": "Deng uses atomistic simulations, machine learning, and laboratory experiments to study material properties and key processes underlying the formation and evolution of planetary bodies, including phase transitions, element partitioning, and isotope fractionation, recently modeling melting and crystallization of bridgmanite in magma oceans.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://deng.princeton.edu/",
-            "scholar": null
-          }
-        },
         {
           "id": "curtis-a-deutsch",
           "name": "Curtis A. Deutsch",
-          "title": "Professor of Geosciences and the High Meadows Environmental Institute",
-          "sub_field": "Ocean biogeochemistry and climate",
+          "title": "Professor",
+          "sub_field": "Climate Science, Biogeochemistry",
           "tags": [
-            "oceanography",
-            "biogeochemical cycles",
-            "nitrogen cycle",
-            "climate change",
-            "physiological adaptation"
+            "Climate Science",
+            "Biogeochemistry",
+            "Oceanography",
+            "Marine Ecosystems"
           ],
-          "summary": "Deutsch works on oceanography, biogeochemical cycles and the climate system, biodiversity and physiological adaptation to environmental change, the oceanic nitrogen cycle, and the response of ocean circulation and carbon cycling to climate change.",
+          "summary": "Studies ocean biogeochemical cycles, climate-driven changes in marine ecosystems, the oceanic nitrogen cycle, and biodiversity responses to environmental change.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://cdeutsch.princeton.edu/",
             "scholar": null
           }
         },
         {
           "id": "thomas-s-duffy",
           "name": "Thomas S. Duffy",
-          "title": "Professor of Geosciences; Chair, Department of Geosciences",
-          "sub_field": "High-pressure mineral physics",
+          "title": "Professor",
+          "sub_field": "Mineral Physics, Geophysics",
           "tags": [
-            "mineral physics",
-            "high pressure",
-            "diamond anvil cell",
-            "equations of state",
-            "planetary interiors"
+            "Mineral Physics",
+            "Geophysics",
+            "High Pressure",
+            "Planetary Interiors"
           ],
-          "summary": "Duffy's program focuses on understanding the large-scale behavior of Earth and other planets through experimental study of geological materials under extreme pressure and temperature, exploring crystal structures, phase relations, equations of state, and deformation using diamond anvil cells, gas guns, and high-powered lasers.",
+          "summary": "Studies deep Earth and planetary interiors through experimental investigation of geological materials at high pressures and temperatures using diamond anvil cell and laser compression techniques.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -15382,54 +15361,33 @@
         {
           "id": "stephan-a-fueglistaler",
           "name": "Stephan A. Fueglistaler",
-          "title": "Professor of Geosciences; Director, Atmospheric and Oceanic Sciences (AOS); Director, Cooperative Institute for Modeling the Earth System (CIMES)",
-          "sub_field": "Climate science and atmospheric dynamics",
+          "title": "Professor",
+          "sub_field": "Atmospheric Physics, Climate Dynamics",
           "tags": [
-            "climate science",
-            "atmospheric dynamics",
-            "tropical atmosphere",
-            "climate modeling",
-            "AOS"
+            "Atmospheric Physics",
+            "Climate Dynamics",
+            "Radiative Transfer",
+            "Climate Sensitivity"
           ],
-          "summary": "Fueglistaler is a climate scientist in the Department of Geosciences who directs the Atmospheric and Oceanic Sciences program and the Cooperative Institute for Modeling the Earth System, working in climate science and atmospheric processes.",
+          "summary": "Studies atmospheric physics from cloud microphysics to large-scale dynamics, focusing on climate sensitivity, cloud radiative feedbacks, and tropical atmospheric stability.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "christopher-t-griffin",
-          "name": "Christopher T. Griffin",
-          "title": "Assistant Professor of Geosciences",
-          "sub_field": "Vertebrate paleontology and evolution",
-          "tags": [
-            "vertebrate paleontology",
-            "evolution",
-            "developmental biology",
-            "deep time",
-            "morphology"
-          ],
-          "summary": "Griffin's work bridges vertebrate paleontology, quantitative evolutionary analysis, and developmental biology to investigate the evolution of vertebrate form across deep time, uniting paleontological fieldwork, museum collections, and developmental biology techniques to study how animal form evolves.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
+            "homepage": "https://fueglistaler.princeton.edu/",
             "scholar": null
           }
         },
         {
           "id": "john-a-higgins",
           "name": "John A. Higgins",
-          "title": "Professor of Geosciences",
-          "sub_field": "Geochemistry and paleoclimate",
+          "title": "Professor",
+          "sub_field": "Paleoclimate, Geochemistry",
           "tags": [
-            "carbon cycle",
-            "seawater chemistry",
-            "stable isotopes",
-            "carbonate diagenesis",
-            "paleoclimate"
+            "Paleoclimate",
+            "Geochemistry",
+            "Isotope Geochemistry",
+            "Carbon Cycle"
           ],
-          "summary": "Higgins's primary research interest is the evolution of the carbon cycle and global climate system over Earth history, focusing on processes controlling seawater chemical composition and the post-depositional chemistry of carbonate sediments, using numerical models and stable and novel isotope systems.",
+          "summary": "Uses isotope geochemistry and sedimentary records to reconstruct past changes in Earth's climate and geochemical cycles through the geologic record.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -15439,16 +15397,15 @@
         {
           "id": "adam-c-maloof",
           "name": "Adam C. Maloof",
-          "title": "Professor of Geosciences",
-          "sub_field": "Earth history and geology",
+          "title": "Professor",
+          "sub_field": "Geology, Paleoclimate",
           "tags": [
-            "field geology",
-            "paleomagnetism",
-            "carbon cycle",
-            "sedimentary geology",
-            "Earth history"
+            "Geology",
+            "Paleoclimate",
+            "Paleomagnetism",
+            "Carbon Cycle"
           ],
-          "summary": "Maloof's Earth history group relies on original field observations at the scale of maps, outcrops, and thin sections, currently using sedimentary and volcanic rocks to extract information about Earth's ancient magnetic field, continental motion, perturbations to the global carbon cycle, and the coevolution of life and climate.",
+          "summary": "Uses field observations of sedimentary and volcanic rocks to study Earth's ancient magnetic field, continental motion, perturbations to the global carbon cycle, and coevolution of life and climate.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -15458,73 +15415,33 @@
         {
           "id": "satish-c-myneni",
           "name": "Satish C. Myneni",
-          "title": "Professor of Geosciences",
-          "sub_field": "Molecular environmental geochemistry",
+          "title": "Professor",
+          "sub_field": "Environmental Geochemistry",
           "tags": [
-            "environmental geochemistry",
-            "mineral-water interfaces",
-            "aqueous speciation",
-            "iron chemistry",
-            "organic biogeochemistry"
+            "Geochemistry",
+            "Environmental Chemistry",
+            "Biogeochemistry",
+            "Aqueous Chemistry"
           ],
-          "summary": "Myneni's group works on molecular environmental geochemistry, including the chemistry of mineral-water and bacteria-water interfaces, aqueous speciation, ion solvation and complexation, iron chemistry in terrestrial and marine systems, organic biogeochemistry, and natural organohalogens.",
+          "summary": "Leads the Molecular Environmental Geochemistry Group studying ion solvation, chemistry of natural organic molecules, biogeochemistry of surfaces, and environmental fate and transport of elements.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "elizabeth-niespolo",
-          "name": "Elizabeth Niespolo",
-          "title": "Assistant Professor of Geosciences",
-          "sub_field": "Isotope geochemistry and geochronology",
-          "tags": [
-            "geochronology",
-            "isotope geochemistry",
-            "radioisotopic dating",
-            "paleoclimate",
-            "human evolution"
-          ],
-          "summary": "Niespolo combines field work with isotope geochemistry to anchor climatic, fossil, and archaeological records to precise timescales, emphasizing radioisotopic dating alongside light stable isotope geochemistry, petrology, and field geology, with foci on the timing of human evolution and crustal processes.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
+            "homepage": "https://myneni.princeton.edu/",
             "scholar": null
           }
         },
         {
           "id": "michael-oppenheimer",
           "name": "Michael Oppenheimer",
-          "title": "Albert G. Milbank Professor of Geosciences and International Affairs and the High Meadows Environmental Institute; Director, Center for Policy Research on Energ",
-          "sub_field": "Climate science and policy",
+          "title": "Professor",
+          "sub_field": "Climate Science, Climate Policy",
           "tags": [
-            "climate change",
-            "climate risk",
-            "adaptation",
-            "atmospheric science",
-            "environmental policy"
+            "Climate Change",
+            "Climate Policy",
+            "Sea Level Rise",
+            "Environmental Policy"
           ],
-          "summary": "Oppenheimer's interests include the science and policy of the atmosphere, particularly climate change, the risks and impacts it entails, and adaptation and other human responses, aiming to understand the potential for dangerous outcomes of increasing greenhouse gases.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://oppenheimer.scholar.princeton.edu/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "laure-resplandy",
-          "name": "Laure Resplandy",
-          "title": "Associate Professor of Geosciences and the High Meadows Environmental Institute",
-          "sub_field": "Biogeochemical oceanography",
-          "tags": [
-            "ocean",
-            "carbon cycle",
-            "climate",
-            "ocean eddies",
-            "biogeochemistry"
-          ],
-          "summary": "Resplandy is a biogeochemical oceanographer whose research aims to understand how climate and ocean physics influence marine biogeochemistry and ecosystems and how these changes impact Earth's climate, designing numerical models and statistical tools to interpret in-situ and satellite observations.",
+          "summary": "Studies climate change impacts, sea-level rise, and the science-policy interface of climate change, with joint appointments in Geosciences and International Affairs.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -15534,35 +15451,33 @@
         {
           "id": "allan-m-rubin",
           "name": "Allan M. Rubin",
-          "title": "Professor of Geosciences",
-          "sub_field": "Geophysics of crustal deformation",
+          "title": "Professor",
+          "sub_field": "Geophysics, Seismology",
           "tags": [
-            "geophysics",
-            "seismology",
-            "geodesy",
-            "faulting",
-            "volcanism"
+            "Geophysics",
+            "Seismology",
+            "Earthquake Physics",
+            "Fault Mechanics"
           ],
-          "summary": "Rubin is a geophysicist who combines seismic and geodetic observations with numerical models to improve understanding of brittle deformation of the crust, with applications primarily to regions of active volcanism and faulting.",
+          "summary": "Studies earthquake physics and fault mechanics, examining the processes governing seismic and aseismic slip on faults.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "http://rubin.princeton.edu",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "blair-schoene",
           "name": "Blair Schoene",
-          "title": "Professor of Geosciences",
-          "sub_field": "Geochronology and geology",
+          "title": "Professor",
+          "sub_field": "Geology, Geochronology",
           "tags": [
-            "U-Pb geochronology",
-            "geology",
-            "continental crust",
-            "field mapping",
-            "thermochronology"
+            "Geology",
+            "Geochronology",
+            "Petrology",
+            "Tectonics"
           ],
-          "summary": "Schoene is a geologist who uses high-precision U-Pb geochronology to understand Earth history, focusing on how magmatic processes build continental crust and affect the biosphere, atmosphere, and oceans, combining field mapping with thermochronology, radiogenic isotope tracing, and structural analysis.",
+          "summary": "Studies the tempo of geological processes through high-precision geochronology, integrating field geology with isotope geochemistry to understand crustal evolution and magmatic systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -15572,16 +15487,15 @@
         {
           "id": "daniel-m-sigman",
           "name": "Daniel M. Sigman",
-          "title": "Dusenbury Professor of Geological and Geophysical Sciences",
-          "sub_field": "Geochemistry and paleoclimate",
+          "title": "Professor",
+          "sub_field": "Geochemistry, Paleoclimate",
           "tags": [
-            "geochemistry",
-            "paleoclimate",
-            "nitrogen isotopes",
-            "ocean biogeochemistry",
-            "climate history"
+            "Geochemistry",
+            "Paleoclimate",
+            "Ocean Biogeochemistry",
+            "Nitrogen Cycle"
           ],
-          "summary": "Sigman leads a geochemistry and paleoclimate research laboratory in the Department of Geosciences, studying biogeochemical cycles and climate history through isotope geochemistry.",
+          "summary": "Studies ocean nutrient cycling and its role in climate change through Earth history, with focus on the marine nitrogen cycle and polar ocean processes.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -15591,16 +15505,15 @@
         {
           "id": "frederik-j-simons",
           "name": "Frederik J. Simons",
-          "title": "Professor of Geosciences; Associate Chair, Department of Geosciences",
-          "sub_field": "Solid-earth geophysics",
+          "title": "Professor",
+          "sub_field": "Geophysics",
           "tags": [
-            "seismology",
-            "geodesy",
-            "geomagnetism",
-            "inverse problems",
-            "oceanic instrumentation"
+            "Geophysics",
+            "Seismology",
+            "Inverse Methods",
+            "Signal Processing"
           ],
-          "summary": "Simons studies the physical properties of the terrestrial lithosphere, focusing on elastic and thermo-mechanical properties of continents via seismic tomography and spectral analysis of gravity and topography, and has developed mathematical methods for localized analysis of fields on the sphere and oceanic seismic instrumentation.",
+          "summary": "Studies global geophysics using computational and mathematical methods, with research in seismology, inverse theory, and advanced signal processing for geophysical data analysis.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -15610,35 +15523,33 @@
         {
           "id": "jeroen-tromp",
           "name": "Jeroen Tromp",
-          "title": "Blair Professor of Geology; Professor of Geosciences and Applied and Computational Mathematics; Director, Princeton Institute for Computational Science and Engi",
-          "sub_field": "Theoretical and computational seismology",
+          "title": "Professor",
+          "sub_field": "Seismology, Computational Geophysics",
           "tags": [
-            "seismology",
-            "computational geophysics",
-            "seismic tomography",
-            "wave propagation",
-            "inverse problems"
+            "Seismology",
+            "Computational Science",
+            "Earth Structure",
+            "Seismic Tomography"
           ],
-          "summary": "Tromp's primary research areas are in theoretical and computational seismology, developing methods for simulating seismic wave propagation and imaging Earth's interior through adjoint-based tomography.",
+          "summary": "Develops computational methods for seismic imaging of Earth's interior using adjoint tomography and high-performance computing to map global and regional Earth structure.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "http://tromp.princeton.edu",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "gabriel-a-vecchi",
           "name": "Gabriel A. Vecchi",
-          "title": "Knox Taylor Professor of Geosciences; Director, High Meadows Environmental Institute; Deputy Director, Cooperative Institute for Modeling the Earth System",
-          "sub_field": "Climate science and modeling",
+          "title": "Professor",
+          "sub_field": "Climate Dynamics",
           "tags": [
-            "climate science",
-            "extreme weather",
-            "hurricanes",
-            "ocean-atmosphere interaction",
-            "detection and attribution"
+            "Climate Dynamics",
+            "Hurricanes",
+            "ENSO",
+            "Hydroclimate Extremes"
           ],
-          "summary": "Vecchi works on climate science and modeling, including extreme weather events, hurricanes, mechanisms of precipitation variability and change, ocean-atmosphere interaction, and detection and attribution of climate change.",
+          "summary": "Studies climate dynamics including tropical cyclone activity, El Nino-Southern Oscillation, hydroclimate extremes, and seasonal-to-decadal climate prediction using observations and models.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -15648,16 +15559,32 @@
         {
           "id": "bess-b-ward",
           "name": "Bess B. Ward",
-          "title": "William J. Sinclair Professor of Geosciences and the High Meadows Environmental Institute",
-          "sub_field": "Marine biogeochemistry and microbiology",
+          "title": "Professor",
+          "sub_field": "Marine Biogeochemistry",
           "tags": [
-            "nitrogen cycle",
-            "biogeochemistry",
-            "biological oceanography",
-            "microbiology",
-            "isotopes"
+            "Biogeochemistry",
+            "Marine Microbiology",
+            "Nitrogen Cycle"
           ],
-          "summary": "Ward's laboratory studies the marine and global nitrogen cycle using molecular biological investigations of marine bacteria and processes such as nitrification and denitrification, measuring rates of N transformation with isotope approaches across suboxic ocean zones and coastal systems.",
+          "summary": "Studies marine biogeochemistry with focus on the microbial nitrogen cycle, investigating organisms and processes controlling nitrogen transformations in the ocean.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "laure-resplandy",
+          "name": "Laure Resplandy",
+          "title": "Associate Professor",
+          "sub_field": "Ocean Biogeochemistry, Climate Science",
+          "tags": [
+            "Ocean Biogeochemistry",
+            "Climate Science",
+            "Carbon Cycle",
+            "Ocean Heat Uptake"
+          ],
+          "summary": "Studies ocean biogeochemistry and climate interactions, including ocean heat and carbon uptake, deoxygenation, and impacts of climate change on marine biogeochemical cycles.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -15667,16 +15594,68 @@
         {
           "id": "xinning-zhang",
           "name": "Xinning Zhang",
-          "title": "Associate Professor of Geosciences and the High Meadows Environmental Institute",
-          "sub_field": "Environmental microbiology and biogeochemistry",
+          "title": "Associate Professor",
+          "sub_field": "Biogeochemistry",
           "tags": [
-            "biogeochemistry",
-            "environmental microbiology",
-            "microbial metabolism",
-            "stable isotopes",
-            "climate"
+            "Biogeochemistry",
+            "Geomicrobiology",
+            "Environmental Microbiology"
           ],
-          "summary": "Zhang is an environmental microbiologist whose research aims to provide a mechanistic understanding of how microbial metabolism influences biogeochemical cycling and climate in modern and ancient environments, applying microbial physiology, molecular ecology, and stable isotope geochemistry in lab and field.",
+          "summary": "Studies microbial biogeochemistry in environmental systems with research spanning geomicrobiology and environmental microbiology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jie-deng",
+          "name": "Jie Deng",
+          "title": "Assistant Professor",
+          "sub_field": "Computational Mineral Physics, Geophysics",
+          "tags": [
+            "Mineral Physics",
+            "Geophysics",
+            "Computational Science",
+            "Planetary Interiors"
+          ],
+          "summary": "Studies computational mineral physics and geophysics, investigating mineral properties and processes at extreme conditions relevant to planetary interiors.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "christopher-t-griffin",
+          "name": "Christopher T. Griffin",
+          "title": "Assistant Professor",
+          "sub_field": "Geology, Paleoclimate",
+          "tags": [
+            "Geology",
+            "Paleoclimate",
+            "Paleontology",
+            "Earth History"
+          ],
+          "summary": "Studies geology and paleoclimate, focusing on Earth's deep history and the coevolution of life and environments through the geological record.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "elizabeth-niespolo",
+          "name": "Elizabeth Niespolo",
+          "title": "Assistant Professor",
+          "sub_field": "Geochemistry, Paleoclimate",
+          "tags": [
+            "Geochemistry",
+            "Paleoclimate",
+            "Geochronology",
+            "Isotope Geochemistry"
+          ],
+          "summary": "Studies geochemistry and paleoclimate using high-resolution geochronology and isotope geochemistry to reconstruct past environmental and climatic change.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,

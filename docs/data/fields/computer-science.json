@@ -18340,414 +18340,277 @@
       "links": {
         "program": "https://csweb.rice.edu/academics/graduate-programs/admission/graduate-program-application"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #17 · faculty 2026-07-08",
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17 · faculty 2026-07-09",
       "faculty": [
         {
-          "id": "moshe-y-vardi",
-          "name": "Moshe Y. Vardi",
-          "title": "University Professor and Karen Ostrum George Distinguished Service Professor",
-          "sub_field": "Theory",
+          "id": "scott-rixner",
+          "name": "Scott Rixner",
+          "title": "Professor",
+          "sub_field": "Computer Systems, Networking, Online Education",
           "tags": [
-            "Theory",
-            "Logic",
-            "Verification",
-            "Databases"
+            "computer systems",
+            "networking",
+            "online education",
+            "systems architecture"
           ],
-          "summary": "Research in automated reasoning, databases, computational complexity, and logic in computer science. Member of NAE, NAS, AAAS, and Royal Society. Knuth Prize and Allen Newell Award recipient.",
+          "summary": "Professor and academic lead for the Online MCS program. Research in computer systems and networking. Pioneered Rice's online CS education, designing and delivering core MCS courses to a global audience via the online platform.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.cs.rice.edu/~vardi/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "lydia-kavraki",
-          "name": "Lydia Kavraki",
-          "title": "Noah Harding Professor of Computer Science",
-          "sub_field": "AI",
-          "tags": [
-            "AI",
-            "Robotics",
-            "Computational Biology"
-          ],
-          "summary": "Research in robotics, AI, and computational biomedicine, focusing on motion planning, reasoning under uncertainty, and biomolecular interactions. Member of NAE, NAS, NAM. Director of Ken Kennedy Institute.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.cs.rice.edu/~kavraki/",
+            "homepage": "https://profiles.rice.edu/faculty/scott-rixner",
             "scholar": null
           }
         },
         {
           "id": "christopher-jermaine",
           "name": "Christopher Jermaine",
-          "title": "Professor and Department Chair",
-          "sub_field": "Systems",
+          "title": "Professor",
+          "sub_field": "Large-Scale Data Analytics, ML Systems",
           "tags": [
-            "Systems",
-            "Databases",
-            "ML"
+            "data analytics",
+            "machine learning",
+            "databases",
+            "big data"
           ],
-          "summary": "Research in large-scale data analytics, database systems, and machine learning systems. Sloan Fellow and NSF CAREER awardee. Department Chair.",
+          "summary": "Professor and Department Chair. Research focuses on large-scale data analytics and ML systems, contributing to the online MCS curriculum in data science and systems courses.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.cs.rice.edu/~cmj4/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "anshumali-shrivastava",
-          "name": "Anshumali Shrivastava",
-          "title": "Professor of Computer Science",
-          "sub_field": "ML",
-          "tags": [
-            "ML",
-            "Systems",
-            "Theory"
-          ],
-          "summary": "Research in large-scale machine learning, randomized algorithms for big data, and large language models. Founder of ThirdAI. NSF CAREER awardee. Lead PI of Rice Generative AI 2.0 cluster.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.cs.rice.edu/~as143/",
+            "homepage": "https://profiles.rice.edu/faculty/christopher-jermaine",
             "scholar": null
           }
         },
         {
           "id": "xia-ben-hu",
           "name": "Xia (Ben) Hu",
-          "title": "Professor of Computer Science",
-          "sub_field": "ML",
+          "title": "Professor",
+          "sub_field": "Machine Learning, Data Mining, AutoML",
           "tags": [
-            "ML",
-            "AI",
-            "Data Science"
+            "machine learning",
+            "data mining",
+            "AutoML",
+            "deep learning"
           ],
-          "summary": "Research in machine learning algorithms for large-scale complex datasets, with applications in social informatics, healthcare, and cybersecurity. Creator of AutoKeras. NSF CAREER awardee.",
+          "summary": "Professor and lead creator of AutoKeras. Research in ML and data mining informs online MCS courses in machine learning and AI, bringing cutting-edge AutoML techniques to students.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://csweb.rice.edu/people/faculty",
+            "homepage": "https://profiles.rice.edu/faculty/xia-ben-hu",
             "scholar": null
           }
         },
         {
-          "id": "vladimir-vova-braverman",
-          "name": "Vladimir (Vova) Braverman",
-          "title": "Victor E. Cameron Professor of Computer Science",
-          "sub_field": "Theory",
+          "id": "anshumali-shrivastava",
+          "name": "Anshumali Shrivastava",
+          "title": "Professor",
+          "sub_field": "Large-Scale AI, Efficient Deep Learning, LLMs",
           "tags": [
-            "Theory",
-            "ML",
-            "Systems"
+            "large-scale AI",
+            "deep learning",
+            "LLMs",
+            "efficient ML",
+            "hashing"
           ],
-          "summary": "Research in algorithms, machine learning, computer networks, and computational biology including radiomics and single-cell genomics.",
+          "summary": "Professor and founder of ThirdAI. Research in efficient AI and large language models brings state-of-the-art topics to the online curriculum, including practical large-scale ML deployment.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.cs.rice.edu/~vb21/",
+            "homepage": "https://profiles.rice.edu/faculty/anshumali-shrivastava",
             "scholar": null
           }
         },
         {
-          "id": "luay-nakhleh",
-          "name": "Luay Nakhleh",
-          "title": "Professor of Computer Science",
-          "sub_field": "AI",
+          "id": "alan-l-cox",
+          "name": "Alan L. Cox",
+          "title": "Professor",
+          "sub_field": "Operating Systems, Distributed Systems",
           "tags": [
-            "AI",
-            "Computational Biology",
-            "Theory"
+            "operating systems",
+            "distributed systems",
+            "systems programming",
+            "virtualization"
           ],
-          "summary": "Research in computational biology and phylogenomics, focusing on evolutionary analysis of genomic data. ISCB Fellow, AAAS Fellow, AIMBE Fellow, Guggenheim Fellow. Former Department Chair.",
+          "summary": "Professor and Associate Department Chair. Research in operating systems and distributed systems supports the online MCS systems curriculum, teaching fundamental and advanced systems concepts.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.cs.rice.edu/~nakhleh/",
+            "homepage": "https://profiles.rice.edu/faculty/alan-cox",
             "scholar": null
           }
         },
         {
           "id": "t-s-eugene-ng",
           "name": "T. S. Eugene Ng",
-          "title": "Professor of Computer Science and ECE",
-          "sub_field": "Systems",
+          "title": "Professor",
+          "sub_field": "Computer Networks, Cloud Computing",
           "tags": [
-            "Systems",
-            "Networking"
+            "computer networks",
+            "cloud computing",
+            "distributed systems",
+            "Internet architecture"
           ],
-          "summary": "Research in computer networks, network architecture, and robust global networked infrastructure. IEEE Fellow and Sloan Fellow.",
+          "summary": "Professor and Director of Graduate Studies. Research in networking and cloud computing contributes to online courses covering modern network architectures and distributed cloud systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.cs.rice.edu/~eugeneng/",
+            "homepage": "https://profiles.rice.edu/faculty/eugene-ng",
             "scholar": null
           }
         },
         {
-          "id": "keith-d-cooper",
-          "name": "Keith D. Cooper",
-          "title": "L. John and Ann H. Doerr Chair in Computational Engineering, Professor of Computer Science and ECE",
-          "sub_field": "Systems",
+          "id": "vladimir-braverman",
+          "name": "Vladimir Braverman",
+          "title": "Professor",
+          "sub_field": "Algorithms, Machine Learning, Big Data",
           "tags": [
-            "Systems",
-            "Compilers",
-            "Programming Languages",
-            "HPC"
+            "algorithms",
+            "machine learning",
+            "big data",
+            "streaming algorithms"
           ],
-          "summary": "Research in compilers, programming languages, and high-performance computing, with seminal work on compiler optimization and code generation.",
+          "summary": "Victor E. Cameron Chair Professor. Research in algorithms for massive datasets and ML theory enriches the online MCS curriculum with fundamental algorithmic thinking and big data techniques.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.cs.rice.edu/~keith/",
+            "homepage": "https://profiles.rice.edu/faculty/vladimir-braverman",
             "scholar": null
           }
         },
         {
-          "id": "john-mellor-crummey",
-          "name": "John Mellor-Crummey",
-          "title": "Professor of Computer Science and ECE",
-          "sub_field": "Systems",
+          "id": "dan-seth-wallach",
+          "name": "Dan Seth Wallach",
+          "title": "Professor",
+          "sub_field": "Computer Security, Software Engineering",
           "tags": [
-            "Systems",
-            "HPC",
-            "Programming Languages"
+            "security",
+            "software engineering",
+            "systems security",
+            "privacy"
           ],
-          "summary": "Research in high-performance computing, parallel programming tools, and performance analysis, with work on scalable performance measurement and optimization.",
+          "summary": "Professor working on computer security. Research findings in software security and secure system design feed into online MCS security and software engineering coursework.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.cs.rice.edu/~johnmc/",
+            "homepage": "https://profiles.rice.edu/faculty/dan-wallach",
             "scholar": null
           }
         },
         {
-          "id": "devika-subramanian",
-          "name": "Devika Subramanian",
-          "title": "Professor of Computer Science",
-          "sub_field": "AI",
+          "id": "vicente-ord-ez-rom-n",
+          "name": "Vicente Ordóñez-Román",
+          "title": "Associate Professor",
+          "sub_field": "Computer Vision, Natural Language Processing, Deep Learning",
           "tags": [
-            "AI",
-            "ML",
-            "Complex Systems"
+            "computer vision",
+            "NLP",
+            "deep learning",
+            "multimodal AI"
           ],
-          "summary": "Research in artificial intelligence and machine learning, with work on complex systems, learning from data, and applications in socio-technical systems.",
+          "summary": "Associate Professor working on computer vision and NLP. Research in vision-language models and multimodal AI provides content for online courses in deep learning and AI applications.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.cs.rice.edu/~devika/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "ang-chen",
-          "name": "Ang Chen",
-          "title": "Associate Professor of Computer Science",
-          "sub_field": "Systems",
-          "tags": [
-            "Systems",
-            "Security",
-            "Networking"
-          ],
-          "summary": "Research in computer systems and security, including cloud systems, network security, and software-defined networking.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.cs.rice.edu/~angchen/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "alan-cox",
-          "name": "Alan Cox",
-          "title": "Associate Professor of Computer Science",
-          "sub_field": "Systems",
-          "tags": [
-            "Systems",
-            "OS",
-            "Distributed Systems"
-          ],
-          "summary": "Research in operating systems and distributed systems, with work on memory management, virtualization, and concurrent systems.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.cs.rice.edu/~alc/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "david-johnson",
-          "name": "David Johnson",
-          "title": "Associate Professor of Computer Science",
-          "sub_field": "Systems",
-          "tags": [
-            "Systems",
-            "Networking",
-            "Wireless"
-          ],
-          "summary": "Research in computer networks and wireless systems, including network protocols, wireless communication, and mobile systems.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.cs.rice.edu/~dbj/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "todd-treangen",
-          "name": "Todd Treangen",
-          "title": "Associate Professor of Computer Science",
-          "sub_field": "AI",
-          "tags": [
-            "AI",
-            "Computational Biology",
-            "Bioinformatics"
-          ],
-          "summary": "Research in computational genomics, metagenomics algorithm development, and microbial evolution. NSF CAREER awardee.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.cs.rice.edu/~treangen/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "konstantinos-mamouras",
-          "name": "Konstantinos Mamouras",
-          "title": "Assistant Professor of Computer Science",
-          "sub_field": "Theory",
-          "tags": [
-            "Theory",
-            "Programming Languages",
-            "Formal Methods"
-          ],
-          "summary": "Research in programming languages and formal methods, with work on program verification, synthesis, and the design of domain-specific languages.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.cs.rice.edu/~mamouras/",
+            "homepage": "https://profiles.rice.edu/faculty/vicente-ordonez-roman",
             "scholar": null
           }
         },
         {
           "id": "hanjie-chen",
           "name": "Hanjie Chen",
-          "title": "Assistant Professor of Computer Science",
-          "sub_field": "ML",
+          "title": "Assistant Professor",
+          "sub_field": "Trustworthy AI, Natural Language Processing",
           "tags": [
-            "ML",
             "NLP",
-            "Trustworthy AI"
+            "trustworthy AI",
+            "interpretable ML",
+            "LLMs"
           ],
-          "summary": "Research in trustworthy AI, natural language processing, and interpretable machine learning. Joined Rice CS in Fall 2024.",
+          "summary": "Assistant Professor working on trustworthy AI and NLP. Research in making AI interpretable and reliable contributes to the online MCS curriculum in AI ethics and responsible ML.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://csweb.rice.edu/people/faculty",
-            "scholar": null
-          }
-        },
-        {
-          "id": "nai-hui-chia",
-          "name": "Nai-Hui Chia",
-          "title": "Assistant Professor of Computer Science",
-          "sub_field": "Theory",
-          "tags": [
-            "Theory",
-            "Quantum Computing",
-            "Cryptography"
-          ],
-          "summary": "Research in quantum algorithms, quantum complexity theory, and quantum cryptography. Joined Rice CS in 2022.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://csweb.rice.edu/people/faculty",
-            "scholar": null
-          }
-        },
-        {
-          "id": "arlei-lopes-da-silva",
-          "name": "Arlei Lopes da Silva",
-          "title": "Assistant Professor of Computer Science",
-          "sub_field": "ML",
-          "tags": [
-            "ML",
-            "Graph Mining",
-            "Data Science"
-          ],
-          "summary": "Research in graph mining, network science, and machine learning, with applications in climate forecasting, urban resilience, and disaster response. Joined Rice CS in 2021.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://csweb.rice.edu/people/faculty",
-            "scholar": null
-          }
-        },
-        {
-          "id": "alireza-fallah",
-          "name": "Alireza Fallah",
-          "title": "Assistant Professor of Computer Science",
-          "sub_field": "ML",
-          "tags": [
-            "ML",
-            "Theory",
-            "Economics and Computation"
-          ],
-          "summary": "Research in machine learning theory, algorithmic game theory, mechanism design, and privacy. PhD from MIT. ACM SIGecom Doctoral Dissertation Award Honorable Mention. Joined Rice CS in 2025.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://csweb.rice.edu/people/faculty",
+            "homepage": "https://profiles.rice.edu/faculty/hanjie-chen",
             "scholar": null
           }
         },
         {
           "id": "yuke-wang",
           "name": "Yuke Wang",
-          "title": "Vinay and Aarti Pai Chair in CS, Assistant Professor of Computer Science",
-          "sub_field": "Systems",
+          "title": "Assistant Professor",
+          "sub_field": "Efficient Deep Learning Systems, Graph Neural Networks",
           "tags": [
-            "Systems",
-            "ML",
-            "Compilers"
+            "deep learning systems",
+            "graph neural networks",
+            "LLMs",
+            "ML optimization"
           ],
-          "summary": "Research in building intelligent, efficient systems and compilers for deep learning applications including deep neural networks, graph neural networks, recommendation models, and large language models. Joining Rice CS in Fall 2025.",
+          "summary": "Vinay and Aarti Pai Chair Assistant Professor. Research in efficient deep learning systems and GNNs brings practical ML systems engineering knowledge to the online curriculum.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://csweb.rice.edu/people/faculty",
-            "scholar": null
-          }
-        },
-        {
-          "id": "chen-wei",
-          "name": "Chen Wei",
-          "title": "Assistant Professor of Computer Science",
-          "sub_field": "ML",
-          "tags": [
-            "ML",
-            "Computer Vision",
-            "AI"
-          ],
-          "summary": "Research at the intersection of machine learning and computer vision, focusing on developing flexible and general-purpose intelligent systems. Joining Rice CS in Fall 2025.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://csweb.rice.edu/people/faculty",
+            "homepage": "https://profiles.rice.edu/faculty/yuke-wang",
             "scholar": null
           }
         },
         {
           "id": "jiarong-xing",
           "name": "Jiarong Xing",
-          "title": "Assistant Professor of Computer Science",
-          "sub_field": "Systems",
+          "title": "Assistant Professor",
+          "sub_field": "Cloud Systems, ML Systems, Networking Security",
           "tags": [
-            "Systems",
-            "Networking",
-            "Security"
+            "cloud systems",
+            "ML systems",
+            "networking",
+            "security",
+            "infrastructure"
           ],
-          "summary": "Research in computer systems, networking, and security, focusing on efficient cloud systems and large-scale ML systems. Rice CS PhD (2024). Joining Rice CS in Fall 2025.",
+          "summary": "Assistant Professor working on cloud and ML infrastructure. Research on building high-performance, secure networked systems for ML workloads contributes to online courses in cloud computing and systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://csweb.rice.edu/people/faculty",
+            "homepage": "https://profiles.rice.edu/faculty/jiarong-xing",
             "scholar": null
           }
         },
         {
-          "id": "anders-aamand",
-          "name": "Anders Aamand",
-          "title": "Assistant Professor of Computer Science",
-          "sub_field": "Theory",
+          "id": "maryam-aliakbarpour",
+          "name": "Maryam Aliakbarpour",
+          "title": "Assistant Professor",
+          "sub_field": "Statistical Learning Theory, Data Privacy",
           "tags": [
-            "Theory",
-            "Privacy",
-            "Algorithms"
+            "statistical learning",
+            "data privacy",
+            "differential privacy",
+            "ML theory"
           ],
-          "summary": "Research in theoretical computer science including differential privacy, learning-augmented algorithms, distribution testing, hashing, graph theory, and computational geometry. Joining Rice CS in January 2026.",
+          "summary": "Assistant Professor working on statistical foundations of ML. Research in privacy-preserving data analysis and statistical learning theory enriches online coursework in ML theory and data privacy.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://csweb.rice.edu/people/faculty",
+            "homepage": "https://profiles.rice.edu/faculty/maryam-aliakbarpour",
+            "scholar": null
+          }
+        },
+        {
+          "id": "arlei-silva",
+          "name": "Arlei Silva",
+          "title": "Assistant Professor",
+          "sub_field": "Machine Learning, Graph Mining, Data Science",
+          "tags": [
+            "machine learning",
+            "graph mining",
+            "data science",
+            "network analysis"
+          ],
+          "summary": "Assistant Professor working on ML and graph mining. Research in networked data analysis contributes to the data science and ML components of the online MCS curriculum.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/arlei-silva",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chen-wei",
+          "name": "Chen Wei",
+          "title": "Assistant Professor",
+          "sub_field": "Multimodal Learning, Computer Vision, AI Systems",
+          "tags": [
+            "multimodal learning",
+            "computer vision",
+            "AI systems",
+            "deep learning"
+          ],
+          "summary": "Assistant Professor working on multimodal AI and computer vision. Research in scalable visual AI systems contributes to online courses covering modern computer vision and multimodal deep learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/chen-wei",
             "scholar": null
           }
         }
@@ -18792,8 +18655,406 @@
       "links": {
         "program": "https://eceweb.rice.edu/academics/graduate-programs/phd-program"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17 · faculty 2026-07-09",
+      "faculty": [
+        {
+          "id": "ashok-veeraraghavan",
+          "name": "Ashok Veeraraghavan",
+          "title": "Professor",
+          "sub_field": "Computational Imaging, Computer Vision",
+          "tags": [
+            "computational imaging",
+            "computer vision",
+            "image processing",
+            "signal processing"
+          ],
+          "summary": "Professor and ECE Department Chair. Research focuses on computational imaging and computer vision, developing novel cameras and algorithms that overcome traditional limits of optical imaging systems for seeing around corners and through scattering media.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/ashok-veeraraghavan",
+            "scholar": null
+          }
+        },
+        {
+          "id": "richard-g-baraniuk",
+          "name": "Richard G. Baraniuk",
+          "title": "Professor",
+          "sub_field": "Signal Processing, Machine Learning, Compressive Sensing",
+          "tags": [
+            "signal processing",
+            "machine learning",
+            "compressive sensing",
+            "deep learning"
+          ],
+          "summary": "C. Sidney Burrus Professor and pioneer of compressive sensing. Research spans signal processing, machine learning, and open-source education (founder of OpenStax). Known for foundational contributions to single-pixel cameras and model-based compressive sensing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/richard-baraniuk",
+            "scholar": null
+          }
+        },
+        {
+          "id": "edward-w-knightly",
+          "name": "Edward W. Knightly",
+          "title": "Professor",
+          "sub_field": "Wireless Networks, Mobile Computing, Security",
+          "tags": [
+            "wireless networks",
+            "mobile computing",
+            "network security",
+            "spectrum sharing"
+          ],
+          "summary": "Sheafor-Lindsay Professor and leading researcher in wireless networking. Research focuses on next-generation wireless architectures, spectrum sharing, network security, and deploying community-scale wireless testbeds for experimental research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/edward-knightly",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ashutosh-sabharwal",
+          "name": "Ashutosh Sabharwal",
+          "title": "Professor",
+          "sub_field": "Wireless Communications, Networked Systems",
+          "tags": [
+            "wireless communications",
+            "networked systems",
+            "full-duplex",
+            "health systems"
+          ],
+          "summary": "Ernest D. Butcher Professor working on wireless communications and networked systems. Known for pioneering full-duplex wireless communication and developing wireless health monitoring systems for mobile healthcare delivery.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/ashutosh-sabharwal",
+            "scholar": null
+          }
+        },
+        {
+          "id": "behnaam-aazhang",
+          "name": "Behnaam Aazhang",
+          "title": "Professor",
+          "sub_field": "Wireless Communications, Neuroengineering",
+          "tags": [
+            "wireless communications",
+            "neuroengineering",
+            "signal processing",
+            "neural interfaces"
+          ],
+          "summary": "J.S. Abercrombie Professor and Director of the Rice Neuroengineering Initiative. Research spans wireless communication theory and neuroengineering, developing neural interfaces and closed-loop brain-computer interaction systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/behnaam-aazhang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "naomi-j-halas",
+          "name": "Naomi J. Halas",
+          "title": "Professor",
+          "sub_field": "Nanophotonics, Plasmonics, Nanomaterials",
+          "tags": [
+            "nanophotonics",
+            "plasmonics",
+            "nanomaterials",
+            "optical materials"
+          ],
+          "summary": "University Professor and Stanley C. Moore Professor. Pioneer of plasmonics and nanophotonics. Research focuses on light-matter interactions at the nanoscale, with applications in cancer therapy, solar energy, and chemical sensing. Member of National Academy of Sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/naomi-halas",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jacob-robinson",
+          "name": "Jacob Robinson",
+          "title": "Professor",
+          "sub_field": "Neuroengineering, Bioelectronics",
+          "tags": [
+            "neuroengineering",
+            "bioelectronics",
+            "neural interfaces",
+            "biotechnology"
+          ],
+          "summary": "Professor working on neuroengineering and bioelectronics. Research develops nanoscale neural interfaces that enable wireless, minimally invasive recording and stimulation of neural activity for understanding the brain and treating neurological disorders.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/jacob-robinson",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joseph-r-cavallaro",
+          "name": "Joseph R. Cavallaro",
+          "title": "Professor",
+          "sub_field": "Computer Engineering, VLSI, Wireless Systems",
+          "tags": [
+            "computer engineering",
+            "VLSI",
+            "wireless systems",
+            "signal processing hardware"
+          ],
+          "summary": "Professor working on computer engineering with focus on VLSI architectures and hardware acceleration for wireless communication and signal processing. Research bridges algorithm design and efficient hardware implementation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/joseph-cavallaro",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yuji-zhao",
+          "name": "Yuji Zhao",
+          "title": "Professor",
+          "sub_field": "Wide Bandgap Semiconductors, Power Electronics",
+          "tags": [
+            "wide bandgap semiconductors",
+            "power electronics",
+            "GaN",
+            "electronic devices"
+          ],
+          "summary": "Professor working on wide bandgap semiconductor materials and devices. Research focuses on gallium nitride (GaN) materials and devices for power electronics, RF applications, and next-generation semiconductor technology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/yuji-zhao",
+            "scholar": null
+          }
+        },
+        {
+          "id": "santiago-segarra",
+          "name": "Santiago Segarra",
+          "title": "Associate Professor",
+          "sub_field": "Network Science, Signal Processing, Machine Learning",
+          "tags": [
+            "network science",
+            "signal processing",
+            "graph signal processing",
+            "machine learning"
+          ],
+          "summary": "W.M. Rice Trustee Associate Professor working on network science and signal processing. Research focuses on graph signal processing, network analysis via ML, and developing algorithms for understanding and learning from networked data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/santiago-segarra",
+            "scholar": null
+          }
+        },
+        {
+          "id": "akane-sano",
+          "name": "Akane Sano",
+          "title": "Associate Professor",
+          "sub_field": "Digital Health, Wearable Computing, Affective Computing",
+          "tags": [
+            "digital health",
+            "wearable computing",
+            "affective computing",
+            "machine learning"
+          ],
+          "summary": "Associate Professor working on digital health and wearable computing. Research develops ML methods for understanding human health and behavior from wearable sensor data, including stress detection, sleep monitoring, and mental health assessment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/akane-sano",
+            "scholar": null
+          }
+        },
+        {
+          "id": "taiyun-chi",
+          "name": "Taiyun Chi",
+          "title": "Associate Professor",
+          "sub_field": "RF/mmWave Integrated Circuits, Neuroengineering",
+          "tags": [
+            "RF circuits",
+            "mmWave",
+            "integrated circuits",
+            "AI-assisted EDA",
+            "neuroengineering"
+          ],
+          "summary": "Associate Professor working on RF and millimeter-wave integrated circuits. Research spans wireless communication ICs, AI-assisted electronic design automation, and implantable neuroengineering devices for brain-machine interfaces.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/taiyun-chi",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kaiyuan-yang",
+          "name": "Kaiyuan Yang",
+          "title": "Associate Professor",
+          "sub_field": "Hardware Security, Integrated Circuits",
+          "tags": [
+            "hardware security",
+            "integrated circuits",
+            "secure hardware",
+            "IoT security"
+          ],
+          "summary": "Associate Professor working on hardware security and integrated circuit design. Research develops physically secure, low-power circuits and systems for IoT, implantable medical devices, and cryptographic hardware.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/kaiyuan-yang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ankit-patel",
+          "name": "Ankit Patel",
+          "title": "Assistant Professor",
+          "sub_field": "Machine Learning, Computational Neuroscience",
+          "tags": [
+            "machine learning",
+            "computational neuroscience",
+            "deep learning",
+            "neural computation"
+          ],
+          "summary": "Assistant Professor working at the intersection of ML and computational neuroscience. Research seeks to reverse-engineer the brain's learning algorithms and apply insights from neuroscience to improve deep learning architectures and training methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/ankit-patel",
+            "scholar": null
+          }
+        },
+        {
+          "id": "guha-balakrishnan",
+          "name": "Guha Balakrishnan",
+          "title": "Assistant Professor",
+          "sub_field": "Computer Vision, Medical Imaging",
+          "tags": [
+            "computer vision",
+            "medical imaging",
+            "machine learning",
+            "healthcare AI"
+          ],
+          "summary": "Assistant Professor working on computer vision and medical imaging. Research develops ML methods for analyzing medical images, with focus on self-supervised learning and causal reasoning for robust clinical decision support.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/guha-balakrishnan",
+            "scholar": null
+          }
+        },
+        {
+          "id": "c-sar-uribe",
+          "name": "César Uribe",
+          "title": "Assistant Professor",
+          "sub_field": "Distributed Optimization, Machine Learning",
+          "tags": [
+            "distributed optimization",
+            "machine learning",
+            "multi-agent systems",
+            "federated learning"
+          ],
+          "summary": "Assistant Professor working on distributed optimization and machine learning. Research develops algorithms for decentralized ML, federated learning, and optimization over networks with communication constraints and heterogeneity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/cesar-uribe",
+            "scholar": null
+          }
+        },
+        {
+          "id": "momona-yamagami",
+          "name": "Momona Yamagami",
+          "title": "Assistant Professor",
+          "sub_field": "Human-Machine Interfaces, Inclusive Design",
+          "tags": [
+            "human-machine interfaces",
+            "inclusive design",
+            "accessibility",
+            "human-computer interaction"
+          ],
+          "summary": "Assistant Professor working on human-machine interfaces with focus on inclusive design. Research develops accessible technology for people with disabilities, combining signal processing, ML, and user-centered design to build equitable interactive systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/momona-yamagami",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nishal-shah",
+          "name": "Nishal Shah",
+          "title": "Assistant Professor",
+          "sub_field": "Neuroengineering, Neural Interfaces",
+          "tags": [
+            "neuroengineering",
+            "neural interfaces",
+            "brain-computer interfaces",
+            "signal processing"
+          ],
+          "summary": "McNair Scholar in Neuroengineering and Assistant Professor. Research focuses on neural interfaces and brain-computer interfaces, developing decoding algorithms and hardware for restoring communication and motor function.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/nishal-shah",
+            "scholar": null
+          }
+        },
+        {
+          "id": "caleb-kemere",
+          "name": "Caleb Kemere",
+          "title": "Associate Professor",
+          "sub_field": "Neural Signal Processing, Systems Neuroscience",
+          "tags": [
+            "neural signal processing",
+            "systems neuroscience",
+            "neural engineering",
+            "brain-machine interfaces"
+          ],
+          "summary": "Associate Professor working on neural signal processing and systems neuroscience. Research develops real-time signal processing methods for interpreting neural activity and building closed-loop brain-machine interface systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/caleb-kemere",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nakul-garg",
+          "name": "Nakul Garg",
+          "title": "Assistant Professor",
+          "sub_field": "Wireless Technologies, Sustainable AI for Sensing",
+          "tags": [
+            "wireless sensing",
+            "sustainable AI",
+            "low-power systems",
+            "IoT"
+          ],
+          "summary": "Assistant Professor working on wireless technologies and sustainable AI for low-power sensing. Research focuses on making wireless sensing and edge AI energy-efficient and sustainable for large-scale IoT deployment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/nakul-garg",
+            "scholar": null
+          }
+        },
+        {
+          "id": "peter-j-varman",
+          "name": "Peter J. Varman",
+          "title": "Professor",
+          "sub_field": "Computer Systems, Storage, Resource Management",
+          "tags": [
+            "computer systems",
+            "storage",
+            "resource management",
+            "performance optimization"
+          ],
+          "summary": "Professor working on computer systems with focus on storage architectures and resource management. Research includes storage QoS, I/O scheduling, and performance optimization for data-intensive computing systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/peter-varman",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chong-xie",
+          "name": "Chong Xie",
+          "title": "Professor",
+          "sub_field": "Neuroengineering, Nano-neurotechnology",
+          "tags": [
+            "neuroengineering",
+            "nano-neurotechnology",
+            "neural interfaces",
+            "biomedical devices"
+          ],
+          "summary": "Professor working on neuroengineering and nano-neurotechnology. Research develops ultra-small, flexible neural probes using nanotechnology that can chronically record from and stimulate the brain with minimal tissue damage.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/chong-xie",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "rice-university-materials-science-and-nanoengineering-phd",
