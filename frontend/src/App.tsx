@@ -10,15 +10,17 @@ import {
   type SortKey,
 } from './lib/filters'
 import { useMyList } from './lib/myList'
+import { useStarredAdvisors } from './lib/starredAdvisors'
 import { FilterSidebar } from './components/FilterSidebar'
 import { FieldSearch } from './components/FieldSearch'
 import { ProgramIndex } from './components/ProgramIndex'
 import { DeepDive } from './components/DeepDive'
 import { AdvisorExplorer } from './components/AdvisorExplorer'
 import { SchoolExplorer } from './components/SchoolExplorer'
+import { StarredAdvisors } from './components/StarredAdvisors'
 import { RequestFieldModal } from './components/RequestFieldModal'
 
-type View = 'programs' | 'advisors' | 'schools'
+type View = 'programs' | 'advisors' | 'schools' | 'starred'
 
 function App() {
   const [index, setIndex] = useState<DataIndex | null>(null)
@@ -36,6 +38,7 @@ function App() {
   const [onlyMyList, setOnlyMyList] = useState(false)
   const [showRequest, setShowRequest] = useState(false)
   const { myList, toggle: toggleMyList } = useMyList()
+  const { starred, toggle: toggleStar } = useStarredAdvisors()
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
   useEffect(() => {
@@ -191,7 +194,7 @@ function App() {
 
         <div className="flex items-center gap-3">
           <div className="flex overflow-hidden rounded border border-slate-600 text-[11px] font-medium">
-            {(['programs', 'advisors', 'schools'] as View[]).map((v) => (
+            {(['programs', 'advisors', 'schools', 'starred'] as View[]).map((v) => (
               <button
                 key={v}
                 onClick={() => setView(v)}
@@ -199,7 +202,7 @@ function App() {
                   view === v ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                 }`}
               >
-                {v}
+                {v === 'starred' ? `★ Starred (${starred.size})` : v}
               </button>
             ))}
           </div>
@@ -300,12 +303,21 @@ function App() {
             query={advisorQuery}
             onQueryChange={setAdvisorQuery}
             onOpenProgram={openProgram}
+            starred={starred}
+            onToggleStar={toggleStar}
           />
-        ) : (
+        ) : view === 'schools' ? (
           <SchoolExplorer
             programs={fullPool}
             query={schoolQuery}
             onQueryChange={setSchoolQuery}
+            onOpenProgram={openProgram}
+          />
+        ) : (
+          <StarredAdvisors
+            programs={fullPool}
+            starred={starred}
+            onToggleStar={toggleStar}
             onOpenProgram={openProgram}
           />
         )}

@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import type { Faculty, Program } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
+import { advisorKey } from '../lib/starredAdvisors'
 
 interface AdvisorHit {
   faculty: Faculty
@@ -36,17 +37,38 @@ function matchesQuery(hit: AdvisorHit, terms: string[]): boolean {
   return terms.every((t) => text.includes(t))
 }
 
-function AdvisorCard({ hit, onOpenProgram }: { hit: AdvisorHit; onOpenProgram: () => void }) {
+function AdvisorCard({
+  hit,
+  starred,
+  onToggleStar,
+  onOpenProgram,
+}: {
+  hit: AdvisorHit
+  starred: boolean
+  onToggleStar: () => void
+  onOpenProgram: () => void
+}) {
   const { faculty: f, program: p } = hit
   return (
     <article className="mb-3 break-inside-avoid rounded border border-slate-200 bg-white p-3">
       <div className="flex items-start justify-between gap-2">
-        <div>
+        <div className="min-w-0">
           <h4 className="font-serif text-[15px] font-bold leading-tight text-slate-900">{f.name}</h4>
           <p className="mt-0.5 text-[11px] leading-snug text-slate-500">{f.title}</p>
         </div>
-        <div className="shrink-0">
+        <div className="flex shrink-0 items-center gap-1.5">
           <RecruitmentBadge status={f.recruitment_status} />
+          <button
+            onClick={onToggleStar}
+            title={starred ? 'Remove from starred advisors' : 'Star this advisor'}
+            aria-label={starred ? 'Unstar advisor' : 'Star advisor'}
+            aria-pressed={starred}
+            className={`text-[15px] leading-none transition-transform hover:scale-110 ${
+              starred ? 'text-amber-400' : 'text-slate-300 hover:text-amber-400'
+            }`}
+          >
+            {starred ? '★' : '☆'}
+          </button>
         </div>
       </div>
 
@@ -107,11 +129,15 @@ export function AdvisorExplorer({
   query,
   onQueryChange,
   onOpenProgram,
+  starred,
+  onToggleStar,
 }: {
   programs: Program[]
   query: string
   onQueryChange: (q: string) => void
   onOpenProgram: (programId: string) => void
+  starred: Set<string>
+  onToggleStar: (key: string) => void
 }) {
   const allHits = useMemo(
     () => programs.flatMap((p) => p.faculty.map((f) => ({ faculty: f, program: p }))),
@@ -187,13 +213,18 @@ export function AdvisorExplorer({
           </p>
         ) : (
           <div className="gap-3 lg:columns-2 2xl:columns-3">
-            {hits.map((h) => (
-              <AdvisorCard
-                key={`${h.program.id}/${h.faculty.id}`}
-                hit={h}
-                onOpenProgram={() => onOpenProgram(h.program.id)}
-              />
-            ))}
+            {hits.map((h) => {
+              const key = advisorKey(h.program.id, h.faculty.id)
+              return (
+                <AdvisorCard
+                  key={key}
+                  hit={h}
+                  starred={starred.has(key)}
+                  onToggleStar={() => onToggleStar(key)}
+                  onOpenProgram={() => onOpenProgram(h.program.id)}
+                />
+              )
+            })}
           </div>
         )}
       </div>
