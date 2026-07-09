@@ -38,7 +38,7 @@ function App() {
   const [onlyMyList, setOnlyMyList] = useState(false)
   const [showRequest, setShowRequest] = useState(false)
   const { myList, toggle: toggleMyList } = useMyList()
-  const { starred, toggle: toggleStar } = useStarredAdvisors()
+  const { levels: starLevels, setLevel: setStarLevel } = useStarredAdvisors()
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
   useEffect(() => {
@@ -202,7 +202,7 @@ function App() {
                   view === v ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                 }`}
               >
-                {v === 'starred' ? `★ Starred (${starred.size})` : v}
+                {v === 'starred' ? `★ Starred (${starLevels.size})` : v}
               </button>
             ))}
           </div>
@@ -294,6 +294,8 @@ function App() {
                 program={selected}
                 inList={selected !== null && myList.has(selected.id)}
                 onToggleList={() => selected && toggleMyList(selected.id)}
+                levels={starLevels}
+                onSetLevel={setStarLevel}
               />
             </>
           )
@@ -303,8 +305,8 @@ function App() {
             query={advisorQuery}
             onQueryChange={setAdvisorQuery}
             onOpenProgram={openProgram}
-            starred={starred}
-            onToggleStar={toggleStar}
+            levels={starLevels}
+            onSetLevel={setStarLevel}
           />
         ) : view === 'schools' ? (
           <SchoolExplorer
@@ -316,8 +318,8 @@ function App() {
         ) : (
           <StarredAdvisors
             programs={fullPool}
-            starred={starred}
-            onToggleStar={toggleStar}
+            levels={starLevels}
+            onSetLevel={setStarLevel}
             onOpenProgram={openProgram}
           />
         )}

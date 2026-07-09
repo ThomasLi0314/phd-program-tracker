@@ -4,6 +4,10 @@ export interface FieldEntry {
   primary: string
   slug: string
   count: number
+  /** programs in this field that have at least one faculty member scanned */
+  withFaculty: number
+  /** total faculty across all programs in this field */
+  facultyCount: number
   subs: string[]
 }
 

@@ -12,6 +12,8 @@
       "primary": "Biology & Life Sciences",
       "slug": "biology-and-life-sciences",
       "count": 410,
+      "withFaculty": 13,
+      "facultyCount": 195,
       "subs": [
         "Aging",
         "Agricultural Engineering",
@@ -274,6 +276,8 @@
       "primary": "Geosciences",
       "slug": "geosciences",
       "count": 141,
+      "withFaculty": 141,
+      "facultyCount": 2538,
       "subs": [
         "Air Quality",
         "Applied Statistics",
@@ -388,6 +392,8 @@
       "primary": "Computer Science",
       "slug": "computer-science",
       "count": 98,
+      "withFaculty": 93,
+      "facultyCount": 1968,
       "subs": [
         "AI",
         "Algorithms",
@@ -482,6 +488,8 @@
       "primary": "Chemistry",
       "slug": "chemistry",
       "count": 87,
+      "withFaculty": 3,
+      "facultyCount": 54,
       "subs": [
         "Agricultural Chemistry",
         "Analytical Chemistry",
@@ -536,6 +544,8 @@
       "primary": "Physics",
       "slug": "physics",
       "count": 85,
+      "withFaculty": 58,
+      "facultyCount": 1312,
       "subs": [
         "AMO Physics",
         "Applied Physics",
@@ -617,6 +627,8 @@
       "primary": "Mathematics",
       "slug": "mathematics",
       "count": 81,
+      "withFaculty": 78,
+      "facultyCount": 1726,
       "subs": [
         "Algebra",
         "Algebraic Geometry",
@@ -690,6 +702,8 @@
       "primary": "Statistics & Data Science",
       "slug": "statistics-and-data-science",
       "count": 72,
+      "withFaculty": 67,
+      "facultyCount": 1239,
       "subs": [
         "AI",
         "Applied Math",
@@ -744,6 +758,8 @@
       "primary": "Astronomy & Astrophysics",
       "slug": "astronomy-and-astrophysics",
       "count": 66,
+      "withFaculty": 3,
+      "facultyCount": 61,
       "subs": [
         "Astro Data Science",
         "Astrobiology",
@@ -794,6 +810,8 @@
       "primary": "Mechanical & Aerospace Engineering",
       "slug": "mechanical-and-aerospace-engineering",
       "count": 66,
+      "withFaculty": 4,
+      "facultyCount": 66,
       "subs": [
         "Aerospace",
         "Aerospace Engineering",
@@ -856,6 +874,8 @@
       "primary": "Biomedical Engineering",
       "slug": "biomedical-engineering",
       "count": 57,
+      "withFaculty": 0,
+      "facultyCount": 0,
       "subs": [
         "Agricultural Engineering",
         "Biodevices",
@@ -909,6 +929,8 @@
       "primary": "Electrical Engineering",
       "slug": "electrical-engineering",
       "count": 43,
+      "withFaculty": 3,
+      "facultyCount": 67,
       "subs": [
         "Audio Engineering",
         "Circuits",
@@ -953,6 +975,8 @@
       "primary": "Materials Science",
       "slug": "materials-science",
       "count": 38,
+      "withFaculty": 3,
+      "facultyCount": 56,
       "subs": [
         "Applied Physics",
         "Biomaterials",
@@ -989,6 +1013,8 @@
       "primary": "Industrial Engineering & Operations Research",
       "slug": "industrial-engineering-and-operations-research",
       "count": 35,
+      "withFaculty": 33,
+      "facultyCount": 486,
       "subs": [
         "Ag Engineering",
         "Agricultural Engineering",
@@ -1043,6 +1069,8 @@
       "primary": "Chemical Engineering",
       "slug": "chemical-engineering",
       "count": 34,
+      "withFaculty": 0,
+      "facultyCount": 0,
       "subs": [
         "Biochemical Engineering",
         "Bioengineering",
@@ -1077,6 +1105,8 @@
       "primary": "Computational Science",
       "slug": "computational-science",
       "count": 24,
+      "withFaculty": 2,
+      "facultyCount": 23,
       "subs": [
         "Applied Mathematics",
         "Bioinformatics",
@@ -1108,6 +1138,8 @@
       "primary": "Other Engineering & Applied Science",
       "slug": "other-engineering-and-applied-science",
       "count": 18,
+      "withFaculty": 0,
+      "facultyCount": 0,
       "subs": [
         "Applied Science",
         "Biomedical Engineering",
@@ -1156,6 +1188,8 @@
       "primary": "Civil & Environmental Engineering",
       "slug": "civil-and-environmental-engineering",
       "count": 9,
+      "withFaculty": 0,
+      "facultyCount": 0,
       "subs": [
         "Civil Engineering",
         "Computational Mechanics",
@@ -1183,6 +1217,8 @@
       "primary": "Nuclear & Energy Engineering",
       "slug": "nuclear-and-energy-engineering",
       "count": 8,
+      "withFaculty": 0,
+      "facultyCount": 0,
       "subs": [
         "Energy",
         "Energy Systems",
@@ -1206,6 +1242,8 @@
       "primary": "Engineering Mechanics",
       "slug": "engineering-mechanics",
       "count": 4,
+      "withFaculty": 1,
+      "facultyCount": 3,
       "subs": [
         "Applied Mechanics",
         "Engineering Science",
@@ -1220,6 +1258,8 @@
       "primary": "Other STEM",
       "slug": "other-stem",
       "count": 1,
+      "withFaculty": 0,
+      "facultyCount": 0,
       "subs": [
         "Environmental Health",
         "Exposure Science",

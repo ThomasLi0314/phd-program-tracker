@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import type { Faculty, Program } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
+import { StarRating } from './StarRating'
 import { advisorKey } from '../lib/starredAdvisors'
 
 interface AdvisorHit {
@@ -39,13 +40,13 @@ function matchesQuery(hit: AdvisorHit, terms: string[]): boolean {
 
 function AdvisorCard({
   hit,
-  starred,
-  onToggleStar,
+  level,
+  onSetLevel,
   onOpenProgram,
 }: {
   hit: AdvisorHit
-  starred: boolean
-  onToggleStar: () => void
+  level: number
+  onSetLevel: (n: number) => void
   onOpenProgram: () => void
 }) {
   const { faculty: f, program: p } = hit
@@ -58,17 +59,7 @@ function AdvisorCard({
         </div>
         <div className="flex shrink-0 items-center gap-1.5">
           <RecruitmentBadge status={f.recruitment_status} />
-          <button
-            onClick={onToggleStar}
-            title={starred ? 'Remove from starred advisors' : 'Star this advisor'}
-            aria-label={starred ? 'Unstar advisor' : 'Star advisor'}
-            aria-pressed={starred}
-            className={`text-[15px] leading-none transition-transform hover:scale-110 ${
-              starred ? 'text-amber-400' : 'text-slate-300 hover:text-amber-400'
-            }`}
-          >
-            {starred ? '★' : '☆'}
-          </button>
+          <StarRating level={level} onSetLevel={onSetLevel} />
         </div>
       </div>
 
@@ -129,15 +120,15 @@ export function AdvisorExplorer({
   query,
   onQueryChange,
   onOpenProgram,
-  starred,
-  onToggleStar,
+  levels,
+  onSetLevel,
 }: {
   programs: Program[]
   query: string
   onQueryChange: (q: string) => void
   onOpenProgram: (programId: string) => void
-  starred: Set<string>
-  onToggleStar: (key: string) => void
+  levels: Map<string, number>
+  onSetLevel: (key: string, level: number) => void
 }) {
   const allHits = useMemo(
     () => programs.flatMap((p) => p.faculty.map((f) => ({ faculty: f, program: p }))),
@@ -233,8 +224,8 @@ export function AdvisorExplorer({
                 <AdvisorCard
                   key={key}
                   hit={h}
-                  starred={starred.has(key)}
-                  onToggleStar={() => onToggleStar(key)}
+                  level={levels.get(key) ?? 0}
+                  onSetLevel={(n) => onSetLevel(key, n)}
                   onOpenProgram={() => onOpenProgram(h.program.id)}
                 />
               )

@@ -1,11 +1,13 @@
 import { useMemo } from 'react'
 import type { Faculty, Program } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
+import { StarRating } from './StarRating'
 import { advisorKey } from '../lib/starredAdvisors'
 
 interface AdvisorHit {
   faculty: Faculty
   program: Program
+  level: number
 }
 
 interface FieldGroup {
@@ -21,11 +23,11 @@ const STATUS_RANK: Record<string, number> = {
 
 function StarredCard({
   hit,
-  onToggleStar,
+  onSetLevel,
   onOpenProgram,
 }: {
   hit: AdvisorHit
-  onToggleStar: () => void
+  onSetLevel: (n: number) => void
   onOpenProgram: () => void
 }) {
   const { faculty: f, program: p } = hit
@@ -38,14 +40,7 @@ function StarredCard({
         </div>
         <div className="flex shrink-0 items-center gap-1.5">
           <RecruitmentBadge status={f.recruitment_status} />
-          <button
-            onClick={onToggleStar}
-            title="Remove from starred advisors"
-            className="text-[15px] leading-none text-amber-400 transition-transform hover:scale-110"
-            aria-label="Unstar advisor"
-          >
-            ★
-          </button>
+          <StarRating level={hit.level} onSetLevel={onSetLevel} />
         </div>
       </div>
 
@@ -103,13 +98,13 @@ function StarredCard({
 
 export function StarredAdvisors({
   programs,
-  starred,
-  onToggleStar,
+  levels,
+  onSetLevel,
   onOpenProgram,
 }: {
   programs: Program[]
-  starred: Set<string>
-  onToggleStar: (key: string) => void
+  levels: Map<string, number>
+  onSetLevel: (key: string, level: number) => void
   onOpenProgram: (programId: string) => void
 }) {
   // Resolve starred keys back to advisor hits, grouped by discipline.
@@ -117,19 +112,22 @@ export function StarredAdvisors({
     const byField = new Map<string, FieldGroup>()
     for (const p of programs) {
       for (const f of p.faculty) {
-        if (!starred.has(advisorKey(p.id, f.id))) continue
+        const level = levels.get(advisorKey(p.id, f.id))
+        if (!level) continue
         const primary = p.discipline.primary
         let g = byField.get(primary)
         if (!g) {
           g = { primary, hits: [] }
           byField.set(primary, g)
         }
-        g.hits.push({ faculty: f, program: p })
+        g.hits.push({ faculty: f, program: p, level })
       }
     }
     for (const g of byField.values()) {
+      // Highest priority first, then recruiting, then university, then name.
       g.hits.sort(
         (a, b) =>
+          b.level - a.level ||
           (STATUS_RANK[a.faculty.recruitment_status] ?? 1) -
             (STATUS_RANK[b.faculty.recruitment_status] ?? 1) ||
           a.program.university.localeCompare(b.program.university) ||
@@ -140,7 +138,7 @@ export function StarredAdvisors({
     return [...byField.values()].sort(
       (a, b) => b.hits.length - a.hits.length || a.primary.localeCompare(b.primary),
     )
-  }, [programs, starred])
+  }, [programs, levels])
 
   const total = groups.reduce((n, g) => n + g.hits.length, 0)
 
@@ -150,8 +148,9 @@ export function StarredAdvisors({
         <header className="mb-3">
           <h1 className="font-serif text-lg font-bold text-slate-900">Starred Advisors</h1>
           <p className="text-[12px] text-slate-500">
-            Advisors you starred in the Advisor Explorer, grouped by field and ranked by how many
-            you starred in each. Click ★ to remove; click a program to open its deep-dive.
+            Advisors you starred, grouped by field and ranked by how many you starred in each.
+            Within a field, higher-priority advisors (★★★) come first. Click the stars to change a
+            priority; clear all three to remove.
           </p>
           <p className="mt-2 text-[11px] font-medium text-slate-500">
             {total} starred advisor{total === 1 ? '' : 's'} across {groups.length} field
@@ -163,8 +162,8 @@ export function StarredAdvisors({
           <div className="py-16 text-center">
             <p className="text-sm text-slate-400">You haven't starred any advisors yet.</p>
             <p className="mt-1 text-[12px] text-slate-400">
-              Go to the <span className="font-medium text-slate-600">Advisors</span> tab, search a
-              research direction, and click the ☆ on any advisor card.
+              In the <span className="font-medium text-slate-600">Advisors</span> tab or any
+              program's deep-dive, click the ☆☆☆ on an advisor card to set a priority.
             </p>
           </div>
         ) : (
@@ -178,14 +177,17 @@ export function StarredAdvisors({
                   </span>
                 </div>
                 <div className="gap-3 lg:columns-2 2xl:columns-3">
-                  {g.hits.map((h) => (
-                    <StarredCard
-                      key={advisorKey(h.program.id, h.faculty.id)}
-                      hit={h}
-                      onToggleStar={() => onToggleStar(advisorKey(h.program.id, h.faculty.id))}
-                      onOpenProgram={() => onOpenProgram(h.program.id)}
-                    />
-                  ))}
+                  {g.hits.map((h) => {
+                    const key = advisorKey(h.program.id, h.faculty.id)
+                    return (
+                      <StarredCard
+                        key={key}
+                        hit={h}
+                        onSetLevel={(n) => onSetLevel(key, n)}
+                        onOpenProgram={() => onOpenProgram(h.program.id)}
+                      />
+                    )
+                  })}
                 </div>
               </section>
             ))}

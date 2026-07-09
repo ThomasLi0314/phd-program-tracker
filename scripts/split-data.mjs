@@ -38,7 +38,9 @@ for (const [primary, programs] of byPrimary) {
   slugs.add(slug)
 
   const subs = [...new Set(programs.flatMap((p) => p.discipline.subs))].sort()
-  fields.push({ primary, slug, count: programs.length, subs })
+  const withFaculty = programs.filter((p) => (p.faculty?.length ?? 0) > 0).length
+  const facultyCount = programs.reduce((n, p) => n + (p.faculty?.length ?? 0), 0)
+  fields.push({ primary, slug, count: programs.length, withFaculty, facultyCount, subs })
   writeFileSync(join(FIELDS_DIR, `${slug}.json`), JSON.stringify({ primary, programs }, null, 2))
 }
 fields.sort((a, b) => b.count - a.count || a.primary.localeCompare(b.primary))

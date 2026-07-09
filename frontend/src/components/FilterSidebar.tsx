@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import type { DegreeType, Region } from '../types'
 import type { Facets, Filters } from '../lib/filters'
 import { isDefault, subKey } from '../lib/filters'
@@ -41,6 +42,68 @@ export function FilterSidebar({
   onPickField: (primary: string) => void
 }) {
   const feeUnlimited = filters.maxFee >= facets.feeCap
+  const [showEmpty, setShowEmpty] = useState(false)
+
+  // A field "has advisors" when at least one of its programs has faculty. Fields
+  // without any are folded away by default to declutter the (now 20-field) list.
+  const withFacultyByPrimary = new Map(fields.map((f) => [f.primary, f.withFaculty]))
+  const facultyCountByPrimary = new Map(fields.map((f) => [f.primary, f.facultyCount]))
+  const activeDisc = facets.disciplines.filter(
+    (d) => (withFacultyByPrimary.get(d.primary) ?? 0) > 0,
+  )
+  const emptyDisc = facets.disciplines.filter(
+    (d) => (withFacultyByPrimary.get(d.primary) ?? 0) === 0,
+  )
+
+  const renderDiscipline = ({
+    primary,
+    subs,
+    count,
+  }: {
+    primary: string
+    subs: string[]
+    count: number
+  }) => (
+    <div key={primary}>
+      <label className="flex cursor-pointer items-center gap-1.5 text-[13px] font-medium text-slate-800">
+        <input
+          type="checkbox"
+          className="size-3.5 accent-indigo-600"
+          checked={filters.primaries.has(primary)}
+          onChange={() => onChange({ ...filters, primaries: toggled(filters.primaries, primary) })}
+        />
+        <span className="flex-1">{primary}</span>
+        {loadingFields.has(primary) && (
+          <span className="animate-pulse text-[10px] font-normal text-indigo-500">loading…</span>
+        )}
+        {(facultyCountByPrimary.get(primary) ?? 0) > 0 && (
+          <span className="rounded bg-amber-100 px-1 text-[9px] font-semibold tabular-nums text-amber-700">
+            {facultyCountByPrimary.get(primary)}★
+          </span>
+        )}
+        <span className="text-[10px] tabular-nums text-slate-400">{count}</span>
+      </label>
+      <div className="ml-4 mt-0.5 space-y-0.5 border-l border-slate-200 pl-2">
+        {subs.map((sub) => {
+          const key = subKey(primary, sub)
+          return (
+            <label
+              key={key}
+              className="flex cursor-pointer items-center gap-1.5 text-xs text-slate-600 hover:text-slate-900"
+            >
+              <input
+                type="checkbox"
+                className="size-3 accent-indigo-600"
+                checked={filters.subs.has(key)}
+                onChange={() => onChange({ ...filters, subs: toggled(filters.subs, key) })}
+              />
+              {sub}
+            </label>
+          )
+        })}
+      </div>
+    </div>
+  )
 
   return (
     <aside className="flex h-full w-60 shrink-0 flex-col border-r border-slate-200 bg-slate-50/60">
@@ -74,48 +137,21 @@ export function FilterSidebar({
         <div className="mb-2">
           <FieldSearch fields={fields} onPick={onPickField} />
         </div>
-        <div className="space-y-2">
-          {facets.disciplines.map(({ primary, subs, count }) => (
-            <div key={primary}>
-              <label className="flex cursor-pointer items-center gap-1.5 text-[13px] font-medium text-slate-800">
-                <input
-                  type="checkbox"
-                  className="size-3.5 accent-indigo-600"
-                  checked={filters.primaries.has(primary)}
-                  onChange={() =>
-                    onChange({ ...filters, primaries: toggled(filters.primaries, primary) })
-                  }
-                />
-                <span className="flex-1">{primary}</span>
-                {loadingFields.has(primary) && (
-                  <span className="animate-pulse text-[10px] font-normal text-indigo-500">
-                    loading…
-                  </span>
-                )}
-                <span className="text-[10px] tabular-nums text-slate-400">{count}</span>
-              </label>
-              <div className="ml-4 mt-0.5 space-y-0.5 border-l border-slate-200 pl-2">
-                {subs.map((sub) => {
-                  const key = subKey(primary, sub)
-                  return (
-                    <label
-                      key={key}
-                      className="flex cursor-pointer items-center gap-1.5 text-xs text-slate-600 hover:text-slate-900"
-                    >
-                      <input
-                        type="checkbox"
-                        className="size-3 accent-indigo-600"
-                        checked={filters.subs.has(key)}
-                        onChange={() => onChange({ ...filters, subs: toggled(filters.subs, key) })}
-                      />
-                      {sub}
-                    </label>
-                  )
-                })}
-              </div>
-            </div>
-          ))}
-        </div>
+        <div className="space-y-2">{activeDisc.map(renderDiscipline)}</div>
+
+        {emptyDisc.length > 0 && (
+          <div className="mt-2 border-t border-slate-200 pt-2">
+            <button
+              onClick={() => setShowEmpty((v) => !v)}
+              className="flex w-full items-center justify-between text-[11px] font-medium text-slate-500 hover:text-indigo-600"
+            >
+              <span>
+                {showEmpty ? '▾' : '▸'} {emptyDisc.length} fields without advisors yet
+              </span>
+            </button>
+            {showEmpty && <div className="mt-2 space-y-2 opacity-70">{emptyDisc.map(renderDiscipline)}</div>}
+          </div>
+        )}
 
         <SectionTitle>Degree Type</SectionTitle>
         <div className="flex flex-wrap gap-1">

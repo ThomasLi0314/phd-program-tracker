@@ -1,6 +1,8 @@
 import type { Faculty, Program } from '../types'
 import { UNKNOWN } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
+import { StarRating } from './StarRating'
+import { advisorKey } from '../lib/starredAdvisors'
 
 function Value({ text }: { text: string }) {
   if (text === UNKNOWN) {
@@ -72,18 +74,27 @@ function AdmissionMatrix({ program }: { program: Program }) {
   )
 }
 
-function FacultyCard({ faculty }: { faculty: Faculty }) {
+function FacultyCard({
+  faculty,
+  level,
+  onSetLevel,
+}: {
+  faculty: Faculty
+  level: number
+  onSetLevel: (n: number) => void
+}) {
   return (
     <article className="mb-3 break-inside-avoid rounded border border-slate-200 bg-white p-3">
       <div className="flex items-start justify-between gap-2">
-        <div>
+        <div className="min-w-0">
           <h4 className="font-serif text-[15px] font-bold leading-tight text-slate-900">
             {faculty.name}
           </h4>
           <p className="mt-0.5 text-[11px] leading-snug text-slate-500">{faculty.title}</p>
         </div>
-        <div className="shrink-0">
+        <div className="flex shrink-0 items-center gap-1.5">
           <RecruitmentBadge status={faculty.recruitment_status} />
+          <StarRating level={level} onSetLevel={onSetLevel} />
         </div>
       </div>
       <div className="mt-2 flex flex-wrap gap-1">
@@ -129,7 +140,17 @@ function FacultyCard({ faculty }: { faculty: Faculty }) {
   )
 }
 
-function FacultyWaterfall({ faculty }: { faculty: Faculty[] }) {
+function FacultyWaterfall({
+  programId,
+  faculty,
+  levels,
+  onSetLevel,
+}: {
+  programId: string
+  faculty: Faculty[]
+  levels: Map<string, number>
+  onSetLevel: (key: string, level: number) => void
+}) {
   const groups = new Map<string, Faculty[]>()
   for (const f of faculty) {
     if (!groups.has(f.sub_field)) groups.set(f.sub_field, [])
@@ -155,9 +176,17 @@ function FacultyWaterfall({ faculty }: { faculty: Faculty[] }) {
             {subField} <span className="font-sans text-[11px] font-normal text-slate-400">({members.length})</span>
           </h3>
           <div className="gap-3 xl:columns-2 2xl:columns-3">
-            {members.map((f) => (
-              <FacultyCard key={f.id} faculty={f} />
-            ))}
+            {members.map((f) => {
+              const key = advisorKey(programId, f.id)
+              return (
+                <FacultyCard
+                  key={f.id}
+                  faculty={f}
+                  level={levels.get(key) ?? 0}
+                  onSetLevel={(n) => onSetLevel(key, n)}
+                />
+              )
+            })}
           </div>
         </div>
       ))}
@@ -169,10 +198,14 @@ export function DeepDive({
   program,
   inList,
   onToggleList,
+  levels,
+  onSetLevel,
 }: {
   program: Program | null
   inList: boolean
   onToggleList: () => void
+  levels: Map<string, number>
+  onSetLevel: (key: string, level: number) => void
 }) {
   if (!program) {
     return (
@@ -239,7 +272,12 @@ export function DeepDive({
         </header>
 
         <AdmissionMatrix program={program} />
-        <FacultyWaterfall faculty={program.faculty} />
+        <FacultyWaterfall
+          programId={program.id}
+          faculty={program.faculty}
+          levels={levels}
+          onSetLevel={onSetLevel}
+        />
       </div>
     </main>
   )
