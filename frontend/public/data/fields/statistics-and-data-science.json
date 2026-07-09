@@ -4316,8 +4316,340 @@
       "links": {
         "program": "https://www.publichealth.columbia.edu/academics/degrees/doctoral-programs/doctor-philosophy/biostatistics"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #15",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #15 · faculty 2026-07-09",
+      "faculty": [
+        {
+          "id": "kiros-berhane",
+          "name": "Kiros Berhane",
+          "title": "Chair and Cynthia and Robert Citrone-Roslyn and Leslie Goldstein Professor of Biostatistics",
+          "sub_field": "Environmental and children's health biostatistics",
+          "tags": [
+            "biostatistical methods",
+            "environmental health",
+            "chronic disease",
+            "child health",
+            "urban health"
+          ],
+          "summary": "Berhane develops biostatistical methods with applications to environmental health, chronic disease, and child, adolescent, and urban health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.publichealth.columbia.edu/academics/departments/biostatistics/our-faculty",
+            "scholar": null
+          }
+        },
+        {
+          "id": "melissa-begg",
+          "name": "Melissa Begg",
+          "title": "Professor of Social Work and Biostatistics",
+          "sub_field": "Biostatistical methods and public health education",
+          "tags": [
+            "biostatistical methods",
+            "public health education",
+            "statistics pedagogy"
+          ],
+          "summary": "Begg's work spans biostatistical methods and public health education; she also serves as Dean of the Columbia School of Social Work.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "xiaoyu-che",
+          "name": "Xiaoyu Che",
+          "title": "Assistant Professor of Biostatistics (in the Center for Infection and Immunity)",
+          "sub_field": "Omics and infectious disease biostatistics",
+          "tags": [
+            "biostatistical methods",
+            "OMICs",
+            "infectious diseases",
+            "autism spectrum disorder",
+            "chronic disease"
+          ],
+          "summary": "Che develops biostatistical methods for OMICs and applies them to infectious diseases, chronic disease, and autism spectrum disorder within the Center for Infection and Immunity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "qixuan-chen",
+          "name": "Qixuan Chen",
+          "title": "Associate Professor of Biostatistics",
+          "sub_field": "Causal inference and missing data",
+          "tags": [
+            "causal inference",
+            "data integration",
+            "measurement error",
+            "missing data"
+          ],
+          "summary": "Chen's methodological research focuses on causal inference, data integration, measurement error, and missing data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "bin-cheng",
+          "name": "Bin Cheng",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Biostatistical methods",
+          "tags": [
+            "biostatistical methods",
+            "aging",
+            "global health"
+          ],
+          "summary": "Cheng develops biostatistical methods with applications in aging and global health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ying-kuen-cheung",
+          "name": "Ying Kuen Cheung",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Clinical trial design methodology",
+          "tags": [
+            "biostatistical methods",
+            "clinical trials",
+            "adaptive design",
+            "mobile health"
+          ],
+          "summary": "Cheung's research focuses on biostatistical methodology, including the design and analysis of clinical trials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "codruta-chiuzan",
+          "name": "Codruta Chiuzan",
+          "title": "Assistant Professor of Biostatistics",
+          "sub_field": "Clinical trials and chronic disease",
+          "tags": [
+            "biostatistical methods",
+            "clinical trials",
+            "chronic disease",
+            "cancer"
+          ],
+          "summary": "Chiuzan works on biostatistical methods for clinical and chronic-disease research and serves as a biostatistician at the Herbert Irving Comprehensive Cancer Center.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hanga-galfalvy",
+          "name": "Hanga Galfalvy",
+          "title": "Associate Professor of Biostatistics (in Psychiatry)",
+          "sub_field": "Statistical methods in psychiatry",
+          "tags": [
+            "statistical genetics",
+            "psychiatry",
+            "suicidal behavior",
+            "biostatistical methods"
+          ],
+          "summary": "Galfalvy's research addresses statistical genetics and statistical methods in psychiatry, with a focus on suicidal behavior.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeff-goldsmith",
+          "name": "Jeff Goldsmith",
+          "title": "Associate Professor of Biostatistics and Associate Dean for Data Science",
+          "sub_field": "Functional data analysis",
+          "tags": [
+            "functional data analysis",
+            "wearable devices",
+            "accelerometer data",
+            "neuroscience",
+            "movement"
+          ],
+          "summary": "Goldsmith advances functional data analysis methods for complex datasets from neuroscience and physical-activity monitoring, including stroke patients' reaching movements and wearable-device accelerometer data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.publichealth.columbia.edu/profile/jeff-goldsmith-phd",
+            "scholar": null
+          }
+        },
+        {
+          "id": "prakash-gorroochurn",
+          "name": "Prakash Gorroochurn",
+          "title": "Associate Professor of Biostatistics",
+          "sub_field": "Statistical genetics",
+          "tags": [
+            "statistical genetics",
+            "structural equation modeling",
+            "missing data",
+            "history of statistics"
+          ],
+          "summary": "Gorroochurn works on statistical genetics, structural equation modeling, and missing data, and has written extensively on the history of probability and statistics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "r-todd-ogden",
+          "name": "R. Todd Ogden",
+          "title": "Professor of Biostatistics (in Psychiatry)",
+          "sub_field": "Functional data analysis and neuroimaging",
+          "tags": [
+            "functional data analysis",
+            "nonparametric regression",
+            "wavelets",
+            "brain imaging",
+            "statistical computing"
+          ],
+          "summary": "Ogden develops statistical methodology in functional data analysis, nonparametric regression, and wavelet methods, collaborating extensively on brain imaging studies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.publichealth.columbia.edu/profile/r-todd-ogden-phd",
+            "scholar": null
+          }
+        },
+        {
+          "id": "iuliana-ionita-laza",
+          "name": "Iuliana Ionita-Laza",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Statistical genetics and genomics",
+          "tags": [
+            "statistical genetics",
+            "machine learning",
+            "high-dimensional data",
+            "autism",
+            "Alzheimer's disease"
+          ],
+          "summary": "Ionita-Laza develops statistical and machine learning approaches for high-dimensional genetic data, applying them to the genetic basis of autism, schizophrenia, and Alzheimer's disease.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.publichealth.columbia.edu/profile/iuliana-ionita-laza-phd",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yuanjia-wang",
+          "name": "Yuanjia Wang",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Machine learning for precision medicine",
+          "tags": [
+            "machine learning",
+            "precision medicine",
+            "psychiatry",
+            "electronic health records",
+            "neurodegenerative disease"
+          ],
+          "summary": "Wang develops machine learning and AI methods for precision medicine in psychiatry and neurodegenerative diseases, integrating large-scale multimodal data including EHRs and digital phenotypes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.publichealth.columbia.edu/profile/yuanjia-wang-phd",
+            "scholar": null
+          }
+        },
+        {
+          "id": "zhezhen-jin",
+          "name": "Zhezhen Jin",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Survival analysis and resampling methods",
+          "tags": [
+            "survival analysis",
+            "resampling methods",
+            "nonparametric methods",
+            "smoothing",
+            "statistical computing"
+          ],
+          "summary": "Jin's methodological research covers resampling methods, survival analysis, nonparametric and semiparametric methods, and smoothing, with collaborations across neurology, cardiology, and oncology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.publichealth.columbia.edu/profile/zhezhen-jin-phd",
+            "scholar": null
+          }
+        },
+        {
+          "id": "shuang-wang",
+          "name": "Shuang Wang",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Statistical genetics",
+          "tags": [
+            "statistical genetics",
+            "gene-gene interactions",
+            "linkage and association",
+            "QTL mapping"
+          ],
+          "summary": "Wang develops statistical methods for detecting gene-gene interactions and for quantitative trait locus mapping in genetic linkage and association studies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.publichealth.columbia.edu/profile/shuang-wang-phd",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ian-mckeague",
+          "name": "Ian McKeague",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Statistical inference and stochastic processes",
+          "tags": [
+            "post-selection inference",
+            "empirical likelihood",
+            "functional data analysis",
+            "survival analysis",
+            "stochastic processes"
+          ],
+          "summary": "McKeague develops statistical methodology including post-selection inference, empirical likelihood, and functional data analysis, with applications to wearable-device data and survival outcomes in precision medicine.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.publichealth.columbia.edu/profile/ian-mckeague-phd",
+            "scholar": null
+          }
+        },
+        {
+          "id": "min-qian",
+          "name": "Min Qian",
+          "title": "Associate Professor of Biostatistics",
+          "sub_field": "Individualized treatment and decision-making",
+          "tags": [
+            "individualized treatment rules",
+            "medical decision-making",
+            "clinical trial design",
+            "biostatistical methods"
+          ],
+          "summary": "Qian develops statistical methods for individualized treatment policies and medical decision-making, with applications in mental health, cardiology, and clinical trial design.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.publichealth.columbia.edu/profile/min-qian-phd",
+            "scholar": null
+          }
+        },
+        {
+          "id": "seonjoo-lee",
+          "name": "Seonjoo Lee",
+          "title": "Associate Professor of Biostatistics (in Psychiatry)",
+          "sub_field": "Neuroimaging statistics and machine learning",
+          "tags": [
+            "neuroimaging",
+            "machine learning",
+            "causal inference",
+            "missing data",
+            "artificial intelligence"
+          ],
+          "summary": "Lee develops statistical and AI/ML methods that integrate neuroimaging, genetic, and clinical data to study psychiatric and neurodegenerative disorders such as schizophrenia and Alzheimer's disease.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.publichealth.columbia.edu/profile/seonjoo-lee-phd",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "cornell-university-statistics-phd",
@@ -4680,8 +5012,459 @@
       "links": {
         "program": "https://gradschool.duke.edu/academics/programs-degrees/biostatistics/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7 · faculty 2026-07-09",
+      "faculty": [
+        {
+          "id": "andrew-scott-allen",
+          "name": "Andrew Scott Allen",
+          "title": "Professor",
+          "sub_field": "Statistical genetics",
+          "tags": [
+            "statistical genetics",
+            "gene mapping",
+            "complex disease",
+            "genomics"
+          ],
+          "summary": "Develops new statistical methods for identifying susceptibility loci involved in complex human disease, integrating genetics, statistics, and computer science to address the complexities of collaborative disease-gene mapping projects. Directs the Duke Center for Statistical Genetics and Genomics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/asallen",
+            "scholar": null
+          }
+        },
+        {
+          "id": "huiman-xie-barnhart",
+          "name": "Huiman Xie Barnhart",
+          "title": "James B. Duke Distinguished Professor",
+          "sub_field": "Agreement/reliability and clinical trials",
+          "tags": [
+            "agreement and reliability",
+            "diagnostic accuracy",
+            "clinical trials",
+            "estimands"
+          ],
+          "summary": "Statistical research focuses on assessing reliability and agreement between measurement methods or raters, evaluating the performance of new medical diagnostic tests, and methods for the design and analysis of clinical trials and cohort studies. Leads multicenter trials and registry studies at the Duke Clinical Research Institute.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/huiman.barnhart",
+            "scholar": null
+          }
+        },
+        {
+          "id": "samuel-berchuck",
+          "name": "Samuel Berchuck",
+          "title": "Assistant Professor",
+          "sub_field": "Bayesian spatiotemporal modeling and machine learning",
+          "tags": [
+            "Bayesian methods",
+            "spatiotemporal models",
+            "machine learning",
+            "medical imaging",
+            "electronic health records"
+          ],
+          "summary": "Develops interpretable and computationally efficient spatiotemporal Bayesian hierarchical models and machine learning algorithms for high-dimensional data in medicine and public health, including medical imaging and electronic health records. Has created novel Bayesian methods to model visual field data and detect glaucoma progression.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/sam.berchuck",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chi-wei-cliburn-chan",
+          "name": "Chi Wei Cliburn Chan",
+          "title": "Professor",
+          "sub_field": "Computational immunology",
+          "tags": [
+            "computational immunology",
+            "Bayesian nonparametrics",
+            "flow cytometry",
+            "single-cell"
+          ],
+          "summary": "Research interests include computational immunology (stochastic and spatial models of T-cell signaling and immune regulation) and statistical methodology for immunological laboratory techniques such as flow cytometry, making heavy use of Bayesian non-parametric methods and GPU-based parallel computation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/cliburn.chan",
+            "scholar": null
+          }
+        },
+        {
+          "id": "shein-chung-chow",
+          "name": "Shein-Chung Chow",
+          "title": "Professor",
+          "sub_field": "Biopharmaceutical statistics",
+          "tags": [
+            "clinical trials",
+            "adaptive design",
+            "biosimilars",
+            "bioequivalence"
+          ],
+          "summary": "Research focuses on statistical methodology development and application in biopharmaceutical and clinical statistics, including bioavailability and bioequivalence, adaptive design methods in clinical trials, and assessment of biosimilarity of follow-on biologics. Editor-in-chief of the Journal of Biopharmaceutical Statistics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/sheinchung.chow",
+            "scholar": null
+          }
+        },
+        {
+          "id": "susan-halabi",
+          "name": "Susan Halabi",
+          "title": "James B. Duke Distinguished Professor",
+          "sub_field": "Cancer clinical trials and prognostic modeling",
+          "tags": [
+            "clinical trials",
+            "prognostic models",
+            "prostate cancer",
+            "biomarkers",
+            "high-dimensional data"
+          ],
+          "summary": "Specializes in the design and analysis of clinical trials, statistical analysis of biomarker and high-dimensional data, and the development and validation of prognostic and predictive models, particularly for men with advanced prostate cancer. First biostatistician named a Fellow of ASCO.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/susan.halabi",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elizabeth-rebecca-hauser",
+          "name": "Elizabeth Rebecca Hauser",
+          "title": "Professor",
+          "sub_field": "Statistical genetics and genetic epidemiology",
+          "tags": [
+            "statistical genetics",
+            "genetic epidemiology",
+            "gene-environment interaction",
+            "family-based data",
+            "metabolomics"
+          ],
+          "summary": "A statistical geneticist and genetic epidemiologist who develops statistical methods for the analysis of complex genetic traits, genetic analysis of family data, identification of gene-environment interactions, and integrated analysis of metabolomic and genomic data, with applications to cardiovascular disease, diabetes, kidney disease, aging, and cancer.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/elizabeth.hauser",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ricardo-henao",
+          "name": "Ricardo Henao",
+          "title": "Associate Professor",
+          "sub_field": "Machine learning for health",
+          "tags": [
+            "machine learning",
+            "deep learning",
+            "probabilistic models",
+            "electronic health records",
+            "clinical AI"
+          ],
+          "summary": "Develops machine learning methodology, largely based on probabilistic modeling and deep representation learning, for applications in health and disease, building models across data modalities such as longitudinal electronic health records, medical images, and clinical narrative text.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://biostat.duke.edu/profile/ricardo-henao",
+            "scholar": null
+          }
+        },
+        {
+          "id": "hwanhee-hong",
+          "name": "Hwanhee Hong",
+          "title": "Associate Professor",
+          "sub_field": "Bayesian methods and evidence synthesis",
+          "tags": [
+            "Bayesian methods",
+            "meta-analysis",
+            "causal inference",
+            "comparative effectiveness",
+            "mental health"
+          ],
+          "summary": "Develops Bayesian statistical methods for comparative effectiveness research, network meta-analysis, causal inference, measurement error, and generalizability, integrating multiple data sources with adaptive information borrowing to answer clinical and public-health questions, including precision mental health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/Hwanhee.Hong",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sin-ho-jung",
+          "name": "Sin-Ho Jung",
+          "title": "Professor",
+          "sub_field": "Clinical trial design and survival analysis",
+          "tags": [
+            "clinical trial design",
+            "survival analysis",
+            "longitudinal data",
+            "high-dimensional data",
+            "ROC analysis"
+          ],
+          "summary": "Research interests include the design of clinical trials, survival analysis, longitudinal data analysis, clustered data analysis, ROC curve analysis, and the design and analysis of high-dimensional microarray/genomic studies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/sinho.jung",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yi-ju-li",
+          "name": "Yi-Ju Li",
+          "title": "Professor",
+          "sub_field": "Statistical genetics and genetic epidemiology",
+          "tags": [
+            "statistical genetics",
+            "genetic epidemiology",
+            "complex disease",
+            "GWAS"
+          ],
+          "summary": "A statistical geneticist whose research centers on statistical method development and its application for the genetic investigation of human complex diseases and clinical outcomes, with work spanning Alzheimer's disease, myopia, Fuchs endothelial corneal dystrophy, drug-induced liver injury, and postoperative cardiac-surgery outcomes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/yiju.li",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sheng-luo",
+          "name": "Sheng Luo",
+          "title": "Professor",
+          "sub_field": "Longitudinal and survival data; clinical trials",
+          "tags": [
+            "longitudinal data",
+            "Bayesian methods",
+            "clinical trials",
+            "neurodegenerative disease",
+            "latent variable models"
+          ],
+          "summary": "Research areas include longitudinal and survival data analysis, functional data analysis, and latent variable modeling, with a focus on designing and applying novel statistical methods for clinical trials and observational studies in neurodegenerative disorders such as Parkinson's and Alzheimer's disease.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/sheng.luo",
+            "scholar": null
+          }
+        },
+        {
+          "id": "roland-albert-matsouaka",
+          "name": "Roland Albert Matsouaka",
+          "title": "Associate Professor",
+          "sub_field": "Causal inference and comparative effectiveness",
+          "tags": [
+            "causal inference",
+            "comparative effectiveness",
+            "overlap weights",
+            "clinical trials",
+            "observational studies"
+          ],
+          "summary": "Develops nonparametric, semiparametric, and causal inference methods for comparative effectiveness studies, including clinical trials affected by non-compliance and observational studies, applying principled methods to minimize bias. Collaborates on large cardiovascular registries at the Duke Clinical Research Institute.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/roland.matsouaka",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kouros-owzar",
+          "name": "Kouros Owzar",
+          "title": "Professor",
+          "sub_field": "Cancer genomics and high-dimensional statistics",
+          "tags": [
+            "cancer genomics",
+            "pharmacogenomics",
+            "high-dimensional data",
+            "survival analysis",
+            "statistical computing"
+          ],
+          "summary": "Research interests include cancer pharmacogenomics, statistical genetics, statistical methods for high-dimensional data, copulas, survival analysis, and statistical computing. Directs the Duke Cancer Institute Bioinformatics shared resource for analysis of high-dimensional genomic and imaging data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/kouros.owzar",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-page",
+          "name": "David Page",
+          "title": "Duke Health Distinguished Professor",
+          "sub_field": "Machine learning and biomedical data mining",
+          "tags": [
+            "machine learning",
+            "data mining",
+            "electronic health records",
+            "causal discovery",
+            "interpretability"
+          ],
+          "summary": "Works on algorithms for data mining and machine learning and their applications to biomedical data, especially de-identified electronic health records and high-throughput molecular data, with emphasis on methods for complex multi-relational and irregular temporal data that find causal relationships or produce human-interpretable output.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/david.page",
+            "scholar": null
+          }
+        },
+        {
+          "id": "anru-zhang",
+          "name": "Anru Zhang",
+          "title": "Eugene Anson Stead, Jr. Associate Professor",
+          "sub_field": "High-dimensional statistics and tensor learning",
+          "tags": [
+            "high-dimensional statistics",
+            "tensor learning",
+            "machine learning",
+            "non-convex optimization",
+            "genomics"
+          ],
+          "summary": "Research focuses on high-dimensional statistical inference, tensor learning, generative models, and non-convex optimization, with applications in electronic health records, microbiome, and genomic data analysis. Recipient of the COPSS Emerging Leader Award and IMS Tweedie Award.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/anru.zhang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jichun-xie",
+          "name": "Jichun Xie",
+          "title": "Associate Professor",
+          "sub_field": "High-dimensional genomics and multiple testing",
+          "tags": [
+            "high-dimensional data",
+            "multiple testing",
+            "FDR control",
+            "genomics",
+            "networks"
+          ],
+          "summary": "Develops computational and statistical methods for extracting information from high-throughput sequencing data in cancer and immunology, including high-dimensional networks, quantile regression, and false discovery rate control that leverage data structure and biological background to increase analysis power.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/jichun.xie",
+            "scholar": null
+          }
+        },
+        {
+          "id": "pixu-shi",
+          "name": "Pixu Shi",
+          "title": "Assistant Professor",
+          "sub_field": "Microbiome and high-dimensional statistics",
+          "tags": [
+            "microbiome",
+            "compositional data",
+            "high-dimensional regression",
+            "longitudinal data"
+          ],
+          "summary": "Develops statistical methods for high-dimensional microbiome and compositional data, including regression analysis for compositional data and time-informed tensor dimensionality reduction for longitudinal microbiome studies. Serves as Assistant Director of the Duke Microbiome Center.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/Pixu.Shi",
+            "scholar": null
+          }
+        },
+        {
+          "id": "zhicheng-ji",
+          "name": "Zhicheng Ji",
+          "title": "Assistant Professor",
+          "sub_field": "Single-cell genomics and computational biology",
+          "tags": [
+            "single-cell genomics",
+            "computational biology",
+            "machine learning",
+            "spatial transcriptomics",
+            "large language models"
+          ],
+          "summary": "Develops AI-driven and statistical methods for biomedical data science, focusing on single-cell and spatial transcriptomics analysis, deep learning for biomedical imaging, and the use of large language models for tasks such as cell-type annotation and automated data analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/Zhicheng.Ji",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alejandro-ochoa",
+          "name": "Alejandro Ochoa",
+          "title": "Assistant Professor",
+          "sub_field": "Statistical and population genetics",
+          "tags": [
+            "population genetics",
+            "statistical genetics",
+            "GWAS",
+            "relatedness",
+            "heritability"
+          ],
+          "summary": "Research in statistical genetics and computational biology focuses on estimation of population structure and relatedness and its applications, including genome-wide association studies, heritability estimation, and admixture inference. Recently developed an unbiased kinship estimator revealing cryptic relatedness as a larger confounder than previously recognized.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/alejandro.ochoa",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xiaofei-wang",
+          "name": "Xiaofei Wang",
+          "title": "Professor",
+          "sub_field": "Cancer clinical trials and causal inference",
+          "tags": [
+            "clinical trials",
+            "cancer",
+            "survival analysis",
+            "causal inference",
+            "lung cancer"
+          ],
+          "summary": "Research expertise includes survival analysis, causal inference, design and analysis of clinical trials, methods for diagnostic and predictive medicine, and analysis of data from multiple sources. Serves as lead statistician for the Alliance Respiratory Committee and Director of Statistics of the Alliance Statistics and Data Center, with extensive lung cancer trial work.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/xiaofei.wang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "laine-elliott-thomas",
+          "name": "Laine Elliott Thomas",
+          "title": "Professor",
+          "sub_field": "Comparative effectiveness and causal inference",
+          "tags": [
+            "comparative effectiveness",
+            "causal inference",
+            "observational studies",
+            "cardiovascular",
+            "real-world data"
+          ],
+          "summary": "Methodological research addresses observational treatment comparisons, time-varying treatments, heterogeneity of treatment effects, and randomized trials augmented by synthetic controls from real-world data, with substantial application to cardiovascular disease. Associate Director of DCRI Biostatistics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/laine.thomas",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rohit-singh",
+          "name": "Rohit Singh",
+          "title": "Assistant Professor",
+          "sub_field": "Computational biology and machine learning",
+          "tags": [
+            "computational biology",
+            "machine learning",
+            "single-cell genomics",
+            "drug discovery",
+            "large language models"
+          ],
+          "summary": "Research is broadly in computational biology, using machine learning, single-cell multiomics, and large language models to decode disease mechanisms and make drug and target discovery more efficient, including discovering regulatory mechanisms linking the epigenome, transcription factors, and target genes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/rohit.singh",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lin-lin",
+          "name": "Lin Lin",
+          "title": "Associate Professor",
+          "sub_field": "Bayesian genomics and cytometry",
+          "tags": [
+            "Bayesian methods",
+            "flow cytometry",
+            "single-cell",
+            "mixture models",
+            "immunology"
+          ],
+          "summary": "Develops Bayesian statistical methods, especially parametric and nonparametric mixture models and advanced numerical algorithms, for analyzing single-cell and flow/mass cytometry data used in immunological studies such as cancer immunotherapy and vaccine trials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://scholars.duke.edu/person/lin.l",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "duke-university-ph-d-in-statistical-science",
@@ -5551,8 +6334,315 @@
       "links": {
         "program": "https://biostatistics.georgetown.edu/education/phd"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #24",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #24 · faculty 2026-07-09",
+      "faculty": [
+        {
+          "id": "ming-t-tan",
+          "name": "Ming T. Tan",
+          "title": "Professor and Chair of Biostatistics; Director of Ph.D. Graduate Studies",
+          "sub_field": "Clinical trial and drug-combination design",
+          "tags": [
+            "drug combination",
+            "clinical trials",
+            "high-dimensional genomics",
+            "Bayesian methods",
+            "adaptive design"
+          ],
+          "summary": "Tan's research focuses on statistical methods for evaluating multi-drug combinations and designing pre-clinical drug therapy studies, along with analysis of high-dimensional genomics data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014TfIDAA0/ming-tan",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jaeil-ahn",
+          "name": "Jaeil Ahn",
+          "title": "Associate Professor of Biostatistics",
+          "sub_field": "Genomic and case-control methods",
+          "tags": [
+            "tumor heterogeneity",
+            "gene-environment interaction",
+            "case-control studies",
+            "genomic sequencing"
+          ],
+          "summary": "Ahn develops statistical methods for tumor heterogeneity problems based on gene sequencing data, gene-environment interaction, and case-control studies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014TT9nAAG/jaeil-ahn",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ruzong-fan",
+          "name": "Ruzong Fan",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Statistical genetics and genomics",
+          "tags": [
+            "statistical genetics",
+            "genomics",
+            "complex traits",
+            "sequencing data"
+          ],
+          "summary": "Fan conducts statistical examination of complex genetic and genomic data to understand the biological architecture of disease.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014SbZ0AAK/ruzong-fan",
+            "scholar": null
+          }
+        },
+        {
+          "id": "hongbin-fang",
+          "name": "Hongbin Fang",
+          "title": "Associate Professor of Biostatistics",
+          "sub_field": "Cancer clinical and translational studies",
+          "tags": [
+            "clinical trials",
+            "translational research",
+            "cancer",
+            "study design"
+          ],
+          "summary": "Fang works on the statistical design and analysis of laboratory, translational, clinical, and epidemiological studies in cancer.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014TZ8aAAG/hongbin-fang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "valeriy-r-korostyshevskiy",
+          "name": "Valeriy R. Korostyshevskiy",
+          "title": "Professor of Biostatistics; Director of MS Graduate Studies",
+          "sub_field": "Biomathematics and biomedical imaging",
+          "tags": [
+            "differential equations",
+            "metabolic pathways",
+            "biomedical imaging",
+            "robust computation"
+          ],
+          "summary": "Korostyshevskiy studies nonlinear differential equations for metabolic pathways, biomedical imaging, and robust computational methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014Tv9QAAS/valeriy-korostyshevskiy",
+            "scholar": null
+          }
+        },
+        {
+          "id": "james-li",
+          "name": "James Li",
+          "title": "Associate Professor of Biostatistics",
+          "sub_field": "Machine learning and AI",
+          "tags": [
+            "machine learning",
+            "deep learning",
+            "artificial intelligence",
+            "DevOps"
+          ],
+          "summary": "Li's research centers on machine learning, deep learning, and AI algorithms and their biomedical applications, as well as DevOps.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014Rj80AAC/james-li",
+            "scholar": null
+          }
+        },
+        {
+          "id": "george-luta",
+          "name": "George Luta",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Empirical likelihood and clinical trials",
+          "tags": [
+            "empirical likelihood",
+            "clinical trials",
+            "statistical methodology"
+          ],
+          "summary": "Luta develops empirical likelihood-based statistical methods for the analysis of data from clinical trials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014Rdz8AAC/george-luta",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kepher-makambi",
+          "name": "Kepher Makambi",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Meta-analysis and epidemiologic methods",
+          "tags": [
+            "meta-analysis",
+            "adaptive design",
+            "structural equation modeling",
+            "epidemiology"
+          ],
+          "summary": "Makambi's research includes meta-analysis, adaptive design methods in clinical trials, structural equation modeling, and statistical methods in epidemiology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014RixOAAS/kepher-makambi",
+            "scholar": null
+          }
+        },
+        {
+          "id": "hongkun-wang",
+          "name": "Hongkun Wang",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Survival analysis and cost-effectiveness",
+          "tags": [
+            "survival analysis",
+            "censored data",
+            "quality-adjusted lifetime",
+            "cost-effectiveness"
+          ],
+          "summary": "Wang works on survival analysis, quality-adjusted lifetime analysis with censored data, and cost-effectiveness analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014RZnoAAG/hongkun-wang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ao-yuan",
+          "name": "Ao Yuan",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Nonparametric and Bayesian methods",
+          "tags": [
+            "nonparametric methods",
+            "clinical trials",
+            "causal inference",
+            "statistical genetics",
+            "Bayesian methods"
+          ],
+          "summary": "Yuan's research spans non-, semi-, and parametric methods, clinical trials, causal inference, statistical genetics, and Bayesian methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014TRqVAAW/ao-yuan",
+            "scholar": null
+          }
+        },
+        {
+          "id": "simina-m-boca",
+          "name": "Simina M. Boca",
+          "title": "Associate Professor (Innovation Center for Biomedical Informatics)",
+          "sub_field": "Omics and precision medicine",
+          "tags": [
+            "genomics",
+            "metabolomics",
+            "precision medicine",
+            "cancer epidemiology"
+          ],
+          "summary": "Boca's research involves omics data analysis, including genomics and metabolomics, applied to precision medicine and cancer epidemiology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014TLLIAA4/simina-boca",
+            "scholar": null
+          }
+        },
+        {
+          "id": "robert-a-beckman",
+          "name": "Robert A. Beckman",
+          "title": "Professor of Oncology and Biostatistics, Bioinformatics & Biomathematics",
+          "sub_field": "Personalized cancer therapy modeling",
+          "tags": [
+            "personalized medicine",
+            "tumor heterogeneity",
+            "cancer therapy",
+            "modeling"
+          ],
+          "summary": "Beckman's research focuses on cancer therapy development with emphasis on personalized medicine and tumor heterogeneity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014T2DTAA0/robert-beckman",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ophir-frieder",
+          "name": "Ophir Frieder",
+          "title": "Professor of Computer Science (affiliated, Biostatistics/Bioinformatics)",
+          "sub_field": "Medical informatics and information retrieval",
+          "tags": [
+            "information retrieval",
+            "medical informatics",
+            "communication systems"
+          ],
+          "summary": "Frieder works on information retrieval, medical informatics, and communication systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014RV3lAAG/ophir-frieder",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christopher-a-loffredo",
+          "name": "Christopher A. Loffredo",
+          "title": "Professor of Oncology; Program Leader, Cancer Prevention and Control",
+          "sub_field": "Environmental cancer epidemiology",
+          "tags": [
+            "environmental epidemiology",
+            "cancer causes",
+            "chronic infection",
+            "chemical exposure"
+          ],
+          "summary": "Loffredo studies environmental and genetic causes of cancer, including the roles of chronic infection and chemical exposure.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014RWJ1AAO/christopher-loffredo",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-w-plankey",
+          "name": "Michael W. Plankey",
+          "title": "Professor of Medicine (affiliated, Biostatistics)",
+          "sub_field": "Longitudinal HIV epidemiology",
+          "tags": [
+            "longitudinal data",
+            "HIV",
+            "syndemic risk factors",
+            "epidemiology"
+          ],
+          "summary": "Plankey applies longitudinal data analysis methods to study syndemic risk factors and HIV outcomes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014RW0dAAG/michael-plankey",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rochelle-e-tractenberg",
+          "name": "Rochelle E. Tractenberg",
+          "title": "Professor of Neurology; Director, Collaborative for Research on Outcomes and Metrics",
+          "sub_field": "Statistical methodology education and outcomes",
+          "tags": [
+            "statistics education",
+            "curriculum development",
+            "neuropsychological assessment",
+            "outcomes"
+          ],
+          "summary": "Tractenberg's research covers statistical methodology education, curriculum development, and neuropsychological assessment and outcome metrics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014ReKQAA0/rochelle-tractenberg",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chiranjeev-dash",
+          "name": "Chiranjeev Dash",
+          "title": "Associate Professor of Oncology; Assistant Director of Health Disparities Research",
+          "sub_field": "Molecular and cancer epidemiology",
+          "tags": [
+            "epidemiology",
+            "molecular epidemiology",
+            "health disparities",
+            "minority populations"
+          ],
+          "summary": "Dash's research covers epidemiologic study design and molecular epidemiology in minority populations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://gufaculty360.georgetown.edu/s/contact/00336000014RXRWAA4/chiranjeev-dash",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "harvard-university-biostatistics",
@@ -5592,8 +6682,387 @@
       "links": {
         "program": "https://gsas.harvard.edu/program/biostatistics"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #3",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #3 · faculty 2026-07-09",
+      "faculty": [
+        {
+          "id": "john-quackenbush",
+          "name": "John Quackenbush",
+          "title": "Professor of Computational Biology and Bioinformatics; Chair, Department of Biostatistics",
+          "sub_field": "computational biology and gene regulatory networks",
+          "tags": [
+            "computational biology",
+            "genomics",
+            "gene regulatory networks",
+            "systems biology"
+          ],
+          "summary": "Quackenbush, who chairs the Department of Biostatistics, uses massive genomic and regulatory data to probe how many small effects combine to influence human health and disease, developing network-based methods to understand disease mechanisms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/john-quackenbush/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xihong-lin",
+          "name": "Xihong Lin",
+          "title": "Professor of Biostatistics",
+          "sub_field": "statistical genetics and genomics",
+          "tags": [
+            "statistical genetics",
+            "genomics",
+            "machine learning",
+            "whole genome sequencing"
+          ],
+          "summary": "Lin develops scalable statistical and machine learning/AI methods for the analysis of massive and complex genetic, genomic, epidemiological, and health data, with applications including whole genome sequencing studies and polygenic risk prediction. She holds a joint appointment as Professor and Chair of the Department of Statistics at Harvard University.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/xihong-lin/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "francesca-dominici",
+          "name": "Francesca Dominici",
+          "title": "Clarence James Gamble Professor of Biostatistics, Population, and Data Science",
+          "sub_field": "environmental health and causal inference",
+          "tags": [
+            "causal inference",
+            "environmental health",
+            "air pollution",
+            "machine learning"
+          ],
+          "summary": "Dominici's research applies machine learning, artificial intelligence, and causal inference to environmental and climate policy, in particular using large-scale air pollution studies to inform and strengthen environmental regulations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/francesca-dominici/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tianxi-cai",
+          "name": "Tianxi Cai",
+          "title": "John Rock Professor of Population and Translational Data Sciences",
+          "sub_field": "machine learning, EHR, and biomedical informatics",
+          "tags": [
+            "machine learning",
+            "electronic health records",
+            "predictive modeling",
+            "high-dimensional data"
+          ],
+          "summary": "Cai develops statistical and machine learning methods for biomarker evaluation, risk prediction, model selection, and personalized medicine, with emphasis on integrating high-dimensional data and electronic health records for translational research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/tianxi-cai/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rafael-a-irizarry",
+          "name": "Rafael A. Irizarry",
+          "title": "Professor of Biostatistics",
+          "sub_field": "genomics and applied statistics",
+          "tags": [
+            "genomics",
+            "applied statistics",
+            "bioinformatics",
+            "signal processing"
+          ],
+          "summary": "Irizarry focuses on the analysis and signal processing of microarray, next-generation sequencing, and genomic data, and is a founder of the Bioconductor project; current work leverages this expertise for developing diagnostic tools and discovering biomarkers. He also chairs the Department of Data Sciences at Dana-Farber Cancer Institute.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/rafael-a-irizarry/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "curtis-huttenhower",
+          "name": "Curtis Huttenhower",
+          "title": "Professor of Computational Biology and Bioinformatics",
+          "sub_field": "microbiome and computational biology",
+          "tags": [
+            "microbiome",
+            "computational biology",
+            "metagenomics",
+            "human health"
+          ],
+          "summary": "Huttenhower works at the intersection of microbial community function and human health, developing computational methods to understand how microbial communities in the human body influence health outcomes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/curtis-huttenhower/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "giovanni-parmigiani",
+          "name": "Giovanni Parmigiani",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Bayesian methods and cancer genomics",
+          "tags": [
+            "Bayesian methods",
+            "cancer genomics",
+            "risk prediction",
+            "decision science"
+          ],
+          "summary": "Parmigiani develops models and software for predicting who is at risk of carrying genetic variants that confer cancer susceptibility, along with Bayesian statistical methods for analyzing genomic data and comparative effectiveness research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/giovanni-parmigiani/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "brent-coull",
+          "name": "Brent Coull",
+          "title": "Professor of Biostatistics",
+          "sub_field": "environmental biostatistics and exposure mixtures",
+          "tags": [
+            "environmental health",
+            "exposure mixtures",
+            "semiparametric regression",
+            "air pollution"
+          ],
+          "summary": "Coull's methodological research covers categorical data analysis and semiparametric regression modeling, applied to environmental health questions such as air pollution effects and complex exposure mixtures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/brent-coull/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rui-duan",
+          "name": "Rui Duan",
+          "title": "Associate Professor of Biostatistics",
+          "sub_field": "distributed/federated learning and EHR",
+          "tags": [
+            "distributed learning",
+            "federated learning",
+            "electronic health records",
+            "data integration"
+          ],
+          "summary": "Duan develops statistical and computational methods for integrating evidence across different data sources and identifying signals from high-dimensional data, while accounting for the suboptimality of real-world data such as missing values and measurement error.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/rui-duan/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "junwei-lu",
+          "name": "Junwei Lu",
+          "title": "Associate Professor of Biostatistics",
+          "sub_field": "machine learning and high-dimensional statistics",
+          "tags": [
+            "machine learning",
+            "high-dimensional statistics",
+            "electronic health records",
+            "knowledge graphs"
+          ],
+          "summary": "Lu develops machine learning and high-dimensional statistical methods, including large-scale knowledge graphs and medical embedding vectors derived from electronic health records.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/junwei-lu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lorenzo-trippa",
+          "name": "Lorenzo Trippa",
+          "title": "Professor of Biostatistics",
+          "sub_field": "Bayesian clinical trial design",
+          "tags": [
+            "Bayesian methods",
+            "adaptive clinical trials",
+            "Bayesian nonparametrics",
+            "clinical trial design"
+          ],
+          "summary": "Trippa develops adaptive clinical trial designs and studies algorithms and methodologies for analyzing data generated by adaptive trials, including applications of Bayesian nonparametrics in biomedical research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/lorenzo-trippa/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeffrey-w-miller",
+          "name": "Jeffrey W. Miller",
+          "title": "Associate Professor of Biostatistics",
+          "sub_field": "Bayesian methods",
+          "tags": [
+            "Bayesian methods",
+            "genomics",
+            "aging",
+            "cancer"
+          ],
+          "summary": "Miller develops statistical methods, using high-throughput genomic data to build mathematical models of the key biological processes and molecular mechanisms that underlie age-related decline in general, and cancer in particular.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/jeffrey-miller/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nima-hejazi",
+          "name": "Nima Hejazi",
+          "title": "Assistant Professor of Biostatistics",
+          "sub_field": "causal inference and machine learning",
+          "tags": [
+            "causal inference",
+            "statistical machine learning",
+            "computational statistics",
+            "biomedical"
+          ],
+          "summary": "Hejazi explores how advances in causal inference, statistical machine learning, and computational statistics catalyze discovery in the biomedical and public health sciences, developing inference methods that incorporate flexible machine learning while providing strong uncertainty quantification.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/nima-hejazi/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rajarshi-mukherjee",
+          "name": "Rajarshi Mukherjee",
+          "title": "Associate Professor of Biostatistics",
+          "sub_field": "high-dimensional inference",
+          "tags": [
+            "high-dimensional inference",
+            "causal inference",
+            "selection bias",
+            "environmental epidemiology"
+          ],
+          "summary": "Mukherjee develops biostatistical methods for high-dimensional inference and epidemiological studies, addressing problems such as selection bias in emulated target trials as well as environmental health questions like lead exposure and cognition.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/rajarshi-mukherjee/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "martin-aryee",
+          "name": "Martin Aryee",
+          "title": "Associate Professor of Biostatistics",
+          "sub_field": "epigenomics and single-cell genomics",
+          "tags": [
+            "epigenomics",
+            "single-cell genomics",
+            "cancer genomics",
+            "computational biology"
+          ],
+          "summary": "Aryee develops computational methods for analyzing complex biological data, with applications spanning cancer genomics, hematologic malignancies, epigenomics, and single-cell transcriptomics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/martin-aryee/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christoph-lange",
+          "name": "Christoph Lange",
+          "title": "Professor of Biostatistics",
+          "sub_field": "statistical genetics",
+          "tags": [
+            "statistical genetics",
+            "GWAS",
+            "whole-genome sequencing",
+            "computational methods"
+          ],
+          "summary": "Lange works at the intersection of biostatistical methodology, numerical analysis, and computer science, addressing statistical and computational challenges in genome-wide association and whole-genome sequencing studies, with collaborative research in asthma, COPD, and Alzheimer's genetics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/christoph-lange/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "georg-hahn",
+          "name": "Georg Hahn",
+          "title": "Assistant Professor of Biostatistics",
+          "sub_field": "statistical and computational methodology",
+          "tags": [
+            "statistical methodology",
+            "statistical genetics",
+            "real-world evidence",
+            "computational statistics"
+          ],
+          "summary": "Hahn develops statistical methodology in the Biostatistics Department, with emphasis on computational and statistical methods including real-world evidence analysis and applications in statistical genetics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/georg-hahn/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rachel-nethery",
+          "name": "Rachel Nethery",
+          "title": "Associate Professor of Biostatistics",
+          "sub_field": "environmental biostatistics",
+          "tags": [
+            "environmental health",
+            "causal inference",
+            "climate and health",
+            "spatial statistics"
+          ],
+          "summary": "Nethery develops statistical methods for environmental and population health questions, focusing on estimating the health impacts of environmental contaminant exposures and policies, and studying the effects of extreme weather exposures and natural disasters on health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/rachel-nethery/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jukka-pekka-jp-onnela",
+          "name": "Jukka-Pekka (JP) Onnela",
+          "title": "Professor of Biostatistics",
+          "sub_field": "network science and digital phenotyping",
+          "tags": [
+            "network science",
+            "digital phenotyping",
+            "smartphone data",
+            "statistical methods"
+          ],
+          "summary": "Onnela's research spans statistical network science and digital phenotyping, defined as the moment-by-moment quantification of individual-level human phenotypes using data from smartphones and other personal digital devices.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/research/onnela-lab/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "briana-joy-k-stephenson",
+          "name": "Briana Joy K. Stephenson",
+          "title": "Assistant Professor of Biostatistics",
+          "sub_field": "Bayesian methods and model-based clustering",
+          "tags": [
+            "Bayesian methods",
+            "model-based clustering",
+            "nutritional epidemiology",
+            "health disparities"
+          ],
+          "summary": "Stephenson uses Bayesian methods to create innovative model-based clustering techniques that address data complexities in large, heterogeneous populations, with collaborative applications in maternal health, nutritional epidemiology, cardiovascular disease, and cancer disparities.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/briana-joy-k-stephenson/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "l-j-wei",
+          "name": "L. J. Wei",
+          "title": "Professor of Biostatistics",
+          "sub_field": "clinical trials methodology",
+          "tags": [
+            "clinical trials",
+            "study design",
+            "survival analysis",
+            "adaptive design"
+          ],
+          "summary": "Wei develops statistical methods for the design and analysis of clinical trials, having introduced the urn design for sequential studies, response-adaptive designs, and multivariate methods for analyzing data with multiple outcomes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hsph.harvard.edu/profile/l-j-wei/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "harvard-university-statistics",
@@ -6180,8 +7649,294 @@
       "links": {
         "program": "https://e-catalogue.jhu.edu/medicine/graduate-programs/health-sciences-informatics-phd/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #7",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7 · faculty 2026-07-09",
+      "faculty": [
+        {
+          "id": "christopher-g-chute",
+          "name": "Christopher G. Chute",
+          "title": "Bloomberg Distinguished Professor of Health Informatics; Professor of Medicine",
+          "sub_field": "Clinical data standards, terminologies and ontology",
+          "tags": [
+            "clinical terminologies",
+            "ontology",
+            "EHR data harmonization",
+            "ICD-11",
+            "learning health systems"
+          ],
+          "summary": "Section head of Biomedical Informatics & Data Science and Chief Research Information Officer for Johns Hopkins Medicine, Chute studies how to represent clinical information to support analyses and decision support, emphasizing semantic consistency, harmonized information models, ontology, and harmonizing real-world EHR data for learning health systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.hopkinsmedicine.org/provider/christopher-g-chute/2777367",
+            "scholar": null
+          }
+        },
+        {
+          "id": "hadi-kharrazi",
+          "name": "Hadi Kharrazi",
+          "title": "Professor of Health Policy and Management (joint appointment in Biomedical Informatics & Data Science); Director, Health Sciences Informatics PhD Program",
+          "sub_field": "Population and global health informatics",
+          "tags": [
+            "population health informatics",
+            "clinical decision support",
+            "predictive analytics",
+            "electronic health records",
+            "CPHIT"
+          ],
+          "summary": "Director of the Health Sciences Informatics PhD and MSc research programs and co-director of the Center for Population Health IT (CPHIT), Kharrazi's research focuses on population and global health informatics, contextualizing clinical decision support into population health using electronic health records and consumer health informatics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.hopkinsmedicine.org/provider/hadi-kharrazi/2777142",
+            "scholar": null
+          }
+        },
+        {
+          "id": "harold-p-lehmann",
+          "name": "Harold P. Lehmann",
+          "title": "Professor of Medicine (Biomedical Informatics & Data Science); Professor of Pediatrics",
+          "sub_field": "Evidence-based medicine and clinical research informatics",
+          "tags": [
+            "evidence-based medicine",
+            "real-world evidence",
+            "decision analysis",
+            "clinical research informatics",
+            "EHR secondary use"
+          ],
+          "summary": "Director of research and training for the Health Sciences Informatics section, Lehmann investigates real-world evidence, evidence-based medicine and decision-making, and the informatics infrastructure for secondary use of electronic health records in clinical investigation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.hopkinsmedicine.org/provider/harold-lehmann/2777314",
+            "scholar": null
+          }
+        },
+        {
+          "id": "casey-overby-taylor",
+          "name": "Casey Overby Taylor",
+          "title": "Associate Professor of Medicine (joint appointment in Biomedical Engineering)",
+          "sub_field": "Genomics and public health informatics",
+          "tags": [
+            "genomic medicine",
+            "public health genomics",
+            "clinical decision support",
+            "translational informatics",
+            "electronic health records"
+          ],
+          "summary": "A BIDS-section faculty member and core faculty in the Institute for Computational Medicine, Overby Taylor works at the intersection of public health genomics and biomedical informatics, developing applications that translate genomic research into clinical and population-based health care using electronic health records.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.hopkinsmedicine.org/provider/casey-overby-taylor/2728024",
+            "scholar": null
+          }
+        },
+        {
+          "id": "paul-g-nagy",
+          "name": "Paul G. Nagy",
+          "title": "Associate Professor of Medicine",
+          "sub_field": "Imaging and observational health informatics",
+          "tags": [
+            "medical imaging informatics",
+            "observational research",
+            "OHDSI",
+            "educational informatics",
+            "real-world data"
+          ],
+          "summary": "Head of Biomedical Informatics & Data Science and director of education for its graduate training programs, Nagy develops imaging biomarkers and conducts observational health research using standardized EHR data, and co-directs the Responsible AI, Information Sciences, and Education (RAISE) Center.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.hopkinsmedicine.org/provider/paul-g-nagy/2777830",
+            "scholar": null
+          }
+        },
+        {
+          "id": "karen-a-robinson",
+          "name": "Karen A. Robinson",
+          "title": "Professor of Medicine",
+          "sub_field": "Evidence synthesis and evidence-based research",
+          "tags": [
+            "systematic reviews",
+            "evidence synthesis",
+            "meta-analysis",
+            "evidence-based research",
+            "comparative effectiveness"
+          ],
+          "summary": "A faculty member in the General Internal Medicine / BIDS section, Robinson directs the Johns Hopkins Evidence-Based Practice Center and focuses on the identification, synthesis, and presentation of evidence to inform healthcare decisions and research, coining the concept of evidence-based research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.hopkinsmedicine.org/provider/karen-a-robinson/2777226",
+            "scholar": null
+          }
+        },
+        {
+          "id": "khyzer-bin-izhar-aziz",
+          "name": "Khyzer Bin Izhar Aziz",
+          "title": "Associate Professor of Pediatrics; Assistant Professor of Medicine",
+          "sub_field": "Neonatal precision medicine and clinical data science",
+          "tags": [
+            "precision medicine",
+            "machine learning",
+            "clinical decision support",
+            "neonatology",
+            "EHR analytics"
+          ],
+          "summary": "Associate director of the MS in Applied Health Sciences Informatics programs in BIDS and Chief Medical Information Officer of The Johns Hopkins Hospital, Aziz leverages electronic medical records and national databases with machine learning to inform clinical decision-making in neonatal precision medicine.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.hopkinsmedicine.org/provider/khyzer-aziz/2707167",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jonathan-p-weiner",
+          "name": "Jonathan P. Weiner",
+          "title": "Professor of Health Policy and Management (joint appointment in Health Sciences Informatics, School of Medicine)",
+          "sub_field": "Population health informatics and predictive modeling",
+          "tags": [
+            "population health informatics",
+            "risk adjustment",
+            "predictive modeling",
+            "ACG system",
+            "big data analytics"
+          ],
+          "summary": "Founding director of the Center for Population Health IT (CPHIT) and co-developer of the Johns Hopkins ACG risk-adjustment system, Weiner researches the application of information technology and 'big data' from medical, insurance, public health, and social sectors to population health, predictive modeling, and performance measurement.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.hopkinsmedicine.org/provider/jonathan-weiner/2777767",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elham-hatef",
+          "name": "Elham Hatef",
+          "title": "Associate Professor of Medicine",
+          "sub_field": "Population health informatics and social determinants of health",
+          "tags": [
+            "social determinants of health",
+            "population health analytics",
+            "health IT",
+            "natural language processing",
+            "real-world data"
+          ],
+          "summary": "A dual board-certified preventive medicine physician and clinical informatician and core faculty at CPHIT, Hatef assesses the impact of social needs and social determinants of health on outcomes and utilization using health IT, real-world data, and natural language processing of structured and unstructured EHR data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "nic-dobbins",
+          "name": "Nic Dobbins",
+          "title": "Assistant Director for Education, Biomedical Informatics & Data Science (Department of Medicine)",
+          "sub_field": "Clinical NLP and cohort discovery",
+          "tags": [
+            "natural language processing",
+            "large language models",
+            "cohort discovery",
+            "clinical text de-identification",
+            "electronic health records"
+          ],
+          "summary": "Dobbins leads BIDS efforts in large-scale de-identification of clinical notes, large language model usage and evaluation, and cohort-discovery tool development; he is the creator of Leaf, a widely used cohort-discovery tool, and pioneered NLP/LLM methods to identify clinical-trial-eligible patients from EHR data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "suchi-saria",
+          "name": "Suchi Saria",
+          "title": "Associate Professor of Computer Science, Statistics, and Health Policy (joint appointment in Health System Informatics, School of Medicine)",
+          "sub_field": "Machine learning for healthcare",
+          "tags": [
+            "machine learning",
+            "probabilistic modeling",
+            "clinical prediction",
+            "electronic health records",
+            "AI in medicine"
+          ],
+          "summary": "Founding research director of the Malone Center for Engineering in Healthcare, Saria develops Bayesian and probabilistic machine-learning methods for modeling and prediction in real-world temporal health systems, using EHR and sensing data to individualize diagnosis and treatment (including early sepsis detection).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.hopkinsmedicine.org/provider/suchi-saria/2777255",
+            "scholar": null
+          }
+        },
+        {
+          "id": "t-y-alvin-liu",
+          "name": "T. Y. Alvin Liu",
+          "title": "Associate Professor of Ophthalmology",
+          "sub_field": "Artificial intelligence in ophthalmology",
+          "tags": [
+            "artificial intelligence",
+            "medical imaging",
+            "retinal disease screening",
+            "precision ophthalmology",
+            "health equity"
+          ],
+          "summary": "Founding director of the Wilmer Precision Ophthalmology Center of Excellence and the Gills Rising Professor of AI in Ophthalmology, Liu develops and evaluates artificial intelligence for screening, diagnosis, and treatment of eye diseases such as diabetic retinopathy and age-related macular degeneration.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.hopkinsmedicine.org/provider/alvin-liu/2706300",
+            "scholar": null
+          }
+        },
+        {
+          "id": "scott-levin",
+          "name": "Scott Levin",
+          "title": "Associate Professor of Emergency Medicine (joint appointment in Civil & Systems Engineering)",
+          "sub_field": "Health systems engineering and data science",
+          "tags": [
+            "health systems engineering",
+            "operations research",
+            "machine learning",
+            "clinical decision support",
+            "care delivery"
+          ],
+          "summary": "Levin develops systems-engineering and data-science tools, including a machine-learning-based electronic triage system, to improve the effectiveness, safety, and efficiency of healthcare delivery and the deployment of scarce health-care resources.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeremiah-s-hinson",
+          "name": "Jeremiah S. Hinson",
+          "title": "Associate Professor of Emergency Medicine",
+          "sub_field": "Clinical data science and predictive modeling",
+          "tags": [
+            "machine learning",
+            "predictive modeling",
+            "emergency department operations",
+            "acute kidney injury",
+            "electronic health records"
+          ],
+          "summary": "Co-director of the Center for Data Science in Emergency Medicine, Hinson applies machine-learning methods to electronic health record data to improve patient outcomes, including predictive models for acute kidney injury and electronic triage in the emergency department.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "wendy-l-bennett",
+          "name": "Wendy L. Bennett",
+          "title": "Associate Professor of Medicine (General Internal Medicine)",
+          "sub_field": "Clinical informatics and pragmatic trials",
+          "tags": [
+            "clinical informatics",
+            "health information technology",
+            "pragmatic trials",
+            "women's health",
+            "chronic disease"
+          ],
+          "summary": "A BIDS faculty-board member and Director of Research at Johns Hopkins Community Physicians, Bennett conducts pragmatic and community-based trials that apply health information technology, clinical informatics, and data science to prevent and manage obesity, diabetes, and cardiovascular disease, particularly among women.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "johns-hopkins-university-biostatistics-phd",

@@ -4,7 +4,7 @@
     "generated_at": "2026-07-06",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep",
-    "note": "1377 STEM PhD/MSc programs; faculty rosters on 529 programs (10390 faculty). Unknown/Verify = not yet confirmed on an official page."
+    "note": "1377 STEM PhD/MSc programs; faculty rosters on 534 programs (10485 faculty). Unknown/Verify = not yet confirmed on an official page."
   },
   "total": 1377,
   "fields": [
@@ -1063,8 +1063,8 @@
       "primary": "Statistics & Data Science",
       "slug": "statistics-and-data-science",
       "count": 72,
-      "withFaculty": 67,
-      "facultyCount": 1239,
+      "withFaculty": 72,
+      "facultyCount": 1334,
       "subs": [
         "AI",
         "Applied Math",
@@ -1124,6 +1124,7 @@
         "Bayesian Statistics",
         "Bioinformatics",
         "Biomedical Data Science",
+        "Biomedical Informatics",
         "Biostatistics",
         "Causal Inference",
         "Clinical Research",
