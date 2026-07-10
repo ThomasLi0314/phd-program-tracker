@@ -4,7 +4,7 @@
     "generated_at": "2026-07-06",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep",
-    "note": "1377 STEM PhD/MSc programs; faculty rosters on 535 programs (11502 faculty). Unknown/Verify = not yet confirmed on an official page."
+    "note": "1377 STEM PhD/MSc programs; faculty rosters on 535 programs (12484 faculty). Unknown/Verify = not yet confirmed on an official page."
   },
   "total": 1377,
   "fields": [
@@ -928,7 +928,7 @@
       "slug": "mathematics",
       "count": 81,
       "withFaculty": 78,
-      "facultyCount": 1726,
+      "facultyCount": 2708,
       "subs": [
         "Algebra",
         "Algebraic Geometry",
