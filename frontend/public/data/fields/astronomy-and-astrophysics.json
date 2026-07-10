@@ -1316,22 +1316,17 @@
       "links": {
         "program": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/physics-astronomy/physics-phd/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #7 · faculty 2026-07-08",
+      "data_currency": "2026-07-05 · top-50 sweep · US News #7 · faculty 2026-07-10",
       "faculty": [
         {
           "id": "n-peter-armitage",
           "name": "N. Peter Armitage",
           "title": "Professor",
-          "sub_field": "Condensed Matter Physics",
+          "sub_field": "Hard Condensed Matter Physics",
           "tags": [
-            "condensed matter",
-            "experiment",
-            "superconductivity",
-            "quantum magnetism",
-            "terahertz spectroscopy",
-            "topological materials"
+            "Hard Condensed Matter Physics"
           ],
-          "summary": "Experimental condensed matter physicist investigating exotic electronic states at low temperatures using terahertz and microwave spectroscopy, including superconductors, quantum spin liquids, topological insulators, and Weyl/Dirac semimetals.",
+          "summary": "N. Peter Armitage is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Hard Condensed Matter Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/n-peter-armitage/",
@@ -1361,17 +1356,12 @@
         {
           "id": "tyrel-m-mcqueen",
           "name": "Tyrel M. McQueen",
-          "title": "Professor and Henry A. Rowland Chair",
-          "sub_field": "Condensed Matter Physics",
+          "title": "Professor and Henry A. Rowland Chair of Physics and Astronomy",
+          "sub_field": "Hard Condensed Matter Physics",
           "tags": [
-            "condensed matter",
-            "experiment",
-            "crystal growth",
-            "quantum materials",
-            "solid state chemistry",
-            "superconductivity"
+            "Hard Condensed Matter Physics"
           ],
-          "summary": "Solid state chemist and condensed matter physicist focused on discovering new materials with exotic electronic states. Directs the NSF-funded PARADIM Bulk Crystal Growth Facility for quantum materials synthesis.",
+          "summary": "Tyrel M. McQueen is Professor and Henry A. Rowland Chair of Physics and Astronomy in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Hard Condensed Matter Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/tyrel-mcqueen/",
@@ -1402,16 +1392,12 @@
           "id": "daniel-h-reich",
           "name": "Daniel H. Reich",
           "title": "Professor",
-          "sub_field": "Condensed Matter Physics",
+          "sub_field": "Biological Physics",
           "tags": [
-            "condensed matter",
-            "experiment",
-            "magnetism",
-            "superconductivity",
-            "biological physics",
-            "soft matter"
+            "Biological Physics",
+            "Soft Condensed Matter Physics"
           ],
-          "summary": "Experimental physicist spanning hard condensed matter (quantum magnets, superconductor-ferromagnet heterostructures) and soft matter/biological physics (cell mechanics, active matter microrheology).",
+          "summary": "Daniel H. Reich is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Biological Physics, Soft Condensed Matter Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/daniel-h-reich/",
@@ -1422,16 +1408,11 @@
           "id": "yi-li",
           "name": "Yi Li",
           "title": "Assistant Professor",
-          "sub_field": "Condensed Matter Physics",
+          "sub_field": "Hard Condensed Matter Physics",
           "tags": [
-            "condensed matter",
-            "theory",
-            "topological superconductivity",
-            "itinerant ferromagnetism",
-            "flat bands",
-            "strongly correlated systems"
+            "Hard Condensed Matter Physics"
           ],
-          "summary": "Theoretical condensed matter physicist exploring exotic quantum phases including topological superconductivity, itinerant ferromagnetism, and flat band physics using non-perturbative analytic and quantum Monte Carlo methods. Sloan Fellow (2018).",
+          "summary": "Yi Li is Assistant Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Hard Condensed Matter Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/yi-li/",
@@ -1442,16 +1423,13 @@
           "id": "matthieu-wyart",
           "name": "Matthieu Wyart",
           "title": "W. H. Miller Professor",
-          "sub_field": "Condensed Matter Physics",
+          "sub_field": "Hard Condensed Matter Physics",
           "tags": [
-            "condensed matter",
-            "theory",
-            "soft matter",
-            "glass transition",
-            "jamming",
-            "granular flows"
+            "Hard Condensed Matter Physics",
+            "Machine Learning",
+            "Soft Condensed Matter Physics"
           ],
-          "summary": "Theoretical physicist studying the glass transition, yielding transition, jamming of granular materials, marginal stability in amorphous solids, and the theory of deep learning. Simons Investigator. Joined JHU in November 2024 from EPFL.",
+          "summary": "Matthieu Wyart is W. H. Miller Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Hard Condensed Matter Physics, Machine Learning, Soft Condensed Matter Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/matthieu-wyart/",
@@ -1461,20 +1439,15 @@
         {
           "id": "charles-l-bennett",
           "name": "Charles L. Bennett",
-          "title": "Bloomberg Distinguished Professor",
-          "sub_field": "Astrophysics / Cosmology",
+          "title": "Bloomberg Distinguished Professor, Alumni Centennial Professor of Physics and Astronomy, APL Principal Professional Staff",
+          "sub_field": "Astrophysics",
           "tags": [
-            "astrophysics",
-            "cosmology",
-            "CMB",
-            "WMAP",
-            "experiment",
-            "inflation"
+            "Astrophysics"
           ],
-          "summary": "Observational cosmologist and Principal Investigator of NASA's WMAP mission, which established the Standard Cosmological Model. Co-PI of the CLASS telescope mapping CMB polarization from Chile to search for inflationary gravitational waves. Recipient of the Breakthrough Prize (2018).",
+          "summary": "Charles L. Bennett is Bloomberg Distinguished Professor, Alumni Centennial Professor of Physics and Astronomy, APL Principal Professional Staff in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://physics-astronomy.jhu.edu/directory/charles-bennett/",
+            "homepage": "https://physics-astronomy.jhu.edu/directory/charles-l-bennett/",
             "scholar": null
           }
         },
@@ -1502,16 +1475,12 @@
           "id": "marc-kamionkowski",
           "name": "Marc Kamionkowski",
           "title": "William R. Kenan, Jr. Professor",
-          "sub_field": "Astrophysics / Cosmology",
+          "sub_field": "Astrophysics",
           "tags": [
-            "astrophysics",
-            "cosmology",
-            "theory",
-            "dark matter",
-            "CMB",
-            "inflation"
+            "Astrophysics",
+            "Particle Physics"
           ],
-          "summary": "Theoretical cosmologist whose work spans dark matter, cosmic microwave background, inflation, dark energy, and gravitational waves. Pioneered tools for CMB analysis and early-universe probes. Member of the American Academy of Arts and Sciences.",
+          "summary": "Marc Kamionkowski is William R. Kenan, Jr. Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics, Particle Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/marc-kamionkowski/",
@@ -1540,21 +1509,16 @@
         },
         {
           "id": "rosemary-f-g-wyse",
-          "name": "Rosemary F. G. Wyse",
+          "name": "Rosemary F.G. Wyse",
           "title": "Alumni Centennial Professor",
           "sub_field": "Astrophysics",
           "tags": [
-            "astrophysics",
-            "galactic archaeology",
-            "Milky Way",
-            "stellar populations",
-            "dark matter",
-            "galaxy formation"
+            "Astrophysics"
           ],
-          "summary": "World-leading expert in galactic archaeology, using the fossil record in old stars to decode the formation history of the Milky Way. Studies stellar populations, dark matter distribution, and galaxy formation physics.",
+          "summary": "Rosemary F.G. Wyse is Alumni Centennial Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://physics-astronomy.jhu.edu/directory/rosemary-wyse/",
+            "homepage": "https://physics-astronomy.jhu.edu/directory/rosemary-f-g-wyse/",
             "scholar": null
           }
         },
@@ -1584,14 +1548,9 @@
           "title": "Professor",
           "sub_field": "Astrophysics",
           "tags": [
-            "astrophysics",
-            "theory",
-            "black holes",
-            "accretion disks",
-            "AGN",
-            "MHD"
+            "Astrophysics"
           ],
-          "summary": "Theoretical astrophysicist specializing in black hole accretion, active galactic nuclei, relativistic MHD simulations, and electromagnetic counterparts of gravitational wave sources. Author of the standard graduate text Active Galactic Nuclei.",
+          "summary": "Julian H. Krolik is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/julian-h-krolik/",
@@ -1601,17 +1560,12 @@
         {
           "id": "joseph-silk",
           "name": "Joseph Silk",
-          "title": "Homewood Professor of Physics and Astronomy",
-          "sub_field": "Astrophysics / Cosmology",
+          "title": "Research Professor and Homewood Professor of Physics and Astronomy",
+          "sub_field": "Astrophysics",
           "tags": [
-            "astrophysics",
-            "cosmology",
-            "CMB",
-            "dark matter",
-            "galaxy formation",
-            "theory"
+            "Astrophysics"
           ],
-          "summary": "Pioneering theoretical cosmologist whose work on CMB damping (Silk damping) and galaxy formation shaped modern cosmology. Recipient of the Balzan Prize (2011) and Henry Norris Russell Lectureship (2018).",
+          "summary": "Joseph Silk is Research Professor and Homewood Professor of Physics and Astronomy in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/joseph-silk/",
@@ -1622,16 +1576,11 @@
           "id": "tobias-marriage",
           "name": "Tobias Marriage",
           "title": "Professor",
-          "sub_field": "Astrophysics / Cosmology",
+          "sub_field": "Astrophysics",
           "tags": [
-            "astrophysics",
-            "cosmology",
-            "CMB",
-            "experiment",
-            "CLASS",
-            "ACT"
+            "Astrophysics"
           ],
-          "summary": "Observational cosmologist co-leading the CLASS CMB polarization telescope in Chile, searching for inflationary B-mode signatures. Also studies galaxy clusters via the Sunyaev-Zeldovich effect and serves as Director of Graduate Studies.",
+          "summary": "Tobias Marriage is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/tobias-marriage/",
@@ -1644,17 +1593,12 @@
           "title": "W. H. Miller Professor",
           "sub_field": "Astrophysics",
           "tags": [
-            "astrophysics",
-            "multi-messenger",
-            "gravitational waves",
-            "radio astronomy",
-            "transients",
-            "LIGO"
+            "Astrophysics"
           ],
-          "summary": "Multi-messenger time-domain astronomer studying relativistic transients and gravitational wave sources via radio follow-up. Key leadership roles in LIGO, Cosmic Explorer, and the JHU-NRAO ngVLA partnership. Recipient of the 2022 New Horizons in Physics Prize.",
+          "summary": "Alessandra Corsi is W. H. Miller Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://physics-astronomy.jhu.edu/directory/alessandra-corsi/",
+            "homepage": "https://www.alessandracorsi.com/",
             "scholar": null
           }
         },
@@ -1684,14 +1628,9 @@
           "title": "Associate Professor",
           "sub_field": "Astrophysics",
           "tags": [
-            "astrophysics",
-            "exoplanets",
-            "galactic astronomy",
-            "planet formation",
-            "stellar populations",
-            "metal-poor stars"
+            "Astrophysics"
           ],
-          "summary": "Observational astrophysicist at the intersection of exoplanets and galactic astronomy, studying planet formation and evolution. Leads the first all-sky search for the oldest and most chemically primitive stars in the Milky Way.",
+          "summary": "Kevin Schlaufman is Associate Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/kevin-schlaufman/",
@@ -1704,14 +1643,9 @@
           "title": "Vera C. Rubin Assistant Professor",
           "sub_field": "Astrophysics",
           "tags": [
-            "astrophysics",
-            "planet formation",
-            "exoplanets",
-            "debris disks",
-            "ALMA",
-            "JWST"
+            "Astrophysics"
           ],
-          "summary": "Observational astrophysicist using multi-wavelength facilities (ALMA, JWST, HST) to study planet formation in debris disks, exoplanet habitability, and the impact of stellar flares on planetary atmospheres. Deputy PI of FIRSST space telescope concept.",
+          "summary": "Meredith MacGregor is Vera C. Rubin Assistant Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/meredith-macgregor/",
@@ -1721,17 +1655,12 @@
         {
           "id": "benjamin-d-wandelt",
           "name": "Benjamin D. Wandelt",
-          "title": "Bloomberg Distinguished Professor",
-          "sub_field": "Astrophysics / Cosmology",
+          "title": "Bloomberg Distinguished Professor of Cosmology and Scientific AI",
+          "sub_field": "Astrophysics",
           "tags": [
-            "astrophysics",
-            "cosmology",
-            "scientific AI",
-            "CMB",
-            "statistical inference",
-            "large-scale structure"
+            "Astrophysics"
           ],
-          "summary": "Cosmologist and data scientist bridging cosmology with AI/ML, developing Bayesian inference methods (BORG algorithm, Gibbs sampling for CMB) to extract fundamental physics from astronomical surveys. Co-recipient of the 2018 Gruber Cosmology Prize with Planck.",
+          "summary": "Benjamin D. Wandelt is Bloomberg Distinguished Professor of Cosmology and Scientific AI in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/benjamin-d-wandelt/",
@@ -1764,14 +1693,9 @@
           "title": "Professor",
           "sub_field": "Particle Physics",
           "tags": [
-            "particle physics",
-            "experiment",
-            "LHC",
-            "CMS",
-            "Higgs boson",
-            "collider physics"
+            "Particle Physics"
           ],
-          "summary": "Experimental high-energy physicist on the CMS experiment at the LHC, contributing to the Higgs boson discovery and characterization. Developer of the MELA technique and JHU Generator framework for measuring spin/parity of new resonances at hadron colliders.",
+          "summary": "Andrei Gritsan is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Particle Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/andrei-gritsan/",
@@ -1784,14 +1708,9 @@
           "title": "Associate Professor",
           "sub_field": "Particle Physics",
           "tags": [
-            "particle physics",
-            "theory",
-            "dark matter",
-            "gravitational waves",
-            "axions",
-            "beyond Standard Model"
+            "Particle Physics"
           ],
-          "summary": "Theoretical physicist inventing novel experimental methods to detect dark matter (axion/ultralight), dark energy, and high-frequency gravitational waves using NMR, semiconductor detectors, and quantum sensing techniques.",
+          "summary": "Surjeet Rajendran is Associate Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Particle Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/rajendran/",
@@ -1804,14 +1723,9 @@
           "title": "Associate Professor",
           "sub_field": "Particle Physics",
           "tags": [
-            "particle physics",
-            "theory",
-            "string theory",
-            "holography",
-            "quantum field theory",
-            "black holes"
+            "Particle Physics"
           ],
-          "summary": "Theoretical high-energy physicist working on string theory, supergravity, holography, and geometric engineering of QFTs. Studies topological solitons in gravity and black hole microstate geometries. Former UC President's Postdoctoral Fellow.",
+          "summary": "Ibrahima Bah is Associate Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Particle Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/ibrahima-bah/",
@@ -1822,16 +1736,11 @@
           "id": "david-demille",
           "name": "David DeMille",
           "title": "Bloomberg Distinguished Professor",
-          "sub_field": "AMO Physics",
+          "sub_field": "Atomic, Molecular & Optical Physics",
           "tags": [
-            "AMO",
-            "experiment",
-            "precision measurement",
-            "polar molecules",
-            "quantum science",
-            "laser cooling"
+            "Atomic, Molecular & Optical Physics"
           ],
-          "summary": "World-leading AMO physicist specializing in precision measurement using cold and ultracold polar molecules to test fundamental symmetries and search for the electron electric dipole moment. Elected to the National Academy of Sciences (2024). Ramsey Prize recipient.",
+          "summary": "David DeMille is Bloomberg Distinguished Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Atomic, Molecular & Optical Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/david-demille/",
@@ -1842,19 +1751,517 @@
           "id": "christopher-overstreet",
           "name": "Christopher Overstreet",
           "title": "Assistant Professor",
-          "sub_field": "AMO Physics",
+          "sub_field": "Atomic, Molecular & Optical Physics",
           "tags": [
-            "AMO",
-            "experiment",
-            "atom interferometry",
-            "dark matter",
-            "precision measurement",
-            "ytterbium"
+            "Atomic, Molecular & Optical Physics"
           ],
-          "summary": "Experimental AMO physicist using ytterbium atom interferometry to perform precision tests of fundamental physics, including searches for ultralight dark matter and tests of the equivalence principle.",
+          "summary": "Christopher Overstreet is Assistant Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Atomic, Molecular & Optical Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics-astronomy.jhu.edu/directory/christopher-overstreet/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "adam-riess",
+          "name": "Adam Riess",
+          "title": "Bloomberg Distinguished Professor, Thomas J. Barber Professor of Physics and Astronomy, Nobel Laureate",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics"
+          ],
+          "summary": "Adam Riess is Bloomberg Distinguished Professor, Thomas J. Barber Professor of Physics and Astronomy, Nobel Laureate in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/adam-riess/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alex-sushkov",
+          "name": "Alex Sushkov",
+          "title": "W. H. Miller Associate Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "Particle Physics",
+            "Atomic, Molecular & Optical Physics",
+            "Hard Condensed Matter Physics"
+          ],
+          "summary": "Alex Sushkov is W. H. Miller Associate Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Particle Physics, Atomic, Molecular & Optical Physics, Hard Condensed Matter Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/alex-sushkov/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alexander-s-szalay",
+          "name": "Alexander S. Szalay",
+          "title": "Bloomberg Distinguished Professor (Director, IDIES)",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics"
+          ],
+          "summary": "Alexander S. Szalay is Bloomberg Distinguished Professor (Director, IDIES) in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/alexander-s-szalay/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "barry-j-blumenfeld",
+          "name": "Barry J. Blumenfeld",
+          "title": "Research Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "Particle Physics"
+          ],
+          "summary": "Barry J. Blumenfeld is Research Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Particle Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/barry-j-blumenfeld/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "brian-camley",
+          "name": "Brian Camley",
+          "title": "Associate Professor",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "Biological Physics",
+            "Soft Condensed Matter Physics"
+          ],
+          "summary": "Brian Camley is Associate Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Biological Physics, Soft Condensed Matter Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/brian-camley/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "brice-m-nard",
+          "name": "Brice Ménard",
+          "title": "Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics",
+            "Machine Learning"
+          ],
+          "summary": "Brice Ménard is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics, Machine Learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/brice-menard/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chia-ling-chien",
+          "name": "Chia-Ling Chien",
+          "title": "Jacob L. Hain Professor",
+          "sub_field": "Hard Condensed Matter Physics",
+          "tags": [
+            "Hard Condensed Matter Physics"
+          ],
+          "summary": "Chia-Ling Chien is Jacob L. Hain Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Hard Condensed Matter Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/chia-ling-chen/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "colin-a-norman",
+          "name": "Colin A. Norman",
+          "title": "Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics"
+          ],
+          "summary": "Colin A. Norman is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/colin-a-norman/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "collin-l-broholm",
+          "name": "Collin L. Broholm",
+          "title": "Gerhard H. Dieke Professor",
+          "sub_field": "Hard Condensed Matter Physics",
+          "tags": [
+            "Hard Condensed Matter Physics"
+          ],
+          "summary": "Collin L. Broholm is Gerhard H. Dieke Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Hard Condensed Matter Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/collin-l-broholm/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-beller",
+          "name": "Daniel Beller",
+          "title": "Assistant Professor",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "Biological Physics",
+            "Soft Condensed Matter Physics"
+          ],
+          "summary": "Daniel Beller is Assistant Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Biological Physics, Soft Condensed Matter Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pages.jh.edu/dbeller3/home.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "danielle-norcini",
+          "name": "Danielle Norcini",
+          "title": "Assistant Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "Particle Physics"
+          ],
+          "summary": "Danielle Norcini is Assistant Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Particle Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/danielle-norcini/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "danielle-speller",
+          "name": "Danielle Speller",
+          "title": "Assistant Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "Particle Physics"
+          ],
+          "summary": "Danielle Speller is Assistant Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Particle Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/danielle-speller/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-kaplan",
+          "name": "David Kaplan",
+          "title": "Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "Particle Physics"
+          ],
+          "summary": "David Kaplan is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Particle Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/david-kaplan/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-sing",
+          "name": "David Sing",
+          "title": "Bloomberg Distinguished Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics"
+          ],
+          "summary": "David Sing is Bloomberg Distinguished Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/david-sing/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emanuele-berti",
+          "name": "Emanuele Berti",
+          "title": "Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics",
+            "Particle Physics"
+          ],
+          "summary": "Emanuele Berti is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics, Particle Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/emanuele-berti/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ethan-vishniac",
+          "name": "Ethan Vishniac",
+          "title": "Research Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics"
+          ],
+          "summary": "Ethan Vishniac is Research Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/ethan-vishniac/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jared-kaplan",
+          "name": "Jared Kaplan",
+          "title": "Associate Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "Particle Physics",
+            "Machine Learning"
+          ],
+          "summary": "Jared Kaplan is Associate Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Particle Physics, Machine Learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/jared-kaplan/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jonathan-a-bagger",
+          "name": "Jonathan A. Bagger",
+          "title": "Research Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "Particle Physics"
+          ],
+          "summary": "Jonathan A. Bagger is Research Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Particle Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/jonathan-a-bagger/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joseph-eimer",
+          "name": "Joseph Eimer",
+          "title": "Associate Research Professor; Director, Maryland Space Grant Consortium",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics"
+          ],
+          "summary": "Joseph Eimer is Associate Research Professor; Director, Maryland Space Grant Consortium in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/joseph-eimer/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "morris-swartz",
+          "name": "Morris Swartz",
+          "title": "Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "Particle Physics"
+          ],
+          "summary": "Morris Swartz is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Particle Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/morris-swartz/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nadia-zakamska",
+          "name": "Nadia Zakamska",
+          "title": "Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics"
+          ],
+          "summary": "Nadia Zakamska is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/nadia-zakamska/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "natalia-drichko",
+          "name": "Natalia Drichko",
+          "title": "Professor",
+          "sub_field": "Hard Condensed Matter Physics",
+          "tags": [
+            "Hard Condensed Matter Physics"
+          ],
+          "summary": "Natalia Drichko is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Hard Condensed Matter Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/natalia-drichko/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "oleg-tchernyshyov",
+          "name": "Oleg Tchernyshyov",
+          "title": "Professor",
+          "sub_field": "Hard Condensed Matter Physics",
+          "tags": [
+            "Hard Condensed Matter Physics"
+          ],
+          "summary": "Oleg Tchernyshyov is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Hard Condensed Matter Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/oleg-tchernyshyov/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "petar-maksimovic",
+          "name": "Petar Maksimovic",
+          "title": "Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "Particle Physics"
+          ],
+          "summary": "Petar Maksimovic is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Particle Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/petar-maksimovic/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "richard-conn-henry",
+          "name": "Richard Conn Henry",
+          "title": "Academy Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics"
+          ],
+          "summary": "Richard Conn Henry is Academy Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://henry.pha.jhu.edu/rch.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "robert-leheny",
+          "name": "Robert Leheny",
+          "title": "Professor",
+          "sub_field": "Soft Condensed Matter Physics",
+          "tags": [
+            "Soft Condensed Matter Physics"
+          ],
+          "summary": "Robert Leheny is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Soft Condensed Matter Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/robert-leheny/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "s-m-koohpayeh",
+          "name": "S.M. Koohpayeh",
+          "title": "Associate Research Professor",
+          "sub_field": "Hard Condensed Matter Physics",
+          "tags": [
+            "Hard Condensed Matter Physics"
+          ],
+          "summary": "S.M. Koohpayeh is Associate Research Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Hard Condensed Matter Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/sm-koohpayeh/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "satoru-nakatsuji",
+          "name": "Satoru Nakatsuji",
+          "title": "Research Professor",
+          "sub_field": "Hard Condensed Matter Physics",
+          "tags": [
+            "Hard Condensed Matter Physics"
+          ],
+          "summary": "Satoru Nakatsuji is Research Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Hard Condensed Matter Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://iqm.jhu.edu/directory/satoru-nakatsuji/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sean-carroll",
+          "name": "Sean Carroll",
+          "title": "Homewood Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics"
+          ],
+          "summary": "Sean Carroll is Homewood Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.preposterousuniverse.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "stephan-mccandliss",
+          "name": "Stephan McCandliss",
+          "title": "Research Professor and Director, CAS",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics"
+          ],
+          "summary": "Stephan McCandliss is Research Professor and Director, CAS in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/stephan-mccandliss/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "timothy-heckman",
+          "name": "Timothy Heckman",
+          "title": "Dr. A. Hermann Pfund Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics"
+          ],
+          "summary": "Timothy Heckman is Dr. A. Hermann Pfund Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/timothy-heckman/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yahui-zhang",
+          "name": "Yahui Zhang",
+          "title": "Assistant Professor",
+          "sub_field": "Hard Condensed Matter Physics",
+          "tags": [
+            "Hard Condensed Matter Physics"
+          ],
+          "summary": "Yahui Zhang is Assistant Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Hard Condensed Matter Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/yahui-zhang/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yaojun-zhang",
+          "name": "Yaojun Zhang",
+          "title": "Assistant Professor",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "Biological Physics",
+            "Soft Condensed Matter Physics"
+          ],
+          "summary": "Yaojun Zhang is Assistant Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Biological Physics, Soft Condensed Matter Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/yaojun-zhang/",
             "scholar": null
           }
         }

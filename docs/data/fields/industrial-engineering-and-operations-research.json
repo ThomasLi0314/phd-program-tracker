@@ -3143,21 +3143,21 @@
       "links": {
         "program": "https://oge.mit.edu/programs/operations-research-center/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #2 · faculty 2026-07-09",
+      "data_currency": "2026-07-05 · top-50 sweep · US News #2 · faculty 2026-07-10",
       "faculty": [
         {
           "id": "saurabh-amin",
           "name": "Saurabh Amin",
-          "title": "Professor",
-          "sub_field": "Optimization and Learning",
+          "title": "Edmund K. Turner Professor (Civil & Environmental Engineering)",
+          "sub_field": "Networked systems and control",
           "tags": [
             "optimization",
             "game theory",
             "network control",
-            "transportation",
-            "energy"
+            "energy",
+            "transportation"
           ],
-          "summary": "Research focuses on optimization and learning, applied game theory, and network control for sustainable energy and transportation systems. Co-director of the Operations Research Center.",
+          "summary": "Core ORC faculty in Civil & Environmental Engineering studying optimization, game theory, and control of energy and transportation networks.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://resil.mit.edu/",
@@ -3167,15 +3167,15 @@
         {
           "id": "ali-aouad",
           "name": "Ali Aouad",
-          "title": "Assistant Professor",
-          "sub_field": "Algorithms and Marketplaces",
+          "title": "Assistant Professor (Sloan School of Management)",
+          "sub_field": "Operations management / algorithms",
           "tags": [
             "algorithms",
             "stochastic modeling",
             "marketplaces",
-            "social applications"
+            "optimization"
           ],
-          "summary": "Research focuses on algorithms, stochastic modeling, and the design and analysis of marketplaces with social and societal applications.",
+          "summary": "Assistant Professor at MIT Sloan working on algorithms, stochastic modeling, and online marketplaces.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://mitsloan.mit.edu/faculty/directory/ali-aouad",
@@ -3185,15 +3185,15 @@
         {
           "id": "hamsa-balakrishnan",
           "name": "Hamsa Balakrishnan",
-          "title": "Professor",
-          "sub_field": "Air Transportation",
+          "title": "William E. Leonhard Professor (Aeronautics & Astronautics); Associate Dean",
+          "sub_field": "Air transportation systems",
           "tags": [
             "air transportation",
-            "air traffic management",
             "airport operations",
-            "optimization"
+            "optimization",
+            "environmental impact"
           ],
-          "summary": "Research focuses on air transportation systems, including air traffic management, airport operations, and optimization of aviation networks. William E. Leonhard Professor and Associate Dean of Engineering.",
+          "summary": "Professor in Aero/Astro focused on air transportation, airport operations, and their environmental impacts.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://web.mit.edu/hamsa/www/",
@@ -3203,15 +3203,14 @@
         {
           "id": "cynthia-barnhart",
           "name": "Cynthia Barnhart",
-          "title": "Professor",
-          "sub_field": "Large-Scale Optimization",
+          "title": "Siegel Professor of Management (Civil & Environmental Engineering)",
+          "sub_field": "Large-scale optimization",
           "tags": [
-            "optimization",
-            "transportation",
-            "network planning",
-            "uncertainty"
+            "large-scale optimization",
+            "transportation systems",
+            "operations research"
           ],
-          "summary": "Research focuses on large-scale optimization for planning and operations of networked systems, particularly transportation systems under uncertainty. Siegel Professor of Management.",
+          "summary": "Professor working on large-scale optimization and transportation systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://mitsloan.mit.edu/faculty/directory/cynthia-barnhart",
@@ -3221,16 +3220,15 @@
         {
           "id": "dimitris-bertsimas",
           "name": "Dimitris Bertsimas",
-          "title": "Professor",
-          "sub_field": "Analytics and Optimization",
+          "title": "Boeing Leaders for Global Operations Professor (Sloan School of Management); Vice Provost",
+          "sub_field": "Optimization and machine learning",
           "tags": [
             "analytics",
             "optimization",
-            "statistical learning",
-            "healthcare",
-            "machine learning"
+            "machine learning",
+            "healthcare"
           ],
-          "summary": "Research focuses on analytics, discrete/convex/robust optimization, statistical learning, and applications to personalized medicine and healthcare. Boeing LGO Professor of Management and Vice President for Open Learning.",
+          "summary": "Senior ORC leader working on analytics, optimization, machine learning, and personalized medicine.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.dbertsim.mit.edu/",
@@ -3240,15 +3238,15 @@
         {
           "id": "giannis-daras",
           "name": "Giannis Daras",
-          "title": "Assistant Professor",
+          "title": "Assistant Professor (Sloan School of Management)",
           "sub_field": "Generative AI",
           "tags": [
             "generative AI",
             "diffusion models",
             "inverse problems",
-            "data-centric AI"
+            "machine learning"
           ],
-          "summary": "Research focuses on generative AI, diffusion models, inverse problems, and data-centric AI approaches.",
+          "summary": "Assistant Professor at MIT Sloan studying generative AI, diffusion models, and inverse problems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://giannisdaras.github.io/",
@@ -3258,15 +3256,14 @@
         {
           "id": "joseph-doyle",
           "name": "Joseph Doyle",
-          "title": "Professor",
-          "sub_field": "Health Economics",
+          "title": "Erwin H. Schell Professor (Sloan School of Management)",
+          "sub_field": "Health economics",
           "tags": [
-            "economics",
             "health economics",
             "healthcare quality",
-            "child welfare"
+            "applied economics"
           ],
-          "summary": "Research applies economics to healthcare, focusing on measuring healthcare quality, child welfare, and health policy. Erwin H. Schell Professor of Management and Applied Economics.",
+          "summary": "Professor at MIT Sloan working on health economics, healthcare quality, and child welfare.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://mitmgmtfaculty.mit.edu/jjdoyle/",
@@ -3276,15 +3273,15 @@
         {
           "id": "vivek-farias",
           "name": "Vivek Farias",
-          "title": "Professor",
-          "sub_field": "Reinforcement Learning and Inference",
+          "title": "Patrick J. McGovern Professor (Sloan School of Management)",
+          "sub_field": "Reinforcement learning / operations",
           "tags": [
             "reinforcement learning",
-            "inference",
             "approximation algorithms",
-            "commerce platforms"
+            "commerce",
+            "optimization"
           ],
-          "summary": "Research focuses on reinforcement learning, statistical inference, approximation algorithms, and their applications to commerce platforms. Patrick J. McGovern Professor.",
+          "summary": "Professor at MIT Sloan working on reinforcement learning, approximation algorithms, and commerce applications.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://web.mit.edu/vivekf/www/",
@@ -3294,15 +3291,15 @@
         {
           "id": "gabriele-farina",
           "name": "Gabriele Farina",
-          "title": "Assistant Professor",
-          "sub_field": "Game Solving and Optimization",
+          "title": "X-Window Consortium Career Development Professor (LIDS, EECS)",
+          "sub_field": "Algorithmic game theory",
           "tags": [
-            "game theory",
-            "decision making",
-            "online optimization",
-            "reinforcement learning"
+            "game solving",
+            "decision-making",
+            "optimization",
+            "machine learning"
           ],
-          "summary": "Research focuses on game solving, decision making under uncertainty, and online optimization, with applications in AI and machine learning. X-Window Consortium Career Development Assistant Professor.",
+          "summary": "EECS/LIDS faculty working on game solving and decision-making under uncertainty.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://www.mit.edu/~gfarina",
@@ -3312,15 +3309,14 @@
         {
           "id": "daniel-freund",
           "name": "Daniel Freund",
-          "title": "Associate Professor",
-          "sub_field": "Optimization and Applied Probability",
+          "title": "Associate Professor of Operations Management (Sloan School of Management)",
+          "sub_field": "Optimization and applied probability",
           "tags": [
             "optimization",
             "applied probability",
-            "transportation",
-            "online marketplaces"
+            "transportation"
           ],
-          "summary": "Research focuses on optimization, applied probability, transportation systems, online marketplaces, and immigration policy applications.",
+          "summary": "Associate Professor at MIT Sloan studying optimization and applied probability with transportation applications.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://mitmgmtfaculty.mit.edu/dfreund/",
@@ -3330,35 +3326,32 @@
         {
           "id": "david-gamarnik",
           "name": "David Gamarnik",
-          "title": "Professor",
-          "sub_field": "Discrete Probability and Optimization",
+          "title": "Nanyang Technological University Professor (Sloan School of Management)",
+          "sub_field": "Discrete probability and optimization",
           "tags": [
             "discrete probability",
             "optimization",
-            "statistics",
             "machine learning",
             "quantum computing"
           ],
-          "summary": "Research spans discrete probability, combinatorial optimization, statistics and machine learning, and quantum computing. Nanyang Technological University Professor of Operations Research.",
+          "summary": "Professor at MIT Sloan working on discrete probability, optimization, and machine learning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "http://www.mit.edu/~gamarnik/home.html",
+            "homepage": "http://www.mit.edu/%7Egamarnik/home.html",
             "scholar": null
           }
         },
         {
           "id": "negin-golrezaei",
           "name": "Negin Golrezaei",
-          "title": "Associate Professor",
-          "sub_field": "Machine Learning and Mechanism Design",
+          "title": "W. Maurice Young Career Development Associate Professor (Sloan School of Management)",
+          "sub_field": "Mechanism design and learning",
           "tags": [
             "machine learning",
-            "statistical learning theory",
             "mechanism design",
-            "optimization",
             "game theory"
           ],
-          "summary": "Research focuses on machine learning, statistical learning theory, mechanism design, optimization, and game theory for online platforms and marketplaces.",
+          "summary": "Associate Professor at MIT Sloan working on machine learning, mechanism design, and game theory.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://www.mit.edu/~golrezae/",
@@ -3368,14 +3361,14 @@
         {
           "id": "swati-gupta",
           "name": "Swati Gupta",
-          "title": "Associate Professor",
-          "sub_field": "Optimization and Fairness",
+          "title": "Associate Professor (Sloan School of Management)",
+          "sub_field": "Optimization and fairness",
           "tags": [
             "optimization",
             "machine learning",
             "algorithmic fairness"
           ],
-          "summary": "Research focuses on optimization, machine learning, and algorithmic fairness, developing methods for equitable decision-making.",
+          "summary": "Associate Professor at MIT Sloan working on optimization, machine learning, and algorithmic fairness.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://mitsloan.mit.edu/faculty/directory/swati-gupta",
@@ -3385,15 +3378,14 @@
         {
           "id": "tommi-jaakkola",
           "name": "Tommi Jaakkola",
-          "title": "Professor",
-          "sub_field": "Machine Learning",
+          "title": "Thomas Siebel Professor (EECS)",
+          "sub_field": "Machine learning",
           "tags": [
             "machine learning",
             "probabilistic modeling",
-            "computational chemistry",
-            "AI"
+            "computational chemistry"
           ],
-          "summary": "Research focuses on machine learning, probabilistic modeling, and applications to computational chemistry and molecular design. Thomas Siebel Professor of EECS and IDSS.",
+          "summary": "EECS professor working on machine learning, probabilistic modeling, and computational chemistry.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://people.csail.mit.edu/tommi/",
@@ -3403,15 +3395,14 @@
         {
           "id": "alexandre-jacquillat",
           "name": "Alexandre Jacquillat",
-          "title": "Associate Professor",
-          "sub_field": "Stochastic Optimization",
+          "title": "Associate Professor of Operations Research and Statistics (Sloan School of Management)",
+          "sub_field": "Stochastic optimization",
           "tags": [
             "stochastic optimization",
-            "data-driven decision-making",
-            "analytics",
+            "data-driven decisions",
             "transportation"
           ],
-          "summary": "Research focuses on stochastic optimization and data-driven decision-making, with applications to analytics for social good and transportation systems.",
+          "summary": "Associate Professor at MIT Sloan working on stochastic optimization and data-driven decision-making in transportation.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://mitsloan.mit.edu/faculty/directory/alexandre-jacquillat",
@@ -3421,15 +3412,14 @@
         {
           "id": "patrick-jaillet",
           "name": "Patrick Jaillet",
-          "title": "Professor",
-          "sub_field": "Online Optimization and Learning",
+          "title": "Dugald C. Jackson Professor (EECS)",
+          "sub_field": "Online optimization",
           "tags": [
             "online optimization",
             "machine learning",
-            "sequential decision making",
-            "uncertainty"
+            "sequential decisions"
           ],
-          "summary": "Research focuses on online optimization and learning, machine learning, and sequential decision making under uncertainty. Dugald C. Jackson Professor of EECS.",
+          "summary": "EECS professor working on online optimization and sequential decision-making under uncertainty.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://web.mit.edu/jaillet/www/",
@@ -3439,16 +3429,15 @@
         {
           "id": "retsef-levi",
           "name": "Retsef Levi",
-          "title": "Professor",
-          "sub_field": "Analytics and Operations",
+          "title": "J. Spencer Standish Professor; Codirector, ORC (Sloan School of Management)",
+          "sub_field": "Analytics and algorithms",
           "tags": [
             "analytics",
             "algorithms",
-            "food systems",
             "health",
-            "agriculture"
+            "food systems"
           ],
-          "summary": "Research applies analytics and algorithms to food systems, health, and agriculture. Co-director of the Operations Research Center. J. Spencer Standish Professor of Management.",
+          "summary": "Codirector of the ORC; professor at MIT Sloan working on analytics and algorithms for food, health, and agriculture.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://web.mit.edu/retsef/www/",
@@ -3458,15 +3447,14 @@
         {
           "id": "andrew-lo",
           "name": "Andrew Lo",
-          "title": "Professor",
-          "sub_field": "Financial Engineering",
+          "title": "Charles E. and Susan T. Harris Professor (Sloan School of Management)",
+          "sub_field": "Financial engineering",
           "tags": [
             "financial engineering",
-            "mathematical finance",
-            "statistics",
+            "computational finance",
             "econometrics"
           ],
-          "summary": "Research focuses on financial engineering, mathematical and computational finance, statistics, and econometrics. Charles E. and Susan T. Harris Professor and Director of MIT Laboratory for Financial Engineering.",
+          "summary": "Professor at MIT Sloan working on financial engineering, computational finance, and econometrics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://web.mit.edu/alo/www/",
@@ -3476,16 +3464,14 @@
         {
           "id": "haihao-lu",
           "name": "Haihao Lu",
-          "title": "Assistant Professor",
-          "sub_field": "Optimization Methods",
+          "title": "Assistant Professor (Sloan School of Management)",
+          "sub_field": "Optimization",
           "tags": [
-            "linear optimization",
-            "nonlinear optimization",
+            "optimization",
             "first-order methods",
-            "large-scale computation",
             "machine learning"
           ],
-          "summary": "Research focuses on linear and nonlinear optimization, first-order methods, huge-scale computation, and machine learning for data-driven decision-making.",
+          "summary": "Assistant Professor at MIT Sloan working on optimization, first-order methods, and machine learning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://mitsloan.mit.edu/faculty/directory/haihao-lu",
@@ -3495,16 +3481,14 @@
         {
           "id": "thodoris-lykouris",
           "name": "Thodoris Lykouris",
-          "title": "Assistant Professor",
-          "sub_field": "Data-Driven Sequential Decision-Making",
+          "title": "Mitsui Career Development Assistant Professor (Sloan School of Management)",
+          "sub_field": "Data-driven decision-making",
           "tags": [
-            "sequential decision-making",
-            "machine learning",
+            "data-driven decisions",
             "reinforcement learning",
-            "dynamic optimization",
-            "economics"
+            "dynamic optimization"
           ],
-          "summary": "Research focuses on data-driven sequential decision-making, machine learning, reinforcement learning, and dynamic optimization with applications to economics. Mitsui Career Development Assistant Professor.",
+          "summary": "Assistant Professor at MIT Sloan working on data-driven decision-making and reinforcement learning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://mitmgmtfaculty.mit.edu/tlykouris/",
@@ -3514,15 +3498,14 @@
         {
           "id": "thomas-magnanti",
           "name": "Thomas Magnanti",
-          "title": "Institute Professor",
-          "sub_field": "Network Optimization",
+          "title": "Institute Professor (Sloan School of Management)",
+          "sub_field": "Mathematical programming",
           "tags": [
             "mathematical programming",
             "network optimization",
-            "telecommunications",
-            "supply chains"
+            "combinatorial optimization"
           ],
-          "summary": "Research focuses on mathematical programming, network optimization and design, telecommunications, and supply chains. Institute Professor, MIT's highest faculty honor.",
+          "summary": "Institute Professor working on mathematical programming and network optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://mitsloan.mit.edu/faculty/directory/thomas-magnanti",
@@ -3532,16 +3515,14 @@
         {
           "id": "rahul-mazumder",
           "name": "Rahul Mazumder",
-          "title": "Associate Professor",
-          "sub_field": "Machine Learning and Optimization",
+          "title": "Robert G. James Career Development Associate Professor (Sloan School of Management)",
+          "sub_field": "Convex optimization and ML",
           "tags": [
             "machine learning",
             "convex optimization",
-            "discrete optimization",
-            "first-order methods",
             "large-scale optimization"
           ],
-          "summary": "Research focuses on machine learning, convex and discrete optimization, first-order methods, and stochastic and large-scale optimization. Robert G. James Career Development Associate Professor.",
+          "summary": "Associate Professor at MIT Sloan working on machine learning and large-scale convex optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://www.mit.edu/~rahulmaz/",
@@ -3551,15 +3532,14 @@
         {
           "id": "james-orlin",
           "name": "James Orlin",
-          "title": "Professor",
-          "sub_field": "Network and Combinatorial Optimization",
+          "title": "E. Pennell Brooks Professor (Sloan School of Management)",
+          "sub_field": "Network optimization",
           "tags": [
             "network optimization",
             "combinatorial optimization",
-            "algorithms",
-            "computational complexity"
+            "algorithms"
           ],
-          "summary": "Research focuses on network optimization, combinatorial optimization, algorithms, and computational complexity. E. Pennell Brooks Professor in Management.",
+          "summary": "Professor at MIT Sloan working on network and combinatorial optimization and algorithms.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://web.mit.edu/jorlin/www/",
@@ -3569,16 +3549,14 @@
         {
           "id": "asuman-ozdaglar",
           "name": "Asuman Ozdaglar",
-          "title": "Professor",
-          "sub_field": "Nonlinear Optimization and Game Theory",
+          "title": "MathWorks Professor; EECS Department Head (EECS, LIDS)",
+          "sub_field": "Optimization and game theory",
           "tags": [
             "nonlinear optimization",
-            "convex analysis",
             "game theory",
-            "network economics",
-            "optimization"
+            "network economics"
           ],
-          "summary": "Research focuses on nonlinear optimization, convex analysis, game theory, and network economics and optimization. MathWorks Professor of EECS and Department Head of EECS.",
+          "summary": "EECS Department Head working on nonlinear optimization, game theory, and network economics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://asu.mit.edu/",
@@ -3588,15 +3566,14 @@
         {
           "id": "pablo-parrilo",
           "name": "Pablo Parrilo",
-          "title": "Professor",
-          "sub_field": "Control and Optimization",
+          "title": "Joseph F. and Nancy P. Keithley Professor (EECS)",
+          "sub_field": "Convex optimization and control",
           "tags": [
-            "control theory",
+            "control systems",
             "robustness analysis",
-            "convex optimization",
-            "complex systems"
+            "convex optimization"
           ],
-          "summary": "Research focuses on control and identification of uncertain complex systems, robustness analysis, and convex optimization. Joseph F. and Nancy P. Keithley Professor of EECS.",
+          "summary": "EECS professor working on control systems, robustness analysis, and convex optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://www.mit.edu/~parrilo/",
@@ -3606,17 +3583,15 @@
         {
           "id": "georgia-perakis",
           "name": "Georgia Perakis",
-          "title": "Professor",
-          "sub_field": "Predictive and Prescriptive Analytics",
+          "title": "William F. Pounds Professor (Sloan School of Management)",
+          "sub_field": "Predictive and prescriptive analytics",
           "tags": [
-            "predictive analytics",
-            "prescriptive analytics",
-            "optimization",
+            "analytics",
             "pricing",
             "supply chain",
             "healthcare"
           ],
-          "summary": "Research on predictive and prescriptive analytics, optimization, pricing, supply chain management, and healthcare applications. William F. Pounds Professor of Operations Research and Statistics.",
+          "summary": "Professor at MIT Sloan working on predictive analytics, pricing, and supply chain optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://mitmgmtfaculty.mit.edu/gperakis/",
@@ -3626,15 +3601,14 @@
         {
           "id": "chara-podimata",
           "name": "Chara Podimata",
-          "title": "Assistant Professor",
-          "sub_field": "Social Aspects of Computing",
+          "title": "Assistant Professor of OR/Statistics (Sloan School of Management)",
+          "sub_field": "Learning and mechanism design",
           "tags": [
             "algorithmic fairness",
             "machine learning",
-            "game theory",
             "mechanism design"
           ],
-          "summary": "Research focuses on social aspects of computing, algorithmic fairness, machine learning, algorithmic game theory, and mechanism design.",
+          "summary": "Assistant Professor at MIT Sloan working on machine learning, mechanism design, and fairness.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.charapodimata.com/",
@@ -3644,16 +3618,14 @@
         {
           "id": "manish-raghavan",
           "name": "Manish Raghavan",
-          "title": "Assistant Professor",
-          "sub_field": "Algorithmic Fairness",
+          "title": "Drew Houston Career Development Professor (Sloan School of Management, EECS)",
+          "sub_field": "Algorithmic fairness",
           "tags": [
             "algorithmic fairness",
             "behavioral economics",
-            "algorithmic decision-making",
-            "online platforms",
-            "game theory"
+            "online platforms"
           ],
-          "summary": "Research focuses on algorithmic fairness, behavioral economics, algorithmic decision-making, online platforms, and game theory. Drew Houston Career Development Professor.",
+          "summary": "Faculty in Sloan and EECS working on algorithmic fairness and online platforms.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://mraghavan.github.io/",
@@ -3663,15 +3635,14 @@
         {
           "id": "devavrat-shah",
           "name": "Devavrat Shah",
-          "title": "Professor",
-          "sub_field": "Network Algorithms and Statistical Inference",
+          "title": "Andrew (1956) and Erna Viterbi Professor (EECS)",
+          "sub_field": "Stochastic networks and inference",
           "tags": [
             "network algorithms",
             "stochastic networks",
-            "statistical inference",
-            "network information theory"
+            "statistical inference"
           ],
-          "summary": "Research focuses on network algorithms, stochastic networks, statistical inference, and network information theory. Andrew and Erna Viterbi Professor of EECS.",
+          "summary": "EECS professor working on network algorithms, stochastic networks, and statistical inference.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://web.mit.edu/devavrat/www/",
@@ -3681,16 +3652,14 @@
         {
           "id": "andy-sun",
           "name": "Andy Sun",
-          "title": "Associate Professor",
-          "sub_field": "Multistage Optimization under Uncertainty",
+          "title": "Iberdrola-Avangrid Associate Professor (Sloan School of Management)",
+          "sub_field": "Optimization for energy systems",
           "tags": [
-            "stochastic optimization",
-            "mixed-integer optimization",
-            "nonlinear optimization",
+            "multistage optimization",
             "power systems",
-            "energy"
+            "electrified transportation"
           ],
-          "summary": "Research on multistage optimization under uncertainty, mixed-integer nonlinear optimization, with applications to electric power systems. Iberdrola-Avangrid Professor.",
+          "summary": "Associate Professor at MIT Sloan working on multistage optimization and electric power systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://sites.google.com/view/asunlab/",
@@ -3700,16 +3669,15 @@
         {
           "id": "nikos-trichakis",
           "name": "Nikos Trichakis",
-          "title": "Professor",
-          "sub_field": "Analytics and Optimization",
+          "title": "J.C. Penney Professor of Operations Management (Sloan School of Management)",
+          "sub_field": "Analytics and optimization",
           "tags": [
             "analytics",
             "optimization",
             "health management",
-            "supply chain",
-            "finance"
+            "supply chain"
           ],
-          "summary": "Research applies analytics and optimization to health management, supply chain management, and finance. J.C. Penney Professor of Operations Management.",
+          "summary": "Professor at MIT Sloan working on analytics and optimization for health and supply chain management.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://web.mit.edu/nitric/www/",
@@ -3719,15 +3687,15 @@
         {
           "id": "cathy-wu",
           "name": "Cathy Wu",
-          "title": "Associate Professor",
-          "sub_field": "Neural Combinatorial Optimization",
+          "title": "Thomas D. and Virginia W. Cabot Career Development Associate Professor (Civil & Environmental Engineering)",
+          "sub_field": "Learning for mobility systems",
           "tags": [
             "combinatorial optimization",
-            "deep reinforcement learning",
             "autonomous mobility",
-            "multi-robot systems"
+            "multi-agent",
+            "reinforcement learning"
           ],
-          "summary": "Research on neural combinatorial optimization, deep reinforcement learning, autonomous mobility systems, and multi-robot coordination. Thomas D. and Virginia W. Cabot Career Development Associate Professor.",
+          "summary": "Associate Professor in CEE working on neural combinatorial optimization and autonomous mobility.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://www.wucathy.com/blog/",
@@ -3737,18 +3705,445 @@
         {
           "id": "y-karen-zheng",
           "name": "Y. Karen Zheng",
-          "title": "Associate Professor",
-          "sub_field": "Behavioral Operations",
+          "title": "George M. Bunker Professor (Sloan School of Management)",
+          "sub_field": "Behavioral operations",
           "tags": [
             "behavioral operations",
             "sustainable supply chains",
-            "information transparency",
-            "experimental methods"
+            "experiments"
           ],
-          "summary": "Research focuses on behavioral operations, sustainable supply chains, information transparency, and experimental methods. George M. Bunker Professor and Director of LGO.",
+          "summary": "Professor at MIT Sloan working on behavioral operations and sustainable supply chains.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://mitmgmtfaculty.mit.edu/yanchong/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "daron-acemoglu",
+          "name": "Daron Acemoglu",
+          "title": "Institute Professor (Economics)",
+          "sub_field": "Political economy and networks",
+          "tags": [
+            "political economy",
+            "development economics",
+            "game theory",
+            "networks"
+          ],
+          "summary": "Affiliated ORC faculty; Institute Professor in Economics working on political economy, game theory, and networks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://economics.mit.edu/people/faculty/daron-acemoglu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sinan-aral",
+          "name": "Sinan Aral",
+          "title": "David Austin Professor (Sloan School of Management)",
+          "sub_field": "Social networks and analytics",
+          "tags": [
+            "social networks",
+            "product virality",
+            "marketing",
+            "analytics"
+          ],
+          "summary": "Affiliated ORC faculty at MIT Sloan working on social networks and viral marketing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://web.mit.edu/sinana/www/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "navid-azizan",
+          "name": "Navid Azizan",
+          "title": "Esther & Harold E. Edgerton Career Development Professor (LIDS, ME, IDSS)",
+          "sub_field": "Machine learning and optimization",
+          "tags": [
+            "machine learning",
+            "networked optimization",
+            "energy systems"
+          ],
+          "summary": "Affiliated ORC faculty working on machine learning and networked optimization for energy systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://azizan.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "arnold-barnett",
+          "name": "Arnold Barnett",
+          "title": "George Eastman Professor (Sloan School of Management)",
+          "sub_field": "Applied probability",
+          "tags": [
+            "probability modeling",
+            "transportation systems",
+            "risk analysis"
+          ],
+          "summary": "Affiliated ORC faculty at MIT Sloan working on probability modeling, transportation, and risk analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mitsloan.mit.edu/faculty/directory/arnold-i-barnett",
+            "scholar": null
+          }
+        },
+        {
+          "id": "stephen-bates",
+          "name": "Stephen Bates",
+          "title": "Assistant Professor (EECS)",
+          "sub_field": "Statistical inference",
+          "tags": [
+            "statistical inference",
+            "uncertainty quantification",
+            "AI for science"
+          ],
+          "summary": "Affiliated ORC faculty; Assistant Professor in EECS working on statistical inference and uncertainty quantification.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://stephenbates19.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "guy-bresler",
+          "name": "Guy Bresler",
+          "title": "Associate Professor (EECS)",
+          "sub_field": "High-dimensional statistics",
+          "tags": [
+            "graphical models",
+            "high-dimensional statistics",
+            "applied probability"
+          ],
+          "summary": "Affiliated ORC faculty in EECS working on graphical models and high-dimensional statistics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.mit.edu/~gbresler/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "victor-chernozhukov",
+          "name": "Victor Chernozhukov",
+          "title": "Professor of Economics (Economics)",
+          "sub_field": "Econometrics",
+          "tags": [
+            "econometrics",
+            "mathematical statistics",
+            "machine learning"
+          ],
+          "summary": "Affiliated ORC faculty in Economics working on econometrics and machine learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://web.mit.edu/~vchern/www/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "costis-daskalakis",
+          "name": "Costis Daskalakis",
+          "title": "Avanessians Professor (EECS)",
+          "sub_field": "Algorithmic game theory",
+          "tags": [
+            "algorithmic game theory",
+            "computational biology",
+            "applied probability"
+          ],
+          "summary": "Affiliated ORC faculty in EECS working on algorithmic game theory and applied probability.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://people.csail.mit.edu/costis/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "priya-donti",
+          "name": "Priya Donti",
+          "title": "Silverman Family Career Development Assistant Professor (EECS, LIDS)",
+          "sub_field": "ML for power systems",
+          "tags": [
+            "safe machine learning",
+            "power systems",
+            "climate"
+          ],
+          "summary": "Affiliated ORC faculty; Assistant Professor working on machine learning for power systems and climate change.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://priyadonti.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chuchu-fan",
+          "name": "Chuchu Fan",
+          "title": "Leonardo Career Development Associate Professor (Aeronautics & Astronautics)",
+          "sub_field": "Safe autonomous systems",
+          "tags": [
+            "autonomous systems",
+            "machine learning",
+            "formal methods"
+          ],
+          "summary": "Affiliated ORC faculty in Aero/Astro working on safe autonomous systems and formal methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://chuchu.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michel-goemans",
+          "name": "Michel Goemans",
+          "title": "RSA Professor; Department Head (Mathematics)",
+          "sub_field": "Combinatorial optimization",
+          "tags": [
+            "combinatorial optimization",
+            "theoretical computer science",
+            "algorithms"
+          ],
+          "summary": "Affiliated ORC faculty; Math Department Head working on combinatorial optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www-math.mit.edu/%7Egoemans/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sam-hopkins",
+          "name": "Sam Hopkins",
+          "title": "Assistant Professor (EECS)",
+          "sub_field": "Algorithms and statistics",
+          "tags": [
+            "algorithms",
+            "high-dimensional statistics",
+            "convex programming"
+          ],
+          "summary": "Affiliated ORC faculty; Assistant Professor in EECS working on algorithms and high-dimensional statistics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.samuelbhopkins.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ali-jadbabaie",
+          "name": "Ali Jadbabaie",
+          "title": "JR East Professor; Department Head (Civil & Environmental Engineering)",
+          "sub_field": "Networks and control",
+          "tags": [
+            "systems control",
+            "network science",
+            "optimization"
+          ],
+          "summary": "Affiliated ORC faculty; CEE Department Head working on systems control and network science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://jadbabaie.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jonathan-kelner",
+          "name": "Jonathan Kelner",
+          "title": "Professor of Applied Mathematics (Mathematics, CSAIL)",
+          "sub_field": "Optimization and graph algorithms",
+          "tags": [
+            "combinatorial optimization",
+            "spectral graph theory",
+            "algorithms"
+          ],
+          "summary": "Affiliated ORC faculty in Mathematics working on combinatorial optimization and spectral graph theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://math.mit.edu/~kelner/index.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "eytan-modiano",
+          "name": "Eytan Modiano",
+          "title": "Richard C. Maclaurin Professor (Aeronautics & Astronautics)",
+          "sub_field": "Network control",
+          "tags": [
+            "communications",
+            "network control",
+            "stochastic networks"
+          ],
+          "summary": "Affiliated ORC faculty in Aero/Astro working on communications and stochastic network control.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://modiano.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elchanan-mossel",
+          "name": "Elchanan Mossel",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Probability and combinatorics",
+          "tags": [
+            "probability",
+            "statistics",
+            "combinatorics"
+          ],
+          "summary": "Affiliated ORC faculty in Mathematics working on probability, statistics, and combinatorics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.mit.edu/~elmos/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yossi-sheffi",
+          "name": "Yossi Sheffi",
+          "title": "Elisha Gray II Professor (Civil & Environmental Engineering, CTL)",
+          "sub_field": "Logistics and supply chain",
+          "tags": [
+            "logistics",
+            "supply chain",
+            "resilience"
+          ],
+          "summary": "Affiliated ORC faculty working on logistics, supply chain management, and enterprise resilience.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://web.mit.edu/sheffi/www/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sungho-shin",
+          "name": "Sungho Shin",
+          "title": "Assistant Professor (Chemical Engineering)",
+          "sub_field": "Computational optimization and control",
+          "tags": [
+            "optimization",
+            "control theory",
+            "energy systems"
+          ],
+          "summary": "Affiliated ORC faculty; Assistant Professor in Chemical Engineering working on computational optimization and control.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://shin.mit.edu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-simchi-levi",
+          "name": "David Simchi-Levi",
+          "title": "Professor (Civil & Environmental Engineering)",
+          "sub_field": "Data-driven operations",
+          "tags": [
+            "statistical learning",
+            "dynamic pricing",
+            "inventory optimization"
+          ],
+          "summary": "Affiliated ORC faculty working on statistical learning, dynamic pricing, and inventory optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://slevi1.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "duncan-simester",
+          "name": "Duncan Simester",
+          "title": "Nanyang Technological University Professor (Sloan School of Management)",
+          "sub_field": "Marketing and pricing",
+          "tags": [
+            "marketing",
+            "pricing",
+            "machine learning",
+            "game theory"
+          ],
+          "summary": "Affiliated ORC faculty at MIT Sloan working on marketing, pricing, and machine learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://web.mit.edu/simester/Public/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-sontag",
+          "name": "David Sontag",
+          "title": "Professor (EECS)",
+          "sub_field": "Machine learning for health",
+          "tags": [
+            "machine learning",
+            "healthcare",
+            "causal inference"
+          ],
+          "summary": "Affiliated ORC faculty in EECS working on machine learning for healthcare and causal inference.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://people.csail.mit.edu/dsontag/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jessika-trancik",
+          "name": "Jessika Trancik",
+          "title": "Professor (Institute for Data, Systems and Society)",
+          "sub_field": "Energy systems modeling",
+          "tags": [
+            "energy systems",
+            "materials optimization",
+            "sustainability"
+          ],
+          "summary": "Affiliated ORC faculty in IDSS working on energy systems modeling and materials optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://trancik.mit.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "caroline-uhler",
+          "name": "Caroline Uhler",
+          "title": "Professor (EECS)",
+          "sub_field": "Statistics and causal inference",
+          "tags": [
+            "machine learning",
+            "statistics",
+            "causal inference"
+          ],
+          "summary": "Affiliated ORC faculty in EECS working on machine learning, statistics, and causal inference.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://carolineuhler.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jiang-wang",
+          "name": "Jiang Wang",
+          "title": "Mizuho Financial Group Professor (Sloan School of Management)",
+          "sub_field": "Financial economics",
+          "tags": [
+            "asset pricing",
+            "international finance"
+          ],
+          "summary": "Affiliated ORC faculty at MIT Sloan working on asset pricing theory and international finance.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://stuff.mit.edu/people/wangj/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "roy-welsch",
+          "name": "Roy Welsch",
+          "title": "Eastman Kodak Leaders for Global Operations Professor (Sloan School of Management)",
+          "sub_field": "Statistics and data mining",
+          "tags": [
+            "statistics",
+            "data mining",
+            "robust estimation",
+            "finance"
+          ],
+          "summary": "Affiliated ORC faculty at MIT Sloan working on statistics, data mining, and robust estimation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mitmgmtfaculty.mit.edu/rwelsch/",
             "scholar": null
           }
         }
@@ -4960,59 +5355,57 @@
       "links": {
         "program": "https://engineering.purdue.edu/IE/academics/graduate"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #46 · faculty 2026-07-09",
+      "data_currency": "2026-07-05 · top-50 sweep · US News #46 · faculty 2026-07-10",
       "faculty": [
         {
           "id": "vaneet-aggarwal",
           "name": "Vaneet Aggarwal",
-          "title": "Professor",
-          "sub_field": "Machine Learning and Optimization",
+          "title": "Reilly Professor",
+          "sub_field": "Machine learning and optimization",
           "tags": [
             "machine learning",
             "reinforcement learning",
-            "quantum machine learning",
-            "large language models"
+            "optimization",
+            "communications"
           ],
-          "summary": "Research spans supervised learning, reinforcement learning, large language models, and quantum machine learning, with applications in networking, transportation, robotics, manufacturing, healthcare, and climate.",
+          "summary": "Reilly Professor working on machine learning, reinforcement learning, and optimization for networks and systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=119657",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "stephan-biller",
           "name": "Stephan Biller",
-          "title": "Professor",
-          "sub_field": "Smart Manufacturing and Supply Chains",
+          "title": "Harold T. Amrine Distinguished Professor",
+          "sub_field": "Smart manufacturing",
           "tags": [
-            "digital twins",
-            "Industry 4.0",
-            "smart manufacturing",
-            "supply chain"
+            "digital manufacturing",
+            "industrial AI",
+            "production systems"
           ],
-          "summary": "Research focuses on digital-industrial strategy, smart manufacturing, digital twins, and resilient supply chains, spanning Industry 4.0, AIoT, production systems, and energy transition. Harold T. Amrine Distinguished Professor.",
+          "summary": "Distinguished Professor and NAE member working on digital/smart manufacturing and industrial AI.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=273149",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "barrett-caldwell",
           "name": "Barrett Caldwell",
-          "title": "Professor",
-          "sub_field": "Human Factors Engineering",
+          "title": "Professor (joint with Aeronautics & Astronautics)",
+          "sub_field": "Human factors",
           "tags": [
             "human factors",
-            "team coordination",
-            "supervisory control",
-            "information technology"
+            "human-systems integration",
+            "ergonomics"
           ],
-          "summary": "Research centers on human factors engineering, distributed human supervisory control, and how teams coordinate and perform using information technology.",
+          "summary": "Professor working on human factors and human-systems integration.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=5732",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -5020,17 +5413,16 @@
           "id": "gary-cheng",
           "name": "Gary Cheng",
           "title": "Professor",
-          "sub_field": "Advanced Manufacturing and Nanomaterials",
+          "sub_field": "Advanced manufacturing",
           "tags": [
-            "nanomaterials",
-            "3D nanoprinting",
-            "metamaterials",
-            "advanced manufacturing"
+            "laser processing",
+            "nanomanufacturing",
+            "materials"
           ],
-          "summary": "Research focuses on advanced manufacturing of AI-designed nanomaterials and metamaterials for high-performance functional components, with applications in semiconductors, quantum technologies, aerospace, energy, and biomedicine.",
+          "summary": "Professor working on laser-based materials processing and nanomanufacturing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=34940",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -5056,17 +5448,16 @@
           "id": "seokcheon-lee",
           "name": "Seokcheon Lee",
           "title": "Professor",
-          "sub_field": "Distributed Systems and Supply Chain",
+          "sub_field": "Production and supply chain systems",
           "tags": [
-            "distributed control",
-            "supply chain management",
-            "sensor networks",
-            "service systems"
+            "supply chain",
+            "production systems",
+            "distributed systems"
           ],
-          "summary": "Research spans distributed control, supply chain management, computer/communication networks, sensor networks, and service systems.",
+          "summary": "Professor working on production systems and supply chain management.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=35040",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -5074,143 +5465,141 @@
           "id": "mark-lehto",
           "name": "Mark Lehto",
           "title": "Professor",
-          "sub_field": "Human Factors and Safety Engineering",
+          "sub_field": "Human factors and safety",
           "tags": [
             "human factors",
-            "safety engineering",
-            "hazard communication",
-            "decision support systems"
+            "safety",
+            "ergonomics"
           ],
-          "summary": "Research focuses on human factors, safety engineering, and hazard communication, including decision support systems.",
+          "summary": "Professor working on human factors, safety engineering, and ergonomics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=9252",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "shimon-nof",
           "name": "Shimon Nof",
-          "title": "Professor",
-          "sub_field": "Collaborative Robotics and Automation",
+          "title": "Professor; Director, PRISM Center",
+          "sub_field": "Collaborative automation",
           "tags": [
-            "collaborative robotics",
             "automation",
-            "cyber-physical systems",
-            "decision support networks"
+            "robotics",
+            "collaborative control",
+            "systems"
           ],
-          "summary": "Research centers on collaborative robotics, automation, and cyber-physical work systems, including collaborative control protocols for integrated production and service systems. Director of the PRISM Center.",
+          "summary": "Professor and PRISM Center director working on collaborative control and automation.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=9216",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "gesualdo-scutari",
           "name": "Gesualdo Scutari",
-          "title": "Professor",
-          "sub_field": "Optimization and Game Theory",
+          "title": "Pedro and Barbara Granadillo Professor (joint with Electrical & Computer Engineering)",
+          "sub_field": "Optimization and signal processing",
           "tags": [
             "distributed optimization",
-            "game theory",
-            "variational inequalities",
+            "signal processing",
             "machine learning"
           ],
-          "summary": "Research focuses on distributed and large-scale optimization, computational game theory, and variational inequalities, with applications in machine learning, big data analytics, communications, and signal processing.",
+          "summary": "Professor working on distributed optimization, signal processing, and machine learning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=126294",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "david-simchi-levi",
           "name": "David Simchi-Levi",
-          "title": "Professor",
-          "sub_field": "Supply Chain and Operations Research",
+          "title": "Susan Bulkeley Butler Distinguished Professor (joint with Supply Chain and Operations Management)",
+          "sub_field": "Data-driven operations",
           "tags": [
-            "supply chain management",
-            "operations research",
-            "logistics",
-            "optimization"
+            "supply chain",
+            "optimization",
+            "analytics",
+            "operations research"
           ],
-          "summary": "Research focuses on supply chain management, operations research, and logistics optimization. Member of the National Academy of Engineering.",
+          "summary": "Distinguished Professor and NAE member listed on the IE directory with a joint appointment in Supply Chain and Operations Management; works on data-driven operations and supply chain optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=330021",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "young-jun-son",
           "name": "Young-Jun Son",
-          "title": "Professor",
-          "sub_field": "Smart Manufacturing and Simulation",
+          "title": "James J. Solberg Head and Ransburg Professor",
+          "sub_field": "Systems modeling and simulation",
           "tags": [
-            "digital twins",
-            "smart factory",
-            "agent-based simulation",
-            "multi-paradigm modeling"
+            "simulation",
+            "systems modeling",
+            "manufacturing",
+            "distributed control"
           ],
-          "summary": "Research centers on smart factory control and digital twin technologies, modeling human decision-making via extended BDI models, and multi-paradigm simulations spanning agent-based, discrete event, and system dynamics approaches. James J. Solberg Head and Ransburg Professor.",
+          "summary": "Department Head and Ransburg Professor working on systems modeling, simulation, and manufacturing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=270111",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "juan-wachs",
           "name": "Juan Wachs",
-          "title": "Professor",
-          "sub_field": "Computer Vision and Robotics",
+          "title": "James H. and Barbara H. Greene Professor",
+          "sub_field": "Human-machine interaction and robotics",
           "tags": [
+            "human-machine interaction",
             "computer vision",
             "robotics",
-            "human-computer interaction",
-            "assistive technology"
+            "healthcare"
           ],
-          "summary": "Research centers on machine and computer vision, robotics, tele-operations, and human-computer interaction, with a focus on assistive technologies and health support systems.",
+          "summary": "Professor working on human-machine interaction, computer vision, and surgical/medical robotics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=63004",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "yuehwern-yih",
           "name": "Yuehwern Yih",
-          "title": "Professor",
-          "sub_field": "Complex Systems and Healthcare Operations",
+          "title": "Tompkins Professor; Director, Smart Systems and Operations Laboratory",
+          "sub_field": "Healthcare and production systems",
           "tags": [
-            "complex systems",
             "healthcare systems",
-            "machine learning",
-            "process optimization"
+            "production systems",
+            "operations",
+            "quality"
           ],
-          "summary": "Research focuses on design, monitoring, and control of complex systems, behavior-based dynamic control, and healthcare system re-engineering using machine learning and AI. Member of the National Academy of Engineering.",
+          "summary": "Tompkins Professor and NAE member working on healthcare and production systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=9420",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "hua-cai",
           "name": "Hua Cai",
-          "title": "Associate Professor",
-          "sub_field": "Environmental Systems and Sustainability",
+          "title": "Thomas and Jane Schmidt Rising Star Associate Professor (joint with Environmental & Ecological Engineering)",
+          "sub_field": "Sustainable systems",
           "tags": [
-            "industrial ecology",
-            "urban sustainability",
-            "emerging technologies",
-            "complex adaptive systems"
+            "sustainability",
+            "transportation systems",
+            "data analytics",
+            "energy"
           ],
-          "summary": "Research examines the environmental implications of emerging technologies and urban sustainability, integrating industrial ecology, complex adaptive systems, and operations research to understand environmental effects of technological change.",
+          "summary": "Associate Professor working on sustainable systems, transportation, and data analytics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=126285",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -5218,35 +5607,34 @@
           "id": "harsha-honnappa",
           "name": "Harsha Honnappa",
           "title": "Associate Professor",
-          "sub_field": "Stochastic Systems and Applied Probability",
+          "sub_field": "Applied probability",
           "tags": [
+            "applied probability",
+            "queueing",
             "stochastic systems",
-            "queueing theory",
-            "generative modeling",
-            "inverse problems"
+            "simulation"
           ],
-          "summary": "Research centers on analysis and optimization of stochastic systems, focusing on optimal design and control and model estimation/inverse problems for stochastic models, with applications in generative modeling, space operations, and manufacturing.",
+          "summary": "Associate Professor working on applied probability, queueing, and stochastic systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=119661",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "susan-hunter",
           "name": "Susan Hunter",
-          "title": "Associate Professor",
-          "sub_field": "Simulation and Stochastic Optimization",
+          "title": "Associate Professor; Associate Head, Graduate Program",
+          "sub_field": "Simulation optimization",
           "tags": [
-            "stochastic optimization",
-            "simulation",
-            "multi-objective optimization",
-            "applied probability"
+            "simulation optimization",
+            "stochastic simulation",
+            "operations research"
           ],
-          "summary": "Research centers on optimization under uncertainty, including stochastic optimization, multi-objective optimization under uncertainty, and simulation modeling and analysis. Associate Head of the Graduate Program.",
+          "summary": "Associate Professor working on simulation optimization and stochastic simulation.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=93557",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -5254,71 +5642,69 @@
           "id": "andrew-liu",
           "name": "Andrew Liu",
           "title": "Associate Professor",
-          "sub_field": "Energy Markets and Game Theory",
+          "sub_field": "Energy systems optimization",
           "tags": [
+            "energy systems",
             "optimization",
             "game theory",
-            "energy markets",
-            "environmental policy"
+            "equilibrium models"
           ],
-          "summary": "Research focuses on the interactions of optimization, game theory, and industrial organization, applied to model and analyze energy markets and environmental policy.",
+          "summary": "Associate Professor working on optimization and equilibrium models for energy systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=108617",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "mario-ventresca",
           "name": "Mario Ventresca",
-          "title": "Associate Professor",
-          "sub_field": "Network Science and Discrete Optimization",
+          "title": "Associate Professor; Associate Head, Undergraduate Program",
+          "sub_field": "Network science and computational intelligence",
           "tags": [
             "network science",
-            "discrete optimization",
-            "approximation algorithms",
-            "machine learning"
+            "optimization",
+            "computational intelligence",
+            "epidemiology"
           ],
-          "summary": "Research centers on operations research and discrete optimization, spanning approximation algorithms, machine learning, network science, medical operations research, and automated design and inference. Associate Head of Undergraduate Program.",
+          "summary": "Associate Professor working on network science, optimization, and computational intelligence.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=97417",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "brandon-pitts",
           "name": "Brandon Pitts",
-          "title": "Associate Professor",
-          "sub_field": "Cognitive Ergonomics and Human-Automation Interaction",
+          "title": "Elliott Sigal Rising Star Associate Professor",
+          "sub_field": "Human factors",
           "tags": [
             "human factors",
-            "automation",
-            "cognitive ergonomics",
-            "aging and technology"
+            "human-automation interaction",
+            "aging"
           ],
-          "summary": "Research centers on cognitive ergonomics and how humans interact with automated systems, encompassing multimodal/multisensory information processing, adaptive displays, and the intersection of aging with technology.",
+          "summary": "Associate Professor working on human factors and human-automation interaction across the lifespan.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=158978",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "denny-yu",
           "name": "Denny Yu",
-          "title": "Associate Professor",
-          "sub_field": "Optimization and Machine Learning",
+          "title": "Cubitt Rising Star Associate Professor (courtesy in School of Health Sciences)",
+          "sub_field": "Human factors in healthcare",
           "tags": [
-            "nonsmooth optimization",
-            "stochastic optimization",
-            "distributed optimization",
-            "machine learning"
+            "human factors",
+            "healthcare ergonomics",
+            "wearables"
           ],
-          "summary": "Research interests include nonsmooth optimization, stochastic optimization, distributed optimization, and machine learning.",
+          "summary": "Associate Professor working on human factors and ergonomics in healthcare.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=134078",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -5326,17 +5712,16 @@
           "id": "zaiwei-chen",
           "name": "Zaiwei Chen",
           "title": "Assistant Professor",
-          "sub_field": "Reinforcement Learning and Learning in Games",
+          "sub_field": "Reinforcement learning and stochastic optimization",
           "tags": [
             "reinforcement learning",
-            "learning in games",
-            "applied probability",
-            "optimization"
+            "stochastic optimization",
+            "machine learning"
           ],
-          "summary": "Research centers on reinforcement learning, learning in games, applied probability, optimization, and control. PhD in Machine Learning from Georgia Tech.",
+          "summary": "Assistant Professor working on reinforcement learning and stochastic optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=297877",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -5344,17 +5729,16 @@
           "id": "ana-mar-a-estrada-gomez",
           "name": "Ana María Estrada Gomez",
           "title": "Assistant Professor",
-          "sub_field": "Complex Systems and Data Analytics",
+          "sub_field": "Statistics and data analytics",
           "tags": [
-            "high-dimensional data",
-            "streaming data",
-            "anomaly detection",
-            "probabilistic graphical models"
+            "statistics",
+            "data analytics",
+            "healthcare"
           ],
-          "summary": "Research focuses on complex systems and high-dimensional streaming data, with interests spanning monitoring and diagnosis, adaptive sampling, and probabilistic graphical models.",
+          "summary": "Assistant Professor working on statistical modeling and data analytics with healthcare applications.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=256645",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -5362,17 +5746,17 @@
           "id": "reem-khir",
           "name": "Reem Khir",
           "title": "Assistant Professor",
-          "sub_field": "Logistics and Supply Chain Optimization",
+          "sub_field": "Logistics and optimization",
           "tags": [
-            "robust optimization",
-            "stochastic optimization",
-            "supply chain analytics",
-            "transportation planning"
+            "logistics",
+            "transportation",
+            "optimization",
+            "operations research"
           ],
-          "summary": "Research specializes in logistics and transportation planning, supply chain analytics, and optimization under uncertainty, spanning robust and stochastic optimization and machine learning for constrained optimization.",
+          "summary": "Assistant Professor working on logistics, transportation, and optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=275063",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -5380,17 +5764,17 @@
           "id": "sivaranjani-seetharaman",
           "name": "Sivaranjani Seetharaman",
           "title": "Assistant Professor",
-          "sub_field": "Control Systems and Machine Learning",
+          "sub_field": "Control of networked systems",
           "tags": [
             "control systems",
-            "machine learning",
             "cyber-physical systems",
-            "energy systems"
+            "power systems",
+            "networks"
           ],
-          "summary": "Research focuses on control systems, machine learning, networks, energy, transportation, and cyber-physical systems, with an interdisciplinary background spanning electrical engineering and operations research.",
+          "summary": "Assistant Professor working on control of networked and cyber-physical systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=261812",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -5398,17 +5782,207 @@
           "id": "miaolan-xie",
           "name": "Miaolan Xie",
           "title": "Assistant Professor",
-          "sub_field": "Stochastic Optimization and Data Science",
+          "sub_field": "Stochastic optimization",
           "tags": [
             "stochastic optimization",
-            "data science",
-            "nonlinear optimization",
-            "machine learning"
+            "machine learning",
+            "operations research"
           ],
-          "summary": "Research interests span stochastic optimization, data science, nonlinear optimization, machine learning, and algorithms, with applications in healthcare. PhD in Operations Research and Information Engineering from Cornell.",
+          "summary": "Assistant Professor working on stochastic optimization and machine learning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://engineering.purdue.edu/IE/people/ptProfile?resource_id=297002",
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "srinivasan-chandrasekar",
+          "name": "Srinivasan Chandrasekar",
+          "title": "Professor (courtesy in Materials Engineering)",
+          "sub_field": "Manufacturing processes",
+          "tags": [
+            "manufacturing",
+            "materials",
+            "machining",
+            "tribology"
+          ],
+          "summary": "Professor working on manufacturing processes, machining, and materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "joaqu-n-go-i-cortes",
+          "name": "Joaquín Goñi Cortes",
+          "title": "Juan Ernesto de Bedout Rising Star Associate Professor (joint with Biomedical Engineering)",
+          "sub_field": "Network neuroscience",
+          "tags": [
+            "network science",
+            "connectomics",
+            "neuroscience",
+            "data analytics"
+          ],
+          "summary": "Associate Professor working on network neuroscience and brain connectomics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "zachary-hass",
+          "name": "Zachary Hass",
+          "title": "Assistant Professor (joint with School of Nursing)",
+          "sub_field": "Statistics and healthcare",
+          "tags": [
+            "statistics",
+            "healthcare",
+            "aging",
+            "data analytics"
+          ],
+          "summary": "Assistant Professor working on statistical methods for healthcare and aging.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "liwei-jiang",
+          "name": "Liwei Jiang",
+          "title": "Assistant Professor",
+          "sub_field": "Optimization",
+          "tags": [
+            "optimization",
+            "operations research",
+            "machine learning"
+          ],
+          "summary": "Assistant Professor working on optimization and operations research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-johnson",
+          "name": "David Johnson",
+          "title": "Ravi and Eleanor Talwar Rising Star Associate Professor (joint with Political Science)",
+          "sub_field": "Decision analysis and policy",
+          "tags": [
+            "decision analysis",
+            "energy",
+            "risk",
+            "policy"
+          ],
+          "summary": "Associate Professor working on decision analysis, risk, and energy/climate policy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ramses-martinez",
+          "name": "Ramses Martinez",
+          "title": "Hall Family Rising Star Associate Professor (joint with Biomedical Engineering)",
+          "sub_field": "Flexible electronics and soft robotics",
+          "tags": [
+            "flexible electronics",
+            "soft robotics",
+            "nanomanufacturing"
+          ],
+          "summary": "Associate Professor working on flexible electronics, soft robotics, and nanomanufacturing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "nagabhushana-prabhu",
+          "name": "Nagabhushana Prabhu",
+          "title": "Professor",
+          "sub_field": "Optimization",
+          "tags": [
+            "optimization",
+            "operations research"
+          ],
+          "summary": "Professor working on optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "april-savoy",
+          "name": "April Savoy",
+          "title": "Associate Professor",
+          "sub_field": "Human factors and health informatics",
+          "tags": [
+            "human factors",
+            "health informatics",
+            "usability"
+          ],
+          "summary": "Associate Professor working on human factors and health informatics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yu-she",
+          "name": "Yu She",
+          "title": "Assistant Professor (courtesy in ECE and Mechanical Engineering)",
+          "sub_field": "Robotics",
+          "tags": [
+            "robotics",
+            "soft robotics",
+            "manipulation",
+            "control"
+          ],
+          "summary": "Assistant Professor working on robotics, soft robotics, and robotic manipulation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "wenzhuo-wu",
+          "name": "Wenzhuo Wu",
+          "title": "Professor",
+          "sub_field": "Nanomaterials and nanomanufacturing",
+          "tags": [
+            "nanomaterials",
+            "nanomanufacturing",
+            "flexible electronics"
+          ],
+          "summary": "Professor working on nanomaterials, nanomanufacturing, and flexible electronics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "zhe-zhang",
+          "name": "Zhe Zhang",
+          "title": "Assistant Professor",
+          "sub_field": "Statistics and data analytics",
+          "tags": [
+            "statistics",
+            "data analytics",
+            "machine learning"
+          ],
+          "summary": "Assistant Professor working on statistics and data analytics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
             "scholar": null
           }
         }
@@ -7077,22 +7651,22 @@
       "links": {
         "program": "https://catalog.illinois.edu/graduate/engineering/industrial-engineering-phd/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #36 · faculty 2026-07-09",
+      "data_currency": "2026-07-05 · top-50 sweep · US News #36 · faculty 2026-07-10",
       "faculty": [
         {
           "id": "james-allison",
           "name": "James Allison",
           "title": "Professor",
-          "sub_field": "Design optimization, sustainable systems",
+          "sub_field": "Design optimization",
           "tags": [
             "design optimization",
-            "sustainable systems",
-            "engineering design"
+            "control co-design",
+            "systems engineering"
           ],
-          "summary": "Research in engineering design optimization and sustainable systems, developing methods for complex system design and lifecycle analysis.",
+          "summary": "Professor working on system design optimization and control co-design.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7100,17 +7674,17 @@
           "id": "carolyn-l-beck",
           "name": "Carolyn L. Beck",
           "title": "Professor",
-          "sub_field": "Control theory, network systems, dynamical systems",
+          "sub_field": "Control and optimization",
           "tags": [
-            "control",
+            "control systems",
+            "optimization",
             "networks",
-            "dynamical systems",
-            "optimization"
+            "model reduction"
           ],
-          "summary": "Research in control theory and network systems, including distributed control, model reduction, and applications to complex dynamical networks.",
+          "summary": "Professor working on control systems, optimization, and networked systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7118,52 +7692,53 @@
           "id": "harrison-hyung-min-kim",
           "name": "Harrison Hyung Min Kim",
           "title": "Professor",
-          "sub_field": "Supply chain management, sustainable manufacturing",
+          "sub_field": "Design and sustainability",
           "tags": [
-            "supply chain",
-            "sustainable manufacturing",
-            "optimization"
+            "product design",
+            "sustainable design",
+            "optimization",
+            "systems"
           ],
-          "summary": "Research in supply chain management and sustainable manufacturing, focusing on closed-loop supply chains and environmentally conscious production systems.",
+          "summary": "Professor working on product design optimization and sustainable systems design.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "jim-rehg",
           "name": "Jim Rehg",
-          "title": "Professor, Director of Health Care Engineering Systems Center",
-          "sub_field": "Computer vision, machine learning, healthcare systems",
+          "title": "Professor; Director, Health Care Engineering Systems Center",
+          "sub_field": "Machine learning and computer vision",
           "tags": [
-            "computer vision",
             "machine learning",
+            "computer vision",
             "healthcare",
-            "AI"
+            "behavioral analytics"
           ],
-          "summary": "Research in computer vision and machine learning with applications to healthcare, including behavioral imaging, activity recognition, and health monitoring. Directs the Health Care Engineering Systems Center.",
+          "summary": "Professor and Health Care Engineering Systems Center director working on machine learning, computer vision, and health applications.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "jeff-shamma",
           "name": "Jeff Shamma",
-          "title": "Professor and Jerry S. Dobrovolny Chair in ISE",
-          "sub_field": "Control systems, game theory, multi-agent systems",
+          "title": "Professor; Jerry S. Dobrovolny Chair in ISE",
+          "sub_field": "Control and game theory",
           "tags": [
-            "control",
+            "control systems",
             "game theory",
-            "multi-agent",
-            "reinforcement learning"
+            "distributed systems",
+            "multi-agent"
           ],
-          "summary": "Research in control systems, game theory, and multi-agent reinforcement learning, with applications to distributed decision making and energy systems.",
+          "summary": "Department chair working on control, game theory, and distributed multi-agent systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7171,17 +7746,17 @@
           "id": "richard-b-sowers",
           "name": "Richard B. Sowers",
           "title": "Professor of ISE & Mathematics",
-          "sub_field": "Stochastic processes, financial mathematics, applied probability",
+          "sub_field": "Applied probability",
           "tags": [
-            "stochastic",
-            "finance",
-            "probability",
-            "mathematics"
+            "applied probability",
+            "stochastic processes",
+            "financial engineering",
+            "data science"
           ],
-          "summary": "Research in stochastic processes, financial mathematics, and applied probability, with focus on large deviations and stochastic control.",
+          "summary": "Professor of ISE and Mathematics working on applied probability and financial engineering.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7189,17 +7764,16 @@
           "id": "ramavarapu-s-sreenivas",
           "name": "Ramavarapu S. Sreenivas",
           "title": "Professor",
-          "sub_field": "Discrete event systems, formal methods, control",
+          "sub_field": "Discrete-event systems",
           "tags": [
-            "discrete event",
-            "formal methods",
+            "discrete-event systems",
             "control",
-            "automation"
+            "supervisory control"
           ],
-          "summary": "Research in discrete event dynamical systems, formal methods for control and verification, and supervisory control of automated systems.",
+          "summary": "Professor working on discrete-event systems and supervisory control.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7207,17 +7781,17 @@
           "id": "dusan-m-stipanovic",
           "name": "Dusan M. Stipanovic",
           "title": "Professor",
-          "sub_field": "Control theory, multi-agent systems, robotics",
+          "sub_field": "Control and optimization",
           "tags": [
-            "control",
-            "multi-agent",
-            "robotics",
-            "optimization"
+            "control systems",
+            "optimization",
+            "autonomous systems",
+            "game theory"
           ],
-          "summary": "Research in control theory with applications to multi-agent systems, autonomous vehicles, and networked control, including collision avoidance and coordination.",
+          "summary": "Professor working on control, optimization, and autonomous systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7225,17 +7799,17 @@
           "id": "alexander-stolyar",
           "name": "Alexander Stolyar",
           "title": "Professor",
-          "sub_field": "Queueing theory, stochastic networks, scheduling",
+          "sub_field": "Stochastic networks",
           "tags": [
-            "queueing",
             "stochastic networks",
-            "scheduling",
-            "optimization"
+            "queueing",
+            "applied probability",
+            "operations research"
           ],
-          "summary": "Research in queueing theory and stochastic processing networks, developing asymptotic methods and optimal scheduling algorithms for large-scale service systems.",
+          "summary": "Professor working on stochastic networks, queueing, and applied probability.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7243,17 +7817,17 @@
           "id": "pingfeng-wang",
           "name": "Pingfeng Wang",
           "title": "Professor",
-          "sub_field": "Reliability engineering, prognostics, resilience",
+          "sub_field": "Reliability engineering",
           "tags": [
             "reliability",
             "prognostics",
-            "resilience",
-            "design"
+            "design under uncertainty",
+            "resilience"
           ],
-          "summary": "Research in reliability engineering and resilient system design, developing methods for failure prognostics, health management, and design for reliability.",
+          "summary": "Professor working on reliability engineering, prognostics, and design under uncertainty.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7261,17 +7835,17 @@
           "id": "qiong-wang",
           "name": "Qiong Wang",
           "title": "Professor",
-          "sub_field": "Operations management, decision analysis, innovation",
+          "sub_field": "Operations research",
           "tags": [
-            "operations management",
-            "decision analysis",
-            "innovation",
-            "economics"
+            "operations research",
+            "revenue management",
+            "pricing",
+            "networks"
           ],
-          "summary": "Research in operations management and decision analysis, studying innovation processes, technology management, and organizational decision making.",
+          "summary": "Professor working on operations research, revenue management, and resource allocation.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7279,17 +7853,16 @@
           "id": "karthekeyan-chandrasekaran",
           "name": "Karthekeyan Chandrasekaran",
           "title": "Associate Professor",
-          "sub_field": "Combinatorial optimization, approximation algorithms",
+          "sub_field": "Combinatorial optimization",
           "tags": [
-            "combinatorial",
+            "combinatorial optimization",
             "algorithms",
-            "optimization",
-            "graph theory"
+            "theory"
           ],
-          "summary": "Research in combinatorial optimization and approximation algorithms, developing efficient algorithms for NP-hard problems in graphs and mathematical programming.",
+          "summary": "Associate Professor working on combinatorial optimization and algorithms.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7297,17 +7870,17 @@
           "id": "rasoul-etesami",
           "name": "Rasoul Etesami",
           "title": "Associate Professor",
-          "sub_field": "Network science, game theory, optimization",
+          "sub_field": "Games, networks, and learning",
           "tags": [
-            "networks",
             "game theory",
+            "networks",
             "optimization",
             "learning"
           ],
-          "summary": "Research in network science and game theory, studying strategic interactions, information diffusion, and learning dynamics in networked systems.",
+          "summary": "Associate Professor working on game theory, networks, and learning in multi-agent systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7315,17 +7888,16 @@
           "id": "liming-feng",
           "name": "Liming Feng",
           "title": "Associate Professor",
-          "sub_field": "Financial engineering, stochastic simulation, risk management",
+          "sub_field": "Financial engineering",
           "tags": [
-            "finance",
-            "stochastic",
-            "simulation",
-            "risk"
+            "financial engineering",
+            "computational finance",
+            "applied probability"
           ],
-          "summary": "Research in financial engineering and stochastic simulation, developing Monte Carlo methods for pricing, risk management, and quantitative finance.",
+          "summary": "Associate Professor working on financial engineering and computational finance.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7333,17 +7905,17 @@
           "id": "jugal-garg",
           "name": "Jugal Garg",
           "title": "Associate Professor",
-          "sub_field": "Algorithmic game theory, market design, optimization",
+          "sub_field": "Algorithmic game theory",
           "tags": [
-            "game theory",
-            "market design",
-            "algorithms",
-            "optimization"
+            "algorithmic game theory",
+            "market equilibrium",
+            "fair division",
+            "algorithms"
           ],
-          "summary": "Research in algorithmic game theory and market design, studying computational aspects of markets, auctions, and fair allocation mechanisms.",
+          "summary": "Associate Professor working on algorithmic game theory, market equilibria, and fair division.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7351,17 +7923,16 @@
           "id": "grani-adiwena-hanasusanto",
           "name": "Grani Adiwena Hanasusanto",
           "title": "Associate Professor",
-          "sub_field": "Stochastic optimization, robust optimization, data-driven",
+          "sub_field": "Optimization under uncertainty",
           "tags": [
             "stochastic optimization",
-            "robust",
-            "data-driven",
-            "machine learning"
+            "robust optimization",
+            "operations research"
           ],
-          "summary": "Research in data-driven optimization under uncertainty, developing distributionally robust optimization methods and their integration with machine learning.",
+          "summary": "Associate Professor working on stochastic and robust optimization under uncertainty.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7369,17 +7940,17 @@
           "id": "girish-krishnan",
           "name": "Girish Krishnan",
           "title": "Associate Professor",
-          "sub_field": "Robotics, mechanism design, compliant systems",
+          "sub_field": "Robotics and compliant mechanisms",
           "tags": [
             "robotics",
-            "mechanism design",
-            "compliant systems",
-            "automation"
+            "soft robotics",
+            "compliant mechanisms",
+            "design"
           ],
-          "summary": "Research in robotics and mechanism design, focusing on compliant mechanisms, soft robotics, and design automation for mechanical systems.",
+          "summary": "Associate Professor working on robotics, soft robotics, and compliant mechanism design.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7387,17 +7958,17 @@
           "id": "lavanya-marla",
           "name": "Lavanya Marla",
           "title": "Associate Professor",
-          "sub_field": "Logistics, transportation, healthcare operations",
+          "sub_field": "Transportation and optimization",
           "tags": [
-            "logistics",
             "transportation",
-            "healthcare",
-            "optimization"
+            "airline operations",
+            "optimization under uncertainty",
+            "operations research"
           ],
-          "summary": "Research in logistics and transportation systems, with applications to airline operations, emergency response, and healthcare logistics. NSF CAREER awardee.",
+          "summary": "Associate Professor working on transportation systems and optimization under uncertainty.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7405,17 +7976,17 @@
           "id": "behrouz-touri",
           "name": "Behrouz Touri",
           "title": "Associate Professor",
-          "sub_field": "Stochastic systems, distributed optimization, networked control",
+          "sub_field": "Distributed control and optimization",
           "tags": [
-            "stochastic",
-            "distributed",
+            "distributed control",
             "optimization",
+            "learning",
             "networks"
           ],
-          "summary": "Research in stochastic systems and distributed optimization over networks, studying consensus algorithms and learning dynamics in multi-agent systems.",
+          "summary": "Associate Professor working on distributed control, optimization, and learning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7423,17 +7994,17 @@
           "id": "roy-dong",
           "name": "Roy Dong",
           "title": "Assistant Professor",
-          "sub_field": "Control theory, economics, smart grids",
+          "sub_field": "Control, learning, and privacy",
           "tags": [
-            "control",
-            "economics",
-            "smart grid",
-            "energy"
+            "control systems",
+            "machine learning",
+            "privacy",
+            "cyber-physical systems"
           ],
-          "summary": "Research at the intersection of control theory and economics, with applications to energy systems, smart grids, and market mechanisms.",
+          "summary": "Assistant Professor working on control, machine learning, and privacy in cyber-physical systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7441,17 +8012,17 @@
           "id": "yiwen-dong",
           "name": "Yiwen Dong",
           "title": "Assistant Professor",
-          "sub_field": "Human factors, haptics, human-machine interaction",
+          "sub_field": "Human-centered sensing",
           "tags": [
-            "human factors",
-            "haptics",
-            "interaction",
-            "wearable"
+            "sensing",
+            "smart infrastructure",
+            "machine learning",
+            "cyber-physical systems"
           ],
-          "summary": "Research in human factors and haptics, studying human-machine interaction and developing wearable devices for enhanced human performance.",
+          "summary": "Assistant Professor working on human-centered sensing and smart infrastructure.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7459,17 +8030,17 @@
           "id": "yingying-li",
           "name": "Yingying Li",
           "title": "Assistant Professor",
-          "sub_field": "Machine learning, optimization, control",
+          "sub_field": "Learning and control",
           "tags": [
-            "machine learning",
-            "optimization",
+            "reinforcement learning",
             "control",
-            "reinforcement learning"
+            "online learning",
+            "optimization"
           ],
-          "summary": "Research in machine learning and online optimization, focusing on reinforcement learning algorithms for sequential decision-making in dynamic environments.",
+          "summary": "Assistant Professor working on reinforcement learning, control, and online decision-making.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7477,17 +8048,17 @@
           "id": "yumeng-li",
           "name": "Yumeng Li",
           "title": "Assistant Professor",
-          "sub_field": "Reliability, prognostics, data analytics",
+          "sub_field": "Reliability and uncertainty quantification",
           "tags": [
             "reliability",
-            "prognostics",
-            "data analytics",
-            "manufacturing"
+            "uncertainty quantification",
+            "materials design",
+            "simulation"
           ],
-          "summary": "Research in reliability engineering and prognostics, using data analytics and machine learning for condition monitoring and remaining useful life prediction.",
+          "summary": "Assistant Professor working on reliability, uncertainty quantification, and computational design.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7495,17 +8066,17 @@
           "id": "bhaskar-ray-chaudhury",
           "name": "Bhaskar Ray Chaudhury",
           "title": "Assistant Professor",
-          "sub_field": "Algorithmic economics, fair division, computational social choice",
+          "sub_field": "Algorithmic game theory",
           "tags": [
-            "algorithms",
-            "economics",
+            "algorithmic game theory",
             "fair division",
-            "social choice"
+            "algorithms",
+            "theory"
           ],
-          "summary": "Research in algorithmic economics and computational social choice, studying fair division, voting, and market design from an algorithmic perspective.",
+          "summary": "Assistant Professor working on algorithmic game theory and fair division.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7513,17 +8084,17 @@
           "id": "abigail-wooldridge",
           "name": "Abigail Wooldridge",
           "title": "Assistant Professor",
-          "sub_field": "Human factors, healthcare systems, sociotechnical systems",
+          "sub_field": "Human factors",
           "tags": [
             "human factors",
-            "healthcare",
-            "sociotechnical",
-            "systems"
+            "healthcare systems",
+            "sociotechnical systems",
+            "ergonomics"
           ],
-          "summary": "Research in human factors engineering applied to healthcare, studying teamwork, communication, and the design of sociotechnical healthcare systems.",
+          "summary": "Assistant Professor working on human factors and healthcare systems engineering.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -7531,17 +8102,17 @@
           "id": "yunzong-xu",
           "name": "Yunzong Xu",
           "title": "Assistant Professor",
-          "sub_field": "Stochastic optimization, service operations, data-driven",
+          "sub_field": "Operations research and learning",
           "tags": [
-            "stochastic",
-            "service operations",
-            "data-driven",
-            "optimization"
+            "operations research",
+            "online learning",
+            "revenue management",
+            "data-driven decisions"
           ],
-          "summary": "Research in stochastic optimization and service operations management, using data-driven approaches to improve operational efficiency in service systems.",
+          "summary": "Assistant Professor working on operations research, online learning, and data-driven decision-making.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://ise.illinois.edu/directory/faculty/",
+            "homepage": null,
             "scholar": null
           }
         }

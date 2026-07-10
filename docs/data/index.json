@@ -4,7 +4,7 @@
     "generated_at": "2026-07-06",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep",
-    "note": "1377 STEM PhD/MSc programs; faculty rosters on 535 programs (14196 faculty). Unknown/Verify = not yet confirmed on an official page."
+    "note": "1377 STEM PhD/MSc programs; faculty rosters on 535 programs (14568 faculty). Unknown/Verify = not yet confirmed on an official page."
   },
   "total": 1377,
   "fields": [
@@ -307,7 +307,7 @@
       "slug": "geosciences",
       "count": 141,
       "withFaculty": 141,
-      "facultyCount": 2538,
+      "facultyCount": 2692,
       "subs": [
         "Air Quality",
         "Applied Statistics",
@@ -1064,7 +1064,7 @@
       "slug": "statistics-and-data-science",
       "count": 72,
       "withFaculty": 72,
-      "facultyCount": 1334,
+      "facultyCount": 1458,
       "subs": [
         "AI",
         "Applied Math",
@@ -1169,7 +1169,7 @@
       "slug": "astronomy-and-astrophysics",
       "count": 66,
       "withFaculty": 3,
-      "facultyCount": 61,
+      "facultyCount": 94,
       "subs": [
         "Astro Data Science",
         "Astrobiology",
@@ -1230,7 +1230,7 @@
       "slug": "mechanical-and-aerospace-engineering",
       "count": 66,
       "withFaculty": 5,
-      "facultyCount": 67,
+      "facultyCount": 92,
       "subs": [
         "Aerospace",
         "Aerospace Engineering",
@@ -1469,7 +1469,7 @@
       "slug": "industrial-engineering-and-operations-research",
       "count": 35,
       "withFaculty": 33,
-      "facultyCount": 486,
+      "facultyCount": 522,
       "subs": [
         "Ag Engineering",
         "Agricultural Engineering",
