@@ -4,7 +4,7 @@
     "generated_at": "2026-07-06",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep",
-    "note": "1377 STEM PhD/MSc programs; faculty rosters on 535 programs (14568 faculty). Unknown/Verify = not yet confirmed on an official page."
+    "note": "1377 STEM PhD/MSc programs; faculty rosters on 535 programs (14569 faculty). Unknown/Verify = not yet confirmed on an official page."
   },
   "total": 1377,
   "fields": [
@@ -307,7 +307,7 @@
       "slug": "geosciences",
       "count": 141,
       "withFaculty": 141,
-      "facultyCount": 2692,
+      "facultyCount": 2693,
       "subs": [
         "Air Quality",
         "Applied Statistics",

@@ -18904,17 +18904,18 @@
           "id": "kay-bidle",
           "name": "Kay Bidle",
           "title": "Professor",
-          "sub_field": "Microbial oceanography",
+          "sub_field": "Marine microbiology and biogeochemistry",
           "tags": [
-            "microbial oceanography",
+            "phytoplankton",
             "host-virus interactions",
-            "carbon cycling"
+            "biogeochemistry",
+            "microbial ecology"
           ],
-          "summary": "Professor of Marine and Coastal Sciences studying microbial oceanography, host-virus interactions, and carbon cycling.",
+          "summary": "Studies phytoplankton host-virus interactions, programmed cell death, and their role in ocean biogeochemistry.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -18923,51 +18924,51 @@
           "title": "Assistant Professor",
           "sub_field": "Microbial biogeochemistry",
           "tags": [
-            "microbial biogeochemistry",
-            "microbes",
-            "modeling"
+            "microbial ecology",
+            "biogeochemistry",
+            "microbial systems"
           ],
-          "summary": "Assistant Professor studying how microbes control planetary biogeochemistry.",
+          "summary": "Investigates how microorganisms regulate planetary biogeochemical cycles.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "david-bushek",
           "name": "David Bushek",
-          "title": "Professor and Director, Haskin Shellfish Research Laboratory",
-          "sub_field": "Bivalve ecology and disease",
+          "title": "Professor",
+          "sub_field": "Shellfish ecology and disease",
           "tags": [
-            "bivalve ecology",
-            "host-parasite",
             "shellfish",
-            "aquaculture"
+            "oyster disease",
+            "aquaculture",
+            "disease ecology"
           ],
-          "summary": "Professor and Director of the Haskin Shellfish Research Laboratory studying bivalve ecology and host-parasite interactions.",
+          "summary": "Studies shellfish ecology, oyster diseases, and aquaculture as Director of the Haskin Shellfish Research Laboratory.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "robert-chant",
           "name": "Robert Chant",
           "title": "Professor",
-          "sub_field": "Physical oceanography (estuarine and coastal)",
+          "sub_field": "Physical oceanography of estuaries",
           "tags": [
             "estuarine physics",
             "stratification",
             "mixing",
-            "dispersion"
+            "sediment transport"
           ],
-          "summary": "Professor studying estuarine and coastal physics including stratification, vertical mixing and dispersion.",
+          "summary": "Studies the physics of estuarine and coastal systems, focusing on stratification, mixing, and dispersion.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -18976,52 +18977,52 @@
           "title": "Distinguished Professor",
           "sub_field": "Biological oceanography and biogeochemistry",
           "tags": [
-            "biogeochemistry",
             "origins of life",
-            "photosynthesis",
-            "geobiology"
+            "electron transfer",
+            "geochemistry",
+            "photosynthesis"
           ],
-          "summary": "Distinguished Professor studying the origins of life and how organisms transformed the geochemistry of Earth.",
+          "summary": "Studies the origins of life, electron transfer reactions, and how organisms transformed Earth's geochemistry.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "heidi-fuchs",
           "name": "Heidi Fuchs",
           "title": "Associate Professor",
-          "sub_field": "Larval ecology and biophysical interactions",
+          "sub_field": "Biophysical interactions in plankton",
           "tags": [
             "larval ecology",
             "biophysics",
-            "plankton",
+            "food web dynamics",
             "turbulence"
           ],
-          "summary": "Associate Professor studying mechanistic interactions between planktonic invertebrate larvae and small-scale physics.",
+          "summary": "Studies mechanistic interactions between planktonic larvae and physics, and their effects on food web dynamics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "scott-glenn",
           "name": "Scott Glenn",
-          "title": "Distinguished Professor and Co-Director, Center for Ocean Observing Leadership",
-          "sub_field": "Physical oceanography and ocean observing",
+          "title": "Distinguished Professor",
+          "sub_field": "Ocean observing technologies",
           "tags": [
-            "ocean observing",
             "autonomous gliders",
+            "ocean observing",
             "extreme weather",
-            "coastal"
+            "coastal ocean"
           ],
-          "summary": "Distinguished Professor and co-director of the Center for Ocean Observing Leadership developing autonomous ocean observing technologies and studying extreme weather.",
+          "summary": "Develops autonomous ocean observing technologies and studies extreme weather events.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -19084,16 +19085,16 @@
           "title": "Distinguished Professor",
           "sub_field": "Molluscan genetics and aquaculture",
           "tags": [
-            "mollusk genetics",
+            "genetics",
+            "evolutionary biology",
             "aquaculture",
-            "breeding",
-            "evolution"
+            "molluscs"
           ],
-          "summary": "Distinguished Professor studying mollusk genetics, evolutionary biology and aquaculture breeding programs.",
+          "summary": "Studies genetics, evolutionary biology, and aquaculture of molluscs.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -19102,33 +19103,33 @@
           "title": "Professor",
           "sub_field": "Microbial ecology",
           "tags": [
-            "microbial ecology",
+            "microbial diversity",
             "biogeochemistry",
-            "molecular microbiology"
+            "molecular microbial ecology"
           ],
-          "summary": "Professor studying microbial ecology, active microbes, and biogeochemical processes.",
+          "summary": "Studies active microbes in complex environments, linking microbial diversity to biogeochemical processes.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "josh-kohut",
           "name": "Josh Kohut",
           "title": "Professor",
-          "sub_field": "Physical oceanography",
+          "sub_field": "Physical oceanography and observing",
           "tags": [
-            "physical oceanography",
+            "coastal ocean",
             "ocean observing",
-            "ecosystems",
-            "coastal"
+            "radar",
+            "gliders"
           ],
-          "summary": "Professor studying how variability in the ocean structures marine ecological systems.",
+          "summary": "Studies physical processes in coastal oceans using observing technologies across temporal and spatial scales.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -19152,18 +19153,18 @@
           "id": "richard-lutz",
           "name": "Richard Lutz",
           "title": "Distinguished Professor",
-          "sub_field": "Deep-sea biology",
+          "sub_field": "Deep-sea ecology",
           "tags": [
-            "deep-sea",
             "hydrothermal vents",
-            "ecology",
-            "biotechnology"
+            "larval ecology",
+            "deep sea",
+            "marine natural products"
           ],
-          "summary": "Distinguished Professor studying deep-sea hydrothermal vent ecology and marine natural products.",
+          "summary": "Studies deep-sea hydrothermal vent ecology, larval ecology, and marine natural products.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -19172,34 +19173,34 @@
           "title": "Associate Professor",
           "sub_field": "Physical oceanography",
           "tags": [
-            "physical oceanography",
             "gliders",
-            "storms",
-            "coupled systems"
+            "atmosphere-ocean coupling",
+            "ice-ocean interactions",
+            "storms"
           ],
-          "summary": "Associate Professor studying physical oceanography and connections among the atmosphere, cryosphere, and ecosystems.",
+          "summary": "Studies atmosphere-ocean-ecosystem connections using glider deployments, including ice-ocean interactions.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "daphne-munroe",
           "name": "Daphne Munroe",
           "title": "Associate Professor",
-          "sub_field": "Shellfish ecology and population connectivity",
+          "sub_field": "Invertebrate population ecology",
           "tags": [
             "larval dispersal",
             "population connectivity",
             "shellfish",
-            "aquaculture"
+            "coastal invertebrates"
           ],
-          "summary": "Associate Professor studying larval dispersal and population connectivity in marine invertebrates.",
+          "summary": "Studies larval dispersal dynamics and population connectivity in coastal invertebrates.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -19223,53 +19224,54 @@
           "id": "fiorella-prada",
           "name": "Fiorella Prada",
           "title": "Assistant Professor",
-          "sub_field": "Biomineralization and coral biology",
+          "sub_field": "Marine calcification and climate",
           "tags": [
             "biomineralization",
-            "corals",
-            "calcification",
-            "climate resilience"
+            "calcifying organisms",
+            "ocean acidification",
+            "climate change"
           ],
-          "summary": "Assistant Professor studying biomineralization in calcifying organisms and coral resilience.",
+          "summary": "Studies biomineralization in marine calcifying organisms under changing ocean conditions.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "yair-rosenthal",
           "name": "Yair Rosenthal",
-          "title": "Distinguished Professor and Graduate Program Director",
-          "sub_field": "Paleoceanography and paleoclimate",
+          "title": "Distinguished Professor",
+          "sub_field": "Paleoceanography",
           "tags": [
             "paleoceanography",
+            "geochemical proxies",
             "paleoclimate",
-            "geochemical proxies"
+            "ocean chemistry"
           ],
-          "summary": "Distinguished Professor and Graduate Program Director studying paleoceanography and paleoclimate reconstructions using geochemical proxies.",
+          "summary": "Uses geochemical proxies to reconstruct past ocean properties and climate.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "grace-saba",
           "name": "Grace Saba",
           "title": "Associate Professor",
-          "sub_field": "Coastal marine ecology and biogeochemistry",
+          "sub_field": "Organismal ecology and climate impacts",
           "tags": [
-            "marine ecology",
+            "organismal ecology",
             "physical-biological coupling",
-            "food webs",
-            "ocean acidification"
+            "ocean acidification",
+            "climate change"
           ],
-          "summary": "Associate Professor studying physical-biological coupling and food web dynamics in coastal marine ecosystems.",
+          "summary": "Studies coastal marine organismal ecology, physical-biological coupling, and climate change impacts.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -19278,51 +19280,51 @@
           "title": "Assistant Professor",
           "sub_field": "Marine geochemistry",
           "tags": [
-            "geochemistry",
-            "carbon cycle",
+            "silicate weathering",
             "ocean chemistry",
-            "isotopes"
+            "carbon cycle",
+            "isotope geochemistry"
           ],
-          "summary": "Assistant Professor studying geochemistry of the global carbon cycle, climate, and ocean chemistry.",
+          "summary": "Studies silicate weathering, ocean chemistry, and mechanisms of the global carbon cycle.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "oscar-schofield",
           "name": "Oscar Schofield",
-          "title": "Distinguished Professor and Department Chair",
-          "sub_field": "Biological oceanography",
+          "title": "Distinguished Professor",
+          "sub_field": "Biological oceanography and observing",
           "tags": [
             "phytoplankton",
             "ocean observing",
-            "sensor networks",
-            "polar"
+            "sensors",
+            "polar oceans"
           ],
-          "summary": "Distinguished Professor and Department Chair, and co-director of the Center for Ocean Observing Leadership, studying phytoplankton physiology and ocean sensor networks.",
+          "summary": "Studies phytoplankton physiology and ecology using ocean observing technologies and sensor networks; serves as department chair.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "corday-selden",
           "name": "Corday Selden",
           "title": "Assistant Professor",
-          "sub_field": "Marine biogeochemistry",
+          "sub_field": "Microbial biogeochemistry",
           "tags": [
-            "biogeochemistry",
-            "nitrogen cycling",
-            "microbial feedbacks"
+            "nutrient cycling",
+            "microbial biogeochemistry",
+            "climate feedbacks"
           ],
-          "summary": "Assistant Professor studying marine biogeochemistry, microbial feedbacks and nutrient cycling.",
+          "summary": "Studies microbial biogeochemistry, nutrient cycling, and climate-biogeochemistry feedbacks.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26353,8 +26355,8 @@
           "summary": "Professor and Chair studying resilient infrastructure materials, engineered cementitious composites, and durable structural systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26371,8 +26373,8 @@
           "summary": "Associate Professor studying the multiscale mechanics and design of infrastructure materials such as cement and porous media.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26390,8 +26392,8 @@
           "summary": "Chancellor's Professor studying hydrology and the analysis and prediction of hydroclimatic extremes such as floods and droughts.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26409,8 +26411,8 @@
           "summary": "Associate Professor studying environmental fluid mechanics, atmospheric turbulence, and wildfire and land-atmosphere interactions.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26427,8 +26429,8 @@
           "summary": "Assistant Professor studying transportation systems, infrastructure resilience, and traveler behavior.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26445,8 +26447,8 @@
           "summary": "Assistant Professor studying transportation systems, travel behavior, and emerging mobility.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26464,8 +26466,8 @@
           "summary": "Associate Professor studying flow and transport in fractured and porous subsurface media through experiments and modeling.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26483,8 +26485,8 @@
           "summary": "Distinguished Professor studying hydrology, surface processes, river networks, and climate-driven hydrologic extremes.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26501,8 +26503,8 @@
           "summary": "Assistant Professor studying environmental engineering, waste valorization, and sustainable resource and water systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26519,8 +26521,8 @@
           "summary": "Professor studying hydrologic modeling and satellite-based estimation of precipitation and hydrometeorological processes.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26537,8 +26539,8 @@
           "summary": "Associate Professor studying transportation systems, shared and on-demand mobility, and operations and optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26555,8 +26557,8 @@
           "summary": "Professor studying transportation systems, traffic network modeling, and intelligent transportation systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26573,8 +26575,8 @@
           "summary": "Professor studying environmental microbiology, waterborne pathogens, water quality, and water reuse and public health.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26591,8 +26593,8 @@
           "summary": "Professor studying traffic flow theory, transportation network dynamics, and connected and automated vehicle systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26609,8 +26611,8 @@
           "summary": "Associate Professor studying geotechnical earthquake engineering, soil-structure interaction, and experimental testing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26627,8 +26629,8 @@
           "summary": "Professor studying transportation planning, travel behavior, and activity-based modeling.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26645,8 +26647,8 @@
           "summary": "Professor studying structural engineering, composite materials, and the rehabilitation and strengthening of structures.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26664,8 +26666,8 @@
           "summary": "Assistant Professor studying environmental engineering, contaminant biotransformation, and water and wastewater treatment.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26682,8 +26684,8 @@
           "summary": "Professor studying wastewater treatment processes, aeration, and the water-energy nexus in water resource recovery.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26701,8 +26703,8 @@
           "summary": "Chancellor's Professor studying flood inundation modeling, hydraulics, and coastal and urban flood hazards.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26719,8 +26721,8 @@
           "summary": "Professor studying transportation and environmental economics, policy, and sustainable urban systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26738,8 +26740,8 @@
           "summary": "Distinguished Professor studying hydrology, hydrometeorology, and satellite-based precipitation estimation and hydrologic modeling.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26757,8 +26759,8 @@
           "summary": "Professor studying mechanics of materials, composites, and structural sensing and damage detection.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26775,8 +26777,8 @@
           "summary": "Professor studying hydrologic modeling, uncertainty quantification, and computational optimization methods.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -26793,8 +26795,8 @@
           "summary": "Professor studying earthquake engineering, performance-based seismic design, and structural risk assessment.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         }
       ]
@@ -31322,36 +31324,36 @@
           "id": "sarah-anderson",
           "name": "Sarah Anderson",
           "title": "Professor",
-          "sub_field": "Environmental politics and policy",
+          "sub_field": "Environmental Politics & Policy",
           "tags": [
             "environmental policy",
             "political science",
-            "governance",
-            "wildfire policy"
+            "wildfire policy",
+            "public administration"
           ],
-          "summary": "Professor studying environmental politics, policy processes, and public and governmental decision-making on environmental issues.",
+          "summary": "Studies environmental politics and policy, including how political institutions and public opinion shape environmental decisions and wildfire management.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/sarah-anderson",
+            "scholar": ""
           }
         },
         {
           "id": "mark-buntaine",
           "name": "Mark Buntaine",
-          "title": "Professor; Interim Co-Dean",
+          "title": "Professor",
           "sub_field": "Environmental Governance",
           "tags": [
-            "governance",
+            "environmental governance",
             "accountability",
             "development",
-            "environmental policy"
+            "field experiments"
           ],
-          "summary": "Studies how information and accountability affect environmental governance and development outcomes.",
+          "summary": "Uses field experiments to study how information and accountability institutions improve environmental and governance outcomes in developing countries.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://bren.ucsb.edu/people/mark-buntaine",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
@@ -31361,468 +31363,446 @@
           "sub_field": "Ecohydrology",
           "tags": [
             "ecohydrology",
-            "water",
-            "drylands",
+            "water resources",
             "remote sensing",
+            "drylands",
             "food security"
           ],
-          "summary": "Professor studying ecohydrology, water and vegetation dynamics, and land-atmosphere interactions in water-limited ecosystems.",
+          "summary": "Studies the coupling of water, vegetation and climate in dryland ecosystems using field sensors and remote sensing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/kelly-caylor",
+            "scholar": ""
           }
         },
         {
           "id": "jayajit-chakraborty",
           "name": "Jayajit Chakraborty",
           "title": "Professor",
-          "sub_field": "Environmental justice / geography",
+          "sub_field": "Environmental Justice",
           "tags": [
             "environmental justice",
             "GIS",
             "health disparities",
-            "hazards",
             "spatial analysis"
           ],
-          "summary": "Professor studying environmental justice, spatial analysis, and disparities in exposure to environmental hazards and health risks.",
+          "summary": "Researches environmental justice and the unequal distribution of environmental hazards and health risks using GIS and spatial statistics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/jayajit-chakraborty",
+            "scholar": ""
           }
         },
         {
           "id": "christopher-costello",
           "name": "Christopher Costello",
           "title": "Distinguished Professor",
-          "sub_field": "Environmental and resource economics",
+          "sub_field": "Environmental & Resource Economics",
           "tags": [
             "resource economics",
             "fisheries",
             "bioeconomics",
-            "policy",
             "oceans"
           ],
-          "summary": "Distinguished Professor studying environmental and natural resource economics, with emphasis on fisheries and ocean management.",
+          "summary": "An environmental economist focused on the economics of fisheries, ocean resources, and property-rights approaches to sustainable management.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/christopher-costello",
+            "scholar": ""
           }
         },
         {
           "id": "ranjit-deshmukh",
           "name": "Ranjit Deshmukh",
           "title": "Associate Professor",
-          "sub_field": "Energy systems",
+          "sub_field": "Energy Systems",
           "tags": [
             "energy systems",
-            "renewables",
-            "electricity",
-            "energy policy",
-            "modeling"
+            "renewable energy",
+            "power grids",
+            "decarbonization"
           ],
-          "summary": "Associate Professor studying energy systems, renewable electricity integration, and energy planning and policy.",
+          "summary": "Studies energy systems planning and the integration of renewable energy for decarbonization, especially in developing regions.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/ranjit-deshmukh",
+            "scholar": ""
           }
         },
         {
           "id": "joan-dudney",
           "name": "Joan Dudney",
           "title": "Assistant Professor",
-          "sub_field": "Forest ecology",
+          "sub_field": "Forest & Disease Ecology",
           "tags": [
             "forest ecology",
+            "disease ecology",
             "climate change",
-            "disease",
-            "disturbance",
-            "dendrochronology"
+            "drought"
           ],
-          "summary": "Assistant Professor studying forest ecology, tree responses to climate and disease, and ecosystem disturbance dynamics.",
+          "summary": "Studies how climate change, drought and disease shape the resilience of montane forest ecosystems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/joan-dudney",
+            "scholar": ""
           }
         },
         {
           "id": "roland-geyer",
           "name": "Roland Geyer",
           "title": "Professor",
-          "sub_field": "Industrial ecology / life cycle assessment",
+          "sub_field": "Industrial Ecology",
           "tags": [
             "industrial ecology",
-            "LCA",
+            "life cycle assessment",
             "plastics",
-            "materials",
-            "sustainability"
+            "materials"
           ],
-          "summary": "Professor studying industrial ecology, life cycle assessment, and the environmental impacts of materials and production systems.",
+          "summary": "An industrial ecologist known for life-cycle assessment of materials and quantifying global plastic production and pollution.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/roland-geyer",
+            "scholar": ""
           }
         },
         {
           "id": "ben-halpern",
           "name": "Ben Halpern",
           "title": "Professor",
-          "sub_field": "Marine conservation / ocean science",
+          "sub_field": "Marine Conservation Ecology",
           "tags": [
-            "marine conservation",
+            "marine ecology",
             "cumulative impacts",
-            "oceans",
-            "sustainability",
-            "food systems"
+            "ocean health",
+            "sustainability"
           ],
-          "summary": "Professor studying marine conservation, cumulative human impacts on oceans, and sustainability of ocean and food systems. Director of NCEAS.",
+          "summary": "Studies cumulative human impacts on marine ecosystems and metrics of ocean health; directs NCEAS.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/ben-halpern",
+            "scholar": ""
           }
         },
         {
           "id": "robert-heilmayr",
           "name": "Robert Heilmayr",
           "title": "Associate Professor",
-          "sub_field": "Environmental economics",
+          "sub_field": "Environmental Economics",
           "tags": [
             "environmental economics",
-            "forests",
             "land use",
-            "conservation policy",
-            "supply chains"
+            "deforestation",
+            "conservation policy"
           ],
-          "summary": "Associate Professor studying environmental economics of forests, land use, deforestation, and conservation policy and supply chains.",
+          "summary": "Combines economics and remote sensing to evaluate conservation policies affecting forests and land use.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/robert-heilmayr",
+            "scholar": ""
           }
         },
         {
           "id": "patricia-holden",
           "name": "Patricia Holden",
           "title": "Professor",
-          "sub_field": "Environmental microbiology",
+          "sub_field": "Environmental Microbiology",
           "tags": [
             "environmental microbiology",
             "nanomaterials",
-            "soil",
             "water quality",
-            "biofilms"
+            "ecotoxicology"
           ],
-          "summary": "Professor studying environmental microbiology, microbial processes in soil and water, and environmental impacts of nanomaterials.",
+          "summary": "Studies environmental microbiology and the fate and effects of nanomaterials and contaminants in soil and water.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/patricia-holden",
+            "scholar": ""
           }
         },
         {
           "id": "scott-jasechko",
           "name": "Scott Jasechko",
           "title": "Professor",
-          "sub_field": "Hydrology / groundwater",
+          "sub_field": "Hydrology",
           "tags": [
             "hydrology",
             "groundwater",
-            "water resources",
             "isotopes",
-            "global water"
+            "water resources"
           ],
-          "summary": "Professor studying hydrology and groundwater, including global patterns of water availability and use.",
+          "summary": "A hydrologist studying groundwater sustainability and global water cycling using isotope and large-data approaches.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/scott-jasechko",
+            "scholar": ""
           }
         },
         {
           "id": "arturo-keller",
           "name": "Arturo Keller",
           "title": "Distinguished Professor",
-          "sub_field": "Water quality / contaminant fate",
+          "sub_field": "Environmental Chemistry",
           "tags": [
             "water quality",
-            "contaminants",
-            "nanomaterials",
-            "watersheds",
-            "treatment"
+            "contaminant fate",
+            "nanotechnology",
+            "watershed modeling"
           ],
-          "summary": "Distinguished Professor studying water quality, the fate and transport of contaminants and nanomaterials, and watershed management.",
+          "summary": "Researches the fate and transport of contaminants and nanomaterials in water and develops watershed-management tools.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/arturo-keller",
+            "scholar": ""
           }
         },
         {
           "id": "ashley-larsen",
           "name": "Ashley Larsen",
           "title": "Professor",
-          "sub_field": "Agricultural ecology",
+          "sub_field": "Agricultural Landscape Ecology",
           "tags": [
-            "agricultural ecology",
-            "landscape ecology",
-            "pest management",
+            "agricultural landscapes",
             "pesticides",
-            "spatial analysis"
+            "pest control",
+            "land use"
           ],
-          "summary": "Professor studying agricultural landscapes, pest and pesticide dynamics, and links between farming and ecological outcomes.",
+          "summary": "Studies how agricultural landscape composition affects pest control, pesticide use, and ecosystem services.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/ashley-larsen",
+            "scholar": ""
           }
         },
         {
           "id": "hunter-lenihan",
           "name": "Hunter Lenihan",
           "title": "Professor",
-          "sub_field": "Marine ecology / fisheries",
+          "sub_field": "Marine Ecology",
           "tags": [
             "marine ecology",
             "fisheries",
-            "restoration",
             "aquaculture",
-            "coastal"
+            "restoration"
           ],
-          "summary": "Professor studying marine ecology, fisheries, habitat restoration, and sustainable coastal and aquaculture systems.",
+          "summary": "A marine ecologist studying fisheries, aquaculture, and the restoration and management of coastal ecosystems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/hunter-lenihan",
+            "scholar": ""
           }
         },
         {
           "id": "andrew-macdonald",
           "name": "Andrew MacDonald",
           "title": "Associate Professor",
-          "sub_field": "Disease ecology",
+          "sub_field": "Disease Ecology",
           "tags": [
             "disease ecology",
-            "land use",
+            "land use change",
             "vector-borne disease",
-            "biodiversity",
-            "health"
+            "conservation"
           ],
-          "summary": "Associate Professor studying disease ecology and how land use and environmental change shape infectious disease risk.",
+          "summary": "Studies how land-use and environmental change alter the ecology and transmission of vector-borne diseases.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/andrew-macdonald",
+            "scholar": ""
           }
         },
         {
           "id": "eric-masanet",
           "name": "Eric Masanet",
           "title": "Professor",
-          "sub_field": "Industrial ecology / energy systems",
+          "sub_field": "Industrial Ecology & Energy Systems",
           "tags": [
-            "industrial ecology",
             "energy analysis",
-            "decarbonization",
-            "LCA",
-            "materials"
+            "industrial ecology",
+            "life cycle assessment",
+            "emerging technologies"
           ],
-          "summary": "Professor studying industrial ecology, energy and material systems analysis, and pathways to industrial decarbonization.",
+          "summary": "Analyzes the energy and environmental implications of industrial systems and emerging technologies for sustainability.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/eric-masanet",
+            "scholar": ""
           }
         },
         {
           "id": "kyle-meng",
           "name": "Kyle Meng",
           "title": "Associate Professor",
-          "sub_field": "Environmental and climate economics",
+          "sub_field": "Climate & Environmental Economics",
           "tags": [
             "climate economics",
-            "environmental economics",
-            "climate policy",
+            "energy policy",
             "carbon markets"
           ],
-          "summary": "Associate Professor studying the economics of climate change and environmental and climate policy.",
+          "summary": "An environmental and climate economist studying climate-change impacts, carbon markets, and energy policy.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/kyle-meng",
+            "scholar": ""
           }
         },
         {
           "id": "ruth-oliver",
           "name": "Ruth Oliver",
           "title": "Assistant Professor",
-          "sub_field": "Movement ecology / remote sensing",
+          "sub_field": "Movement Ecology & Remote Sensing",
           "tags": [
             "movement ecology",
             "remote sensing",
             "biodiversity",
-            "phenology",
             "animal tracking"
           ],
-          "summary": "Assistant Professor studying animal movement, biodiversity, and ecosystem dynamics using remote sensing and tracking data.",
+          "summary": "Uses animal tracking and remote sensing to study wildlife movement and biodiversity responses to environmental change.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/ruth-oliver",
+            "scholar": ""
           }
         },
         {
           "id": "anna-papp",
           "name": "Anna Papp",
           "title": "Assistant Professor",
-          "sub_field": "Environmental economics",
+          "sub_field": "Environmental Economics",
           "tags": [
             "environmental economics",
-            "waste",
             "pollution",
-            "climate",
-            "data science"
+            "waste",
+            "satellite data"
           ],
-          "summary": "Assistant Professor studying environmental economics, including pollution, waste, and climate using data-driven methods.",
+          "summary": "An environmental economist using satellite and data-driven methods to study pollution, waste, and environmental policy.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/anna-papp",
+            "scholar": ""
           }
         },
         {
           "id": "andrew-plantinga",
           "name": "Andrew Plantinga",
-          "title": "Professor; Interim Co-Dean",
-          "sub_field": "Land Use & Resource Economics",
+          "title": "Professor",
+          "sub_field": "Natural Resource Economics",
           "tags": [
             "land use economics",
-            "conservation",
             "resource economics",
-            "climate"
+            "conservation",
+            "ecosystem services"
           ],
-          "summary": "Studies land use economics and the economics of natural resource and conservation policy.",
+          "summary": "A natural-resource economist studying land-use change, conservation policy, and the economics of ecosystem services.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://bren.ucsb.edu/people/andrew-plantinga",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "matt-potoski",
           "name": "Matt Potoski",
           "title": "Professor",
-          "sub_field": "Environmental governance and management",
+          "sub_field": "Environmental Governance & Management",
           "tags": [
             "environmental governance",
             "voluntary programs",
-            "management",
-            "policy",
-            "collective action"
+            "corporate sustainability",
+            "public management"
           ],
-          "summary": "Professor studying environmental governance, corporate and voluntary environmental programs, and collective action.",
+          "summary": "Studies environmental governance, voluntary environmental programs, and corporate sustainability and public management.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/matt-potoski",
+            "scholar": ""
           }
         },
         {
           "id": "samantha-stevenson-karl",
           "name": "Samantha Stevenson-Karl",
           "title": "Associate Professor",
-          "sub_field": "Climate modeling",
+          "sub_field": "Climate Science",
           "tags": [
             "climate modeling",
-            "climate variability",
             "ENSO",
             "hydroclimate",
             "paleoclimate"
           ],
-          "summary": "Associate Professor studying climate modeling and climate variability, including ENSO and hydroclimate change.",
+          "summary": "A climate scientist studying climate variability, ENSO and hydroclimate using earth-system models and paleoclimate records.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/samantha-stevenson-karl",
+            "scholar": ""
           }
         },
         {
           "id": "christina-tague",
           "name": "Christina Tague",
           "title": "Professor",
-          "sub_field": "Ecohydrology / hydrologic modeling",
+          "sub_field": "Ecohydrology",
           "tags": [
             "ecohydrology",
             "hydrologic modeling",
             "watersheds",
-            "climate change",
-            "water resources"
+            "climate change"
           ],
-          "summary": "Professor studying ecohydrology and hydrologic modeling of watershed responses to climate and land use change.",
+          "summary": "Develops ecohydrologic models to study how climate and land management affect water and carbon in watersheds.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/christina-tague",
+            "scholar": ""
           }
         },
         {
           "id": "david-tilman",
           "name": "David Tilman",
           "title": "Distinguished Professor",
-          "sub_field": "Ecology / biodiversity",
+          "sub_field": "Ecology",
           "tags": [
-            "ecology",
             "biodiversity",
             "ecosystem function",
             "sustainability",
-            "agriculture"
+            "grasslands"
           ],
-          "summary": "Distinguished Professor studying biodiversity, ecosystem functioning, and the sustainability of agriculture and natural ecosystems.",
+          "summary": "A leading ecologist studying biodiversity, ecosystem functioning, and the sustainability of agriculture and grasslands.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/david-tilman",
+            "scholar": ""
           }
         },
         {
           "id": "basak-kalkanci",
           "name": "Basak Kalkanci",
           "title": "Associate Professor",
-          "sub_field": "Sustainable operations management",
+          "sub_field": "Sustainable Operations Management",
           "tags": [
             "operations management",
             "sustainable supply chains",
-            "socially responsible operations"
+            "transparency",
+            "corporate environmental management"
           ],
-          "summary": "Associate Professor studying operations management and sustainable and socially responsible supply chains.",
+          "summary": "Studies sustainable operations and supply-chain management, including transparency and socially responsible sourcing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/basak-kalkanci",
+            "scholar": ""
           }
         },
         {
           "id": "james-salzman",
           "name": "James Salzman",
-          "title": "Distinguished Professor",
-          "sub_field": "Environmental law and policy",
+          "title": "Distinguished Professor of Environmental Law",
+          "sub_field": "Environmental Law & Policy",
           "tags": [
             "environmental law",
-            "policy",
-            "ecosystem services",
-            "water",
-            "governance"
+            "water policy",
+            "ecosystem services"
           ],
-          "summary": "Distinguished Professor of Environmental Law studying environmental law and policy, ecosystem services, and water markets.",
+          "summary": "An environmental-law scholar focused on drinking-water policy, ecosystem-services markets, and environmental regulation.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://bren.ucsb.edu/people/james-salzman",
+            "scholar": ""
           }
         }
       ]
@@ -37452,143 +37432,145 @@
         {
           "id": "robert-schooley",
           "name": "Robert Schooley",
-          "title": "Professor and Department Head",
-          "sub_field": "Landscape & Wildlife Ecology",
+          "title": "Professor",
+          "sub_field": "Wildlife & Landscape Ecology",
           "tags": [
-            "landscape ecology",
             "wildlife ecology",
-            "conservation",
-            "spatial ecology"
+            "landscape ecology",
+            "conservation biology",
+            "habitat fragmentation"
           ],
-          "summary": "Professor and Department Head studying landscape and wildlife ecology and conservation.",
+          "summary": "Studies wildlife, landscape, and conservation ecology, including habitat fragmentation, landscape connectivity, and animal movements.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/schooley",
+            "scholar": ""
           }
         },
         {
           "id": "yuji-arai",
           "name": "Yuji Arai",
           "title": "Associate Professor",
-          "sub_field": "Soil & Environmental Chemistry",
+          "sub_field": "Environmental Soil Chemistry",
           "tags": [
             "soil chemistry",
-            "environmental chemistry",
             "biogeochemistry",
-            "nutrients"
+            "molecular environmental science",
+            "nanoscience"
           ],
-          "summary": "Associate Professor studying soil and environmental chemistry.",
+          "summary": "Researches environmental soil chemistry and biogeochemistry, including molecular-scale contaminant behavior and nanoscience.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/yarai",
+            "scholar": ""
           }
         },
         {
           "id": "jennifer-m-fraterrigo",
           "name": "Jennifer M. Fraterrigo",
           "title": "Professor",
-          "sub_field": "Landscape Ecology",
+          "sub_field": "Landscape & Ecosystem Ecology",
           "tags": [
             "landscape ecology",
             "ecosystem ecology",
-            "disturbance",
-            "biogeochemistry"
+            "biodiversity",
+            "nutrient cycling"
           ],
-          "summary": "Professor studying landscape and ecosystem ecology.",
+          "summary": "Studies how human-accelerated environmental change affects ecosystem function, nutrient cycling, and biodiversity across landscapes.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/jmf",
+            "scholar": ""
           }
         },
         {
           "id": "mar-a-alejandra-garc-a-otero",
           "name": "María Alejandra García Otero",
           "title": "Assistant Professor",
-          "sub_field": "Natural Resources & Environmental Sciences",
+          "sub_field": "Rural Sustainability & Environmental Justice",
           "tags": [
-            "environmental sciences",
-            "natural resources"
+            "environmental justice",
+            "rural sustainability",
+            "international development",
+            "conservation social science"
           ],
-          "summary": "Assistant Professor in Natural Resources & Environmental Sciences.",
+          "summary": "Studies justice dimensions of rural sustainability and how agricultural and environmental-service projects affect rural communities in Latin America.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/mariaag",
+            "scholar": ""
           }
         },
         {
           "id": "kaiyu-guan",
           "name": "Kaiyu Guan",
           "title": "Levenick Professor of Sustainability",
-          "sub_field": "Remote Sensing & Agroecosystems",
+          "sub_field": "Agroecosystems & Remote Sensing",
           "tags": [
             "remote sensing",
-            "agroecosystems",
-            "sustainability",
-            "climate",
-            "modeling"
+            "ecosystem modeling",
+            "agriculture",
+            "carbon and water cycles"
           ],
-          "summary": "Levenick Professor of Sustainability studying agroecosystems, remote sensing, and climate.",
+          "summary": "Uses remote sensing and ecosystem modeling to study agricultural sustainability and carbon and water cycling in agroecosystems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/kaiyug",
+            "scholar": ""
           }
         },
         {
           "id": "jon-henn",
           "name": "Jon Henn",
           "title": "Assistant Professor",
-          "sub_field": "Plant & Community Ecology",
+          "sub_field": "Plant Community Ecology",
           "tags": [
             "plant ecology",
             "community ecology",
-            "biodiversity"
+            "functional traits",
+            "global change"
           ],
-          "summary": "Assistant Professor studying plant and community ecology.",
+          "summary": "Studies plant community ecology, functional traits, and how plant communities respond to global environmental change.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/hennj",
+            "scholar": ""
           }
         },
         {
           "id": "robert-j-m-hudson",
-          "name": "Robert J. M. Hudson",
+          "name": "Robert J M Hudson",
           "title": "Associate Professor",
-          "sub_field": "Environmental Biogeochemistry",
+          "sub_field": "Aquatic Chemistry & Biogeochemistry",
           "tags": [
-            "biogeochemistry",
             "aquatic chemistry",
-            "mercury",
-            "modeling"
+            "biogeochemistry",
+            "trace metals",
+            "water quality"
           ],
-          "summary": "Associate Professor studying environmental biogeochemistry and aquatic chemistry.",
+          "summary": "Researches aquatic chemistry and biogeochemistry, including the cycling of trace metals in freshwater systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/rjhudson",
+            "scholar": ""
           }
         },
         {
           "id": "mckenzie-f-johnson",
           "name": "McKenzie F. Johnson",
           "title": "Associate Professor",
-          "sub_field": "Environmental Policy & Governance",
+          "sub_field": "Environmental Governance & Policy",
           "tags": [
-            "environmental policy",
-            "governance",
-            "natural resource management",
-            "conflict"
+            "environmental governance",
+            "natural resource conflict",
+            "environmental security",
+            "policy"
           ],
-          "summary": "Associate Professor studying environmental policy, governance, and natural resource management.",
+          "summary": "Studies environmental governance, natural-resource conflict, and how policy shapes resource management and security.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/mfj4",
+            "scholar": ""
           }
         },
         {
@@ -37598,175 +37580,177 @@
           "sub_field": "Microbial Ecology",
           "tags": [
             "microbial ecology",
-            "biogeochemistry",
-            "microbiome",
-            "wetlands"
+            "environmental microbiology",
+            "microbiomes",
+            "nutrient cycling"
           ],
-          "summary": "Professor studying microbial ecology and microbial community function in the environment.",
+          "summary": "Studies microbial ecology and environmental microbiology, including microbial communities that drive ecosystem nutrient cycling.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/akent",
+            "scholar": ""
           }
         },
         {
           "id": "frances-e-kuo",
           "name": "Frances E. Kuo",
           "title": "Associate Professor",
-          "sub_field": "Environment & Human Health",
+          "sub_field": "Nature & Human Health",
           "tags": [
-            "environment and human health",
-            "nature and behavior",
-            "urban greenspace"
+            "environment and health",
+            "green space",
+            "human well-being",
+            "urban ecology"
           ],
-          "summary": "Associate Professor studying links between the natural environment and human health and behavior.",
+          "summary": "Directs the Landscape and Human Health Lab, studying links between green space and healthy human functioning such as well-being and reduced violence.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/fekuo",
+            "scholar": ""
           }
         },
         {
           "id": "eric-r-larson",
           "name": "Eric R. Larson",
           "title": "Associate Professor",
-          "sub_field": "Aquatic Ecology",
+          "sub_field": "Freshwater Ecology & Invasive Species",
           "tags": [
-            "aquatic ecology",
+            "freshwater ecology",
             "invasive species",
-            "freshwater",
-            "conservation"
+            "conservation",
+            "environmental DNA"
           ],
-          "summary": "Associate Professor studying aquatic ecology, invasive species, and freshwater conservation.",
+          "summary": "Studies freshwater ecology, invasive species, and conservation, using tools such as environmental DNA.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/erlarson",
+            "scholar": ""
           }
         },
         {
           "id": "jeffrey-w-matthews",
           "name": "Jeffrey W. Matthews",
-          "title": "Associate Professor and Director of Graduate Studies",
+          "title": "Associate Professor",
           "sub_field": "Wetland & Restoration Ecology",
           "tags": [
             "wetland ecology",
             "restoration ecology",
-            "plant ecology",
-            "biodiversity"
+            "plant community assembly",
+            "invasive plants"
           ],
-          "summary": "Associate Professor and Director of Graduate Studies studying wetland and restoration ecology.",
+          "summary": "Studies wetland plant ecology and restoration, applying succession and community-assembly theory to assess and improve restoration outcomes.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/jmatthew",
+            "scholar": ""
           }
         },
         {
           "id": "james-robert-miller",
           "name": "James Robert Miller",
-          "title": "Professor and Director of Undergraduate Studies",
+          "title": "Professor",
           "sub_field": "Landscape Ecology & Conservation",
           "tags": [
             "landscape ecology",
             "conservation",
-            "human-nature interactions",
-            "biodiversity"
+            "avian ecology",
+            "land use"
           ],
-          "summary": "Professor and Director of Undergraduate Studies studying landscape ecology and conservation.",
+          "summary": "Studies the reconciliation of human land use with conservation of native species, with an emphasis on avian and landscape ecology.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/jrmillr",
+            "scholar": ""
           }
         },
         {
           "id": "eric-morgan",
           "name": "Eric Morgan",
-          "title": "Associate Professor (NRES and Agricultural Communications, ALEC)",
-          "sub_field": "Science Communication & Natural Resources",
+          "title": "Associate Professor",
+          "sub_field": "Environmental & Science Communication",
           "tags": [
+            "environmental communication",
             "science communication",
-            "natural resources",
-            "environmental communication"
+            "culture and environment",
+            "digital agriculture"
           ],
-          "summary": "Associate Professor with a joint appointment in NRES and Agricultural Communications (ALEC).",
+          "summary": "Studies how communities communicate about land, water, agriculture and environment, and how communication shapes adoption of digital agriculture.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/elmorg19",
+            "scholar": ""
           }
         },
         {
           "id": "richard-l-mulvaney",
           "name": "Richard L. Mulvaney",
           "title": "Professor",
-          "sub_field": "Soil Fertility & Nitrogen Cycling",
+          "sub_field": "Soil Fertility & Nitrogen",
           "tags": [
             "soil fertility",
             "nitrogen cycling",
-            "soil chemistry",
-            "agronomy"
+            "fertilizer",
+            "isotope analysis"
           ],
-          "summary": "Professor studying soil fertility and nitrogen cycling.",
+          "summary": "Researches soil fertility with emphasis on the fate and behavior of soil and fertilizer nitrogen using isotope methods.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/mulvaney",
+            "scholar": ""
           }
         },
         {
           "id": "joy-o-keefe",
           "name": "Joy O'Keefe",
-          "title": "Associate Professor and Wildlife Extension Specialist",
-          "sub_field": "Wildlife Ecology",
+          "title": "Associate Professor",
+          "sub_field": "Wildlife Ecology & Conservation",
           "tags": [
-            "wildlife ecology",
-            "bats",
-            "conservation",
-            "extension"
+            "bat ecology",
+            "wildlife conservation",
+            "extension",
+            "habitat management"
           ],
-          "summary": "Associate Professor and Wildlife Extension Specialist studying wildlife (bat) ecology and conservation.",
+          "summary": "Studies bat ecology and wildlife conservation, and serves as a wildlife extension specialist connecting research with management.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/jmokeefe",
+            "scholar": ""
           }
         },
         {
           "id": "cory-suski",
           "name": "Cory Suski",
           "title": "Professor",
-          "sub_field": "Fish Physiology & Ecology",
+          "sub_field": "Fish Ecological Physiology",
           "tags": [
             "fish physiology",
-            "aquatic ecology",
-            "conservation physiology",
-            "fisheries"
+            "ecological physiology",
+            "freshwater ecology",
+            "conservation"
           ],
-          "summary": "Professor studying fish physiology, conservation physiology, and aquatic ecology.",
+          "summary": "Integrates laboratory and field studies of ecological physiology to understand abundance and distribution of freshwater organisms.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/suski",
+            "scholar": ""
           }
         },
         {
           "id": "carmen-m-ugarte",
           "name": "Carmen M. Ugarte",
           "title": "Assistant Professor",
-          "sub_field": "Soil Ecology & Agroecology",
+          "sub_field": "Soil Ecology",
           "tags": [
             "soil ecology",
-            "agroecology",
             "soil health",
-            "sustainable agriculture"
+            "soil food webs",
+            "agroecosystems"
           ],
-          "summary": "Assistant Professor studying soil ecology and agroecology.",
+          "summary": "Studies how soil-management practices affect soil quality and food webs that regulate nutrient cycling and carbon storage.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/cugarte",
+            "scholar": ""
           }
         },
         {
@@ -37775,16 +37759,16 @@
           "title": "Assistant Professor",
           "sub_field": "Ornithology & Movement Ecology",
           "tags": [
-            "ornithology",
+            "bird migration",
             "movement ecology",
-            "migration",
-            "remote sensing"
+            "bioacoustics",
+            "computational ecology"
           ],
-          "summary": "Assistant Professor studying bird migration and movement ecology.",
+          "summary": "Studies bird migration and movement ecology using bioacoustics, radar, and computational approaches.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/vandoren",
+            "scholar": ""
           }
         },
         {
@@ -37794,15 +37778,15 @@
           "sub_field": "Human Dimensions of Natural Resources",
           "tags": [
             "human dimensions",
+            "environmental values",
             "conservation social science",
-            "recreation",
-            "values"
+            "recreation"
           ],
-          "summary": "Associate Professor studying human dimensions of natural resources and conservation social science.",
+          "summary": "Studies the human dimensions of natural resources, including environmental values and behavior in conservation and recreation contexts.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/cvanripe",
+            "scholar": ""
           }
         },
         {
@@ -37812,15 +37796,15 @@
           "sub_field": "Avian Ecology",
           "tags": [
             "avian ecology",
-            "wildlife ecology",
-            "movement",
-            "conservation"
+            "animal movement",
+            "habitat selection",
+            "population dynamics"
           ],
-          "summary": "Professor and Levenick Chair in Sustainability studying avian and wildlife ecology.",
+          "summary": "Studies the ecology and behavior of birds, including habitat selection, movement, and wetland-bird population dynamics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/mpward",
+            "scholar": ""
           }
         },
         {
@@ -37829,16 +37813,16 @@
           "title": "Assistant Professor",
           "sub_field": "Environmental Social Science & Policy",
           "tags": [
-            "environmental policy",
-            "conservation social science",
-            "water",
-            "governance"
+            "environmental social science",
+            "conservation policy",
+            "water quality governance",
+            "land management"
           ],
-          "summary": "Assistant Professor studying environmental social science and natural resource policy.",
+          "summary": "Studies environmental social science and conservation policy, including governance of water quality and land management.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/chloew",
+            "scholar": ""
           }
         },
         {
@@ -37865,33 +37849,51 @@
           "sub_field": "Microbial Ecology",
           "tags": [
             "microbial ecology",
-            "soil microbiology",
             "microbial communities",
+            "soil and plant microbiomes",
             "biogeochemistry"
           ],
-          "summary": "Associate Professor studying microbial ecology and microbial community dynamics.",
+          "summary": "Studies the ecology of microbial communities and how community structure relates to environmental conditions in soil and aquatic systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/acyann",
+            "scholar": ""
           }
         },
         {
           "id": "zhongjie-yu",
           "name": "Zhongjie Yu",
           "title": "Assistant Professor",
-          "sub_field": "Biogeochemistry & Isotopes",
+          "sub_field": "Isotope Biogeochemistry",
           "tags": [
-            "biogeochemistry",
+            "nitrogen biogeochemistry",
             "stable isotopes",
-            "nitrogen cycle",
-            "soils"
+            "soil and freshwater systems",
+            "biogeochemical modeling"
           ],
-          "summary": "Assistant Professor studying biogeochemistry using stable isotope approaches.",
+          "summary": "Uses stable-isotope analysis and modeling to study nitrogen biogeochemistry in terrestrial, agricultural, and aquatic ecosystems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://nres.illinois.edu/directory/zjyu",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "christopher-wirz",
+          "name": "Christopher Wirz",
+          "title": "Assistant Professor",
+          "sub_field": "Science Communication",
+          "tags": [
+            "science communication",
+            "public opinion",
+            "risk communication",
+            "emerging technology"
+          ],
+          "summary": "Studies science communication and public opinion around science, risk, and emerging technologies including their environmental dimensions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://nres.illinois.edu/directory/wirz",
+            "scholar": ""
           }
         }
       ]

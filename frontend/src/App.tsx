@@ -11,6 +11,7 @@ import {
 } from './lib/filters'
 import { useMyList } from './lib/myList'
 import { useStarredAdvisors } from './lib/starredAdvisors'
+import { useAdvisorNotes } from './lib/advisorNotes'
 import { FilterSidebar } from './components/FilterSidebar'
 import { FieldSearch } from './components/FieldSearch'
 import { ProgramIndex } from './components/ProgramIndex'
@@ -39,6 +40,7 @@ function App() {
   const [showRequest, setShowRequest] = useState(false)
   const { myList, toggle: toggleMyList } = useMyList()
   const { levels: starLevels, setLevel: setStarLevel } = useStarredAdvisors()
+  const { notes: advisorNotes, setNote: setAdvisorNote } = useAdvisorNotes()
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
   useEffect(() => {
@@ -296,6 +298,8 @@ function App() {
                 onToggleList={() => selected && toggleMyList(selected.id)}
                 levels={starLevels}
                 onSetLevel={setStarLevel}
+                notes={advisorNotes}
+                onSetNote={setAdvisorNote}
               />
             </>
           )
@@ -307,6 +311,8 @@ function App() {
             onOpenProgram={openProgram}
             levels={starLevels}
             onSetLevel={setStarLevel}
+            notes={advisorNotes}
+            onSetNote={setAdvisorNote}
           />
         ) : view === 'schools' ? (
           <SchoolExplorer
@@ -321,6 +327,8 @@ function App() {
             levels={starLevels}
             onSetLevel={setStarLevel}
             onOpenProgram={openProgram}
+            notes={advisorNotes}
+            onSetNote={setAdvisorNote}
           />
         )}
       </div>

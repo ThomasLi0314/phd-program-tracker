@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import type { Faculty, Program } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
 import { StarRating } from './StarRating'
+import { AdvisorNote } from './AdvisorNote'
 import { advisorKey } from '../lib/starredAdvisors'
 
 interface AdvisorHit {
@@ -43,11 +44,15 @@ function AdvisorCard({
   level,
   onSetLevel,
   onOpenProgram,
+  note,
+  onSaveNote,
 }: {
   hit: AdvisorHit
   level: number
   onSetLevel: (n: number) => void
   onOpenProgram: () => void
+  note: string
+  onSaveNote: (text: string) => void
 }) {
   const { faculty: f, program: p } = hit
   return (
@@ -111,6 +116,7 @@ function AdvisorCard({
           </a>
         )}
       </div>
+      <AdvisorNote note={note} onSave={onSaveNote} />
     </article>
   )
 }
@@ -122,6 +128,8 @@ export function AdvisorExplorer({
   onOpenProgram,
   levels,
   onSetLevel,
+  notes,
+  onSetNote,
 }: {
   programs: Program[]
   query: string
@@ -129,6 +137,8 @@ export function AdvisorExplorer({
   onOpenProgram: (programId: string) => void
   levels: Map<string, number>
   onSetLevel: (key: string, level: number) => void
+  notes: Map<string, string>
+  onSetNote: (key: string, text: string) => void
 }) {
   const allHits = useMemo(
     () => programs.flatMap((p) => p.faculty.map((f) => ({ faculty: f, program: p }))),
@@ -227,6 +237,8 @@ export function AdvisorExplorer({
                   level={levels.get(key) ?? 0}
                   onSetLevel={(n) => onSetLevel(key, n)}
                   onOpenProgram={() => onOpenProgram(h.program.id)}
+                  note={notes.get(key) ?? ''}
+                  onSaveNote={(text) => onSetNote(key, text)}
                 />
               )
             })}

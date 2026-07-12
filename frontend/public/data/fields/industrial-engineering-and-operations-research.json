@@ -7657,463 +7657,468 @@
           "id": "james-allison",
           "name": "James Allison",
           "title": "Professor",
-          "sub_field": "Design optimization",
+          "sub_field": "Design Optimization & Control Co-Design",
           "tags": [
             "design optimization",
             "control co-design",
-            "systems engineering"
+            "dynamic systems",
+            "energy systems"
           ],
-          "summary": "Professor working on system design optimization and control co-design.",
+          "summary": "Studies system-level design optimization and control co-design for complex engineered and energy systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/jtalliso",
+            "scholar": ""
           }
         },
         {
           "id": "carolyn-l-beck",
           "name": "Carolyn L. Beck",
           "title": "Professor",
-          "sub_field": "Control and optimization",
+          "sub_field": "Systems & Control",
           "tags": [
             "control systems",
-            "optimization",
-            "networks",
-            "model reduction"
+            "networked systems",
+            "model reduction",
+            "optimization"
           ],
-          "summary": "Professor working on control systems, optimization, and networked systems.",
+          "summary": "Researches control and optimization of networked and large-scale dynamical systems, including model reduction and clustering.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/beck3",
+            "scholar": ""
           }
         },
         {
           "id": "harrison-hyung-min-kim",
           "name": "Harrison Hyung Min Kim",
           "title": "Professor",
-          "sub_field": "Design and sustainability",
+          "sub_field": "Engineering Design & Manufacturing",
           "tags": [
-            "product design",
+            "design optimization",
             "sustainable design",
-            "optimization",
-            "systems"
+            "product systems",
+            "data analytics"
           ],
-          "summary": "Professor working on product design optimization and sustainable systems design.",
+          "summary": "Studies engineering design, product lifecycle and sustainable manufacturing systems using optimization and data analytics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/hmkim",
+            "scholar": ""
           }
         },
         {
           "id": "jim-rehg",
           "name": "Jim Rehg",
-          "title": "Professor; Director, Health Care Engineering Systems Center",
-          "sub_field": "Machine learning and computer vision",
+          "title": "Professor",
+          "sub_field": "Computer Vision & Machine Learning",
           "tags": [
-            "machine learning",
             "computer vision",
-            "healthcare",
-            "behavioral analytics"
+            "machine learning",
+            "behavioral imaging",
+            "health"
           ],
-          "summary": "Professor and Health Care Engineering Systems Center director working on machine learning, computer vision, and health applications.",
+          "summary": "Researches computer vision and machine learning with applications to behavioral imaging and health.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/jrehg",
+            "scholar": ""
           }
         },
         {
           "id": "jeff-shamma",
           "name": "Jeff Shamma",
-          "title": "Professor; Jerry S. Dobrovolny Chair in ISE",
-          "sub_field": "Control and game theory",
+          "title": "Professor",
+          "sub_field": "Control & Game Theory",
           "tags": [
             "control systems",
             "game theory",
-            "distributed systems",
-            "multi-agent"
+            "multi-agent systems",
+            "distributed decision-making"
           ],
-          "summary": "Department chair working on control, game theory, and distributed multi-agent systems.",
+          "summary": "Studies feedback control, game theory, and distributed decision-making in multi-agent systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/jshamma",
+            "scholar": ""
           }
         },
         {
           "id": "richard-b-sowers",
           "name": "Richard B. Sowers",
-          "title": "Professor of ISE & Mathematics",
-          "sub_field": "Applied probability",
+          "title": "Professor",
+          "sub_field": "Applied Probability",
           "tags": [
             "applied probability",
             "stochastic processes",
-            "financial engineering",
+            "financial mathematics",
             "data science"
           ],
-          "summary": "Professor of ISE and Mathematics working on applied probability and financial engineering.",
+          "summary": "Works on applied probability and stochastic dynamical systems with applications in finance and data science.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/r-sowers",
+            "scholar": ""
           }
         },
         {
           "id": "ramavarapu-s-sreenivas",
           "name": "Ramavarapu S. Sreenivas",
           "title": "Professor",
-          "sub_field": "Discrete-event systems",
+          "sub_field": "Discrete-Event Systems",
           "tags": [
             "discrete-event systems",
-            "control",
-            "supervisory control"
+            "Petri nets",
+            "supervisory control",
+            "optimization"
           ],
-          "summary": "Professor working on discrete-event systems and supervisory control.",
+          "summary": "Researches discrete-event dynamic systems, supervisory control, and Petri-net models.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/rsree",
+            "scholar": ""
           }
         },
         {
           "id": "dusan-m-stipanovic",
           "name": "Dusan M. Stipanovic",
           "title": "Professor",
-          "sub_field": "Control and optimization",
+          "sub_field": "Control & Multi-Agent Systems",
           "tags": [
-            "control systems",
+            "control",
+            "multi-agent systems",
             "optimization",
-            "autonomous systems",
-            "game theory"
+            "collision avoidance"
           ],
-          "summary": "Professor working on control, optimization, and autonomous systems.",
+          "summary": "Studies control theory and multi-agent systems, including collision avoidance and pursuit-evasion.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/dusan",
+            "scholar": ""
           }
         },
         {
           "id": "alexander-stolyar",
           "name": "Alexander Stolyar",
           "title": "Professor",
-          "sub_field": "Stochastic networks",
+          "sub_field": "Stochastic Systems & Queueing",
           "tags": [
             "stochastic networks",
-            "queueing",
+            "queueing theory",
             "applied probability",
-            "operations research"
+            "resource allocation"
           ],
-          "summary": "Professor working on stochastic networks, queueing, and applied probability.",
+          "summary": "Researches stochastic processing networks, queueing theory, and control of large-scale service and communication systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/stolyar",
+            "scholar": ""
           }
         },
         {
           "id": "pingfeng-wang",
           "name": "Pingfeng Wang",
           "title": "Professor",
-          "sub_field": "Reliability engineering",
+          "sub_field": "Reliability Engineering",
           "tags": [
             "reliability",
-            "prognostics",
-            "design under uncertainty",
-            "resilience"
+            "prognostics and health management",
+            "uncertainty quantification",
+            "design"
           ],
-          "summary": "Professor working on reliability engineering, prognostics, and design under uncertainty.",
+          "summary": "Researches reliability engineering, prognostics and health management, and design under uncertainty.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/pingfeng",
+            "scholar": ""
           }
         },
         {
           "id": "qiong-wang",
           "name": "Qiong Wang",
           "title": "Professor",
-          "sub_field": "Operations research",
+          "sub_field": "Operations Research & Revenue Management",
           "tags": [
             "operations research",
             "revenue management",
-            "pricing",
-            "networks"
+            "queueing",
+            "service systems"
           ],
-          "summary": "Professor working on operations research, revenue management, and resource allocation.",
+          "summary": "Studies operations research applied to service systems, revenue management, and telecommunications.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/qwang04",
+            "scholar": ""
           }
         },
         {
           "id": "karthekeyan-chandrasekaran",
           "name": "Karthekeyan Chandrasekaran",
           "title": "Associate Professor",
-          "sub_field": "Combinatorial optimization",
+          "sub_field": "Combinatorial Optimization",
           "tags": [
             "combinatorial optimization",
             "algorithms",
-            "theory"
+            "integer programming",
+            "graph theory"
           ],
-          "summary": "Associate Professor working on combinatorial optimization and algorithms.",
+          "summary": "Works on combinatorial optimization and algorithms, including graph problems and integer-programming theory.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/karthe",
+            "scholar": ""
           }
         },
         {
           "id": "rasoul-etesami",
           "name": "Rasoul Etesami",
           "title": "Associate Professor",
-          "sub_field": "Games, networks, and learning",
+          "sub_field": "Game Theory & Networks",
           "tags": [
             "game theory",
-            "networks",
             "optimization",
-            "learning"
+            "networks",
+            "reinforcement learning"
           ],
-          "summary": "Associate Professor working on game theory, networks, and learning in multi-agent systems.",
+          "summary": "Studies game theory, optimization, and learning in networked and multi-agent systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/etesami1",
+            "scholar": ""
           }
         },
         {
           "id": "liming-feng",
           "name": "Liming Feng",
           "title": "Associate Professor",
-          "sub_field": "Financial engineering",
+          "sub_field": "Financial Engineering",
           "tags": [
             "financial engineering",
             "computational finance",
-            "applied probability"
+            "stochastic modeling",
+            "risk"
           ],
-          "summary": "Associate Professor working on financial engineering and computational finance.",
+          "summary": "Works on computational finance, financial engineering, and stochastic modeling of risk.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/fenglm",
+            "scholar": ""
           }
         },
         {
           "id": "jugal-garg",
           "name": "Jugal Garg",
           "title": "Associate Professor",
-          "sub_field": "Algorithmic game theory",
+          "sub_field": "Algorithmic Game Theory",
           "tags": [
             "algorithmic game theory",
-            "market equilibrium",
+            "market equilibria",
             "fair division",
-            "algorithms"
+            "optimization"
           ],
-          "summary": "Associate Professor working on algorithmic game theory, market equilibria, and fair division.",
+          "summary": "Researches algorithmic game theory, market-equilibrium computation, and fair division.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/jugal",
+            "scholar": ""
           }
         },
         {
           "id": "grani-adiwena-hanasusanto",
           "name": "Grani Adiwena Hanasusanto",
           "title": "Associate Professor",
-          "sub_field": "Optimization under uncertainty",
+          "sub_field": "Optimization under Uncertainty",
           "tags": [
             "stochastic optimization",
             "robust optimization",
-            "operations research"
+            "distributionally robust optimization",
+            "decision-making"
           ],
-          "summary": "Associate Professor working on stochastic and robust optimization under uncertainty.",
+          "summary": "Develops stochastic, robust and distributionally robust optimization methods for decision-making under uncertainty.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/gah",
+            "scholar": ""
           }
         },
         {
           "id": "girish-krishnan",
           "name": "Girish Krishnan",
           "title": "Associate Professor",
-          "sub_field": "Robotics and compliant mechanisms",
+          "sub_field": "Soft Robotics & Compliant Mechanisms",
           "tags": [
-            "robotics",
             "soft robotics",
             "compliant mechanisms",
-            "design"
+            "design",
+            "actuators"
           ],
-          "summary": "Associate Professor working on robotics, soft robotics, and compliant mechanism design.",
+          "summary": "Researches soft robotics, compliant mechanisms, and the design of flexible actuators and manipulators.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/gkrishna",
+            "scholar": ""
           }
         },
         {
           "id": "lavanya-marla",
           "name": "Lavanya Marla",
           "title": "Associate Professor",
-          "sub_field": "Transportation and optimization",
+          "sub_field": "Operations Research & Transportation",
           "tags": [
+            "operations research",
             "transportation",
-            "airline operations",
-            "optimization under uncertainty",
-            "operations research"
+            "airline optimization",
+            "robust planning"
           ],
-          "summary": "Associate Professor working on transportation systems and optimization under uncertainty.",
+          "summary": "Applies large-scale optimization and operations research to transportation and airline systems, including robust and real-time planning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/lavanyam",
+            "scholar": ""
           }
         },
         {
           "id": "behrouz-touri",
           "name": "Behrouz Touri",
           "title": "Associate Professor",
-          "sub_field": "Distributed control and optimization",
+          "sub_field": "Distributed Optimization & Networks",
           "tags": [
-            "distributed control",
-            "optimization",
-            "learning",
-            "networks"
+            "distributed optimization",
+            "control",
+            "network dynamics",
+            "game theory"
           ],
-          "summary": "Associate Professor working on distributed control, optimization, and learning.",
+          "summary": "Studies distributed optimization, control, and dynamics over networks and multi-agent systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/touri1",
+            "scholar": ""
           }
         },
         {
           "id": "roy-dong",
           "name": "Roy Dong",
           "title": "Assistant Professor",
-          "sub_field": "Control, learning, and privacy",
+          "sub_field": "Data Science & Control",
           "tags": [
-            "control systems",
             "machine learning",
+            "control",
             "privacy",
             "cyber-physical systems"
           ],
-          "summary": "Assistant Professor working on control, machine learning, and privacy in cyber-physical systems.",
+          "summary": "Studies data-driven decision-making, privacy, and learning in cyber-physical and networked systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/roydong",
+            "scholar": ""
           }
         },
         {
           "id": "yiwen-dong",
           "name": "Yiwen Dong",
           "title": "Assistant Professor",
-          "sub_field": "Human-centered sensing",
+          "sub_field": "Intelligent Sensing & Cyber-Physical Systems",
           "tags": [
-            "sensing",
-            "smart infrastructure",
-            "machine learning",
-            "cyber-physical systems"
+            "structural vibration sensing",
+            "human-centered AI",
+            "gait and mobility",
+            "smart built environments"
           ],
-          "summary": "Assistant Professor working on human-centered sensing and smart infrastructure.",
+          "summary": "Develops intelligent sensing systems that use structural vibrations and multimodal data to monitor human health and mobility in built environments.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/yiwen",
+            "scholar": ""
           }
         },
         {
           "id": "yingying-li",
           "name": "Yingying Li",
           "title": "Assistant Professor",
-          "sub_field": "Learning and control",
+          "sub_field": "Learning & Control",
           "tags": [
             "reinforcement learning",
             "control",
             "online learning",
             "optimization"
           ],
-          "summary": "Assistant Professor working on reinforcement learning, control, and online decision-making.",
+          "summary": "Studies the interplay of machine learning and control, including online learning and reinforcement learning for dynamical systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/yl101",
+            "scholar": ""
           }
         },
         {
           "id": "yumeng-li",
           "name": "Yumeng Li",
           "title": "Assistant Professor",
-          "sub_field": "Reliability and uncertainty quantification",
+          "sub_field": "Uncertainty Quantification & Materials",
           "tags": [
-            "reliability",
             "uncertainty quantification",
+            "physics-based machine learning",
             "materials design",
-            "simulation"
+            "digital manufacturing"
           ],
-          "summary": "Assistant Professor working on reliability, uncertainty quantification, and computational design.",
+          "summary": "Develops uncertainty quantification and physics-based machine learning for multiscale materials design and manufacturing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/yumengl",
+            "scholar": ""
           }
         },
         {
           "id": "bhaskar-ray-chaudhury",
           "name": "Bhaskar Ray Chaudhury",
           "title": "Assistant Professor",
-          "sub_field": "Algorithmic game theory",
+          "sub_field": "Algorithmic Game Theory",
           "tags": [
-            "algorithmic game theory",
             "fair division",
-            "algorithms",
-            "theory"
+            "algorithmic game theory",
+            "resource allocation",
+            "algorithms"
           ],
-          "summary": "Assistant Professor working on algorithmic game theory and fair division.",
+          "summary": "Works on fair division, algorithmic game theory, and the computation of fair and efficient resource allocations.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/braycha",
+            "scholar": ""
           }
         },
         {
           "id": "abigail-wooldridge",
           "name": "Abigail Wooldridge",
           "title": "Assistant Professor",
-          "sub_field": "Human factors",
+          "sub_field": "Human Factors & Healthcare Systems Engineering",
           "tags": [
             "human factors",
-            "healthcare systems",
+            "healthcare systems engineering",
             "sociotechnical systems",
-            "ergonomics"
+            "patient safety"
           ],
-          "summary": "Assistant Professor working on human factors and healthcare systems engineering.",
+          "summary": "Studies human factors and sociotechnical systems engineering to improve healthcare delivery and patient safety.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/arwool",
+            "scholar": ""
           }
         },
         {
           "id": "yunzong-xu",
           "name": "Yunzong Xu",
           "title": "Assistant Professor",
-          "sub_field": "Operations research and learning",
+          "sub_field": "Learning & Data-Driven Decision-Making",
           "tags": [
-            "operations research",
             "online learning",
-            "revenue management",
-            "data-driven decisions"
+            "bandits",
+            "reinforcement learning",
+            "operations"
           ],
-          "summary": "Assistant Professor working on operations research, online learning, and data-driven decision-making.",
+          "summary": "Studies data-driven decision-making, online learning, and reinforcement learning with operations applications.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://ise.illinois.edu/directory/profile/xyz",
+            "scholar": ""
           }
         }
       ]

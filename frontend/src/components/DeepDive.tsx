@@ -2,6 +2,7 @@ import type { Faculty, Program } from '../types'
 import { UNKNOWN } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
 import { StarRating } from './StarRating'
+import { AdvisorNote } from './AdvisorNote'
 import { advisorKey } from '../lib/starredAdvisors'
 
 function Value({ text }: { text: string }) {
@@ -78,10 +79,14 @@ function FacultyCard({
   faculty,
   level,
   onSetLevel,
+  note,
+  onSaveNote,
 }: {
   faculty: Faculty
   level: number
   onSetLevel: (n: number) => void
+  note: string
+  onSaveNote: (text: string) => void
 }) {
   return (
     <article className="mb-3 break-inside-avoid rounded border border-slate-200 bg-white p-3">
@@ -136,6 +141,7 @@ function FacultyCard({
           </a>
         )}
       </div>
+      <AdvisorNote note={note} onSave={onSaveNote} />
     </article>
   )
 }
@@ -145,11 +151,15 @@ function FacultyWaterfall({
   faculty,
   levels,
   onSetLevel,
+  notes,
+  onSetNote,
 }: {
   programId: string
   faculty: Faculty[]
   levels: Map<string, number>
   onSetLevel: (key: string, level: number) => void
+  notes: Map<string, string>
+  onSetNote: (key: string, text: string) => void
 }) {
   const groups = new Map<string, Faculty[]>()
   for (const f of faculty) {
@@ -184,6 +194,8 @@ function FacultyWaterfall({
                   faculty={f}
                   level={levels.get(key) ?? 0}
                   onSetLevel={(n) => onSetLevel(key, n)}
+                  note={notes.get(key) ?? ''}
+                  onSaveNote={(text) => onSetNote(key, text)}
                 />
               )
             })}
@@ -200,12 +212,16 @@ export function DeepDive({
   onToggleList,
   levels,
   onSetLevel,
+  notes,
+  onSetNote,
 }: {
   program: Program | null
   inList: boolean
   onToggleList: () => void
   levels: Map<string, number>
   onSetLevel: (key: string, level: number) => void
+  notes: Map<string, string>
+  onSetNote: (key: string, text: string) => void
 }) {
   if (!program) {
     return (
@@ -277,6 +293,8 @@ export function DeepDive({
           faculty={program.faculty}
           levels={levels}
           onSetLevel={onSetLevel}
+          notes={notes}
+          onSetNote={onSetNote}
         />
       </div>
     </main>
