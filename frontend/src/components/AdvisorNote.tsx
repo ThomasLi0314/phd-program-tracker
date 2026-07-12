@@ -72,7 +72,7 @@ export function AdvisorNote({
         title="Click to edit your note"
       >
         <span className="mt-px shrink-0 text-[11px] leading-none">📝</span>
-        <span className="whitespace-pre-wrap break-words text-[12px] leading-relaxed text-amber-900">
+        <span className="min-w-0 whitespace-pre-wrap [overflow-wrap:anywhere] text-[12px] leading-relaxed text-amber-900">
           {note}
         </span>
       </button>
