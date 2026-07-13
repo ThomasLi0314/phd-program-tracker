@@ -73,3 +73,33 @@ export interface Dataset {
   }
   programs: Program[]
 }
+
+/** Whether a professor has replied to an outreach thread. Derived from Gmail:
+ *  'replied' once the thread has an inbound message; otherwise 'awaiting'.
+ *  The UI derives a "no reply (stale)" bucket from awaiting + days elapsed. */
+export type ReplyState = 'awaiting' | 'replied'
+
+/** One tracked cold-email thread, linked to a specific faculty card
+ *  (key = advisorKey(programId, facultyId)). Persisted in localStorage only. */
+export interface OutreachRecord {
+  facultyKey: string
+  threadId: string
+  messageId: string
+  toAddress: string
+  toName: string
+  subject: string
+  sentAt: number // epoch ms of the sent message
+  replyState: ReplyState
+  repliedAt: number | null
+  lastSyncedAt: number
+}
+
+/** A sent email that looks like outreach but isn't linked to a professor yet. */
+export interface UnlinkedEmail {
+  messageId: string
+  threadId: string
+  toAddress: string
+  toName: string
+  subject: string
+  sentAt: number
+}

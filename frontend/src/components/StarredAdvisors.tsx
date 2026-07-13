@@ -1,8 +1,9 @@
 import { useMemo, useState } from 'react'
-import type { Faculty, Program } from '../types'
+import type { Faculty, OutreachRecord, Program } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
 import { StarRating } from './StarRating'
 import { AdvisorNote } from './AdvisorNote'
+import { OutreachBadge } from './OutreachBadge'
 import { advisorKey, MAX_PRIORITY } from '../lib/starredAdvisors'
 
 interface AdvisorHit {
@@ -51,12 +52,14 @@ function StarredCard({
   onOpenProgram,
   note,
   onSaveNote,
+  record,
 }: {
   hit: AdvisorHit
   onSetLevel: (n: number) => void
   onOpenProgram: () => void
   note: string
   onSaveNote: (text: string) => void
+  record?: OutreachRecord
 }) {
   const { faculty: f, program: p } = hit
   return (
@@ -120,6 +123,9 @@ function StarredCard({
           </a>
         )}
       </div>
+      <div>
+        <OutreachBadge record={record} />
+      </div>
       <AdvisorNote note={note} onSave={onSaveNote} />
     </article>
   )
@@ -132,6 +138,7 @@ export function StarredAdvisors({
   onOpenProgram,
   notes,
   onSetNote,
+  outreach,
 }: {
   programs: Program[]
   levels: Map<string, number>
@@ -139,6 +146,7 @@ export function StarredAdvisors({
   onOpenProgram: (programId: string) => void
   notes: Map<string, string>
   onSetNote: (key: string, text: string) => void
+  outreach: Record<string, OutreachRecord>
 }) {
   const [groupBy, setGroupBy] = useState<GroupBy>('field')
   const [query, setQuery] = useState('')
@@ -406,6 +414,7 @@ export function StarredAdvisors({
                             onOpenProgram={() => onOpenProgram(h.program.id)}
                             note={notes.get(key) ?? ''}
                             onSaveNote={(text) => onSetNote(key, text)}
+                            record={outreach[key]}
                           />
                         )
                       })}

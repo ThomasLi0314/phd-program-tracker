@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import type { Program } from './types'
+import type { Faculty, Program } from './types'
 import { fetchField, fetchIndex, type DataIndex } from './lib/dataLoader'
 import {
   defaultFilters,
@@ -12,6 +12,8 @@ import {
 import { useMyList } from './lib/myList'
 import { useStarredAdvisors } from './lib/starredAdvisors'
 import { useAdvisorNotes } from './lib/advisorNotes'
+import { useOutreach, type SyncProgress } from './lib/outreach'
+import { connect as gmailConnect, disconnect as gmailDisconnect, ensureToken, loadClientId } from './lib/gmail'
 import { FilterSidebar } from './components/FilterSidebar'
 import { FieldSearch } from './components/FieldSearch'
 import { ProgramIndex } from './components/ProgramIndex'
@@ -19,9 +21,18 @@ import { DeepDive } from './components/DeepDive'
 import { AdvisorExplorer } from './components/AdvisorExplorer'
 import { SchoolExplorer } from './components/SchoolExplorer'
 import { StarredAdvisors } from './components/StarredAdvisors'
+import { OutreachView } from './components/OutreachView'
+import { GmailConnect } from './components/GmailConnect'
 import { RequestFieldModal } from './components/RequestFieldModal'
 
-type View = 'programs' | 'advisors' | 'schools' | 'starred'
+type View = 'programs' | 'advisors' | 'schools' | 'starred' | 'outreach'
+
+function formatProgress(p: SyncProgress): string {
+  if (p.phase === 'sent') return 'Scanning Sent mail…'
+  if (p.phase === 'messages') return `Reading ${p.done}/${p.total} emails…`
+  if (p.phase === 'replies') return `Checking replies ${p.done}/${p.total}…`
+  return 'Syncing…'
+}
 
 function App() {
   const [index, setIndex] = useState<DataIndex | null>(null)
@@ -41,6 +52,12 @@ function App() {
   const { myList, toggle: toggleMyList } = useMyList()
   const { levels: starLevels, setLevel: setStarLevel } = useStarredAdvisors()
   const { notes: advisorNotes, setNote: setAdvisorNote } = useAdvisorNotes()
+  const outreach = useOutreach()
+  const [gmailStatus, setGmailStatus] = useState<'disconnected' | 'connected'>('disconnected')
+  const [gmailEmail, setGmailEmail] = useState<string | null>(null)
+  const [gmailError, setGmailError] = useState<string | null>(null)
+  const [syncing, setSyncing] = useState(false)
+  const [syncStatus, setSyncStatus] = useState<string | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
   useEffect(() => {
@@ -134,6 +151,19 @@ function App() {
     return sortPrograms(result, 'university')
   }, [facets, index, loaded, filters, onlyMyList, myList])
 
+  // Every {faculty, program} across ALL loaded fields, ignoring sidebar filters —
+  // used to auto-match sent emails and resolve outreach records to advisor cards.
+  const outreachPool = useMemo(() => {
+    const hits: { faculty: Faculty; program: Program }[] = []
+    if (!index) return hits
+    for (const f of index.fields) {
+      const chunk = loaded[f.primary]
+      if (!chunk) continue
+      for (const p of chunk) for (const fac of p.faculty) hits.push({ faculty: fac, program: p })
+    }
+    return hits
+  }, [index, loaded])
+
   // Keep a valid selection as filters change.
   useEffect(() => {
     if (filtered.length === 0) {
@@ -162,6 +192,59 @@ function App() {
     setSelectedId(id)
     setView('programs')
   }
+
+  const runSync = async () => {
+    const clientId = loadClientId()
+    if (!clientId) return
+    setSyncing(true)
+    setGmailError(null)
+    try {
+      await ensureToken(clientId)
+      await outreach.sync((p) => setSyncStatus(formatProgress(p)))
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : String(e)
+      setGmailError(msg)
+      if (/expired|not connected|reconnect/i.test(msg)) setGmailStatus('disconnected')
+    } finally {
+      setSyncing(false)
+      setSyncStatus(null)
+    }
+  }
+
+  const handleConnect = async (clientId: string) => {
+    setGmailError(null)
+    try {
+      const email = await gmailConnect(clientId)
+      setGmailEmail(email)
+      setGmailStatus('connected')
+      void runSync()
+    } catch (e) {
+      setGmailError(e instanceof Error ? e.message : String(e))
+    }
+  }
+
+  const handleDisconnect = () => {
+    gmailDisconnect()
+    setGmailStatus('disconnected')
+    setGmailEmail(null)
+    setGmailError(null)
+  }
+
+  // Silently reconnect on load if we synced before and the 7-day grant is still valid.
+  useEffect(() => {
+    const clientId = loadClientId()
+    const prior = outreach.state.selfEmail
+    if (!clientId || !prior) return
+    ensureToken(clientId)
+      .then(() => {
+        setGmailStatus('connected')
+        setGmailEmail(prior)
+      })
+      .catch(() => {
+        /* grant lapsed — user re-connects manually */
+      })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   if (indexError) {
     return (
@@ -196,7 +279,7 @@ function App() {
 
         <div className="flex items-center gap-3">
           <div className="flex overflow-hidden rounded border border-slate-600 text-[11px] font-medium">
-            {(['programs', 'advisors', 'schools', 'starred'] as View[]).map((v) => (
+            {(['programs', 'advisors', 'schools', 'starred', 'outreach'] as View[]).map((v) => (
               <button
                 key={v}
                 onClick={() => setView(v)}
@@ -204,10 +287,26 @@ function App() {
                   view === v ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                 }`}
               >
-                {v === 'starred' ? `★ Starred (${starLevels.size})` : v}
+                {v === 'starred'
+                  ? `★ Starred (${starLevels.size})`
+                  : v === 'outreach'
+                    ? `✉ Outreach (${Object.keys(outreach.state.records).length})`
+                    : v}
               </button>
             ))}
           </div>
+
+          <GmailConnect
+            status={gmailStatus}
+            email={gmailEmail}
+            lastSync={outreach.state.lastSync}
+            syncing={syncing}
+            syncStatus={syncStatus}
+            error={gmailError}
+            onConnect={handleConnect}
+            onDisconnect={handleDisconnect}
+            onSync={runSync}
+          />
 
           <button
             onClick={() => setOnlyMyList((v) => !v)}
@@ -300,6 +399,7 @@ function App() {
                 onSetLevel={setStarLevel}
                 notes={advisorNotes}
                 onSetNote={setAdvisorNote}
+                outreach={outreach.state.records}
               />
             </>
           )
@@ -313,6 +413,7 @@ function App() {
             onSetLevel={setStarLevel}
             notes={advisorNotes}
             onSetNote={setAdvisorNote}
+            outreach={outreach.state.records}
           />
         ) : view === 'schools' ? (
           <SchoolExplorer
@@ -321,7 +422,7 @@ function App() {
             onQueryChange={setSchoolQuery}
             onOpenProgram={openProgram}
           />
-        ) : (
+        ) : view === 'starred' ? (
           <StarredAdvisors
             programs={fullPool}
             levels={starLevels}
@@ -329,6 +430,19 @@ function App() {
             onOpenProgram={openProgram}
             notes={advisorNotes}
             onSetNote={setAdvisorNote}
+            outreach={outreach.state.records}
+          />
+        ) : (
+          <OutreachView
+            pool={outreachPool}
+            records={outreach.state.records}
+            unlinked={outreach.state.unlinked}
+            connected={gmailStatus === 'connected'}
+            lastSync={outreach.state.lastSync}
+            onAssign={outreach.assign}
+            onDismiss={outreach.dismiss}
+            onUnassign={outreach.unassign}
+            onOpenProgram={openProgram}
           />
         )}
       </div>

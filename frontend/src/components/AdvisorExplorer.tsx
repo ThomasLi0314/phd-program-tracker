@@ -1,8 +1,9 @@
 import { useMemo } from 'react'
-import type { Faculty, Program } from '../types'
+import type { Faculty, OutreachRecord, Program } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
 import { StarRating } from './StarRating'
 import { AdvisorNote } from './AdvisorNote'
+import { OutreachBadge } from './OutreachBadge'
 import { advisorKey } from '../lib/starredAdvisors'
 
 interface AdvisorHit {
@@ -46,6 +47,7 @@ function AdvisorCard({
   onOpenProgram,
   note,
   onSaveNote,
+  record,
 }: {
   hit: AdvisorHit
   level: number
@@ -53,6 +55,7 @@ function AdvisorCard({
   onOpenProgram: () => void
   note: string
   onSaveNote: (text: string) => void
+  record?: OutreachRecord
 }) {
   const { faculty: f, program: p } = hit
   return (
@@ -116,6 +119,9 @@ function AdvisorCard({
           </a>
         )}
       </div>
+      <div>
+        <OutreachBadge record={record} />
+      </div>
       <AdvisorNote note={note} onSave={onSaveNote} />
     </article>
   )
@@ -130,6 +136,7 @@ export function AdvisorExplorer({
   onSetLevel,
   notes,
   onSetNote,
+  outreach,
 }: {
   programs: Program[]
   query: string
@@ -139,6 +146,7 @@ export function AdvisorExplorer({
   onSetLevel: (key: string, level: number) => void
   notes: Map<string, string>
   onSetNote: (key: string, text: string) => void
+  outreach: Record<string, OutreachRecord>
 }) {
   const allHits = useMemo(
     () => programs.flatMap((p) => p.faculty.map((f) => ({ faculty: f, program: p }))),
@@ -239,6 +247,7 @@ export function AdvisorExplorer({
                   onOpenProgram={() => onOpenProgram(h.program.id)}
                   note={notes.get(key) ?? ''}
                   onSaveNote={(text) => onSetNote(key, text)}
+                  record={outreach[key]}
                 />
               )
             })}

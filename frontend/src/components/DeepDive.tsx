@@ -1,8 +1,9 @@
-import type { Faculty, Program } from '../types'
+import type { Faculty, OutreachRecord, Program } from '../types'
 import { UNKNOWN } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
 import { StarRating } from './StarRating'
 import { AdvisorNote } from './AdvisorNote'
+import { OutreachBadge } from './OutreachBadge'
 import { advisorKey } from '../lib/starredAdvisors'
 
 function Value({ text }: { text: string }) {
@@ -81,12 +82,14 @@ function FacultyCard({
   onSetLevel,
   note,
   onSaveNote,
+  record,
 }: {
   faculty: Faculty
   level: number
   onSetLevel: (n: number) => void
   note: string
   onSaveNote: (text: string) => void
+  record?: OutreachRecord
 }) {
   return (
     <article className="mb-3 break-inside-avoid rounded border border-slate-200 bg-white p-3">
@@ -141,6 +144,9 @@ function FacultyCard({
           </a>
         )}
       </div>
+      <div>
+        <OutreachBadge record={record} />
+      </div>
       <AdvisorNote note={note} onSave={onSaveNote} />
     </article>
   )
@@ -153,6 +159,7 @@ function FacultyWaterfall({
   onSetLevel,
   notes,
   onSetNote,
+  outreach,
 }: {
   programId: string
   faculty: Faculty[]
@@ -160,6 +167,7 @@ function FacultyWaterfall({
   onSetLevel: (key: string, level: number) => void
   notes: Map<string, string>
   onSetNote: (key: string, text: string) => void
+  outreach: Record<string, OutreachRecord>
 }) {
   const groups = new Map<string, Faculty[]>()
   for (const f of faculty) {
@@ -196,6 +204,7 @@ function FacultyWaterfall({
                   onSetLevel={(n) => onSetLevel(key, n)}
                   note={notes.get(key) ?? ''}
                   onSaveNote={(text) => onSetNote(key, text)}
+                  record={outreach[key]}
                 />
               )
             })}
@@ -214,6 +223,7 @@ export function DeepDive({
   onSetLevel,
   notes,
   onSetNote,
+  outreach,
 }: {
   program: Program | null
   inList: boolean
@@ -222,6 +232,7 @@ export function DeepDive({
   onSetLevel: (key: string, level: number) => void
   notes: Map<string, string>
   onSetNote: (key: string, text: string) => void
+  outreach: Record<string, OutreachRecord>
 }) {
   if (!program) {
     return (
@@ -295,6 +306,7 @@ export function DeepDive({
           onSetLevel={onSetLevel}
           notes={notes}
           onSetNote={onSetNote}
+          outreach={outreach}
         />
       </div>
     </main>
