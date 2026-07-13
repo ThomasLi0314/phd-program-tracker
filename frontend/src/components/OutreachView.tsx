@@ -1,13 +1,15 @@
 import { useMemo, useState } from 'react'
-import type { Faculty, OutreachRecord, Program, UnlinkedEmail } from '../types'
+import type { Faculty, OutreachRecord, Program, ReplyType, UnlinkedEmail } from '../types'
 import { advisorKey } from '../lib/starredAdvisors'
-import { autoMatch } from '../lib/outreach'
+import { autoMatch, REPLY_TYPES } from '../lib/outreach'
 import { OutreachBadge } from './OutreachBadge'
 
 interface Hit {
   faculty: Faculty
   program: Program
 }
+
+const todayISO = () => new Date().toISOString().slice(0, 10)
 
 const STALE_DAYS = 14
 const daysSince = (ms: number) => Math.floor((Date.now() - ms) / 86_400_000)
@@ -54,6 +56,107 @@ function ProfessorPicker({ pool, onPick }: { pool: Hit[]; onPick: (key: string) 
           ))}
         </div>
       )}
+    </div>
+  )
+}
+
+function ManualAddForm({
+  pool,
+  onAdd,
+  onClose,
+}: {
+  pool: Hit[]
+  onAdd: (
+    facultyKey: string,
+    input: { sentAt: number; subject?: string; toName?: string; replied?: boolean; replyType?: ReplyType },
+  ) => void
+  onClose: () => void
+}) {
+  const [key, setKey] = useState<string | null>(null)
+  const [date, setDate] = useState(todayISO())
+  const [subject, setSubject] = useState('')
+  const [replied, setReplied] = useState(false)
+  const [replyType, setReplyType] = useState<ReplyType | ''>('')
+  const picked = key ? pool.find((h) => advisorKey(h.program.id, h.faculty.id) === key) : null
+
+  const submit = () => {
+    if (!key) return
+    onAdd(key, {
+      sentAt: new Date(`${date}T12:00:00`).getTime(),
+      subject: subject.trim() || undefined,
+      toName: picked?.faculty.name,
+      replied,
+      replyType: replied && replyType ? replyType : undefined,
+    })
+    onClose()
+  }
+
+  return (
+    <div className="mb-4 rounded-lg border border-slate-200 bg-white p-3">
+      <div className="flex items-center justify-between">
+        <h3 className="text-[12px] font-semibold text-slate-700">Add outreach manually</h3>
+        <button onClick={onClose} className="text-[11px] text-slate-400 hover:text-slate-600">
+          close
+        </button>
+      </div>
+      {picked ? (
+        <div className="mt-2 flex items-center gap-2 text-[12px]">
+          <span className="rounded bg-indigo-50 px-2 py-0.5 font-medium text-indigo-700">
+            {picked.faculty.name} · {picked.program.university}
+          </span>
+          <button onClick={() => setKey(null)} className="text-[11px] text-slate-400 hover:text-slate-600">
+            change
+          </button>
+        </div>
+      ) : (
+        <div className="mt-2">
+          <ProfessorPicker pool={pool} onPick={setKey} />
+        </div>
+      )}
+      <div className="mt-2 flex flex-wrap items-center gap-2 text-[12px]">
+        <label className="flex items-center gap-1 text-slate-600">
+          Sent
+          <input
+            type="date"
+            value={date}
+            onChange={(e) => setDate(e.target.value)}
+            className="rounded border border-slate-300 px-2 py-0.5 text-[12px] text-slate-700"
+          />
+        </label>
+        <input
+          value={subject}
+          onChange={(e) => setSubject(e.target.value)}
+          placeholder="Subject (optional)"
+          className="min-w-[150px] flex-1 rounded border border-slate-300 px-2 py-0.5 text-[12px] text-slate-700"
+        />
+        <label className="flex items-center gap-1 text-slate-600">
+          <input type="checkbox" checked={replied} onChange={(e) => setReplied(e.target.checked)} />
+          replied
+        </label>
+        {replied && (
+          <select
+            value={replyType}
+            onChange={(e) => setReplyType(e.target.value as ReplyType)}
+            className="rounded border border-slate-300 px-1.5 py-0.5 text-[12px] text-slate-700"
+          >
+            <option value="">— type —</option>
+            {REPLY_TYPES.map((t) => (
+              <option key={t.id} value={t.id}>
+                {t.label}
+              </option>
+            ))}
+          </select>
+        )}
+      </div>
+      <div className="mt-2">
+        <button
+          onClick={submit}
+          disabled={!key}
+          className="rounded bg-indigo-600 px-3 py-1 text-[12px] font-semibold text-white transition-colors hover:bg-indigo-700 disabled:opacity-50"
+        >
+          Add
+        </button>
+      </div>
     </div>
   )
 }
@@ -124,6 +227,8 @@ export function OutreachView({
   scanSince,
   onSetScanSince,
   onAssign,
+  onAddManual,
+  onSetReplyType,
   onDismiss,
   onUnassign,
   onOpenProgram,
@@ -136,11 +241,17 @@ export function OutreachView({
   scanSince: string
   onSetScanSince: (date: string) => void
   onAssign: (email: UnlinkedEmail, facultyKey: string) => void
+  onAddManual: (
+    facultyKey: string,
+    input: { sentAt: number; subject?: string; toName?: string; replied?: boolean; replyType?: ReplyType },
+  ) => void
+  onSetReplyType: (facultyKey: string, replyType: ReplyType | undefined) => void
   onDismiss: (messageId: string) => void
   onUnassign: (facultyKey: string) => void
   onOpenProgram: (programId: string) => void
 }) {
   const [filter, setFilter] = useState<Filter>('all')
+  const [showManual, setShowManual] = useState(false)
 
   const poolByKey = useMemo(() => {
     const m = new Map<string, Hit>()
@@ -206,6 +317,21 @@ export function OutreachView({
             <span className="text-slate-400">— then hit Sync. Widen this to pick up older mail.</span>
           </label>
         </header>
+
+        <div className="mb-3 flex flex-wrap items-center gap-2">
+          <button
+            onClick={() => setShowManual((v) => !v)}
+            className="rounded border border-slate-300 bg-white px-2.5 py-1 text-[12px] font-medium text-slate-700 transition-colors hover:border-indigo-400 hover:text-indigo-700"
+          >
+            ＋ Add manually
+          </button>
+          <span className="text-[11px] text-slate-400">
+            Log an email Gmail didn't catch (or that you sent from another account).
+          </span>
+        </div>
+        {showManual && (
+          <ManualAddForm pool={pool} onAdd={onAddManual} onClose={() => setShowManual(false)} />
+        )}
 
         {!connected && (
           <div className="mb-4 rounded-lg border border-indigo-200 bg-indigo-50 px-4 py-3 text-[12.5px] text-indigo-800">
@@ -312,6 +438,28 @@ export function OutreachView({
                         ? ` · replied ${shortDate(r.repliedAt)}`
                         : ` · ${daysSince(r.sentAt)}d ago`}
                     </span>
+                    {r.source === 'manual' && (
+                      <span className="rounded bg-slate-100 px-1.5 py-0.5 text-[10px] text-slate-500">
+                        manual
+                      </span>
+                    )}
+                    {r.replyState === 'replied' && (
+                      <select
+                        value={r.replyType ?? ''}
+                        onChange={(e) =>
+                          onSetReplyType(r.facultyKey, (e.target.value || undefined) as ReplyType | undefined)
+                        }
+                        className="rounded border border-slate-300 bg-white px-1 py-0.5 text-[11px] text-slate-600 focus:border-indigo-400 focus:outline-none"
+                        title="Classify this reply"
+                      >
+                        <option value="">tag reply…</option>
+                        {REPLY_TYPES.map((t) => (
+                          <option key={t.id} value={t.id}>
+                            {t.label}
+                          </option>
+                        ))}
+                      </select>
+                    )}
                     <button
                       onClick={() => onUnassign(r.facultyKey)}
                       className="ml-auto text-slate-400 hover:text-rose-600"

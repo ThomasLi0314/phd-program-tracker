@@ -22,10 +22,11 @@ import { AdvisorExplorer } from './components/AdvisorExplorer'
 import { SchoolExplorer } from './components/SchoolExplorer'
 import { StarredAdvisors } from './components/StarredAdvisors'
 import { OutreachView } from './components/OutreachView'
+import { OutreachOverview } from './components/OutreachOverview'
 import { GmailConnect } from './components/GmailConnect'
 import { RequestFieldModal } from './components/RequestFieldModal'
 
-type View = 'programs' | 'advisors' | 'schools' | 'starred' | 'outreach'
+type View = 'programs' | 'advisors' | 'schools' | 'starred' | 'outreach' | 'overview'
 
 function formatProgress(p: SyncProgress): string {
   if (p.phase === 'sent') return 'Scanning Sent mail…'
@@ -279,21 +280,25 @@ function App() {
 
         <div className="flex items-center gap-3">
           <div className="flex overflow-hidden rounded border border-slate-600 text-[11px] font-medium">
-            {(['programs', 'advisors', 'schools', 'starred', 'outreach'] as View[]).map((v) => (
-              <button
-                key={v}
-                onClick={() => setView(v)}
-                className={`px-2.5 py-1 capitalize transition-colors ${
-                  view === v ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
-                }`}
-              >
-                {v === 'starred'
-                  ? `★ Starred (${starLevels.size})`
-                  : v === 'outreach'
-                    ? `✉ Outreach (${Object.keys(outreach.state.records).length})`
-                    : v}
-              </button>
-            ))}
+            {(['programs', 'advisors', 'schools', 'starred', 'outreach', 'overview'] as View[]).map(
+              (v) => (
+                <button
+                  key={v}
+                  onClick={() => setView(v)}
+                  className={`px-2.5 py-1 capitalize transition-colors ${
+                    view === v ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+                  }`}
+                >
+                  {v === 'starred'
+                    ? `★ Starred (${starLevels.size})`
+                    : v === 'outreach'
+                      ? `✉ Outreach (${Object.keys(outreach.state.records).length})`
+                      : v === 'overview'
+                        ? '📊 Overview'
+                        : v}
+                </button>
+              ),
+            )}
           </div>
 
           <GmailConnect
@@ -432,7 +437,7 @@ function App() {
             onSetNote={setAdvisorNote}
             outreach={outreach.state.records}
           />
-        ) : (
+        ) : view === 'outreach' ? (
           <OutreachView
             pool={outreachPool}
             records={outreach.state.records}
@@ -442,8 +447,16 @@ function App() {
             scanSince={outreach.state.scanSince}
             onSetScanSince={outreach.setScanSince}
             onAssign={outreach.assign}
+            onAddManual={outreach.addManual}
+            onSetReplyType={outreach.setReplyType}
             onDismiss={outreach.dismiss}
             onUnassign={outreach.unassign}
+            onOpenProgram={openProgram}
+          />
+        ) : (
+          <OutreachOverview
+            pool={outreachPool}
+            records={outreach.state.records}
             onOpenProgram={openProgram}
           />
         )}

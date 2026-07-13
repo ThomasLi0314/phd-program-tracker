@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react'
-import type { Faculty, OutreachRecord, Program, UnlinkedEmail } from '../types'
+import type { Faculty, OutreachRecord, Program, ReplyType, UnlinkedEmail } from '../types'
 import { advisorKey } from './starredAdvisors'
 import { UNIVERSITY_DOMAINS, domainMatchesUniversity } from './universityDomains'
 import { getMessageMeta, getProfile, getThreadMeta, listSent } from './gmail'
@@ -9,6 +9,21 @@ const STORAGE_KEY = 'tracker.outreach.v1'
 /** Default: only scan Sent mail from June 2026 on (when cold-emailing started).
  *  User-adjustable via setScanSince. Format YYYY-MM-DD. */
 export const DEFAULT_SCAN_SINCE = '2026-06-01'
+
+/** Reply classifications the user can tag (Gmail bodies are never read). `tone`
+ *  drives chip colors in the UI. */
+export const REPLY_TYPES: { id: ReplyType; label: string; short: string; tone: string }[] = [
+  { id: 'interested', label: '😊 Interested', short: 'Interested', tone: 'emerald' },
+  { id: 'maybe', label: '🤔 Maybe / apply', short: 'Maybe', tone: 'amber' },
+  { id: 'rejected', label: '🙅 Rejected', short: 'Rejected', tone: 'rose' },
+  { id: 'no_funding', label: '💸 No funding', short: 'No funding', tone: 'orange' },
+  { id: 'auto', label: '🤖 Auto-reply', short: 'Auto-reply', tone: 'slate' },
+  { id: 'other', label: '· Other', short: 'Other', tone: 'slate' },
+]
+
+export const REPLY_TYPE_BY_ID: Record<ReplyType, (typeof REPLY_TYPES)[number]> = Object.fromEntries(
+  REPLY_TYPES.map((t) => [t.id, t]),
+) as Record<ReplyType, (typeof REPLY_TYPES)[number]>
 
 export interface OutreachState {
   /** learned address book: recipient email → facultyKey. The source of truth. */
@@ -224,6 +239,7 @@ export function useOutreach() {
           replyState: 'awaiting',
           repliedAt: null,
           lastSyncedAt: Date.now(),
+          source: 'gmail',
         }
         return {
           ...s,
@@ -231,6 +247,45 @@ export function useOutreach() {
           records: { ...s.records, [facultyKey]: record },
           unlinked: s.unlinked.filter((u) => u.messageId !== email.messageId),
         }
+      })
+    },
+    [persist],
+  )
+
+  /** Manually add an outreach record (not from Gmail) for a professor. */
+  const addManual = useCallback(
+    (
+      facultyKey: string,
+      input: { sentAt: number; subject?: string; toName?: string; replied?: boolean; replyType?: ReplyType },
+    ) => {
+      persist((s) => {
+        const record: OutreachRecord = {
+          facultyKey,
+          threadId: '',
+          messageId: `manual-${facultyKey}-${input.sentAt}`,
+          toAddress: '',
+          toName: input.toName ?? '',
+          subject: input.subject || '(manually added)',
+          sentAt: input.sentAt,
+          replyState: input.replied ? 'replied' : 'awaiting',
+          repliedAt: input.replied ? input.sentAt : null,
+          lastSyncedAt: Date.now(),
+          replyType: input.replyType,
+          source: 'manual',
+        }
+        return { ...s, records: { ...s.records, [facultyKey]: record } }
+      })
+    },
+    [persist],
+  )
+
+  /** Tag how a professor replied (or clear the tag with undefined). */
+  const setReplyType = useCallback(
+    (facultyKey: string, replyType: ReplyType | undefined) => {
+      persist((s) => {
+        const rec = s.records[facultyKey]
+        if (!rec) return s
+        return { ...s, records: { ...s.records, [facultyKey]: { ...rec, replyType } } }
       })
     },
     [persist],
@@ -348,7 +403,9 @@ export function useOutreach() {
       // professor newly linked this sync, each at its earliest first-contact.
       const toCheck = new Map<string, { threadId: string; sentAt: number }>()
       for (const r of Object.values(snap.records)) {
-        if (r.replyState === 'awaiting') toCheck.set(r.facultyKey, { threadId: r.threadId, sentAt: r.sentAt })
+        // Manual records have no Gmail thread to poll — the user manages them.
+        if (r.replyState === 'awaiting' && r.source !== 'manual' && r.threadId)
+          toCheck.set(r.facultyKey, { threadId: r.threadId, sentAt: r.sentAt })
       }
       for (const [key, email] of earliestNew) {
         const prev = snap.records[key]
@@ -391,6 +448,7 @@ export function useOutreach() {
               replyState: 'awaiting',
               repliedAt: null,
               lastSyncedAt: now,
+              source: 'gmail',
             }
           } else if (email.sentAt < prev.sentAt) {
             records[key] = {
@@ -436,5 +494,5 @@ export function useOutreach() {
     [persist],
   )
 
-  return { state, assign, unassign, dismiss, reset, setScanSince, sync }
+  return { state, assign, addManual, setReplyType, unassign, dismiss, reset, setScanSince, sync }
 }

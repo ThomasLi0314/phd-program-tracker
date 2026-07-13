@@ -79,6 +79,9 @@ export interface Dataset {
  *  The UI derives a "no reply (stale)" bucket from awaiting + days elapsed. */
 export type ReplyState = 'awaiting' | 'replied'
 
+/** How a professor's reply landed. Set by the user (bodies aren't read). */
+export type ReplyType = 'interested' | 'maybe' | 'rejected' | 'no_funding' | 'auto' | 'other'
+
 /** One tracked cold-email thread, linked to a specific faculty card
  *  (key = advisorKey(programId, facultyId)). Persisted in localStorage only. */
 export interface OutreachRecord {
@@ -92,6 +95,10 @@ export interface OutreachRecord {
   replyState: ReplyState
   repliedAt: number | null
   lastSyncedAt: number
+  /** user-set classification of the reply (independent of replyState). */
+  replyType?: ReplyType
+  /** how the record was created; 'manual' records are skipped by Gmail reply-sync. */
+  source?: 'gmail' | 'manual'
 }
 
 /** A sent email that looks like outreach but isn't linked to a professor yet. */
