@@ -32,6 +32,8 @@ function formatProgress(p: SyncProgress): string {
   if (p.phase === 'sent') return 'Scanning Sent mail…'
   if (p.phase === 'messages') return `Reading ${p.done}/${p.total} emails…`
   if (p.phase === 'replies') return `Checking replies ${p.done}/${p.total}…`
+  if (p.phase === 'ai') return `AI reading replies ${p.done}/${p.total}…`
+  if (p.phase === 'summary') return `Summarizing ${p.done}/${p.total} programs…`
   return 'Syncing…'
 }
 
@@ -201,7 +203,7 @@ function App() {
     setGmailError(null)
     try {
       await ensureToken(clientId)
-      await outreach.sync((p) => setSyncStatus(formatProgress(p)))
+      await outreach.sync(outreachPool, (p) => setSyncStatus(formatProgress(p)))
     } catch (e) {
       const msg = e instanceof Error ? e.message : String(e)
       setGmailError(msg)
@@ -457,6 +459,7 @@ function App() {
           <OutreachOverview
             pool={outreachPool}
             records={outreach.state.records}
+            programSummaries={outreach.state.programSummaries}
             onOpenProgram={openProgram}
           />
         )}

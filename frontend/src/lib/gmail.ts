@@ -190,3 +190,58 @@ export async function getThreadMeta(threadId: string): Promise<ThreadMessageMeta
     return { from: fromHeader?.value ?? '', date: Number(m.internalDate) }
   })
 }
+
+// ---- full message bodies (only used by the opt-in DeepSeek feature) ----
+
+function decodeB64Url(data: string): string {
+  try {
+    const b64 = data.replace(/-/g, '+').replace(/_/g, '/')
+    const bin = atob(b64)
+    const bytes = Uint8Array.from(bin, (c) => c.charCodeAt(0))
+    return new TextDecoder('utf-8').decode(bytes)
+  } catch {
+    return ''
+  }
+}
+
+function findPartData(payload: any, mime: string): string | null {
+  if (payload?.mimeType === mime && payload.body?.data) return payload.body.data
+  for (const p of payload?.parts || []) {
+    const r = findPartData(p, mime)
+    if (r) return r
+  }
+  return null
+}
+
+function stripHtml(s: string): string {
+  return s
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function extractBody(payload: any): string {
+  const plain = findPartData(payload, 'text/plain')
+  if (plain) return decodeB64Url(plain)
+  const html = findPartData(payload, 'text/html')
+  if (html) return stripHtml(decodeB64Url(html))
+  if (payload?.body?.data) return decodeB64Url(payload.body.data)
+  return ''
+}
+
+export interface ThreadMessageFull {
+  from: string
+  date: number
+  body: string
+}
+/** Full thread messages with decoded text bodies — for DeepSeek analysis. */
+export async function getThreadFull(threadId: string): Promise<ThreadMessageFull[]> {
+  const t = await gget(`/threads/${threadId}?format=full`)
+  return (t.messages || []).map((m: any) => {
+    const from = (m.payload?.headers || []).find((h: any) => h.name.toLowerCase() === 'from')?.value
+    return { from: from ?? '', date: Number(m.internalDate), body: extractBody(m.payload) }
+  })
+}

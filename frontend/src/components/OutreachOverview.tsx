@@ -1,11 +1,18 @@
 import { useMemo, useState } from 'react'
-import type { Faculty, OutreachRecord, Program, ReplyType } from '../types'
+import type { Faculty, OutreachRecord, Program, ReplyAnalysis, ReplyType } from '../types'
 import { advisorKey } from '../lib/starredAdvisors'
 import { REPLY_TYPES } from '../lib/outreach'
+import { AiSettings } from './AiSettings'
 
 interface Hit {
   faculty: Faculty
   program: Program
+}
+
+const REC_TONE: Record<string, string> = {
+  yes: 'bg-emerald-100 text-emerald-700',
+  no: 'bg-rose-100 text-rose-700',
+  unclear: 'bg-slate-100 text-slate-500',
 }
 
 const STALE_DAYS = 14
@@ -35,9 +42,12 @@ interface GroupStat {
 export function OutreachOverview({
   pool,
   records,
+  programSummaries,
+  onOpenProgram,
 }: {
   pool: Hit[]
   records: Record<string, OutreachRecord>
+  programSummaries: Record<string, { summary: string; updatedAt: number; count: number }>
   onOpenProgram: (programId: string) => void
 }) {
   const [groupBy, setGroupBy] = useState<GroupBy>('field')
@@ -89,6 +99,28 @@ export function OutreachOverview({
     return [...map.values()].sort((a, b) => b.total - a.total || a.key.localeCompare(b.key))
   }, [recList, poolByKey, groupBy])
 
+  // School → program grouping of AI-analyzed replies, for the admissions summary.
+  const aiSchools = useMemo(() => {
+    const schools = new Map<
+      string,
+      Map<string, { program: string; programId: string; replies: { name: string; ai: ReplyAnalysis }[] }>
+    >()
+    for (const r of recList) {
+      if (r.replyState !== 'replied' || !r.ai) continue
+      const hit = poolByKey.get(r.facultyKey)
+      const uni = hit?.program.university ?? 'Unknown school'
+      const programId = r.facultyKey.split('/')[0]
+      const programName = hit?.program.program_name ?? programId
+      if (!schools.has(uni)) schools.set(uni, new Map())
+      const progs = schools.get(uni)!
+      if (!progs.has(programId)) progs.set(programId, { program: programName, programId, replies: [] })
+      progs.get(programId)!.replies.push({ name: hit?.faculty.name ?? r.toName, ai: r.ai })
+    }
+    return [...schools.entries()]
+      .map(([uni, progs]) => ({ uni, programs: [...progs.values()] }))
+      .sort((a, b) => a.uni.localeCompare(b.uni))
+  }, [recList, poolByKey])
+
   const rate = totals.total ? Math.round((totals.replied / totals.total) * 100) : 0
 
   const tiles = [
@@ -122,6 +154,8 @@ export function OutreachOverview({
             ))}
           </div>
         </header>
+
+        <AiSettings />
 
         {totals.total === 0 ? (
           <p className="py-12 text-center text-sm text-slate-400">
@@ -192,6 +226,62 @@ export function OutreachOverview({
                 )
               })}
             </div>
+
+            {aiSchools.length > 0 && (
+              <section className="mt-6">
+                <h2 className="mb-2 font-serif text-[15px] font-bold text-slate-800">
+                  🤖 Admissions summary by school → program
+                  <span className="ml-2 font-sans text-[11px] font-normal text-slate-400">
+                    DeepSeek read of professor replies
+                  </span>
+                </h2>
+                <div className="space-y-3">
+                  {aiSchools.map((s) => (
+                    <div key={s.uni} className="rounded-lg border border-slate-200 bg-white p-3">
+                      <h3 className="font-serif text-[14px] font-bold text-slate-900">{s.uni}</h3>
+                      <div className="mt-1.5 space-y-2.5">
+                        {s.programs.map((p) => {
+                          const sum = programSummaries[p.programId]
+                          return (
+                            <div key={p.programId} className="border-l-2 border-indigo-200 pl-2.5">
+                              <button
+                                onClick={() => onOpenProgram(p.programId)}
+                                className="text-left text-[12.5px] font-semibold text-indigo-700 hover:underline"
+                              >
+                                {p.program}
+                              </button>
+                              {sum && (
+                                <p className="mt-0.5 text-[12px] leading-relaxed text-slate-600">
+                                  {sum.summary}
+                                </p>
+                              )}
+                              <div className="mt-1 flex flex-wrap gap-1">
+                                {p.replies.map((r, i) => (
+                                  <span
+                                    key={i}
+                                    className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${
+                                      REC_TONE[r.ai.recruiting] ?? REC_TONE.unclear
+                                    }`}
+                                    title={r.ai.summary}
+                                  >
+                                    {r.name}: {r.ai.recruiting === 'yes'
+                                      ? 'recruiting'
+                                      : r.ai.recruiting === 'no'
+                                        ? 'not recruiting'
+                                        : 'unclear'}
+                                    {r.ai.funding === 'yes' ? ' · funded' : ''}
+                                  </span>
+                                ))}
+                              </div>
+                            </div>
+                          )
+                        })}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
           </>
         )}
       </div>

@@ -2,7 +2,8 @@ import { useCallback, useState } from 'react'
 import type { Faculty, OutreachRecord, Program, ReplyType, UnlinkedEmail } from '../types'
 import { advisorKey } from './starredAdvisors'
 import { UNIVERSITY_DOMAINS, domainMatchesUniversity } from './universityDomains'
-import { getMessageMeta, getProfile, getThreadMeta, listSent } from './gmail'
+import { getMessageMeta, getProfile, getThreadFull, getThreadMeta, listSent } from './gmail'
+import { aiActive, analyzeReply, summarizeProgram } from './deepseek'
 
 const STORAGE_KEY = 'tracker.outreach.v1'
 
@@ -36,6 +37,8 @@ export interface OutreachState {
   skipped: string[]
   /** only scan Sent mail on/after this date (YYYY-MM-DD). */
   scanSince: string
+  /** DeepSeek per-program admissions summary, keyed by programId. */
+  programSummaries: Record<string, { summary: string; updatedAt: number; count: number }>
   selfEmail: string | null
   lastSync: number | null
 }
@@ -46,6 +49,7 @@ const EMPTY: OutreachState = {
   unlinked: [],
   skipped: [],
   scanSince: DEFAULT_SCAN_SINCE,
+  programSummaries: {},
   selfEmail: null,
   lastSync: null,
 }
@@ -61,6 +65,7 @@ function load(): OutreachState {
       unlinked: p.unlinked ?? [],
       skipped: p.skipped ?? [],
       scanSince: p.scanSince ?? DEFAULT_SCAN_SINCE,
+      programSummaries: p.programSummaries ?? {},
       selfEmail: p.selfEmail ?? null,
       lastSync: p.lastSync ?? null,
     }
@@ -202,7 +207,7 @@ async function mapLimit<T, R>(
 }
 
 export interface SyncProgress {
-  phase: 'sent' | 'messages' | 'replies' | 'done'
+  phase: 'sent' | 'messages' | 'replies' | 'ai' | 'summary' | 'done'
   done: number
   total: number
 }
@@ -332,9 +337,14 @@ export function useOutreach() {
 
   /** Full sync against Gmail. Requires the caller to have ensured a valid token.
    *  Classifies new academic Sent mail via the learned address book; unmatched
-   *  emails land in the unlinked queue (the UI suggests professors for them). */
+   *  emails land in the unlinked queue (the UI suggests professors for them).
+   *  When DeepSeek is enabled, reads reply bodies and summarizes per program.
+   *  `pool` is every {faculty, program} in the database (for AI context). */
   const sync = useCallback(
-    async (onProgress?: (p: SyncProgress) => void) => {
+    async (
+      pool: { faculty: Faculty; program: Program }[],
+      onProgress?: (p: SyncProgress) => void,
+    ) => {
       const profile = await getProfile()
       const selfEmail = profile.emailAddress.toLowerCase()
 
@@ -429,65 +439,150 @@ export function useOutreach() {
       })
       const replyByKey = new Map(replyResults.map((r) => [r.facultyKey, r]))
 
-      // Commit everything in one atomic state update.
+      // Build the next records/unlinked from the snapshot (this sync is the writer).
       const now = Date.now()
-      persist((s) => {
-        const records = { ...s.records }
-        // Create records / rebase to the earliest first-contact per professor.
-        for (const [key, email] of earliestNew) {
-          const prev = records[key]
-          if (!prev) {
-            records[key] = {
-              facultyKey: key,
-              threadId: email.threadId,
-              messageId: email.messageId,
-              toAddress: email.toAddress,
-              toName: email.toName,
-              subject: email.subject,
-              sentAt: email.sentAt,
-              replyState: 'awaiting',
-              repliedAt: null,
-              lastSyncedAt: now,
-              source: 'gmail',
-            }
-          } else if (email.sentAt < prev.sentAt) {
-            records[key] = {
-              ...prev,
-              threadId: email.threadId,
-              messageId: email.messageId,
-              toAddress: email.toAddress,
-              toName: email.toName,
-              subject: email.subject,
-              sentAt: email.sentAt,
-              lastSyncedAt: now,
-            }
+      const records: Record<string, OutreachRecord> = { ...snap.records }
+      // Create records / rebase to the earliest first-contact per professor.
+      for (const [key, email] of earliestNew) {
+        const prev = records[key]
+        if (!prev) {
+          records[key] = {
+            facultyKey: key,
+            threadId: email.threadId,
+            messageId: email.messageId,
+            toAddress: email.toAddress,
+            toName: email.toName,
+            subject: email.subject,
+            sentAt: email.sentAt,
+            replyState: 'awaiting',
+            repliedAt: null,
+            lastSyncedAt: now,
+            source: 'gmail',
+          }
+        } else if (email.sentAt < prev.sentAt) {
+          records[key] = {
+            ...prev,
+            threadId: email.threadId,
+            messageId: email.messageId,
+            toAddress: email.toAddress,
+            toName: email.toName,
+            subject: email.subject,
+            sentAt: email.sentAt,
+            lastSyncedAt: now,
           }
         }
-        // Apply reply detection.
-        for (const [key, r] of replyByKey) {
-          const rec = records[key]
-          if (rec)
-            records[key] = {
-              ...rec,
-              replyState: r.replied ? 'replied' : 'awaiting',
-              repliedAt: r.repliedAt,
-              lastSyncedAt: now,
+      }
+      // Apply reply detection.
+      for (const [key, r] of replyByKey) {
+        const rec = records[key]
+        if (rec)
+          records[key] = {
+            ...rec,
+            replyState: r.replied ? 'replied' : 'awaiting',
+            repliedAt: r.repliedAt,
+            lastSyncedAt: now,
+          }
+      }
+      // Merge the unlinked queue (dedupe by messageId).
+      const seenU = new Set(snap.unlinked.map((u) => u.messageId))
+      const unlinked = [...snap.unlinked]
+      for (const u of newUnlinked) if (!seenU.has(u.messageId)) unlinked.push(u)
+      unlinked.sort((a, b) => b.sentAt - a.sentAt)
+
+      // AI phase (opt-in): read reply bodies with DeepSeek + summarize per program.
+      let programSummaries = snap.programSummaries
+      if (aiActive()) {
+        const ctxByKey = new Map(pool.map((h) => [advisorKey(h.program.id, h.faculty.id), h]))
+
+        // Analyze replied records that have a thread and no analysis yet.
+        const need = Object.values(records).filter(
+          (r) => r.replyState === 'replied' && r.source !== 'manual' && r.threadId && !r.ai,
+        )
+        onProgress?.({ phase: 'ai', done: 0, total: need.length })
+        let adone = 0
+        await mapLimit(need, 3, async (r) => {
+          try {
+            const hit = ctxByKey.get(r.facultyKey)
+            const msgs = await getThreadFull(r.threadId)
+            const body = msgs
+              .filter((m) => {
+                const e = parseAddress(m.from).email
+                return e && e !== selfEmail
+              })
+              .map((m) => m.body)
+              .join('\n\n---\n\n')
+              .slice(0, 8000)
+            if (body.trim()) {
+              const ai = await analyzeReply(body, {
+                prof: hit?.faculty.name ?? r.toName,
+                university: hit?.program.university ?? '',
+                program: hit?.program.program_name ?? '',
+              })
+              records[r.facultyKey] = { ...records[r.facultyKey], ai }
             }
+          } catch {
+            /* skip this reply */
+          } finally {
+            onProgress?.({ phase: 'ai', done: ++adone, total: need.length })
+          }
+        })
+
+        // Regenerate a per-program admissions summary from analyzed replies.
+        const byProgram = new Map<
+          string,
+          {
+            university: string
+            program: string
+            replies: { prof: string; recruiting: string; funding: string; summary: string }[]
+          }
+        >()
+        for (const r of Object.values(records)) {
+          if (r.replyState !== 'replied' || !r.ai) continue
+          const programId = r.facultyKey.split('/')[0]
+          const hit = ctxByKey.get(r.facultyKey)
+          let g = byProgram.get(programId)
+          if (!g) {
+            g = {
+              university: hit?.program.university ?? '',
+              program: hit?.program.program_name ?? programId,
+              replies: [],
+            }
+            byProgram.set(programId, g)
+          }
+          g.replies.push({
+            prof: hit?.faculty.name ?? r.toName,
+            recruiting: r.ai.recruiting,
+            funding: r.ai.funding,
+            summary: r.ai.summary,
+          })
         }
-        // Merge the unlinked queue (dedupe by messageId).
-        const seenU = new Set(s.unlinked.map((u) => u.messageId))
-        const unlinked = [...s.unlinked]
-        for (const u of newUnlinked) if (!seenU.has(u.messageId)) unlinked.push(u)
-        unlinked.sort((a, b) => b.sentAt - a.sentAt)
-        return {
-          ...s,
-          selfEmail,
-          records,
-          unlinked,
-          skipped: [...s.skipped, ...newSkipped],
-          lastSync: now,
-        }
-      })
+        const progEntries = [...byProgram.entries()]
+        onProgress?.({ phase: 'summary', done: 0, total: progEntries.length })
+        let sdone = 0
+        const summaries: Record<string, { summary: string; updatedAt: number; count: number }> = {}
+        await mapLimit(progEntries, 2, async ([programId, g]) => {
+          try {
+            const summary = await summarizeProgram(g.university, g.program, g.replies)
+            summaries[programId] = { summary, updatedAt: now, count: g.replies.length }
+          } catch {
+            const prev = snap.programSummaries[programId]
+            if (prev) summaries[programId] = prev
+          } finally {
+            onProgress?.({ phase: 'summary', done: ++sdone, total: progEntries.length })
+          }
+        })
+        programSummaries = summaries
+      }
+
+      persist(() => ({
+        ...snap,
+        selfEmail,
+        records,
+        unlinked,
+        skipped: [...snap.skipped, ...newSkipped],
+        programSummaries,
+        lastSync: now,
+      }))
 
       return { newLinked: earliestNew.size, newUnlinked: newUnlinked.length }
     },

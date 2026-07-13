@@ -79,8 +79,18 @@ export interface Dataset {
  *  The UI derives a "no reply (stale)" bucket from awaiting + days elapsed. */
 export type ReplyState = 'awaiting' | 'replied'
 
-/** How a professor's reply landed. Set by the user (bodies aren't read). */
+/** How a professor's reply landed. Set by the user, or inferred by DeepSeek. */
 export type ReplyType = 'interested' | 'maybe' | 'rejected' | 'no_funding' | 'auto' | 'other'
+
+/** DeepSeek's structured read of a professor's reply body (opt-in feature). */
+export interface ReplyAnalysis {
+  recruiting: 'yes' | 'no' | 'unclear'
+  funding: 'yes' | 'no' | 'unclear'
+  tone: 'positive' | 'neutral' | 'negative'
+  askedToApply: boolean
+  summary: string
+  analyzedAt: number
+}
 
 /** One tracked cold-email thread, linked to a specific faculty card
  *  (key = advisorKey(programId, facultyId)). Persisted in localStorage only. */
@@ -99,6 +109,8 @@ export interface OutreachRecord {
   replyType?: ReplyType
   /** how the record was created; 'manual' records are skipped by Gmail reply-sync. */
   source?: 'gmail' | 'manual'
+  /** DeepSeek's read of the reply body, when the AI feature is enabled. */
+  ai?: ReplyAnalysis
 }
 
 /** A sent email that looks like outreach but isn't linked to a professor yet. */
