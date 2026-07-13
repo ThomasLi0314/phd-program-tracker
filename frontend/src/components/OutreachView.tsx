@@ -121,6 +121,8 @@ export function OutreachView({
   unlinked,
   connected,
   lastSync,
+  scanSince,
+  onSetScanSince,
   onAssign,
   onDismiss,
   onUnassign,
@@ -131,6 +133,8 @@ export function OutreachView({
   unlinked: UnlinkedEmail[]
   connected: boolean
   lastSync: number | null
+  scanSince: string
+  onSetScanSince: (date: string) => void
   onAssign: (email: UnlinkedEmail, facultyKey: string) => void
   onDismiss: (messageId: string) => void
   onUnassign: (facultyKey: string) => void
@@ -191,6 +195,16 @@ export function OutreachView({
             mail (headers only, stored only in this browser). Use{' '}
             <b>✉ Connect Gmail</b> in the top bar, then <b>Sync</b>.
           </p>
+          <label className="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <span className="font-medium">Only scan emails sent on/after</span>
+            <input
+              type="date"
+              value={scanSince}
+              onChange={(e) => onSetScanSince(e.target.value)}
+              className="rounded border border-slate-300 px-2 py-0.5 text-[11px] text-slate-700 focus:border-indigo-400 focus:outline-none"
+            />
+            <span className="text-slate-400">— then hit Sync. Widen this to pick up older mail.</span>
+          </label>
         </header>
 
         {!connected && (

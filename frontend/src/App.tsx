@@ -439,6 +439,8 @@ function App() {
             unlinked={outreach.state.unlinked}
             connected={gmailStatus === 'connected'}
             lastSync={outreach.state.lastSync}
+            scanSince={outreach.state.scanSince}
+            onSetScanSince={outreach.setScanSince}
             onAssign={outreach.assign}
             onDismiss={outreach.dismiss}
             onUnassign={outreach.unassign}

@@ -6,8 +6,9 @@ import { getMessageMeta, getProfile, getThreadMeta, listSent } from './gmail'
 
 const STORAGE_KEY = 'tracker.outreach.v1'
 
-/** How far back to scan Sent mail. Two years covers a full application cycle. */
-const SCAN_WINDOW = 'newer_than:2y'
+/** Default: only scan Sent mail from June 2026 on (when cold-emailing started).
+ *  User-adjustable via setScanSince. Format YYYY-MM-DD. */
+export const DEFAULT_SCAN_SINCE = '2026-06-01'
 
 export interface OutreachState {
   /** learned address book: recipient email → facultyKey. The source of truth. */
@@ -18,6 +19,8 @@ export interface OutreachState {
   unlinked: UnlinkedEmail[]
   /** messageIds the user marked "not outreach", or non-academic ones we skip. */
   skipped: string[]
+  /** only scan Sent mail on/after this date (YYYY-MM-DD). */
+  scanSince: string
   selfEmail: string | null
   lastSync: number | null
 }
@@ -27,6 +30,7 @@ const EMPTY: OutreachState = {
   records: {},
   unlinked: [],
   skipped: [],
+  scanSince: DEFAULT_SCAN_SINCE,
   selfEmail: null,
   lastSync: null,
 }
@@ -41,6 +45,7 @@ function load(): OutreachState {
       records: p.records ?? {},
       unlinked: p.unlinked ?? [],
       skipped: p.skipped ?? [],
+      scanSince: p.scanSince ?? DEFAULT_SCAN_SINCE,
       selfEmail: p.selfEmail ?? null,
       lastSync: p.lastSync ?? null,
     }
@@ -148,8 +153,9 @@ export function deriveReplyState(
   return { replied: repliedAt !== null, repliedAt }
 }
 
-/** Build the domain-filtered Sent query so first sync only fetches academic mail. */
-function sentQuery(): string {
+/** Build the domain-filtered Sent query so a sync only fetches academic mail
+ *  sent on/after `since` (YYYY-MM-DD). */
+function sentQuery(since: string): string {
   const roots = new Set<string>()
   for (const list of Object.values(UNIVERSITY_DOMAINS)) {
     for (const r of list) {
@@ -159,7 +165,8 @@ function sentQuery(): string {
     }
   }
   const clause = [...roots].map((r) => `to:${r}`).join(' OR ')
-  return `in:sent ${SCAN_WINDOW} (${clause})`
+  const dateClause = since ? `after:${since.replace(/-/g, '/')} ` : ''
+  return `in:sent ${dateClause}(${clause})`
 }
 
 async function mapLimit<T, R>(
@@ -260,6 +267,14 @@ export function useOutreach() {
     persist(() => EMPTY)
   }, [persist])
 
+  /** Change the earliest Sent-mail date to scan (YYYY-MM-DD). */
+  const setScanSince = useCallback(
+    (date: string) => {
+      persist((s) => ({ ...s, scanSince: date || DEFAULT_SCAN_SINCE }))
+    },
+    [persist],
+  )
+
   /** Full sync against Gmail. Requires the caller to have ensured a valid token.
    *  Classifies new academic Sent mail via the learned address book; unmatched
    *  emails land in the unlinked queue (the UI suggests professors for them). */
@@ -268,11 +283,11 @@ export function useOutreach() {
       const profile = await getProfile()
       const selfEmail = profile.emailAddress.toLowerCase()
 
-      onProgress?.({ phase: 'sent', done: 0, total: 0 })
-      const sent = await listSent(sentQuery())
-
       // Snapshot current state to decide what's new (state updates are batched).
       const snap = load()
+
+      onProgress?.({ phase: 'sent', done: 0, total: 0 })
+      const sent = await listSent(sentQuery(snap.scanSince))
       const known = new Set<string>([
         ...Object.values(snap.records).map((r) => r.messageId),
         ...snap.unlinked.map((u) => u.messageId),
@@ -421,5 +436,5 @@ export function useOutreach() {
     [persist],
   )
 
-  return { state, assign, unassign, dismiss, reset, sync }
+  return { state, assign, unassign, dismiss, reset, setScanSince, sync }
 }
