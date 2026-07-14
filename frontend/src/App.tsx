@@ -57,7 +57,7 @@ function App() {
   const { levels: starLevels, setLevel: setStarLevel } = useStarredAdvisors()
   const { notes: advisorNotes, setNote: setAdvisorNote } = useAdvisorNotes()
   const outreach = useOutreach()
-  const { overrides, setFacultyHomepage, setProgramPage } = useOverrides()
+  const { overrides, setFacultyHomepage, setProgramPage, setProgramContact } = useOverrides()
   const [gmailStatus, setGmailStatus] = useState<'disconnected' | 'connected'>('disconnected')
   const [gmailEmail, setGmailEmail] = useState<string | null>(null)
   const [gmailError, setGmailError] = useState<string | null>(null)
@@ -417,6 +417,8 @@ function App() {
                     : ''
                 }
                 onSetProgramPage={(u) => selected && setProgramPage(selected.id, u)}
+                contactOverride={selected ? (overrides.programContact[selected.id] ?? '') : ''}
+                onSetContact={(t) => selected && setProgramContact(selected.id, t)}
               />
             </>
           )

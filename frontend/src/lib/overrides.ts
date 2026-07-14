@@ -8,16 +8,21 @@ const STORAGE_KEY = 'tracker.overrides.v1'
 export interface Overrides {
   facultyHomepage: Record<string, string>
   programPage: Record<string, string>
+  programContact: Record<string, string>
 }
 
-const EMPTY: Overrides = { facultyHomepage: {}, programPage: {} }
+const EMPTY: Overrides = { facultyHomepage: {}, programPage: {}, programContact: {} }
 
 function load(): Overrides {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
     if (!raw) return EMPTY
     const p = JSON.parse(raw)
-    return { facultyHomepage: p.facultyHomepage ?? {}, programPage: p.programPage ?? {} }
+    return {
+      facultyHomepage: p.facultyHomepage ?? {},
+      programPage: p.programPage ?? {},
+      programContact: p.programContact ?? {},
+    }
   } catch {
     return EMPTY
   }
@@ -27,11 +32,12 @@ export function useOverrides(): {
   overrides: Overrides
   setFacultyHomepage: (key: string, url: string) => void
   setProgramPage: (programId: string, url: string) => void
+  setProgramContact: (programId: string, text: string) => void
 } {
   const [overrides, setState] = useState<Overrides>(load)
 
   const setMap = useCallback(
-    (which: 'facultyHomepage' | 'programPage', k: string, url: string) => {
+    (which: 'facultyHomepage' | 'programPage' | 'programContact', k: string, url: string) => {
       setState((prev) => {
         const map = { ...prev[which] }
         const u = url.trim()
@@ -57,6 +63,10 @@ export function useOverrides(): {
     (programId: string, url: string) => setMap('programPage', programId, url),
     [setMap],
   )
+  const setProgramContact = useCallback(
+    (programId: string, text: string) => setMap('programContact', programId, text),
+    [setMap],
+  )
 
-  return { overrides, setFacultyHomepage, setProgramPage }
+  return { overrides, setFacultyHomepage, setProgramPage, setProgramContact }
 }

@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import type { Faculty, OutreachRecord, Program } from '../types'
 import { UNKNOWN } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
@@ -42,7 +43,118 @@ function MatrixCell({
   )
 }
 
-function AdmissionMatrix({ program }: { program: Program }) {
+/** Pre-Application Contact cell the user can overwrite (stored as an override).
+ *  Shows the dataset value + note until overridden; then shows the custom text. */
+function EditableContactCell({
+  value,
+  note,
+  override,
+  onSave,
+}: {
+  value: string
+  note: string
+  override: string
+  onSave: (text: string) => void
+}) {
+  const [editing, setEditing] = useState(false)
+  const [draft, setDraft] = useState('')
+  const hasOverride = override.trim().length > 0
+  const effective = hasOverride ? override : value
+
+  useEffect(() => {
+    if (!editing) setDraft(hasOverride ? override : value === UNKNOWN ? '' : value)
+  }, [editing, override, value, hasOverride])
+
+  const save = () => {
+    onSave(draft)
+    setEditing(false)
+  }
+
+  return (
+    <div className="rounded border border-slate-200 bg-white px-2.5 py-2 sm:col-span-2">
+      <div className="flex items-center justify-between">
+        <div className="text-[10px] font-semibold uppercase tracking-[0.1em] text-slate-400">
+          Pre-Application Contact
+          {hasOverride && (
+            <span className="ml-1 rounded bg-indigo-100 px-1 py-px text-[9px] font-medium text-indigo-600">
+              custom
+            </span>
+          )}
+        </div>
+        {!editing && (
+          <button
+            onClick={() => setEditing(true)}
+            title="Edit contact info"
+            className="text-[11px] text-slate-300 hover:text-indigo-600"
+          >
+            ✎
+          </button>
+        )}
+      </div>
+      {editing ? (
+        <div className="mt-1">
+          <textarea
+            value={draft}
+            onChange={(e) => setDraft(e.target.value)}
+            autoFocus
+            rows={3}
+            placeholder="e.g. Email Prof. X (x@uni.edu) before applying; program coordinator gradadm@…"
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) save()
+              else if (e.key === 'Escape') setEditing(false)
+            }}
+            className="w-full resize-y rounded border border-indigo-300 px-2 py-1 text-[12.5px] leading-snug text-slate-800 focus:outline-none focus:ring-1 focus:ring-indigo-200"
+          />
+          <div className="mt-1 flex items-center gap-2 text-[11px]">
+            <button
+              onClick={save}
+              className="rounded bg-indigo-600 px-2 py-0.5 font-semibold text-white transition-colors hover:bg-indigo-700"
+            >
+              Save
+            </button>
+            <button onClick={() => setEditing(false)} className="text-slate-400 hover:text-slate-600">
+              Cancel
+            </button>
+            {hasOverride && (
+              <button
+                onClick={() => {
+                  onSave('')
+                  setEditing(false)
+                }}
+                className="ml-auto text-slate-400 hover:text-rose-600"
+              >
+                reset to default
+              </button>
+            )}
+          </div>
+        </div>
+      ) : (
+        <>
+          <div className="mt-0.5 whitespace-pre-wrap text-[13px] font-medium leading-snug text-slate-900">
+            {effective === UNKNOWN ? (
+              <span className="italic text-amber-700">Unknown / Verify</span>
+            ) : (
+              effective
+            )}
+          </div>
+          {!hasOverride && note && note !== UNKNOWN && (
+            <div className="mt-1 text-[11px] leading-snug text-slate-500">{note}</div>
+          )}
+        </>
+      )}
+    </div>
+  )
+}
+
+function AdmissionMatrix({
+  program,
+  contactOverride,
+  onSetContact,
+}: {
+  program: Program
+  contactOverride: string
+  onSetContact: (text: string) => void
+}) {
   const r = program.requirements
   const fundingValue =
     r.funding.status === UNKNOWN
@@ -66,11 +178,11 @@ function AdmissionMatrix({ program }: { program: Program }) {
         />
         <MatrixCell label="Admission Model" value={r.admission_model} note={r.admission_model_note} wide />
         <MatrixCell label="Funding" value={fundingValue} note={r.funding.note} wide />
-        <MatrixCell
-          label="Pre-Application Contact"
+        <EditableContactCell
           value={r.pre_application_contact}
           note={r.contact_note}
-          wide
+          override={contactOverride}
+          onSave={onSetContact}
         />
       </div>
     </section>
@@ -230,6 +342,8 @@ export function DeepDive({
   onSetHomepage,
   programPage,
   onSetProgramPage,
+  contactOverride,
+  onSetContact,
 }: {
   program: Program | null
   inList: boolean
@@ -243,6 +357,8 @@ export function DeepDive({
   onSetHomepage: (key: string, url: string) => void
   programPage: string
   onSetProgramPage: (url: string) => void
+  contactOverride: string
+  onSetContact: (text: string) => void
 }) {
   if (!program) {
     return (
@@ -303,7 +419,11 @@ export function DeepDive({
           </p>
         </header>
 
-        <AdmissionMatrix program={program} />
+        <AdmissionMatrix
+          program={program}
+          contactOverride={contactOverride}
+          onSetContact={onSetContact}
+        />
         <FacultyWaterfall
           programId={program.id}
           faculty={program.faculty}
