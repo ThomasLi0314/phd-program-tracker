@@ -19,6 +19,8 @@ export interface Faculty {
   summary: string
   recruitment_status: RecruitmentStatus
   links: FacultyLinks
+  /** true for advisors the user added locally (not from the verified dataset). */
+  added?: boolean
 }
 
 export interface Funding {

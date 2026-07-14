@@ -1,17 +1,25 @@
 import { useCallback, useState } from 'react'
+import type { Faculty } from '../types'
 
 const STORAGE_KEY = 'tracker.overrides.v1'
 
-/** User-supplied link fixes, layered over the shared dataset (which stays
- *  read-only). facultyHomepage keyed by `${programId}/${facultyId}` (advisorKey);
- *  programPage keyed by programId. Empty string clears an override. */
+/** User-supplied fixes, layered over the shared dataset (which stays read-only).
+ *  facultyHomepage keyed by `${programId}/${facultyId}` (advisorKey); programPage
+ *  and programContact keyed by programId; addedFaculty maps programId → advisors
+ *  the user added. Empty string clears a scalar override. */
 export interface Overrides {
   facultyHomepage: Record<string, string>
   programPage: Record<string, string>
   programContact: Record<string, string>
+  addedFaculty: Record<string, Faculty[]>
 }
 
-const EMPTY: Overrides = { facultyHomepage: {}, programPage: {}, programContact: {} }
+const EMPTY: Overrides = {
+  facultyHomepage: {},
+  programPage: {},
+  programContact: {},
+  addedFaculty: {},
+}
 
 function load(): Overrides {
   try {
@@ -22,6 +30,7 @@ function load(): Overrides {
       facultyHomepage: p.facultyHomepage ?? {},
       programPage: p.programPage ?? {},
       programContact: p.programContact ?? {},
+      addedFaculty: p.addedFaculty ?? {},
     }
   } catch {
     return EMPTY
@@ -33,6 +42,8 @@ export function useOverrides(): {
   setFacultyHomepage: (key: string, url: string) => void
   setProgramPage: (programId: string, url: string) => void
   setProgramContact: (programId: string, text: string) => void
+  addFaculty: (programId: string, faculty: Faculty) => void
+  removeFaculty: (programId: string, facultyId: string) => void
 } {
   const [overrides, setState] = useState<Overrides>(load)
 
@@ -68,5 +79,52 @@ export function useOverrides(): {
     [setMap],
   )
 
-  return { overrides, setFacultyHomepage, setProgramPage, setProgramContact }
+  const addFaculty = useCallback(
+    (programId: string, faculty: Faculty) => {
+      setState((prev) => {
+        const list = prev.addedFaculty[programId] ?? []
+        if (list.some((f) => f.id === faculty.id)) return prev
+        const next = {
+          ...prev,
+          addedFaculty: { ...prev.addedFaculty, [programId]: [...list, faculty] },
+        }
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(next))
+        } catch {
+          /* ignore */
+        }
+        return next
+      })
+    },
+    [],
+  )
+
+  const removeFaculty = useCallback(
+    (programId: string, facultyId: string) => {
+      setState((prev) => {
+        const list = prev.addedFaculty[programId] ?? []
+        const nextList = list.filter((f) => f.id !== facultyId)
+        const addedFaculty = { ...prev.addedFaculty }
+        if (nextList.length) addedFaculty[programId] = nextList
+        else delete addedFaculty[programId]
+        const next = { ...prev, addedFaculty }
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(next))
+        } catch {
+          /* ignore */
+        }
+        return next
+      })
+    },
+    [],
+  )
+
+  return {
+    overrides,
+    setFacultyHomepage,
+    setProgramPage,
+    setProgramContact,
+    addFaculty,
+    removeFaculty,
+  }
 }

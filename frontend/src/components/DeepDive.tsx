@@ -7,6 +7,7 @@ import { AdvisorNote } from './AdvisorNote'
 import { OutreachBadge } from './OutreachBadge'
 import { EditableLink } from './EditableLink'
 import { advisorKey } from '../lib/starredAdvisors'
+import { aiActive, researchAdvisor } from '../lib/deepseek'
 
 function Value({ text }: { text: string }) {
   if (text === UNKNOWN) {
@@ -198,6 +199,7 @@ function FacultyCard({
   record,
   homepage,
   onSetHomepage,
+  onRemove,
 }: {
   faculty: Faculty
   level: number
@@ -207,19 +209,38 @@ function FacultyCard({
   record?: OutreachRecord
   homepage: string
   onSetHomepage: (url: string) => void
+  onRemove?: () => void
 }) {
   return (
-    <article className="mb-3 break-inside-avoid rounded border border-slate-200 bg-white p-3">
+    <article
+      className={`mb-3 break-inside-avoid rounded border bg-white p-3 ${
+        faculty.added ? 'border-indigo-200 ring-1 ring-indigo-100' : 'border-slate-200'
+      }`}
+    >
       <div className="flex items-start justify-between gap-2">
         <div className="min-w-0">
           <h4 className="font-serif text-[15px] font-bold leading-tight text-slate-900">
             {faculty.name}
+            {faculty.added && (
+              <span className="ml-1.5 rounded bg-indigo-100 px-1.5 py-px align-middle text-[9px] font-semibold uppercase tracking-wide text-indigo-600">
+                added · verify
+              </span>
+            )}
           </h4>
           <p className="mt-0.5 text-[11px] leading-snug text-slate-500">{faculty.title}</p>
         </div>
         <div className="flex shrink-0 items-center gap-1.5">
           <RecruitmentBadge status={faculty.recruitment_status} />
           <StarRating level={level} onSetLevel={onSetLevel} />
+          {onRemove && (
+            <button
+              onClick={onRemove}
+              title="Remove this added advisor"
+              className="text-[12px] text-slate-300 hover:text-rose-600"
+            >
+              ✕
+            </button>
+          )}
         </div>
       </div>
       <div className="mt-2 flex flex-wrap gap-1">
@@ -260,9 +281,153 @@ function FacultyCard({
   )
 }
 
+function slugId(name: string, existing: Set<string>): string {
+  const base =
+    name
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[̀-ͯ]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, '') || 'advisor'
+  let id = base
+  let i = 2
+  while (existing.has(id)) id = `${base}-${i++}`
+  return id
+}
+
+/** Add an advisor to a program by name, optionally auto-drafting the card with
+ *  DeepSeek (from its training knowledge — the user reviews before adding). */
+function AddAdvisorForm({
+  university,
+  programName,
+  existingIds,
+  onAdd,
+  onClose,
+}: {
+  university: string
+  programName: string
+  existingIds: Set<string>
+  onAdd: (f: Faculty) => void
+  onClose: () => void
+}) {
+  const [name, setName] = useState('')
+  const [title, setTitle] = useState('')
+  const [subField, setSubField] = useState('')
+  const [tags, setTags] = useState('')
+  const [summary, setSummary] = useState('')
+  const [homepage, setHomepage] = useState('')
+  const [scholar, setScholar] = useState('')
+  const [busy, setBusy] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+
+  const autofill = async () => {
+    if (!name.trim()) return
+    setBusy(true)
+    setError(null)
+    try {
+      const d = await researchAdvisor(name.trim(), { university, program: programName })
+      if (d.title) setTitle(d.title)
+      setSubField(d.sub_field)
+      setTags(d.tags.join(', '))
+      setSummary(d.summary)
+      setHomepage(d.homepage)
+      setScholar(d.scholar)
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e))
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  const add = () => {
+    if (!name.trim()) return
+    const fac: Faculty = {
+      id: slugId(name, existingIds),
+      name: name.trim(),
+      title: title.trim(),
+      sub_field: subField.trim() || 'Unspecified',
+      tags: tags
+        .split(',')
+        .map((t) => t.trim())
+        .filter(Boolean),
+      summary: summary.trim(),
+      recruitment_status: UNKNOWN,
+      links: { homepage: homepage.trim() || null, scholar: scholar.trim() || null },
+      added: true,
+    }
+    onAdd(fac)
+    onClose()
+  }
+
+  const input = 'w-full rounded border border-slate-300 px-2 py-1 text-[12px] text-slate-800 focus:border-indigo-400 focus:outline-none focus:ring-1 focus:ring-indigo-200'
+
+  return (
+    <div className="mb-3 rounded-lg border border-indigo-200 bg-indigo-50/40 p-3">
+      <div className="flex items-center justify-between">
+        <h3 className="text-[12px] font-semibold text-slate-700">Add an advisor</h3>
+        <button onClick={onClose} className="text-[11px] text-slate-400 hover:text-slate-600">
+          close
+        </button>
+      </div>
+      <div className="mt-2 flex flex-wrap items-center gap-2">
+        <input
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          placeholder="Professor name"
+          autoFocus
+          className={`${input} min-w-[180px] flex-1`}
+        />
+        <button
+          onClick={autofill}
+          disabled={!name.trim() || busy || !aiActive()}
+          title={aiActive() ? 'Draft the card from DeepSeek (verify it)' : 'Enable DeepSeek in the Overview tab first'}
+          className="rounded bg-slate-800 px-2.5 py-1 text-[12px] font-medium text-white transition-colors hover:bg-slate-700 disabled:opacity-40"
+        >
+          {busy ? 'Researching…' : '🤖 Auto-fill'}
+        </button>
+      </div>
+      {!aiActive() && (
+        <p className="mt-1 text-[11px] text-slate-400">
+          Auto-fill needs DeepSeek enabled (📊 Overview → DeepSeek settings). You can also fill the
+          fields by hand.
+        </p>
+      )}
+      {error && <p className="mt-1 text-[11px] font-medium text-rose-600">{error}</p>}
+
+      <div className="mt-2 grid gap-2 sm:grid-cols-2">
+        <input value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Title (e.g. Assistant Professor)" className={input} />
+        <input value={subField} onChange={(e) => setSubField(e.target.value)} placeholder="Sub-field" className={input} />
+      </div>
+      <input value={tags} onChange={(e) => setTags(e.target.value)} placeholder="Tags, comma-separated" className={`${input} mt-2`} />
+      <textarea value={summary} onChange={(e) => setSummary(e.target.value)} placeholder="Research summary" rows={2} className={`${input} mt-2 resize-y`} />
+      <div className="mt-2 grid gap-2 sm:grid-cols-2">
+        <input value={homepage} onChange={(e) => setHomepage(e.target.value)} placeholder="Homepage URL (optional)" className={input} />
+        <input value={scholar} onChange={(e) => setScholar(e.target.value)} placeholder="Google Scholar URL (optional)" className={input} />
+      </div>
+
+      <div className="mt-2 flex items-center gap-2">
+        <button
+          onClick={add}
+          disabled={!name.trim()}
+          className="rounded bg-indigo-600 px-3 py-1 text-[12px] font-semibold text-white transition-colors hover:bg-indigo-700 disabled:opacity-50"
+        >
+          Add advisor
+        </button>
+        <span className="text-[11px] text-slate-400">
+          Added advisors are marked unverified &amp; stored only in your browser. Recruitment status
+          defaults to “Verify”.
+        </span>
+      </div>
+    </div>
+  )
+}
+
 function FacultyWaterfall({
   programId,
+  university,
+  programName,
   faculty,
+  addedFaculty,
   levels,
   onSetLevel,
   notes,
@@ -270,9 +435,14 @@ function FacultyWaterfall({
   outreach,
   homepages,
   onSetHomepage,
+  onAddFaculty,
+  onRemoveFaculty,
 }: {
   programId: string
+  university: string
+  programName: string
   faculty: Faculty[]
+  addedFaculty: Faculty[]
   levels: Map<string, number>
   onSetLevel: (key: string, level: number) => void
   notes: Map<string, string>
@@ -280,24 +450,47 @@ function FacultyWaterfall({
   outreach: Record<string, OutreachRecord>
   homepages: Record<string, string>
   onSetHomepage: (key: string, url: string) => void
+  onAddFaculty: (f: Faculty) => void
+  onRemoveFaculty: (facultyId: string) => void
 }) {
+  const [adding, setAdding] = useState(false)
+  const all = [...faculty, ...addedFaculty]
   const groups = new Map<string, Faculty[]>()
-  for (const f of faculty) {
+  for (const f of all) {
     if (!groups.has(f.sub_field)) groups.set(f.sub_field, [])
     groups.get(f.sub_field)!.push(f)
   }
+  const existingIds = new Set(all.map((f) => f.id))
+
   return (
     <section className="mt-5">
-      <h2 className="mb-2 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-slate-500">
+      <h2 className="mb-2 flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-slate-500">
         <span className="inline-block size-1.5 rounded-full bg-emerald-600" />
         B · Faculty Waterfall
         <span className="normal-case tracking-normal text-slate-400">
-          {faculty.length} researchers, grouped by sub-field
+          {all.length} researchers, grouped by sub-field
         </span>
+        <button
+          onClick={() => setAdding((v) => !v)}
+          className="ml-auto rounded border border-slate-300 bg-white px-2 py-0.5 text-[11px] font-medium normal-case tracking-normal text-slate-700 transition-colors hover:border-indigo-400 hover:text-indigo-700"
+        >
+          ＋ Add advisor
+        </button>
       </h2>
-      {faculty.length === 0 && (
+
+      {adding && (
+        <AddAdvisorForm
+          university={university}
+          programName={programName}
+          existingIds={existingIds}
+          onAdd={onAddFaculty}
+          onClose={() => setAdding(false)}
+        />
+      )}
+
+      {all.length === 0 && !adding && (
         <p className="text-sm italic text-slate-400">
-          No faculty scraped yet for this program — add a faculty_directory to targets.yaml.
+          No faculty scraped yet for this program — use “＋ Add advisor” to add one.
         </p>
       )}
       {[...groups.entries()].map(([subField, members]) => (
@@ -319,6 +512,7 @@ function FacultyWaterfall({
                   record={outreach[key]}
                   homepage={homepages[key] ?? f.links.homepage ?? ''}
                   onSetHomepage={(u) => onSetHomepage(key, u)}
+                  onRemove={f.added ? () => onRemoveFaculty(f.id) : undefined}
                 />
               )
             })}
@@ -344,6 +538,9 @@ export function DeepDive({
   onSetProgramPage,
   contactOverride,
   onSetContact,
+  addedFaculty,
+  onAddFaculty,
+  onRemoveFaculty,
 }: {
   program: Program | null
   inList: boolean
@@ -359,6 +556,9 @@ export function DeepDive({
   onSetProgramPage: (url: string) => void
   contactOverride: string
   onSetContact: (text: string) => void
+  addedFaculty: Faculty[]
+  onAddFaculty: (f: Faculty) => void
+  onRemoveFaculty: (facultyId: string) => void
 }) {
   if (!program) {
     return (
@@ -426,7 +626,10 @@ export function DeepDive({
         />
         <FacultyWaterfall
           programId={program.id}
+          university={program.university}
+          programName={program.program_name}
           faculty={program.faculty}
+          addedFaculty={addedFaculty}
           levels={levels}
           onSetLevel={onSetLevel}
           notes={notes}
@@ -434,6 +637,8 @@ export function DeepDive({
           outreach={outreach}
           homepages={homepages}
           onSetHomepage={onSetHomepage}
+          onAddFaculty={onAddFaculty}
+          onRemoveFaculty={onRemoveFaculty}
         />
       </div>
     </main>

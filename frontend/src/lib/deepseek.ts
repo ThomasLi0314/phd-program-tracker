@@ -115,6 +115,47 @@ export async function analyzeReply(
   }
 }
 
+export interface AdvisorDraft {
+  title: string
+  sub_field: string
+  tags: string[]
+  summary: string
+  homepage: string
+  scholar: string
+}
+
+/** Draft an advisor card from the model's training knowledge. NOTE: DeepSeek
+ *  cannot browse the web — this is memory, may be outdated/approximate, and MUST
+ *  be reviewed by the user. The model is told to leave fields blank when unsure
+ *  and never to fabricate URLs. Needs a key (not gated by the enable toggle). */
+export async function researchAdvisor(
+  name: string,
+  ctx: { university: string; program: string },
+): Promise<AdvisorDraft> {
+  const sys =
+    'You provide known public professional details about an academic from your training knowledge, for a prospective PhD student building a reference card. You cannot browse the web. If you are not reasonably confident about a field, leave it empty — do NOT guess or fabricate, especially URLs. Respond with ONLY a JSON object.'
+  const user =
+    `Professor: ${name}, at ${ctx.university}${ctx.program ? ` (${ctx.program})` : ''}.\n\n` +
+    `Return JSON exactly: {"title":"academic title e.g. Associate Professor, or empty",` +
+    `"sub_field":"their main research area, short","tags":["3-6 research keywords"],` +
+    `"summary":"1-2 sentence description of their research (empty if unknown)",` +
+    `"homepage":"official homepage URL ONLY if you are confident, else empty",` +
+    `"scholar":"Google Scholar URL ONLY if confident, else empty"}`
+  const out = await chat([{ role: 'system', content: sys }, { role: 'user', content: user }], {
+    json: true,
+  })
+  const p = JSON.parse(out)
+  const str = (v: unknown) => (typeof v === 'string' ? v.trim() : '')
+  return {
+    title: str(p.title),
+    sub_field: str(p.sub_field),
+    tags: Array.isArray(p.tags) ? p.tags.filter((t: unknown) => typeof t === 'string').slice(0, 8) : [],
+    summary: str(p.summary),
+    homepage: /^https?:\/\//i.test(str(p.homepage)) ? str(p.homepage) : '',
+    scholar: /^https?:\/\//i.test(str(p.scholar)) ? str(p.scholar) : '',
+  }
+}
+
 /** Summarize one program's admissions situation from its faculty replies. */
 export async function summarizeProgram(
   university: string,
