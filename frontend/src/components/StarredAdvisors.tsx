@@ -4,6 +4,7 @@ import { Badge, RecruitmentBadge } from './Badge'
 import { StarRating } from './StarRating'
 import { AdvisorNote } from './AdvisorNote'
 import { OutreachBadge } from './OutreachBadge'
+import { EditableLink } from './EditableLink'
 import { advisorKey, MAX_PRIORITY } from '../lib/starredAdvisors'
 
 interface AdvisorHit {
@@ -53,6 +54,8 @@ function StarredCard({
   note,
   onSaveNote,
   record,
+  homepage,
+  onSetHomepage,
 }: {
   hit: AdvisorHit
   onSetLevel: (n: number) => void
@@ -60,6 +63,8 @@ function StarredCard({
   note: string
   onSaveNote: (text: string) => void
   record?: OutreachRecord
+  homepage: string
+  onSetHomepage: (url: string) => void
 }) {
   const { faculty: f, program: p } = hit
   return (
@@ -101,17 +106,8 @@ function StarredCard({
         ))}
       </div>
       <p className="mt-2 text-[12.5px] leading-relaxed text-slate-600">{f.summary}</p>
-      <div className="mt-2 flex gap-3 text-[11px] font-medium">
-        {f.links.homepage && (
-          <a
-            href={f.links.homepage}
-            target="_blank"
-            rel="noreferrer"
-            className="text-indigo-600 hover:underline"
-          >
-            Homepage ↗
-          </a>
-        )}
+      <div className="mt-2 flex flex-wrap gap-3 text-[11px] font-medium">
+        <EditableLink label="Homepage" url={homepage} onSave={onSetHomepage} />
         {f.links.scholar && (
           <a
             href={f.links.scholar}
@@ -139,6 +135,8 @@ export function StarredAdvisors({
   notes,
   onSetNote,
   outreach,
+  homepages,
+  onSetHomepage,
 }: {
   programs: Program[]
   levels: Map<string, number>
@@ -147,6 +145,8 @@ export function StarredAdvisors({
   notes: Map<string, string>
   onSetNote: (key: string, text: string) => void
   outreach: Record<string, OutreachRecord>
+  homepages: Record<string, string>
+  onSetHomepage: (key: string, url: string) => void
 }) {
   const [groupBy, setGroupBy] = useState<GroupBy>('field')
   const [query, setQuery] = useState('')
@@ -415,6 +415,8 @@ export function StarredAdvisors({
                             note={notes.get(key) ?? ''}
                             onSaveNote={(text) => onSetNote(key, text)}
                             record={outreach[key]}
+                            homepage={homepages[key] ?? h.faculty.links.homepage ?? ''}
+                            onSetHomepage={(u) => onSetHomepage(key, u)}
                           />
                         )
                       })}

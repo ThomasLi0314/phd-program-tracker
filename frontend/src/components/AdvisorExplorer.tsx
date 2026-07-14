@@ -4,6 +4,7 @@ import { Badge, RecruitmentBadge } from './Badge'
 import { StarRating } from './StarRating'
 import { AdvisorNote } from './AdvisorNote'
 import { OutreachBadge } from './OutreachBadge'
+import { EditableLink } from './EditableLink'
 import { advisorKey } from '../lib/starredAdvisors'
 
 interface AdvisorHit {
@@ -48,6 +49,8 @@ function AdvisorCard({
   note,
   onSaveNote,
   record,
+  homepage,
+  onSetHomepage,
 }: {
   hit: AdvisorHit
   level: number
@@ -56,6 +59,8 @@ function AdvisorCard({
   note: string
   onSaveNote: (text: string) => void
   record?: OutreachRecord
+  homepage: string
+  onSetHomepage: (url: string) => void
 }) {
   const { faculty: f, program: p } = hit
   return (
@@ -97,17 +102,8 @@ function AdvisorCard({
         ))}
       </div>
       <p className="mt-2 text-[12.5px] leading-relaxed text-slate-600">{f.summary}</p>
-      <div className="mt-2 flex gap-3 text-[11px] font-medium">
-        {f.links.homepage && (
-          <a
-            href={f.links.homepage}
-            target="_blank"
-            rel="noreferrer"
-            className="text-indigo-600 hover:underline"
-          >
-            Homepage ↗
-          </a>
-        )}
+      <div className="mt-2 flex flex-wrap gap-3 text-[11px] font-medium">
+        <EditableLink label="Homepage" url={homepage} onSave={onSetHomepage} />
         {f.links.scholar && (
           <a
             href={f.links.scholar}
@@ -137,6 +133,8 @@ export function AdvisorExplorer({
   notes,
   onSetNote,
   outreach,
+  homepages,
+  onSetHomepage,
 }: {
   programs: Program[]
   query: string
@@ -147,6 +145,8 @@ export function AdvisorExplorer({
   notes: Map<string, string>
   onSetNote: (key: string, text: string) => void
   outreach: Record<string, OutreachRecord>
+  homepages: Record<string, string>
+  onSetHomepage: (key: string, url: string) => void
 }) {
   const allHits = useMemo(
     () => programs.flatMap((p) => p.faculty.map((f) => ({ faculty: f, program: p }))),
@@ -248,6 +248,8 @@ export function AdvisorExplorer({
                   note={notes.get(key) ?? ''}
                   onSaveNote={(text) => onSetNote(key, text)}
                   record={outreach[key]}
+                  homepage={homepages[key] ?? h.faculty.links.homepage ?? ''}
+                  onSetHomepage={(u) => onSetHomepage(key, u)}
                 />
               )
             })}

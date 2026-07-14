@@ -13,6 +13,7 @@ import { useMyList } from './lib/myList'
 import { useStarredAdvisors } from './lib/starredAdvisors'
 import { useAdvisorNotes } from './lib/advisorNotes'
 import { useOutreach, type SyncProgress } from './lib/outreach'
+import { useOverrides } from './lib/overrides'
 import { connect as gmailConnect, disconnect as gmailDisconnect, ensureToken, loadClientId } from './lib/gmail'
 import { FilterSidebar } from './components/FilterSidebar'
 import { FieldSearch } from './components/FieldSearch'
@@ -56,6 +57,7 @@ function App() {
   const { levels: starLevels, setLevel: setStarLevel } = useStarredAdvisors()
   const { notes: advisorNotes, setNote: setAdvisorNote } = useAdvisorNotes()
   const outreach = useOutreach()
+  const { overrides, setFacultyHomepage, setProgramPage } = useOverrides()
   const [gmailStatus, setGmailStatus] = useState<'disconnected' | 'connected'>('disconnected')
   const [gmailEmail, setGmailEmail] = useState<string | null>(null)
   const [gmailError, setGmailError] = useState<string | null>(null)
@@ -407,6 +409,14 @@ function App() {
                 notes={advisorNotes}
                 onSetNote={setAdvisorNote}
                 outreach={outreach.state.records}
+                homepages={overrides.facultyHomepage}
+                onSetHomepage={setFacultyHomepage}
+                programPage={
+                  selected
+                    ? (overrides.programPage[selected.id] ?? selected.links.program ?? '')
+                    : ''
+                }
+                onSetProgramPage={(u) => selected && setProgramPage(selected.id, u)}
               />
             </>
           )
@@ -421,6 +431,8 @@ function App() {
             notes={advisorNotes}
             onSetNote={setAdvisorNote}
             outreach={outreach.state.records}
+            homepages={overrides.facultyHomepage}
+            onSetHomepage={setFacultyHomepage}
           />
         ) : view === 'schools' ? (
           <SchoolExplorer
@@ -438,6 +450,8 @@ function App() {
             notes={advisorNotes}
             onSetNote={setAdvisorNote}
             outreach={outreach.state.records}
+            homepages={overrides.facultyHomepage}
+            onSetHomepage={setFacultyHomepage}
           />
         ) : view === 'outreach' ? (
           <OutreachView

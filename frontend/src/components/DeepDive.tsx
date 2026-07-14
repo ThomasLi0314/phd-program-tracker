@@ -4,6 +4,7 @@ import { Badge, RecruitmentBadge } from './Badge'
 import { StarRating } from './StarRating'
 import { AdvisorNote } from './AdvisorNote'
 import { OutreachBadge } from './OutreachBadge'
+import { EditableLink } from './EditableLink'
 import { advisorKey } from '../lib/starredAdvisors'
 
 function Value({ text }: { text: string }) {
@@ -83,6 +84,8 @@ function FacultyCard({
   note,
   onSaveNote,
   record,
+  homepage,
+  onSetHomepage,
 }: {
   faculty: Faculty
   level: number
@@ -90,6 +93,8 @@ function FacultyCard({
   note: string
   onSaveNote: (text: string) => void
   record?: OutreachRecord
+  homepage: string
+  onSetHomepage: (url: string) => void
 }) {
   return (
     <article className="mb-3 break-inside-avoid rounded border border-slate-200 bg-white p-3">
@@ -122,17 +127,8 @@ function FacultyCard({
           faculty.summary
         )}
       </p>
-      <div className="mt-2 flex gap-3 text-[11px] font-medium">
-        {faculty.links.homepage && (
-          <a
-            href={faculty.links.homepage}
-            target="_blank"
-            rel="noreferrer"
-            className="text-indigo-600 hover:underline"
-          >
-            Homepage ↗
-          </a>
-        )}
+      <div className="mt-2 flex flex-wrap gap-3 text-[11px] font-medium">
+        <EditableLink label="Homepage" url={homepage} onSave={onSetHomepage} />
         {faculty.links.scholar && (
           <a
             href={faculty.links.scholar}
@@ -160,6 +156,8 @@ function FacultyWaterfall({
   notes,
   onSetNote,
   outreach,
+  homepages,
+  onSetHomepage,
 }: {
   programId: string
   faculty: Faculty[]
@@ -168,6 +166,8 @@ function FacultyWaterfall({
   notes: Map<string, string>
   onSetNote: (key: string, text: string) => void
   outreach: Record<string, OutreachRecord>
+  homepages: Record<string, string>
+  onSetHomepage: (key: string, url: string) => void
 }) {
   const groups = new Map<string, Faculty[]>()
   for (const f of faculty) {
@@ -205,6 +205,8 @@ function FacultyWaterfall({
                   note={notes.get(key) ?? ''}
                   onSaveNote={(text) => onSetNote(key, text)}
                   record={outreach[key]}
+                  homepage={homepages[key] ?? f.links.homepage ?? ''}
+                  onSetHomepage={(u) => onSetHomepage(key, u)}
                 />
               )
             })}
@@ -224,6 +226,10 @@ export function DeepDive({
   notes,
   onSetNote,
   outreach,
+  homepages,
+  onSetHomepage,
+  programPage,
+  onSetProgramPage,
 }: {
   program: Program | null
   inList: boolean
@@ -233,6 +239,10 @@ export function DeepDive({
   notes: Map<string, string>
   onSetNote: (key: string, text: string) => void
   outreach: Record<string, OutreachRecord>
+  homepages: Record<string, string>
+  onSetHomepage: (key: string, url: string) => void
+  programPage: string
+  onSetProgramPage: (url: string) => void
 }) {
   if (!program) {
     return (
@@ -274,14 +284,9 @@ export function DeepDive({
               </span>
             ))}
             <span className="mx-1 text-slate-300">|</span>
-            <a
-              href={program.links.program}
-              target="_blank"
-              rel="noreferrer"
-              className="text-[11px] font-medium text-indigo-600 hover:underline"
-            >
-              Program page ↗
-            </a>
+            <span className="text-[11px] font-medium">
+              <EditableLink label="Program page" url={programPage} onSave={onSetProgramPage} />
+            </span>
             {program.links.admissions && (
               <a
                 href={program.links.admissions}
@@ -307,6 +312,8 @@ export function DeepDive({
           notes={notes}
           onSetNote={onSetNote}
           outreach={outreach}
+          homepages={homepages}
+          onSetHomepage={onSetHomepage}
         />
       </div>
     </main>
