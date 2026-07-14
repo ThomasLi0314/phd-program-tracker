@@ -1302,8 +1302,821 @@
       "links": {
         "program": "https://www.oden.utexas.edu/academics/prospective-students/how-to-apply/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #30",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30 · faculty 2026-07-10",
+      "faculty": [
+        {
+          "id": "narayana-aluru",
+          "name": "Narayana Aluru",
+          "title": "Professor (Mechanical Engineering)",
+          "sub_field": "Computational Materials, Computational Mechanics",
+          "tags": [
+            "Computational Materials",
+            "Computational Mechanics"
+          ],
+          "summary": "Professor in Mechanical Engineering at UT Austin, working on Computational Materials, Computational Mechanics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/narayana-aluru-1846",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "antonios-alvertis",
+          "name": "Antonios Alvertis",
+          "title": "Assistant Professor (Physics)",
+          "sub_field": "Computational Materials",
+          "tags": [
+            "Computational Materials"
+          ],
+          "summary": "Assistant Professor in Physics at UT Austin, working on Computational Materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/antonios-alvertis-2463",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "todd-arbogast",
+          "name": "Todd Arbogast",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Numerical Analysis, Computational Geosciences",
+          "tags": [
+            "Numerical Analysis",
+            "Computational Geosciences",
+            "Applied Mathematics",
+            "Partial Differential Equations"
+          ],
+          "summary": "Professor in Mathematics at UT Austin, working on Numerical Analysis, Computational Geosciences, Applied Mathematics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/todd-arbogast-77",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "chandrajit-bajaj",
+          "name": "Chandrajit Bajaj",
+          "title": "Professor (Computer Science)",
+          "sub_field": "Machine Learning, Optimization",
+          "tags": [
+            "Machine Learning",
+            "Optimization"
+          ],
+          "summary": "Professor in Computer Science at UT Austin, working on Machine Learning, Optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/chandrajit-bajaj-11",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "michael-baldea",
+          "name": "Michael Baldea",
+          "title": "Professor (Chemical Engineering)",
+          "sub_field": "Optimization, Data Science",
+          "tags": [
+            "Optimization",
+            "Data Science"
+          ],
+          "summary": "Professor in Chemical Engineering at UT Austin, working on Optimization, Data Science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/michael-baldea-1280",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "william-beckner",
+          "name": "William Beckner",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Applied Mathematics",
+          "tags": [
+            "Applied Mathematics"
+          ],
+          "summary": "Professor in Mathematics at UT Austin, working on Applied Mathematics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/william-beckner-324",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "george-biros",
+          "name": "George Biros",
+          "title": "Professor (Mechanical Engineering)",
+          "sub_field": "Imaging, Computational Mechanics",
+          "tags": [
+            "Imaging",
+            "Computational Mechanics",
+            "High-Performance Computing"
+          ],
+          "summary": "Professor in Mechanical Engineering at UT Austin, working on Imaging, Computational Mechanics, High-Performance Computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/george-biros-1056",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "blake-bordelon",
+          "name": "Blake Bordelon",
+          "title": "Assistant Professor (Neuroscience)",
+          "sub_field": "Machine Learning, Artificial Intelligence",
+          "tags": [
+            "Machine Learning",
+            "Artificial Intelligence",
+            "Optimization"
+          ],
+          "summary": "Assistant Professor in Neuroscience at UT Austin, working on Machine Learning, Artificial Intelligence, Optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/blake-bordelon-2462",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "tan-bui-thanh",
+          "name": "Tan Bui-Thanh",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Uncertainty Quantification, Scientific Machine Learning",
+          "tags": [
+            "Uncertainty Quantification",
+            "Scientific Machine Learning",
+            "Inverse Problems"
+          ],
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Uncertainty Quantification, Scientific Machine Learning, Inverse Problems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/tan-bui-326",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "jesse-chan",
+          "name": "Jesse Chan",
+          "title": "Associate Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Computational Engineering, Scientific Computing",
+          "tags": [
+            "Computational Engineering",
+            "Scientific Computing",
+            "Reduced order modeling"
+          ],
+          "summary": "Associate Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Computational Engineering, Scientific Computing, Reduced order modeling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/jesse-chan-2405",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "james-chelikowsky",
+          "name": "James Chelikowsky",
+          "title": "Professor (Physics)",
+          "sub_field": "Computational Materials, Computational Chemistry",
+          "tags": [
+            "Computational Materials",
+            "Computational Chemistry",
+            "Computational Physics"
+          ],
+          "summary": "Professor in Physics at UT Austin, working on Computational Materials, Computational Chemistry, Computational Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/james-chelikowsky-332",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "clint-dawson",
+          "name": "Clint Dawson",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Computational Mechanics, Partial Differential Equations",
+          "tags": [
+            "Computational Mechanics",
+            "Partial Differential Equations"
+          ],
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Computational Mechanics, Partial Differential Equations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/clint-dawson-36",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "leszek-f-demkowicz",
+          "name": "Leszek F. Demkowicz",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Numerical Analysis, Computational Mechanics",
+          "tags": [
+            "Numerical Analysis",
+            "Computational Mechanics"
+          ],
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Numerical Analysis, Computational Mechanics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/leszek-demkowicz-80",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "inderjit-dhillon",
+          "name": "Inderjit Dhillon",
+          "title": "Professor (Computer Science)",
+          "sub_field": "Machine Learning, Artificial Intelligence",
+          "tags": [
+            "Machine Learning",
+            "Artificial Intelligence",
+            "Computational Biology"
+          ],
+          "summary": "Professor in Computer Science at UT Austin, working on Machine Learning, Artificial Intelligence, Computational Biology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/inderjit-dhillon-334",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "bjorn-engquist",
+          "name": "Bjorn Engquist",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Numerical Analysis, Applied Mathematics",
+          "tags": [
+            "Numerical Analysis",
+            "Applied Mathematics"
+          ],
+          "summary": "Professor in Mathematics at UT Austin, working on Numerical Analysis, Applied Mathematics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/bjorn-engquist-107",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "john-foster",
+          "name": "John Foster",
+          "title": "Associate Professor (Petroleum and Geosystems Engineering)",
+          "sub_field": "Computational Mechanics",
+          "tags": [
+            "Computational Mechanics"
+          ],
+          "summary": "Associate Professor in Petroleum and Geosystems Engineering at UT Austin, working on Computational Mechanics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/john-foster-1383",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "david-fridovich-keil",
+          "name": "David Fridovich-Keil",
+          "title": "Assistant Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Machine Learning, Game Theory",
+          "tags": [
+            "Machine Learning",
+            "Game Theory",
+            "Control Theory",
+            "Optimization"
+          ],
+          "summary": "Assistant Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Machine Learning, Game Theory, Control Theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/david-fridovich-keil-2120",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "irene-m-gamba",
+          "name": "Irene M. Gamba",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Computational Statistical Mechanics, Kinetic Theory",
+          "tags": [
+            "Computational Statistical Mechanics",
+            "Kinetic Theory",
+            "Computational Physics"
+          ],
+          "summary": "Professor in Mathematics at UT Austin, working on Computational Statistical Mechanics, Kinetic Theory, Computational Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/irene-gamba-39",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "omar-ghattas",
+          "name": "Omar Ghattas",
+          "title": "Professor (Mechanical Engineering)",
+          "sub_field": "Uncertainty Quantification, Inverse Problems",
+          "tags": [
+            "Uncertainty Quantification",
+            "Inverse Problems",
+            "Optimization"
+          ],
+          "summary": "Professor in Mechanical Engineering at UT Austin, working on Uncertainty Quantification, Inverse Problems, Optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/omar-ghattas-143",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "feliciano-giustino",
+          "name": "Feliciano Giustino",
+          "title": "Professor (Physics)",
+          "sub_field": "Computational Materials, Computational Physics",
+          "tags": [
+            "Computational Materials",
+            "Computational Physics"
+          ],
+          "summary": "Professor in Physics at UT Austin, working on Computational Materials, Computational Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/feliciano-giustino-1669",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "patrick-heimbach",
+          "name": "Patrick Heimbach",
+          "title": "Professor (Earth and Planetary Sciences)",
+          "sub_field": "Uncertainty Quantification, Computational Geosciences",
+          "tags": [
+            "Uncertainty Quantification",
+            "Computational Geosciences",
+            "Scientific Machine Learning"
+          ],
+          "summary": "Professor in Earth and Planetary Sciences at UT Austin, working on Uncertainty Quantification, Computational Geosciences, Scientific Machine Learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/patrick-heimbach-1386",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "graeme-henkelman",
+          "name": "Graeme Henkelman",
+          "title": "Professor (Chemistry)",
+          "sub_field": "Computational Materials, Reaction Dynamics",
+          "tags": [
+            "Computational Materials",
+            "Reaction Dynamics"
+          ],
+          "summary": "Professor in Chemistry at UT Austin, working on Computational Materials, Reaction Dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/graeme-henkelman-255",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "thomas-j-r-hughes",
+          "name": "Thomas J.R. Hughes",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Computational Mechanics, Computational Fluid Dynamics",
+          "tags": [
+            "Computational Mechanics",
+            "Computational Fluid Dynamics",
+            "Isogeometric Analysis"
+          ],
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Computational Mechanics, Computational Fluid Dynamics, Isogeometric Analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/thomas-hughes-339",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "moriba-jah",
+          "name": "Moriba Jah",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Computational Astronautics, Data Science",
+          "tags": [
+            "Computational Astronautics",
+            "Data Science"
+          ],
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Computational Astronautics, Data Science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/moriba-jah-1581",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "joseph-kileel",
+          "name": "Joseph Kileel",
+          "title": "Assistant Professor (Mathematics)",
+          "sub_field": "Applied Mathematics, Data Science",
+          "tags": [
+            "Applied Mathematics",
+            "Data Science"
+          ],
+          "summary": "Assistant Professor in Mathematics at UT Austin, working on Applied Mathematics, Data Science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/joseph-kileel-1731",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "dima-kozakov",
+          "name": "Dima Kozakov",
+          "title": "Professor (Molecular Biosciences)",
+          "sub_field": "Molecular Biosciences / computational life sciences",
+          "tags": [
+            "computational biology",
+            "protein modeling",
+            "structural bioinformatics"
+          ],
+          "summary": "Professor in Molecular Biosciences at UT Austin, working on computational biology, protein modeling, structural bioinformatics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/dima-kozakov-2460",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "krishna-kumar",
+          "name": "Krishna Kumar",
+          "title": "Associate Professor (Civil, Architectural, and Environmental Engineering)",
+          "sub_field": "Civil/geotechnical computational engineering",
+          "tags": [
+            "computational geomechanics",
+            "machine learning",
+            "high-performance computing"
+          ],
+          "summary": "Associate Professor in Civil, Architectural, and Environmental Engineering at UT Austin, working on computational geomechanics, machine learning, high-performance computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/krishna-kumar-2070",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "chad-m-landis",
+          "name": "Chad M. Landis",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Computational Materials, Computational Mechanics",
+          "tags": [
+            "Computational Materials",
+            "Computational Mechanics"
+          ],
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Computational Materials, Computational Mechanics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/chad-landis-442",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "hannah-lu",
+          "name": "Hannah Lu",
+          "title": "Assistant Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Uncertainty Quantification, Scientific Machine Learning",
+          "tags": [
+            "Uncertainty Quantification",
+            "Scientific Machine Learning"
+          ],
+          "summary": "Assistant Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Uncertainty Quantification, Scientific Machine Learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/hannah-lu-2307",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "dmitrii-e-makarov",
+          "name": "Dmitrii E. Makarov",
+          "title": "Professor (Chemistry)",
+          "sub_field": "Computational Chemistry, Computational Biology",
+          "tags": [
+            "Computational Chemistry",
+            "Computational Biology",
+            "Computational Physics"
+          ],
+          "summary": "Professor in Chemistry at UT Austin, working on Computational Chemistry, Computational Biology, Computational Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/dmitrii-makarov-340",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "per-gunnar-martinsson",
+          "name": "Per-Gunnar Martinsson",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Numerical Analysis, Data Science",
+          "tags": [
+            "Numerical Analysis",
+            "Data Science",
+            "Scientific Computing"
+          ],
+          "summary": "Professor in Mathematics at UT Austin, working on Numerical Analysis, Data Science, Scientific Computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/per-gunnar-j-martinsson-1620",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "robert-moser",
+          "name": "Robert Moser",
+          "title": "Professor (Mechanical Engineering)",
+          "sub_field": "Uncertainty Quantification, Computational Mechanics",
+          "tags": [
+            "Uncertainty Quantification",
+            "Computational Mechanics",
+            "High-Performance Computing"
+          ],
+          "summary": "Professor in Mechanical Engineering at UT Austin, working on Uncertainty Quantification, Computational Mechanics, High-Performance Computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/robert-moser-344",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "vagheesh-narasimhan",
+          "name": "Vagheesh Narasimhan",
+          "title": "Assistant Professor (Integrative Biology)",
+          "sub_field": "Integrative Biology / computational genomics",
+          "tags": [
+            "computational genomics",
+            "population genetics",
+            "statistical genetics"
+          ],
+          "summary": "Assistant Professor in Integrative Biology at UT Austin, working on computational genomics, population genetics, statistical genetics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/vagheesh-narasimhan-2530",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "nicholas-h-nelsen",
+          "name": "Nicholas H. Nelsen",
+          "title": "Assistant Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Scientific Machine Learning, Inverse Problems",
+          "tags": [
+            "Scientific Machine Learning",
+            "Inverse Problems",
+            "Probability and Statistics"
+          ],
+          "summary": "Assistant Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Scientific Machine Learning, Inverse Problems, Probability and Statistics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/nicholas-nelsen-2466",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "stella-offner",
+          "name": "Stella Offner",
+          "title": "Professor (Astronomy)",
+          "sub_field": "Scientific Machine Learning, High-Performance Computing",
+          "tags": [
+            "Scientific Machine Learning",
+            "High-Performance Computing"
+          ],
+          "summary": "Professor in Astronomy at UT Austin, working on Scientific Machine Learning, High-Performance Computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/stella-offner-1746",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "annette-ostling",
+          "name": "Annette Ostling",
+          "title": "Associate Professor (Integrative Biology)",
+          "sub_field": "Biodiversity, Mathematical Modeling",
+          "tags": [
+            "Biodiversity",
+            "Mathematical Modeling",
+            "Computational Modeling"
+          ],
+          "summary": "Associate Professor in Integrative Biology at UT Austin, working on Biodiversity, Mathematical Modeling, Computational Modeling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/annette-ostling-1979",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "keshav-pingali",
+          "name": "Keshav Pingali",
+          "title": "Professor (Computer Science)",
+          "sub_field": "Programming languages, High-Performance Computing",
+          "tags": [
+            "Programming languages",
+            "High-Performance Computing"
+          ],
+          "summary": "Professor in Computer Science at UT Austin, working on Programming languages, High-Performance Computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/keshav-pingali-206",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "william-h-press",
+          "name": "William H. Press",
+          "title": "Professor (Computer Science)",
+          "sub_field": "Computational Biology, Computer Science",
+          "tags": [
+            "Computational Biology",
+            "Computer Science",
+            "Theoretical Physics"
+          ],
+          "summary": "Professor in Computer Science at UT Austin, working on Computational Biology, Computer Science, Theoretical Physics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/william-press-348",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "michael-s-sacks",
+          "name": "Michael S. Sacks",
+          "title": "Professor (Biomedical Engineering)",
+          "sub_field": "Computational Medicine, Cardiovascular Biomechanics",
+          "tags": [
+            "Computational Medicine",
+            "Cardiovascular Biomechanics"
+          ],
+          "summary": "Professor in Biomedical Engineering at UT Austin, working on Computational Medicine, Cardiovascular Biomechanics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/michael-sacks-1057",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "don-siegel",
+          "name": "Don Siegel",
+          "title": "Professor (Mechanical Engineering)",
+          "sub_field": "Computational Materials, Machine Learning",
+          "tags": [
+            "Computational Materials",
+            "Machine Learning"
+          ],
+          "summary": "Professor in Mechanical Engineering at UT Austin, working on Computational Materials, Machine Learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/donald-siegel-1918",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "charley-taylor",
+          "name": "Charley Taylor",
+          "title": "Professor (Medicine)",
+          "sub_field": "Computational Medicine, Digital Twins",
+          "tags": [
+            "Computational Medicine",
+            "Digital Twins"
+          ],
+          "summary": "Professor in Medicine at UT Austin, working on Computational Medicine, Digital Twins.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/charley-taylor-2306",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "ufuk-topcu",
+          "name": "Ufuk Topcu",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Artificial Intelligence, Autonomy",
+          "tags": [
+            "Artificial Intelligence",
+            "Autonomy",
+            "Optimization"
+          ],
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Artificial Intelligence, Autonomy, Optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/ufuk-topcu-1430",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "richard-tsai",
+          "name": "Richard Tsai",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Machine Learning, Numerical Analysis",
+          "tags": [
+            "Machine Learning",
+            "Numerical Analysis",
+            "Scientific Computing",
+            "Partial Differential Equations"
+          ],
+          "summary": "Professor in Mathematics at UT Austin, working on Machine Learning, Numerical Analysis, Scientific Computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/richard-tsai-160",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "philip-varghese",
+          "name": "Philip Varghese",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Fluid Mechanics, Thermodynamics",
+          "tags": [
+            "Fluid Mechanics",
+            "Thermodynamics",
+            "Quasi-Particle Simulation"
+          ],
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Fluid Mechanics, Thermodynamics, Quasi-Particle Simulation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/philip-varghese-462",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "umberto-e-villa",
+          "name": "Umberto E. Villa",
+          "title": "Assistant Professor (Biomedical Engineering)",
+          "sub_field": "Biomedical Engineering / computational inverse problems",
+          "tags": [
+            "inverse problems",
+            "uncertainty quantification",
+            "scientific computing"
+          ],
+          "summary": "Assistant Professor in Biomedical Engineering at UT Austin, working on inverse problems, uncertainty quantification, scientific computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/umberto-emanuele-villa-2100",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "rachel-ward",
+          "name": "Rachel Ward",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Uncertainty Quantification, Optimization",
+          "tags": [
+            "Uncertainty Quantification",
+            "Optimization",
+            "Data Science"
+          ],
+          "summary": "Professor in Mathematics at UT Austin, working on Uncertainty Quantification, Optimization, Data Science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/rachel-ward-1143",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "karen-e-willcox",
+          "name": "Karen E. Willcox",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Scientific Machine Learning, Computational Engineering",
+          "tags": [
+            "Scientific Machine Learning",
+            "Computational Engineering"
+          ],
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Scientific Machine Learning, Computational Engineering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/karen-willcox-1617",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "tom-yankeelov",
+          "name": "Tom Yankeelov",
+          "title": "Professor (Biomedical Engineering)",
+          "sub_field": "Imaging, Computational Medicine",
+          "tags": [
+            "Imaging",
+            "Computational Medicine",
+            "Tumor Growth Modeling"
+          ],
+          "summary": "Professor in Biomedical Engineering at UT Austin, working on Imaging, Computational Medicine, Tumor Growth Modeling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/thomas-yankeelov-1458",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "renato-zanetti",
+          "name": "Renato Zanetti",
+          "title": "Associate Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Autonomy, Inverse Problems",
+          "tags": [
+            "Autonomy",
+            "Inverse Problems",
+            "Scientific Machine Learning"
+          ],
+          "summary": "Associate Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Autonomy, Inverse Problems, Scientific Machine Learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://oden.utexas.edu/people/directory/renato-zanetti-1666",
+            "scholar": ""
+          }
+        }
+      ]
     },
     {
       "id": "university-of-virginia-computational-biology-phd-bims",

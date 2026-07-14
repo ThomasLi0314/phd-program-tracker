@@ -4,7 +4,7 @@
     "generated_at": "2026-07-06",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep",
-    "note": "1377 STEM PhD/MSc programs; faculty rosters on 535 programs (14569 faculty). Unknown/Verify = not yet confirmed on an official page."
+    "note": "1377 STEM PhD/MSc programs; faculty rosters on 536 programs (14618 faculty). Unknown/Verify = not yet confirmed on an official page."
   },
   "total": 1377,
   "fields": [
@@ -1603,8 +1603,8 @@
       "primary": "Computational Science",
       "slug": "computational-science",
       "count": 24,
-      "withFaculty": 2,
-      "facultyCount": 23,
+      "withFaculty": 3,
+      "facultyCount": 72,
       "subs": [
         "Applied Mathematics",
         "Bioinformatics",
@@ -1632,6 +1632,8 @@
         "Uncertainty Quantification"
       ],
       "subsWithFaculty": [
+        "Applied Mathematics",
+        "Computational Science",
         "Fluid Dynamics",
         "Machine Learning",
         "Scientific Computing",
