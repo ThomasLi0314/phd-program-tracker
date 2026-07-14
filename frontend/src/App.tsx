@@ -97,12 +97,14 @@ function App() {
     return s
   }, [filters.primaries, filters.subs])
 
-  // Fields whose data must be fetched. The advisor and school views search
-  // across the whole database, so entering them auto-selects every field.
+  // Fields whose data must be fetched. The advisor/school/starred/outreach views
+  // (and "My List", which spans all fields) search the whole database, so they
+  // auto-select every field.
   const neededPrimaries = useMemo(() => {
-    if (view !== 'programs' && index) return new Set(index.fields.map((f) => f.primary))
+    if ((view !== 'programs' || onlyMyList) && index)
+      return new Set(index.fields.map((f) => f.primary))
     return selectedPrimaries
-  }, [view, index, selectedPrimaries])
+  }, [view, onlyMyList, index, selectedPrimaries])
 
   // Lazy-load the chunk of every needed field that isn't loaded yet.
   useEffect(() => {
@@ -136,11 +138,24 @@ function App() {
   }, [selectedPrimaries, loaded])
 
   const filtered = useMemo(() => {
-    if (!facets) return []
-    let result = pool.filter((p) => programMatches(p, filters, facets.feeCap))
-    if (onlyMyList) result = result.filter((p) => myList.has(p.id))
+    if (!facets || !index) return []
+    // My List shows every starred program across ALL loaded fields (discipline
+    // selection ignored); other sidebar filters (degree/region/GRE/fee) still apply.
+    if (onlyMyList) {
+      const noDiscipline: Filters = { ...filters, primaries: new Set(), subs: new Set() }
+      const result: Program[] = []
+      for (const f of index.fields) {
+        const chunk = loaded[f.primary]
+        if (!chunk) continue
+        for (const p of chunk) {
+          if (myList.has(p.id) && programMatches(p, noDiscipline, facets.feeCap)) result.push(p)
+        }
+      }
+      return sortPrograms(result, sortBy)
+    }
+    const result = pool.filter((p) => programMatches(p, filters, facets.feeCap))
     return sortPrograms(result, sortBy)
-  }, [pool, filters, facets, onlyMyList, myList, sortBy])
+  }, [pool, filters, facets, index, loaded, onlyMyList, myList, sortBy])
 
   // Advisor/school views: every program in the database (discipline selection
   // ignored); the other sidebar filters (degree, region, GRE, fee) still apply.
@@ -319,13 +334,17 @@ function App() {
           />
 
           <button
-            onClick={() => setOnlyMyList((v) => !v)}
+            onClick={() => {
+              const next = !onlyMyList
+              setOnlyMyList(next)
+              if (next) setView('programs')
+            }}
             className={`rounded border px-2 py-1 text-[11px] font-medium transition-colors ${
               onlyMyList
                 ? 'border-amber-400 bg-amber-400/20 text-amber-300'
                 : 'border-slate-600 bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
-            title="Show only programs saved to My List (within loaded fields)"
+            title="Show all programs saved to My List, across every field"
           >
             ★ My List ({myList.size})
           </button>
@@ -362,7 +381,7 @@ function App() {
           onPickField={pickField}
         />
         {view === 'programs' ? (
-          selectedPrimaries.size === 0 ? (
+          selectedPrimaries.size === 0 && !onlyMyList ? (
             <div className="flex min-w-0 flex-1 items-start justify-center overflow-y-auto bg-slate-50/40 px-6 py-16">
               <div className="w-full max-w-xl">
                 <h2 className="font-serif text-xl font-bold text-slate-900">
