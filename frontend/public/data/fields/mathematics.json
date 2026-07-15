@@ -6732,18 +6732,19 @@
         },
         {
           "id": "javier-pena",
-          "name": "Javier Pena",
-          "title": "Professor of Operations Research",
-          "sub_field": "Convex Optimization and Numerical Analysis",
+          "name": "Javier Peña",
+          "title": "Bajaj Family Chair in Operations Research",
+          "sub_field": "Convex optimization",
           "tags": [
-            "Convex Optimization",
-            "Numerical Analysis",
+            "convex optimization",
+            "first-order methods",
+            "numerical analysis",
             "Algorithm Theory"
           ],
-          "summary": "Theory and algorithms for convex optimization, numerical analysis. Tepper/OR.",
+          "summary": "Works on the theory and algorithms of convex optimization and their computational and numerical aspects.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://www.cmu.edu/math/people/faculty/pena.html",
             "scholar": null
           }
         },
@@ -6941,23 +6942,6 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "javier-pe-a",
-          "name": "Javier Peña",
-          "title": "Bajaj Family Chair in Operations Research",
-          "sub_field": "Convex optimization",
-          "tags": [
-            "convex optimization",
-            "first-order methods",
-            "numerical analysis"
-          ],
-          "summary": "Works on the theory and algorithms of convex optimization and their computational and numerical aspects.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.cmu.edu/math/people/faculty/pena.html",
             "scholar": null
           }
         },
@@ -7715,16 +7699,19 @@
         },
         {
           "id": "dejan-slepcev",
-          "name": "Dejan Slepcev",
-          "title": "Professor, Mellon College of Science Associate Dean for Faculty and Graduate Affairs",
-          "sub_field": "Analysis and Calculus of Variations",
+          "name": "Dejan Slepčev",
+          "title": "Professor",
+          "sub_field": "Applied analysis and calculus of variations",
           "tags": [
-            "Calculus of Variations",
+            "applied mathematics",
+            "calculus of variations",
+            "PDE",
+            "data science",
             "Optimal Transport",
             "Gradient Flows",
             "Machine Learning"
           ],
-          "summary": "Calculus of variations, optimal transport, gradient flows, ML applications.",
+          "summary": "Works in applied analysis and the calculus of variations, including PDE and variational problems arising in data science and machine learning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/math/people/faculty/slepcev.html",
@@ -8015,24 +8002,6 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cmu.edu/math/people/faculty/pena.html",
-            "scholar": null
-          }
-        },
-        {
-          "id": "dejan-slep-ev",
-          "name": "Dejan Slepčev",
-          "title": "Professor",
-          "sub_field": "Applied analysis and calculus of variations",
-          "tags": [
-            "applied mathematics",
-            "calculus of variations",
-            "PDE",
-            "data science"
-          ],
-          "summary": "Works in applied analysis and the calculus of variations, including PDE and variational problems arising in data science and machine learning.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.cmu.edu/math/people/faculty/slepcev.html",
             "scholar": null
           }
         }
@@ -10781,14 +10750,16 @@
         },
         {
           "id": "eva-tardos",
-          "name": "Eva Tardos",
-          "title": "Professor",
-          "sub_field": "Algorithmic Game Theory",
+          "name": "Éva Tardos",
+          "title": "Field Faculty, Center for Applied Mathematics",
+          "sub_field": "Algorithms",
           "tags": [
-            "Algorithmic Game Theory",
+            "algorithm design",
+            "combinatorial optimization",
+            "algorithmic game theory",
             "Network Algorithms"
           ],
-          "summary": "Professor in Computer Science. Research in algorithmic game theory and network algorithms.",
+          "summary": "CAM field faculty working on design and analysis of algorithms, with emphasis on combinatorial optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -12441,23 +12412,6 @@
             "game theory"
           ],
           "summary": "CAM field faculty working on communication networks, control and dynamical systems optimization, and game theory.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "va-tardos",
-          "name": "Éva Tardos",
-          "title": "Field Faculty, Center for Applied Mathematics",
-          "sub_field": "Algorithms",
-          "tags": [
-            "algorithm design",
-            "combinatorial optimization",
-            "algorithmic game theory"
-          ],
-          "summary": "CAM field faculty working on design and analysis of algorithms, with emphasis on combinatorial optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -15836,18 +15790,21 @@
         },
         {
           "id": "christian-houdre",
-          "name": "Christian Houdre",
+          "name": "Christian Houdré",
           "title": "Professor and Associate Chair for Research",
-          "sub_field": "Probability",
+          "sub_field": "Probability and Statistics",
           "tags": [
-            "Probability",
-            "Stochastic Processes",
+            "probability",
+            "concentration of measure",
+            "stochastic processes",
+            "Stein's method",
+            "limit theorems",
             "Statistics"
           ],
-          "summary": "Associate Chair for Research. Research in probability and stochastic processes.",
+          "summary": "Works in probability and its applications, including concentration inequalities, Stein's method, and limit theorems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://math.gatech.edu/people/christian-houdre",
             "scholar": null
           }
         },
@@ -16175,25 +16132,6 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://math.gatech.edu/people/xiaoyu-he",
-            "scholar": null
-          }
-        },
-        {
-          "id": "christian-houdr",
-          "name": "Christian Houdré",
-          "title": "Professor and Associate Chair for Research",
-          "sub_field": "Probability and Statistics",
-          "tags": [
-            "probability",
-            "concentration of measure",
-            "stochastic processes",
-            "Stein's method",
-            "limit theorems"
-          ],
-          "summary": "Works in probability and its applications, including concentration inequalities, Stein's method, and limit theorems.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://math.gatech.edu/people/christian-houdre",
             "scholar": null
           }
         },
@@ -18476,13 +18414,16 @@
         },
         {
           "id": "gerard-ben-arous",
-          "name": "Gerard Ben Arous",
+          "name": "Gérard Ben Arous",
           "title": "Silver Professor of Mathematics; Director, Courant Institute",
           "sub_field": "Probability Theory, Stochastic Processes, Spin Glasses",
           "tags": [
             "Pure Math",
             "Probability",
-            "Math Physics"
+            "Math Physics",
+            "stochastic-processes",
+            "partial-differential-equations",
+            "random-matrices"
           ],
           "summary": "Research in probability theory, stochastic processes, partial differential equations, and the statistical mechanics of disordered systems including spin glasses.",
           "recruitment_status": "Unknown/Verify",
@@ -18957,24 +18898,6 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://math.nyu.edu/people/profiles/BAKHTIN_Yuri.html",
-            "scholar": null
-          }
-        },
-        {
-          "id": "g-rard-ben-arous",
-          "name": "Gérard Ben Arous",
-          "title": "Silver Professor of Mathematics; Director, Courant Institute",
-          "sub_field": "Probability",
-          "tags": [
-            "probability",
-            "stochastic-processes",
-            "partial-differential-equations",
-            "random-matrices"
-          ],
-          "summary": "Works on probability theory, stochastic processes, and partial differential equations, including high-dimensional random landscapes and spin glasses.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://math.nyu.edu/people/profiles/BEN_AROUS_Gerard.html",
             "scholar": null
           }
         },
@@ -21335,13 +21258,16 @@
         },
         {
           "id": "peter-ozsvath",
-          "name": "Peter Ozsvath",
+          "name": "Peter Ozsváth",
           "title": "Professor of Mathematics",
           "sub_field": "Low-Dimensional Topology, Symplectic Geometry",
           "tags": [
             "Pure Math",
             "Topology",
-            "Geometry"
+            "Geometry",
+            "low-dimensional topology",
+            "Heegaard Floer homology",
+            "knot theory"
           ],
           "summary": "Heegaard Floer homology, low-dimensional topology, symplectic geometry, knot theory.",
           "recruitment_status": "Unknown/Verify",
@@ -21352,15 +21278,18 @@
         },
         {
           "id": "zoltan-szabo",
-          "name": "Zoltan Szabo",
+          "name": "Zoltán Szabó",
           "title": "Professor of Mathematics",
-          "sub_field": "Low-Dimensional Topology, Gauge Theory",
+          "sub_field": "Topology",
           "tags": [
+            "low-dimensional topology",
+            "Heegaard Floer homology",
+            "knot theory",
             "Pure Math",
             "Topology",
             "Geometry"
           ],
-          "summary": "Heegaard Floer homology, 3- and 4-manifold topology, gauge theory.",
+          "summary": "Professor working on low-dimensional topology and Heegaard Floer homology.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.math.princeton.edu/people/zoltan-szabo",
@@ -21403,15 +21332,18 @@
         },
         {
           "id": "fernando-coda-marques",
-          "name": "Fernando Coda Marques",
+          "name": "Fernando Codá Marques",
           "title": "Professor of Mathematics",
-          "sub_field": "Differential Geometry, Geometric Analysis",
+          "sub_field": "Differential Geometry",
           "tags": [
+            "differential geometry",
+            "geometric analysis",
+            "minimal surfaces",
             "Pure Math",
             "Geometry",
             "Analysis"
           ],
-          "summary": "Minimal surfaces, geometric variational problems, conformal geometry, Ricci flow.",
+          "summary": "Professor working on differential geometry and geometric analysis, including minimal surfaces.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.math.princeton.edu/people/fernando-coda-marques",
@@ -21454,15 +21386,18 @@
         },
         {
           "id": "janos-kollar",
-          "name": "Janos Kollar",
+          "name": "János Kollár",
           "title": "Professor of Mathematics",
           "sub_field": "Algebraic Geometry",
           "tags": [
+            "algebraic geometry",
+            "birational geometry",
+            "moduli spaces",
             "Pure Math",
             "Algebra",
             "Geometry"
           ],
-          "summary": "Algebraic geometry, birational geometry, minimal model program, moduli theory.",
+          "summary": "Professor working on algebraic geometry, including birational geometry and moduli spaces.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.math.princeton.edu/people/janos-kollar",
@@ -21720,74 +21655,6 @@
             "arithmetic geometry"
           ],
           "summary": "Professor working on number theory and arithmetic algebraic geometry.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "j-nos-koll-r",
-          "name": "János Kollár",
-          "title": "Professor of Mathematics",
-          "sub_field": "Algebraic Geometry",
-          "tags": [
-            "algebraic geometry",
-            "birational geometry",
-            "moduli spaces"
-          ],
-          "summary": "Professor working on algebraic geometry, including birational geometry and moduli spaces.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "fernando-cod-marques",
-          "name": "Fernando Codá Marques",
-          "title": "Professor of Mathematics",
-          "sub_field": "Differential Geometry",
-          "tags": [
-            "differential geometry",
-            "geometric analysis",
-            "minimal surfaces"
-          ],
-          "summary": "Professor working on differential geometry and geometric analysis, including minimal surfaces.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "peter-ozsv-th",
-          "name": "Peter Ozsváth",
-          "title": "Professor of Mathematics",
-          "sub_field": "Topology",
-          "tags": [
-            "low-dimensional topology",
-            "Heegaard Floer homology",
-            "knot theory"
-          ],
-          "summary": "Professor working on low-dimensional topology and Heegaard Floer homology.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "zolt-n-szab",
-          "name": "Zoltán Szabó",
-          "title": "Professor of Mathematics",
-          "sub_field": "Topology",
-          "tags": [
-            "low-dimensional topology",
-            "Heegaard Floer homology",
-            "knot theory"
-          ],
-          "summary": "Professor working on low-dimensional topology and Heegaard Floer homology.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -31188,7 +31055,7 @@
         },
         {
           "id": "veronica-morales",
-          "name": "Veronica Morales",
+          "name": "Verónica Morales",
           "title": "Associate Professor",
           "sub_field": "Groundwater Contaminant Transport",
           "tags": [
@@ -31196,12 +31063,15 @@
             "colloid transport",
             "nanoparticles",
             "contaminant fate",
-            "biochar"
+            "biochar",
+            "porous media",
+            "subsurface transport",
+            "pore-scale processes"
           ],
           "summary": "Research on micro-scale physico-chemical processes controlling transport and fate of colloids and nanoparticle contaminants in groundwater, and biochar engineering for water treatment.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://www.moraleslab.ucdavis.edu/",
             "scholar": null
           }
         },
@@ -31445,23 +31315,6 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://magneylab.ucdavis.edu",
-            "scholar": null
-          }
-        },
-        {
-          "id": "ver-nica-morales",
-          "name": "Verónica Morales",
-          "title": "Associate Professor of Civil & Environmental Engineering",
-          "sub_field": "Porous Media Transport",
-          "tags": [
-            "porous media",
-            "subsurface transport",
-            "pore-scale processes"
-          ],
-          "summary": "Associate Professor in Civil & Environmental Engineering; Hydrologic Sciences Graduate Group faculty member working in porous media flow and transport.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.moraleslab.ucdavis.edu/",
             "scholar": null
           }
         },
@@ -37054,26 +36907,6 @@
           }
         },
         {
-          "id": "l-szl-babai",
-          "name": "László Babai",
-          "title": "George and Elizabeth Yovovich Professor",
-          "sub_field": "Theoretical Computer Science / Discrete Mathematics",
-          "tags": [
-            "theoretical computer science",
-            "combinatorics",
-            "computational complexity",
-            "algorithms",
-            "finite groups",
-            "graph isomorphism"
-          ],
-          "summary": "Works in theoretical computer science and discrete mathematics, with emphasis on computational complexity theory, algorithms, combinatorics, and finite groups. Known for introducing Las Vegas algorithms, interactive proofs, and holographic proofs, as well as the graph isomorphism breakthrough.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://people.cs.uchicago.edu/~laci/",
-            "scholar": null
-          }
-        },
-        {
           "id": "guillaume-bal",
           "name": "Guillaume Bal",
           "title": "Professor",
@@ -37158,25 +36991,6 @@
             "rigidity"
           ],
           "summary": "Professor working in differential geometry and geometric analysis; Director of the Institute for Mathematical and Statistical Innovation.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "marianna-cs-rnyei",
-          "name": "Marianna Csörnyei",
-          "title": "Professor",
-          "sub_field": "Geometric Measure Theory / Real Analysis",
-          "tags": [
-            "geometric measure theory",
-            "real analysis",
-            "geometric nonlinear functional analysis",
-            "Lipschitz differentiability",
-            "null sets"
-          ],
-          "summary": "Works in geometric measure theory, real analysis, and geometric nonlinear functional analysis. Recently focused on problems related to Lipschitz differentiability, tangential properties, structure of null sets, and the Kakeya property. Noether Lecture speaker (2021).",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -37483,45 +37297,6 @@
           }
         },
         {
-          "id": "andr-neves",
-          "name": "André Neves",
-          "title": "Professor",
-          "sub_field": "Differential Geometry / Geometric Analysis",
-          "tags": [
-            "differential geometry",
-            "geometric analysis",
-            "topology",
-            "variational methods",
-            "minimal surfaces"
-          ],
-          "summary": "Research focuses on the interplay between topology, geometry, and analysis, using variational methods to study how curvature and topology of ambient spaces influence the existence of stable and unstable critical points of geometric functionals. Elected to the American Academy of Arts and Sciences, Simons Investigator.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://math.uchicago.edu/~aneves/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "b-o-ch-u-ng",
-          "name": "Bảo Châu Ngô",
-          "title": "Francis and Rose Yuen Distinguished Service Professor",
-          "sub_field": "Automorphic Forms / Langlands Program / Algebraic Geometry",
-          "tags": [
-            "Langlands program",
-            "automorphic forms",
-            "algebraic geometry",
-            "Hitchin fibration",
-            "trace formula",
-            "perverse sheaves"
-          ],
-          "summary": "Works at the intersection of automorphic forms, representation theory, and algebraic geometry, with focus on the Langlands program. Fields Medalist (2010) for his proof of the Fundamental Lemma. Current work includes geometrization of the trace formula, Hitchin fibration for higher-dimensional varieties, and Kloosterman sheaves for reductive groups.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://math.uchicago.edu/~ngo/",
-            "scholar": null
-          }
-        },
-        {
           "id": "alexander-razborov",
           "name": "Alexander Razborov",
           "title": "Professor",
@@ -37647,51 +37422,61 @@
         },
         {
           "id": "bao-chau-ngo",
-          "name": "Bao Chau Ngo",
-          "title": "Professor",
-          "sub_field": "Number Theory / Representation Theory",
+          "name": "Bảo Châu Ngô",
+          "title": "Francis and Rose Yuen Distinguished Service Professor",
+          "sub_field": "Automorphic Forms / Langlands Program / Algebraic Geometry",
           "tags": [
+            "Langlands program",
             "automorphic forms",
-            "langlands program",
             "algebraic geometry",
+            "Hitchin fibration",
+            "trace formula",
+            "perverse sheaves",
             "number theory"
           ],
-          "summary": "Francis and Rose Yuen Distinguished Service Professor working on automorphic forms and the Langlands program.",
+          "summary": "Works at the intersection of automorphic forms, representation theory, and algebraic geometry, with focus on the Langlands program. Fields Medalist (2010) for his proof of the Fundamental Lemma. Current work includes geometrization of the trace formula, Hitchin fibration for higher-dimensional varieties, and Kloosterman sheaves for reductive groups.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://math.uchicago.edu/~ngo/",
             "scholar": null
           }
         },
         {
           "id": "laszlo-babai",
-          "name": "Laszlo Babai",
-          "title": "Professor",
-          "sub_field": "Combinatorics / Theoretical Computer Science",
+          "name": "László Babai",
+          "title": "George and Elizabeth Yovovich Professor",
+          "sub_field": "Theoretical Computer Science / Discrete Mathematics",
           "tags": [
+            "theoretical computer science",
             "combinatorics",
-            "theoretical cs",
+            "computational complexity",
             "algorithms",
+            "finite groups",
+            "graph isomorphism",
+            "theoretical cs",
             "group theory"
           ],
-          "summary": "Professor (joint with Computer Science) working in combinatorics, theoretical computer science, and algorithms.",
+          "summary": "Works in theoretical computer science and discrete mathematics, with emphasis on computational complexity theory, algorithms, combinatorics, and finite groups. Known for introducing Las Vegas algorithms, interactive proofs, and holographic proofs, as well as the graph isomorphism breakthrough.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://people.cs.uchicago.edu/~laci/",
             "scholar": null
           }
         },
         {
           "id": "marianna-csornyei",
-          "name": "Marianna Csornyei",
+          "name": "Marianna Csörnyei",
           "title": "Professor",
-          "sub_field": "Analysis",
+          "sub_field": "Geometric Measure Theory / Real Analysis",
           "tags": [
-            "real analysis",
             "geometric measure theory",
+            "real analysis",
+            "geometric nonlinear functional analysis",
+            "Lipschitz differentiability",
+            "null sets",
             "analysis"
           ],
-          "summary": "Professor working in real analysis and geometric measure theory.",
+          "summary": "Works in geometric measure theory, real analysis, and geometric nonlinear functional analysis. Recently focused on problems related to Lipschitz differentiability, tangential properties, structure of null sets, and the Kakeya property. Noether Lecture speaker (2021).",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -37700,19 +37485,21 @@
         },
         {
           "id": "andre-neves",
-          "name": "Andre Neves",
+          "name": "André Neves",
           "title": "Professor",
-          "sub_field": "Differential Geometry",
+          "sub_field": "Differential Geometry / Geometric Analysis",
           "tags": [
             "differential geometry",
-            "minimal surfaces",
             "geometric analysis",
+            "topology",
+            "variational methods",
+            "minimal surfaces",
             "pde"
           ],
-          "summary": "Professor working in differential geometry and geometric analysis, including minimal surfaces and min-max theory.",
+          "summary": "Research focuses on the interplay between topology, geometry, and analysis, using variational methods to study how curvature and topology of ambient spaces influence the existence of stable and unstable critical points of geometric functionals. Elected to the American Academy of Arts and Sciences, Simons Investigator.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://math.uchicago.edu/~aneves/",
             "scholar": null
           }
         }
@@ -37826,23 +37613,6 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "mikl-s-b-na",
-          "name": "Miklós Bóna",
-          "title": "Professor",
-          "sub_field": "Combinatorics",
-          "tags": [
-            "enumerative combinatorics",
-            "analytic combinatorics",
-            "permutation patterns"
-          ],
-          "summary": "Research centers on enumerative and analytic combinatorics, particularly permutation patterns and combinatorial structures, with recent contributions to Boolean-Narayana numbers.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "http://people.clas.ufl.edu/bona",
             "scholar": null
           }
         },
@@ -38426,18 +38196,19 @@
         },
         {
           "id": "miklos-bona",
-          "name": "Miklos Bona",
+          "name": "Miklós Bóna",
           "title": "Professor",
           "sub_field": "Combinatorics",
           "tags": [
-            "combinatorics",
             "enumerative combinatorics",
-            "permutation patterns"
+            "analytic combinatorics",
+            "permutation patterns",
+            "combinatorics"
           ],
-          "summary": "Professor specializing in enumerative and algebraic combinatorics, including permutation patterns.",
+          "summary": "Research centers on enumerative and analytic combinatorics, particularly permutation patterns and combinatorial structures, with recent contributions to Boolean-Narayana numbers.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "http://people.clas.ufl.edu/bona",
             "scholar": null
           }
         },
@@ -39024,25 +38795,6 @@
           }
         },
         {
-          "id": "jo-o-pereira",
-          "name": "João Pereira",
-          "title": "Assistant Professor",
-          "sub_field": "Applied Mathematics and Machine Learning",
-          "tags": [
-            "tensor decomposition",
-            "scientific machine learning",
-            "cryo-EM",
-            "inverse problems",
-            "high-dimensional statistics"
-          ],
-          "summary": "Pereira develops scalable algorithms and studies the statistical properties of high-dimensional inverse problems, spanning implicit tensor decomposition methods, physics-informed neural network architectures for differential equations, and the sample complexity of multireference alignment relevant to cryo-electron microscopy.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.math.uga.edu/directory/people/joao-m-pereira",
-            "scholar": null
-          }
-        },
-        {
           "id": "ruiwen-shu",
           "name": "Ruiwen Shu",
           "title": "Assistant Professor",
@@ -39094,18 +38846,23 @@
         },
         {
           "id": "joao-pereira",
-          "name": "Joao Pereira",
+          "name": "João Pereira",
           "title": "Assistant Professor",
-          "sub_field": "Applied Mathematics",
+          "sub_field": "Applied Mathematics and Machine Learning",
           "tags": [
+            "tensor decomposition",
+            "scientific machine learning",
+            "cryo-EM",
+            "inverse problems",
+            "high-dimensional statistics",
             "data science",
             "signal processing",
             "mathematics of data"
           ],
-          "summary": "Assistant professor working in the mathematics of data science and signal processing.",
+          "summary": "Pereira develops scalable algorithms and studies the statistical properties of high-dimensional inverse problems, spanning implicit tensor decomposition methods, physics-informed neural network architectures for differential equations, and the sample complexity of multireference alignment relevant to cryo-electron microscopy.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://www.math.uga.edu/directory/people/joao-m-pereira",
             "scholar": null
           }
         }
@@ -39627,24 +39384,6 @@
           }
         },
         {
-          "id": "m-burak-erdo-an",
-          "name": "M. Burak Erdoğan",
-          "title": "Professor",
-          "sub_field": "Analysis & PDEs",
-          "tags": [
-            "harmonic analysis",
-            "dispersive PDEs",
-            "nonlinear PDEs",
-            "spectral theory"
-          ],
-          "summary": "Research in harmonic analysis and dispersive/ nonlinear partial differential equations.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://math.illinois.edu/directory/profile/berdogan",
-            "scholar": null
-          }
-        },
-        {
           "id": "zoi-rapti",
           "name": "Zoi Rapti",
           "title": "Professor and Lynn M. Martin Professorial Scholar",
@@ -39816,18 +39555,21 @@
         },
         {
           "id": "m-burak-erdogan",
-          "name": "M. Burak Erdogan",
+          "name": "M. Burak Erdoğan",
           "title": "Professor",
-          "sub_field": "Analysis",
+          "sub_field": "Analysis & PDEs",
           "tags": [
             "harmonic analysis",
+            "dispersive PDEs",
+            "nonlinear PDEs",
+            "spectral theory",
             "dispersive pde",
             "analysis"
           ],
-          "summary": "Professor working in analysis, including harmonic analysis and dispersive PDE.",
+          "summary": "Research in harmonic analysis and dispersive/ nonlinear partial differential equations.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://math.illinois.edu/directory/profile/berdogan",
             "scholar": null
           }
         },
@@ -40570,23 +40312,6 @@
           }
         },
         {
-          "id": "tam-s-darvas",
-          "name": "Tamás Darvas",
-          "title": "Professor",
-          "sub_field": "Complex Analysis & Geometry",
-          "tags": [
-            "pluripotential theory",
-            "several complex variables",
-            "geometric analysis"
-          ],
-          "summary": "Research in pluripotential theory, several complex variables, and complex differential geometry.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www-math.umd.edu/people/faculty/item/1145-tdarvas.html",
-            "scholar": null
-          }
-        },
-        {
           "id": "harry-tamvakis",
           "name": "Harry Tamvakis",
           "title": "Professor",
@@ -40929,16 +40654,19 @@
         },
         {
           "id": "tamas-darvas",
-          "name": "Tamas Darvas",
+          "name": "Tamás Darvas",
           "title": "Professor",
           "sub_field": "Complex geometry",
           "tags": [
-            "Complex geometry"
+            "Complex geometry",
+            "pluripotential theory",
+            "several complex variables",
+            "geometric analysis"
           ],
           "summary": "Professor in the University of Maryland, College Park Department of Mathematics. Research area: Complex geometry.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://www-math.umd.edu/people/faculty/item/1145-tdarvas.html",
             "scholar": null
           }
         },
@@ -47774,24 +47502,6 @@
           }
         },
         {
-          "id": "s-ndor-kov-cs",
-          "name": "Sándor Kovács",
-          "title": "Professor",
-          "sub_field": "Algebra",
-          "tags": [
-            "algebra",
-            "algebraic geometry",
-            "birational geometry",
-            "moduli theory"
-          ],
-          "summary": "Research in algebra and algebraic geometry, with work on birational geometry and moduli theory.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://math.washington.edu/people/sandor-kovacs",
-            "scholar": null
-          }
-        },
-        {
           "id": "max-lieblich",
           "name": "Max Lieblich",
           "title": "Professor & Department Chair",
@@ -48186,16 +47896,19 @@
         },
         {
           "id": "sandor-kovacs",
-          "name": "Sandor Kovacs",
+          "name": "Sándor Kovács",
           "title": "Professor",
           "sub_field": "Algebraic geometry",
           "tags": [
-            "Algebraic geometry"
+            "Algebraic geometry",
+            "algebra",
+            "birational geometry",
+            "moduli theory"
           ],
           "summary": "Professor in the University of Washington Department of Mathematics. Research area: Algebraic geometry.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://math.washington.edu/people/sandor-kovacs",
             "scholar": null
           }
         },
@@ -48819,24 +48532,6 @@
           }
         },
         {
-          "id": "s-bastien-roch",
-          "name": "Sébastien Roch",
-          "title": "Professor",
-          "sub_field": "Applied Probability",
-          "tags": [
-            "applied probability",
-            "statistics",
-            "theoretical CS",
-            "phylogenetics"
-          ],
-          "summary": "Research in applied probability, statistics, theoretical computer science, and biological applications such as phylogenetics.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://people.math.wisc.edu/~roch/",
-            "scholar": null
-          }
-        },
-        {
           "id": "dallas-albritton",
           "name": "Dallas Albritton",
           "title": "Assistant Professor",
@@ -48992,19 +48687,22 @@
         },
         {
           "id": "sebastien-roch",
-          "name": "Sebastien Roch",
+          "name": "Sébastien Roch",
           "title": "Professor",
-          "sub_field": "Probability / Mathematical Biology",
+          "sub_field": "Applied Probability",
           "tags": [
+            "applied probability",
+            "statistics",
+            "theoretical CS",
+            "phylogenetics",
             "probability",
             "math biology",
-            "phylogenetics",
             "networks"
           ],
-          "summary": "Studies probability with applications to mathematical phylogenetics, evolutionary biology, and networks.",
+          "summary": "Research in applied probability, statistics, theoretical computer science, and biological applications such as phylogenetics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://people.math.wisc.edu/~roch/",
             "scholar": null
           }
         },

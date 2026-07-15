@@ -1,14 +1,27 @@
 import { useMemo, useState } from 'react'
-import type { Faculty, OutreachRecord, Program } from '../types'
+import type { OutreachRecord, Program } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
 import { StarRating } from './StarRating'
 import { AdvisorNote } from './AdvisorNote'
 import { OutreachBadge } from './OutreachBadge'
 import { EditableLink } from './EditableLink'
-import { advisorKey, MAX_PRIORITY } from '../lib/starredAdvisors'
+import { PoolLoading } from './PoolLoading'
+import { MAX_PRIORITY } from '../lib/starredAdvisors'
+import {
+  groupHomepage,
+  groupLevel,
+  groupNote,
+  groupRecord,
+  mergeAdvisors,
+  statusRank,
+  type AdvisorHit as MergeHit,
+  type MergedAdvisor,
+} from '../lib/mergeAdvisors'
 
+/** A starred person: one entry even when they advise in several programs. */
 interface AdvisorHit {
-  faculty: Faculty
+  advisor: MergedAdvisor
+  /** Primary program — decides field/school grouping and the deep-dive link. */
   program: Program
   level: number
 }
@@ -27,12 +40,6 @@ const GROUP_OPTIONS: { id: GroupBy; label: string }[] = [
   { id: 'level', label: 'Priority · 星级' },
 ]
 
-const STATUS_RANK: Record<string, number> = {
-  'Looking for Students': 0,
-  'Unknown/Verify': 1,
-  'Not Advising': 2,
-}
-
 const stars = (level: number) =>
   '★'.repeat(level) + '☆'.repeat(Math.max(0, MAX_PRIORITY - level))
 
@@ -40,10 +47,10 @@ function sortHits(a: AdvisorHit, b: AdvisorHit) {
   // Highest priority first, then recruiting, then university, then name.
   return (
     b.level - a.level ||
-    (STATUS_RANK[a.faculty.recruitment_status] ?? 1) -
-      (STATUS_RANK[b.faculty.recruitment_status] ?? 1) ||
+    statusRank(a.advisor.faculty.recruitment_status) -
+      statusRank(b.advisor.faculty.recruitment_status) ||
     a.program.university.localeCompare(b.program.university) ||
-    a.faculty.name.localeCompare(b.faculty.name)
+    a.advisor.faculty.name.localeCompare(b.advisor.faculty.name)
   )
 }
 
@@ -59,14 +66,16 @@ function StarredCard({
 }: {
   hit: AdvisorHit
   onSetLevel: (n: number) => void
-  onOpenProgram: () => void
+  onOpenProgram: (programId: string) => void
   note: string
   onSaveNote: (text: string) => void
   record?: OutreachRecord
   homepage: string
   onSetHomepage: (url: string) => void
 }) {
-  const { faculty: f, program: p } = hit
+  const f = hit.advisor.faculty
+  const seen = new Set<string>()
+  const rows = hit.advisor.entries.filter((e) => !seen.has(e.program.id) && seen.add(e.program.id))
   return (
     <article className="mb-3 break-inside-avoid rounded border border-slate-200 bg-white p-3">
       <div className="flex items-start justify-between gap-2">
@@ -80,19 +89,24 @@ function StarredCard({
         </div>
       </div>
 
-      <button
-        onClick={onOpenProgram}
-        className="mt-1.5 flex w-full items-center justify-between gap-2 rounded border border-indigo-100 bg-indigo-50/60 px-2 py-1 text-left transition-colors hover:border-indigo-300 hover:bg-indigo-50"
-        title="Open this program's deep-dive"
-      >
-        <span className="min-w-0 truncate text-[12px] font-medium text-indigo-800">
-          {p.university}
-          <span className="font-normal text-indigo-500"> — {p.program_name}</span>
-        </span>
-        <span className="shrink-0 text-[11px] font-semibold text-indigo-600">
-          {p.degree_type} · {p.region} →
-        </span>
-      </button>
+      <div className="mt-1.5 space-y-1">
+        {rows.map((e) => (
+          <button
+            key={e.program.id}
+            onClick={() => onOpenProgram(e.program.id)}
+            className="flex w-full items-center justify-between gap-2 rounded border border-indigo-100 bg-indigo-50/60 px-2 py-1 text-left transition-colors hover:border-indigo-300 hover:bg-indigo-50"
+            title="Open this program's deep-dive"
+          >
+            <span className="min-w-0 truncate text-[12px] font-medium text-indigo-800">
+              {e.program.university}
+              <span className="font-normal text-indigo-500"> — {e.program.program_name}</span>
+            </span>
+            <span className="shrink-0 text-[11px] font-semibold text-indigo-600">
+              {e.program.degree_type} · {e.program.region} →
+            </span>
+          </button>
+        ))}
+      </div>
 
       <div className="mt-2 flex flex-wrap gap-1">
         <Badge tone="slate">{f.sub_field}</Badge>
@@ -128,6 +142,7 @@ function StarredCard({
 }
 
 export function StarredAdvisors({
+  loading,
   programs,
   levels,
   onSetLevel,
@@ -138,6 +153,8 @@ export function StarredAdvisors({
   homepages,
   onSetHomepage,
 }: {
+  /** true while the per-field chunks are still arriving — see PoolLoading. */
+  loading: boolean
   programs: Program[]
   levels: Map<string, number>
   onSetLevel: (key: string, level: number) => void
@@ -154,27 +171,28 @@ export function StarredAdvisors({
   const [levelFilter, setLevelFilter] = useState<Set<number>>(new Set())
   const [school, setSchool] = useState('')
 
-  // Every starred advisor, resolved back to a hit. Filter options derive from this.
+  // Every starred advisor, one entry per PERSON. Merging matters here too: a
+  // star is written to all of a person's program entries, so without this the
+  // same professor would be listed once per program they advise in.
   const allHits = useMemo(() => {
+    const raw: MergeHit[] = []
+    for (const p of programs) for (const f of p.faculty) raw.push({ faculty: f, program: p })
     const hits: AdvisorHit[] = []
-    for (const p of programs) {
-      for (const f of p.faculty) {
-        const level = levels.get(advisorKey(p.id, f.id))
-        if (!level) continue
-        hits.push({ faculty: f, program: p, level })
-      }
+    for (const advisor of mergeAdvisors(raw)) {
+      const level = groupLevel(advisor.keys, levels)
+      if (!level) continue
+      hits.push({ advisor, program: advisor.entries[0].program, level })
     }
     return hits
   }, [programs, levels])
 
-  const allFields = useMemo(
-    () => [...new Set(allHits.map((h) => h.program.discipline.primary))].sort(),
-    [allHits],
-  )
-  const allSchools = useMemo(
-    () => [...new Set(allHits.map((h) => h.program.university))].sort(),
-    [allHits],
-  )
+  // A merged advisor can span several programs, so their fields/schools are the
+  // union across their entries — filtering on any one of them must find them.
+  const fieldsOf = (h: AdvisorHit) => h.advisor.entries.map((e) => e.program.discipline.primary)
+  const schoolsOf = (h: AdvisorHit) => h.advisor.entries.map((e) => e.program.university)
+
+  const allFields = useMemo(() => [...new Set(allHits.flatMap(fieldsOf))].sort(), [allHits])
+  const allSchools = useMemo(() => [...new Set(allHits.flatMap(schoolsOf))].sort(), [allHits])
   const allLevels = useMemo(
     () => [...new Set(allHits.map((h) => h.level))].sort((a, b) => b - a),
     [allHits],
@@ -185,12 +203,14 @@ export function StarredAdvisors({
   const filtered = useMemo(
     () =>
       allHits.filter((h) => {
-        if (fieldFilter.size && !fieldFilter.has(h.program.discipline.primary)) return false
-        if (school && h.program.university !== school) return false
+        if (fieldFilter.size && !fieldsOf(h).some((f) => fieldFilter.has(f))) return false
+        if (school && !schoolsOf(h).includes(school)) return false
         if (levelFilter.size && !levelFilter.has(h.level)) return false
         if (terms.length) {
-          const hay =
-            `${h.faculty.name} ${h.faculty.title} ${h.faculty.sub_field} ${h.faculty.tags.join(' ')} ${h.program.university} ${h.program.program_name} ${h.program.discipline.primary}`.toLowerCase()
+          const f = h.advisor.faculty
+          const hay = `${f.name} ${f.title} ${f.sub_field} ${f.tags.join(' ')} ${h.advisor.entries
+            .map((e) => `${e.program.university} ${e.program.program_name} ${e.program.discipline.primary}`)
+            .join(' ')}`.toLowerCase()
           if (!terms.every((t) => hay.includes(t))) return false
         }
         return true
@@ -203,7 +223,9 @@ export function StarredAdvisors({
     for (const h of filtered) {
       const key =
         groupBy === 'field'
-          ? h.program.discipline.primary
+          ? // A person advising across several fields lands under the field the
+            // user is filtering on, else their primary program's field.
+            (fieldsOf(h).find((f) => fieldFilter.has(f)) ?? h.program.discipline.primary)
           : groupBy === 'school'
             ? h.program.university
             : String(h.level)
@@ -266,7 +288,9 @@ export function StarredAdvisors({
           </p>
         </header>
 
-        {totalStarred === 0 ? (
+        {loading && totalStarred === 0 ? (
+          <PoolLoading what="your starred advisors" />
+        ) : totalStarred === 0 ? (
           <div className="py-16 text-center">
             <p className="text-sm text-slate-400">You haven't starred any advisors yet.</p>
             <p className="mt-1 text-[12px] text-slate-400">
@@ -405,18 +429,18 @@ export function StarredAdvisors({
                     </div>
                     <div className="gap-3 lg:columns-2 2xl:columns-3">
                       {g.hits.map((h) => {
-                        const key = advisorKey(h.program.id, h.faculty.id)
+                        const keys = h.advisor.keys
                         return (
                           <StarredCard
-                            key={key}
+                            key={h.advisor.key}
                             hit={h}
-                            onSetLevel={(n) => onSetLevel(key, n)}
-                            onOpenProgram={() => onOpenProgram(h.program.id)}
-                            note={notes.get(key) ?? ''}
-                            onSaveNote={(text) => onSetNote(key, text)}
-                            record={outreach[key]}
-                            homepage={homepages[key] ?? h.faculty.links.homepage ?? ''}
-                            onSetHomepage={(u) => onSetHomepage(key, u)}
+                            onSetLevel={(n) => keys.forEach((k) => onSetLevel(k, n))}
+                            onOpenProgram={onOpenProgram}
+                            note={groupNote(keys, notes)}
+                            onSaveNote={(text) => keys.forEach((k) => onSetNote(k, text))}
+                            record={groupRecord(keys, outreach)}
+                            homepage={groupHomepage(h.advisor, homepages)}
+                            onSetHomepage={(u) => keys.forEach((k) => onSetHomepage(k, u))}
                           />
                         )
                       })}

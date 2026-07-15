@@ -6348,14 +6348,17 @@
         },
         {
           "id": "carolyn-rose",
-          "name": "Carolyn Rose",
+          "name": "Carolyn Rosé",
           "title": "Kavcic-Moura Professor of Language Technologies and HCI",
           "sub_field": "Computational Linguistics, CSCL, Discourse",
           "tags": [
             "conversational agents",
             "computer-supported collaborative learning",
             "discourse analysis",
-            "NLP"
+            "NLP",
+            "learning analytics",
+            "collaborative learning",
+            "HCI"
           ],
           "summary": "Joint appointment with LTI. Research on computational linguistics, conversational agents, computer-supported collaborative learning, and discourse analysis for education and social good.",
           "recruitment_status": "Unknown/Verify",
@@ -6756,24 +6759,6 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.hcii.cmu.edu/people/erik-harpstead",
-            "scholar": null
-          }
-        },
-        {
-          "id": "carolyn-ros",
-          "name": "Carolyn Rosé",
-          "title": "Kavčić-Moura Professor of Language Technologies and Human-Computer Interaction",
-          "sub_field": "NLP & Learning",
-          "tags": [
-            "NLP",
-            "learning analytics",
-            "collaborative learning",
-            "HCI"
-          ],
-          "summary": "Researches language technologies for learning and collaboration, including discourse analysis and conversational support for education.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.hcii.cmu.edu/people/carolyn-rose",
             "scholar": null
           }
         },
@@ -10098,25 +10083,6 @@
           }
         },
         {
-          "id": "va-tardos",
-          "name": "Éva Tardos",
-          "title": "Professor",
-          "sub_field": "Algorithms and Game Theory",
-          "tags": [
-            "algorithms",
-            "algorithmic game theory",
-            "network flows",
-            "approximation algorithms",
-            "computational social science"
-          ],
-          "summary": "Jacob Gould Schurman Professor of Computer Science. World-renowned for foundational contributions to combinatorial optimization, approximation algorithms, and algorithmic game theory. Studies strategic behavior in networks and markets.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.cs.cornell.edu/~eva/",
-            "scholar": null
-          }
-        },
-        {
           "id": "kilian-weinberger",
           "name": "Kilian Weinberger",
           "title": "Professor of Computer Science",
@@ -11354,18 +11320,22 @@
         },
         {
           "id": "eva-tardos",
-          "name": "Eva Tardos",
-          "title": "Jacob Gould Schurman Professor of Computer Science",
-          "sub_field": "Network Science / Computational Social Science",
+          "name": "Éva Tardos",
+          "title": "Professor",
+          "sub_field": "Algorithms and Game Theory",
           "tags": [
+            "algorithms",
+            "algorithmic game theory",
+            "network flows",
+            "approximation algorithms",
+            "computational social science",
             "network-science",
-            "computational-social-science",
             "theory"
           ],
-          "summary": "Jacob Gould Schurman Professor of Computer Science at Cornell University. Research areas: Network Science; Computational Social Science; Theory of Computing.",
+          "summary": "Jacob Gould Schurman Professor of Computer Science. World-renowned for foundational contributions to combinatorial optimization, approximation algorithms, and algorithmic game theory. Studies strategic behavior in networks and markets.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://www.cs.cornell.edu/~eva/",
             "scholar": null
           }
         },
@@ -11837,25 +11807,6 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://sfussell.hci.cornell.edu/",
-            "scholar": null
-          }
-        },
-        {
-          "id": "fran-ois-guimbreti-re",
-          "name": "François Guimbretière",
-          "title": "Professor",
-          "sub_field": "HCI and Fabrication",
-          "tags": [
-            "human-computer interaction",
-            "digital fabrication",
-            "interactive surfaces",
-            "ubiquitous computing",
-            "human-robot interaction"
-          ],
-          "summary": "Designs and builds novel interactive systems spanning digital fabrication, pen-based interfaces, and augmented reality. Develops new hardware and software tools that push the boundaries of how humans interact with digital information.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://sites.coecis.cornell.edu/fguimbretiere/",
             "scholar": null
           }
         },
@@ -12430,18 +12381,22 @@
         },
         {
           "id": "francois-guimbretiere",
-          "name": "Francois Guimbretiere",
-          "title": "Professor of Information Science",
-          "sub_field": "HCI & Digital Fabrication",
+          "name": "François Guimbretière",
+          "title": "Professor",
+          "sub_field": "HCI and Fabrication",
           "tags": [
+            "human-computer interaction",
+            "digital fabrication",
+            "interactive surfaces",
+            "ubiquitous computing",
+            "human-robot interaction",
             "HCI",
-            "fabrication",
-            "ubiquitous-computing"
+            "fabrication"
           ],
-          "summary": "Professor of Information Science at Cornell University, a core department in the interdisciplinary Information Science graduate field; advises Information Science PhD students.",
+          "summary": "Designs and builds novel interactive systems spanning digital fabrication, pen-based interfaces, and augmented reality. Develops new hardware and software tools that push the boundaries of how humans interact with digital information.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://sites.coecis.cornell.edu/fguimbretiere/",
             "scholar": null
           }
         },
@@ -24991,24 +24946,6 @@
           }
         },
         {
-          "id": "aleksander-m-dry",
-          "name": "Aleksander Mądry",
-          "title": "Professor of Computer Science",
-          "sub_field": "AI & Machine Learning",
-          "tags": [
-            "Machine Learning",
-            "AI and Society",
-            "Theory",
-            "Optimization"
-          ],
-          "summary": "Leader in trustworthy AI and ML theory. Faculty lead of the Center for Deployable Machine Learning. Research in robustness, fairness, and foundations of modern ML paradigms.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://madry.mit.edu/",
-            "scholar": null
-          }
-        },
-        {
           "id": "kaiming-he",
           "name": "Kaiming He",
           "title": "Douglas Ross Career Development Professor, Associate Professor of Electrical Engineering and Computer Science",
@@ -26154,20 +26091,22 @@
         },
         {
           "id": "aleksander-madry",
-          "name": "Aleksander Madry",
-          "title": "Cadence Design Systems Professor of Computing",
-          "sub_field": "Machine learning and optimization",
+          "name": "Aleksander Mądry",
+          "title": "Professor of Computer Science",
+          "sub_field": "AI & Machine Learning",
           "tags": [
-            "machine learning",
+            "Machine Learning",
+            "AI and Society",
+            "Theory",
+            "Optimization",
             "robustness",
-            "optimization",
             "algorithms",
             "AI+D"
           ],
-          "summary": "Madry works on machine learning and algorithmic optimization, with an emphasis on the reliability, robustness, and understanding of ML systems.",
+          "summary": "Leader in trustworthy AI and ML theory. Faculty lead of the Center for Deployable Machine Learning. Research in robustness, fairness, and foundations of modern ML paradigms.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://madry.mit.edu/",
             "scholar": null
           }
         },
@@ -50468,17 +50407,20 @@
         },
         {
           "id": "bertram-ludascher",
-          "name": "Bertram Ludascher",
-          "title": "Professor, Director of CIRSS",
-          "sub_field": "Data Science / Databases",
+          "name": "Bertram Ludäscher",
+          "title": "Professor and Director, Center for Informatics Research in Science and Scholarship",
+          "sub_field": "Data and knowledge management",
           "tags": [
+            "Data",
+            "knowledge management",
+            "specifically the modeling",
+            "design",
+            "optimization of scientific workflows",
+            "provenance",
             "Data Management",
-            "Scientific Workflows",
-            "Provenance",
-            "Knowledge Representation",
-            "Data Integration"
+            "Scientific Workflows"
           ],
-          "summary": "Researches data and knowledge management, scientific workflows, data provenance, and directs the Center for Informatics Research in Science and Scholarship.",
+          "summary": "University of Illinois iSchool faculty member; research focus: Data and knowledge management, specifically the modeling, design, and optimization of scientific workflows, provenance, data integration, and knowledge representation; scientific workflow systems; data curation.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://ischool.illinois.edu/people/bertram-ludascher",
@@ -51062,26 +51004,6 @@
           }
         },
         {
-          "id": "bertram-lud-scher",
-          "name": "Bertram Ludäscher",
-          "title": "Professor and Director, Center for Informatics Research in Science and Scholarship",
-          "sub_field": "Data and knowledge management",
-          "tags": [
-            "Data",
-            "knowledge management",
-            "specifically the modeling",
-            "design",
-            "optimization of scientific workflows",
-            "provenance"
-          ],
-          "summary": "University of Illinois iSchool faculty member; research focus: Data and knowledge management, specifically the modeling, design, and optimization of scientific workflows, provenance, data integration, and knowledge representation; scientific workflow systems; data curation.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://ischool.illinois.edu/people/bertram-ludascher",
-            "scholar": null
-          }
-        },
-        {
           "id": "emily-maemura",
           "name": "Emily Maemura",
           "title": "Assistant Professor",
@@ -51448,19 +51370,21 @@
         },
         {
           "id": "hal-daume-iii",
-          "name": "Hal Daume III",
+          "name": "Hal Daumé III",
           "title": "Professor",
-          "sub_field": "Machine Learning / NLP",
+          "sub_field": "AI and Robotics",
           "tags": [
+            "AI and Robotics",
+            "Machine Learning and Data Science",
+            "Natural Language Processing",
             "AI",
-            "Machine Learning",
-            "Natural Language Processing"
+            "Machine Learning"
           ],
-          "summary": "Researches AI, machine learning, and natural language processing with focus on structured prediction and domain adaptation.",
+          "summary": "Faculty member in the University of Maryland Department of Computer Science; research areas include AI and Robotics, Machine Learning and Data Science, Natural Language Processing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.cs.umd.edu/~hal/",
-            "scholar": null
+            "homepage": "http://www.umiacs.umd.edu/~hal",
+            "scholar": "https://scholar.google.com/citations?user=PbEw81gAAAAJ"
           }
         },
         {
@@ -51900,23 +51824,6 @@
           "links": {
             "homepage": "https://surrealyz.github.io",
             "scholar": "https://scholar.google.com/citations?user=dxz-lQYAAAAJ"
-          }
-        },
-        {
-          "id": "hal-daum-iii",
-          "name": "Hal Daumé III",
-          "title": "Professor",
-          "sub_field": "AI and Robotics",
-          "tags": [
-            "AI and Robotics",
-            "Machine Learning and Data Science",
-            "Natural Language Processing"
-          ],
-          "summary": "Faculty member in the University of Maryland Department of Computer Science; research areas include AI and Robotics, Machine Learning and Data Science, Natural Language Processing.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "http://www.umiacs.umd.edu/~hal",
-            "scholar": "https://scholar.google.com/citations?user=PbEw81gAAAAJ"
           }
         },
         {
@@ -56941,14 +56848,15 @@
         },
         {
           "id": "tijana-milenkovic",
-          "name": "Tijana Milenkovic",
+          "name": "Tijana Milenković",
           "title": "Professor",
           "sub_field": "Network Science / Computational Biology",
           "tags": [
             "Network Science",
             "Computational Biology",
             "Biological Networks",
-            "Graph Algorithms"
+            "Graph Algorithms",
+            "Bioinformatics"
           ],
           "summary": "Researches network science and computational biology with focus on biological network analysis and graph algorithms.",
           "recruitment_status": "Unknown/Verify",
@@ -57341,23 +57249,6 @@
             "Systems"
           ],
           "summary": "Research in computer networking, edge computing, and the Internet of Things.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "tijana-milenkovi",
-          "name": "Tijana Milenković",
-          "title": "Professor",
-          "sub_field": "Bioinformatics",
-          "tags": [
-            "Bioinformatics",
-            "Network Science",
-            "Computational Biology"
-          ],
-          "summary": "Research in bioinformatics and computational biology using network science.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -63293,14 +63184,18 @@
         },
         {
           "id": "zoran-popovic",
-          "name": "Zoran Popovic",
+          "name": "Zoran Popović",
           "title": "Professor",
           "sub_field": "Computer Graphics and Computational Biology",
           "tags": [
             "computer graphics",
             "computer vision",
             "computational biology",
-            "robotics"
+            "robotics",
+            "Graphics",
+            "Animation",
+            "Adaptive Learning",
+            "Games"
           ],
           "summary": "Research on computer graphics, computer vision, and their applications to computational biology and robotics. Known for contributions to animation, game design, and protein folding.",
           "recruitment_status": "Unknown/Verify",
@@ -64071,24 +63966,6 @@
             "Distributed Systems"
           ],
           "summary": "Research in operating systems, networking, and distributed systems.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "zoran-popovi",
-          "name": "Zoran Popović",
-          "title": "Professor",
-          "sub_field": "Graphics / Adaptive Learning",
-          "tags": [
-            "Graphics",
-            "Animation",
-            "Adaptive Learning",
-            "Games"
-          ],
-          "summary": "Directs the Center for Game Science; research in computer graphics, animation, and adaptive learning environments.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,

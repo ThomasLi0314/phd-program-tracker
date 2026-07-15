@@ -3,6 +3,7 @@ import type { Faculty, OutreachRecord, Program, ReplyAnalysis, ReplyType } from 
 import { advisorKey } from '../lib/starredAdvisors'
 import { REPLY_TYPES } from '../lib/outreach'
 import { AiSettings } from './AiSettings'
+import { PoolLoading } from './PoolLoading'
 
 interface Hit {
   faculty: Faculty
@@ -40,11 +41,16 @@ interface GroupStat {
 /** A read-only dashboard: every tracked outreach, grouped by field or school,
  *  with reply-status and reply-type breakdowns. */
 export function OutreachOverview({
+  loading,
   pool,
   records,
   programSummaries,
   onOpenProgram,
 }: {
+  /** true while the per-field chunks are still arriving. Until the pool is
+   *  complete, records can't be resolved to a program and would all bucket
+   *  under "Unknown field" — which reads as real data, not a loading state. */
+  loading: boolean
   pool: Hit[]
   records: Record<string, OutreachRecord>
   programSummaries: Record<string, { summary: string; updatedAt: number; count: number }>
@@ -126,8 +132,10 @@ export function OutreachOverview({
   const tiles = [
     { label: 'Emailed', value: totals.total, tone: 'text-slate-900' },
     { label: `Replied · ${rate}%`, value: totals.replied, tone: 'text-emerald-700' },
-    { label: 'Awaiting', value: totals.awaiting - totals.stale, tone: 'text-amber-700' },
-    { label: 'No reply 14d+', value: totals.stale, tone: 'text-rose-700' },
+    // Labelled with the window, since this tile excludes the stale ones that the
+    // Outreach tab's "⏳ Awaiting" chip counts — same word, two numbers otherwise.
+    { label: `Awaiting < ${STALE_DAYS}d`, value: totals.awaiting - totals.stale, tone: 'text-amber-700' },
+    { label: `No reply ${STALE_DAYS}d+`, value: totals.stale, tone: 'text-rose-700' },
   ]
 
   return (
@@ -157,7 +165,17 @@ export function OutreachOverview({
 
         <AiSettings />
 
-        {totals.total === 0 ? (
+        {/* Records resolve to a field/school only once their program's chunk is
+            in, so say so rather than letting "Unknown field" read as a fact. */}
+        {loading && totals.total > 0 && (
+          <p className="mb-3 animate-pulse rounded border border-slate-200 bg-slate-50 px-3 py-1.5 text-[11px] text-slate-500">
+            Still loading the database — advisors may group under “Unknown” until it finishes.
+          </p>
+        )}
+
+        {loading && totals.total === 0 ? (
+          <PoolLoading what="your outreach" />
+        ) : totals.total === 0 ? (
           <p className="py-12 text-center text-sm text-slate-400">
             No tracked outreach yet. Sync Gmail or add one manually in the Outreach tab.
           </p>

@@ -3,6 +3,7 @@ import type { Faculty, OutreachRecord, Program, ReplyType, UnlinkedEmail } from 
 import { advisorKey } from '../lib/starredAdvisors'
 import { autoMatch, REPLY_TYPES } from '../lib/outreach'
 import { OutreachBadge } from './OutreachBadge'
+import { PoolLoading } from './PoolLoading'
 
 interface Hit {
   faculty: Faculty
@@ -219,6 +220,7 @@ function UnlinkedRow({
 type Filter = 'all' | 'awaiting' | 'replied' | 'stale'
 
 export function OutreachView({
+  loading,
   pool,
   records,
   unlinked,
@@ -233,6 +235,9 @@ export function OutreachView({
   onUnassign,
   onOpenProgram,
 }: {
+  /** true while the per-field chunks are still arriving — until then a record
+   *  can't resolve to its advisor card and falls back to the raw email address. */
+  loading: boolean
   pool: Hit[]
   records: Record<string, OutreachRecord>
   unlinked: UnlinkedEmail[]
@@ -394,7 +399,9 @@ export function OutreachView({
           )}
         </div>
 
-        {recList.length === 0 ? (
+        {loading && recList.length === 0 ? (
+          <PoolLoading what="your outreach" />
+        ) : recList.length === 0 ? (
           <p className="py-12 text-center text-sm text-slate-400">
             No tracked outreach yet. Connect Gmail and Sync to populate this list.
           </p>

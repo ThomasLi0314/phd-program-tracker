@@ -13113,25 +13113,6 @@
           }
         },
         {
-          "id": "carlos-arg-elles-delgado",
-          "name": "Carlos Argüelles-Delgado",
-          "title": "Assistant Professor of Physics",
-          "sub_field": "High Energy Experiment / Neutrino Physics",
-          "tags": [
-            "neutrino physics",
-            "IceCube",
-            "beyond Standard Model",
-            "dark matter",
-            "multi-messenger astronomy"
-          ],
-          "summary": "Rising star in neutrino physics and multi-messenger astronomy. Group works on IceCube neutrino observatory physics, quantum decoherence searches in neutrino oscillations, and detecting supernova neutrinos with the LHC detectors.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://www.physics.harvard.edu/people/facpages/arguelles",
-            "scholar": null
-          }
-        },
-        {
           "id": "jordan-cotler",
           "name": "Jordan Cotler",
           "title": "Assistant Professor",
@@ -13627,20 +13608,22 @@
         },
         {
           "id": "carlos-arguelles-delgado",
-          "name": "Carlos Arguelles-Delgado",
-          "title": "Assistant Professor",
-          "sub_field": "Experimental High Energy / Neutrino Physics",
+          "name": "Carlos Argüelles-Delgado",
+          "title": "Assistant Professor of Physics",
+          "sub_field": "High Energy Experiment / Neutrino Physics",
           "tags": [
-            "neutrinos",
+            "neutrino physics",
             "IceCube",
-            "dark matter",
             "beyond Standard Model",
+            "dark matter",
+            "multi-messenger astronomy",
+            "neutrinos",
             "astroparticle"
           ],
-          "summary": "Studies neutrino physics and searches for new physics using large neutrino telescopes such as IceCube.",
+          "summary": "Rising star in neutrino physics and multi-messenger astronomy. Group works on IceCube neutrino observatory physics, quantum decoherence searches in neutrino oscillations, and detecting supernova neutrinos with the LHC detectors.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://www.physics.harvard.edu/people/facpages/arguelles",
             "scholar": null
           }
         },
@@ -35950,26 +35933,6 @@
           }
         },
         {
-          "id": "edwin-pedrozo-pe-afiel",
-          "name": "Edwin Pedrozo-Peñafiel",
-          "title": "Assistant Professor",
-          "sub_field": "Quantum Optics / Quantum Sensing",
-          "tags": [
-            "quantum optics",
-            "cavity QED",
-            "quantum sensing",
-            "entanglement",
-            "ultracold atoms",
-            "quantum metrology"
-          ],
-          "summary": "Develops cavity quantum electrodynamics platforms for non-destructive measurements and collective light-matter interactions, creating entangled states for sensing beyond the standard quantum limit and using ultracold atoms in optical cavities to benchmark quantum measurement techniques.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://phys.ufl.edu/people/faculty/edwin-pedrozo-penafiel/",
-            "scholar": "https://scholar.google.com/citations?user=gTQQRn8AAAAJ"
-          }
-        },
-        {
           "id": "kathleen-amm",
           "name": "Kathleen Amm",
           "title": "Research Professor",
@@ -36271,21 +36234,24 @@
         },
         {
           "id": "edwin-pedrozo-penafiel",
-          "name": "Edwin Pedrozo-Penafiel",
+          "name": "Edwin Pedrozo-Peñafiel",
           "title": "Assistant Professor",
-          "sub_field": "Atomic, Molecular and Optical Physics",
+          "sub_field": "Quantum Optics / Quantum Sensing",
           "tags": [
-            "atomic physics",
+            "quantum optics",
+            "cavity QED",
+            "quantum sensing",
+            "entanglement",
+            "ultracold atoms",
             "quantum metrology",
-            "atomic clocks",
-            "quantum entanglement",
-            "quantum sensing"
+            "atomic physics",
+            "atomic clocks"
           ],
-          "summary": "Experimental AMO physicist working on quantum metrology and entanglement-enhanced atomic clocks.",
+          "summary": "Develops cavity quantum electrodynamics platforms for non-destructive measurements and collective light-matter interactions, creating entangled states for sensing beyond the standard quantum limit and using ultracold atoms in optical cavities to benchmark quantum measurement techniques.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://phys.ufl.edu/people/faculty/edwin-pedrozo-penafiel/",
+            "scholar": "https://scholar.google.com/citations?user=gTQQRn8AAAAJ"
           }
         },
         {

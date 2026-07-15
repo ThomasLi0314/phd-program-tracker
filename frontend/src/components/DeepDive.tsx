@@ -34,11 +34,15 @@ function MatrixCell({
       <div className="text-[10px] font-semibold uppercase tracking-[0.1em] text-slate-400">
         {label}
       </div>
-      <div className="mt-0.5 text-[13px] font-medium leading-snug text-slate-900">
+      {/* overflow-wrap:anywhere so a pasted URL can't widen the grid track and
+          give the whole deep-dive a horizontal scrollbar. */}
+      <div className="mt-0.5 text-[13px] font-medium leading-snug text-slate-900 [overflow-wrap:anywhere]">
         <Value text={value} />
       </div>
       {note && note !== UNKNOWN && (
-        <div className="mt-1 text-[11px] leading-snug text-slate-500">{note}</div>
+        <div className="mt-1 text-[11px] leading-snug text-slate-500 [overflow-wrap:anywhere]">
+          {note}
+        </div>
       )}
     </div>
   )
@@ -85,6 +89,7 @@ function EditableContactCell({
         {!editing && (
           <button
             onClick={() => setEditing(true)}
+            aria-label="Edit pre-application contact info"
             title="Edit contact info"
             className="text-[11px] text-slate-300 hover:text-indigo-600"
           >
@@ -131,7 +136,7 @@ function EditableContactCell({
         </div>
       ) : (
         <>
-          <div className="mt-0.5 whitespace-pre-wrap text-[13px] font-medium leading-snug text-slate-900">
+          <div className="mt-0.5 whitespace-pre-wrap text-[13px] font-medium leading-snug text-slate-900 [overflow-wrap:anywhere]">
             {effective === UNKNOWN ? (
               <span className="italic text-amber-700">Unknown / Verify</span>
             ) : (
@@ -235,6 +240,7 @@ function FacultyCard({
           {onRemove && (
             <button
               onClick={onRemove}
+              aria-label={`Remove ${faculty.name}, an advisor you added`}
               title="Remove this added advisor"
               className="text-[12px] text-slate-300 hover:text-rose-600"
             >

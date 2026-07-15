@@ -4569,25 +4569,6 @@
           }
         },
         {
-          "id": "simon-tavar",
-          "name": "Simon Tavaré",
-          "title": "Professor of Statistics and Biological Sciences; Director, Irving Institute for Cancer Dynamics",
-          "sub_field": "Computational Biology, Cancer Evolution, Population Genetics, Approximate Bayesian Computation",
-          "tags": [
-            "computational biology",
-            "cancer evolution",
-            "population genetics",
-            "ABC",
-            "statistical bioinformatics"
-          ],
-          "summary": "Research spans stochastic computation, approximate Bayesian computation, statistical bioinformatics, cancer evolution, and population genetics including coalescent theory and statistical inference in molecular biology.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
           "id": "zhiliang-ying",
           "name": "Zhiliang Ying",
           "title": "Professor",
@@ -5020,16 +5001,18 @@
         },
         {
           "id": "simon-tavare",
-          "name": "Simon Tavare",
-          "title": "Professor of Statistics and of Biological Sciences",
-          "sub_field": "Computational biology",
+          "name": "Simon Tavaré",
+          "title": "Professor of Statistics and Biological Sciences; Director, Irving Institute for Cancer Dynamics",
+          "sub_field": "Computational Biology, Cancer Evolution, Population Genetics, Approximate Bayesian Computation",
           "tags": [
-            "population genetics",
             "computational biology",
             "cancer evolution",
+            "population genetics",
+            "ABC",
+            "statistical bioinformatics",
             "applied probability"
           ],
-          "summary": "Professor of Statistics and Biological Sciences (director of the Irving Institute for Cancer Dynamics) working on population genetics and computational biology.",
+          "summary": "Research spans stochastic computation, approximate Bayesian computation, statistical bioinformatics, cancer evolution, and population genetics including coalescent theory and statistical inference in molecular biology.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -12441,13 +12424,15 @@
         },
         {
           "id": "fernando-perez",
-          "name": "Fernando Perez",
+          "name": "Fernando Pérez",
           "title": "Associate Professor",
           "sub_field": "Scientific Computing, Data Science",
           "tags": [
             "scientific computing",
             "open source",
-            "reproducible research"
+            "reproducible research",
+            "data science",
+            "reproducibility"
           ],
           "summary": "Research in scientific computing and open-source tools for data science, creator of IPython and key contributor to the Jupyter ecosystem for reproducible research.",
           "recruitment_status": "Unknown/Verify",
@@ -12641,24 +12626,6 @@
             "fMRI"
           ],
           "summary": "Studies how the brain represents language using encoding models and neuroimaging.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "fernando-p-rez",
-          "name": "Fernando Pérez",
-          "title": "Associate Professor",
-          "sub_field": "Scientific computing and data science",
-          "tags": [
-            "scientific computing",
-            "open source",
-            "data science",
-            "reproducibility"
-          ],
-          "summary": "Works on tools and methods for scientific computing and reproducible data science (creator of IPython/Jupyter).",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -19698,14 +19665,16 @@
         },
         {
           "id": "sebastian-zollner",
-          "name": "Sebastian Zollner",
+          "name": "Sebastian Zöllner",
           "title": "Professor",
           "sub_field": "Statistical Genetics, Population Genetics",
           "tags": [
             "statistical genetics",
             "population genetics",
             "genomics",
-            "genetic association studies"
+            "genetic association studies",
+            "psychiatric genetics",
+            "GWAS"
           ],
           "summary": "Research on statistical methods for genetic association studies, population genetics inference, and genomic data analysis for understanding complex disease genetics.",
           "recruitment_status": "Unknown/Verify",
@@ -20013,24 +19982,6 @@
             "covariate adjustment"
           ],
           "summary": "Works on causal inference and efficient analysis methods for clinical trials and neuroimaging.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "sebastian-z-llner",
-          "name": "Sebastian Zöllner",
-          "title": "Professor",
-          "sub_field": "Statistical and population genetics",
-          "tags": [
-            "statistical genetics",
-            "population genetics",
-            "psychiatric genetics",
-            "GWAS"
-          ],
-          "summary": "Works on statistical and population genetics methods for complex disease.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,

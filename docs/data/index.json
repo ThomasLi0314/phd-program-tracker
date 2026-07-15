@@ -4,9 +4,9 @@
     "generated_at": "2026-07-15",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep",
-    "note": "1378 STEM PhD/MSc programs; faculty rosters on 537 programs (14868 faculty). Unknown/Verify = not yet confirmed on an official page."
+    "note": "1378 STEM PhD/MSc programs; faculty rosters on 537 programs (14830 faculty). Unknown/Verify = not yet confirmed on an official page."
   },
-  "total": 1378,
+  "total": 1379,
   "fields": [
     {
       "primary": "Biology & Life Sciences",
@@ -305,9 +305,9 @@
     {
       "primary": "Geosciences",
       "slug": "geosciences",
-      "count": 142,
-      "withFaculty": 142,
-      "facultyCount": 2943,
+      "count": 143,
+      "withFaculty": 143,
+      "facultyCount": 2993,
       "subs": [
         "Air Quality",
         "Applied Statistics",
@@ -317,7 +317,9 @@
         "Bioengineering",
         "Biogeochemistry",
         "Biological Engineering",
+        "Biological Oceanography",
         "Chemical Engineering",
+        "Chemical Oceanography",
         "Civil Engineering",
         "Climate",
         "Climate Dynamics",
@@ -426,7 +428,9 @@
         "Bioengineering",
         "Biogeochemistry",
         "Biological Engineering",
+        "Biological Oceanography",
         "Chemical Engineering",
+        "Chemical Oceanography",
         "Civil Engineering",
         "Climate",
         "Climate Dynamics",
@@ -532,7 +536,7 @@
       "slug": "computer-science",
       "count": 98,
       "withFaculty": 93,
-      "facultyCount": 3681,
+      "facultyCount": 3673,
       "subs": [
         "AI",
         "Algorithms",
@@ -769,7 +773,7 @@
       "slug": "physics",
       "count": 85,
       "withFaculty": 85,
-      "facultyCount": 2923,
+      "facultyCount": 2921,
       "subs": [
         "AMO Physics",
         "Applied Physics",
@@ -928,7 +932,7 @@
       "slug": "mathematics",
       "count": 81,
       "withFaculty": 78,
-      "facultyCount": 2708,
+      "facultyCount": 2688,
       "subs": [
         "Algebra",
         "Algebraic Geometry",
@@ -1064,7 +1068,7 @@
       "slug": "statistics-and-data-science",
       "count": 72,
       "withFaculty": 72,
-      "facultyCount": 1458,
+      "facultyCount": 1455,
       "subs": [
         "AI",
         "Applied Math",
@@ -1230,7 +1234,7 @@
       "slug": "mechanical-and-aerospace-engineering",
       "count": 66,
       "withFaculty": 5,
-      "facultyCount": 92,
+      "facultyCount": 90,
       "subs": [
         "Aerospace",
         "Aerospace Engineering",

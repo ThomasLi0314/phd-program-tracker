@@ -4,6 +4,7 @@ import type { Facets, Filters } from '../lib/filters'
 import { isDefault, subKey } from '../lib/filters'
 import type { FieldEntry } from '../lib/dataLoader'
 import { FieldSearch } from './FieldSearch'
+import { FieldPicker } from './FieldPicker'
 
 function SectionTitle({ children }: { children: string }) {
   return (
@@ -30,6 +31,11 @@ export function FilterSidebar({
   fields,
   loadingFields,
   onPickField,
+  shownFields,
+  onToggleShownField,
+  onSetShownFields,
+  onClearShownFields,
+  showDiscipline,
 }: {
   facets: Facets
   filters: Filters
@@ -40,12 +46,46 @@ export function FilterSidebar({
   fields: FieldEntry[]
   loadingFields: Set<string>
   onPickField: (primary: string) => void
+  /** Fields the user chose to list here. Starts empty — see lib/sidebarFields. */
+  shownFields: Set<string>
+  onToggleShownField: (primary: string) => void
+  onSetShownFields: (primaries: string[]) => void
+  onClearShownFields: () => void
+  /** The advisor/school views search the whole database, so ticking a discipline
+   *  there does nothing — don't offer a control that has no effect. */
+  showDiscipline: boolean
 }) {
   const feeUnlimited = filters.maxFee >= facets.feeCap
   // Fields whose advisor-less sub-fields are currently revealed.
   const [expandedSubs, setExpandedSubs] = useState<Set<string>>(new Set())
   const toggleExpanded = (primary: string) =>
     setExpandedSubs((prev) => toggled(prev, primary))
+
+  // The sidebar lists the fields the user chose, plus any field with an active
+  // filter — a checked field must never be hidden, or it would filter invisibly.
+  const activePrimaries = new Set([
+    ...filters.primaries,
+    ...[...filters.subs].map((k) => k.split('|')[0]),
+  ])
+  const visibleDisciplines = facets.disciplines.filter(
+    (d) => shownFields.has(d.primary) || activePrimaries.has(d.primary),
+  )
+
+  /** Drop a field from the sidebar AND clear its filters — a hidden field that
+   *  kept narrowing the results would be an invisible filter. */
+  const hideField = (primary: string) => {
+    onChange({
+      ...filters,
+      primaries: new Set([...filters.primaries].filter((p) => p !== primary)),
+      subs: new Set([...filters.subs].filter((k) => k.split('|')[0] !== primary)),
+    })
+    onToggleShownField(primary)
+  }
+
+  /** One click in the picker = list it and tick it; the two-step (list, then
+   *  hunt for the checkbox) reads as if the picker did nothing. */
+  const togglePicked = (primary: string) =>
+    shownFields.has(primary) ? hideField(primary) : onPickField(primary)
 
   const facultyCountByPrimary = new Map(fields.map((f) => [f.primary, f.facultyCount]))
   // Per field, the set of sub-fields that actually have advisors scanned.
@@ -84,26 +124,39 @@ export function FilterSidebar({
     const isExpanded = expandedSubs.has(primary)
     return (
       <div key={primary}>
-        <label className="flex cursor-pointer items-center gap-1.5 text-[13px] font-medium text-slate-800">
-          <input
-            type="checkbox"
-            className="size-3.5 accent-indigo-600"
-            checked={filters.primaries.has(primary)}
-            onChange={() =>
-              onChange({ ...filters, primaries: toggled(filters.primaries, primary) })
-            }
-          />
-          <span className="flex-1">{primary}</span>
-          {loadingFields.has(primary) && (
-            <span className="animate-pulse text-[10px] font-normal text-indigo-500">loading…</span>
-          )}
-          {(facultyCountByPrimary.get(primary) ?? 0) > 0 && (
-            <span className="rounded bg-amber-100 px-1 text-[9px] font-semibold tabular-nums text-amber-700">
-              {facultyCountByPrimary.get(primary)}★
-            </span>
-          )}
-          <span className="text-[10px] tabular-nums text-slate-400">{count}</span>
-        </label>
+        {/* The ✕ is a sibling of the label, not a child: a button inside a label
+            is also a label activation, so it needed preventDefault and stayed
+            fragile under keyboard/AT. */}
+        <div className="flex items-center gap-1.5">
+          <label className="flex min-w-0 flex-1 cursor-pointer items-center gap-1.5 text-[13px] font-medium text-slate-800">
+            <input
+              type="checkbox"
+              className="size-3.5 accent-indigo-600"
+              checked={filters.primaries.has(primary)}
+              onChange={() =>
+                onChange({ ...filters, primaries: toggled(filters.primaries, primary) })
+              }
+            />
+            <span className="min-w-0 flex-1 truncate">{primary}</span>
+            {loadingFields.has(primary) && (
+              <span className="animate-pulse text-[10px] font-normal text-indigo-500">loading…</span>
+            )}
+            {(facultyCountByPrimary.get(primary) ?? 0) > 0 && (
+              <span className="rounded bg-amber-100 px-1 text-[9px] font-semibold tabular-nums text-amber-700">
+                {facultyCountByPrimary.get(primary)}★
+              </span>
+            )}
+            <span className="text-[10px] tabular-nums text-slate-400">{count}</span>
+          </label>
+          <button
+            onClick={() => hideField(primary)}
+            aria-label={`Hide ${primary} from the sidebar`}
+            title={`Hide ${primary} from the sidebar`}
+            className="shrink-0 text-[11px] leading-none text-slate-300 transition-colors hover:text-rose-500"
+          >
+            ✕
+          </button>
+        </div>
         {(shownSubs.length > 0 || hiddenSubs.length > 0) && (
           <div className="ml-4 mt-0.5 space-y-0.5 border-l border-slate-200 pl-2">
             {shownSubs.map((sub) => renderSub(primary, sub))}
@@ -154,11 +207,39 @@ export function FilterSidebar({
           )}
         </div>
 
-        <SectionTitle>Discipline</SectionTitle>
-        <div className="mb-2">
-          <FieldSearch fields={fields} onPick={onPickField} />
-        </div>
-        <div className="space-y-2">{facets.disciplines.map(renderDiscipline)}</div>
+        {showDiscipline ? (
+          <>
+            <SectionTitle>Discipline</SectionTitle>
+            <div className="mb-2 space-y-1.5">
+              <FieldSearch fields={fields} onPick={onPickField} />
+              <FieldPicker
+                fields={fields}
+                shown={shownFields}
+                onToggle={togglePicked}
+                onSetAll={onSetShownFields}
+                onClear={() => {
+                  onClearShownFields()
+                  onChange({ ...filters, primaries: new Set(), subs: new Set() })
+                }}
+              />
+            </div>
+            {visibleDisciplines.length === 0 ? (
+              <p className="rounded border border-dashed border-slate-300 px-2 py-3 text-center text-[11px] leading-relaxed text-slate-400">
+                No fields shown yet.
+                <br />
+                Search above or pick from{' '}
+                <span className="font-medium text-slate-500">Choose fields</span>.
+              </p>
+            ) : (
+              <div className="space-y-2">{visibleDisciplines.map(renderDiscipline)}</div>
+            )}
+          </>
+        ) : (
+          <p className="rounded border border-dashed border-slate-300 px-2 py-2 text-[11px] leading-relaxed text-slate-500">
+            This view searches <span className="font-medium">every field</span> — the filters below
+            still narrow it.
+          </p>
+        )}
 
         <SectionTitle>Degree Type</SectionTitle>
         <div className="flex flex-wrap gap-1">

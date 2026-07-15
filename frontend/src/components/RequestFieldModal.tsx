@@ -3,10 +3,14 @@ import { useState } from 'react'
 type Status = 'idle' | 'sending' | 'sent' | 'error'
 
 /**
- * "Request a field of interest" modal. Posts to the local server's
- * /api/report-field endpoint, which appends the request to a file on the
- * owner's laptop. The owner reviews requests and decides whether to research
- * and add that field. Nothing is stored off-machine.
+ * "Request a field of interest" modal. Posts to /api/report-field, which is
+ * served by server.mjs (and proxied in `npm run dev`) and appends the request to
+ * a file on the owner's laptop. Nothing is stored off-machine.
+ *
+ * The GitHub Pages build is STATIC — there is no /api there, so the POST 404s.
+ * When that happens we say so and offer the text for copying, instead of the old
+ * behaviour: a dead button whose error message claimed the opposite ("works on
+ * the live/shared site, not the plain dev server").
  */
 export function RequestFieldModal({ onClose }: { onClose: () => void }) {
   const [field, setField] = useState('')
@@ -14,6 +18,21 @@ export function RequestFieldModal({ onClose }: { onClose: () => void }) {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<Status>('idle')
   const [error, setError] = useState('')
+  const [copied, setCopied] = useState(false)
+
+  const asText = () =>
+    [`Field of interest: ${field}`, note && `Notes: ${note}`, email && `Reply to: ${email}`]
+      .filter(Boolean)
+      .join('\n')
+
+  const copyRequest = async () => {
+    try {
+      await navigator.clipboard.writeText(asText())
+      setCopied(true)
+    } catch {
+      setCopied(false)
+    }
+  }
 
   async function submit(e: React.FormEvent) {
     e.preventDefault()
@@ -31,12 +50,16 @@ export function RequestFieldModal({ onClose }: { onClose: () => void }) {
         setStatus('sent')
       } else {
         setStatus('error')
-        setError(data.error || 'The request could not be submitted.')
+        setError(
+          res.status === 404
+            ? 'This published site is static, so requests can’t be submitted from here. Copy your request below and send it to the maintainer.'
+            : data.error || 'The request could not be submitted.',
+        )
       }
     } catch {
       setStatus('error')
       setError(
-        'Could not reach the server. This feature works on the live/shared site, not the plain dev server.',
+        'Couldn’t reach the request endpoint — it only exists when the site is served by server.mjs (or `npm run dev`), not on the published static site. Copy your request below instead.',
       )
     }
   }
@@ -125,7 +148,18 @@ export function RequestFieldModal({ onClose }: { onClose: () => void }) {
                 className="w-full rounded border border-slate-300 px-2.5 py-1.5 text-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
               />
             </div>
-            {status === 'error' && <p className="text-[12px] text-rose-600">{error}</p>}
+            {status === 'error' && (
+              <div className="rounded border border-rose-200 bg-rose-50 px-2.5 py-2">
+                <p className="text-[12px] leading-snug text-rose-700">{error}</p>
+                <button
+                  type="button"
+                  onClick={copyRequest}
+                  className="mt-1.5 rounded border border-rose-300 bg-white px-2 py-0.5 text-[11px] font-medium text-rose-700 hover:bg-rose-100"
+                >
+                  {copied ? 'Copied ✓' : 'Copy my request'}
+                </button>
+              </div>
+            )}
             <div className="flex justify-end gap-2 pt-1">
               <button
                 type="button"

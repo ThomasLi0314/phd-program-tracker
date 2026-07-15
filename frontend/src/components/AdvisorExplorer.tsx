@@ -1,48 +1,55 @@
 import { useMemo } from 'react'
-import type { Faculty, OutreachRecord, Program } from '../types'
+import type { OutreachRecord, Program } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
 import { StarRating } from './StarRating'
 import { AdvisorNote } from './AdvisorNote'
 import { OutreachBadge } from './OutreachBadge'
 import { EditableLink } from './EditableLink'
-import { advisorKey } from '../lib/starredAdvisors'
+import { PoolLoading } from './PoolLoading'
+import {
+  groupHomepage,
+  groupLevel,
+  groupNote,
+  groupRecord,
+  mergeAdvisors,
+  statusRank,
+  type AdvisorHit,
+  type MergedAdvisor,
+} from '../lib/mergeAdvisors'
 
-interface AdvisorHit {
-  faculty: Faculty
-  program: Program
-}
-
-const STATUS_RANK: Record<string, number> = {
-  'Looking for Students': 0,
-  'Unknown/Verify': 1,
-  'Not Advising': 2,
-}
-
-function haystack(hit: AdvisorHit): string {
-  const { faculty: f, program: p } = hit
+/** Search text spans the person's card AND every program they appear under. */
+function haystack(m: MergedAdvisor): string {
+  const f = m.faculty
   return [
     f.name,
     f.title,
     f.sub_field,
     f.tags.join(' '),
     f.summary,
-    p.university,
-    p.program_name,
-    p.discipline.primary,
-    p.discipline.subs.join(' '),
+    ...m.entries.map(
+      (e) =>
+        `${e.program.university} ${e.program.program_name} ${e.program.discipline.primary} ${e.program.discipline.subs.join(' ')}`,
+    ),
   ]
     .join(' ')
     .toLowerCase()
 }
 
-function matchesQuery(hit: AdvisorHit, terms: string[]): boolean {
+function matchesQuery(m: MergedAdvisor, terms: string[]): boolean {
   if (terms.length === 0) return true
-  const text = haystack(hit)
+  const text = haystack(m)
   return terms.every((t) => text.includes(t))
 }
 
+/** One row per program this person can advise in — deduped by program id, since
+ *  a stale slug bug can list the same person twice inside one program. */
+function programRows(m: MergedAdvisor): AdvisorHit[] {
+  const seen = new Set<string>()
+  return m.entries.filter((e) => !seen.has(e.program.id) && seen.add(e.program.id))
+}
+
 function AdvisorCard({
-  hit,
+  advisor,
   level,
   onSetLevel,
   onOpenProgram,
@@ -52,17 +59,18 @@ function AdvisorCard({
   homepage,
   onSetHomepage,
 }: {
-  hit: AdvisorHit
+  advisor: MergedAdvisor
   level: number
   onSetLevel: (n: number) => void
-  onOpenProgram: () => void
+  onOpenProgram: (programId: string) => void
   note: string
   onSaveNote: (text: string) => void
   record?: OutreachRecord
   homepage: string
   onSetHomepage: (url: string) => void
 }) {
-  const { faculty: f, program: p } = hit
+  const f = advisor.faculty
+  const rows = programRows(advisor)
   return (
     <article className="mb-3 break-inside-avoid rounded border border-slate-200 bg-white p-3">
       <div className="flex items-start justify-between gap-2">
@@ -76,19 +84,30 @@ function AdvisorCard({
         </div>
       </div>
 
-      <button
-        onClick={onOpenProgram}
-        className="mt-1.5 flex w-full items-center justify-between gap-2 rounded border border-indigo-100 bg-indigo-50/60 px-2 py-1 text-left transition-colors hover:border-indigo-300 hover:bg-indigo-50"
-        title="Open this program's deep-dive"
-      >
-        <span className="text-[12px] font-medium text-indigo-800">
-          {p.university}
-          <span className="font-normal text-indigo-500"> — {p.program_name}</span>
-        </span>
-        <span className="shrink-0 text-[11px] font-semibold text-indigo-600">
-          {p.degree_type} · {p.region} →
-        </span>
-      </button>
+      {/* One person, every program they can take students through. */}
+      <div className="mt-1.5 space-y-1">
+        {rows.map((e) => (
+          <button
+            key={e.program.id}
+            onClick={() => onOpenProgram(e.program.id)}
+            className="flex w-full items-center justify-between gap-2 rounded border border-indigo-100 bg-indigo-50/60 px-2 py-1 text-left transition-colors hover:border-indigo-300 hover:bg-indigo-50"
+            title="Open this program's deep-dive"
+          >
+            <span className="min-w-0 text-[12px] font-medium text-indigo-800">
+              {e.program.university}
+              <span className="font-normal text-indigo-500"> — {e.program.program_name}</span>
+            </span>
+            <span className="shrink-0 text-[11px] font-semibold text-indigo-600">
+              {e.program.degree_type} · {e.program.region} →
+            </span>
+          </button>
+        ))}
+      </div>
+      {rows.length > 1 && (
+        <p className="mt-1 text-[10px] text-slate-400">
+          Same advisor, {rows.length} programs — starring or noting applies to all of them.
+        </p>
+      )}
 
       <div className="mt-2 flex flex-wrap gap-1">
         <Badge tone="slate">{f.sub_field}</Badge>
@@ -124,6 +143,7 @@ function AdvisorCard({
 }
 
 export function AdvisorExplorer({
+  loading,
   programs,
   query,
   onQueryChange,
@@ -136,6 +156,8 @@ export function AdvisorExplorer({
   homepages,
   onSetHomepage,
 }: {
+  /** true while the per-field chunks are still arriving — see PoolLoading. */
+  loading: boolean
   programs: Program[]
   query: string
   onQueryChange: (q: string) => void
@@ -148,43 +170,46 @@ export function AdvisorExplorer({
   homepages: Record<string, string>
   onSetHomepage: (key: string, url: string) => void
 }) {
-  const allHits = useMemo(
-    () => programs.flatMap((p) => p.faculty.map((f) => ({ faculty: f, program: p }))),
-    [programs],
-  )
+  // One card per person: the same professor is often listed under several of
+  // their university's programs (see lib/mergeAdvisors for why this is scoped
+  // to a single university).
+  const allAdvisors = useMemo(() => {
+    const hits: AdvisorHit[] = []
+    for (const p of programs) for (const f of p.faculty) hits.push({ faculty: f, program: p })
+    return mergeAdvisors(hits)
+  }, [programs])
 
   const topTags = useMemo(() => {
     const counts = new Map<string, number>()
-    for (const hit of allHits) {
-      counts.set(hit.faculty.sub_field, (counts.get(hit.faculty.sub_field) ?? 0) + 1)
-      for (const t of hit.faculty.tags) counts.set(t, (counts.get(t) ?? 0) + 1)
+    for (const a of allAdvisors) {
+      counts.set(a.faculty.sub_field, (counts.get(a.faculty.sub_field) ?? 0) + 1)
+      for (const t of a.faculty.tags) counts.set(t, (counts.get(t) ?? 0) + 1)
     }
     return [...counts.entries()]
       .sort((a, b) => b[1] - a[1])
       .slice(0, 14)
       .map(([tag]) => tag)
-  }, [allHits])
+  }, [allAdvisors])
 
   const terms = useMemo(() => query.toLowerCase().split(/\s+/).filter(Boolean), [query])
   const hits = useMemo(
     () =>
-      allHits
-        .filter((h) => matchesQuery(h, terms))
+      allAdvisors
+        .filter((a) => matchesQuery(a, terms))
         .sort(
           (a, b) =>
-            (STATUS_RANK[a.faculty.recruitment_status] ?? 1) -
-              (STATUS_RANK[b.faculty.recruitment_status] ?? 1) ||
-            a.program.university.localeCompare(b.program.university) ||
+            statusRank(a.faculty.recruitment_status) - statusRank(b.faculty.recruitment_status) ||
+            a.entries[0].program.university.localeCompare(b.entries[0].program.university) ||
             a.faculty.name.localeCompare(b.faculty.name),
         ),
-    [allHits, terms],
+    [allAdvisors, terms],
   )
 
   // Rendering thousands of cards in a CSS multi-column layout freezes the page,
   // so only mount the first RENDER_CAP; the count line reports the true total.
   const RENDER_CAP = 120
   const visible = hits.slice(0, RENDER_CAP)
-  const schools = new Set(hits.map((h) => h.program.id))
+  const schools = new Set(hits.flatMap((h) => h.entries.map((e) => e.program.id)))
 
   return (
     <main className="h-full flex-1 overflow-y-auto bg-slate-50/40">
@@ -221,6 +246,7 @@ export function AdvisorExplorer({
           <p className="mt-2 text-[11px] font-medium text-slate-500">
             {hits.length} advisor{hits.length === 1 ? '' : 's'} across {schools.size} program
             {schools.size === 1 ? '' : 's'}
+            <span className="text-slate-400"> · one card per person</span>
             {hits.length > RENDER_CAP && (
               <span className="text-slate-400">
                 {' '}
@@ -230,29 +256,30 @@ export function AdvisorExplorer({
           </p>
         </header>
 
-        {hits.length === 0 ? (
+        {loading && hits.length === 0 ? (
+          <PoolLoading what="advisors" />
+        ) : hits.length === 0 ? (
           <p className="py-10 text-center text-sm text-slate-400">
             No advisors match “{query}” under the current sidebar filters.
           </p>
         ) : (
           <div className="gap-3 lg:columns-2 2xl:columns-3">
-            {visible.map((h) => {
-              const key = advisorKey(h.program.id, h.faculty.id)
-              return (
-                <AdvisorCard
-                  key={key}
-                  hit={h}
-                  level={levels.get(key) ?? 0}
-                  onSetLevel={(n) => onSetLevel(key, n)}
-                  onOpenProgram={() => onOpenProgram(h.program.id)}
-                  note={notes.get(key) ?? ''}
-                  onSaveNote={(text) => onSetNote(key, text)}
-                  record={outreach[key]}
-                  homepage={homepages[key] ?? h.faculty.links.homepage ?? ''}
-                  onSetHomepage={(u) => onSetHomepage(key, u)}
-                />
-              )
-            })}
+            {visible.map((a) => (
+              // Stars/notes/homepage read across the person's program entries and
+              // write to all of them, so the value shows on every card everywhere.
+              <AdvisorCard
+                key={a.key}
+                advisor={a}
+                level={groupLevel(a.keys, levels)}
+                onSetLevel={(n) => a.keys.forEach((k) => onSetLevel(k, n))}
+                onOpenProgram={onOpenProgram}
+                note={groupNote(a.keys, notes)}
+                onSaveNote={(text) => a.keys.forEach((k) => onSetNote(k, text))}
+                record={groupRecord(a.keys, outreach)}
+                homepage={groupHomepage(a, homepages)}
+                onSetHomepage={(u) => a.keys.forEach((k) => onSetHomepage(k, u))}
+              />
+            ))}
           </div>
         )}
       </div>

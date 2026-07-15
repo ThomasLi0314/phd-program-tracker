@@ -10,7 +10,9 @@ import {
   type SortKey,
 } from './lib/filters'
 import { useMyList } from './lib/myList'
-import { useStarredAdvisors } from './lib/starredAdvisors'
+import { useSidebarFields } from './lib/sidebarFields'
+import { advisorKey, useStarredAdvisors } from './lib/starredAdvisors'
+import { mergeKey } from './lib/mergeAdvisors'
 import { useAdvisorNotes } from './lib/advisorNotes'
 import { useOutreach, type SyncProgress } from './lib/outreach'
 import { useOverrides } from './lib/overrides'
@@ -54,6 +56,9 @@ function App() {
   const [loaded, setLoaded] = useState<Record<string, Program[]>>({})
   /** primaries whose chunk fetch is in flight */
   const [loadingFields, setLoadingFields] = useState<Set<string>>(new Set())
+  /** primaries whose chunk fetch failed. Kept separate from indexError: one bad
+   *  chunk must not blow away the whole UI (and the user's unsaved edits). */
+  const [failedFields, setFailedFields] = useState<Map<string, string>>(new Map())
 
   const [filters, setFilters] = useState<Filters>(() => defaultFilters(0))
   const [view, setView] = useState<View>('programs')
@@ -63,6 +68,7 @@ function App() {
   const [onlyMyList, setOnlyMyList] = useState(false)
   const [showRequest, setShowRequest] = useState(false)
   const { myList, toggle: toggleMyList } = useMyList()
+  const sidebarFields = useSidebarFields()
   const { levels: starLevels, setLevel: setStarLevel } = useStarredAdvisors()
   const { notes: advisorNotes, setNote: setAdvisorNote } = useAdvisorNotes()
   const outreach = useOutreach()
@@ -123,13 +129,21 @@ function App() {
   useEffect(() => {
     if (!index) return
     for (const primary of neededPrimaries) {
-      if (loaded[primary] || loadingFields.has(primary)) continue
+      if (loaded[primary] || loadingFields.has(primary) || failedFields.has(primary)) continue
       const entry = index.fields.find((f) => f.primary === primary)
       if (!entry) continue
       setLoadingFields((prev) => new Set(prev).add(primary))
       fetchField(entry.slug)
-        .then((programs) => setLoaded((prev) => ({ ...prev, [primary]: programs })))
-        .catch((err) => setIndexError(String(err)))
+        .then((programs) => {
+          setLoaded((prev) => ({ ...prev, [primary]: programs }))
+          setFailedFields((prev) => {
+            if (!prev.has(primary)) return prev
+            const next = new Map(prev)
+            next.delete(primary)
+            return next
+          })
+        })
+        .catch((err) => setFailedFields((prev) => new Map(prev).set(primary, String(err))))
         .finally(() =>
           setLoadingFields((prev) => {
             const next = new Set(prev)
@@ -138,7 +152,16 @@ function App() {
           }),
         )
     }
-  }, [index, neededPrimaries, loaded, loadingFields])
+  }, [index, neededPrimaries, loaded, loadingFields, failedFields])
+
+  /** Retry a chunk that failed — dataLoader evicts the rejected promise, so a
+   *  simple state clear is enough to make the effect above fetch it again. */
+  const retryField = (primary: string) =>
+    setFailedFields((prev) => {
+      const next = new Map(prev)
+      next.delete(primary)
+      return next
+    })
 
   // Pool = programs of the selected fields that have arrived.
   const pool = useMemo(() => {
@@ -198,6 +221,17 @@ function App() {
     return hits
   }, [index, loaded])
 
+  // Starring a professor writes to every program entry they appear under, so the
+  // raw key count double-counts people. The Starred tab lists merged people, and
+  // the badge must agree with it. Before the chunks land there's nothing to merge
+  // against, so fall back to the raw count rather than flashing a wrong number.
+  const starredCount = useMemo(() => {
+    if (starLevels.size === 0) return 0
+    const starred = outreachPool.filter((h) => starLevels.has(advisorKey(h.program.id, h.faculty.id)))
+    if (starred.length === 0) return starLevels.size
+    return new Set(starred.map((h) => mergeKey(h.faculty.name, h.program.university))).size
+  }, [outreachPool, starLevels])
+
   // Keep a valid selection as filters change.
   useEffect(() => {
     if (filtered.length === 0) {
@@ -211,8 +245,20 @@ function App() {
   const shown = view === 'programs' ? filtered : fullPool
   const facultyCount = shown.reduce((n, p) => n + p.faculty.length, 0)
   const stillLoading = loadingFields.size > 0
+  // The whole-database views need every field chunk. Until they've all arrived,
+  // an empty result means "not loaded yet", not "you have nothing" — telling the
+  // user they've starred nobody while their stars are still loading is a lie.
+  // (index is still null on the first render — the early return below is later.)
+  // A failed field counts as "settled": the retry banner reports it, so the view
+  // should show what did load rather than spin forever.
+  const poolIncomplete =
+    stillLoading ||
+    !index ||
+    index.fields.some((f) => !loaded[f.primary] && !failedFields.has(f.primary))
 
+  // Picking a field both lists it in the sidebar and ticks it.
   const pickField = (primary: string) => {
+    sidebarFields.show(primary)
     setFilters((f) => ({ ...f, primaries: new Set(f.primaries).add(primary) }))
     setView('programs')
   }
@@ -221,6 +267,7 @@ function App() {
     // Tick the program's field so the deep-dive is visible in the programs view.
     const prog = fullPool.find((p) => p.id === id)
     if (prog && !selectedPrimaries.has(prog.discipline.primary)) {
+      sidebarFields.show(prog.discipline.primary)
       setFilters((f) => ({ ...f, primaries: new Set(f.primaries).add(prog.discipline.primary) }))
     }
     setSelectedId(id)
@@ -370,8 +417,10 @@ function App() {
 
   return (
     <div className="flex h-full flex-col bg-white text-slate-900">
-      <header className="flex shrink-0 items-center justify-between border-b border-slate-200 bg-slate-900 px-4 py-2 text-white">
-        <div className="flex items-baseline gap-3">
+      {/* Wraps to a second row on narrow windows — without flex-wrap the tab
+          strip was squeezed and its overflow-hidden clipped the last tab. */}
+      <header className="flex shrink-0 flex-wrap items-center justify-between gap-x-4 gap-y-2 border-b border-slate-200 bg-slate-900 px-4 py-2 text-white">
+        <div className="flex shrink-0 items-baseline gap-3">
           <h1 className="font-serif text-[15px] font-bold tracking-tight">
             Grad Program & Faculty Intelligence Tracker
           </h1>
@@ -380,8 +429,8 @@ function App() {
           </span>
         </div>
 
-        <div className="flex items-center gap-3">
-          <div className="flex overflow-hidden rounded border border-slate-600 text-[11px] font-medium">
+        <div className="flex flex-wrap items-center justify-end gap-2">
+          <div className="flex shrink-0 overflow-hidden rounded border border-slate-600 text-[11px] font-medium">
             {(['programs', 'advisors', 'schools', 'starred', 'outreach', 'overview'] as View[]).map(
               (v) => (
                 <button
@@ -392,7 +441,7 @@ function App() {
                   }`}
                 >
                   {v === 'starred'
-                    ? `★ Starred (${starLevels.size})`
+                    ? `★ Starred (${starredCount})`
                     : v === 'outreach'
                       ? `✉ Outreach (${Object.keys(outreach.state.records).length})`
                       : v === 'overview'
@@ -451,7 +500,7 @@ function App() {
             + Request a field
           </button>
 
-          <div className="text-[11px] tabular-nums text-slate-300">
+          <div className="shrink-0 text-[11px] tabular-nums text-slate-300">
             {stillLoading
               ? 'loading field data…'
               : `${shown.length} programs · ${facultyCount} faculty`}{' '}
@@ -462,18 +511,45 @@ function App() {
         </div>
       </header>
 
+      {failedFields.size > 0 && (
+        <div className="flex shrink-0 flex-wrap items-center gap-x-3 gap-y-1 border-b border-rose-200 bg-rose-50 px-4 py-1.5 text-[11px] text-rose-800">
+          <span className="font-medium">
+            Couldn’t load {failedFields.size === 1 ? 'one field' : `${failedFields.size} fields`}:
+          </span>
+          {[...failedFields.keys()].map((primary) => (
+            <button
+              key={primary}
+              onClick={() => retryField(primary)}
+              className="rounded border border-rose-300 bg-white px-1.5 py-0.5 font-medium transition-colors hover:bg-rose-100"
+            >
+              {primary} · retry
+            </button>
+          ))}
+          <span className="text-rose-500">Everything else still works.</span>
+        </div>
+      )}
+
       <div className="flex min-h-0 flex-1">
-        <FilterSidebar
-          facets={facets}
-          filters={filters}
-          onChange={setFilters}
-          matchCount={filtered.length}
-          totalCount={index.total}
-          metaNote={index.meta.note}
-          fields={index.fields}
-          loadingFields={loadingFields}
-          onPickField={pickField}
-        />
+        {/* Outreach and Overview run off outreachPool and ignore every sidebar
+            filter, so rendering the sidebar there is a control that does nothing. */}
+        {view !== 'outreach' && view !== 'overview' && (
+          <FilterSidebar
+            facets={facets}
+            filters={filters}
+            onChange={setFilters}
+            matchCount={view === 'programs' ? filtered.length : fullPool.length}
+            totalCount={index.total}
+            metaNote={index.meta.note}
+            fields={index.fields}
+            loadingFields={loadingFields}
+            onPickField={pickField}
+            shownFields={sidebarFields.shown}
+            onToggleShownField={sidebarFields.toggle}
+            onSetShownFields={sidebarFields.setAll}
+            onClearShownFields={sidebarFields.clear}
+            showDiscipline={view === 'programs'}
+          />
+        )}
         {view === 'programs' ? (
           selectedPrimaries.size === 0 && !onlyMyList ? (
             <div className="flex min-w-0 flex-1 items-start justify-center overflow-y-auto bg-slate-50/40 px-6 py-16">
@@ -541,6 +617,7 @@ function App() {
           )
         ) : view === 'advisors' ? (
           <AdvisorExplorer
+            loading={poolIncomplete}
             programs={fullPool}
             query={advisorQuery}
             onQueryChange={setAdvisorQuery}
@@ -555,6 +632,7 @@ function App() {
           />
         ) : view === 'schools' ? (
           <SchoolExplorer
+            loading={poolIncomplete}
             programs={fullPool}
             query={schoolQuery}
             onQueryChange={setSchoolQuery}
@@ -562,6 +640,7 @@ function App() {
           />
         ) : view === 'starred' ? (
           <StarredAdvisors
+            loading={poolIncomplete}
             programs={fullPool}
             levels={starLevels}
             onSetLevel={setStarLevel}
@@ -574,6 +653,7 @@ function App() {
           />
         ) : view === 'outreach' ? (
           <OutreachView
+            loading={poolIncomplete}
             pool={outreachPool}
             records={outreach.state.records}
             unlinked={outreach.state.unlinked}
@@ -590,6 +670,7 @@ function App() {
           />
         ) : (
           <OutreachOverview
+            loading={poolIncomplete}
             pool={outreachPool}
             records={outreach.state.records}
             programSummaries={outreach.state.programSummaries}

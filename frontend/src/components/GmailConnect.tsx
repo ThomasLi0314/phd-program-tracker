@@ -50,6 +50,7 @@ export function GmailConnect({
         </button>
         <button
           onClick={onDisconnect}
+          aria-label="Disconnect Gmail"
           className="rounded border border-slate-700 px-1.5 py-1 text-slate-400 transition-colors hover:text-rose-300"
           title="Disconnect Gmail"
         >

@@ -19,9 +19,14 @@ const STAGING = join(HERE, '..', 'pipeline', 'output', 'faculty-scan')
 
 const UNKNOWN = 'Unknown/Verify'
 const RECRUIT = new Set(['Looking for Students', 'Not Advising', UNKNOWN])
+// Diacritics MUST be folded, not dropped: without the NFD pass "Éva Tardos"
+// slugged to `va-tardos` while a later scan spelling it "Eva Tardos" produced
+// `eva-tardos`, so the union stored the same person twice in one program.
 const slug = (s) =>
   s
     .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '')
 

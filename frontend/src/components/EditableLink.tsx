@@ -48,7 +48,11 @@ export function EditableLink({
         <button onClick={save} className="font-semibold text-emerald-600 hover:text-emerald-700">
           save
         </button>
-        <button onClick={cancel} className="text-slate-400 hover:text-slate-600">
+        <button
+          onClick={cancel}
+          aria-label={`Cancel editing ${label.toLowerCase()}`}
+          className="text-slate-400 hover:text-slate-600"
+        >
           ✕
         </button>
       </span>
@@ -63,6 +67,7 @@ export function EditableLink({
         </a>
         <button
           onClick={() => setEditing(true)}
+          aria-label={`Edit ${label.toLowerCase()}`}
           title={`Edit ${label.toLowerCase()}`}
           className="text-slate-300 hover:text-slate-500"
         >

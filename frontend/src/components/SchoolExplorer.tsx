@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import type { Program } from '../types'
 import { UNKNOWN } from '../types'
+import { PoolLoading } from './PoolLoading'
 
 interface SchoolGroup {
   university: string
@@ -67,11 +68,14 @@ function SchoolCard({
 }
 
 export function SchoolExplorer({
+  loading,
   programs,
   query,
   onQueryChange,
   onOpenProgram,
 }: {
+  /** true while the per-field chunks are still arriving — see PoolLoading. */
+  loading: boolean
   programs: Program[]
   query: string
   onQueryChange: (q: string) => void
@@ -124,7 +128,9 @@ export function SchoolExplorer({
           </p>
         </header>
 
-        {hits.length === 0 ? (
+        {loading && hits.length === 0 ? (
+          <PoolLoading what="schools" />
+        ) : hits.length === 0 ? (
           <p className="py-10 text-center text-sm text-slate-400">
             No school matches “{query}” under the current sidebar filters.
           </p>

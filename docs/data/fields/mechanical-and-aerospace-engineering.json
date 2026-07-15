@@ -1660,13 +1660,17 @@
         },
         {
           "id": "carmen-guerra-garcia",
-          "name": "Carmen Guerra-Garcia",
+          "name": "Carmen Guerra-García",
           "title": "Esther and Harold E. Edgerton Associate Professor",
           "sub_field": "Plasma Physics / Space Propulsion",
           "tags": [
             "plasma-assisted combustion",
             "electric propulsion",
-            "lightning physics"
+            "lightning physics",
+            "plasma",
+            "aerospace",
+            "electric aircraft",
+            "gas discharges"
           ],
           "summary": "Studying plasma-assisted combustion, atmospheric electricity and lightning physics, and plasma-based space propulsion systems.",
           "recruitment_status": "Unknown/Verify",
@@ -1856,13 +1860,16 @@
         },
         {
           "id": "raul-radovitzky",
-          "name": "Raul Radovitzky",
+          "name": "Raúl Radovitzky",
           "title": "Jerome C. Hunsaker Professor",
           "sub_field": "Computational Solid Mechanics / Materials",
           "tags": [
             "computational mechanics",
             "impact dynamics",
-            "multiscale modeling"
+            "multiscale modeling",
+            "solid mechanics",
+            "impact",
+            "materials modeling"
           ],
           "summary": "Developing computational multiscale methods for solid mechanics, studying impact dynamics, penetration, and failure of aerospace materials.",
           "recruitment_status": "Unknown/Verify",
@@ -2071,24 +2078,6 @@
           }
         },
         {
-          "id": "ra-l-radovitzky",
-          "name": "Raúl Radovitzky",
-          "title": "Professor of Aeronautics and Astronautics (Jerome C. Hunsaker Professor)",
-          "sub_field": "Computational Mechanics",
-          "tags": [
-            "computational mechanics",
-            "solid mechanics",
-            "impact",
-            "materials modeling"
-          ],
-          "summary": "Jerome C. Hunsaker Professor researching computational modeling of solids and structures under extreme loading and impact.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
           "id": "zolt-n-s-spakovszky",
           "name": "Zoltán S. Spakovszky",
           "title": "Professor of Aeronautics and Astronautics (T. A. Wilson Professor)",
@@ -2211,24 +2200,6 @@
             "safety"
           ],
           "summary": "Leads the Reliable Autonomous Systems Lab on control, learning, and formal verification for safe autonomous systems.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": null,
-            "scholar": null
-          }
-        },
-        {
-          "id": "carmen-guerra-garc-a",
-          "name": "Carmen Guerra-García",
-          "title": "Associate Professor of Aeronautics and Astronautics (Esther and Harold E. Edgerton Career Development Professor)",
-          "sub_field": "Plasma Physics / Aerospace",
-          "tags": [
-            "plasma",
-            "aerospace",
-            "electric aircraft",
-            "gas discharges"
-          ],
-          "summary": "Researches plasma physics and gas discharges with applications to aerospace systems and electrified aircraft.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,

@@ -114,6 +114,11 @@ export function ProgramIndex({
   onToggleList: (id: string) => void
   onSortChange: (key: SortKey) => void
 }) {
+  // Mounting a card per match froze the page once enough fields were ticked
+  // (~1,378 programs). Same guard as AdvisorExplorer — the count is still honest.
+  const RENDER_CAP = 150
+  const visible = programs.slice(0, RENDER_CAP)
+
   return (
     <nav className="h-full w-[340px] shrink-0 overflow-y-auto border-r border-slate-200 bg-white">
       <div className="sticky top-0 z-10 flex items-center justify-between border-b border-slate-200 bg-white/95 px-3 py-1.5 backdrop-blur">
@@ -138,16 +143,25 @@ export function ProgramIndex({
           No programs match the current filters.
         </p>
       ) : (
-        programs.map((p) => (
-          <ProgramCard
-            key={p.id}
-            program={p}
-            selected={p.id === selectedId}
-            inList={myList.has(p.id)}
-            onSelect={() => onSelect(p.id)}
-            onToggleList={() => onToggleList(p.id)}
-          />
-        ))
+        <>
+          {visible.map((p) => (
+            <ProgramCard
+              key={p.id}
+              program={p}
+              selected={p.id === selectedId}
+              inList={myList.has(p.id)}
+              onSelect={() => onSelect(p.id)}
+              onToggleList={() => onToggleList(p.id)}
+            />
+          ))}
+          {programs.length > RENDER_CAP && (
+            <p className="border-t border-slate-200 px-3 py-3 text-center text-[11px] leading-relaxed text-slate-400">
+              Showing the first {RENDER_CAP} of {programs.length}.
+              <br />
+              Narrow the filters to see the rest.
+            </p>
+          )}
+        </>
       )}
     </nav>
   )

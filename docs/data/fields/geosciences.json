@@ -1727,25 +1727,6 @@
           }
         },
         {
-          "id": "c-dric-g-fichot",
-          "name": "Cédric G. Fichot",
-          "title": "Associate Professor, Director of Center for Remote Sensing",
-          "sub_field": "Coastal Biogeochemistry & Ocean Remote Sensing",
-          "tags": [
-            "remote sensing",
-            "estuarine biogeochemistry",
-            "marine optics",
-            "water quality",
-            "photochemistry"
-          ],
-          "summary": "Marine scientist focused on estuarine and coastal biogeochemistry and water quality, combining marine optics, remote sensing, organic geochemistry, and photochemistry to understand terrestrial-marine interactions and their disruption by climate change and human activities.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://sites.bu.edu/fichotlab/",
-            "scholar": null
-          }
-        },
-        {
           "id": "jeffrey-geddes",
           "name": "Jeffrey Geddes",
           "title": "Associate Professor",
@@ -2114,19 +2095,23 @@
         },
         {
           "id": "cedric-g-fichot",
-          "name": "Cedric G. Fichot",
-          "title": "Associate Professor",
-          "sub_field": "Coastal and aquatic remote sensing / biogeochemistry",
+          "name": "Cédric G. Fichot",
+          "title": "Associate Professor, Director of Center for Remote Sensing",
+          "sub_field": "Coastal Biogeochemistry & Ocean Remote Sensing",
           "tags": [
             "remote sensing",
+            "estuarine biogeochemistry",
+            "marine optics",
+            "water quality",
+            "photochemistry",
             "coastal",
             "biogeochemistry",
             "ocean color"
           ],
-          "summary": "Associate Professor and Director of the Center for Remote Sensing studying coastal carbon cycling using optical remote sensing.",
+          "summary": "Marine scientist focused on estuarine and coastal biogeochemistry and water quality, combining marine optics, remote sensing, organic geochemistry, and photochemistry to understand terrestrial-marine interactions and their disruption by climate change and human activities.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
+            "homepage": "https://sites.bu.edu/fichotlab/",
             "scholar": null
           }
         },
@@ -8622,25 +8607,6 @@
           }
         },
         {
-          "id": "sof-a-p-rez-guzm-n",
-          "name": "Sofía Pérez-Guzmán",
-          "title": "Assistant Professor",
-          "sub_field": "Transportation Systems",
-          "tags": [
-            "freight transportation",
-            "urban logistics",
-            "supply chains",
-            "emergency logistics",
-            "behavioral modeling"
-          ],
-          "summary": "Advances freight transportation and supply chain systems through a human-centered lens, focusing on urban freight, emergency logistics, and urban food systems. Integrates optimization, simulation, and behavioral modeling to address accessibility, sustainability, and operational resilience in logistics.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://spg.ce.gatech.edu/",
-            "scholar": "https://scholar.google.com/citations?hl=en&user=vFhSZ_EAAAAJ"
-          }
-        },
-        {
           "id": "yi-chang-james-tsai",
           "name": "Yi-Chang James Tsai",
           "title": "Professor",
@@ -9146,20 +9112,24 @@
         },
         {
           "id": "sofia-perez-guzman",
-          "name": "Sofia Perez-Guzman",
+          "name": "Sofía Pérez-Guzmán",
           "title": "Assistant Professor",
-          "sub_field": "Freight transportation and logistics",
+          "sub_field": "Transportation Systems",
           "tags": [
+            "freight transportation",
+            "urban logistics",
+            "supply chains",
+            "emergency logistics",
+            "behavioral modeling",
             "transportation",
             "freight",
-            "logistics",
-            "supply chain"
+            "logistics"
           ],
-          "summary": "Assistant Professor researching freight transportation, logistics, and urban goods movement.",
+          "summary": "Advances freight transportation and supply chain systems through a human-centered lens, focusing on urban freight, emergency logistics, and urban food systems. Integrates optimization, simulation, and behavioral modeling to address accessibility, sustainability, and operational resilience in logistics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": null,
-            "scholar": null
+            "homepage": "https://spg.ce.gatech.edu/",
+            "scholar": "https://scholar.google.com/citations?hl=en&user=vFhSZ_EAAAAJ"
           }
         },
         {
@@ -12183,24 +12153,6 @@
           }
         },
         {
-          "id": "lesliam-quir-s-alcal",
-          "name": "Lesliam Quirós-Alcalá",
-          "title": "Associate Professor",
-          "sub_field": "Exposure science and environmental epidemiology",
-          "tags": [
-            "exposure science",
-            "environmental epidemiology",
-            "chemical exposures",
-            "vulnerable populations"
-          ],
-          "summary": "Leverages expertise in exposure science and environmental epidemiology to investigate the potential health impacts of chemical exposures on high-risk populations.",
-          "recruitment_status": "Unknown/Verify",
-          "links": {
-            "homepage": "https://publichealth.jhu.edu/faculty/3864/lesliam-quiros-alcala",
-            "scholar": null
-          }
-        },
-        {
           "id": "gurumurthy-ramachandran",
           "name": "Gurumurthy Ramachandran",
           "title": "Professor",
@@ -12583,16 +12535,18 @@
         },
         {
           "id": "lesliam-quiros-alcala",
-          "name": "Lesliam Quiros-Alcala",
-          "title": "Assistant Professor",
-          "sub_field": "Environmental exposures and health disparities",
+          "name": "Lesliam Quirós-Alcalá",
+          "title": "Associate Professor",
+          "sub_field": "Exposure science and environmental epidemiology",
           "tags": [
-            "EDCs",
+            "exposure science",
+            "environmental epidemiology",
             "chemical exposures",
             "vulnerable populations",
+            "EDCs",
             "ESEE"
           ],
-          "summary": "ESEE track faculty studying the impact of exposure to chemicals, EDCs and PPCPs on disease risks in vulnerable populations.",
+          "summary": "Leverages expertise in exposure science and environmental epidemiology to investigate the potential health impacts of chemical exposures on high-risk populations.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://publichealth.jhu.edu/faculty/3864/lesliam-quiros-alcala",
@@ -60193,6 +60147,1070 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "http://www.cswr.org/",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "oregon-state-university-oceanography-oeas",
+      "university": "Oregon State University",
+      "program_name": "Oceanography (Ocean, Earth, and Atmospheric Sciences)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Geosciences",
+        "subs": [
+          "Oceanography",
+          "Physical Oceanography",
+          "Biological Oceanography",
+          "Chemical Oceanography",
+          "Marine Science",
+          "Biogeochemistry"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify — the Fall 2027 date is not yet posted. CEOAS currently states \"The CEOAS application deadline is December 15, 2025 for all majors\" (Fall 2026 entry). Dec 15 is the recurring deadline, so Dec 15, 2026 is likely for Fall 2027 — reverify ~Sept 2026.",
+        "application_fee_usd": 85,
+        "fee_display": "$85 non-refundable (OSU catalog). A domestic/international split was not stated on an official page.",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Unknown/Verify — graduate.oregonstate.edu did not resolve during the scan, so the regular minimum could not be confirmed. The OSU catalog documents only transitional-admission thresholds (TOEFL iBT 61–79, IELTS 6.0), which implies but does not state a regular minimum of iBT 80. TOEFL institution code 4586; scores valid 2 years; requirement waived for degree-holders from OSU's listed English-speaking countries.",
+        "admission_model": "Direct Advisor Match",
+        "admission_model_note": "CEOAS states that a faculty member's agreement to serve as research mentor is required before admission, and instructs applicants to identify and contact potential mentors before applying.",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "CEOAS states: \"Graduate teaching or research assistantships provide a monthly stipend, tuition remission and subsidized health insurance.\" Applicants are advised to indicate interest in both GTA and GRA positions to maximize their chances. All materials must be submitted by the Dec 15 deadline to be considered for support (domestic and international alike). Response deadline for funded offers is April 15. No explicit multi-year guarantee is published, so status is Unknown/Verify."
+        },
+        "pre_application_contact": "Encouraged",
+        "contact_note": "Strongly encouraged and effectively required: \"Start researching possible faculty mentors early and be persistent... Then contact them via email or telephone to let them know you are applying and you are interested in their research.\" A faculty member's agreement to serve as research mentor is required before admission. Note that every CEOAS faculty profile carries an official \"Graduate students: Accepting for advising / Not accepting at this time\" flag — the recruitment status on each advisor card below comes from that flag, as fetched 2026-07-15.",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://ceoas.oregonstate.edu/ocean-earth-and-atmospheric-sciences-graduate-program",
+        "admissions": "https://ceoas.oregonstate.edu/how-apply"
+      },
+      "data_currency": "Scanned 2026-07-15 from ceoas.oregonstate.edu (directory + individual faculty profiles) and the OSU catalog — verify deadlines/fees before relying on them. GRE recorded as Optional from \"The GRE is no longer required\"; the page does not say whether scores are still considered.",
+      "faculty": [
+        {
+          "id": "dawn-barlow",
+          "name": "Dawn Barlow",
+          "title": "Assistant Professor (Senior Research), Marine Mammal Institute",
+          "sub_field": "Biological Oceanography",
+          "tags": [
+            "marine predator ecology",
+            "whales",
+            "species distribution modeling",
+            "bioacoustics",
+            "spatial statistics",
+            "conservation"
+          ],
+          "summary": "Studies the ecology and conservation of pelagic predators such as whales, dolphins, porpoises and seabirds, asking what drives when and where they are found and how their distributions overlap with human activities. Uses species distribution modeling, spatial statistics, bioacoustics and oceanographic data at the intersection of biological oceanography, ecology and applied conservation management.",
+          "recruitment_status": "Not Advising",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/dawn-barlow",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrew-barnard",
+          "name": "Andrew Barnard",
+          "title": "Associate Professor (Senior Research)",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "His official CEOAS profile lists no research description beyond his title and Oceanography unit affiliation.",
+          "recruitment_status": "Not Advising",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/andrew-barnard",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jack-barth",
+          "name": "Jack Barth",
+          "title": "University Distinguished Professor of Oceanography",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "coastal ocean dynamics",
+            "hypoxia",
+            "continental shelf",
+            "eastern boundary currents",
+            "ocean observing",
+            "marine ecosystems"
+          ],
+          "summary": "Works on coastal ocean dynamics, coastal marine ecosystems, hypoxia, inner continental shelf dynamics, flow-topography interactions and eastern boundary currents and their associated jets and eddies. Uses high-resolution observations from the inner continental shelf to the adjacent deep ocean in an eastern boundary current upwelling system, and develops ocean observing systems.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/jack-barth",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kim-bernard",
+          "name": "Kim Bernard",
+          "title": "Professor",
+          "sub_field": "Biological Oceanography",
+          "tags": [
+            "polar zooplankton ecology",
+            "krill",
+            "plankton community structure",
+            "trophic interactions",
+            "climate change",
+            "Antarctica"
+          ],
+          "summary": "Seeks to understand how natural and anthropogenic forces influence plankton community structure and trophic interactions in marine pelagic ecosystems, with a research focus on polar zooplankton ecology. Leads the Zooplankton Ecology Lab studying how climate change and other anthropogenic disturbances alter zooplankton ecology at individual, population and community levels.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/kim-bernard",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kristen-caison-buck",
+          "name": "Kristen (Caison) Buck",
+          "title": "Professor",
+          "sub_field": "Chemical Oceanography",
+          "tags": [
+            "trace metal biogeochemistry",
+            "organic ligands",
+            "iron",
+            "copper",
+            "seawater speciation",
+            "elemental cycles"
+          ],
+          "summary": "Research focuses on the interface between marine chemistry and ocean ecosystems, with particular emphasis on the role of metal-binding organic ligands in the cycling and bioavailability of trace metals including iron, copper and nickel. Iron is an essential micronutrient whose scarcity limits primary productivity across large regions of the global ocean, while copper is a common anthropogenic contaminant to estuaries and the coastal ocean.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/kristen-buck",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lorenzo-ciannelli",
+          "name": "Lorenzo Ciannelli",
+          "title": "Professor, Associate Dean for Graduate Programs",
+          "sub_field": "Biological Oceanography",
+          "tags": [
+            "fisheries oceanography",
+            "spatial ecology",
+            "fish early life stages",
+            "marine populations",
+            "predator-prey interactions",
+            "survey data analysis"
+          ],
+          "summary": "Primary research focus is fisheries oceanography and marine ecology, studying the causes of temporal and spatial variation of marine populations as well as the management implications of the factors involved. A substantial fraction of the work revolves around early life stages of fish, alongside adult stage ecology and predator-prey trophic interactions in marine ecosystems.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/lorenzo-ciannelli",
+            "scholar": null
+          }
+        },
+        {
+          "id": "byron-crump",
+          "name": "Byron Crump",
+          "title": "Professor",
+          "sub_field": "Biological Oceanography",
+          "tags": [
+            "aquatic microbial ecology",
+            "bacterial biogeography",
+            "nutrient cycling",
+            "microbial food webs",
+            "estuaries",
+            "organic matter"
+          ],
+          "summary": "Studies aquatic microbial ecology in marine, estuarine and freshwater ecosystems, including bacterial and archaeal biogeography, organic matter and nutrient cycling, microbial food web structure, and the composition and development of microbial communities. Also examines the influence of hydrodynamics and particle cycling on microbial activity.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/byron-crump",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jesse-cusack",
+          "name": "Jesse Cusack",
+          "title": "Assistant Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "turbulence",
+            "internal waves",
+            "eddies",
+            "flow over topography",
+            "mesoscale processes",
+            "ocean mixing"
+          ],
+          "summary": "Studies small to mesoscale ocean processes such as turbulence, flows over topography, internal waves and eddies.",
+          "recruitment_status": "Not Advising",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/jesse-cusack",
+            "scholar": null
+          }
+        },
+        {
+          "id": "edward-dever",
+          "name": "Edward Dever",
+          "title": "Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "cross-shelf exchange",
+            "Lagrangian transport",
+            "air-sea interaction",
+            "moored time series",
+            "surface drifters",
+            "ocean observing"
+          ],
+          "summary": "Research interests include cross-shelf exchange processes, the analysis and prediction of Lagrangian transport, and air-sea interaction, using analysis of physical oceanographic and meteorological data (primarily moored time series and surface drifters) and analytical models. Has played a leadership role in the design, construction and operation of the NSF Ocean Observatories Initiative.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/edward-dever",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emily-eidam",
+          "name": "Emily Eidam",
+          "title": "Associate Professor",
+          "sub_field": "Geological Oceanography",
+          "tags": [
+            "sediment transport",
+            "continental shelf deposition",
+            "coastal sedimentology",
+            "Arctic",
+            "fluvial systems",
+            "seabed processes"
+          ],
+          "summary": "Studies the transfer of sediment through riverine and coastal environments, as well as short-timescale depositional histories from fortnightly to centennial timescales. Much of this work is centered in the Arctic and sub-Arctic, where rapidly changing environmental conditions drive changes in how sediments are dispersed through fluvial systems and deposited and reworked on continental shelves.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/emily-eidam",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jennifer-fehrenbacher",
+          "name": "Jennifer Fehrenbacher",
+          "title": "Associate Professor, Interim Program Director for Ocean, Earth, and Atmospheric Sciences Graduate Program",
+          "sub_field": "Geological Oceanography",
+          "tags": [
+            "trace element geochemistry",
+            "stable isotopes",
+            "biomineralization",
+            "foraminifera",
+            "paleoproxies",
+            "marine calcifiers"
+          ],
+          "summary": "Combines trace element and stable isotope geochemistry, biomineralization and marine biology, developing and using proxies (primarily trace elements in marine calcifiers) to reconstruct ocean circulation, temperature and chemistry in the past. Asks how marine calcifiers make their shells and how they control trace element/Ca ratios relative to seawater, which underpins the use of those ratios as paleo-proxies.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/jennifer-fehrenbacher",
+            "scholar": null
+          }
+        },
+        {
+          "id": "melanie-fewings",
+          "name": "Melanie Fewings",
+          "title": "Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "coastal physical oceanography",
+            "observational oceanography",
+            "meteorology",
+            "air-sea interaction"
+          ],
+          "summary": "Works on observational coastal physical oceanography and meteorology.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/melanie-fewings",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jonathan-fram",
+          "name": "Jonathan Fram",
+          "title": "Associate Professor (Senior Research), OOI Endurance Array Project Manager",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "environmental fluid mechanics",
+            "ocean observatories",
+            "nutrient dynamics",
+            "kelp beds",
+            "coral reefs",
+            "tidal marshes"
+          ],
+          "summary": "Co-PI and Project Manager for the Endurance Array portion of the Ocean Observatories Initiative; his field of research is environmental fluid mechanics. Previously delineated physical processes that affected nutrient dynamics in biogeochemical hotspots including kelp beds, coral reefs, Arctic lakes and vegetated tidal marshes.",
+          "recruitment_status": "Not Advising",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/jonathan-fram",
+            "scholar": null
+          }
+        },
+        {
+          "id": "amrapalli-garanaik",
+          "name": "Amrapalli Garanaik",
+          "title": "Assistant Professor (Senior Research)",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "geophysical fluid dynamics",
+            "turbulent mixing",
+            "ocean transport",
+            "environmental fluid dynamics",
+            "climate"
+          ],
+          "summary": "Works on geophysical and environmental fluid dynamics, with a focus on turbulent mixing and transport in oceanic flows and their critical impact on Earth's climate and ecosystems.",
+          "recruitment_status": "Not Advising",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/amrapalli-garanaik",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jessica-garwood",
+          "name": "Jessica Garwood",
+          "title": "Assistant Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "physical-biological interactions",
+            "plankton transport",
+            "sediment transport",
+            "small-scale processes"
+          ],
+          "summary": "Studies small-scale physical-biological interactions in the ocean, especially their implications for transport of plankton or sediment.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/jessica-garwood",
+            "scholar": null
+          }
+        },
+        {
+          "id": "miguel-goni",
+          "name": "Miguel Goñi",
+          "title": "Professor",
+          "sub_field": "Chemical Oceanography",
+          "tags": [
+            "organic matter cycling",
+            "biogeochemical cycles",
+            "river-dominated margins",
+            "estuaries",
+            "carbon export",
+            "deltas"
+          ],
+          "summary": "Seeks to better understand the cycling of natural organic matter in the earth's surface, mainly in aquatic environments such as oceans, estuaries, rivers, groundwater and lakes, and to elucidate the role that organic matter plays in the global biogeochemical cycles of major elements such as carbon, oxygen and nitrogen. Ongoing research includes organic matter cycling in river-dominated ocean margins including deltas and estuaries, and factors controlling the generation and export of organic matt",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/miguel-go%C3%B1i",
+            "scholar": "https://scholar.google.com/citations?hl=en&user=YurEjvYAAAAJ&view_op=list_works"
+          }
+        },
+        {
+          "id": "burke-hales",
+          "name": "Burke Hales",
+          "title": "Professor",
+          "sub_field": "Chemical Oceanography",
+          "tags": [
+            "ocean carbon cycling",
+            "ocean acidification",
+            "carbonate chemistry",
+            "hypoxia",
+            "chemical sensors",
+            "coastal oceanography"
+          ],
+          "summary": "Works on biogeochemical oceanography, including ocean-margin carbon cycling and the processes impacting the state of aqueous carbonate chemistry in estuarine and coastal waters and their effects on ocean acidification and hypoxia. Also analyzes the physics, biology and chemistry of the coastal and surface ocean using high-speed sampling and analysis systems, and develops sensors for robust measurement of ocean chemistry.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/burke-hales",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-harte",
+          "name": "Michael Harte",
+          "title": "Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [
+            "marine geography",
+            "fisheries policy",
+            "marine resource management",
+            "marine spatial planning",
+            "co-management",
+            "ecosystem services"
+          ],
+          "summary": "A marine geographer who studies sustainable management of marine resources. Academic research addresses fisheries policy and the wider subject of sustainable management of marine resources, with interdisciplinary interests in rights-based fishery management systems, capacity building, co-management of coastal marine resources, marine ecosystem services and marine spatial planning.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/michael-harte",
+            "scholar": null
+          }
+        },
+        {
+          "id": "samara-haver",
+          "name": "Samara Haver",
+          "title": "Assistant Professor (Senior Research), CIMERS",
+          "sub_field": "Biological Oceanography",
+          "tags": [
+            "passive acoustic monitoring",
+            "soundscapes",
+            "ocean noise",
+            "marine species",
+            "underwater acoustics"
+          ],
+          "summary": "Uses passive acoustic monitoring to understand underwater environments and marine species, with a special focus on soundscapes and ocean noise.",
+          "recruitment_status": "Not Advising",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/samara-haver",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lauren-laurie-juranek",
+          "name": "Lauren (Laurie) Juranek",
+          "title": "Professor",
+          "sub_field": "Chemical Oceanography",
+          "tags": [
+            "dissolved gases",
+            "isotope biogeochemistry",
+            "biological pump",
+            "marine carbon cycle",
+            "Arctic productivity",
+            "Southern Ocean"
+          ],
+          "summary": "Works on dissolved gases, isotope biogeochemistry, the marine biological pump and the marine carbon cycle. Projects include late-season productivity, carbon and nutrients in a changing Arctic, model-driven investigations of oceanic transition zones (SCOPE-Gradients), and Southern Ocean Carbon and Climate Modeling (SOCCOM).",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/lauren-laurie-juranek",
+            "scholar": null
+          }
+        },
+        {
+          "id": "maria-kavanaugh",
+          "name": "Maria Kavanaugh",
+          "title": "Associate Professor",
+          "sub_field": "Ocean Ecology and Biogeochemistry",
+          "tags": [
+            "seascape ecology",
+            "remote sensing",
+            "global change",
+            "marine ecosystems"
+          ],
+          "summary": "Works on seascape ecology, remote sensing and global change.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/maria-kavanaugh",
+            "scholar": null
+          }
+        },
+        {
+          "id": "p-michael-mike-kosro",
+          "name": "P. Michael (Mike) Kosro",
+          "title": "Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "coastal oceanography",
+            "shelf/deep-sea exchange",
+            "eastern boundary currents",
+            "remote sensing",
+            "ocean acoustics",
+            "ocean circulation"
+          ],
+          "summary": "Studies coastal oceanography, shelf/deep-sea exchange processes, eastern boundary currents (including the California and Peru/Chile systems), remote sensing, ocean acoustics and ocean circulation.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/p-michael-mike-kosro",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andone-lavery",
+          "name": "Andone Lavery",
+          "title": "Executive Director of the Gaulke Center for Marine Innovation and Technology",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "Her official CEOAS profile lists no research description beyond her title and Oceanography unit affiliation.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/andone-lavery",
+            "scholar": null
+          }
+        },
+        {
+          "id": "astrid-leitner",
+          "name": "Astrid Leitner",
+          "title": "Assistant Professor",
+          "sub_field": "Biological Oceanography",
+          "tags": [
+            "deep sea ecology",
+            "bathymetry",
+            "seamounts",
+            "marine animal behavior",
+            "benthic ecology"
+          ],
+          "summary": "Studies the impacts of abrupt and complex bathymetry across scales on the ecology and behavior of marine animals, with a special focus on the deep sea.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/astrid-leitner",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jim-lerczak",
+          "name": "Jim Lerczak",
+          "title": "Professor and Associate Dean for Research",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "coastal physical oceanography",
+            "internal tides",
+            "internal waves",
+            "estuarine circulation",
+            "fronts",
+            "larval dispersal"
+          ],
+          "summary": "Works on coastal physical oceanography including the study of internal tides, high-frequency internal waves and circulation in the vicinity of fronts; estuarine oceanography including the dynamics that drive three-dimensional circulation and the mechanisms that transport and disperse materials within estuaries; and physical/biological interactions which influence larval dispersal.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/jim-lerczak",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ricardo-letelier",
+          "name": "Ricardo Letelier",
+          "title": "Professor",
+          "sub_field": "Ocean Ecology and Biogeochemistry",
+          "tags": [
+            "marine pelagic microorganisms",
+            "biogeochemical cycles",
+            "nitrogen fixation",
+            "photosynthesis",
+            "chlorophyll fluorescence",
+            "primary productivity"
+          ],
+          "summary": "Studies the scales of response of marine pelagic microorganisms, populations and communities to environmental perturbations, and the role of these responses on biogeochemical cycles, primary productivity, nitrogen fixation, photosynthesis and chlorophyll passive (solar-induced) fluorescence, along with the physical and chemical factors controlling these processes.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/ricardo-letelier",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ricardo-matano",
+          "name": "Ricardo Matano",
+          "title": "Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "large-scale ocean circulation",
+            "western boundary currents",
+            "ocean modeling",
+            "geophysical fluid dynamics",
+            "Southern Ocean",
+            "shelf circulation"
+          ],
+          "summary": "Works on large-scale ocean circulation, the dynamics of western boundary currents, ocean modeling, geophysical fluid dynamics and the circulation in the Southern Ocean. Specific interests include the low-frequency variability of the South Atlantic and South Indian Ocean circulation, interocean exchanges, and the shelf circulation in the southwestern Atlantic.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/ricardo-matano",
+            "scholar": null
+          }
+        },
+        {
+          "id": "erin-mcparland",
+          "name": "Erin McParland",
+          "title": "Assistant Professor",
+          "sub_field": "Ocean Ecology and Biogeochemistry",
+          "tags": [
+            "metabolomics",
+            "marine microbes",
+            "carbon cycling",
+            "marine biogeochemistry"
+          ],
+          "summary": "Uses metabolomics and other techniques to understand the cycling of carbon by marine microbes.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/erin-mcparland",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-mellinger",
+          "name": "David Mellinger",
+          "title": "Professor (Senior Research)",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "His official CEOAS profile lists no research description beyond his title and Oceanography unit affiliation.",
+          "recruitment_status": "Not Advising",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/david-mellinger",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tuba-ozkan-haller",
+          "name": "Tuba Ozkan-Haller",
+          "title": "Dean and Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "nearshore circulation modeling",
+            "data assimilation",
+            "surf zone",
+            "wave propagation",
+            "sediment transport",
+            "nearshore morphology"
+          ],
+          "summary": "Works on near-shore circulation modeling, data assimilation in the near-shore region, time-series analysis techniques, water-wave propagation, sediment suspension and transport, and evolution of the near-shore morphology. Projects include prediction of low-frequency motions in the near-shore zone and shear instabilities of the surf-zone long-shore current.",
+          "recruitment_status": "Not Advising",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/tuba-ozkan-haller",
+            "scholar": null
+          }
+        },
+        {
+          "id": "brodie-pearson",
+          "name": "Brodie Pearson",
+          "title": "Assistant Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "ocean turbulence",
+            "mixing parameterization",
+            "ocean modeling",
+            "climate"
+          ],
+          "summary": "Studies the physics of mixing processes (i.e. turbulence) in the ocean, develops new ways to add this mixing to computer models of the ocean, and assesses the impacts of this mixing on the Earth system and its climate.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/brodie-pearson",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kipp-shearman",
+          "name": "Kipp Shearman",
+          "title": "Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "coastal physical oceanography",
+            "autonomous underwater vehicles",
+            "density field",
+            "shelf circulation",
+            "observational oceanography"
+          ],
+          "summary": "Studies physical processes in the coastal ocean, and is most interested in understanding the dynamics of the evolving structure of the density field over the shelf, how it is affected by external forcing and how it in turn affects the circulation within the coastal ocean. The approach is observational, using innovative sampling techniques such as Autonomous Underwater Vehicles coupled with modeling and analysis.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/kipp-shearman",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yvette-spitz",
+          "name": "Yvette Spitz",
+          "title": "Professor,  Program Director for Oceanography, Oceanography Unit Chair",
+          "sub_field": "Ocean Ecology and Biogeochemistry",
+          "tags": [
+            "coupled physical-biological models",
+            "data assimilation",
+            "marine ecosystems",
+            "ocean color",
+            "carbon cycle",
+            "upwelling"
+          ],
+          "summary": "Investigates the main pathways in marine ecosystems and develops coupled physical-biological models. Uses data-assimilative models in conjunction with observations from long-term time series and ocean color data to modify model pathways and estimate model parameters and errors for the North Pacific carbon cycle, and models ecosystem response to upwelling off the Oregon coast.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/yvette-spitz",
+            "scholar": null
+          }
+        },
+        {
+          "id": "george-waldbusser",
+          "name": "George Waldbusser",
+          "title": "Professor",
+          "sub_field": "Ocean Ecology and Biogeochemistry",
+          "tags": [
+            "benthic ecology",
+            "sediment biogeochemistry",
+            "ocean acidification",
+            "bivalves",
+            "tidal flat ecology",
+            "sedimentary habitats"
+          ],
+          "summary": "Works on benthic ecology and sediment biogeochemistry: the role of organisms in modifying physical and biogeochemical processes in sediments, species interactions in sediments, coastal and estuarine acidification effects on bivalves, the importance of benthic habitats in biogeochemical cycling, and tidal flat ecology.",
+          "recruitment_status": "Not Advising",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/george-waldbusser",
+            "scholar": "https://scholar.google.com/citations?hl=en&user=q8krd1QAAAAJ"
+          }
+        },
+        {
+          "id": "greg-wilson",
+          "name": "Greg Wilson",
+          "title": "Associate Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "nearshore processes",
+            "waves",
+            "currents",
+            "sediment transport",
+            "data assimilation",
+            "rip currents"
+          ],
+          "summary": "Research involves the physics of the nearshore coastal ocean including waves, currents and sediment transport, using new observational and modeling tools and often a probabilistic approach. Work includes measuring statistics of fluid-sediment interaction at the seabed using acoustics, instrumenting beaches to measure shoaling and breaking waves, and using beach cameras with model-data assimilation to improve forecasts of nearshore currents such as rip currents.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/greg-wilson",
+            "scholar": null
+          }
+        },
+        {
+          "id": "edward-ed-zaron",
+          "name": "Edward (Ed) Zaron",
+          "title": "Associate Professor (Senior Research)",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "ocean modeling",
+            "data assimilation",
+            "satellite altimetry",
+            "geophysical fluid dynamics"
+          ],
+          "summary": "Works on ocean modeling and data assimilation, satellite altimetry, and geophysical fluid dynamics.",
+          "recruitment_status": "Not Advising",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/edward-ed-zaron",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tamara-baumberger",
+          "name": "Tamara Baumberger",
+          "title": "Assistant Professor (Senior Research)",
+          "sub_field": "Chemical Oceanography",
+          "tags": [
+            "hydrothermal vents",
+            "methane seeps",
+            "gas chemistry",
+            "carbon cycle",
+            "noble gases"
+          ],
+          "summary": "Studies the gas chemistry of hydrothermal vents and methane seeps with a special interest in the carbon cycle and noble gas chemistry.",
+          "recruitment_status": "Not Advising",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/tamara-baumberger",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeffrey-beeson",
+          "name": "Jeffrey Beeson",
+          "title": "Assistant Professor",
+          "sub_field": "Geological Oceanography",
+          "tags": [
+            "seafloor imaging",
+            "plate boundary tectonics",
+            "methane seepage",
+            "submarine volcanism",
+            "marine geophysics"
+          ],
+          "summary": "Uses seafloor and subseafloor imaging to explore the dynamics of plate boundary tectonics, methane seepage and submarine volcanism.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/jeffrey-beeson",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jessica-jc-creveling",
+          "name": "Jessica (JC) Creveling",
+          "title": "Associate Professor",
+          "sub_field": "Geological Oceanography",
+          "tags": [
+            "sea-level change",
+            "paleoceanography",
+            "stratigraphy",
+            "sedimentary record",
+            "ice ages",
+            "geophysical modeling"
+          ],
+          "summary": "Examines sea-level change throughout Earth's ice ages and the attendant paleoceanographic, paleoclimatological and paleoecological shifts. Current work integrates field observation of the sedimentary record with global geophysical numerical models to refine estimates of past sea level heights for both warmer and colder intervals in Earth's history.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/jessica-jc-creveling",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kevin-konrad",
+          "name": "Kevin Konrad",
+          "title": "Assistant Professor",
+          "sub_field": "Geological Oceanography",
+          "tags": [
+            "noble gas geochronology",
+            "marine geology",
+            "mantle geodynamics",
+            "volcanism"
+          ],
+          "summary": "Works on noble gas geochronology, marine geology, mantle geodynamics and volcanism.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/kevin-konrad",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mitchell-lyle",
+          "name": "Mitchell Lyle",
+          "title": "Professor (Senior Research)",
+          "sub_field": "Geological Oceanography",
+          "tags": [
+            "paleoproductivity",
+            "ocean carbon cycling",
+            "geochemical tracers",
+            "seismic stratigraphy",
+            "pelagic sedimentation",
+            "IODP"
+          ],
+          "summary": "Reconstructs Cenozoic-Holocene Earth systems from sediment composition and deposition patterns. Current research includes Miocene equatorial Pacific paleoproductivity from XRF scanning, ocean carbon cycling, geochemical tracers of sediment flux, redistribution and sorting, Neogene evolution of Arabian Sea sedimentation (IODP Expedition 355), and seismic stratigraphy and pelagic sedimentation.",
+          "recruitment_status": "Not Advising",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/mitchell-lyle",
+            "scholar": null
+          }
+        },
+        {
+          "id": "peter-ruggiero",
+          "name": "Peter Ruggiero",
+          "title": "Professor",
+          "sub_field": "Geological Oceanography",
+          "tags": [
+            "coastal geomorphology",
+            "coastal hazards",
+            "nearshore processes",
+            "nearshore morphodynamics",
+            "coastal flooding",
+            "coastal change"
+          ],
+          "summary": "Works on coastal geomorphology (nearshore morphodynamics, modeling coastal evolution, large-scale coastal behavior), coastal hazards (impact of climate change and variability on coastal change and flood hazards, modeling the coupled human-natural system) and nearshore processes (swash processes, dynamics of high-energy dissipative beaches).",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/peter-ruggiero",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joseph-stoner",
+          "name": "Joseph Stoner",
+          "title": "Professor",
+          "sub_field": "Geological Oceanography",
+          "tags": [
+            "sediment magnetism",
+            "paleomagnetism",
+            "stratigraphy",
+            "paleoclimatology",
+            "marine sediment cores",
+            "geomagnetism"
+          ],
+          "summary": "Works on sediment magnetism including paleomagnetism, environmental magnetism, geomagnetism, sedimentology, stratigraphy and paleoclimatology. Current research reconstructs space/time patterns of the Holocene geomagnetic field in the Arctic, the Gulf of Alaska, Iceland, East Greenland and the North Atlantic, and the late Pleistocene paleomagnetic record from the Chilean Margin.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/joseph-stoner",
+            "scholar": null
+          }
+        },
+        {
+          "id": "simon-de-szoeke",
+          "name": "Simon de Szoeke",
+          "title": "Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "atmosphere-ocean interaction",
+            "tropical meteorology",
+            "stratiform clouds",
+            "sea surface temperature",
+            "air-sea heat flux",
+            "climate"
+          ],
+          "summary": "Interested in atmosphere-ocean interaction and its influence on the climate, with much of the research focused on the tropics, where the most sunlight results in warm sea surface temperature and strong fluxes of heat from the ocean to the atmosphere, mostly in the form of evaporation.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/simon-de-szoeke",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jennifer-jenny-hutchings",
+          "name": "Jennifer (Jenny) Hutchings",
+          "title": "Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "sea ice dynamics",
+            "sea ice mechanics",
+            "ice rheology",
+            "ice drift forecasting",
+            "Arctic climate",
+            "ocean-atmosphere interaction"
+          ],
+          "summary": "Research interests revolve around sea ice dynamics and mechanics, with active field work supporting validation and development of rheological models of sea ice deformation for climate investigations and ice drift and dispersion forecasting. Interests include ocean-atmosphere interactions as modified by an evolving ice cover, and understanding how changing mechanical properties of the ice pack relate to feedbacks in the arctic climate system.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/jennifer-jenny-hutchings",
+            "scholar": "https://scholar.google.com/citations?user=hMLKf1YAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "jonathan-nash",
+          "name": "Jonathan Nash",
+          "title": "Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "ocean turbulence",
+            "mixing",
+            "internal waves",
+            "autonomous vehicles",
+            "glacier ice melt",
+            "submesoscale"
+          ],
+          "summary": "Explores the physics of turbulence and mixing as key to understanding ocean dynamics, using innovative instrumentation, detailed analysis and simple dynamical models to understand the generation and evolution of turbulence and quantify irreversible fluxes of heat, salt, biology, chemicals and momentum. Applications include buoyant ice-melt plumes that bring heat toward glaciers, heat and carbon fluxes controlling air-sea exchange, turbulent diffusion of nutrients and plankton, and sediment trans",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/jonathan-nash",
+            "scholar": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=wxzHt88AAAAJ"
+          }
+        },
+        {
+          "id": "larry-o-neill",
+          "name": "Larry O'Neill",
+          "title": "Associate Professor and Director of the Oregon Climate Service",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "air-sea interaction",
+            "satellite oceanography",
+            "surface winds",
+            "ocean circulation",
+            "ocean mixed layer",
+            "North Pacific"
+          ],
+          "summary": "Studies the influence of air-sea interactions on climate variability of the North Pacific and North America, the variability of surface winds over the ocean and their consequences for ocean circulation and air-sea heat and momentum exchange, the influences of ocean currents and temperature on air-sea interactions, and the relationship between surface winds, sea surface height and surface ocean currents.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/larry-oneill",
+            "scholar": null
+          }
+        },
+        {
+          "id": "erin-pettit",
+          "name": "Erin Pettit",
+          "title": "Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "ice/ocean interactions",
+            "ice-shelf stability",
+            "glacier dynamics",
+            "ice sheet dynamics",
+            "glaciological geophysics",
+            "ice rheology"
+          ],
+          "summary": "Works on glacier and ice sheet dynamics including ice-shelf stability, ice/ocean interactions, ice rheology and deformation, ice-core climate history, water percolation in firn, englacial and subglacial water movement, and applied geophysical methods in ice such as seismics, acoustics, borehole logging and radar.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/erin-pettit",
+            "scholar": null
+          }
+        },
+        {
+          "id": "roger-samelson",
+          "name": "Roger Samelson",
+          "title": "Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "geophysical fluid dynamics",
+            "ocean thermodynamics",
+            "coastal meteorology",
+            "arctic meteorology",
+            "nonlinear dynamics"
+          ],
+          "summary": "Works on the fluid dynamics and thermodynamics of the ocean and atmosphere, coastal and arctic meteorology, and nonlinear dynamics of geophysical fluids.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/roger-samelson",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andreas-schmittner",
+          "name": "Andreas Schmittner",
+          "title": "Professor",
+          "sub_field": "Ocean Ecology and Biogeochemistry",
+          "tags": [
+            "ocean biogeochemical cycles",
+            "ocean circulation",
+            "paleoclimate",
+            "meridional overturning",
+            "carbon cycle",
+            "climate modeling"
+          ],
+          "summary": "Works on climate change, ocean biogeochemical cycles, interactions in the climate system, paleoclimate and ocean circulation. Projects include mixing and the meridional overturning circulation in the modern and glacial ocean, Antarctic ice sheet-ocean-carbon cycle interactions during the last deglaciation, modeling the ocean distribution of neodymium isotopes, and quantifying the modern and glacial ocean's carbon cycle including isotopes.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/andreas-schmittner",
+            "scholar": null
+          }
+        },
+        {
+          "id": "eric-skyllingstad",
+          "name": "Eric Skyllingstad",
+          "title": "Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "upper ocean turbulence",
+            "internal waves",
+            "ocean-atmosphere coupling",
+            "large eddy simulation",
+            "coastal circulation",
+            "sea ice"
+          ],
+          "summary": "Works on upper ocean turbulence, mesoscale coastal internal waves and ocean-atmosphere coupling, including simulation of coastal circulations, modeling of turbulence under sea ice and leads, and resonant interaction between surface winds and upper ocean turbulence.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/eric-skyllingstad",
+            "scholar": null
+          }
+        },
+        {
+          "id": "seth-zippel",
+          "name": "Seth Zippel",
+          "title": "Assistant Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "air-sea interaction",
+            "waves",
+            "wave breaking",
+            "wave/current interaction",
+            "turbulence",
+            "boundary layers"
+          ],
+          "summary": "Studies how the ocean and the atmosphere interact using field measurements from a diverse set of regions including estuaries, the open ocean and the Arctic, spanning waves, wave breaking, wave/current and wave/ice interaction, turbulence and boundary layers.",
+          "recruitment_status": "Not Advising",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/seth-zippel",
+            "scholar": null
+          }
+        },
+        {
+          "id": "james-watson",
+          "name": "James Watson",
+          "title": "Associate Professor",
+          "sub_field": "Ocean Ecology and Biogeochemistry",
+          "tags": [
+            "seascape ecology",
+            "marine spatial planning",
+            "social-ecological systems",
+            "coastal vulnerability",
+            "complex adaptive systems",
+            "quantitative analyses"
+          ],
+          "summary": "Works on complex adaptive systems, environmental science, social-ecological systems and quantitative analyses, including seascape ecology, marine spatial planning and coastal vulnerability.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ceoas.oregonstate.edu/directory/james-watson",
             "scholar": null
           }
         }
