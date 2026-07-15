@@ -4,6 +4,11 @@
 // Idempotent: re-running re-applies staging files. Curated programs that
 // already had faculty BEFORE the scan are protected via the worklist's
 // has_faculty flag. Run: node tracker/scripts/merge-faculty.mjs
+//
+// The merge is an ADDITIVE UNION (adds/updates by slug id, never removes), so
+// enriching a curated program can't lose its hand-written entries. To opt one
+// in explicitly (protection stays on for all others):
+//   MERGE_CURATED=mit-whoi-po-phd,other-id node scripts/merge-faculty.mjs
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -26,6 +31,14 @@ const worklist = JSON.parse(readFileSync(join(STAGING, '_worklist.json'), 'utf8'
 const curated = new Set(
   worklist.tasks.flatMap((t) => t.programs.filter((p) => p.has_faculty).map((p) => p.id)),
 )
+// Explicit per-program opt-in to enrich a curated program (additive, so its
+// curated entries survive). Everything not listed here stays protected.
+const allowCurated = new Set(
+  (process.env.MERGE_CURATED ?? '')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean),
+)
 
 const clip = (v, n, fallback = '') => (typeof v === 'string' ? v.slice(0, n).trim() : fallback)
 
@@ -47,9 +60,12 @@ for (const file of readdirSync(STAGING).sort()) {
     problems.push(`${file}: unknown program_id ${doc.program_id}`)
     continue
   }
-  if (curated.has(prog.id)) {
+  if (curated.has(prog.id) && !allowCurated.has(prog.id)) {
     problems.push(`${file}: skipped — curated program, faculty protected`)
     continue
+  }
+  if (curated.has(prog.id) && allowCurated.has(prog.id)) {
+    problems.push(`${file}: curated program — enriching via MERGE_CURATED opt-in (additive)`)
   }
   if (!Array.isArray(doc.faculty)) {
     problems.push(`${file}: no faculty array`)
@@ -83,8 +99,22 @@ for (const file of readdirSync(STAGING).sort()) {
   // assistant professors the capped first pass dropped) and never remove — so a
   // blocked or partial re-scan can't regress the roster, and manual additions
   // survive.
+  // For a curated program opted in via MERGE_CURATED we go further and ADD ONLY:
+  // its hand-written entries (rich summaries) must not be overwritten by a
+  // scanner's one-liner for the same person.
+  const addOnly = curated.has(prog.id)
   const existingById = new Map((prog.faculty || []).map((f) => [f.id, f]))
-  for (const f of faculty) existingById.set(f.id, f)
+  let kept = 0
+  for (const f of faculty) {
+    if (addOnly && existingById.has(f.id)) {
+      kept++
+      continue
+    }
+    existingById.set(f.id, f)
+  }
+  if (addOnly && kept) {
+    problems.push(`${file}: kept ${kept} curated entr${kept === 1 ? 'y' : 'ies'} (not overwritten)`)
+  }
   prog.faculty = [...existingById.values()]
   if (typeof doc.scanned_at === 'string' && doc.scanned_at) {
     prog.data_currency = `${prog.data_currency.split(' · faculty ')[0]} · faculty ${doc.scanned_at}`

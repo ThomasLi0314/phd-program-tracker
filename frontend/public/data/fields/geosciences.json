@@ -226,7 +226,7 @@
         "program": "https://mit-whoi.edu/",
         "admissions": "https://mit-whoi.edu/apply/"
       },
-      "data_currency": "MOCK entry for UI testing — values illustrative; verify against mit-whoi.edu before use.",
+      "data_currency": "MOCK entry for UI testing — values illustrative; verify against mit-whoi.edu before use. · faculty 2026-07-10",
       "faculty": [
         {
           "id": "raffaele-ferrari",
@@ -298,6 +298,636 @@
           "links": {
             "homepage": "https://darwinproject.mit.edu/",
             "scholar": null
+          }
+        },
+        {
+          "id": "magdalena-andres",
+          "name": "Magdalena Andres",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Western boundary currents and moored observations",
+          "tags": [
+            "boundary currents",
+            "gulf stream",
+            "pies",
+            "moorings"
+          ],
+          "summary": "Uses moored pressure-sensing inverted echo sounders to observe transport and variability of western boundary currents including the Gulf Stream.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "amy-bower",
+          "name": "Amy Bower",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Deep ocean circulation and Lagrangian floats",
+          "tags": [
+            "rafos floats",
+            "thermohaline circulation",
+            "lagrangian",
+            "subpolar atlantic"
+          ],
+          "summary": "Studies large-scale deep ocean circulation using RAFOS float deployments in the Gulf of Mexico and subpolar North Atlantic.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/bower-lab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "claudia-cenedese",
+          "name": "Claudia Cenedese",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Geophysical fluid dynamics laboratory experiments",
+          "tags": [
+            "mesoscale vortices",
+            "overflows",
+            "icebergs",
+            "buoyant plumes"
+          ],
+          "summary": "Uses laboratory experiments and theory to study buoyancy-driven currents, dense overflows, and iceberg and glacier melt processes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "ke-chen",
+          "name": "Ke Chen",
+          "title": "Associate Scientist, WHOI Physical Oceanography",
+          "sub_field": "Coastal ocean and shelf-ocean exchange",
+          "tags": [
+            "shelfbreak",
+            "warm-core rings",
+            "biogeochemistry",
+            "modeling"
+          ],
+          "summary": "Studies coastal ocean dynamics including shelf circulation, eddies and fronts, and shelfbreak exchange using numerical modeling and observations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/kchen/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "carol-anne-clayson",
+          "name": "Carol Anne Clayson",
+          "title": "Senior Scientist - Part time, WHOI Physical Oceanography",
+          "sub_field": "Air-sea interaction and satellite remote sensing",
+          "tags": [
+            "air-sea interaction",
+            "boundary layer",
+            "remote sensing",
+            "climate"
+          ],
+          "summary": "Studies air-sea boundary-layer processes and develops satellite and in-situ methods to observe their impacts on weather and climate.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cclayson.whoi.edu",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "sylvia-cole",
+          "name": "Sylvia Cole",
+          "title": "Associate Scientist, WHOI Physical Oceanography",
+          "sub_field": "Arctic Ocean dynamics and tracer transport",
+          "tags": [
+            "arctic",
+            "ice-tethered profilers",
+            "eddy diffusivity",
+            "internal waves"
+          ],
+          "summary": "Studies Arctic Ocean dynamics and the mechanisms controlling energy and tracer distribution using Ice-Tethered Profiler data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/scole/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "j-thomas-farrar",
+          "name": "J. Thomas Farrar",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Air-sea fluxes and upper-ocean dynamics",
+          "tags": [
+            "air-sea flux",
+            "satellite oceanography",
+            "swot",
+            "ocean observing"
+          ],
+          "summary": "Studies air-sea heat, freshwater and momentum fluxes and upper-ocean dynamics via buoys, satellites and models; U.S. lead for SWOT.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://jtomfarrar.github.io",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "glen-gawarkiewicz",
+          "name": "Glen Gawarkiewicz",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Coastal and shelfbreak oceanography",
+          "tags": [
+            "shelfbreak fronts",
+            "mid-atlantic bight",
+            "coastal observing",
+            "fisheries"
+          ],
+          "summary": "Studies shelfbreak frontal dynamics and coastal ocean processes in the Mid-Atlantic Bight, engaging fishing communities on changing ocean conditions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "geoffrey-jake-gebbie",
+          "name": "Geoffrey (Jake) Gebbie",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Paleoceanography and ocean state estimation",
+          "tags": [
+            "inverse modeling",
+            "paleoclimate",
+            "state estimation",
+            "microplastics"
+          ],
+          "summary": "Reconstructs past ocean circulation and climate by combining instrumental and paleoceanographic records with inverse and state-estimation modeling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/ggebbie/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "alex-gonzalez",
+          "name": "Alex Gonzalez",
+          "title": "Assistant Scientist II, WHOI Physical Oceanography",
+          "sub_field": "Tropical meteorology and air-sea interaction",
+          "tags": [
+            "itcz",
+            "madden-julian oscillation",
+            "tropical waves",
+            "subseasonal variability"
+          ],
+          "summary": "Studies tropical meteorology and subseasonal-to-seasonal atmosphere-ocean variability, focusing on the ITCZ, MJO and tropical waves.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/tropical/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "momme-claus-hell",
+          "name": "Momme Claus Hell",
+          "title": "Assistant Scientist I, WHOI Physical Oceanography",
+          "sub_field": "Air-sea coupling and surface waves",
+          "tags": [
+            "air-sea coupling",
+            "surface waves",
+            "coupled models",
+            "remote sensing"
+          ],
+          "summary": "Studies air-sea coupling and the impact of surface waves on climate-relevant processes using high-resolution coupled models and remote sensing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mochell.github.io",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "steven-jayne",
+          "name": "Steven Jayne",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Ocean observing systems and general circulation",
+          "tags": [
+            "autonomous sensing",
+            "tropical cyclones",
+            "western boundary currents",
+            "ocean modeling"
+          ],
+          "summary": "Develops autonomous ocean observing systems and studies air-sea interaction in storms plus the ocean's general circulation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/sjayne/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "anthony-kirincich",
+          "name": "Anthony Kirincich",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Coastal shelf exchange and instrumentation",
+          "tags": [
+            "coastal turbulence",
+            "hf radar",
+            "shelf stirring",
+            "instrumentation"
+          ],
+          "summary": "Studies physical mechanisms of exchange and stirring over the continental shelf using observations and custom coastal instrumentation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/akirincich/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "young-oh-kwon",
+          "name": "Young-Oh Kwon",
+          "title": "Senior Scientist and Department Chair, WHOI Physical Oceanography",
+          "sub_field": "Ocean-atmosphere decadal variability",
+          "tags": [
+            "decadal variability",
+            "amoc",
+            "mode water",
+            "western boundary currents"
+          ],
+          "summary": "Studies decadal ocean-atmosphere variability, western boundary currents and AMOC heat transport using long observational records and climate models.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/ykwon/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "isabela-le-bras",
+          "name": "Isabela Le Bras",
+          "title": "Assistant Scientist II, WHOI Physical Oceanography",
+          "sub_field": "AMOC and high-latitude ocean circulation",
+          "tags": [
+            "amoc",
+            "labrador sea",
+            "overturning circulation",
+            "arctic-atlantic"
+          ],
+          "summary": "Observes ocean circulation to understand the Atlantic Meridional Overturning Circulation and Arctic-Atlantic linkages, including OSNAP mooring data.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ilebras.github.io",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "viviane-menezes",
+          "name": "Viviane Menezes",
+          "title": "Assistant Scientist II, WHOI Physical Oceanography",
+          "sub_field": "Southern and Indian Ocean water masses",
+          "tags": [
+            "antarctic bottom water",
+            "salinity",
+            "indian ocean",
+            "air-sea interaction"
+          ],
+          "summary": "Sea-going and satellite oceanographer studying circulation, water-mass formation and salinity in the Indian and Southern Oceans.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/vmenezes/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "robert-pickart",
+          "name": "Robert Pickart",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "High-latitude and Arctic boundary currents",
+          "tags": [
+            "arctic",
+            "deep convection",
+            "shelf-basin exchange",
+            "moorings"
+          ],
+          "summary": "Studies high-latitude processes including air-sea interaction, deep convection and shelf-basin exchange with long-term moored records.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://rpickart.whoi.edu",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "christopher-piecuch",
+          "name": "Christopher Piecuch",
+          "title": "Associate Scientist, WHOI Physical Oceanography",
+          "sub_field": "Sea-level change",
+          "tags": [
+            "sea level rise",
+            "coastal hazards",
+            "statistics",
+            "geodesy"
+          ],
+          "summary": "Studies the physics and statistics of regional and global sea-level change using observations, models and proxy records.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/piecuch/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "albert-plueddemann",
+          "name": "Albert Plueddemann",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Upper-ocean air-sea observing systems",
+          "tags": [
+            "ooi",
+            "surface moorings",
+            "air-sea flux",
+            "ocean observatories"
+          ],
+          "summary": "Leads deployment of air-sea interaction surface moorings and upper-ocean sensors; PI for the Ocean Observatories Initiative Coastal and Global Scale Nodes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "kurt-polzin",
+          "name": "Kurt Polzin",
+          "title": "Associate Scientist, WHOI Physical Oceanography",
+          "sub_field": "Internal waves and ocean mixing",
+          "tags": [
+            "internal waves",
+            "turbulence",
+            "abyssal mixing",
+            "fine structure"
+          ],
+          "summary": "Studies internal waves, turbulence and mixing in the deep ocean, including links between rough seafloor topography and enhanced abyssal mixing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/polzin/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "lawrence-pratt",
+          "name": "Lawrence Pratt",
+          "title": "Senior Scientist - Part time, WHOI Physical Oceanography",
+          "sub_field": "Rotating hydraulics and boundary currents",
+          "tags": [
+            "rotating hydraulics",
+            "gulf stream",
+            "overturning circulation",
+            "jets"
+          ],
+          "summary": "Studies rotating hydraulics and the dynamics of meandering currents, overturning circulation and ocean jets.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/lpratt/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "svenja-ryan",
+          "name": "Svenja Ryan",
+          "title": "Assistant Scientist I, WHOI Physical Oceanography",
+          "sub_field": "Marine heatwaves and Northwest Atlantic variability",
+          "tags": [
+            "marine heatwaves",
+            "salinity intrusions",
+            "northwest atlantic",
+            "shelf variability"
+          ],
+          "summary": "Studies drivers and depth structure of marine heatwaves and salinity variability in the Northwest Atlantic and Southeast Indian Ocean shelf regions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "irina-rypina",
+          "name": "Irina Rypina",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Lagrangian transport and dynamical systems",
+          "tags": [
+            "lagrangian coherent structures",
+            "transport barriers",
+            "mixing",
+            "dynamical systems"
+          ],
+          "summary": "Applies Lagrangian and dynamical-systems theory to transport and mixing barriers in ocean and atmospheric flows.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "hyodae-seo",
+          "name": "Hyodae Seo",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Coupled ocean-atmosphere modeling",
+          "tags": [
+            "air-sea coupling",
+            "surface waves",
+            "regional climate",
+            "earth system modeling"
+          ],
+          "summary": "Combines high-resolution coupled ocean-atmosphere models with geophysical fluid dynamics theory and observations to study coupled boundary-layer processes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hseo.whoi.edu",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "robert-todd",
+          "name": "Robert Todd",
+          "title": "Associate Scientist, WHOI Physical Oceanography",
+          "sub_field": "Boundary currents and ocean gliders",
+          "tags": [
+            "spray gliders",
+            "gulf stream",
+            "autonomous observing",
+            "boundary currents"
+          ],
+          "summary": "Uses autonomous Spray gliders to make fine-scale, long-duration surveys of boundary and coastal current systems such as the Gulf Stream.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://rtodd.whoi.edu",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "caroline-ummenhofer",
+          "name": "Caroline Ummenhofer",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Climate variability and hydrological extremes",
+          "tags": [
+            "indian ocean",
+            "monsoon",
+            "drought",
+            "hydroclimate"
+          ],
+          "summary": "Studies climate variability in the hydrological cycle, especially Indian Ocean-driven monsoon rainfall, droughts and floods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ummenhofer.whoi.edu",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "robert-weller",
+          "name": "Robert Weller",
+          "title": "Senior Scientist - Part time, WHOI Physical Oceanography",
+          "sub_field": "Upper-ocean processes and air-sea flux buoys",
+          "tags": [
+            "surface moorings",
+            "air-sea flux",
+            "upper ocean",
+            "ocean observing"
+          ],
+          "summary": "Designs and deploys air-sea interaction surface buoys and upper-ocean sensors to obtain sustained time series of surface meteorology and air-sea fluxes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "susan-wijffels",
+          "name": "Susan Wijffels",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Global ocean observing and Argo",
+          "tags": [
+            "argo",
+            "indonesian throughflow",
+            "ocean warming",
+            "salinity"
+          ],
+          "summary": "Leads global ocean-change quantification through the Argo float program and studies the Indonesian Throughflow's role in climate.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "jiayan-yang",
+          "name": "Jiayan Yang",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Arctic-Atlantic circulation modeling",
+          "tags": [
+            "amoc",
+            "arctic ocean",
+            "numerical modeling",
+            "marginal seas"
+          ],
+          "summary": "Uses theoretical and numerical modeling to study basin-scale ocean circulation, AMOC and Arctic Ocean-climate interactions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/jyang/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "xiaoting-yang",
+          "name": "Xiaoting Yang",
+          "title": "Assistant Scientist I, WHOI Physical Oceanography",
+          "sub_field": "Ocean stratification and circulation dynamics",
+          "tags": [
+            "ocean modeling",
+            "stratification",
+            "southern ocean",
+            "climate dynamics"
+          ],
+          "summary": "Studies ocean circulation and dynamics, including the role of Southern Ocean processes in setting mid-depth ocean density stratification.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "lisan-yu",
+          "name": "Lisan Yu",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Air-sea heat flux and OAFlux",
+          "tags": [
+            "oaflux",
+            "air-sea flux",
+            "remote sensing",
+            "water cycle"
+          ],
+          "summary": "Leads the OAFlux project producing satellite and in-situ based global air-sea heat flux datasets to study ocean-atmosphere exchange.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/lyu/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "abigail-bodner",
+          "name": "Abigail Bodner",
+          "title": "Assistant Professor, MIT EAPS",
+          "sub_field": "Upper-ocean turbulence and coastal sea level",
+          "tags": [
+            "turbulence",
+            "upper ocean",
+            "sea level",
+            "numerical simulation"
+          ],
+          "summary": "Studies turbulence in the upper ocean and drivers of coastal sea level using numerical simulations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "timothy-cronin",
+          "name": "Timothy Cronin",
+          "title": "Associate Professor, MIT EAPS",
+          "sub_field": "Climate dynamics and climate sensitivity",
+          "tags": [
+            "climate dynamics",
+            "convection",
+            "radiative transfer",
+            "atmospheric physics"
+          ],
+          "summary": "Studies climate dynamics and climate sensitivity, including convection, clouds and radiative processes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "glenn-r-flierl",
+          "name": "Glenn R. Flierl",
+          "title": "Professor, MIT EAPS",
+          "sub_field": "Geophysical fluid dynamics and planetary turbulence",
+          "tags": [
+            "geophysical fluid dynamics",
+            "vortices",
+            "turbulence",
+            "biophysical modeling"
+          ],
+          "summary": "Studies oceanography and planetary-scale turbulence, including coherent vortices and coupling to biological dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "wanying-kang",
+          "name": "Wanying Kang",
+          "title": "Assistant Professor, MIT EAPS",
+          "sub_field": "Atmospheric and oceanic dynamics of planets",
+          "tags": [
+            "planetary dynamics",
+            "ocean worlds",
+            "climate",
+            "icy moons"
+          ],
+          "summary": "Studies atmospheric and oceanic dynamics and their effects on climate, including oceans on icy moons.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
           }
         }
       ]
@@ -13521,137 +14151,132 @@
       "links": {
         "program": "https://oge.mit.edu/programs/mit-whoi-joint-program-in-oceanography-applied-ocean-science-and-engineering/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #2 · faculty 2026-07-08",
+      "data_currency": "2026-07-05 · top-50 sweep · US News #2 · faculty 2026-07-10",
       "faculty": [
         {
           "id": "raffaele-ferrari",
           "name": "Raffaele Ferrari",
-          "title": "Professor, MIT Department of Earth, Atmospheric and Planetary Sciences (EAPS)",
-          "sub_field": "Physical oceanography",
+          "title": "Professor, MIT EAPS",
+          "sub_field": "Physical oceanography and climate",
           "tags": [
             "ocean circulation",
-            "climate",
-            "ocean modeling",
             "turbulence",
-            "physical oceanography"
+            "climate models",
+            "mixing"
           ],
-          "summary": "Physical oceanographer building next-generation numerical models to understand ocean circulation and its role in climate.",
+          "summary": "Studies the ocean's role in climate through theory, observations and climate models, including ocean mixing and circulation.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://eaps.mit.edu/people/faculty/raffaele-ferrari/",
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "glenn-r-flierl",
           "name": "Glenn R. Flierl",
-          "title": "Professor, MIT Department of Earth, Atmospheric and Planetary Sciences (EAPS)",
-          "sub_field": "Physical oceanography / geophysical fluid dynamics",
+          "title": "Professor, MIT EAPS",
+          "sub_field": "Geophysical fluid dynamics and planetary turbulence",
           "tags": [
             "geophysical fluid dynamics",
+            "vortices",
             "turbulence",
-            "ocean dynamics",
-            "atmospheres",
-            "modeling"
+            "biophysical modeling"
           ],
-          "summary": "Oceanographer exploring planetary-scale turbulence and the fluid dynamics of atmospheres and oceans.",
+          "summary": "Studies oceanography and planetary-scale turbulence, including coherent vortices and coupling to biological dynamics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://eaps.mit.edu/people/faculty/glenn-r-flierl/",
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "john-marshall",
           "name": "John Marshall",
-          "title": "Professor, MIT Department of Earth, Atmospheric and Planetary Sciences (EAPS)",
-          "sub_field": "Physical oceanography and climate",
+          "title": "Professor, MIT EAPS",
+          "sub_field": "Ocean circulation and climate",
           "tags": [
             "ocean circulation",
             "climate",
-            "ocean-atmosphere",
-            "ocean modeling"
+            "general circulation models",
+            "southern ocean"
           ],
-          "summary": "Oceanographer known for breakthroughs in modeling ocean circulation and for insights into the role of the oceans in climate.",
+          "summary": "Studies ocean circulation and its role in climate using theory, laboratory experiments and general circulation models.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://eaps.mit.edu/people/faculty/john-marshall/",
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "michael-follows",
           "name": "Michael Follows",
           "title": "Professor, MIT EAPS; Director, MIT-WHOI Joint Program",
-          "sub_field": "Biological oceanography / marine biogeochemistry",
+          "sub_field": "Marine microbial ecosystem modeling",
           "tags": [
-            "marine ecosystems",
-            "microbial biodiversity",
-            "carbon cycle",
-            "nutrient cycling",
-            "ocean modeling"
+            "ecosystem modeling",
+            "plankton",
+            "biogeochemistry",
+            "marine microbes"
           ],
-          "summary": "Models marine ecosystems to understand relationships between microbial biodiversity and carbon and nutrient cycling in the ocean.",
+          "summary": "Models marine microbial ecosystems and their interaction with ocean biogeochemical cycles and climate.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://eaps.mit.edu/people/faculty/michael-follows/",
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "andrew-babbin",
           "name": "Andrew Babbin",
-          "title": "Associate Professor, MIT Department of Earth, Atmospheric and Planetary Sciences (EAPS)",
-          "sub_field": "Marine biogeochemistry",
+          "title": "Associate Professor, MIT EAPS",
+          "sub_field": "Marine biogeochemistry and climate interactions",
           "tags": [
-            "biogeochemistry",
-            "microbial communities",
             "nitrogen cycle",
-            "chemical oceanography"
+            "biogeochemistry",
+            "oxygen minimum zones",
+            "climate"
           ],
-          "summary": "Marine biogeochemist studying microbial communities and their chemical interactions, including nutrient and nitrogen cycling in the ocean.",
+          "summary": "Studies marine biogeochemistry and its interactions with climate, focusing on nitrogen cycling and oxygen-deficient zones.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://eaps.mit.edu/people/faculty/andrew-babbin/",
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "kristin-bergmann",
           "name": "Kristin Bergmann",
-          "title": "Associate Professor, MIT Department of Earth, Atmospheric and Planetary Sciences (EAPS)",
-          "sub_field": "Marine geology / sedimentary geochemistry",
+          "title": "Associate Professor, MIT EAPS",
+          "sub_field": "Early Earth environments and carbonate sedimentology",
           "tags": [
-            "sedimentary geology",
-            "paleoclimate",
-            "early Earth",
+            "sedimentology",
+            "early earth",
             "carbonates",
-            "geochemistry"
+            "paleoclimate"
           ],
-          "summary": "Reconstructs early Earth environmental changes through the analysis of sedimentary and carbonate records.",
+          "summary": "Studies environmental changes on the early Earth through analysis of sedimentary formations.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://eaps.mit.edu/people/faculty/kristin-bergmann/",
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "tanja-bosak",
           "name": "Tanja Bosak",
-          "title": "Professor, MIT Department of Earth, Atmospheric and Planetary Sciences (EAPS)",
-          "sub_field": "Geobiology",
+          "title": "Professor, MIT EAPS",
+          "sub_field": "Experimental geobiology",
           "tags": [
             "geobiology",
             "microbial systems",
-            "early Earth",
-            "sedimentary record",
-            "astrobiology"
+            "astrobiology",
+            "sedimentology"
           ],
-          "summary": "Experimental geobiologist exploring modern processes in microbial systems to interpret the early Earth record.",
+          "summary": "Conducts experimental geobiology exploring modern processes in microbial systems and their preservation in the rock record.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://eaps.mit.edu/people/faculty/tanja-bosak/",
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -13675,39 +14300,37 @@
         {
           "id": "pierre-lermusiaux",
           "name": "Pierre Lermusiaux",
-          "title": "Professor, MIT Department of Mechanical Engineering",
-          "sub_field": "Applied ocean science and engineering",
+          "title": "Nam P. Suh Professor of Mechanical Engineering, MIT",
+          "sub_field": "Ocean modeling and data assimilation",
           "tags": [
             "ocean modeling",
             "data assimilation",
             "uncertainty quantification",
-            "autonomous vehicles",
-            "multiscale modeling"
+            "bayesian inference"
           ],
-          "summary": "Develops models and methods for multiscale ocean modeling, uncertainty quantification, data assimilation, and the guidance of autonomous vehicles, applied to physical, acoustic, and biological ocean dynamics.",
+          "summary": "Develops numerical ocean models, data assimilation and Bayesian methods for ocean prediction and autonomous ocean systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://web.mit.edu/pierrel/www/",
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
           "id": "otto-cordero",
           "name": "Otto Cordero",
-          "title": "Associate Professor, MIT Department of Civil and Environmental Engineering",
-          "sub_field": "Microbial ecology / ocean science",
+          "title": "Associate Professor, MIT Civil and Environmental Engineering",
+          "sub_field": "Microbial community ecology",
           "tags": [
-            "microbial ecosystems",
-            "marine microbes",
-            "biogeochemistry",
-            "ecology",
-            "evolution"
+            "microbial ecology",
+            "ecosystems",
+            "evolution",
+            "marine microbes"
           ],
-          "summary": "Studies how social and ecological interactions at micro-scales impact the productivity, stability, and evolutionary dynamics of marine microbial ecosystems.",
+          "summary": "Studies the ecology and evolution of microbial communities and how microbial interactions shape ecosystem function.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://cee.mit.edu/people_individual/otto-cordero/",
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -13732,20 +14355,19 @@
         {
           "id": "j-thomas-farrar",
           "name": "J. Thomas Farrar",
-          "title": "Senior Scientist, WHOI Physical Oceanography Department",
-          "sub_field": "Physical oceanography",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Air-sea fluxes and upper-ocean dynamics",
           "tags": [
-            "air-sea interaction",
-            "upper ocean",
+            "air-sea flux",
             "satellite oceanography",
-            "ocean observing",
-            "submesoscale"
+            "swot",
+            "ocean observing"
           ],
-          "summary": "Investigates atmosphere-ocean exchange of heat and freshwater and upper-ocean dynamics, leading research on ocean observing systems, satellite oceanography, and submesoscale processes.",
+          "summary": "Studies air-sea heat, freshwater and momentum fluxes and upper-ocean dynamics via buoys, satellites and models; U.S. lead for SWOT.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www2.whoi.edu/staff/jfarrar/",
-            "scholar": null
+            "homepage": "https://jtomfarrar.github.io",
+            "scholar": ""
           }
         },
         {
@@ -13770,39 +14392,37 @@
         {
           "id": "christopher-german",
           "name": "Christopher German",
-          "title": "Senior Scientist, WHOI Department of Geology and Geophysics",
-          "sub_field": "Chemical oceanography / hydrothermal systems",
+          "title": "Senior Scientist, WHOI Geology & Geophysics",
+          "sub_field": "Hydrothermal vent geochemistry and astrobiology",
           "tags": [
             "hydrothermal vents",
-            "seafloor fluid flow",
-            "ocean chemistry",
-            "deep-sea exploration",
-            "astrobiology"
+            "marine geochemistry",
+            "chemosynthesis",
+            "ocean exploration"
           ],
-          "summary": "Investigates geologic controls on seafloor fluid flow at vents and seeps and how hydrothermal activity influences ocean chemistry and chemosynthetic ecosystems, with applications to deep-ocean exploration.",
+          "summary": "Studies the geologic settings of submarine hydrothermal vents and their effect on ocean chemistry, including vents on other ocean worlds.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://directory.whoi.edu/profile/cgerman/",
-            "scholar": null
+            "homepage": "https://oceanworlds.whoi.edu/",
+            "scholar": ""
           }
         },
         {
           "id": "elizabeth-kujawinski",
           "name": "Elizabeth Kujawinski",
-          "title": "Senior Scientist, WHOI Marine Chemistry and Geochemistry Department",
-          "sub_field": "Marine chemistry / organic geochemistry",
+          "title": "Senior Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Molecular organic matter biogeochemistry",
           "tags": [
-            "organic matter",
+            "dissolved organic matter",
             "mass spectrometry",
-            "microbial metabolism",
-            "metabolomics",
-            "biogeochemistry"
+            "microbial transformation",
+            "metabolomics"
           ],
-          "summary": "Studies the structural characterization of dissolved organic matter and how microorganisms transform organic compounds in aquatic environments at the molecular level.",
+          "summary": "Studies structural characterization of dissolved organic matter and molecular-level transformations mediated by microbes and protozoa.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://directory.whoi.edu/profile/ekujawinski/",
-            "scholar": null
+            "homepage": "",
+            "scholar": ""
           }
         },
         {
@@ -13822,6 +14442,2989 @@
           "links": {
             "homepage": "https://directory.whoi.edu/profile/jdonnelly/",
             "scholar": null
+          }
+        },
+        {
+          "id": "magdalena-andres",
+          "name": "Magdalena Andres",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Western boundary currents and moored observations",
+          "tags": [
+            "boundary currents",
+            "gulf stream",
+            "pies",
+            "moorings"
+          ],
+          "summary": "Uses moored pressure-sensing inverted echo sounders to observe transport and variability of western boundary currents including the Gulf Stream.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "amy-bower",
+          "name": "Amy Bower",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Deep ocean circulation and Lagrangian floats",
+          "tags": [
+            "rafos floats",
+            "thermohaline circulation",
+            "lagrangian",
+            "subpolar atlantic"
+          ],
+          "summary": "Studies large-scale deep ocean circulation using RAFOS float deployments in the Gulf of Mexico and subpolar North Atlantic.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/bower-lab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "claudia-cenedese",
+          "name": "Claudia Cenedese",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Geophysical fluid dynamics laboratory experiments",
+          "tags": [
+            "mesoscale vortices",
+            "overflows",
+            "icebergs",
+            "buoyant plumes"
+          ],
+          "summary": "Uses laboratory experiments and theory to study buoyancy-driven currents, dense overflows, and iceberg and glacier melt processes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "ke-chen",
+          "name": "Ke Chen",
+          "title": "Associate Scientist, WHOI Physical Oceanography",
+          "sub_field": "Coastal ocean and shelf-ocean exchange",
+          "tags": [
+            "shelfbreak",
+            "warm-core rings",
+            "biogeochemistry",
+            "modeling"
+          ],
+          "summary": "Studies coastal ocean dynamics including shelf circulation, eddies and fronts, and shelfbreak exchange using numerical modeling and observations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/kchen/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "carol-anne-clayson",
+          "name": "Carol Anne Clayson",
+          "title": "Senior Scientist - Part time, WHOI Physical Oceanography",
+          "sub_field": "Air-sea interaction and satellite remote sensing",
+          "tags": [
+            "air-sea interaction",
+            "boundary layer",
+            "remote sensing",
+            "climate"
+          ],
+          "summary": "Studies air-sea boundary-layer processes and develops satellite and in-situ methods to observe their impacts on weather and climate.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cclayson.whoi.edu",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "sylvia-cole",
+          "name": "Sylvia Cole",
+          "title": "Associate Scientist, WHOI Physical Oceanography",
+          "sub_field": "Arctic Ocean dynamics and tracer transport",
+          "tags": [
+            "arctic",
+            "ice-tethered profilers",
+            "eddy diffusivity",
+            "internal waves"
+          ],
+          "summary": "Studies Arctic Ocean dynamics and the mechanisms controlling energy and tracer distribution using Ice-Tethered Profiler data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/scole/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "glen-gawarkiewicz",
+          "name": "Glen Gawarkiewicz",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Coastal and shelfbreak oceanography",
+          "tags": [
+            "shelfbreak fronts",
+            "mid-atlantic bight",
+            "coastal observing",
+            "fisheries"
+          ],
+          "summary": "Studies shelfbreak frontal dynamics and coastal ocean processes in the Mid-Atlantic Bight, engaging fishing communities on changing ocean conditions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "geoffrey-jake-gebbie",
+          "name": "Geoffrey (Jake) Gebbie",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Paleoceanography and ocean state estimation",
+          "tags": [
+            "inverse modeling",
+            "paleoclimate",
+            "state estimation",
+            "microplastics"
+          ],
+          "summary": "Reconstructs past ocean circulation and climate by combining instrumental and paleoceanographic records with inverse and state-estimation modeling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/ggebbie/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "alex-gonzalez",
+          "name": "Alex Gonzalez",
+          "title": "Assistant Scientist II, WHOI Physical Oceanography",
+          "sub_field": "Tropical meteorology and air-sea interaction",
+          "tags": [
+            "itcz",
+            "madden-julian oscillation",
+            "tropical waves",
+            "subseasonal variability"
+          ],
+          "summary": "Studies tropical meteorology and subseasonal-to-seasonal atmosphere-ocean variability, focusing on the ITCZ, MJO and tropical waves.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/tropical/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "momme-claus-hell",
+          "name": "Momme Claus Hell",
+          "title": "Assistant Scientist I, WHOI Physical Oceanography",
+          "sub_field": "Air-sea coupling and surface waves",
+          "tags": [
+            "air-sea coupling",
+            "surface waves",
+            "coupled models",
+            "remote sensing"
+          ],
+          "summary": "Studies air-sea coupling and the impact of surface waves on climate-relevant processes using high-resolution coupled models and remote sensing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mochell.github.io",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "steven-jayne",
+          "name": "Steven Jayne",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Ocean observing systems and general circulation",
+          "tags": [
+            "autonomous sensing",
+            "tropical cyclones",
+            "western boundary currents",
+            "ocean modeling"
+          ],
+          "summary": "Develops autonomous ocean observing systems and studies air-sea interaction in storms plus the ocean's general circulation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/sjayne/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "anthony-kirincich",
+          "name": "Anthony Kirincich",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Coastal shelf exchange and instrumentation",
+          "tags": [
+            "coastal turbulence",
+            "hf radar",
+            "shelf stirring",
+            "instrumentation"
+          ],
+          "summary": "Studies physical mechanisms of exchange and stirring over the continental shelf using observations and custom coastal instrumentation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/akirincich/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "young-oh-kwon",
+          "name": "Young-Oh Kwon",
+          "title": "Senior Scientist and Department Chair, WHOI Physical Oceanography",
+          "sub_field": "Ocean-atmosphere decadal variability",
+          "tags": [
+            "decadal variability",
+            "amoc",
+            "mode water",
+            "western boundary currents"
+          ],
+          "summary": "Studies decadal ocean-atmosphere variability, western boundary currents and AMOC heat transport using long observational records and climate models.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/ykwon/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "isabela-le-bras",
+          "name": "Isabela Le Bras",
+          "title": "Assistant Scientist II, WHOI Physical Oceanography",
+          "sub_field": "AMOC and high-latitude ocean circulation",
+          "tags": [
+            "amoc",
+            "labrador sea",
+            "overturning circulation",
+            "arctic-atlantic"
+          ],
+          "summary": "Observes ocean circulation to understand the Atlantic Meridional Overturning Circulation and Arctic-Atlantic linkages, including OSNAP mooring data.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://ilebras.github.io",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "amala-mahadevan",
+          "name": "Amala Mahadevan",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Submesoscale ocean-biogeochemistry coupling",
+          "tags": [
+            "submesoscale",
+            "carbon cycle",
+            "phytoplankton",
+            "numerical modeling"
+          ],
+          "summary": "Uses a custom three-dimensional non-hydrostatic ocean model to study submesoscale and frontal processes linking ocean physics to the carbon cycle.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mahadevan.whoi.edu",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "viviane-menezes",
+          "name": "Viviane Menezes",
+          "title": "Assistant Scientist II, WHOI Physical Oceanography",
+          "sub_field": "Southern and Indian Ocean water masses",
+          "tags": [
+            "antarctic bottom water",
+            "salinity",
+            "indian ocean",
+            "air-sea interaction"
+          ],
+          "summary": "Sea-going and satellite oceanographer studying circulation, water-mass formation and salinity in the Indian and Southern Oceans.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/vmenezes/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "robert-pickart",
+          "name": "Robert Pickart",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "High-latitude and Arctic boundary currents",
+          "tags": [
+            "arctic",
+            "deep convection",
+            "shelf-basin exchange",
+            "moorings"
+          ],
+          "summary": "Studies high-latitude processes including air-sea interaction, deep convection and shelf-basin exchange with long-term moored records.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://rpickart.whoi.edu",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "christopher-piecuch",
+          "name": "Christopher Piecuch",
+          "title": "Associate Scientist, WHOI Physical Oceanography",
+          "sub_field": "Sea-level change",
+          "tags": [
+            "sea level rise",
+            "coastal hazards",
+            "statistics",
+            "geodesy"
+          ],
+          "summary": "Studies the physics and statistics of regional and global sea-level change using observations, models and proxy records.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/piecuch/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "albert-plueddemann",
+          "name": "Albert Plueddemann",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Upper-ocean air-sea observing systems",
+          "tags": [
+            "ooi",
+            "surface moorings",
+            "air-sea flux",
+            "ocean observatories"
+          ],
+          "summary": "Leads deployment of air-sea interaction surface moorings and upper-ocean sensors; PI for the Ocean Observatories Initiative Coastal and Global Scale Nodes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "kurt-polzin",
+          "name": "Kurt Polzin",
+          "title": "Associate Scientist, WHOI Physical Oceanography",
+          "sub_field": "Internal waves and ocean mixing",
+          "tags": [
+            "internal waves",
+            "turbulence",
+            "abyssal mixing",
+            "fine structure"
+          ],
+          "summary": "Studies internal waves, turbulence and mixing in the deep ocean, including links between rough seafloor topography and enhanced abyssal mixing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/polzin/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "lawrence-pratt",
+          "name": "Lawrence Pratt",
+          "title": "Senior Scientist - Part time, WHOI Physical Oceanography",
+          "sub_field": "Rotating hydraulics and boundary currents",
+          "tags": [
+            "rotating hydraulics",
+            "gulf stream",
+            "overturning circulation",
+            "jets"
+          ],
+          "summary": "Studies rotating hydraulics and the dynamics of meandering currents, overturning circulation and ocean jets.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/lpratt/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "svenja-ryan",
+          "name": "Svenja Ryan",
+          "title": "Assistant Scientist I, WHOI Physical Oceanography",
+          "sub_field": "Marine heatwaves and Northwest Atlantic variability",
+          "tags": [
+            "marine heatwaves",
+            "salinity intrusions",
+            "northwest atlantic",
+            "shelf variability"
+          ],
+          "summary": "Studies drivers and depth structure of marine heatwaves and salinity variability in the Northwest Atlantic and Southeast Indian Ocean shelf regions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "irina-rypina",
+          "name": "Irina Rypina",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Lagrangian transport and dynamical systems",
+          "tags": [
+            "lagrangian coherent structures",
+            "transport barriers",
+            "mixing",
+            "dynamical systems"
+          ],
+          "summary": "Applies Lagrangian and dynamical-systems theory to transport and mixing barriers in ocean and atmospheric flows.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "hyodae-seo",
+          "name": "Hyodae Seo",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Coupled ocean-atmosphere modeling",
+          "tags": [
+            "air-sea coupling",
+            "surface waves",
+            "regional climate",
+            "earth system modeling"
+          ],
+          "summary": "Combines high-resolution coupled ocean-atmosphere models with geophysical fluid dynamics theory and observations to study coupled boundary-layer processes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://hseo.whoi.edu",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "robert-todd",
+          "name": "Robert Todd",
+          "title": "Associate Scientist, WHOI Physical Oceanography",
+          "sub_field": "Boundary currents and ocean gliders",
+          "tags": [
+            "spray gliders",
+            "gulf stream",
+            "autonomous observing",
+            "boundary currents"
+          ],
+          "summary": "Uses autonomous Spray gliders to make fine-scale, long-duration surveys of boundary and coastal current systems such as the Gulf Stream.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://rtodd.whoi.edu",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "caroline-ummenhofer",
+          "name": "Caroline Ummenhofer",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Climate variability and hydrological extremes",
+          "tags": [
+            "indian ocean",
+            "monsoon",
+            "drought",
+            "hydroclimate"
+          ],
+          "summary": "Studies climate variability in the hydrological cycle, especially Indian Ocean-driven monsoon rainfall, droughts and floods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ummenhofer.whoi.edu",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "robert-weller",
+          "name": "Robert Weller",
+          "title": "Senior Scientist - Part time, WHOI Physical Oceanography",
+          "sub_field": "Upper-ocean processes and air-sea flux buoys",
+          "tags": [
+            "surface moorings",
+            "air-sea flux",
+            "upper ocean",
+            "ocean observing"
+          ],
+          "summary": "Designs and deploys air-sea interaction surface buoys and upper-ocean sensors to obtain sustained time series of surface meteorology and air-sea fluxes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "susan-wijffels",
+          "name": "Susan Wijffels",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Global ocean observing and Argo",
+          "tags": [
+            "argo",
+            "indonesian throughflow",
+            "ocean warming",
+            "salinity"
+          ],
+          "summary": "Leads global ocean-change quantification through the Argo float program and studies the Indonesian Throughflow's role in climate.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "jiayan-yang",
+          "name": "Jiayan Yang",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Arctic-Atlantic circulation modeling",
+          "tags": [
+            "amoc",
+            "arctic ocean",
+            "numerical modeling",
+            "marginal seas"
+          ],
+          "summary": "Uses theoretical and numerical modeling to study basin-scale ocean circulation, AMOC and Arctic Ocean-climate interactions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/jyang/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "xiaoting-yang",
+          "name": "Xiaoting Yang",
+          "title": "Assistant Scientist I, WHOI Physical Oceanography",
+          "sub_field": "Ocean stratification and circulation dynamics",
+          "tags": [
+            "ocean modeling",
+            "stratification",
+            "southern ocean",
+            "climate dynamics"
+          ],
+          "summary": "Studies ocean circulation and dynamics, including the role of Southern Ocean processes in setting mid-depth ocean density stratification.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "lisan-yu",
+          "name": "Lisan Yu",
+          "title": "Senior Scientist, WHOI Physical Oceanography",
+          "sub_field": "Air-sea heat flux and OAFlux",
+          "tags": [
+            "oaflux",
+            "air-sea flux",
+            "remote sensing",
+            "water cycle"
+          ],
+          "summary": "Leads the OAFlux project producing satellite and in-situ based global air-sea heat flux datasets to study ocean-atmosphere exchange.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/lyu/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "gil-averbuch",
+          "name": "Gil Averbuch",
+          "title": "Assistant Scientist I, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Seismo-acoustics of Earth, ice and planets",
+          "tags": [
+            "seismoacoustics",
+            "polar ice",
+            "wave propagation",
+            "remote sensing"
+          ],
+          "summary": "Studies acoustic and elastic wave propagation across the coupled solid Earth, ocean, ice and atmosphere system, including monitoring of polar ice dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/averbuch/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "tom-bell",
+          "name": "Tom Bell",
+          "title": "Assistant Scientist II, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Remote sensing of coastal foundation species",
+          "tags": [
+            "kelp",
+            "remote sensing",
+            "drones",
+            "coastal ecology"
+          ],
+          "summary": "Combines field and lab studies, statistical models and remote sensing to understand how environmental dynamics structure foundation species such as kelp and marshes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/tbell/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "julien-bonnel",
+          "name": "Julien Bonnel",
+          "title": "Associate Scientist - Part time, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Underwater acoustic signal processing",
+          "tags": [
+            "acoustics",
+            "signal processing",
+            "bioacoustics",
+            "geoacoustic inversion"
+          ],
+          "summary": "Develops signal-processing methods for ocean acoustics, including passive acoustic monitoring, geoacoustic inversion and normal-mode sound propagation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/jbonnel/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "john-breier",
+          "name": "John Breier",
+          "title": "Associate Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Applied Ocean Physics & Engineering Associate Scientist; no research description is published on his official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "richard-camilli",
+          "name": "Richard Camilli",
+          "title": "Senior Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Marine robotics and in-situ ocean sensors",
+          "tags": [
+            "marine robotics",
+            "in-situ sensors",
+            "pollution remediation",
+            "deep-water archaeology"
+          ],
+          "summary": "Designs in-situ chemical sensors and marine robotic systems applied to pollution remediation, environmental informatics and deep-water archaeology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "john-colosi",
+          "name": "John Colosi",
+          "title": "Senior Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Applied Ocean Physics & Engineering Senior Scientist; no research description is published on his official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "james-edson",
+          "name": "James Edson",
+          "title": "Senior Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Air-sea flux and boundary-layer processes",
+          "tags": [
+            "air-sea fluxes",
+            "boundary layer",
+            "gas exchange",
+            "ocean observatories"
+          ],
+          "summary": "Studies instrumentation and physics of air-sea exchange of momentum, energy and gases in the marine boundary layer, including sea-spray and wave effects.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "steve-elgar",
+          "name": "Steve Elgar",
+          "title": "Senior Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Nearshore wave and surfzone processes",
+          "tags": [
+            "nearshore processes",
+            "surfzone",
+            "wave dynamics",
+            "beach morphology"
+          ],
+          "summary": "Studies observations and models of nearshore wave evolution, breaking-wave-driven circulation and resulting beach erosion and accretion.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://pv-lab.org/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "kenneth-foote",
+          "name": "Kenneth Foote",
+          "title": "Senior Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Applied Ocean Physics & Engineering Senior Scientist; no research description is published on his official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "yogesh-girdhar",
+          "name": "Yogesh Girdhar",
+          "title": "Associate Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Marine robotics and autonomous exploration algorithms",
+          "tags": [
+            "marine robotics",
+            "autonomous exploration",
+            "computer vision",
+            "adaptive sampling"
+          ],
+          "summary": "Develops algorithms enabling marine robots to autonomously plan adaptive data-collection missions and reason about mission data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://warp.whoi.edu/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "julia-guimond",
+          "name": "Julia Guimond",
+          "title": "Assistant Scientist I, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Coastal groundwater and permafrost hydrology",
+          "tags": [
+            "coastal groundwater",
+            "permafrost",
+            "saltwater intrusion",
+            "hydrogeology"
+          ],
+          "summary": "Groundwater hydrologist studying how sea-level rise, extreme weather and permafrost thaw affect coastal groundwater dynamics and ecosystem health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/jguimond/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "henry-houskeeper",
+          "name": "Henry Houskeeper",
+          "title": "Assistant Scientist I, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Aquatic optics and remote sensing",
+          "tags": [
+            "ocean optics",
+            "remote sensing",
+            "kelp forests",
+            "radiometry"
+          ],
+          "summary": "Studies the aquatic light environment from open ocean to coastal and inland waters using airborne, satellite and in-situ sensing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/hhouskee/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "houshuo-jiang",
+          "name": "Houshuo Jiang",
+          "title": "Senior Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Bio-fluid dynamics of plankton",
+          "tags": [
+            "plankton",
+            "fluid dynamics",
+            "sensory ecology",
+            "computational fluid dynamics"
+          ],
+          "summary": "Studies small-scale biological-physical interactions and fluid dynamics of plankton, and behavioral and sensory ecology of marine organisms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/hsjiang/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "nare-karapetyan",
+          "name": "Nare Karapetyan",
+          "title": "Assistant Scientist I, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Applied Ocean Physics & Engineering Assistant Scientist I; no research description is published on her official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "andone-lavery",
+          "name": "Andone Lavery",
+          "title": "Senior Scientist - Part time, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Acoustic scattering in the ocean",
+          "tags": [
+            "acoustic scattering",
+            "marine organisms",
+            "ocean microstructure",
+            "turbulence"
+          ],
+          "summary": "Studies acoustic scattering from marine organisms and oceanic microstructure, developing theoretical models validated by laboratory measurements.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/alavery/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "ted-maksym",
+          "name": "Ted Maksym",
+          "title": "Associate Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Sea ice and polar climate",
+          "tags": [
+            "sea ice",
+            "polar climate",
+            "autonomous vehicles",
+            "ice-ocean interaction"
+          ],
+          "summary": "Studies sea-ice thickness distribution, properties and ice-ocean and ice-climate interactions using in-situ and satellite observations plus autonomous under-ice vehicles.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "seth-mccammon",
+          "name": "Seth McCammon",
+          "title": "Assistant Scientist I, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Autonomous reasoning for marine robots",
+          "tags": [
+            "marine robotics",
+            "autonomous agents",
+            "real-time reasoning",
+            "ocean automation"
+          ],
+          "summary": "Develops algorithms and models enabling marine robots to reason in real time about their observations as independent autonomous agents for ocean science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/smccammon/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "dennis-mcgillicuddy",
+          "name": "Dennis McGillicuddy",
+          "title": "Senior Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Physical-biological ocean interactions",
+          "tags": [
+            "mesoscale dynamics",
+            "biogeochemistry",
+            "harmful algal blooms",
+            "numerical modeling"
+          ],
+          "summary": "Studies physical-biological interactions in the open ocean and coastal margins, including mesoscale dynamics, harmful algal blooms and larval transport.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/dmcgillicuddy/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "anna-michel",
+          "name": "Anna Michel",
+          "title": "Associate Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "In-situ ocean chemical sensors",
+          "tags": [
+            "in-situ sensors",
+            "ocean chemistry",
+            "methane",
+            "optical spectroscopy"
+          ],
+          "summary": "Develops in-situ optical and spectroscopic sensors for continuous, high-resolution measurement of ocean chemistry amid environmental change.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/csllab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "xavier-mouy",
+          "name": "Xavier Mouy",
+          "title": "Assistant Scientist I, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Applied Ocean Physics & Engineering Assistant Scientist I; no research description is published on his official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "hilde-oliver",
+          "name": "Hilde Oliver",
+          "title": "Assistant Scientist II, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Physical-biological polar and coastal ecosystems",
+          "tags": [
+            "physical-biological interactions",
+            "polar oceanography",
+            "glacial meltwater",
+            "phytoplankton"
+          ],
+          "summary": "Interdisciplinary oceanographer studying how glacial meltwater and Gulf Stream dynamics control phytoplankton and ecosystem productivity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/holiver/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "yongsung-park",
+          "name": "Yongsung Park",
+          "title": "Assistant Scientist I, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Applied Ocean Physics & Engineering Assistant Scientist I; no research description is published on his official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "david-ralston",
+          "name": "David Ralston",
+          "title": "Senior Scientist and Department Chair, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Estuarine and coastal sediment transport",
+          "tags": [
+            "estuarine dynamics",
+            "sediment transport",
+            "coastal ocean",
+            "numerical modeling"
+          ],
+          "summary": "Studies fluid mechanics and transport processes in estuaries and the coastal ocean, combining field observations and numerical modeling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/dralston/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "britt-raubenheimer",
+          "name": "Britt Raubenheimer",
+          "title": "Senior Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Surf- and swash-zone nearshore processes",
+          "tags": [
+            "surfzone",
+            "swash zone",
+            "wave runup",
+            "sediment transport"
+          ],
+          "summary": "Studies surf- and swash-zone processes including wave runup, alongshore currents, swash-groundwater interaction and beach morphological evolution.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/braubenheimer2/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "malcolm-scully",
+          "name": "Malcolm Scully",
+          "title": "Senior Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Estuarine and coastal turbulent mixing",
+          "tags": [
+            "estuarine circulation",
+            "turbulent mixing",
+            "hypoxia",
+            "langmuir circulation"
+          ],
+          "summary": "Studies circulation and turbulent mixing in coastal and estuarine environments, including hypoxia, boundary-layer dynamics and Langmuir circulation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "madison-smith",
+          "name": "Madison Smith",
+          "title": "Assistant Scientist II, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Upper-ocean sea ice-atmosphere interactions",
+          "tags": [
+            "sea ice",
+            "ocean waves",
+            "distributed acoustic sensing",
+            "arctic"
+          ],
+          "summary": "Studies processes at the upper ocean, sea ice and atmosphere interface, particularly the role of surface waves in sea ice, using distributed acoustic sensing.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/madisonmsmith/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "peter-traykovski",
+          "name": "Peter Traykovski",
+          "title": "Associate Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Sediment transport and seafloor boundary layer",
+          "tags": [
+            "sediment transport",
+            "boundary layer",
+            "bedforms",
+            "acoustic instrumentation"
+          ],
+          "summary": "Studies sediment transport and boundary-layer processes including bedforms and fluid-mud flows, developing acoustic instrumentation to measure them.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/cofdl/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "catherine-walker",
+          "name": "Catherine Walker",
+          "title": "Assistant Scientist II, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Glaciology and planetary ice-ocean interactions",
+          "tags": [
+            "ice shelves",
+            "glaciology",
+            "planetary science",
+            "remote sensing"
+          ],
+          "summary": "Studies ice-ocean interactions, Antarctic ice-shelf rifting and calving, and glacier change alongside analogous processes on ocean worlds such as Europa.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/cwalker/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "weifeng-zhang",
+          "name": "Weifeng Zhang",
+          "title": "Senior Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Coastal and polar physical oceanography",
+          "tags": [
+            "coastal circulation",
+            "internal waves",
+            "gravity currents",
+            "biophysical interactions"
+          ],
+          "summary": "Combines numerical ocean models and field observations to study coastal circulation, frontal dynamics, internal waves and polynya circulation.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://www.whoi.edu/staff/wzhang/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "daniel-zitterbart",
+          "name": "Daniel Zitterbart",
+          "title": "Associate Scientist, WHOI Applied Ocean Physics & Engineering",
+          "sub_field": "Remote sensing of marine top predators",
+          "tags": [
+            "whales",
+            "penguins",
+            "remote sensing",
+            "animal behavior"
+          ],
+          "summary": "Leads the Marine Animal Remote Sensing Lab, using photography, satellite, radar, passive acoustics and robotics to study top predator behavior and ecology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/mars/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "amy-apprill",
+          "name": "Amy Apprill",
+          "title": "Associate Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Marine host-microbiome interactions",
+          "tags": [
+            "microbiome",
+            "coral",
+            "marine mammals",
+            "microbial ecology"
+          ],
+          "summary": "Studies how Bacteria and Archaea shape the health and ecology of marine animals such as corals and marine mammals, and how these microbiomes shift with climate change.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/amy-apprill/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "peter-barry",
+          "name": "Peter Barry",
+          "title": "Associate Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Noble gas and volatile geochemistry",
+          "tags": [
+            "noble gases",
+            "stable isotopes",
+            "volcanic petrology",
+            "mantle fluids"
+          ],
+          "summary": "Investigates fluid and volatile recycling via stable isotope and noble gas geochemistry, and the petrology of volcanic and igneous rocks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/pbarry/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "matthew-charette",
+          "name": "Matthew Charette",
+          "title": "Senior Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Submarine groundwater discharge and radionuclide tracers",
+          "tags": [
+            "radionuclide tracers",
+            "groundwater discharge",
+            "coastal oceanography",
+            "geochemistry"
+          ],
+          "summary": "Chemical oceanographer studying submarine groundwater discharge and radionuclide tracers to quantify solute fluxes from estuaries to the Arctic and Southern Ocean.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "ann-dunlea",
+          "name": "Ann Dunlea",
+          "title": "Assistant Scientist II, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Marine sediment geochemistry and paleoceanography",
+          "tags": [
+            "sediment geochemistry",
+            "metal cycling",
+            "hydrothermal deposits",
+            "reverse weathering"
+          ],
+          "summary": "Studies the geochemistry of deep-seafloor sediments and nodules, including metal cycling, hydrothermal deposition, dust fluxes and reverse weathering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/mudpit/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "valier-galy",
+          "name": "Valier Galy",
+          "title": "Associate Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Organic carbon cycling and continental erosion",
+          "tags": [
+            "carbon cycle",
+            "river geochemistry",
+            "radiocarbon",
+            "paleoclimate"
+          ],
+          "summary": "Studies the fluvial transfer of organic carbon from continents to oceans using compound-specific radiocarbon and isotope measurements.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/vgaly/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "colleen-hansel",
+          "name": "Colleen Hansel",
+          "title": "Senior Scientist and Department Chair, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Marine chemical ecology and biogeochemistry",
+          "tags": [
+            "reactive oxygen species",
+            "coral health",
+            "manganese",
+            "sensor development"
+          ],
+          "summary": "Leads a lab studying interactions between marine organisms and their geochemical environment, including reactive oxygen species and manganese speciation, and develops ocean-health sensors.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/hansel-lab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "sophia-hines",
+          "name": "Sophia Hines",
+          "title": "Assistant Scientist I, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Paleoceanography of glacial climate change",
+          "tags": [
+            "paleoceanography",
+            "glacial cycles",
+            "climate transitions",
+            "isotopes"
+          ],
+          "summary": "Paleoceanographer studying glacial-interglacial climate change and the ocean's role in major climate transitions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "tristan-horner",
+          "name": "Tristan Horner",
+          "title": "Associate Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Trace metal isotope geochemistry",
+          "tags": [
+            "trace metals",
+            "isotope geochemistry",
+            "paleo-proxies",
+            "icp-ms"
+          ],
+          "summary": "Studies oceanic cycling of bioactive trace elements and isotopes as paleo-proxies and how minerals record ancient seawater chemistry.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://nirvana.whoi.edu/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "julie-huber",
+          "name": "Julie Huber",
+          "title": "Senior Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Deep subsurface marine microbiology",
+          "tags": [
+            "subseafloor",
+            "hydrothermal vents",
+            "microbiology",
+            "ocean worlds"
+          ],
+          "summary": "Studies how geologic processes at deep crustal habitats such as vents and seamounts create and sustain microbial life in the subseafloor.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/jhuber/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "konrad-hughen",
+          "name": "Konrad Hughen",
+          "title": "Senior Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Quaternary paleoclimatology and paleoceanography",
+          "tags": [
+            "paleoclimate",
+            "radiocarbon",
+            "biomarkers",
+            "laminated sediments"
+          ],
+          "summary": "Studies high-resolution Quaternary paleoclimate and abrupt climate change via radiocarbon, carbonate geochemistry and organic biomarkers.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "preston-kemeny",
+          "name": "Preston Kemeny",
+          "title": "Assistant Scientist I, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Marine Chemistry & Geochemistry Assistant Scientist I; no research description is published on his official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "heather-kim",
+          "name": "Heather Kim",
+          "title": "Assistant Scientist II, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Microbial-biogeochemical ocean carbon modeling",
+          "tags": [
+            "biogeochemical modeling",
+            "machine learning",
+            "air-sea carbon flux",
+            "alkalinity enhancement"
+          ],
+          "summary": "Builds mechanistic and machine-learning biogeochemical models of microbial feedback on air-sea carbon flux and the biological pump.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://kimlab.whoi.edu/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "frieder-klein",
+          "name": "Frieder Klein",
+          "title": "Associate Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Fluid-rock geochemistry and serpentinization",
+          "tags": [
+            "serpentinization",
+            "hydrothermal experiments",
+            "petrology",
+            "astrobiology"
+          ],
+          "summary": "Studies fluid-rock chemical interactions at mid-ocean ridges and subduction zones, focusing on serpentinization and abiotic organic synthesis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "matt-long",
+          "name": "Matt Long",
+          "title": "Associate Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Ocean sensor technology and coastal biogeochemistry",
+          "tags": [
+            "in-situ sensors",
+            "coastal biogeochemistry",
+            "ocean acidification",
+            "platforms"
+          ],
+          "summary": "Develops in-situ sensors, platforms and vehicles to study how natural and anthropogenic change affects coastal ecosystem structure and function.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/mlong/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "laura-c-motta",
+          "name": "Laura C. Motta",
+          "title": "Assistant Scientist I, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Non-traditional stable isotope chemistry",
+          "tags": [
+            "isotope effects",
+            "theoretical chemistry",
+            "isotope biogeochemistry",
+            "mercury"
+          ],
+          "summary": "Leads the Theoretical Chemistry and Isotope Biogeochemistry Group, studying non-traditional stable isotopes to build new chemical interpretive frameworks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/mottalab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "david-nicholson",
+          "name": "David Nicholson",
+          "title": "Associate Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Ocean carbon sensing and biogeochemical modeling",
+          "tags": [
+            "sensor observing",
+            "biogeochemical modeling",
+            "carbon cycle",
+            "oxygen"
+          ],
+          "summary": "Combines sensor-based ocean observations, process studies and numerical models to predict carbon and element flow through the ocean under climate change.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "bernhard-peucker-ehrenbrink",
+          "name": "Bernhard Peucker-Ehrenbrink",
+          "title": "Senior Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Mantle-crust-seawater chemical cycling",
+          "tags": [
+            "cosmochemistry",
+            "marine sediments",
+            "seawater isotopes",
+            "platinum group elements"
+          ],
+          "summary": "Studies chemical cycling between Earth's mantle, crust and seawater, cosmic-matter accretion tracers, and platinum-group-element sources.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "daniel-repeta",
+          "name": "Daniel Repeta",
+          "title": "Senior Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Marine organic matter and pigment geochemistry",
+          "tags": [
+            "dissolved organic matter",
+            "photosynthetic pigments",
+            "biopolymers",
+            "organic geochemistry"
+          ],
+          "summary": "Studies cycling of dissolved organic matter and structural characterization of biological polymers and photosynthetic pigment degradation products.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "makoto-mak-saito",
+          "name": "Makoto (Mak) Saito",
+          "title": "Senior Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Trace metal biogeochemistry and marine proteomics",
+          "tags": [
+            "trace metals",
+            "proteomics",
+            "phytoplankton nutrition",
+            "bioinorganic chemistry"
+          ],
+          "summary": "Studies effects of metal nutrition and toxicity on microbes and phytoplankton using proteomics, linking trace-metal biogeochemistry to carbon cycling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/saito-lab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "alan-seltzer",
+          "name": "Alan Seltzer",
+          "title": "Assistant Scientist II - Part time, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Noble gas isotope hydrology and oceanography",
+          "tags": [
+            "noble gases",
+            "gas isotopes",
+            "hydrogeology",
+            "volcanology"
+          ],
+          "summary": "Measures and models gas isotope tracers, primarily noble gases, applied to hydrogeology, oceanography and volcanology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.noblegasisotopes.com/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "adam-subhas",
+          "name": "Adam Subhas",
+          "title": "Assistant Scientist II, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Marine calcification and the inorganic carbon cycle",
+          "tags": [
+            "calcium carbonate",
+            "ocean alkalinity enhancement",
+            "carbon dioxide removal",
+            "carbonate chemistry"
+          ],
+          "summary": "Studies shell-forming marine organisms and the inorganic carbon cycle, developing techniques to measure calcium carbonate kinetics and assess ocean alkalinity enhancement.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://subhaslab.whoi.edu/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "zhaohui-aleck-wang",
+          "name": "Zhaohui Aleck Wang",
+          "title": "Senior Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Seawater carbonate chemistry and CO2 removal",
+          "tags": [
+            "ocean acidification",
+            "carbonate chemistry",
+            "carbon dioxide removal",
+            "blue carbon"
+          ],
+          "summary": "Studies seawater carbonate chemistry, ocean acidification and marine carbon dioxide removal, using in-situ sensors for coastal and wetland carbon fluxes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/zawang/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "scott-wankel",
+          "name": "Scott Wankel",
+          "title": "Associate Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Stable isotope biogeochemistry of N, C and S cycling",
+          "tags": [
+            "stable isotopes",
+            "nitrogen cycle",
+            "hydrothermal vents",
+            "redox biogeochemistry"
+          ],
+          "summary": "Uses stable isotopes to study biotic and abiotic cycling of nitrogen, carbon, sulfur, iron and manganese in marine environments.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://web.whoi.edu/wankel/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "collin-ward",
+          "name": "Collin Ward",
+          "title": "Associate Scientist, WHOI Marine Chemistry & Geochemistry",
+          "sub_field": "Organic carbon degradation in aquatic systems",
+          "tags": [
+            "oil spills",
+            "plastic degradation",
+            "photochemistry",
+            "dissolved organic matter"
+          ],
+          "summary": "Characterizes rates and pathways of organic carbon degradation in aquatic ecosystems, including crude-oil fate, plastic breakdown and DOM photochemistry.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/wardlab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "harriet-alexander",
+          "name": "Harriet Alexander",
+          "title": "Assistant Scientist II, WHOI Biology",
+          "sub_field": "Computational plankton ecology",
+          "tags": [
+            "plankton",
+            "genomics",
+            "biogeochemistry",
+            "computational biology"
+          ],
+          "summary": "Applies computational methods to understand how eukaryotic plankton function biogeochemically and ecologically in changing ocean environments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://alexanderlabwhoi.github.io/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "neel-aluru",
+          "name": "Neel Aluru",
+          "title": "Associate Scientist, WHOI Biology",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Biology Associate Scientist; no research description is published on his official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "carin-ashjian",
+          "name": "Carin Ashjian",
+          "title": "Senior Scientist, WHOI Biology",
+          "sub_field": "Zooplankton ecology and Arctic oceanography",
+          "tags": [
+            "zooplankton",
+            "arctic",
+            "ocean circulation",
+            "ecology"
+          ],
+          "summary": "Studies zooplankton ecology and biological-physical associations, remote sensing of zooplankton, and Arctic boundary-current ecosystems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "mark-baumgartner",
+          "name": "Mark Baumgartner",
+          "title": "Senior Scientist, WHOI Biology",
+          "sub_field": "Top predator ecology and bioacoustics",
+          "tags": [
+            "baleen whales",
+            "zooplankton",
+            "passive acoustics",
+            "autonomous vehicles"
+          ],
+          "summary": "Investigates how prey behavior, life history and aggregation influence top predator distribution, studying baleen whales and their zooplankton prey.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/baumgartner-lab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "camrin-braun",
+          "name": "Camrin Braun",
+          "title": "Assistant Scientist II, WHOI Biology",
+          "sub_field": "Marine predator ecology and ocean dynamics",
+          "tags": [
+            "marine predators",
+            "pelagic ecosystems",
+            "biologging",
+            "ocean management"
+          ],
+          "summary": "Uses computational, lab and field-based studies of pelagic ecosystems to address scales of organization in the marine realm and ocean management challenges.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://marinepredators.whoi.edu/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "gregory-britten",
+          "name": "Gregory Britten",
+          "title": "Assistant Scientist I, WHOI Biology",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Biology Assistant Scientist I; no research description is published on his official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "michael-brosnahan",
+          "name": "Michael Brosnahan",
+          "title": "Assistant Scientist II, WHOI Biology",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Biology Assistant Scientist II; no research description is published on his official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "samantha-coy",
+          "name": "Samantha Coy",
+          "title": "Assistant Scientist I, WHOI Biology",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Biology Assistant Scientist I; no research description is published on her official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "rebecca-gast",
+          "name": "Rebecca Gast",
+          "title": "Associate Scientist, WHOI Biology",
+          "sub_field": "Protistan molecular ecology and symbiosis",
+          "tags": [
+            "protists",
+            "molecular phylogeny",
+            "symbiosis",
+            "microbial ecology"
+          ],
+          "summary": "Studies protistan molecular phylogeny and ecology, including genetic regulation of algal and protist symbiotic interactions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/rgast/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "mark-hahn",
+          "name": "Mark Hahn",
+          "title": "Senior Scientist, WHOI Biology",
+          "sub_field": "Comparative molecular toxicology",
+          "tags": [
+            "toxicology",
+            "gene regulation",
+            "harmful algal blooms",
+            "microplastics"
+          ],
+          "summary": "Studies comparative biochemistry and molecular mechanisms of chemical-biological interactions in aquatic animals, including HAB toxins and microplastics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/hahnlab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "stephanie-jenouvrier",
+          "name": "Stephanie Jenouvrier",
+          "title": "Senior Scientist, WHOI Biology",
+          "sub_field": "Seabird population dynamics and climate change",
+          "tags": [
+            "seabirds",
+            "population dynamics",
+            "climate change",
+            "demography"
+          ],
+          "summary": "Links climate models to demographic models to predict how climate change affects seabird populations, especially in the Southern Ocean.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://web.whoi.edu/jenouvrier/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "rubao-ji",
+          "name": "Rubao Ji",
+          "title": "Department Chair, WHOI Biology",
+          "sub_field": "Biological-physical ocean modeling",
+          "tags": [
+            "ocean modeling",
+            "food web",
+            "phytoplankton",
+            "zooplankton"
+          ],
+          "summary": "Develops coupled biological-physical numerical models of food-web, phytoplankton bloom and zooplankton population dynamics in estuarine and coastal oceans.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/rji/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "matt-johnson",
+          "name": "Matt Johnson",
+          "title": "Associate Scientist, WHOI Biology",
+          "sub_field": "Ecology and evolution of marine protists",
+          "tags": [
+            "protists",
+            "mixotrophy",
+            "evolution",
+            "microbial ecology"
+          ],
+          "summary": "Studies the ecology and evolution of marine protists, with a focus on mixotrophy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "sam-laney",
+          "name": "Sam Laney",
+          "title": "Senior Scientist, WHOI Biology",
+          "sub_field": "Marine algal ecology and instrumentation",
+          "tags": [
+            "phytoplankton",
+            "marine optics",
+            "polar regions",
+            "instrumentation"
+          ],
+          "summary": "Studies phytoplankton ecology and marine optics, especially how phytoplankton interact with the oceanic light environment in ice-covered polar regions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/laneylab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "kirstin-meyer-kaiser",
+          "name": "Kirstin Meyer-Kaiser",
+          "title": "Assistant Scientist II, WHOI Biology",
+          "sub_field": "Benthic ecology and larval dispersal",
+          "tags": [
+            "benthic ecology",
+            "larval biology",
+            "deep sea",
+            "connectivity"
+          ],
+          "summary": "Studies colonization and connectivity of hard-bottom habitats worldwide, focusing on larval dispersal, recruitment and early life stages of invertebrates.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "t-aran-mooney",
+          "name": "T. Aran Mooney",
+          "title": "Senior Scientist, WHOI Biology",
+          "sub_field": "Sensory biology and bioacoustics",
+          "tags": [
+            "bioacoustics",
+            "sensory ecology",
+            "cetaceans",
+            "cephalopods"
+          ],
+          "summary": "Uses bioacoustics to study sensory biology across taxa, including hearing, communication and the impacts of human noise.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/amooney/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "lauren-mullineaux",
+          "name": "Lauren Mullineaux",
+          "title": "Senior Scientist, WHOI Biology",
+          "sub_field": "Deep-sea benthic ecology and larval connectivity",
+          "tags": [
+            "benthic ecology",
+            "larval ecology",
+            "deep sea",
+            "population connectivity"
+          ],
+          "summary": "Studies the ecology of benthic communities, larval ecology, deep-sea biology and population connectivity and resilience.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://web.whoi.edu/mullineaux/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "michael-neubert",
+          "name": "Michael Neubert",
+          "title": "Senior Scientist, WHOI Biology",
+          "sub_field": "Theoretical and mathematical population ecology",
+          "tags": [
+            "mathematical biology",
+            "population dynamics",
+            "nonlinear dynamics",
+            "spatial models"
+          ],
+          "summary": "Applies theoretical and mathematical biology including nonlinear dynamics and spatial models to population dynamics and community ecology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "maria-pachiadaki",
+          "name": "Maria Pachiadaki",
+          "title": "Assistant Scientist II, WHOI Biology",
+          "sub_field": "Dark-ocean microbial ecology",
+          "tags": [
+            "microbial ecology",
+            "dark ocean",
+            "single cell genomics",
+            "biogeochemistry"
+          ],
+          "summary": "Studies the identity, function and activity of dark-ocean microorganisms and their role in global biogeochemical processes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": "https://scholar.google.com/citations?user=cM5nYT4AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "jes-s-pineda",
+          "name": "Jesús Pineda",
+          "title": "Senior Scientist, WHOI Biology",
+          "sub_field": "Coastal benthic ecology and larval transport",
+          "tags": [
+            "larval transport",
+            "benthic ecology",
+            "coastal oceanography",
+            "connectivity"
+          ],
+          "summary": "Studies how circulation, temperature and bathymetry drive larval transport and the distribution of coastal benthic organisms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://science.whoi.edu/labs/pinedalab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "mei-sato",
+          "name": "Mei Sato",
+          "title": "Assistant Scientist I, WHOI Biology",
+          "sub_field": "Biological-physical interactions via active acoustics",
+          "tags": [
+            "active acoustics",
+            "zooplankton",
+            "fish",
+            "trophic dynamics"
+          ],
+          "summary": "Uses active acoustics across platforms to study how the environment shapes animal behavior and trophic dynamics among zooplankton, fish and marine mammals.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/msato/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "michelle-shero",
+          "name": "Michelle Shero",
+          "title": "Assistant Scientist II, WHOI Biology",
+          "sub_field": "Physiological ecology of marine mammals",
+          "tags": [
+            "marine mammals",
+            "physiology",
+            "reproduction",
+            "foraging ecology"
+          ],
+          "summary": "Studies links between energy balance, physiological condition, behavior and reproductive success in marine mammals.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.shero-lab.com/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "stefan-sievert",
+          "name": "Stefan Sievert",
+          "title": "Associate Scientist, WHOI Biology",
+          "sub_field": "Microbial ecology of hydrothermal vents",
+          "tags": [
+            "hydrothermal vents",
+            "sulfur cycling",
+            "co2 fixation",
+            "microbial ecology"
+          ],
+          "summary": "Studies composition and function of microbial communities and biogeochemical transformations, emphasizing hydrothermal vents and sulfur cycling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/sievertlab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "heidi-m-sosik",
+          "name": "Heidi M. Sosik",
+          "title": "Senior Scientist, WHOI Biology",
+          "sub_field": "Phytoplankton ecology and bio-optics",
+          "tags": [
+            "phytoplankton",
+            "bio-optics",
+            "harmful algal blooms",
+            "ocean observing"
+          ],
+          "summary": "Studies phytoplankton ecology and physiology from single cells to global systems via bio-optical oceanography and ocean-observing technology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/hsosik/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "john-stegeman",
+          "name": "John Stegeman",
+          "title": "Senior Scientist - Part time, WHOI Biology",
+          "sub_field": "Biochemical toxicology and cytochrome P450s",
+          "tags": [
+            "toxicology",
+            "cytochrome p450",
+            "pollutants",
+            "marine vertebrates"
+          ],
+          "summary": "Studies biochemical toxicology, metabolism of pollutants, and the biochemistry, evolution and regulation of cytochrome P450 enzymes in marine animals.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/stegemanlab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "ann-tarrant",
+          "name": "Ann Tarrant",
+          "title": "Senior Scientist, WHOI Biology",
+          "sub_field": "Invertebrate stress physiology and circadian biology",
+          "tags": [
+            "circadian rhythms",
+            "diapause",
+            "copepods",
+            "cnidarians"
+          ],
+          "summary": "Uses molecular, physiological and behavioral approaches to study how invertebrates use circadian clocks, diapause and hormonal signaling to cope with stressors.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://web.whoi.edu/tarrant-lab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "carolyn-tepolt",
+          "name": "Carolyn Tepolt",
+          "title": "Associate Scientist, WHOI Biology",
+          "sub_field": "Rapid adaptation in marine invasive species",
+          "tags": [
+            "invasion biology",
+            "thermal adaptation",
+            "green crab",
+            "genomics"
+          ],
+          "summary": "Uses marine invasions as natural experiments in rapid adaptation, combining sequencing with physiology and ecology to study thermal adaptation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/tepoltlab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "simon-thorrold",
+          "name": "Simon Thorrold",
+          "title": "Senior Scientist, WHOI Biology",
+          "sub_field": "Fisheries ecology and isotope geochemistry",
+          "tags": [
+            "fisheries ecology",
+            "stable isotopes",
+            "fish migration",
+            "otolith chemistry"
+          ],
+          "summary": "Studies fisheries ecology and oceanography using isotopic and elemental markers to trace dispersal and migration of marine fish.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://simonthorrold.com/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "james-wainaina",
+          "name": "James Wainaina",
+          "title": "Assistant Scientist I, WHOI Biology",
+          "sub_field": "Viral ecology and evolution in ocean microbes",
+          "tags": [
+            "viral ecology",
+            "marine microbiology",
+            "metagenomics",
+            "corals"
+          ],
+          "summary": "Studies the ecology and evolution of viruses in marine ecosystems and their impact on microbes and marine eukaryotes such as corals.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.virusecologyevolutionlabwainaina.com/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "andrew-ashton",
+          "name": "Andrew Ashton",
+          "title": "Associate Scientist, WHOI Geology & Geophysics",
+          "sub_field": "Coastal geomorphology and morphodynamic modeling",
+          "tags": [
+            "coastal",
+            "deltas",
+            "sea level rise",
+            "morphodynamics"
+          ],
+          "summary": "Develops and tests numerical and conceptual models of coastal sedimentary environments and delta evolution under climate change and sea-level rise.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "juan-canales",
+          "name": "Juan Canales",
+          "title": "Senior Scientist, WHOI Geology & Geophysics",
+          "sub_field": "Marine geophysics of plate boundaries",
+          "tags": [
+            "seismic tomography",
+            "mid-ocean ridges",
+            "subduction zones",
+            "hydrothermal"
+          ],
+          "summary": "Uses seismic imaging and potential-field methods to study faulting, magmatism and hydrothermal processes at tectonic plate boundaries.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "anne-cohen",
+          "name": "Anne Cohen",
+          "title": "Associate Scientist, WHOI Geology & Geophysics",
+          "sub_field": "Coral calcification and ocean acidification",
+          "tags": [
+            "calcification",
+            "ocean acidification",
+            "coral reefs",
+            "climate proxies"
+          ],
+          "summary": "Studies how ocean acidification and climate change affect calcification in corals and shellfish.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "alan-condron",
+          "name": "Alan Condron",
+          "title": "Assistant Scientist II, WHOI Geology & Geophysics",
+          "sub_field": "Climate modeling of abrupt climate change and ice sheets",
+          "tags": [
+            "climate modeling",
+            "paleoclimate",
+            "ice sheets",
+            "ocean circulation"
+          ],
+          "summary": "Uses numerical ocean and climate models to study abrupt climate change, including the effects of ice-sheet melting on Atlantic Ocean circulation.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "kassandra-costa",
+          "name": "Kassandra Costa",
+          "title": "Assistant Scientist II, WHOI Geology & Geophysics",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Geology & Geophysics Assistant Scientist II; no research description is published on her official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "andrew-cross",
+          "name": "Andrew Cross",
+          "title": "Assistant Scientist II, WHOI Geology & Geophysics",
+          "sub_field": "Rock and ice rheology and deformation mechanics",
+          "tags": [
+            "rock deformation",
+            "microstructure",
+            "rheology",
+            "seismic anisotropy"
+          ],
+          "summary": "Investigates how crystalline materials such as quartz, olivine and ice deform and transform under extreme conditions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/ridl/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "jeffrey-donnelly",
+          "name": "Jeffrey Donnelly",
+          "title": "Senior Scientist, WHOI Geology & Geophysics",
+          "sub_field": "Paleotempestology and coastal paleoclimate",
+          "tags": [
+            "paleotempestology",
+            "sea level",
+            "storms",
+            "stratigraphy"
+          ],
+          "summary": "Studies Late Quaternary sea-level history, storms and coastal paleoecology and their links to past human settlement.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://web.whoi.edu/coastal-group/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "rob-evans",
+          "name": "Rob Evans",
+          "title": "Senior Scientist, WHOI Geology & Geophysics",
+          "sub_field": "Marine electromagnetic geophysics",
+          "tags": [
+            "controlled-source em",
+            "magnetotellurics",
+            "subduction zones",
+            "lithosphere"
+          ],
+          "summary": "Uses controlled-source electromagnetic and magnetotelluric methods to image seafloor and subsurface electrical resistivity tied to fluids and mantle processes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/site/elecctro/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "weifu-guo",
+          "name": "Weifu Guo",
+          "title": "Associate Scientist, WHOI Geology & Geophysics",
+          "sub_field": "Clumped isotope geochemistry and biocalcification",
+          "tags": [
+            "clumped isotopes",
+            "biocalcification",
+            "coral",
+            "paleoclimate proxies"
+          ],
+          "summary": "Uses clumped-isotope geochemistry to study ocean-acidification effects on coral calcification and to reconstruct past climate.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "andrew-heard",
+          "name": "Andrew Heard",
+          "title": "Assistant Scientist I, WHOI Geology & Geophysics",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Geology & Geophysics Assistant Scientist I; no research description is published on his official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "forrest-horton",
+          "name": "Forrest Horton",
+          "title": "Assistant Scientist II, WHOI Geology & Geophysics",
+          "sub_field": "Mantle geochemistry and continental crust processes",
+          "tags": [
+            "noble gas geochemistry",
+            "ocean island basalts",
+            "geochronology",
+            "mantle degassing"
+          ],
+          "summary": "Investigates mantle composition, hotspot volcanism and extreme crustal heating using isotope geochemistry and petrochronology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.forresthorton.com",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "susan-lang",
+          "name": "Susan Lang",
+          "title": "Associate Scientist, WHOI Geology & Geophysics",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Geology & Geophysics Associate Scientist; no research description is published on her official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.lang-lab.rocks",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "yang-liao",
+          "name": "Yang Liao",
+          "title": "Assistant Scientist II, WHOI Geology & Geophysics",
+          "sub_field": "Geophysical fluid dynamics of volcanic and planetary systems",
+          "tags": [
+            "volcanology",
+            "magmatic reservoirs",
+            "hydrothermal systems",
+            "planetary interiors"
+          ],
+          "summary": "Applies continuum mechanics to volcanic conduits, subsurface hydrothermal circulation and tidally heated icy moons.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "daniel-lizarralde",
+          "name": "Daniel Lizarralde",
+          "title": "Senior Scientist and Department Chair, WHOI Geology & Geophysics",
+          "sub_field": "Marine seismology of continental margins",
+          "tags": [
+            "lithosphere",
+            "continental margins",
+            "gas hydrates",
+            "seismology"
+          ],
+          "summary": "Studies lithospheric evolution at continental margins, including methane gas hydrates and land-to-sea groundwater flux.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/dlizarralde/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "olivier-marchal",
+          "name": "Olivier Marchal",
+          "title": "Senior Scientist, WHOI Geology & Geophysics",
+          "sub_field": "Ocean circulation and paleoclimate inverse modeling",
+          "tags": [
+            "ocean circulation",
+            "paleoceanography",
+            "inverse modeling",
+            "deep-sea sediments"
+          ],
+          "summary": "Combines observations with inverse ocean-circulation models to study circulation variability and deep-sea biogeochemical cycles across timescales.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "james-mcelwaine",
+          "name": "James Mcelwaine",
+          "title": "Associate Scientist, WHOI Geology & Geophysics",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Geology & Geophysics Associate Scientist; no research description is published on his official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "catherine-rychert",
+          "name": "Catherine Rychert",
+          "title": "Associate Scientist, WHOI Geology & Geophysics",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Geology & Geophysics Associate Scientist; no research description is published on her official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "sarah-shackleton",
+          "name": "Sarah Shackleton",
+          "title": "Assistant Scientist I, WHOI Geology & Geophysics",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Geology & Geophysics Assistant Scientist I; no research description is published on her official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "elizabeth-sibert",
+          "name": "Elizabeth Sibert",
+          "title": "Assistant Scientist I, WHOI Geology & Geophysics",
+          "sub_field": "Paleoceanography via fish microfossils",
+          "tags": [
+            "fish teeth",
+            "paleofishes",
+            "deep-sea sediments",
+            "paleoclimate"
+          ],
+          "summary": "Uses fossilized fish teeth and shark scales from ocean sediments to study how marine vertebrates responded to past environmental and climate change.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://elizabethsibert.com",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "robert-sohn",
+          "name": "Robert Sohn",
+          "title": "Senior Scientist, WHOI Geology & Geophysics",
+          "sub_field": "Hydrothermal and volcanic seismology",
+          "tags": [
+            "hydrothermal systems",
+            "volcanoes",
+            "seismology",
+            "stochastic analysis"
+          ],
+          "summary": "Studies hydrothermal and volcanic systems using seismic and stochastic statistical analysis methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.whoi.edu/staff/rsohn/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "masako-tominaga",
+          "name": "Masako Tominaga",
+          "title": "Associate Scientist, WHOI Geology & Geophysics",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Geology & Geophysics Associate Scientist; no research description is published on her official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "stephen-turner",
+          "name": "Stephen Turner",
+          "title": "Assistant Scientist I, WHOI Geology & Geophysics",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "WHOI Geology & Geophysics Assistant Scientist I; no research description is published on his official WHOI profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "fadel-adib",
+          "name": "Fadel Adib",
+          "title": "Professor, MIT Media Lab and EECS",
+          "sub_field": "Wireless and underwater sensing networks",
+          "tags": [
+            "wireless sensing",
+            "underwater networks",
+            "signal processing",
+            "iot"
+          ],
+          "summary": "Develops wireless and battery-free sensing systems, including underwater backscatter networks for ocean sensing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.media.mit.edu/groups/signal-kinetics/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "sara-beery",
+          "name": "Sara Beery",
+          "title": "Assistant Professor, MIT EECS",
+          "sub_field": "Computer vision for environmental monitoring",
+          "tags": [
+            "computer vision",
+            "machine learning",
+            "biodiversity monitoring",
+            "ai"
+          ],
+          "summary": "Applies computer vision and machine learning to large-scale environmental and biodiversity monitoring.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "abigail-bodner",
+          "name": "Abigail Bodner",
+          "title": "Assistant Professor, MIT EAPS",
+          "sub_field": "Upper-ocean turbulence and coastal sea level",
+          "tags": [
+            "turbulence",
+            "upper ocean",
+            "sea level",
+            "numerical simulation"
+          ],
+          "summary": "Studies turbulence in the upper ocean and drivers of coastal sea level using numerical simulations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "sallie-penny-chisholm",
+          "name": "Sallie (Penny) Chisholm",
+          "title": "Institute Professor, MIT Civil and Environmental Engineering",
+          "sub_field": "Marine cyanobacteria and ocean ecosystems",
+          "tags": [
+            "prochlorococcus",
+            "cyanobacteria",
+            "microbial ecology",
+            "genomics"
+          ],
+          "summary": "Studies the marine cyanobacterium Prochlorococcus and its role in ocean ecosystems and global biogeochemistry.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "timothy-cronin",
+          "name": "Timothy Cronin",
+          "title": "Associate Professor, MIT EAPS",
+          "sub_field": "Climate dynamics and climate sensitivity",
+          "tags": [
+            "climate dynamics",
+            "convection",
+            "radiative transfer",
+            "atmospheric physics"
+          ],
+          "summary": "Studies climate dynamics and climate sensitivity, including convection, clouds and radiative processes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "gregory-fournier",
+          "name": "Gregory Fournier",
+          "title": "Associate Professor, MIT EAPS",
+          "sub_field": "Evolutionary biology and molecular evolution",
+          "tags": [
+            "evolution",
+            "phylogenetics",
+            "geobiology",
+            "microbial evolution"
+          ],
+          "summary": "Studies the co-evolution of life and environments using molecular phylogenetics and the geologic record.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "michael-howland",
+          "name": "Michael Howland",
+          "title": "Associate Professor, MIT Civil and Environmental Engineering",
+          "sub_field": "Environmental fluid mechanics and wind energy",
+          "tags": [
+            "fluid mechanics",
+            "turbulence",
+            "wind energy",
+            "boundary layer"
+          ],
+          "summary": "Studies environmental fluid mechanics and turbulent boundary layers with applications to renewable wind energy systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "oliver-jagoutz",
+          "name": "Oliver Jagoutz",
+          "title": "Professor, MIT EAPS",
+          "sub_field": "Magmatic processes and crustal evolution",
+          "tags": [
+            "petrology",
+            "tectonics",
+            "arc magmatism",
+            "crustal evolution"
+          ],
+          "summary": "Studies magmatic processes and the evolution of oceanic and continental crust.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "roger-d-kamm",
+          "name": "Roger D. Kamm",
+          "title": "Professor of Mechanical Engineering and Biological Engineering, MIT",
+          "sub_field": "Biomechanics and engineered cellular systems",
+          "tags": [
+            "biomechanics",
+            "microfluidics",
+            "cell mechanics",
+            "tissue models"
+          ],
+          "summary": "Develops microfluidic and engineered tissue models to study cell mechanics, disease mechanisms and living machines.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "wanying-kang",
+          "name": "Wanying Kang",
+          "title": "Assistant Professor, MIT EAPS",
+          "sub_field": "Atmospheric and oceanic dynamics of planets",
+          "tags": [
+            "planetary dynamics",
+            "ocean worlds",
+            "climate",
+            "icy moons"
+          ],
+          "summary": "Studies atmospheric and oceanic dynamics and their effects on climate, including oceans on icy moons.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "mathias-kolle",
+          "name": "Mathias Kolle",
+          "title": "Associate Professor of Mechanical Engineering, MIT",
+          "sub_field": "Bio-inspired optical materials",
+          "tags": [
+            "optics",
+            "photonics",
+            "biomimetics",
+            "materials"
+          ],
+          "summary": "Studies biologically inspired tunable optical materials and the morphogenesis of biological photonic structures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "john-j-leonard",
+          "name": "John J. Leonard",
+          "title": "Samuel C. Collins Professor of Mechanical Engineering, MIT",
+          "sub_field": "Autonomous robot navigation and mapping",
+          "tags": [
+            "robotics",
+            "slam",
+            "autonomy",
+            "marine robotics"
+          ],
+          "summary": "Studies navigation and mapping for autonomous mobile robots, including simultaneous localization and mapping in dynamic environments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "nicholas-makris",
+          "name": "Nicholas Makris",
+          "title": "Professor of Mechanical Engineering, MIT",
+          "sub_field": "Ocean acoustics, sensing and imaging",
+          "tags": [
+            "ocean acoustics",
+            "remote sensing",
+            "imaging",
+            "wave propagation"
+          ],
+          "summary": "Studies the physics of sensing, imaging and perception, including ocean acoustics and wave propagation theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "david-mcgee",
+          "name": "David McGee",
+          "title": "Professor and Department Head, MIT EAPS",
+          "sub_field": "Isotope geochemistry and paleoclimate",
+          "tags": [
+            "isotope geochemistry",
+            "paleoclimate",
+            "dust",
+            "speleothems"
+          ],
+          "summary": "Uses isotope geochemistry of cave deposits and marine sediments to reconstruct past hydroclimate and atmospheric circulation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "heidi-nepf",
+          "name": "Heidi Nepf",
+          "title": "Donald and Martha Harleman Professor of Civil and Environmental Engineering, MIT",
+          "sub_field": "Environmental fluid mechanics and aquatic vegetation",
+          "tags": [
+            "fluid mechanics",
+            "aquatic vegetation",
+            "sediment transport",
+            "coastal"
+          ],
+          "summary": "Studies flow, turbulence and transport through aquatic vegetation and their role in coastal protection and sediment dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "shuhei-ono",
+          "name": "Shuhei Ono",
+          "title": "Professor, MIT EAPS",
+          "sub_field": "Stable isotope geochemistry and microbial chemistry",
+          "tags": [
+            "stable isotopes",
+            "methane",
+            "biogeochemistry",
+            "geobiology"
+          ],
+          "summary": "Uses stable and clumped isotopes to study microbial metabolisms and biogeochemical cycles, especially methane.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "mat-j-pe",
+          "name": "Matěj Peč",
+          "title": "Associate Professor, MIT EAPS",
+          "sub_field": "Experimental rock deformation and plate tectonics",
+          "tags": [
+            "rock deformation",
+            "rheology",
+            "tectonics",
+            "experimental petrology"
+          ],
+          "summary": "Conducts experimental rock deformation studies to understand lithospheric rheology and plate tectonic processes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "taylor-perron",
+          "name": "Taylor Perron",
+          "title": "Professor, MIT EAPS",
+          "sub_field": "Landscape evolution and planetary surfaces",
+          "tags": [
+            "geomorphology",
+            "landscape evolution",
+            "planetary surfaces",
+            "erosion"
+          ],
+          "summary": "Studies how landscapes form and evolve on Earth and other planets through theory, modeling and field observation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "desiree-plata",
+          "name": "Desiree Plata",
+          "title": "Associate Professor, MIT Civil and Environmental Engineering",
+          "sub_field": "Environmental chemistry and sustainable technology",
+          "tags": [
+            "environmental chemistry",
+            "methane",
+            "pollutants",
+            "sustainability"
+          ],
+          "summary": "Studies environmental chemistry of industrial materials and develops technologies to mitigate pollutant and methane emissions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "daniel-h-rothman",
+          "name": "Daniel H. Rothman",
+          "title": "Professor, MIT EAPS",
+          "sub_field": "Earth system dynamics and geobiology",
+          "tags": [
+            "earth system dynamics",
+            "carbon cycle",
+            "mathematical geoscience",
+            "geobiology"
+          ],
+          "summary": "Studies the dynamics of Earth's carbon cycle and the organization of microbial and geochemical systems using mathematical models.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "nicholas-roy",
+          "name": "Nicholas Roy",
+          "title": "Jerome C. Hunsaker Professor, MIT Aeronautics and Astronautics",
+          "sub_field": "Robotics, autonomy and machine learning",
+          "tags": [
+            "robotics",
+            "autonomy",
+            "machine learning",
+            "planning"
+          ],
+          "summary": "Studies robotics, machine learning and autonomous systems, including planning and reasoning for vehicles operating in uncertain environments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "leigh-h-royden",
+          "name": "Leigh H. Royden",
+          "title": "Professor, MIT EAPS",
+          "sub_field": "Tectonics and crustal deformation",
+          "tags": [
+            "tectonics",
+            "geodynamics",
+            "crustal deformation",
+            "subduction"
+          ],
+          "summary": "Studies tectonic processes and crustal deformation, including subduction dynamics and mountain building.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "serguei-saavedra",
+          "name": "Serguei Saavedra",
+          "title": "Associate Professor, MIT Civil and Environmental Engineering",
+          "sub_field": "Theoretical and network ecology",
+          "tags": [
+            "ecological networks",
+            "theoretical ecology",
+            "coexistence",
+            "complex systems"
+          ],
+          "summary": "Develops theory and network models to understand species coexistence and the persistence of ecological communities.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "themistoklis-sapsis",
+          "name": "Themistoklis Sapsis",
+          "title": "William I. Koch Professor of Mechanical Engineering, MIT",
+          "sub_field": "Extreme events and reduced-order modeling",
+          "tags": [
+            "extreme events",
+            "uncertainty quantification",
+            "nonlinear dynamics",
+            "ocean waves"
+          ],
+          "summary": "Studies quantification and prediction of extreme events in complex systems, including nonlinear water waves and turbulent flows.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "alexandra-h-techet",
+          "name": "Alexandra H. Techet",
+          "title": "Professor of Mechanical Engineering, MIT",
+          "sub_field": "Experimental fluid dynamics and ocean engineering",
+          "tags": [
+            "fluid dynamics",
+            "biomimetics",
+            "free surface flows",
+            "imaging"
+          ],
+          "summary": "Conducts experimental fluid dynamics research in ocean engineering, including biologically inspired propulsion and free-surface flows.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "russ-tedrake",
+          "name": "Russ Tedrake",
+          "title": "Toyota Professor of Electrical Engineering and Computer Science, MIT",
+          "sub_field": "Robotics, control and underactuated systems",
+          "tags": [
+            "robotics",
+            "control",
+            "optimization",
+            "manipulation"
+          ],
+          "summary": "Studies control, motion planning and learning for underactuated robots and complex dynamic systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "michael-triantafyllou",
+          "name": "Michael Triantafyllou",
+          "title": "Henry L. and Grace Doherty Professor in Ocean Science and Engineering, MIT Mechanical Engineering",
+          "sub_field": "Biomimetic ocean robots and flow-structure interaction",
+          "tags": [
+            "biomimetics",
+            "marine robotics",
+            "flow-structure interaction",
+            "ocean vehicles"
+          ],
+          "summary": "Develops biomimetic ocean robots and sensors and studies flow-structure interaction and the dynamics and control of ocean vehicles.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "robert-van-der-hilst",
+          "name": "Robert van der Hilst",
+          "title": "Professor, MIT EAPS",
+          "sub_field": "Seismology and Earth's interior",
+          "tags": [
+            "seismology",
+            "tomography",
+            "mantle",
+            "imaging"
+          ],
+          "summary": "Uses seismic imaging and tomography to study the structure and dynamics of Earth's interior.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "wim-van-rees",
+          "name": "Wim van Rees",
+          "title": "Associate Professor of Mechanical Engineering, MIT",
+          "sub_field": "Numerical methods for fluids and structures",
+          "tags": [
+            "numerical methods",
+            "bio-inspired propulsion",
+            "vortex dynamics",
+            "elastic structures"
+          ],
+          "summary": "Develops numerical simulations for bio-inspired propulsion, vortex dynamics and shape-changing elastic structures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "benjamin-weiss",
+          "name": "Benjamin Weiss",
+          "title": "Professor, MIT EAPS",
+          "sub_field": "Paleomagnetism and planetary science",
+          "tags": [
+            "paleomagnetism",
+            "magnetometry",
+            "planetary science",
+            "solar system"
+          ],
+          "summary": "Uses magnetometry and paleomagnetism to study the history of planetary bodies and the early solar system.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "brandon-weissbourd",
+          "name": "Brandon Weissbourd",
+          "title": "Assistant Professor, MIT Biology",
+          "sub_field": "Neural circuits and nervous system evolution",
+          "tags": [
+            "neuroscience",
+            "jellyfish",
+            "evolution",
+            "regeneration"
+          ],
+          "summary": "Uses the jellyfish Clytia hemisphaerica to study nervous system evolution, development, regeneration and function.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "brian-c-williams",
+          "name": "Brian C. Williams",
+          "title": "Professor, MIT Aeronautics and Astronautics",
+          "sub_field": "Model-based autonomy",
+          "tags": [
+            "autonomy",
+            "model-based reasoning",
+            "diagnosis",
+            "planning"
+          ],
+          "summary": "Develops model-based autonomy for long-lived systems that explore, diagnose and repair themselves through commonsense reasoning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "dick-k-p-yue",
+          "name": "Dick K.P. Yue",
+          "title": "Philip J. Solondz Professor of Mechanical Engineering, MIT",
+          "sub_field": "Wave hydrodynamics and ocean engineering",
+          "tags": [
+            "wave hydrodynamics",
+            "free surface",
+            "offshore structures",
+            "turbulence"
+          ],
+          "summary": "Studies wave hydrodynamics in ocean and coastal environments, air-sea interface fluid mechanics, and dynamics of ships and offshore structures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "maria-t-zuber",
+          "name": "Maria T. Zuber",
+          "title": "Professor, MIT EAPS",
+          "sub_field": "Geophysics and planetary mapping",
+          "tags": [
+            "geophysics",
+            "gravity",
+            "planetary science",
+            "geodesy"
+          ],
+          "summary": "Uses gravitational studies and planetary mapping to investigate the structure and evolution of planetary bodies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "raphael-zufferey",
+          "name": "Raphael Zufferey",
+          "title": "Assistant Professor of Mechanical Engineering, MIT",
+          "sub_field": "Bio-inspired aerial-aquatic robotics",
+          "tags": [
+            "robotics",
+            "bio-inspired design",
+            "aerial-aquatic vehicles",
+            "aquatic monitoring"
+          ],
+          "summary": "Develops autonomous bio-inspired robots, including aerial-aquatic robotic systems for monitoring aquatic environments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
           }
         }
       ]
@@ -55803,6 +59406,793 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://environment.yale.edu/directory/faculty/yuan-yao",
+            "scholar": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "university-of-colorado-boulder-atmospheric-and-oceanic-sciences",
+      "university": "University of Colorado Boulder",
+      "program_name": "Atmospheric and Oceanic Sciences (ATOC)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Geosciences",
+        "subs": [
+          "Atmospheric Science",
+          "Oceanography",
+          "Climate"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026 (for Fall 2027 entry; ATOC: \"Your application must be submitted by the deadline, December 1, for admission in the fall semester.\")",
+        "application_fee_usd": 60,
+        "fee_display": "$60 domestic / $80 international (non-refundable)",
+        "gre": "Not Accepted",
+        "letters": 3,
+        "english": "Required for international applicants: TOEFL, IELTS, or Duolingo, with a test date within 2 years of the intended admission term. CU Boulder Graduate School minimums for most programs: TOEFL iBT 80, IELTS 6.5, Duolingo 115. ATOC does not publish a program-specific minimum. Exemptions exist for citizens of qualifying countries or 1+ year of full-time academic study in the US/a qualifying country.",
+        "admission_model": "Unknown/Verify",
+        "admission_model_note": "Not explicitly stated as committee vs. advisor-match. ATOC asks applicants to describe \"ATOC-specific research interests, including faculty members or scientists with whom you would like to work\" in the personal statement. The Academic FAQ notes students may work with advisors outside ATOC (other departments, CIRES/INSTAAR/LASP, NCAR/NOAA) but must then have a co-advisor who is an ATOC core or research faculty member.",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "ATOC states: \"Almost all admitted doctoral students are offered financial support from the department in the form of a Teaching Assistant (TA) position or from an advisor's research grant as a Research Assistant (RA) position.\" Positions include tuition remission of 9+ credit hours per semester, ~90% of health insurance costs, most student fees, and a monthly stipend. Incoming PhD students are supported at 50% (20 hours/week) during the first fall and spring semesters and typically work 100% as an RA for 3 months in the summer. 2026-2027 annual salary is no less than $48,870 (pre-comps) to $51,450 (post-comps). No explicit multi-year guarantee is published, so status is Unknown/Verify."
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "No official page explicitly tells applicants to contact faculty before applying. The application instructions do ask applicants to name faculty members or scientists they would like to work with in the personal statement.",
+        "ects": null,
+        "duration": "Unknown/Verify (ATOC publishes 36 credit hours of coursework plus 30 dissertation hours, a written Part I comprehensive exam normally taken in the second year and an oral Part II normally in the third year, but does not state a typical time-to-degree)"
+      },
+      "links": {
+        "program": "https://www.colorado.edu/atoc/academics/prospective-graduate-students/degrees-offered",
+        "admissions": "https://www.colorado.edu/atoc/academics/prospective-graduate-students/deadlines-and-procedures"
+      },
+      "data_currency": "Scanned 2026-07-15 from colorado.edu/atoc and colorado.edu/graduateschool - verify before relying on deadlines/fees.",
+      "faculty": [
+        {
+          "id": "christopher-cantrell",
+          "name": "Christopher Cantrell",
+          "title": "Senior Research Associate, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Atmospheric radical measurement",
+          "tags": [
+            "mass spectrometry",
+            "radicals",
+            "instrumentation"
+          ],
+          "summary": "Development, improvement and deployment of mass spectrometric-based instrumentation for measurement of hydroxyl (OH), hydroperoxy (HO2) and organic peroxy radicals (RO2) (and other species), and interpretation of the data from those deployments",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.christopher-cantrell.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elizabeth-cassano",
+          "name": "Elizabeth Cassano",
+          "title": "Assistant Teaching Professor, ATOC",
+          "sub_field": "Polar meteorology (teaching track)",
+          "tags": [
+            "polar meteorology",
+            "teaching"
+          ],
+          "summary": "Unknown/Verify",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://experts.colorado.edu/display/fisid_121144",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-cassano",
+          "name": "John Cassano",
+          "title": "Professor, ATOC",
+          "sub_field": "Polar meteorology and climate",
+          "tags": [
+            "polar climate",
+            "regional climate modeling",
+            "boundary layer"
+          ],
+          "summary": "Meteorology and climate of the polar regions, regional climate modeling, numerical weather prediction, mesoscale and boundary layer processes",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://cires.colorado.edu/science/groups/cassano/index.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "will-chapman",
+          "name": "Will Chapman",
+          "title": "Assistant Professor, ATOC",
+          "sub_field": "Atmospheric dynamics and machine learning",
+          "tags": [
+            "atmospheric dynamics",
+            "machine learning",
+            "model error"
+          ],
+          "summary": "Large-scale atmospheric dynamics, structural model error, machine learning",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-fasullo",
+          "name": "John Fasullo",
+          "title": "Project Scientist, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Climate variability and energy budget",
+          "tags": [
+            "tropical variability",
+            "climate",
+            "NCAR"
+          ],
+          "summary": "Low-frequency tropical variability",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.cgd.ucar.edu/staff/fasullo/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alan-fried",
+          "name": "Alan Fried",
+          "title": "Senior Research Associate, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Laser-based atmospheric instrumentation",
+          "tags": [
+            "laser spectroscopy",
+            "instrumentation",
+            "INSTAAR"
+          ],
+          "summary": "Advanced Laser Technology for Atmospheric Research",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://instaar.colorado.edu/people/alan-fried/research-detail/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "katja-friedrich",
+          "name": "Katja Friedrich",
+          "title": "Professor, Department Chair, ATOC",
+          "sub_field": "Cloud physics and precipitation",
+          "tags": [
+            "cloud physics",
+            "precipitation",
+            "field studies"
+          ],
+          "summary": "Investigation of kinematic and microphysical processes relevant for cloud formation and change of precipitation; conduct modeling, analysis and field studies in cloud physics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://clouds.colorado.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "donata-giglio",
+          "name": "Donata Giglio",
+          "title": "Assistant Professor, ATOC",
+          "sub_field": "Physical oceanography",
+          "tags": [
+            "ocean dynamics",
+            "air-sea interaction",
+            "geophysical fluid dynamics"
+          ],
+          "summary": "Large scale ocean dynamics, air-sea interaction and geophysical fluid dynamics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/site/donatagiglio/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joost-de-gouw",
+          "name": "Joost de Gouw",
+          "title": "Professor, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Atmospheric chemistry / VOCs",
+          "tags": [
+            "volatile organic compounds",
+            "atmospheric chemistry",
+            "CIRES"
+          ],
+          "summary": "Volatile organic compounds",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cires.colorado.edu/council-fellows/joost-de-gouw",
+            "scholar": null
+          }
+        },
+        {
+          "id": "weiqing-han",
+          "name": "Weiqing Han",
+          "title": "Professor, ATOC",
+          "sub_field": "Tropical ocean dynamics",
+          "tags": [
+            "tropical oceans",
+            "air-sea interaction",
+            "climate variability"
+          ],
+          "summary": "Tropical ocean circulation, dynamics, air-sea interaction, climate variability and change",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://storm.colorado.edu/~whan/webpage/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "v-lynn-harvey",
+          "name": "V. Lynn Harvey",
+          "title": "Research Scientist III, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Middle atmosphere dynamics",
+          "tags": [
+            "middle atmosphere",
+            "tracer transport",
+            "LASP"
+          ],
+          "summary": "Middle atmosphere dynamics, Lagrangian tracer transport, Model-Observation Inter-comparisons",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://lasp.colorado.edu/home/personnel/lynn.harvey/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sue-ellen-haupt",
+          "name": "Sue Ellen Haupt",
+          "title": "Director, Weather Systems Assessment Program, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Boundary layer meteorology and renewable energy",
+          "tags": [
+            "boundary layer",
+            "wind energy",
+            "turbulence"
+          ],
+          "summary": "Wind and Renewable Energy, Boundary Layer Meteorology, Turbulence, Dispersion, Dynamical Systems, Fluid Dynamics, Dynamic Meteorology, Climate, Numerical Modeling, Computational Fluid Dynamics, Geophysical Fluid Dynamics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.rap.ucar.edu/staff/se_haupt-staff.php",
+            "scholar": null
+          }
+        },
+        {
+          "id": "laura-holt",
+          "name": "Laura Holt",
+          "title": "Research Scientist, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Gravity waves and middle atmosphere",
+          "tags": [
+            "gravity waves",
+            "quasi-biennial oscillation",
+            "high-resolution modeling"
+          ],
+          "summary": "Global high-resolution climate modeling, middle atmosphere dynamics, gravity waves, tropical waves and the quasi-biennial oscillation, and teleconnections",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "alexandra-jahn",
+          "name": "Alexandra Jahn",
+          "title": "Associate Professor, ATOC",
+          "sub_field": "Climate and sea ice modeling",
+          "tags": [
+            "sea ice",
+            "Arctic Ocean",
+            "climate modeling"
+          ],
+          "summary": "Climate Modeling, Arctic Ocean and sea ice variability, freshwater, paleoclimate, modeling isotopes and geotracers, climate model evaluation",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://instaar.colorado.edu/people/alexandra-jahn/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kris-karnauskas",
+          "name": "Kris Karnauskas",
+          "title": "Associate Professor, Associate Chair, ATOC",
+          "sub_field": "Coupled climate dynamics",
+          "tags": [
+            "coupled climate",
+            "marine ecosystems",
+            "prediction"
+          ],
+          "summary": "Dynamics of the coupled Earth system toward useful predictions of impacts ranging from marine ecosystems to human health",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.colorado.edu/oclab/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jen-kay",
+          "name": "Jen Kay",
+          "title": "Professor, ATOC",
+          "sub_field": "Clouds, aerosols and Arctic climate",
+          "tags": [
+            "clouds",
+            "Arctic sea ice",
+            "climate model evaluation"
+          ],
+          "summary": "Cloud and aerosol processes and their influence on the coupled climate system, recent and projected Arctic sea ice loss, climate model evaluation and improvement using data assimilation and satellite observations, and communicating climate science",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://cires.colorado.edu/science/groups/kay/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "michael-king",
+          "name": "Michael King",
+          "title": "Senior Research Scientist, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Satellite cloud remote sensing",
+          "tags": [
+            "MODIS",
+            "cloud properties",
+            "LASP"
+          ],
+          "summary": "Algorithm development and climatology from the MODIS instrument on the Terra and Aqua spacecraft, especially cloud optical and microphysical properties",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://lasp.colorado.edu/home/personnel/michael.king/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "branko-kosovic",
+          "name": "Branko Kosovic",
+          "title": "Project Scientist II, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Mesoscale modeling and wind energy",
+          "tags": [
+            "WRF",
+            "wind energy",
+            "mesoscale modeling"
+          ],
+          "summary": "Extending multiscale modeling capabilities in the Weather Research and Forecasting model for wind energy applications",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://staff.ucar.edu/users/branko",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jan-lenaerts",
+          "name": "Jan Lenaerts",
+          "title": "Research Affiliate, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Ice sheets and polar climate",
+          "tags": [
+            "ice sheets",
+            "polar climate",
+            "snow"
+          ],
+          "summary": "Ice sheets, polar climate, snow, ice, and atmosphere-surface and ice-ocean interactions",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.colorado.edu/lab/icesheetclimate/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jianghanyang-li",
+          "name": "Jianghanyang Li",
+          "title": "Assistant Professor, ATOC",
+          "sub_field": "Atmospheric chemistry and isotopes",
+          "tags": [
+            "atmospheric chemistry",
+            "stable isotopes",
+            "trace gases"
+          ],
+          "summary": "Using analytical chemistry and stable isotopic analysis (C, H, O, N, S) to understand the origins and chemical processes of atmospheric trace gases, as well as their roles in impacting global climate and regional air quality",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/faculty/lijianghanyang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rodman-linn",
+          "name": "Rodman Linn",
+          "title": "Team Leader, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Wildfire and fluid dynamics modeling",
+          "tags": [
+            "wildfire modeling",
+            "fluid dynamics",
+            "LANL"
+          ],
+          "summary": "Expertise in solving and modeling problems involving complex thermal, mechanical, and fluid dynamics systems, including wildfire behavior modeling",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.lanl.gov/expertise/profiles/view/rod-linn",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nicole-lovenduski",
+          "name": "Nicole Lovenduski",
+          "title": "Professor, INSTAAR Director, ATOC",
+          "sub_field": "Ocean biogeochemistry",
+          "tags": [
+            "carbon cycle",
+            "ocean modeling",
+            "climate variability"
+          ],
+          "summary": "Marine carbon cycle, ocean climate variability and change, ocean modeling",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://instaar.colorado.edu/research/labs-groups/ocean-biogeochemistry-research-group/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "julie-lundquist",
+          "name": "Julie Lundquist",
+          "title": "Research Affiliate, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Boundary-layer meteorology and wind energy",
+          "tags": [
+            "boundary layer",
+            "wind energy",
+            "large-eddy simulation"
+          ],
+          "summary": "Boundary-layer meteorology, numerical weather prediction, large-eddy simulations, renewable energy applications, urban meteorology and climatology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.jhu.edu/faculty/julie-lundquist/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-marsh",
+          "name": "Daniel Marsh",
+          "title": "Scientist III, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Middle/upper atmosphere chemistry-climate",
+          "tags": [
+            "middle atmosphere",
+            "chemistry-climate",
+            "NCAR"
+          ],
+          "summary": "Understanding the chemistry and dynamics of the middle and upper atmosphere, and coupling to the tropospheric climate",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://staff.ucar.edu/users/marsh",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lee-mauldin",
+          "name": "Lee Mauldin",
+          "title": "Senior Research Associate, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Atmospheric mass spectrometry",
+          "tags": [
+            "mass spectrometry",
+            "instrumentation",
+            "atmospheric chemistry"
+          ],
+          "summary": "Development, improvement, and deployment of mass spectrometric-based instrumentation for the measurement reactive and short-lived species and the interpretation of data from these measurements. These include hydroxyl radical (OH), peroxy radicals (HO2, RO2), s",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "julia-moriarty",
+          "name": "Julia Moriarty",
+          "title": "Assistant Professor, ATOC",
+          "sub_field": "Coastal oceanography",
+          "tags": [
+            "coastal ocean",
+            "sediment transport",
+            "numerical modeling"
+          ],
+          "summary": "Transport of sediment and nutrients in the coastal ocean; Coupled numerical modeling",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://instaar.colorado.edu/people/julia-moriarty/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "melville-nicholls",
+          "name": "Melville Nicholls",
+          "title": "Senior Research Scientist, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Numerical modeling of convection",
+          "tags": [
+            "convective storms",
+            "gravity waves",
+            "numerical modeling"
+          ],
+          "summary": "Numerical modeling, squall lines, convective storms, gravity waves, compression waves, energy transfer, airflow around buildings, the atmospheric boundary layer, sources and sinks of carbon dioxide, infrasound and tropical cyclones. He taught classes in numeri",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://cires.colorado.edu/bios/mel-nicholls/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-noone",
+          "name": "David Noone",
+          "title": "Associate Professor, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Climate modeling and water isotopes",
+          "tags": [
+            "climate modeling",
+            "water cycle",
+            "polar climate"
+          ],
+          "summary": "Global climate modeling, cycles of water and carbon, polar climate variability, large scale dynamics of the atmospheres and oceans",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://blogs.oregonstate.edu/climate/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "peter-pilewskie",
+          "name": "Peter Pilewskie",
+          "title": "Professor, ATOC",
+          "sub_field": "Atmospheric radiation and remote sensing",
+          "tags": [
+            "radiative transfer",
+            "remote sensing",
+            "energy budget"
+          ],
+          "summary": "Atmospheric radiative transfer; cloud and aerosol remote sensing; radiative energy budget analysis",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://lasp.colorado.edu/home/sorce/contacts/biographies/biography-peter-pilewskie/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sara-sanchez",
+          "name": "Sara Sanchez",
+          "title": "Assistant Professor, ATOC",
+          "sub_field": "Climate dynamics and paleoclimate",
+          "tags": [
+            "paleoclimate",
+            "tropical climate",
+            "isotope geochemistry"
+          ],
+          "summary": "Climate dynamics, paleoclimate, tropical climate variability, isotope geochemistry",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://experts.colorado.edu/display/fisid_167959",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sebastian-schmidt",
+          "name": "Sebastian Schmidt",
+          "title": "Professor, ATOC",
+          "sub_field": "Radiative transfer and remote sensing",
+          "tags": [
+            "remote sensing",
+            "radiative energy budget",
+            "aircraft instrumentation"
+          ],
+          "summary": "Atmospheric and surface remote sensing. Radiative energy budget studies from aircraft, space, and from the ground. Development of aircraft measurement strategies and instrumentation. Quantify cloud, aerosol, and gas radiative effects in different regions",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://lasp.colorado.edu/home/personnel/sebastian.schmidt/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-p-schneider",
+          "name": "David P Schneider",
+          "title": "Research Scientist III, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Polar climate variability",
+          "tags": [
+            "polar climate",
+            "CIRES"
+          ],
+          "summary": "Unknown/Verify",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cires.colorado.edu/people/david-schneider",
+            "scholar": null
+          }
+        },
+        {
+          "id": "matthew-shupe",
+          "name": "Matthew Shupe",
+          "title": "Research Scientist, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Arctic clouds and radiation",
+          "tags": [
+            "Arctic",
+            "clouds",
+            "radiation"
+          ],
+          "summary": "Clouds, radiation, and atmospheric processes; Arctic system research",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.esrl.noaa.gov/psd/people/matthew.shupe/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sharon-stammerjohn",
+          "name": "Sharon Stammerjohn",
+          "title": "Senior Research Associate, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Polar oceanography and climate",
+          "tags": [
+            "polar oceanography",
+            "sea ice",
+            "ecosystems"
+          ],
+          "summary": "Polar oceanography and climate, interdisciplinary approaches to understanding environmental and ecosystem response to climate variability",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://instaar.colorado.edu/people/sharon-stammerjohn/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "julienne-stroeve",
+          "name": "Julienne Stroeve",
+          "title": "Senior Research Scientist, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Cryosphere remote sensing",
+          "tags": [
+            "sea ice",
+            "remote sensing",
+            "NSIDC"
+          ],
+          "summary": "Remote sensing of snow and ice in the visible, infrared, and microwave wavelengths",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://nsidc.org/research/bios/stroeve.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "aneesh-subramanian",
+          "name": "Aneesh Subramanian",
+          "title": "Associate Professor, ATOC",
+          "sub_field": "Climate predictability and data assimilation",
+          "tags": [
+            "predictability",
+            "data assimilation",
+            "geophysical fluid dynamics"
+          ],
+          "summary": "My research interests are varied and are mainly focused on climate dynamics, predictability, data assimilation, and geophysical fluid dynamics. The main focus of my work is currently in gaining a better understanding of processes that impact extreme weath",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.aneeshcs.com",
+            "scholar": null
+          }
+        },
+        {
+          "id": "darin-toohey",
+          "name": "Darin Toohey",
+          "title": "Professor, ATOC",
+          "sub_field": "Atmospheric chemistry and aerosols",
+          "tags": [
+            "aerosols",
+            "trace gases",
+            "air quality"
+          ],
+          "summary": "Observations of aerosols and trace gases in Earth's atmosphere from the ground to the middle stratosphere. Influences on climate, chemistry, and air quality",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://storm.colorado.edu/~toohey/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "arianna-varuolo-clarke",
+          "name": "Arianna Varuolo-Clarke",
+          "title": "Research Affiliate, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Unknown/Verify",
+          "tags": [
+            "Unknown/Verify"
+          ],
+          "summary": "Unknown/Verify",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "roger-wakimoto",
+          "name": "Roger Wakimoto",
+          "title": "ATOC Research Professor; Assistant Director Geosciences, NSF, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Severe convective weather and radar",
+          "tags": [
+            "severe storms",
+            "tornadoes",
+            "radar"
+          ],
+          "summary": "Severe convective weather phenomena, including severe thunderstorms, tornadoes and downbursts",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=54303&from=",
+            "scholar": null
+          }
+        },
+        {
+          "id": "zhien-wang",
+          "name": "Zhien Wang",
+          "title": "Research Affiliate, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Cloud physics and remote sensing",
+          "tags": [
+            "clouds",
+            "remote sensing",
+            "parameterization"
+          ],
+          "summary": "Observing clouds from different platforms leading to a greater understanding of cloud physical processes and improving the parameterizations of cloud-related physical processes in climate models",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://experts.colorado.edu/display/fisid_164340",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xinyue-wang",
+          "name": "Xinyue Wang",
+          "title": "Assistant Professor, ATOC",
+          "sub_field": "Atmospheric and climate dynamics",
+          "tags": [
+            "climate dynamics",
+            "middle atmosphere",
+            "chemistry-climate modeling"
+          ],
+          "summary": "Atmospheric and climate dynamics, lower and middle atmosphere interactions, chemistry-climate modeling",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/xinyuewang/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeffrey-weiss",
+          "name": "Jeffrey Weiss",
+          "title": "Professor, ATOC",
+          "sub_field": "Geophysical fluid dynamics",
+          "tags": [
+            "turbulence",
+            "stochastic models",
+            "predictability"
+          ],
+          "summary": "Geophysical turbulence, coherent structures, fluid transport, predictability, stochastic models",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://atoc.colorado.edu/~jweiss/website/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrew-winters",
+          "name": "Andrew Winters",
+          "title": "Assistant Professor, ATOC",
+          "sub_field": "Synoptic-dynamic meteorology",
+          "tags": [
+            "synoptic meteorology",
+            "high-impact weather",
+            "forecasting"
+          ],
+          "summary": "Synoptic-dynamic meteorology, high-impact weather events, forecast model evaluation, and topics at the weather–climate interface",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://acwinters.weebly.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "joshua-wurman",
+          "name": "Joshua Wurman",
+          "title": "President, ATOC (Research Faculty & Affiliates)",
+          "sub_field": "Radar meteorology and tornadoes",
+          "tags": [
+            "tornadoes",
+            "radar",
+            "severe weather"
+          ],
+          "summary": "Investigating tornadogenesis, tornado structure, nurricane boundary layers and surface wind damage, as well as radar technology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.cswr.org/",
             "scholar": null
           }
         }
