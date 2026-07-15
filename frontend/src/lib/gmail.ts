@@ -6,7 +6,10 @@
 // only the public OAuth Client ID is stored in localStorage.
 
 const GIS_SRC = 'https://accounts.google.com/gsi/client'
-const SCOPE = 'https://www.googleapis.com/auth/gmail.readonly'
+/** gmail.readonly for outreach sync; drive.appdata for the backup file (a
+ *  private, app-only folder in the user's Drive — we cannot see their real files). */
+const SCOPE =
+  'https://www.googleapis.com/auth/gmail.readonly https://www.googleapis.com/auth/drive.appdata'
 const API = 'https://gmail.googleapis.com/gmail/v1/users/me'
 export const CLIENT_ID_KEY = 'tracker.gmail.clientId.v1'
 

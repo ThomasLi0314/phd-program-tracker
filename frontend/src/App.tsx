@@ -14,6 +14,15 @@ import { useStarredAdvisors } from './lib/starredAdvisors'
 import { useAdvisorNotes } from './lib/advisorNotes'
 import { useOutreach, type SyncProgress } from './lib/outreach'
 import { useOverrides } from './lib/overrides'
+import { applyBackup, exportBackup, isLocalEmpty } from './lib/backup'
+import {
+  driveBackupTime,
+  loadFromDrive,
+  loadSyncEnabled,
+  saveSyncEnabled,
+  saveToDrive,
+} from './lib/drive'
+import { BackupModal } from './components/BackupModal'
 import { connect as gmailConnect, disconnect as gmailDisconnect, ensureToken, loadClientId } from './lib/gmail'
 import { FilterSidebar } from './components/FilterSidebar'
 import { FieldSearch } from './components/FieldSearch'
@@ -64,6 +73,10 @@ function App() {
   const [gmailError, setGmailError] = useState<string | null>(null)
   const [syncing, setSyncing] = useState(false)
   const [syncStatus, setSyncStatus] = useState<string | null>(null)
+  const [showBackup, setShowBackup] = useState(false)
+  const [driveSync, setDriveSync] = useState(loadSyncEnabled)
+  const [driveStatus, setDriveStatus] = useState<string | null>(null)
+  const [driveTime, setDriveTime] = useState<string | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
   useEffect(() => {
@@ -232,17 +245,86 @@ function App() {
     }
   }
 
+  /** Write the current snapshot to the Drive app-data folder. */
+  const doDriveBackup = async (silent = false) => {
+    const clientId = loadClientId()
+    if (!clientId) return
+    if (!silent) setDriveStatus('Backing up…')
+    try {
+      const token = await ensureToken(clientId)
+      await saveToDrive(token, exportBackup())
+      setDriveTime(new Date().toISOString())
+      if (!silent) setDriveStatus('Backed up to Drive ✓')
+    } catch (e) {
+      setDriveStatus(`Drive backup failed: ${e instanceof Error ? e.message : String(e)}`)
+    }
+  }
+
+  const doDriveRestore = async () => {
+    const clientId = loadClientId()
+    if (!clientId) return
+    setDriveStatus('Reading Drive…')
+    try {
+      const token = await ensureToken(clientId)
+      const b = await loadFromDrive(token)
+      if (!b) {
+        setDriveStatus('No backup found in Drive yet.')
+        return
+      }
+      if (!confirm('Replace this browser’s data with the Google Drive backup, then reload?')) {
+        setDriveStatus(null)
+        return
+      }
+      applyBackup(b)
+      location.reload()
+    } catch (e) {
+      setDriveStatus(`Restore failed: ${e instanceof Error ? e.message : String(e)}`)
+    }
+  }
+
   const handleConnect = async (clientId: string) => {
     setGmailError(null)
     try {
       const email = await gmailConnect(clientId)
       setGmailEmail(email)
       setGmailStatus('connected')
+      // Fresh browser with nothing saved? Offer the Drive backup before anything else.
+      if (isLocalEmpty()) {
+        try {
+          const b = await loadFromDrive(await ensureToken(clientId))
+          if (b && confirm('Found a saved backup in your Google Drive. Restore it now?')) {
+            applyBackup(b)
+            location.reload()
+            return
+          }
+        } catch {
+          /* no drive backup / scope not granted */
+        }
+      }
       void runSync()
     } catch (e) {
       setGmailError(e instanceof Error ? e.message : String(e))
     }
   }
+
+  // Auto-backup to Drive (debounced) whenever user data changes.
+  useEffect(() => {
+    if (!driveSync || gmailStatus !== 'connected') return
+    const t = setTimeout(() => void doDriveBackup(true), 3000)
+    return () => clearTimeout(t)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [driveSync, gmailStatus, myList, starLevels, advisorNotes, outreach.state, overrides])
+
+  // Show when the Drive backup was last written, when the panel opens.
+  useEffect(() => {
+    if (!showBackup || gmailStatus !== 'connected') return
+    const clientId = loadClientId()
+    if (!clientId) return
+    ensureToken(clientId)
+      .then(driveBackupTime)
+      .then(setDriveTime)
+      .catch(() => {})
+  }, [showBackup, gmailStatus])
 
   const handleDisconnect = () => {
     gmailDisconnect()
@@ -347,6 +429,18 @@ function App() {
             title="Show all programs saved to My List, across every field"
           >
             ★ My List ({myList.size})
+          </button>
+
+          <button
+            onClick={() => setShowBackup(true)}
+            className={`rounded border px-2 py-1 text-[11px] font-medium transition-colors ${
+              driveSync && gmailStatus === 'connected'
+                ? 'border-emerald-500/40 bg-emerald-500/15 text-emerald-300'
+                : 'border-amber-500/50 bg-amber-500/10 text-amber-300 hover:bg-amber-500/20'
+            }`}
+            title="Backup & restore your saved data — localStorage is wiped by clearing browsing data"
+          >
+            {driveSync && gmailStatus === 'connected' ? '☁️ Backed up' : '⚠️ Backup'}
           </button>
 
           <button
@@ -505,6 +599,22 @@ function App() {
       </div>
 
       {showRequest && <RequestFieldModal onClose={() => setShowRequest(false)} />}
+      {showBackup && (
+        <BackupModal
+          onClose={() => setShowBackup(false)}
+          driveConnected={gmailStatus === 'connected'}
+          driveSync={driveSync}
+          onSetDriveSync={(on) => {
+            setDriveSync(on)
+            saveSyncEnabled(on)
+            if (on) void doDriveBackup()
+          }}
+          onBackupNow={() => void doDriveBackup()}
+          onRestoreFromDrive={() => void doDriveRestore()}
+          driveStatus={driveStatus}
+          driveTime={driveTime}
+        />
+      )}
     </div>
   )
 }
