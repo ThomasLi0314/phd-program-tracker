@@ -17,6 +17,7 @@ import { useAdvisorNotes } from './lib/advisorNotes'
 import { useOutreach, type SyncProgress } from './lib/outreach'
 import { useOverrides } from './lib/overrides'
 import { applyBackup, exportBackup, isLocalEmpty } from './lib/backup'
+import { buildRequests } from './lib/advisorRequests'
 import {
   driveBackupTime,
   loadFromDrive,
@@ -238,6 +239,16 @@ function App() {
     if (starred.length === 0) return starLevels.size
     return new Set(starred.map((h) => mergeKey(h.faculty.name, h.program.university))).size
   }, [outreachPool, starLevels])
+
+  // Locally-added advisors, packaged as a merge request. Resolved against the
+  // whole database so each request carries its university/program name.
+  const advisorRequests = useMemo(() => {
+    const byId = new Map(outreachPool.map((h) => [h.program.id, h.program]))
+    return buildRequests(overrides.addedFaculty, (programId) => {
+      const p = byId.get(programId)
+      return p ? { university: p.university, program: p.program_name } : null
+    })
+  }, [overrides.addedFaculty, outreachPool])
 
   // Keep a valid selection as filters change.
   useEffect(() => {
@@ -702,6 +713,7 @@ function App() {
           onRestoreFromDrive={() => void doDriveRestore()}
           driveStatus={driveStatus}
           driveTime={driveTime}
+          requests={advisorRequests}
         />
       )}
     </div>

@@ -122,6 +122,8 @@ export interface AdvisorDraft {
   summary: string
   homepage: string
   scholar: string
+  /** Only set by extractAdvisorFromPage: the name as the fetched page spells it. */
+  pageName?: string
 }
 
 /** Draft an advisor card from the model's training knowledge. NOTE: DeepSeek
@@ -153,6 +155,64 @@ export async function researchAdvisor(
     summary: str(p.summary),
     homepage: /^https?:\/\//i.test(str(p.homepage)) ? str(p.homepage) : '',
     scholar: /^https?:\/\//i.test(str(p.scholar)) ? str(p.scholar) : '',
+  }
+}
+
+/**
+ * Extract an advisor card from a page that WAS ACTUALLY FETCHED (see
+ * lib/pageReader). Unlike researchAdvisor(), nothing here comes from training
+ * recall: the model is told the page is the only permissible source and to leave
+ * a field empty rather than fill it in from memory. That's the whole point —
+ * every value is then traceable to `source_url`.
+ *
+ * `recruitment_status` is deliberately NOT extracted. It's the field the project
+ * is strictest about ("Looking for Students" only when an official page says so
+ * outright), and a model reading one page is not a good enough judge; the caller
+ * pins it to Unknown/Verify.
+ */
+export async function extractAdvisorFromPage(
+  name: string,
+  page: { url: string; text: string },
+  ctx: { university: string; program: string },
+): Promise<AdvisorDraft> {
+  const sys =
+    'You extract structured facts about one academic from the text of a web page that has been fetched for you. ' +
+    'The page text is your ONLY permitted source. You must NOT use anything you remember about this person from training — ' +
+    'if the page does not state something, return an empty string for it. Never invent a URL: only return a link that ' +
+    'literally appears in the page text. If the page is clearly about a different person, say so via the "mismatch" field. ' +
+    'Respond with ONLY a JSON object.'
+  const user =
+    `Target professor: ${name}${ctx.university ? `, expected at ${ctx.university}` : ''}${
+      ctx.program ? ` (${ctx.program})` : ''
+    }.\nPage URL: ${page.url}\n\n--- PAGE TEXT START ---\n${page.text}\n--- PAGE TEXT END ---\n\n` +
+    `Return JSON exactly: {"mismatch":true|false (true only if this page is clearly not about the target professor),` +
+    `"name":"their name exactly as the page spells it, or empty",` +
+    `"title":"their exact academic title as written on the page, or empty",` +
+    `"sub_field":"their main research area, short, from the page","tags":["3-6 research keywords taken from the page"],` +
+    `"summary":"1-3 sentences describing their research, grounded in the page text",` +
+    `"homepage":"their personal/lab site ONLY if the URL appears in the page text, else empty",` +
+    `"scholar":"their Google Scholar URL ONLY if it appears in the page text, else empty"}`
+
+  const out = await chat([{ role: 'system', content: sys }, { role: 'user', content: user }], {
+    json: true,
+  })
+  const p = JSON.parse(out)
+  const str = (v: unknown) => (typeof v === 'string' ? v.trim() : '')
+  if (p.mismatch === true) {
+    throw new Error(
+      `That page doesn't look like it's about ${name}. Check the URL — it may be a directory listing or a different person.`,
+    )
+  }
+  return {
+    title: str(p.title),
+    sub_field: str(p.sub_field),
+    tags: Array.isArray(p.tags) ? p.tags.filter((t: unknown) => typeof t === 'string').slice(0, 8) : [],
+    summary: str(p.summary),
+    homepage: /^https?:\/\//i.test(str(p.homepage)) ? str(p.homepage) : '',
+    scholar: /^https?:\/\//i.test(str(p.scholar)) ? str(p.scholar) : '',
+    // The page's own spelling wins (accents, middle initials) when it's clearly
+    // the same person; the caller decides whether to take it.
+    pageName: str(p.name),
   }
 }
 

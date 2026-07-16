@@ -21,6 +21,12 @@ export interface Faculty {
   links: FacultyLinks
   /** true for advisors the user added locally (not from the verified dataset). */
   added?: boolean
+  /** The page this card's facts were extracted from, when it was built by
+   *  fetching a real URL rather than typed by hand or recalled by the model.
+   *  Its presence is what makes an added advisor promotable to the dataset. */
+  source_url?: string
+  /** ISO date the source_url was read. */
+  fetched_at?: string
 }
 
 export interface Funding {

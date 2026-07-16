@@ -7,7 +7,8 @@ import { AdvisorNote } from './AdvisorNote'
 import { OutreachBadge } from './OutreachBadge'
 import { EditableLink } from './EditableLink'
 import { advisorKey } from '../lib/starredAdvisors'
-import { aiActive, researchAdvisor } from '../lib/deepseek'
+import { aiActive, extractAdvisorFromPage, researchAdvisor } from '../lib/deepseek'
+import { isProbablyUrl, mentionsName, readPage } from '../lib/pageReader'
 
 function Value({ text }: { text: string }) {
   if (text === UNKNOWN) {
@@ -226,13 +227,34 @@ function FacultyCard({
         <div className="min-w-0">
           <h4 className="font-serif text-[15px] font-bold leading-tight text-slate-900">
             {faculty.name}
-            {faculty.added && (
-              <span className="ml-1.5 rounded bg-indigo-100 px-1.5 py-px align-middle text-[9px] font-semibold uppercase tracking-wide text-indigo-600">
-                added · verify
-              </span>
-            )}
+            {faculty.added &&
+              // A card built from a page we actually read is a different claim
+              // from one the model recalled — say which.
+              (faculty.source_url ? (
+                <span className="ml-1.5 rounded bg-emerald-100 px-1.5 py-px align-middle text-[9px] font-semibold uppercase tracking-wide text-emerald-700">
+                  added · sourced
+                </span>
+              ) : (
+                <span className="ml-1.5 rounded bg-indigo-100 px-1.5 py-px align-middle text-[9px] font-semibold uppercase tracking-wide text-indigo-600">
+                  added · verify
+                </span>
+              ))}
           </h4>
           <p className="mt-0.5 text-[11px] leading-snug text-slate-500">{faculty.title}</p>
+          {faculty.source_url && (
+            <p className="mt-0.5 text-[10px] leading-snug text-slate-400">
+              from{' '}
+              <a
+                href={faculty.source_url}
+                target="_blank"
+                rel="noreferrer"
+                className="text-slate-500 underline [overflow-wrap:anywhere] hover:text-indigo-600"
+              >
+                {faculty.source_url.replace(/^https?:\/\//, '').slice(0, 60)}
+              </a>
+              {faculty.fetched_at && ` · read ${faculty.fetched_at}`}
+            </p>
+          )}
         </div>
         <div className="flex shrink-0 items-center gap-1.5">
           <RecruitmentBadge status={faculty.recruitment_status} />
@@ -323,25 +345,80 @@ function AddAdvisorForm({
   const [summary, setSummary] = useState('')
   const [homepage, setHomepage] = useState('')
   const [scholar, setScholar] = useState('')
-  const [busy, setBusy] = useState(false)
+  const [pageUrl, setPageUrl] = useState('')
+  const [busy, setBusy] = useState<'fetch' | 'recall' | null>(null)
   const [error, setError] = useState<string | null>(null)
+  /** Set once a real page has been read — the card's provenance. */
+  const [source, setSource] = useState<{ url: string; fetchedAt: number } | null>(null)
+  const [status, setStatus] = useState<string | null>(null)
 
+  const apply = (d: {
+    title: string
+    sub_field: string
+    tags: string[]
+    summary: string
+    homepage: string
+    scholar: string
+  }) => {
+    if (d.title) setTitle(d.title)
+    setSubField(d.sub_field)
+    setTags(d.tags.join(', '))
+    setSummary(d.summary)
+    if (d.homepage) setHomepage(d.homepage)
+    if (d.scholar) setScholar(d.scholar)
+  }
+
+  /** Read the pasted page for real, then have DeepSeek structure THAT text. */
+  const fetchAndFill = async () => {
+    if (!name.trim() || !isProbablyUrl(pageUrl)) return
+    setBusy('fetch')
+    setError(null)
+    setSource(null)
+    try {
+      setStatus('Reading the page…')
+      const page = await readPage(pageUrl)
+      // Cheap, deterministic wrong-URL check before spending a DeepSeek call —
+      // a 404 page can still be thousands of characters of navigation chrome.
+      if (!mentionsName(page.text, name)) {
+        throw new Error(
+          `That page never mentions “${name.trim().split(/\s+/).pop()}”. It's probably the wrong URL (a 404, a directory index, or another person).`,
+        )
+      }
+      setStatus('Extracting the card from the page…')
+      const d = await extractAdvisorFromPage(name.trim(), page, {
+        university,
+        program: programName,
+      })
+      apply(d)
+      // Default the homepage to the page we actually read, when it named none.
+      if (!d.homepage) setHomepage(page.url)
+      if (d.pageName && d.pageName.toLowerCase() !== name.trim().toLowerCase()) {
+        setName(d.pageName)
+      }
+      setSource({ url: page.url, fetchedAt: page.fetchedAt })
+      setStatus(page.truncated ? 'Filled from the page (long page — only the top was read).' : null)
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e))
+      setStatus(null)
+    } finally {
+      setBusy(null)
+    }
+  }
+
+  /** Fallback: the model's training recall. No source — may be stale/invented. */
   const autofill = async () => {
     if (!name.trim()) return
-    setBusy(true)
+    setBusy('recall')
     setError(null)
+    setStatus(null)
     try {
       const d = await researchAdvisor(name.trim(), { university, program: programName })
-      if (d.title) setTitle(d.title)
-      setSubField(d.sub_field)
-      setTags(d.tags.join(', '))
-      setSummary(d.summary)
-      setHomepage(d.homepage)
-      setScholar(d.scholar)
+      apply(d)
+      setSource(null)
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e))
     } finally {
-      setBusy(false)
+      setBusy(null)
     }
   }
 
@@ -357,9 +434,13 @@ function AddAdvisorForm({
         .map((t) => t.trim())
         .filter(Boolean),
       summary: summary.trim(),
+      // Never inferred from a page — see extractAdvisorFromPage.
       recruitment_status: UNKNOWN,
       links: { homepage: homepage.trim() || null, scholar: scholar.trim() || null },
       added: true,
+      ...(source
+        ? { source_url: source.url, fetched_at: new Date(source.fetchedAt).toISOString().slice(0, 10) }
+        : {}),
     }
     onAdd(fac)
     onClose()
@@ -383,19 +464,62 @@ function AddAdvisorForm({
           autoFocus
           className={`${input} min-w-[180px] flex-1`}
         />
+      </div>
+
+      {/* Primary path: read the professor's real page, then structure THAT.
+          DeepSeek cannot browse, so this is the only way a generated card has a
+          verifiable source rather than being the model's recall. */}
+      <div className="mt-2 flex flex-wrap items-center gap-2">
+        <input
+          value={pageUrl}
+          onChange={(e) => setPageUrl(e.target.value)}
+          placeholder="Paste their faculty page / homepage URL"
+          onKeyDown={(e) => e.key === 'Enter' && void fetchAndFill()}
+          className={`${input} min-w-[220px] flex-1`}
+        />
+        <button
+          onClick={fetchAndFill}
+          disabled={!name.trim() || !isProbablyUrl(pageUrl) || !!busy || !aiActive()}
+          title={
+            aiActive()
+              ? 'Fetch that page and build the card from what it actually says'
+              : 'Enable DeepSeek in the Overview tab first'
+          }
+          className="rounded bg-indigo-600 px-2.5 py-1 text-[12px] font-medium text-white transition-colors hover:bg-indigo-700 disabled:opacity-40"
+        >
+          {busy === 'fetch' ? 'Reading…' : '🌐 Fetch & fill'}
+        </button>
         <button
           onClick={autofill}
-          disabled={!name.trim() || busy || !aiActive()}
-          title={aiActive() ? 'Draft the card from DeepSeek (verify it)' : 'Enable DeepSeek in the Overview tab first'}
-          className="rounded bg-slate-800 px-2.5 py-1 text-[12px] font-medium text-white transition-colors hover:bg-slate-700 disabled:opacity-40"
+          disabled={!name.trim() || !!busy || !aiActive()}
+          title="No URL? Draft from DeepSeek's training memory instead — unsourced, may be stale or wrong"
+          className="rounded border border-slate-300 bg-white px-2.5 py-1 text-[12px] font-medium text-slate-600 transition-colors hover:border-slate-400 disabled:opacity-40"
         >
-          {busy ? 'Researching…' : '🤖 Auto-fill'}
+          {busy === 'recall' ? 'Recalling…' : '🤖 From memory'}
         </button>
       </div>
+
+      <p className="mt-1 text-[11px] leading-relaxed text-slate-500">
+        <span className="font-medium text-indigo-700">Fetch &amp; fill</span> reads the page you paste
+        and builds the card from its actual text — the source link is saved with the card.{' '}
+        <span className="font-medium text-slate-600">From memory</span> has no source: DeepSeek can't
+        browse, so it may be outdated or invented. Prefer a URL.
+      </p>
+
       {!aiActive() && (
-        <p className="mt-1 text-[11px] text-slate-400">
-          Auto-fill needs DeepSeek enabled (📊 Overview → DeepSeek settings). You can also fill the
-          fields by hand.
+        <p className="mt-1 text-[11px] text-amber-700">
+          Both need DeepSeek enabled (📊 Overview → DeepSeek settings). You can also fill the fields
+          by hand.
+        </p>
+      )}
+      {status && <p className="mt-1 text-[11px] font-medium text-indigo-600">{status}</p>}
+      {source && (
+        <p className="mt-1 text-[11px] text-emerald-700">
+          ✓ Filled from{' '}
+          <a href={source.url} target="_blank" rel="noreferrer" className="underline [overflow-wrap:anywhere]">
+            {source.url}
+          </a>{' '}
+          — saved as this card's source.
         </p>
       )}
       {error && <p className="mt-1 text-[11px] font-medium text-rose-600">{error}</p>}
@@ -419,9 +543,10 @@ function AddAdvisorForm({
         >
           Add advisor
         </button>
-        <span className="text-[11px] text-slate-400">
-          Added advisors are marked unverified &amp; stored only in your browser. Recruitment status
-          defaults to “Verify”.
+        <span className="text-[11px] leading-snug text-slate-400">
+          Added advisors are marked unverified and live only in this browser. Recruitment status
+          always defaults to “Verify” — it's never inferred from a page.
+          {source && ' Export them from ⚠️ Backup to have them merged into the shared database.'}
         </span>
       </div>
     </div>

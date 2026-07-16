@@ -7,6 +7,7 @@ import {
   isBackupFile,
   type BackupFile,
 } from '../lib/backup'
+import type { RequestBundle } from '../lib/advisorRequests'
 
 export function BackupModal({
   onClose,
@@ -17,6 +18,7 @@ export function BackupModal({
   onRestoreFromDrive,
   driveStatus,
   driveTime,
+  requests,
 }: {
   onClose: () => void
   driveConnected: boolean
@@ -26,12 +28,25 @@ export function BackupModal({
   onRestoreFromDrive: () => void
   driveStatus: string | null
   driveTime: string | null
+  /** Advisors added locally, ready to be promoted into the shared dataset. */
+  requests: RequestBundle
 }) {
   const [msg, setMsg] = useState<string | null>(null)
   const [err, setErr] = useState<string | null>(null)
+  const [copied, setCopied] = useState(false)
   const fileRef = useRef<HTMLInputElement>(null)
   const summary = describeBackup(exportBackup())
   const total = summary.reduce((n, s) => n + s.count, 0)
+
+  const copyRequests = async () => {
+    try {
+      await navigator.clipboard.writeText(JSON.stringify(requests, null, 2))
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2500)
+    } catch (e) {
+      setErr(e instanceof Error ? e.message : String(e))
+    }
+  }
 
   const onFile = async (f: File) => {
     setErr(null)
@@ -92,6 +107,41 @@ export function BackupModal({
             ))}
           </ul>
         </div>
+
+        {/* Promote locally-added advisors into the shared dataset. The browser
+            can't write mock_data.json (static site), so this hands over a
+            checkable request instead. */}
+        {(requests.requests.length > 0 || requests.unsourced.length > 0) && (
+          <div className="mt-4 rounded-lg border border-emerald-200 bg-emerald-50/50 p-3">
+            <div className="flex items-center justify-between gap-2">
+              <span className="text-[12px] font-semibold text-slate-700">
+                🌐 Advisors you added ({requests.requests.length} sourced)
+              </span>
+              <button
+                onClick={copyRequests}
+                disabled={requests.requests.length === 0}
+                className="rounded bg-emerald-600 px-2 py-1 text-[11px] font-semibold text-white transition-colors hover:bg-emerald-700 disabled:opacity-40"
+              >
+                {copied ? 'Copied ✓' : 'Copy request'}
+              </button>
+            </div>
+            <p className="mt-1 text-[11px] leading-relaxed text-slate-600">
+              These live only in this browser. Copy the request and paste it to Claude to have each
+              source re-checked and merged into the shared database — then they're permanent, visible
+              on every device, and survive clearing your browsing data.
+            </p>
+            {requests.unsourced.length > 0 && (
+              <p className="mt-1 text-[11px] leading-relaxed text-amber-700">
+                {requests.unsourced.length} added advisor
+                {requests.unsourced.length === 1 ? ' has' : 's have'} no source page (added by hand or
+                from memory), so {requests.unsourced.length === 1 ? 'it' : 'they'} can't be merged as
+                is: {requests.unsourced.map((u) => u.name).join(', ')}. Re-add with{' '}
+                <b>Fetch &amp; fill</b> to give {requests.unsourced.length === 1 ? 'it' : 'them'} a
+                source.
+              </p>
+            )}
+          </div>
+        )}
 
         {/* Google Drive — the durable copy */}
         <div className="mt-4 rounded-lg border border-slate-200 p-3">
