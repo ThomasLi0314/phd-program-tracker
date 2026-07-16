@@ -193,8 +193,16 @@ function App() {
     return sortPrograms(result, sortBy)
   }, [pool, filters, facets, index, loaded, onlyMyList, myList, sortBy])
 
-  // Advisor/school views: every program in the database (discipline selection
-  // ignored); the other sidebar filters (degree, region, GRE, fee) still apply.
+  // Advisor/school/starred views: every program in the database (discipline
+  // selection ignored); the other sidebar filters (degree, region, GRE, fee)
+  // still apply.
+  //
+  // "My List" is deliberately NOT applied here. It is a saved-PROGRAMS filter
+  // for the Programs view; letting it narrow this pool meant that leaving the
+  // ★ My List toggle on silently emptied the Advisors/Schools/Starred tabs —
+  // Starred would claim "You haven't starred any advisors yet" while the tab
+  // badge showed a count. It also contradicted those views' own promise that
+  // they search the whole database.
   const fullPool = useMemo(() => {
     if (!facets || !index) return []
     const noDiscipline: Filters = { ...filters, primaries: new Set(), subs: new Set() }
@@ -204,9 +212,8 @@ function App() {
       if (chunk) result = result.concat(chunk)
     }
     result = result.filter((p) => programMatches(p, noDiscipline, facets.feeCap))
-    if (onlyMyList) result = result.filter((p) => myList.has(p.id))
     return sortPrograms(result, 'university')
-  }, [facets, index, loaded, filters, onlyMyList, myList])
+  }, [facets, index, loaded, filters])
 
   // Every {faculty, program} across ALL loaded fields, ignoring sidebar filters —
   // used to auto-match sent emails and resolve outreach records to advisor cards.
@@ -475,7 +482,7 @@ function App() {
                 ? 'border-amber-400 bg-amber-400/20 text-amber-300'
                 : 'border-slate-600 bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
-            title="Show all programs saved to My List, across every field"
+            title="Show the programs you saved to My List, across every field. Filters the Programs tab only — it no longer narrows Advisors/Schools/Starred."
           >
             ★ My List ({myList.size})
           </button>
@@ -641,6 +648,7 @@ function App() {
         ) : view === 'starred' ? (
           <StarredAdvisors
             loading={poolIncomplete}
+            starCount={starredCount}
             programs={fullPool}
             levels={starLevels}
             onSetLevel={setStarLevel}

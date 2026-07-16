@@ -143,6 +143,7 @@ function StarredCard({
 
 export function StarredAdvisors({
   loading,
+  starCount,
   programs,
   levels,
   onSetLevel,
@@ -155,6 +156,10 @@ export function StarredAdvisors({
 }: {
   /** true while the per-field chunks are still arriving — see PoolLoading. */
   loading: boolean
+  /** How many stars are actually saved, independent of what's in `programs`.
+   *  Lets the empty state tell "you starred nobody" apart from "your stars are
+   *  filtered out of this pool" instead of asserting the former. */
+  starCount: number
   programs: Program[]
   levels: Map<string, number>
   onSetLevel: (key: string, level: number) => void
@@ -290,6 +295,18 @@ export function StarredAdvisors({
 
         {loading && totalStarred === 0 ? (
           <PoolLoading what="your starred advisors" />
+        ) : totalStarred === 0 && starCount > 0 ? (
+          // Stars exist but none survived the pool — never claim they're gone.
+          <div className="py-16 text-center">
+            <p className="text-sm font-medium text-amber-700">
+              You have {starCount} starred advisor{starCount === 1 ? '' : 's'}, but none are
+              visible here.
+            </p>
+            <p className="mt-1 text-[12px] leading-relaxed text-slate-500">
+              The sidebar filters (degree, region, GRE, application fee) also narrow this list.
+              Clear them to see everything you starred.
+            </p>
+          </div>
         ) : totalStarred === 0 ? (
           <div className="py-16 text-center">
             <p className="text-sm text-slate-400">You haven't starred any advisors yet.</p>
