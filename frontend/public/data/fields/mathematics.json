@@ -50519,6 +50519,921 @@
           }
         }
       ]
+    },
+    {
+      "id": "university-of-colorado-boulder-applied-mathematics",
+      "university": "University of Colorado Boulder",
+      "program_name": "Applied Mathematics (PhD)",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mathematics",
+        "subs": [
+          "Applied Mathematics",
+          "Computational Mathematics",
+          "Mathematical Biology",
+          "Mathematical Geosciences",
+          "Applied Nonlinear PDEs and Dynamics",
+          "Statistics and Data Science",
+          "Stochastic Processes and Applications"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Dec 1, 2026 (for Fall 2027 entry; APPM: \"The application deadline for domestic AND international applicants is December 1st every year, for admissions in the following fall semester.\" The PhD program has no spring admissions.)",
+        "application_fee_usd": 60,
+        "fee_display": "$60 domestic / $80 international (nonrefundable)",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "Required for international applicants: TOEFL, IELTS or Duolingo exam scores. APPM department minimum TOEFL: internet-based (iBT) 100, computer-based 250, paper-based 600. The department publishes no IELTS or Duolingo minimum (Unknown/Verify). The TOEFL/IELTS requirement is waived if the applicant's native language is English, or if the applicant has completed at least one year of full-time study at a US institution (or an institution in a country where English is the native language) at the time of submission or within two years from the desired admission term.",
+        "admission_model": "Committee-Based",
+        "admission_model_note": "Reviewed by the department's graduate/admissions committee; applicants are generally notified of the graduate committee's decision by April 1. No advisor pre-match is required: the catalog states \"A PhD student can be advised by core faculty or co-advised by an affiliate involved in applied mathematics.\" The department reports 20 core faculty and 25 affiliated faculty from other academic departments and colleges. Applicants not accepted to the PhD program are considered for the MS program.",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "APPM Graduate FAQ: \"Do all incoming graduate students automatically receive financial support from the department? No, but most graduate students enter the program with either a teaching assistantship or a research assistantship.\" It also states that doctoral candidates do not need to request support in the personal statement because \"All doctoral candidates are considered for funding and sent offers of support once admitted.\" No guaranteed multi-year funding package, stipend figure or tuition-remission detail is published on the department pages, so status is Unknown/Verify."
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": "No official APPM page tells applicants to contact faculty before applying, and the personal-statement guidance does not ask applicants to name faculty; it asks how you became interested in applied mathematics, how your background prepared you for graduate study, and your educational and professional goals. The \"Applying to Graduate School\" page advises applicants to \"do your homework with regard to understanding our graduate program\" and, in the personal statement, to \"be sure to address why you want to join our department\" - but it does not mention contacting faculty.",
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.colorado.edu/amath/academics/graduate-students",
+        "admissions": "https://www.colorado.edu/amath/academics/doctoral-program/applying-graduate-school"
+      },
+      "data_currency": "Scanned 2026-07-15 from colorado.edu/amath (doctoral program, applying to graduate school, graduate application checklist, graduate FAQs) and the catalog.colorado.edu 2026-2027 graduate catalog - verify before relying on deadlines/fees. Faculty roster from the APPM Drupal JSON:API person directory (colorado.edu/amath/directory/faculty), 2026-07-15: 21 core APPM faculty plus 27 APPM Affiliated Faculty from colorado.edu/amath/directory/appm-affiliate-program, whose titles were cross-checked against each affiliate's home-department official CU page.",
+      "faculty": [
+        {
+          "id": "adrianna-gillman",
+          "name": "Adrianna Gillman",
+          "title": "Associate Professor",
+          "sub_field": "Computational Mathematics",
+          "tags": [
+            "fast multipole method",
+            "fast direct solvers",
+            "integral equations",
+            "wave scattering",
+            "acoustics",
+            "complex geometries"
+          ],
+          "summary": "Her stated research interests are fast algorithms such as the Fast Multipole Method and fast direct solvers; integral equation formulations for the mathematical modeling of physics and other real world applications; wave scattering, acoustics and variable media; and techniques for handling challenging geometries such as corners, edges and periodic domains.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/colorado.edu/gillmana",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrew-grace",
+          "name": "Andrew Grace",
+          "title": "Assistant Professor",
+          "sub_field": "Mathematical Geosciences",
+          "tags": [
+            "computational fluid mechanics",
+            "turbulence",
+            "heat transport",
+            "geophysical flows"
+          ],
+          "summary": "He joined the Department of Applied Mathematics in 2025, after concurrent NSERC and ND-ECI postdoctoral fellowships at the University of Notre Dame and graduate work at the University of Waterloo. His research interests lie broadly in computational fluid mechanics, motivated by applications of turbulent and quasi-turbulent fluid flows, specifically relating to the transport of heat and other materials in natural systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/amath/andrew-grace",
+            "scholar": "https://scholar.google.com/citations?hl=en&user=6uM1XUIAAAAJ"
+          }
+        },
+        {
+          "id": "david-bortz",
+          "name": "David Bortz",
+          "title": "Professor in Applied Mathematics / Professor in Computer Science / IQ Biology Graduate Faculty / RASEI Affiliate / Colorado COVID-19 Modeling Team",
+          "sub_field": "Computational Mathematics / Mathematical Biology",
+          "tags": [
+            "weak-form scientific machine learning",
+            "equation discovery",
+            "system identification",
+            "reduced-order modeling",
+            "mathematical biology",
+            "epidemiology"
+          ],
+          "summary": "His group develops and analyzes computational methods for weak-form scientific machine learning, a class of methods robust to substantial noise and highly computationally efficient. Modeling applications include system identification, governing equation discovery, coarse-graining and reduced-order modeling, frequently applied to biological systems including collective and individual motion in wound healing, structured population dynamics, and disease ecology and epidemiology. More recently the group has expanded applications to atmospheric fluid models and computational plasma physics in the context of fusion.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/amath/david-bortz",
+            "scholar": "https://scholar.google.com/citations?user=7wkmJU8AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "eduardo-corona",
+          "name": "Eduardo Corona",
+          "title": "Assistant Professor",
+          "sub_field": "Computational Mathematics",
+          "tags": [
+            "fast direct solvers",
+            "integral equations",
+            "hierarchical decomposition",
+            "data compression",
+            "wave scattering",
+            "numerical PDE"
+          ],
+          "summary": "His stated research interests are fast algorithmic frameworks for large-scale physics simulation, fast direct solvers and hierarchical decomposition methods, scientific data compression methods, integral equation formulations for numerical PDE in fluids, active soft matter, wave scattering and elasticity, and singular and near-singular integration methods for integral kernels.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/faculty/corona/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "eric-vance",
+          "name": "Eric Vance",
+          "title": "Associate Professor",
+          "sub_field": "Statistics and Data Science",
+          "tags": [
+            "statistics and data science"
+          ],
+          "summary": "No research description is published on his official APPM profile, which lists only his title, contact details and links to his CV, Google Scholar page and teaching. The department tags him under the Statistics and Data Science research area. Specific research topics: Unknown/Verify.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/amath/ervance",
+            "scholar": "https://scholar.google.com/citations?user=jthhE9AAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "francois-g-meyer",
+          "name": "François G. Meyer",
+          "title": "Professor",
+          "sub_field": "Computational Mathematics / Statistics and Data Science",
+          "tags": [
+            "computational mathematics",
+            "statistics and data science"
+          ],
+          "summary": "No research description is published on his official APPM profile, which lists only his title and contact details. The department tags him under the research areas Computational Mathematics and Statistics and Data Science. Specific research topics: Unknown/Verify.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://francoismeyer.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "gregory-beylkin",
+          "name": "Gregory Beylkin",
+          "title": "Professor",
+          "sub_field": "Computational Mathematics",
+          "tags": [
+            "numerical analysis",
+            "signal processing",
+            "wave propagation",
+            "inverse problems",
+            "quantum chemistry"
+          ],
+          "summary": "His APPM profile lists his research interests as numerical analysis, signal processing, wave propagation, inverse problems and quantum chemistry.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/amath/gregory-beylkin",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ian-grooms",
+          "name": "Ian Grooms",
+          "title": "Associate Professor",
+          "sub_field": "Mathematical Geosciences / Computational Mathematics",
+          "tags": [
+            "ocean modeling",
+            "data assimilation",
+            "geophysical fluid dynamics",
+            "turbulence"
+          ],
+          "summary": "His research interests encompass ocean model development, the development of new data assimilation methods, and the theory of geophysical fluid dynamics and turbulence. He received his PhD in Applied Mathematics from CU Boulder in 2011, was a postdoc at the Courant Institute at NYU from 2011 to 2015, joined the APPM faculty in fall 2015 and has been tenured since 2022. He co-chairs the CESM Ocean Model Working Group and is president-elect (2025-2026) of the Nonlinear Geophysics section of AGU.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/amath/grooms",
+            "scholar": null
+          }
+        },
+        {
+          "id": "james-curry",
+          "name": "James Curry",
+          "title": "Professor",
+          "sub_field": "Physical Applied Mathematics",
+          "tags": [
+            "physical applied mathematics"
+          ],
+          "summary": "The department tags him under the Physical Applied Mathematics research area. His APPM profile is a biography (PhD in Mathematics from UC Berkeley with Oscar Lanford; professor at CU Boulder since 1989; President's Teaching Scholar since 1993; Chair of Applied Mathematics 2003-2012; NSF Division of Mathematical Sciences Program Director 2012-2014) and does not state current research topics. Specific research topics: Unknown/Verify.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/amath/james-curry",
+            "scholar": null
+          }
+        },
+        {
+          "id": "james-meiss",
+          "name": "James Meiss",
+          "title": "Professor",
+          "sub_field": "Applied Nonlinear PDEs and Dynamics / Physical Applied Mathematics",
+          "tags": [
+            "nonlinear phenomena",
+            "physical applied mathematics"
+          ],
+          "summary": "His APPM profile lists his research interests as nonlinear phenomena and physical applied mathematics. The department tags him under the research areas Applied Nonlinear PDEs and Dynamics and Physical Applied Mathematics. No further research detail is given on the official profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://amath.colorado.edu/faculty/jdm/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "juan-g-restrepo",
+          "name": "Juan G. Restrepo",
+          "title": "Professor",
+          "sub_field": "Applied Nonlinear PDEs and Dynamics / Mathematical Biology",
+          "tags": [
+            "complex networks",
+            "synchronization",
+            "nonlinear dynamics",
+            "chaos",
+            "epidemic spreading",
+            "brain networks"
+          ],
+          "summary": "His APPM profile lists his research interests as dynamics on and structure of complex networks, synchronization, nonlinear dynamics and chaos, spread of information and disease in complex social networks, and criticality in functional brain networks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/amath/restrepo",
+            "scholar": null
+          }
+        },
+        {
+          "id": "manuel-e-lladser",
+          "name": "Manuel E. Lladser",
+          "title": "Professor / Associate Director of the Master of Science in Applied Mathematics (MSAM) Program",
+          "sub_field": "Stochastic Processes and Applications / Statistics and Data Science",
+          "tags": [
+            "probability theory",
+            "computational biology",
+            "mathematical machine learning",
+            "statistics"
+          ],
+          "summary": "His APPM profile lists his research interests as probability (theory and applications), computational biology, mathematical machine learning, and statistics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/colorado.edu/lladser/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mark-hoefer",
+          "name": "Mark Hoefer",
+          "title": "Department Chair / Professor",
+          "sub_field": "Applied Nonlinear PDEs and Dynamics / Physical Applied Mathematics",
+          "tags": [
+            "nonlinear waves",
+            "dispersive shock waves",
+            "dispersive hydrodynamics",
+            "solitary waves",
+            "nanomagnetism",
+            "Whitham modulation theory"
+          ],
+          "summary": "His research is in physical applied mathematics motivated by real world problems, generally in the field of nonlinear waves, with a focus on two areas: the fluid dynamics of dispersive media with accompanying wave excitations including dispersive shock waves (DSWs) and solitary waves, and the dynamics of ferromagnetic media in nanomagnetism. Methods employed include mathematical modeling, analysis, asymptotics, Whitham modulation theory, numerical analysis, and in-house experiment in the Dispersive Hydrodynamics Lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/amath/dispersive-hydrodynamics-lab",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mark-j-ablowitz",
+          "name": "Mark J. Ablowitz",
+          "title": "CU Distinguished Professor",
+          "sub_field": "Applied Nonlinear PDEs and Dynamics / Physical Applied Mathematics",
+          "tags": [
+            "nonlinear phenomena",
+            "physical applied mathematics"
+          ],
+          "summary": "His APPM profile lists his research interests as nonlinear phenomena and physical applied mathematics. The department tags him under the research areas Applied Nonlinear PDEs and Dynamics and Physical Applied Mathematics. No further research detail is given on the official profile.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/site/ablowitz/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nancy-rodriguez",
+          "name": "Nancy Rodriguez",
+          "title": "Associate Professor",
+          "sub_field": "Applied Nonlinear PDEs and Dynamics / Mathematical Biology",
+          "tags": [
+            "nonlinear PDEs",
+            "non-local PDEs",
+            "urban crime modeling",
+            "chemotaxis",
+            "biological aggregation",
+            "ecology"
+          ],
+          "summary": "Her research concentrates on nonlinear partial differential equations, specifically those pertinent to urban crime, segregation, biological aggregation, chemotaxis and ecology, using mathematical modeling, numerical analysis and mathematical analysis to study the intricacies of social, biological and ecological systems. Her contributions have expanded the theoretical understanding of non-local PDEs and have yielded insights into crime dynamics and prevention, social segregation and pest control. She obtained her doctoral degree from UCLA, mentored by Andrea Bertozzi.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/amath/nancy-rodriguez",
+            "scholar": null
+          }
+        },
+        {
+          "id": "stephen-becker",
+          "name": "Stephen Becker",
+          "title": "Associate Professor",
+          "sub_field": "Computational Mathematics / Statistics and Data Science",
+          "tags": [
+            "optimization",
+            "compressed sensing",
+            "matrix completion",
+            "convex analysis",
+            "computational imaging",
+            "signal processing"
+          ],
+          "summary": "His group works on information extraction from datasets, in a hybrid field combining applied math with computer science and signal processing techniques. Specific topics include optimization (first-order methods, quasi-Newton methods, primal-dual algorithms, convex analysis), problems from computational imaging and semi-definite programs, and mathematical applications such as compressed sensing, matrix completion and variants including robust PCA, and non-negative matrix factorization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://stephenbeckr.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "vanja-dukic",
+          "name": "Vanja Dukic",
+          "title": "Professor",
+          "sub_field": "Statistics and Data Science / Mathematical Biology",
+          "tags": [
+            "statistics",
+            "mathematical biology",
+            "ecology",
+            "environmental statistics",
+            "risk modeling",
+            "insurance"
+          ],
+          "summary": "Her APPM profile lists her research interests as statistics, mathematical biology, ecology and environmental statistics, and risk modeling and insurance.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://amath.colorado.edu/faculty/vdukic/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "william-kleiber",
+          "name": "William Kleiber",
+          "title": "Professor / Director of the Master of Science in Applied Mathematics (MSAM) Program",
+          "sub_field": "Statistics and Data Science / Mathematical Geosciences",
+          "tags": [
+            "spatial statistics",
+            "multivariate spatial processes",
+            "extreme weather risk",
+            "stochastic weather generators",
+            "uncertainty quantification",
+            "emulation"
+          ],
+          "summary": "He is an applied statistician with general research interests in spatial statistics and mathematical geosciences. Recent work involves multivariate spatial processes, extreme weather risk analysis, stochastic weather generators, statistics for energy science, and emulation and uncertainty quantification for geophysical models. He received his PhD in Statistics from the University of Washington in 2010 and spent two years as a postdoctoral researcher at NCAR's Institute for Mathematics Applied to Geosciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/amath/williamkleiber",
+            "scholar": "https://scholar.google.com/citations?user=ra3Io5QAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "ye-he",
+          "name": "Ye He",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [
+            "incoming faculty"
+          ],
+          "summary": "Her official APPM profile states only that Ye He will begin with the Department of Applied Mathematics in Academic Year 2026-2027. No research description and no departmental research-area tag are published on the official page, so her research area is Unknown/Verify.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://yeleohe.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yu-jui-huang",
+          "name": "Yu-Jui Huang",
+          "title": "Associate Professor",
+          "sub_field": "Stochastic Processes and Applications / Statistics and Data Science",
+          "tags": [
+            "mathematical finance",
+            "applied probability",
+            "stochastic analysis",
+            "stochastic control",
+            "optimal stopping",
+            "viscosity solutions"
+          ],
+          "summary": "His research is focused on mathematical finance and applied probability. It involves stochastic analysis, stochastic control, optimal stopping, and the theory of viscosity solutions to fully nonlinear PDEs.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.yujui-huang.com",
+            "scholar": null
+          }
+        },
+        {
+          "id": "zachary-kilpatrick",
+          "name": "Zachary Kilpatrick",
+          "title": "Professor",
+          "sub_field": "Mathematical Biology / Stochastic Processes and Applications",
+          "tags": [
+            "mathematical neuroscience",
+            "decision making",
+            "Bayesian inference",
+            "collective behavior",
+            "neural circuit models",
+            "first passage times"
+          ],
+          "summary": "His research group works to identify neural mechanisms underlying cognition by developing and validating mathematical models, linking observed individual and collective behaviors to a diversity of constrained cognitive strategies and developing new mathematical and computational tools for solving, fitting and identifying nonlinear and stochastic models of biological inference and its underlying neural activity representations. Research interests include decision making and Bayesian inference, dynamics of collective behavior (especially foraging), spatiotemporal dynamics of neural circuit models, and stochastic processes and first passage time methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/amath/zpkilpat",
+            "scholar": null
+          }
+        },
+        {
+          "id": "aaron-clauset",
+          "name": "Aaron Clauset",
+          "title": "Professor, Department of Computer Science (APPM Affiliated Faculty)",
+          "sub_field": "Computational Science / Statistics and Data Science",
+          "tags": [
+            "network science",
+            "data science",
+            "complex systems",
+            "statistical inference"
+          ],
+          "summary": "His CU Computer Science profile describes him as an internationally recognized expert on network science, data science and complex systems, and recipient of the 2016 Erdos-Renyi Prize in Network Science. His group's page describes broad, multidisciplinary research on networks, dynamics and data in complex systems. He is also affiliated with the BioFrontiers Institute and is External Faculty at the Santa Fe Institute.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/faculty/clauset/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alireza-doostan",
+          "name": "Alireza Doostan",
+          "title": "Professor, Ann and H.J. Smead Department of Aerospace Engineering Sciences (APPM Affiliated Faculty)",
+          "sub_field": "Computational Mathematics / Statistics and Data Science",
+          "tags": [
+            "uncertainty quantification",
+            "data-driven modeling",
+            "scientific machine learning"
+          ],
+          "summary": "His UQ and Data-Driven Modeling Group page (within the Aerospace Mechanics Research Center, Department of Aerospace Engineering Sciences) states the lab is led by Professor Alireza Doostan and that the group actively develops novel uncertainty quantification and data-driven methods and applies them to engineering problems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/lab/uq-data-driven-modeling/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ankur-gupta",
+          "name": "Ankur Gupta",
+          "title": "Assistant Professor, Department of Chemical and Biological Engineering (APPM Affiliated Faculty)",
+          "sub_field": "Fluid Dynamics",
+          "tags": [
+            "soft matter",
+            "transport phenomena",
+            "colloids",
+            "electrochemistry"
+          ],
+          "summary": "His CU Chemical and Biological Engineering profile lists his education (PhD, Chemical Engineering, MIT, 2017) and awards including the 2025 Soft Matter Lectureship, C&EN Talented 12 (2025) and an AFOSR Young Investigator Award (2025). A research-interest statement was not published on the official profile: specific research topics Unknown/Verify.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/chbe/ankur-gupta",
+            "scholar": "https://scholar.google.com/citations?user=oiMqxxoAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "bri-mathias-hodge",
+          "name": "Bri-Mathias Hodge",
+          "title": "Professor, Department of Electrical, Computer and Energy Engineering (APPM Affiliated Faculty)",
+          "sub_field": "Optimization / Computational Science",
+          "tags": [
+            "power systems",
+            "energy systems",
+            "renewable energy integration"
+          ],
+          "summary": "His official page states he is a Professor and Associate Chair for Research and Graduate Education in the Department of Electrical, Computer and Energy Engineering, and an Associate Director and Fellow of the Renewable and Sustainable Energy Institute (RASEI), and that he was formerly a Chief Scientist at NREL. His group page is titled Power & Energy Systems. Further research detail: Unknown/Verify.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/faculty/hodge/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "carlos-brunet-martins-filho",
+          "name": "Carlos Brunet Martins-Filho",
+          "title": "Professor of Economics (APPM Affiliated Faculty)",
+          "sub_field": "Statistics and Data Science",
+          "tags": [
+            "econometrics"
+          ],
+          "summary": "His official CU-hosted page lists him as Professor of Economics and Professor of Applied Mathematics (affiliate) at the University of Colorado at Boulder. The page does not publish a research statement, so his specific research topics are Unknown/Verify.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://spot.colorado.edu/~martinsc/index.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-larremore",
+          "name": "Daniel Larremore",
+          "title": "Associate Professor, Department of Computer Science (APPM Affiliated Faculty)",
+          "sub_field": "Statistics and Data Science / Mathematical Biology",
+          "tags": [
+            "networks",
+            "statistical inference",
+            "infectious diseases",
+            "computational social science",
+            "malaria"
+          ],
+          "summary": "His CU Computer Science profile summarizes his work as networks, malaria parasites, computational social science and complex systems, and states that his research develops statistical and inferential methods for analyzing large-scale network data and uses those methods to solve applied problems in diverse domains including public health and academic labor markets. He is also core faculty in the BioFrontiers Institute.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://larremorelab.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-albers",
+          "name": "David Albers",
+          "title": "Associate Professor, Department of Biomedical Informatics, University of Colorado Anschutz School of Medicine (APPM Affiliated Faculty)",
+          "sub_field": "Computational Science / Mathematical Biology",
+          "tags": [
+            "biomedical informatics",
+            "computational methods",
+            "health data"
+          ],
+          "summary": "His CU Anschutz School of Medicine profile lists him as Associate Professor of Biomedical Informatics and describes interdisciplinary development and application of computational methods in informatics. Further research detail was not verified on an official page: Unknown/Verify.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://som.cuanschutz.edu/Profiles/Faculty/Profile/28339",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emily-jensen",
+          "name": "Emily Jensen",
+          "title": "Assistant Professor, Department of Electrical, Computer and Energy Engineering (APPM Affiliated Faculty)",
+          "sub_field": "Unknown/Verify",
+          "tags": [
+            "systems and controls"
+          ],
+          "summary": "Her CU Electrical, Computer and Energy Engineering profile lists her area as Systems & Controls but publishes no research-interest statement, so her specific research topics are Unknown/Verify.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/ecee/emily-jensen",
+            "scholar": null
+          }
+        },
+        {
+          "id": "franck-vernerey",
+          "name": "Franck Vernerey",
+          "title": "Professor, Paul M. Rady Department of Mechanical Engineering (APPM Affiliated Faculty)",
+          "sub_field": "Physical Applied Mathematics",
+          "tags": [
+            "soft matter mechanics",
+            "multiscale modeling",
+            "cell mechanics",
+            "tissue growth",
+            "active matter"
+          ],
+          "summary": "His CU Mechanical Engineering profile lists his research interests as mechanics of soft matter, computational multiscale modeling, cell/colloid mechanics, and tissue growth and morphogenesis. A major focus of his Soft Matter Mechanics group is to uncover the fundamental rules that govern the physical and mechanical behavior of dynamic networks in nature and apply these to the development of active and smart matter.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/lab/vernerey/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jed-brown",
+          "name": "Jed Brown",
+          "title": "Associate Professor, Department of Computer Science (APPM Affiliated Faculty)",
+          "sub_field": "Computational Mathematics",
+          "tags": [
+            "fast algorithms",
+            "scientific computing",
+            "PDE solvers",
+            "research software"
+          ],
+          "summary": "His official page states: \"Our research is in fast algorithms and robust community software for physically-based modeling, prediction, inference, and design.\" He leads the PhyPID research group and is an associate editor for the Journal of Open Source Software.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://jedbrown.org/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeffrey-b-weiss",
+          "name": "Jeffrey B Weiss",
+          "title": "Professor, Department of Atmospheric and Oceanic Sciences (APPM Affiliated Faculty)",
+          "sub_field": "Mathematical Geosciences",
+          "tags": [
+            "geophysical turbulence",
+            "coherent structures",
+            "fluid transport",
+            "predictability",
+            "stochastic models"
+          ],
+          "summary": "His CU ATOC profile and personal page list his research interests as geophysical turbulence, coherent structures, fluid transport, predictability and stochastic models.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://atoc.colorado.edu/~jweiss/website/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-evans",
+          "name": "John Evans",
+          "title": "Department Chair and Associate Professor, Ann and H.J. Smead Department of Aerospace Engineering Sciences (APPM Affiliated Faculty)",
+          "sub_field": "Computational Mathematics / Fluid Dynamics",
+          "tags": [
+            "isogeometric analysis",
+            "computational mechanics",
+            "finite elements",
+            "fluid dynamics"
+          ],
+          "summary": "His CU Aerospace profile lists his focus area as Fluid Dynamics and his degrees as PhD and MS in Computational and Applied Mathematics (UT Austin). He leads the Computational Mechanics and Geometry Laboratory (CMGLab), which its page says pioneers new approaches to the modeling, simulation and optimization of aerospace, naval, energy and other systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/aerospace/john-evans",
+            "scholar": null
+          }
+        },
+        {
+          "id": "liz-bradley",
+          "name": "Liz Bradley",
+          "title": "Professor, Department of Computer Science (listed as Elizabeth Bradley on the CU Computer Science directory) (APPM Affiliated Faculty)",
+          "sub_field": "Nonlinear Dynamics and Complex Systems",
+          "tags": [
+            "nonlinear dynamics",
+            "chaos",
+            "complex systems",
+            "time series analysis"
+          ],
+          "summary": "She leads the Complex Systems Group in the Department of Computer Science and holds a joint appointment with the Department of Electrical and Computer Engineering, with other affiliations including the Department of Applied Mathematics and the Santa Fe Institute (external faculty). Her CU Computer Science profile is biographical (SB, SM and PhD from MIT; at CU Boulder since January 1993) and her personal page lists teaching in Chaotic Dynamics and nonlinear dynamics; specific current research topics: Unknown/Verify.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://home.cs.colorado.edu/~lizb/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "marco-m-nicotra",
+          "name": "Marco M. Nicotra",
+          "title": "Associate Professor, Department of Electrical, Computer and Energy Engineering (APPM Affiliated Faculty)",
+          "sub_field": "Optimization",
+          "tags": [
+            "control theory",
+            "constrained control",
+            "nonlinear systems"
+          ],
+          "summary": "His official page states he is an Associate Professor in the Department of Electrical, Computer and Energy Engineering at CU Boulder and leads the ROCC research group. The CU ECEE directory additionally lists him as Associate Chair for Undergraduate Education. Further research detail was not published on the official profile: Unknown/Verify.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/faculty/nicotra/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "melike-sirlanci",
+          "name": "Melike Sirlanci",
+          "title": "Assistant Professor, Department of Biomedical Informatics, University of Colorado Anschutz Medical Campus (APPM Affiliated Faculty)",
+          "sub_field": "Mathematical Biology",
+          "tags": [
+            "mathematical modeling",
+            "biomedical informatics",
+            "data assimilation"
+          ],
+          "summary": "Her official page states she is an Assistant Professor in the Department of Biomedical Informatics at the University of Colorado Anschutz Medical Campus. Further research detail was not verified on an official page: Unknown/Verify.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/melikesirlanci",
+            "scholar": null
+          }
+        },
+        {
+          "id": "meredith-betterton",
+          "name": "Meredith Betterton",
+          "title": "Professor, Department of Physics (APPM Affiliated Faculty)",
+          "sub_field": "Mathematical Biology",
+          "tags": [
+            "biophysics",
+            "cell division",
+            "motor proteins",
+            "microtubules",
+            "active matter",
+            "mitotic spindle"
+          ],
+          "summary": "Her CU Physics profile states she is interested in the physics of cell division and related biophysics. Current projects address motor protein dynamics and microtubule length regulation, cytoskeletal active matter, mitotic spindle assembly and regulation, chromosome segregation in cell division, and disordered proteins in the nuclear pore complex.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/physics/meredith-betterton",
+            "scholar": null
+          }
+        },
+        {
+          "id": "natalie-vriend",
+          "name": "Natalie Vriend",
+          "title": "Associate Professor, Paul M. Rady Department of Mechanical Engineering (listed as Nathalie M. Vriend on the CU Mechanical Engineering directory) (APPM Affiliated Faculty)",
+          "sub_field": "Fluid Dynamics",
+          "tags": [
+            "granular flows",
+            "particulate flows",
+            "laboratory experiments",
+            "numerical simulation"
+          ],
+          "summary": "Her CU Mechanical Engineering profile describes her research as imaging, measuring and modelling granular flows in the environment. She leads the Granular Flow Laboratory and is an expert in performing detailed laboratory experiments and targeted field work involving particulate flows such as sand and snow, also employing numerical simulations and theoretical modelling to complement observations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/mechanical/nathalie-m-vriend",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nicholas-dwork",
+          "name": "Nicholas Dwork",
+          "title": "Assistant Professor, Department of Biomedical Informatics, University of Colorado Anschutz School of Medicine (APPM Affiliated Faculty)",
+          "sub_field": "Computational Science",
+          "tags": [
+            "medical imaging",
+            "MRI",
+            "radiation therapy",
+            "optical coherence tomography"
+          ],
+          "summary": "His CU Anschutz School of Medicine profile states his research focuses on medical imaging and radiation therapy, that he is interested in developing faster MRI for young pediatric subjects and fetuses, and that he is also interested in quantitative Optical Coherence Tomography. He received his PhD from Stanford University in 2019.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://som.cuanschutz.edu/Profiles/Faculty/Profile/36521",
+            "scholar": null
+          }
+        },
+        {
+          "id": "orit-peleg",
+          "name": "Orit Peleg",
+          "title": "Associate Professor, Department of Computer Science and BioFrontiers Institute (APPM Affiliated Faculty)",
+          "sub_field": "Mathematical Biology",
+          "tags": [
+            "biophysics",
+            "collective behavior",
+            "living systems",
+            "signal design"
+          ],
+          "summary": "Her CU profile states she seeks to understand the behavior of disordered living systems by merging tools from physics, biology, engineering and computer science. Her lab page states its goal is to formulate and test phenomenological theories about natural signal design principles and their emergent spatiotemporal patterns.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.peleglab.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "peter-hamlington",
+          "name": "Peter Hamlington",
+          "title": "Department Chair and Professor, Paul M. Rady Department of Mechanical Engineering (APPM Affiliated Faculty)",
+          "sub_field": "Fluid Dynamics",
+          "tags": [
+            "turbulence",
+            "computational fluid dynamics",
+            "combustion",
+            "geophysical turbulence",
+            "wind energy"
+          ],
+          "summary": "His CU Mechanical Engineering profile lists his research interests as computational fluid dynamics. He leads the Turbulence and Energy Systems Laboratory (TESLa), whose research areas are listed as fire dynamics, high-speed combustion, industrial systems, ocean biogeochemistry, turbulent flows and wind energy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/mechanical/peter-hamlington",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rafael-frongillo",
+          "name": "Rafael Frongillo",
+          "title": "Associate Professor, Department of Computer Science (APPM Affiliated Faculty)",
+          "sub_field": "Computational Science / Optimization",
+          "tags": [
+            "theoretical machine learning",
+            "information elicitation",
+            "loss functions",
+            "game theory",
+            "convex analysis"
+          ],
+          "summary": "His CU Computer Science profile states his research lies at the interface between theoretical machine learning and economics, primarily focusing on domains such as information elicitation and crowdsourcing which involve the exchange of information for money, drawing techniques from convex analysis, game theory, optimization and statistics. His personal page adds that he also works in dynamical systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://home.cs.colorado.edu/~raf/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "scott-parker",
+          "name": "Scott Parker",
+          "title": "Professor, Department of Physics (APPM Affiliated Faculty)",
+          "sub_field": "Computational Mathematics / Physical Applied Mathematics",
+          "tags": [
+            "plasma physics",
+            "kinetic theory",
+            "tokamak turbulence",
+            "particle simulation",
+            "fusion"
+          ],
+          "summary": "His CU Physics profile states his research is in the area of kinetic theory and simulation of plasmas, with most current work on direct numerical simulation of tokamak plasma turbulence on large massively parallel computers, done in a five-dimensional phase space using newly developed particle-based methods. His group page adds that he is a Fellow of RASEI and of the Center for Integrated Plasma Studies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.scotteparker.org/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sean-orourke",
+          "name": "Sean O'Rourke",
+          "title": "Associate Professor, Department of Mathematics (APPM Affiliated Faculty)",
+          "sub_field": "Probability and Statistics",
+          "tags": [
+            "probability",
+            "random matrix theory",
+            "random polynomials"
+          ],
+          "summary": "His CU Mathematics profile lists his research as probability and random matrix theory, and his personal page states his research interests include probability, random matrix theory and random polynomials. He received his PhD at the University of California, Davis under the direction of Alexander Soshnikov.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.colorado.edu/~seor3821/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sriram-sankaranarayanan",
+          "name": "Sriram Sankaranarayan",
+          "title": "Professor and Department Chair, Department of Computer Science (listed as Sriram Sankaranarayanan on the CU Computer Science directory) (APPM Affiliated Faculty)",
+          "sub_field": "Computational Science",
+          "tags": [
+            "formal methods",
+            "hybrid dynamical systems",
+            "cyber-physical systems",
+            "verification"
+          ],
+          "summary": "His CU Computer Science profile states his research interests include automatic techniques for reasoning about the behavior of computer and cyber-physical systems, working on fundamental problems involving modeling and analysis using hybrid dynamical systems and formal methods, with applications to artificial pancreas systems for treating type-1 diabetes. His personal page describes studying the mathematical foundations of autonomous systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://home.cs.colorado.edu/~srirams/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "stephen-kissler",
+          "name": "Stephen Kissler",
+          "title": "Assistant Professor, Department of Computer Science (APPM Affiliated Faculty)",
+          "sub_field": "Mathematical Biology",
+          "tags": [
+            "epidemiology",
+            "pathogen evolution",
+            "complex social systems",
+            "infectious disease modeling"
+          ],
+          "summary": "His CU Computer Science profile states he studies epidemiology, pathogen evolution and complex social systems. He received BS and MS degrees in Applied Mathematics at CU Boulder, earned his PhD from the University of Cambridge as a Gates Scholar, and was a postdoctoral fellow at the Harvard T.H. Chan School of Public Health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://kisslerlab.github.io/people/StephenKissler/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tahra-eissa",
+          "name": "Tahra Eissa",
+          "title": "Affiliated Faculty, Department of Applied Mathematics; home appointment at the University of Colorado Anschutz Medical Campus (academic rank Unknown/Verify - no rank published on the APPM affiliate listing or on her lab page) (APPM Affiliated Faculty)",
+          "sub_field": "Mathematical Biology",
+          "tags": [
+            "decision making",
+            "computational neuroscience",
+            "mathematical modeling",
+            "cognition"
+          ],
+          "summary": "Her lab page (Eissa Lab, University of Colorado Anschutz) states the lab studies how the brain makes decisions in a changing world, building decision-making games with hidden features and then using mathematical modeling and human brain recordings to uncover the strategies people use and how the brain computes them.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://eissalab.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tomoko-matsuo",
+          "name": "Tomoko Matsuo",
+          "title": "Associate Professor, Ann and H.J. Smead Department of Aerospace Engineering Sciences (APPM Affiliated Faculty)",
+          "sub_field": "Mathematical Geosciences / Statistics and Data Science",
+          "tags": [
+            "data assimilation",
+            "geospace",
+            "space weather",
+            "uncertainty quantification"
+          ],
+          "summary": "Her Geospace Data Science Lab page lists her as Associate Professor and Smead Endowed Faculty Fellow in the Ann and H.J. Smead Department of Aerospace Engineering Sciences, and as Affiliate Faculty in the Department of Applied Mathematics. The lab's stated mission is advancing the science and engineering of the near-Earth space environment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.colorado.edu/lab/matsuo/",
+            "scholar": null
+          }
+        }
+      ]
     }
   ]
 }
