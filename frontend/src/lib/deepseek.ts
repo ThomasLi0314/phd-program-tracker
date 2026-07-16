@@ -124,6 +124,9 @@ export interface AdvisorDraft {
   scholar: string
   /** Only set by extractAdvisorFromPage: the name as the fetched page spells it. */
   pageName?: string
+  /** Only set by extractAdvisorFromPage: routing hints read off the page. */
+  university?: string
+  department?: string
 }
 
 /** Draft an advisor card from the model's training knowledge. NOTE: DeepSeek
@@ -188,6 +191,8 @@ export async function extractAdvisorFromPage(
     `Return JSON exactly: {"mismatch":true|false (true only if this page is clearly not about the target professor),` +
     `"name":"their name exactly as the page spells it, or empty",` +
     `"title":"their exact academic title as written on the page, or empty",` +
+    `"university":"the university this page belongs to, as written, or empty",` +
+    `"department":"their department/school/college as written on the page, or empty",` +
     `"sub_field":"their main research area, short, from the page","tags":["3-6 research keywords taken from the page"],` +
     `"summary":"1-3 sentences describing their research, grounded in the page text",` +
     `"homepage":"their personal/lab site ONLY if the URL appears in the page text, else empty",` +
@@ -213,6 +218,10 @@ export async function extractAdvisorFromPage(
     // The page's own spelling wins (accents, middle initials) when it's clearly
     // the same person; the caller decides whether to take it.
     pageName: str(p.name),
+    // Routing hints — which school/department the page belongs to. Only ever
+    // used to PROPOSE a program the user then confirms (see lib/advisorRouting).
+    university: str(p.university),
+    department: str(p.department),
   }
 }
 

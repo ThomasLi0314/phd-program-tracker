@@ -1,11 +1,12 @@
-import { useMemo } from 'react'
-import type { OutreachRecord, Program } from '../types'
+import { useMemo, useState } from 'react'
+import type { Faculty, OutreachRecord, Program } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
 import { StarRating } from './StarRating'
 import { AdvisorNote } from './AdvisorNote'
 import { OutreachBadge } from './OutreachBadge'
 import { EditableLink } from './EditableLink'
 import { PoolLoading } from './PoolLoading'
+import { AddAdvisorPanel } from './AddAdvisorPanel'
 import {
   groupHomepage,
   groupLevel,
@@ -155,6 +156,8 @@ export function AdvisorExplorer({
   outreach,
   homepages,
   onSetHomepage,
+  addedFaculty,
+  onAddFaculty,
 }: {
   /** true while the per-field chunks are still arriving — see PoolLoading. */
   loading: boolean
@@ -169,15 +172,23 @@ export function AdvisorExplorer({
   outreach: Record<string, OutreachRecord>
   homepages: Record<string, string>
   onSetHomepage: (key: string, url: string) => void
+  addedFaculty: Record<string, Faculty[]>
+  onAddFaculty: (programId: string, f: Faculty) => void
 }) {
+  const [adding, setAdding] = useState(false)
   // One card per person: the same professor is often listed under several of
   // their university's programs (see lib/mergeAdvisors for why this is scoped
   // to a single university).
   const allAdvisors = useMemo(() => {
     const hits: AdvisorHit[] = []
-    for (const p of programs) for (const f of p.faculty) hits.push({ faculty: f, program: p })
+    for (const p of programs) {
+      for (const f of p.faculty) hits.push({ faculty: f, program: p })
+      // Advisors the user added are searchable here too — this is where they
+      // add them now, so not listing them back would be baffling.
+      for (const f of addedFaculty[p.id] ?? []) hits.push({ faculty: f, program: p })
+    }
     return mergeAdvisors(hits)
-  }, [programs])
+  }, [programs, addedFaculty])
 
   const topTags = useMemo(() => {
     const counts = new Map<string, number>()
@@ -215,11 +226,26 @@ export function AdvisorExplorer({
     <main className="h-full flex-1 overflow-y-auto bg-slate-50/40">
       <div className="mx-auto max-w-6xl px-5 py-4">
         <header className="mb-3">
-          <h1 className="font-serif text-lg font-bold text-slate-900">Advisor Explorer</h1>
-          <p className="text-[12px] text-slate-500">
-            Search a research direction — advisors across the whole database are searched
-            automatically (no field selection needed), recruiting advisors first.
-          </p>
+          <div className="flex items-start justify-between gap-3">
+            <div>
+              <h1 className="font-serif text-lg font-bold text-slate-900">Advisor Explorer</h1>
+              <p className="text-[12px] text-slate-500">
+                Search a research direction — advisors across the whole database are searched
+                automatically (no field selection needed), recruiting advisors first.
+              </p>
+            </div>
+            <button
+              onClick={() => setAdding((v) => !v)}
+              className={`shrink-0 rounded border px-2.5 py-1 text-[12px] font-medium transition-colors ${
+                adding
+                  ? 'border-indigo-600 bg-indigo-600 text-white'
+                  : 'border-slate-300 bg-white text-slate-700 hover:border-indigo-400 hover:text-indigo-700'
+              }`}
+              title="Add a professor who isn't in the database — the school and program are worked out from their page"
+            >
+              ＋ Add advisor
+            </button>
+          </div>
           <input
             type="search"
             value={query}
@@ -255,6 +281,16 @@ export function AdvisorExplorer({
             )}
           </p>
         </header>
+
+        {adding && (
+          <AddAdvisorPanel
+            programs={programs}
+            addedFaculty={addedFaculty}
+            onAdd={onAddFaculty}
+            onClose={() => setAdding(false)}
+            onOpenProgram={onOpenProgram}
+          />
+        )}
 
         {loading && hits.length === 0 ? (
           <PoolLoading what="advisors" />

@@ -628,7 +628,7 @@ function App() {
                 contactOverride={selected ? (overrides.programContact[selected.id] ?? '') : ''}
                 onSetContact={(t) => selected && setProgramContact(selected.id, t)}
                 addedFaculty={selected ? (overrides.addedFaculty[selected.id] ?? []) : []}
-                onAddFaculty={(f) => selected && addFaculty(selected.id, f)}
+                onAddAdvisor={() => setView('advisors')}
                 onRemoveFaculty={(id) => selected && removeFaculty(selected.id, id)}
               />
             </>
@@ -647,6 +647,8 @@ function App() {
             outreach={outreach.state.records}
             homepages={overrides.facultyHomepage}
             onSetHomepage={setFacultyHomepage}
+            addedFaculty={overrides.addedFaculty}
+            onAddFaculty={addFaculty}
           />
         ) : view === 'schools' ? (
           <SchoolExplorer
@@ -661,6 +663,7 @@ function App() {
             loading={poolIncomplete}
             starCount={starredCount}
             programs={fullPool}
+            addedFaculty={overrides.addedFaculty}
             levels={starLevels}
             onSetLevel={setStarLevel}
             onOpenProgram={openProgram}

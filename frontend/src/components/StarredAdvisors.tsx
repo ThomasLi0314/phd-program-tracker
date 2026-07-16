@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import type { OutreachRecord, Program } from '../types'
+import type { Faculty, OutreachRecord, Program } from '../types'
 import { Badge, RecruitmentBadge } from './Badge'
 import { StarRating } from './StarRating'
 import { AdvisorNote } from './AdvisorNote'
@@ -145,6 +145,7 @@ export function StarredAdvisors({
   loading,
   starCount,
   programs,
+  addedFaculty,
   levels,
   onSetLevel,
   onOpenProgram,
@@ -161,6 +162,8 @@ export function StarredAdvisors({
    *  filtered out of this pool" instead of asserting the former. */
   starCount: number
   programs: Program[]
+  /** Locally-added advisors, keyed by program id — starrable like any other. */
+  addedFaculty: Record<string, Faculty[]>
   levels: Map<string, number>
   onSetLevel: (key: string, level: number) => void
   onOpenProgram: (programId: string) => void
@@ -181,7 +184,12 @@ export function StarredAdvisors({
   // same professor would be listed once per program they advise in.
   const allHits = useMemo(() => {
     const raw: MergeHit[] = []
-    for (const p of programs) for (const f of p.faculty) raw.push({ faculty: f, program: p })
+    for (const p of programs) {
+      for (const f of p.faculty) raw.push({ faculty: f, program: p })
+      // Advisors the user added can be starred like any other, so they have to
+      // be resolvable here — otherwise starring one shows an empty Starred tab.
+      for (const f of addedFaculty[p.id] ?? []) raw.push({ faculty: f, program: p })
+    }
     const hits: AdvisorHit[] = []
     for (const advisor of mergeAdvisors(raw)) {
       const level = groupLevel(advisor.keys, levels)
@@ -189,7 +197,7 @@ export function StarredAdvisors({
       hits.push({ advisor, program: advisor.entries[0].program, level })
     }
     return hits
-  }, [programs, levels])
+  }, [programs, levels, addedFaculty])
 
   // A merged advisor can span several programs, so their fields/schools are the
   // union across their entries — filtering on any one of them must find them.
