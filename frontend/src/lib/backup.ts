@@ -6,6 +6,7 @@
 /** Every localStorage key holding user-created data, with a human label. */
 export const BACKUP_KEYS: { key: string; label: string }[] = [
   { key: 'tracker.myList.v1', label: 'Starred programs (My List)' },
+  { key: 'tracker.schoolTiers.v1', label: 'School tier rankings' },
   { key: 'tracker.starredAdvisors.v1', label: 'Starred advisors + priorities' },
   { key: 'tracker.advisorNotes.v1', label: 'Advisor notes' },
   { key: 'tracker.outreach.v1', label: 'Outreach / reply tracking' },

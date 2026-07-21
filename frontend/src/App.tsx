@@ -10,6 +10,7 @@ import {
   type SortKey,
 } from './lib/filters'
 import { useMyList } from './lib/myList'
+import { useSchoolTiers } from './lib/schoolTiers'
 import { useSidebarFields } from './lib/sidebarFields'
 import { advisorKey, useStarredAdvisors } from './lib/starredAdvisors'
 import { mergeKey } from './lib/mergeAdvisors'
@@ -36,6 +37,7 @@ import { SchoolExplorer } from './components/SchoolExplorer'
 import { StarredAdvisors } from './components/StarredAdvisors'
 import { OutreachView } from './components/OutreachView'
 import { OutreachOverview } from './components/OutreachOverview'
+import { MyListTable } from './components/MyListTable'
 import { GmailConnect } from './components/GmailConnect'
 import { RequestFieldModal } from './components/RequestFieldModal'
 
@@ -69,6 +71,7 @@ function App() {
   const [onlyMyList, setOnlyMyList] = useState(false)
   const [showRequest, setShowRequest] = useState(false)
   const { myList, toggle: toggleMyList } = useMyList()
+  const { tiers, setTier } = useSchoolTiers()
   const sidebarFields = useSidebarFields()
   const { levels: starLevels, setLevel: setStarLevel } = useStarredAdvisors()
   const { notes: advisorNotes, setNote: setAdvisorNote } = useAdvisorNotes()
@@ -216,6 +219,20 @@ function App() {
     return sortPrograms(result, 'university')
   }, [facets, index, loaded, filters])
 
+  // Every My-List program across ALL loaded fields, no other filters — the
+  // dedicated My-List table ignores discipline/degree/region/fee entirely and
+  // ranks purely by the tier the user assigns each school.
+  const myListPrograms = useMemo(() => {
+    if (!index) return []
+    const out: Program[] = []
+    for (const f of index.fields) {
+      const chunk = loaded[f.primary]
+      if (!chunk) continue
+      for (const p of chunk) if (myList.has(p.id)) out.push(p)
+    }
+    return out
+  }, [index, loaded, myList])
+
   // Every {faculty, program} across ALL loaded fields, ignoring sidebar filters —
   // used to auto-match sent emails and resolve outreach records to advisor cards.
   const outreachPool = useMemo(() => {
@@ -260,7 +277,7 @@ function App() {
   }, [filtered, selectedId])
 
   const selected = filtered.find((p) => p.id === selectedId) ?? null
-  const shown = view === 'programs' ? filtered : fullPool
+  const shown = onlyMyList ? myListPrograms : view === 'programs' ? filtered : fullPool
   const facultyCount = shown.reduce((n, p) => n + p.faculty.length, 0)
   const stillLoading = loadingFields.size > 0
   // The whole-database views need every field chunk. Until they've all arrived,
@@ -290,6 +307,7 @@ function App() {
     }
     setSelectedId(id)
     setView('programs')
+    setOnlyMyList(false) // leave the My-List table for the deep-dive
   }
 
   const runSync = async () => {
@@ -378,7 +396,7 @@ function App() {
     const t = setTimeout(() => void doDriveBackup(true), 3000)
     return () => clearTimeout(t)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [driveSync, gmailStatus, myList, starLevels, advisorNotes, outreach.state, overrides])
+  }, [driveSync, gmailStatus, myList, tiers, starLevels, advisorNotes, outreach.state, overrides])
 
   // Show when the Drive backup was last written, when the panel opens.
   useEffect(() => {
@@ -453,9 +471,14 @@ function App() {
               (v) => (
                 <button
                   key={v}
-                  onClick={() => setView(v)}
+                  onClick={() => {
+                    setView(v)
+                    setOnlyMyList(false) // tabs and the My-List table are separate modes
+                  }}
                   className={`px-2.5 py-1 capitalize transition-colors ${
-                    view === v ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+                    view === v && !onlyMyList
+                      ? 'bg-indigo-600 text-white'
+                      : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                   }`}
                 >
                   {v === 'starred'
@@ -550,7 +573,7 @@ function App() {
       <div className="flex min-h-0 flex-1">
         {/* Outreach and Overview run off outreachPool and ignore every sidebar
             filter, so rendering the sidebar there is a control that does nothing. */}
-        {view !== 'outreach' && view !== 'overview' && (
+        {view !== 'outreach' && view !== 'overview' && !onlyMyList && (
           <FilterSidebar
             facets={facets}
             filters={filters}
@@ -568,7 +591,19 @@ function App() {
             showDiscipline={view === 'programs'}
           />
         )}
-        {view === 'programs' ? (
+        {onlyMyList ? (
+          <MyListTable
+            loading={poolIncomplete}
+            programs={myListPrograms}
+            tiers={tiers}
+            onSetTier={setTier}
+            onToggleList={toggleMyList}
+            onOpenProgram={openProgram}
+            homepages={overrides.facultyHomepage}
+            programPages={overrides.programPage}
+            addedFaculty={overrides.addedFaculty}
+          />
+        ) : view === 'programs' ? (
           selectedPrimaries.size === 0 && !onlyMyList ? (
             <div className="flex min-w-0 flex-1 items-start justify-center overflow-y-auto bg-slate-50/40 px-6 py-16">
               <div className="w-full max-w-xl">
