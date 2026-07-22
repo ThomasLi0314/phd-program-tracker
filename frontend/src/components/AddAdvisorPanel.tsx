@@ -101,6 +101,12 @@ export function AddAdvisorPanel({
           `That page never mentions “${name.trim().split(/\s+/).pop()}”. It's probably the wrong URL (a 404, a directory index, or another person).`,
         )
       }
+      // The page genuinely read — lock in the source and a homepage NOW, before
+      // the AI step. If DeepSeek is unreachable, the user still keeps a sourced
+      // card they can finish by hand rather than losing the whole fetch.
+      setSource({ url: page.url, fetchedAt: page.fetchedAt })
+      setHomepage((h) => h || page.url)
+
       setStatus('Extracting the card…')
       const d = await extractAdvisorFromPage(name.trim(), page, { university: '', program: '' })
       if (d.title) setTitle(d.title)
@@ -110,7 +116,6 @@ export function AddAdvisorPanel({
       setHomepage(d.homepage || page.url)
       setScholar(d.scholar)
       if (d.pageName && d.pageName.toLowerCase() !== name.trim().toLowerCase()) setName(d.pageName)
-      setSource({ url: page.url, fetchedAt: page.fetchedAt })
 
       setStatus('Working out the school and program…')
       const r = routeAdvisor(

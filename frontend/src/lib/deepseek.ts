@@ -69,19 +69,37 @@ async function chat(
 ): Promise<string> {
   const key = loadKey()
   if (!key) throw new Error('No DeepSeek API key')
-  const res = await fetch(ENDPOINT, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
-    body: JSON.stringify({
-      model: loadModel(),
-      messages,
-      temperature: 0.2,
-      max_tokens: 400,
-      ...(opts.json ? { response_format: { type: 'json_object' } } : {}),
-    }),
-  })
-  if (res.status === 401) throw new Error('DeepSeek key rejected (401)')
-  if (!res.ok) throw new Error(`DeepSeek API error ${res.status}`)
+  let res: Response
+  try {
+    res = await fetch(ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
+      body: JSON.stringify({
+        model: loadModel(),
+        messages,
+        temperature: 0.2,
+        max_tokens: 400,
+        ...(opts.json ? { response_format: { type: 'json_object' } } : {}),
+      }),
+    })
+  } catch {
+    // fetch() throws a bare "Failed to fetch" TypeError for ANY network-level
+    // failure, and the browser deliberately hides the real reason (CORS, blocked
+    // host, offline, DNS). Surface the actual candidates instead of that opaque
+    // string — this is the AI call, so the professor/URL are not the problem.
+    throw new Error(
+      'Could not reach DeepSeek (api.deepseek.com) — the request was blocked before any reply came back. ' +
+        'Usual causes: no internet / a VPN or firewall blocking the host, a browser ad-or-privacy extension, ' +
+        'or opening the site from http://localhost (DeepSeek only allows the deployed https:// origin). ' +
+        'The page was read fine; only the AI step failed — you can fill the card in by hand below and still add them.',
+    )
+  }
+  if (res.status === 401)
+    throw new Error('DeepSeek rejected the API key (401). Re-check it in 📊 Overview → DeepSeek settings.')
+  if (res.status === 402)
+    throw new Error('DeepSeek says the account is out of balance (402). Top up the account, then retry.')
+  if (res.status === 429) throw new Error('DeepSeek is rate-limiting (429). Wait a moment and retry.')
+  if (!res.ok) throw new Error(`DeepSeek API error ${res.status}.`)
   const data = await res.json()
   return data.choices?.[0]?.message?.content ?? ''
 }
