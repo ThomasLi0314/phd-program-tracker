@@ -12,6 +12,7 @@ import { RECRUITMENT_DOTS, RECRUITMENT_LABELS, RECRUITMENT_ORDER } from '../lib/
 import { CONTACT_LABELS, CONTACT_ORDER, CONTACT_TONES, UNKNOWN_LABEL } from '../lib/labels'
 import { FieldRow } from '../components/FieldValue'
 import { StatusChip, StatusSelect } from '../components/StatusChip'
+import { FacultyResearchPanel } from '../components/ResearchPanel'
 
 export function FacultyDetail({
   id,
@@ -25,6 +26,7 @@ export function FacultyDetail({
   planner: PlannerApi
 }) {
   const [confirmDelete, setConfirmDelete] = useState(false)
+  const [researching, setResearching] = useState(false)
   const entry = state.faculty.find((f) => f.id === id) ?? null
 
   if (!entry) {
@@ -75,6 +77,17 @@ export function FacultyDetail({
               )}
             </p>
           </div>
+          <button
+            onClick={() => setResearching((v) => !v)}
+            title="Read this person's pages and propose values — you review everything before it is saved."
+            className={`ml-auto shrink-0 rounded border px-2 py-1 text-[11.5px] font-medium transition-colors ${
+              researching
+                ? 'border-indigo-600 bg-indigo-600 text-white'
+                : 'border-slate-300 bg-white text-indigo-700 hover:border-indigo-400'
+            }`}
+          >
+            Refresh Research
+          </button>
           {confirmDelete ? (
             <span className="flex shrink-0 items-center gap-1.5 text-[11.5px]">
               <span className="text-rose-700">Remove?</span>
@@ -101,7 +114,16 @@ export function FacultyDetail({
           )}
         </header>
 
-        <div className="grid gap-3 lg:grid-cols-2">
+        {researching && (
+          <FacultyResearchPanel
+            entry={entry}
+            cycle={state.settings.cycle}
+            onApply={(patch) => planner.updateFaculty(entry.id, patch)}
+            onClose={() => setResearching(false)}
+          />
+        )}
+
+        <div className="mt-3 grid gap-3 lg:grid-cols-2">
           {/* Basic information */}
           <section className={card}>
             <h2 className={heading}>Basic information</h2>

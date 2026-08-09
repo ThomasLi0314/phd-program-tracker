@@ -29,6 +29,7 @@ import {
 import { FieldRow } from '../components/FieldValue'
 import { StatusSelect } from '../components/StatusChip'
 import { AddFacultyModal } from '../components/AddFacultyModal'
+import { ProgramResearchPanel } from '../components/ResearchPanel'
 
 type Section = 'admissions' | 'structure' | 'funding'
 
@@ -45,6 +46,7 @@ export function ProgramDetail({
 }) {
   const [addingFaculty, setAddingFaculty] = useState(false)
   const [confirmDelete, setConfirmDelete] = useState(false)
+  const [researching, setResearching] = useState(false)
 
   const entry = state.programs.find((p) => p.id === id) ?? null
   const live = entry ? resolveProgram(entry, pool.byId) : null
@@ -193,9 +195,13 @@ export function ProgramDetail({
               </a>
             )}
             <button
-              disabled
-              title="Arrives with the research layer in Phase 2 — nothing is fetched today."
-              className="cursor-not-allowed rounded border border-slate-200 bg-slate-50 px-2 py-1 text-[11.5px] font-medium text-slate-400"
+              onClick={() => setResearching((v) => !v)}
+              title="Read this program's official pages and propose values — you review everything before it is saved."
+              className={`rounded border px-2 py-1 text-[11.5px] font-medium transition-colors ${
+                researching
+                  ? 'border-indigo-600 bg-indigo-600 text-white'
+                  : 'border-slate-300 bg-white text-indigo-700 hover:border-indigo-400'
+              }`}
             >
               Refresh Research
             </button>
@@ -225,6 +231,15 @@ export function ProgramDetail({
             )}
           </div>
         </header>
+
+        {researching && (
+          <ProgramResearchPanel
+            entry={entry}
+            cycle={entry.cycle}
+            onApply={(patch) => planner.updateProgram(entry.id, patch)}
+            onClose={() => setResearching(false)}
+          />
+        )}
 
         {/* Status */}
         <section className={`${card} mb-3`}>
