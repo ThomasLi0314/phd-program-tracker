@@ -13,8 +13,10 @@ import {
   RECRUITMENT_ORDER,
   recruitmentRank,
 } from '../lib/recruitment'
-import { CONTACT_LABELS, CONTACT_ORDER } from '../lib/labels'
-import { StatusSelect } from '../components/StatusChip'
+import { CONTACT_LABELS, CONTACT_ORDER, CONTACT_TONES } from '../lib/labels'
+import { StatusChip, StatusSelect } from '../components/StatusChip'
+import { effectiveContact, findRecord, useOutreachSnapshot } from '../lib/outreachBridge'
+import { facultyOccurrences } from '../lib/referenceBridge'
 
 type SortKey = 'name' | 'recruiting' | 'contact' | 'fit'
 
@@ -32,6 +34,23 @@ export function FacultyTable({
   const [contactFilter, setContactFilter] = useState('')
   const [tagFilter, setTagFilter] = useState('')
   const [sortBy, setSortBy] = useState<SortKey>('name')
+  const outreach = useOutreachSnapshot()
+
+  /** Effective contact status per person: my intent combined with Gmail evidence. */
+  const contactById = useMemo(() => {
+    const m = new Map<string, ReturnType<typeof effectiveContact>>()
+    for (const f of state.faculty) {
+      const occ =
+        f.ref.kind === 'database'
+          ? facultyOccurrences(f.ref.mergeKey, pool.programs).map((o) => ({
+              programId: o.program.id,
+              facultyId: o.faculty.id,
+            }))
+          : []
+      m.set(f.id, effectiveContact(f, findRecord(f, outreach, occ)))
+    }
+    return m
+  }, [state.faculty, outreach, pool.programs])
 
   const programById = useMemo(() => new Map(state.programs.map((p) => [p.id, p])), [state.programs])
 
@@ -46,7 +65,7 @@ export function FacultyTable({
     const out = state.faculty.filter((f) => {
       const status = f.recruiting.value ?? 'unknown'
       if (recruitFilter && status !== recruitFilter) return false
-      if (contactFilter && f.contact.status !== contactFilter) return false
+      if (contactFilter && (contactById.get(f.id)?.status ?? f.contact.status) !== contactFilter) return false
       if (tagFilter && !f.themes.includes(tagFilter)) return false
       if (terms.length === 0) return true
       const hay = `${f.name} ${f.university} ${f.department} ${f.themes.join(' ')}`.toLowerCase()
@@ -60,14 +79,15 @@ export function FacultyTable({
         )
       if (sortBy === 'contact')
         return (
-          CONTACT_ORDER.indexOf(a.contact.status) - CONTACT_ORDER.indexOf(b.contact.status) ||
+          CONTACT_ORDER.indexOf(contactById.get(a.id)?.status ?? a.contact.status) -
+            CONTACT_ORDER.indexOf(contactById.get(b.id)?.status ?? b.contact.status) ||
           a.name.localeCompare(b.name)
         )
       if (sortBy === 'fit') return (b.fit?.overall ?? -1) - (a.fit?.overall ?? -1)
       return a.name.localeCompare(b.name)
     })
     return out
-  }, [state.faculty, query, recruitFilter, contactFilter, tagFilter, sortBy])
+  }, [state.faculty, query, recruitFilter, contactFilter, tagFilter, sortBy, contactById])
 
   const select =
     'rounded border border-slate-300 bg-white px-1.5 py-1 text-[11.5px] text-slate-600 focus:border-indigo-400 focus:outline-none'
@@ -154,6 +174,7 @@ export function FacultyTable({
               <tbody>
                 {rows.map((f) => {
                   const status = f.recruiting.value ?? 'unknown'
+                  const eff = contactById.get(f.id)
                   return (
                     <tr key={f.id} className="border-b border-slate-100 align-top last:border-0 hover:bg-slate-50/60">
                       <td className="px-2 py-2">
@@ -183,12 +204,22 @@ export function FacultyTable({
                         {RECRUITMENT_DOTS[status]} {RECRUITMENT_LABELS[status]}
                       </td>
                       <td className="px-2 py-2">
-                        <StatusSelect
-                          value={f.contact.status}
-                          options={CONTACT_ORDER}
-                          labels={CONTACT_LABELS}
-                          onChange={(v) => planner.updateFaculty(f.id, { contact: { ...f.contact, status: v } })}
-                        />
+                        {eff?.source === 'gmail' ? (
+                          <span
+                            className="flex items-center gap-1"
+                            title="From the Gmail-synced record. Edit your own intent on the faculty page."
+                          >
+                            <StatusChip label={CONTACT_LABELS[eff.status]} tone={CONTACT_TONES[eff.status]} />
+                            <span className="text-[10px] text-sky-700">✉</span>
+                          </span>
+                        ) : (
+                          <StatusSelect
+                            value={f.contact.status}
+                            options={CONTACT_ORDER}
+                            labels={CONTACT_LABELS}
+                            onChange={(v) => planner.updateFaculty(f.id, { contact: { ...f.contact, status: v } })}
+                          />
+                        )}
                       </td>
                       <td className="px-2 py-2 text-[11px] text-slate-400">
                         {f.recruiting.checkedAt ?? 'never'}

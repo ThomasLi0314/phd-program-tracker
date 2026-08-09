@@ -30,6 +30,7 @@ import { FieldRow } from '../components/FieldValue'
 import { StatusSelect } from '../components/StatusChip'
 import { AddFacultyModal } from '../components/AddFacultyModal'
 import { ProgramResearchPanel } from '../components/ResearchPanel'
+import { useOutreachSnapshot } from '../lib/outreachBridge'
 
 type Section = 'admissions' | 'structure' | 'funding'
 
@@ -47,6 +48,7 @@ export function ProgramDetail({
   const [addingFaculty, setAddingFaculty] = useState(false)
   const [confirmDelete, setConfirmDelete] = useState(false)
   const [researching, setResearching] = useState(false)
+  const outreach = useOutreachSnapshot()
 
   const entry = state.programs.find((p) => p.id === id) ?? null
   const live = entry ? resolveProgram(entry, pool.byId) : null
@@ -90,6 +92,11 @@ export function ProgramDetail({
   }
 
   const ident = programIdentity(entry, live)
+
+  // The tracker summarises this program's admissions outlook from the replies you
+  // actually received. Keyed by canonical program id, so it only exists for
+  // database-backed entries.
+  const outlook = entry.ref.kind === 'database' ? outreach.programSummaries[entry.ref.programId] : undefined
 
   const patchField = (section: Section, key: string, value: unknown) => {
     const sec = entry[section] as Record<string, ResearchField<unknown> | undefined>
@@ -377,6 +384,25 @@ export function ProgramDetail({
             </ul>
           )}
         </section>
+
+        {outlook && (
+          <section className="mt-3 rounded-lg border border-sky-200 bg-sky-50/40 p-3.5">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <h2 className="text-[10px] font-semibold uppercase tracking-wide text-sky-700">
+                Admissions outlook — from your cold-email replies
+              </h2>
+              <span className="text-[10px] text-slate-400">
+                {outlook.count} repl{outlook.count === 1 ? 'y' : 'ies'} ·{' '}
+                {new Date(outlook.updatedAt).toISOString().slice(0, 10)}
+              </span>
+            </div>
+            <p className="mt-1 text-[12.5px] leading-relaxed text-slate-700">{outlook.summary}</p>
+            <p className="mt-1 text-[10.5px] text-slate-500">
+              Summarised by DeepSeek from replies synced in the tracker’s ✉ Outreach tab — it
+              reflects what professors told you, not anything published by the program.
+            </p>
+          </section>
+        )}
 
         {/* My Notes — visually separate from researched content (spec §17). */}
         <section className="mt-3 rounded-lg border border-amber-200 bg-amber-50/50 p-3.5">

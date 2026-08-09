@@ -13,6 +13,9 @@ import { CONTACT_LABELS, CONTACT_ORDER, CONTACT_TONES, UNKNOWN_LABEL } from '../
 import { FieldRow } from '../components/FieldValue'
 import { StatusChip, StatusSelect } from '../components/StatusChip'
 import { FacultyResearchPanel } from '../components/ResearchPanel'
+import { OutreachEvidence } from '../components/OutreachEvidence'
+import { effectiveContact, findRecord, useOutreachSnapshot } from '../lib/outreachBridge'
+import { facultyOccurrences } from '../lib/referenceBridge'
 
 export function FacultyDetail({
   id,
@@ -27,6 +30,7 @@ export function FacultyDetail({
 }) {
   const [confirmDelete, setConfirmDelete] = useState(false)
   const [researching, setResearching] = useState(false)
+  const outreach = useOutreachSnapshot()
   const entry = state.faculty.find((f) => f.id === id) ?? null
 
   if (!entry) {
@@ -43,6 +47,19 @@ export function FacultyDetail({
   const programs = entry.programIds
     .map((pid) => state.programs.find((p) => p.id === pid))
     .filter(Boolean)
+
+  // Widen the lookup beyond the (programId, facultyId) pairs captured when this
+  // person was added: the email may have been linked under any program they
+  // appear in, so resolve every occurrence of them in the reference dataset.
+  const occurrences =
+    entry.ref.kind === 'database'
+      ? facultyOccurrences(entry.ref.mergeKey, pool.programs).map((o) => ({
+          programId: o.program.id,
+          facultyId: o.faculty.id,
+        }))
+      : []
+  const record = findRecord(entry, outreach, occurrences)
+  const effective = effectiveContact(entry, record)
 
   const set = (patch: Partial<PlannerFaculty>) => planner.updateFaculty(entry.id, patch)
 
@@ -324,11 +341,23 @@ export function FacultyDetail({
           )}
         </section>
 
+        {record && <OutreachEvidence record={record} />}
+
         {/* Contact workflow */}
         <section className={`${card} mt-3`}>
           <div className="mb-1.5 flex items-center justify-between">
             <h2 className={heading + ' mb-0'}>Contact</h2>
-            <StatusChip label={CONTACT_LABELS[entry.contact.status]} tone={CONTACT_TONES[entry.contact.status]} />
+            <span className="flex items-center gap-1.5">
+              <StatusChip label={CONTACT_LABELS[effective.status]} tone={CONTACT_TONES[effective.status]} />
+              {effective.source === 'gmail' && (
+                <span
+                  className="text-[10px] text-sky-700"
+                  title="Derived from the Gmail-synced record below, which is further along than the status you set."
+                >
+                  ✉ from Gmail
+                </span>
+              )}
+            </span>
           </div>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
             <label className="flex items-center gap-2 text-[11px] font-medium text-slate-500">
@@ -366,9 +395,9 @@ export function FacultyDetail({
             className={`${input} mt-2 resize-y`}
           />
           <p className="mt-1 text-[10.5px] leading-relaxed text-slate-400">
-            This tracks your <b>intent</b>. Actual sent/replied email evidence is synced from Gmail
-            in the tracker’s ✉ Outreach tab — this page deliberately doesn’t keep a second copy of
-            it.
+            This tracks your <b>intent</b>. Sent/replied evidence is synced from Gmail by the
+            tracker and shown above rather than copied here, so a sync can never overwrite what you
+            set. Whichever of the two is further along is what the chip and the Faculty table show.
           </p>
         </section>
 
