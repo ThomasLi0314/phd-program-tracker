@@ -27,6 +27,7 @@ const ACTION_STYLE: Record<string, { chip: string; label: string }> = {
   conflict: { chip: 'border-amber-300 bg-amber-50 text-amber-800', label: 'Disagrees with your value' },
   locked: { chip: 'border-rose-300 bg-rose-50 text-rose-700', label: 'You locked this — not applied' },
   add: { chip: 'border-emerald-200 bg-emerald-50 text-emerald-700', label: 'New information' },
+  subsumed: { chip: 'border-slate-200 bg-slate-50 text-slate-500', label: 'Less detail than yours — kept yours' },
   agree: { chip: 'border-slate-200 bg-slate-50 text-slate-500', label: 'Confirms what you have' },
 }
 

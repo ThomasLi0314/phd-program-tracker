@@ -90,6 +90,9 @@ function coerce(spec: FieldSpec, raw: unknown): string | number | null {
   if (!s) return null
   // A model told to omit unknowns sometimes still says so — treat that as absent.
   if (/^(unknown|not stated|n\/?a|none|not specified|not mentioned)\b/i.test(s)) return null
+  // A bare boolean answers "is there a fee waiver?" with "true", which tells the
+  // user nothing they can act on. Observed in a live run; require real prose.
+  if (typeof raw === 'boolean' || /^(true|false|yes|no)$/i.test(s)) return null
   if (spec.enum) {
     const hit = spec.enum.find((e) => e.toLowerCase() === s.toLowerCase())
     if (hit) return hit

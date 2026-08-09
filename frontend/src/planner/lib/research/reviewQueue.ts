@@ -15,10 +15,36 @@ export type ReviewAction =
   | 'add'
   /** research agrees with what's already stored */
   | 'agree'
+  /** research says the same thing with less detail than what's already stored */
+  | 'subsumed'
   /** research disagrees — the user picks */
   | 'conflict'
   /** the user locked this field; we report the disagreement and change nothing */
   | 'locked'
+
+const norm = (s: string) => s.toLowerCase().replace(/[\s'"“”().,;]+/g, ' ').trim()
+const negated = (s: string) => /\b(not|no|never|without|non)\b/.test(s)
+
+/**
+ * Is the proposal just a terser restatement of what I already have?
+ *
+ * A live run proposed "$75" against a stored "$75 ('Fee: $75. Fee waivers are
+ * available…')" and "4 years" against "4 years ('Program length: 4 years…')".
+ * Calling those disagreements is noise that buries the real conflicts.
+ *
+ * Substring matching alone would be DANGEROUS here: "Required" is a substring of
+ * "Not Required", so a genuine contradiction would be silently downgraded. Hence
+ * two guards — the stored value must START with the proposal (so the proposal is
+ * a prefix that context was appended to), and a negation present on one side but
+ * not the other always stays a conflict.
+ */
+function isLessDetailed(current: string, proposed: string): boolean {
+  const c = norm(current)
+  const p = norm(proposed)
+  if (!c || !p || c === p) return false
+  if (negated(c) !== negated(p)) return false
+  return c.startsWith(p)
+}
 
 export interface ReviewItem {
   id: string
@@ -59,6 +85,8 @@ export function buildProgramReview(entry: PlannerProgram, proposals: FieldPropos
       action = 'add'
     } else if (currentDisplay === proposedDisplay) {
       action = 'agree'
+    } else if (isLessDetailed(currentDisplay, proposedDisplay)) {
+      action = 'subsumed'
     } else {
       action = 'conflict'
     }
@@ -75,7 +103,7 @@ export function buildProgramReview(entry: PlannerProgram, proposals: FieldPropos
     })
   }
   // Surface what needs a decision first.
-  const rank: Record<ReviewAction, number> = { conflict: 0, locked: 1, add: 2, agree: 3 }
+  const rank: Record<ReviewAction, number> = { conflict: 0, locked: 1, add: 2, subsumed: 3, agree: 4 }
   return items.sort((a, b) => rank[a.action] - rank[b.action] || a.label.localeCompare(b.label))
 }
 
@@ -110,7 +138,8 @@ export function applyProgramReview(
     const cur = next[item.section][item.key]
     if (cur?.ownership === 'locked') continue
 
-    if (item.action === 'agree') {
+    // 'subsumed' keeps MY richer value but still counts as a re-confirmation.
+    if (item.action === 'agree' || item.action === 'subsumed') {
       // Same value from a fresh source: don't rewrite it, but do record that it
       // was re-confirmed today and keep the citation.
       if (cur) {
@@ -216,11 +245,12 @@ export function buildFacultyReview(entry: PlannerFaculty, proposals: FacultyProp
     if (locked) action = display === proposedDisplay ? 'agree' : 'locked'
     else if (display === null) action = 'add'
     else if (display === proposedDisplay) action = 'agree'
+    else if (isLessDetailed(display, proposedDisplay)) action = 'subsumed'
     else action = 'conflict'
 
     return { id: p.key, label: p.label, key: p.key, currentDisplay: display, proposedDisplay, proposal: p, action }
   })
-  const rank: Record<ReviewAction, number> = { conflict: 0, locked: 1, add: 2, agree: 3 }
+  const rank: Record<ReviewAction, number> = { conflict: 0, locked: 1, add: 2, subsumed: 3, agree: 4 }
   return items.sort((a, b) => rank[a.action] - rank[b.action] || a.label.localeCompare(b.label))
 }
 
