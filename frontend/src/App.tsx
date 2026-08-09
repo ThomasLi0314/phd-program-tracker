@@ -541,6 +541,15 @@ function App() {
             + Request a field
           </button>
 
+          {/* The planner is a separate application sharing this bundle. */}
+          <a
+            href="#/planner"
+            className="rounded border border-indigo-400/50 bg-indigo-500/15 px-2 py-1 text-[11px] font-medium text-indigo-200 transition-colors hover:bg-indigo-500/25"
+            title="Your personal PhD application planner — saved programs, faculty, deadlines and contact tracking"
+          >
+            My PhD Planner →
+          </a>
+
           <div className="shrink-0 text-[11px] tabular-nums text-slate-300">
             {stillLoading
               ? 'loading field data…'

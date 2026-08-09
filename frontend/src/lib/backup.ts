@@ -11,6 +11,10 @@ export const BACKUP_KEYS: { key: string; label: string }[] = [
   { key: 'tracker.advisorNotes.v1', label: 'Advisor notes' },
   { key: 'tracker.outreach.v1', label: 'Outreach / reply tracking' },
   { key: 'tracker.overrides.v1', label: 'Link fixes, contacts, added advisors' },
+  // The planner writes NOTHING until the user actually creates something, so an
+  // untouched planner leaves no key and isLocalEmpty() below stays true — a
+  // fresh browser still gets offered the Drive restore. See planner/lib/storage.
+  { key: 'planner.state.v1', label: 'My PhD Planner (programs, faculty, notes)' },
 ]
 
 export interface BackupFile {
@@ -45,7 +49,12 @@ export function describeBackup(b: BackupFile): { label: string; count: number }[
     if (Array.isArray(v)) return v.length
     if (v && typeof v === 'object') {
       const o = v as Record<string, unknown>
-      // outreach/overrides are nested containers — count their meaningful rows
+      // outreach/overrides/planner are nested containers — count their rows
+      if ('programs' in o && 'faculty' in o) {
+        const programs = (o.programs as unknown[]) ?? []
+        const faculty = (o.faculty as unknown[]) ?? []
+        return (Array.isArray(programs) ? programs.length : 0) + (Array.isArray(faculty) ? faculty.length : 0)
+      }
       if ('records' in o) return Object.keys((o.records as object) ?? {}).length
       if ('facultyHomepage' in o) {
         return (
