@@ -541,7 +541,16 @@ function App() {
             + Request a field
           </button>
 
-          {/* The planner is a separate application sharing this bundle. */}
+          {/* The Europe page and the planner are separate applications
+              sharing this bundle. */}
+          <a
+            href="#/europe"
+            className="rounded border border-teal-400/50 bg-teal-500/15 px-2 py-1 text-[11px] font-medium text-teal-200 transition-colors hover:bg-teal-500/25"
+            title="European master's programmes — tuition, scholarships and language requirements"
+          >
+            Europe Master's →
+          </a>
+
           <a
             href="#/planner"
             className="rounded border border-indigo-400/50 bg-indigo-500/15 px-2 py-1 text-[11px] font-medium text-indigo-200 transition-colors hover:bg-indigo-500/25"

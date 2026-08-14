@@ -4,23 +4,34 @@ import './index.css'
 import App from './App.tsx'
 import { useHashRoute } from './lib/hashRoute'
 
-// The planner is a separate application that shares this bundle. It is loaded
-// lazily so the tracker — which most visits only ever use — doesn't carry its
-// weight. See lib/hashRoute for why the split is on the hash rather than a path.
+// The planner and the Europe page are separate applications that share this
+// bundle. They are loaded lazily so the tracker — which most visits only ever
+// use — doesn't carry their weight. See lib/hashRoute for why the split is on
+// the hash rather than a path.
 const PlannerApp = lazy(() => import('./planner/PlannerApp'))
+const EuropeApp = lazy(() => import('./europe/EuropeApp'))
+
+function Loading({ what }: { what: string }) {
+  return (
+    <div className="flex h-full items-center justify-center bg-white text-sm text-slate-400">
+      Loading {what}…
+    </div>
+  )
+}
 
 function Root() {
   const route = useHashRoute()
   if (route === '/planner' || route.startsWith('/planner/')) {
     return (
-      <Suspense
-        fallback={
-          <div className="flex h-full items-center justify-center bg-white text-sm text-slate-400">
-            Loading the planner…
-          </div>
-        }
-      >
+      <Suspense fallback={<Loading what="the planner" />}>
         <PlannerApp />
+      </Suspense>
+    )
+  }
+  if (route === '/europe' || route.startsWith('/europe/')) {
+    return (
+      <Suspense fallback={<Loading what="European programmes" />}>
+        <EuropeApp />
       </Suspense>
     )
   }
