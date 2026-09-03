@@ -2842,6 +2842,24 @@
             "homepage": "https://www.bumc.bu.edu/virol-immunol-microbio/profile/robert-davey-ph-d/",
             "scholar": null
           }
+        },
+        {
+          "id": "elke-muhlberger",
+          "name": "Elke Mühlberger",
+          "title": "Professor",
+          "sub_field": "Virology, Immunology & Microbiology",
+          "tags": [
+            "filoviruses",
+            "Ebola",
+            "Marburg",
+            "viral replication"
+          ],
+          "summary": "Studies highly pathogenic RNA viruses, particularly filoviruses like Ebola and Marburg, focusing on genome replication/transcription mechanisms and host immune responses using primary and iPSC-derived human cells.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.bumc.bu.edu/virol-immunol-microbio/profile/elke-muhlberger-ph-d/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -4908,6 +4926,24 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://cce.caltech.edu/faculty/harry-b-gray",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andre-hoelz",
+          "name": "André Hoelz",
+          "title": "Professor of Chemistry",
+          "sub_field": "Structural Biology/Nuclear Transport",
+          "tags": [
+            "nuclear pore complex",
+            "nucleocytoplasmic transport",
+            "cryo-EM",
+            "X-ray crystallography"
+          ],
+          "summary": "Investigates the structure and mechanism of the nuclear pore complex and nucleocytoplasmic transport machinery, combining cryo-EM, X-ray crystallography, and biochemical approaches.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cce.caltech.edu/faculty/andré-hoelz",
             "scholar": null
           }
         }
@@ -13608,22 +13644,20 @@
         },
         {
           "id": "carlos-arguelles-delgado",
-          "name": "Carlos Argüelles-Delgado",
-          "title": "Assistant Professor of Physics",
-          "sub_field": "High Energy Experiment / Neutrino Physics",
+          "name": "Carlos Arguelles-Delgado",
+          "title": "Assistant Professor",
+          "sub_field": "Experimental High Energy / Neutrino Physics",
           "tags": [
-            "neutrino physics",
-            "IceCube",
-            "beyond Standard Model",
-            "dark matter",
-            "multi-messenger astronomy",
             "neutrinos",
+            "IceCube",
+            "dark matter",
+            "beyond Standard Model",
             "astroparticle"
           ],
-          "summary": "Rising star in neutrino physics and multi-messenger astronomy. Group works on IceCube neutrino observatory physics, quantum decoherence searches in neutrino oscillations, and detecting supernova neutrinos with the LHC detectors.",
+          "summary": "Studies neutrino physics and searches for new physics using large neutrino telescopes such as IceCube.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.physics.harvard.edu/people/facpages/arguelles",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -20355,6 +20389,25 @@
             "homepage": null,
             "scholar": null
           }
+        },
+        {
+          "id": "ertugrul-ozbudak",
+          "name": "Ertuğrul Özbudak",
+          "title": "Robert Laughlin Rea Professor of Cell and Developmental Biology",
+          "sub_field": "Systems and Developmental Biology",
+          "tags": [
+            "systems biology",
+            "developmental biology",
+            "biophysics",
+            "gene expression",
+            "pattern formation"
+          ],
+          "summary": "Physicist-turned-biologist studying developmental pattern formation, somite segmentation and the biophysics of gene expression, using zebrafish models.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://labs.feinberg.northwestern.edu/ozbudak/",
+            "scholar": "https://scholar.google.com/citations?user=awIzgXAAAAAJ"
+          }
         }
       ]
     },
@@ -24038,6 +24091,25 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://profiles.stanford.edu/howard-zebker",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mathieu-lapotre",
+          "name": "Mathieu Lapôtre",
+          "title": "Assistant Professor",
+          "sub_field": "Planetary Geomorphology",
+          "tags": [
+            "planetary surfaces",
+            "sedimentology",
+            "geomorphology",
+            "Mars",
+            "paleoenvironments"
+          ],
+          "summary": "Studies the physics of sedimentary and geomorphic processes that shape planetary surfaces, with applications to paleoenvironmental reconstructions on Earth and Mars using rover and orbital data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.stanford.edu/mathieu-lapotre",
             "scholar": null
           }
         }
@@ -28442,6 +28514,23 @@
             "homepage": "https://vcresearch.berkeley.edu/faculty/adam-arkin",
             "scholar": null
           }
+        },
+        {
+          "id": "holger-muller",
+          "name": "Holger Müller",
+          "title": "Professor, Dept of Physics",
+          "sub_field": "cell signaling & physiology",
+          "tags": [
+            "cell signaling & physiology",
+            "molecular microscopy & optical probes",
+            "structural biophysics & protein dynamics"
+          ],
+          "summary": "Precision measurements using lasers and cold atoms, as well as using ultra-intense continuous-wave lasers to develop new molecular traps and contrast enhancement in transmission electron microscopy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://matterwave.physics.berkeley.edu/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -29516,6 +29605,22 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://physics.berkeley.edu/people/faculty/mike-zaletel",
+            "scholar": null
+          }
+        },
+        {
+          "id": "raul-briceno",
+          "name": "Raúl Briceño",
+          "title": "Assistant Professor",
+          "sub_field": "Nuclear Physics",
+          "tags": [
+            "Nuclear Physics",
+            "Particle Physics"
+          ],
+          "summary": "Raúl Briceño was born and raised in Caracas, Venezuela. In 2013, he received his PhD in Physics from the University of Washington. He then joined the Center for Theoretical and Computational Physics at Jefferson Lab as a postdoc. After three years as a postdoc, in 2016 he became the Nathan Isgur Research Fellow at Jefferson Lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.berkeley.edu/people/ra%C3%BAl-brice%C3%B1o",
             "scholar": null
           }
         }
@@ -34663,6 +34768,39 @@
             "homepage": "https://physics.uchicago.edu/people/profile/wendy-w.-zhang/",
             "scholar": null
           }
+        },
+        {
+          "id": "clay-cordova",
+          "name": "Clay Córdova",
+          "title": "Associate Professor",
+          "sub_field": "Particle Physics",
+          "tags": [
+            "Condensed Matter Physics",
+            "General Relativity",
+            "Particle Physics",
+            "Theoretical Physics"
+          ],
+          "summary": "Theoretical Physics research in condensed matter physics and general relativity and particle physics (per department research-area classification).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.uchicago.edu/people/profile/clay-cordova/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "luca-delacretaz",
+          "name": "Luca Delacrétaz",
+          "title": "Assistant Professor",
+          "sub_field": "Condensed Matter Physics",
+          "tags": [
+            "Condensed Matter Physics"
+          ],
+          "summary": "Research in condensed matter physics (per department research-area classification).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics.uchicago.edu/people/profile/luca-delacretaz/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -36234,24 +36372,21 @@
         },
         {
           "id": "edwin-pedrozo-penafiel",
-          "name": "Edwin Pedrozo-Peñafiel",
+          "name": "Edwin Pedrozo-Penafiel",
           "title": "Assistant Professor",
-          "sub_field": "Quantum Optics / Quantum Sensing",
+          "sub_field": "Atomic, Molecular and Optical Physics",
           "tags": [
-            "quantum optics",
-            "cavity QED",
-            "quantum sensing",
-            "entanglement",
-            "ultracold atoms",
-            "quantum metrology",
             "atomic physics",
-            "atomic clocks"
+            "quantum metrology",
+            "atomic clocks",
+            "quantum entanglement",
+            "quantum sensing"
           ],
-          "summary": "Develops cavity quantum electrodynamics platforms for non-destructive measurements and collective light-matter interactions, creating entangled states for sensing beyond the standard quantum limit and using ultracold atoms in optical cavities to benchmark quantum measurement techniques.",
+          "summary": "Experimental AMO physicist working on quantum metrology and entanglement-enhanced atomic clocks.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://phys.ufl.edu/people/faculty/edwin-pedrozo-penafiel/",
-            "scholar": "https://scholar.google.com/citations?user=gTQQRn8AAAAJ"
+            "homepage": null,
+            "scholar": null
           }
         },
         {
@@ -38814,6 +38949,22 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.umdphysics.umd.edu/people/faculty/current/item/402-wdp.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alicia-kollar",
+          "name": "Alicia Kollár",
+          "title": "Associate Professor",
+          "sub_field": "Circuit QED / Quantum Simulation",
+          "tags": [
+            "Quantum Information",
+            "Condensed Matter"
+          ],
+          "summary": "Chesapeake Associate Professor whose group builds superconducting circuit-QED systems as artificial photonic materials, engineering coplanar-waveguide resonator lattices (including hyperbolic-space lattices and flat bands) to realize quantum simulators of lattice and spin models.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://kollar.jqi.umd.edu/",
             "scholar": null
           }
         }
@@ -47367,6 +47518,24 @@
             "homepage": "https://www.physics.wisc.edu/directory/forest-cary/",
             "scholar": null
           }
+        },
+        {
+          "id": "sebastien-philippe",
+          "name": "Sébastien Philippe",
+          "title": "Assistant Professor",
+          "sub_field": "Nuclear Security and Policy",
+          "tags": [
+            "nuclear security",
+            "nonproliferation",
+            "arms control verification",
+            "nuclear policy"
+          ],
+          "summary": "Philippe combines technical and policy analysis on nuclear weapon effects modeling, nuclear security and nonproliferation, arms control verification, and remote sensing to inform nuclear risk understanding and evidence-based policy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.wisc.edu/directory/profile/sebastien-philippe/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -48268,6 +48437,38 @@
             "Quantum Information"
           ],
           "summary": "Experimental AMO physicist studying quantum optics, coherent control of atoms, and applications to quantum information and imaging.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.wisc.edu/people/faculty/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elio-konig",
+          "name": "Elio König",
+          "title": "Assistant Professor",
+          "sub_field": "Condensed Matter Theory",
+          "tags": [
+            "Condensed Matter"
+          ],
+          "summary": "Theoretical condensed matter physicist studying strongly correlated electrons, topological phases, and quantum transport.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.wisc.edu/people/faculty/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "moritz-munchmeyer",
+          "name": "Moritz Münchmeyer",
+          "title": "Assistant Professor",
+          "sub_field": "Cosmology / Machine Learning",
+          "tags": [
+            "Cosmology",
+            "Machine Learning",
+            "Astrophysics"
+          ],
+          "summary": "Works at the interface of cosmology and machine learning, developing data-analysis methods for the cosmic microwave background and large-scale structure.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.physics.wisc.edu/people/faculty/",

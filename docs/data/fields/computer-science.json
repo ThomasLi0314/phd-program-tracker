@@ -6349,18 +6349,15 @@
         {
           "id": "carolyn-rose",
           "name": "Carolyn Rosé",
-          "title": "Kavcic-Moura Professor of Language Technologies and HCI",
-          "sub_field": "Computational Linguistics, CSCL, Discourse",
+          "title": "Kavčić-Moura Professor of Language Technologies and Human-Computer Interaction",
+          "sub_field": "NLP & Learning",
           "tags": [
-            "conversational agents",
-            "computer-supported collaborative learning",
-            "discourse analysis",
             "NLP",
             "learning analytics",
             "collaborative learning",
             "HCI"
           ],
-          "summary": "Joint appointment with LTI. Research on computational linguistics, conversational agents, computer-supported collaborative learning, and discourse analysis for education and social good.",
+          "summary": "Researches language technologies for learning and collaboration, including discourse analysis and conversational support for education.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.hcii.cmu.edu/people/carolyn-rose",
@@ -9672,6 +9669,26 @@
             "homepage": "https://www.researchgate.net/profile/Sarah_Rossetti2",
             "scholar": null
           }
+        },
+        {
+          "id": "noemie-elhadad",
+          "name": "Noémie Elhadad",
+          "title": "Associate Professor; Department Chair",
+          "sub_field": "Machine Learning",
+          "tags": [
+            "AI",
+            "Human-Centered Computing",
+            "Medicine",
+            "NLP",
+            "Clinical Text Mining",
+            "Fairness"
+          ],
+          "summary": "Research at the intersection of AI, human-centered computing, and medicine. Develops ML methods and AI tools for patients and clinicians. Leads eve_n initiative on data-powered women's health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://people.dbmi.columbia.edu/noemie/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -11320,22 +11337,18 @@
         },
         {
           "id": "eva-tardos",
-          "name": "Éva Tardos",
-          "title": "Professor",
-          "sub_field": "Algorithms and Game Theory",
+          "name": "Eva Tardos",
+          "title": "Jacob Gould Schurman Professor of Computer Science",
+          "sub_field": "Network Science / Computational Social Science",
           "tags": [
-            "algorithms",
-            "algorithmic game theory",
-            "network flows",
-            "approximation algorithms",
-            "computational social science",
             "network-science",
+            "computational-social-science",
             "theory"
           ],
-          "summary": "Jacob Gould Schurman Professor of Computer Science. World-renowned for foundational contributions to combinatorial optimization, approximation algorithms, and algorithmic game theory. Studies strategic behavior in networks and markets.",
+          "summary": "Jacob Gould Schurman Professor of Computer Science at Cornell University. Research areas: Network Science; Computational Social Science; Theory of Computing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.cs.cornell.edu/~eva/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -12381,22 +12394,18 @@
         },
         {
           "id": "francois-guimbretiere",
-          "name": "François Guimbretière",
-          "title": "Professor",
-          "sub_field": "HCI and Fabrication",
+          "name": "Francois Guimbretiere",
+          "title": "Professor of Information Science",
+          "sub_field": "HCI & Digital Fabrication",
           "tags": [
-            "human-computer interaction",
-            "digital fabrication",
-            "interactive surfaces",
-            "ubiquitous computing",
-            "human-robot interaction",
             "HCI",
-            "fabrication"
+            "fabrication",
+            "ubiquitous-computing"
           ],
-          "summary": "Designs and builds novel interactive systems spanning digital fabrication, pen-based interfaces, and augmented reality. Develops new hardware and software tools that push the boundaries of how humans interact with digital information.",
+          "summary": "Professor of Information Science at Cornell University, a core department in the interdisciplinary Information Science graduate field; advises Information Science PhD students.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://sites.coecis.cornell.edu/fguimbretiere/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -17989,6 +17998,60 @@
             "homepage": null,
             "scholar": null
           }
+        },
+        {
+          "id": "annie-anton",
+          "name": "Annie Antón",
+          "title": "Professor",
+          "sub_field": "Software / Privacy Engineering",
+          "tags": [
+            "privacy engineering",
+            "security policy",
+            "requirements engineering",
+            "software"
+          ],
+          "summary": "Professor researching privacy and security engineering, software requirements, and technology policy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "umit-v-catalyurek",
+          "name": "Ümit V. Çatalyürek",
+          "title": "Professor",
+          "sub_field": "High-Performance Computing",
+          "tags": [
+            "parallel algorithms",
+            "graph partitioning",
+            "combinatorial scientific computing",
+            "HPC"
+          ],
+          "summary": "Professor researching high-performance and parallel computing, combinatorial scientific computing, and large-scale graph algorithms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "raphael-pestourie",
+          "name": "Raphaël Pestourie",
+          "title": "Assistant Professor",
+          "sub_field": "Computational Science and Engineering",
+          "tags": [
+            "scientific machine learning",
+            "optimization",
+            "surrogate models",
+            "physics-based ML"
+          ],
+          "summary": "Assistant Professor in Computational Science and Engineering developing scientific machine learning and surrogate models for physics-based design and optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
         }
       ]
     },
@@ -21741,6 +21804,24 @@
             "homepage": null,
             "scholar": null
           }
+        },
+        {
+          "id": "christian-houdre",
+          "name": "Christian Houdré",
+          "title": "Professor, School of Mathematics",
+          "sub_field": "Probability / Statistics",
+          "tags": [
+            "probability",
+            "statistics",
+            "stochastic processes",
+            "high-dimensional analysis"
+          ],
+          "summary": "ML@GT-affiliated math professor researching probability and statistics, including concentration and high-dimensional phenomena.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
         }
       ]
     },
@@ -24809,6 +24890,24 @@
             "homepage": "https://engineering.lehigh.edu/faculty/sihong-xie",
             "scholar": null
           }
+        },
+        {
+          "id": "david-saldana",
+          "name": "David Saldaña",
+          "title": "Assistant Professor of Computer Science and Engineering",
+          "sub_field": "Robotics",
+          "tags": [
+            "Robotics",
+            "AI",
+            "Environmental Monitoring",
+            "Resilient Robot Swarms"
+          ],
+          "summary": "Rising researcher in AI and robotics. Work on autonomous aerial robots, resilient robot swarms, and environmental monitoring applications. Focus on making robot teams robust to failures in challenging environments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.lehigh.edu/faculty/david-saldana",
+            "scholar": null
+          }
         }
       ]
     },
@@ -26091,22 +26190,20 @@
         },
         {
           "id": "aleksander-madry",
-          "name": "Aleksander Mądry",
-          "title": "Professor of Computer Science",
-          "sub_field": "AI & Machine Learning",
+          "name": "Aleksander Madry",
+          "title": "Cadence Design Systems Professor of Computing",
+          "sub_field": "Machine learning and optimization",
           "tags": [
-            "Machine Learning",
-            "AI and Society",
-            "Theory",
-            "Optimization",
+            "machine learning",
             "robustness",
+            "optimization",
             "algorithms",
             "AI+D"
           ],
-          "summary": "Leader in trustworthy AI and ML theory. Faculty lead of the Center for Deployable Machine Learning. Research in robustness, fairness, and foundations of modern ML paradigms.",
+          "summary": "Madry works on machine learning and algorithmic optimization, with an emphasis on the reliability, robustness, and understanding of ML systems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://madry.mit.edu/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -27808,6 +27905,115 @@
             "AI+D"
           ],
           "summary": "Seethapathi builds computational models of how humans move, connecting motor neuroscience with robotics and machine learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "vladimir-bulovic",
+          "name": "Vladimir Bulović",
+          "title": "Fariborz Maseeh Professor of Emerging Technology",
+          "sub_field": "Nanoelectronics and thin films",
+          "tags": [
+            "nanotechnology",
+            "thin-film electronics",
+            "photovoltaics",
+            "quantum dots"
+          ],
+          "summary": "Bulović, who directs MIT.nano, researches organic and nanostructured thin-film electronic and optoelectronic devices, including flexible electronics and solar cells.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jesus-a-del-alamo",
+          "name": "Jesús A. del Alamo",
+          "title": "Donner Professor of Science, Professor of Electrical Engineering and Computer Science",
+          "sub_field": "Semiconductor devices",
+          "tags": [
+            "transistors",
+            "compound semiconductors",
+            "nanoelectronics",
+            "device physics"
+          ],
+          "summary": "Del Alamo researches semiconductor electronic devices, including compound-semiconductor and nanoscale transistors for future electronics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "tomas-lozano-perez",
+          "name": "Tomás Lozano-Pérez",
+          "title": "School of Engineering Professor of Teaching Excellence, Professor of Electrical Engineering and Computer Science",
+          "sub_field": "Robotics and AI",
+          "tags": [
+            "robotics",
+            "motion planning",
+            "task planning",
+            "AI+D"
+          ],
+          "summary": "Lozano-Pérez works on robotics and artificial intelligence, including motion and task planning and integrated robot decision-making.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "muriel-medard",
+          "name": "Muriel Médard",
+          "title": "NEC Professor of Software Science and Engineering",
+          "sub_field": "Information and coding theory",
+          "tags": [
+            "network coding",
+            "information theory",
+            "coding",
+            "communications",
+            "AI+D"
+          ],
+          "summary": "Médard works on information theory and coding, including network coding and algebraic coding methods for communication and storage.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "tomas-palacios",
+          "name": "Tomás Palacios",
+          "title": "Clarence J. LeBel Professor of Electrical Engineering and Computer Science",
+          "sub_field": "Power and RF electronics",
+          "tags": [
+            "gallium nitride",
+            "power electronics",
+            "RF devices",
+            "2D materials"
+          ],
+          "summary": "Palacios, who directs the Microsystems Technology Laboratories, researches electronic devices based on wide-bandgap and two-dimensional materials for power and high-frequency electronics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-sanchez",
+          "name": "Daniel Sánchez",
+          "title": "Professor of Electrical Engineering and Computer Science",
+          "sub_field": "Computer architecture",
+          "tags": [
+            "computer architecture",
+            "memory systems",
+            "parallel systems",
+            "accelerators"
+          ],
+          "summary": "Sánchez works on computer architecture, including scalable memory systems, parallel architectures, and hardware for emerging workloads.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -31480,6 +31686,52 @@
             "homepage": "https://www.khoury.northeastern.edu/people/ziming-zhao/",
             "scholar": null
           }
+        },
+        {
+          "id": "albert-laszlo-barabasi",
+          "name": "Albert-László Barabási",
+          "title": "Professor",
+          "sub_field": "Network Science",
+          "tags": [
+            "Network Science"
+          ],
+          "summary": "Albert-László Barabási is the Robert Gray Dodge Professor of Network Science and a Distinguished University Professor at Northeastern University, director of the Center for Complex Network Research, and a joint appointee within Khoury College and the College of Science. His award-winning work includes the discovery of scale-free networks and the Barabási-Albert model to explain their prevalence in natural, technological, and social systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/albert-laszlo-barabasi/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rebecca-kleinberger",
+          "name": "Rébecca Kleinberger",
+          "title": "Assistant Professor",
+          "sub_field": "Computer Science",
+          "tags": [
+            "Computer Science"
+          ],
+          "summary": "Rébecca Kleinberger is an assistant professor at Khoury College. Her research covers topics including both human- and animal-computer interaction; technological enrichment for zoo animals; voice and music technologies; and assistive technology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/rebecca-kleinberger/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "huy-le-nguyen",
+          "name": "Huy Lê Nguyen",
+          "title": "Associate Professor",
+          "sub_field": "Theoretical Computer Science",
+          "tags": [
+            "Theory",
+            "Machine Learning"
+          ],
+          "summary": "Huy Lê Nguyen is an associate professor at Khoury College. He researches the design and analysis of algorithms, with an emphasis on algorithmic techniques for machine learning and massive data sets.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/huy-le-nguyen/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -32338,6 +32590,25 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.khoury.northeastern.edu/people/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "albert-laszlo-barabasi",
+          "name": "Albert-László Barabási",
+          "title": "Robert Gray Dodge Professor of Network Science, University Distinguished Professor",
+          "sub_field": "Network Science",
+          "tags": [
+            "Network Science",
+            "Scale-Free Networks",
+            "Network Biology",
+            "Complex Systems",
+            "Science of Success"
+          ],
+          "summary": "Distinguished Professor who discovered scale-free networks and developed the Barabási-Albert preferential attachment model. Director of Center for Complex Network Research. Elected to National Academy of Sciences (2024). Appointments at Harvard Medical School and Dana-Farber Cancer Institute. Author of 'Linked' and 'The Formula'.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.khoury.northeastern.edu/people/albert-laszlo-barabasi/",
             "scholar": null
           }
         }
@@ -35203,6 +35474,24 @@
             "homepage": "https://profiles.rice.edu/faculty/alireza-fallah",
             "scholar": null
           }
+        },
+        {
+          "id": "vicente-ordonez-roman",
+          "name": "Vicente Ordóñez-Román",
+          "title": "Associate Professor",
+          "sub_field": "Computer Vision, Natural Language Processing, Deep Learning",
+          "tags": [
+            "computer vision",
+            "NLP",
+            "deep learning",
+            "multimodal AI"
+          ],
+          "summary": "Associate Professor working on computer vision and NLP. Research in vision-language models and multimodal AI provides content for online courses in deep learning and AI applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/vicente-ordonez-roman",
+            "scholar": null
+          }
         }
       ]
     },
@@ -35641,6 +35930,24 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://profiles.rice.edu/faculty/chong-xie",
+            "scholar": null
+          }
+        },
+        {
+          "id": "cesar-uribe",
+          "name": "César Uribe",
+          "title": "Assistant Professor",
+          "sub_field": "Distributed Optimization, Machine Learning",
+          "tags": [
+            "distributed optimization",
+            "machine learning",
+            "multi-agent systems",
+            "federated learning"
+          ],
+          "summary": "Assistant Professor working on distributed optimization and machine learning. Research develops algorithms for decentralized ML, federated learning, and optimization over networks with communication constraints and heterogeneity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/cesar-uribe",
             "scholar": null
           }
         }
@@ -41002,6 +41309,24 @@
             "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/yelick.html",
             "scholar": null
           }
+        },
+        {
+          "id": "bjorn-hartmann",
+          "name": "Björn Hartmann",
+          "title": "Associate Professor",
+          "sub_field": "Human-Computer Interaction",
+          "tags": [
+            "HCI",
+            "AI",
+            "Programming Systems",
+            "Graphics"
+          ],
+          "summary": "UC Berkeley EECS associate professor; research areas: Human-Computer Interaction, Artificial Intelligence, Programming Systems, Graphics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/hartmann.html",
+            "scholar": null
+          }
         }
       ]
     },
@@ -43274,6 +43599,40 @@
             "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/matei.html",
             "scholar": null
           }
+        },
+        {
+          "id": "bjorn-hartmann",
+          "name": "Björn Hartmann",
+          "title": "Associate Professor",
+          "sub_field": "Human-Computer Interaction",
+          "tags": [
+            "HCI",
+            "AI",
+            "Programming Systems",
+            "Graphics"
+          ],
+          "summary": "UC Berkeley EECS associate professor; research areas: Human-Computer Interaction, Artificial Intelligence, Programming Systems, Graphics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/hartmann.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "boubacar-kante",
+          "name": "Boubacar Kanté",
+          "title": "Professor",
+          "sub_field": "Physical Electronics",
+          "tags": [
+            "Physical Electronics",
+            "Power & Energy"
+          ],
+          "summary": "UC Berkeley EECS professor; research areas: Physical Electronics, Power and Energy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/bkante.html",
+            "scholar": null
+          }
         }
       ]
     },
@@ -43747,6 +44106,42 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://thakur.cs.ucdavis.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "cindy-rubio-gonzalez",
+          "name": "Cindy Rubio González",
+          "title": "Professor",
+          "sub_field": "Systems",
+          "tags": [
+            "programming languages",
+            "program analysis",
+            "software reliability",
+            "numerical software"
+          ],
+          "summary": "Research spans program analysis for bug finding, error-handling in large systems, mixed-precision tuning for numerical software, and ML for software engineering. Creator of BugSwarm dataset. NSF CAREER and DOE Early Career Award recipient.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://web.cs.ucdavis.edu/~rubio/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "slobodan-mitrovic",
+          "name": "Slobodan Mitrović",
+          "title": "Assistant Professor",
+          "sub_field": "Theory",
+          "tags": [
+            "graph algorithms",
+            "sublinear algorithms",
+            "streaming algorithms",
+            "distributed computing"
+          ],
+          "summary": "Research covers algorithmic graph theory, combinatorial optimization, and memory-constrained computation including parallel, distributed, streaming, and local computation algorithms. NSF CAREER Award recipient. Published at STOC, SODA, and ICALP.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://web.cs.ucdavis.edu/~mitrovic/",
             "scholar": null
           }
         }
@@ -48419,6 +48814,24 @@
             "homepage": "https://cs.uchicago.edu/people/blase-ur/",
             "scholar": null
           }
+        },
+        {
+          "id": "laszlo-babai",
+          "name": "László Babai",
+          "title": "Bruce V. and Diana M. Rauner Distinguished Service Professor of Computer Science and Mathematics",
+          "sub_field": "Theory",
+          "tags": [
+            "complexity",
+            "algorithms",
+            "group theory",
+            "combinatorics"
+          ],
+          "summary": "Works in theoretical computer science and discrete mathematics, including computational complexity, algorithms, and the graph-isomorphism problem.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cs.uchicago.edu/people/laszlo-babai/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -48885,6 +49298,24 @@
             "Visualization"
           ],
           "summary": "Associate Professor leading the UF Data Studio. Research on data acquisition, labeling, interactive machine learning, and visualization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cise.ufl.edu/people/faculty/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alper-ungor",
+          "name": "Alper Üngör",
+          "title": "Associate Professor",
+          "sub_field": "Computational Geometry",
+          "tags": [
+            "Computational Geometry",
+            "Mesh Generation",
+            "Algorithms",
+            "Theory"
+          ],
+          "summary": "Associate Professor specializing in computational geometry, with special emphasis on mesh generation and geometric algorithms.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.cise.ufl.edu/people/faculty/",
@@ -50416,9 +50847,7 @@
             "specifically the modeling",
             "design",
             "optimization of scientific workflows",
-            "provenance",
-            "Data Management",
-            "Scientific Workflows"
+            "provenance"
           ],
           "summary": "University of Illinois iSchool faculty member; research focus: Data and knowledge management, specifically the modeling, design, and optimization of scientific workflows, provenance, data integration, and knowledge representation; scientific workflow systems; data curation.",
           "recruitment_status": "Unknown/Verify",
@@ -51376,9 +51805,7 @@
           "tags": [
             "AI and Robotics",
             "Machine Learning and Data Science",
-            "Natural Language Processing",
-            "AI",
-            "Machine Learning"
+            "Natural Language Processing"
           ],
           "summary": "Faculty member in the University of Maryland Department of Computer Science; research areas include AI and Robotics, Machine Learning and Data Science, Natural Language Processing.",
           "recruitment_status": "Unknown/Verify",
@@ -53754,6 +54181,41 @@
             "homepage": "https://web.eecs.umich.edu/~stellayu/",
             "scholar": "https://scholar.google.com/citations?user=uqWkLzMAAAAJ"
           }
+        },
+        {
+          "id": "micha-derezinski",
+          "name": "Michał Dereziński",
+          "title": "Assistant Professor, EECS - Computer Science and Engineering",
+          "sub_field": "Randomized numerical linear algebra, Dimensionality reduction",
+          "tags": [
+            "Randomized numerical linear algebra",
+            "Dimensionality reduction"
+          ],
+          "summary": "Machine learning and statistical learning theory, scalable stochastic and distributed optimization, randomized numerical linear algebra, dimensionality reduction.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://web.eecs.umich.edu/~derezin/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alexander-rodriguez",
+          "name": "Alexander Rodríguez",
+          "title": "Assistant Professor, EECS - Computer Science and Engineering",
+          "sub_field": "Artificial intelligence, Machine learning",
+          "tags": [
+            "Artificial intelligence",
+            "Machine learning",
+            "Multi-agent systems",
+            "Computational epidemiology",
+            "Public health"
+          ],
+          "summary": "Artificial intelligence, machine learning, multi-agent systems, computational epidemiology, public health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://alrodri.engin.umich.edu/",
+            "scholar": "https://scholar.google.com/citations?user=ILkESaUAAAAJ"
+          }
         }
       ]
     },
@@ -55087,6 +55549,26 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "patricia-alves-oliveira",
+          "name": "Patrícia Alves-Oliveira",
+          "title": "Assistant Professor",
+          "sub_field": "Human-Robot Interaction & Teaming",
+          "tags": [
+            "Human-Robot Interaction & Teaming",
+            "Design & Soft Robotics",
+            "Robot Learning & Foundational Models",
+            "Safe Autonomy & Robot Safety",
+            "Human-Robot Interaction",
+            "Embodied Social Artificial Intelligence"
+          ],
+          "summary": "Human-Robot Interaction, Embodied Social Artificial Intelligence, Human-Centered Systems, Design, Real Deployment Environments and Real Users.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://robotics.umich.edu/people/faculty/patricia-alves-oliveira/",
             "scholar": null
           }
         }
@@ -56850,18 +57332,16 @@
           "id": "tijana-milenkovic",
           "name": "Tijana Milenković",
           "title": "Professor",
-          "sub_field": "Network Science / Computational Biology",
+          "sub_field": "Bioinformatics",
           "tags": [
+            "Bioinformatics",
             "Network Science",
-            "Computational Biology",
-            "Biological Networks",
-            "Graph Algorithms",
-            "Bioinformatics"
+            "Computational Biology"
           ],
-          "summary": "Researches network science and computational biology with focus on biological network analysis and graph algorithms.",
+          "summary": "Research in bioinformatics and computational biology using network science.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://cse.nd.edu/faculty/tijana-milenkovic/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -57285,6 +57765,24 @@
             "NLP"
           ],
           "summary": "Research in data mining and machine learning, including graph learning and NLP applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "diego-gomez-zara",
+          "name": "Diego Gómez-Zará",
+          "title": "Assistant Professor",
+          "sub_field": "Social Computing / HCI",
+          "tags": [
+            "Social Computing",
+            "HCI",
+            "Network Science",
+            "Teams"
+          ],
+          "summary": "Research in social computing, HCI, and computational analysis of teams and organizations.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -58361,6 +58859,24 @@
             "IoT"
           ],
           "summary": "Research in wireless sensing, mobile computing, and machine learning for the physical world.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "danae-metaxa",
+          "name": "Danaé Metaxa",
+          "title": "Raj and Neera Singh Term Assistant Professor",
+          "sub_field": "HCI / Social Computing",
+          "tags": [
+            "HCI",
+            "Social Computing",
+            "Algorithm Auditing",
+            "Fairness"
+          ],
+          "summary": "Research in HCI and social computing, including algorithm auditing and online fairness.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -63186,21 +63702,17 @@
           "id": "zoran-popovic",
           "name": "Zoran Popović",
           "title": "Professor",
-          "sub_field": "Computer Graphics and Computational Biology",
+          "sub_field": "Graphics / Adaptive Learning",
           "tags": [
-            "computer graphics",
-            "computer vision",
-            "computational biology",
-            "robotics",
             "Graphics",
             "Animation",
             "Adaptive Learning",
             "Games"
           ],
-          "summary": "Research on computer graphics, computer vision, and their applications to computational biology and robotics. Known for contributions to animation, game design, and protein folding.",
+          "summary": "Directs the Center for Game Science; research in computer graphics, animation, and adaptive learning environments.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.cs.washington.edu/people/faculty/zoran-popovic/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -64287,6 +64799,24 @@
             "Systems"
           ],
           "summary": "Directs the Social Futures Lab; research in human-computer interaction and social computing, including online communities and content moderation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "rene-just",
+          "name": "René Just",
+          "title": "Associate Professor",
+          "sub_field": "Software Engineering",
+          "tags": [
+            "Software Engineering",
+            "Testing",
+            "Security",
+            "Program Analysis"
+          ],
+          "summary": "Research in software engineering, software testing, and security.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -68942,6 +69472,25 @@
             "homepage": "https://engineering.washu.edu/faculty/Hussein-Sibai.html",
             "scholar": null
           }
+        },
+        {
+          "id": "roch-guerin",
+          "name": "Roch Guérin",
+          "title": "Department Chair; Professor",
+          "sub_field": "Networking",
+          "tags": [
+            "Computer Networking",
+            "Network Economics",
+            "Quality of Service",
+            "Protocols",
+            "Resource Allocation"
+          ],
+          "summary": "Department chair. Research in computer networking, including network economics, resource allocation, and the adoption dynamics of network technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.washu.edu/faculty/Roch-Guerin.html",
+            "scholar": null
+          }
         }
       ]
     },
@@ -69283,6 +69832,24 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://engineering.washu.edu/faculty/Tao-Ju.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "roch-guerin",
+          "name": "Roch Guérin",
+          "title": "Professor",
+          "sub_field": "Computer Networks",
+          "tags": [
+            "computer networks",
+            "communication systems",
+            "network architecture",
+            "quality of service"
+          ],
+          "summary": "Harold B. and Adelaide G. Welge Professor and Department Chair. Research focuses on computer networks and communication systems, with contributions to QoS and traffic engineering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.washu.edu/faculty/Roch-Guerin.html",
             "scholar": null
           }
         }
@@ -70099,6 +70666,44 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://sites.google.com/site/benafisch/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "marynel-vazquez",
+          "name": "Marynel Vázquez",
+          "title": "Assistant Professor of Computer Science",
+          "sub_field": "Robotics / Human-Robot Interaction",
+          "tags": [
+            "human-robot interaction",
+            "multi-party interaction",
+            "social robotics",
+            "perception",
+            "graph learning"
+          ],
+          "summary": "Investigates social group phenomena in robotics and develops perception algorithms enabling autonomous, socially-aware robot behavior via graph-based abstractions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.marynel.net/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "robert-soule",
+          "name": "Robert Soulé",
+          "title": "Associate Professor of Computer Science (additional appointment in Electrical & Computer Engineering)",
+          "sub_field": "Systems / Networks",
+          "tags": [
+            "networking",
+            "distributed systems",
+            "programmable data planes",
+            "in-network computing",
+            "programming languages"
+          ],
+          "summary": "Works on programmable data planes and in-network computing, including practical verification methods and coordinated systems operating at sub-round-trip-time scales.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.yale.edu/homes/soule/",
             "scholar": null
           }
         }

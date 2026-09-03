@@ -4849,7 +4849,7 @@
         "program": "http://www.cms.caltech.edu/",
         "admissions": "https://gradoffice.caltech.edu/admissions/applyonline"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #11 · faculty 2026-07-09 | Merged with duplicate entry \"Applied and Computational Mathematics (PhD)\" (caltech-applied-and-computational-mathematics): Scanned 2026-07-22 from https://www.cms.caltech.edu/academics/grad/grad_acm , https://www.cms.caltech.edu/academics/grad , https://www.catalog.caltech.edu/current/information-for-graduate-students/special-regulations-for-graduate-options/applied-and-computational-mathematics-acm/ , https://www.cms.caltech.edu/people/faculty , https://gradoffice.caltech.edu/admissions/applyonline , https://gradoffice.caltech.edu/admissions/faq-applicants . Verify deadlines/fees for the 2026-2027 cycle.",
+      "data_currency": "2026-07-05 · top-50 sweep · US News #11 · faculty 2026-07-09",
       "faculty": [
         {
           "id": "anima-anandkumar",
@@ -4900,11 +4900,7 @@
             "Integral Equations",
             "Numerical Analysis",
             "Multiphysics Modeling",
-            "Fourier Continuation",
-            "computational electromagnetics",
-            "acoustics",
-            "PDE solvers",
-            "scientific computing"
+            "Fourier Continuation"
           ],
           "summary": "Creates accurate, high-performance numerical PDE solvers for realistic scientific and engineering problems involving intricate geometries and solution singularities. Developed Fourier Continuation (FC) and integral-equation techniques enabling solutions to previously intractable PDE problems in computational electromagnetics, CFD, and solid mechanics.",
           "recruitment_status": "Unknown/Verify",
@@ -4924,11 +4920,7 @@
             "Inverse Problems",
             "Combinatorial Optimization",
             "Applied Algebra",
-            "Matrix Completion",
-            "convex optimization",
-            "statistics",
-            "machine learning",
-            "mathematical optimization"
+            "Matrix Completion"
           ],
           "summary": "Works at the interface of applied mathematics and electrical engineering, studying mathematical foundations of optimization and information sciences. Focuses on convex optimization, statistical inference, inverse problems, graphs and combinatorial optimization, and applied algebra and geometry. Develops principled methods for applications in science and engineering.",
           "recruitment_status": "Unknown/Verify",
@@ -4986,11 +4978,7 @@
             "Optimization",
             "Model-Driven Methods",
             "Data-Driven Methods",
-            "Mathematical Foundations",
-            "partial differential equations",
-            "kinetic theory",
-            "gradient flows",
-            "applied analysis"
+            "Mathematical Foundations"
           ],
           "summary": "Works at the interface of model-driven and data-driven approaches, building rigorous mathematical foundations for modeling tools used in applications. Bridges traditionally separate approaches — model-based methods and data-driven techniques — applying mathematical rigor to improve how these tools function in real-world applications.",
           "recruitment_status": "Unknown/Verify",
@@ -5009,12 +4997,7 @@
             "Multi-Scale Analysis",
             "Numerical Methods",
             "Vortex Dynamics",
-            "Singularity Formation",
-            "multiscale computation",
-            "homogenization",
-            "fluid dynamics",
-            "singularity",
-            "numerical analysis"
+            "Singularity Formation"
           ],
           "summary": "Works on computational methods for multi-scale problems in fluid dynamics. Known for analysis of singularity formation in the 3D Euler equations and development of multiscale finite element methods. Research spans numerical analysis, scientific computing, and mathematical theory of incompressible flows.",
           "recruitment_status": "Unknown/Verify",
@@ -5091,11 +5074,7 @@
             "Quantum Field Theory",
             "Number Theory",
             "Cosmology",
-            "Mathematical Linguistics",
-            "mathematical physics",
-            "geometry",
-            "number theory",
-            "mathematics of computation"
+            "Mathematical Linguistics"
           ],
           "summary": "Works at the interface of mathematics, theoretical physics, and information theory. Co-authored landmark monograph with Alain Connes on noncommutative geometry and quantum fields. Research spans Feynman integrals and motives, quantum statistical mechanics, noncommutative cosmology, and mathematical models of syntactic structures in linguistics.",
           "recruitment_status": "Unknown/Verify",
@@ -5114,11 +5093,7 @@
             "Game Theory",
             "Optimization",
             "Strategic Classification",
-            "Learning in Games",
-            "multi-agent learning",
-            "game theory",
-            "optimization",
-            "dynamical systems"
+            "Learning in Games"
           ],
           "summary": "Develops theoretical foundations for deploying machine learning in societal-scale systems. Examines how learning algorithms perform in uncertain, dynamic environments where they interact with strategic agents, humans, and other algorithms. Applications span intelligent infrastructure, online markets, healthcare delivery, and distributionally robust learning.",
           "recruitment_status": "Unknown/Verify",
@@ -5137,11 +5112,7 @@
             "Compressible Flow",
             "Turbulence",
             "Adaptive Mesh Refinement",
-            "High-Performance Computing",
-            "aeronautics",
-            "computational methods",
-            "fluid mechanics",
-            "high-performance computing"
+            "High-Performance Computing"
           ],
           "summary": "Focuses on computation and modeling of basic fluid mechanical phenomena including shock-driven flow instabilities, turbulence, and simulation approaches for high strain rate solid mechanics. Develops adaptive numerical methods for complex flows suitable for high-performance computation.",
           "recruitment_status": "Unknown/Verify",
@@ -5161,11 +5132,7 @@
             "Machine Learning",
             "Gaussian Processes",
             "Multiscale Methods",
-            "Statistical Numerical Approximation",
-            "uncertainty quantification",
-            "numerical homogenization",
-            "operator learning",
-            "control"
+            "Statistical Numerical Approximation"
           ],
           "summary": "Investigates connections between numerical approximation, statistical inference, and learning through a game-theoretic lens. Develops operator-adapted wavelets, numerical homogenization, fast solvers, and Gaussian process regression methods. Research focuses on automating and facilitating discovery processes at the interface of computation and statistics.",
           "recruitment_status": "Unknown/Verify",
@@ -5184,11 +5151,7 @@
             "Genomics",
             "Single-Cell Analysis",
             "Transcriptomics",
-            "Bioinformatics",
-            "computational biology",
-            "genomics",
-            "algorithms",
-            "statistics"
+            "Bioinformatics"
           ],
           "summary": "Works on computational methods for genomics and systems biology, with key contributions to single-cell RNA-seq analysis, transcript quantification, and computational tools for high-throughput biological data. Develops open-source software and mathematical frameworks for interpreting genomic data.",
           "recruitment_status": "Unknown/Verify",
@@ -5207,11 +5170,7 @@
             "Molecular Programming",
             "Synthetic Biology",
             "Conditional RNAs",
-            "Nucleic Acid Computation",
-            "computational biology",
-            "nucleic acids",
-            "bioengineering",
-            "molecular programming"
+            "Nucleic Acid Computation"
           ],
           "summary": "Engineers small conditional DNAs and RNAs for signal transduction in vitro, in situ, and in vivo. Develops computational algorithms for designing nucleic acid structures and systems, and programmable molecular technologies for readout and regulation of endogenous biological circuitry. Bridges applied mathematics with molecular biology.",
           "recruitment_status": "Unknown/Verify",
@@ -5230,11 +5189,7 @@
             "Geometric Modeling",
             "Physical Simulation",
             "Discrete Differential Geometry",
-            "Numerical Algorithms",
-            "computational geometry",
-            "computer graphics",
-            "discrete differential geometry",
-            "geometry processing"
+            "Numerical Algorithms"
           ],
           "summary": "Focuses on efficient, reliable algorithms for computer graphics covering geometric modeling and physical simulation (e.g., cloth deformation). A core emphasis is Discrete Differential Geometry — rebuilding the foundations of classical differential geometry in a discrete setting suited for practical computation and numerical algorithms.",
           "recruitment_status": "Unknown/Verify",
@@ -5254,11 +5209,7 @@
             "Uncertainty Quantification",
             "Stochastic Modeling",
             "Bayesian Methods",
-            "Geophysical Sciences",
-            "inverse problems",
-            "data assimilation",
-            "stochastic analysis",
-            "scientific machine learning"
+            "Geophysical Sciences"
           ],
           "summary": "Creates mathematical and algorithmic frameworks that integrate models with data through the Bayesian formulation of inverse problems and data assimilation for dynamical systems. Major focus on quantification of uncertainty. Applied interests span problems in the geophysical sciences and graph-based learning.",
           "recruitment_status": "Unknown/Verify",
@@ -5278,11 +5229,7 @@
             "Signal Processing",
             "Randomized Algorithms",
             "Sparse Modeling",
-            "Numerical Analysis",
-            "signal processing",
-            "random matrix theory",
-            "randomized algorithms",
-            "optimization"
+            "Numerical Analysis"
           ],
           "summary": "Works at the interface of applied mathematics, electrical engineering, computer science, and statistics. Focuses on theoretical and computational dimensions of data analysis, sparse modeling, randomized linear algebra, and random matrix theory. Develops mathematical foundations for modern data science algorithms.",
           "recruitment_status": "Unknown/Verify",
@@ -5302,11 +5249,7 @@
             "Energy Systems",
             "Algorithmic Economics",
             "Machine Learning",
-            "Optimization",
-            "applied probability",
-            "online algorithms",
-            "networks",
-            "optimization"
+            "Optimization"
           ],
           "summary": "Develops mathematical tools in machine learning, optimization, control, and economics to make networked systems sustainable and resilient. Designs algorithms and markets with provable guarantees for deployment in data centers, the electricity grid, transportation systems, and beyond. Focuses on sustainable computing and network economics.",
           "recruitment_status": "Unknown/Verify",
@@ -5325,11 +5268,7 @@
             "Reinforcement Learning",
             "Interactive Learning",
             "Structured Prediction",
-            "Learning to Optimize",
-            "machine learning",
-            "statistical learning",
-            "optimization",
-            "structured prediction"
+            "Learning to Optimize"
           ],
           "summary": "Focuses on theory and application of statistical machine learning, developing new approaches for interactive and structured machine learning. Methods applied across information retrieval, recommender systems, robotics, clinical therapy, sports analytics, experiment design for science, and policy learning in robotics.",
           "recruitment_status": "Unknown/Verify",
@@ -8411,8 +8350,7 @@
           "tags": [
             "convex optimization",
             "first-order methods",
-            "numerical analysis",
-            "Algorithm Theory"
+            "numerical analysis"
           ],
           "summary": "Works on the theory and algorithms of convex optimization and their computational and numerical aspects.",
           "recruitment_status": "Unknown/Verify",
@@ -8684,6 +8622,24 @@
             "reinforcement learning"
           ],
           "summary": "Works on online learning, sequential decision-making, optimization, and control.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "fatma-k-l-nc-karzan",
+          "name": "Fatma Kılınç-Karzan",
+          "title": "Professor of Operations Research",
+          "sub_field": "Convex and integer optimization",
+          "tags": [
+            "convex optimization",
+            "integer programming",
+            "conic optimization",
+            "machine learning"
+          ],
+          "summary": "Develops theory and algorithms for large-scale convex optimization, conic and integer programming, and optimization under uncertainty.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -9379,10 +9335,7 @@
             "applied mathematics",
             "calculus of variations",
             "PDE",
-            "data science",
-            "Optimal Transport",
-            "Gradient Flows",
-            "Machine Learning"
+            "data science"
           ],
           "summary": "Works in applied analysis and the calculus of variations, including PDE and variational problems arising in data science and machine learning.",
           "recruitment_status": "Unknown/Verify",
@@ -9662,6 +9615,24 @@
         },
         {
           "id": "javier-pe-a",
+          "name": "Javier Peña",
+          "title": "Professor of Operations Research (courtesy appointment in Mathematical Sciences)",
+          "sub_field": "Convex optimization",
+          "tags": [
+            "optimization",
+            "convex optimization",
+            "first-order methods",
+            "numerical analysis"
+          ],
+          "summary": "Works on the theory and algorithms of convex optimization and their numerical and computational aspects. Courtesy appointment in Mathematical Sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cmu.edu/math/people/faculty/pena.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "javier-pena",
           "name": "Javier Peña",
           "title": "Professor of Operations Research (courtesy appointment in Mathematical Sciences)",
           "sub_field": "Convex optimization",
@@ -12429,8 +12400,7 @@
           "tags": [
             "algorithm design",
             "combinatorial optimization",
-            "algorithmic game theory",
-            "Network Algorithms"
+            "algorithmic game theory"
           ],
           "summary": "CAM field faculty working on design and analysis of algorithms, with emphasis on combinatorial optimization.",
           "recruitment_status": "Unknown/Verify",
@@ -17471,8 +17441,7 @@
             "concentration of measure",
             "stochastic processes",
             "Stein's method",
-            "limit theorems",
-            "Statistics"
+            "limit theorems"
           ],
           "summary": "Works in probability and its applications, including concentration inequalities, Stein's method, and limit theorems.",
           "recruitment_status": "Unknown/Verify",
@@ -20089,16 +20058,14 @@
           "id": "gerard-ben-arous",
           "name": "Gérard Ben Arous",
           "title": "Silver Professor of Mathematics; Director, Courant Institute",
-          "sub_field": "Probability Theory, Stochastic Processes, Spin Glasses",
+          "sub_field": "Probability",
           "tags": [
-            "Pure Math",
-            "Probability",
-            "Math Physics",
+            "probability",
             "stochastic-processes",
             "partial-differential-equations",
             "random-matrices"
           ],
-          "summary": "Research in probability theory, stochastic processes, partial differential equations, and the statistical mechanics of disordered systems including spin glasses.",
+          "summary": "Works on probability theory, stochastic processes, and partial differential equations, including high-dimensional random landscapes and spin glasses.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://math.nyu.edu/people/profiles/BEN_AROUS_Gerard.html",
@@ -21310,6 +21277,24 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://math.nyu.edu/people/profiles/ZHANG_Yi.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "oliver-buhler",
+          "name": "Oliver Bühler",
+          "title": "Professor of Mathematics and Atmosphere/Ocean Science",
+          "sub_field": "Geophysical Fluid Dynamics",
+          "tags": [
+            "geophysical-fluid-dynamics",
+            "waves",
+            "applied-mathematics",
+            "acoustics"
+          ],
+          "summary": "Studies geophysical fluid dynamics, interactions between waves and vortices, acoustics, and statistical mechanics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.nyu.edu/people/profiles/BUHLER_Oliver.html",
             "scholar": null
           }
         }
@@ -22933,19 +22918,16 @@
           "id": "peter-ozsvath",
           "name": "Peter Ozsváth",
           "title": "Professor of Mathematics",
-          "sub_field": "Low-Dimensional Topology, Symplectic Geometry",
+          "sub_field": "Topology",
           "tags": [
-            "Pure Math",
-            "Topology",
-            "Geometry",
             "low-dimensional topology",
             "Heegaard Floer homology",
             "knot theory"
           ],
-          "summary": "Heegaard Floer homology, low-dimensional topology, symplectic geometry, knot theory.",
+          "summary": "Professor working on low-dimensional topology and Heegaard Floer homology.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.math.princeton.edu/people/peter-ozsvath",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -22957,15 +22939,12 @@
           "tags": [
             "low-dimensional topology",
             "Heegaard Floer homology",
-            "knot theory",
-            "Pure Math",
-            "Topology",
-            "Geometry"
+            "knot theory"
           ],
           "summary": "Professor working on low-dimensional topology and Heegaard Floer homology.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.math.princeton.edu/people/zoltan-szabo",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -23011,15 +22990,12 @@
           "tags": [
             "differential geometry",
             "geometric analysis",
-            "minimal surfaces",
-            "Pure Math",
-            "Geometry",
-            "Analysis"
+            "minimal surfaces"
           ],
           "summary": "Professor working on differential geometry and geometric analysis, including minimal surfaces.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.math.princeton.edu/people/fernando-coda-marques",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -23065,15 +23041,12 @@
           "tags": [
             "algebraic geometry",
             "birational geometry",
-            "moduli spaces",
-            "Pure Math",
-            "Algebra",
-            "Geometry"
+            "moduli spaces"
           ],
           "summary": "Professor working on algebraic geometry, including birational geometry and moduli spaces.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.math.princeton.edu/people/janos-kollar",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -29906,6 +29879,39 @@
             "homepage": null,
             "scholar": null
           }
+        },
+        {
+          "id": "suncica-canic",
+          "name": "Sunčica Čanić",
+          "title": "Professor",
+          "sub_field": "Applied Mathematics",
+          "tags": [
+            "Applied Mathematics",
+            "PDEs",
+            "Fluid-Structure Interaction"
+          ],
+          "summary": "Professor of applied mathematics working on partial differential equations and fluid-structure interaction.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "antonio-montalban",
+          "name": "Antonio Montalbán",
+          "title": "Professor",
+          "sub_field": "Mathematical Logic / Computability Theory",
+          "tags": [
+            "Mathematical Logic",
+            "Computability Theory"
+          ],
+          "summary": "Professor working in mathematical logic and computability theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
         }
       ]
     },
@@ -31491,6 +31497,23 @@
             "homepage": null,
             "scholar": null
           }
+        },
+        {
+          "id": "francois-gygi",
+          "name": "François Gygi",
+          "title": "GGAM Faculty Member",
+          "sub_field": "Computational Quantum Mechanics",
+          "tags": [
+            "Quantum Mechanics",
+            "Parallel Computing",
+            "Molecular Dynamics"
+          ],
+          "summary": "GGAM member working on numerical methods of quantum mechanics, parallel computing and molecular dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
         }
       ]
     },
@@ -32729,19 +32752,14 @@
         {
           "id": "veronica-morales",
           "name": "Verónica Morales",
-          "title": "Associate Professor",
-          "sub_field": "Groundwater Contaminant Transport",
+          "title": "Associate Professor of Civil & Environmental Engineering",
+          "sub_field": "Porous Media Transport",
           "tags": [
-            "groundwater",
-            "colloid transport",
-            "nanoparticles",
-            "contaminant fate",
-            "biochar",
             "porous media",
             "subsurface transport",
             "pore-scale processes"
           ],
-          "summary": "Research on micro-scale physico-chemical processes controlling transport and fate of colloids and nanoparticle contaminants in groundwater, and biochar engineering for water treatment.",
+          "summary": "Associate Professor in Civil & Environmental Engineering; Hydrologic Sciences Graduate Group faculty member working in porous media flow and transport.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.moraleslab.ucdavis.edu/",
@@ -33022,6 +33040,23 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://watershed.ucdavis.edu/people/sarah-m-yarnell",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kosana-suvocarev",
+          "name": "Kosana Suvočarev",
+          "title": "Assistant Professor of Cooperative Extension",
+          "sub_field": "Biometeorology / Land, Air and Water Resources",
+          "tags": [
+            "biometeorology",
+            "evapotranspiration",
+            "surface fluxes"
+          ],
+          "summary": "Cooperative Extension Assistant Professor in Land, Air and Water Resources; Hydrologic Sciences Graduate Group faculty member working in biometeorology and surface flux measurement.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://lawr.ucdavis.edu/people/faculty/suvocarev-kosana",
             "scholar": null
           }
         }
@@ -39684,61 +39719,51 @@
         },
         {
           "id": "bao-chau-ngo",
-          "name": "Bảo Châu Ngô",
-          "title": "Francis and Rose Yuen Distinguished Service Professor",
-          "sub_field": "Automorphic Forms / Langlands Program / Algebraic Geometry",
+          "name": "Bao Chau Ngo",
+          "title": "Professor",
+          "sub_field": "Number Theory / Representation Theory",
           "tags": [
-            "Langlands program",
             "automorphic forms",
+            "langlands program",
             "algebraic geometry",
-            "Hitchin fibration",
-            "trace formula",
-            "perverse sheaves",
             "number theory"
           ],
-          "summary": "Works at the intersection of automorphic forms, representation theory, and algebraic geometry, with focus on the Langlands program. Fields Medalist (2010) for his proof of the Fundamental Lemma. Current work includes geometrization of the trace formula, Hitchin fibration for higher-dimensional varieties, and Kloosterman sheaves for reductive groups.",
+          "summary": "Francis and Rose Yuen Distinguished Service Professor working on automorphic forms and the Langlands program.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://math.uchicago.edu/~ngo/",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "laszlo-babai",
-          "name": "László Babai",
-          "title": "George and Elizabeth Yovovich Professor",
-          "sub_field": "Theoretical Computer Science / Discrete Mathematics",
+          "name": "Laszlo Babai",
+          "title": "Professor",
+          "sub_field": "Combinatorics / Theoretical Computer Science",
           "tags": [
-            "theoretical computer science",
             "combinatorics",
-            "computational complexity",
-            "algorithms",
-            "finite groups",
-            "graph isomorphism",
             "theoretical cs",
+            "algorithms",
             "group theory"
           ],
-          "summary": "Works in theoretical computer science and discrete mathematics, with emphasis on computational complexity theory, algorithms, combinatorics, and finite groups. Known for introducing Las Vegas algorithms, interactive proofs, and holographic proofs, as well as the graph isomorphism breakthrough.",
+          "summary": "Professor (joint with Computer Science) working in combinatorics, theoretical computer science, and algorithms.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://people.cs.uchicago.edu/~laci/",
+            "homepage": null,
             "scholar": null
           }
         },
         {
           "id": "marianna-csornyei",
-          "name": "Marianna Csörnyei",
+          "name": "Marianna Csornyei",
           "title": "Professor",
-          "sub_field": "Geometric Measure Theory / Real Analysis",
+          "sub_field": "Analysis",
           "tags": [
-            "geometric measure theory",
             "real analysis",
-            "geometric nonlinear functional analysis",
-            "Lipschitz differentiability",
-            "null sets",
+            "geometric measure theory",
             "analysis"
           ],
-          "summary": "Works in geometric measure theory, real analysis, and geometric nonlinear functional analysis. Recently focused on problems related to Lipschitz differentiability, tangential properties, structure of null sets, and the Kakeya property. Noether Lecture speaker (2021).",
+          "summary": "Professor working in real analysis and geometric measure theory.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -39747,21 +39772,19 @@
         },
         {
           "id": "andre-neves",
-          "name": "André Neves",
+          "name": "Andre Neves",
           "title": "Professor",
-          "sub_field": "Differential Geometry / Geometric Analysis",
+          "sub_field": "Differential Geometry",
           "tags": [
             "differential geometry",
-            "geometric analysis",
-            "topology",
-            "variational methods",
             "minimal surfaces",
+            "geometric analysis",
             "pde"
           ],
-          "summary": "Research focuses on the interplay between topology, geometry, and analysis, using variational methods to study how curvature and topology of ambient spaces influence the existence of stable and unstable critical points of geometric functionals. Elected to the American Academy of Arts and Sciences, Simons Investigator.",
+          "summary": "Professor working in differential geometry and geometric analysis, including minimal surfaces and min-max theory.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://math.uchicago.edu/~aneves/",
+            "homepage": null,
             "scholar": null
           }
         }
@@ -40458,19 +40481,18 @@
         },
         {
           "id": "miklos-bona",
-          "name": "Miklós Bóna",
+          "name": "Miklos Bona",
           "title": "Professor",
           "sub_field": "Combinatorics",
           "tags": [
+            "combinatorics",
             "enumerative combinatorics",
-            "analytic combinatorics",
-            "permutation patterns",
-            "combinatorics"
+            "permutation patterns"
           ],
-          "summary": "Research centers on enumerative and analytic combinatorics, particularly permutation patterns and combinatorial structures, with recent contributions to Boolean-Narayana numbers.",
+          "summary": "Professor specializing in enumerative and algebraic combinatorics, including permutation patterns.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "http://people.clas.ufl.edu/bona",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -41108,23 +41130,18 @@
         },
         {
           "id": "joao-pereira",
-          "name": "João Pereira",
+          "name": "Joao Pereira",
           "title": "Assistant Professor",
-          "sub_field": "Applied Mathematics and Machine Learning",
+          "sub_field": "Applied Mathematics",
           "tags": [
-            "tensor decomposition",
-            "scientific machine learning",
-            "cryo-EM",
-            "inverse problems",
-            "high-dimensional statistics",
             "data science",
             "signal processing",
             "mathematics of data"
           ],
-          "summary": "Pereira develops scalable algorithms and studies the statistical properties of high-dimensional inverse problems, spanning implicit tensor decomposition methods, physics-informed neural network architectures for differential equations, and the sample complexity of multireference alignment relevant to cryo-electron microscopy.",
+          "summary": "Assistant professor working in the mathematics of data science and signal processing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www.math.uga.edu/directory/people/joao-m-pereira",
+            "homepage": null,
             "scholar": null
           }
         }
@@ -41817,21 +41834,18 @@
         },
         {
           "id": "m-burak-erdogan",
-          "name": "M. Burak Erdoğan",
+          "name": "M. Burak Erdogan",
           "title": "Professor",
-          "sub_field": "Analysis & PDEs",
+          "sub_field": "Analysis",
           "tags": [
             "harmonic analysis",
-            "dispersive PDEs",
-            "nonlinear PDEs",
-            "spectral theory",
             "dispersive pde",
             "analysis"
           ],
-          "summary": "Research in harmonic analysis and dispersive/ nonlinear partial differential equations.",
+          "summary": "Professor working in analysis, including harmonic analysis and dispersive PDE.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://math.illinois.edu/directory/profile/berdogan",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -42916,19 +42930,16 @@
         },
         {
           "id": "tamas-darvas",
-          "name": "Tamás Darvas",
+          "name": "Tamas Darvas",
           "title": "Professor",
           "sub_field": "Complex geometry",
           "tags": [
-            "Complex geometry",
-            "pluripotential theory",
-            "several complex variables",
-            "geometric analysis"
+            "Complex geometry"
           ],
           "summary": "Professor in the University of Maryland, College Park Department of Mathematics. Research area: Complex geometry.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://www-math.umd.edu/people/faculty/item/1145-tdarvas.html",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -46192,6 +46203,24 @@
             "homepage": "https://math.nd.edu/people/faculty/matthew-novack/",
             "scholar": null
           }
+        },
+        {
+          "id": "juanita-pinzon-caicedo",
+          "name": "Juanita Pinzón Caicedo",
+          "title": "Assistant Professor",
+          "sub_field": "Low-dimensional topology and gauge theory",
+          "tags": [
+            "low-dimensional topology",
+            "gauge theory",
+            "knot concordance",
+            "4-manifolds"
+          ],
+          "summary": "Studies low-dimensional topology and gauge theory, including knot concordance and instanton invariants of 3- and 4-manifolds.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.nd.edu/people/faculty/juanita-pinzon-caicedo/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -49163,6 +49192,23 @@
             "homepage": "https://math.utexas.edu/directory/maggie-miller",
             "scholar": null
           }
+        },
+        {
+          "id": "james-a-m-alvarez",
+          "name": "James A. M. Álvarez",
+          "title": "Professor",
+          "sub_field": "Mathematics Education",
+          "tags": [
+            "mathematics education",
+            "teacher preparation",
+            "STEM education"
+          ],
+          "summary": "Research in mathematics education and teacher preparation; Associate Dean for P-20 Education Initiatives.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.utexas.edu/directory/james-a-m-alvarez",
+            "scholar": null
+          }
         }
       ]
     },
@@ -50158,19 +50204,16 @@
         },
         {
           "id": "sandor-kovacs",
-          "name": "Sándor Kovács",
+          "name": "Sandor Kovacs",
           "title": "Professor",
           "sub_field": "Algebraic geometry",
           "tags": [
-            "Algebraic geometry",
-            "algebra",
-            "birational geometry",
-            "moduli theory"
+            "Algebraic geometry"
           ],
           "summary": "Professor in the University of Washington Department of Mathematics. Research area: Algebraic geometry.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://math.washington.edu/people/sandor-kovacs",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -50949,22 +50992,19 @@
         },
         {
           "id": "sebastien-roch",
-          "name": "Sébastien Roch",
+          "name": "Sebastien Roch",
           "title": "Professor",
-          "sub_field": "Applied Probability",
+          "sub_field": "Probability / Mathematical Biology",
           "tags": [
-            "applied probability",
-            "statistics",
-            "theoretical CS",
-            "phylogenetics",
             "probability",
             "math biology",
+            "phylogenetics",
             "networks"
           ],
-          "summary": "Research in applied probability, statistics, theoretical computer science, and biological applications such as phylogenetics.",
+          "summary": "Studies probability with applications to mathematical phylogenetics, evolutionary biology, and networks.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://people.math.wisc.edu/~roch/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -58082,8 +58122,529 @@
         "program": "https://www.math.hkust.edu.hk/pg/",
         "admissions": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-timeline"
       },
-      "data_currency": "Requirements read from the HKUST Fok Ying Tung Graduate School admissions timeline and the School of Science RPg admissions page, retrieved 2026-09-03. Application fee and referee count not published on either page. Faculty roster not yet scanned.",
-      "faculty": []
+      "data_currency": "Requirements read from the HKUST Fok Ying Tung Graduate School admissions timeline and the School of Science RPg admissions page, retrieved 2026-09-03. Application fee and referee count not published on either page. Faculty roster (40) read from the HKUST Mathematics people page, 2026-09-03. That page publishes NAME AND TITLE ONLY, so research areas are Unknown/Verify rather than guessed - they need a per-person pass.",
+      "faculty": [
+        {
+          "id": "jian-feng-cai",
+          "name": "Jian-Feng Cai",
+          "title": "Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeffrey-r-chasnov",
+          "name": "Jeffrey R Chasnov",
+          "title": "Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "junfeng-chen",
+          "name": "Junfeng Chen",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "kani-chen",
+          "name": "Kani Chen",
+          "title": "Professor / Director of MSc in Financial Mathematics",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yik-man-chiang",
+          "name": "Yik-Man Chiang",
+          "title": "Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "tsz-kiu-aaron-chow",
+          "name": "Tsz Kiu Aaron Chow",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "shuoqing-deng",
+          "name": "Shuoqing Deng",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "tsz-ho-fong",
+          "name": "Tsz Ho Fong",
+          "title": "Associate Professor / UG Programs Coordinator",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "lin-fu",
+          "name": "Lin Fu",
+          "title": "Associate Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jimmy-chi-hung-fung",
+          "name": "Jimmy Chi-Hung Fung",
+          "title": "Chair Professor / Director of MSc in Mathematics for Educators",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jian-ping-gan",
+          "name": "Jian-Ping Gan",
+          "title": "Chair Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "xin-zhou-guo",
+          "name": "Xin-Zhou Guo",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "quoc-ho",
+          "name": "Quoc Ho",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ivan-chi-ho-ip",
+          "name": "Ivan Chi-Ho Ip",
+          "title": "Associate Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "qingyuan-jiang",
+          "name": "Qingyuan Jiang",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "tianling-jin",
+          "name": "Tianling Jin",
+          "title": "Professor / PG Programs Coordinator",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "shing-yu-leung",
+          "name": "Shing-Yu Leung",
+          "title": "Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "wei-ping-li",
+          "name": "Wei-Ping Li",
+          "title": "Chair Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "shi-qing-ling",
+          "name": "Shi-Qing Ling",
+          "title": "Chair Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "eric-marberg",
+          "name": "Eric Marberg",
+          "title": "Associate Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "guo-wu-meng",
+          "name": "Guo-Wu Meng",
+          "title": "Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yu-min",
+          "name": "Yu Min",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "maximilian-nitzschner",
+          "name": "Maximilian Nitzschner",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "zhi-chao-peng",
+          "name": "Zhi-Chao Peng",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "shuai-jie-qian",
+          "name": "Shuai-Jie Qian",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "tiezheng-qian",
+          "name": "Tiezheng Qian",
+          "title": "Associate Head / Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "naijian-eric-shen",
+          "name": "Naijian Eric Shen",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "wei-su",
+          "name": "Wei Su",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "rong-tang",
+          "name": "Rong Tang",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "xun-tang",
+          "name": "Xun Tang",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ke-wang",
+          "name": "Ke Wang",
+          "title": "Associate Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yang-xiang",
+          "name": "Yang Xiang",
+          "title": "Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "mao-sheng-xiong",
+          "name": "Mao-Sheng Xiong",
+          "title": "Associate Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "kun-xu",
+          "name": "Kun Xu",
+          "title": "Chair Professor / Stephen Kam Chuen Cheong Professor of Science / Head",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "luze-xu",
+          "name": "Luze Xu",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "min-yan",
+          "name": "Min Yan",
+          "title": "Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "can-yang",
+          "name": "Can Yang",
+          "title": "Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yuan-yao",
+          "name": "Yuan Yao",
+          "title": "Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hai-zhang",
+          "name": "Hai Zhang",
+          "title": "Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jiheng-zhang",
+          "name": "Jiheng Zhang",
+          "title": "Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "ntu-math-phd",
@@ -58124,8 +58685,1054 @@
         "program": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/phd",
         "admissions": "https://www.ntu.edu.sg/admissions/graduate/radmissionguide"
       },
-      "data_currency": "Deadlines, application fee and test policy from the NTU Research Programmes Admission Guide, retrieved 2026-09-03. The guide states no TOEFL/IELTS minimum and the scholarship pages publish no stipend figure, so both are left unverified. Faculty roster not yet scanned.",
-      "faculty": []
+      "data_currency": "Deadlines, application fee and test policy from the NTU Research Programmes Admission Guide, retrieved 2026-09-03. The guide states no TOEFL/IELTS minimum and the scholarship pages publish no stipend figure, so both are left unverified. Faculty roster (60: full-time plus cross-appointments from CCDS) read from the NTU Division of Mathematical Sciences faculty page, 2026-09-03; visiting, adjunct and emeritus staff omitted.",
+      "faculty": [
+        {
+          "id": "nikolay-bazhenov",
+          "name": "Nikolay Bazhenov",
+          "title": "Associate Professor",
+          "sub_field": "Mathematical Logic",
+          "tags": [
+            "Mathematical logic",
+            "computability theory"
+          ],
+          "summary": "Mathematical logic; computability theory",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "xiaohui-bei",
+          "name": "Xiaohui Bei",
+          "title": "Associate Professor",
+          "sub_field": "Algorithmic Game Theory",
+          "tags": [
+            "Algorithmic game theory and mechanism design",
+            "social network analysis",
+            "resource allocation",
+            "theoretical computer science"
+          ],
+          "summary": "Algorithmic game theory and mechanism design; social network analysis; resource allocation; theoretical computer science",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "song-heng-chan",
+          "name": "Song Heng Chan",
+          "title": "Associate Professor",
+          "sub_field": "Number Theory",
+          "tags": [
+            "Number theory",
+            "combinatorics",
+            "special functions"
+          ],
+          "summary": "Number theory; combinatorics; special functions",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "kang-hao-cheong",
+          "name": "Kang Hao Cheong",
+          "title": "Associate Professor; Assistant Dean (Continuing Education and Training)",
+          "sub_field": "Complexity Science",
+          "tags": [
+            "Game theory",
+            "complexity science",
+            "AI in medical/healthcare"
+          ],
+          "summary": "Game theory; complexity science; AI in medical/healthcare",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "chek-beng-chua",
+          "name": "Chek Beng Chua",
+          "title": "Associate Professor",
+          "sub_field": "Optimization",
+          "tags": [
+            "Continuous optimization",
+            "interior-point algorithms",
+            "convex analysis"
+          ],
+          "summary": "Continuous optimization; interior-point algorithms; convex analysis",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hai-dang-dau",
+          "name": "Hai Dang Dau",
+          "title": "Nanyang Assistant Professor",
+          "sub_field": "Monte Carlo Methods",
+          "tags": [
+            "Monte Carlo methods such as MCMC",
+            "sequential Monte Carlo",
+            "particle filters",
+            "generative modelling",
+            "diffusion models",
+            "Bayesian computation"
+          ],
+          "summary": "Monte Carlo methods such as MCMC; sequential Monte Carlo, particle filters; generative modelling, diffusion models; Bayesian computation",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "fedor-duzhin",
+          "name": "Fedor Duzhin",
+          "title": "Senior Lecturer",
+          "sub_field": "Topology",
+          "tags": [
+            "Algebraic topology",
+            "mathematical billiards",
+            "topological data analysis"
+          ],
+          "summary": "Algebraic topology; mathematical billiards; topological data analysis",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "martianus-frederic-ezerman",
+          "name": "Martianus Frederic Ezerman",
+          "title": "Senior Lecturer",
+          "sub_field": "Cryptography & Coding Theory",
+          "tags": [
+            "Cryptography",
+            "coding theory",
+            "quantum information",
+            "discrete algebraic structures"
+          ],
+          "summary": "Cryptography; coding theory; quantum information; discrete algebraic structures",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "francois-joachim-marcel-gay-balmaz",
+          "name": "Francois Joachim Marcel Gay-Balmaz",
+          "title": "Associate Professor",
+          "sub_field": "Geometric Fluid Dynamics",
+          "tags": [
+            "Geometric methods in fluid dynamics and elasticity",
+            "structure preserving numerical discretization",
+            "variational principles in nonequilibrium thermodynamics"
+          ],
+          "summary": "Geometric methods in fluid dynamics and elasticity; structure preserving numerical discretization; variational principles in nonequilibrium thermodynamics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "gary-royden-watson-greaves",
+          "name": "Gary Royden Watson Greaves",
+          "title": "Assistant Professor",
+          "sub_field": "Combinatorics",
+          "tags": [
+            "Algebraic combinatorics",
+            "number theory"
+          ],
+          "summary": "Algebraic combinatorics; number theory",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "mile-gu",
+          "name": "Mile Gu",
+          "title": "Professor (NRF Investigator)",
+          "sub_field": "Quantum Information",
+          "tags": [
+            "Quantum information",
+            "complexity science",
+            "quantum computation",
+            "physics of information"
+          ],
+          "summary": "Quantum information; complexity science; quantum computation; physics of information",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jian-guo",
+          "name": "Jian Guo",
+          "title": "Associate Professor",
+          "sub_field": "Cryptography",
+          "tags": [
+            "Cryptography",
+            "security"
+          ],
+          "summary": "Cryptography; security",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "anders-gustavsson",
+          "name": "Anders Gustavsson",
+          "title": "Senior Lecturer",
+          "sub_field": "Potential Theory",
+          "tags": [],
+          "summary": "Potential theory and its application to rational and harmonic approximation",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "milind-hegde",
+          "name": "Milind Hegde",
+          "title": "Nanyang Assistant Professor",
+          "sub_field": "Probability",
+          "tags": [
+            "Probability theory",
+            "mathematical physics",
+            "stochastic growth models"
+          ],
+          "summary": "Probability theory; mathematical physics; stochastic growth models",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "viet-ha-hoang",
+          "name": "Viet Ha Hoang",
+          "title": "Associate Professor; Assistant Chair (Academic)",
+          "sub_field": "Multiscale Numerical Analysis",
+          "tags": [
+            "Homogenization theory",
+            "analysis and numerical analysis of multiscale problems"
+          ],
+          "summary": "Homogenization theory; analysis and numerical analysis of multiscale problems; analysis and numerical analysis of stochastic partial differential equations",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "seok-young-hong",
+          "name": "Seok Young Hong",
+          "title": "Assistant Professor",
+          "sub_field": "Time Series",
+          "tags": [
+            "Time series",
+            "financial econometrics",
+            "asset pricing"
+          ],
+          "summary": "Time series; financial econometrics; asset pricing",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeremie-houssineau",
+          "name": "Jeremie Houssineau",
+          "title": "Assistant Professor",
+          "sub_field": "Bayesian Inference",
+          "tags": [
+            "Bayesian inference",
+            "possibility theory",
+            "inference for complex dynamical systems",
+            "reinforcement learning"
+          ],
+          "summary": "Bayesian inference; possibility theory; inference for complex dynamical systems; reinforcement learning",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "leonard-huang",
+          "name": "Leonard Huang",
+          "title": "Lecturer",
+          "sub_field": "Operator Algebras",
+          "tags": [
+            "Analysis",
+            "geometry",
+            "mathematical logic",
+            "mathematical physics",
+            "operator algebras"
+          ],
+          "summary": "Analysis; geometry; mathematical logic; mathematical physics; operator algebras",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "han-mao-kiah",
+          "name": "Han Mao Kiah",
+          "title": "Assistant Professor",
+          "sub_field": "Coding Theory",
+          "tags": [
+            "Coding theory",
+            "combinatorics"
+          ],
+          "summary": "Coding theory; combinatorics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrew-james-kricker",
+          "name": "Andrew James Kricker",
+          "title": "Associate Professor; Director of URECA",
+          "sub_field": "Topology",
+          "tags": [
+            "Low-dimensional topology",
+            "topological invariants associated with quantum field theory",
+            "Lie algebras",
+            "mathematical physics"
+          ],
+          "summary": "Low-dimensional topology; topological invariants associated with quantum field theory; Lie algebras; mathematical physics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "cheng-yeaw-ku",
+          "name": "Cheng Yeaw Ku",
+          "title": "Senior Lecturer",
+          "sub_field": "Combinatorics",
+          "tags": [
+            "Extremal problems for graphs",
+            "hypergraphs",
+            "probabilistic and algebraic methods in discrete mathematics"
+          ],
+          "summary": "Extremal problems for graphs; hypergraphs; probabilistic and algebraic methods in discrete mathematics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yi-li",
+          "name": "Yi Li",
+          "title": "Associate Professor",
+          "sub_field": "Algorithms for Massive Data",
+          "tags": [
+            "Algorithms for massive data sets",
+            "data stream algorithms",
+            "compressive sensing"
+          ],
+          "summary": "Algorithms for massive data sets; data stream algorithms; compressive sensing",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "kay-jin-lim",
+          "name": "Kay Jin Lim",
+          "title": "Senior Lecturer",
+          "sub_field": "Representation Theory",
+          "tags": [
+            "Representation theory of finite dimensional algebras",
+            "algebraic combinatorics"
+          ],
+          "summary": "Representation theory of finite dimensional algebras; algebraic combinatorics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "san-ling",
+          "name": "San Ling",
+          "title": "Distinguished Nanyang Professor",
+          "sub_field": "Coding Theory & Cryptography",
+          "tags": [
+            "coding theory",
+            "cryptography and sequences",
+            "arithmetic of modular curves"
+          ],
+          "summary": "Applications of algebra and number theory to combinatorial designs; coding theory; cryptography and sequences; arithmetic of modular curves",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "cyrus-mostajeran",
+          "name": "Cyrus Mostajeran",
+          "title": "Nanyang Assistant Professor (NRF Fellow)",
+          "sub_field": "Geometric Data Science",
+          "tags": [
+            "Geometric data science",
+            "geometric optimization",
+            "material design and shape-programmable systems"
+          ],
+          "summary": "Geometric data science; geometric optimization; material design and shape-programmable systems",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ariel-neufeld",
+          "name": "Ariel Neufeld",
+          "title": "Associate Professor",
+          "sub_field": "Financial Mathematics",
+          "tags": [
+            "Machine learning algorithms in finance and insurance",
+            "model uncertainty in financial markets",
+            "stochastic analysis and stochastic optimal control"
+          ],
+          "summary": "Machine learning algorithms in finance and insurance; model uncertainty in financial markets; stochastic analysis and stochastic optimal control",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "keng-meng-ng",
+          "name": "Keng Meng Ng",
+          "title": "Professor; Associate Chair (Academic)",
+          "sub_field": "Computability Theory",
+          "tags": [
+            "Computability theory",
+            "descriptive and algorithmic complexity",
+            "algorithmic information theory and randomness",
+            "reverse mathematics"
+          ],
+          "summary": "Computability theory; descriptive and algorithmic complexity; algorithmic information theory and randomness; reverse mathematics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "michele-nguyen",
+          "name": "Michele Nguyen",
+          "title": "Assistant Professor",
+          "sub_field": "Spatial Statistics",
+          "tags": [
+            "Sustainability and health analytics",
+            "spatial statistics",
+            "time series analysis",
+            "extreme value modelling"
+          ],
+          "summary": "Sustainability and health analytics; spatial statistics; time series analysis; extreme value modelling",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "emile-takahiro-okada",
+          "name": "Emile Takahiro Okada",
+          "title": "Nanyang Assistant Professor",
+          "sub_field": "Representation Theory",
+          "tags": [
+            "Representation theory",
+            "the Langlands program",
+            "p-adic harmonic analysis",
+            "Hecke algebras"
+          ],
+          "summary": "Representation theory; the Langlands program; p-adic harmonic analysis; Hecke algebras",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "juan-pablo-ortega",
+          "name": "Juan-Pablo Ortega",
+          "title": "Professor; Lee Soo Ying Professor of Mathematics; Head, Mathematical Sciences",
+          "sub_field": "Learning of Dynamical Systems",
+          "tags": [
+            "Learning of dynamic processes",
+            "dynamical and controlled systems",
+            "geometric mechanics",
+            "financial econometrics"
+          ],
+          "summary": "Learning of dynamic processes; dynamical and controlled systems; geometric mechanics; financial econometrics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "guangming-pan",
+          "name": "Guangming Pan",
+          "title": "Professor",
+          "sub_field": "Random Matrix Theory",
+          "tags": [
+            "Random matrix theory",
+            "multivariate analysis",
+            "applications of probability"
+          ],
+          "summary": "Random matrix theory; multivariate analysis; applications of probability",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-paulin",
+          "name": "Daniel Paulin",
+          "title": "Associate Professor",
+          "sub_field": "Monte Carlo & Bayesian Statistics",
+          "tags": [
+            "Monte Carlo simulation methods",
+            "Bayesian statistics",
+            "diffusion models",
+            "uncertainty quantification",
+            "applied probability"
+          ],
+          "summary": "Monte Carlo simulation methods; Bayesian statistics; diffusion models; uncertainty quantification; applied probability",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "thomas-peyrin",
+          "name": "Thomas Peyrin",
+          "title": "Professor (NRF Investigator); Assistant Chair (Research and Graduate Studies)",
+          "sub_field": "Cryptography",
+          "tags": [
+            "Symmetric key cryptography",
+            "lightweight cryptography",
+            "cryptanalysis"
+          ],
+          "summary": "Symmetric key cryptography; lightweight cryptography; cryptanalysis",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "nicolas-privault",
+          "name": "Nicolas Privault",
+          "title": "Professor",
+          "sub_field": "Stochastic Analysis",
+          "tags": [
+            "Probability",
+            "stochastic analysis",
+            "mathematical finance"
+          ],
+          "summary": "Probability; stochastic analysis; mathematical finance",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "chi-seng-patrick-pun",
+          "name": "Chi Seng Patrick Pun",
+          "title": "Associate Professor; Associate Chair (Graduate Studies)",
+          "sub_field": "Financial Mathematics",
+          "tags": [
+            "Financial mathematics",
+            "robust stochastic control",
+            "high-dimensional statistics",
+            "derivatives pricing"
+          ],
+          "summary": "Financial mathematics; robust stochastic control; high-dimensional statistics; derivatives pricing",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "florian-rossmannek",
+          "name": "Florian Rossmannek",
+          "title": "Nanyang Assistant Professor",
+          "sub_field": "Dynamical Systems & Machine Learning",
+          "tags": [
+            "Dynamical systems",
+            "theory of machine learning",
+            "reservoir computing",
+            "neural networks"
+          ],
+          "summary": "Dynamical systems; theory of machine learning; reservoir computing; neural networks",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "bernhard-schmidt",
+          "name": "Bernhard Schmidt",
+          "title": "Professor",
+          "sub_field": "Algebraic Design Theory",
+          "tags": [
+            "Algebraic design theory",
+            "finite geometry",
+            "algebraic number theory"
+          ],
+          "summary": "Algebraic design theory; finite geometry; algebraic number theory",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yongcun-song",
+          "name": "Yongcun Song",
+          "title": "Assistant Professor",
+          "sub_field": "Optimal Control & Scientific Computing",
+          "tags": [
+            "Optimal control",
+            "numerical optimization",
+            "scientific computing",
+            "machine learning"
+          ],
+          "summary": "Optimal control; numerical optimization; scientific computing; machine learning",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "wee-kee-tang",
+          "name": "Wee Kee Tang",
+          "title": "Principal Lecturer; Assistant Chair (Outreach)",
+          "sub_field": "Functional Analysis",
+          "tags": [
+            "Banach space theory",
+            "Baire-1 functions"
+          ],
+          "summary": "Banach space theory; Baire-1 functions",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jayne-thompson",
+          "name": "Jayne Thompson",
+          "title": "Associate Professor",
+          "sub_field": "Quantum Information",
+          "tags": [
+            "Information science and systems",
+            "mathematics",
+            "physics"
+          ],
+          "summary": "Information science and systems; mathematics; physics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ping-tong",
+          "name": "Ping Tong",
+          "title": "Associate Professor",
+          "sub_field": "Seismic Imaging & Inverse Problems",
+          "tags": [
+            "Seismic imaging",
+            "numerical methods for partial differential equations",
+            "inverse problems"
+          ],
+          "summary": "Seismic imaging; numerical methods for partial differential equations; inverse problems",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hemant-tyagi",
+          "name": "Hemant Tyagi",
+          "title": "Nanyang Associate Professor",
+          "sub_field": "High-Dimensional Statistics",
+          "tags": [
+            "High-dimensional statistics",
+            "numerical analysis",
+            "optimization",
+            "statistical learning theory",
+            "inverse problems on graphs"
+          ],
+          "summary": "High-dimensional statistics; numerical analysis; optimization; statistical learning theory; inverse problems on graphs",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "stephane-vannitsem",
+          "name": "Stephane Vannitsem",
+          "title": "Professor (Practice)",
+          "sub_field": "Climate Dynamics",
+          "tags": [
+            "Climate dynamics",
+            "atmospheric variability and dynamics",
+            "chaos theory",
+            "dynamical systems",
+            "predictability of the atmospheric dynamics"
+          ],
+          "summary": "Climate dynamics; atmospheric variability and dynamics; chaos theory; dynamical systems; predictability of the atmospheric dynamics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "huaxiong-wang",
+          "name": "Huaxiong Wang",
+          "title": "Professor; President's Chair in Cryptology",
+          "sub_field": "Cryptography",
+          "tags": [
+            "Cryptography",
+            "information security",
+            "combinatorics",
+            "coding theory",
+            "theoretical computer science"
+          ],
+          "summary": "Cryptography; information security; combinatorics; coding theory; theoretical computer science",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "li-lian-wang",
+          "name": "Li-Lian Wang",
+          "title": "Professor",
+          "sub_field": "Spectral Methods & CFD",
+          "tags": [
+            "Spectral methods",
+            "algorithms",
+            "analysis and applications",
+            "computational fluid dynamics",
+            "computational electromagnetics"
+          ],
+          "summary": "Spectral methods; algorithms, analysis and applications; triangular spectral-element methods for PDEs in complex geometries; computational fluid dynamics; computational electromagnetics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "zhongjian-wang",
+          "name": "Zhongjian Wang",
+          "title": "Assistant Professor",
+          "sub_field": "Applied & Computational Mathematics",
+          "tags": [
+            "Applied and computational mathematics",
+            "numerical analysis",
+            "machine learning",
+            "generative models"
+          ],
+          "summary": "Applied and computational mathematics; numerical analysis; machine learning; generative models",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "guohua-wu",
+          "name": "Guohua Wu",
+          "title": "Associate Professor",
+          "sub_field": "Computability",
+          "tags": [
+            "Computability",
+            "complexity",
+            "logic"
+          ],
+          "summary": "Computability; complexity; logic",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hongjun-wu",
+          "name": "Hongjun Wu",
+          "title": "Associate Professor",
+          "sub_field": "Cryptography",
+          "tags": [
+            "Cryptography",
+            "cryptanalysis"
+          ],
+          "summary": "Cryptography; cryptanalysis",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "kelin-xia",
+          "name": "Kelin Xia",
+          "title": "Associate Professor",
+          "sub_field": "Topological Data Analysis",
+          "tags": [
+            "Mathematical modeling of biomolecular systems",
+            "topological data analysis",
+            "scientific computing"
+          ],
+          "summary": "Mathematical modeling of biomolecular systems; topological data analysis; scientific computing",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "liming-xiang",
+          "name": "Liming Xiang",
+          "title": "Associate Professor",
+          "sub_field": "Biostatistics",
+          "tags": [
+            "Generalized linear mixed models",
+            "mixture models",
+            "survival analysis",
+            "robust estimation"
+          ],
+          "summary": "Generalized linear mixed models; mixture models; survival analysis; robust estimation",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "tushar-vaidya",
+          "name": "Tushar Vaidya",
+          "title": "Lecturer",
+          "sub_field": "Stochastic Dynamics",
+          "tags": [
+            "Stochastic dynamical systems",
+            "quantum algorithms",
+            "quantum finance"
+          ],
+          "summary": "Stochastic dynamical systems; quantum algorithms; quantum finance",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "zhenzhen-yan",
+          "name": "Zhenzhen Yan",
+          "title": "Associate Professor; Assistant Chair (Students)",
+          "sub_field": "Optimization Under Uncertainty",
+          "tags": [
+            "Optimization under uncertainty",
+            "data driven pricing",
+            "supply chain management",
+            "health care operations"
+          ],
+          "summary": "Optimization under uncertainty; data driven pricing; supply chain management; health care operations",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "mu-yue",
+          "name": "Mu Yue",
+          "title": "Lecturer",
+          "sub_field": "High-Dimensional Data Analysis",
+          "tags": [
+            "High-dimensional data analysis",
+            "subgroup detection",
+            "biostatistics",
+            "infectious disease modelling"
+          ],
+          "summary": "High-dimensional data analysis; subgroup detection; biostatistics; infectious disease modelling",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "bo-an",
+          "name": "Bo An",
+          "title": "Professor (cross appointment from CCDS)",
+          "sub_field": "Multi-Agent Systems",
+          "tags": [
+            "Multi-agent systems",
+            "game theory",
+            "optimization",
+            "intelligent e-commerce"
+          ],
+          "summary": "Multi-agent systems; game theory; optimization; intelligent e-commerce",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "anupam-chattopadhyay",
+          "name": "Anupam Chattopadhyay",
+          "title": "Associate Professor (cross appointment from CCDS)",
+          "sub_field": "Computer Architecture",
+          "tags": [
+            "High-level synthesis",
+            "application-specific processors",
+            "heterogeneous MPSoC"
+          ],
+          "summary": "High-level synthesis; application-specific processors; heterogeneous MPSoC",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "gao-cong",
+          "name": "Gao Cong",
+          "title": "Professor (cross appointment from CCDS)",
+          "sub_field": "Data Management",
+          "tags": [
+            "Geospatial",
+            "textual and mobility data management",
+            "data mining",
+            "large scale data analytics",
+            "urban informatics"
+          ],
+          "summary": "Geospatial, textual and mobility data management; data mining; large scale data analytics; urban informatics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "anwitaman-datta",
+          "name": "Anwitaman Datta",
+          "title": "Associate Professor (cross appointment from CCDS)",
+          "sub_field": "Distributed Systems",
+          "tags": [
+            "Distributed and peer-to-peer systems",
+            "randomized algorithms",
+            "self-organization",
+            "online social networks"
+          ],
+          "summary": "Distributed and peer-to-peer systems; randomized algorithms; self-organization; online social networks",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yang-liu",
+          "name": "Yang Liu",
+          "title": "Professor (cross appointment from CCDS)",
+          "sub_field": "Formal Methods",
+          "tags": [
+            "Formal methods",
+            "model checking",
+            "software security",
+            "software engineering"
+          ],
+          "summary": "Formal methods; model checking; software security; software engineering",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "dusit-niyato",
+          "name": "Dusit Niyato",
+          "title": "Professor (cross appointment from CCDS)",
+          "sub_field": "Wireless Networking",
+          "tags": [
+            "Radio resource management",
+            "network performance analysis"
+          ],
+          "summary": "Radio resource management; network performance analysis; economics modeling of wireless communications and networking",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yew-soon-ong",
+          "name": "Yew Soon Ong",
+          "title": "Professor (cross appointment from CCDS)",
+          "sub_field": "Artificial Intelligence",
+          "tags": [
+            "Artificial intelligence",
+            "computational intelligence",
+            "memetic computing",
+            "evolutionary optimization",
+            "data analytics"
+          ],
+          "summary": "Artificial intelligence; computational intelligence; memetic computing; evolutionary optimization; data analytics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "nus-math-phd",
@@ -58167,8 +59774,1054 @@
         "program": "https://www.math.nus.edu.sg/pg/phd/",
         "admissions": "https://www.science.nus.edu.sg/graduates/phd/"
       },
-      "data_currency": "Funding from the NUS Graduate School scholarships listing, retrieved 2026-09-03. NUS sets research deadlines per department and none was confirmed, so the deadline is left unverified rather than guessed from the usual mid-November pattern. Faculty roster not yet scanned.",
-      "faculty": []
+      "data_currency": "Funding from the NUS Graduate School scholarships listing, retrieved 2026-09-03. NUS sets research deadlines per department and none was confirmed, so the deadline is left unverified rather than guessed from the usual mid-November pattern. Faculty roster (65 regular faculty) read from the NUS Mathematics regular-faculty page, 2026-09-03; emeritus staff omitted. Research areas are the page's own wording.",
+      "faculty": [
+        {
+          "id": "wee-teck-gan",
+          "name": "Wee Teck Gan",
+          "title": "Tan Chin Tuan Centennial Professor; Head",
+          "sub_field": "Number Theory",
+          "tags": [
+            "Langlands program and automorphic representations"
+          ],
+          "summary": "Langlands program and automorphic representations",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "weiqing-ren",
+          "name": "Weiqing Ren",
+          "title": "Professor; Deputy Head (Research and Academic Affairs)",
+          "sub_field": "Scientific Computing",
+          "tags": [
+            "Scientific computing",
+            "rare events",
+            "multiscale modeling and computation"
+          ],
+          "summary": "Scientific computing; rare events; multiscale modeling and computation",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "kah-loon-ng",
+          "name": "Kah Loon Ng",
+          "title": "Associate Professor; Deputy Head (Undergraduate Program)",
+          "sub_field": "Discrete Mathematics",
+          "tags": [],
+          "summary": "Graph theory and applications of discrete mathematics to biology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "vincent-yan-fu-tan",
+          "name": "Vincent Yan Fu Tan",
+          "title": "Professor; Deputy Head (Graduate Program)",
+          "sub_field": "Information Theory & Machine Learning",
+          "tags": [
+            "Network information theory",
+            "machine learning",
+            "statistical signal processing"
+          ],
+          "summary": "Network information theory; machine learning; statistical signal processing",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "zhenning-cai",
+          "name": "Zhenning Cai",
+          "title": "Associate Professor; Assistant Head (Graduate Program)",
+          "sub_field": "Computational Fluid Dynamics",
+          "tags": [
+            "Modeling and computation of rarefied gas dynamics",
+            "mixed quantum-classical dynamics",
+            "computational fluid dynamics"
+          ],
+          "summary": "Modeling and computation of rarefied gas dynamics; mixed quantum-classical dynamics; computational fluid dynamics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "lei-zhang",
+          "name": "Lei Zhang",
+          "title": "Associate Professor; Assistant Head (Undergraduate Program)",
+          "sub_field": "Number Theory",
+          "tags": [
+            "Number theory and representation theory"
+          ],
+          "summary": "Number theory and representation theory",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "xinliang-an",
+          "name": "Xinliang An",
+          "title": "Associate Professor",
+          "sub_field": "PDE & Mathematical Physics",
+          "tags": [
+            "Nonlinear wave equations",
+            "mathematical physics",
+            "geometric analysis and general relativity"
+          ],
+          "summary": "Nonlinear wave equations; mathematical physics; geometric analysis and general relativity",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "huanchen-bao",
+          "name": "Huanchen Bao",
+          "title": "Associate Professor",
+          "sub_field": "Representation Theory",
+          "tags": [
+            "Representation theory of Lie algebras",
+            "Lie superalgebras",
+            "quantum groups",
+            "and their connections to geometry and categorification"
+          ],
+          "summary": "Representation theory of Lie algebras, Lie superalgebras, quantum groups, and their connections to geometry and categorification",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "weizhu-bao",
+          "name": "Weizhu Bao",
+          "title": "Professor (Provost's Chair); Vice Dean, Faculty of Science",
+          "sub_field": "Numerical Analysis & Scientific Computing",
+          "tags": [
+            "Bose-Einstein condensation",
+            "multiscale modelling and simulation",
+            "computational fluid dynamics",
+            "numerical analysis and scientific computing"
+          ],
+          "summary": "Bose-Einstein condensation; multiscale modelling and simulation; computational fluid dynamics; numerical analysis and scientific computing",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-bartl",
+          "name": "Daniel Bartl",
+          "title": "Assistant Professor (NUS Presidential Young Professor)",
+          "sub_field": "Probability & Data Science",
+          "tags": [
+            "Data science",
+            "high-dimensional statistics",
+            "optimal transport",
+            "probability",
+            "quantitative finance"
+          ],
+          "summary": "Data science; high-dimensional statistics; optimal transport; probability; quantitative finance",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ying-chen",
+          "name": "Ying Chen",
+          "title": "Associate Professor; Director, Centre for Quantitative Finance",
+          "sub_field": "Quantitative Finance",
+          "tags": [
+            "AI forecasting and optimization",
+            "quantitative finance",
+            "quantum computing"
+          ],
+          "summary": "AI forecasting and optimization; quantitative finance; quantum computing",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "lenaic-chizat",
+          "name": "Lenaic Chizat",
+          "title": "Associate Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "chi-tat-chong",
+          "name": "Chi Tat Chong",
+          "title": "University Professor",
+          "sub_field": "Mathematical Logic",
+          "tags": [
+            "Recursion/computability theory"
+          ],
+          "summary": "Recursion/computability theory",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "delin-chu",
+          "name": "Delin Chu",
+          "title": "Associate Professor",
+          "sub_field": "Numerical Linear Algebra",
+          "tags": [
+            "Numerical linear algebra and applications",
+            "scientific computing",
+            "numerical analysis"
+          ],
+          "summary": "Numerical linear algebra and applications; scientific computing; numerical analysis",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "alvin-jing-kang-chua",
+          "name": "Alvin Jing Kang Chua",
+          "title": "Assistant Professor; joint appointment, Physics",
+          "sub_field": "Gravitational-Wave Astrophysics",
+          "tags": [
+            "Gravitational-wave astrophysics and data analysis",
+            "data science and machine learning",
+            "applied and computational statistics"
+          ],
+          "summary": "Gravitational-wave astrophysics and data analysis; data science and machine learning; applied and computational statistics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "seng-kee-chua",
+          "name": "Seng Kee Chua",
+          "title": "Associate Professor",
+          "sub_field": "Analysis",
+          "tags": [
+            "Sobolev spaces",
+            "Fourier analysis",
+            "classical real analysis"
+          ],
+          "summary": "Sobolev spaces; Fourier analysis; classical real analysis",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "tien-cuong-dinh",
+          "name": "Tien Cuong Dinh",
+          "title": "Professor",
+          "sub_field": "Complex Dynamics",
+          "tags": [
+            "Dynamics of several complex variables",
+            "pluripotential theory"
+          ],
+          "summary": "Dynamics of several complex variables; pluripotential theory",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "subhroshekhar-ghosh",
+          "name": "Subhroshekhar Ghosh",
+          "title": "Associate Professor",
+          "sub_field": "Probability & Statistics",
+          "tags": [
+            "Stochastics",
+            "focussing on problems from statistical physics",
+            "statistics and the mathematics of data"
+          ],
+          "summary": "Stochastics, focussing on problems from statistical physics, statistics and the mathematics of data",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "fei-han",
+          "name": "Fei Han",
+          "title": "Associate Professor",
+          "sub_field": "Geometry & Topology",
+          "tags": [
+            "Differential geometry",
+            "topology and mathematical physics"
+          ],
+          "summary": "Differential geometry, topology and mathematical physics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ian-andrei-gleason-freidberg",
+          "name": "Ian Andrei Gleason Freidberg",
+          "title": "Assistant Professor (NUS Presidential Young Professor)",
+          "sub_field": "Algebra & Number Theory",
+          "tags": [
+            "Algebra and number theory"
+          ],
+          "summary": "Algebra and number theory",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jun-le-goh",
+          "name": "Jun Le Goh",
+          "title": "Assistant Professor",
+          "sub_field": "Mathematical Logic",
+          "tags": [
+            "Mathematical logic and theoretical computer science"
+          ],
+          "summary": "Mathematical logic and theoretical computer science",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "say-song-goh",
+          "name": "Say Song Goh",
+          "title": "Professor; Dean, Office of Admissions",
+          "sub_field": "Wavelet Theory",
+          "tags": [
+            "Wavelet theory and applications",
+            "univalent functions"
+          ],
+          "summary": "Wavelet theory and applications; univalent functions",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "shaoning-han",
+          "name": "Shaoning Han",
+          "title": "Assistant Professor (NUS Presidential Young Professor)",
+          "sub_field": "Optimization",
+          "tags": [
+            "Optimization",
+            "data science and machine learning"
+          ],
+          "summary": "Optimization; data science and machine learning",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "david-renshaw-hansen",
+          "name": "David Renshaw Hansen",
+          "title": "Associate Professor",
+          "sub_field": "Algebra & Number Theory",
+          "tags": [
+            "Algebra and number theory",
+            "representation theory and automorphic forms"
+          ],
+          "summary": "Algebra and number theory; representation theory and automorphic forms",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hao-huang",
+          "name": "Hao Huang",
+          "title": "Associate Professor (Dean's Chair)",
+          "sub_field": "Combinatorics",
+          "tags": [
+            "Extremal combinatorics",
+            "probabilistic and algebraic methods",
+            "spectral graph theory",
+            "structural graph theory",
+            "applications in theoretical computer science"
+          ],
+          "summary": "Extremal combinatorics; probabilistic and algebraic methods; spectral graph theory; structural graph theory; applications in theoretical computer science",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hui-ji",
+          "name": "Hui Ji",
+          "title": "Professor; Director, Centre for Data Science and Machine Learning",
+          "sub_field": "Imaging & Machine Learning",
+          "tags": [
+            "Applied and computational harmonic analysis",
+            "imaging sciences",
+            "computational vision",
+            "machine learning"
+          ],
+          "summary": "Applied and computational harmonic analysis; imaging sciences; computational vision; machine learning",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yusuf-baris-kartal",
+          "name": "Yusuf Baris Kartal",
+          "title": "Assistant Professor (NUS Presidential Young Professor)",
+          "sub_field": "Symplectic Topology",
+          "tags": [
+            "Symplectic topology",
+            "Floer theory",
+            "homological mirror symmetry",
+            "non-commutative geometry"
+          ],
+          "summary": "Symplectic topology; Floer theory; homological mirror symmetry; non-commutative geometry",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "si-ying-lee",
+          "name": "Si Ying Lee",
+          "title": "Assistant Professor (NUS Presidential Young Professor)",
+          "sub_field": "Algebra & Number Theory",
+          "tags": [
+            "Algebra and number theory"
+          ],
+          "summary": "Algebra and number theory",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "soo-teck-lee",
+          "name": "Soo Teck Lee",
+          "title": "Professor",
+          "sub_field": "Representation Theory",
+          "tags": [
+            "Representation theory"
+          ],
+          "summary": "Representation theory",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ka-hin-leung",
+          "name": "Ka Hin Leung",
+          "title": "Associate Professor",
+          "sub_field": "Algebra & Combinatorics",
+          "tags": [
+            "Ordered rings",
+            "ring theory",
+            "quadratic forms",
+            "combinatorial designs"
+          ],
+          "summary": "Ordered rings; ring theory; quadratic forms; combinatorial designs",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "man-chun-leung",
+          "name": "Man Chun Leung",
+          "title": "Associate Professor",
+          "sub_field": "PDE & Geometry",
+          "tags": [
+            "Partial differential equations",
+            "Riemannian geometry",
+            "analysis on manifolds"
+          ],
+          "summary": "Partial differential equations; Riemannian geometry; analysis on manifolds",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "qianxiao-li",
+          "name": "Qianxiao Li",
+          "title": "Associate Professor (NUS Presidential Young Professor); Singapore NRF Fellow",
+          "sub_field": "Machine Learning Theory",
+          "tags": [
+            "Theory and algorithms for machine learning",
+            "stochastic optimization"
+          ],
+          "summary": "Theory and algorithms for machine learning; stochastic optimization",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hung-yean-loke",
+          "name": "Hung Yean Loke",
+          "title": "Professor",
+          "sub_field": "Representation Theory",
+          "tags": [
+            "Representations of Lie groups"
+          ],
+          "summary": "Representations of Lie groups",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "brett-t-mcinnes",
+          "name": "Brett T McInnes",
+          "title": "Professor",
+          "sub_field": "Mathematical Physics",
+          "tags": [
+            "Applications of differential geometry in cosmology",
+            "particle theory",
+            "string theory"
+          ],
+          "summary": "Applications of differential geometry in cosmology, particle theory, string theory",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "matteo-mucciconi",
+          "name": "Matteo Mucciconi",
+          "title": "Assistant Professor (NUS Presidential Young Professor)",
+          "sub_field": "Probability & Combinatorics",
+          "tags": [
+            "Probability",
+            "combinatorics"
+          ],
+          "summary": "Probability; combinatorics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yu-hin-peter-pang",
+          "name": "Yu Hin Peter Pang",
+          "title": "Associate Professor",
+          "sub_field": "Geometry & PDE",
+          "tags": [
+            "Differential geometry",
+            "differential equations"
+          ],
+          "summary": "Differential geometry; differential equations",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "dilip-raghavan",
+          "name": "Dilip Raghavan",
+          "title": "Associate Professor (Dean's Chair Professor)",
+          "sub_field": "Set Theory",
+          "tags": [
+            "Set theory",
+            "mathematical logic",
+            "general topology"
+          ],
+          "summary": "Set theory; mathematical logic; general topology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jonathan-scarlett",
+          "name": "Jonathan Scarlett",
+          "title": "Associate Professor; joint appointment, Computer Science",
+          "sub_field": "Information Theory & Machine Learning",
+          "tags": [
+            "Information theory",
+            "machine learning",
+            "high-dimensional statistics"
+          ],
+          "summary": "Information theory; machine learning; high-dimensional statistics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "julian-david-sester",
+          "name": "Julian David Sester",
+          "title": "Assistant Professor",
+          "sub_field": "Quantitative Finance",
+          "tags": [
+            "Quantitative finance"
+          ],
+          "summary": "Quantitative finance",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "zuowei-shen",
+          "name": "Zuowei Shen",
+          "title": "Distinguished Professor; Director, Institute for Mathematical Sciences",
+          "sub_field": "Approximation Theory & Imaging",
+          "tags": [
+            "Approximation theory",
+            "wavelet theory and applications",
+            "mathematical imaging"
+          ],
+          "summary": "Approximation theory; wavelet theory and applications; mathematical imaging",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yong-sheng-soh",
+          "name": "Yong Sheng Soh",
+          "title": "Assistant Professor",
+          "sub_field": "Machine Learning Foundations",
+          "tags": [],
+          "summary": "Mathematical foundation of machine learning and its applications in data analysis",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "frank-stephan",
+          "name": "Frank Stephan",
+          "title": "Professor; joint appointment, Computer Science",
+          "sub_field": "Theoretical Computer Science",
+          "tags": [
+            "Theoretical computer science and mathematical logic"
+          ],
+          "summary": "Theoretical computer science and mathematical logic",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "rongfeng-sun",
+          "name": "Rongfeng Sun",
+          "title": "Professor",
+          "sub_field": "Probability",
+          "tags": [
+            "Probability theory and statistical mechanics"
+          ],
+          "summary": "Probability theory and statistical mechanics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yeneng-sun",
+          "name": "Yeneng Sun",
+          "title": "Xu Foundation Dean and Professor; Dean, Faculty of Science",
+          "sub_field": "Probability & Mathematical Economics",
+          "tags": [
+            "Analysis"
+          ],
+          "summary": "Analysis; probability theory and their applications in economics and finance",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "roger-choon-ee-tan",
+          "name": "Roger Choon Ee Tan",
+          "title": "Associate Professor; NUS Associate Vice President",
+          "sub_field": "Numerical Analysis",
+          "tags": [
+            "Sensitivity analysis of matrix eigensystems",
+            "numerical linear algebra",
+            "numerical partial differential equations"
+          ],
+          "summary": "Sensitivity analysis of matrix eigensystems; numerical linear algebra; numerical partial differential equations",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "kai-meng-tan",
+          "name": "Kai Meng Tan",
+          "title": "Professor",
+          "sub_field": "Representation Theory",
+          "tags": [],
+          "summary": "Representation theory of symmetric groups and related algebras",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ser-peow-tan",
+          "name": "Ser Peow Tan",
+          "title": "Professor",
+          "sub_field": "Geometric Topology",
+          "tags": [
+            "Geometric topology",
+            "geometric structures on manifolds"
+          ],
+          "summary": "Geometric topology; geometric structures on manifolds",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "victor-tan",
+          "name": "Victor Tan",
+          "title": "Associate Professor",
+          "sub_field": "Number Theory",
+          "tags": [
+            "Automorphic forms and representations",
+            "algebraic number theory",
+            "modular forms and elliptic functions",
+            "combinatorial designs and difference sets"
+          ],
+          "summary": "Automorphic forms and representations; algebraic number theory; modular forms and elliptic functions; combinatorial designs and difference sets",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "kim-chuan-toh",
+          "name": "Kim Chuan Toh",
+          "title": "Leo Tan Professor in Science",
+          "sub_field": "Optimization & Scientific Computing",
+          "tags": [
+            "Scientific computing",
+            "numerical optimization"
+          ],
+          "summary": "Scientific computing; numerical optimization",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "chieu-minh-tran",
+          "name": "Chieu Minh Tran",
+          "title": "Assistant Professor",
+          "sub_field": "Mathematical Logic",
+          "tags": [
+            "Mathematical logic",
+            "theoretical computer science",
+            "combinatorics and graph theory"
+          ],
+          "summary": "Mathematical logic; theoretical computer science; combinatorics and graph theory",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "wing-keung-to",
+          "name": "Wing Keung To",
+          "title": "Professor",
+          "sub_field": "Complex Geometry",
+          "tags": [
+            "Differential geometry",
+            "several complex variables"
+          ],
+          "summary": "Differential geometry; several complex variables",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "xin-thomson-tong",
+          "name": "Xin Thomson Tong",
+          "title": "Associate Professor",
+          "sub_field": "Data Assimilation",
+          "tags": [],
+          "summary": "Mathematical aspects of data assimilation and nonlinear systems",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "lihan-wang",
+          "name": "Lihan Wang",
+          "title": "Assistant Professor (NUS Presidential Young Professor)",
+          "sub_field": "PDE & Probability",
+          "tags": [
+            "Differential equations and probability",
+            "data science and machine learning"
+          ],
+          "summary": "Differential equations and probability; data science and machine learning",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "wanjie-wang",
+          "name": "Wanjie Wang",
+          "title": "Assistant Professor; joint appointment, Statistics and Data Science",
+          "sub_field": "High-Dimensional Statistics",
+          "tags": [
+            "Social network analysis",
+            "high-dimensional statistical inference",
+            "unsupervised learning"
+          ],
+          "summary": "Social network analysis; high-dimensional statistical inference; unsupervised learning",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "marko-weber",
+          "name": "Marko Weber",
+          "title": "Assistant Professor",
+          "sub_field": "Mathematical Finance",
+          "tags": [
+            "Markets with frictions",
+            "systemic risk",
+            "financial stability"
+          ],
+          "summary": "Markets with frictions; systemic risk; financial stability",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "daren-wei",
+          "name": "Daren Wei",
+          "title": "Assistant Professor (NUS Presidential Young Professor)",
+          "sub_field": "Ergodic Theory",
+          "tags": [
+            "Homogeneous dynamics",
+            "entropy type invariants",
+            "ergodic theory"
+          ],
+          "summary": "Homogeneous dynamics; entropy type invariants; ergodic theory",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "lei-yang",
+          "name": "Lei Yang",
+          "title": "Associate Professor",
+          "sub_field": "Dynamical Systems",
+          "tags": [
+            "Dynamical systems"
+          ],
+          "summary": "Dynamical systems",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "liu-yang",
+          "name": "Liu Yang",
+          "title": "Assistant Professor (NUS Presidential Young Professor)",
+          "sub_field": "Data Science & Machine Learning",
+          "tags": [
+            "Data science and machine learning"
+          ],
+          "summary": "Data science and machine learning",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yue-yang",
+          "name": "Yue Yang",
+          "title": "Professor",
+          "sub_field": "Mathematical Logic",
+          "tags": [
+            "Recursion theory",
+            "models of arithmetic"
+          ],
+          "summary": "Recursion theory; models of arithmetic",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yao-yao",
+          "name": "Yao Yao",
+          "title": "Associate Professor (Dean's Chair); Vice-Dean, NUS Graduate School",
+          "sub_field": "PDE & Fluid Dynamics",
+          "tags": [
+            "Partial differential equations",
+            "fluid dynamics"
+          ],
+          "summary": "Partial differential equations; fluid dynamics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hui-yu",
+          "name": "Hui Yu",
+          "title": "Assistant Professor (NUS Presidential Young Professor)",
+          "sub_field": "PDE",
+          "tags": [],
+          "summary": "Regularity theory of elliptic partial differential equations and free boundary problems",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "de-qi-zhang",
+          "name": "De-Qi Zhang",
+          "title": "Professor",
+          "sub_field": "Algebraic Geometry",
+          "tags": [
+            "Algebraic geometry"
+          ],
+          "summary": "Algebraic geometry",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "louxin-zhang",
+          "name": "Louxin Zhang",
+          "title": "Professor",
+          "sub_field": "Computational Biology",
+          "tags": [
+            "Applied discrete mathematics",
+            "theoretical computer science",
+            "computational biology and bioinformatics"
+          ],
+          "summary": "Applied discrete mathematics; theoretical computer science; computational biology and bioinformatics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "tengren-zhang",
+          "name": "Tengren Zhang",
+          "title": "Associate Professor",
+          "sub_field": "Geometric Topology",
+          "tags": [
+            "Low dimensional topology",
+            "Lie theory",
+            "geometric structures"
+          ],
+          "summary": "Low dimensional topology; Lie theory; geometric structures",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "chengbo-zhu",
+          "name": "Chengbo Zhu",
+          "title": "Professor; Deputy Director, Institute for Mathematical Sciences",
+          "sub_field": "Representation Theory",
+          "tags": [
+            "Representation theory of Lie groups"
+          ],
+          "summary": "Representation theory of Lie groups",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
     }
   ]
 }

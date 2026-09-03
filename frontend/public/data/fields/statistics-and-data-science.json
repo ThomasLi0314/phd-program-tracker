@@ -5001,18 +5001,16 @@
         },
         {
           "id": "simon-tavare",
-          "name": "Simon Tavaré",
-          "title": "Professor of Statistics and Biological Sciences; Director, Irving Institute for Cancer Dynamics",
-          "sub_field": "Computational Biology, Cancer Evolution, Population Genetics, Approximate Bayesian Computation",
+          "name": "Simon Tavare",
+          "title": "Professor of Statistics and of Biological Sciences",
+          "sub_field": "Computational biology",
           "tags": [
+            "population genetics",
             "computational biology",
             "cancer evolution",
-            "population genetics",
-            "ABC",
-            "statistical bioinformatics",
             "applied probability"
           ],
-          "summary": "Research spans stochastic computation, approximate Bayesian computation, statistical bioinformatics, cancer evolution, and population genetics including coalescent theory and statistical inference in molecular biology.",
+          "summary": "Professor of Statistics and Biological Sciences (director of the Irving Institute for Cancer Dynamics) working on population genetics and computational biology.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -10354,6 +10352,25 @@
             "homepage": "https://profiles.rice.edu/faculty/konstantinos-mamouras",
             "scholar": null
           }
+        },
+        {
+          "id": "vicente-ordonez-roman",
+          "name": "Vicente Ordóñez-Román",
+          "title": "Associate Professor",
+          "sub_field": "Computer Vision, Natural Language Processing, Deep Learning",
+          "tags": [
+            "computer vision",
+            "NLP",
+            "deep learning",
+            "multimodal data",
+            "data science"
+          ],
+          "summary": "Associate Professor working on computer vision and NLP with data science methods. Research analyzes large-scale multimodal data connecting images and language, with focus on cross-lingual and cross-cultural understanding.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/vicente-ordonez-roman",
+            "scholar": null
+          }
         }
       ]
     },
@@ -11867,6 +11884,23 @@
             "homepage": null,
             "scholar": null
           }
+        },
+        {
+          "id": "soledad-fernandez",
+          "name": "Soledad Fernández",
+          "title": "Research Professor",
+          "sub_field": "Clinical Trials and Biostatistics",
+          "tags": [
+            "Clinical Trials",
+            "Biostatistics",
+            "Translational Research"
+          ],
+          "summary": "Research Professor contributing biostatistical expertise to clinical and translational research, with focus on clinical trial design and analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cph.osu.edu/people/sfernandez",
+            "scholar": null
+          }
         }
       ]
     },
@@ -12426,18 +12460,17 @@
           "id": "fernando-perez",
           "name": "Fernando Pérez",
           "title": "Associate Professor",
-          "sub_field": "Scientific Computing, Data Science",
+          "sub_field": "Scientific computing and data science",
           "tags": [
             "scientific computing",
             "open source",
-            "reproducible research",
             "data science",
             "reproducibility"
           ],
-          "summary": "Research in scientific computing and open-source tools for data science, creator of IPython and key contributor to the Jupyter ecosystem for reproducible research.",
+          "summary": "Works on tools and methods for scientific computing and reproducible data science (creator of IPython/Jupyter).",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://statistics.berkeley.edu/people/fernando-perez",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -17415,6 +17448,24 @@
             "homepage": "https://publichealth.uga.edu/faculty-member/sarah-c-haight/",
             "scholar": null
           }
+        },
+        {
+          "id": "jose-f-cordero",
+          "name": "José F. Cordero",
+          "title": "Professor",
+          "sub_field": "Maternal-Child Epidemiology",
+          "tags": [
+            "maternal-child health",
+            "epidemiology",
+            "preterm birth",
+            "environmental health"
+          ],
+          "summary": "Gordhan L. and Virginia B. Patel Distinguished Professor. Research on maternal-child health epidemiology, preterm birth, and environmental exposures affecting pregnancy outcomes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://publichealth.uga.edu/faculty-member/jose-f-cordero/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -18162,6 +18213,24 @@
             "matrix estimation"
           ],
           "summary": "Research on high-dimensional statistical inference, tensor data analysis, nonconvex optimization, and structured matrix estimation problems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "eren-c-k-z-ldag",
+          "name": "Eren C. Kızıldağ",
+          "title": "Assistant Professor",
+          "sub_field": "High-Dimensional Statistics, Statistical Physics",
+          "tags": [
+            "high-dimensional statistics",
+            "applied probability",
+            "statistical-computational tradeoffs",
+            "random models"
+          ],
+          "summary": "Research on high-dimensional statistics, applied probability, and statistical-computational tradeoffs in large-scale random models and high-dimensional inference problems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -19667,16 +19736,14 @@
           "id": "sebastian-zollner",
           "name": "Sebastian Zöllner",
           "title": "Professor",
-          "sub_field": "Statistical Genetics, Population Genetics",
+          "sub_field": "Statistical and population genetics",
           "tags": [
             "statistical genetics",
             "population genetics",
-            "genomics",
-            "genetic association studies",
             "psychiatric genetics",
             "GWAS"
           ],
-          "summary": "Research on statistical methods for genetic association studies, population genetics inference, and genomic data analysis for understanding complex disease genetics.",
+          "summary": "Works on statistical and population genetics methods for complex disease.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -22178,6 +22245,24 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://acms.nd.edu/people/changbo-zhu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "martina-bukac",
+          "name": "Martina Bukač",
+          "title": "Associate Professor",
+          "sub_field": "Computational Mathematics",
+          "tags": [
+            "numerical analysis",
+            "fluid-structure interaction",
+            "cardiovascular modeling",
+            "multiphysics"
+          ],
+          "summary": "Develops numerical methods for fluid-structure interaction problems, particularly modeling blood flow and vessel dynamics to understand cardiovascular disease. Works at the intersection of numerical analysis, computational mathematics, and biomechanics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://acms.nd.edu/people/martina-buka/",
             "scholar": null
           }
         }
@@ -28512,6 +28597,24 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://sds.washu.edu/people/hong-hu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jose-e-figueroa-lopez",
+          "name": "José E. Figueroa-López",
+          "title": "Professor",
+          "sub_field": "Financial Statistics, Stochastic Processes",
+          "tags": [
+            "high-frequency data",
+            "jump-diffusion models",
+            "nonparametric estimation",
+            "algorithmic trading"
+          ],
+          "summary": "Research at the intersection of statistics, financial mathematics, and probability, focusing on inference from high-frequency financial data, limit order books, jump-diffusion models, option pricing asymptotics, and portfolio optimization. Funded by NSF.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sds.washu.edu/people/jose-e-figueroa-lopez",
             "scholar": null
           }
         }

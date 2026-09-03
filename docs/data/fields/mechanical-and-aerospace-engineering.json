@@ -1661,21 +1661,18 @@
         {
           "id": "carmen-guerra-garcia",
           "name": "Carmen Guerra-García",
-          "title": "Esther and Harold E. Edgerton Associate Professor",
-          "sub_field": "Plasma Physics / Space Propulsion",
+          "title": "Associate Professor of Aeronautics and Astronautics (Esther and Harold E. Edgerton Career Development Professor)",
+          "sub_field": "Plasma Physics / Aerospace",
           "tags": [
-            "plasma-assisted combustion",
-            "electric propulsion",
-            "lightning physics",
             "plasma",
             "aerospace",
             "electric aircraft",
             "gas discharges"
           ],
-          "summary": "Studying plasma-assisted combustion, atmospheric electricity and lightning physics, and plasma-based space propulsion systems.",
+          "summary": "Researches plasma physics and gas discharges with applications to aerospace systems and electrified aircraft.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://aeroastro.mit.edu/people/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -1861,20 +1858,18 @@
         {
           "id": "raul-radovitzky",
           "name": "Raúl Radovitzky",
-          "title": "Jerome C. Hunsaker Professor",
-          "sub_field": "Computational Solid Mechanics / Materials",
+          "title": "Professor of Aeronautics and Astronautics (Jerome C. Hunsaker Professor)",
+          "sub_field": "Computational Mechanics",
           "tags": [
             "computational mechanics",
-            "impact dynamics",
-            "multiscale modeling",
             "solid mechanics",
             "impact",
             "materials modeling"
           ],
-          "summary": "Developing computational multiscale methods for solid mechanics, studying impact dynamics, penetration, and failure of aerospace materials.",
+          "summary": "Jerome C. Hunsaker Professor researching computational modeling of solids and structures under extreme loading and impact.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://aeroastro.mit.edu/people/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -2362,6 +2357,24 @@
             "satellite applications"
           ],
           "summary": "Leads the Space Enabled research group applying space technology and systems to advance justice and sustainable development.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "zoltan-s-spakovszky",
+          "name": "Zoltán S. Spakovszky",
+          "title": "Professor of Aeronautics and Astronautics (T. A. Wilson Professor)",
+          "sub_field": "Propulsion / Turbomachinery",
+          "tags": [
+            "propulsion",
+            "turbomachinery",
+            "aeroacoustics",
+            "gas turbines"
+          ],
+          "summary": "T. A. Wilson Professor and director of the Gas Turbine Laboratory studying turbomachinery, propulsion, and aeroacoustics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,

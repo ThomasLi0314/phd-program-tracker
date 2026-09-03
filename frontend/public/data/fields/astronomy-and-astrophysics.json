@@ -2264,6 +2264,22 @@
             "homepage": "https://physics-astronomy.jhu.edu/directory/yaojun-zhang/",
             "scholar": null
           }
+        },
+        {
+          "id": "brice-menard",
+          "name": "Brice Ménard",
+          "title": "Professor",
+          "sub_field": "Astrophysics",
+          "tags": [
+            "Astrophysics",
+            "Machine Learning"
+          ],
+          "summary": "Brice Ménard is Professor in the William H. Miller III Department of Physics and Astronomy at Johns Hopkins; research area: Astrophysics, Machine Learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://physics-astronomy.jhu.edu/directory/brice-menard/",
+            "scholar": null
+          }
         }
       ]
     },

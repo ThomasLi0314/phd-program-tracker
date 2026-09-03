@@ -7816,6 +7816,25 @@
             "homepage": null,
             "scholar": null
           }
+        },
+        {
+          "id": "nurgul-fitzgerald",
+          "name": "Nurgül Fitzgerald",
+          "title": "Associate Professor of Nutritional Sciences / Extension Specialist",
+          "sub_field": "Type 2 diabetes prevention and health disparities",
+          "tags": [
+            "diabetes prevention",
+            "food insecurity",
+            "health disparities",
+            "food environment",
+            "community nutrition"
+          ],
+          "summary": "Fitzgerald studies prevention of type 2 diabetes risk factors among underserved populations, examining individual, family, organizational, community, and policy-level determinants and integrating food systems analysis with lifestyle intervention research.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
         }
       ]
     },
@@ -11113,6 +11132,25 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.semel.ucla.edu/icng/team/david-krantz",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andre-nel",
+          "name": "André Nel",
+          "title": "Professor of Environmental Health Sciences and Medicine",
+          "sub_field": "Nanotoxicology and air pollution mechanisms",
+          "tags": [
+            "nanotoxicology",
+            "ultrafine particles",
+            "oxidative stress",
+            "engineered nanomaterials",
+            "airway inflammation"
+          ],
+          "summary": "Dr. Nel studies how air pollutants, particularly ultrafine particles, induce oxidative stress leading to airway inflammation and asthma. His broader work in nanobiology addresses the toxicological effects and safe design of engineered nanomaterials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ph.ucla.edu/about/faculty-staff-directory/andre-nel",
             "scholar": null
           }
         }

@@ -2095,23 +2095,19 @@
         },
         {
           "id": "cedric-g-fichot",
-          "name": "Cédric G. Fichot",
-          "title": "Associate Professor, Director of Center for Remote Sensing",
-          "sub_field": "Coastal Biogeochemistry & Ocean Remote Sensing",
+          "name": "Cedric G. Fichot",
+          "title": "Associate Professor",
+          "sub_field": "Coastal and aquatic remote sensing / biogeochemistry",
           "tags": [
             "remote sensing",
-            "estuarine biogeochemistry",
-            "marine optics",
-            "water quality",
-            "photochemistry",
             "coastal",
             "biogeochemistry",
             "ocean color"
           ],
-          "summary": "Marine scientist focused on estuarine and coastal biogeochemistry and water quality, combining marine optics, remote sensing, organic geochemistry, and photochemistry to understand terrestrial-marine interactions and their disruption by climate change and human activities.",
+          "summary": "Associate Professor and Director of the Center for Remote Sensing studying coastal carbon cycling using optical remote sensing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://sites.bu.edu/fichotlab/",
+            "homepage": null,
             "scholar": null
           }
         },
@@ -2603,6 +2599,25 @@
             "homepage": "https://www.cmu.edu/cee/m5lab/",
             "scholar": null
           }
+        },
+        {
+          "id": "mario-berges",
+          "name": "Mario Bergés",
+          "title": "Professor",
+          "sub_field": "Smart infrastructure and building energy analytics",
+          "tags": [
+            "smart infrastructure",
+            "energy efficiency",
+            "sensor data analytics",
+            "machine learning",
+            "buildings"
+          ],
+          "summary": "Bergés works on making the built environment more operationally efficient and robust through information and communication technologies. His current research develops approximate inference techniques to extract actionable insights from infrastructure sensor data, particularly for building energy efficiency.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.marioberges.com",
+            "scholar": "https://scholar.google.com/citations?user=b7XUPaQAAAAJ&hl=en"
+          }
         }
       ]
     },
@@ -3079,6 +3094,44 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://eesc.columbia.edu/content/folarin-kolawole",
+            "scholar": null
+          }
+        },
+        {
+          "id": "goran-ekstrom",
+          "name": "Göran Ekström",
+          "title": "Professor of Earth and Environmental Sciences",
+          "sub_field": "Geoscience",
+          "tags": [
+            "seismology",
+            "geophysics",
+            "earthquake source",
+            "global seismology",
+            "glacial earthquakes"
+          ],
+          "summary": "Research on global seismology, earthquake source processes, glacial earthquakes and glacier dynamics, and the structure and dynamics of Earth's interior using broadband seismic data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://eesc.columbia.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "barbel-honisch",
+          "name": "Bärbel Hönisch",
+          "title": "Professor of Earth and Environmental Sciences; Associate Chair",
+          "sub_field": "Climate Science",
+          "tags": [
+            "paleoceanography",
+            "paleoclimate",
+            "ocean acidification",
+            "foraminifera",
+            "boron isotopes"
+          ],
+          "summary": "Research on paleoceanography and paleoclimate, reconstructing past ocean carbonate chemistry and atmospheric CO2 using boron isotopes in foraminifera, and ocean acidification through Earth history.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://eesc.columbia.edu/content/baerbel-honisch",
             "scholar": null
           }
         }
@@ -4078,6 +4131,25 @@
             "homepage": "https://lr-xiang.github.io/lxweb/",
             "scholar": null
           }
+        },
+        {
+          "id": "natalie-capiro",
+          "name": "Natalie Cápiro",
+          "title": "Assistant Professor",
+          "sub_field": "Environmental contaminant fate and remediation",
+          "tags": [
+            "PFAS",
+            "groundwater remediation",
+            "contaminant transport",
+            "environmental microbiology",
+            "environmental engineering"
+          ],
+          "summary": "Cápiro examines the biotransformation of emerging (e.g., PFAS) and legacy (e.g., chlorinated solvents) organic contaminants in the environment. Her research explores degradation pathways, microbial community dynamics, and biological-chemical interactions relevant to groundwater remediation and water quality protection.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://blogs.cornell.edu/capiro-lab/",
+            "scholar": "https://scholar.google.com/citations?user=kFB3frwAAAAJ&hl=en"
+          }
         }
       ]
     },
@@ -4552,6 +4624,25 @@
           "links": {
             "homepage": "https://blogs.cornell.edu/bouklaslab",
             "scholar": "https://scholar.google.com/citations?user=8i0krfcAAAAJ"
+          }
+        },
+        {
+          "id": "chloe-arson",
+          "name": "Chloé Arson",
+          "title": "Professor and M.Eng. Director",
+          "sub_field": "Geomechanics",
+          "tags": [
+            "rock mechanics",
+            "poromechanics",
+            "computational geomechanics",
+            "underground storage",
+            "bio-inspired geotechnics"
+          ],
+          "summary": "Arson specializes in damage and healing rock mechanics, poromechanical modeling of porous media, and computational geomechanics, developing numerical tools to evaluate underground storage, simulate rock fracturing, and design bio-inspired geotechnical systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://arsonlab.engineering.cornell.edu/",
+            "scholar": "https://scholar.google.com/citations?user=V2qk4ZEAAAAJ&hl=fr"
           }
         }
       ]
@@ -5326,6 +5417,44 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://schmidt.astro.cornell.edu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chloe-arson",
+          "name": "Chloé Arson",
+          "title": "Professor and M.Eng. Director, Department of Earth and Atmospheric Sciences",
+          "sub_field": "Computational Geomechanics & Rock Mechanics",
+          "tags": [
+            "rock mechanics",
+            "damage mechanics",
+            "geomechanics",
+            "porous media",
+            "machine learning"
+          ],
+          "summary": "Studies damage and healing rock mechanics, micro-macro modeling of porous media, and computational geomechanics. Her group develops tools to evaluate underground storage performance, model rock weathering, and create bio-inspired geotechnical systems, with emerging applications of artificial intelligence.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://arsonlab.engineering.cornell.edu/",
+            "scholar": "https://scholar.google.com/citations?user=V2qk4ZEAAAAJ&hl=fr"
+          }
+        },
+        {
+          "id": "carolina-munoz-saez",
+          "name": "Carolina Muñoz-Saez",
+          "title": "Assistant Professor, Earth and Atmospheric Sciences Faculty Fellow",
+          "sub_field": "Hydrothermal Systems & Geofluids",
+          "tags": [
+            "hydrothermal systems",
+            "geysers",
+            "geochemistry",
+            "geothermal energy",
+            "fluid-rock interaction"
+          ],
+          "summary": "Investigates geological processes involving fluids, with a focus on hydrothermal environments such as geysers and geothermal systems, combining field observations with geochemical and physical analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://carolimunoz6.wixsite.com/website",
             "scholar": null
           }
         }
@@ -6128,6 +6257,24 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "shersingh-joseph-tumber-davila",
+          "name": "Shersingh Joseph Tumber-Dávila",
+          "title": "Assistant Professor of Environmental Studies",
+          "sub_field": "Plant ecology and the global carbon cycle",
+          "tags": [
+            "plant ecology",
+            "carbon cycle",
+            "forest carbon",
+            "nature-based climate solutions"
+          ],
+          "summary": "Tumber-Davila investigates how plants influence the global carbon cycle through studies of plant allometry, climate change impacts on forest carbon sequestration, and nature-based climate solutions, using regional and global experiments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.dartmouth.edu/tumberdavilalab/",
             "scholar": null
           }
         }
@@ -8040,6 +8187,25 @@
             "homepage": null,
             "scholar": "https://scholar.google.com/citations?user=1kQeaPYAAAAJ"
           }
+        },
+        {
+          "id": "anke-huls",
+          "name": "Anke Hüls",
+          "title": "Associate Professor, Rollins Endowed Faculty Scholar",
+          "sub_field": "Environmental epidemiology / neuro-exposomics",
+          "tags": [
+            "air pollution",
+            "cognitive health",
+            "epigenetics",
+            "Alzheimer's disease",
+            "environmental exposures"
+          ],
+          "summary": "Studies how air pollution, social factors, and molecular epigenetic mechanisms affect cognitive health across the lifespan, from cognitive decline in adults to development in children.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": "https://scholar.google.com/citations?user=8ACFuJYAAAAJ&hl=en"
+          }
         }
       ]
     },
@@ -9112,24 +9278,20 @@
         },
         {
           "id": "sofia-perez-guzman",
-          "name": "Sofía Pérez-Guzmán",
+          "name": "Sofia Perez-Guzman",
           "title": "Assistant Professor",
-          "sub_field": "Transportation Systems",
+          "sub_field": "Freight transportation and logistics",
           "tags": [
-            "freight transportation",
-            "urban logistics",
-            "supply chains",
-            "emergency logistics",
-            "behavioral modeling",
             "transportation",
             "freight",
-            "logistics"
+            "logistics",
+            "supply chain"
           ],
-          "summary": "Advances freight transportation and supply chain systems through a human-centered lens, focusing on urban freight, emergency logistics, and urban food systems. Integrates optimization, simulation, and behavioral modeling to address accessibility, sustainability, and operational resilience in logistics.",
+          "summary": "Assistant Professor researching freight transportation, logistics, and urban goods movement.",
           "recruitment_status": "Unknown/Verify",
           "links": {
-            "homepage": "https://spg.ce.gatech.edu/",
-            "scholar": "https://scholar.google.com/citations?hl=en&user=vFhSZ_EAAAAJ"
+            "homepage": null,
+            "scholar": null
           }
         },
         {
@@ -12535,18 +12697,16 @@
         },
         {
           "id": "lesliam-quiros-alcala",
-          "name": "Lesliam Quirós-Alcalá",
-          "title": "Associate Professor",
-          "sub_field": "Exposure science and environmental epidemiology",
+          "name": "Lesliam Quiros-Alcala",
+          "title": "Assistant Professor",
+          "sub_field": "Environmental exposures and health disparities",
           "tags": [
-            "exposure science",
-            "environmental epidemiology",
+            "EDCs",
             "chemical exposures",
             "vulnerable populations",
-            "EDCs",
             "ESEE"
           ],
-          "summary": "Leverages expertise in exposure science and environmental epidemiology to investigate the potential health impacts of chemical exposures on high-risk populations.",
+          "summary": "ESEE track faculty studying the impact of exposure to chemicals, EDCs and PPCPs on disease risks in vulnerable populations.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://publichealth.jhu.edu/faculty/3864/lesliam-quiros-alcala",
@@ -12641,6 +12801,24 @@
           "links": {
             "homepage": "https://engineering.jhu.edu/faculty/scot-miller/",
             "scholar": "https://scholar.google.com/citations?user=r2NKiJwAAAAJ"
+          }
+        },
+        {
+          "id": "fenna-sille",
+          "name": "Fenna Sillé",
+          "title": "Assistant Professor",
+          "sub_field": "Immunotoxicology",
+          "tags": [
+            "developmental immunotoxicity",
+            "vaccines",
+            "toxicology",
+            "TPMM"
+          ],
+          "summary": "TPMM-track advising faculty studying developmental immunotoxicity in the context of chronic and infectious diseases and vaccine efficacy.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://publichealth.jhu.edu/faculty/3443/fenna-sille",
+            "scholar": "https://scholar.google.com/citations?user=kF78fqIAAAAJ"
           }
         }
       ]
@@ -12931,6 +13109,25 @@
             "homepage": "https://binalab.lehigh.edu",
             "scholar": "https://scholar.google.com/citations?user=voOGgc4AAAAJ&hl=en"
           }
+        },
+        {
+          "id": "claudia-reis",
+          "name": "Cláudia Reis",
+          "title": "Assistant Professor",
+          "sub_field": "Coastal infrastructure and multi-hazard risk",
+          "tags": [
+            "fluid-solid interaction",
+            "multi-hazard risk",
+            "coastal engineering",
+            "critical infrastructure",
+            "offshore engineering"
+          ],
+          "summary": "A structural engineer researching fluid-solid interaction in the framework of coastal and offshore engineering and multi-risk management. Focused on modeling critical infrastructure across multi-scale and multi-physics domains in multi-hazard prone regions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.lehigh.edu/cee/faculty/166318",
+            "scholar": "https://scholar.google.com/citations?user=c50-ryIAAAAJ&hl=en"
+          }
         }
       ]
     },
@@ -13162,6 +13359,25 @@
           "links": {
             "homepage": "https://engineering.lehigh.edu/cee/faculty/770",
             "scholar": "https://scholar.google.com/citations?user=nH7I11AAAAAJ&hl=en&oi=ao"
+          }
+        },
+        {
+          "id": "claudia-reis",
+          "name": "Cláudia Reis",
+          "title": "Assistant Professor",
+          "sub_field": "Coastal structures and multi-hazard risk",
+          "tags": [
+            "structural engineering",
+            "fluid-solid interaction",
+            "coastal and offshore structures",
+            "multi-hazard risk",
+            "critical infrastructure"
+          ],
+          "summary": "A structural engineer researching fluid-solid interaction in the framework of coastal and offshore engineering and multi-risk management. Models critical infrastructure across multi-scale and multi-physics domains in hazard-prone regions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.lehigh.edu/cee/faculty/166318",
+            "scholar": "https://scholar.google.com/citations?user=c50-ryIAAAAJ&hl=en"
           }
         }
       ]
@@ -14062,6 +14278,44 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://cee.mit.edu/people_individual/serguei-saavedra/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "desiree-plata",
+          "name": "Desirée Plata",
+          "title": "School of Engineering Distinguished Climate and Energy Professor",
+          "sub_field": "Environmental chemistry",
+          "tags": [
+            "environmental chemistry",
+            "carbon systems",
+            "resource efficiency",
+            "sustainable design",
+            "energy"
+          ],
+          "summary": "Specializes in environmental chemistry for novel materials and industrial process optimization, carbon and energy systems, resource efficiency, and sustainable design.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cee.mit.edu/people_individual/desiree-plata/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "cesar-terrer",
+          "name": "César Terrer",
+          "title": "TianFu Group Career Development Professor",
+          "sub_field": "Terrestrial ecosystems and carbon",
+          "tags": [
+            "terrestrial ecosystems",
+            "carbon dynamics",
+            "climate solutions",
+            "remote sensing",
+            "Earth system"
+          ],
+          "summary": "Examines Earth system challenges and climate change with satellite and field data, assessing terrestrial ecosystems, carbon dynamics, and climate solutions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cee.mit.edu/people_individual/cesar-terrer/",
             "scholar": null
           }
         }
@@ -17380,6 +17634,42 @@
             "homepage": "",
             "scholar": ""
           }
+        },
+        {
+          "id": "jesus-pineda",
+          "name": "Jesús Pineda",
+          "title": "Senior Scientist, WHOI Biology",
+          "sub_field": "Coastal benthic ecology and larval transport",
+          "tags": [
+            "larval transport",
+            "benthic ecology",
+            "coastal oceanography",
+            "connectivity"
+          ],
+          "summary": "Studies how circulation, temperature and bathymetry drive larval transport and the distribution of coastal benthic organisms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://science.whoi.edu/labs/pinedalab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "matej-pec",
+          "name": "Matěj Peč",
+          "title": "Associate Professor, MIT EAPS",
+          "sub_field": "Experimental rock deformation and plate tectonics",
+          "tags": [
+            "rock deformation",
+            "rheology",
+            "tectonics",
+            "experimental petrology"
+          ],
+          "summary": "Conducts experimental rock deformation studies to understand lithospheric rheology and plate tectonic processes.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "",
+            "scholar": ""
+          }
         }
       ]
     },
@@ -17997,6 +18287,24 @@
         },
         {
           "id": "elizabeth-h-naff",
+          "name": "Elizabeth Hénaff",
+          "title": "Assistant Professor, Technology, Culture and Society (affiliated with Civil, Urban, and Environmental Engineering)",
+          "sub_field": "Urban Microbiomes & Built Environment",
+          "tags": [
+            "microbiomes",
+            "bioinformatics",
+            "built environment",
+            "sustainability"
+          ],
+          "summary": "Assistant Professor in Technology, Culture and Society and CUSP, affiliated with the Civil, Urban, and Environmental Engineering department, leading the Laboratory for Living Interfaces. Her work explores the way living beings interact with their environment, with recent emphasis on microbial communities in urban settings.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/elizabeth-henaff",
+            "scholar": "https://scholar.google.com/citations?user=b1pfAY8AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "elizabeth-henaff",
           "name": "Elizabeth Hénaff",
           "title": "Assistant Professor, Technology, Culture and Society (affiliated with Civil, Urban, and Environmental Engineering)",
           "sub_field": "Urban Microbiomes & Built Environment",
@@ -19680,6 +19988,44 @@
             "homepage": "http://sites.northwestern.edu/wells/",
             "scholar": null
           }
+        },
+        {
+          "id": "zdenek-bazant",
+          "name": "Zdeněk Bažant",
+          "title": "McCormick Institute Professor and Walter P. Murphy Professor of Civil and Environmental Engineering and (by courtesy) Mechanical Engineering and Materials Scien",
+          "sub_field": "Solid and structural mechanics",
+          "tags": [
+            "fracture mechanics",
+            "scaling of failure",
+            "structural stability",
+            "quasibrittle materials",
+            "poromechanics"
+          ],
+          "summary": "Bažant works on interdisciplinary problems in the mechanics of solids and structures, including nonlinear fracture mechanics, size effects and scaling of failure, damage micromechanics, creep in nanoporous materials, hydraulic fracturing of shale, and probabilistic mechanics of quasibrittle structures.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.civil.northwestern.edu/people/bazant/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jean-francois-gaillard",
+          "name": "Jean-François Gaillard",
+          "title": "Professor of Civil and Environmental Engineering and (by courtesy) Earth and Planetary Sciences",
+          "sub_field": "Aquatic environmental chemistry",
+          "tags": [
+            "metal speciation",
+            "biogeochemical cycling",
+            "X-ray absorption spectroscopy",
+            "aquatic systems",
+            "nanomaterials"
+          ],
+          "summary": "Gaillard's group works to understand the molecular and biogeochemical processes affecting the fate of metals in aquatic systems, emphasizing how chemical speciation controls bioavailability, using field studies, laboratory experiments, and spectroscopic modeling of metals such as As, Ni, and Hg.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.civil.northwestern.edu/ees/LEG/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -20159,6 +20505,44 @@
           "links": {
             "homepage": null,
             "scholar": "https://scholar.google.com/citations?user=BEJ7FHIAAAAJ&hl=en&oi=ao"
+          }
+        },
+        {
+          "id": "jurgen-hackl",
+          "name": "Jürgen Hackl",
+          "title": "Assistant Professor of Civil and Environmental Engineering",
+          "sub_field": "Complex infrastructure systems",
+          "tags": [
+            "network science",
+            "infrastructure resilience",
+            "digital twins",
+            "uncertainty quantification",
+            "spatial-temporal networks"
+          ],
+          "summary": "Hackl's research lies at the interface of network science and complex infrastructure systems, focusing on spatial-temporal networks, uncertainty quantification, digital twin technologies, and intelligent risk and resilience assessment of cities under climate change.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": "https://scholar.google.com/citations?user=6O0RZxwAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "peter-jaffe",
+          "name": "Peter Jaffé",
+          "title": "William L. Knapp '47 Professor of Civil Engineering; Professor of Civil and Environmental Engineering",
+          "sub_field": "Environmental engineering and biogeochemistry",
+          "tags": [
+            "contaminant transport",
+            "biogeochemistry",
+            "bioremediation",
+            "Feammox",
+            "wastewater treatment"
+          ],
+          "summary": "Jaffé's research addresses the physical, chemical, and biological processes governing transport and transformation of pollutants in the environment and their application to remediation of contaminated systems, including biogeochemical reaction-transport in soils and sediments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": "https://scholar.google.com/citations?user=QHebt1cAAAAJ&hl=en"
           }
         }
       ]
@@ -28517,6 +28901,25 @@
             "homepage": null,
             "scholar": "https://scholar.google.com/citations?hl=en&user=FM1kYQYAAAAJ"
           }
+        },
+        {
+          "id": "david-j-x-gonzalez",
+          "name": "David J.X. González",
+          "title": "Assistant Professor, Environmental Health Sciences",
+          "sub_field": "Environmental justice and public health",
+          "tags": [
+            "extractive industries",
+            "climate disasters",
+            "perinatal health",
+            "structural racism",
+            "environmental justice"
+          ],
+          "summary": "Studies how pollution from extractive industries and climate-driven disasters affects public health, using population-level data and community-engaged methods to address health disparities.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://equislab.publichealth.berkeley.edu/",
+            "scholar": "https://scholar.google.com/citations?user=I_msswMAAAAJ&hl=en"
+          }
         }
       ]
     },
@@ -28934,6 +29337,25 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://sites.google.com/view/berkeleyforestecologylab",
+            "scholar": null
+          }
+        },
+        {
+          "id": "celine-pallud",
+          "name": "Céline Pallud",
+          "title": "Professor",
+          "sub_field": "Soil biogeochemistry",
+          "tags": [
+            "biogeochemistry",
+            "soils and sediments",
+            "contaminant transport",
+            "microbial processes",
+            "reactive transport"
+          ],
+          "summary": "Examines the transport and fate of chemical species in soils and sediments, emphasizing microbial processes affecting contaminant mobility using field, laboratory, and modeling approaches.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
             "scholar": null
           }
         }
@@ -31585,6 +32007,25 @@
             "homepage": "https://samueli.ucla.edu/people/sanjay-mohanty/",
             "scholar": null
           }
+        },
+        {
+          "id": "enrique-a-lopez-droguett",
+          "name": "Enrique A. López-Droguett",
+          "title": "Professor",
+          "sub_field": "Civil Engineering",
+          "tags": [
+            "risk sciences",
+            "reliability",
+            "Bayesian inference",
+            "prognostics",
+            "digital twins"
+          ],
+          "summary": "Research in risk and reliability sciences, Bayesian inference for structural health monitoring, prognostics and health management, digital twins, and machine learning for reliability and safety of engineered systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/enrique-lopez-droguett/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -32780,6 +33221,25 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://ph.ucla.edu/about/faculty-staff-directory/jian-li",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andre-nel",
+          "name": "André Nel",
+          "title": "Professor of Environmental Health Sciences",
+          "sub_field": "Nanotoxicology and air pollution health effects",
+          "tags": [
+            "nanobiology",
+            "ultrafine particles",
+            "oxidative stress",
+            "asthma",
+            "airway inflammation"
+          ],
+          "summary": "Dr. Nel investigates how air pollutants contribute to asthma development, specifically examining the mechanisms by which ultrafine particle-induced oxidative stress generates airway inflammation. His work also encompasses nanobiology and the health effects of engineered nanomaterials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ph.ucla.edu/about/faculty-staff-directory/andre-nel",
             "scholar": null
           }
         }
@@ -36489,6 +36949,24 @@
             "homepage": null,
             "scholar": null
           }
+        },
+        {
+          "id": "clara-blattler",
+          "name": "Clara Blättler",
+          "title": "Assistant Professor",
+          "sub_field": "Isotope Geochemistry",
+          "tags": [
+            "isotope geochemistry",
+            "geological carbon cycle",
+            "paleoceanography",
+            "sediments"
+          ],
+          "summary": "Assistant Professor studying isotope geochemistry, the geological carbon cycle, and paleoceanography.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
         }
       ]
     },
@@ -37255,6 +37733,24 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://essie.ufl.edu/ees/faculty/name/kathe-todd-brown/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "katherine-deliz-quinones",
+          "name": "Katherine Deliz Quiñones",
+          "title": "Assistant Professor",
+          "sub_field": "Environmental Biotechnology",
+          "tags": [
+            "biotechnology",
+            "pollutant remediation",
+            "pathogens",
+            "water quality"
+          ],
+          "summary": "Assistant Professor working in environmental biotechnology, with research on the remediation of pollutants and pathogens in environmental systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://essie.ufl.edu/ees/faculty/name/katherine-deliz-quinones/",
             "scholar": null
           }
         }
@@ -38211,6 +38707,25 @@
           "links": {
             "homepage": "https://github.com/UGA-MOBILITY-LAB",
             "scholar": "https://scholar.google.com/citations?user=9ZEQcekAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "felix-santiago-collazo",
+          "name": "Félix Santiago-Collazo",
+          "title": "Assistant Professor",
+          "sub_field": "Compound flood modeling",
+          "tags": [
+            "compound flooding",
+            "flood hazard assessment",
+            "water equity",
+            "resilient infrastructure",
+            "smart water systems"
+          ],
+          "summary": "Focuses on compound flood modeling and multi-flood hazard assessments, developing hybrid infrastructure solutions and smart water systems. His Compound Inundation Team for Resilient Applications (CITRA) emphasizes water equity and community flood resilience.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://citra.engr.uga.edu/",
+            "scholar": "https://scholar.google.com/citations?user=MezAVc8AAAAJ&hl=es"
           }
         }
       ]
@@ -39557,6 +40072,25 @@
             "homepage": null,
             "scholar": null
           }
+        },
+        {
+          "id": "jose-f-cordero",
+          "name": "José F. Cordero",
+          "title": "Gordhan L. Virginia B. \"Jinx\" Patel Distinguished Professor of Public Health",
+          "sub_field": "Environmental and maternal-child epidemiology",
+          "tags": [
+            "environmental epidemiology",
+            "endocrine disruptors",
+            "preterm birth",
+            "neurodevelopment",
+            "oxidative stress"
+          ],
+          "summary": "Investigates how endocrine disruptors and oxidative stress influence preterm births and neurodevelopment through large cohort studies in Puerto Rico, including the PROTECT study and CRECE center. Work also examines Zika infection risks during pregnancy via the ZIP consortium.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
         }
       ]
     },
@@ -40636,6 +41170,25 @@
             "homepage": "https://climatezhang.web.illinois.edu/",
             "scholar": null
           }
+        },
+        {
+          "id": "joseph-trujillo-falcon",
+          "name": "Joseph Trujillo-Falcón",
+          "title": "Assistant Professor",
+          "sub_field": "Weather and climate risk communication",
+          "tags": [
+            "risk communication",
+            "severe weather",
+            "multilingual communities",
+            "social science",
+            "weather hazards"
+          ],
+          "summary": "Examines how speakers of multiple languages comprehend and respond to severe weather and climate threats, bridging atmospheric science and communication through collaboration with practitioners and communities to improve risk communication technologies and strategies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://publish.illinois.edu/alertaslab/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -41450,6 +42003,24 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://nres.illinois.edu/directory/wirz",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "maria-alejandra-garcia-otero",
+          "name": "María Alejandra García Otero",
+          "title": "Assistant Professor",
+          "sub_field": "Rural Sustainability & Environmental Justice",
+          "tags": [
+            "environmental justice",
+            "rural sustainability",
+            "international development",
+            "conservation social science"
+          ],
+          "summary": "Studies justice dimensions of rural sustainability and how agricultural and environmental-service projects affect rural communities in Latin America.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://nres.illinois.edu/directory/mariaag",
             "scholar": ""
           }
         }
@@ -43913,6 +44484,24 @@
         },
         {
           "id": "est-fan-garcia",
+          "name": "Estéfan Garcia",
+          "title": "Assistant Professor",
+          "sub_field": "Risk and Resilience",
+          "tags": [
+            "coastal hazards",
+            "climate adaptation",
+            "resilience modeling",
+            "infrastructure systems"
+          ],
+          "summary": "Research on resilience modeling for infrastructure systems facing coastal hazards and climate change adaptation challenges.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://cee.engin.umich.edu/people/garcia-estefan/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "estefan-garcia",
           "name": "Estéfan Garcia",
           "title": "Assistant Professor",
           "sub_field": "Risk and Resilience",
@@ -47183,6 +47772,44 @@
           "recruitment_status": "Looking for Students",
           "links": {
             "homepage": "https://web.sas.upenn.edu/atmos-lab/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "reto-giere",
+          "name": "Reto Gieré",
+          "title": "Professor",
+          "sub_field": "Environmental mineralogy and geochemistry",
+          "tags": [
+            "mineralogy",
+            "environmental geochemistry",
+            "petrology",
+            "air pollution and health",
+            "waste and sustainability"
+          ],
+          "summary": "Examines Earth materials, their response to geological forces, and their interaction with the environment and humans, spanning environmental geochemistry, mineralogy, petrology, and the health impacts of atmospheric pollution with a focus on energy, waste, and sustainability.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://web.sas.upenn.edu/gierelab/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ileana-perez-rodriguez",
+          "name": "Ileana Pérez-Rodríguez",
+          "title": "Assistant Professor",
+          "sub_field": "Geomicrobiology",
+          "tags": [
+            "geomicrobiology",
+            "microbial ecophysiology",
+            "bioenergetics",
+            "biogeochemistry",
+            "extremophiles"
+          ],
+          "summary": "Studies geomicrobiology, ecophysiology, bioenergetics, and metabolic ecology to understand microbial processes and their biogeochemical impacts on environmental systems and Earth's history.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://web.sas.upenn.edu/penngeomicrolab/",
             "scholar": null
           }
         }
@@ -50658,6 +51285,26 @@
             "homepage": "https://caee.utexas.edu/person/zhaomiao-guo/",
             "scholar": null
           }
+        },
+        {
+          "id": "alexandra-clara-saracho",
+          "name": "Alexandra Clarà Saracho",
+          "title": "Assistant Professor",
+          "sub_field": "Biogeotechnics",
+          "tags": [
+            "Biogeotechnics",
+            "Erosion of soils",
+            "Carbon capture and storage",
+            "3D printing in geotechnical engineering",
+            "Thermal properties of soils",
+            "Laboratory testing of soils"
+          ],
+          "summary": "Alexandra Clarà Saracho is an Assistant Professor in the Maseeh Department of Civil, Architectural and Environmental Engineering; research areas include Biogeotechnics; Erosion of soils; Carbon capture and storage.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://caee.utexas.edu/person/alexandra-clara-saracho/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -51807,6 +52454,24 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://engineering.virginia.edu/faculty/majid-shafiee-jood",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andres-f-clarens",
+          "name": "Andrés F. Clarens",
+          "title": "Professor and Associate Director, UVA Environmental Institute",
+          "sub_field": "Environmental Engineering",
+          "tags": [
+            "carbon flows",
+            "CO2 sequestration",
+            "decarbonization",
+            "industrial ecology"
+          ],
+          "summary": "Associate Director of UVA Environmental Institute. Research on anthropogenic carbon flows, CO2 manipulation, reuse, and sequestration in engineered systems for infrastructure decarbonization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.virginia.edu/faculty/andres-f-clarens",
             "scholar": null
           }
         }
@@ -53109,6 +53774,25 @@
             "homepage": "http://www.atmos.washington.edu/~robwood/",
             "scholar": null
           }
+        },
+        {
+          "id": "lyatt-jaegle",
+          "name": "Lyatt Jaeglé",
+          "title": "Professor, Atmospheric and Climate Science",
+          "sub_field": "Atmospheric Chemistry Modeling",
+          "tags": [
+            "atmospheric chemistry",
+            "chemical transport modeling",
+            "aerosols",
+            "pollutant transport",
+            "tropospheric photochemistry"
+          ],
+          "summary": "Studies tropospheric and stratospheric photochemistry through chemical modeling of atmospheric observations, examining the influence of human activities on atmospheric composition, including aerosols, sea salt, and pollutant transport.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.atmos.washington.edu/~jaegle/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -54333,6 +55017,44 @@
             "homepage": "https://www.abrahmslab.com/",
             "scholar": null
           }
+        },
+        {
+          "id": "andre-punt",
+          "name": "André Punt",
+          "title": "Professor, School of Aquatic and Fishery Sciences",
+          "sub_field": "Quantitative fisheries stock assessment",
+          "tags": [
+            "stock assessment",
+            "population dynamics",
+            "management strategy evaluation",
+            "marine mammals",
+            "fisheries modeling"
+          ],
+          "summary": "Punt develops and tests quantitative methods for assessing fish, invertebrate, and marine mammal populations. His work applies population dynamics modeling and Management Strategy Evaluation to inform management decisions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://puntlab.washington.edu/",
+            "scholar": "https://scholar.google.com/citations?user=yvuzl0afP9cC&hl=en"
+          }
+        },
+        {
+          "id": "sandor-toth",
+          "name": "Sándor Tóth",
+          "title": "Associate Professor, School of Environmental and Forest Sciences",
+          "sub_field": "Forest resource management / operations research",
+          "tags": [
+            "harvest scheduling",
+            "operations research",
+            "multi-criteria planning",
+            "decision support",
+            "forest economics"
+          ],
+          "summary": "Tóth develops quantitative decision-support tools for forest and natural resource management, focusing on spatially explicit harvest scheduling models, multiple-criteria forest planning, operations research, and non-timber forest economics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://faculty.washington.edu/toths/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -55508,6 +56230,25 @@
             "homepage": "https://surface.geoscience.wisc.edu/",
             "scholar": "https://scholar.google.com/citations?user=egaKKaQAAAAJ&hl=en"
           }
+        },
+        {
+          "id": "chloe-bonamici",
+          "name": "Chloë Bonamici",
+          "title": "Associate Professor",
+          "sub_field": "Metamorphic Petrology & Geochemistry",
+          "tags": [
+            "geochemistry",
+            "petrology",
+            "structural geology",
+            "fluid-rock interaction",
+            "SIMS"
+          ],
+          "summary": "Bridges geochemistry, petrology, and structural geology to examine deep-Earth fluid movement, thermal histories, and rock deformation. Combines field mapping, electron microprobe, electron-backscatter diffraction, and secondary ion mass spectrometry.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/wisc.edu/uw-petro-geochem-lab/people",
+            "scholar": "https://scholar.google.com/citations?user=UNhWzeIAAAAJ&hl=en"
+          }
         }
       ]
     },
@@ -55925,6 +56666,25 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://sites.google.com/wisc.edu/hzanowski/home",
+            "scholar": null
+          }
+        },
+        {
+          "id": "angel-f-adames-corraliza",
+          "name": "Ángel F. Adames Corraliza",
+          "title": "Associate Professor, Ned P. Smith Distinguished Chair of Climatology",
+          "sub_field": "tropical atmospheric dynamics",
+          "tags": [
+            "tropical meteorology",
+            "large-scale dynamics",
+            "Madden-Julian Oscillation",
+            "tropical rainfall",
+            "climate change"
+          ],
+          "summary": "Investigates the physical processes that drive large-scale circulations in the atmosphere, with a particular focus on the tropics, spanning phenomena from inertio-gravity waves to ENSO. His group studies how these circulations affect rainfall and how they respond to rising CO2.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://afadames.com/",
             "scholar": null
           }
         }
@@ -61255,8 +62015,249 @@
         "program": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-earth-and-environmental-sciences",
         "admissions": "https://www.gs.cuhk.edu.hk/admissions/application-deadline"
       },
-      "data_currency": "Deadlines from the CUHK Graduate School application-deadline page, English requirement from its admission-requirements page, studentship from its studentships page, retrieved 2026-09-03. The deadline page labels rounds without an entry year; 1 Dec 2026 is the round feeding the Sept 2027 start. Faculty roster not yet scanned.",
-      "faculty": []
+      "data_currency": "Deadlines from the CUHK Graduate School application-deadline page, English requirement from its admission-requirements page, studentship from its studentships page, retrieved 2026-09-03. The deadline page labels rounds without an entry year; 1 Dec 2026 is the round feeding the Sept 2027 start. Faculty roster (16 professorial staff) read from the CUHK Earth and Environmental Sciences staff page, 2026-09-03; the page groups them as Atmospheric Science, Biogeoscience and Geophysical Science.",
+      "faculty": [
+        {
+          "id": "amos-pui-kuen-tai",
+          "name": "Amos Pui Kuen Tai",
+          "title": "Professor / Deputy Chair (Education)",
+          "sub_field": "Atmospheric Science",
+          "tags": [
+            "Ecological climatology"
+          ],
+          "summary": "Ecological climatology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "man-nin-chan",
+          "name": "Man Nin Chan",
+          "title": "Associate Professor",
+          "sub_field": "Atmospheric Science",
+          "tags": [
+            "Aerosol chemistry"
+          ],
+          "summary": "Aerosol chemistry",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "francis-chi-yung-tam",
+          "name": "Francis Chi Yung Tam",
+          "title": "Associate Professor",
+          "sub_field": "Atmospheric Science",
+          "tags": [
+            "Atmospheric dynamics"
+          ],
+          "summary": "Atmospheric dynamics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "shixian-zhai",
+          "name": "Shixian Zhai",
+          "title": "Assistant Professor",
+          "sub_field": "Atmospheric Science",
+          "tags": [
+            "Atmospheric chemistry"
+          ],
+          "summary": "Atmospheric chemistry",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "xueying-liu",
+          "name": "Xueying Liu",
+          "title": "Research Assistant Professor",
+          "sub_field": "Atmospheric Science",
+          "tags": [
+            "Air quality and atmospheric chemistry"
+          ],
+          "summary": "Air quality and atmospheric chemistry",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "alex-tat-shing-chow",
+          "name": "Alex Tat Shing Chow",
+          "title": "Chairman / Professor",
+          "sub_field": "Biogeoscience",
+          "tags": [
+            "Water chemistry"
+          ],
+          "summary": "Water chemistry",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "haiwei-luo",
+          "name": "Haiwei Luo",
+          "title": "Professor",
+          "sub_field": "Biogeoscience",
+          "tags": [
+            "Microbial evolution and ecology"
+          ],
+          "summary": "Microbial evolution and ecology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "martin-tsz-ki-tsui",
+          "name": "Martin Tsz Ki Tsui",
+          "title": "Associate Professor",
+          "sub_field": "Biogeoscience",
+          "tags": [
+            "Ecotoxicology"
+          ],
+          "summary": "Ecotoxicology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "benoit-thibodeau",
+          "name": "Benoit Thibodeau",
+          "title": "Assistant Professor",
+          "sub_field": "Biogeoscience",
+          "tags": [
+            "Ocean biogeochemistry"
+          ],
+          "summary": "Ocean biogeochemistry",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "penghui-du",
+          "name": "Penghui Du",
+          "title": "Research Assistant Professor",
+          "sub_field": "Biogeoscience",
+          "tags": [
+            "Aquatic environmental chemistry"
+          ],
+          "summary": "Aquatic environmental chemistry",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hongfeng-yang",
+          "name": "Hongfeng Yang",
+          "title": "Professor / Deputy Chair (Research) / Head of Graduate Division",
+          "sub_field": "Geophysical Science",
+          "tags": [
+            "Seismology"
+          ],
+          "summary": "Seismology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "lin-liu",
+          "name": "Lin Liu",
+          "title": "Professor",
+          "sub_field": "Geophysical Science",
+          "tags": [
+            "Cryosphere geophysics"
+          ],
+          "summary": "Cryosphere geophysics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yen-joe-tan",
+          "name": "Yen Joe Tan",
+          "title": "Associate Professor",
+          "sub_field": "Geophysical Science",
+          "tags": [
+            "Seismology"
+          ],
+          "summary": "Seismology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yan-zhan",
+          "name": "Yan Zhan",
+          "title": "Ng Yin Ying Assistant Professor of Geophysics",
+          "sub_field": "Geophysical Science",
+          "tags": [
+            "Volcano geophysics"
+          ],
+          "summary": "Volcano geophysics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "mijian-xu",
+          "name": "Mijian Xu",
+          "title": "Research Assistant Professor",
+          "sub_field": "Geophysical Science",
+          "tags": [
+            "Seismology"
+          ],
+          "summary": "Seismology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "zhen-zhang",
+          "name": "Zhen Zhang",
+          "title": "Research Assistant Professor",
+          "sub_field": "Geophysical Science",
+          "tags": [
+            "Environmental seismology"
+          ],
+          "summary": "Environmental seismology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "hku-earth-phd",
@@ -61297,8 +62298,132 @@
         "program": "https://www.earthsciences.hku.hk/",
         "admissions": "https://gradsch.hku.hk/prospective_students/research_areas"
       },
-      "data_currency": "Application periods from the HKU Graduate School application-period page and stipends from its postgraduate-scholarships page, retrieved 2026-09-03. HKU publishes an English minimum for TAUGHT postgraduates (TOEFL 80 / IELTS 6.0) but nothing for research students on the pages read, so english is left unverified rather than borrowed. Faculty roster not yet scanned. The Graduate School lists a deeper RPg-admission URL for this department, but it redirects to the department home page, so the home page is linked instead.",
-      "faculty": []
+      "data_currency": "Application periods from the HKU Graduate School application-period page and stipends from its postgraduate-scholarships page, retrieved 2026-09-03. HKU publishes an English minimum for TAUGHT postgraduates (TOEFL 80 / IELTS 6.0) but nothing for research students on the pages read, so english is left unverified rather than borrowed.  The Graduate School lists a deeper RPg-admission URL for this department, but it redirects to the department home page, so the home page is linked instead. Faculty roster (8) read from the HKU Earth and Planetary Sciences academic-staff page, 2026-09-03. Only professorial staff render on that page; associate/assistant professors were not listed and still need checking.",
+      "faculty": [
+        {
+          "id": "peng-gong",
+          "name": "Peng Gong",
+          "title": "Professor, Chair of Global Sustainability; Vice-President and Pro-Vice-Chancellor (Academic Development)",
+          "sub_field": "Global Sustainability & Remote Sensing",
+          "tags": [
+            "Global sustainability and remote sensing"
+          ],
+          "summary": "Global sustainability and remote sensing",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "guochun-zhao",
+          "name": "Guochun Zhao",
+          "title": "Mok Sau-King Professor, Chair of Earth Sciences",
+          "sub_field": "Metamorphic Petrology & Precambrian Geology",
+          "tags": [
+            "Metamorphic petrology",
+            "Precambrian geology and planetary geology"
+          ],
+          "summary": "Metamorphic petrology, Precambrian geology and planetary geology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "nicolas-dauphas",
+          "name": "Nicolas Dauphas",
+          "title": "Professor, Chair of Cosmochemistry",
+          "sub_field": "Planetary Science & Cosmochemistry",
+          "tags": [
+            "Planetary science",
+            "cosmochemistry and geochemistry"
+          ],
+          "summary": "Planetary science, cosmochemistry and geochemistry",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jimmy-jiao",
+          "name": "Jimmy Jiao",
+          "title": "Professor",
+          "sub_field": "Hydrogeology",
+          "tags": [
+            "Hydrogeology"
+          ],
+          "summary": "Hydrogeology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "man-hoi-lee",
+          "name": "Man Hoi Lee",
+          "title": "Professor",
+          "sub_field": "Planetary Dynamics",
+          "tags": [
+            "Formation and dynamics of planetary systems"
+          ],
+          "summary": "Formation and dynamics of planetary systems",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yiliang-li",
+          "name": "YiLiang Li",
+          "title": "Professor",
+          "sub_field": "Astrobiology",
+          "tags": [
+            "Astrobiology"
+          ],
+          "summary": "Astrobiology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "zhonghui-liu",
+          "name": "Zhonghui Liu",
+          "title": "Professor, Interim Head of Department",
+          "sub_field": "Palaeoclimatology",
+          "tags": [
+            "Palaeoclimatology"
+          ],
+          "summary": "Palaeoclimatology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "joseph-michalski",
+          "name": "Joseph Michalski",
+          "title": "Professor",
+          "sub_field": "Planetary Geology & Remote Sensing",
+          "tags": [
+            "Remote sensing",
+            "planetary geology and clay mineralogy"
+          ],
+          "summary": "Remote sensing, planetary geology and clay mineralogy",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "hkust-aes-phd",
@@ -61381,8 +62506,347 @@
         "program": "https://oces.hkust.edu.hk/programs/doctor-philosophy-marine-environmental-science-phd-mes",
         "admissions": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-timeline"
       },
-      "data_currency": "Requirements read from the HKUST Fok Ying Tung Graduate School admissions timeline and the School of Science RPg admissions page, retrieved 2026-09-03. Application fee and referee count not published on either page. Faculty roster not yet scanned.",
-      "faculty": []
+      "data_currency": "Requirements read from the HKUST Fok Ying Tung Graduate School admissions timeline and the School of Science RPg admissions page, retrieved 2026-09-03. Application fee and referee count not published on either page. Faculty roster (19) read from the HKUST Ocean Science research faculty page, 2026-09-03; titles and research interests are the page's own wording.",
+      "faculty": [
+        {
+          "id": "jianping-gan",
+          "name": "Jianping Gan",
+          "title": "Head of Department, Chair Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "oceanic processes in estuaries/bays in the coastal waters",
+            "the South China Sea and Western Pacific basins",
+            "field measurement and process study"
+          ],
+          "summary": "Ocean circulation and marine ecosystem dynamics and numerical ocean modeling in the China Seas; oceanic processes in estuaries/bays in the coastal waters, the South China Sea and Western Pacific basins; inter-disciplinary research in coupled physical-biogeochemical dynamics through numerical modeling, field measurement and process study",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "peiyuan-qian",
+          "name": "Peiyuan Qian",
+          "title": "David von Hansemann Professor of Science, Chair Professor",
+          "sub_field": "Marine Molecular Ecology",
+          "tags": [],
+          "summary": "Marine molecular ecology focusing on omics and symbiosis of deep-sea marine invertebrates as well as marine biofilms; marine chemical ecology focusing on marine natural products for new antibiotics and non-toxic antifouling coatings",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "hui-su",
+          "name": "Hui Su",
+          "title": "Chair Professor",
+          "sub_field": "Atmospheric Science",
+          "tags": [
+            "Climate variability and climate change",
+            "aerosols and clouds",
+            "tropical convection and tropical cyclones",
+            "weather and climate modelling",
+            "remote sensing"
+          ],
+          "summary": "Climate variability and climate change; aerosols and clouds; tropical convection and tropical cyclones; weather and climate modelling; remote sensing",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "fumin-zhang",
+          "name": "Fumin Zhang",
+          "title": "Chair Professor",
+          "sub_field": "Marine Robotics & Autonomy",
+          "tags": [
+            "Marine robotics and autonomous systems",
+            "mobile sensor and actuator networks",
+            "bio-inspired distributed active perception",
+            "human-autonomy interaction and integration"
+          ],
+          "summary": "Marine robotics and autonomous systems; mobile sensor and actuator networks; bio-inspired distributed active perception; human-autonomy interaction and integration",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "mengqian-lu",
+          "name": "Mengqian Lu",
+          "title": "Professor",
+          "sub_field": "Hydrometeorology",
+          "tags": [
+            "Atmospheric rivers",
+            "climate change and variability",
+            "hydrometeorological extremes",
+            "water resources system analysis and management",
+            "monsoons"
+          ],
+          "summary": "Atmospheric rivers; climate change and variability; hydrometeorological extremes; water resources system analysis and management; monsoons",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "can-yang",
+          "name": "Can Yang",
+          "title": "Professor",
+          "sub_field": "Statistical Machine Learning",
+          "tags": [
+            "Statistical machine learning for data science",
+            "empirical Bayes for computer age statistical inference",
+            "scalable AI algorithms",
+            "statistical genetics and genomics"
+          ],
+          "summary": "Statistical machine learning for data science; empirical Bayes for computer age statistical inference; scalable AI algorithms; statistical genetics and genomics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "sai-kit-yeung",
+          "name": "Sai Kit Yeung",
+          "title": "Professor",
+          "sub_field": "Marine AI & Vision",
+          "tags": [
+            "3D vision and visual understanding",
+            "computational design and generative models",
+            "marine AI and systems design",
+            "underwater navigation and 3D mapping",
+            "multi-modal LLM for marine understanding",
+            "sustainable aquaculture"
+          ],
+          "summary": "3D vision and visual understanding; computational design and generative models; marine AI and systems design; underwater navigation and 3D mapping; multi-modal LLM for marine understanding; sustainable aquaculture",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "qinglu-zeng",
+          "name": "Qinglu Zeng",
+          "title": "Professor",
+          "sub_field": "Marine Microbiology",
+          "tags": [],
+          "summary": "The role of bacteria and their viruses (bacteriophages) in marine ecological processes and the molecular mechanism of their adaptation to the environment",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "stanley-chun-kwan-lau",
+          "name": "Stanley Chun Kwan Lau",
+          "title": "Associate Professor",
+          "sub_field": "Marine Microbial Ecology",
+          "tags": [
+            "Marine microbial ecology",
+            "genome composition",
+            "horizontal transfer of antibiotic resistance genes",
+            "microbial source tracking of fecal pollution"
+          ],
+          "summary": "Marine microbial ecology; genome composition, population genetics and ecophysiology of cryptic Escherichia in the marine environment; horizontal transfer of antibiotic resistance genes; microbial source tracking of fecal pollution",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "jiying-li",
+          "name": "Jiying Li",
+          "title": "Associate Professor",
+          "sub_field": "Marine Biogeochemistry",
+          "tags": [
+            "Biogeochemistry of lakes and oceans",
+            "focusing on the cycles of carbon",
+            "nitrogen",
+            "phosphorus",
+            "sulphur and redox metals",
+            "geochemistry and early diagenesis of sediments"
+          ],
+          "summary": "Biogeochemistry of lakes and oceans, focusing on the cycles of carbon, nitrogen, phosphorus, sulphur and redox metals; geochemistry and early diagenesis of sediments; stable isotope geochemistry; nutrient dynamics and phytoplankton ecology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "julian-mak",
+          "name": "Julian Mak",
+          "title": "Associate Professor",
+          "sub_field": "Geophysical Fluid Dynamics",
+          "tags": [
+            "Geophysical fluid dynamics",
+            "wave/eddy-mean flow interactions",
+            "global/regional/idealised numerical modelling of the ocean",
+            "inverse and data assimilation methods",
+            "high performance computing",
+            "applied mathematics"
+          ],
+          "summary": "Geophysical fluid dynamics; wave/eddy-mean flow interactions; global/regional/idealised numerical modelling of the ocean; inverse and data assimilation methods; high performance computing; applied mathematics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "yan-wang",
+          "name": "Yan Wang",
+          "title": "Associate Professor",
+          "sub_field": "Ocean Dynamics",
+          "tags": [
+            "Baroclinic turbulence over continental slopes"
+          ],
+          "summary": "Baroclinic turbulence over continental slopes; eddy-mean flow interactions and eddy parameterizations in numerical ocean models; detection and tracking of Lagrangian Coherent Structures via satellite altimetry records and model outputs",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "charmaine-cheuk-man-yung",
+          "name": "Charmaine Cheuk Man Yung",
+          "title": "Associate Professor",
+          "sub_field": "Microbial Oceanography",
+          "tags": [
+            "Microbial oceanography",
+            "microbial interactions at different trophic levels",
+            "algal viral ecology and genomics"
+          ],
+          "summary": "Microbial oceanography; how environmental factors and anthropogenic activities influence microbial structure and functioning; microbial interactions at different trophic levels; algal viral ecology and genomics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ding-he",
+          "name": "Ding He",
+          "title": "Assistant Professor",
+          "sub_field": "Marine Organic Geochemistry",
+          "tags": [
+            "stable isotope geochemistry",
+            "molecular biomarker fingerprints"
+          ],
+          "summary": "Biogeochemistry and carbon cycling along the river-estuary-coastal continuum during the Anthropocene; stable isotope geochemistry; molecular biomarker fingerprints; big-data and machine learning applied to marine organic geochemistry",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "masayuki-ushio",
+          "name": "Masayuki Ushio",
+          "title": "Assistant Professor",
+          "sub_field": "Ecological Forecasting",
+          "tags": [
+            "Monitoring community dynamics using environmental DNA",
+            "forecasting community dynamics using statistical tools",
+            "fish community",
+            "microbial community",
+            "statistical modeling",
+            "machine learning"
+          ],
+          "summary": "Monitoring community dynamics using environmental DNA; forecasting community dynamics using statistical tools; fish community; microbial community; statistical modeling; machine learning; nutrient cycling",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "longjun-wu",
+          "name": "Longjun Wu",
+          "title": "Assistant Professor",
+          "sub_field": "Evolutionary Genomics",
+          "tags": [
+            "Evolution of marine animal biodiversity",
+            "stress-induced adaptation",
+            "ecological and evolutionary genomics",
+            "developmental evolutionary biology",
+            "deep-sea adaptation"
+          ],
+          "summary": "Evolution of marine animal biodiversity; stress-induced adaptation; ecological and evolutionary genomics; developmental evolutionary biology; deep-sea adaptation",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "alex-s-j-wyatt",
+          "name": "Alex S. J. Wyatt",
+          "title": "Assistant Professor",
+          "sub_field": "Marine Ecology & Oceanography",
+          "tags": [
+            "coastal biogeochemistry",
+            "coral reef ecology",
+            "mesophotic coral ecosystems",
+            "trophic and isotope ecology"
+          ],
+          "summary": "Linking oceanographic processes and the ecological structure and function of globally threatened marine ecosystems; coastal biogeochemistry; coral reef ecology; mesophotic coral ecosystems; trophic and isotope ecology",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "qiong-zhang",
+          "name": "Qiong Zhang",
+          "title": "Assistant Professor",
+          "sub_field": "Biogeochemistry",
+          "tags": [
+            "Interactions of the biosphere and the geosphere",
+            "feedbacks of marine ecosystem to environmental change",
+            "trace metal cycling and stable isotope biogeochemistry",
+            "microbial proteomics and transcriptomics"
+          ],
+          "summary": "Interactions of the biosphere and the geosphere; feedbacks of marine ecosystem to environmental change; trace metal cycling and stable isotope biogeochemistry; microbial proteomics and transcriptomics",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "cindy-ka-sin-lam",
+          "name": "Cindy Ka Sin Lam",
+          "title": "Assistant Professor of Science Education",
+          "sub_field": "Marine Ecology",
+          "tags": [
+            "Marine larval biology and ecology",
+            "allelopathy of marine macroalgae",
+            "marine biofilms",
+            "conservation of marine habitats",
+            "microplastics detection and removal",
+            "ocean farming"
+          ],
+          "summary": "Marine larval biology and ecology; allelopathy of marine macroalgae; marine biofilms; conservation of marine habitats; microplastics detection and removal; ocean farming",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "ntu-ase-phd",
@@ -61423,8 +62887,106 @@
         "program": "https://www.ntu.edu.sg/ase/admissions/graduate-programmes",
         "admissions": "https://www.ntu.edu.sg/admissions/graduate/radmissionguide"
       },
-      "data_currency": "Deadlines, application fee and test policy from the NTU Research Programmes Admission Guide, retrieved 2026-09-03. The guide states no TOEFL/IELTS minimum and the scholarship pages publish no stipend figure, so both are left unverified. Faculty roster not yet scanned.",
-      "faculty": []
+      "data_currency": "Deadlines, application fee and test policy from the NTU Research Programmes Admission Guide, retrieved 2026-09-03. The guide states no TOEFL/IELTS minimum and the scholarship pages publish no stipend figure, so both are left unverified. Faculty roster read from the NTU Asian School of the Environment staff directory, 2026-09-03 - the Climate and Environment group only. ASE also lists Earth Systems and Hazards, Volcanology, Active Tectonics and two Ecology groups, not yet scanned.",
+      "faculty": [
+        {
+          "id": "emma-hill",
+          "name": "Emma Hill",
+          "title": "Professor, Chair; AXA-Nanyang Professor in Earth and Environmental Science; Interim Director, Earth Observatory of Singapore",
+          "sub_field": "Geodesy & Sea Level",
+          "tags": [
+            "Geodesy",
+            "sea level",
+            "tectonics",
+            "earthquakes"
+          ],
+          "summary": "Geodesy, sea level, tectonics, earthquakes",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "xianfeng-wang",
+          "name": "Xianfeng Wang",
+          "title": "Associate Professor, Assistant Chair (Research)",
+          "sub_field": "Climate Change & Isotope Geochemistry",
+          "tags": [
+            "Climate change",
+            "isotope geochemistry"
+          ],
+          "summary": "Climate change, isotope geochemistry",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "adam-switzer",
+          "name": "Adam Switzer",
+          "title": "Professor, Director of CIFAL; Assistant Dean (Development), College of Science",
+          "sub_field": "Coastal Hazards",
+          "tags": [
+            "Coastal geomorphology",
+            "sedimentology",
+            "sea level",
+            "coastal hazards"
+          ],
+          "summary": "Coastal geomorphology, sedimentology, sea level, coastal hazards",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "patrick-martin",
+          "name": "Patrick Martin",
+          "title": "Associate Professor, Assistant Chair (Faculty Recruitment)",
+          "sub_field": "Biogeochemistry",
+          "tags": [
+            "Biogeochemistry"
+          ],
+          "summary": "Biogeochemistry",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "aron-meltzner",
+          "name": "Aron Meltzner",
+          "title": "Nanyang Assistant Professor (NRF)",
+          "sub_field": "Geology of Earthquakes & Sea Level",
+          "tags": [
+            "Geology of earthquakes and sea level"
+          ],
+          "summary": "Geology of earthquakes and sea level",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "steve-hung-lam-yim",
+          "name": "Steve Hung-Lam Yim",
+          "title": "Professor; Director, Centre for Climate Change and Environmental Health",
+          "sub_field": "Climate & Environmental Health",
+          "tags": [
+            "Climate change and environmental health"
+          ],
+          "summary": "Climate change and environmental health",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        }
+      ]
     }
   ]
 }

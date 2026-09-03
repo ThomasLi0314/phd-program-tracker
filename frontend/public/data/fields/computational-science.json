@@ -1262,371 +1262,368 @@
         "program": "https://www.oden.utexas.edu/academics/prospective-students/how-to-apply/",
         "admissions": "https://oden.utexas.edu/academics/prospective-students/how-to-apply/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #30 · faculty 2026-07-10 | Merged with duplicate entry \"Computational Science, Engineering, and Mathematics (CSEM), PhD\" (ut-austin-computational-science-engineering-and-mathematics): Scanned 2026-07-22 from https://oden.utexas.edu/academics/phd-program/ , https://oden.utexas.edu/academics/prospective-students/how-to-apply/ , https://oden.utexas.edu/academics/prospective-students/admissions-faq/ , and https://www.oden.utexas.edu/people/directory/ (Principal + Core Faculty filters). Verify deadlines/fees for the current cycle.",
+      "data_currency": "2026-07-05 · top-50 sweep · US News #30 · faculty 2026-07-10",
       "faculty": [
         {
           "id": "narayana-aluru",
           "name": "Narayana Aluru",
-          "title": "Professor, Mechanical Engineering; Cockrell Family Regents Chair in Engineering #9",
-          "sub_field": "Computational Materials / Mechanics",
+          "title": "Professor (Mechanical Engineering)",
+          "sub_field": "Computational Materials, Computational Mechanics",
           "tags": [
             "Computational Materials",
             "Computational Mechanics"
           ],
-          "summary": "Principal Faculty and Professor of Mechanical Engineering. Directory research topics: computational materials and computational mechanics.",
+          "summary": "Professor in Mechanical Engineering at UT Austin, working on Computational Materials, Computational Mechanics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/narayana-aluru-1846",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "antonios-alvertis",
           "name": "Antonios Alvertis",
-          "title": "Assistant Professor, Physics",
+          "title": "Assistant Professor (Physics)",
           "sub_field": "Computational Materials",
           "tags": [
             "Computational Materials"
           ],
-          "summary": "Principal Faculty and Assistant Professor of Physics. Directory research topic: computational materials.",
+          "summary": "Assistant Professor in Physics at UT Austin, working on Computational Materials.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/antonios-alvertis-2463",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "todd-arbogast",
           "name": "Todd Arbogast",
-          "title": "Professor, Mathematics; Director, Center for Subsurface Modeling; W.A. “Tex” Moncrief, Jr. Chair in Computational Engineering and Sciences V – Applied Mathematics",
-          "sub_field": "Applied Mathematics / Numerical Analysis",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Numerical Analysis, Computational Geosciences",
           "tags": [
             "Numerical Analysis",
             "Computational Geosciences",
             "Applied Mathematics",
             "Partial Differential Equations"
           ],
-          "summary": "Principal Faculty and Professor of Mathematics who directs the Center for Subsurface Modeling. Directory research topics: numerical analysis, computational geosciences, applied mathematics, and partial differential equations.",
+          "summary": "Professor in Mathematics at UT Austin, working on Numerical Analysis, Computational Geosciences, Applied Mathematics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/todd-arbogast-77",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "chandrajit-bajaj",
           "name": "Chandrajit Bajaj",
-          "title": "Professor, Computer Science; Director, Computational Visualization Center; CAM Chair in Visualization",
-          "sub_field": "Machine Learning / Visualization",
+          "title": "Professor (Computer Science)",
+          "sub_field": "Machine Learning, Optimization",
           "tags": [
             "Machine Learning",
             "Optimization"
           ],
-          "summary": "Principal Faculty and Professor of Computer Science directing the Computational Visualization Center. Directory research topics: machine learning and optimization.",
+          "summary": "Professor in Computer Science at UT Austin, working on Machine Learning, Optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/chandrajit-bajaj-11",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "michael-baldea",
           "name": "Michael Baldea",
-          "title": "Professor, Chemical Engineering; Kenneth A. Kobe Professor in Chemical Engineering",
-          "sub_field": "Optimization / Data Science",
+          "title": "Professor (Chemical Engineering)",
+          "sub_field": "Optimization, Data Science",
           "tags": [
             "Optimization",
             "Data Science"
           ],
-          "summary": "Core Faculty and Professor of Chemical Engineering. Directory research topics: optimization and data science.",
+          "summary": "Professor in Chemical Engineering at UT Austin, working on Optimization, Data Science.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/michael-baldea-1280",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "william-beckner",
           "name": "William Beckner",
-          "title": "Professor, Mathematics; Assistant Director representing the College of Natural Sciences, Oden Institute; Paul V. Montgomery Centennial Memorial Professorship in Mathematics",
+          "title": "Professor (Mathematics)",
           "sub_field": "Applied Mathematics",
           "tags": [
             "Applied Mathematics"
           ],
-          "summary": "Core Faculty and Assistant Director of the Oden Institute (representing the College of Natural Sciences), Professor of Mathematics. Directory research topic: applied mathematics.",
+          "summary": "Professor in Mathematics at UT Austin, working on Applied Mathematics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/william-beckner-324",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "george-biros",
           "name": "George Biros",
-          "title": "Professor, Mechanical Engineering; Lead, Parallel Algorithms for Data Analysis and Simulation Group; W. A. \"Tex\" Moncrief, Jr. Endowment – Endowed Chair No. 2",
-          "sub_field": "High-Performance Computing / Computational Mechanics",
+          "title": "Professor (Mechanical Engineering)",
+          "sub_field": "Imaging, Computational Mechanics",
           "tags": [
             "Imaging",
             "Computational Mechanics",
             "High-Performance Computing"
           ],
-          "summary": "Principal Faculty and Professor of Mechanical Engineering leading the Parallel Algorithms for Data Analysis and Simulation Group. Directory research topics: imaging, computational mechanics, and high-performance computing.",
+          "summary": "Professor in Mechanical Engineering at UT Austin, working on Imaging, Computational Mechanics, High-Performance Computing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/george-biros-1056",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "blake-bordelon",
           "name": "Blake Bordelon",
-          "title": "Assistant Professor, Neuroscience",
-          "sub_field": "Machine Learning / AI",
+          "title": "Assistant Professor (Neuroscience)",
+          "sub_field": "Machine Learning, Artificial Intelligence",
           "tags": [
             "Machine Learning",
             "Artificial Intelligence",
             "Optimization"
           ],
-          "summary": "Principal Faculty and Assistant Professor of Neuroscience. Directory research topics: machine learning, artificial intelligence, and optimization.",
+          "summary": "Assistant Professor in Neuroscience at UT Austin, working on Machine Learning, Artificial Intelligence, Optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/blake-bordelon-2462",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "tan-bui-thanh",
           "name": "Tan Bui-Thanh",
-          "title": "Professor, Aerospace Engineering & Engineering Mechanics; Co-Director, Center for Scientific Machine Learning; William J. Murray, Jr. Fellowship in Engineering No. 4",
-          "sub_field": "Uncertainty Quantification / Scientific Machine Learning",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Uncertainty Quantification, Scientific Machine Learning",
           "tags": [
             "Uncertainty Quantification",
             "Scientific Machine Learning",
             "Inverse Problems"
           ],
-          "summary": "Core Faculty and Professor of Aerospace Engineering & Engineering Mechanics, Co-Director of the Center for Scientific Machine Learning. Directory research topics: uncertainty quantification, scientific machine learning, and inverse problems.",
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Uncertainty Quantification, Scientific Machine Learning, Inverse Problems.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/tan-bui-326",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "jesse-chan",
           "name": "Jesse Chan",
-          "title": "Associate Professor, Aerospace Engineering & Engineering Mechanics",
-          "sub_field": "Scientific Computing / Computational Engineering",
+          "title": "Associate Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Computational Engineering, Scientific Computing",
           "tags": [
             "Computational Engineering",
             "Scientific Computing",
-            "Reduced Order Modeling",
             "Reduced order modeling"
           ],
-          "summary": "Principal Faculty and Associate Professor of Aerospace Engineering & Engineering Mechanics. Directory research topics: computational engineering, scientific computing, and reduced order modeling.",
+          "summary": "Associate Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Computational Engineering, Scientific Computing, Reduced order modeling.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/jesse-chan-2405",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "james-chelikowsky",
           "name": "James Chelikowsky",
-          "title": "Professor, Physics and Chemical Engineering; Director, Center for Computational Materials; W. A. \"Tex\" Moncrief, Jr. Chair in Computational Materials",
-          "sub_field": "Computational Materials",
+          "title": "Professor (Physics)",
+          "sub_field": "Computational Materials, Computational Chemistry",
           "tags": [
             "Computational Materials",
             "Computational Chemistry",
             "Computational Physics"
           ],
-          "summary": "Principal Faculty directing the Center for Computational Materials, Professor of Physics and Chemical Engineering. Directory research topics: computational materials, computational chemistry, and computational physics.",
+          "summary": "Professor in Physics at UT Austin, working on Computational Materials, Computational Chemistry, Computational Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/james-chelikowsky-332",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "clint-dawson",
           "name": "Clint Dawson",
-          "title": "Professor and Department Chair, Aerospace Engineering & Engineering Mechanics; Lead, Computational Hydraulics Group; Cockrell Family Regents Chair in Engineering #2",
-          "sub_field": "Computational Mechanics / PDEs",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Computational Mechanics, Partial Differential Equations",
           "tags": [
             "Computational Mechanics",
             "Partial Differential Equations"
           ],
-          "summary": "Principal Faculty, Department Chair and Professor of Aerospace Engineering & Engineering Mechanics, leading the Computational Hydraulics Group. Directory research topics: computational mechanics and partial differential equations.",
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Computational Mechanics, Partial Differential Equations.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/clint-dawson-36",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "leszek-f-demkowicz",
           "name": "Leszek F. Demkowicz",
-          "title": "Professor, Mathematics and Aerospace Engineering & Engineering Mechanics; Assistant Director, Oden Institute; Lead, Electromagnetics and Acoustics Group; W. A. \"Tex\" Moncrief, Jr. Chair in Computational Engineering and Sciences II",
-          "sub_field": "Numerical Analysis / Computational Mechanics",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Numerical Analysis, Computational Mechanics",
           "tags": [
             "Numerical Analysis",
             "Computational Mechanics"
           ],
-          "summary": "Core Faculty and Assistant Director of the Oden Institute, Professor of Mathematics and Aerospace Engineering & Engineering Mechanics, leading the Electromagnetics and Acoustics Group. Directory research topics: numerical analysis and computational mechanics.",
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Numerical Analysis, Computational Mechanics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/leszek-demkowicz-80",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "inderjit-dhillon",
           "name": "Inderjit Dhillon",
-          "title": "Professor, Computer Science; Gottesman Family Centennial Professorship in Computer Sciences",
-          "sub_field": "Machine Learning / AI",
+          "title": "Professor (Computer Science)",
+          "sub_field": "Machine Learning, Artificial Intelligence",
           "tags": [
             "Machine Learning",
             "Artificial Intelligence",
             "Computational Biology"
           ],
-          "summary": "Core Faculty and Professor of Computer Science. Directory research topics: machine learning, artificial intelligence, and computational biology.",
+          "summary": "Professor in Computer Science at UT Austin, working on Machine Learning, Artificial Intelligence, Computational Biology.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/inderjit-dhillon-334",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "bjorn-engquist",
           "name": "Bjorn Engquist",
-          "title": "Professor, Mathematics; Director, Center for Numerical Analysis; Computational and Applied Mathematics Chair I",
-          "sub_field": "Numerical Analysis / Applied Mathematics",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Numerical Analysis, Applied Mathematics",
           "tags": [
             "Numerical Analysis",
             "Applied Mathematics"
           ],
-          "summary": "Principal Faculty and Professor of Mathematics directing the Center for Numerical Analysis. Directory research topics: numerical analysis and applied mathematics.",
+          "summary": "Professor in Mathematics at UT Austin, working on Numerical Analysis, Applied Mathematics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/bjorn-engquist-107",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "john-foster",
           "name": "John Foster",
-          "title": "Professor, Petroleum and Geosystems Engineering; George H. Fancher Professorship in Petroleum Engineering",
+          "title": "Associate Professor (Petroleum and Geosystems Engineering)",
           "sub_field": "Computational Mechanics",
           "tags": [
             "Computational Mechanics"
           ],
-          "summary": "Core Faculty and Professor of Petroleum and Geosystems Engineering. Directory research topic: computational mechanics.",
+          "summary": "Associate Professor in Petroleum and Geosystems Engineering at UT Austin, working on Computational Mechanics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/john-foster-1383",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "david-fridovich-keil",
           "name": "David Fridovich-Keil",
-          "title": "Assistant Professor, Aerospace Engineering & Engineering Mechanics",
-          "sub_field": "Optimization / Control / Robotics",
+          "title": "Assistant Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Machine Learning, Game Theory",
           "tags": [
             "Machine Learning",
             "Game Theory",
             "Control Theory",
-            "Optimization",
-            "Robotics"
+            "Optimization"
           ],
-          "summary": "Core Faculty and Assistant Professor of Aerospace Engineering & Engineering Mechanics. Directory research topics: machine learning, game theory, control theory, optimization, and robotics.",
+          "summary": "Assistant Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Machine Learning, Game Theory, Control Theory.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/david-fridovich-keil-2120",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "irene-m-gamba",
           "name": "Irene M. Gamba",
-          "title": "Professor, Mathematics; Lead, Applied Mathematics Group; W. A. \"Tex\" Moncrief, Jr. Chair in Computational Engineering and Sciences III",
-          "sub_field": "Applied / Computational Mathematics",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Computational Statistical Mechanics, Kinetic Theory",
           "tags": [
             "Computational Statistical Mechanics",
             "Kinetic Theory",
             "Computational Physics"
           ],
-          "summary": "Principal Faculty and Professor of Mathematics who leads the Applied Mathematics Group. Directory research topics: computational statistical mechanics, kinetic theory, and computational physics.",
+          "summary": "Professor in Mathematics at UT Austin, working on Computational Statistical Mechanics, Kinetic Theory, Computational Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/irene-gamba-39",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "omar-ghattas",
           "name": "Omar Ghattas",
-          "title": "Professor, Mechanical Engineering; Ernest and Virginia Cockrell Chair in Engineering; Director, Optimization, Inversion, Machine Learning, and Uncertainty for Complex Systems",
-          "sub_field": "Inverse Problems / Uncertainty Quantification",
+          "title": "Professor (Mechanical Engineering)",
+          "sub_field": "Uncertainty Quantification, Inverse Problems",
           "tags": [
             "Uncertainty Quantification",
             "Inverse Problems",
             "Optimization"
           ],
-          "summary": "Principal Faculty and Professor of Mechanical Engineering directing the group on optimization, inversion, machine learning, and uncertainty for complex systems. Directory research topics: uncertainty quantification, inverse problems, and optimization.",
+          "summary": "Professor in Mechanical Engineering at UT Austin, working on Uncertainty Quantification, Inverse Problems, Optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/omar-ghattas-143",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "feliciano-giustino",
           "name": "Feliciano Giustino",
-          "title": "Professor, Physics; Director, Center for Quantum Materials Engineering; W.A. \"Tex\" Moncrief, Jr. Chair in Quantum Materials Engineering",
-          "sub_field": "Computational Materials / Physics",
+          "title": "Professor (Physics)",
+          "sub_field": "Computational Materials, Computational Physics",
           "tags": [
             "Computational Materials",
-            "Computational Physics",
-            "Condensed Matter Physics"
+            "Computational Physics"
           ],
-          "summary": "Principal Faculty directing the Center for Quantum Materials Engineering, Professor of Physics. Directory research topics: computational materials, computational physics, and condensed matter physics.",
+          "summary": "Professor in Physics at UT Austin, working on Computational Materials, Computational Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/feliciano-giustino-1669",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "patrick-heimbach",
           "name": "Patrick Heimbach",
-          "title": "Professor, Earth and Planetary Sciences; Lead, Computational Research in Ice and Ocean Systems Group; W. A. \"Tex\" Moncrief, Jr. Endowment – Endowed Chair No. 3",
-          "sub_field": "Computational Geosciences / Uncertainty Quantification",
+          "title": "Professor (Earth and Planetary Sciences)",
+          "sub_field": "Uncertainty Quantification, Computational Geosciences",
           "tags": [
             "Uncertainty Quantification",
             "Computational Geosciences",
             "Scientific Machine Learning"
           ],
-          "summary": "Principal Faculty and Professor of Earth and Planetary Sciences leading the Computational Research in Ice and Ocean Systems Group. Directory research topics: uncertainty quantification, computational geosciences, and scientific machine learning.",
+          "summary": "Professor in Earth and Planetary Sciences at UT Austin, working on Uncertainty Quantification, Computational Geosciences, Scientific Machine Learning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/patrick-heimbach-1386",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "graeme-henkelman",
           "name": "Graeme Henkelman",
-          "title": "Professor, Chemistry; George W. Watt Centennial Professorship",
-          "sub_field": "Computational Materials / Chemistry",
+          "title": "Professor (Chemistry)",
+          "sub_field": "Computational Materials, Reaction Dynamics",
           "tags": [
             "Computational Materials",
             "Reaction Dynamics"
           ],
-          "summary": "Core Faculty and Professor of Chemistry. Directory research topics: computational materials and reaction dynamics.",
+          "summary": "Professor in Chemistry at UT Austin, working on Computational Materials, Reaction Dynamics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/graeme-henkelman-255",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
@@ -1649,33 +1646,33 @@
         {
           "id": "moriba-jah",
           "name": "Moriba Jah",
-          "title": "Professor, Aerospace Engineering & Engineering Mechanics; Lead, Jah Decision Intelligence Group; Mrs. Pearlie Dashiell Henderson Centennial Fellowship in Engineering",
-          "sub_field": "Computational Astronautics / Data Science",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Computational Astronautics, Data Science",
           "tags": [
             "Computational Astronautics",
             "Data Science"
           ],
-          "summary": "Core Faculty and Professor of Aerospace Engineering & Engineering Mechanics leading the Jah Decision Intelligence Group. Directory research topics: computational astronautics and data science.",
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Computational Astronautics, Data Science.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/moriba-jah-1581",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "joseph-kileel",
           "name": "Joseph Kileel",
-          "title": "Assistant Professor, Mathematics",
-          "sub_field": "Applied Mathematics / Data Science",
+          "title": "Assistant Professor (Mathematics)",
+          "sub_field": "Applied Mathematics, Data Science",
           "tags": [
             "Applied Mathematics",
             "Data Science"
           ],
-          "summary": "Principal Faculty and Assistant Professor of Mathematics. Directory research topics: applied mathematics and data science.",
+          "summary": "Assistant Professor in Mathematics at UT Austin, working on Applied Mathematics, Data Science.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/joseph-kileel-1731",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
@@ -1686,118 +1683,113 @@
           "tags": [
             "computational biology",
             "protein modeling",
-            "structural bioinformatics",
-            "Computational Life Sciences",
-            "Computational Biology"
+            "structural bioinformatics"
           ],
           "summary": "Professor in Molecular Biosciences at UT Austin, working on computational biology, protein modeling, structural bioinformatics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/dima-kozakov-2460",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "krishna-kumar",
           "name": "Krishna Kumar",
-          "title": "Associate Professor, Civil, Architectural, and Environmental Engineering",
-          "sub_field": "Computational Geomechanics / Data Science",
+          "title": "Associate Professor (Civil, Architectural, and Environmental Engineering)",
+          "sub_field": "Civil/geotechnical computational engineering",
           "tags": [
-            "Civil Engineering",
-            "Computational Engineering",
-            "Data Science",
             "computational geomechanics",
             "machine learning",
             "high-performance computing"
           ],
-          "summary": "Core Faculty and Associate Professor of Civil, Architectural, and Environmental Engineering (email listed as krishnak@utexas.edu). No research-topic tags were displayed on the directory listing; area inferred conservatively from department – verify specifics.",
+          "summary": "Associate Professor in Civil, Architectural, and Environmental Engineering at UT Austin, working on computational geomechanics, machine learning, high-performance computing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/krishna-kumar-2070",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "chad-m-landis",
           "name": "Chad M. Landis",
-          "title": "Professor, Aerospace Engineering & Engineering Mechanics",
-          "sub_field": "Computational Materials / Mechanics",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Computational Materials, Computational Mechanics",
           "tags": [
             "Computational Materials",
             "Computational Mechanics"
           ],
-          "summary": "Core Faculty and Professor of Aerospace Engineering & Engineering Mechanics. Directory research topics: computational materials and computational mechanics.",
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Computational Materials, Computational Mechanics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/chad-landis-442",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "hannah-lu",
           "name": "Hannah Lu",
-          "title": "Assistant Professor, Aerospace Engineering & Engineering Mechanics; Faculty, Center for Scientific Machine Learning",
-          "sub_field": "Uncertainty Quantification / Scientific Machine Learning",
+          "title": "Assistant Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Uncertainty Quantification, Scientific Machine Learning",
           "tags": [
             "Uncertainty Quantification",
             "Scientific Machine Learning"
           ],
-          "summary": "Core Faculty and Assistant Professor of Aerospace Engineering & Engineering Mechanics, affiliated with the Center for Scientific Machine Learning. Directory research topics: uncertainty quantification and scientific machine learning.",
+          "summary": "Assistant Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Uncertainty Quantification, Scientific Machine Learning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/hannah-lu-2307",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "dmitrii-e-makarov",
           "name": "Dmitrii E. Makarov",
-          "title": "Professor, Chemistry",
-          "sub_field": "Computational Chemistry / Biophysics",
+          "title": "Professor (Chemistry)",
+          "sub_field": "Computational Chemistry, Computational Biology",
           "tags": [
             "Computational Chemistry",
             "Computational Biology",
             "Computational Physics"
           ],
-          "summary": "Core Faculty and Professor of Chemistry. Directory research topics: computational chemistry, computational biology, and computational physics.",
+          "summary": "Professor in Chemistry at UT Austin, working on Computational Chemistry, Computational Biology, Computational Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/dmitrii-makarov-340",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "per-gunnar-martinsson",
           "name": "Per-Gunnar Martinsson",
-          "title": "Professor, Mathematics; W. A. \"Tex\" Moncrief, Jr. Endowment in Simulation-Based Engineering and Sciences – Endowed Chair No. 4",
-          "sub_field": "Numerical Analysis / Scientific Computing",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Numerical Analysis, Data Science",
           "tags": [
             "Numerical Analysis",
             "Data Science",
             "Scientific Computing"
           ],
-          "summary": "Principal Faculty and Professor of Mathematics. Directory research topics: numerical analysis, data science, and scientific computing.",
+          "summary": "Professor in Mathematics at UT Austin, working on Numerical Analysis, Data Science, Scientific Computing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/per-gunnar-j-martinsson-1620",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "robert-moser",
           "name": "Robert Moser",
-          "title": "Deputy Director, Oden Institute; Professor, Mechanical Engineering; Director, Predictive Engineering and Computational Sciences; W. A. \"Tex\" Moncrief, Jr. Chair in Computational Engineering and Sciences",
-          "sub_field": "Uncertainty Quantification / Computational Mechanics",
+          "title": "Professor (Mechanical Engineering)",
+          "sub_field": "Uncertainty Quantification, Computational Mechanics",
           "tags": [
             "Uncertainty Quantification",
             "Computational Mechanics",
             "High-Performance Computing"
           ],
-          "summary": "Deputy Director of the Oden Institute and Principal Faculty, Professor of Mechanical Engineering. Directory research topics: uncertainty quantification, computational mechanics, and high-performance computing.",
+          "summary": "Professor in Mechanical Engineering at UT Austin, working on Uncertainty Quantification, Computational Mechanics, High-Performance Computing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/robert-moser-344",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
@@ -1820,34 +1812,34 @@
         {
           "id": "nicholas-h-nelsen",
           "name": "Nicholas H. Nelsen",
-          "title": "Assistant Professor, Aerospace Engineering & Engineering Mechanics",
-          "sub_field": "Scientific Machine Learning / Inverse Problems",
+          "title": "Assistant Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Scientific Machine Learning, Inverse Problems",
           "tags": [
             "Scientific Machine Learning",
             "Inverse Problems",
             "Probability and Statistics"
           ],
-          "summary": "Principal Faculty and Assistant Professor of Aerospace Engineering & Engineering Mechanics. Directory research topics: scientific machine learning, inverse problems, and probability and statistics.",
+          "summary": "Assistant Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Scientific Machine Learning, Inverse Problems, Probability and Statistics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/nicholas-nelsen-2466",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "stella-offner",
           "name": "Stella Offner",
-          "title": "Professor, Astronomy; Co-Director, Center for Scientific Machine Learning",
-          "sub_field": "Scientific Machine Learning / HPC",
+          "title": "Professor (Astronomy)",
+          "sub_field": "Scientific Machine Learning, High-Performance Computing",
           "tags": [
             "Scientific Machine Learning",
             "High-Performance Computing"
           ],
-          "summary": "Core Faculty and Professor of Astronomy, Co-Director of the Center for Scientific Machine Learning. Directory research topics: scientific machine learning and high-performance computing.",
+          "summary": "Professor in Astronomy at UT Austin, working on Scientific Machine Learning, High-Performance Computing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/stella-offner-1746",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
@@ -1870,222 +1862,218 @@
         {
           "id": "keshav-pingali",
           "name": "Keshav Pingali",
-          "title": "Professor, Computer Science; Director, Center for Distributed and Grid Computing; W. A. \"Tex\" Moncrief, Jr. Chair in Distributed and Grid Computing",
-          "sub_field": "High-Performance Computing",
+          "title": "Professor (Computer Science)",
+          "sub_field": "Programming languages, High-Performance Computing",
           "tags": [
-            "Programming Languages",
-            "High-Performance Computing",
-            "Programming languages"
+            "Programming languages",
+            "High-Performance Computing"
           ],
-          "summary": "Principal Faculty and Professor of Computer Science directing the Center for Distributed and Grid Computing. Directory research topics: programming languages and high-performance computing.",
+          "summary": "Professor in Computer Science at UT Austin, working on Programming languages, High-Performance Computing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/keshav-pingali-206",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "william-h-press",
           "name": "William H. Press",
-          "title": "Professor, Computer Science; Leslie Surginer Endowed Professorship; Warren J. and Viola Mae Raymer Chair",
-          "sub_field": "Computational Biology / Theoretical Physics",
+          "title": "Professor (Computer Science)",
+          "sub_field": "Computational Biology, Computer Science",
           "tags": [
             "Computational Biology",
             "Computer Science",
             "Theoretical Physics"
           ],
-          "summary": "Principal Faculty and Professor of Computer Science. Directory research topics: computational biology, computer science, and theoretical physics.",
+          "summary": "Professor in Computer Science at UT Austin, working on Computational Biology, Computer Science, Theoretical Physics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/william-press-348",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "michael-s-sacks",
           "name": "Michael S. Sacks",
-          "title": "Professor, Biomedical Engineering; Director, Willerson Center for Cardiovascular Modeling and Simulation; W. A. \"Tex\" Moncrief, Jr. Endowment – Endowed Chair No. 1",
-          "sub_field": "Computational Medicine",
+          "title": "Professor (Biomedical Engineering)",
+          "sub_field": "Computational Medicine, Cardiovascular Biomechanics",
           "tags": [
             "Computational Medicine",
             "Cardiovascular Biomechanics"
           ],
-          "summary": "Principal Faculty directing the Willerson Center for Cardiovascular Modeling and Simulation, Professor of Biomedical Engineering. Directory research topics: computational medicine and cardiovascular biomechanics.",
+          "summary": "Professor in Biomedical Engineering at UT Austin, working on Computational Medicine, Cardiovascular Biomechanics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/michael-sacks-1057",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "don-siegel",
           "name": "Don Siegel",
-          "title": "Professor and Department Chair, Mechanical Engineering; Cockrell Family Chair for Departmental Leadership #4",
-          "sub_field": "Computational Materials / Machine Learning",
+          "title": "Professor (Mechanical Engineering)",
+          "sub_field": "Computational Materials, Machine Learning",
           "tags": [
             "Computational Materials",
             "Machine Learning"
           ],
-          "summary": "Core Faculty, Department Chair and Professor of Mechanical Engineering. Directory research topics: computational materials and machine learning.",
+          "summary": "Professor in Mechanical Engineering at UT Austin, working on Computational Materials, Machine Learning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/donald-siegel-1918",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "charley-taylor",
           "name": "Charley Taylor",
-          "title": "Professor, Medicine; Director, Center for Computational Medicine; W. A. \"Tex\" Moncrief, Jr. Endowment – Endowed Chair No. 7 – Computational Medicine",
-          "sub_field": "Computational Medicine",
+          "title": "Professor (Medicine)",
+          "sub_field": "Computational Medicine, Digital Twins",
           "tags": [
             "Computational Medicine",
             "Digital Twins"
           ],
-          "summary": "Principal Faculty directing the Center for Computational Medicine, Professor of Medicine. Directory research topics: computational medicine and digital twins.",
+          "summary": "Professor in Medicine at UT Austin, working on Computational Medicine, Digital Twins.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/charley-taylor-2306",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "ufuk-topcu",
           "name": "Ufuk Topcu",
-          "title": "Professor, Aerospace Engineering & Engineering Mechanics; Director, Center for Autonomy; W.A. “Tex” Moncrief, Jr. Chair in Computational Engineering and Sciences VI",
-          "sub_field": "Artificial Intelligence / Autonomy",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Artificial Intelligence, Autonomy",
           "tags": [
             "Artificial Intelligence",
             "Autonomy",
             "Optimization"
           ],
-          "summary": "Core Faculty directing the Center for Autonomy, Professor of Aerospace Engineering & Engineering Mechanics. Directory research topics: artificial intelligence, autonomy, and optimization.",
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Artificial Intelligence, Autonomy, Optimization.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/ufuk-topcu-1430",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "richard-tsai",
           "name": "Richard Tsai",
-          "title": "Professor, Mathematics",
-          "sub_field": "Numerical Analysis / Scientific Computing",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Machine Learning, Numerical Analysis",
           "tags": [
             "Machine Learning",
             "Numerical Analysis",
             "Scientific Computing",
             "Partial Differential Equations"
           ],
-          "summary": "Core Faculty and Professor of Mathematics. Directory research topics: machine learning, numerical analysis, scientific computing, and partial differential equations.",
+          "summary": "Professor in Mathematics at UT Austin, working on Machine Learning, Numerical Analysis, Scientific Computing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/richard-tsai-160",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "philip-varghese",
           "name": "Philip Varghese",
-          "title": "Professor, Aerospace Engineering & Engineering Mechanics; Ernest H. Cockrell Centennial Chair in Engineering",
-          "sub_field": "Computational Fluid Mechanics",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Fluid Mechanics, Thermodynamics",
           "tags": [
             "Fluid Mechanics",
             "Thermodynamics",
             "Quasi-Particle Simulation"
           ],
-          "summary": "Core Faculty and Professor of Aerospace Engineering & Engineering Mechanics. Directory research topics: fluid mechanics, thermodynamics, and quasi-particle simulation.",
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Fluid Mechanics, Thermodynamics, Quasi-Particle Simulation.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/philip-varghese-462",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "umberto-e-villa",
           "name": "Umberto E. Villa",
-          "title": "Assistant Professor, Biomedical Engineering",
-          "sub_field": "Inverse Problems / Computational Imaging",
+          "title": "Assistant Professor (Biomedical Engineering)",
+          "sub_field": "Biomedical Engineering / computational inverse problems",
           "tags": [
-            "Biomedical Engineering",
-            "Inverse Problems",
-            "Scientific Computing",
             "inverse problems",
             "uncertainty quantification",
             "scientific computing"
           ],
-          "summary": "Core Faculty and Assistant Professor of Biomedical Engineering (email listed as uvilla@oden.utexas.edu). No research-topic tags were displayed on the directory listing; area inferred conservatively from department and Oden affiliation – verify specifics.",
+          "summary": "Assistant Professor in Biomedical Engineering at UT Austin, working on inverse problems, uncertainty quantification, scientific computing.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/umberto-emanuele-villa-2100",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "rachel-ward",
           "name": "Rachel Ward",
-          "title": "Professor, Mathematics; W. A. \"Tex\" Moncrief, Jr. Distinguished Professorship in Computational Engineering and Sciences – Data Science",
-          "sub_field": "Data Science / Applied Mathematics",
+          "title": "Professor (Mathematics)",
+          "sub_field": "Uncertainty Quantification, Optimization",
           "tags": [
             "Uncertainty Quantification",
             "Optimization",
             "Data Science"
           ],
-          "summary": "Principal Faculty and Professor of Mathematics. Directory research topics: uncertainty quantification, optimization, and data science.",
+          "summary": "Professor in Mathematics at UT Austin, working on Uncertainty Quantification, Optimization, Data Science.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/rachel-ward-1143",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "karen-e-willcox",
           "name": "Karen E. Willcox",
-          "title": "Director, Oden Institute; Professor, Aerospace Engineering & Engineering Mechanics; Associate VPR, UT Austin; Peter O'Donnell, Jr. Centennial Chair in Computing Systems",
-          "sub_field": "Scientific Machine Learning / Computational Engineering",
+          "title": "Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Scientific Machine Learning, Computational Engineering",
           "tags": [
             "Scientific Machine Learning",
             "Computational Engineering"
           ],
-          "summary": "Director of the Oden Institute and Principal Faculty, Professor of Aerospace Engineering & Engineering Mechanics, leading the Willcox Research Group. Directory research topics: scientific machine learning and computational engineering.",
+          "summary": "Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Scientific Machine Learning, Computational Engineering.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/karen-willcox-1617",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "tom-yankeelov",
           "name": "Tom Yankeelov",
-          "title": "Professor, Biomedical Engineering; Director, Center for Computational Oncology; W. A. \"Tex\" Moncrief, Jr. Chair in Computational Engineering and Sciences IV – Computational Oncology",
-          "sub_field": "Computational Medicine / Oncology",
+          "title": "Professor (Biomedical Engineering)",
+          "sub_field": "Imaging, Computational Medicine",
           "tags": [
             "Imaging",
             "Computational Medicine",
             "Tumor Growth Modeling"
           ],
-          "summary": "Principal Faculty directing the Center for Computational Oncology, Professor of Biomedical Engineering. Directory research topics: imaging, computational medicine, and tumor growth modeling.",
+          "summary": "Professor in Biomedical Engineering at UT Austin, working on Imaging, Computational Medicine, Tumor Growth Modeling.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/thomas-yankeelov-1458",
-            "scholar": null
+            "scholar": ""
           }
         },
         {
           "id": "renato-zanetti",
           "name": "Renato Zanetti",
-          "title": "Associate Professor, Aerospace Engineering & Engineering Mechanics",
-          "sub_field": "Estimation / Scientific Machine Learning",
+          "title": "Associate Professor (Aerospace Engineering & Engineering Mechanics)",
+          "sub_field": "Autonomy, Inverse Problems",
           "tags": [
             "Autonomy",
             "Inverse Problems",
             "Scientific Machine Learning"
           ],
-          "summary": "Core Faculty and Associate Professor of Aerospace Engineering & Engineering Mechanics. Directory research topics: autonomy, inverse problems, and scientific machine learning.",
+          "summary": "Associate Professor in Aerospace Engineering & Engineering Mechanics at UT Austin, working on Autonomy, Inverse Problems, Scientific Machine Learning.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://oden.utexas.edu/people/directory/renato-zanetti-1666",
-            "scholar": null
+            "scholar": ""
           }
         },
         {

@@ -670,6 +670,23 @@
             "homepage": "https://www.ieor.columbia.edu/faculty/lily-xu",
             "scholar": null
           }
+        },
+        {
+          "id": "cedric-josz",
+          "name": "Cédric Josz",
+          "title": "Assistant Professor",
+          "sub_field": "Optimization",
+          "tags": [
+            "Optimization",
+            "Polynomial Optimization",
+            "Semidefinite Programming"
+          ],
+          "summary": "Researches optimization theory and algorithms, with focus on polynomial optimization and semidefinite programming methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.ieor.columbia.edu/faculty/cedric-josz",
+            "scholar": null
+          }
         }
       ]
     },
@@ -1043,6 +1060,23 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://www.ieor.columbia.edu/faculty/wenpin-tang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "cedric-josz",
+          "name": "Cédric Josz",
+          "title": "Assistant Professor",
+          "sub_field": "Optimization",
+          "tags": [
+            "Optimization",
+            "Polynomial Optimization",
+            "Semidefinite Programming"
+          ],
+          "summary": "Researches optimization theory and algorithms, with focus on polynomial optimization and semidefinite programming methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.ieor.columbia.edu/faculty/cedric-josz",
             "scholar": null
           }
         }
@@ -3102,6 +3136,24 @@
             "homepage": "https://engineering.lehigh.edu/ise/faculty/172998",
             "scholar": null
           }
+        },
+        {
+          "id": "tamas-terlaky",
+          "name": "Tamás Terlaky",
+          "title": "Endowed Chair Professor",
+          "sub_field": "Optimization",
+          "tags": [
+            "Quantum Computing Optimization",
+            "High-Performance Optimization",
+            "Nuclear Engineering",
+            "Radiation Therapy"
+          ],
+          "summary": "Researches quantum computing optimization, high-performance optimization methods, and applications of optimization to engineering problems including nuclear reactor refueling, cancer radiation treatment, and industrial maintenance scheduling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.lehigh.edu/ise/faculty/678",
+            "scholar": null
+          }
         }
       ]
     },
@@ -4945,6 +4997,25 @@
             "homepage": "https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/xiong-zikai.html",
             "scholar": null
           }
+        },
+        {
+          "id": "simge-kucukyavuz",
+          "name": "Simge Küçükyavuz",
+          "title": "Professor",
+          "sub_field": "Mixed-Integer and Large-Scale Optimization",
+          "tags": [
+            "mixed-integer programming",
+            "large-scale optimization",
+            "optimization under uncertainty",
+            "network optimization",
+            "statistical learning"
+          ],
+          "summary": "Research focuses on optimization theory and methodology, especially mixed-integer programming, large-scale optimization, and optimization under uncertainty, with applications to infrastructure systems and statistical learning. Chair of IEMS and David A. and Karen Richards Sachs Professor.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/kucukyavuz-simge.html",
+            "scholar": null
+          }
         }
       ]
     },
@@ -5980,6 +6051,41 @@
             "machine learning"
           ],
           "summary": "Assistant Professor working on statistics and data analytics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "ana-maria-estrada-gomez",
+          "name": "Ana María Estrada Gomez",
+          "title": "Assistant Professor",
+          "sub_field": "Statistics and data analytics",
+          "tags": [
+            "statistics",
+            "data analytics",
+            "healthcare"
+          ],
+          "summary": "Assistant Professor working on statistical modeling and data analytics with healthcare applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "joaquin-goni-cortes",
+          "name": "Joaquín Goñi Cortes",
+          "title": "Juan Ernesto de Bedout Rising Star Associate Professor (joint with Biomedical Engineering)",
+          "sub_field": "Network neuroscience",
+          "tags": [
+            "network science",
+            "connectomics",
+            "neuroscience",
+            "data analytics"
+          ],
+          "summary": "Associate Professor working on network neuroscience and brain connectomics.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
@@ -9286,6 +9392,24 @@
             "homepage": "https://ise.usc.edu/faculty/",
             "scholar": null
           }
+        },
+        {
+          "id": "camilo-hernandez",
+          "name": "Camilo Hernández",
+          "title": "Assistant Professor",
+          "sub_field": "Optimization, machine learning, data-driven decision making",
+          "tags": [
+            "optimization",
+            "machine learning",
+            "data-driven",
+            "decision making"
+          ],
+          "summary": "Research in optimization and machine learning for data-driven decision making under uncertainty, with applications in operations and finance.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://ise.usc.edu/faculty/",
+            "scholar": null
+          }
         }
       ]
     },
@@ -10067,6 +10191,24 @@
             "development"
           ],
           "summary": "Research in sustainable infrastructure systems for developing and emerging economies, focusing on water, sanitation, and energy technology policy and implementation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-otero-leon",
+          "name": "Daniel Otero-León",
+          "title": "Assistant Professor (SIE & Public Health Sciences)",
+          "sub_field": "Health systems, simulation, decision science",
+          "tags": [
+            "health systems",
+            "simulation",
+            "decision science",
+            "analytics"
+          ],
+          "summary": "Research in health systems engineering, using simulation and decision science to improve healthcare delivery, patient access, and health outcomes.",
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": null,
