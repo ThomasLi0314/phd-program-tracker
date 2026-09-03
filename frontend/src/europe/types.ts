@@ -70,6 +70,21 @@ export interface CountryPolicy {
   /** ISO 3166-1 alpha-2, used for the flag and for stable grouping. */
   code: string
   tuition: TuitionPolicy
+  /**
+   * What the two tuition tiers are actually called here. Europe splits on
+   * citizenship (EU/EEA vs everyone else); Hong Kong on local vs non-local;
+   * Singapore on whether the MOE subsidy applies. Printing "EU" above a
+   * Singapore fee would be a quiet lie, so the country says what it means.
+   */
+  labels?: { local: string; international: string }
+  /**
+   * Whether the figures above are a rule every programme inherits (Germany,
+   * France, Austria) or only a description of how fees get set, with the
+   * numbers being a range observed across the rows listed (Singapore, Hong
+   * Kong, where each taught master's prices itself). Decides whether the UI
+   * says "national rule" or "regional pattern" on an inherited value.
+   */
+  basis?: 'national' | 'per-programme'
   /** Living costs / blocked account / visa financial proof, when published. */
   living_cost?: Sourced
   /** National scholarship schemes (DAAD, Eiffel, Holland Scholarship…). */
@@ -119,6 +134,14 @@ export interface EuroDataset {
 }
 
 export const UNKNOWN_LABEL = 'Unknown / Verify'
+
+/** Names for a country's two tuition tiers, defaulting to the European split. */
+export function tuitionLabels(country: CountryPolicy | undefined): {
+  local: string
+  international: string
+} {
+  return country?.labels ?? { local: 'EU/EEA', international: 'Non-EU' }
+}
 
 /** Read a sourced value for display, collapsing null to the honest label. */
 export function show(s: Sourced | undefined): string {

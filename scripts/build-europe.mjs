@@ -10,7 +10,13 @@
 import { writeFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { COUNTRIES, UNIVERSITIES, META } from './europe-source.mjs'
+import { COUNTRIES as EU_COUNTRIES, UNIVERSITIES as EU_UNIVERSITIES, META } from './europe-source.mjs'
+import { ASIA_COUNTRIES, ASIA_UNIVERSITIES } from './asia-source.mjs'
+
+// The file is still called europe.json — renaming it would break every link
+// already published — but it now carries Singapore and Hong Kong too.
+const COUNTRIES = [...EU_COUNTRIES, ...ASIA_COUNTRIES]
+const UNIVERSITIES = [...EU_UNIVERSITIES, ...ASIA_UNIVERSITIES]
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const OUT = join(HERE, '..', 'frontend', 'public', 'data', 'europe.json')

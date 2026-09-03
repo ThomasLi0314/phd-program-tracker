@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": 1,
-    "generated_at": "2026-08-13",
+    "version": 2,
+    "generated_at": "2026-09-03",
     "cycle": "2027 entry",
-    "note": "European taught master's programmes in mathematics, applied and computational mathematics, atmosphere & ocean science, physics, applied physics, computer science and engineering. Tuition and funding rules change every year and several countries are mid-reform — every figure links to the page it was read from. Verify before you budget."
+    "note": "Taught master's programmes in Europe, Singapore and Hong Kong, in mathematics, applied and computational mathematics, atmosphere & ocean science, physics, applied physics, computer science and engineering. Tuition and funding rules change every year and several countries are mid-reform — every figure links to the page it was read from. Verify before you budget."
   },
   "countries": [
     {
@@ -129,6 +129,32 @@
       "note": "Still the cheapest serious option in Europe — but \"Germany is free\" is no longer reliably true for non-EU applicants. Baden-Württemberg has charged €1,500 per semester since 2017, and TUM began charging €4,000–6,000 per semester with the 2024/25 intake, the first Bavarian university to do so. Check the specific university, not the country."
     },
     {
+      "country": "Hong Kong SAR",
+      "code": "HK",
+      "labels": {
+        "local": "Local",
+        "international": "Non-local"
+      },
+      "basis": "per-programme",
+      "tuition": {
+        "eu": {
+          "value": "HK$240,000–250,000",
+          "note": "only where a programme prices locals separately (HKU Engineering and Computer Science); many charge one rate to everyone",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        },
+        "non_eu": {
+          "value": "HK$168,960–375,000",
+          "note": "taught master's are self-financing and priced per programme — this is the range across those read here; research MPhil/PhD is a separate HK$47,000–49,500 a year",
+          "source": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+        }
+      },
+      "scholarships": {
+        "value": "Hong Kong PhD Fellowship Scheme: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28 — doctoral only",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "note": "Hong Kong splits sharply by degree type. A taught MSc is a full-price product with almost no aid attached. A research MPhil or PhD costs HK$47,000–49,500 a year and comes with a studentship — HKUST pays HK$229,620 a year, and the territory-wide HKPFS pays HK$344,400 plus travel to 400 people. If the money matters more than the extra year, apply research-side."
+    },
+    {
       "country": "Italy",
       "code": "IT",
       "tuition": {
@@ -182,6 +208,32 @@
         "value": null
       },
       "note": "Norway charged nobody tuition until autumn 2023. Non-EEA fees are new, vary by university and category, and scholarship provision has not caught up — check for funding before applying."
+    },
+    {
+      "country": "Singapore",
+      "code": "SG",
+      "labels": {
+        "local": "Subsidised",
+        "international": "International"
+      },
+      "basis": "per-programme",
+      "tuition": {
+        "eu": {
+          "value": "Rebates only, no separate rate",
+          "note": "S$5,000 NTU subsidy for Citizens/PRs on self-financed master's (up to S$15,000 with need); NUS rebates Citizens, PRs and its own alumni",
+          "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+        },
+        "non_eu": {
+          "value": "S$58,860–63,220",
+          "note": "incl. 9% GST. Set per programme, not nationally — this is the range across the programmes read here",
+          "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+        }
+      },
+      "scholarships": {
+        "value": "Coursework master's are essentially unfunded — NUS states there are \"in general no scholarships available for graduate coursework programmes\"",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "note": "The assumption to drop here is the MOE Tuition Grant. NTU now states plainly that the service obligation \"is no longer available to international students applying for Coursework Programmes\" — the subsidised rate with its 3-year Singapore work bond survives only for RESEARCH degrees. So an international taught MSc is full price with no scholarship attached, while a PhD is funded. In Singapore the funded route and the taught route are different doors."
     },
     {
       "country": "Sweden",
@@ -1810,6 +1862,2825 @@
       "checked_at": "2026-08-13"
     },
     {
+      "id": "cuhk-mphil-phd-in-computer-science-and-engineering",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MPhil–PhD in Computer Science and Engineering",
+      "degree": "MPhil",
+      "fields": [
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        },
+        "eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        }
+      },
+      "scholarship": {
+        "level": "full",
+        "value": "HKPFS: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-computer-science-and-engineering",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-mphil-phd-in-earth-and-environmental-sciences",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MPhil–PhD in Earth and Environmental Sciences",
+      "degree": "MPhil",
+      "fields": [
+        "Atmosphere & Ocean"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        },
+        "eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        }
+      },
+      "scholarship": {
+        "level": "full",
+        "value": "HKPFS: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-earth-and-environmental-sciences",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-mphil-phd-in-information-engineering",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MPhil–PhD in Information Engineering",
+      "degree": "MPhil",
+      "fields": [
+        "Engineering",
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        },
+        "eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        }
+      },
+      "scholarship": {
+        "level": "full",
+        "value": "HKPFS: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-information-engineering",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-mphil-phd-in-mathematics",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MPhil–PhD in Mathematics",
+      "degree": "MPhil",
+      "fields": [
+        "Mathematics",
+        "Applied Mathematics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        },
+        "eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        }
+      },
+      "scholarship": {
+        "level": "full",
+        "value": "HKPFS: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-mphil-phd-in-mechanical-and-automation-engineering",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MPhil–PhD in Mechanical and Automation Engineering",
+      "degree": "MPhil",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        },
+        "eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        }
+      },
+      "scholarship": {
+        "level": "full",
+        "value": "HKPFS: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-mechanical-and-automation-engineering",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-mphil-phd-in-physics",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MPhil–PhD in Physics",
+      "degree": "MPhil",
+      "fields": [
+        "Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        },
+        "eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        }
+      },
+      "scholarship": {
+        "level": "full",
+        "value": "HKPFS: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-mphil-phd-in-statistics",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MPhil–PhD in Statistics",
+      "degree": "MPhil",
+      "fields": [
+        "Mathematics",
+        "Computational Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        },
+        "eu": {
+          "value": "HK$49,500 / year",
+          "note": "2027/28 research postgraduate rate",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-physics"
+        }
+      },
+      "scholarship": {
+        "level": "full",
+        "value": "HKPFS: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-statistics",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-advanced-studies-in-statistics-and-data-science",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Advanced Studies in Statistics and Data Science",
+      "degree": "MSc",
+      "fields": [
+        "Mathematics",
+        "Computational Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/science/msc-advanced-studies-statistics-and-data-science",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-artificial-intelligence",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Artificial Intelligence",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-artificial-intelligence",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-artificial-intelligence-for-science",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Artificial Intelligence for Science",
+      "degree": "MSc",
+      "fields": [
+        "Computational Science",
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/science/msc-artificial-intelligence-science",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-biomedical-engineering",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Biomedical Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-biomedical-engineering",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-computer-science",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Computer Science",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": "1 year full-time",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-computer-science"
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$300,000 whole programme",
+          "note": "full-time; HK$260,000 part-time",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-computer-science"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": "31 January 2027",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-computer-science"
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-computer-science",
+        "admissions": "https://msc.cse.cuhk.edu.hk/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-data-science-and-business-statistics",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Data Science and Business Statistics",
+      "degree": "MSc",
+      "fields": [
+        "Computational Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/science/msc-data-science-and-business-statistics",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-earth-and-environmental-analytics-for-sustainability",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Earth and Environmental Analytics for Sustainability",
+      "degree": "MSc",
+      "fields": [
+        "Atmosphere & Ocean",
+        "Computational Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": "1 year full-time",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science/msc-earth-and-environmental-analytics-sustainability"
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$200,000 whole programme",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/msc-earth-and-environmental-analytics-sustainability"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": "Priority 31 Dec 2026, final 30 Apr 2027",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science/msc-earth-and-environmental-analytics-sustainability"
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/science/msc-earth-and-environmental-analytics-sustainability",
+        "admissions": "https://www.ees.cuhk.edu.hk/programme/postgraduate-programmes/msc-programme/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-electronic-engineering",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Electronic Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-electronic-engineering",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-information-engineering",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Information Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-information-engineering",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-mathematics",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Mathematics",
+      "degree": "MSc",
+      "fields": [
+        "Mathematics",
+        "Applied Mathematics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": "1 year full-time",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science/msc-mathematics"
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$168,960 / year",
+          "note": "full-time; HK$84,480 part-time",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/msc-mathematics"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": "Priority 31 Jan 2027, final 31 Mar 2027",
+        "note": "rolling until full",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science/msc-mathematics"
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/science/msc-mathematics",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-mechanical-and-automation-engineering",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Mechanical and Automation Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-mechanical-and-automation-engineering",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-microelectronics-and-integrated-circuits",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Microelectronics and Integrated Circuits",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-microelectronics-and-integrated-circuits",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-physics",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Physics",
+      "degree": "MSc",
+      "fields": [
+        "Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": "1 year full-time",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science/msc-physics"
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$199,200 / year",
+          "note": "full-time; HK$99,600 part-time",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/msc-physics"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": "15 May 2027",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science/msc-physics"
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/science/msc-physics",
+        "admissions": "https://wp.phy.cuhk.edu.hk/postgraduate-admissions/msc-in-physics"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-robotics",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Robotics",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "cuhk-msc-in-systems-engineering-and-engineering-management",
+      "university": "CUHK",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Systems Engineering and Engineering Management",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Mathematics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5",
+        "note": "scores valid two years; waived for English-medium degrees",
+        "source": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Every listed department runs an MPhil–PhD stream, and HKPFS applies.",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-systems-engineering-and-engineering-management",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-mphil-in-computer-science-and-engineering",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MPhil in Computer Science and Engineering",
+      "degree": "MPhil",
+      "fields": [
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$47,000 / year",
+          "note": "2026–27 research postgraduate rate",
+          "source": "https://registry.hkust.edu.hk/resource-library/tuition-rates-research-pg"
+        },
+        "eu": {
+          "value": "HK$47,000 / year",
+          "note": "2026–27 research postgraduate rate",
+          "source": "https://registry.hkust.edu.hk/resource-library/tuition-rates-research-pg"
+        }
+      },
+      "scholarship": {
+        "level": "full",
+        "value": "Postgraduate Studentship HK$229,620 a year",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://cse.hkust.edu.hk/pg/",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-mphil-in-marine-environmental-science",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MPhil in Marine Environmental Science",
+      "degree": "MPhil",
+      "fields": [
+        "Atmosphere & Ocean"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$47,000 / year",
+          "note": "2026–27 research postgraduate rate",
+          "source": "https://registry.hkust.edu.hk/resource-library/tuition-rates-research-pg"
+        },
+        "eu": {
+          "value": "HK$47,000 / year",
+          "note": "2026–27 research postgraduate rate",
+          "source": "https://registry.hkust.edu.hk/resource-library/tuition-rates-research-pg"
+        }
+      },
+      "scholarship": {
+        "level": "full",
+        "value": "Postgraduate Studentship HK$229,620 a year",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://oces.hkust.edu.hk/programs/master-philosophy-marine-environmental-science-mphil-mes",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-mphil-in-mathematics",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MPhil in Mathematics",
+      "degree": "MPhil",
+      "fields": [
+        "Mathematics",
+        "Applied Mathematics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$47,000 / year",
+          "note": "2026–27 research postgraduate rate",
+          "source": "https://registry.hkust.edu.hk/resource-library/tuition-rates-research-pg"
+        },
+        "eu": {
+          "value": "HK$47,000 / year",
+          "note": "2026–27 research postgraduate rate",
+          "source": "https://registry.hkust.edu.hk/resource-library/tuition-rates-research-pg"
+        }
+      },
+      "scholarship": {
+        "level": "full",
+        "value": "Postgraduate Studentship HK$229,620 a year",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://www.math.hkust.edu.hk/pg/",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-mphil-in-physics",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MPhil in Physics",
+      "degree": "MPhil",
+      "fields": [
+        "Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$47,000 / year",
+          "note": "2026–27 research postgraduate rate",
+          "source": "https://registry.hkust.edu.hk/resource-library/tuition-rates-research-pg"
+        },
+        "eu": {
+          "value": "HK$47,000 / year",
+          "note": "2026–27 research postgraduate rate",
+          "source": "https://registry.hkust.edu.hk/resource-library/tuition-rates-research-pg"
+        }
+      },
+      "scholarship": {
+        "level": "full",
+        "value": "Postgraduate Studentship HK$229,620 a year",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://physics.hkust.edu.hk/programs/postgraduate-programs/mphil-physics",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-mphil-phd-in-atmospheric-environmental-science",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MPhil/PhD in Atmospheric Environmental Science",
+      "degree": "MPhil",
+      "fields": [
+        "Atmosphere & Ocean",
+        "Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$47,000 / year",
+          "note": "2026–27 research postgraduate rate",
+          "source": "https://registry.hkust.edu.hk/resource-library/tuition-rates-research-pg"
+        },
+        "eu": {
+          "value": "HK$47,000 / year",
+          "note": "2026–27 research postgraduate rate",
+          "source": "https://registry.hkust.edu.hk/resource-library/tuition-rates-research-pg"
+        }
+      },
+      "scholarship": {
+        "level": "full",
+        "value": "Postgraduate Studentship HK$229,620 a year",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://envr.ust.hk/programs/research-postgraduate-program/mphil-phd-in-aes/program-objective.html",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-aeronautical-engineering",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Aeronautical Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ae",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-artificial-intelligence",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Artificial Intelligence",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-big-data-technology",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Big Data Technology",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science",
+        "Computational Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-bdt",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-chemical-and-energy-engineering",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Chemical and Energy Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-cee",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-civil-infrastructural-engineering-and-management",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Civil Infrastructural Engineering and Management",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ciem",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-data-driven-modeling",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Data-Driven Modeling",
+      "degree": "MSc",
+      "fields": [
+        "Computational Science",
+        "Applied Mathematics",
+        "Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://msdm.hkust.edu.hk/",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-digital-and-sustainable-cities",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Digital and Sustainable Cities",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-disc",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-electronic-engineering",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Electronic Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-eleg",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-environmental-engineering-and-management",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Environmental Engineering and Management",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Atmosphere & Ocean"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-evem",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-financial-mathematics",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Financial Mathematics",
+      "degree": "MSc",
+      "fields": [
+        "Applied Mathematics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://mafm.hkust.edu.hk/",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-global-marine-resources-management",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Global Marine Resources Management",
+      "degree": "MSc",
+      "fields": [
+        "Atmosphere & Ocean"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://mscgmrm.org/",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-information-technology",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Information Technology",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-it",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-integrated-circuits",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Integrated Circuits",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ic",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-materials-engineering",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Materials Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-mate",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-mechanical-engineering",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Mechanical Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-mech",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-physics",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Physics",
+      "degree": "MSc",
+      "fields": [
+        "Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://msphy.hkust.edu.hk/",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "hkust-msc-in-telecommunications",
+      "university": "HKUST",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Telecommunications",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "partial",
+        "value": "Asian Future Leaders Scholarship for Asian master’s students: HK$97,190 tuition waiver plus a HK$97,190 stipend on taught programmes",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.",
+        "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+      },
+      "links": {
+        "program": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-telecom",
+        "tuition": "https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-master-of-data-science",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "Master of Data Science",
+      "degree": "MSc",
+      "fields": [
+        "Computational Science",
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-sci&mode=0",
+        "admissions": "https://www.scifac.hku.hk/prospective/tpg/about"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-master-of-statistics",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "Master of Statistics",
+      "degree": "MSc",
+      "fields": [
+        "Mathematics",
+        "Computational Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-sci&mode=0",
+        "admissions": "https://www.scifac.hku.hk/prospective/tpg/about"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-in-applied-geosciences",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Applied Geosciences",
+      "degree": "MSc",
+      "fields": [
+        "Atmosphere & Ocean"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://www.scifac.hku.hk/prospective/tpg/MSAG",
+        "admissions": "https://www.scifac.hku.hk/prospective/tpg/about"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-in-artificial-intelligence",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Artificial Intelligence",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science",
+        "Computational Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://www.scifac.hku.hk/prospective/tpg/ArtificialIntelligence",
+        "admissions": "https://www.scifac.hku.hk/prospective/tpg/about"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-in-computer-science",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Computer Science",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": "1 year full-time",
+        "source": "https://master.cds.hku.hk/msccs/admission/application-details/"
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$334,800 whole programme",
+          "note": "2026–27; HK$375,000 for the AI & Decentralized Technologies stream",
+          "source": "https://master.cds.hku.hk/msccs/admission/application-details/"
+        },
+        "eu": {
+          "value": "HK$240,000 whole programme",
+          "note": "local rate",
+          "source": "https://master.cds.hku.hk/msccs/admission/application-details/"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": "Main round 1 Dec 2025, clearing 30 Apr 2026",
+        "note": "2026–27 round — 2027–28 dates not yet published",
+        "source": "https://master.cds.hku.hk/msccs/admission/application-details/"
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://master.cds.hku.hk/msccs/",
+        "admissions": "https://master.cds.hku.hk/msccs/admission/application-details/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-in-environmental-management",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Environmental Management",
+      "degree": "MSc",
+      "fields": [
+        "Atmosphere & Ocean"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://www.scifac.hku.hk/prospective/tpg/EnvMan",
+        "admissions": "https://www.scifac.hku.hk/prospective/tpg/about"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-in-integrative-marine-ecology-and-conservation",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Integrative Marine Ecology and Conservation",
+      "degree": "MSc",
+      "fields": [
+        "Atmosphere & Ocean"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://www.scifac.hku.hk/prospective/tpg/IMEC",
+        "admissions": "https://www.scifac.hku.hk/prospective/tpg/about"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-in-physics",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Physics",
+      "degree": "MSc",
+      "fields": [
+        "Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": "1 year full-time",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$200,000 whole programme",
+          "note": "2026–27 intake; same rate for local and non-local",
+          "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+        },
+        "eu": {
+          "value": "HK$200,000 whole programme",
+          "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": "30 April 2026 for non-local applicants",
+        "note": "2026–27 round — 2027–28 dates not yet published",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://www.scifac.hku.hk/prospective/tpg/Physics",
+        "admissions": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-in-space-science",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc in Space Science",
+      "degree": "MSc",
+      "fields": [
+        "Physics",
+        "Applied Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://www.scifac.hku.hk/prospective/tpg/SpaceScience",
+        "admissions": "https://www.scifac.hku.hk/prospective/tpg/about"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-eng-in-civil-engineering",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc(Eng) in Civil Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$375,000 whole programme",
+          "note": "2026–27 intake",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        },
+        "eu": {
+          "value": "HK$250,000 whole programme",
+          "note": "local rate",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://www.civil.hku.hk/h4_pros_pg_prog_msc.html",
+        "admissions": "https://engg.hku.hk/Admissions/MSc/Curricula-Offered"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-eng-in-electrical-and-electronic-engineering",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc(Eng) in Electrical and Electronic Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$375,000 whole programme",
+          "note": "2026–27 intake",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        },
+        "eu": {
+          "value": "HK$250,000 whole programme",
+          "note": "local rate",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://www.eee.hku.hk/study/postgraduate",
+        "admissions": "https://engg.hku.hk/Admissions/MSc/Curricula-Offered"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-eng-in-energy-engineering",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc(Eng) in Energy Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$375,000 whole programme",
+          "note": "2026–27 intake",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        },
+        "eu": {
+          "value": "HK$250,000 whole programme",
+          "note": "local rate",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://www.eee.hku.hk/study/postgraduate/",
+        "admissions": "https://engg.hku.hk/Admissions/MSc/Curricula-Offered"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-eng-in-industrial-engineering-and-logistics-management",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc(Eng) in Industrial Engineering and Logistics Management",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Mathematics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$375,000 whole programme",
+          "note": "2026–27 intake",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        },
+        "eu": {
+          "value": "HK$250,000 whole programme",
+          "note": "local rate",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://www.dase.hku.hk/teaching-and-learning/prospective-students/master-of-science-in-engineering-in-industrial-engineering-and-logistics-management",
+        "admissions": "https://engg.hku.hk/Admissions/MSc/Curricula-Offered"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-eng-in-infrastructure-engineering-and-management",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc(Eng) in Infrastructure Engineering and Management",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$375,000 whole programme",
+          "note": "2026–27 intake",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        },
+        "eu": {
+          "value": "HK$250,000 whole programme",
+          "note": "local rate",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://www.civil.hku.hk/h4_pros_pg_prog_msc_iem.html",
+        "admissions": "https://engg.hku.hk/Admissions/MSc/Curricula-Offered"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-eng-in-mechanical-engineering",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc(Eng) in Mechanical Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$375,000 whole programme",
+          "note": "2026–27 intake",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        },
+        "eu": {
+          "value": "HK$250,000 whole programme",
+          "note": "local rate",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://mech.hku.hk/tpg/",
+        "admissions": "https://engg.hku.hk/Admissions/MSc/Curricula-Offered"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-eng-in-microelectronics-science-and-technology",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc(Eng) in Microelectronics Science and Technology",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$375,000 whole programme",
+          "note": "2026–27 intake",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        },
+        "eu": {
+          "value": "HK$250,000 whole programme",
+          "note": "local rate",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://mech.hku.hk/tpg/",
+        "admissions": "https://engg.hku.hk/Admissions/MSc/Curricula-Offered"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "university-of-hong-kong-msc-eng-in-robotics-and-intelligent-systems",
+      "university": "University of Hong Kong",
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "program_name": "MSc(Eng) in Robotics and Intelligent Systems",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "English is the medium of instruction",
+        "source": "https://www.scifac.hku.hk/prospective/tpg/Physics"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "HK$375,000 whole programme",
+          "note": "2026–27 intake",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        },
+        "eu": {
+          "value": "HK$250,000 whole programme",
+          "note": "local rate",
+          "source": "https://engg.hku.hk/Admissions/MSc/Fees"
+        }
+      },
+      "scholarship": {
+        "level": "unknown",
+        "value": null
+      },
+      "english": {
+        "value": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0 with no subtest below 5.5",
+        "note": "taught postgraduate minimum; programmes may set higher",
+        "source": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "HKPFS applies: HK$344,400 a year plus HK$14,400 travel, 400 awards for 2027/28.",
+        "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      "links": {
+        "program": "https://www.dase.hku.hk/teaching-and-learning/prospective-students/master-of-science-in-engineering-in-robotics-and-intelligent-systems",
+        "admissions": "https://engg.hku.hk/Admissions/MSc/Curricula-Offered"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
       "id": "politecnico-di-milano-msc-engineering-physics",
       "university": "Politecnico di Milano",
       "city": "Milan",
@@ -2925,6 +5796,1676 @@
         "program": "https://www4.uib.no/en/programmes/meteorology-and-oceanography-masters"
       },
       "checked_at": "2026-08-13"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-artificial-intelligence",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Artificial Intelligence",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": "1 year full-time (30 AU)",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "S$63,220 total",
+          "note": "incl. 9% GST; AY2025 intake onwards",
+          "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+        }
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-civil-engineering",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Civil Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/cee/admissions/graduate/detail/master-of-science-in-civil-engineering",
+        "admissions": "https://www.ntu.edu.sg/cee/admissions/graduate",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-communications-engineering",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Communications Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": "August 2027 intake: 1 Oct 2026 – 31 Mar 2027",
+        "note": "EEE dates; the January intake runs 1 Jul – 31 Aug 2026",
+        "source": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc"
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/detail/master-of-science-in-communications-engineering",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-computer-control-and-automation",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Computer Control & Automation",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": "August 2027 intake: 1 Oct 2026 – 31 Mar 2027",
+        "note": "EEE dates",
+        "source": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc"
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/detail/master-of-science-in-computer-control-automation",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-cyber-security",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Cyber Security",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "S$63,220 total",
+          "note": "incl. 9% GST; AY2025 intake onwards",
+          "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+        }
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-data-science",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Data Science",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science",
+        "Computational Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "S$63,220 total",
+          "note": "incl. 9% GST; AY2025 intake onwards",
+          "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+        }
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-environmental-sustainability-science",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Environmental Sustainability Science",
+      "degree": "MSc",
+      "fields": [
+        "Atmosphere & Ocean"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/ase/admissions/graduate-programmes/master-by-coursework",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-green-energy-technologies",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Green Energy Technologies",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-green-energy-technologies",
+        "admissions": "https://www.ntu.edu.sg/mae/admissions/graduate-programmes",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-integrated-circuits-and-microelectronics",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Integrated Circuits and Microelectronics",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": "August 2027 intake: 1 Oct 2026 – 31 Mar 2027",
+        "note": "EEE dates",
+        "source": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc"
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/detail/master-of-science-in-integrated-circuits-and-microelectronics",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-maritime-studies",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Maritime Studies",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Atmosphere & Ocean"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/cee/admissions/graduate/detail/master-of-science-in-maritime-studies",
+        "admissions": "https://www.ntu.edu.sg/cee/admissions/graduate",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-mathematical-sciences-by-research",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Mathematical Sciences (by research)",
+      "degree": "MSc",
+      "fields": [
+        "Mathematics",
+        "Applied Mathematics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": "1–3 years",
+        "note": "research thesis plus 12 AU of coursework",
+        "source": "https://www.ntu.edu.sg/spms/admissions/grad/detail/spms-master-of-science-in-mathematical-sciences"
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/spms/admissions/grad/detail/spms-master-of-science-in-mathematical-sciences",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-mechanical-engineering",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Mechanical Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-mechanical-engineering-2",
+        "admissions": "https://www.ntu.edu.sg/mae/admissions/graduate-programmes",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-power-engineering",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Power Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": "August 2027 intake: 1 Oct 2026 – 31 Mar 2027",
+        "note": "EEE dates",
+        "source": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc"
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/detail/master-of-science-in-power-engineering",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-robotics-and-intelligent-systems",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Robotics and Intelligent Systems",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-(robotics-and-intelligent-systems)",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-signal-processing-and-machine-learning",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Signal Processing and Machine Learning",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Mathematics",
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": "August 2027 intake: 1 Oct 2026 – 31 Mar 2027",
+        "note": "EEE dates",
+        "source": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/msc"
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/detail/master-of-science-in-signal-processing",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-smart-manufacturing",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Smart Manufacturing",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-smart-manufacturing",
+        "admissions": "https://www.ntu.edu.sg/mae/admissions/graduate-programmes",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "nanyang-technological-university-msc-in-sustainability-and-environmental-engineering",
+      "university": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Sustainability and Environmental Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Atmosphere & Ocean"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "Nothing listed for international coursework students — the S$5,000 subsidy (up to S$15,000 with need) and the 10% alumni rebate go to Citizens, PRs and NTU alumni",
+        "source": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes"
+      },
+      "english": {
+        "value": null
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "MOE subsidy with the 3-year Singapore work bond is still open to international RESEARCH students — it has closed to coursework students.",
+        "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/service-obligation"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/cee/admissions/graduate/detail/master-of-science-in-sustainability-and-environmental-engineering",
+        "admissions": "https://www.ntu.edu.sg/cee/admissions/graduate",
+        "tuition": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/pgtuitionfees"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-master-of-computing-artificial-intelligence",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "Master of Computing (Artificial Intelligence)",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://www.comp.nus.edu.sg/programmes/pg/mai/",
+        "admissions": "https://www.comp.nus.edu.sg/programmes/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-master-of-computing-computer-science",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "Master of Computing (Computer Science)",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://www.comp.nus.edu.sg/programmes/pg/mcs/",
+        "admissions": "https://www.comp.nus.edu.sg/programmes/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-master-of-computing-general-track",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "Master of Computing (General Track)",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/",
+        "admissions": "https://www.comp.nus.edu.sg/programmes/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-master-of-computing-infocomm-security",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "Master of Computing (Infocomm Security)",
+      "degree": "MSc",
+      "fields": [
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://www.comp.nus.edu.sg/programmes/pg/misc/",
+        "admissions": "https://www.comp.nus.edu.sg/programmes/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-ai-for-science",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in AI for Science",
+      "degree": "MSc",
+      "fields": [
+        "Computational Science",
+        "Computer Science",
+        "Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://www.physics.nus.edu.sg/student/msc-ai-for-science/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-civil-engineering",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Civil Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://cde.nus.edu.sg/cee/graduate/coursework-based-programmes/msc-ce/",
+        "admissions": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-computer-engineering",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Computer Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://cde.nus.edu.sg/ece/graduate/msc-computer-engineering/",
+        "admissions": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-data-science-and-machine-learning",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Data Science and Machine Learning",
+      "degree": "MSc",
+      "fields": [
+        "Computational Science",
+        "Computer Science",
+        "Applied Mathematics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "tuition": {
+        "non_eu": {
+          "value": "S$58,860 total",
+          "note": "AY2026, incl. 9% GST; S$47,088 for NUS alumni",
+          "source": "https://www.math.nus.edu.sg/wp-content/uploads/sites/4/2025/04/MDSML-AY2026-International-Students.pdf"
+        }
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://www.math.nus.edu.sg/ms-dsml-v1/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-data-science-for-sustainability",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Data Science for Sustainability",
+      "degree": "MSc",
+      "fields": [
+        "Computational Science",
+        "Atmosphere & Ocean"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://www.stat.nus.edu.sg/education/graduate/msc-in-data-science-for-sustainability/prospective-students/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-electrical-engineering",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Electrical Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://cde.nus.edu.sg/ece/graduate/msc-electrical-engineering/",
+        "admissions": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-energy-systems",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Energy Systems",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://cde.nus.edu.sg/chbe/graduate/research-and-course-work-based-programmes/admissions/msc-energy-systems-programme/",
+        "admissions": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-environmental-engineering",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Environmental Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Atmosphere & Ocean"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://cde.nus.edu.sg/cee/graduate/coursework-based-programmes/msc-eve/",
+        "admissions": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-industrial-and-systems-engineering",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Industrial & Systems Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Mathematics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://cde.nus.edu.sg/isem/graduate/coursework/masters-of-science-industrial-and-systems-engineering-programme/",
+        "admissions": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-maritime-technology-and-management",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Maritime Technology and Management",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Atmosphere & Ocean"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://cde.nus.edu.sg/isem/graduate/coursework/masters-of-science-maritime-technology-management-programme/",
+        "admissions": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-materials-science-and-engineering",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Materials Science and Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Applied Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://cde.nus.edu.sg/mse/graduates/master-of-science-msc/",
+        "admissions": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-mathematics",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Mathematics",
+      "degree": "MSc",
+      "fields": [
+        "Mathematics",
+        "Applied Mathematics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": "1 year full-time (Track 1, 40 units)",
+        "source": "https://www.math.nus.edu.sg/pg/msc-cwk/"
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://www.math.nus.edu.sg/pg/msc-cwk/",
+        "admissions": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-mechanical-engineering",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Mechanical Engineering",
+      "degree": "MSc",
+      "fields": [
+        "Engineering"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://cde.nus.edu.sg/me/graduate/msc-me/",
+        "admissions": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-physics",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Physics",
+      "degree": "MSc",
+      "fields": [
+        "Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://www.physics.nus.edu.sg/student/master-of-science-by-coursework/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-physics-for-technology",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Physics for Technology",
+      "degree": "MSc",
+      "fields": [
+        "Applied Physics",
+        "Physics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://www.physics.nus.edu.sg/student/master-in-physics-technology/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-quantitative-finance",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Quantitative Finance",
+      "degree": "MSc",
+      "fields": [
+        "Applied Mathematics"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://www.math.nus.edu.sg/pg/mqf/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-robotics",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Robotics",
+      "degree": "MSc",
+      "fields": [
+        "Engineering",
+        "Computer Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://cde.nus.edu.sg/me/graduate/msc-robotics/",
+        "admissions": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/"
+      },
+      "checked_at": "2026-09-03"
+    },
+    {
+      "id": "national-university-of-singapore-msc-in-statistics",
+      "university": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "program_name": "MSc in Statistics",
+      "degree": "MSc",
+      "fields": [
+        "Mathematics",
+        "Computational Science"
+      ],
+      "language": {
+        "value": "English",
+        "note": "all listed programmes are taught in English",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "duration": {
+        "value": null
+      },
+      "scholarship": {
+        "level": "none",
+        "value": "NUS states there are in general no scholarships for graduate coursework programmes — only fee rebates for Citizens, PRs and NUS alumni",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "english": {
+        "value": "TOEFL iBT 85 — or 4.5 for tests from 21 Jan 2026 · IELTS 6.0",
+        "note": "Faculty of Science minimum; other faculties set their own",
+        "source": "https://www.science.nus.edu.sg/graduates/msc-coursework-programmes/faq-coursework-programmes/"
+      },
+      "deadline": {
+        "value": null
+      },
+      "phd": {
+        "value": "yes",
+        "note": "PhD admission is separate from the coursework MSc, and is the funded route.",
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/"
+      },
+      "links": {
+        "program": "https://www.stat.nus.edu.sg/education/graduate/msc-in-statistics/prospective-students/"
+      },
+      "checked_at": "2026-09-03"
     },
     {
       "id": "kth-royal-institute-of-technology-applied-and-computational-mathematics",

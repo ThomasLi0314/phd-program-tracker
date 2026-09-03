@@ -1,7 +1,7 @@
-// "Europe Master's" — the second page of the program database.
+// "Master's Abroad" — the second page of the program database.
 //
 // The US PhD side of this app answers "who could advise me". This side answers a
-// different question: a taught master's in Europe is something you largely pay
+// different question: a taught master's abroad is something you largely pay
 // for, so the columns that matter are cost, funding and whether your English
 // certificate clears the bar. It shares the bundle and the hash router with the
 // tracker and the planner, and nothing else.
@@ -9,7 +9,7 @@
 import { useMemo, useState } from 'react'
 import { useEurope, applyFilters, countryIndex, emptyFilters, groupByCountry } from './lib/dataset'
 import type { Filters } from './lib/dataset'
-import { EURO_FIELDS, effectiveTuition, isUnknown } from './types'
+import { EURO_FIELDS, effectiveTuition, isUnknown, tuitionLabels } from './types'
 import type { CountryPolicy, EuroField, EuroProgram } from './types'
 import { DetailCell, Fact, FieldChip, Flag, ScholarshipChip } from './components/Bits'
 import { CountryPolicies } from './views/CountryPolicies'
@@ -130,6 +130,10 @@ function ProgramRow({
   onToggle: () => void
 }) {
   const tuition = effectiveTuition(p, country)
+  const labels = tuitionLabels(country)
+  // Two very different reasons a row shows the country's number: a law that
+  // really does apply to it, or a range that merely describes its neighbours.
+  const inherited = country?.basis ?? 'national'
 
   return (
     <>
@@ -168,10 +172,17 @@ function ProgramRow({
             <Fact value={tuition.non_eu} compact />
           </div>
           <div className="text-[10.5px] text-slate-400">
-            EU: <Fact value={tuition.eu} compact />
+            {labels.local}: <Fact value={tuition.eu} compact />
             {tuition.from === 'country' && (
-              <span className="ml-1 italic" title={`From the ${p.country} national rule`}>
-                · national
+              <span
+                className="ml-1 italic"
+                title={
+                  inherited === 'national'
+                    ? `From the ${p.country} national rule, not a departmental figure`
+                    : `A ${p.country}-wide pattern, not this programme's own published fee`
+                }
+              >
+                · {inherited === 'national' ? 'national' : 'regional'}
               </span>
             )}
           </div>
@@ -215,15 +226,17 @@ function ProgramRow({
         <tr className="border-t border-indigo-100 bg-indigo-50/30">
           <td colSpan={10} className="px-3 py-3">
             <div className="grid grid-cols-2 gap-x-6 gap-y-3 md:grid-cols-4">
-              <DetailCell label="Tuition — non-EU">
+              <DetailCell label={`Tuition — ${labels.international}`}>
                 <Fact value={tuition.non_eu} />
                 {tuition.from === 'country' && (
                   <div className="mt-0.5 text-[10.5px] italic text-slate-500">
-                    From the {p.country} national rule — the programme page publishes no separate figure.
+                    {inherited === 'national'
+                      ? `From the ${p.country} national rule — the programme page publishes no separate figure.`
+                      : `A range across ${p.country}, not this programme's own fee — taught master's here are priced one by one, so check the programme page before you budget.`}
                   </div>
                 )}
               </DetailCell>
-              <DetailCell label="Tuition — EU/EEA">
+              <DetailCell label={`Tuition — ${labels.local}`}>
                 <Fact value={tuition.eu} />
               </DetailCell>
               <DetailCell label="Scholarships">
@@ -325,7 +338,7 @@ export default function EuropeApp() {
     <div className="flex h-full flex-col bg-slate-50 text-slate-900">
       <header className="flex shrink-0 flex-wrap items-center justify-between gap-x-4 gap-y-2 border-b border-slate-800 bg-slate-900 px-4 py-2 text-white">
         <div className="flex items-baseline gap-3">
-          <h1 className="font-serif text-[15px] font-bold tracking-tight">Europe — Master's Programmes</h1>
+          <h1 className="font-serif text-[15px] font-bold tracking-tight">Master's Abroad — Europe &amp; Asia</h1>
           <span className="rounded bg-teal-500/20 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-teal-300 ring-1 ring-inset ring-teal-400/40">
             {data?.meta.cycle ?? '…'}
           </span>
@@ -368,7 +381,7 @@ export default function EuropeApp() {
 
       {loading && (
         <div className="flex flex-1 items-center justify-center text-sm text-slate-400">
-          Loading European programmes…
+          Loading programmes…
         </div>
       )}
 
@@ -414,7 +427,7 @@ export default function EuropeApp() {
                         </span>
                         {countries.get(country) && (
                           <span className="ml-2 font-normal text-slate-400">
-                            · non-EU tuition:{' '}
+                            · {tuitionLabels(countries.get(country)).international} tuition:{' '}
                             {isUnknown(countries.get(country)!.tuition.non_eu)
                               ? 'Unknown / Verify'
                               : String(countries.get(country)!.tuition.non_eu.value)}

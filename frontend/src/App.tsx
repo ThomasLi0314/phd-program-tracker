@@ -546,9 +546,9 @@ function App() {
           <a
             href="#/europe"
             className="rounded border border-teal-400/50 bg-teal-500/15 px-2 py-1 text-[11px] font-medium text-teal-200 transition-colors hover:bg-teal-500/25"
-            title="European master's programmes — tuition, scholarships and language requirements"
+            title="Master's programmes in Europe, Singapore and Hong Kong — tuition, scholarships and language requirements"
           >
-            Europe Master's →
+            Master's Abroad →
           </a>
 
           <a

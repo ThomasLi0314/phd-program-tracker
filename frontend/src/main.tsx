@@ -28,9 +28,16 @@ function Root() {
       </Suspense>
     )
   }
-  if (route === '/europe' || route.startsWith('/europe/')) {
+  // #/europe is the address already published; #/masters is what the page is
+  // now actually about. Both resolve here, and neither ever breaks a bookmark.
+  if (
+    route === '/europe' ||
+    route.startsWith('/europe/') ||
+    route === '/masters' ||
+    route.startsWith('/masters/')
+  ) {
     return (
-      <Suspense fallback={<Loading what="European programmes" />}>
+      <Suspense fallback={<Loading what="master's programmes" />}>
         <EuropeApp />
       </Suspense>
     )

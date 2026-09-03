@@ -26,14 +26,14 @@ const v = (value, source, note) => ({
 const CHECKED = '2026-08-13'
 
 export const META = {
-  version: 1,
-  generated_at: CHECKED,
+  version: 2,
+  generated_at: '2026-09-03',
   cycle: '2027 entry',
   note:
-    'European taught master\'s programmes in mathematics, applied and computational mathematics, ' +
-    'atmosphere & ocean science, physics, applied physics, computer science and engineering. ' +
-    'Tuition and funding rules change every year and several countries are mid-reform — every ' +
-    'figure links to the page it was read from. Verify before you budget.',
+    'Taught master\'s programmes in Europe, Singapore and Hong Kong, in mathematics, applied and ' +
+    'computational mathematics, atmosphere & ocean science, physics, applied physics, computer ' +
+    'science and engineering. Tuition and funding rules change every year and several countries ' +
+    'are mid-reform — every figure links to the page it was read from. Verify before you budget.',
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
