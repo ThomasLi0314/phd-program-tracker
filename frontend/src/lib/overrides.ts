@@ -6,19 +6,35 @@ const STORAGE_KEY = 'tracker.overrides.v1'
 /** User-supplied fixes, layered over the shared dataset (which stays read-only).
  *  facultyHomepage keyed by `${programId}/${facultyId}` (advisorKey); programPage
  *  and programContact keyed by programId; addedFaculty maps programId → advisors
- *  the user added. Empty string clears a scalar override. */
+ *  the user added; programFields maps programId → { admission-matrix field →
+ *  the user's own value }, for the many rows where the dataset says
+ *  "Unknown/Verify" or has gone stale and the user has checked the real page.
+ *  Empty string clears a scalar override. */
 export interface Overrides {
   facultyHomepage: Record<string, string>
   programPage: Record<string, string>
   programContact: Record<string, string>
   addedFaculty: Record<string, Faculty[]>
+  programFields: Record<string, Record<string, string>>
 }
+
+/** The admission-matrix fields a user may overwrite. */
+export type ProgramField =
+  | 'deadline_display'
+  | 'fee_display'
+  | 'gre'
+  | 'letters'
+  | 'english'
+  | 'duration'
+  | 'admission_model'
+  | 'funding'
 
 const EMPTY: Overrides = {
   facultyHomepage: {},
   programPage: {},
   programContact: {},
   addedFaculty: {},
+  programFields: {},
 }
 
 function load(): Overrides {
@@ -31,6 +47,7 @@ function load(): Overrides {
       programPage: p.programPage ?? {},
       programContact: p.programContact ?? {},
       addedFaculty: p.addedFaculty ?? {},
+      programFields: p.programFields ?? {},
     }
   } catch {
     return EMPTY
@@ -42,6 +59,7 @@ export function useOverrides(): {
   setFacultyHomepage: (key: string, url: string) => void
   setProgramPage: (programId: string, url: string) => void
   setProgramContact: (programId: string, text: string) => void
+  setProgramField: (programId: string, field: ProgramField, text: string) => void
   addFaculty: (programId: string, faculty: Faculty) => void
   removeFaculty: (programId: string, facultyId: string) => void
 } {
@@ -77,6 +95,30 @@ export function useOverrides(): {
   const setProgramContact = useCallback(
     (programId: string, text: string) => setMap('programContact', programId, text),
     [setMap],
+  )
+
+  const setProgramField = useCallback(
+    (programId: string, field: ProgramField, text: string) => {
+      setState((prev) => {
+        const forProgram = { ...(prev.programFields[programId] ?? {}) }
+        const t = text.trim()
+        if (t) forProgram[field] = t
+        else delete forProgram[field]
+        const programFields = { ...prev.programFields }
+        // Drop the program's entry entirely once its last override is cleared,
+        // so a reset leaves no trace in the backup file.
+        if (Object.keys(forProgram).length) programFields[programId] = forProgram
+        else delete programFields[programId]
+        const next = { ...prev, programFields }
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(next))
+        } catch {
+          /* ignore */
+        }
+        return next
+      })
+    },
+    [],
   )
 
   const addFaculty = useCallback(
@@ -124,6 +166,7 @@ export function useOverrides(): {
     setFacultyHomepage,
     setProgramPage,
     setProgramContact,
+    setProgramField,
     addFaculty,
     removeFaculty,
   }

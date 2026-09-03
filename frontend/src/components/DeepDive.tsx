@@ -6,59 +6,29 @@ import { StarRating } from './StarRating'
 import { AdvisorNote } from './AdvisorNote'
 import { OutreachBadge } from './OutreachBadge'
 import { EditableLink } from './EditableLink'
+import { ProgramNoteButton } from './ProgramNoteButton'
+import type { ProgramDoc } from '../lib/programDocs'
 import { advisorKey } from '../lib/starredAdvisors'
+import type { ProgramField } from '../lib/overrides'
 
-function Value({ text }: { text: string }) {
-  if (text === UNKNOWN) {
-    return <span className="italic text-amber-700">Unknown / Verify</span>
-  }
-  return <>{text}</>
-}
-
-function MatrixCell({
+function EditableCell({
   label,
-  value,
-  note,
-  wide = false,
-}: {
-  label: string
-  value: string
-  note?: string
-  wide?: boolean
-}) {
-  return (
-    <div
-      className={`rounded border border-slate-200 bg-white px-2.5 py-2 ${wide ? 'sm:col-span-2' : ''}`}
-    >
-      <div className="text-[10px] font-semibold uppercase tracking-[0.1em] text-slate-400">
-        {label}
-      </div>
-      {/* overflow-wrap:anywhere so a pasted URL can't widen the grid track and
-          give the whole deep-dive a horizontal scrollbar. */}
-      <div className="mt-0.5 text-[13px] font-medium leading-snug text-slate-900 [overflow-wrap:anywhere]">
-        <Value text={value} />
-      </div>
-      {note && note !== UNKNOWN && (
-        <div className="mt-1 text-[11px] leading-snug text-slate-500 [overflow-wrap:anywhere]">
-          {note}
-        </div>
-      )}
-    </div>
-  )
-}
-
-/** Pre-Application Contact cell the user can overwrite (stored as an override).
- *  Shows the dataset value + note until overridden; then shows the custom text. */
-function EditableContactCell({
   value,
   note,
   override,
   onSave,
+  wide = false,
+  multiline = false,
+  placeholder,
 }: {
+  label: string
   value: string
-  note: string
+  note?: string
   override: string
   onSave: (text: string) => void
+  wide?: boolean
+  multiline?: boolean
+  placeholder?: string
 }) {
   const [editing, setEditing] = useState(false)
   const [draft, setDraft] = useState('')
@@ -75,10 +45,14 @@ function EditableContactCell({
   }
 
   return (
-    <div className="rounded border border-slate-200 bg-white px-2.5 py-2 sm:col-span-2">
-      <div className="flex items-center justify-between">
+    <div
+      className={`group/cell rounded border bg-white px-2.5 py-2 ${
+        hasOverride ? 'border-indigo-200' : 'border-slate-200'
+      } ${wide ? 'sm:col-span-2' : ''}`}
+    >
+      <div className="flex items-start justify-between gap-1">
         <div className="text-[10px] font-semibold uppercase tracking-[0.1em] text-slate-400">
-          Pre-Application Contact
+          {label}
           {hasOverride && (
             <span className="ml-1 rounded bg-indigo-100 px-1 py-px text-[9px] font-medium text-indigo-600">
               custom
@@ -88,9 +62,9 @@ function EditableContactCell({
         {!editing && (
           <button
             onClick={() => setEditing(true)}
-            aria-label="Edit pre-application contact info"
-            title="Edit contact info"
-            className="text-[11px] text-slate-300 hover:text-indigo-600"
+            aria-label={`Edit ${label}`}
+            title={`Edit ${label}`}
+            className="shrink-0 text-[11px] text-slate-300 transition-colors hover:text-indigo-600 group-hover/cell:text-slate-400"
           >
             ✎
           </button>
@@ -98,18 +72,32 @@ function EditableContactCell({
       </div>
       {editing ? (
         <div className="mt-1">
-          <textarea
-            value={draft}
-            onChange={(e) => setDraft(e.target.value)}
-            autoFocus
-            rows={3}
-            placeholder="e.g. Email Prof. X (x@uni.edu) before applying; program coordinator gradadm@…"
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) save()
-              else if (e.key === 'Escape') setEditing(false)
-            }}
-            className="w-full resize-y rounded border border-indigo-300 px-2 py-1 text-[12.5px] leading-snug text-slate-800 focus:outline-none focus:ring-1 focus:ring-indigo-200"
-          />
+          {multiline ? (
+            <textarea
+              value={draft}
+              onChange={(e) => setDraft(e.target.value)}
+              autoFocus
+              rows={3}
+              placeholder={placeholder}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) save()
+                else if (e.key === 'Escape') setEditing(false)
+              }}
+              className="w-full resize-y rounded border border-indigo-300 px-2 py-1 text-[12.5px] leading-snug text-slate-800 focus:outline-none focus:ring-1 focus:ring-indigo-200"
+            />
+          ) : (
+            <input
+              value={draft}
+              onChange={(e) => setDraft(e.target.value)}
+              autoFocus
+              placeholder={placeholder}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') save()
+                else if (e.key === 'Escape') setEditing(false)
+              }}
+              className="w-full rounded border border-indigo-300 px-2 py-1 text-[12.5px] leading-snug text-slate-800 focus:outline-none focus:ring-1 focus:ring-indigo-200"
+            />
+          )}
           <div className="mt-1 flex items-center gap-2 text-[11px]">
             <button
               onClick={save}
@@ -136,14 +124,18 @@ function EditableContactCell({
       ) : (
         <>
           <div className="mt-0.5 whitespace-pre-wrap text-[13px] font-medium leading-snug text-slate-900 [overflow-wrap:anywhere]">
-            {effective === UNKNOWN ? (
+            {effective === UNKNOWN || !effective ? (
               <span className="italic text-amber-700">Unknown / Verify</span>
             ) : (
               effective
             )}
           </div>
+          {/* The dataset's note explains the dataset's value; once the user has
+              replaced that value the note can contradict it, so it goes away. */}
           {!hasOverride && note && note !== UNKNOWN && (
-            <div className="mt-1 text-[11px] leading-snug text-slate-500">{note}</div>
+            <div className="mt-1 text-[11px] leading-snug text-slate-500 [overflow-wrap:anywhere]">
+              {note}
+            </div>
           )}
         </>
       )}
@@ -155,37 +147,98 @@ function AdmissionMatrix({
   program,
   contactOverride,
   onSetContact,
+  fields,
+  onSetField,
 }: {
   program: Program
   contactOverride: string
   onSetContact: (text: string) => void
+  /** The user's own values for this program, by field name. */
+  fields: Record<string, string>
+  onSetField: (field: ProgramField, text: string) => void
 }) {
   const r = program.requirements
   const fundingValue =
     r.funding.status === UNKNOWN
       ? UNKNOWN
       : `${r.funding.status}${r.funding.years ? ` · ${r.funding.years} yrs` : ''}`
+  const cell = (field: ProgramField) => ({
+    override: fields[field] ?? '',
+    onSave: (t: string) => onSetField(field, t),
+  })
   return (
     <section>
       <h2 className="mb-2 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-slate-500">
         <span className="inline-block size-1.5 rounded-full bg-indigo-600" />
         A · Admission Matrix
+        <span className="ml-1 font-sans text-[10px] font-normal normal-case tracking-normal text-slate-400">
+          every cell is editable — hover and click ✎
+        </span>
       </h2>
       <div className="grid grid-cols-2 gap-1.5 sm:grid-cols-3 xl:grid-cols-4">
-        <MatrixCell label="Deadline" value={r.deadline_display} />
-        <MatrixCell label="Application Fee" value={r.fee_display} />
-        <MatrixCell label="GRE" value={r.gre === 'Optional' ? 'Optional / Not Required' : r.gre} />
-        <MatrixCell label="Letters" value={r.letters !== null ? `${r.letters} required` : UNKNOWN} />
-        <MatrixCell label="English Requirement" value={r.english} wide />
-        <MatrixCell
+        <EditableCell
+          label="Deadline"
+          value={r.deadline_display}
+          placeholder="e.g. Dec 15, 2026"
+          {...cell('deadline_display')}
+        />
+        <EditableCell
+          label="Application Fee"
+          value={r.fee_display}
+          placeholder="e.g. $110, or waived"
+          {...cell('fee_display')}
+        />
+        <EditableCell
+          label="GRE"
+          value={r.gre === 'Optional' ? 'Optional / Not Required' : r.gre}
+          placeholder="Required / Optional / Not Accepted"
+          {...cell('gre')}
+        />
+        <EditableCell
+          label="Letters"
+          value={r.letters !== null ? `${r.letters} required` : UNKNOWN}
+          placeholder="e.g. 3 required"
+          {...cell('letters')}
+        />
+        <EditableCell
+          label="English Requirement"
+          value={r.english}
+          wide
+          multiline
+          placeholder="e.g. TOEFL iBT 100, IELTS 7.0; waived for English-medium degrees"
+          {...cell('english')}
+        />
+        <EditableCell
           label="Duration / Credits"
           value={r.ects !== null ? `${r.duration} · ${r.ects} ECTS` : r.duration}
+          placeholder="e.g. 5 years"
+          {...cell('duration')}
         />
-        <MatrixCell label="Admission Model" value={r.admission_model} note={r.admission_model_note} wide />
-        <MatrixCell label="Funding" value={fundingValue} note={r.funding.note} wide />
-        <EditableContactCell
+        <EditableCell
+          label="Admission Model"
+          value={r.admission_model}
+          note={r.admission_model_note}
+          wide
+          multiline
+          placeholder="e.g. Direct-to-department; rotations in year 1"
+          {...cell('admission_model')}
+        />
+        <EditableCell
+          label="Funding"
+          value={fundingValue}
+          note={r.funding.note}
+          wide
+          multiline
+          placeholder="e.g. Fully Funded · 5 yrs; stipend $42k"
+          {...cell('funding')}
+        />
+        <EditableCell
+          label="Pre-Application Contact"
           value={r.pre_application_contact}
           note={r.contact_note}
+          wide
+          multiline
+          placeholder="e.g. Email Prof. X (x@uni.edu) before applying"
           override={contactOverride}
           onSave={onSetContact}
         />
@@ -412,6 +465,13 @@ export function DeepDive({
   addedFaculty,
   onAddAdvisor,
   onRemoveFaculty,
+  fieldOverrides,
+  onSetField,
+  noteDoc,
+  googleClientId,
+  googleConnected,
+  onNoteCreated,
+  onNoteUnlink,
 }: {
   program: Program | null
   inList: boolean
@@ -431,6 +491,15 @@ export function DeepDive({
   /** Advisors are added from the Advisors tab now — this jumps there. */
   onAddAdvisor: () => void
   onRemoveFaculty: (facultyId: string) => void
+  /** The user's own admission-matrix values for this program. */
+  fieldOverrides: Record<string, string>
+  onSetField: (field: ProgramField, text: string) => void
+  /** The Google Doc backing this program's note, if one has been created. */
+  noteDoc: ProgramDoc | undefined
+  googleClientId: string
+  googleConnected: boolean
+  onNoteCreated: (programId: string, doc: ProgramDoc) => void
+  onNoteUnlink: (programId: string) => void
 }) {
   if (!program) {
     return (
@@ -461,6 +530,14 @@ export function DeepDive({
             >
               {inList ? '★ In My List — remove' : '☆ Add to My List'}
             </button>
+            <ProgramNoteButton
+              program={program}
+              doc={noteDoc}
+              clientId={googleClientId}
+              connected={googleConnected}
+              onCreated={onNoteCreated}
+              onUnlink={onNoteUnlink}
+            />
           </div>
           <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
             <Badge tone="slate">{program.region}</Badge>
@@ -495,6 +572,8 @@ export function DeepDive({
           program={program}
           contactOverride={contactOverride}
           onSetContact={onSetContact}
+          fields={fieldOverrides}
+          onSetField={onSetField}
         />
         <FacultyWaterfall
           programId={program.id}

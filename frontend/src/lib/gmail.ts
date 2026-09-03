@@ -7,9 +7,14 @@
 
 const GIS_SRC = 'https://accounts.google.com/gsi/client'
 /** gmail.readonly for outreach sync; drive.appdata for the backup file (a
- *  private, app-only folder in the user's Drive — we cannot see their real files). */
+ *  private, app-only folder in the user's Drive — we cannot see their real files);
+ *  drive.file for the per-program note Docs. drive.file is per-file consent: it
+ *  grants access ONLY to files this app itself creates, so adding it does not
+ *  open the user's existing Drive to us. */
 const SCOPE =
-  'https://www.googleapis.com/auth/gmail.readonly https://www.googleapis.com/auth/drive.appdata'
+  'https://www.googleapis.com/auth/gmail.readonly ' +
+  'https://www.googleapis.com/auth/drive.appdata ' +
+  'https://www.googleapis.com/auth/drive.file'
 const API = 'https://gmail.googleapis.com/gmail/v1/users/me'
 export const CLIENT_ID_KEY = 'tracker.gmail.clientId.v1'
 
@@ -98,6 +103,14 @@ export async function connect(clientId: string): Promise<string> {
   await requestToken(true)
   const profile = await getProfile()
   return profile.emailAddress
+}
+
+/** Force the consent screen and return a token. Needed when a NEW scope has been
+ *  added since the user last consented — a silent refresh keeps returning the old
+ *  grant, so the first Docs write would 403 forever without this. */
+export async function reconsent(clientId: string): Promise<string> {
+  await ensureClient(clientId)
+  return requestToken(true)
 }
 
 export function disconnect(): void {

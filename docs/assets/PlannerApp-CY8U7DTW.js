@@ -1,4 +1,4 @@
-import{_ as e,a as t,c as n,d as r,f as i,g as a,h as o,i as s,l as c,m as l,n as u,o as d,p as f,r as p,t as m,u as h}from"./index-CVHdegSK.js";var g=e(),_=`planner.state.v1`,v=`My background is in applied mathematics and physical oceanography, with a focus on geophysical fluid dynamics and numerical modeling.
+import{_ as e,a as t,c as n,d as r,f as i,g as a,h as o,i as s,l as c,m as l,n as u,o as d,p as f,r as p,t as m,u as h}from"./index-BEvsSyqx.js";var g=e(),_=`planner.state.v1`,v=`My background is in applied mathematics and physical oceanography, with a focus on geophysical fluid dynamics and numerical modeling.
 
 I work on regional ocean models and the numerical methods behind them — open boundary conditions, shallow-water models, and the numerical analysis that makes limited-area simulations stable and faithful.
 

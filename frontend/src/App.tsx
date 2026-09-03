@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import type { Faculty, Program } from './types'
 import { fetchField, fetchIndex, type DataIndex } from './lib/dataLoader'
 import {
@@ -39,6 +39,9 @@ import { OutreachView } from './components/OutreachView'
 import { OutreachOverview } from './components/OutreachOverview'
 import { MyListTable } from './components/MyListTable'
 import { GmailConnect } from './components/GmailConnect'
+import { withOverrides } from './lib/applyOverrides'
+import { loadProgramDocs, saveProgramDocs } from './lib/programDocs'
+import type { ProgramDoc, ProgramDocMap } from './lib/programDocs'
 import { RequestFieldModal } from './components/RequestFieldModal'
 
 type View = 'programs' | 'advisors' | 'schools' | 'starred' | 'outreach' | 'overview'
@@ -76,9 +79,36 @@ function App() {
   const { levels: starLevels, setLevel: setStarLevel } = useStarredAdvisors()
   const { notes: advisorNotes, setNote: setAdvisorNote } = useAdvisorNotes()
   const outreach = useOutreach()
-  const { overrides, setFacultyHomepage, setProgramPage, setProgramContact, addFaculty, removeFaculty } =
+  const {
+    overrides,
+    setFacultyHomepage,
+    setProgramPage,
+    setProgramContact,
+    setProgramField,
+    addFaculty,
+    removeFaculty,
+  } =
     useOverrides()
   const [gmailStatus, setGmailStatus] = useState<'disconnected' | 'connected'>('disconnected')
+  // programId -> the Google Doc holding that program's note.
+  const [programDocs, setProgramDocs] = useState<ProgramDocMap>(loadProgramDocs)
+
+  const linkProgramDoc = useCallback((programId: string, doc: ProgramDoc) => {
+    setProgramDocs((prev) => {
+      const next = { ...prev, [programId]: doc }
+      saveProgramDocs(next)
+      return next
+    })
+  }, [])
+
+  const unlinkProgramDoc = useCallback((programId: string) => {
+    setProgramDocs((prev) => {
+      const next = { ...prev }
+      delete next[programId]
+      saveProgramDocs(next)
+      return next
+    })
+  }, [])
   const [gmailEmail, setGmailEmail] = useState<string | null>(null)
   const [gmailError, setGmailError] = useState<string | null>(null)
   const [syncing, setSyncing] = useState(false)
@@ -167,15 +197,19 @@ function App() {
       return next
     })
 
-  // Pool = programs of the selected fields that have arrived.
+  // Pool = programs of the selected fields that have arrived, with the user's
+  // own admission-matrix edits folded in. Folding here rather than in the
+  // deep-dive keeps the index card, the filters and the sort agreeing with the
+  // panel — an edited GRE that still reads "Verify" on the card is worse than
+  // no edit at all.
   const pool = useMemo(() => {
     const arr: Program[] = []
     for (const primary of selectedPrimaries) {
       const chunk = loaded[primary]
       if (chunk) arr.push(...chunk)
     }
-    return arr
-  }, [selectedPrimaries, loaded])
+    return withOverrides(arr, overrides.programFields)
+  }, [selectedPrimaries, loaded, overrides.programFields])
 
   const filtered = useMemo(() => {
     if (!facets || !index) return []
@@ -215,9 +249,10 @@ function App() {
       const chunk = loaded[f.primary]
       if (chunk) result = result.concat(chunk)
     }
+    result = withOverrides(result, overrides.programFields)
     result = result.filter((p) => programMatches(p, noDiscipline, facets.feeCap))
     return sortPrograms(result, 'university')
-  }, [facets, index, loaded, filters])
+  }, [facets, index, loaded, filters, overrides.programFields])
 
   // Every My-List program across ALL loaded fields, no other filters — the
   // dedicated My-List table ignores discipline/degree/region/fee entirely and
@@ -683,6 +718,13 @@ function App() {
                 addedFaculty={selected ? (overrides.addedFaculty[selected.id] ?? []) : []}
                 onAddAdvisor={() => setView('advisors')}
                 onRemoveFaculty={(id) => selected && removeFaculty(selected.id, id)}
+                fieldOverrides={selected ? (overrides.programFields[selected.id] ?? {}) : {}}
+                onSetField={(field, text) => selected && setProgramField(selected.id, field, text)}
+                noteDoc={selected ? programDocs[selected.id] : undefined}
+                googleClientId={loadClientId()}
+                googleConnected={gmailStatus === 'connected'}
+                onNoteCreated={linkProgramDoc}
+                onNoteUnlink={unlinkProgramDoc}
               />
             </>
           )

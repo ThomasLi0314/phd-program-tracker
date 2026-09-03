@@ -11,6 +11,8 @@ export const BACKUP_KEYS: { key: string; label: string }[] = [
   { key: 'tracker.advisorNotes.v1', label: 'Advisor notes' },
   { key: 'tracker.outreach.v1', label: 'Outreach / reply tracking' },
   { key: 'tracker.overrides.v1', label: 'Link fixes, contacts, added advisors' },
+  // Pointers only — the note text lives in the user's own Google Docs.
+  { key: 'tracker.programDocs.v1', label: 'Program note Docs (links)' },
   // The planner writes NOTHING until the user actually creates something, so an
   // untouched planner leaves no key and isLocalEmpty() below stays true — a
   // fresh browser still gets offered the Drive restore. See planner/lib/storage.
