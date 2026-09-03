@@ -3033,6 +3033,258 @@
       },
       "data_currency": "2026-07-05 · top-50 sweep · US News #4",
       "faculty": []
+    },
+    {
+      "id": "cuhk-ee-phd",
+      "university": "The Chinese University of Hong Kong",
+      "program_name": "MPhil–PhD in Electronic Engineering",
+      "degree_type": "PhD",
+      "region": "Asia-Pacific",
+      "country": "Hong Kong SAR",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Photonics",
+          "Integrated Circuits",
+          "Signal Processing"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Main round 1 Dec 2026 · clearing 31 Mar 2027",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5; scores valid two years, waived for an English-medium degree",
+        "admission_model": "Graduate School application to an MPhil–PhD stream in the department",
+        "admission_model_note": "CUHK admits to a combined MPhil–PhD stream rather than to a terminal PhD, so an applicant from a bachelor's normally enters the MPhil side and transfers. The clearing round is only opened if places remain.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "Postgraduate Studentship HK$229,200/yr (2026–27), announced with the admission offer. HKPFS pays HK$344,400/yr plus HK$14,400 travel; the Vice-Chancellor's PhD Scholarship Scheme is a further top-up. Tuition HK$49,500/yr for 2027/28."
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": null,
+        "ects": null,
+        "duration": "3 years with a research master's; 4 years from a bachelor's"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-electronic-engineering",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/application-deadline"
+      },
+      "data_currency": "Deadlines from the CUHK Graduate School application-deadline page, English requirement from its admission-requirements page, studentship from its studentships page, retrieved 2026-09-03. The deadline page labels rounds without an entry year; 1 Dec 2026 is the round feeding the Sept 2027 start. Faculty roster not yet scanned.",
+      "faculty": []
+    },
+    {
+      "id": "cuhk-ie-phd",
+      "university": "The Chinese University of Hong Kong",
+      "program_name": "MPhil–PhD in Information Engineering",
+      "degree_type": "PhD",
+      "region": "Asia-Pacific",
+      "country": "Hong Kong SAR",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Information Theory",
+          "Networks",
+          "Machine Learning"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Main round 1 Dec 2026 · clearing 31 Mar 2027",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "TOEFL iBT 79 — 4.5 on the 1–6 scale · IELTS 6.5; scores valid two years, waived for an English-medium degree",
+        "admission_model": "Graduate School application to an MPhil–PhD stream in the department",
+        "admission_model_note": "CUHK admits to a combined MPhil–PhD stream rather than to a terminal PhD, so an applicant from a bachelor's normally enters the MPhil side and transfers. The clearing round is only opened if places remain.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "Postgraduate Studentship HK$229,200/yr (2026–27), announced with the admission offer. HKPFS pays HK$344,400/yr plus HK$14,400 travel; the Vice-Chancellor's PhD Scholarship Scheme is a further top-up. Tuition HK$49,500/yr for 2027/28."
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": null,
+        "ects": null,
+        "duration": "3 years with a research master's; 4 years from a bachelor's"
+      },
+      "links": {
+        "program": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-information-engineering",
+        "admissions": "https://www.gs.cuhk.edu.hk/admissions/application-deadline"
+      },
+      "data_currency": "Deadlines from the CUHK Graduate School application-deadline page, English requirement from its admission-requirements page, studentship from its studentships page, retrieved 2026-09-03. The deadline page labels rounds without an entry year; 1 Dec 2026 is the round feeding the Sept 2027 start. Faculty roster not yet scanned.",
+      "faculty": []
+    },
+    {
+      "id": "hku-ece-phd",
+      "university": "The University of Hong Kong",
+      "program_name": "PhD in Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "Asia-Pacific",
+      "country": "Hong Kong SAR",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Power Systems",
+          "Integrated Circuits"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "Main round 1 Dec 2026 · clearing to 30 Apr 2027",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Graduate School application to a department; main round strongly preferred",
+        "admission_model_note": "Two clearing rounds follow the main round (2 Dec 2026 – 30 Apr 2027, then 1 May – 31 Aug 2027) but only run if places remain after 1 December, so the main round is the real deadline. HKPFS applications are invited September to early December.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "Postgraduate Scholarship HK$19,135/month, rising to HK$19,655 once probationary candidature is confirmed (rates effective 1 Sep 2026). The HKU Presidential PhD Scholar package is worth about HK$439,500 in year one — HK$28,400/month plus a composition-fee waiver. HKPFS pays HK$344,400/yr."
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": null,
+        "ects": null,
+        "duration": "3 years with a research master's; 4 years from a bachelor's"
+      },
+      "links": {
+        "program": "https://engg.hku.hk/Admissions/PhD-MPhil",
+        "admissions": "https://gradsch.hku.hk/prospective_students/application/application_period"
+      },
+      "data_currency": "Application periods from the HKU Graduate School application-period page and stipends from its postgraduate-scholarships page, retrieved 2026-09-03. HKU publishes an English minimum for TAUGHT postgraduates (TOEFL 80 / IELTS 6.0) but nothing for research students on the pages read, so english is left unverified rather than borrowed. Faculty roster not yet scanned. The department was renamed Electrical and Computer Engineering in February 2026. HKU Engineering publishes PhD/MPhil admissions at faculty level.",
+      "faculty": []
+    },
+    {
+      "id": "hkust-ece-phd",
+      "university": "HKUST (Hong Kong University of Science and Technology)",
+      "program_name": "PhD in Electronic and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "Asia-Pacific",
+      "country": "Hong Kong SAR",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Integrated Circuits",
+          "Photonics"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-01",
+        "deadline_display": "HKPFS 1 Dec 2026 · dept deadlines rolling",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Unknown/Verify",
+        "letters": null,
+        "english": "TOEFL iBT 80 — or 4.5 for tests from 21 Jan 2026 — or pBT 550 · IELTS 6.5 with every sub-score 5.5; waived for an English-medium degree",
+        "admission_model": "Department admission with a named supervisor; rolling review",
+        "admission_model_note": "Applications open 1 Sep 2026 for Fall 2027/28 and departments review on a rolling basis, so the posted deadline is a backstop rather than the real one. HKPFS runs on a separate track: an initial application to the RGC and a full application to HKUST, both due 1 Dec 2026.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "Postgraduate Studentship HK$229,620/yr, awarded with the offer and needing no separate application. HKPFS pays HK$344,400/yr for 4 years plus HK$14,400 travel. RedBird adds HK$40,000 in year one for international PhDs. Tuition HK$49,500/yr for 2027/28."
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": null,
+        "ects": null,
+        "duration": "≈4 years from a bachelor's"
+      },
+      "links": {
+        "program": "https://ece.hkust.edu.hk/",
+        "admissions": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-timeline"
+      },
+      "data_currency": "Requirements read from the HKUST Fok Ying Tung Graduate School admissions timeline and the School of Science RPg admissions page, retrieved 2026-09-03. Application fee and referee count not published on either page. Faculty roster not yet scanned.",
+      "faculty": []
+    },
+    {
+      "id": "ntu-eee-phd",
+      "university": "Nanyang Technological University",
+      "program_name": "PhD in Electrical and Electronic Engineering",
+      "degree_type": "PhD",
+      "region": "Asia-Pacific",
+      "country": "Singapore",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Power Engineering",
+          "Integrated Circuits"
+        ]
+      },
+      "requirements": {
+        "deadline": "2027-01-31",
+        "deadline_display": "31 Jan 2027 · schools close 15 Nov–31 Dec",
+        "application_fee_usd": null,
+        "fee_display": "S$50",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "School admission by research; two intakes a year (August and January)",
+        "admission_model_note": "The admission guide gives recurring dates rather than cycle-specific ones: the August intake opens 1 October and closes 31 January, with individual schools closing earlier, between 15 November and 31 December. GRE/GMAT/GATE are optional, though some programmes still ask.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "NTU Research Scholarship covers tuition and a monthly stipend (amount not published on the pages read). International research students are still eligible for the MOE subsidy with its 3-year Singapore service obligation — that route closed to coursework students."
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": null,
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes",
+        "admissions": "https://www.ntu.edu.sg/admissions/graduate/radmissionguide"
+      },
+      "data_currency": "Deadlines, application fee and test policy from the NTU Research Programmes Admission Guide, retrieved 2026-09-03. The guide states no TOEFL/IELTS minimum and the scholarship pages publish no stipend figure, so both are left unverified. Faculty roster not yet scanned.",
+      "faculty": []
+    },
+    {
+      "id": "nus-ece-phd",
+      "university": "National University of Singapore",
+      "program_name": "PhD in Electrical and Computer Engineering",
+      "degree_type": "PhD",
+      "region": "Asia-Pacific",
+      "country": "Singapore",
+      "discipline": {
+        "primary": "Electrical Engineering",
+        "subs": [
+          "Signal Processing",
+          "Control",
+          "Integrated Circuits"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental admission; PhD is separate from the coursework MSc",
+        "admission_model_note": "The funded PhD and the (unfunded) coursework MSc are different applications at NUS — a coursework master's carries no scholarship route, while the PhD is fully funded.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "NUS Research Scholarship covers tuition plus a stipend of up to S$3,800/month; the President's Graduate Fellowship goes up to S$4,800/month. Both are open to all nationalities."
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": null,
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://cde.nus.edu.sg/ece/graduate/phd-programme/",
+        "admissions": "https://nusgs.nus.edu.sg/scholarships/"
+      },
+      "data_currency": "Funding from the NUS Graduate School scholarships listing, retrieved 2026-09-03. NUS sets research deadlines per department and none was confirmed, so the deadline is left unverified rather than guessed from the usual mid-November pattern. Faculty roster not yet scanned.",
+      "faculty": []
     }
   ]
 }

@@ -2634,6 +2634,88 @@
       },
       "data_currency": "2026-07-05 · top-50 sweep · US News #20",
       "faculty": []
+    },
+    {
+      "id": "ntu-mse-phd",
+      "university": "Nanyang Technological University",
+      "program_name": "PhD in Materials Science and Engineering",
+      "degree_type": "PhD",
+      "region": "Asia-Pacific",
+      "country": "Singapore",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Functional Materials",
+          "Energy Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": "2027-01-31",
+        "deadline_display": "31 Jan 2027 · schools close 15 Nov–31 Dec",
+        "application_fee_usd": null,
+        "fee_display": "S$50",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "School admission by research; two intakes a year (August and January)",
+        "admission_model_note": "The admission guide gives recurring dates rather than cycle-specific ones: the August intake opens 1 October and closes 31 January, with individual schools closing earlier, between 15 November and 31 December. GRE/GMAT/GATE are optional, though some programmes still ask.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "NTU Research Scholarship covers tuition and a monthly stipend (amount not published on the pages read). International research students are still eligible for the MOE subsidy with its 3-year Singapore service obligation — that route closed to coursework students."
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": null,
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://www.ntu.edu.sg/mse/admissions",
+        "admissions": "https://www.ntu.edu.sg/admissions/graduate/radmissionguide"
+      },
+      "data_currency": "Deadlines, application fee and test policy from the NTU Research Programmes Admission Guide, retrieved 2026-09-03. The guide states no TOEFL/IELTS minimum and the scholarship pages publish no stipend figure, so both are left unverified. Faculty roster not yet scanned.",
+      "faculty": []
+    },
+    {
+      "id": "nus-mse-phd",
+      "university": "National University of Singapore",
+      "program_name": "PhD in Materials Science and Engineering",
+      "degree_type": "PhD",
+      "region": "Asia-Pacific",
+      "country": "Singapore",
+      "discipline": {
+        "primary": "Materials Science",
+        "subs": [
+          "Functional Materials",
+          "Energy Materials"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "Unknown/Verify",
+        "application_fee_usd": null,
+        "fee_display": "Unknown/Verify",
+        "gre": "Optional",
+        "letters": null,
+        "english": "Unknown/Verify",
+        "admission_model": "Departmental admission; PhD is separate from the coursework MSc",
+        "admission_model_note": "The funded PhD and the (unfunded) coursework MSc are different applications at NUS — a coursework master's carries no scholarship route, while the PhD is fully funded.",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "NUS Research Scholarship covers tuition plus a stipend of up to S$3,800/month; the President's Graduate Fellowship goes up to S$4,800/month. Both are open to all nationalities."
+        },
+        "pre_application_contact": "Unknown/Verify",
+        "contact_note": null,
+        "ects": null,
+        "duration": "Unknown/Verify"
+      },
+      "links": {
+        "program": "https://cde.nus.edu.sg/mse/graduates/doctor-of-philosophy-phd/",
+        "admissions": "https://nusgs.nus.edu.sg/scholarships/"
+      },
+      "data_currency": "Funding from the NUS Graduate School scholarships listing, retrieved 2026-09-03. NUS sets research deadlines per department and none was confirmed, so the deadline is left unverified rather than guessed from the usual mid-November pattern. Faculty roster not yet scanned.",
+      "faculty": []
     }
   ]
 }

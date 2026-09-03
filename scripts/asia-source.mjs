@@ -25,6 +25,9 @@ const CHECKED = '2026-09-03'
 
 // ── shared sources ───────────────────────────────────────────────────────────
 const HKPFS = 'https://cerg1.ugc.edu.hk/hkpfs/index.html'
+// The RGC page gives the award but no closing date; HKUST's timeline gives the date.
+const HKUST_TIMELINE =
+  'https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-timeline'
 const HKUST_RPG_FEE = 'https://registry.hkust.edu.hk/resource-library/tuition-rates-research-pg'
 const HKUST_TPG_FEE = 'https://registry.hkust.edu.hk/resource-library/tuition-rates-taught-pg'
 const HKUST_MONEY =
@@ -300,8 +303,8 @@ export const ASIA_UNIVERSITIES = [
     phd: {
       value: 'yes',
       note:
-        'Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver, and RedBird adds HK$40,000 in year one for international PhDs.',
-      source: HKUST_MONEY,
+        'Studentship HK$229,620 a year; HKPFS pays HK$344,400 a year plus a tuition waiver and closes 1 December 2026 for 2027/28. RedBird adds HK$40,000 in year one for international PhDs.',
+      source: HKUST_TIMELINE,
     },
     programs: [
       { name: 'MSc in Physics', fields: ['Physics'], link: 'https://msphy.hkust.edu.hk/' },
