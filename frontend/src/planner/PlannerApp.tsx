@@ -60,7 +60,7 @@ export default function PlannerApp() {
     <div className="flex h-full flex-col bg-slate-50 text-slate-900">
       <header className="flex shrink-0 flex-wrap items-center justify-between gap-x-4 gap-y-2 border-b border-slate-800 bg-slate-900 px-4 py-2 text-white">
         <div className="flex items-baseline gap-3">
-          <h1 className="font-serif text-[15px] font-bold tracking-tight">My PhD Planner</h1>
+          <h1 className="font-serif text-[15px] font-bold tracking-tight">Application Plan</h1>
           <span className="rounded bg-indigo-500/20 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-indigo-300 ring-1 ring-inset ring-indigo-400/40">
             {state.settings.cycle}
           </span>
@@ -70,9 +70,9 @@ export default function PlannerApp() {
           <a
             href="#/"
             className="rounded border border-slate-600 bg-slate-800 px-2 py-1 text-[11px] font-medium text-slate-300 transition-colors hover:bg-slate-700"
-            title="Back to the public program & faculty database"
+            title="Back to Explore — the program and faculty database"
           >
-            ← Program Database
+            ← Explore
           </a>
         </div>
       </header>

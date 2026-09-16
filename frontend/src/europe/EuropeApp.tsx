@@ -374,7 +374,7 @@ export default function EuropeApp() {
             href="#/"
             className="rounded border border-slate-600 bg-slate-800 px-2 py-1 text-[11px] font-medium text-slate-300 transition-colors hover:bg-slate-700"
           >
-            ← PhD Database
+            ← Explore
           </a>
         </div>
       </header>

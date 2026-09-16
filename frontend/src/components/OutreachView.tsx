@@ -234,10 +234,18 @@ export function OutreachView({
   onDismiss,
   onUnassign,
   onOpenProgram,
+  onSync,
+  syncing,
+  syncStatus,
+  onOpenSettings,
 }: {
   /** true while the per-field chunks are still arriving — until then a record
    *  can't resolve to its advisor card and falls back to the raw email address. */
   loading: boolean
+  onSync: () => void
+  syncing: boolean
+  syncStatus: string | null
+  onOpenSettings: () => void
   pool: Hit[]
   records: Record<string, OutreachRecord>
   unlinked: UnlinkedEmail[]
@@ -305,21 +313,40 @@ export function OutreachView({
     <main className="h-full flex-1 overflow-y-auto bg-slate-50/40">
       <div className="mx-auto max-w-4xl px-5 py-4">
         <header className="mb-3">
-          <h1 className="font-serif text-lg font-bold text-slate-900">Outreach Tracker</h1>
-          <p className="text-[12px] text-slate-500">
-            Which advisors you've emailed (套磁) and who replied — synced from your Gmail Sent
-            mail (headers only, stored only in this browser). Use{' '}
-            <b>✉ Connect Gmail</b> in the top bar, then <b>Sync</b>.
-          </p>
-          <label className="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
-            <span className="font-medium">Only scan emails sent on/after</span>
+          <div className="flex flex-wrap items-start justify-between gap-3">
+            <div>
+              <h1 className="font-serif text-lg font-bold text-slate-900">Emails to professors</h1>
+              <p className="text-[12.5px] text-slate-600">
+                Which advisors you've emailed (套磁) and who replied — read from the headers of your
+                Gmail Sent mail, stored only in this browser.
+              </p>
+            </div>
+            {connected ? (
+              <button
+                onClick={onSync}
+                disabled={syncing}
+                className="shrink-0 rounded bg-indigo-600 px-3 py-1.5 text-[12.5px] font-semibold text-white transition-colors hover:bg-indigo-700 disabled:opacity-60"
+              >
+                {syncing ? (syncStatus ?? 'Syncing…') : 'Sync Gmail'}
+              </button>
+            ) : (
+              <button
+                onClick={onOpenSettings}
+                className="shrink-0 rounded border border-slate-300 bg-white px-3 py-1.5 text-[12.5px] font-medium text-slate-700 hover:border-indigo-400 hover:text-indigo-700"
+              >
+                Connect Gmail in Settings
+              </button>
+            )}
+          </div>
+          <label className="mt-2 flex flex-wrap items-center gap-2 text-[12px] text-slate-600">
+            <span className="font-medium">Only scan emails sent on or after</span>
             <input
               type="date"
               value={scanSince}
               onChange={(e) => onSetScanSince(e.target.value)}
-              className="rounded border border-slate-300 px-2 py-0.5 text-[11px] text-slate-700 focus:border-indigo-400 focus:outline-none"
+              className="rounded border border-slate-300 px-2 py-0.5 text-[12px] text-slate-700 focus:border-indigo-400 focus:outline-none"
             />
-            <span className="text-slate-400">— then hit Sync. Widen this to pick up older mail.</span>
+            <span className="text-slate-500">— then sync. Widen this to pick up older mail.</span>
           </label>
         </header>
 
@@ -339,9 +366,12 @@ export function OutreachView({
         )}
 
         {!connected && (
-          <div className="mb-4 rounded-lg border border-indigo-200 bg-indigo-50 px-4 py-3 text-[12.5px] text-indigo-800">
-            Gmail isn't connected yet. Click <b>✉ Connect Gmail</b> in the top-right to set it up
-            (one-time, ~10 min), then hit <b>Sync</b> to pull your outreach.
+          <div className="mb-4 rounded-lg border border-indigo-200 bg-indigo-50 px-4 py-3 text-[12.5px] text-indigo-900">
+            Gmail isn't connected yet. Connect it once in{' '}
+            <button onClick={onOpenSettings} className="font-semibold underline">
+              Settings
+            </button>{' '}
+            (about 10 minutes the first time), then sync to pull in your emails.
           </div>
         )}
 
@@ -402,8 +432,8 @@ export function OutreachView({
         {loading && recList.length === 0 ? (
           <PoolLoading what="your outreach" />
         ) : recList.length === 0 ? (
-          <p className="py-12 text-center text-sm text-slate-400">
-            No tracked outreach yet. Connect Gmail and Sync to populate this list.
+          <p className="py-12 text-center text-[13px] text-slate-500">
+            No tracked emails yet. Connect Gmail and sync, or add one manually above.
           </p>
         ) : shown.length === 0 ? (
           <p className="py-12 text-center text-sm text-slate-400">

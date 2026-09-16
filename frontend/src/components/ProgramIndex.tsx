@@ -1,35 +1,20 @@
 import type { Program } from '../types'
 import { UNKNOWN } from '../types'
 import type { SortKey } from '../lib/filters'
+import { deadlineStatus } from '../lib/deadlineStatus'
+import type { PlanSummary } from '../lib/planBridge'
 import { Badge } from './Badge'
 
-function deadlineBadge(p: Program) {
-  const display = p.requirements.deadline_display
-  if (display === UNKNOWN) return <Badge tone="amber">Deadline: Verify</Badge>
-  if (/paused/i.test(display)) return <Badge tone="rose">Admissions PAUSED</Badge>
-  // compact form for the card: strip parentheticals
-  const compact = display.replace(/\s*\(.*\)\s*/g, '').trim()
-  return <Badge tone="amber">Deadline: {compact}</Badge>
-}
-
-function StarButton({
-  active,
-  onToggle,
-  size = 'text-[15px]',
-}: {
-  active: boolean
-  onToggle: () => void
-  size?: string
-}) {
+function SaveButton({ active, onToggle }: { active: boolean; onToggle: () => void }) {
   return (
     <button
       onClick={(e) => {
         e.stopPropagation()
         onToggle()
       }}
-      title={active ? 'Remove from My List' : 'Add to My List'}
-      aria-label={active ? 'Remove from My List' : 'Add to My List'}
-      className={`${size} leading-none transition-colors ${
+      title={active ? 'Remove from Saved programs' : 'Save this program'}
+      aria-label={active ? 'Remove from Saved programs' : 'Save this program'}
+      className={`text-[16px] leading-none transition-colors ${
         active ? 'text-amber-500 hover:text-amber-600' : 'text-slate-300 hover:text-amber-500'
       }`}
     >
@@ -41,17 +26,22 @@ function StarButton({
 function ProgramCard({
   program,
   selected,
-  inList,
+  saved,
+  plan,
+  cycle,
   onSelect,
-  onToggleList,
+  onToggleSaved,
 }: {
   program: Program
   selected: boolean
-  inList: boolean
+  saved: boolean
+  plan: PlanSummary | undefined
+  cycle: string
   onSelect: () => void
-  onToggleList: () => void
+  onToggleSaved: () => void
 }) {
   const req = program.requirements
+  const dl = deadlineStatus(program, cycle)
   return (
     <div
       role="button"
@@ -72,26 +62,32 @@ function ProgramCard({
           {program.university}
         </span>
         <span className="flex shrink-0 items-center gap-1.5">
-          <span className="rounded bg-slate-800 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white">
+          <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
             {program.degree_type}
           </span>
-          <StarButton active={inList} onToggle={onToggleList} />
+          <SaveButton active={saved} onToggle={onToggleSaved} />
         </span>
       </div>
-      <div className="mt-0.5 text-[13px] leading-snug text-slate-600">{program.program_name}</div>
-      <div className="mt-0.5 text-[11px] text-slate-400">
-        {program.country} · {program.discipline.primary} · {program.faculty.length} faculty tracked
+      <div className="mt-0.5 text-[13px] leading-snug text-slate-700">{program.program_name}</div>
+      <div className="mt-0.5 text-[12px] text-slate-500">
+        {program.country} · {program.discipline.primary}
+        {program.faculty.length > 0 && ` · ${program.faculty.length} advisors`}
       </div>
       <div className="mt-1.5 flex flex-wrap gap-1">
-        {deadlineBadge(program)}
-        {req.funding.status === 'Fully Funded' && <Badge tone="emerald">Fully Funded</Badge>}
-        {req.ects !== null && <Badge tone="sky">{req.ects} ECTS</Badge>}
+        <Badge tone={dl.tone} title={dl.detail}>
+          {dl.kind === 'confirmed' ? '✓ ' : ''}
+          {dl.text}
+        </Badge>
+        {req.funding.status === 'Fully Funded' && <Badge tone="emerald">Fully funded</Badge>}
         {(req.gre === 'Not Accepted' || req.gre === 'Optional') && (
-          <Badge tone="indigo">
-            GRE: {req.gre === 'Not Accepted' ? 'Not Accepted' : 'Optional'}
+          <Badge tone="indigo">GRE {req.gre === 'Not Accepted' ? 'not accepted' : 'optional'}</Badge>
+        )}
+        {req.gre === UNKNOWN && <Badge tone="amber">GRE unverified</Badge>}
+        {plan && (
+          <Badge tone="sky" title="This program is in your application plan">
+            In plan
           </Badge>
         )}
-        {req.gre === UNKNOWN && <Badge tone="amber">GRE: Verify</Badge>}
       </div>
     </div>
   )
@@ -100,37 +96,48 @@ function ProgramCard({
 export function ProgramIndex({
   programs,
   selectedId,
-  myList,
+  saved,
+  plan,
+  cycle,
+  loading,
   sortBy,
   onSelect,
-  onToggleList,
+  onToggleSaved,
   onSortChange,
 }: {
   programs: Program[]
   selectedId: string | null
-  myList: Set<string>
+  saved: Set<string>
+  plan: Map<string, PlanSummary>
+  cycle: string
+  /** true while a selected field's data is still arriving */
+  loading: boolean
   sortBy: SortKey
   onSelect: (id: string) => void
-  onToggleList: (id: string) => void
+  onToggleSaved: (id: string) => void
   onSortChange: (key: SortKey) => void
 }) {
   // Mounting a card per match froze the page once enough fields were ticked
-  // (~1,378 programs). Same guard as AdvisorExplorer — the count is still honest.
+  // (~1,400 programs). Same guard as the advisor search — the count stays honest.
   const RENDER_CAP = 150
   const visible = programs.slice(0, RENDER_CAP)
 
   return (
     <nav className="h-full w-[340px] shrink-0 overflow-y-auto border-r border-slate-200 bg-white">
       <div className="sticky top-0 z-10 flex items-center justify-between border-b border-slate-200 bg-white/95 px-3 py-1.5 backdrop-blur">
-        <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-slate-400">
-          Program Index
+        <span className="text-[11px] font-semibold uppercase tracking-[0.1em] text-slate-600">
+          {loading ? (
+            <span className="animate-pulse normal-case tracking-normal text-slate-500">Loading programs…</span>
+          ) : (
+            `${programs.length.toLocaleString()} program${programs.length === 1 ? '' : 's'}`
+          )}
         </span>
-        <label className="flex items-center gap-1 text-[10px] text-slate-400">
+        <label className="flex items-center gap-1 text-[11px] text-slate-500">
           sort
           <select
             value={sortBy}
             onChange={(e) => onSortChange(e.target.value as SortKey)}
-            className="rounded border border-slate-200 bg-white px-1 py-0.5 text-[10px] font-medium text-slate-600"
+            className="rounded border border-slate-200 bg-white px-1 py-0.5 text-[11.5px] font-medium text-slate-700"
           >
             <option value="university">University A–Z</option>
             <option value="deadline">Deadline (soonest)</option>
@@ -139,9 +146,15 @@ export function ProgramIndex({
         </label>
       </div>
       {programs.length === 0 ? (
-        <p className="px-4 py-8 text-center text-sm text-slate-400">
-          No programs match the current filters.
-        </p>
+        loading ? (
+          <p className="animate-pulse px-4 py-10 text-center text-[13px] text-slate-500" role="status">
+            Loading the selected fields…
+          </p>
+        ) : (
+          <p className="px-4 py-10 text-center text-[13px] text-slate-500">
+            No programs match these filters.
+          </p>
+        )
       ) : (
         <>
           {visible.map((p) => (
@@ -149,14 +162,21 @@ export function ProgramIndex({
               key={p.id}
               program={p}
               selected={p.id === selectedId}
-              inList={myList.has(p.id)}
+              saved={saved.has(p.id)}
+              plan={plan.get(p.id)}
+              cycle={cycle}
               onSelect={() => onSelect(p.id)}
-              onToggleList={() => onToggleList(p.id)}
+              onToggleSaved={() => onToggleSaved(p.id)}
             />
           ))}
+          {loading && (
+            <p className="animate-pulse border-t border-slate-200 px-3 py-2 text-center text-[12px] text-slate-500">
+              Still loading other selected fields…
+            </p>
+          )}
           {programs.length > RENDER_CAP && (
-            <p className="border-t border-slate-200 px-3 py-3 text-center text-[11px] leading-relaxed text-slate-400">
-              Showing the first {RENDER_CAP} of {programs.length}.
+            <p className="border-t border-slate-200 px-3 py-3 text-center text-[12px] leading-relaxed text-slate-500">
+              Showing the first {RENDER_CAP} of {programs.length.toLocaleString()}.
               <br />
               Narrow the filters to see the rest.
             </p>

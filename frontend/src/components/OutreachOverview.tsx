@@ -2,7 +2,6 @@ import { useMemo, useState } from 'react'
 import type { Faculty, OutreachRecord, Program, ReplyAnalysis, ReplyType } from '../types'
 import { advisorKey } from '../lib/starredAdvisors'
 import { REPLY_TYPES } from '../lib/outreach'
-import { AiSettings } from './AiSettings'
 import { PoolLoading } from './PoolLoading'
 
 interface Hit {
@@ -143,9 +142,10 @@ export function OutreachOverview({
       <div className="mx-auto max-w-4xl px-5 py-4">
         <header className="mb-3 flex flex-wrap items-center justify-between gap-2">
           <div>
-            <h1 className="font-serif text-lg font-bold text-slate-900">Outreach Overview</h1>
-            <p className="text-[12px] text-slate-500">
-              All 套磁 outreach and reply status, grouped by field or school.
+            <h1 className="font-serif text-lg font-bold text-slate-900">Contact summary</h1>
+            <p className="text-[12.5px] text-slate-600">
+              Every email you tracked and what came back, grouped by field or school. Reply analysis
+              can be turned on in Settings.
             </p>
           </div>
           <div className="flex gap-1">
@@ -163,8 +163,6 @@ export function OutreachOverview({
           </div>
         </header>
 
-        <AiSettings />
-
         {/* Records resolve to a field/school only once their program's chunk is
             in, so say so rather than letting "Unknown field" read as a fact. */}
         {loading && totals.total > 0 && (
@@ -176,8 +174,8 @@ export function OutreachOverview({
         {loading && totals.total === 0 ? (
           <PoolLoading what="your outreach" />
         ) : totals.total === 0 ? (
-          <p className="py-12 text-center text-sm text-slate-400">
-            No tracked outreach yet. Sync Gmail or add one manually in the Outreach tab.
+          <p className="py-12 text-center text-[13px] text-slate-500">
+            No tracked emails yet. Sync Gmail or add one manually on the Emails tab.
           </p>
         ) : (
           <>

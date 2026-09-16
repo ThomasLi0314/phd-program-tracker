@@ -1,11 +1,9 @@
 import { useMemo, useState } from 'react'
 import type { Faculty, OutreachRecord, Program } from '../types'
-import { Badge, RecruitmentBadge } from './Badge'
-import { StarRating } from './StarRating'
-import { AdvisorNote } from './AdvisorNote'
-import { OutreachBadge } from './OutreachBadge'
-import { EditableLink } from './EditableLink'
 import { PoolLoading } from './PoolLoading'
+import { AdvisorCard, type AdvisorDensity } from './AdvisorCard'
+import { termsOf } from './Highlight'
+import { usePref } from '../lib/viewPrefs'
 import { MAX_PRIORITY } from '../lib/starredAdvisors'
 import {
   groupHomepage,
@@ -18,7 +16,7 @@ import {
   type MergedAdvisor,
 } from '../lib/mergeAdvisors'
 
-/** A starred person: one entry even when they advise in several programs. */
+/** A saved person: one entry even when they advise in several programs. */
 interface AdvisorHit {
   advisor: MergedAdvisor
   /** Primary program — decides field/school grouping and the deep-dive link. */
@@ -35,9 +33,9 @@ interface Group {
 type GroupBy = 'field' | 'school' | 'level'
 
 const GROUP_OPTIONS: { id: GroupBy; label: string }[] = [
-  { id: 'field', label: 'Field · 领域' },
-  { id: 'school', label: 'School · 学校' },
-  { id: 'level', label: 'Priority · 星级' },
+  { id: 'field', label: 'Field' },
+  { id: 'school', label: 'School' },
+  { id: 'level', label: 'Priority' },
 ]
 
 const stars = (level: number) =>
@@ -54,94 +52,12 @@ function sortHits(a: AdvisorHit, b: AdvisorHit) {
   )
 }
 
-function StarredCard({
-  hit,
-  onSetLevel,
-  onOpenProgram,
-  note,
-  onSaveNote,
-  record,
-  homepage,
-  onSetHomepage,
-}: {
-  hit: AdvisorHit
-  onSetLevel: (n: number) => void
-  onOpenProgram: (programId: string) => void
-  note: string
-  onSaveNote: (text: string) => void
-  record?: OutreachRecord
-  homepage: string
-  onSetHomepage: (url: string) => void
-}) {
-  const f = hit.advisor.faculty
+function programRows(m: MergedAdvisor): Program[] {
   const seen = new Set<string>()
-  const rows = hit.advisor.entries.filter((e) => !seen.has(e.program.id) && seen.add(e.program.id))
-  return (
-    <article className="mb-3 break-inside-avoid rounded border border-slate-200 bg-white p-3">
-      <div className="flex items-start justify-between gap-2">
-        <div className="min-w-0">
-          <h4 className="font-serif text-[15px] font-bold leading-tight text-slate-900">{f.name}</h4>
-          <p className="mt-0.5 text-[11px] leading-snug text-slate-500">{f.title}</p>
-        </div>
-        <div className="flex shrink-0 items-center gap-1.5">
-          <RecruitmentBadge status={f.recruitment_status} />
-          <StarRating level={hit.level} onSetLevel={onSetLevel} />
-        </div>
-      </div>
-
-      <div className="mt-1.5 space-y-1">
-        {rows.map((e) => (
-          <button
-            key={e.program.id}
-            onClick={() => onOpenProgram(e.program.id)}
-            className="flex w-full items-center justify-between gap-2 rounded border border-indigo-100 bg-indigo-50/60 px-2 py-1 text-left transition-colors hover:border-indigo-300 hover:bg-indigo-50"
-            title="Open this program's deep-dive"
-          >
-            <span className="min-w-0 truncate text-[12px] font-medium text-indigo-800">
-              {e.program.university}
-              <span className="font-normal text-indigo-500"> — {e.program.program_name}</span>
-            </span>
-            <span className="shrink-0 text-[11px] font-semibold text-indigo-600">
-              {e.program.degree_type} · {e.program.region} →
-            </span>
-          </button>
-        ))}
-      </div>
-
-      <div className="mt-2 flex flex-wrap gap-1">
-        <Badge tone="slate">{f.sub_field}</Badge>
-        {f.tags.map((tag) => (
-          <span
-            key={tag}
-            className="rounded-full bg-slate-100 px-2 py-0.5 text-[10px] font-medium text-slate-600"
-          >
-            {tag}
-          </span>
-        ))}
-      </div>
-      <p className="mt-2 text-[12.5px] leading-relaxed text-slate-600">{f.summary}</p>
-      <div className="mt-2 flex flex-wrap gap-3 text-[11px] font-medium">
-        <EditableLink label="Homepage" url={homepage} onSave={onSetHomepage} />
-        {f.links.scholar && (
-          <a
-            href={f.links.scholar}
-            target="_blank"
-            rel="noreferrer"
-            className="text-indigo-600 hover:underline"
-          >
-            Google Scholar ↗
-          </a>
-        )}
-      </div>
-      <div>
-        <OutreachBadge record={record} />
-      </div>
-      <AdvisorNote note={note} onSave={onSaveNote} />
-    </article>
-  )
+  return m.entries.filter((e) => !seen.has(e.program.id) && seen.add(e.program.id)).map((e) => e.program)
 }
 
-export function StarredAdvisors({
+export function SavedAdvisors({
   loading,
   starCount,
   programs,
@@ -158,11 +74,11 @@ export function StarredAdvisors({
   /** true while the per-field chunks are still arriving — see PoolLoading. */
   loading: boolean
   /** How many stars are actually saved, independent of what's in `programs`.
-   *  Lets the empty state tell "you starred nobody" apart from "your stars are
-   *  filtered out of this pool" instead of asserting the former. */
+   *  Lets the empty state tell "you saved nobody" apart from "your saved
+   *  advisors are filtered out of this pool" instead of asserting the former. */
   starCount: number
   programs: Program[]
-  /** Locally-added advisors, keyed by program id — starrable like any other. */
+  /** Locally-added advisors, keyed by program id — saveable like any other. */
   addedFaculty: Record<string, Faculty[]>
   levels: Map<string, number>
   onSetLevel: (key: string, level: number) => void
@@ -178,16 +94,15 @@ export function StarredAdvisors({
   const [fieldFilter, setFieldFilter] = useState<Set<string>>(new Set())
   const [levelFilter, setLevelFilter] = useState<Set<number>>(new Set())
   const [school, setSchool] = useState('')
+  const [density, setDensity] = usePref<AdvisorDensity>('savedDensity', 'card')
 
-  // Every starred advisor, one entry per PERSON. Merging matters here too: a
-  // star is written to all of a person's program entries, so without this the
-  // same professor would be listed once per program they advise in.
+  // Every saved advisor, one entry per PERSON. A star is written to all of a
+  // person's program entries, so without merging the same professor would be
+  // listed once per program they advise in.
   const allHits = useMemo(() => {
     const raw: MergeHit[] = []
     for (const p of programs) {
       for (const f of p.faculty) raw.push({ faculty: f, program: p })
-      // Advisors the user added can be starred like any other, so they have to
-      // be resolvable here — otherwise starring one shows an empty Starred tab.
       for (const f of addedFaculty[p.id] ?? []) raw.push({ faculty: f, program: p })
     }
     const hits: AdvisorHit[] = []
@@ -199,8 +114,6 @@ export function StarredAdvisors({
     return hits
   }, [programs, levels, addedFaculty])
 
-  // A merged advisor can span several programs, so their fields/schools are the
-  // union across their entries — filtering on any one of them must find them.
   const fieldsOf = (h: AdvisorHit) => h.advisor.entries.map((e) => e.program.discipline.primary)
   const schoolsOf = (h: AdvisorHit) => h.advisor.entries.map((e) => e.program.university)
 
@@ -211,7 +124,7 @@ export function StarredAdvisors({
     [allHits],
   )
 
-  const terms = useMemo(() => query.toLowerCase().split(/\s+/).filter(Boolean), [query])
+  const terms = useMemo(() => termsOf(query), [query])
 
   const filtered = useMemo(
     () =>
@@ -221,7 +134,7 @@ export function StarredAdvisors({
         if (levelFilter.size && !levelFilter.has(h.level)) return false
         if (terms.length) {
           const f = h.advisor.faculty
-          const hay = `${f.name} ${f.title} ${f.sub_field} ${f.tags.join(' ')} ${h.advisor.entries
+          const hay = `${f.name} ${f.title} ${f.sub_field} ${f.tags.join(' ')} ${f.summary} ${h.advisor.entries
             .map((e) => `${e.program.university} ${e.program.program_name} ${e.program.discipline.primary}`)
             .join(' ')}`.toLowerCase()
           if (!terms.every((t) => hay.includes(t))) return false
@@ -236,9 +149,7 @@ export function StarredAdvisors({
     for (const h of filtered) {
       const key =
         groupBy === 'field'
-          ? // A person advising across several fields lands under the field the
-            // user is filtering on, else their primary program's field.
-            (fieldsOf(h).find((f) => fieldFilter.has(f)) ?? h.program.discipline.primary)
+          ? (fieldsOf(h).find((f) => fieldFilter.has(f)) ?? h.program.discipline.primary)
           : groupBy === 'school'
             ? h.program.university
             : String(h.level)
@@ -254,23 +165,17 @@ export function StarredAdvisors({
     if (groupBy === 'level') arr.sort((a, b) => Number(b.key) - Number(a.key))
     else arr.sort((a, b) => b.hits.length - a.hits.length || a.key.localeCompare(b.key))
     return arr
-  }, [filtered, groupBy])
+  }, [filtered, groupBy, fieldFilter])
 
   const totalStarred = allHits.length
   const shown = filtered.length
   const hasFilter = fieldFilter.size > 0 || levelFilter.size > 0 || !!school || terms.length > 0
-  const groupNoun = groupBy === 'field' ? 'field' : groupBy === 'school' ? 'school' : 'priority tier'
 
-  const toggleField = (v: string) =>
-    setFieldFilter((s) => {
+  const toggleIn = <T,>(set: (fn: (s: Set<T>) => Set<T>) => void, v: T) =>
+    set((s) => {
       const n = new Set(s)
-      n.has(v) ? n.delete(v) : n.add(v)
-      return n
-    })
-  const toggleLevel = (v: number) =>
-    setLevelFilter((s) => {
-      const n = new Set(s)
-      n.has(v) ? n.delete(v) : n.add(v)
+      if (n.has(v)) n.delete(v)
+      else n.add(v)
       return n
     })
   const clearAll = () => {
@@ -286,49 +191,47 @@ export function StarredAdvisors({
         ? 'bg-amber-500 text-white'
         : 'bg-indigo-600 text-white'
       : tone === 'amber'
-        ? 'bg-amber-50 text-amber-700 hover:bg-amber-100'
-        : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+        ? 'bg-amber-50 text-amber-800 hover:bg-amber-100'
+        : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
 
   return (
     <main className="h-full flex-1 overflow-y-auto bg-slate-50/40">
       <div className="mx-auto max-w-6xl px-5 py-4">
         <header className="mb-3">
-          <h1 className="font-serif text-lg font-bold text-slate-900">Starred Advisors</h1>
-          <p className="text-[12px] text-slate-500">
-            Advisors you starred. Group by field, school, or priority, and filter the list below.
-            Within each group, higher-priority advisors (★★★) come first. Click the stars to change a
-            priority; clear all three to remove.
+          <h1 className="font-serif text-lg font-bold text-slate-900">Saved advisors</h1>
+          <p className="text-[12.5px] text-slate-600">
+            Everyone you gave a priority (★ to ★★★). Click the stars on any card to change it; clear
+            them to remove the person from this list.
           </p>
         </header>
 
         {loading && totalStarred === 0 ? (
-          <PoolLoading what="your starred advisors" />
+          <PoolLoading what="your saved advisors" />
         ) : totalStarred === 0 && starCount > 0 ? (
           // Stars exist but none survived the pool — never claim they're gone.
           <div className="py-16 text-center">
-            <p className="text-sm font-medium text-amber-700">
-              You have {starCount} starred advisor{starCount === 1 ? '' : 's'}, but none are
-              visible here.
+            <p className="text-[13.5px] font-medium text-amber-800">
+              You have {starCount} saved advisor{starCount === 1 ? '' : 's'}, but none are visible
+              here.
             </p>
-            <p className="mt-1 text-[12px] leading-relaxed text-slate-500">
-              The sidebar filters (degree, region, GRE, application fee) also narrow this list.
-              Clear them to see everything you starred.
+            <p className="mt-1 text-[12.5px] leading-relaxed text-slate-600">
+              The sidebar filters on the Explore tab (degree, region, GRE, fee) also narrow this list.
+              Clear them to see everyone you saved.
             </p>
           </div>
         ) : totalStarred === 0 ? (
           <div className="py-16 text-center">
-            <p className="text-sm text-slate-400">You haven't starred any advisors yet.</p>
-            <p className="mt-1 text-[12px] text-slate-400">
-              In the <span className="font-medium text-slate-600">Advisors</span> tab or any
-              program's deep-dive, click the ☆☆☆ on an advisor card to set a priority.
+            <p className="text-[13.5px] text-slate-600">You haven't saved any advisors yet.</p>
+            <p className="mt-1 text-[12.5px] text-slate-500">
+              In <span className="font-medium text-slate-700">Explore → Advisors</span> or on a
+              program's Faculty tab, click the ☆☆☆ on a card to give someone a priority.
             </p>
           </div>
         ) : (
           <>
-            {/* Group-by + filter bar */}
-            <div className="mb-4 space-y-2.5 rounded-lg border border-slate-200 bg-white p-3">
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-400">
+            <div className="mb-4 space-y-2.5 rounded-md border border-slate-200 bg-white p-3">
+              <div className="flex flex-wrap items-center gap-3">
+                <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
                   Group by
                 </span>
                 <div className="flex gap-1">
@@ -336,13 +239,24 @@ export function StarredAdvisors({
                     <button
                       key={o.id}
                       onClick={() => setGroupBy(o.id)}
-                      className={`rounded px-2.5 py-1 text-[12px] font-medium transition-colors ${
+                      className={`rounded px-2.5 py-1 text-[12.5px] font-medium transition-colors ${
                         groupBy === o.id
                           ? 'bg-indigo-600 text-white'
-                          : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                          : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                       }`}
                     >
                       {o.label}
+                    </button>
+                  ))}
+                </div>
+                <div className="ml-auto flex overflow-hidden rounded border border-slate-300 text-[12px] font-medium">
+                  {(['card', 'compact'] as AdvisorDensity[]).map((d) => (
+                    <button
+                      key={d}
+                      onClick={() => setDensity(d)}
+                      className={`px-2 py-0.5 ${density === d ? 'bg-slate-800 text-white' : 'bg-white text-slate-600 hover:bg-slate-100'}`}
+                    >
+                      {d === 'card' ? 'Cards' : 'List'}
                     </button>
                   ))}
                 </div>
@@ -353,12 +267,12 @@ export function StarredAdvisors({
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                   placeholder="Search name, topic, school…"
-                  className="min-w-[200px] flex-1 rounded border border-slate-300 px-2.5 py-1 text-[12px] text-slate-700 placeholder:text-slate-400 focus:border-indigo-400 focus:outline-none focus:ring-1 focus:ring-indigo-200"
+                  className="min-w-[200px] flex-1 rounded border border-slate-300 px-2.5 py-1 text-[12.5px] text-slate-800 placeholder:text-slate-400 focus:border-indigo-400 focus:outline-none focus:ring-1 focus:ring-indigo-200"
                 />
                 <select
                   value={school}
                   onChange={(e) => setSchool(e.target.value)}
-                  className="max-w-[220px] rounded border border-slate-300 bg-white px-2 py-1 text-[12px] text-slate-700 focus:border-indigo-400 focus:outline-none"
+                  className="max-w-[240px] rounded border border-slate-300 bg-white px-2 py-1 text-[12.5px] text-slate-700 focus:border-indigo-400 focus:outline-none"
                 >
                   <option value="">All schools ({allSchools.length})</option>
                   {allSchools.map((s) => (
@@ -371,14 +285,14 @@ export function StarredAdvisors({
 
               {allLevels.length > 1 && (
                 <div className="flex flex-wrap items-center gap-1.5">
-                  <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-400">
+                  <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
                     Priority
                   </span>
                   {allLevels.map((lv) => (
                     <button
                       key={lv}
-                      onClick={() => toggleLevel(lv)}
-                      className={`rounded-full px-2 py-0.5 text-[11px] font-semibold transition-colors ${chip(
+                      onClick={() => toggleIn(setLevelFilter, lv)}
+                      className={`rounded-full px-2 py-0.5 text-[12px] font-semibold transition-colors ${chip(
                         levelFilter.has(lv),
                         'amber',
                       )}`}
@@ -391,14 +305,14 @@ export function StarredAdvisors({
               )}
 
               <div className="flex flex-wrap items-center gap-1.5">
-                <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-400">
+                <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
                   Field
                 </span>
                 {allFields.map((fl) => (
                   <button
                     key={fl}
-                    onClick={() => toggleField(fl)}
-                    className={`rounded-full px-2 py-0.5 text-[11px] font-medium transition-colors ${chip(
+                    onClick={() => toggleIn(setFieldFilter, fl)}
+                    className={`rounded-full px-2 py-0.5 text-[12px] font-medium transition-colors ${chip(
                       fieldFilter.has(fl),
                       'indigo',
                     )}`}
@@ -409,26 +323,26 @@ export function StarredAdvisors({
                 {hasFilter && (
                   <button
                     onClick={clearAll}
-                    className="ml-1 text-[11px] font-medium text-slate-400 underline hover:text-slate-600"
+                    className="ml-1 text-[12px] font-medium text-slate-500 underline hover:text-slate-700"
                   >
-                    clear filters
+                    clear
                   </button>
                 )}
               </div>
             </div>
 
-            <p className="mb-3 text-[11px] font-medium text-slate-500">
-              Showing {shown} of {totalStarred} starred advisor{totalStarred === 1 ? '' : 's'} across{' '}
-              {groups.length} {groupNoun}
+            <p className="mb-3 text-[12px] font-medium text-slate-600">
+              {shown} of {totalStarred} saved advisor{totalStarred === 1 ? '' : 's'} · {groups.length}{' '}
+              {groupBy === 'field' ? 'field' : groupBy === 'school' ? 'school' : 'priority tier'}
               {groups.length === 1 ? '' : 's'}
             </p>
 
             {shown === 0 ? (
               <div className="py-16 text-center">
-                <p className="text-sm text-slate-400">No starred advisors match these filters.</p>
+                <p className="text-[13px] text-slate-500">No saved advisors match these filters.</p>
                 <button
                   onClick={clearAll}
-                  className="mt-2 text-[12px] font-medium text-indigo-600 underline hover:text-indigo-700"
+                  className="mt-2 text-[12.5px] font-medium text-indigo-600 underline hover:text-indigo-700"
                 >
                   Clear filters
                 </button>
@@ -441,24 +355,26 @@ export function StarredAdvisors({
                       {groupBy === 'level' ? (
                         <h2 className="font-serif text-[15px] font-bold tracking-wide text-amber-500">
                           {stars(g.level)}
-                          <span className="ml-1.5 text-[12px] font-medium text-slate-500">
+                          <span className="ml-1.5 text-[12.5px] font-medium text-slate-600">
                             Priority {g.level}
                           </span>
                         </h2>
                       ) : (
                         <h2 className="font-serif text-[15px] font-bold text-slate-800">{g.key}</h2>
                       )}
-                      <span className="rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-semibold tabular-nums text-amber-800">
-                        {g.hits.length} ★
-                      </span>
+                      <span className="text-[12px] tabular-nums text-slate-500">{g.hits.length}</span>
                     </div>
-                    <div className="gap-3 lg:columns-2 2xl:columns-3">
+                    <div className={density === 'card' ? 'gap-3 lg:columns-2 2xl:columns-3' : 'rounded-md border border-slate-200 bg-white'}>
                       {g.hits.map((h) => {
                         const keys = h.advisor.keys
                         return (
-                          <StarredCard
+                          <AdvisorCard
                             key={h.advisor.key}
-                            hit={h}
+                            faculty={h.advisor.faculty}
+                            rows={programRows(h.advisor)}
+                            density={density}
+                            terms={terms}
+                            level={h.level}
                             onSetLevel={(n) => keys.forEach((k) => onSetLevel(k, n))}
                             onOpenProgram={onOpenProgram}
                             note={groupNote(keys, notes)}

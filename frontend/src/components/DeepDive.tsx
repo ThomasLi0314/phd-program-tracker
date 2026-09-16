@@ -1,15 +1,31 @@
+// Program detail.
+//
+// Four facts decide whether a program is worth the evening it takes to apply:
+// when it closes, whether it pays, where the application stands, and whether
+// anyone there is someone you'd want to work with. Those sit at the top as
+// tiles. Everything else is one tab away — Overview, Faculty, Requirements,
+// Notes — instead of one long scroll where the deadline and the faculty
+// roster competed for the same attention.
+
 import { useEffect, useState } from 'react'
 import type { Faculty, OutreachRecord, Program } from '../types'
 import { UNKNOWN } from '../types'
-import { Badge, RecruitmentBadge } from './Badge'
-import { StarRating } from './StarRating'
-import { AdvisorNote } from './AdvisorNote'
-import { OutreachBadge } from './OutreachBadge'
+import { Badge } from './Badge'
 import { EditableLink } from './EditableLink'
 import { ProgramNoteButton } from './ProgramNoteButton'
+import { AdvisorCard, type AdvisorDensity } from './AdvisorCard'
 import type { ProgramDoc } from '../lib/programDocs'
 import { advisorKey } from '../lib/starredAdvisors'
 import type { ProgramField } from '../lib/overrides'
+import { deadlineStatus, DEADLINE_KIND_LABEL } from '../lib/deadlineStatus'
+import type { PlanSummary } from '../lib/planBridge'
+import { groupByCanonical } from '../lib/subfields'
+import { usePref } from '../lib/viewPrefs'
+import { APPLICATION_LABELS, INTEREST_LABELS } from '../planner/lib/labels'
+
+type Tab = 'overview' | 'faculty' | 'requirements' | 'notes'
+
+// ── Editable requirement cell ─────────────────────────────────────────────────
 
 function EditableCell({
   label,
@@ -46,16 +62,16 @@ function EditableCell({
 
   return (
     <div
-      className={`group/cell rounded border bg-white px-2.5 py-2 ${
-        hasOverride ? 'border-indigo-200' : 'border-slate-200'
+      className={`group/cell rounded-md border bg-white px-3 py-2 ${
+        hasOverride ? 'border-indigo-300' : 'border-slate-200'
       } ${wide ? 'sm:col-span-2' : ''}`}
     >
       <div className="flex items-start justify-between gap-1">
-        <div className="text-[10px] font-semibold uppercase tracking-[0.1em] text-slate-400">
+        <div className="text-[11px] font-semibold uppercase tracking-[0.08em] text-slate-500">
           {label}
           {hasOverride && (
-            <span className="ml-1 rounded bg-indigo-100 px-1 py-px text-[9px] font-medium text-indigo-600">
-              custom
+            <span className="ml-1 rounded bg-indigo-100 px-1 py-px text-[10px] font-medium normal-case tracking-normal text-indigo-700">
+              your edit
             </span>
           )}
         </div>
@@ -64,7 +80,7 @@ function EditableCell({
             onClick={() => setEditing(true)}
             aria-label={`Edit ${label}`}
             title={`Edit ${label}`}
-            className="shrink-0 text-[11px] text-slate-300 transition-colors hover:text-indigo-600 group-hover/cell:text-slate-400"
+            className="shrink-0 text-[12px] text-slate-400 transition-colors hover:text-indigo-600"
           >
             ✎
           </button>
@@ -83,7 +99,7 @@ function EditableCell({
                 if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) save()
                 else if (e.key === 'Escape') setEditing(false)
               }}
-              className="w-full resize-y rounded border border-indigo-300 px-2 py-1 text-[12.5px] leading-snug text-slate-800 focus:outline-none focus:ring-1 focus:ring-indigo-200"
+              className="w-full resize-y rounded border border-indigo-300 px-2 py-1 text-[13px] leading-snug text-slate-800 focus:outline-none focus:ring-1 focus:ring-indigo-200"
             />
           ) : (
             <input
@@ -95,17 +111,17 @@ function EditableCell({
                 if (e.key === 'Enter') save()
                 else if (e.key === 'Escape') setEditing(false)
               }}
-              className="w-full rounded border border-indigo-300 px-2 py-1 text-[12.5px] leading-snug text-slate-800 focus:outline-none focus:ring-1 focus:ring-indigo-200"
+              className="w-full rounded border border-indigo-300 px-2 py-1 text-[13px] leading-snug text-slate-800 focus:outline-none focus:ring-1 focus:ring-indigo-200"
             />
           )}
-          <div className="mt-1 flex items-center gap-2 text-[11px]">
+          <div className="mt-1 flex items-center gap-2 text-[12px]">
             <button
               onClick={save}
               className="rounded bg-indigo-600 px-2 py-0.5 font-semibold text-white transition-colors hover:bg-indigo-700"
             >
               Save
             </button>
-            <button onClick={() => setEditing(false)} className="text-slate-400 hover:text-slate-600">
+            <button onClick={() => setEditing(false)} className="text-slate-500 hover:text-slate-700">
               Cancel
             </button>
             {hasOverride && (
@@ -114,26 +130,26 @@ function EditableCell({
                   onSave('')
                   setEditing(false)
                 }}
-                className="ml-auto text-slate-400 hover:text-rose-600"
+                className="ml-auto text-slate-500 hover:text-rose-600"
               >
-                reset to default
+                reset to database value
               </button>
             )}
           </div>
         </div>
       ) : (
         <>
-          <div className="mt-0.5 whitespace-pre-wrap text-[13px] font-medium leading-snug text-slate-900 [overflow-wrap:anywhere]">
+          <div className="mt-0.5 whitespace-pre-wrap text-[13.5px] font-medium leading-snug text-slate-900 [overflow-wrap:anywhere]">
             {effective === UNKNOWN || !effective ? (
               <span className="italic text-amber-700">Unknown / Verify</span>
             ) : (
               effective
             )}
           </div>
-          {/* The dataset's note explains the dataset's value; once the user has
-              replaced that value the note can contradict it, so it goes away. */}
+          {/* The dataset's note explains the dataset's value; once replaced,
+              the note could contradict it, so it goes away. */}
           {!hasOverride && note && note !== UNKNOWN && (
-            <div className="mt-1 text-[11px] leading-snug text-slate-500 [overflow-wrap:anywhere]">
+            <div className="mt-1 text-[12px] leading-snug text-slate-600 [overflow-wrap:anywhere]">
               {note}
             </div>
           )}
@@ -143,21 +159,23 @@ function EditableCell({
   )
 }
 
-function AdmissionMatrix({
+function Requirements({
   program,
   contactOverride,
   onSetContact,
   fields,
   onSetField,
+  cycle,
 }: {
   program: Program
   contactOverride: string
   onSetContact: (text: string) => void
-  /** The user's own values for this program, by field name. */
   fields: Record<string, string>
   onSetField: (field: ProgramField, text: string) => void
+  cycle: string
 }) {
   const r = program.requirements
+  const dl = deadlineStatus(program, cycle)
   const fundingValue =
     r.funding.status === UNKNOWN
       ? UNKNOWN
@@ -168,29 +186,22 @@ function AdmissionMatrix({
   })
   return (
     <section>
-      <h2 className="mb-2 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-slate-500">
-        <span className="inline-block size-1.5 rounded-full bg-indigo-600" />
-        A · Admission Matrix
-        <span className="ml-1 font-sans text-[10px] font-normal normal-case tracking-normal text-slate-400">
-          every cell is editable — hover and click ✎
-        </span>
-      </h2>
-      <div className="grid grid-cols-2 gap-1.5 sm:grid-cols-3 xl:grid-cols-4">
+      <p className="mb-2 text-[12px] text-slate-500">
+        Every cell is editable — click ✎. Your edits are kept in this browser and marked, and the
+        database value comes back on reset.
+      </p>
+      <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 xl:grid-cols-4">
         <EditableCell
           label="Deadline"
           value={r.deadline_display}
+          note={dl.kind === 'past' || dl.kind === 'upcoming' ? DEADLINE_KIND_LABEL[dl.kind] : undefined}
           placeholder="e.g. Dec 15, 2026"
           {...cell('deadline_display')}
         />
-        <EditableCell
-          label="Application Fee"
-          value={r.fee_display}
-          placeholder="e.g. $110, or waived"
-          {...cell('fee_display')}
-        />
+        <EditableCell label="Application fee" value={r.fee_display} placeholder="e.g. $110, or waived" {...cell('fee_display')} />
         <EditableCell
           label="GRE"
-          value={r.gre === 'Optional' ? 'Optional / Not Required' : r.gre}
+          value={r.gre === 'Optional' ? 'Optional / not required' : r.gre}
           placeholder="Required / Optional / Not Accepted"
           {...cell('gre')}
         />
@@ -201,7 +212,7 @@ function AdmissionMatrix({
           {...cell('letters')}
         />
         <EditableCell
-          label="English Requirement"
+          label="English requirement"
           value={r.english}
           wide
           multiline
@@ -209,19 +220,10 @@ function AdmissionMatrix({
           {...cell('english')}
         />
         <EditableCell
-          label="Duration / Credits"
+          label="Duration / credits"
           value={r.ects !== null ? `${r.duration} · ${r.ects} ECTS` : r.duration}
           placeholder="e.g. 5 years"
           {...cell('duration')}
-        />
-        <EditableCell
-          label="Admission Model"
-          value={r.admission_model}
-          note={r.admission_model_note}
-          wide
-          multiline
-          placeholder="e.g. Direct-to-department; rotations in year 1"
-          {...cell('admission_model')}
         />
         <EditableCell
           label="Funding"
@@ -233,7 +235,16 @@ function AdmissionMatrix({
           {...cell('funding')}
         />
         <EditableCell
-          label="Pre-Application Contact"
+          label="Admission model"
+          value={r.admission_model}
+          note={r.admission_model_note}
+          wide
+          multiline
+          placeholder="e.g. Direct-to-department; rotations in year 1"
+          {...cell('admission_model')}
+        />
+        <EditableCell
+          label="Contact before applying"
           value={r.pre_application_contact}
           note={r.contact_note}
           wide
@@ -247,120 +258,9 @@ function AdmissionMatrix({
   )
 }
 
-function FacultyCard({
-  faculty,
-  level,
-  onSetLevel,
-  note,
-  onSaveNote,
-  record,
-  homepage,
-  onSetHomepage,
-  onRemove,
-}: {
-  faculty: Faculty
-  level: number
-  onSetLevel: (n: number) => void
-  note: string
-  onSaveNote: (text: string) => void
-  record?: OutreachRecord
-  homepage: string
-  onSetHomepage: (url: string) => void
-  onRemove?: () => void
-}) {
-  return (
-    <article
-      className={`mb-3 break-inside-avoid rounded border bg-white p-3 ${
-        faculty.added ? 'border-indigo-200 ring-1 ring-indigo-100' : 'border-slate-200'
-      }`}
-    >
-      <div className="flex items-start justify-between gap-2">
-        <div className="min-w-0">
-          <h4 className="font-serif text-[15px] font-bold leading-tight text-slate-900">
-            {faculty.name}
-            {faculty.added &&
-              // A card built from a page we actually read is a different claim
-              // from one the model recalled — say which.
-              (faculty.source_url ? (
-                <span className="ml-1.5 rounded bg-emerald-100 px-1.5 py-px align-middle text-[9px] font-semibold uppercase tracking-wide text-emerald-700">
-                  added · sourced
-                </span>
-              ) : (
-                <span className="ml-1.5 rounded bg-indigo-100 px-1.5 py-px align-middle text-[9px] font-semibold uppercase tracking-wide text-indigo-600">
-                  added · verify
-                </span>
-              ))}
-          </h4>
-          <p className="mt-0.5 text-[11px] leading-snug text-slate-500">{faculty.title}</p>
-          {faculty.source_url && (
-            <p className="mt-0.5 text-[10px] leading-snug text-slate-400">
-              from{' '}
-              <a
-                href={faculty.source_url}
-                target="_blank"
-                rel="noreferrer"
-                className="text-slate-500 underline [overflow-wrap:anywhere] hover:text-indigo-600"
-              >
-                {faculty.source_url.replace(/^https?:\/\//, '').slice(0, 60)}
-              </a>
-              {faculty.fetched_at && ` · read ${faculty.fetched_at}`}
-            </p>
-          )}
-        </div>
-        <div className="flex shrink-0 items-center gap-1.5">
-          <RecruitmentBadge status={faculty.recruitment_status} />
-          <StarRating level={level} onSetLevel={onSetLevel} />
-          {onRemove && (
-            <button
-              onClick={onRemove}
-              aria-label={`Remove ${faculty.name}, an advisor you added`}
-              title="Remove this added advisor"
-              className="text-[12px] text-slate-300 hover:text-rose-600"
-            >
-              ✕
-            </button>
-          )}
-        </div>
-      </div>
-      <div className="mt-2 flex flex-wrap gap-1">
-        {faculty.tags.map((tag) => (
-          <span
-            key={tag}
-            className="rounded-full bg-slate-100 px-2 py-0.5 text-[10px] font-medium text-slate-600"
-          >
-            {tag}
-          </span>
-        ))}
-      </div>
-      <p className="mt-2 text-[12.5px] leading-relaxed text-slate-600">
-        {faculty.summary === UNKNOWN ? (
-          <span className="italic text-amber-700">Summary pending — run the pipeline with LLM enrichment.</span>
-        ) : (
-          faculty.summary
-        )}
-      </p>
-      <div className="mt-2 flex flex-wrap gap-3 text-[11px] font-medium">
-        <EditableLink label="Homepage" url={homepage} onSave={onSetHomepage} />
-        {faculty.links.scholar && (
-          <a
-            href={faculty.links.scholar}
-            target="_blank"
-            rel="noreferrer"
-            className="text-indigo-600 hover:underline"
-          >
-            Google Scholar ↗
-          </a>
-        )}
-      </div>
-      <div>
-        <OutreachBadge record={record} />
-      </div>
-      <AdvisorNote note={note} onSave={onSaveNote} />
-    </article>
-  )
-}
+// ── Faculty roster ────────────────────────────────────────────────────────────
 
-function FacultyWaterfall({
+function Roster({
   programId,
   faculty,
   addedFaculty,
@@ -373,6 +273,8 @@ function FacultyWaterfall({
   onSetHomepage,
   onAddAdvisor,
   onRemoveFaculty,
+  density,
+  onSetDensity,
 }: {
   programId: string
   faculty: Faculty[]
@@ -384,51 +286,70 @@ function FacultyWaterfall({
   outreach: Record<string, OutreachRecord>
   homepages: Record<string, string>
   onSetHomepage: (key: string, url: string) => void
-  /** Advisors are added from the Advisors tab now — this jumps there. */
   onAddAdvisor: () => void
   onRemoveFaculty: (facultyId: string) => void
+  density: AdvisorDensity
+  onSetDensity: (d: AdvisorDensity) => void
 }) {
   const all = [...faculty, ...addedFaculty]
-  const groups = new Map<string, Faculty[]>()
-  for (const f of all) {
-    if (!groups.has(f.sub_field)) groups.set(f.sub_field, [])
-    groups.get(f.sub_field)!.push(f)
+  const groups = groupByCanonical(all, (f) => f.sub_field || 'Unspecified')
+  // Saved advisors first within each group, then by name — the people you
+  // already care about should not hide behind twenty you haven't looked at.
+  for (const g of groups) {
+    g.items.sort(
+      (a, b) =>
+        (levels.get(advisorKey(programId, b.id)) ?? 0) - (levels.get(advisorKey(programId, a.id)) ?? 0) ||
+        a.name.localeCompare(b.name),
+    )
   }
+  groups.sort((a, b) => b.items.length - a.items.length || a.label.localeCompare(b.label))
 
   return (
-    <section className="mt-5">
-      <h2 className="mb-2 flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-slate-500">
-        <span className="inline-block size-1.5 rounded-full bg-emerald-600" />
-        B · Faculty Waterfall
-        <span className="normal-case tracking-normal text-slate-400">
-          {all.length} researchers, grouped by sub-field
-        </span>
-        <button
-          onClick={onAddAdvisor}
-          className="ml-auto rounded border border-slate-300 bg-white px-2 py-0.5 text-[11px] font-medium normal-case tracking-normal text-slate-700 transition-colors hover:border-indigo-400 hover:text-indigo-700"
-          title="Add an advisor from the Advisors tab — their school and program are worked out from their page"
-        >
-          ＋ Add advisor
-        </button>
-      </h2>
-
-      {all.length === 0 && (
-        <p className="text-sm italic text-slate-400">
-          No faculty scraped yet for this program — use “＋ Add advisor” to add one.
+    <section>
+      <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+        <p className="text-[12.5px] text-slate-600">
+          {all.length === 0
+            ? 'No advisors scanned for this program yet.'
+            : `${all.length} advisor${all.length === 1 ? '' : 's'}, grouped by research area · saved first`}
         </p>
-      )}
-      {[...groups.entries()].map(([subField, members]) => (
-        <div key={subField} className="mt-3 first:mt-0">
-          <h3 className="mb-1.5 border-b border-slate-200 pb-1 font-serif text-[13px] font-bold text-slate-700">
-            {subField} <span className="font-sans text-[11px] font-normal text-slate-400">({members.length})</span>
+        <div className="flex items-center gap-2">
+          <div className="flex overflow-hidden rounded border border-slate-300 text-[11.5px] font-medium">
+            {(['card', 'compact'] as AdvisorDensity[]).map((d) => (
+              <button
+                key={d}
+                onClick={() => onSetDensity(d)}
+                className={`px-2 py-0.5 ${density === d ? 'bg-slate-800 text-white' : 'bg-white text-slate-600 hover:bg-slate-100'}`}
+              >
+                {d === 'card' ? 'Cards' : 'List'}
+              </button>
+            ))}
+          </div>
+          <button
+            onClick={onAddAdvisor}
+            className="rounded border border-slate-300 bg-white px-2 py-0.5 text-[12px] font-medium text-slate-700 transition-colors hover:border-indigo-400 hover:text-indigo-700"
+            title="Add an advisor from the Advisors search — their school and program are worked out from their page"
+          >
+            ＋ Add advisor
+          </button>
+        </div>
+      </div>
+
+      {groups.map((g) => (
+        <div key={g.key} className="mt-3 first:mt-0">
+          <h3 className="mb-1.5 border-b border-slate-200 pb-1 font-serif text-[14px] font-bold text-slate-800">
+            {g.label} <span className="font-sans text-[12px] font-normal text-slate-500">({g.items.length})</span>
           </h3>
-          <div className="gap-3 xl:columns-2 2xl:columns-3">
-            {members.map((f) => {
+          <div className={density === 'card' ? 'gap-3 xl:columns-2 2xl:columns-3' : 'rounded-md border border-slate-200'}>
+            {g.items.map((f) => {
               const key = advisorKey(programId, f.id)
               return (
-                <FacultyCard
+                <AdvisorCard
                   key={f.id}
                   faculty={f}
+                  rows={[]}
+                  showUniversity={false}
+                  showPrograms={false}
+                  density={density}
                   level={levels.get(key) ?? 0}
                   onSetLevel={(n) => onSetLevel(key, n)}
                   note={notes.get(key) ?? ''}
@@ -447,10 +368,64 @@ function FacultyWaterfall({
   )
 }
 
+// ── Key-fact tile ─────────────────────────────────────────────────────────────
+
+const TILE_TONE: Record<string, string> = {
+  emerald: 'border-l-emerald-500',
+  amber: 'border-l-amber-500',
+  sky: 'border-l-sky-500',
+  rose: 'border-l-rose-500',
+  slate: 'border-l-slate-400',
+  indigo: 'border-l-indigo-500',
+}
+
+function Tile({
+  label,
+  value,
+  caption,
+  tone = 'slate',
+  onClick,
+  action,
+}: {
+  label: string
+  value: React.ReactNode
+  caption?: React.ReactNode
+  tone?: keyof typeof TILE_TONE
+  onClick?: () => void
+  action?: React.ReactNode
+}) {
+  const inner = (
+    <>
+      <div className="text-[11px] font-semibold uppercase tracking-[0.08em] text-slate-500">{label}</div>
+      <div className="mt-0.5 text-[15px] font-semibold leading-snug text-slate-900 [overflow-wrap:anywhere]">
+        {value}
+      </div>
+      {caption && <div className="mt-0.5 text-[12px] leading-snug text-slate-600">{caption}</div>}
+      {action && <div className="mt-1.5">{action}</div>}
+    </>
+  )
+  const cls = `rounded-md border border-slate-200 border-l-[3px] bg-white px-3 py-2 text-left ${TILE_TONE[tone]}`
+  if (onClick) {
+    return (
+      <button onClick={onClick} className={`${cls} transition-colors hover:bg-slate-50`} title="Open the matching tab">
+        {inner}
+      </button>
+    )
+  }
+  return <div className={cls}>{inner}</div>
+}
+
+// ── Page ──────────────────────────────────────────────────────────────────────
+
 export function DeepDive({
   program,
-  inList,
-  onToggleList,
+  cycle,
+  loading,
+  saved,
+  onToggleSaved,
+  plan,
+  onAddToPlan,
+  programSummary,
   levels,
   onSetLevel,
   notes,
@@ -474,8 +449,13 @@ export function DeepDive({
   onNoteUnlink,
 }: {
   program: Program | null
-  inList: boolean
-  onToggleList: () => void
+  cycle: string
+  loading: boolean
+  saved: boolean
+  onToggleSaved: () => void
+  plan: PlanSummary | undefined
+  onAddToPlan: () => void | Promise<void>
+  programSummary?: { summary: string; updatedAt: number; count: number }
   levels: Map<string, number>
   onSetLevel: (key: string, level: number) => void
   notes: Map<string, string>
@@ -488,68 +468,83 @@ export function DeepDive({
   contactOverride: string
   onSetContact: (text: string) => void
   addedFaculty: Faculty[]
-  /** Advisors are added from the Advisors tab now — this jumps there. */
   onAddAdvisor: () => void
   onRemoveFaculty: (facultyId: string) => void
-  /** The user's own admission-matrix values for this program. */
   fieldOverrides: Record<string, string>
   onSetField: (field: ProgramField, text: string) => void
-  /** The Google Doc backing this program's note, if one has been created. */
   noteDoc: ProgramDoc | undefined
   googleClientId: string
   googleConnected: boolean
   onNoteCreated: (programId: string, doc: ProgramDoc) => void
   onNoteUnlink: (programId: string) => void
 }) {
+  const [tab, setTab] = useState<Tab>('overview')
+  const [density, setDensity] = usePref<AdvisorDensity>('rosterDensity', 'card')
+  const [adding, setAdding] = useState(false)
+
   if (!program) {
     return (
       <main className="flex h-full flex-1 items-center justify-center bg-slate-50/40">
-        <p className="text-sm text-slate-400">Select a program from the index to open its deep-dive.</p>
+        <p className={`text-[13px] text-slate-500 ${loading ? 'animate-pulse' : ''}`}>
+          {loading ? 'Loading programs…' : 'Select a program on the left to open it.'}
+        </p>
       </main>
     )
   }
+
+  const r = program.requirements
+  const dl = deadlineStatus(program, cycle)
+  const all = [...program.faculty, ...addedFaculty]
+  const savedAdvisors = all
+    .map((f) => ({ f, level: levels.get(advisorKey(program.id, f.id)) ?? 0 }))
+    .filter((x) => x.level > 0)
+    .sort((a, b) => b.level - a.level || a.f.name.localeCompare(b.f.name))
+  const notedAdvisors = all
+    .map((f) => ({ f, note: notes.get(advisorKey(program.id, f.id)) ?? '' }))
+    .filter((x) => x.note)
+  const fundingText =
+    r.funding.status === UNKNOWN ? null : `${r.funding.status}${r.funding.years ? ` · ${r.funding.years} yrs` : ''}`
+
+  const tabs: { id: Tab; label: string }[] = [
+    { id: 'overview', label: 'Overview' },
+    { id: 'faculty', label: `Faculty${all.length ? ` · ${all.length}` : ''}` },
+    { id: 'requirements', label: 'Requirements' },
+    { id: 'notes', label: `Notes${notedAdvisors.length || noteDoc ? ' ·' : ''}${noteDoc ? ' doc' : ''}${notedAdvisors.length ? ` ${notedAdvisors.length}` : ''}` },
+  ]
+
   return (
     <main className="h-full flex-1 overflow-y-auto bg-slate-50/40">
       <div className="mx-auto max-w-5xl px-5 py-4">
-        <header className="mb-4">
-          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-            <h1 className="font-serif text-xl font-bold text-slate-900">
+        <header className="mb-3">
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
+            <h1 className="font-serif text-[21px] font-bold leading-tight text-slate-900">
               {program.university}
-              <span className="font-normal text-slate-500"> — {program.program_name}</span>
+              <span className="font-normal text-slate-600"> — {program.program_name}</span>
             </h1>
-            <span className="rounded bg-slate-800 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white">
+            <span className="text-[11.5px] font-semibold uppercase tracking-wide text-slate-500">
               {program.degree_type}
             </span>
             <button
-              onClick={onToggleList}
-              className={`rounded border px-2 py-0.5 text-[11px] font-medium transition-colors ${
-                inList
-                  ? 'border-amber-400 bg-amber-50 text-amber-700 hover:bg-amber-100'
-                  : 'border-slate-300 bg-white text-slate-600 hover:border-amber-400 hover:text-amber-700'
+              onClick={onToggleSaved}
+              className={`rounded border px-2 py-0.5 text-[12px] font-medium transition-colors ${
+                saved
+                  ? 'border-amber-400 bg-amber-50 text-amber-800 hover:bg-amber-100'
+                  : 'border-slate-300 bg-white text-slate-700 hover:border-amber-400 hover:text-amber-800'
               }`}
+              title={saved ? 'Remove from Saved programs' : 'Save this program to your shortlist'}
             >
-              {inList ? '★ In My List — remove' : '☆ Add to My List'}
+              {saved ? '★ Saved' : '☆ Save'}
             </button>
-            <ProgramNoteButton
-              program={program}
-              doc={noteDoc}
-              clientId={googleClientId}
-              connected={googleConnected}
-              onCreated={onNoteCreated}
-              onUnlink={onNoteUnlink}
-            />
           </div>
-          <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
-            <Badge tone="slate">{program.region}</Badge>
-            <Badge tone="slate">{program.country}</Badge>
-            <Badge tone="indigo">{program.discipline.primary}</Badge>
-            {program.discipline.subs.map((s) => (
-              <span key={s} className="text-[11px] text-slate-400">
-                {s}
-              </span>
-            ))}
-            <span className="mx-1 text-slate-300">|</span>
-            <span className="text-[11px] font-medium">
+          <div className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-[12.5px] text-slate-600">
+            <span>
+              {program.discipline.primary} · {program.country}
+              {/* "United States · US" says the same thing twice; only a
+                  multi-country region adds information. */}
+              {(program.region === 'Europe' || program.region === 'Asia-Pacific') && ` · ${program.region}`}
+            </span>
+            <span className="text-slate-300">|</span>
+            <span className="font-medium">
               <EditableLink label="Program page" url={programPage} onSave={onSetProgramPage} />
             </span>
             {program.links.admissions && (
@@ -557,38 +552,272 @@ export function DeepDive({
                 href={program.links.admissions}
                 target="_blank"
                 rel="noreferrer"
-                className="text-[11px] font-medium text-indigo-600 hover:underline"
+                className="font-medium text-indigo-600 hover:underline"
               >
                 Admissions ↗
               </a>
             )}
           </div>
-          <p className="mt-2 rounded border border-amber-200 bg-amber-50 px-2.5 py-1.5 text-[11px] leading-snug text-amber-800">
-            {program.data_currency}
-          </p>
         </header>
 
-        <AdmissionMatrix
-          program={program}
-          contactOverride={contactOverride}
-          onSetContact={onSetContact}
-          fields={fieldOverrides}
-          onSetField={onSetField}
-        />
-        <FacultyWaterfall
-          programId={program.id}
-          faculty={program.faculty}
-          addedFaculty={addedFaculty}
-          levels={levels}
-          onSetLevel={onSetLevel}
-          notes={notes}
-          onSetNote={onSetNote}
-          outreach={outreach}
-          homepages={homepages}
-          onSetHomepage={onSetHomepage}
-          onAddAdvisor={onAddAdvisor}
-          onRemoveFaculty={onRemoveFaculty}
-        />
+        {/* The four facts */}
+        <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
+          <Tile
+            label="Deadline"
+            value={dl.text}
+            caption={DEADLINE_KIND_LABEL[dl.kind]}
+            tone={dl.tone}
+            onClick={() => setTab('requirements')}
+          />
+          <Tile
+            label="Funding"
+            value={fundingText ?? <span className="italic text-amber-700">Unknown / Verify</span>}
+            caption={r.funding.note && r.funding.note !== UNKNOWN ? <span className="line-clamp-2">{r.funding.note}</span> : undefined}
+            tone={r.funding.status === 'Fully Funded' ? 'emerald' : fundingText ? 'sky' : 'amber'}
+            onClick={() => setTab('requirements')}
+          />
+          <Tile
+            label="Application"
+            value={plan ? APPLICATION_LABELS[plan.status] : <span className="text-slate-500">Not in your plan</span>}
+            caption={
+              plan ? (
+                <>
+                  {INTEREST_LABELS[plan.interest]} · {plan.cycle}
+                  {plan.facultyCount > 0 && ` · ${plan.facultyCount} faculty`}
+                </>
+              ) : (
+                'Plan tracks status, deadlines and contacts.'
+              )
+            }
+            tone={plan ? 'indigo' : 'slate'}
+            action={
+              plan ? (
+                <a
+                  href={`#/planner/programs/${plan.entryId}`}
+                  className="text-[12px] font-medium text-indigo-600 hover:underline"
+                >
+                  Open in Plan ↗
+                </a>
+              ) : (
+                <button
+                  onClick={async () => {
+                    setAdding(true)
+                    try {
+                      await onAddToPlan()
+                    } finally {
+                      setAdding(false)
+                    }
+                  }}
+                  disabled={adding}
+                  className="rounded bg-indigo-600 px-2 py-0.5 text-[12px] font-semibold text-white hover:bg-indigo-700 disabled:opacity-50"
+                >
+                  {adding ? 'Adding…' : '＋ Add to plan'}
+                </button>
+              )
+            }
+          />
+          <Tile
+            label="Saved advisors"
+            value={
+              savedAdvisors.length ? (
+                `${savedAdvisors.length} of ${all.length}`
+              ) : (
+                <span className="text-slate-500">None yet</span>
+              )
+            }
+            caption={
+              savedAdvisors.length ? (
+                <span className="line-clamp-2">
+                  {savedAdvisors
+                    .slice(0, 3)
+                    .map((x) => `${'★'.repeat(x.level)} ${x.f.name}`)
+                    .join(' · ')}
+                  {savedAdvisors.length > 3 ? ' …' : ''}
+                </span>
+              ) : all.length ? (
+                'Star an advisor on the Faculty tab.'
+              ) : (
+                'No advisors scanned here yet.'
+              )
+            }
+            tone={savedAdvisors.length ? 'amber' : 'slate'}
+            onClick={() => setTab('faculty')}
+          />
+        </div>
+
+        {/* Tabs */}
+        <div className="mt-4 flex gap-1 border-b border-slate-200" role="tablist">
+          {tabs.map((t) => (
+            <button
+              key={t.id}
+              role="tab"
+              aria-selected={tab === t.id}
+              onClick={() => setTab(t.id)}
+              className={`-mb-px border-b-2 px-3 py-1.5 text-[13px] font-medium transition-colors ${
+                tab === t.id
+                  ? 'border-indigo-600 text-indigo-700'
+                  : 'border-transparent text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+
+        <div className="pt-4">
+          {tab === 'overview' && (
+            <div className="grid gap-3 md:grid-cols-2">
+              <section className="rounded-md border border-slate-200 bg-white p-3.5">
+                <h2 className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-slate-500">
+                  Field
+                </h2>
+                <div className="flex flex-wrap items-center gap-1.5">
+                  <Badge tone="indigo">{program.discipline.primary}</Badge>
+                  {program.discipline.subs.map((s) => (
+                    <span key={s} className="text-[12.5px] text-slate-600">
+                      {s}
+                    </span>
+                  ))}
+                </div>
+              </section>
+              <section className="rounded-md border border-slate-200 bg-white p-3.5">
+                <h2 className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-slate-500">
+                  How admission works
+                </h2>
+                <p className="text-[13.5px] font-medium text-slate-900">
+                  {fieldOverrides.admission_model || (r.admission_model === UNKNOWN ? <span className="italic text-amber-700">Unknown / Verify</span> : r.admission_model)}
+                </p>
+                {!fieldOverrides.admission_model && r.admission_model_note && r.admission_model_note !== UNKNOWN && (
+                  <p className="mt-1 text-[12.5px] leading-snug text-slate-600">{r.admission_model_note}</p>
+                )}
+              </section>
+              <section className="rounded-md border border-slate-200 bg-white p-3.5">
+                <h2 className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-slate-500">
+                  Contact before applying
+                </h2>
+                <p className="whitespace-pre-wrap text-[13.5px] font-medium text-slate-900">
+                  {contactOverride ||
+                    (r.pre_application_contact === UNKNOWN ? (
+                      <span className="italic text-amber-700">Unknown / Verify</span>
+                    ) : (
+                      r.pre_application_contact
+                    ))}
+                </p>
+                {!contactOverride && r.contact_note && r.contact_note !== UNKNOWN && (
+                  <p className="mt-1 text-[12.5px] leading-snug text-slate-600">{r.contact_note}</p>
+                )}
+              </section>
+              <section className="rounded-md border border-amber-200 bg-amber-50/60 p-3.5">
+                <h2 className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-amber-800">
+                  About this data
+                </h2>
+                <p className="text-[12.5px] leading-snug text-amber-900">{program.data_currency}</p>
+              </section>
+              {programSummary && (
+                <section className="rounded-md border border-sky-200 bg-sky-50/50 p-3.5 md:col-span-2">
+                  <div className="flex flex-wrap items-baseline justify-between gap-2">
+                    <h2 className="text-[11px] font-semibold uppercase tracking-[0.08em] text-sky-800">
+                      What professors told you
+                    </h2>
+                    <span className="text-[11px] text-slate-500">
+                      {programSummary.count} repl{programSummary.count === 1 ? 'y' : 'ies'} ·{' '}
+                      {new Date(programSummary.updatedAt).toISOString().slice(0, 10)}
+                    </span>
+                  </div>
+                  <p className="mt-1 text-[13px] leading-relaxed text-slate-800">{programSummary.summary}</p>
+                  <p className="mt-1 text-[11.5px] text-slate-500">
+                    Summarised from replies to your own emails — not from anything the program published.
+                  </p>
+                </section>
+              )}
+            </div>
+          )}
+
+          {tab === 'faculty' && (
+            <Roster
+              programId={program.id}
+              faculty={program.faculty}
+              addedFaculty={addedFaculty}
+              levels={levels}
+              onSetLevel={onSetLevel}
+              notes={notes}
+              onSetNote={onSetNote}
+              outreach={outreach}
+              homepages={homepages}
+              onSetHomepage={onSetHomepage}
+              onAddAdvisor={onAddAdvisor}
+              onRemoveFaculty={onRemoveFaculty}
+              density={density}
+              onSetDensity={setDensity}
+            />
+          )}
+
+          {tab === 'requirements' && (
+            <Requirements
+              program={program}
+              contactOverride={contactOverride}
+              onSetContact={onSetContact}
+              fields={fieldOverrides}
+              onSetField={onSetField}
+              cycle={cycle}
+            />
+          )}
+
+          {tab === 'notes' && (
+            <div className="space-y-3">
+              <section className="rounded-md border border-slate-200 bg-white p-3.5">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <div>
+                    <h2 className="text-[11px] font-semibold uppercase tracking-[0.08em] text-slate-500">
+                      Program note
+                    </h2>
+                    <p className="mt-0.5 text-[12.5px] text-slate-600">
+                      A Google Doc in your own Drive, seeded with this program's facts.
+                    </p>
+                  </div>
+                  <ProgramNoteButton
+                    program={program}
+                    doc={noteDoc}
+                    clientId={googleClientId}
+                    connected={googleConnected}
+                    onCreated={onNoteCreated}
+                    onUnlink={onNoteUnlink}
+                  />
+                </div>
+              </section>
+              {plan?.notes && (
+                <section className="rounded-md border border-indigo-200 bg-indigo-50/40 p-3.5">
+                  <h2 className="text-[11px] font-semibold uppercase tracking-[0.08em] text-indigo-800">
+                    Plan notes
+                  </h2>
+                  <p className="mt-1 whitespace-pre-wrap text-[13px] leading-relaxed text-slate-800">{plan.notes}</p>
+                  <a href={`#/planner/programs/${plan.entryId}`} className="mt-1 inline-block text-[12px] font-medium text-indigo-600 hover:underline">
+                    Edit in Plan ↗
+                  </a>
+                </section>
+              )}
+              <section className="rounded-md border border-slate-200 bg-white p-3.5">
+                <h2 className="text-[11px] font-semibold uppercase tracking-[0.08em] text-slate-500">
+                  Advisor notes{notedAdvisors.length ? ` · ${notedAdvisors.length}` : ''}
+                </h2>
+                {notedAdvisors.length === 0 ? (
+                  <p className="mt-1 text-[12.5px] text-slate-500">
+                    None yet. Open an advisor on the Faculty tab and add a note.
+                  </p>
+                ) : (
+                  <ul className="mt-1.5 divide-y divide-slate-100">
+                    {notedAdvisors.map(({ f, note }) => (
+                      <li key={f.id} className="py-1.5">
+                        <span className="text-[13px] font-medium text-slate-900">{f.name}</span>
+                        <p className="mt-0.5 whitespace-pre-wrap text-[12.5px] leading-relaxed text-slate-700">{note}</p>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </section>
+            </div>
+          )}
+        </div>
       </div>
     </main>
   )

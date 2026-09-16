@@ -5,7 +5,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import type { Faculty, Program } from '../../types'
 import type { PlannerFaculty, PlannerProgram, PlannerSettings, PlannerState } from '../types'
-import { localPlannerStorage, type PlannerStorage } from './storage'
+import { localPlannerStorage, PLANNER_KEY, type PlannerStorage } from './storage'
 import {
   customFaculty,
   customProgram,
@@ -61,6 +61,22 @@ export function usePlanner(storage: PlannerStorage = localPlannerStorage): Plann
     return () => {
       alive = false
     }
+  }, [storage])
+
+  // Another tab (the tracker's "Add to plan", or a second planner window) may
+  // write the store. `storage` fires only in OTHER tabs, so re-reading here
+  // never echoes our own save; the dirty flag stays false so nothing is
+  // written back.
+  useEffect(() => {
+    const onStorage = (e: StorageEvent) => {
+      if (e.key !== null && e.key !== PLANNER_KEY) return
+      void storage.loadPlanner().then((s) => {
+        dirty.current = false
+        setState(s)
+      })
+    }
+    window.addEventListener('storage', onStorage)
+    return () => window.removeEventListener('storage', onStorage)
   }, [storage])
 
   useEffect(() => {

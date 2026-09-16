@@ -1,16 +1,20 @@
-// Planner-focused program table (spec §22): dense, sortable, filterable.
+// Planner-focused program table (spec §22): dense, sortable, filterable — and
+// exportable to a real spreadsheet in the same order it is shown.
 
 import { useMemo, useState } from 'react'
 import { navigate } from '../../lib/hashRoute'
-import type { PlannerProgram, PlannerState } from '../types'
+import type { PlannerFaculty, PlannerProgram, PlannerState } from '../types'
 import type { ReferencePool } from '../lib/useReferencePool'
 import type { PlannerApi } from '../lib/usePlanner'
-import { programIdentity, resolveProgram } from '../lib/referenceBridge'
+import { facultyOccurrences, programIdentity, resolveProgram } from '../lib/referenceBridge'
 import { isLikelyRecruiting } from '../lib/recruitment'
+import { formatDeadline, resolveDeadline } from '../lib/deadlines'
+import { effectiveContact, findRecord, useOutreachSnapshot } from '../lib/outreachBridge'
 import {
   APPLICATION_LABELS,
   APPLICATION_ORDER,
   APPLICATION_TONES,
+  CONTACT_LABELS,
   FUNDING_LABELS,
   INTEREST_LABELS,
   INTEREST_ORDER,
@@ -18,6 +22,7 @@ import {
 } from '../lib/labels'
 import { StatusChip, StatusSelect } from '../components/StatusChip'
 import { AddProgramModal } from '../components/AddProgramModal'
+import { exportPlannerExcel, type ExportProgramRow } from '../lib/exportExcel'
 
 type SortKey = 'university' | 'interest' | 'deadline' | 'status' | 'faculty'
 
@@ -35,6 +40,9 @@ export function ProgramsTable({
   const [interestFilter, setInterestFilter] = useState<string>('')
   const [statusFilter, setStatusFilter] = useState<string>('')
   const [sortBy, setSortBy] = useState<SortKey>('university')
+  const [exporting, setExporting] = useState(false)
+  const [exportError, setExportError] = useState<string | null>(null)
+  const outreach = useOutreachSnapshot()
 
   const facultyById = useMemo(() => new Map(state.faculty.map((f) => [f.id, f])), [state.faculty])
 
@@ -44,13 +52,16 @@ export function ProgramsTable({
       .map((entry) => {
         const live = resolveProgram(entry, pool.byId)
         const id = programIdentity(entry, live)
-        const linked = entry.facultyIds.map((fid) => facultyById.get(fid)).filter(Boolean)
+        const linked = entry.facultyIds
+          .map((fid) => facultyById.get(fid))
+          .filter((f): f is PlannerFaculty => !!f)
         return {
           entry,
+          live,
           id,
+          linked,
           savedFaculty: linked.length,
-          likelyRecruiting: linked.filter((f) => f && isLikelyRecruiting(f.recruiting.value ?? 'unknown'))
-            .length,
+          likelyRecruiting: linked.filter((f) => isLikelyRecruiting(f.recruiting.value ?? 'unknown')).length,
         }
       })
       .filter((r) => {
@@ -82,8 +93,66 @@ export function ProgramsTable({
     return out
   }, [state.programs, pool.byId, facultyById, query, interestFilter, statusFilter, sortBy])
 
+  /**
+   * The rows exactly as the table shows them — same filter, same order — with
+   * each program's linked faculty. Unknown values are written as the same
+   * "Unknown / Verify" the planner shows; nothing is guessed to fill a cell.
+   */
+  const buildExport = (): ExportProgramRow[] =>
+    rows.map(({ entry, live, id, linked }) => {
+      const parsed = resolveDeadline(entry.admissions.deadline, live?.requirements.deadline)
+      const deadline =
+        parsed.kind === 'dated' && parsed.iso
+          ? `${formatDeadline(parsed.iso)}${parsed.yearInferred ? ' (year inferred)' : ''}`
+          : parsed.kind === 'rolling'
+            ? 'Rolling'
+            : parsed.kind === 'paused'
+              ? 'Paused'
+              : UNKNOWN_LABEL
+      const funding = entry.funding.level?.value ? FUNDING_LABELS[entry.funding.level.value] : UNKNOWN_LABEL
+      const advisors = linked.map((f) => {
+        const occ =
+          f.ref.kind === 'database'
+            ? facultyOccurrences(f.ref.mergeKey, pool.programs).map((o) => ({
+                programId: o.program.id,
+                facultyId: o.faculty.id,
+              }))
+            : []
+        const eff = effectiveContact(f, findRecord(f, outreach, occ))
+        return {
+          name: f.name,
+          status: CONTACT_LABELS[eff.status],
+          research: f.themes.slice(0, 5).join('; '),
+          link: f.links.faculty || f.links.personal || f.links.lab || f.links.scholar || '',
+        }
+      })
+      return {
+        university: id.university,
+        program: `${id.programName}${id.degree ? ` (${id.degree})` : ''}`,
+        deadline,
+        funding,
+        status: APPLICATION_LABELS[entry.status],
+        notes: entry.notes.trim(),
+        link: id.website || id.portal || '',
+        advisors,
+      }
+    })
+
+  const doExport = async () => {
+    setExporting(true)
+    setExportError(null)
+    try {
+      await exportPlannerExcel(buildExport(), { cycle: state.settings.cycle, exportedAt: new Date() })
+    } catch (e) {
+      setExportError(e instanceof Error ? e.message : String(e))
+    } finally {
+      setExporting(false)
+    }
+  }
+
   const select =
-    'rounded border border-slate-300 bg-white px-1.5 py-1 text-[11.5px] text-slate-600 focus:border-indigo-400 focus:outline-none'
+    'rounded border border-slate-300 bg-white px-1.5 py-1 text-[12px] text-slate-700 focus:border-indigo-400 focus:outline-none'
+  const filtersActive = !!query.trim() || !!interestFilter || !!statusFilter
 
   return (
     <main className="h-full flex-1 overflow-y-auto">
@@ -91,17 +160,32 @@ export function ProgramsTable({
         <div className="mb-3 flex items-start justify-between gap-3">
           <div>
             <h1 className="font-serif text-lg font-bold text-slate-900">Programs</h1>
-            <p className="text-[12px] text-slate-500">
-              {state.programs.length} in your planner · target cycle {state.settings.cycle}
+            <p className="text-[12.5px] text-slate-600">
+              {state.programs.length} in your plan · target cycle {state.settings.cycle}
             </p>
           </div>
-          <button
-            onClick={() => setAdding(true)}
-            className="shrink-0 rounded bg-indigo-600 px-3 py-1.5 text-[12.5px] font-semibold text-white transition-colors hover:bg-indigo-700"
-          >
-            + Add Program
-          </button>
+          <div className="flex shrink-0 flex-wrap items-center justify-end gap-2">
+            <button
+              onClick={() => void doExport()}
+              disabled={exporting || rows.length === 0}
+              className="rounded border border-slate-300 bg-white px-3 py-1.5 text-[12.5px] font-medium text-slate-700 transition-colors hover:border-emerald-500 hover:text-emerald-700 disabled:opacity-50"
+              title={
+                filtersActive
+                  ? `Export the ${rows.length} programs currently listed, in this order, with their saved faculty`
+                  : 'Export every program in the plan, in the current order, with its saved faculty'
+              }
+            >
+              {exporting ? 'Exporting…' : `Export Excel${filtersActive ? ` (${rows.length})` : ''}`}
+            </button>
+            <button
+              onClick={() => setAdding(true)}
+              className="rounded bg-indigo-600 px-3 py-1.5 text-[12.5px] font-semibold text-white transition-colors hover:bg-indigo-700"
+            >
+              + Add Program
+            </button>
+          </div>
         </div>
+        {exportError && <p className="mb-2 text-[12px] font-medium text-rose-600">Export failed: {exportError}</p>}
 
         <div className="mb-2 flex flex-wrap items-center gap-2">
           <input
@@ -138,7 +222,7 @@ export function ProgramsTable({
         {state.programs.length === 0 ? (
           <div className="rounded-lg border border-dashed border-slate-300 bg-white px-6 py-14 text-center">
             <p className="font-serif text-[15px] font-bold text-slate-800">No programs yet</p>
-            <p className="mx-auto mt-1.5 max-w-md text-[12.5px] leading-relaxed text-slate-500">
+            <p className="mx-auto mt-1.5 max-w-md text-[12.5px] leading-relaxed text-slate-600">
               Add one from the {pool.programs.length.toLocaleString()}-program database, or type in a
               program that isn’t in it yet.
             </p>
@@ -150,14 +234,12 @@ export function ProgramsTable({
             </button>
           </div>
         ) : rows.length === 0 ? (
-          <p className="py-10 text-center text-[13px] text-slate-400">
-            No program matches these filters.
-          </p>
+          <p className="py-10 text-center text-[13px] text-slate-500">No program matches these filters.</p>
         ) : (
           <div className="overflow-x-auto rounded-lg border border-slate-200 bg-white">
             <table className="w-full border-collapse text-left">
               <thead>
-                <tr className="border-b border-slate-200 bg-slate-50 text-[10px] font-semibold uppercase tracking-wide text-slate-500">
+                <tr className="border-b border-slate-200 bg-slate-50 text-[11px] font-semibold uppercase tracking-wide text-slate-600">
                   <th className="px-2 py-1.5">University / Program</th>
                   <th className="px-2 py-1.5">Interest</th>
                   <th className="px-2 py-1.5">Deadline</th>
@@ -175,14 +257,14 @@ export function ProgramsTable({
                     <td className="px-2 py-2">
                       <button
                         onClick={() => navigate(`/planner/programs/${entry.id}`)}
-                        className="text-left text-[13px] font-medium text-slate-800 hover:text-indigo-700 hover:underline"
+                        className="text-left text-[13.5px] font-medium text-slate-900 hover:text-indigo-700 hover:underline"
                       >
                         {id.university}
                       </button>
-                      <div className="text-[11.5px] text-slate-500">
+                      <div className="text-[12px] text-slate-600">
                         {id.programName}
                         {!id.fromDatabase && (
-                          <span className="ml-1 rounded bg-amber-100 px-1 py-px text-[9.5px] font-medium text-amber-800">
+                          <span className="ml-1 rounded bg-amber-100 px-1 py-px text-[10px] font-medium text-amber-800">
                             custom
                           </span>
                         )}
@@ -196,28 +278,28 @@ export function ProgramsTable({
                         onChange={(v) => planner.updateProgram(entry.id, { interest: v })}
                       />
                     </td>
-                    <td className="px-2 py-2 text-[12px]">
+                    <td className="px-2 py-2 text-[12.5px]">
                       {entry.admissions.deadline?.value ? (
                         <span className="text-slate-700">{entry.admissions.deadline.value}</span>
                       ) : (
                         <span className="italic text-amber-700">{UNKNOWN_LABEL}</span>
                       )}
                     </td>
-                    <td className="px-2 py-2 text-[12px]">
+                    <td className="px-2 py-2 text-[12.5px]">
                       {entry.admissions.gre?.value ? (
                         <span className="text-slate-700">{entry.admissions.gre.value}</span>
                       ) : (
                         <span className="italic text-amber-700">{UNKNOWN_LABEL}</span>
                       )}
                     </td>
-                    <td className="px-2 py-2 text-[12px]">
+                    <td className="px-2 py-2 text-[12.5px]">
                       {entry.funding.level?.value ? (
                         <span className="text-slate-700">{FUNDING_LABELS[entry.funding.level.value]}</span>
                       ) : (
                         <span className="italic text-amber-700">{UNKNOWN_LABEL}</span>
                       )}
                     </td>
-                    <td className="px-2 py-2 text-right text-[12px] tabular-nums text-slate-600">
+                    <td className="px-2 py-2 text-right text-[12.5px] tabular-nums text-slate-700">
                       {savedFaculty}
                       {likelyRecruiting > 0 && (
                         <span className="ml-1 text-emerald-600" title="likely recruiting">
@@ -226,10 +308,7 @@ export function ProgramsTable({
                       )}
                     </td>
                     <td className="px-2 py-2">
-                      <StatusChip
-                        label={APPLICATION_LABELS[entry.status]}
-                        tone={APPLICATION_TONES[entry.status]}
-                      />
+                      <StatusChip label={APPLICATION_LABELS[entry.status]} tone={APPLICATION_TONES[entry.status]} />
                     </td>
                   </tr>
                 ))}

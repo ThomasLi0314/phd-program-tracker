@@ -9,6 +9,7 @@ import {
   type Filters,
   type SortKey,
 } from './lib/filters'
+import { groupSubs } from './lib/subfields'
 import { useMyList } from './lib/myList'
 import { useSchoolTiers } from './lib/schoolTiers'
 import { useSidebarFields } from './lib/sidebarFields'
@@ -26,25 +27,27 @@ import {
   saveSyncEnabled,
   saveToDrive,
 } from './lib/drive'
-import { BackupModal } from './components/BackupModal'
 import { connect as gmailConnect, disconnect as gmailDisconnect, ensureToken, loadClientId } from './lib/gmail'
+import { navigate, useHashRoute } from './lib/hashRoute'
+import { withOverrides } from './lib/applyOverrides'
+import { loadProgramDocs, saveProgramDocs } from './lib/programDocs'
+import type { ProgramDoc, ProgramDocMap } from './lib/programDocs'
+import { usePref } from './lib/viewPrefs'
+import { addProgramToPlan, usePlanSnapshot } from './lib/planBridge'
+import { parseLocation, pathFor, PrimaryNav, SubNav, type Section } from './components/AppNav'
 import { FilterSidebar } from './components/FilterSidebar'
+import { ActiveFilters } from './components/ActiveFilters'
 import { FieldSearch } from './components/FieldSearch'
 import { ProgramIndex } from './components/ProgramIndex'
 import { DeepDive } from './components/DeepDive'
 import { AdvisorExplorer } from './components/AdvisorExplorer'
 import { SchoolExplorer } from './components/SchoolExplorer'
-import { StarredAdvisors } from './components/StarredAdvisors'
+import { SavedAdvisors } from './components/SavedAdvisors'
+import { SavedPrograms } from './components/SavedPrograms'
 import { OutreachView } from './components/OutreachView'
 import { OutreachOverview } from './components/OutreachOverview'
-import { MyListTable } from './components/MyListTable'
-import { GmailConnect } from './components/GmailConnect'
-import { withOverrides } from './lib/applyOverrides'
-import { loadProgramDocs, saveProgramDocs } from './lib/programDocs'
-import type { ProgramDoc, ProgramDocMap } from './lib/programDocs'
+import { SettingsView } from './components/SettingsView'
 import { RequestFieldModal } from './components/RequestFieldModal'
-
-type View = 'programs' | 'advisors' | 'schools' | 'starred' | 'outreach' | 'overview'
 
 function formatProgress(p: SyncProgress): string {
   if (p.phase === 'sent') return 'Scanning Sent mail…'
@@ -56,6 +59,12 @@ function formatProgress(p: SyncProgress): string {
 }
 
 function App() {
+  // Where we are — the hash is the source of truth, so a reload or Back
+  // lands on the same tab rather than the default one.
+  const route = useHashRoute()
+  const loc = useMemo(() => parseLocation(route), [route])
+  const go = useCallback((section: Section, view?: string) => navigate(pathFor(section, view)), [])
+
   const [index, setIndex] = useState<DataIndex | null>(null)
   const [indexError, setIndexError] = useState<string | null>(null)
   /** field data chunks that have arrived, keyed by discipline primary */
@@ -67,18 +76,18 @@ function App() {
   const [failedFields, setFailedFields] = useState<Map<string, string>>(new Map())
 
   const [filters, setFilters] = useState<Filters>(() => defaultFilters(0))
-  const [view, setView] = useState<View>('programs')
   const [sortBy, setSortBy] = useState<SortKey>('university')
   const [advisorQuery, setAdvisorQuery] = useState('')
   const [schoolQuery, setSchoolQuery] = useState('')
-  const [onlyMyList, setOnlyMyList] = useState(false)
   const [showRequest, setShowRequest] = useState(false)
-  const { myList, toggle: toggleMyList } = useMyList()
+  const [sidebarCollapsed, setSidebarCollapsed] = usePref('sidebarCollapsed', false)
+  const { myList: savedPrograms, toggle: toggleSaved } = useMyList()
   const { tiers, setTier } = useSchoolTiers()
   const sidebarFields = useSidebarFields()
   const { levels: starLevels, setLevel: setStarLevel } = useStarredAdvisors()
   const { notes: advisorNotes, setNote: setAdvisorNote } = useAdvisorNotes()
   const outreach = useOutreach()
+  const plan = usePlanSnapshot()
   const {
     overrides,
     setFacultyHomepage,
@@ -87,8 +96,7 @@ function App() {
     setProgramField,
     addFaculty,
     removeFaculty,
-  } =
-    useOverrides()
+  } = useOverrides()
   const [gmailStatus, setGmailStatus] = useState<'disconnected' | 'connected'>('disconnected')
   // programId -> the Google Doc holding that program's note.
   const [programDocs, setProgramDocs] = useState<ProgramDocMap>(loadProgramDocs)
@@ -113,7 +121,6 @@ function App() {
   const [gmailError, setGmailError] = useState<string | null>(null)
   const [syncing, setSyncing] = useState(false)
   const [syncStatus, setSyncStatus] = useState<string | null>(null)
-  const [showBackup, setShowBackup] = useState(false)
   const [driveSync, setDriveSync] = useState(loadSyncEnabled)
   const [driveStatus, setDriveStatus] = useState<string | null>(null)
   const [driveTime, setDriveTime] = useState<string | null>(null)
@@ -133,7 +140,9 @@ function App() {
       index && {
         disciplines: index.fields.map((f) => ({
           primary: f.primary,
-          subs: f.subs,
+          // Merged sub-fields: "Applied Math" and "Applied Mathematics" are
+          // one checkbox — see lib/subfields.
+          subs: groupSubs(f.subs),
           count: f.count,
         })),
         degrees: index.degrees,
@@ -150,14 +159,16 @@ function App() {
     return s
   }, [filters.primaries, filters.subs])
 
-  // Fields whose data must be fetched. The advisor/school/starred/outreach views
-  // (and "My List", which spans all fields) search the whole database, so they
-  // auto-select every field.
+  // Every view except Explore → Programs searches the whole database.
+  const wholeDatabase =
+    loc.section === 'saved' ||
+    loc.section === 'contact' ||
+    (loc.section === 'explore' && loc.view !== 'programs')
+
   const neededPrimaries = useMemo(() => {
-    if ((view !== 'programs' || onlyMyList) && index)
-      return new Set(index.fields.map((f) => f.primary))
+    if (wholeDatabase && index) return new Set(index.fields.map((f) => f.primary))
     return selectedPrimaries
-  }, [view, onlyMyList, index, selectedPrimaries])
+  }, [wholeDatabase, index, selectedPrimaries])
 
   // Lazy-load the chunk of every needed field that isn't loaded yet.
   useEffect(() => {
@@ -198,10 +209,8 @@ function App() {
     })
 
   // Pool = programs of the selected fields that have arrived, with the user's
-  // own admission-matrix edits folded in. Folding here rather than in the
-  // deep-dive keeps the index card, the filters and the sort agreeing with the
-  // panel — an edited GRE that still reads "Verify" on the card is worse than
-  // no edit at all.
+  // own requirement edits folded in. Folding here keeps the list card, the
+  // filters and the sort agreeing with the detail panel.
   const pool = useMemo(() => {
     const arr: Program[] = []
     for (const primary of selectedPrimaries) {
@@ -213,34 +222,15 @@ function App() {
 
   const filtered = useMemo(() => {
     if (!facets || !index) return []
-    // My List shows every starred program across ALL loaded fields (discipline
-    // selection ignored); other sidebar filters (degree/region/GRE/fee) still apply.
-    if (onlyMyList) {
-      const noDiscipline: Filters = { ...filters, primaries: new Set(), subs: new Set() }
-      const result: Program[] = []
-      for (const f of index.fields) {
-        const chunk = loaded[f.primary]
-        if (!chunk) continue
-        for (const p of chunk) {
-          if (myList.has(p.id) && programMatches(p, noDiscipline, facets.feeCap)) result.push(p)
-        }
-      }
-      return sortPrograms(result, sortBy)
-    }
-    const result = pool.filter((p) => programMatches(p, filters, facets.feeCap))
-    return sortPrograms(result, sortBy)
-  }, [pool, filters, facets, index, loaded, onlyMyList, myList, sortBy])
+    return sortPrograms(
+      pool.filter((p) => programMatches(p, filters, facets.feeCap)),
+      sortBy,
+    )
+  }, [pool, filters, facets, index, sortBy])
 
-  // Advisor/school/starred views: every program in the database (discipline
+  // Advisor/school/saved views: every program in the database (discipline
   // selection ignored); the other sidebar filters (degree, region, GRE, fee)
   // still apply.
-  //
-  // "My List" is deliberately NOT applied here. It is a saved-PROGRAMS filter
-  // for the Programs view; letting it narrow this pool meant that leaving the
-  // ★ My List toggle on silently emptied the Advisors/Schools/Starred tabs —
-  // Starred would claim "You haven't starred any advisors yet" while the tab
-  // badge showed a count. It also contradicted those views' own promise that
-  // they search the whole database.
   const fullPool = useMemo(() => {
     if (!facets || !index) return []
     const noDiscipline: Filters = { ...filters, primaries: new Set(), subs: new Set() }
@@ -254,22 +244,21 @@ function App() {
     return sortPrograms(result, 'university')
   }, [facets, index, loaded, filters, overrides.programFields])
 
-  // Every My-List program across ALL loaded fields, no other filters — the
-  // dedicated My-List table ignores discipline/degree/region/fee entirely and
-  // ranks purely by the tier the user assigns each school.
-  const myListPrograms = useMemo(() => {
+  // Every saved program across ALL loaded fields, no other filters — the Saved
+  // table ignores discipline/degree/region/fee and ranks by the user's tiers.
+  const savedProgramList = useMemo(() => {
     if (!index) return []
     const out: Program[] = []
     for (const f of index.fields) {
       const chunk = loaded[f.primary]
       if (!chunk) continue
-      for (const p of chunk) if (myList.has(p.id)) out.push(p)
+      for (const p of chunk) if (savedPrograms.has(p.id)) out.push(p)
     }
-    return out
-  }, [index, loaded, myList])
+    return withOverrides(out, overrides.programFields)
+  }, [index, loaded, savedPrograms, overrides.programFields])
 
   // Every {faculty, program} across ALL loaded fields, ignoring sidebar filters —
-  // used to auto-match sent emails and resolve outreach records to advisor cards.
+  // used to auto-match sent emails and resolve contact records to advisor cards.
   const outreachPool = useMemo(() => {
     const hits: { faculty: Faculty; program: Program }[] = []
     if (!index) return hits
@@ -282,10 +271,10 @@ function App() {
   }, [index, loaded])
 
   // Starring a professor writes to every program entry they appear under, so the
-  // raw key count double-counts people. The Starred tab lists merged people, and
+  // raw key count double-counts people. The Saved tab lists merged people, and
   // the badge must agree with it. Before the chunks land there's nothing to merge
   // against, so fall back to the raw count rather than flashing a wrong number.
-  const starredCount = useMemo(() => {
+  const savedAdvisorCount = useMemo(() => {
     if (starLevels.size === 0) return 0
     const starred = outreachPool.filter((h) => starLevels.has(advisorKey(h.program.id, h.faculty.id)))
     if (starred.length === 0) return starLevels.size
@@ -312,15 +301,12 @@ function App() {
   }, [filtered, selectedId])
 
   const selected = filtered.find((p) => p.id === selectedId) ?? null
-  const shown = onlyMyList ? myListPrograms : view === 'programs' ? filtered : fullPool
-  const facultyCount = shown.reduce((n, p) => n + p.faculty.length, 0)
   const stillLoading = loadingFields.size > 0
+  /** A ticked field whose chunk hasn't arrived — the list is not yet true. */
+  const selectedLoading = [...selectedPrimaries].some((p) => loadingFields.has(p))
   // The whole-database views need every field chunk. Until they've all arrived,
-  // an empty result means "not loaded yet", not "you have nothing" — telling the
-  // user they've starred nobody while their stars are still loading is a lie.
-  // (index is still null on the first render — the early return below is later.)
-  // A failed field counts as "settled": the retry banner reports it, so the view
-  // should show what did load rather than spin forever.
+  // an empty result means "not loaded yet", not "you have nothing". A failed
+  // field counts as settled: the retry banner reports it.
   const poolIncomplete =
     stillLoading ||
     !index ||
@@ -330,19 +316,23 @@ function App() {
   const pickField = (primary: string) => {
     sidebarFields.show(primary)
     setFilters((f) => ({ ...f, primaries: new Set(f.primaries).add(primary) }))
-    setView('programs')
+    go('explore', 'programs')
   }
 
   const openProgram = (id: string) => {
-    // Tick the program's field so the deep-dive is visible in the programs view.
-    const prog = fullPool.find((p) => p.id === id)
+    // Tick the program's field so the detail is visible in the programs view.
+    const prog = fullPool.find((p) => p.id === id) ?? savedProgramList.find((p) => p.id === id)
     if (prog && !selectedPrimaries.has(prog.discipline.primary)) {
       sidebarFields.show(prog.discipline.primary)
       setFilters((f) => ({ ...f, primaries: new Set(f.primaries).add(prog.discipline.primary) }))
     }
     setSelectedId(id)
-    setView('programs')
-    setOnlyMyList(false) // leave the My-List table for the deep-dive
+    go('explore', 'programs')
+  }
+
+  const addToPlan = async (p: Program) => {
+    await addProgramToPlan(p)
+    plan.refresh()
   }
 
   const runSync = async () => {
@@ -431,18 +421,18 @@ function App() {
     const t = setTimeout(() => void doDriveBackup(true), 3000)
     return () => clearTimeout(t)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [driveSync, gmailStatus, myList, tiers, starLevels, advisorNotes, outreach.state, overrides])
+  }, [driveSync, gmailStatus, savedPrograms, tiers, starLevels, advisorNotes, outreach.state, overrides])
 
-  // Show when the Drive backup was last written, when the panel opens.
+  // Show when the Drive backup was last written, when Settings opens.
   useEffect(() => {
-    if (!showBackup || gmailStatus !== 'connected') return
+    if (loc.section !== 'settings' || gmailStatus !== 'connected') return
     const clientId = loadClientId()
     if (!clientId) return
     ensureToken(clientId)
       .then(driveBackupTime)
       .then(setDriveTime)
       .catch(() => {})
-  }, [showBackup, gmailStatus])
+  }, [loc.section, gmailStatus])
 
   const handleDisconnect = () => {
     gmailDisconnect()
@@ -471,8 +461,8 @@ function App() {
     return (
       <div className="flex h-full items-center justify-center bg-white p-8 text-center">
         <div>
-          <p className="text-sm font-medium text-rose-600">Failed to load the field index.</p>
-          <p className="mt-1 text-xs text-slate-500">{indexError}</p>
+          <p className="text-[13px] font-medium text-rose-600">Failed to load the field index.</p>
+          <p className="mt-1 text-[12px] text-slate-500">{indexError}</p>
         </div>
       </div>
     )
@@ -480,133 +470,282 @@ function App() {
 
   if (!index || !facets) {
     return (
-      <div className="flex h-full items-center justify-center bg-white text-sm text-slate-400">
-        Loading field index…
+      <div className="flex h-full items-center justify-center bg-white text-[13px] text-slate-500">
+        Loading the database index…
       </div>
     )
   }
 
+  const contactCount = Object.keys(outreach.state.records).length
+  const showSidebar = loc.section === 'explore'
+  const cycle = index.meta.cycle
+
+  const content = (() => {
+    if (loc.section === 'settings') {
+      return (
+        <SettingsView
+          index={index}
+          gmail={{
+            status: gmailStatus,
+            email: gmailEmail,
+            lastSync: outreach.state.lastSync,
+            syncing,
+            syncStatus,
+            error: gmailError,
+            onConnect: handleConnect,
+            onDisconnect: handleDisconnect,
+            onSync: runSync,
+          }}
+          drive={{
+            driveSync,
+            onSetDriveSync: (on) => {
+              setDriveSync(on)
+              saveSyncEnabled(on)
+              if (on) void doDriveBackup()
+            },
+            onBackupNow: () => void doDriveBackup(),
+            onRestoreFromDrive: () => void doDriveRestore(),
+            driveStatus,
+            driveTime,
+          }}
+          requests={advisorRequests}
+          onRequestField={() => setShowRequest(true)}
+        />
+      )
+    }
+    if (loc.section === 'saved') {
+      return loc.view === 'advisors' ? (
+        <SavedAdvisors
+          loading={poolIncomplete}
+          starCount={savedAdvisorCount}
+          programs={fullPool}
+          addedFaculty={overrides.addedFaculty}
+          levels={starLevels}
+          onSetLevel={setStarLevel}
+          onOpenProgram={openProgram}
+          notes={advisorNotes}
+          onSetNote={setAdvisorNote}
+          outreach={outreach.state.records}
+          homepages={overrides.facultyHomepage}
+          onSetHomepage={setFacultyHomepage}
+        />
+      ) : (
+        <SavedPrograms
+          loading={poolIncomplete}
+          programs={savedProgramList}
+          cycle={cycle}
+          tiers={tiers}
+          onSetTier={setTier}
+          onToggleSaved={toggleSaved}
+          onOpenProgram={openProgram}
+          homepages={overrides.facultyHomepage}
+          programPages={overrides.programPage}
+          addedFaculty={overrides.addedFaculty}
+          levels={starLevels}
+          plan={plan.byProgramId}
+          onAddToPlan={addToPlan}
+        />
+      )
+    }
+    if (loc.section === 'contact') {
+      return loc.view === 'summary' ? (
+        <OutreachOverview
+          loading={poolIncomplete}
+          pool={outreachPool}
+          records={outreach.state.records}
+          programSummaries={outreach.state.programSummaries}
+          onOpenProgram={openProgram}
+        />
+      ) : (
+        <OutreachView
+          loading={poolIncomplete}
+          pool={outreachPool}
+          records={outreach.state.records}
+          unlinked={outreach.state.unlinked}
+          connected={gmailStatus === 'connected'}
+          lastSync={outreach.state.lastSync}
+          scanSince={outreach.state.scanSince}
+          onSetScanSince={outreach.setScanSince}
+          onAssign={outreach.assign}
+          onAddManual={outreach.addManual}
+          onSetReplyType={outreach.setReplyType}
+          onDismiss={outreach.dismiss}
+          onUnassign={outreach.unassign}
+          onOpenProgram={openProgram}
+          onSync={runSync}
+          syncing={syncing}
+          syncStatus={syncStatus}
+          onOpenSettings={() => go('settings')}
+        />
+      )
+    }
+    if (loc.view === 'advisors') {
+      return (
+        <AdvisorExplorer
+          loading={poolIncomplete}
+          programs={fullPool}
+          query={advisorQuery}
+          onQueryChange={setAdvisorQuery}
+          onOpenProgram={openProgram}
+          levels={starLevels}
+          onSetLevel={setStarLevel}
+          notes={advisorNotes}
+          onSetNote={setAdvisorNote}
+          outreach={outreach.state.records}
+          homepages={overrides.facultyHomepage}
+          onSetHomepage={setFacultyHomepage}
+          addedFaculty={overrides.addedFaculty}
+          onAddFaculty={addFaculty}
+        />
+      )
+    }
+    if (loc.view === 'schools') {
+      return (
+        <SchoolExplorer
+          loading={poolIncomplete}
+          programs={fullPool}
+          cycle={cycle}
+          query={schoolQuery}
+          onQueryChange={setSchoolQuery}
+          onOpenProgram={openProgram}
+        />
+      )
+    }
+    // Explore → Programs: filters | list | detail
+    if (selectedPrimaries.size === 0) {
+      return (
+        <div className="flex min-w-0 flex-1 items-start justify-center overflow-y-auto bg-slate-50/40 px-6 py-16">
+          <div className="w-full max-w-xl">
+            <h2 className="font-serif text-xl font-bold text-slate-900">Pick a field to start</h2>
+            <p className="mt-1.5 text-[13.5px] leading-relaxed text-slate-600">
+              The database holds {index.total.toLocaleString()} programs across {index.fields.length}{' '}
+              fields and loads one field at a time so it stays fast. Type a field below, or tick one in
+              the sidebar.
+            </p>
+            <div className="mt-4">
+              <FieldSearch fields={index.fields} onPick={pickField} large />
+            </div>
+            <div className="mt-5 flex flex-wrap gap-1.5">
+              {index.fields.slice(0, 12).map((f) => (
+                <button
+                  key={f.slug}
+                  onClick={() => pickField(f.primary)}
+                  className="rounded-full border border-slate-300 bg-white px-2.5 py-1 text-[12.5px] font-medium text-slate-700 transition-colors hover:border-indigo-500 hover:text-indigo-700"
+                >
+                  {f.primary}
+                  <span className="ml-1 text-[11px] tabular-nums text-slate-500">{f.count}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )
+    }
+    return (
+      <div className="flex min-w-0 flex-1 flex-col">
+        <ActiveFilters filters={filters} facets={facets} onChange={setFilters} />
+        <div className="flex min-h-0 flex-1">
+          <ProgramIndex
+            programs={filtered}
+            selectedId={selectedId}
+            saved={savedPrograms}
+            plan={plan.byProgramId}
+            cycle={cycle}
+            loading={selectedLoading}
+            sortBy={sortBy}
+            onSelect={setSelectedId}
+            onToggleSaved={toggleSaved}
+            onSortChange={setSortBy}
+          />
+          <DeepDive
+            program={selected}
+            cycle={cycle}
+            loading={selectedLoading}
+            saved={selected !== null && savedPrograms.has(selected.id)}
+            onToggleSaved={() => selected && toggleSaved(selected.id)}
+            plan={selected ? plan.byProgramId.get(selected.id) : undefined}
+            onAddToPlan={() => (selected ? addToPlan(selected) : undefined)}
+            programSummary={selected ? outreach.state.programSummaries[selected.id] : undefined}
+            levels={starLevels}
+            onSetLevel={setStarLevel}
+            notes={advisorNotes}
+            onSetNote={setAdvisorNote}
+            outreach={outreach.state.records}
+            homepages={overrides.facultyHomepage}
+            onSetHomepage={setFacultyHomepage}
+            programPage={
+              selected ? (overrides.programPage[selected.id] ?? selected.links.program ?? '') : ''
+            }
+            onSetProgramPage={(u) => selected && setProgramPage(selected.id, u)}
+            contactOverride={selected ? (overrides.programContact[selected.id] ?? '') : ''}
+            onSetContact={(t) => selected && setProgramContact(selected.id, t)}
+            addedFaculty={selected ? (overrides.addedFaculty[selected.id] ?? []) : []}
+            onAddAdvisor={() => go('explore', 'advisors')}
+            onRemoveFaculty={(id) => selected && removeFaculty(selected.id, id)}
+            fieldOverrides={selected ? (overrides.programFields[selected.id] ?? {}) : {}}
+            onSetField={(field, text) => selected && setProgramField(selected.id, field, text)}
+            noteDoc={selected ? programDocs[selected.id] : undefined}
+            googleClientId={loadClientId()}
+            googleConnected={gmailStatus === 'connected'}
+            onNoteCreated={linkProgramDoc}
+            onNoteUnlink={unlinkProgramDoc}
+          />
+        </div>
+      </div>
+    )
+  })()
+
   return (
     <div className="flex h-full flex-col bg-white text-slate-900">
-      {/* Wraps to a second row on narrow windows — without flex-wrap the tab
-          strip was squeezed and its overflow-hidden clipped the last tab. */}
-      <header className="flex shrink-0 flex-wrap items-center justify-between gap-x-4 gap-y-2 border-b border-slate-200 bg-slate-900 px-4 py-2 text-white">
+      <header className="flex shrink-0 flex-wrap items-center justify-between gap-x-4 gap-y-2 border-b border-slate-800 bg-slate-900 px-4 py-2 text-white">
         <div className="flex shrink-0 items-baseline gap-3">
           <h1 className="font-serif text-[15px] font-bold tracking-tight">
-            Grad Program & Faculty Intelligence Tracker
+            Grad Program &amp; Faculty Intelligence Tracker
           </h1>
-          <span className="rounded bg-indigo-500/20 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-indigo-300 ring-1 ring-inset ring-indigo-400/40">
-            {index.meta.cycle} cycle
+          <span className="rounded bg-indigo-500/20 px-1.5 py-0.5 text-[10.5px] font-semibold uppercase tracking-wide text-indigo-300 ring-1 ring-inset ring-indigo-400/40">
+            {cycle}
           </span>
         </div>
 
-        <div className="flex flex-wrap items-center justify-end gap-2">
-          <div className="flex shrink-0 overflow-hidden rounded border border-slate-600 text-[11px] font-medium">
-            {(['programs', 'advisors', 'schools', 'starred', 'outreach', 'overview'] as View[]).map(
-              (v) => (
-                <button
-                  key={v}
-                  onClick={() => {
-                    setView(v)
-                    setOnlyMyList(false) // tabs and the My-List table are separate modes
-                  }}
-                  className={`px-2.5 py-1 capitalize transition-colors ${
-                    view === v && !onlyMyList
-                      ? 'bg-indigo-600 text-white'
-                      : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
-                  }`}
-                >
-                  {v === 'starred'
-                    ? `★ Starred (${starredCount})`
-                    : v === 'outreach'
-                      ? `✉ Outreach (${Object.keys(outreach.state.records).length})`
-                      : v === 'overview'
-                        ? '📊 Overview'
-                        : v}
-                </button>
-              ),
+        <PrimaryNav loc={loc} contactCount={contactCount} onGo={(s) => go(s)} />
+
+        <div className="flex items-center gap-3">
+          <span className="text-[12px] tabular-nums text-slate-300" title={`data ${index.meta.generated_at}`}>
+            {stillLoading ? (
+              <span className="animate-pulse">loading…</span>
+            ) : (
+              `${index.total.toLocaleString()} programs`
             )}
-          </div>
-
-          <GmailConnect
-            status={gmailStatus}
-            email={gmailEmail}
-            lastSync={outreach.state.lastSync}
-            syncing={syncing}
-            syncStatus={syncStatus}
-            error={gmailError}
-            onConnect={handleConnect}
-            onDisconnect={handleDisconnect}
-            onSync={runSync}
-          />
-
+          </span>
           <button
-            onClick={() => {
-              const next = !onlyMyList
-              setOnlyMyList(next)
-              if (next) setView('programs')
-            }}
-            className={`rounded border px-2 py-1 text-[11px] font-medium transition-colors ${
-              onlyMyList
-                ? 'border-amber-400 bg-amber-400/20 text-amber-300'
-                : 'border-slate-600 bg-slate-800 text-slate-300 hover:bg-slate-700'
+            onClick={() => go('settings')}
+            className={`flex items-center gap-1.5 rounded border px-2.5 py-1 text-[12.5px] font-medium transition-colors ${
+              loc.section === 'settings'
+                ? 'border-white bg-white text-slate-900'
+                : 'border-slate-600 bg-slate-800 text-slate-200 hover:bg-slate-700'
             }`}
-            title="Show the programs you saved to My List, across every field. Filters the Programs tab only — it no longer narrows Advisors/Schools/Starred."
+            title={gmailStatus === 'connected' ? `Google connected${gmailEmail ? ` as ${gmailEmail}` : ''}` : 'Settings: account, backup, AI'}
           >
-            ★ My List ({myList.size})
+            <span
+              className={`inline-block size-1.5 rounded-full ${
+                gmailStatus === 'connected' ? 'bg-emerald-400' : 'bg-slate-500'
+              }`}
+              aria-hidden
+            />
+            Settings
           </button>
-
-          <button
-            onClick={() => setShowBackup(true)}
-            className={`rounded border px-2 py-1 text-[11px] font-medium transition-colors ${
-              driveSync && gmailStatus === 'connected'
-                ? 'border-emerald-500/40 bg-emerald-500/15 text-emerald-300'
-                : 'border-amber-500/50 bg-amber-500/10 text-amber-300 hover:bg-amber-500/20'
-            }`}
-            title="Backup & restore your saved data — localStorage is wiped by clearing browsing data"
-          >
-            {driveSync && gmailStatus === 'connected' ? '☁️ Backed up' : '⚠️ Backup'}
-          </button>
-
-          <button
-            onClick={() => setShowRequest(true)}
-            className="rounded border border-slate-600 bg-slate-800 px-2 py-1 text-[11px] font-medium text-slate-300 transition-colors hover:bg-slate-700"
-            title="Suggest a new research field to add to the database"
-          >
-            + Request a field
-          </button>
-
-          {/* The Europe page and the planner are separate applications
-              sharing this bundle. */}
-          <a
-            href="#/europe"
-            className="rounded border border-teal-400/50 bg-teal-500/15 px-2 py-1 text-[11px] font-medium text-teal-200 transition-colors hover:bg-teal-500/25"
-            title="Master's programmes in Europe, Singapore and Hong Kong — tuition, scholarships and language requirements"
-          >
-            Master's Abroad →
-          </a>
-
-          <a
-            href="#/planner"
-            className="rounded border border-indigo-400/50 bg-indigo-500/15 px-2 py-1 text-[11px] font-medium text-indigo-200 transition-colors hover:bg-indigo-500/25"
-            title="Your personal PhD application planner — saved programs, faculty, deadlines and contact tracking"
-          >
-            My PhD Planner →
-          </a>
-
-          <div className="shrink-0 text-[11px] tabular-nums text-slate-300">
-            {stillLoading
-              ? 'loading field data…'
-              : `${shown.length} programs · ${facultyCount} faculty`}{' '}
-            <span className="text-slate-400">
-              · {index.total} in database · data {index.meta.generated_at}
-            </span>
-          </div>
         </div>
       </header>
 
+      <SubNav
+        loc={loc}
+        savedPrograms={savedPrograms.size}
+        savedAdvisors={savedAdvisorCount}
+        onGo={(v) => go(loc.section, v)}
+      />
+
       {failedFields.size > 0 && (
-        <div className="flex shrink-0 flex-wrap items-center gap-x-3 gap-y-1 border-b border-rose-200 bg-rose-50 px-4 py-1.5 text-[11px] text-rose-800">
+        <div className="flex shrink-0 flex-wrap items-center gap-x-3 gap-y-1 border-b border-rose-200 bg-rose-50 px-4 py-1.5 text-[12px] text-rose-800">
           <span className="font-medium">
             Couldn’t load {failedFields.size === 1 ? 'one field' : `${failedFields.size} fields`}:
           </span>
@@ -619,21 +758,18 @@ function App() {
               {primary} · retry
             </button>
           ))}
-          <span className="text-rose-500">Everything else still works.</span>
+          <span className="text-rose-600">Everything else still works.</span>
         </div>
       )}
 
       <div className="flex min-h-0 flex-1">
-        {/* Outreach and Overview run off outreachPool and ignore every sidebar
-            filter, so rendering the sidebar there is a control that does nothing. */}
-        {view !== 'outreach' && view !== 'overview' && !onlyMyList && (
+        {showSidebar && (
           <FilterSidebar
             facets={facets}
             filters={filters}
             onChange={setFilters}
-            matchCount={view === 'programs' ? filtered.length : fullPool.length}
-            totalCount={index.total}
-            metaNote={index.meta.note}
+            matchCount={loc.view === 'programs' ? filtered.length : fullPool.length}
+            loading={loc.view === 'programs' ? selectedLoading : poolIncomplete}
             fields={index.fields}
             loadingFields={loadingFields}
             onPickField={pickField}
@@ -641,179 +777,15 @@ function App() {
             onToggleShownField={sidebarFields.toggle}
             onSetShownFields={sidebarFields.setAll}
             onClearShownFields={sidebarFields.clear}
-            showDiscipline={view === 'programs'}
+            showDiscipline={loc.view === 'programs'}
+            collapsed={sidebarCollapsed}
+            onToggleCollapsed={() => setSidebarCollapsed((c) => !c)}
           />
         )}
-        {onlyMyList ? (
-          <MyListTable
-            loading={poolIncomplete}
-            programs={myListPrograms}
-            tiers={tiers}
-            onSetTier={setTier}
-            onToggleList={toggleMyList}
-            onOpenProgram={openProgram}
-            homepages={overrides.facultyHomepage}
-            programPages={overrides.programPage}
-            addedFaculty={overrides.addedFaculty}
-          />
-        ) : view === 'programs' ? (
-          selectedPrimaries.size === 0 && !onlyMyList ? (
-            <div className="flex min-w-0 flex-1 items-start justify-center overflow-y-auto bg-slate-50/40 px-6 py-16">
-              <div className="w-full max-w-xl">
-                <h2 className="font-serif text-xl font-bold text-slate-900">
-                  Pick a field to load its programs
-                </h2>
-                <p className="mt-1.5 text-sm leading-relaxed text-slate-500">
-                  The database holds {index.total.toLocaleString()} programs across{' '}
-                  {index.fields.length} fields — data loads per field so the site stays fast. Type
-                  a field name below, or tick one in the left sidebar.
-                </p>
-                <div className="mt-4">
-                  <FieldSearch fields={index.fields} onPick={pickField} large />
-                </div>
-                <div className="mt-5 flex flex-wrap gap-1.5">
-                  {index.fields.slice(0, 12).map((f) => (
-                    <button
-                      key={f.slug}
-                      onClick={() => pickField(f.primary)}
-                      className="rounded-full border border-slate-300 bg-white px-2.5 py-1 text-xs font-medium text-slate-700 transition-colors hover:border-indigo-500 hover:text-indigo-700"
-                    >
-                      {f.primary}
-                      <span className="ml-1 text-[10px] tabular-nums text-slate-400">{f.count}</span>
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </div>
-          ) : (
-            <>
-              <ProgramIndex
-                programs={filtered}
-                selectedId={selectedId}
-                myList={myList}
-                sortBy={sortBy}
-                onSelect={setSelectedId}
-                onToggleList={toggleMyList}
-                onSortChange={setSortBy}
-              />
-              <DeepDive
-                program={selected}
-                inList={selected !== null && myList.has(selected.id)}
-                onToggleList={() => selected && toggleMyList(selected.id)}
-                levels={starLevels}
-                onSetLevel={setStarLevel}
-                notes={advisorNotes}
-                onSetNote={setAdvisorNote}
-                outreach={outreach.state.records}
-                homepages={overrides.facultyHomepage}
-                onSetHomepage={setFacultyHomepage}
-                programPage={
-                  selected
-                    ? (overrides.programPage[selected.id] ?? selected.links.program ?? '')
-                    : ''
-                }
-                onSetProgramPage={(u) => selected && setProgramPage(selected.id, u)}
-                contactOverride={selected ? (overrides.programContact[selected.id] ?? '') : ''}
-                onSetContact={(t) => selected && setProgramContact(selected.id, t)}
-                addedFaculty={selected ? (overrides.addedFaculty[selected.id] ?? []) : []}
-                onAddAdvisor={() => setView('advisors')}
-                onRemoveFaculty={(id) => selected && removeFaculty(selected.id, id)}
-                fieldOverrides={selected ? (overrides.programFields[selected.id] ?? {}) : {}}
-                onSetField={(field, text) => selected && setProgramField(selected.id, field, text)}
-                noteDoc={selected ? programDocs[selected.id] : undefined}
-                googleClientId={loadClientId()}
-                googleConnected={gmailStatus === 'connected'}
-                onNoteCreated={linkProgramDoc}
-                onNoteUnlink={unlinkProgramDoc}
-              />
-            </>
-          )
-        ) : view === 'advisors' ? (
-          <AdvisorExplorer
-            loading={poolIncomplete}
-            programs={fullPool}
-            query={advisorQuery}
-            onQueryChange={setAdvisorQuery}
-            onOpenProgram={openProgram}
-            levels={starLevels}
-            onSetLevel={setStarLevel}
-            notes={advisorNotes}
-            onSetNote={setAdvisorNote}
-            outreach={outreach.state.records}
-            homepages={overrides.facultyHomepage}
-            onSetHomepage={setFacultyHomepage}
-            addedFaculty={overrides.addedFaculty}
-            onAddFaculty={addFaculty}
-          />
-        ) : view === 'schools' ? (
-          <SchoolExplorer
-            loading={poolIncomplete}
-            programs={fullPool}
-            query={schoolQuery}
-            onQueryChange={setSchoolQuery}
-            onOpenProgram={openProgram}
-          />
-        ) : view === 'starred' ? (
-          <StarredAdvisors
-            loading={poolIncomplete}
-            starCount={starredCount}
-            programs={fullPool}
-            addedFaculty={overrides.addedFaculty}
-            levels={starLevels}
-            onSetLevel={setStarLevel}
-            onOpenProgram={openProgram}
-            notes={advisorNotes}
-            onSetNote={setAdvisorNote}
-            outreach={outreach.state.records}
-            homepages={overrides.facultyHomepage}
-            onSetHomepage={setFacultyHomepage}
-          />
-        ) : view === 'outreach' ? (
-          <OutreachView
-            loading={poolIncomplete}
-            pool={outreachPool}
-            records={outreach.state.records}
-            unlinked={outreach.state.unlinked}
-            connected={gmailStatus === 'connected'}
-            lastSync={outreach.state.lastSync}
-            scanSince={outreach.state.scanSince}
-            onSetScanSince={outreach.setScanSince}
-            onAssign={outreach.assign}
-            onAddManual={outreach.addManual}
-            onSetReplyType={outreach.setReplyType}
-            onDismiss={outreach.dismiss}
-            onUnassign={outreach.unassign}
-            onOpenProgram={openProgram}
-          />
-        ) : (
-          <OutreachOverview
-            loading={poolIncomplete}
-            pool={outreachPool}
-            records={outreach.state.records}
-            programSummaries={outreach.state.programSummaries}
-            onOpenProgram={openProgram}
-          />
-        )}
+        {content}
       </div>
 
       {showRequest && <RequestFieldModal onClose={() => setShowRequest(false)} />}
-      {showBackup && (
-        <BackupModal
-          onClose={() => setShowBackup(false)}
-          driveConnected={gmailStatus === 'connected'}
-          driveSync={driveSync}
-          onSetDriveSync={(on) => {
-            setDriveSync(on)
-            saveSyncEnabled(on)
-            if (on) void doDriveBackup()
-          }}
-          onBackupNow={() => void doDriveBackup()}
-          onRestoreFromDrive={() => void doDriveRestore()}
-          driveStatus={driveStatus}
-          driveTime={driveTime}
-          requests={advisorRequests}
-        />
-      )}
     </div>
   )
 }

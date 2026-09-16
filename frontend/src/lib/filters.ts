@@ -1,9 +1,10 @@
 import type { DegreeType, Program, Region } from '../types'
+import { canonicalSub, groupSubs, type SubGroup } from './subfields'
 
 export interface Filters {
   /** whole primary fields selected, e.g. "Geosciences" */
   primaries: Set<string>
-  /** sub-field selections keyed "Primary|Sub" */
+  /** sub-field selections keyed "Primary|<canonical sub key>" — see lib/subfields */
   subs: Set<string>
   degrees: Set<DegreeType>
   regions: Set<Region>
@@ -15,13 +16,14 @@ export interface Filters {
 }
 
 export interface Facets {
-  disciplines: { primary: string; subs: string[]; count: number }[]
+  disciplines: { primary: string; subs: SubGroup[]; count: number }[]
   degrees: DegreeType[]
   regions: Region[]
   feeCap: number
 }
 
-export const subKey = (primary: string, sub: string) => `${primary}|${sub}`
+/** Filter key for a sub-field: the primary plus the CANONICAL sub key. */
+export const subKey = (primary: string, canonical: string) => `${primary}|${canonical}`
 
 const DEGREE_ORDER: DegreeType[] = ['PhD', 'MSc', 'MRes']
 const REGION_ORDER: Region[] = ['US', 'UK', 'Europe', 'Canada', 'Asia-Pacific']
@@ -38,7 +40,7 @@ export function deriveFacets(programs: Program[]): Facets {
   const disciplines = [...byPrimary.entries()]
     .map(([primary, subs]) => ({
       primary,
-      subs: [...subs].sort(),
+      subs: groupSubs(subs),
       count: primaryCounts.get(primary) ?? 0,
     }))
     .sort((a, b) => b.count - a.count || a.primary.localeCompare(b.primary))
@@ -84,6 +86,18 @@ export function isDefault(f: Filters, feeCap: number): boolean {
   )
 }
 
+/** How many conditions are active — the number a collapsed sidebar shows. */
+export function activeFilterCount(f: Filters, feeCap: number): number {
+  return (
+    f.primaries.size +
+    f.subs.size +
+    f.degrees.size +
+    f.regions.size +
+    (f.greFriendly ? 1 : 0) +
+    (f.maxFee < feeCap ? 1 : 0)
+  )
+}
+
 export type SortKey = 'university' | 'deadline' | 'fee'
 
 export function sortPrograms(programs: Program[], key: SortKey): Program[] {
@@ -119,10 +133,14 @@ export function sortPrograms(programs: Program[], key: SortKey): Program[] {
 
 export function programMatches(p: Program, f: Filters, feeCap: number): boolean {
   // Discipline: empty selection = no constraint. A program matches if its
-  // primary field is selected, or any of its sub-fields is selected.
+  // primary field is selected, or any of its sub-fields is selected. Sub-fields
+  // compare on the canonical key, so "Applied Math" satisfies a filter set from
+  // the merged "Applied Mathematics" checkbox.
   if (f.primaries.size > 0 || f.subs.size > 0) {
     const primaryHit = f.primaries.has(p.discipline.primary)
-    const subHit = p.discipline.subs.some((s) => f.subs.has(subKey(p.discipline.primary, s)))
+    const subHit = p.discipline.subs.some((s) =>
+      f.subs.has(subKey(p.discipline.primary, canonicalSub(s))),
+    )
     if (!primaryHit && !subHit) return false
   }
 

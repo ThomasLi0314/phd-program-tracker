@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import type { Program } from '../types'
-import { UNKNOWN } from '../types'
+import { deadlineStatus } from '../lib/deadlineStatus'
 import { PoolLoading } from './PoolLoading'
 
 interface SchoolGroup {
@@ -10,17 +10,13 @@ interface SchoolGroup {
   programs: Program[]
 }
 
-function compactDeadline(p: Program): string {
-  const display = p.requirements.deadline_display
-  if (display === UNKNOWN) return 'deadline: verify'
-  return display.replace(/\s*\(.*\)\s*/g, '').trim()
-}
-
 function SchoolCard({
   group,
+  cycle,
   onOpenProgram,
 }: {
   group: SchoolGroup
+  cycle: string
   onOpenProgram: (programId: string) => void
 }) {
   const facultyCount = group.programs.reduce((n, p) => n + p.faculty.length, 0)
@@ -52,12 +48,12 @@ function SchoolCard({
               <span className="block truncate text-[12.5px] font-medium text-slate-800">
                 {p.program_name}
               </span>
-              <span className="block text-[10px] text-slate-400">
-                {p.discipline.primary} · {compactDeadline(p)}
-                {p.faculty.length > 0 && ` · ${p.faculty.length} faculty tracked`}
+              <span className="block text-[11.5px] text-slate-500">
+                {p.discipline.primary} · deadline {deadlineStatus(p, cycle).text}
+                {p.faculty.length > 0 && ` · ${p.faculty.length} advisors`}
               </span>
             </span>
-            <span className="shrink-0 text-[10px] font-semibold text-indigo-600">
+            <span className="shrink-0 text-[11px] font-semibold text-indigo-600">
               {p.degree_type} →
             </span>
           </button>
@@ -70,6 +66,7 @@ function SchoolCard({
 export function SchoolExplorer({
   loading,
   programs,
+  cycle,
   query,
   onQueryChange,
   onOpenProgram,
@@ -77,6 +74,7 @@ export function SchoolExplorer({
   /** true while the per-field chunks are still arriving — see PoolLoading. */
   loading: boolean
   programs: Program[]
+  cycle: string
   query: string
   onQueryChange: (q: string) => void
   onOpenProgram: (programId: string) => void
@@ -109,10 +107,9 @@ export function SchoolExplorer({
     <main className="h-full flex-1 overflow-y-auto bg-slate-50/40">
       <div className="mx-auto max-w-6xl px-5 py-4">
         <header className="mb-3">
-          <h1 className="font-serif text-lg font-bold text-slate-900">School Explorer</h1>
-          <p className="text-[12px] text-slate-500">
-            Search a university by name — every school in the database is searched automatically
-            (no field selection needed); click a program to open its deep-dive.
+          <h1 className="font-serif text-lg font-bold text-slate-900">Schools</h1>
+          <p className="text-[12.5px] text-slate-600">
+            Search a university by name across the whole database; click a program to open it.
           </p>
           <input
             type="search"
@@ -137,7 +134,7 @@ export function SchoolExplorer({
         ) : (
           <div className="gap-3 lg:columns-2 2xl:columns-3">
             {hits.map((g) => (
-              <SchoolCard key={g.university} group={g} onOpenProgram={onOpenProgram} />
+              <SchoolCard key={g.university} group={g} cycle={cycle} onOpenProgram={onOpenProgram} />
             ))}
           </div>
         )}

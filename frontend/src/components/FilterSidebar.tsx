@@ -1,18 +1,14 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import type { DegreeType, Region } from '../types'
 import type { Facets, Filters } from '../lib/filters'
-import { isDefault, subKey } from '../lib/filters'
+import { activeFilterCount, isDefault, subKey } from '../lib/filters'
 import type { FieldEntry } from '../lib/dataLoader'
+import { canonicalSub } from '../lib/subfields'
+import { usePref } from '../lib/viewPrefs'
 import { FieldSearch } from './FieldSearch'
 import { FieldPicker } from './FieldPicker'
 
-function SectionTitle({ children }: { children: string }) {
-  return (
-    <h3 className="mb-1.5 mt-4 text-[10px] font-semibold uppercase tracking-[0.12em] text-slate-400 first:mt-0">
-      {children}
-    </h3>
-  )
-}
+type GroupId = 'fields' | 'degree' | 'region' | 'requirements'
 
 function toggled<T>(set: Set<T>, value: T): Set<T> {
   const next = new Set(set)
@@ -21,13 +17,51 @@ function toggled<T>(set: Set<T>, value: T): Set<T> {
   return next
 }
 
+/** A collapsible filter group. The open state survives a reload. */
+function Group({
+  id,
+  title,
+  open,
+  onToggle,
+  active,
+  children,
+}: {
+  id: GroupId
+  title: string
+  open: boolean
+  onToggle: (id: GroupId) => void
+  /** number of active conditions inside, shown while collapsed */
+  active: number
+  children: React.ReactNode
+}) {
+  return (
+    <section className="border-b border-slate-200 py-2 last:border-0">
+      <button
+        onClick={() => onToggle(id)}
+        className="flex w-full items-center justify-between py-0.5 text-left"
+        aria-expanded={open}
+      >
+        <span className="text-[11px] font-semibold uppercase tracking-[0.1em] text-slate-600">
+          {title}
+          {!open && active > 0 && (
+            <span className="ml-1.5 rounded-full bg-indigo-100 px-1.5 text-[10.5px] font-semibold tabular-nums normal-case tracking-normal text-indigo-700">
+              {active}
+            </span>
+          )}
+        </span>
+        <span className="text-[11px] text-slate-400">{open ? '▾' : '▸'}</span>
+      </button>
+      {open && <div className="mt-1.5">{children}</div>}
+    </section>
+  )
+}
+
 export function FilterSidebar({
   facets,
   filters,
   onChange,
   matchCount,
-  totalCount,
-  metaNote,
+  loading,
   fields,
   loadingFields,
   onPickField,
@@ -36,13 +70,15 @@ export function FilterSidebar({
   onSetShownFields,
   onClearShownFields,
   showDiscipline,
+  collapsed,
+  onToggleCollapsed,
 }: {
   facets: Facets
   filters: Filters
   onChange: (f: Filters) => void
   matchCount: number
-  totalCount: number
-  metaNote: string
+  /** true while a selected field's data is still arriving — the count is not yet true */
+  loading: boolean
   fields: FieldEntry[]
   loadingFields: Set<string>
   onPickField: (primary: string) => void
@@ -54,12 +90,22 @@ export function FilterSidebar({
   /** The advisor/school views search the whole database, so ticking a discipline
    *  there does nothing — don't offer a control that has no effect. */
   showDiscipline: boolean
+  collapsed: boolean
+  onToggleCollapsed: () => void
 }) {
   const feeUnlimited = filters.maxFee >= facets.feeCap
+  const [openGroups, setOpenGroups] = usePref<Record<GroupId, boolean>>('filterGroups', {
+    fields: true,
+    degree: true,
+    region: true,
+    requirements: true,
+  })
+  const toggleGroup = (id: GroupId) => setOpenGroups((g) => ({ ...g, [id]: !g[id] }))
+
   // Fields whose advisor-less sub-fields are currently revealed.
   const [expandedSubs, setExpandedSubs] = useState<Set<string>>(new Set())
-  const toggleExpanded = (primary: string) =>
-    setExpandedSubs((prev) => toggled(prev, primary))
+  const [subQuery, setSubQuery] = useState('')
+  const subTerm = subQuery.trim().toLowerCase()
 
   // The sidebar lists the fields the user chose, plus any field with an active
   // filter — a checked field must never be hidden, or it would filter invisibly.
@@ -88,23 +134,62 @@ export function FilterSidebar({
     shownFields.has(primary) ? hideField(primary) : onPickField(primary)
 
   const facultyCountByPrimary = new Map(fields.map((f) => [f.primary, f.facultyCount]))
-  // Per field, the set of sub-fields that actually have advisors scanned.
-  const advSubsByPrimary = new Map(fields.map((f) => [f.primary, new Set(f.subsWithFaculty)]))
+  // Per field, the canonical keys of sub-fields that actually have advisors scanned.
+  const advSubsByPrimary = useMemo(
+    () => new Map(fields.map((f) => [f.primary, new Set(f.subsWithFaculty.map(canonicalSub))])),
+    [fields],
+  )
 
-  const renderSub = (primary: string, sub: string) => {
-    const key = subKey(primary, sub)
+  const total = activeFilterCount(filters, facets.feeCap)
+  const activeIn: Record<GroupId, number> = {
+    fields: filters.primaries.size + filters.subs.size,
+    degree: filters.degrees.size,
+    region: filters.regions.size,
+    requirements: (filters.greFriendly ? 1 : 0) + (feeUnlimited ? 0 : 1),
+  }
+
+  if (collapsed) {
+    return (
+      <aside className="flex h-full w-9 shrink-0 flex-col items-center border-r border-slate-200 bg-slate-50/80 py-2">
+        <button
+          onClick={onToggleCollapsed}
+          title="Show filters"
+          aria-label="Show filters"
+          className="flex flex-col items-center gap-1 rounded px-1 py-1.5 text-slate-500 hover:bg-slate-200 hover:text-slate-900"
+        >
+          <span className="text-[12px]">▸</span>
+          <span className="text-[11px] font-semibold uppercase tracking-wider [writing-mode:vertical-rl]">
+            Filters
+          </span>
+          {total > 0 && (
+            <span className="rounded-full bg-indigo-600 px-1.5 text-[10.5px] font-bold text-white">{total}</span>
+          )}
+        </button>
+      </aside>
+    )
+  }
+
+  const chip = (active: boolean) =>
+    `rounded border px-2 py-0.5 text-[12px] font-medium transition-colors ${
+      active
+        ? 'border-indigo-600 bg-indigo-600 text-white'
+        : 'border-slate-300 bg-white text-slate-700 hover:border-indigo-400'
+    }`
+
+  const renderSub = (primary: string, key: string, label: string) => {
+    const k = subKey(primary, key)
     return (
       <label
-        key={key}
-        className="flex cursor-pointer items-center gap-1.5 text-xs text-slate-600 hover:text-slate-900"
+        key={k}
+        className="flex cursor-pointer items-center gap-1.5 text-[12.5px] text-slate-700 hover:text-slate-900"
       >
         <input
           type="checkbox"
-          className="size-3 accent-indigo-600"
-          checked={filters.subs.has(key)}
-          onChange={() => onChange({ ...filters, subs: toggled(filters.subs, key) })}
+          className="size-3.5 accent-indigo-600"
+          checked={filters.subs.has(k)}
+          onChange={() => onChange({ ...filters, subs: toggled(filters.subs, k) })}
         />
-        {sub}
+        {label}
       </label>
     )
   }
@@ -115,20 +200,19 @@ export function FilterSidebar({
     count,
   }: {
     primary: string
-    subs: string[]
+    subs: { key: string; label: string }[]
     count: number
   }) => {
     const advSubs = advSubsByPrimary.get(primary) ?? new Set<string>()
-    const shownSubs = subs.filter((s) => advSubs.has(s))
-    const hiddenSubs = subs.filter((s) => !advSubs.has(s))
-    const isExpanded = expandedSubs.has(primary)
+    // A search term reveals every matching sub-field, scanned or not.
+    const matches = (s: { label: string }) => !subTerm || s.label.toLowerCase().includes(subTerm)
+    const shownSubs = subs.filter((s) => (advSubs.has(s.key) || filters.subs.has(subKey(primary, s.key))) && matches(s))
+    const hiddenSubs = subs.filter((s) => !advSubs.has(s.key) && !filters.subs.has(subKey(primary, s.key)) && matches(s))
+    const isExpanded = expandedSubs.has(primary) || (subTerm !== '' && hiddenSubs.length <= 12)
     return (
       <div key={primary}>
-        {/* The ✕ is a sibling of the label, not a child: a button inside a label
-            is also a label activation, so it needed preventDefault and stayed
-            fragile under keyboard/AT. */}
         <div className="flex items-center gap-1.5">
-          <label className="flex min-w-0 flex-1 cursor-pointer items-center gap-1.5 text-[13px] font-medium text-slate-800">
+          <label className="flex min-w-0 flex-1 cursor-pointer items-center gap-1.5 text-[13px] font-medium text-slate-900">
             <input
               type="checkbox"
               className="size-3.5 accent-indigo-600"
@@ -139,32 +223,35 @@ export function FilterSidebar({
             />
             <span className="min-w-0 flex-1 truncate">{primary}</span>
             {loadingFields.has(primary) && (
-              <span className="animate-pulse text-[10px] font-normal text-indigo-500">loading…</span>
+              <span className="animate-pulse text-[11px] font-normal text-indigo-500">loading…</span>
             )}
             {(facultyCountByPrimary.get(primary) ?? 0) > 0 && (
-              <span className="rounded bg-amber-100 px-1 text-[9px] font-semibold tabular-nums text-amber-700">
+              <span
+                className="rounded bg-amber-100 px-1 text-[10.5px] font-semibold tabular-nums text-amber-800"
+                title={`${facultyCountByPrimary.get(primary)} advisors scanned in this field`}
+              >
                 {facultyCountByPrimary.get(primary)}★
               </span>
             )}
-            <span className="text-[10px] tabular-nums text-slate-400">{count}</span>
+            <span className="text-[11px] tabular-nums text-slate-500">{count}</span>
           </label>
           <button
             onClick={() => hideField(primary)}
             aria-label={`Hide ${primary} from the sidebar`}
             title={`Hide ${primary} from the sidebar`}
-            className="shrink-0 text-[11px] leading-none text-slate-300 transition-colors hover:text-rose-500"
+            className="shrink-0 text-[12px] leading-none text-slate-400 transition-colors hover:text-rose-500"
           >
             ✕
           </button>
         </div>
         {(shownSubs.length > 0 || hiddenSubs.length > 0) && (
-          <div className="ml-4 mt-0.5 space-y-0.5 border-l border-slate-200 pl-2">
-            {shownSubs.map((sub) => renderSub(primary, sub))}
-            {isExpanded && hiddenSubs.map((sub) => renderSub(primary, sub))}
-            {hiddenSubs.length > 0 && (
+          <div className="ml-4 mt-1 space-y-0.5 border-l border-slate-200 pl-2">
+            {shownSubs.map((s) => renderSub(primary, s.key, s.label))}
+            {isExpanded && hiddenSubs.map((s) => renderSub(primary, s.key, s.label))}
+            {hiddenSubs.length > 0 && !(subTerm !== '' && hiddenSubs.length <= 12) && (
               <button
-                onClick={() => toggleExpanded(primary)}
-                className="mt-0.5 text-[10px] font-medium text-slate-400 hover:text-indigo-600"
+                onClick={() => setExpandedSubs((prev) => toggled(prev, primary))}
+                className="mt-0.5 text-[11.5px] font-medium text-slate-500 hover:text-indigo-600"
               >
                 {isExpanded
                   ? '▾ fewer sub-fields'
@@ -180,16 +267,22 @@ export function FilterSidebar({
   }
 
   return (
-    <aside className="flex h-full w-60 shrink-0 flex-col border-r border-slate-200 bg-slate-50/60">
-      <div className="flex-1 overflow-y-auto px-3 py-3">
-        <div className="mb-2 flex items-baseline justify-between">
-          <span className="text-xs font-semibold text-slate-700">
-            {matchCount}
-            <span className="font-normal text-slate-400"> / {totalCount} programs</span>
-          </span>
+    <aside className="flex h-full w-64 shrink-0 flex-col border-r border-slate-200 bg-slate-50/60">
+      <div className="flex items-center justify-between border-b border-slate-200 px-3 py-2">
+        <span className="text-[13px] font-semibold text-slate-800">
+          {loading ? (
+            <span className="animate-pulse text-slate-500">loading…</span>
+          ) : (
+            <>
+              {matchCount.toLocaleString()}
+              <span className="font-normal text-slate-500"> programs</span>
+            </>
+          )}
+        </span>
+        <div className="flex items-center gap-2">
           {!isDefault(filters, facets.feeCap) && (
             <button
-              className="text-[11px] font-medium text-indigo-600 hover:underline"
+              className="text-[12px] font-medium text-indigo-600 hover:underline"
               onClick={() =>
                 onChange({
                   primaries: new Set(),
@@ -205,136 +298,139 @@ export function FilterSidebar({
               Reset
             </button>
           )}
-        </div>
-
-        {showDiscipline ? (
-          <>
-            <SectionTitle>Discipline</SectionTitle>
-            <div className="mb-2 space-y-1.5">
-              <FieldSearch fields={fields} onPick={onPickField} />
-              <FieldPicker
-                fields={fields}
-                shown={shownFields}
-                onToggle={togglePicked}
-                onSetAll={onSetShownFields}
-                onClear={() => {
-                  onClearShownFields()
-                  onChange({ ...filters, primaries: new Set(), subs: new Set() })
-                }}
-              />
-            </div>
-            {visibleDisciplines.length === 0 ? (
-              <p className="rounded border border-dashed border-slate-300 px-2 py-3 text-center text-[11px] leading-relaxed text-slate-400">
-                No fields shown yet.
-                <br />
-                Search above or pick from{' '}
-                <span className="font-medium text-slate-500">Choose fields</span>.
-              </p>
-            ) : (
-              <div className="space-y-2">{visibleDisciplines.map(renderDiscipline)}</div>
-            )}
-          </>
-        ) : (
-          <p className="rounded border border-dashed border-slate-300 px-2 py-2 text-[11px] leading-relaxed text-slate-500">
-            This view searches <span className="font-medium">every field</span> — the filters below
-            still narrow it.
-          </p>
-        )}
-
-        <SectionTitle>Degree Type</SectionTitle>
-        <div className="flex flex-wrap gap-1">
-          {facets.degrees.map((d) => {
-            const active = filters.degrees.has(d)
-            const label =
-              d === 'MSc' ? 'MSc (European)' : d === 'MRes' ? 'MRes (Research)' : 'PhD'
-            return (
-              <button
-                key={d}
-                onClick={() =>
-                  onChange({ ...filters, degrees: toggled(filters.degrees, d as DegreeType) })
-                }
-                className={`rounded border px-2 py-0.5 text-[11px] font-medium transition-colors ${
-                  active
-                    ? 'border-indigo-600 bg-indigo-600 text-white'
-                    : 'border-slate-300 bg-white text-slate-600 hover:border-indigo-400'
-                }`}
-              >
-                {label}
-              </button>
-            )
-          })}
-        </div>
-
-        <SectionTitle>Hard Requirements</SectionTitle>
-        <label className="flex cursor-pointer items-center justify-between gap-2 text-xs text-slate-700">
-          <span>
-            GRE Optional / Not&nbsp;Required
-            <span className="block text-[10px] text-slate-400">hide GRE-required programs</span>
-          </span>
-          <input
-            type="checkbox"
-            className="size-3.5 accent-indigo-600"
-            checked={filters.greFriendly}
-            onChange={() => onChange({ ...filters, greFriendly: !filters.greFriendly })}
-          />
-        </label>
-
-        <div className="mt-3">
-          <div className="flex items-baseline justify-between text-xs text-slate-700">
-            <span>Application fee</span>
-            <span className="font-medium tabular-nums text-slate-900">
-              {feeUnlimited ? 'Any' : `≤ $${filters.maxFee}`}
-            </span>
-          </div>
-          <input
-            type="range"
-            min={0}
-            max={facets.feeCap}
-            step={5}
-            value={filters.maxFee}
-            onChange={(e) => onChange({ ...filters, maxFee: Number(e.target.value) })}
-            className="mt-1 w-full accent-indigo-600"
-          />
-          {!feeUnlimited && (
-            <label className="mt-1 flex cursor-pointer items-center gap-1.5 text-[11px] text-slate-500">
-              <input
-                type="checkbox"
-                className="size-3 accent-indigo-600"
-                checked={filters.includeUnknownFee}
-                onChange={() =>
-                  onChange({ ...filters, includeUnknownFee: !filters.includeUnknownFee })
-                }
-              />
-              include fee-unknown programs
-            </label>
-          )}
-        </div>
-
-        <SectionTitle>Region</SectionTitle>
-        <div className="flex flex-wrap gap-1">
-          {facets.regions.map((r) => {
-            const active = filters.regions.has(r)
-            return (
-              <button
-                key={r}
-                onClick={() =>
-                  onChange({ ...filters, regions: toggled(filters.regions, r as Region) })
-                }
-                className={`rounded border px-2 py-0.5 text-[11px] font-medium transition-colors ${
-                  active
-                    ? 'border-indigo-600 bg-indigo-600 text-white'
-                    : 'border-slate-300 bg-white text-slate-600 hover:border-indigo-400'
-                }`}
-              >
-                {r}
-              </button>
-            )
-          })}
+          <button
+            onClick={onToggleCollapsed}
+            title="Hide filters"
+            aria-label="Hide filters"
+            className="rounded px-1 text-[12px] text-slate-500 hover:bg-slate-200 hover:text-slate-900"
+          >
+            ◂
+          </button>
         </div>
       </div>
 
-      <div className="border-t border-slate-200 px-3 py-2">
-        <p className="text-[10px] leading-snug text-slate-400">{metaNote}</p>
+      <div className="flex-1 overflow-y-auto px-3">
+        <Group id="fields" title="Fields" open={openGroups.fields} onToggle={toggleGroup} active={activeIn.fields}>
+          {showDiscipline ? (
+            <>
+              <div className="mb-2 space-y-1.5">
+                <FieldSearch fields={fields} onPick={onPickField} />
+                <FieldPicker
+                  fields={fields}
+                  shown={shownFields}
+                  onToggle={togglePicked}
+                  onSetAll={onSetShownFields}
+                  onClear={() => {
+                    onClearShownFields()
+                    onChange({ ...filters, primaries: new Set(), subs: new Set() })
+                  }}
+                />
+                {visibleDisciplines.length > 0 && (
+                  <input
+                    value={subQuery}
+                    onChange={(e) => setSubQuery(e.target.value)}
+                    placeholder="Find a sub-field, e.g. ocean…"
+                    className="w-full rounded border border-slate-300 bg-white px-2 py-1 text-[12px] text-slate-800 placeholder:text-slate-400 focus:border-indigo-400 focus:outline-none"
+                  />
+                )}
+              </div>
+              {visibleDisciplines.length === 0 ? (
+                <p className="rounded border border-dashed border-slate-300 px-2 py-3 text-center text-[12px] leading-relaxed text-slate-500">
+                  No fields listed yet.
+                  <br />
+                  Search above or pick from <span className="font-medium text-slate-700">Choose fields</span>.
+                </p>
+              ) : (
+                <div className="space-y-2.5">{visibleDisciplines.map(renderDiscipline)}</div>
+              )}
+            </>
+          ) : (
+            <p className="rounded border border-dashed border-slate-300 px-2 py-2 text-[12px] leading-relaxed text-slate-600">
+              This view searches <span className="font-medium">every field</span>. The groups below
+              still narrow it.
+            </p>
+          )}
+        </Group>
+
+        <Group id="degree" title="Degree" open={openGroups.degree} onToggle={toggleGroup} active={activeIn.degree}>
+          <div className="flex flex-wrap gap-1">
+            {facets.degrees.map((d) => (
+              <button
+                key={d}
+                onClick={() => onChange({ ...filters, degrees: toggled(filters.degrees, d as DegreeType) })}
+                className={chip(filters.degrees.has(d))}
+              >
+                {d === 'MSc' ? 'MSc' : d === 'MRes' ? 'MRes' : 'PhD'}
+              </button>
+            ))}
+          </div>
+        </Group>
+
+        <Group id="region" title="Region" open={openGroups.region} onToggle={toggleGroup} active={activeIn.region}>
+          <div className="flex flex-wrap gap-1">
+            {facets.regions.map((r) => (
+              <button
+                key={r}
+                onClick={() => onChange({ ...filters, regions: toggled(filters.regions, r as Region) })}
+                className={chip(filters.regions.has(r))}
+              >
+                {r}
+              </button>
+            ))}
+          </div>
+        </Group>
+
+        <Group
+          id="requirements"
+          title="Requirements"
+          open={openGroups.requirements}
+          onToggle={toggleGroup}
+          active={activeIn.requirements}
+        >
+          <label className="flex cursor-pointer items-center justify-between gap-2 text-[12.5px] text-slate-800">
+            <span>
+              GRE optional or not accepted
+              <span className="block text-[11px] text-slate-500">hide programs that require it</span>
+            </span>
+            <input
+              type="checkbox"
+              className="size-3.5 accent-indigo-600"
+              checked={filters.greFriendly}
+              onChange={() => onChange({ ...filters, greFriendly: !filters.greFriendly })}
+            />
+          </label>
+
+          <div className="mt-3">
+            <div className="flex items-baseline justify-between text-[12.5px] text-slate-800">
+              <span>Application fee</span>
+              <span className="font-medium tabular-nums">
+                {feeUnlimited ? 'Any' : `≤ $${filters.maxFee}`}
+              </span>
+            </div>
+            <input
+              type="range"
+              min={0}
+              max={facets.feeCap}
+              step={5}
+              value={filters.maxFee}
+              onChange={(e) => onChange({ ...filters, maxFee: Number(e.target.value) })}
+              className="mt-1 w-full accent-indigo-600"
+            />
+            {!feeUnlimited && (
+              <label className="mt-1 flex cursor-pointer items-center gap-1.5 text-[12px] text-slate-600">
+                <input
+                  type="checkbox"
+                  className="size-3.5 accent-indigo-600"
+                  checked={filters.includeUnknownFee}
+                  onChange={() =>
+                    onChange({ ...filters, includeUnknownFee: !filters.includeUnknownFee })
+                  }
+                />
+                include programs with an unknown fee
+              </label>
+            )}
+          </div>
+        </Group>
       </div>
     </aside>
   )
