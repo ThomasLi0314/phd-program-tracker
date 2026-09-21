@@ -1,10 +1,10 @@
 {
   "meta": {
     "version": 2,
-    "generated_at": "2026-09-03",
+    "generated_at": "2026-09-21",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep + Singapore/Hong Kong PhD wave",
-    "note": "1434 STEM PhD/MSc programs across the US, UK, Europe, Canada and Asia-Pacific; faculty rosters on 556 programs (15593 faculty). The 45 Singapore and Hong Kong PhD entries added 2026-09-03 carry admissions and funding; 7 of them now have faculty rosters. Unknown/Verify = not yet confirmed on an official page."
+    "note": "1436 STEM PhD/MSc programs across the US, UK, Europe, Canada and Asia-Pacific; faculty rosters on 558 programs (15720 faculty). The 45 Singapore and Hong Kong PhD entries added 2026-09-03 carry admissions and funding; 7 of them now have faculty rosters. Unknown/Verify = not yet confirmed on an official page."
   },
   "programs": [
     {
@@ -339671,6 +339671,2123 @@
       },
       "data_currency": "Funding from the NUS Graduate School scholarships listing, retrieved 2026-09-03. NUS sets research deadlines per department and none was confirmed, so the deadline is left unverified rather than guessed from the usual mid-November pattern. Faculty roster not yet scanned.",
       "faculty": []
+    },
+    {
+      "id": "oregon-state-mathematics-phd",
+      "university": "Oregon State University",
+      "program_name": "PhD in Mathematics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mathematics",
+        "subs": [
+          "Applied Mathematics",
+          "Numerical Analysis",
+          "Analysis",
+          "Partial Differential Equations",
+          "Fluid Dynamics",
+          "Probability",
+          "Dynamical Systems",
+          "Mathematical Biology",
+          "Algebra",
+          "Number Theory",
+          "Geometry",
+          "Topology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026 (Fall 2027; letters accepted through Dec 22, 2026)",
+        "application_fee_usd": 85,
+        "fee_display": "$85 (nonrefundable, per the OSU catalog)",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "TOEFL iBT 80 (min 18 per section), TOEFL PBT 550, IELTS 6.5 or Duolingo 110. To hold a teaching assistantship: TOEFL speaking 22 or IELTS speaking 7.0. Conditional admission possible at TOEFL 60–79 / IELTS 6.0.",
+        "admission_model": "Departmental admission; fall entry only",
+        "admission_model_note": "Applications go to the department; there is no Winter, Spring or Summer admission. Students are admitted to the program, not to an advisor: they take the qualifying exams (real analysis and abstract linear algebra) and choose a thesis advisor after passing them. The department says first assistantship offers can be made as early as February.",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Support is by graduate teaching assistantship: \"complete tuition remission and nine-month stipend and 90% of the student health insurance premium\". The posted new-GTA stipend for 2024–2025 was $2,177 per month. Research assistantships depend on faculty grants. The department does not publish a guaranteed number of funded years, so the status stays Unknown/Verify."
+        },
+        "pre_application_contact": "Neutral / Not Required",
+        "contact_note": "Admission does not require a faculty sponsor. The department FAQ asks applicants: \"Please do not send CVs, resumes, transcripts, or other materials by email unless we ask you to do so.\"",
+        "ects": null,
+        "duration": "6 years without a prior graduate degree; 5 years entering with a master's"
+      },
+      "links": {
+        "program": "https://math.oregonstate.edu/graduate/phd-program",
+        "admissions": "https://math.oregonstate.edu/graduate/visit-and-apply/instructions"
+      },
+      "data_currency": "Researched 2026-09-21 from the department's PhD, application-instructions, FAQ and funding pages and the OSU catalog (application fee). The GRE general and subject tests are both optional. Application-fee waivers are limited to McNair, Project 1000, Gates and MARC scholars. Faculty roster: the eight research-group pages plus the department directory; emeriti are included and labelled because the group pages list their research, but they are unlikely to take new students.",
+      "faculty": [
+        {
+          "id": "jonathan-kujawa",
+          "name": "Jonathan Kujawa",
+          "title": "Department Head; Professor",
+          "sub_field": "Algebra and Number Theory",
+          "tags": [
+            "algebra and number theory"
+          ],
+          "summary": "Jon Kujawa works in representation theory and algebraic Lie theory, particularly where it connects with combinatorics, low-dimensional topology, algebraic geometry, or category theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://jonkujawa.github.io/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "clayton-petsche",
+          "name": "Clayton Petsche",
+          "title": "Professor",
+          "sub_field": "Algebra and Number Theory",
+          "tags": [
+            "algebra and number theory",
+            "dynamical systems"
+          ],
+          "summary": "Clayton Petsche's research includes the study of algebraic and arithmetic dynamical systems on varieties and analytic spaces, as well as the theory of height functions over global fields.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/clayton-petsche",
+            "scholar": "https://scholar.google.com/citations?user=KxouYrkAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "thomas-a-schmidt",
+          "name": "Thomas A. Schmidt",
+          "title": "Professor",
+          "sub_field": "Algebra and Number Theory",
+          "tags": [
+            "algebra and number theory",
+            "dynamical systems"
+          ],
+          "summary": "Schmidt is currently most interested in: natural extensions for continued fractions for various Fuchsian groups (with C. Kraaikamp, and various third co-authors: I. Smeets, H. Nakada, and W. Steiner; with K. Calta; and, most recently with P. Arnoux) and connections between the ergodic theory of billards and 1-forms on algebraic curves and, with the ergodic theory and arithmetic of generalized continued fractions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://blogs.oregonstate.edu/taschmidt/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "holly-m-swisher",
+          "name": "Holly M. Swisher",
+          "title": "Professor",
+          "sub_field": "Algebra and Number Theory",
+          "tags": [
+            "algebra and number theory"
+          ],
+          "summary": "Professor Swisher is a researcher in the areas of number theory and combinatorics. Her current work is focused on modular forms, partition theory, and hypergeometric series, including the interplay between them.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/hollyswisher/home",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "mary-e-flahive",
+          "name": "Mary E. Flahive",
+          "title": "Professor Emerita",
+          "sub_field": "Algebra and Number Theory",
+          "tags": [
+            "algebra and number theory"
+          ],
+          "summary": "Dr. Flahive's work in number theory is principally in Diophantine approximation, with techniques from the geometry of numbers. She is also working with colleagues in computer science on projects in algebraic coding theory and also on developing and analyzing interconnection networks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/mary-e-flahive",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "vrushali-a-bokil",
+          "name": "Vrushali A. Bokil",
+          "title": "Executive Associate Dean, College of Science; Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "mathematical biology",
+            "numerical analysis"
+          ],
+          "summary": "Professor Bokil's general research interests are in applied mathematics, scientific computing, numerical analysis and mathematical biology. Her primary research interests are in the numerical solution of wave propagation problems. Specifically, she has conducted research on the numerical solution of Maxwell's equations using a variety of finite difference and finite element methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.science.oregonstate.edu/~bokilv/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "elizabeth-carlson",
+          "name": "Elizabeth Carlson",
+          "title": "Assistant Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "dynamical systems",
+            "numerical analysis",
+            "probability"
+          ],
+          "summary": "My research interests include partial differential equations and fluid dynamics, with practical emphases in data assimilation, optimization, high performance computing, and numerical analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/elizabethcarlsonmath",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "elaine-cozzi",
+          "name": "Elaine Cozzi",
+          "title": "Assistant Head; Associate Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics"
+          ],
+          "summary": "Professor Cozzi investigates problems on existence, uniqueness, and regularity of solutions to partial differential equations arising in fluid mechanics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/elainecozzi/home",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "radu-dascaliuc",
+          "name": "Radu Dascaliuc",
+          "title": "Associate Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics"
+          ],
+          "summary": "Dascaliuc's research focuses on qualitative properties and long-time behavior of nonlinear PDE. In particular, he is interested in dynamics of the incompressible Navier-Stokes and Euler equations, especially in relation to the turbulence theory. The main goals are to derive the tenets of the heuristic theory of turbulence directly from the physical equations of motion and to understand connections between turbulence in fluids and regularity theory of the 3D Navier-Stokes and Euler equations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/radu-dascaliuc",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "patrick-de-leenheer",
+          "name": "Patrick De Leenheer",
+          "title": "Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "dynamical systems",
+            "mathematical biology"
+          ],
+          "summary": "My research interests are in mathematical biology and dynamical systems. I've worked on problems in ecology, epidemiology, bioreactors, chemical and biochemcial reaction networks, social networks, physics and graphs. Some of this work has been in collaboration with natural scientists. Most of the models I work on are examples of dynamical systems (ODEs, PDEs, linear and nonlinear maps,etc) and I'm interested in both theoretical and applied problems arising in this context.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/patrick-de-leenheer",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "adel-faridani",
+          "name": "Adel Faridani",
+          "title": "Professor Emeritus",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "numerical analysis"
+          ],
+          "summary": "Faridani conducts research in numerical analysis, investigating problems arising in signal processing and tomography. In signal processing he is interested in uniform and non-uniform sampling of bandlimited functions in one and several variables. His research in tomography comprises questions of optimal sampling and resolution; error estimates for reconstruction algorithms in two and three dimensions; and theory and implementation of local tomography.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/adel-faridani",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "david-v-finch",
+          "name": "David V. Finch",
+          "title": "Professor Emeritus",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics"
+          ],
+          "summary": "Finch works on inverse problems, particularly those arising in medical imaging. He has worked on x-ray computed tomography and vector tomography. He is currently working on problems arising in the medical imaging technique called thermoacoustic tomography and other forms of hybrid imaging.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/david-v-finch",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "nathan-l-gibson",
+          "name": "Nathan L. Gibson",
+          "title": "Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "numerical analysis"
+          ],
+          "summary": "Gibson's primary research interests are computational electromagnetics, uncertainty quantification, and inverse problems. Research topics coinciding with primary interests include: wave propagation modeling, homogenization, optimization and regularization techniques, high performance and parallel computing, parameter identification and sensitivity analysis, finite element and finite difference methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.science.oregonstate.edu/~gibsonn/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "robert-l-higdon",
+          "name": "Robert L. Higdon",
+          "title": "Professor Emeritus",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "numerical analysis"
+          ],
+          "summary": "Higdon has worked on open boundary conditions for wave propagation problems and on issues related to the well-posedness of hyperbolic initial-boundary value problems and the stability of their numerical approximations. He is presently working on some mathematical and computational problems related to the numerical modeling of ocean circulation. This modeling involves the solution of a system of partial differential equations that describes fluid flow, as adapted to that case.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://sites.science.oregonstate.edu/~higdon/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "john-w-lee",
+          "name": "John W. Lee",
+          "title": "Professor Emeritus",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics"
+          ],
+          "summary": "Lee has made contributions to the existence, uniqueness, and continuous dependence theory for solutions to nonlinear boundary value problems. This work, which continues, is joint with R.B. Guenther of Oregon State and A. Granas of the University of Montreal. Lee has also worked on the numerical calculation of solutions to such problems. He has helped develop the extension of Sturm oscillation theory and the properties of Sturm-Liouville eigenvalue problems to higher order equations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/john-w-lee",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "nicholas-marshall",
+          "name": "Nicholas Marshall",
+          "title": "Assistant Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "dynamical systems",
+            "numerical analysis",
+            "probability"
+          ],
+          "summary": "I am interested in problems that involve interplay between analysis, geometry, and probability (especially such problems motivated by applications to data science).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://nicholasmarshall.info/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "malgorzata-peszynska",
+          "name": "Malgorzata Peszynska",
+          "title": "University Distinguished Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "numerical analysis"
+          ],
+          "summary": "Malgo Peszynska's research interests are in applied mathematics and computational modeling of real life phenomena. Originally trained in pure mathematics, she came to applied mathematics projects through her interest in parallel and high performance computing and variational theory for finite element methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/~mpesz/index.html",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "axel-saenz-rodriguez",
+          "name": "Axel Saenz Rodriguez",
+          "title": "Assistant Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "probability"
+          ],
+          "summary": "Probability, Integrability, and Universality: I work on probability models with many particles that have weak interactions. This means that a single particle only interacts directly with its immediate neighbors and the accumulation of these local interactions govern the dynamics of the whole system in a non-trivial manner.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/axelsaenz/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "ralph-e-showalter",
+          "name": "Ralph E. Showalter",
+          "title": "Professor Emeritus",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics"
+          ],
+          "summary": "My research interests include singular or degenerate nonlinear evolution equations and partial differential equations, variational inequalities, free-boundary problems, and related applications to initial-boundary-value problems of mechanics and diffusion. Current work is focused on the development of multiphysics mathematical models of coupled fluid-solid dynamics, deformable porous media, and upscaled models of transport and flow in heterogeneous media.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/ralphshowalter",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "enrique-a-thomann",
+          "name": "Enrique A. Thomann",
+          "title": "Professor Emeritus",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "mathematical biology",
+            "probability"
+          ],
+          "summary": "Thomann's research is primarily in problems in partial differential equations arising from fluid mechanics. He also collaborates with colleagues in other departments, as well as in the Mathematics Department, in the development of mathematical models to problems in Ecology, Oceanography, Hydrology and management of Natural Resources.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/enrique-a-thomann",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "xueying-yu",
+          "name": "Xueying Yu",
+          "title": "Assistant Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics"
+          ],
+          "summary": "Xueying Yu's research interests are Dispersive Partial Differential Equations and Harmonic Analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/yuxueying/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "philipp-kunde",
+          "name": "Philipp Kunde",
+          "title": "Assistant Professor",
+          "sub_field": "Dynamical Systems",
+          "tags": [
+            "dynamical systems",
+            "probability"
+          ],
+          "summary": "Research Interests: Smooth Ergodic Theory, (Anti-)Classification in Dynamics, Operator-theoretic aspects of Ergodic Theory, Extreme Value Theory in Dynamics, and Data-driven prediction of dynamical systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/pkunde/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "swati-patel",
+          "name": "Swati Patel",
+          "title": "Assistant Professor",
+          "sub_field": "Dynamical Systems",
+          "tags": [
+            "dynamical systems",
+            "mathematical biology"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/swatipatel",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "william-a-bogley",
+          "name": "William A. Bogley",
+          "title": "Professor Emeritus",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology"
+          ],
+          "summary": "Structure and classification of groups given by generators and relations. Low dimensional topology and homotopy theory. Asphericity of cell complexes and equations over groups.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/william-a-bogley",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "orsola-capovilla-searle",
+          "name": "Orsola Capovilla-Searle",
+          "title": "Assistant Professor",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology"
+          ],
+          "summary": "Capovilla-Searle's research interests are in the fields of low dimensional symplectic and contact topology. Capovilla-Searle's research focuses on structures in symplectic and contact geometry( Legendrian knots, Lagrangian surfaces, Weinstein domains). She has a joint appointment in the college of engineering in robotics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/orsola-capovilla-searle/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "tevian-dray",
+          "name": "Tevian Dray",
+          "title": "Professor Emeritus",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology",
+            "mathematics education"
+          ],
+          "summary": "Past work has emphasized General Relativity, studying model spacetimes and their properties, as well as the interface between relativity and quantum physics. Current work investigates applications of the Octonions, the unique non-associative division algebra, to the physics of fundamental particles.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/~tevian/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "christine-m-escher",
+          "name": "Christine M. Escher",
+          "title": "Professor",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology"
+          ],
+          "summary": "Escher's current work lies in the interaction between algebraic topology and differential geometry, in particular the use of surgery theory to classify spaces of positive sectional curvature. Her previous work is connected to the field of minimal submanifolds; in particular existence and uniqueness questions of minimal isometric immersions of spherical space forms into spheres.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://blogs.oregonstate.edu/cescher/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "dennis-j-garity",
+          "name": "Dennis J. Garity",
+          "title": "Professor Emeritus",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology"
+          ],
+          "summary": "Garity's current research is focused on properties of embeddings of Cantor sets in Euclidean spaces, focusing on embeddings in R^3. Cantor sets often arise as limit sets or invariant sets of dynamical systems. The complements of such Cantor sets in R^3 are 3-manifolds with a rich end structure. The possible types of embeddings of these sets in R^n can provide information about possible dynamical systems and about the end structure of manifolds.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://sites.science.oregonstate.edu/~garity/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "chad-giusti",
+          "name": "Chad Giusti",
+          "title": "Associate Professor",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology",
+            "mathematical biology"
+          ],
+          "summary": "Research focus: Topological neuroscience; computation and coding in neural systems; development of topological, algebraic, and geometric methods for scientific applications; topology of spaces of configurations and embeddings",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.chadgiusti.com",
+            "scholar": "https://scholar.google.com/citations?user=i2n7LaUAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "ren-guo",
+          "name": "Ren Guo",
+          "title": "Associate Professor",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology"
+          ],
+          "summary": "Guo is working on circle packing, discrete conformal geometry, hyperbolic geometry, Teichmüller space.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/ren-guo",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "benjamin-d-dalziel",
+          "name": "Benjamin D. Dalziel",
+          "title": "Associate Professor (Integrative Biology and Mathematics)",
+          "sub_field": "Mathematical Biology",
+          "tags": [
+            "mathematical biology"
+          ],
+          "summary": "I have broad interests in ecological and evolutionary dynamics, particularly related to population health, and to the maintenance of biodiversity. I am particularly interested in (i) the ecology and evolution of infectious diseases, especially the impact of host population structure on pathogen spread and diversification and (ii) how collective behavior affects trophic interactions and ecosystem stability.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/benjamin-d-dalziel",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "yevgeniy-kovchegov",
+          "name": "Yevgeniy Kovchegov",
+          "title": "Professor Emeritus",
+          "sub_field": "Mathematical Biology",
+          "tags": [
+            "mathematical biology",
+            "probability"
+          ],
+          "summary": "Yevgeniy Kovchegov works in the field of probability and stochastic processes. His research interests include the mathematical models of statistical mechanics, interacting particle systems, models of mathematical biology, stochastic self-similarity, and quantum computation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/yevgeniy-kovchegov",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "mary-d-beisiegel",
+          "name": "Mary D. Beisiegel",
+          "title": "Professor",
+          "sub_field": "Mathematics Education",
+          "tags": [
+            "mathematics education"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/mary-d-beisiegel",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "thomas-p-dick",
+          "name": "Thomas P. Dick",
+          "title": "Professor Emeritus",
+          "sub_field": "Mathematics Education",
+          "tags": [
+            "mathematics education"
+          ],
+          "summary": "Dick's research interests include the study of factors related to mathematics achievement and participation, cognitive science as applied to the learning of advanced mathematics, uses of technology in the learning of mathematics, and mathematical discourse. He has worked extensively in the calculus curriculum reform movement.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/thomas-p-dick",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "elise-lockwood",
+          "name": "Elise Lockwood",
+          "title": "Professor",
+          "sub_field": "Mathematics Education",
+          "tags": [
+            "mathematics education"
+          ],
+          "summary": "Lockwood's primary research interest involves undergraduate mathematics education, particularly studying how students think about and learn combinatorial topics. She has put forth a model of student's combinatorial thinking that especially emphasizes the role of sets of outcomes in effective counting.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/elise-lockwood",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "edward-c-waymire",
+          "name": "Edward C. Waymire",
+          "title": "Professor Emeritus",
+          "sub_field": "Probability",
+          "tags": [
+            "probability"
+          ],
+          "summary": "Waymire's primary research concerns applications of probability and stochastic processes to problems of contemporary applied mathematics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/edward-c-waymire",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "peter-dillery",
+          "name": "Peter Dillery",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/peter-dillery",
+            "scholar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "utoronto-physics-phd",
+      "university": "University of Toronto",
+      "program_name": "PhD in Physics",
+      "degree_type": "PhD",
+      "region": "Canada",
+      "country": "Canada",
+      "discipline": {
+        "primary": "Physics",
+        "subs": [
+          "Atmospheric Physics",
+          "Geophysical Fluid Dynamics",
+          "Climate Dynamics",
+          "Geophysics",
+          "Condensed Matter",
+          "Quantum Optics",
+          "Quantum Information",
+          "Particle Physics",
+          "High Energy Physics",
+          "Biological Physics"
+        ]
+      },
+      "requirements": {
+        "deadline": null,
+        "deadline_display": "December 11 (the page gives no year — verify for Fall 2027; application opens September 16)",
+        "application_fee_usd": 130,
+        "fee_display": "$130 CAD (cannot be waived)",
+        "gre": "Optional",
+        "letters": 2,
+        "english": "TOEFL iBT 93 (min 22 in Writing and Speaking), IELTS 7.0 (min 6.5 per band) or COPE 76.",
+        "admission_model": "Departmental admission; supervisor matched after the offer",
+        "admission_model_note": "The four-year PhD requires an MSc with first-class standing; exceptional applicants with an \"A\" average can enter the five-year direct-entry PhD from a BSc. Four-year PhD students \"are required to secure a supervisor prior to registration\"; MSc and direct-entry students are not. Admitted applicants are invited to a \"Get To Know Us Weekend\" in March. A January start is open to domestic PhD applicants only (apply by August 1).",
+        "funding": {
+          "status": "Fully Funded",
+          "years": 4,
+          "note": "Base funding is \"$31,000 + tuition fees (as of 2024; support levels are increased yearly)\" and includes 132 hours of teaching assistantship. It is guaranteed for four years of the PhD, or five years for the direct-entry PhD."
+        },
+        "pre_application_contact": "Neutral / Not Required",
+        "contact_note": "A supervisor is not needed to apply. The Earth, Atmospheric and Planetary Physics group invites questions at eapp_opportunities@physics.utoronto.ca or to individual faculty.",
+        "ects": null,
+        "duration": "4 years (with an MSc); 5 years direct-entry from a BSc"
+      },
+      "links": {
+        "program": "https://www.physics.utoronto.ca/graduate/prospective-students/graduate-admissions-department-physics/",
+        "admissions": "https://www.physics.utoronto.ca/graduate/prospective-students/graduate-admissions-department-physics/application-information/"
+      },
+      "data_currency": "Researched 2026-09-21 from the department's graduate-admissions pages. The deadline is printed as \"December 11th\" with no year (one FAQ line says December 12th), so no dated deadline is recorded — confirm on the application page. GRE: \"There is no requirement to take these examinations.\" Exactly two references. Faculty roster: the six research-group member pages (tenure-stream, cross-appointed and adjunct/status-only; emeriti and teaching-stream omitted). The group pages print no ranks, so a rank appears only where the faculty member's own page states it.",
+      "faculty": [
+        {
+          "id": "virginijus-barzda",
+          "name": "Virginijus Barzda",
+          "title": "Tenure-stream faculty — Department of Chemical and Physical Sciences (UTM)",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "biological physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://barzda.utm.utoronto.ca/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "sidhartha-goyal",
+          "name": "Sidhartha Goyal",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "biological physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://goyallab.com",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "claudiu-gradinaru",
+          "name": "Claudiu Gradinaru",
+          "title": "Tenure-stream faculty — Department of Chemical and Physical Sciences (UTM)",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "biological physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.utm.utoronto.ca/gradinaru-lab/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "david-hathcock",
+          "name": "David Hathcock",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "biological physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://davidhathcock.github.io",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "andreas-hilfinger",
+          "name": "Andreas Hilfinger",
+          "title": "Tenure-stream faculty — Department of Chemical and Physical Sciences (UTM)",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "biological physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://utm.utoronto.ca/cps/faculty-staff/hilfinger-andreas",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "robin-s-marjoribanks",
+          "name": "Robin S. Marjoribanks",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Optics",
+          "tags": [
+            "quantum optics",
+            "biological physics",
+            "ultrafast lasers",
+            "nonlinear optics"
+          ],
+          "summary": "Experiment. Listed topic: nonlinear optics and ultrafast lasers.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.physics.utoronto.ca/~marj/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "r-j-dwayne-miller",
+          "name": "R.J. Dwayne Miller",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Optics",
+          "tags": [
+            "quantum optics",
+            "biological physics",
+            "ultrafast lasers",
+            "nonlinear optics"
+          ],
+          "summary": "Experiment. Listed topic: nonlinear optics and ultrafast lasers.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://lphys.chem.utoronto.ca/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "joshua-n-milstein",
+          "name": "Joshua N. Milstein",
+          "title": "Tenure-stream faculty — Department of Chemical and Physical Sciences (UTM)",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "biological physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.utm.utoronto.ca/milsteinlab",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "sarah-rauscher",
+          "name": "Sarah Rauscher",
+          "title": "Tenure-stream faculty — Department of Chemical and Physical Sciences (UTM)",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "biological physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.utm.utoronto.ca/cps/faculty-staff/rauscher-sarah",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "william-ryu",
+          "name": "William Ryu",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "biological physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.ryulab.ca/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "david-mcmillen",
+          "name": "David McMillen",
+          "title": "Cross-appointed faculty — Department of Chemical and Physical Sciences (UTM)",
+          "sub_field": "Biological Physics",
+          "tags": [
+            "biological physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.utm.utoronto.ca/~mcmillen",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "nicolas-grisouard",
+          "name": "Nicolas Grisouard",
+          "title": "Associate Professor",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics",
+            "ocean dynamics",
+            "numerical simulation",
+            "geophysical fluid dynamics"
+          ],
+          "summary": "Ocean and Wave Dynamics group. \"I am primarily interested in modelling fundamental processes associated with small-scale oceanic flows, using numerical simulations, analytical modelling and sometimes laboratory experiments.\"",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://grisouard.physics.utoronto.ca",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "dylan-jones",
+          "name": "Dylan Jones",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics",
+            "atmospheric composition",
+            "chemical transport modelling",
+            "satellite data"
+          ],
+          "summary": "Atmospheric Physics and Composition Modelling Group: uses satellite measurements of atmospheric trace gases together with global three-dimensional modelling of tropospheric chemistry and transport to understand how pollution influences the dynamical and chemical state of the lower atmosphere, including long-range transport pathways and their year-to-year variability.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://jones-group.physics.utoronto.ca",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "paul-kushner",
+          "name": "Paul Kushner",
+          "title": "Professor; Chair of the Department",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics",
+            "atmospheric dynamics",
+            "climate variability",
+            "sea ice",
+            "Earth system models"
+          ],
+          "summary": "The Kushner group works on the atmosphere in relation to climate variability and change: atmospheric dynamics (jet stream, polar vortex, storm tracks), cold-climate processes (snow cover, sea ice, Arctic linkages with global climate), and theory of large-scale waves, wave–mean-flow interaction and modes of climate variability, using Earth system models and simpler models.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://individual.utoronto.ca/paul_kushner",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "christopher-lee",
+          "name": "Christopher Lee",
+          "title": "Tenure-stream faculty — part-time appointment",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/lee-christopher/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "yaowei-li",
+          "name": "Yaowei Li",
+          "title": "Assistant Professor (from January 1, 2027)",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics",
+            "atmospheric aerosols",
+            "atmospheric chemistry",
+            "climate"
+          ],
+          "summary": "Studies the climate and chemical impacts of atmospheric aerosols; currently a postdoctoral scholar at Caltech. His own website (June 2026) states: \"I am considering new graduate students for Fall 2027. Prospective students interested in joining my group are welcome to get in touch!\"",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://yaoweili96.github.io/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "qinya-liu",
+          "name": "Qinya Liu",
+          "title": "Professor of Geophysics; Teck Chair in Exploration Geophysics",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics",
+            "seismology",
+            "spectral-element method",
+            "adjoint tomography",
+            "inverse problems"
+          ],
+          "summary": "Seismology: numerical simulation of 3-D seismic wave propagation in heterogeneous and anisotropic media with the spectral-element method; full waveform inversion (adjoint tomography) at regional and continental scales; nonlinear inversion and optimization methods; machine-learning detection and source inversion for microseismicity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.physics.utoronto.ca/~liuqy",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "julian-lowman",
+          "name": "Julian Lowman",
+          "title": "Professor; Chair, Physical & Environmental Sciences (UTSC)",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics",
+            "mantle convection",
+            "planetary interiors"
+          ],
+          "summary": "Mantle convection and planetary interior dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.utsc.utoronto.ca/physsci/julian-lowman",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "g-w-kent-moore",
+          "name": "G.W. Kent Moore",
+          "title": "University Professor",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics",
+            "high-latitude climate",
+            "mountain meteorology"
+          ],
+          "summary": "Research areas: high latitude climate dynamics, mountain meteorology, high altitude physiology. Uses theoretical, computational and observational techniques to improve knowledge of the dynamics of the climate system, with field work in the Arctic, Greenland and the Himalaya.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.utm.utoronto.ca/cps/people/kent-moore",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "morgan-o-neill",
+          "name": "Morgan O'Neill",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics",
+            "severe weather",
+            "hurricanes",
+            "atmospheric dynamics",
+            "climate"
+          ],
+          "summary": "Leads the Severe Weather and Climate Group: \"We study the dynamics and thermodynamics of multiscale severe events, including supercell thunderstorms and hurricanes\", and the two-way feedbacks between these storms and the climate they occur in, using theory, observations and numerical models.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://storms.physics.utoronto.ca/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "w-richard-peltier",
+          "name": "W. Richard Peltier",
+          "title": "University Professor; Director, Centre for Global Change Science",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics",
+            "geophysical fluid dynamics",
+            "waves and turbulence",
+            "sea level",
+            "mantle convection"
+          ],
+          "summary": "Stated research interests: atmospheric and oceanic waves and turbulence (Kelvin–Helmholtz and Holmboe mixing, topographically forced internal and Rossby waves); geophysical fluid dynamics (balance and the stability of the slow manifold, spontaneous emission of internal waves in ocean and atmosphere models); physics of the planetary interior (mantle convection, glacial isostatic adjustment); and planetary climate, including sea-level change.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.atmosp.physics.utoronto.ca/people/peltier/peltier.html",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "erica-rosenblum",
+          "name": "Erica Rosenblum",
+          "title": "Tenure-stream faculty — part-time appointment",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/rosenblum-erica/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "kimberly-strong",
+          "name": "Kimberly Strong",
+          "title": "Professor",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics",
+            "atmospheric composition",
+            "spectroscopy",
+            "remote sounding"
+          ],
+          "summary": "Experimental atmospheric physics; spectroscopic techniques; remote sounding of atmospheric composition.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.atmosp.physics.utoronto.ca/people/strong/strong.html",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "kaley-walker",
+          "name": "Kaley Walker",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/walker-kaley/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "debra-wunch",
+          "name": "Debra Wunch",
+          "title": "Associate Professor",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics",
+            "carbon cycle",
+            "greenhouse gases",
+            "remote sounding"
+          ],
+          "summary": "Interested in the Earth's carbon cycle. \"My research focuses on making precise and accurate measurements of atmospheric greenhouse gases, such as carbon dioxide, methane, and nitrous oxide, and interpreting the measurements in the context of the carbon cycle\" — with projects on the Boreal forest and on Toronto's urban emissions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://wunch-group.physics.utoronto.ca",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "debora-griffin",
+          "name": "Debora Griffin",
+          "title": "Adjunct / status-only",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/griffin-debora/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "jonathan-lilly",
+          "name": "Jonathan Lilly",
+          "title": "Adjunct / status-only",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/lilly-jonathan/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "zen-mariani",
+          "name": "Zen Mariani",
+          "title": "Adjunct / status-only — Environment and Climate Change Canada",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/mariani-zen/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "ray-nassar",
+          "name": "Ray Nassar",
+          "title": "Adjunct / status-only — Environment and Climate Change Canada",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/nassar-ray/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "peter-rayner",
+          "name": "Peter Rayner",
+          "title": "Adjunct / status-only — University of Melbourne",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/rayner-peter/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "felix-vogel",
+          "name": "Felix Vogel",
+          "title": "Adjunct / status-only — Environment and Climate Change Canada",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/vogel-felix/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "cynthia-whaley",
+          "name": "Cynthia Whaley",
+          "title": "Adjunct / status-only — Environment and Climate Change Canada",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/whaley-cynthia/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "jonathan-abbatt",
+          "name": "Jonathan Abbatt",
+          "title": "Cross-appointed faculty — Department of Chemistry",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.abbattgroup.ca/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "hamed-ibrahim",
+          "name": "Hamed Ibrahim",
+          "title": "Cross-appointed faculty — Department of Civil & Mineral Engineering",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/ibrahim-hamed/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "kristen-menou",
+          "name": "Kristen Menou",
+          "title": "Associate Professor (UTSC); cross-appointed to Physics",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.utsc.utoronto.ca/physsci/kristen-menou",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "russ-pysklywec",
+          "name": "Russ Pysklywec",
+          "title": "Cross-appointed faculty — Department of Earth Sciences",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.es.utoronto.ca/people/faculty/pysklywec-russell/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "andrei-swidinsky",
+          "name": "Andrei Swidinsky",
+          "title": "Cross-appointed faculty — Department of Earth Sciences",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.es.utoronto.ca/people/faculty/andrei-swidinsky/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "diana-valencia",
+          "name": "Diana Valencia",
+          "title": "Associate Professor (UTSC); cross-appointed to Physics",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics",
+            "exoplanets",
+            "planetary interiors"
+          ],
+          "summary": "Characterisation of low-mass planets — super-Earths and mini-Neptunes — and whether planets of 1–15 Earth masses are scaled-up Earths or scaled-down Neptunes in composition, evolution and physical properties.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.utsc.utoronto.ca/physsci/diana-valencia",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "mathew-wells",
+          "name": "Mathew Wells",
+          "title": "Professor (UTSC); cross-appointed to Physics",
+          "sub_field": "Earth, Atmospheric and Planetary Physics",
+          "tags": [
+            "earth, atmospheric and planetary physics",
+            "environmental fluid dynamics"
+          ],
+          "summary": "Environmental fluid dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.utsc.utoronto.ca/physsci/mathew-wells",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "miriam-diamond",
+          "name": "Miriam Diamond",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Experimental Particle Physics and Astrophysics",
+          "tags": [
+            "experimental particle physics and astrophysics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mcdonaldinstitute.ca/miriam-diamond/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "ziqing-hong",
+          "name": "Ziqing Hong",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Experimental Particle Physics and Astrophysics",
+          "tags": [
+            "experimental particle physics and astrophysics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://zqhong.physics.utoronto.ca/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "nikolina-ilic",
+          "name": "Nikolina Ilic",
+          "title": "Tenure-stream faculty — Institute of Particle Physics Research Scientist",
+          "sub_field": "Experimental Particle Physics and Astrophysics",
+          "tags": [
+            "experimental particle physics and astrophysics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/ilic-nikolina/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "peter-krieger",
+          "name": "Peter Krieger",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Experimental Particle Physics and Astrophysics",
+          "tags": [
+            "experimental particle physics and astrophysics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.physics.utoronto.ca/~krieger/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "barth-netterfield",
+          "name": "Barth Netterfield",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Experimental Particle Physics and Astrophysics",
+          "tags": [
+            "experimental particle physics and astrophysics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://netterfield.physics.utoronto.ca/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "pierre-savard",
+          "name": "Pierre Savard",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Experimental Particle Physics and Astrophysics",
+          "tags": [
+            "experimental particle physics and astrophysics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://savard.physics.utoronto.ca",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "pekka-k-sinervo",
+          "name": "Pekka K. Sinervo",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Experimental Particle Physics and Astrophysics",
+          "tags": [
+            "experimental particle physics and astrophysics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sinervo.physics.utoronto.ca",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "richard-teuscher",
+          "name": "Richard Teuscher",
+          "title": "Tenure-stream faculty — Institute of Particle Physics Research Scientist",
+          "sub_field": "Experimental Particle Physics and Astrophysics",
+          "tags": [
+            "experimental particle physics and astrophysics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://teuscher.web.cern.ch",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "william-trischuk",
+          "name": "William Trischuk",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Experimental Particle Physics and Astrophysics",
+          "tags": [
+            "experimental particle physics and astrophysics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.physics.utoronto.ca/~william/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "andrew-kubik",
+          "name": "Andrew Kubik",
+          "title": "Adjunct / status-only — SNOLAB",
+          "sub_field": "Experimental Particle Physics and Astrophysics",
+          "tags": [
+            "experimental particle physics and astrophysics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/kubik-andrew/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "matthew-stukel",
+          "name": "Matthew Stukel",
+          "title": "Adjunct / status-only",
+          "sub_field": "Experimental Particle Physics and Astrophysics",
+          "tags": [
+            "experimental particle physics and astrophysics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/stukel-matthew/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "pratika-dayal",
+          "name": "Pratika Dayal",
+          "title": "Cross-appointed faculty — Canadian Institute for Theoretical Astrophysics",
+          "sub_field": "Experimental Particle Physics and Astrophysics",
+          "tags": [
+            "experimental particle physics and astrophysics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/dayal-pratika/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "keith-vanderlinde",
+          "name": "Keith Vanderlinde",
+          "title": "Cross-appointed faculty — Dunlap Institute for Astronomy & Astrophysics",
+          "sub_field": "Experimental Particle Physics and Astrophysics",
+          "tags": [
+            "experimental particle physics and astrophysics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://dunlap.utoronto.ca/~vanderlinde/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "valentin-crepel",
+          "name": "Valentin Crepel",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://crepel.physics.utoronto.ca/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "sajeev-john",
+          "name": "Sajeev John",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics",
+            "quantum optics",
+            "quantum optics theory",
+            "condensed matter theory"
+          ],
+          "summary": "Theory. Listed topics: photonic materials and resonant optical structures; nonlinear optics and ultrafast lasers; ultracold atoms; topological quantum materials; quantum criticality; unconventional superconductivity; frustrated magnetism.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.physics.utoronto.ca/~john/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "stephen-r-julian",
+          "name": "Stephen R. Julian",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics",
+            "quantum criticality",
+            "superconductivity"
+          ],
+          "summary": "Experiment. Listed topics: topological quantum materials; quantum criticality; unconventional superconductivity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://julian-group.physics.utoronto.ca",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "hae-young-kee",
+          "name": "Hae-Young Kee",
+          "title": "Professor; Associate Chair, Graduate Studies",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics",
+            "condensed matter theory",
+            "quantum materials",
+            "frustrated magnetism"
+          ],
+          "summary": "Theory. Listed topics: topological quantum materials; two-dimensional and moiré materials; quantum criticality; unconventional superconductivity; frustrated magnetism; complex oxide interfaces; thermoelectric materials; ultracold atoms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://kee.physics.utoronto.ca",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "yong-baek-kim",
+          "name": "Yong Baek Kim",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics",
+            "condensed matter theory",
+            "quantum spin liquids"
+          ],
+          "summary": "Theory. Listed topics: topological quantum materials; two-dimensional and moiré materials; quantum criticality; unconventional superconductivity; frustrated magnetism; ultracold atoms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/ybkimgroup",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "young-june-kim",
+          "name": "Young-June Kim",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics",
+            "quantum materials",
+            "frustrated magnetism"
+          ],
+          "summary": "Experiment. Listed topics: topological quantum materials; two-dimensional and moiré materials; unconventional superconductivity; frustrated magnetism and quantum spin liquids; complex oxide interfaces; thermoelectric materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://youngjunekim.physics.utoronto.ca/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "xiang-li",
+          "name": "Xiang Li",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics",
+            "2D materials",
+            "quantum spin liquids"
+          ],
+          "summary": "Experiment. Listed topics: two-dimensional and moiré materials; frustrated magnetism and quantum spin liquids.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://li.physics.utoronto.ca",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "arun-paramekanti",
+          "name": "Arun Paramekanti",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics",
+            "condensed matter theory",
+            "ultracold atoms"
+          ],
+          "summary": "Theory. Listed topics: topological quantum materials; two-dimensional and moiré materials; quantum criticality; unconventional superconductivity; frustrated magnetism; ultracold atoms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://paramekanti.weebly.com/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "dvira-segal",
+          "name": "Dvira Segal",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics",
+            "quantum optics",
+            "quantum information theory"
+          ],
+          "summary": "Theory. Listed topics: quantum information; quantum computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.chem.utoronto.ca/chemistry/dsegal/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "chen-wang",
+          "name": "Chen Wang",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics",
+            "quantum optics",
+            "quantum computing"
+          ],
+          "summary": "Experiment. Listed topics: unconventional superconductivity (condensed matter); quantum information and quantum computing (quantum optics).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sqctoronto.github.io/lab-website/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "john-y-t-wei",
+          "name": "John Y.T. Wei",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics",
+            "superconductivity",
+            "oxide interfaces",
+            "spintronics"
+          ],
+          "summary": "Experiment. Listed topics: unconventional superconductivity; complex oxide interfaces; spintronics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.physics.utoronto.ca/~wei",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "sergio-de-la-barrera",
+          "name": "Sergio de la Barrera",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics",
+            "moiré materials",
+            "2D materials",
+            "superconductivity"
+          ],
+          "summary": "Experiment. Listed topics: topological quantum materials; two-dimensional and moiré materials; unconventional superconductivity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://barrera.physics.utoronto.ca/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "thomas-scaffidi",
+          "name": "Thomas Scaffidi",
+          "title": "Adjunct / status-only",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/thomasscaffidi/home",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "al-amin-dhirani",
+          "name": "Al-Amin Dhirani",
+          "title": "Cross-appointed faculty — Department of Chemistry",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.chemistry.utoronto.ca/people/directories/all-faculty/al-amin-dhirani",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "anatole-von-lilienfeld",
+          "name": "Anatole von Lilienfeld",
+          "title": "Cross-appointed faculty — Department of Chemistry — Department of Materials Science & Engineering",
+          "sub_field": "Quantum Condensed Matter Physics",
+          "tags": [
+            "quantum condensed matter physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.chemistry.utoronto.ca/people/directories/all-faculty/anatole-von-lilienfeld",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "boris-braverman",
+          "name": "Boris Braverman",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Optics",
+          "tags": [
+            "quantum optics",
+            "precision spectroscopy",
+            "quantum information",
+            "ultracold atoms"
+          ],
+          "summary": "Experiment. Listed topics: precision spectroscopy; quantum information; ultracold atoms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/braverman-boris/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "daniel-f-v-james",
+          "name": "Daniel F.V. James",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Optics",
+          "tags": [
+            "quantum optics",
+            "quantum information theory",
+            "quantum optics theory"
+          ],
+          "summary": "Theory. Listed topics: nonlinear optics and ultrafast phenomena; quantum information; ultracold atoms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.physics.utoronto.ca/~dfvj/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "peter-love",
+          "name": "Peter Love",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Optics",
+          "tags": [
+            "quantum optics",
+            "quantum computing",
+            "quantum information theory"
+          ],
+          "summary": "Theory. Listed topics: quantum information; quantum computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/lovegroupqa3",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "rhine-samajdar",
+          "name": "Rhine Samajdar",
+          "title": "Tenure-stream faculty (joining January 1, 2027)",
+          "sub_field": "Quantum Optics",
+          "tags": [
+            "quantum optics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/samajdar-rhine/",
+            "scholar": "https://scholar.google.com/citations?user=OjAs9DoAAAAJ"
+          }
+        },
+        {
+          "id": "john-e-sipe",
+          "name": "John E. Sipe",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Optics",
+          "tags": [
+            "quantum optics",
+            "nonlinear optics",
+            "quantum optics theory"
+          ],
+          "summary": "Theory. Listed topics: nonlinear optics and ultrafast lasers; photonic materials and resonant optical structures; quantum information; ultracold atoms; spintronics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.physics.utoronto.ca/~sipegroup/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "aephraim-m-steinberg",
+          "name": "Aephraim M. Steinberg",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Optics",
+          "tags": [
+            "quantum optics",
+            "quantum optics",
+            "quantum information",
+            "ultracold atoms"
+          ],
+          "summary": "Experiment. Listed topics: nonlinear optics and ultrafast lasers; quantum information; ultracold atoms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.physics.utoronto.ca/~aephraim/aephraim.html",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "joseph-thywissen",
+          "name": "Joseph Thywissen",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Optics",
+          "tags": [
+            "quantum optics",
+            "ultracold atoms"
+          ],
+          "summary": "Experiment. Listed topic: ultracold atoms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.thywissenlab.ca/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "amar-vutha",
+          "name": "Amar Vutha",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Quantum Optics",
+          "tags": [
+            "quantum optics",
+            "precision spectroscopy",
+            "ultracold atoms"
+          ],
+          "summary": "Experiment. Listed topics: precision spectroscopy; ultracold atoms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.physics.utoronto.ca/~vutha",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "hoi-kwong-lo",
+          "name": "Hoi-Kwong Lo",
+          "title": "Cross-appointed faculty",
+          "sub_field": "Quantum Optics",
+          "tags": [
+            "quantum optics",
+            "quantum information"
+          ],
+          "summary": "Listed topic: quantum information (experiment and theory).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.comm.utoronto.ca/~hklo/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "nathan-wiebe",
+          "name": "Nathan Wiebe",
+          "title": "Cross-appointed faculty — Department of Computer Science",
+          "sub_field": "Quantum Optics",
+          "tags": [
+            "quantum optics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/wiebe-nathan/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "david-curtin",
+          "name": "David Curtin",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "theoretical high energy physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://curtin.physics.utoronto.ca/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "yonatan-kahn",
+          "name": "Yonatan Kahn",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "theoretical high energy physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://kahn-group.physics.utoronto.ca/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "michael-luke",
+          "name": "Michael Luke",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "theoretical high energy physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://luke.physics.utoronto.ca",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "a-w-peet",
+          "name": "A.W. Peet",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "theoretical high energy physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.physics.utoronto.ca/~peet/home/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "erich-poppitz",
+          "name": "Erich Poppitz",
+          "title": "Tenure-stream faculty",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "theoretical high energy physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.physics.utoronto.ca/~poppitz/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "j-richard-bond",
+          "name": "J. Richard Bond",
+          "title": "Cross-appointed faculty — Canadian Institute for Theoretical Astrophysics",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "theoretical high energy physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cita.utoronto.ca/~bond/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "reed-essick",
+          "name": "Reed Essick",
+          "title": "Cross-appointed faculty — Canadian Institute for Theoretical Astrophysics",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "theoretical high energy physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/essick-reed/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "maya-fishbach",
+          "name": "Maya Fishbach",
+          "title": "Cross-appointed faculty — Canadian Institute for Theoretical Astrophysics",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "theoretical high energy physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mayafishbach.me",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "norman-w-murray",
+          "name": "Norman W. Murray",
+          "title": "Cross-appointed faculty — Canadian Institute for Theoretical Astrophysics",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "theoretical high energy physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cita.utoronto.ca/~murray/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "ue-li-pen",
+          "name": "Ue-Li Pen",
+          "title": "Cross-appointed faculty — Canadian Institute for Theoretical Astrophysics",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "theoretical high energy physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.cita.utoronto.ca/~pen/index.html",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "hanno-rein",
+          "name": "Hanno Rein",
+          "title": "Associate Professor (UTSC); cross-appointed to Physics",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "theoretical high energy physics",
+            "exoplanets",
+            "high performance computing"
+          ],
+          "summary": "Exoplanets, astrophysics, high performance computing, numerical simulations and granular dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.utsc.utoronto.ca/physsci/hanno-rein",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "bart-ripperda",
+          "name": "Bart Ripperda",
+          "title": "Cross-appointed faculty — Canadian Institute for Theoretical Astrophysics",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "theoretical high energy physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://bartripperda.com",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "chris-thompson",
+          "name": "Chris Thompson",
+          "title": "Cross-appointed faculty — Canadian Institute for Theoretical Astrophysics",
+          "sub_field": "Theoretical High Energy Physics",
+          "tags": [
+            "theoretical high energy physics"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.physics.utoronto.ca/members/thompson-chris/",
+            "scholar": ""
+          }
+        }
+      ]
     }
   ]
 }

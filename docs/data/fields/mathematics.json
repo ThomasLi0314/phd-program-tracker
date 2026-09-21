@@ -60822,6 +60822,635 @@
           }
         }
       ]
+    },
+    {
+      "id": "oregon-state-mathematics-phd",
+      "university": "Oregon State University",
+      "program_name": "PhD in Mathematics",
+      "degree_type": "PhD",
+      "region": "US",
+      "country": "United States",
+      "discipline": {
+        "primary": "Mathematics",
+        "subs": [
+          "Applied Mathematics",
+          "Numerical Analysis",
+          "Analysis",
+          "Partial Differential Equations",
+          "Fluid Dynamics",
+          "Probability",
+          "Dynamical Systems",
+          "Mathematical Biology",
+          "Algebra",
+          "Number Theory",
+          "Geometry",
+          "Topology"
+        ]
+      },
+      "requirements": {
+        "deadline": "2026-12-15",
+        "deadline_display": "Dec 15, 2026 (Fall 2027; letters accepted through Dec 22, 2026)",
+        "application_fee_usd": 85,
+        "fee_display": "$85 (nonrefundable, per the OSU catalog)",
+        "gre": "Optional",
+        "letters": 3,
+        "english": "TOEFL iBT 80 (min 18 per section), TOEFL PBT 550, IELTS 6.5 or Duolingo 110. To hold a teaching assistantship: TOEFL speaking 22 or IELTS speaking 7.0. Conditional admission possible at TOEFL 60–79 / IELTS 6.0.",
+        "admission_model": "Departmental admission; fall entry only",
+        "admission_model_note": "Applications go to the department; there is no Winter, Spring or Summer admission. Students are admitted to the program, not to an advisor: they take the qualifying exams (real analysis and abstract linear algebra) and choose a thesis advisor after passing them. The department says first assistantship offers can be made as early as February.",
+        "funding": {
+          "status": "Unknown/Verify",
+          "years": null,
+          "note": "Support is by graduate teaching assistantship: \"complete tuition remission and nine-month stipend and 90% of the student health insurance premium\". The posted new-GTA stipend for 2024–2025 was $2,177 per month. Research assistantships depend on faculty grants. The department does not publish a guaranteed number of funded years, so the status stays Unknown/Verify."
+        },
+        "pre_application_contact": "Neutral / Not Required",
+        "contact_note": "Admission does not require a faculty sponsor. The department FAQ asks applicants: \"Please do not send CVs, resumes, transcripts, or other materials by email unless we ask you to do so.\"",
+        "ects": null,
+        "duration": "6 years without a prior graduate degree; 5 years entering with a master's"
+      },
+      "links": {
+        "program": "https://math.oregonstate.edu/graduate/phd-program",
+        "admissions": "https://math.oregonstate.edu/graduate/visit-and-apply/instructions"
+      },
+      "data_currency": "Researched 2026-09-21 from the department's PhD, application-instructions, FAQ and funding pages and the OSU catalog (application fee). The GRE general and subject tests are both optional. Application-fee waivers are limited to McNair, Project 1000, Gates and MARC scholars. Faculty roster: the eight research-group pages plus the department directory; emeriti are included and labelled because the group pages list their research, but they are unlikely to take new students.",
+      "faculty": [
+        {
+          "id": "jonathan-kujawa",
+          "name": "Jonathan Kujawa",
+          "title": "Department Head; Professor",
+          "sub_field": "Algebra and Number Theory",
+          "tags": [
+            "algebra and number theory"
+          ],
+          "summary": "Jon Kujawa works in representation theory and algebraic Lie theory, particularly where it connects with combinatorics, low-dimensional topology, algebraic geometry, or category theory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://jonkujawa.github.io/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "clayton-petsche",
+          "name": "Clayton Petsche",
+          "title": "Professor",
+          "sub_field": "Algebra and Number Theory",
+          "tags": [
+            "algebra and number theory",
+            "dynamical systems"
+          ],
+          "summary": "Clayton Petsche's research includes the study of algebraic and arithmetic dynamical systems on varieties and analytic spaces, as well as the theory of height functions over global fields.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/clayton-petsche",
+            "scholar": "https://scholar.google.com/citations?user=KxouYrkAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "thomas-a-schmidt",
+          "name": "Thomas A. Schmidt",
+          "title": "Professor",
+          "sub_field": "Algebra and Number Theory",
+          "tags": [
+            "algebra and number theory",
+            "dynamical systems"
+          ],
+          "summary": "Schmidt is currently most interested in: natural extensions for continued fractions for various Fuchsian groups (with C. Kraaikamp, and various third co-authors: I. Smeets, H. Nakada, and W. Steiner; with K. Calta; and, most recently with P. Arnoux) and connections between the ergodic theory of billards and 1-forms on algebraic curves and, with the ergodic theory and arithmetic of generalized continued fractions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://blogs.oregonstate.edu/taschmidt/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "holly-m-swisher",
+          "name": "Holly M. Swisher",
+          "title": "Professor",
+          "sub_field": "Algebra and Number Theory",
+          "tags": [
+            "algebra and number theory"
+          ],
+          "summary": "Professor Swisher is a researcher in the areas of number theory and combinatorics. Her current work is focused on modular forms, partition theory, and hypergeometric series, including the interplay between them.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/hollyswisher/home",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "mary-e-flahive",
+          "name": "Mary E. Flahive",
+          "title": "Professor Emerita",
+          "sub_field": "Algebra and Number Theory",
+          "tags": [
+            "algebra and number theory"
+          ],
+          "summary": "Dr. Flahive's work in number theory is principally in Diophantine approximation, with techniques from the geometry of numbers. She is also working with colleagues in computer science on projects in algebraic coding theory and also on developing and analyzing interconnection networks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/mary-e-flahive",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "vrushali-a-bokil",
+          "name": "Vrushali A. Bokil",
+          "title": "Executive Associate Dean, College of Science; Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "mathematical biology",
+            "numerical analysis"
+          ],
+          "summary": "Professor Bokil's general research interests are in applied mathematics, scientific computing, numerical analysis and mathematical biology. Her primary research interests are in the numerical solution of wave propagation problems. Specifically, she has conducted research on the numerical solution of Maxwell's equations using a variety of finite difference and finite element methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.science.oregonstate.edu/~bokilv/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "elizabeth-carlson",
+          "name": "Elizabeth Carlson",
+          "title": "Assistant Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "dynamical systems",
+            "numerical analysis",
+            "probability"
+          ],
+          "summary": "My research interests include partial differential equations and fluid dynamics, with practical emphases in data assimilation, optimization, high performance computing, and numerical analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/elizabethcarlsonmath",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "elaine-cozzi",
+          "name": "Elaine Cozzi",
+          "title": "Assistant Head; Associate Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics"
+          ],
+          "summary": "Professor Cozzi investigates problems on existence, uniqueness, and regularity of solutions to partial differential equations arising in fluid mechanics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/elainecozzi/home",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "radu-dascaliuc",
+          "name": "Radu Dascaliuc",
+          "title": "Associate Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics"
+          ],
+          "summary": "Dascaliuc's research focuses on qualitative properties and long-time behavior of nonlinear PDE. In particular, he is interested in dynamics of the incompressible Navier-Stokes and Euler equations, especially in relation to the turbulence theory. The main goals are to derive the tenets of the heuristic theory of turbulence directly from the physical equations of motion and to understand connections between turbulence in fluids and regularity theory of the 3D Navier-Stokes and Euler equations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/radu-dascaliuc",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "patrick-de-leenheer",
+          "name": "Patrick De Leenheer",
+          "title": "Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "dynamical systems",
+            "mathematical biology"
+          ],
+          "summary": "My research interests are in mathematical biology and dynamical systems. I've worked on problems in ecology, epidemiology, bioreactors, chemical and biochemcial reaction networks, social networks, physics and graphs. Some of this work has been in collaboration with natural scientists. Most of the models I work on are examples of dynamical systems (ODEs, PDEs, linear and nonlinear maps,etc) and I'm interested in both theoretical and applied problems arising in this context.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/patrick-de-leenheer",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "adel-faridani",
+          "name": "Adel Faridani",
+          "title": "Professor Emeritus",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "numerical analysis"
+          ],
+          "summary": "Faridani conducts research in numerical analysis, investigating problems arising in signal processing and tomography. In signal processing he is interested in uniform and non-uniform sampling of bandlimited functions in one and several variables. His research in tomography comprises questions of optimal sampling and resolution; error estimates for reconstruction algorithms in two and three dimensions; and theory and implementation of local tomography.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/adel-faridani",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "david-v-finch",
+          "name": "David V. Finch",
+          "title": "Professor Emeritus",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics"
+          ],
+          "summary": "Finch works on inverse problems, particularly those arising in medical imaging. He has worked on x-ray computed tomography and vector tomography. He is currently working on problems arising in the medical imaging technique called thermoacoustic tomography and other forms of hybrid imaging.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/david-v-finch",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "nathan-l-gibson",
+          "name": "Nathan L. Gibson",
+          "title": "Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "numerical analysis"
+          ],
+          "summary": "Gibson's primary research interests are computational electromagnetics, uncertainty quantification, and inverse problems. Research topics coinciding with primary interests include: wave propagation modeling, homogenization, optimization and regularization techniques, high performance and parallel computing, parameter identification and sensitivity analysis, finite element and finite difference methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.science.oregonstate.edu/~gibsonn/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "robert-l-higdon",
+          "name": "Robert L. Higdon",
+          "title": "Professor Emeritus",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "numerical analysis"
+          ],
+          "summary": "Higdon has worked on open boundary conditions for wave propagation problems and on issues related to the well-posedness of hyperbolic initial-boundary value problems and the stability of their numerical approximations. He is presently working on some mathematical and computational problems related to the numerical modeling of ocean circulation. This modeling involves the solution of a system of partial differential equations that describes fluid flow, as adapted to that case.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://sites.science.oregonstate.edu/~higdon/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "john-w-lee",
+          "name": "John W. Lee",
+          "title": "Professor Emeritus",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics"
+          ],
+          "summary": "Lee has made contributions to the existence, uniqueness, and continuous dependence theory for solutions to nonlinear boundary value problems. This work, which continues, is joint with R.B. Guenther of Oregon State and A. Granas of the University of Montreal. Lee has also worked on the numerical calculation of solutions to such problems. He has helped develop the extension of Sturm oscillation theory and the properties of Sturm-Liouville eigenvalue problems to higher order equations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/john-w-lee",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "nicholas-marshall",
+          "name": "Nicholas Marshall",
+          "title": "Assistant Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "dynamical systems",
+            "numerical analysis",
+            "probability"
+          ],
+          "summary": "I am interested in problems that involve interplay between analysis, geometry, and probability (especially such problems motivated by applications to data science).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://nicholasmarshall.info/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "malgorzata-peszynska",
+          "name": "Malgorzata Peszynska",
+          "title": "University Distinguished Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "numerical analysis"
+          ],
+          "summary": "Malgo Peszynska's research interests are in applied mathematics and computational modeling of real life phenomena. Originally trained in pure mathematics, she came to applied mathematics projects through her interest in parallel and high performance computing and variational theory for finite element methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/~mpesz/index.html",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "axel-saenz-rodriguez",
+          "name": "Axel Saenz Rodriguez",
+          "title": "Assistant Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "probability"
+          ],
+          "summary": "Probability, Integrability, and Universality: I work on probability models with many particles that have weak interactions. This means that a single particle only interacts directly with its immediate neighbors and the accumulation of these local interactions govern the dynamics of the whole system in a non-trivial manner.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/axelsaenz/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "ralph-e-showalter",
+          "name": "Ralph E. Showalter",
+          "title": "Professor Emeritus",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics"
+          ],
+          "summary": "My research interests include singular or degenerate nonlinear evolution equations and partial differential equations, variational inequalities, free-boundary problems, and related applications to initial-boundary-value problems of mechanics and diffusion. Current work is focused on the development of multiphysics mathematical models of coupled fluid-solid dynamics, deformable porous media, and upscaled models of transport and flow in heterogeneous media.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/ralphshowalter",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "enrique-a-thomann",
+          "name": "Enrique A. Thomann",
+          "title": "Professor Emeritus",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics",
+            "mathematical biology",
+            "probability"
+          ],
+          "summary": "Thomann's research is primarily in problems in partial differential equations arising from fluid mechanics. He also collaborates with colleagues in other departments, as well as in the Mathematics Department, in the development of mathematical models to problems in Ecology, Oceanography, Hydrology and management of Natural Resources.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/enrique-a-thomann",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "xueying-yu",
+          "name": "Xueying Yu",
+          "title": "Assistant Professor",
+          "sub_field": "Analysis and Applied Mathematics",
+          "tags": [
+            "analysis and applied mathematics"
+          ],
+          "summary": "Xueying Yu's research interests are Dispersive Partial Differential Equations and Harmonic Analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/yuxueying/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "philipp-kunde",
+          "name": "Philipp Kunde",
+          "title": "Assistant Professor",
+          "sub_field": "Dynamical Systems",
+          "tags": [
+            "dynamical systems",
+            "probability"
+          ],
+          "summary": "Research Interests: Smooth Ergodic Theory, (Anti-)Classification in Dynamics, Operator-theoretic aspects of Ergodic Theory, Extreme Value Theory in Dynamics, and Data-driven prediction of dynamical systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/pkunde/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "swati-patel",
+          "name": "Swati Patel",
+          "title": "Assistant Professor",
+          "sub_field": "Dynamical Systems",
+          "tags": [
+            "dynamical systems",
+            "mathematical biology"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/swatipatel",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "william-a-bogley",
+          "name": "William A. Bogley",
+          "title": "Professor Emeritus",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology"
+          ],
+          "summary": "Structure and classification of groups given by generators and relations. Low dimensional topology and homotopy theory. Asphericity of cell complexes and equations over groups.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/william-a-bogley",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "orsola-capovilla-searle",
+          "name": "Orsola Capovilla-Searle",
+          "title": "Assistant Professor",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology"
+          ],
+          "summary": "Capovilla-Searle's research interests are in the fields of low dimensional symplectic and contact topology. Capovilla-Searle's research focuses on structures in symplectic and contact geometry( Legendrian knots, Lagrangian surfaces, Weinstein domains). She has a joint appointment in the college of engineering in robotics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/view/orsola-capovilla-searle/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "tevian-dray",
+          "name": "Tevian Dray",
+          "title": "Professor Emeritus",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology",
+            "mathematics education"
+          ],
+          "summary": "Past work has emphasized General Relativity, studying model spacetimes and their properties, as well as the interface between relativity and quantum physics. Current work investigates applications of the Octonions, the unique non-associative division algebra, to the physics of fundamental particles.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/~tevian/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "christine-m-escher",
+          "name": "Christine M. Escher",
+          "title": "Professor",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology"
+          ],
+          "summary": "Escher's current work lies in the interaction between algebraic topology and differential geometry, in particular the use of surgery theory to classify spaces of positive sectional curvature. Her previous work is connected to the field of minimal submanifolds; in particular existence and uniqueness questions of minimal isometric immersions of spherical space forms into spheres.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://blogs.oregonstate.edu/cescher/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "dennis-j-garity",
+          "name": "Dennis J. Garity",
+          "title": "Professor Emeritus",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology"
+          ],
+          "summary": "Garity's current research is focused on properties of embeddings of Cantor sets in Euclidean spaces, focusing on embeddings in R^3. Cantor sets often arise as limit sets or invariant sets of dynamical systems. The complements of such Cantor sets in R^3 are 3-manifolds with a rich end structure. The possible types of embeddings of these sets in R^n can provide information about possible dynamical systems and about the end structure of manifolds.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://sites.science.oregonstate.edu/~garity/",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "chad-giusti",
+          "name": "Chad Giusti",
+          "title": "Associate Professor",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology",
+            "mathematical biology"
+          ],
+          "summary": "Research focus: Topological neuroscience; computation and coding in neural systems; development of topological, algebraic, and geometric methods for scientific applications; topology of spaces of configurations and embeddings",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.chadgiusti.com",
+            "scholar": "https://scholar.google.com/citations?user=i2n7LaUAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "ren-guo",
+          "name": "Ren Guo",
+          "title": "Associate Professor",
+          "sub_field": "Geometry and Topology",
+          "tags": [
+            "geometry and topology"
+          ],
+          "summary": "Guo is working on circle packing, discrete conformal geometry, hyperbolic geometry, Teichmüller space.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/ren-guo",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "benjamin-d-dalziel",
+          "name": "Benjamin D. Dalziel",
+          "title": "Associate Professor (Integrative Biology and Mathematics)",
+          "sub_field": "Mathematical Biology",
+          "tags": [
+            "mathematical biology"
+          ],
+          "summary": "I have broad interests in ecological and evolutionary dynamics, particularly related to population health, and to the maintenance of biodiversity. I am particularly interested in (i) the ecology and evolution of infectious diseases, especially the impact of host population structure on pathogen spread and diversification and (ii) how collective behavior affects trophic interactions and ecosystem stability.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/benjamin-d-dalziel",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "yevgeniy-kovchegov",
+          "name": "Yevgeniy Kovchegov",
+          "title": "Professor Emeritus",
+          "sub_field": "Mathematical Biology",
+          "tags": [
+            "mathematical biology",
+            "probability"
+          ],
+          "summary": "Yevgeniy Kovchegov works in the field of probability and stochastic processes. His research interests include the mathematical models of statistical mechanics, interacting particle systems, models of mathematical biology, stochastic self-similarity, and quantum computation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/yevgeniy-kovchegov",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "mary-d-beisiegel",
+          "name": "Mary D. Beisiegel",
+          "title": "Professor",
+          "sub_field": "Mathematics Education",
+          "tags": [
+            "mathematics education"
+          ],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/mary-d-beisiegel",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "thomas-p-dick",
+          "name": "Thomas P. Dick",
+          "title": "Professor Emeritus",
+          "sub_field": "Mathematics Education",
+          "tags": [
+            "mathematics education"
+          ],
+          "summary": "Dick's research interests include the study of factors related to mathematics achievement and participation, cognitive science as applied to the learning of advanced mathematics, uses of technology in the learning of mathematics, and mathematical discourse. He has worked extensively in the calculus curriculum reform movement.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/thomas-p-dick",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "elise-lockwood",
+          "name": "Elise Lockwood",
+          "title": "Professor",
+          "sub_field": "Mathematics Education",
+          "tags": [
+            "mathematics education"
+          ],
+          "summary": "Lockwood's primary research interest involves undergraduate mathematics education, particularly studying how students think about and learn combinatorial topics. She has put forth a model of student's combinatorial thinking that especially emphasizes the role of sets of outcomes in effective counting.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/elise-lockwood",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "edward-c-waymire",
+          "name": "Edward C. Waymire",
+          "title": "Professor Emeritus",
+          "sub_field": "Probability",
+          "tags": [
+            "probability"
+          ],
+          "summary": "Waymire's primary research concerns applications of probability and stochastic processes to problems of contemporary applied mathematics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/edward-c-waymire",
+            "scholar": ""
+          }
+        },
+        {
+          "id": "peter-dillery",
+          "name": "Peter Dillery",
+          "title": "Assistant Professor",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://math.oregonstate.edu/directory/peter-dillery",
+            "scholar": ""
+          }
+        }
+      ]
     }
   ]
 }

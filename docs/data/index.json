@@ -1,12 +1,12 @@
 {
   "meta": {
     "version": 2,
-    "generated_at": "2026-09-03",
+    "generated_at": "2026-09-21",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep + Singapore/Hong Kong PhD wave",
-    "note": "1434 STEM PhD/MSc programs across the US, UK, Europe, Canada and Asia-Pacific; faculty rosters on 556 programs (15593 faculty). The 45 Singapore and Hong Kong PhD entries added 2026-09-03 carry admissions and funding; 7 of them now have faculty rosters. Unknown/Verify = not yet confirmed on an official page."
+    "note": "1436 STEM PhD/MSc programs across the US, UK, Europe, Canada and Asia-Pacific; faculty rosters on 558 programs (15720 faculty). The 45 Singapore and Hong Kong PhD entries added 2026-09-03 carry admissions and funding; 7 of them now have faculty rosters. Unknown/Verify = not yet confirmed on an official page."
   },
-  "total": 1434,
+  "total": 1436,
   "fields": [
     {
       "primary": "Biology & Life Sciences",
@@ -715,9 +715,9 @@
     {
       "primary": "Mathematics",
       "slug": "mathematics",
-      "count": 97,
-      "withFaculty": 92,
-      "facultyCount": 3240,
+      "count": 98,
+      "withFaculty": 93,
+      "facultyCount": 3277,
       "subs": [
         "Algebra",
         "Algebraic Geometry",
@@ -977,14 +977,15 @@
     {
       "primary": "Physics",
       "slug": "physics",
-      "count": 90,
-      "withFaculty": 85,
-      "facultyCount": 2933,
+      "count": 91,
+      "withFaculty": 86,
+      "facultyCount": 3023,
       "subs": [
         "AMO Physics",
         "Applied Physics",
         "Astrophysics",
         "Astrophysics & Cosmology",
+        "Atmospheric Physics",
         "Atomic Physics",
         "Atomic, Molecular & Optical",
         "Biochemistry",
@@ -998,6 +999,7 @@
         "Cell Biology",
         "Chemical Biology",
         "Chemical Physics",
+        "Climate Dynamics",
         "Computational Biology",
         "Computational Biophysics",
         "Condensed Matter",
@@ -1007,6 +1009,7 @@
         "Fusion",
         "Genetics",
         "Genomics",
+        "Geophysical Fluid Dynamics",
         "Geophysics",
         "High Energy",
         "High Energy Physics",
@@ -1042,6 +1045,7 @@
         "Quantum Chemistry",
         "Quantum Information",
         "Quantum Materials",
+        "Quantum Optics",
         "Quantum Physics",
         "Quantum Science",
         "Quantum Technologies",
@@ -1063,6 +1067,7 @@
         "Applied Physics",
         "Astrophysics",
         "Astrophysics & Cosmology",
+        "Atmospheric Physics",
         "Atomic, Molecular & Optical",
         "Biochemistry",
         "Bioengineering",
@@ -1075,6 +1080,7 @@
         "Cell Biology",
         "Chemical Biology",
         "Chemical Physics",
+        "Climate Dynamics",
         "Computational Biology",
         "Computational Biophysics",
         "Condensed Matter",
@@ -1084,6 +1090,7 @@
         "Fusion",
         "Genetics",
         "Genomics",
+        "Geophysical Fluid Dynamics",
         "Geophysics",
         "High Energy",
         "High Energy Physics",
@@ -1119,6 +1126,7 @@
         "Quantum Chemistry",
         "Quantum Information",
         "Quantum Materials",
+        "Quantum Optics",
         "Quantum Physics",
         "Quantum Science",
         "Radiation",
