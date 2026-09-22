@@ -2363,7 +2363,28 @@
         "program": "https://oge.mit.edu/programs/earth-atmospheric-and-planetary-sciences/"
       },
       "data_currency": "2026-07-05 · top-50 sweep · US News #2",
-      "faculty": []
+      "faculty": [
+        {
+          "id": "glenn-r-flierl",
+          "name": "Glenn R. Flierl",
+          "title": "Professor of Oceanography",
+          "sub_field": "Oceanography",
+          "tags": [
+            "geophysical vortices",
+            "ocean eddies",
+            "planetary-scale turbulence",
+            "fluid dynamics",
+            "ecosystem dynamics",
+            "Gulf Stream"
+          ],
+          "summary": "Glenn Flierl is an oceanographer studying the theory of geophysical vortices and jets, including the dynamics of ocean eddies and meandering currents like the Gulf Stream. He also investigates how ocean flows affect ecosystems, plankton, and fish through mixing and nutrient transport.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://eaps.mit.edu/people/faculty/glenn-r-flierl/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "northwestern-university-physics-phd",

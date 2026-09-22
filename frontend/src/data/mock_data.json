@@ -1,10 +1,10 @@
 {
   "meta": {
     "version": 2,
-    "generated_at": "2026-09-21",
+    "generated_at": "2026-09-22",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep + Singapore/Hong Kong PhD wave",
-    "note": "1436 STEM PhD/MSc programs across the US, UK, Europe, Canada and Asia-Pacific; faculty rosters on 558 programs (15720 faculty). The 45 Singapore and Hong Kong PhD entries added 2026-09-03 carry admissions and funding; 7 of them now have faculty rosters. Unknown/Verify = not yet confirmed on an official page."
+    "note": "1436 STEM PhD/MSc programs across the US, UK, Europe, Canada and Asia-Pacific; faculty rosters on 559 programs (15721 faculty). The 45 Singapore and Hong Kong PhD entries added 2026-09-03 carry admissions and funding; 7 of them now have faculty rosters. Unknown/Verify = not yet confirmed on an official page."
   },
   "programs": [
     {
@@ -104919,7 +104919,28 @@
         "program": "https://oge.mit.edu/programs/earth-atmospheric-and-planetary-sciences/"
       },
       "data_currency": "2026-07-05 · top-50 sweep · US News #2",
-      "faculty": []
+      "faculty": [
+        {
+          "id": "glenn-r-flierl",
+          "name": "Glenn R. Flierl",
+          "title": "Professor of Oceanography",
+          "sub_field": "Oceanography",
+          "tags": [
+            "geophysical vortices",
+            "ocean eddies",
+            "planetary-scale turbulence",
+            "fluid dynamics",
+            "ecosystem dynamics",
+            "Gulf Stream"
+          ],
+          "summary": "Glenn Flierl is an oceanographer studying the theory of geophysical vortices and jets, including the dynamics of ocean eddies and meandering currents like the Gulf Stream. He also investigates how ocean flows affect ecosystems, plankton, and fish through mixing and nutrient transport.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://eaps.mit.edu/people/faculty/glenn-r-flierl/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "massachusetts-institute-of-technology-electrical-engineering-and-computer-scienc",
