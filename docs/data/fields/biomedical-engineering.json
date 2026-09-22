@@ -81,7 +81,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs (stipend, tuition, health)"
+          "note": "Fully funded 5 yrs (stipend, tuition, health)",
+          "stipend": {
+            "amount": 52198,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "school-standard",
+            "source": "https://graduateschool.brown.edu/financing-support/phd-funding/graduate-student-stipend-information",
+            "quote": "2025-2026 Stipend Amounts: FY26 Doctoral Base Stipends (July 1, 2025 - June 30, 2026) | Fall and Spring Base Stipends $19,574.25 | Summer Base Stipend $13,049.50 | Total 12 Month Base Stipend $52,198 | Monthly Base Stipend $4,349.83",
+            "note": "Brown Graduate School FY26 doctoral base stipend (same in GLO CBA 2023-26). No FY27 rate published yet; no BME figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -332,14 +343,8 @@
           "years": null,
           "note": "Unknown/Verify",
           "stipend": {
-            "amount": 30000,
-            "currency": "USD",
-            "period": "12-month",
-            "academic_year": "2018-19",
-            "scope": "program",
-            "source": "https://www.cmu.edu/bme/Academics/graduate-programs/Resources/documents/miscellaneous/BME_PhD_Financial_Support.pdf",
-            "quote": "For 2018-2019 AY financial aid included: 1. A taxable stipend of $30,000, paid semi-monthly over 12 months.",
-            "note": "STALE: only published figure is for 2018-19; current pages say full tuition + living stipend without an amount.",
+            "amount": null,
+            "note": "No current official figure. Department's own page gives only an older figure: USD 30000 (12-month, 2018-19).",
             "checked_at": "2026-09-22"
           }
         },
@@ -538,7 +543,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded, stipend + tuition + benefits"
+          "note": "Fully funded, stipend + tuition + benefits",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages. Joint GT-Emory program (students jointly enrolled); BME pages give no figure and do not say whether Emory LGS or GT rate applies.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -787,7 +797,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (all Rossin College PhDs 100% funded)"
+          "note": "Fully funded (all Rossin College PhDs 100% funded)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; Rossin: all PhDs 100% funded (monthly stipend + tuition), no amount; catalog says TA stipend set yearly by college dean.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -828,7 +843,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, health insurance, stipend)"
+          "note": "Fully funded (tuition, health insurance, stipend)",
+          "stipend": {
+            "amount": 51226,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://hr.mit.edu/sites/default/files/mitgsu_cba_final.pdf",
+            "quote": "RA, doctoral @ 3.25% $4,269 $51,226 $58,910",
+            "note": "No dept figure. MIT-GSU CBA min RA doctoral rate eff. June 1, 2025 (TA doctoral $52,429); OGE lists as current, 2026-27 under negotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -869,7 +895,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3600,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": null,
+            "scope": "school-standard",
+            "source": "https://engineering.nyu.edu/academics/graduate/phd-hub/frequently-asked-questions",
+            "quote": "Students who are offered the School of Engineering PhD Fellowship should receive their one-time welcome bonus of $4,000.00 with their first monthly stipend of $3,600.00 by the end of August as long as they are registered full-time (9 credits) by July 31.",
+            "note": "No program figure; Tandon School of Engineering PhD Fellowship rate (plus $4,000 one-time welcome bonus); year not stated on page. RA-funded students may differ.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -910,7 +947,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; SEGAF says stipend amounts are set by college/dept and none is published. $43,000 minimum was only a 2025 union contract offer, not adopted.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1053,7 +1095,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment"
+          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment",
+          "stipend": {
+            "amount": 46200,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs",
+            "quote": "First Year Fellowship in Natural Sciences and Engineering (10 months) 46,200",
+            "note": "Princeton Graduate School NSE rate, 10-month (Aug-May) first-year fellowship; summer RA 9,240 (2 mo); later RA 46,200/10 mo, TA 48,510/10 mo. No dept figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1095,7 +1148,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment"
+          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment",
+          "stipend": {
+            "amount": 46200,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs",
+            "quote": "First Year Fellowship in Natural Sciences and Engineering (10 months) 46,200",
+            "note": "Princeton Graduate School NSE rate, 10-month (Aug-May) first-year fellowship; summer RA 9,240 (2 mo); later RA 46,200/10 mo, TA 48,510/10 mo. No dept figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1396,7 +1460,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full-time PhD students in School of Engineering often receive tuition scholarship"
+          "note": "Full-time PhD students in School of Engineering often receive tuition scholarship",
+          "stipend": {
+            "amount": 48000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://tufts.app.box.com/s/257uv3q2jjm70m6251ur413slrgi0xbs",
+            "quote": "Beginning September 1st, 2024, all departments in the School of Engineering (SOE) will pay Graduate Assistants on 12-month appointments the following minimum stipends: Department 9/1/2024 7/1/2025 (FY 26) 7/1/2026 (FY 27) 7/1/2027 (FY28) ... All Other Departments $44,667 $46,000 $48,000 $50,000",
+            "note": "SOE minimum for PhD RA/TAs on 12-mo appointments, Tufts–SEIU Local 509 CBA (App. D); FY26 $46,000, FY28 $50,000; <12-mo appointments pro-rated.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1437,7 +1512,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full-time PhD students in School of Engineering often receive tuition scholarship"
+          "note": "Full-time PhD students in School of Engineering often receive tuition scholarship",
+          "stipend": {
+            "amount": 48000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://tufts.app.box.com/s/257uv3q2jjm70m6251ur413slrgi0xbs",
+            "quote": "Beginning September 1st, 2024, all departments in the School of Engineering (SOE) will pay Graduate Assistants on 12-month appointments the following minimum stipends: Department 9/1/2024 7/1/2025 (FY 26) 7/1/2026 (FY 27) 7/1/2027 (FY28) ... All Other Departments $44,667 $46,000 $48,000 $50,000",
+            "note": "SOE minimum for PhD RA/TAs on 12-mo appointments, Tufts–SEIU Local 509 CBA (App. D); FY26 $46,000, FY28 $50,000; <12-mo appointments pro-rated.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1478,7 +1564,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full-time PhD students in School of Engineering often receive tuition scholarship"
+          "note": "Full-time PhD students in School of Engineering often receive tuition scholarship",
+          "stipend": {
+            "amount": 48000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://tufts.app.box.com/s/257uv3q2jjm70m6251ur413slrgi0xbs",
+            "quote": "Beginning September 1st, 2024, all departments in the School of Engineering (SOE) will pay Graduate Assistants on 12-month appointments the following minimum stipends: Department 9/1/2024 7/1/2025 (FY 26) 7/1/2026 (FY 27) 7/1/2027 (FY28) ... All Other Departments $44,667 $46,000 $48,000 $50,000",
+            "note": "SOE minimum for PhD RA/TAs on 12-mo appointments, Tufts–SEIU Local 509 CBA (App. D); FY26 $46,000, FY28 $50,000; <12-mo appointments pro-rated.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1617,7 +1714,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "GROUP 1 (Davis, Irvine, Merced, Riverside, San Diego, Santa Barbara, and Santa Cruz) ... Teaching Assistant 1 $3,928.89 $3,536.00 $4,100.00 $3,690.00 T18B, Grade 1",
+            "note": "BME guarantees PhD funding; GSR after lab match. No dept figure. UC-UAW min: TA pt 1, 50%, quarter-campus monthly, eff. 10/1/2026 (UCOP T18); GSR pt 1 $3,174/mo (T22).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1704,7 +1812,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3174,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://grad.ucsd.edu/financial/employment/2026-2027-Student-Academic-Title-Rates-effec.-10-01-26---2025-2026.pdf",
+            "quote": "Graduate Student Researcher 3266 1 3,174.00 6,348.00 T022 1 UC_FY",
+            "note": "BE: stipend per UC-UAW GSR contract at a dept 'nominal minimum level set each year' (figure not published). UC-UAW GSR step 1 at 50%, eff 10/1/26 (GEPA).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1745,7 +1864,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $3,928.89 $3,536.00 $4,100.00 $3,690.00 T18B, Grade 1",
+            "note": "No dept figure. UC-UAW TA point 1 at 50%, Group 1 quarter rate (incl. UCSB), eff. 10/1/2026 (UCOP T18); GSR point 1 at 50% $3,174/mo. Dept refers to AP salary scales.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2197,7 +2327,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)"
+          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)",
+          "stipend": {
+            "amount": 42435,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://graduateschool.nd.edu/funding/",
+            "quote": "$42,435 for engineering students (up to $50,000 for select fellows )",
+            "note": "Notre Dame Graduate School 2026-27 standard for engineering PhD students (12-mo); select fellows up to $50,000; CoE external-fellowship holders adjusted to $48,000. No dept figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2239,7 +2380,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "PhD students typically fully funded (tuition, fees, stipend, health insurance)"
+          "note": "PhD students typically fully funded (tuition, fees, stipend, health insurance)",
+          "stipend": {
+            "amount": 49000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.upenn.edu/wp-content/uploads/Graduate-Workers-CBA-Expires-June-1-2028.pdf",
+            "quote": "Effective April 1, 2026, the University shall increase Graduate Worker stipends so that each Graduate Worker receives the greater of: ... b. an adjustment of their annual stipend to Forty-Nine Thousand Dollars ($49,000), which shall serve as the minimum annual stipend for Graduate Workers in their guaranteed years of funding.",
+            "note": "Penn–UAW CBA minimum (from Apr 1 2026). Older BE admissions page: \"$40,500 stipend\" for 2022-23 new students.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2281,7 +2433,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages. Dept says all PhD admits get 'a competitive stipend'; handbook gives no amount.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2420,7 +2577,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Most PhD students fully funded (tuition, fees, health insurance + stipend)"
+          "note": "Most PhD students fully funded (tuition, fees, health insurance + stipend)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages (BME says all PhD students get tuition, fees, insurance and a stipend; no amount; SEAS Cost & Aid page gives no figure)",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",

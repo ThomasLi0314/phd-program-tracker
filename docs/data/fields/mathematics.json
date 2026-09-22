@@ -31,7 +31,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "All admitted students are offered support (fellowship/TA/RA covering tuition and stipend); there is no separate financial aid application. Guaranteed number of years not stated on the admissions page."
+          "note": "All admitted students are offered support (fellowship/TA/RA covering tuition and stipend); there is no separate financial aid application. Guaranteed number of years not stated on the admissions page.",
+          "stipend": {
+            "amount": 4370.21,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://math.mit.edu/academics/grad/phd/financial/",
+            "quote": "Fellowship: $4,370.21 per month",
+            "note": "Year-1 fellowship rate (2025-26 per page); TA/RA $4,488.28/mo; Instructor G $5,024.73/mo. Covers Sept-May plus one summer month at 85%.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Neutral / Not Required",
         "contact_note": "Admissions questions go to the Math Graduate Office (gradofc@math.mit.edu); pre-application faculty contact is not part of the process.",
@@ -455,7 +466,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": 5,
-          "note": "At least five years of guaranteed funding, including stipend, tuition, health services fee, and health insurance."
+          "note": "At least five years of guaranteed funding, including stipend, tuition, health services fee, and health insurance.",
+          "stipend": {
+            "amount": 52198,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "school-standard",
+            "source": "https://graduateschool.brown.edu/financing-support/phd-funding/graduate-student-stipend-information",
+            "quote": "2025-2026 Stipend Amounts: FY26 Doctoral Base Stipends (July 1, 2025 - June 30, 2026) | Fall and Spring Base Stipends $19,574.25 | Summer Base Stipend $13,049.50 | Total 12 Month Base Stipend $52,198 | Monthly Base Stipend $4,349.83",
+            "note": "Brown Graduate School FY26 doctoral base stipend (same in GLO CBA 2023-26). No FY27 rate published yet; dept page gives no figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Neutral / Not Required",
         "contact_note": "The Division notes you may email a professor directly with specific research questions, but admission is to the division rather than to individual advisors.",
@@ -1437,7 +1459,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": 5,
-          "note": "PhD admits receive GSAS MacCracken support for up to five years assuming good progress: nine-month stipend, full tuition and registration fees, and NYU comprehensive health insurance."
+          "note": "PhD admits receive GSAS MacCracken support for up to five years assuming good progress: nine-month stipend, full tuition and registration fees, and NYU comprehensive health insurance.",
+          "stipend": {
+            "amount": 37132,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gsas.nyu.edu/admissions/financial-aid/graduate-school-fellowships-and-assistantships/calculator.html",
+            "quote": "Minimum Base Stipend for 2026-27 $37,132",
+            "note": "No program figure found; GSAS (NYU Graduate School of Arts & Science) minimum base MacCracken stipend (PhD Financial Calculator). Courant page gives no amount.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Neutral / Not Required",
         "contact_note": "Applications go through GSAS and the departmental committee (admissions@math.nyu.edu); contacting faculty beforehand is not part of the process.",
@@ -1824,7 +1857,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": 4,
-          "note": "Princeton guarantees full funding (tuition plus stipend via fellowships/assistantships) to all Ph.D. candidates during regular program enrollment; a PACM search snippet states 'Princeton guarantees full funding for its Ph.D. candidates for all years of regular program enrollment.' PACM lists program length as 4 years. Source: gradschool.princeton.edu/financial-support and the PACM graduate admissions page. Note: WebFetch of gradschool.princeton.edu returned HTTP 403, so the statement is confirmed via Princeton Graduate School financial-support pages via search. Verify current terms."
+          "note": "Princeton guarantees full funding (tuition plus stipend via fellowships/assistantships) to all Ph.D. candidates during regular program enrollment; a PACM search snippet states 'Princeton guarantees full funding for its Ph.D. candidates for all years of regular program enrollment.' PACM lists program length as 4 years. Source: gradschool.princeton.edu/financial-support and the PACM graduate admissions page. Note: WebFetch of gradschool.princeton.edu returned HTTP 403, so the statement is confirmed via Princeton Graduate School financial-support pages via search. Verify current terms.",
+          "stipend": {
+            "amount": 46200,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs",
+            "quote": "First Year Fellowship in Natural Sciences and Engineering (10 months) 46,200",
+            "note": "Princeton Graduate School NSE rate, 10-month (Aug-May) first-year fellowship; summer RA 9,240 (2 mo); later RA 46,200/10 mo, TA 48,510/10 mo. No dept figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Neutral / Not Required",
         "contact_note": "The official PACM admissions page directs graduate program and admissions questions to Katherine Lamos (klamos@princeton.edu). It does not state that applicants should or must contact faculty before applying (Unknown/Verify).",
@@ -4445,7 +4489,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs (stipend, tuition, health)"
+          "note": "Fully funded 5 yrs (stipend, tuition, health)",
+          "stipend": {
+            "amount": 52198,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "school-standard",
+            "source": "https://graduateschool.brown.edu/financing-support/phd-funding/graduate-student-stipend-information",
+            "quote": "2025-2026 Stipend Amounts: FY26 Doctoral Base Stipends (July 1, 2025 - June 30, 2026) | Fall and Spring Base Stipends $19,574.25 | Summer Base Stipend $13,049.50 | Total 12 Month Base Stipend $52,198 | Monthly Base Stipend $4,349.83",
+            "note": "Brown Graduate School FY26 doctoral base stipend (same in GLO CBA 2023-26). No FY27 rate published yet; dept: yr-1 fellowship then TA; no figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14493,7 +14548,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs; 12-mo stipend $49,862 (2026-27)"
+          "note": "Fully funded 5 yrs; 12-mo stipend $49,862 (2026-27)",
+          "stipend": {
+            "amount": 49862.4,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://graduate.dartmouth.edu/financial-support/funding/stipends-and-benefits",
+            "quote": "This package includes tuition, health insurance, a stipend ($49,862.40 in 2026-27), and a relocation bonus among other benefits to help cover the costs of moving to and living in New Hampshire.",
+            "note": "Guarini School package for all PhD programs; no dept figure. 12-mo basis per GOLD-UE CBA (min $47,000 eff. July 1, 2024).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -15941,7 +16007,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded, stipend + tuition"
+          "note": "Fully funded, stipend + tuition",
+          "stipend": {
+            "amount": 43260,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gs.emory.edu/funding/scholarships/index.html",
+            "quote": "As part of the Phd Student Union Collective Bargaining Agreement, eligible PhD students will receive an annual stipend of $43,260 for FY26-27.",
+            "note": "Math page: PhD admits get full tuition and stipend, no figure; LGS (Laney Graduate School) rate.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -19538,7 +19615,12 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "PhD students supported via TA/RA and fellowships"
+          "note": "PhD students supported via TA/RA and fellowships",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; dept: TA/RA/fellowship with stipend + tuition remission, no amount.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -19948,7 +20030,12 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "PhD students supported via TA/RA and fellowships"
+          "note": "PhD students supported via TA/RA and fellowships",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; dept: TA/RA/fellowship with stipend + tuition remission, no amount.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -20277,7 +20364,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded via MacCracken (full tuition + stipend + health insurance, 4-5 yrs + 3 summers)"
+          "note": "Fully funded via MacCracken (full tuition + stipend + health insurance, 4-5 yrs + 3 summers)",
+          "stipend": {
+            "amount": 37132,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gsas.nyu.edu/admissions/financial-aid/graduate-school-fellowships-and-assistantships/calculator.html",
+            "quote": "Minimum Base Stipend for 2026-27 $37,132",
+            "note": "No program figure found; GSAS (NYU Graduate School of Arts & Science) minimum base MacCracken stipend (PhD Financial Calculator). Courant page gives no amount.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -21600,7 +21698,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded via MacCracken (full tuition + stipend + health insurance, 4-5 yrs + 3 summers)"
+          "note": "Fully funded via MacCracken (full tuition + stipend + health insurance, 4-5 yrs + 3 summers)",
+          "stipend": {
+            "amount": 37132,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gsas.nyu.edu/admissions/financial-aid/graduate-school-fellowships-and-assistantships/calculator.html",
+            "quote": "Minimum Base Stipend for 2026-27 $37,132",
+            "note": "No program figure found; GSAS (NYU Graduate School of Arts & Science) minimum base MacCracken stipend (PhD Financial Calculator). CAOS page gives no amount.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -21642,7 +21751,12 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Assistantships, stipend positions, and fellowships (per College of Science)"
+          "note": "Assistantships, stipend positions, and fellowships (per College of Science)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; SEGAF says stipend amounts are set by college/dept and none is published. $43,000 minimum was only a 2025 union contract offer, not adopted.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -23092,7 +23206,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment"
+          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment",
+          "stipend": {
+            "amount": 46200,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs",
+            "quote": "First Year Fellowship in Natural Sciences and Engineering (10 months) 46,200",
+            "note": "Dept: first-years get the Univ. First-Year Fellowship in NSE (Grad School rate, 10 mo); yrs 2-5 paid half TA/half RA (TA 48,510, RA 46,200 per 10 mo). No dept figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -28563,7 +28688,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 36000,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://tufts.app.box.com/s/257uv3q2jjm70m6251ur413slrgi0xbs",
+            "quote": "Beginning with the first pay period of Fiscal Year 2024, all Departments in GSAS will pay Graduate Assistants the same 9 month stipend of $32,000 ... FY25 $33,500 FY26 $34,500 FY27 $36,000 FY28 $37,500",
+            "note": "Math PhD handbook confirms CBA sets TA/RA pay. GSAS minimum for PhD RA/TAs set by Tufts–SEIU Local 509 CBA (App. C); FY26 $34,500, FY28 $37,500; depts may pay more; non-service fellows excluded.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -33498,7 +33634,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "GROUP 1 (Davis, Irvine, Merced, Riverside, San Diego, Santa Barbara, and Santa Cruz) ... Teaching Assistant 1 $3,928.89 $3,536.00 $4,100.00 $3,690.00 T18B, Grade 1",
+            "note": "No dept figure. UC-UAW min: TA pt 1, 50%, quarter-campus monthly, eff. 10/1/2026 (UCOP T18); GSR pt 1 $3,174/mo (T22).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -34210,7 +34357,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "GROUP 1 (Davis, Irvine, Merced, Riverside, San Diego, Santa Barbara, and Santa Cruz) ... Teaching Assistant 1 $3,928.89 $3,536.00 $4,100.00 $3,690.00 T18B, Grade 1",
+            "note": "Yr-1 gateway stipend amount unpublished. No dept figure. UC-UAW min: TA pt 1, 50%, quarter-campus monthly, eff. 10/1/2026 (UCOP T18); GSR pt 1 $3,174/mo (T22).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -37164,7 +37322,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Guaranteed TA with full tuition & fee remission for 5 yrs"
+          "note": "Guaranteed TA with full tuition & fee remission for 5 yrs",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://grad.ucsd.edu/financial/employment/2026-2027-Student-Academic-Title-Rates-effec.-10-01-26---2025-2026.pdf",
+            "quote": "Teaching Assistant 2310 1 4,100.00 8,200.00 T18B 1 UC_9M",
+            "note": "Dept guarantees a TA each quarter for 5 yrs + tuition/fee remission (no $ stated). UC-UAW TA step 1 at 50% (academic-year appt), eff 10/1/26, GEPA rate table.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -38404,7 +38573,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Meeting deadline required for departmental/campus financial support consideration"
+          "note": "Meeting deadline required for departmental/campus financial support consideration",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $3,928.89 $3,536.00 $4,100.00 $3,690.00 T18B, Grade 1",
+            "note": "No dept figure. UC-UAW TA point 1 at 50%, Group 1 quarter rate (incl. UCSB), eff. 10/1/2026 (UCOP T18); GSR point 1 at 50% $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -43858,14 +44038,14 @@
           "years": null,
           "note": "Unknown/Verify",
           "stipend": {
-            "amount": 11598,
+            "amount": 14596,
             "currency": "USD",
             "period": "term",
-            "academic_year": "2021-22",
-            "scope": "program",
-            "source": "https://lsa.umich.edu/math/graduates/Admissions/applying.html",
-            "quote": "The stipend for such an appointment in 2021-2022 is $11,598 per term.",
-            "note": "Per-term GSI stipend; stale 2021-22 dept figure. Newer Rackham 2025-26 established stipend: $14,596/term (x3 terms = $43,788).",
+            "academic_year": "2025-26",
+            "scope": "school-standard",
+            "source": "https://rackham.umich.edu/funding/cost-sharing-by-rackham/",
+            "quote": "(currently in AY 2025–26, the established stipend for each term is $14,596, and 50 percent is $7,298)",
+            "note": "Department's own page gives only an older figure: USD 11598 (other, 2021-22). Current figure shown is the Rackham Graduate School established stipend per term (fall, winter, spring/summer under Rackham 12-month Ph.D. funding model).",
             "checked_at": "2026-09-22"
           }
         },
@@ -44986,14 +45166,14 @@
           "years": null,
           "note": "Unknown/Verify",
           "stipend": {
-            "amount": 11598,
+            "amount": 14596,
             "currency": "USD",
             "period": "term",
-            "academic_year": "2021-22",
-            "scope": "program",
-            "source": "https://lsa.umich.edu/math/graduates/Admissions/applying.html",
-            "quote": "The stipend for such an appointment in 2021-2022 is $11,598 per term.",
-            "note": "Math Dept (AIM shares admissions page) per-term GSI stipend, stale 2021-22. Newer Rackham 2025-26 stipend: $14,596/term (x3 = $43,788).",
+            "academic_year": "2025-26",
+            "scope": "school-standard",
+            "source": "https://rackham.umich.edu/funding/cost-sharing-by-rackham/",
+            "quote": "(currently in AY 2025–26, the established stipend for each term is $14,596, and 50 percent is $7,298)",
+            "note": "Department's own page gives only an older figure: USD 11598 (other, 2021-22). Current figure shown is the Rackham Graduate School established stipend per term (fall, winter, spring/summer under Rackham 12-month Ph.D. funding model).",
             "checked_at": "2026-09-22"
           }
         },
@@ -46006,7 +46186,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)"
+          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)",
+          "stipend": {
+            "amount": 40590,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://graduateschool.nd.edu/funding/",
+            "quote": "$40,590 for science students (up to $50,000 for select fellows )",
+            "note": "Notre Dame Graduate School 2026-27 standard for science PhD students (12-mo); select fellows up to $50,000. No dept-specific figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -46754,7 +46945,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 49000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://www.math.upenn.edu/graduate/program-description",
+            "quote": "The 12-month academic year fellowship stipend will be $49,000 for 2026–27.",
+            "note": "Dept admissions FAQ still states $43,050 for 2025–26. 5-year package; fellowship yr 1, TA other years; 3 funded summers.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -47296,7 +47498,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance",
+          "stipend": {
+            "amount": 26000,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": null,
+            "scope": "program",
+            "source": "https://www.sas.rochester.edu/mth/graduate/apply.html",
+            "quote": "Most entering students are appointed teaching assistantships, which includes a full tuition waiver and a stipend of $26,000, depending on teaching duties. The stipend is awarded for nine months of work (10 hours of service per week).",
+            "note": "Year not stated (PhD page says 'currently... a $26k annual living stipend'). Dean's Teaching Fellows get an extra $1,500/semester.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -49775,7 +49988,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs ($37,080/yr stipend + tuition, fees, health insurance)"
+          "note": "Fully funded 5 yrs ($37,080/yr stipend + tuition, fees, health insurance)",
+          "stipend": {
+            "amount": 37260,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://graduate.as.virginia.edu/graduate-student-financial-support",
+            "quote": "The Graduate School offers doctoral students a minimum of five years of financial support upon admission, including twelve-month living support of $37,260 and full remission of tuition, fees and the premium for single-person coverage through the University’s student health insurance plan.",
+            "note": "UVA GSAS minimum. The Math support page describes 5 years of teaching fellowships/TAs plus optional summer support, with no dollar figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -55080,7 +55304,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": 5,
-          "note": "Primary funding is the GSAS MacCracken award: covers tuition and registration fees for full-time study, a nine-month stipend, and the NYU comprehensive health insurance, 'renewable for a period of up to five years, assuming good progress toward the degree.' However, it is described as 'highly competitive... based solely on academic merit' and is not explicitly stated to be guaranteed to every admitted PhD student, so full-funding status is marked Unknown/Verify. Source: math.nyu.edu financial-support page."
+          "note": "Primary funding is the GSAS MacCracken award: covers tuition and registration fees for full-time study, a nine-month stipend, and the NYU comprehensive health insurance, 'renewable for a period of up to five years, assuming good progress toward the degree.' However, it is described as 'highly competitive... based solely on academic merit' and is not explicitly stated to be guaranteed to every admitted PhD student, so full-funding status is marked Unknown/Verify. Source: math.nyu.edu financial-support page.",
+          "stipend": {
+            "amount": 37132,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gsas.nyu.edu/admissions/financial-aid/graduate-school-fellowships-and-assistantships/calculator.html",
+            "quote": "Minimum Base Stipend for 2026-27 $37,132",
+            "note": "No program figure found; GSAS (NYU Graduate School of Arts & Science) minimum base MacCracken stipend (PhD Financial Calculator). Courant page gives no amount.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "Official admission-policies and program pages do not mention or require contacting faculty before applying; admission is by committee review of submitted materials. No published statement either way — Verify.",
@@ -57619,7 +57854,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "No explicit guaranteed-funding statement found on the admissions page. Page only ties the deadline to funding eligibility: 'All materials, including the appropriate application fee, must be submitted no later than December 15 in order to be considered for admission and ANY form of departmental and/or campus-wide financial support.' Verify specific TA/GSR/fellowship packages with the department (https://www.math.ucsb.edu/graduate)."
+          "note": "No explicit guaranteed-funding statement found on the admissions page. Page only ties the deadline to funding eligibility: 'All materials, including the appropriate application fee, must be submitted no later than December 15 in order to be considered for admission and ANY form of departmental and/or campus-wide financial support.' Verify specific TA/GSR/fellowship packages with the department (https://www.math.ucsb.edu/graduate).",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $3,928.89 $3,536.00 $4,100.00 $3,690.00 T18B, Grade 1",
+            "note": "No dept figure. UC-UAW TA point 1 at 50%, Group 1 quarter rate (incl. UCSB), eff. 10/1/2026 (UCOP T18); GSR point 1 at 50% $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Not required",
         "contact_note": "Admissions page makes no mention of contacting faculty before applying and describes committee-based review; department directs applications and questions to math-gradinfo@math.ucsb.edu. No pre-application faculty contact requirement is published.",
@@ -57880,7 +58126,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": 5,
-          "note": "Quote (how-to-apply): 'Departmental support offered to Ph.D. students typically includes a Teaching Assistantship in each academic quarter as well as full tuition and fee remission. This is guaranteed for five years as long as a student is in good academic standing.' Research Assistantships and fellowships are also available."
+          "note": "Quote (how-to-apply): 'Departmental support offered to Ph.D. students typically includes a Teaching Assistantship in each academic quarter as well as full tuition and fee remission. This is guaranteed for five years as long as a student is in good academic standing.' Research Assistantships and fellowships are also available.",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://grad.ucsd.edu/financial/employment/2026-2027-Student-Academic-Title-Rates-effec.-10-01-26---2025-2026.pdf",
+            "quote": "Teaching Assistant 2310 1 4,100.00 8,200.00 T18B 1 UC_9M",
+            "note": "Dept guarantees a TA each quarter for 5 yrs + tuition/fee remission (no $ stated). UC-UAW TA step 1 at 50% (academic-year appt), eff 10/1/26, GEPA rate table.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Not required",
         "contact_note": "No pre-application faculty contact stated as required or recommended for direct PhD applicants; admission is committee-based. (Only master's-to-PhD transfer applicants in their 2nd year must secure a PhD advisor before admission is finalized.) Verify with department.",

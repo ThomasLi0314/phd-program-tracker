@@ -2175,7 +2175,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs (stipend, tuition, health)"
+          "note": "Fully funded 5 yrs (stipend, tuition, health)",
+          "stipend": {
+            "amount": 52198,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "school-standard",
+            "source": "https://graduateschool.brown.edu/financing-support/phd-funding/graduate-student-stipend-information",
+            "quote": "2025-2026 Stipend Amounts: FY26 Doctoral Base Stipends (July 1, 2025 - June 30, 2026) | Fall and Spring Base Stipends $19,574.25 | Summer Base Stipend $13,049.50 | Total 12 Month Base Stipend $52,198 | Monthly Base Stipend $4,349.83",
+            "note": "Brown Graduate School FY26 doctoral base stipend (same in GLO CBA 2023-26). No FY27 rate published yet; SPH/dept pages give no figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -6808,7 +6819,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded, stipend + tuition"
+          "note": "Fully funded, stipend + tuition",
+          "stipend": {
+            "amount": 43260,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gs.emory.edu/funding/scholarships/index.html",
+            "quote": "As part of the Phd Student Union Collective Bargaining Agreement, eligible PhD students will receive an annual stipend of $43,260 for FY26-27.",
+            "note": "Rollins Biostatistics page: LGS tuition scholarship + stipend, no figure; LGS (Laney Graduate School) rate.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -7098,7 +7120,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "All admitted students offered Graduate School Assistantship: full tuition, health insurance, stipend"
+          "note": "All admitted students offered Graduate School Assistantship: full tuition, health insurance, stipend",
+          "stipend": {
+            "amount": 40922,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://mathstat.georgetown.edu/phd-program/funding/",
+            "quote": "All admitted students will be offered a Graduate School Assistantship, which covers full tuition, health insurance, and a stipend ($40,922 for Academic Year 2026-2027).",
+            "note": "Same as the University Office of Graduate Studies academic-year (Aug-May) rate. TA in year 1, Teaching Associate after; funding through year 5.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -7238,7 +7271,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Merit-based fellowships (tuition, stipend, health/dental, fees); all applicants automatically considered"
+          "note": "Merit-based fellowships (tuition, stipend, health/dental, fees); all applicants automatically considered",
+          "stipend": {
+            "amount": 40922,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://biomedicalprograms.georgetown.edu/prospective/funding/phd/",
+            "quote": "BGE Ph.D. stipend $40,922 — 9 months $44,605 — 12 months",
+            "note": "BGE rate; 12-month ($44,605) applies if the PhD requires a summer semester. Biostatistics starts in Fall; appointment length not stated.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9360,7 +9404,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded via MacCracken (full tuition + stipend + health insurance, 4-5 yrs + 3 summers)"
+          "note": "Fully funded via MacCracken (full tuition + stipend + health insurance, 4-5 yrs + 3 summers)",
+          "stipend": {
+            "amount": 41832,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://cds.nyu.edu/phd-faq/",
+            "quote": "The fellowship includes a nine-month stipend, which for the 2025-2026 school year is $41,832.",
+            "note": "CDS PhD fellowship; also one-time start-up award. GSAS 2026-27 minimum base stipend is $37,132.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -13591,7 +13646,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "GROUP 1 (Davis, Irvine, Merced, Riverside, San Diego, Santa Barbara, and Santa Cruz) ... Teaching Assistant 1 $3,928.89 $3,536.00 $4,100.00 $3,690.00 T18B, Grade 1",
+            "note": "No dept figure. UC-UAW min: TA pt 1, 50%, quarter-campus monthly, eff. 10/1/2026 (UCOP T18); GSR pt 1 $3,174/mo (T22).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14541,7 +14607,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://grad.ucsd.edu/financial/employment/2026-2027-Student-Academic-Title-Rates-effec.-10-01-26---2025-2026.pdf",
+            "quote": "Teaching Assistant 2310 1 4,100.00 8,200.00 T18B 1 UC_9M",
+            "note": "HDSI publishes no stipend figure or funding mechanism (TA required 1 quarter). UC-UAW TA step 1 at 50%, eff 10/1/26 (GEPA); GSR step 1 50% $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14942,7 +15019,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3174,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://grad.ucsd.edu/financial/employment/2026-2027-Student-Academic-Title-Rates-effec.-10-01-26---2025-2026.pdf",
+            "quote": "Graduate Student Researcher 3266 1 3,174.00 6,348.00 T022 1 UC_FY",
+            "note": "Biostat FAQ: full support via GSR or TA employment at campus salary rates (no $ stated). UC-UAW GSR step 1 at 50%, eff 10/1/26 (GEPA); TA step 1 50% $4,100/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -15266,7 +15354,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Department provides full funding via TA, research grants, and scholarships"
+          "note": "Department provides full funding via TA, research grants, and scholarships",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $3,928.89 $3,536.00 $4,100.00 $3,690.00 T18B, Grade 1",
+            "note": "No dept figure. UC-UAW TA point 1 at 50%, Group 1 quarter rate (incl. UCSB), eff. 10/1/2026 (UCOP T18); GSR point 1 at 50% $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -22310,7 +22409,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)"
+          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)",
+          "stipend": {
+            "amount": 40590,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://graduateschool.nd.edu/funding/",
+            "quote": "$40,590 for science students (up to $50,000 for select fellows )",
+            "note": "Notre Dame Graduate School 2026-27 standard for science PhD students (12-mo); select fellows up to $50,000. No dept-specific figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -22761,7 +22871,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 49000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://www.med.upenn.edu/ggeb/bioadmissions.html",
+            "quote": "The annual stipend for students entering in Fall 2026 is $49,000.",
+            "note": "GGEB (BGS group) biostatistics admissions page; matches BGS-wide 2026-27 stipend.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -23192,7 +23313,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full fellowship covering tuition plus living stipend for all doctoral students"
+          "note": "Full fellowship covering tuition plus living stipend for all doctoral students",
+          "stipend": {
+            "amount": 49000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.upenn.edu/wp-content/uploads/Graduate-Workers-CBA-Expires-June-1-2028.pdf",
+            "quote": "Effective April 1, 2026, the University shall increase Graduate Worker stipends so that each Graduate Worker receives the greater of: ... b. an adjustment of their annual stipend to Forty-Nine Thousand Dollars ($49,000), which shall serve as the minimum annual stipend for Graduate Workers in their guaranteed years of funding.",
+            "note": "Penn–UAW CBA minimum (from Apr 1 2026). Wharton: all admits get fellowship incl. stipend, no figure published.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -23672,7 +23804,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance",
+          "stipend": {
+            "amount": 29250,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://www.urmc.rochester.edu/education/graduate/phd/statistics/apply/financial-aid",
+            "quote": "The 10-month stipend is $29,250 for the 2026-2027 academic year (September 1, 2026 - June 30, 2027) and will increase to $29,833 for the 2027-2028 academic year (September 1, 2027 - June 30, 2028).",
+            "note": "10-month stipend (Sept 1-June 30). Summer (July-Aug) support not guaranteed, on request if funds allow. $29,833 for 2027-28.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -24751,7 +24894,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs ($37,080/yr stipend + tuition, fees, health insurance)"
+          "note": "Fully funded 5 yrs ($37,080/yr stipend + tuition, fees, health insurance)",
+          "stipend": {
+            "amount": 37260,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://graduate.as.virginia.edu/graduate-student-financial-support",
+            "quote": "The Graduate School offers doctoral students a minimum of five years of financial support upon admission, including twelve-month living support of $37,260 and full remission of tuition, fees and the premium for single-person coverage through the University’s student health insurance plan.",
+            "note": "UVA GSAS minimum. The Statistics admissions page says only: 'The current annual financial support package totals over $37,000'.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -25128,7 +25282,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (~$40,000/yr assistantship + full tuition, fees, health insurance)"
+          "note": "Fully funded (~$40,000/yr assistantship + full tuition, fees, health insurance)",
+          "stipend": {
+            "amount": 41400,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": null,
+            "scope": "program",
+            "source": "https://datascience.virginia.edu/degrees/phd/tuition-and-fees",
+            "quote": "In addition, Ph.D. students will receive either a fellowship, research assistantship, or teaching assistantship that includes annual living support in the approximate amount of $41,400 per year, distributed over 12 months.",
+            "note": "Approximate; year not stated. The admissions page gives the same figure for fall, spring and summer combined. Earlier versions of the page showed $36,500 (Sep 2025) and $40,000 (Dec 2025).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",

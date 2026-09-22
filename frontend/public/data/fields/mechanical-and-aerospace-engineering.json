@@ -509,14 +509,14 @@
           "years": null,
           "note": "About 90% of PhD students are funded via GRA or GTA with out-of-state tuition waivers; support is typically renewed yearly with satisfactory progress.",
           "stipend": {
-            "amount": 2500,
+            "amount": 2291,
             "currency": "USD",
             "period": "monthly",
-            "academic_year": "2022-23",
-            "scope": "program",
-            "source": "https://www.me.gatech.edu/prospective-graduate-students",
-            "quote": "For incoming students in Fall 2022, GRA and GTA stipend levels for PhD students is $2500/month, and $2400/month for MS students.",
-            "note": "Woodruff School figure dated Fall 2022 (no newer figure published); 2026-27 Institute minimum is $2,291/month.",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://policylibrary.gatech.edu/academic-affairs/stipends-graduate-assistantships",
+            "quote": "For the 2026-2027 academic year, the minimum stipend level for each doctoral graduate research or teaching assistant shall be $2,291 per month, for any position one-third time or greater.",
+            "note": "Department's own page gives only an older figure: USD 2500 (monthly, 2022-23). Current figure shown is the Georgia Tech Institute minimum stipend, doctoral GRA/GTA (1/3 time or greater).",
             "checked_at": "2026-09-22"
           }
         },
@@ -1445,14 +1445,14 @@
           "years": null,
           "note": "Unknown/Verify",
           "stipend": {
-            "amount": 2500,
+            "amount": 2291,
             "currency": "USD",
             "period": "monthly",
-            "academic_year": "2022-23",
-            "scope": "program",
-            "source": "https://www.me.gatech.edu/prospective-graduate-students",
-            "quote": "For incoming students in Fall 2022, GRA and GTA stipend levels for PhD students is $2500/month, and $2400/month for MS students.",
-            "note": "Woodruff School (ME + NRE) figure dated Fall 2022; 2026-27 Institute minimum is $2,291/month.",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://policylibrary.gatech.edu/academic-affairs/stipends-graduate-assistantships",
+            "quote": "For the 2026-2027 academic year, the minimum stipend level for each doctoral graduate research or teaching assistant shall be $2,291 per month, for any position one-third time or greater.",
+            "note": "Department's own page gives only an older figure: USD 2500 (monthly, 2022-23). Current figure shown is the Georgia Tech Institute minimum stipend, doctoral GRA/GTA (1/3 time or greater).",
             "checked_at": "2026-09-22"
           }
         },
@@ -1600,7 +1600,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (all Rossin College PhDs 100% funded)"
+          "note": "Fully funded (all Rossin College PhDs 100% funded)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; Rossin: all PhDs 100% funded (monthly stipend + tuition), no amount; catalog says TA stipend set yearly by college dean.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1641,7 +1646,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "PhD students fully supported (fellowship/RA/TA)"
+          "note": "PhD students fully supported (fellowship/RA/TA)",
+          "stipend": {
+            "amount": 51226,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://hr.mit.edu/sites/default/files/mitgsu_cba_final.pdf",
+            "quote": "RA, doctoral @ 3.25% $4,269 $51,226 $58,910",
+            "note": "No dept figure. MIT-GSU CBA min RA doctoral rate eff. June 1, 2025 (TA doctoral $52,429); OGE lists as current, 2026-27 under negotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2570,7 +2586,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Research-track fully supported (full tuition, stipend)"
+          "note": "Research-track fully supported (full tuition, stipend)",
+          "stipend": {
+            "amount": 51226,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://hr.mit.edu/sites/default/files/mitgsu_cba_final.pdf",
+            "quote": "RA, doctoral @ 3.25% $4,269 $51,226 $58,910",
+            "note": "No dept figure. MIT-GSU CBA min RA doctoral rate eff. June 1, 2025 (TA doctoral $52,429); OGE lists as current, 2026-27 under negotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2612,7 +2639,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3600,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": null,
+            "scope": "school-standard",
+            "source": "https://engineering.nyu.edu/academics/graduate/phd-hub/frequently-asked-questions",
+            "quote": "Students who are offered the School of Engineering PhD Fellowship should receive their one-time welcome bonus of $4,000.00 with their first monthly stipend of $3,600.00 by the end of August as long as they are registered full-time (9 credits) by July 31.",
+            "note": "No program figure; Tandon School of Engineering PhD Fellowship rate (plus $4,000 one-time welcome bonus); year not stated on page. RA-funded students may differ.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2706,7 +2744,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment"
+          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment",
+          "stipend": {
+            "amount": 46200,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs",
+            "quote": "First Year Fellowship in Natural Sciences and Engineering (10 months) 46,200",
+            "note": "Princeton Graduate School NSE rate, 10-month (Aug-May) first-year fellowship; summer RA 9,240 (2 mo); later RA 46,200/10 mo, TA 48,510/10 mo. No dept figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3186,7 +3235,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full-time PhD students in School of Engineering often receive tuition scholarship"
+          "note": "Full-time PhD students in School of Engineering often receive tuition scholarship",
+          "stipend": {
+            "amount": 48000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://tufts.app.box.com/s/257uv3q2jjm70m6251ur413slrgi0xbs",
+            "quote": "Beginning September 1st, 2024, all departments in the School of Engineering (SOE) will pay Graduate Assistants on 12-month appointments the following minimum stipends: Department 9/1/2024 7/1/2025 (FY 26) 7/1/2026 (FY 27) 7/1/2027 (FY28) ... All Other Departments $44,667 $46,000 $48,000 $50,000",
+            "note": "SOE minimum for PhD RA/TAs on 12-mo appointments, Tufts–SEIU Local 509 CBA (App. D); FY26 $46,000, FY28 $50,000; <12-mo appointments pro-rated.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3325,7 +3385,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "GROUP 1 (Davis, Irvine, Merced, Riverside, San Diego, Santa Barbara, and Santa Cruz) ... Teaching Assistant 1 $3,928.89 $3,536.00 $4,100.00 $3,690.00 T18B, Grade 1",
+            "note": "No dept figure. UC-UAW min: TA pt 1, 50%, quarter-campus monthly, eff. 10/1/2026 (UCOP T18); GSR pt 1 $3,174/mo (T22).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3458,7 +3529,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "PhD typically funded via fellowships/TA/GSR (~$3,600/mo plus tuition & fees)"
+          "note": "PhD typically funded via fellowships/TA/GSR (~$3,600/mo plus tuition & fees)",
+          "stipend": {
+            "amount": 3600,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": null,
+            "scope": "program",
+            "source": "https://maeweb.ucsd.edu/grad/graduate-admissions",
+            "quote": "The typical monthly salary for a Ph.D. student is approximately $3,600 per month plus payment of tuition and fees.",
+            "note": "Approximate 'typical' figure, undated (on Fall 2027 admissions FAQ); via fellowship/TA/GSR. GEPA 2026-27: 50% GSR step 1 $3,174/mo, 50% TA step 1 $4,100/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3500,7 +3582,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $3,928.89 $3,536.00 $4,100.00 $3,690.00 T18B, Grade 1",
+            "note": "No dept figure. UC-UAW TA point 1 at 50%, Group 1 quarter rate (incl. UCSB), eff. 10/1/2026 (UCOP T18); GSR point 1 at 50% $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4109,7 +4202,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)"
+          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)",
+          "stipend": {
+            "amount": 42435,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://graduateschool.nd.edu/funding/",
+            "quote": "$42,435 for engineering students (up to $50,000 for select fellows )",
+            "note": "Notre Dame Graduate School 2026-27 standard for engineering PhD students (12-mo); select fellows up to $50,000; CoE external-fellowship holders adjusted to $48,000. No dept figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4151,7 +4255,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "PhD students typically fully funded (tuition, fees, stipend, health insurance)"
+          "note": "PhD students typically fully funded (tuition, fees, stipend, health insurance)",
+          "stipend": {
+            "amount": 49000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.upenn.edu/wp-content/uploads/Graduate-Workers-CBA-Expires-June-1-2028.pdf",
+            "quote": "Effective April 1, 2026, the University shall increase Graduate Worker stipends so that each Graduate Worker receives the greater of: ... b. an adjustment of their annual stipend to Forty-Nine Thousand Dollars ($49,000), which shall serve as the minimum annual stipend for Graduate Workers in their guaranteed years of funding.",
+            "note": "Penn–UAW graduate worker CBA minimum annual stipend (from Apr 1 2026; +3% Jul 1 2027); covers TA/RA workers. No dept figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4192,7 +4307,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages. Dept: fellowships/RAs with 'an annual stipend'; details provided in the offer letter.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4540,7 +4660,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Most PhD students fully funded (tuition, fees, health insurance + stipend)"
+          "note": "Most PhD students fully funded (tuition, fees, health insurance + stipend)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages (MAE says most PhD students get tuition, fees, insurance and a stipend; no amount)",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",

@@ -29,7 +29,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 51226,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://hr.mit.edu/sites/default/files/mitgsu_cba_final.pdf",
+            "quote": "RA, doctoral @ 3.25% $4,269 $51,226 $58,910",
+            "note": "No dept figure. MIT-GSU CBA min RA doctoral rate eff. June 1, 2025 (TA doctoral $52,429); OGE lists as current, 2026-27 under negotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",

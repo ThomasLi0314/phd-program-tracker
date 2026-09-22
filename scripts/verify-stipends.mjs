@@ -64,8 +64,26 @@ async function chromeText(url) {
   }
 }
 
+/**
+ * Share links whose viewer draws the document as an image: fetch the file
+ * itself (Box "/s/<id>" → "/shared/static/<id>.pdf"; Google Drive
+ * "/file/d/<id>/view" → "uc?export=download&id=<id>").
+ */
+function directUrl(url) {
+  const box = url.match(/^(https:\/\/[\w.-]*box\.com)\/s\/(\w+)/)
+  if (box) return `${box[1]}/shared/static/${box[2]}.pdf`
+  const drive = url.match(/^https:\/\/drive\.google\.com\/file\/d\/([\w-]+)/)
+  if (drive) return `https://drive.google.com/uc?export=download&id=${drive[1]}`
+  return url
+}
+
 /** Page text, whitespace-collapsed, or an error string. */
 async function pageText(url) {
+  const direct = directUrl(url)
+  if (direct !== url) {
+    const d = await curlText(direct)
+    if (d.code < 400 && d.text.length > 200) return d
+  }
   const t = await curlText(url)
   if (t.code >= 400 || t.code === 0) {
     const text = await chromeText(url)

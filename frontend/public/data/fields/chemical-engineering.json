@@ -283,7 +283,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (all Rossin College PhDs 100% funded)"
+          "note": "Fully funded (all Rossin College PhDs 100% funded)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; Rossin: all PhDs 100% funded (monthly stipend + tuition), no amount; catalog says TA stipend set yearly by college dean.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -324,7 +329,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Fully supported (tuition, stipend, health coverage)"
+          "note": "Fully supported (tuition, stipend, health coverage)",
+          "stipend": {
+            "amount": 4590,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://cheme.mit.edu/academics/graduate-students/financial-support/",
+            "quote": "In academic year 2026-2027, stipends for assistantships are $4,590 per month for PhD students and $3,899 for MSCEP students.",
+            "note": "PhD assistantship rate; outside fellowships are topped up to this internal support level.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -365,7 +381,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3600,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": null,
+            "scope": "school-standard",
+            "source": "https://engineering.nyu.edu/academics/graduate/phd-hub/frequently-asked-questions",
+            "quote": "Students who are offered the School of Engineering PhD Fellowship should receive their one-time welcome bonus of $4,000.00 with their first monthly stipend of $3,600.00 by the end of August as long as they are registered full-time (9 credits) by July 31.",
+            "note": "No program figure; Tandon School of Engineering PhD Fellowship rate (plus $4,000 one-time welcome bonus); year not stated on page. RA-funded students may differ.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -406,7 +433,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; SEGAF says stipend amounts are set by college/dept and none is published. $43,000 minimum was only a 2025 union contract offer, not adopted.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -757,7 +789,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "GROUP 1 (Davis, Irvine, Merced, Riverside, San Diego, Santa Barbara, and Santa Cruz) ... Teaching Assistant 1 $3,928.89 $3,536.00 $4,100.00 $3,690.00 T18B, Grade 1",
+            "note": "No dept figure. UC-UAW min: TA pt 1, 50%, quarter-campus monthly, eff. 10/1/2026 (UCOP T18); GSR pt 1 $3,174/mo (T22).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -844,7 +887,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3174,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://grad.ucsd.edu/financial/employment/2026-2027-Student-Academic-Title-Rates-effec.-10-01-26---2025-2026.pdf",
+            "quote": "Graduate Student Researcher 3266 1 3,174.00 6,348.00 T022 1 UC_FY",
+            "note": "No dept figure: 'Ph.D. students are paid based on the department salary points' (point not published). UC-UAW GSR step 1 at 50%, eff 10/1/26 (GEPA); TA 50% $4,100/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -886,7 +940,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $3,928.89 $3,536.00 $4,100.00 $3,690.00 T18B, Grade 1",
+            "note": "No dept figure. UC-UAW TA point 1 at 50%, Group 1 quarter rate (incl. UCSB), eff. 10/1/2026 (UCOP T18); GSR point 1 at 50% $3,174/mo. Dept says all PhD students get the same stipend level but states no amount.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1182,7 +1247,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)"
+          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)",
+          "stipend": {
+            "amount": 42435,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://graduateschool.nd.edu/funding/",
+            "quote": "$42,435 for engineering students (up to $50,000 for select fellows )",
+            "note": "Notre Dame Graduate School 2026-27 standard for engineering PhD students (12-mo); select fellows up to $50,000; CoE external-fellowship holders adjusted to $48,000. No dept figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1224,7 +1300,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "PhD students typically fully funded (tuition, fees, stipend, health insurance)"
+          "note": "PhD students typically fully funded (tuition, fees, stipend, health insurance)",
+          "stipend": {
+            "amount": 49000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.upenn.edu/wp-content/uploads/Graduate-Workers-CBA-Expires-June-1-2028.pdf",
+            "quote": "Effective April 1, 2026, the University shall increase Graduate Worker stipends so that each Graduate Worker receives the greater of: ... b. an adjustment of their annual stipend to Forty-Nine Thousand Dollars ($49,000), which shall serve as the minimum annual stipend for Graduate Workers in their guaranteed years of funding.",
+            "note": "Penn–UAW graduate worker CBA minimum annual stipend (from Apr 1 2026; +3% Jul 1 2027); covers TA/RA workers. No dept figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1265,7 +1352,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance",
+          "stipend": {
+            "amount": 36000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://www.hajim.rochester.edu/che/graduate/phd.html",
+            "quote": "While completing the program students are provided with an annual stipend of at least $36,000 starting September 1, 2025, free comprehensive health insurance, medical benefits, and full coverage of graduate tuition.",
+            "note": "Minimum ('at least') annual stipend; months not stated. Older dept pages say >=$30,000 from fall 2022 (rising to $36,000 in 2025) and >=$28,000.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1509,7 +1607,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Most PhD students fully funded (tuition, fees, health insurance + stipend)"
+          "note": "Most PhD students fully funded (tuition, fees, health insurance + stipend)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages (ChE says admitted PhD students 'may expect to receive financial support'; no amount)",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",

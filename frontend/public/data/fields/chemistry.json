@@ -1383,7 +1383,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs; first-year fellowship, no teaching required in year 1"
+          "note": "Fully funded 5 yrs; first-year fellowship, no teaching required in year 1",
+          "stipend": {
+            "amount": 52198,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "school-standard",
+            "source": "https://graduateschool.brown.edu/financing-support/phd-funding/graduate-student-stipend-information",
+            "quote": "2025-2026 Stipend Amounts: FY26 Doctoral Base Stipends (July 1, 2025 - June 30, 2026) | Fall and Spring Base Stipends $19,574.25 | Summer Base Stipend $13,049.50 | Total 12 Month Base Stipend $52,198 | Monthly Base Stipend $4,349.83",
+            "note": "Brown Graduate School FY26 doctoral base stipend (same in GLO CBA 2023-26). No FY27 rate published yet; dept funding page gives no figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1424,7 +1435,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs (stipend, tuition, health)"
+          "note": "Fully funded 5 yrs (stipend, tuition, health)",
+          "stipend": {
+            "amount": 52198,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "school-standard",
+            "source": "https://graduateschool.brown.edu/financing-support/phd-funding/graduate-student-stipend-information",
+            "quote": "2025-2026 Stipend Amounts: FY26 Doctoral Base Stipends (July 1, 2025 - June 30, 2026) | Fall and Spring Base Stipends $19,574.25 | Summer Base Stipend $13,049.50 | Total 12 Month Base Stipend $52,198 | Monthly Base Stipend $4,349.83",
+            "note": "Brown Graduate School FY26 doctoral base stipend (same in GLO CBA 2023-26). No FY27 rate published yet; MCB handbook: same stipend regardless of source, +$250/mo for external fellows; no figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1725,7 +1747,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs; 12-mo stipend $49,862 (2026-27)"
+          "note": "Fully funded 5 yrs; 12-mo stipend $49,862 (2026-27)",
+          "stipend": {
+            "amount": 49862.4,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://graduate.dartmouth.edu/financial-support/funding/stipends-and-benefits",
+            "quote": "This package includes tuition, health insurance, a stipend ($49,862.40 in 2026-27), and a relocation bonus among other benefits to help cover the costs of moving to and living in New Hampshire.",
+            "note": "Guarini School package for all PhD programs; no dept figure. 12-mo basis per GOLD-UE CBA (min $47,000 eff. July 1, 2024).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1871,7 +1904,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "$42,000 base stipend + full tuition + benefits"
+          "note": "$42,000 base stipend + full tuition + benefits",
+          "stipend": {
+            "amount": 43260,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gs.emory.edu/funding/scholarships/index.html",
+            "quote": "As part of the Phd Student Union Collective Bargaining Agreement, eligible PhD students will receive an annual stipend of $43,260 for FY26-27.",
+            "note": "Chemistry apply page says '$42,000 base stipend' (undated; the 2025-26 LGS rate); newer LGS FY26-27 CBA rate used.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1912,7 +1956,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded, stipend + tuition + benefits"
+          "note": "Fully funded, stipend + tuition + benefits",
+          "stipend": {
+            "amount": 43260,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gs.emory.edu/funding/scholarships/index.html",
+            "quote": "As part of the Phd Student Union Collective Bargaining Agreement, eligible PhD students will receive an annual stipend of $43,260 for FY26-27.",
+            "note": "GDBBS financial page defers to LGS 'Stipends for Doctoral Students'; LGS (Laney Graduate School) rate. External fellows +$2,000 supplement.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1953,7 +2008,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 40922,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://grad.georgetown.edu/financial-support/merit-based-financial-aid/assistantships/",
+            "quote": "Ph.D. Stipend Rate (Academic Year 2026-2027): $40,922",
+            "note": "Univ. Office of Graduate Studies rate; Chemistry gives no own figure (all admits get stipend + tuition up to 5 yrs via TA, then RA).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1995,7 +2061,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 44605,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://biomedicalprograms.georgetown.edu/prospective/funding/phd/",
+            "quote": "BGE Ph.D. stipend $40,922 — 9 months $44,605 — 12 months",
+            "note": "BGE rate. BGE pays 12-month to PhDs requiring a summer semester; BMCB starts in summer (length inferred). 9-month rate $40,922.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2394,7 +2471,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Full tuition, health benefits, and stipend for students in good standing (TA/RA/fellowship)"
+          "note": "Full tuition, health benefits, and stipend for students in good standing (TA/RA/fellowship)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; dept: full tuition, health benefits and stipend (2 semesters + summer), no amount.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2435,7 +2517,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "First-year fellowships/RAs; RA support thereafter"
+          "note": "First-year fellowships/RAs; RA support thereafter",
+          "stipend": {
+            "amount": 51226,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://hr.mit.edu/sites/default/files/mitgsu_cba_final.pdf",
+            "quote": "RA, doctoral @ 3.25% $4,269 $51,226 $58,910",
+            "note": "No dept figure. MIT-GSU CBA min RA doctoral rate eff. June 1, 2025 (TA doctoral $52,429); OGE lists as current, 2026-27 under negotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2477,7 +2570,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded via MacCracken (full tuition + stipend + health insurance, 4-5 yrs + 3 summers)"
+          "note": "Fully funded via MacCracken (full tuition + stipend + health insurance, 4-5 yrs + 3 summers)",
+          "stipend": {
+            "amount": 37132,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gsas.nyu.edu/admissions/financial-aid/graduate-school-fellowships-and-assistantships/calculator.html",
+            "quote": "Minimum Base Stipend for 2026-27 $37,132",
+            "note": "No program figure found; GSAS (NYU Graduate School of Arts & Science) minimum base MacCracken stipend (PhD Financial Calculator). Chemistry FAQ: guaranteed stipend 4+ years, no amount.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2518,7 +2622,12 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Assistantships, stipend positions, and fellowships (per College of Science)"
+          "note": "Assistantships, stipend positions, and fellowships (per College of Science)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; SEGAF says stipend amounts are set by college/dept and none is published. $43,000 minimum was only a 2025 union contract offer, not adopted.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2559,7 +2668,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; SEGAF says stipend amounts are set by college/dept and none is published. $43,000 minimum was only a 2025 union contract offer, not adopted.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2653,7 +2767,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment"
+          "note": "Fully funded: full tuition, health plan, and base stipend for all Ph.D. students throughout regular enrollment",
+          "stipend": {
+            "amount": 46200,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs",
+            "quote": "First Year Fellowship in Natural Sciences and Engineering (10 months) 46,200",
+            "note": "Princeton Graduate School NSE rate, 10-month (Aug-May) first-year fellowship; summer RA 9,240 (2 mo); later RA 46,200/10 mo, TA 48,510/10 mo. No dept figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3216,7 +3341,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 36000,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://tufts.app.box.com/s/257uv3q2jjm70m6251ur413slrgi0xbs",
+            "quote": "Beginning with the first pay period of Fiscal Year 2024, all Departments in GSAS will pay Graduate Assistants the same 9 month stipend of $32,000 ... FY25 $33,500 FY26 $34,500 FY27 $36,000 FY28 $37,500",
+            "note": "GSAS minimum for PhD RA/TAs set by Tufts–SEIU Local 509 CBA (App. C); FY26 $34,500, FY28 $37,500; depts may pay more; non-service fellows excluded.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3257,7 +3393,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 36000,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://tufts.app.box.com/s/257uv3q2jjm70m6251ur413slrgi0xbs",
+            "quote": "Beginning with the first pay period of Fiscal Year 2024, all Departments in GSAS will pay Graduate Assistants the same 9 month stipend of $32,000 ... FY25 $33,500 FY26 $34,500 FY27 $36,000 FY28 $37,500",
+            "note": "GSAS minimum for PhD RA/TAs set by Tufts–SEIU Local 509 CBA (App. C); FY26 $34,500, FY28 $37,500; depts may pay more; non-service fellows excluded.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3541,7 +3688,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://www.chem.uci.edu/funding",
+            "quote": "Teaching Assistant Salary Scale effective 10/1/2026 ... Monthly Salary (50% effort) ... 1 | 0 quarters (first quarter teaching as a TA) | $4,100.00",
+            "note": "1st-year PhDs funded as TAs (prospective-students page). TA pts 2-3 $4,243/$4,370; GSR pt 1 $3,174/mo (50%); summer 50% typical but not required.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3720,7 +3878,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "12-month stipend plus fees and tuition; TA/RA/fellowships"
+          "note": "12-month stipend plus fees and tuition; TA/RA/fellowships",
+          "stipend": {
+            "amount": 40000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": null,
+            "scope": "program",
+            "source": "https://chemistry.ucsd.edu/graduate-program/doctoral-program/phd-financial",
+            "quote": "Our Ph.D. students (in good academic standing) currently receive an annual stipend of $40,000, along with coverage of tuition, fees, and health insurance.",
+            "note": "Undated ('currently'); doctoral program page says students receive a 12-month stipend. BMB dept page (same support text) gives a dated 2025-26 1st-yr stipend of $43,400.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3762,7 +3931,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "All students in good standing fully supported; ~$37,000 annual salary plus tuition, fees, health insurance"
+          "note": "All students in good standing fully supported; ~$37,000 annual salary plus tuition, fees, health insurance",
+          "stipend": {
+            "amount": 4100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $3,928.89 $3,536.00 $4,100.00 $3,690.00 T18B, Grade 1",
+            "note": "No dept figure. UC-UAW TA point 1 at 50%, Group 1 quarter rate (incl. UCSB), eff. 10/1/2026 (UCOP T18); GSR point 1 at 50% $3,174/mo. DB's ~$37,000 not found on current dept pages.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4373,7 +4553,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)"
+          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)",
+          "stipend": {
+            "amount": 40590,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://graduateschool.nd.edu/funding/",
+            "quote": "$40,590 for science students (up to $50,000 for select fellows )",
+            "note": "Grad School 2026-27 science standard (12-mo) used as newer; dept page states 12-month stipend of $39,600 for 2025-26. Select fellows up to $50,000.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4415,7 +4606,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)"
+          "note": "Full-tuition scholarship + stipend typical ($39k-44k for 2026-27 per Grad School)",
+          "stipend": {
+            "amount": 40590,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://graduateschool.nd.edu/funding/",
+            "quote": "$40,590 for science students (up to $50,000 for select fellows )",
+            "note": "Grad School 2026-27 science standard (12-mo) used as newer; dept page states 12-month stipend of $39,600 for 2025-26. Select fellows up to $50,000.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4457,7 +4659,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 49000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.upenn.edu/wp-content/uploads/Graduate-Workers-CBA-Expires-June-1-2028.pdf",
+            "quote": "Effective April 1, 2026, the University shall increase Graduate Worker stipends so that each Graduate Worker receives the greater of: ... b. an adjustment of their annual stipend to Forty-Nine Thousand Dollars ($49,000), which shall serve as the minimum annual stipend for Graduate Workers in their guaranteed years of funding.",
+            "note": "Penn–UAW CBA minimum (from Apr 1 2026). Dept FAQ: full support incl. monthly stipend for 5 yrs; no dept figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4498,7 +4711,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance",
+          "stipend": {
+            "amount": 35520,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://www.sas.rochester.edu/chm/graduate/apply.html",
+            "quote": "Full tuition scholarships are awarded to all chemistry graduate students, and they receive a living stipend ($35,520 for the 2026-2027 academic year) and health insurance.",
+            "note": "Stated as the stipend for the 2026-27 academic year; number of months not specified. Merit fellowships can add a bonus.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4539,7 +4763,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance"
+          "note": "Fully funded: full tuition scholarship, annual stipend, health insurance",
+          "stipend": {
+            "amount": 35100,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://www.urmc.rochester.edu/education/graduate/phd/biomedical-genetics-and-genomics/course-of-studies",
+            "quote": "A competitive stipend for 2026-2027 of $35,100 per year for 12-month programs or $29,250 per year for 10-month programs.",
+            "note": "URMC School of Medicine & Dentistry standard PhD stipend. Program page shows the SMD 2027-28 rate: $35,800 (12-month programs).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4736,7 +4971,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs ($37,080/yr stipend + tuition, fees, health insurance)"
+          "note": "Fully funded 5 yrs ($37,080/yr stipend + tuition, fees, health insurance)",
+          "stipend": {
+            "amount": 37260,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://graduate.as.virginia.edu/graduate-student-financial-support",
+            "quote": "The Graduate School offers doctoral students a minimum of five years of financial support upon admission, including twelve-month living support of $37,260 and full remission of tuition, fees and the premium for single-person coverage through the University’s student health insurance plan.",
+            "note": "UVA GSAS minimum. The Chemistry PhD page shows the older figure: 'for 2025-26 the salary support is $36,000' (TA in year 1, then GRA in years 2-5).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4777,7 +5023,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (UVA-wide 5-yr PhD support norm; see BIMS Funding page)"
+          "note": "Fully funded (UVA-wide 5-yr PhD support norm; see BIMS Funding page)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages (BIMS funding page promises only 'a competitive stipend'; no figure)",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",

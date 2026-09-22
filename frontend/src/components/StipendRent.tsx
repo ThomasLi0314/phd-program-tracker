@@ -44,6 +44,11 @@ export function StipendRent({ university, stipend }: { university: string; stipe
                   </>
                 )}
               </div>
+              {Number(stipend!.academic_year?.match(/20\d\d/)?.[0] ?? 9999) < 2024 && (
+                <div className="text-[11.5px] font-medium text-amber-700">
+                  Older figure — the current rate is likely higher.
+                </div>
+              )}
               {stipend!.period === '9-month' && (
                 <div className="text-[11.5px] text-slate-500">9-month pay; summer support not included.</div>
               )}
