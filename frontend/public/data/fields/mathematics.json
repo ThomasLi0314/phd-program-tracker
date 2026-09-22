@@ -880,7 +880,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": 5,
-          "note": "No explicit blanket 'fully funded' guarantee found. PhD FAQ: 'There is not a separate application for departmental funding, as it is determined during the admissions process.' and 'Financial support for Doctoral studies is limited to five years after admission to the Ph.D. program in the Department of Applied Mathematics.' Source: https://amath.washington.edu/phd. Verify offer terms."
+          "note": "No explicit blanket 'fully funded' guarantee found. PhD FAQ: 'There is not a separate application for departmental funding, as it is determined during the admissions process.' and 'Financial support for Doctoral studies is limited to five years after admission to the Ph.D. program in the Department of Applied Mathematics.' Source: https://amath.washington.edu/phd. Verify offer terms.",
+          "stipend": {
+            "amount": 3283,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_TA-RA-SA-salary-schedule.pdf",
+            "quote": "Teaching Assistant PREMASTER $3,283 $5,209 $3,283",
+            "note": "AMATH gives no figure and is not on the Grad School variable-rate list, so UW base ASE rate applies (50% FTE; intermediate $3,449, candidate $3,621).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Not required",
         "contact_note": "No requirement to contact faculty before applying (advisor is assigned/chosen after arrival). PhD FAQ, re multidisciplinary research: 'Certainly; however, we do suggest that you discuss your plans with AMATH faculty.' Source: https://amath.washington.edu/phd",
@@ -3066,7 +3077,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": 5,
-          "note": "Support is normally guaranteed for four years, with a fifth year typical after advancing to candidacy, via TAships and fellowships covering registration fees, health insurance and nonresident tuition."
+          "note": "Support is normally guaranteed for four years, with a fifth year typical after advancing to candidacy, via TAships and fellowships covering registration fees, health insurance and nonresident tuition.",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; dept says guaranteed support covers living expenses but 'exact amounts vary from year to year'. UC TA/GSR scales (100% FTE) in university_rates.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Neutral / Not Required",
         "contact_note": "Committee-based admission; pre-application contact is not required, though you may name faculty of interest in your statement.",
@@ -3628,7 +3644,12 @@
         "funding": {
           "status": "Self-Funded / Mixed",
           "years": 2,
-          "note": "No tuition fees — only a ~€324 semester social contribution (covers a transit ticket). Master's students are generally self-funded for living costs; external scholarships (e.g. DAAD, Deutschlandstipendium) are available."
+          "note": "No tuition fees — only a ~€324 semester social contribution (covers a transit ticket). Master's students are generally self-funded for living costs; external scholarships (e.g. DAAD, Deutschlandstipendium) are available.",
+          "stipend": {
+            "amount": null,
+            "note": "taught master's — no stipend (no tuition fees; only a per-semester social contribution)",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Neutral / Not Required",
         "contact_note": "Coursework-based admission; pre-application contact with professors is not required.",
@@ -4838,7 +4859,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "'In general, students offered admission to graduate study at Caltech are simultaneously offered a package of financial support that pays all tuition charges and provides them with a stipend' via fellowships, research/teaching assistantships (cms.caltech.edu/academics/grad). Note: 'admission and financial aid are considered separately; on rare occasions, some students may be admitted without financial aid.' Number of guaranteed years not published - Unknown/Verify."
+          "note": "'In general, students offered admission to graduate study at Caltech are simultaneously offered a package of financial support that pays all tuition charges and provides them with a stipend' via fellowships, research/teaching assistantships (cms.caltech.edu/academics/grad). Note: 'admission and financial aid are considered separately; on rare occasions, some students may be admitted without financial aid.' Number of guaranteed years not published - Unknown/Verify.",
+          "stipend": {
+            "amount": 50000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradoffice.caltech.edu/financialsupport",
+            "quote": "On September 1, 2026, the stipend rate increases to $50,000, for 12 months.",
+            "note": "Institute-wide rate set by Caltech Graduate Studies Office (paid monthly, $4,166/mo); 2025-26 rate $48,244. No department-specific figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Not required",
         "contact_note": "No official statement requiring pre-application contact with faculty. Admission is committee-based and a thesis supervisor is selected after the preliminary examination, not at application. Unknown/Verify for any informal recommendation.",
@@ -5381,7 +5413,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)",
+          "stipend": {
+            "amount": 50000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradoffice.caltech.edu/financialsupport",
+            "quote": "On September 1, 2026, the stipend rate increases to $50,000, for 12 months.",
+            "note": "Institute-wide rate set by Caltech Graduate Studies Office (paid monthly, $4,166/mo); 2025-26 rate $48,244. No department-specific figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -5854,7 +5897,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)",
+          "stipend": {
+            "amount": 50000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradoffice.caltech.edu/financialsupport",
+            "quote": "On September 1, 2026, the stipend rate increases to $50,000, for 12 months.",
+            "note": "Institute-wide rate set by Caltech Graduate Studies Office (paid monthly, $4,166/mo); 2025-26 rate $48,244. No department-specific figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -5896,7 +5950,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)",
+          "stipend": {
+            "amount": 50000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradoffice.caltech.edu/financialsupport",
+            "quote": "On September 1, 2026, the stipend rate increases to $50,000, for 12 months.",
+            "note": "Institute-wide rate set by Caltech Graduate Studies Office (paid monthly, $4,166/mo); 2025-26 rate $48,244. No department-specific figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -6351,7 +6416,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)",
+          "stipend": {
+            "amount": 50000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradoffice.caltech.edu/financialsupport",
+            "quote": "On September 1, 2026, the stipend rate increases to $50,000, for 12 months.",
+            "note": "Institute-wide rate set by Caltech Graduate Studies Office (paid monthly, $4,166/mo); 2025-26 rate $48,244. No department-specific figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -6540,7 +6616,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)",
+          "stipend": {
+            "amount": 50000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradoffice.caltech.edu/financialsupport",
+            "quote": "On September 1, 2026, the stipend rate increases to $50,000, for 12 months.",
+            "note": "Institute-wide rate set by Caltech Graduate Studies Office (paid monthly, $4,166/mo); 2025-26 rate $48,244. No department-specific figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -6996,7 +7083,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)",
+          "stipend": {
+            "amount": 50000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradoffice.caltech.edu/financialsupport",
+            "quote": "On September 1, 2026, the stipend rate increases to $50,000, for 12 months.",
+            "note": "Institute-wide rate set by Caltech Graduate Studies Office (paid monthly, $4,166/mo); 2025-26 rate $48,244. No department-specific figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -11281,7 +11379,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "Math links to Grad School stipend rates; package 'typically includes a summer stipend'. Grad School min. 9-mo rate (12-mo $48,912).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -12257,7 +12366,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "CAM gives no main figure; guarantees at least one summer of funding incl. a stipend of at least $2,500. Grad School min. 9-mo rate.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18919,7 +19039,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/",
+            "quote": "AY26-27: $52,000 effective July 1, 2026. The hourly appointment rate will be $28.11/hour, at minimum",
+            "note": "Dept says stipends are set by the union CBA (links summary); Owen Fellowship adds $6,000/yr for 3 yrs.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -24741,7 +24872,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://momentous.rice.edu/motion",
+            "quote": "Competitive investment in graduate talent continues with a stipend floor increase to $37,000 for Fall 2026.",
+            "note": "No department-specific figure found; Rice University's university-wide doctoral stipend floor (set by Rice University / Office of the Provost; announced in Rice's 'Momentous' strategic-plan progress update) applies to full-time doctoral students in good standing. The floor is defined as support over 12 months (Provost, Feb 2024; General Announcements), and may be prorated to 9 months for students ",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -25008,7 +25150,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Financial assistance available (see dept financial aid page)"
+          "note": "Financial assistance available (see dept financial aid page)",
+          "stipend": {
+            "amount": 37000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://momentous.rice.edu/motion",
+            "quote": "Competitive investment in graduate talent continues with a stipend floor increase to $37,000 for Fall 2026.",
+            "note": "No department-specific figure found; Rice University's university-wide doctoral stipend floor (set by Rice University / Office of the Provost; announced in Rice's 'Momentous' strategic-plan progress update) applies to full-time doctoral students in good standing. The floor is defined as support over 12 months (Provost, Feb 2024; General Announcements), and may be prorated to 9 months for students ",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -26313,7 +26466,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://vpge.stanford.edu/guidance-faculty-staff/directors-graduate-admissions",
+            "quote": "Academic Year 2026-2027: $58,460 annualized ($14,615 per quarter)",
+            "note": "No dept figure; fully funded 5 yrs via dept fellowships/TA/RA. Univ. 50% RA/TA minimum set under Stanford-SGWU CBA (VPGE).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -26745,7 +26909,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Departmental and Graduate School funding; apply by Dec 5 for maximum funding"
+          "note": "Departmental and Graduate School funding; apply by Dec 5 for maximum funding",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). Dept financial-support page gives no figure; entering PhD GTA stipends are 9-month.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -28595,7 +28770,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3890.7,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $4,217.78 $3,796.00 $4,323.00 $3,890.70 T18C, Grade 1",
+            "note": "No dept figure. UC-UAW minimum for 1st-time GSI (TA 1) at 50%, Berkeley semester monthly rate eff. 10/1/2026 (UCOP T18). GSR 1 min $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -28961,7 +29147,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3890.7,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $4,217.78 $3,796.00 $4,323.00 $3,890.70 T18C, Grade 1",
+            "note": "No dept figure. UC-UAW minimum for 1st-time GSI (TA 1) at 50%, Berkeley semester monthly rate eff. 10/1/2026 (UCOP T18). GSR 1 min $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -29943,7 +30140,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4168,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://www.math.ucdavis.edu/grad/financial",
+            "quote": "Teaching Assistant ~$1,964 - $4,168/mo New and continuing Math and Applied Math students are automatically considered.",
+            "note": "TA range ~$1,964-$4,168/mo (25%-50% appts; upper end, not nec. entry step); GSR ~$1,497-$3,477/mo; table 'Current as of August 2025'",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -31546,7 +31754,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4168,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://www.math.ucdavis.edu/grad/financial",
+            "quote": "Teaching Assistant ~$1,964 - $4,168/mo New and continuing Math and Applied Math students are automatically considered.",
+            "note": "TA range ~$1,964-$4,168/mo (25%-50% appts; upper end, not nec. entry step); GSR ~$1,497-$3,477/mo; table 'Current as of August 2025'",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -32414,7 +32633,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; funding page only links a 2012 GSR comp plan and a 2019-20 salary PDF",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -41176,7 +41400,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24620,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://math.illinois.edu/admissions/graduate-admissions/financial-support-phd-students",
+            "quote": "The stipend amount for the academic year 2025-2026 (Fall and Spring semesters) is about $24,620.",
+            "note": "50% TA, renewed up to 6 yrs (5 with MS); summer support $2,000-$6,000 common. Figure stated as 'about'.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -43388,7 +43623,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 11598,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": "2021-22",
+            "scope": "program",
+            "source": "https://lsa.umich.edu/math/graduates/Admissions/applying.html",
+            "quote": "The stipend for such an appointment in 2021-2022 is $11,598 per term.",
+            "note": "Per-term GSI stipend; stale 2021-22 dept figure. Newer Rackham 2025-26 established stipend: $14,596/term (x3 terms = $43,788).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -44505,7 +44751,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 11598,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": "2021-22",
+            "scope": "program",
+            "source": "https://lsa.umich.edu/math/graduates/Admissions/applying.html",
+            "quote": "The stipend for such an appointment in 2021-2022 is $11,598 per term.",
+            "note": "Math Dept (AIM shares admissions page) per-term GSI stipend, stale 2021-22. Newer Rackham 2025-26 stipend: $14,596/term (x3 = $43,788).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -49704,7 +49961,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Most funded via TA; some RA; verify guarantee"
+          "note": "Most funded via TA; some RA; verify guarantee",
+          "stipend": {
+            "amount": 3283,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_TA-RA-SA-salary-schedule.pdf",
+            "quote": "Teaching Assistant PREMASTER $3,283 $5,209 $3,283",
+            "note": "Math TA page: TAs paid on Grad School 'Regular (Non-Variable Rate)' schedule, Schedule #1; no dollar figure on dept page.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -50337,7 +50605,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Applicants automatically considered for financial support (TA/grader)"
+          "note": "Applicants automatically considered for financial support (TA/grader)",
+          "stipend": {
+            "amount": 30614,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Letters & Sciences (L&S) | Mathematics | TA academic (50%): $30,614 | PA academic (50%): $31,306 | PA annual (50%): $37,417 | RA academic (50%): $31,306 | RA annual (50%): $37,417",
+            "note": "TA academic rate. PA/RA academic $31,306; PA/RA annual $37,417. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -52854,7 +53133,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "APPM Graduate FAQ: \"Do all incoming graduate students automatically receive financial support from the department? No, but most graduate students enter the program with either a teaching assistantship or a research assistantship.\" It also states that doctoral candidates do not need to request support in the personal statement because \"All doctoral candidates are considered for funding and sent offers of support once admitted.\" No guaranteed multi-year funding package, stipend figure or tuition-remission detail is published on the department pages, so status is Unknown/Verify."
+          "note": "APPM Graduate FAQ: \"Do all incoming graduate students automatically receive financial support from the department? No, but most graduate students enter the program with either a teaching assistantship or a research assistantship.\" It also states that doctoral candidates do not need to request support in the personal statement because \"All doctoral candidates are considered for funding and sent offers of support once admitted.\" No guaranteed multi-year funding package, stipend figure or tuition-remission detail is published on the department pages, so status is Unknown/Verify.",
+          "stipend": {
+            "amount": 14001,
+            "currency": "USD",
+            "period": "semester",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.colorado.edu/graduateschool/funding/departmental-funding/graduate-student-appointment-information",
+            "quote": "The base salary for a 50% position (20 hrs. a week) for AY26/27 is $14.001 per semester.",
+            "note": "Set by CU Boulder Graduate School: base for 50% TA/RA, per semester (printed '$14.001', i.e. $14,001); depts may pay more. APPM pages give no figure of their own.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "No official APPM page tells applicants to contact faculty before applying, and the personal-statement guidance does not ask applicants to name faculty; it asks how you became interested in applied mathematics, how your background prepared you for graduate study, and your educational and professional goals. The \"Applying to Graduate School\" page advises applicants to \"do your homework with regard to understanding our graduate program\" and, in the personal statement, to \"be sure to address why you want to join our department\" - but it does not mention contacting faculty.",
@@ -55644,7 +55934,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "ICME Graduate Funding page: \"All ICME PhD students who are in good standing relative to ICME's program requirements will be funded to the department's standard for the duration of their program. PhD students will be funded through a combination of fellowships and research or teaching assistantships during the course of their program and will receive specific information about their funding package upon admission.\" The Admissions FAQ repeats this. No fixed number of guaranteed years is published (funding is \"for the duration of their program\"), so years = null. The Stanford Graduate Fellowship (auto-considered for admitted PhDs) provides stipend + tuition for up to 12 quarters. Note: ICME does NOT guarantee funding for MS students."
+          "note": "ICME Graduate Funding page: \"All ICME PhD students who are in good standing relative to ICME's program requirements will be funded to the department's standard for the duration of their program. PhD students will be funded through a combination of fellowships and research or teaching assistantships during the course of their program and will receive specific information about their funding package upon admission.\" The Admissions FAQ repeats this. No fixed number of guaranteed years is published (funding is \"for the duration of their program\"), so years = null. The Stanford Graduate Fellowship (auto-considered for admitted PhDs) provides stipend + tuition for up to 12 quarters. Note: ICME does NOT guarantee funding for MS students.",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://vpge.stanford.edu/guidance-faculty-staff/directors-graduate-admissions",
+            "quote": "Academic Year 2026-2027: $58,460 annualized ($14,615 per quarter)",
+            "note": "No ICME figure (funded to dept standard via fellowship/RA/TA). Univ. 50% RA/TA minimum set under Stanford-SGWU CBA (VPGE); 'annualized' = 4 quarters. SGF stipend $58,500.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Not required",
         "contact_note": "No ICME page requires or recommends contacting faculty before applying. The Admissions FAQ (\"Before applying\") states: \"Please review our affiliated faculty members' publications for further insight into their research. If you feel that your academic background and research interests are a good match for our program, we encourage you to apply!\" Instead of pre-application contact, the PhD application collects a non-binding Faculty Interest selection (up to three potential advisors) used to route the application during committee review. (Separately, the Graduate Funding page notes that RA appointments are typically \"secured...by contacting a faculty member directly,\" but that concerns research-assistant funding, not admission.)",
@@ -56570,7 +56871,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": 4,
-          "note": "Quote (ww3.math.ucla.edu/admissions): 'International students are supported through a mix of fellowships, research assistantships, and teaching assistantships. Support is normally guaranteed for four years. A 5th year of support is usually provided if the student is in good standing and advanced to candidacy.'"
+          "note": "Quote (ww3.math.ucla.edu/admissions): 'International students are supported through a mix of fellowships, research assistantships, and teaching assistantships. Support is normally guaranteed for four years. A 5th year of support is usually provided if the student is in good standing and advanced to candidacy.'",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; dept says guaranteed support covers living expenses but 'exact amounts vary from year to year'. UC TA/GSR scales (100% FTE) in university_rates.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Not required",
         "contact_note": "The admissions materials do not require or explicitly recommend contacting faculty before applying; applicants select a Pure/Applied track (not an advisor) and are matched with an advisor after admission. Unknown/Verify whether outreach is encouraged for specific groups.",

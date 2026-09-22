@@ -10,6 +10,8 @@
 import { useEffect, useState } from 'react'
 import type { Faculty, OutreachRecord, Program } from '../types'
 import { UNKNOWN } from '../types'
+import { StipendRent } from './StipendRent'
+import { stipendText } from '../lib/costOfLiving'
 import { Badge } from './Badge'
 import { EditableLink } from './EditableLink'
 import { ProgramNoteButton } from './ProgramNoteButton'
@@ -504,6 +506,7 @@ export function DeepDive({
     .filter((x) => x.note)
   const fundingText =
     r.funding.status === UNKNOWN ? null : `${r.funding.status}${r.funding.years ? ` · ${r.funding.years} yrs` : ''}`
+  const stipendLine = r.funding.stipend ? stipendText(r.funding.stipend) : null
 
   const tabs: { id: Tab; label: string }[] = [
     { id: 'overview', label: 'Overview' },
@@ -572,7 +575,13 @@ export function DeepDive({
           <Tile
             label="Funding"
             value={fundingText ?? <span className="italic text-amber-700">Unknown / Verify</span>}
-            caption={r.funding.note && r.funding.note !== UNKNOWN ? <span className="line-clamp-2">{r.funding.note}</span> : undefined}
+            caption={
+              stipendLine ? (
+                <span className="line-clamp-2">Stipend {stipendLine}</span>
+              ) : r.funding.note && r.funding.note !== UNKNOWN ? (
+                <span className="line-clamp-2">{r.funding.note}</span>
+              ) : undefined
+            }
             tone={r.funding.status === 'Fully Funded' ? 'emerald' : fundingText ? 'sky' : 'amber'}
             onClick={() => setTab('requirements')}
           />
@@ -667,6 +676,7 @@ export function DeepDive({
         <div className="pt-4">
           {tab === 'overview' && (
             <div className="grid gap-3 md:grid-cols-2">
+              <StipendRent university={program.university} stipend={r.funding.stipend} />
               <section className="rounded-md border border-slate-200 bg-white p-3.5">
                 <h2 className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-slate-500">
                   Field

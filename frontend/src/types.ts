@@ -29,10 +29,31 @@ export interface Faculty {
   fetched_at?: string
 }
 
+/**
+ * The stipend an official page states for this program (stipend scan). An
+ * `amount` of null means the program was checked and no official figure was
+ * found — different from `stipend` being absent (never checked).
+ */
+export interface Stipend {
+  amount: number | null
+  currency?: string
+  /** as published — never annualised by the scan */
+  period?: '12-month' | '9-month' | 'monthly' | 'quarterly' | 'semester' | 'other'
+  academic_year?: string | null
+  /** whose figure it is: the program's own, or a school/university-wide rate */
+  scope?: 'program' | 'school-standard' | 'university-minimum'
+  source?: string
+  /** the sentence on the source page that states the figure */
+  quote?: string
+  note?: string
+  checked_at: string | null
+}
+
 export interface Funding {
   status: string
   years: number | null
   note: string
+  stipend?: Stipend
 }
 
 export interface Requirements {

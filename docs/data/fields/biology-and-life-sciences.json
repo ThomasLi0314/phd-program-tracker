@@ -482,7 +482,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Stanford Engineering guarantees full funding (tuition, living stipend, health-insurance subsidy) for PhD students in good standing for the duration of the program, via research assistantships, fellowships, and a required teaching-assistant contribution."
+          "note": "Stanford Engineering guarantees full funding (tuition, living stipend, health-insurance subsidy) for PhD students in good standing for the duration of the program, via research assistantships, fellowships, and a required teaching-assistant contribution.",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://vpge.stanford.edu/guidance-faculty-staff/directors-graduate-admissions",
+            "quote": "Academic Year 2026-2027: $58,460 annualized ($14,615 per quarter)",
+            "note": "No dept figure; not a Biosciences home program. SoE: funding at least Stanford 20-hr RA salary. Univ. 50% RA/TA minimum set under Stanford-SGWU CBA (VPGE).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Neutral / Not Required",
         "contact_note": "Applicants need not secure a research supervisor before applying; admission is committee-based with first-year rotations.",
@@ -1856,7 +1867,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 48912,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/current-students/funding",
+            "quote": "For the 202-27 year students will receive a minimum stipend of $48,912/year.",
+            "note": "Stated per year (typo '202-27' = 2026-27). Program page: 'For 2025-26, students received a stipend of $47,548/year.'",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1897,7 +1919,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "EEB page (older): 'for 2024-2025 our standard Ph.D. stipend support includes a 9-month stipend of $33,930 plus summer support'; 6 yrs summer support guaranteed.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1938,7 +1971,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "Dept states full funding but no figure; Grad School 2026-27 min. 9-mo rate. 12-mo w/ summer: $48,912 TA/RA/GRA, $44,463 fellowship.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1979,7 +2023,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "Microbiology: full stipend, refers to 'current Cornell Graduate School- Stipend Rates'. Grad School min. 9-mo rate (12-mo $48,912).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2020,7 +2075,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "NBB: support guaranteed at least 7 years; handbook links to Grad School stipend rates. Grad School min. 9-mo rate (12-mo $48,912).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2061,7 +2127,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "Rate set by Cornell Graduate School. SIPS page (older): academic-year stipend ~$30,000 for 2022-23 plus ~$10,000 summer if doing research.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2102,7 +2179,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "Dept states full funding but no figure; Grad School 2026-27 min. 9-mo rate. 12-mo w/ summer: $48,912 TA/RA/GRA, $44,463 fellowship.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2143,7 +2231,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "Rate set by Cornell Graduate School. SIPS page (older): academic-year stipend ~$30,000 for 2022-23 plus ~$10,000 summer if doing research.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4579,7 +4678,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/",
+            "quote": "AY26-27: $52,000 effective July 1, 2026. The hourly appointment rate will be $28.11/hour, at minimum",
+            "note": "Dept pages give no figure; JHU–TRU-UE Local 197 CBA (Office of the Provost) sets annual PhD minimum.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4620,7 +4730,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/",
+            "quote": "AY26-27: $52,000 effective July 1, 2026. The hourly appointment rate will be $28.11/hour, at minimum",
+            "note": "Dept pages give no figure; JHU–TRU-UE Local 197 CBA (Office of the Provost) sets annual PhD minimum.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4661,7 +4782,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/",
+            "quote": "AY26-27: $52,000 effective July 1, 2026. The hourly appointment rate will be $28.11/hour, at minimum",
+            "note": "Dept pages give no figure; JHU–TRU-UE Local 197 CBA (Office of the Provost) sets annual PhD minimum.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4702,7 +4834,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/",
+            "quote": "AY26-27: $52,000 effective July 1, 2026. The hourly appointment rate will be $28.11/hour, at minimum",
+            "note": "Dept pages give no figure; JHU–TRU-UE Local 197 CBA (Office of the Provost) sets annual PhD minimum.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4743,7 +4886,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/",
+            "quote": "AY26-27: $52,000 effective July 1, 2026. The hourly appointment rate will be $28.11/hour, at minimum",
+            "note": "Dept pages give no figure; JHU–TRU-UE Local 197 CBA (Office of the Provost) sets annual PhD minimum.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4784,7 +4938,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/",
+            "quote": "AY26-27: $52,000 effective July 1, 2026. The hourly appointment rate will be $28.11/hour, at minimum",
+            "note": "Dept pages give no figure; JHU–TRU-UE Local 197 CBA (Office of the Provost) sets annual PhD minimum.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4825,7 +4990,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/",
+            "quote": "AY26-27: $52,000 effective July 1, 2026. The hourly appointment rate will be $28.11/hour, at minimum",
+            "note": "Program says only 'a competitive stipend'; CBA minimum applies.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4866,7 +5042,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/",
+            "quote": "AY26-27: $52,000 effective July 1, 2026. The hourly appointment rate will be $28.11/hour, at minimum",
+            "note": "Dept pages give no figure; JHU–TRU-UE Local 197 CBA (Office of the Provost) sets annual PhD minimum.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4907,7 +5094,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://pathology.jhu.edu/education/phd-program/details",
+            "quote": "The stipend for the academic year 2026-2027 is $52,000.",
+            "note": "Page describes a yearly stipend; mentor assumes support from year 2.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4948,7 +5146,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/",
+            "quote": "AY26-27: $52,000 effective July 1, 2026. The hourly appointment rate will be $28.11/hour, at minimum",
+            "note": "Dept pages give no figure; JHU–TRU-UE Local 197 CBA (Office of the Provost) sets annual PhD minimum.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4989,7 +5198,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://publichealth.jhu.edu/academics/phd-dept-of-molecular-microbiology-and-immunology",
+            "quote": "Per the Collective Bargaining Agreement (CBA) with the Union, PhD students are guaranteed a minimum annual stipend of $52,000 through June 2027.",
+            "note": "BSPH program page restates CBA minimum; guaranteed at least first 4 years.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -6266,7 +6486,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Funding and full tuition waiver per offer letter"
+          "note": "Funding and full tuition waiver per offer letter",
+          "stipend": {
+            "amount": 37000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://biosciences.rice.edu/eeb-financial-support",
+            "quote": "The annual stipend (including summer support) for the 2026-27 academic year is $37,000, which is sufficient to live well as a student given Houston's low cost of living.",
+            "note": "EEB 2026-2027 handbook: 'As an entering student, the Ecology and Evolutionary Biology graduate program will provide a 12- month stipend of $37,000.' Support beyond the first year for students in good standing; plus tuition waiver and subsidized health insurance.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8030,7 +8261,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend, tuition, health insurance)"
+          "note": "Fully funded (stipend, tuition, health insurance)",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://biosciences.stanford.edu/faqs/what-is-included-in-the-offer-of-admission/",
+            "quote": "The offer of admission for the 2026-27 Academic Year included a stipend of $58,460 ($14,615 per quarter), health and dental insurance, and graduate tuition.",
+            "note": "Set by Stanford Biosciences (Office of Graduate Education); Biology is one of its 14 home programs. $14,615/qtr x 4. No separate Biology figure. 2027-28 rate set ~Mar 2027.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8071,7 +8313,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend, tuition, health insurance)"
+          "note": "Fully funded (stipend, tuition, health insurance)",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://biosciences.stanford.edu/faqs/what-is-included-in-the-offer-of-admission/",
+            "quote": "The offer of admission for the 2026-27 Academic Year included a stipend of $58,460 ($14,615 per quarter), health and dental insurance, and graduate tuition.",
+            "note": "Set by Stanford Biosciences (Office of Graduate Education) for its 14 home programs; $14,615/qtr x 4. No separate program figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8112,7 +8365,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend, tuition, health insurance)"
+          "note": "Fully funded (stipend, tuition, health insurance)",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://biosciences.stanford.edu/faqs/what-is-included-in-the-offer-of-admission/",
+            "quote": "The offer of admission for the 2026-27 Academic Year included a stipend of $58,460 ($14,615 per quarter), health and dental insurance, and graduate tuition.",
+            "note": "Set by Stanford Biosciences (Office of Graduate Education) for its 14 home programs; $14,615/qtr x 4. No separate program figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8153,7 +8417,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend, tuition, health insurance)"
+          "note": "Fully funded (stipend, tuition, health insurance)",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://biosciences.stanford.edu/faqs/what-is-included-in-the-offer-of-admission/",
+            "quote": "The offer of admission for the 2026-27 Academic Year included a stipend of $58,460 ($14,615 per quarter), health and dental insurance, and graduate tuition.",
+            "note": "Set by Stanford Biosciences (Office of Graduate Education) for its 14 home programs; $14,615/qtr x 4. No separate program figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8194,7 +8469,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend, tuition, health insurance)"
+          "note": "Fully funded (stipend, tuition, health insurance)",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://biosciences.stanford.edu/faqs/what-is-included-in-the-offer-of-admission/",
+            "quote": "The offer of admission for the 2026-27 Academic Year included a stipend of $58,460 ($14,615 per quarter), health and dental insurance, and graduate tuition.",
+            "note": "Set by Stanford Biosciences (Office of Graduate Education) for its 14 home programs; $14,615/qtr x 4. No separate program figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8235,7 +8521,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend, tuition, health insurance)"
+          "note": "Fully funded (stipend, tuition, health insurance)",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://biosciences.stanford.edu/faqs/what-is-included-in-the-offer-of-admission/",
+            "quote": "The offer of admission for the 2026-27 Academic Year included a stipend of $58,460 ($14,615 per quarter), health and dental insurance, and graduate tuition.",
+            "note": "Set by Stanford Biosciences (Office of Graduate Education) for its 14 home programs; $14,615/qtr x 4. No separate program figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8276,7 +8573,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend, tuition, health insurance)"
+          "note": "Fully funded (stipend, tuition, health insurance)",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://biosciences.stanford.edu/faqs/what-is-included-in-the-offer-of-admission/",
+            "quote": "The offer of admission for the 2026-27 Academic Year included a stipend of $58,460 ($14,615 per quarter), health and dental insurance, and graduate tuition.",
+            "note": "Set by Stanford Biosciences (Office of Graduate Education) for its 14 home programs; $14,615/qtr x 4. No separate program figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8317,7 +8625,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend, tuition, health insurance)"
+          "note": "Fully funded (stipend, tuition, health insurance)",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://biosciences.stanford.edu/faqs/what-is-included-in-the-offer-of-admission/",
+            "quote": "The offer of admission for the 2026-27 Academic Year included a stipend of $58,460 ($14,615 per quarter), health and dental insurance, and graduate tuition.",
+            "note": "Set by Stanford Biosciences (Office of Graduate Education) for its 14 home programs; $14,615/qtr x 4. No separate program figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8358,7 +8677,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend, tuition, health insurance)"
+          "note": "Fully funded (stipend, tuition, health insurance)",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://biosciences.stanford.edu/faqs/what-is-included-in-the-offer-of-admission/",
+            "quote": "The offer of admission for the 2026-27 Academic Year included a stipend of $58,460 ($14,615 per quarter), health and dental insurance, and graduate tuition.",
+            "note": "Set by Stanford Biosciences (Office of Graduate Education) for its 14 home programs; $14,615/qtr x 4. No separate program figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8399,7 +8729,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend, tuition, health insurance)"
+          "note": "Fully funded (stipend, tuition, health insurance)",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://biosciences.stanford.edu/faqs/what-is-included-in-the-offer-of-admission/",
+            "quote": "The offer of admission for the 2026-27 Academic Year included a stipend of $58,460 ($14,615 per quarter), health and dental insurance, and graduate tuition.",
+            "note": "Set by Stanford Biosciences (Office of Graduate Education) for its 14 home programs; $14,615/qtr x 4. No separate program figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8440,7 +8781,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend, tuition, health insurance)"
+          "note": "Fully funded (stipend, tuition, health insurance)",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://biosciences.stanford.edu/faqs/what-is-included-in-the-offer-of-admission/",
+            "quote": "The offer of admission for the 2026-27 Academic Year included a stipend of $58,460 ($14,615 per quarter), health and dental insurance, and graduate tuition.",
+            "note": "Set by Stanford Biosciences (Office of Graduate Education) for its 14 home programs; $14,615/qtr x 4. No separate program figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8481,7 +8833,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum. Dept page: stipend '$33,960/year as of August 2024', below the 2026-27 12-month minimum ($34,764).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8522,7 +8885,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37440,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://mcdb.osu.edu/prospective-students/financial-support",
+            "quote": "The MCDB stipend for academic year 2026-2027 is $3,120 per month ($37,440 annually).",
+            "note": "$3,120/month; page says it typically increases 2-3% each year. Paid as GA or fellowship by program or research advisor.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8563,7 +8937,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://eeob.osu.edu/grad/graduate-program",
+            "quote": "Most of our graduate students are funded by teaching or research assistantships (20 hours per week), or sometimes by University Fellowships, at the rate of ~$2,897 per month, plus a full tuition waiver and employer supported benefits.",
+            "note": "Approximate ('~'); page undated but figure equals the 2026-27 Graduate School 50% GA minimum. Applies to TA/RA and University Fellowships.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8604,7 +8989,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum. Dept FAQ: 'For the 2023-2024 academic year the monthly stipend is $2,615/month' (outdated, below 2026-27 minimum).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8645,7 +9041,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 41208,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2027-28",
+            "scope": "program",
+            "source": "https://ngp.osu.edu/prospective-students/frequently-asked-questions",
+            "quote": "For the 2027-2028 academic year, the NGP Stipend will be $41,208 per year.",
+            "note": "Stated 'per year'; no separate 2026-27 figure found. Program is fully funded, most students on GRA appointments.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8686,7 +9093,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum. BSGP offers every admit an annual stipend (year 1 by program, then advisor) but publishes no figure; a 'minimum COM stipend' is referenced without amount.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8727,7 +9145,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). No program figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8768,7 +9197,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3005,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://pharmacy.osu.edu/education/phd-program/phd-admissions",
+            "quote": "The 2026-27 GTA and GRA minimum stipend for the Pharmaceutical Sciences graduate students is $3,005/month.",
+            "note": "Program minimum for GTA and GRA appointments; the student's exact monthly rate is given in the offer letter.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8809,7 +9249,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). No Vision Science PhD figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8850,7 +9301,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum. Funding not guaranteed: limited College of Dentistry/advisor GRAs 'when available'; no program figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8891,7 +9353,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). CVM graduate program pages give no figure (stipend stated in offer letter).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8932,7 +9405,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). No dept or CFAES figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -8973,7 +9457,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). Dept funding page gives no figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9014,7 +9509,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). No dept or CFAES figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9055,7 +9561,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum. Dept funding page: GRA stipends 'vary from year to year'; no figure. Half- and quarter-time GRAs exist.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9096,7 +9613,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). No dept or CFAES figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9137,7 +9665,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). No OSUN program figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9424,7 +9963,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 18250,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": null,
+            "scope": "program",
+            "source": "https://computationalhealth.berkeley.edu/financial-support/",
+            "quote": "The Computational Precision Health program provides an initial stipend of $18,250 for the first semester (or quarter, for students based at UCSF), as well as full support for tuition and fees",
+            "note": "Per first semester only (year not stated). Afterwards paid as 50% GSR/GSI on UC salary scales (UCOP Table 22).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9464,7 +10014,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3890.7,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $4,217.78 $3,796.00 $4,323.00 $3,890.70 T18C, Grade 1",
+            "note": "No dept figure. UC-UAW minimum for 1st-time GSI (TA 1) at 50%, Berkeley semester monthly rate eff. 10/1/2026 (UCOP T18). GSR 1 min $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9505,7 +10066,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3890.7,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $4,217.78 $3,796.00 $4,323.00 $3,890.70 T18C, Grade 1",
+            "note": "No dept figure. UC-UAW minimum for 1st-time GSI (TA 1) at 50%, Berkeley semester monthly rate eff. 10/1/2026 (UCOP T18). GSR 1 min $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9546,7 +10118,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37000,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://ib.berkeley.edu/grad/fees",
+            "quote": "As long as the student is enrolled full-time in both the Fall and Spring semester of each year, this results in at least $37,000/year plus tuition, fees, and health insurance",
+            "note": "Dept income guarantee for Fall 2026+ entrants, 5 yrs; counts GSI/GSR/fellowship income over Fall+Spring. Summer income extra.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9587,7 +10170,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3890.7,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $4,217.78 $3,796.00 $4,323.00 $3,890.70 T18C, Grade 1",
+            "note": "No dept figure. UC-UAW minimum for 1st-time GSI (TA 1) at 50%, Berkeley semester monthly rate eff. 10/1/2026 (UCOP T18). GSR 1 min $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9627,7 +10221,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://pmb.berkeley.edu/graduate-programs/frequently-asked-questions",
+            "quote": "The estimated funding offer for 2026-2027 is about $52,000.",
+            "note": "Plant & Microbial Biology FAQ (covers PMB's Plant Biology and Microbiology PhDs); annual offer, months not stated; 'about'. Tuition/fees separate.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9668,7 +10273,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 46126,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://mcb.berkeley.edu/grad/financial-support-0",
+            "quote": "The department provides a competitive funding guarantee ($46,126 for students entering in the 2026-27 year) and coverage of all fees and non-resident tuition.",
+            "note": "Annual minimum funding guarantee; MCB FAQ says entering stipend is based on an 11-month appointment. Fellowships topped up to this level.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9708,7 +10324,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3890.7,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $4,217.78 $3,796.00 $4,323.00 $3,890.70 T18C, Grade 1",
+            "note": "No dept figure. UC-UAW minimum for 1st-time GSI (TA 1) at 50%, Berkeley semester monthly rate eff. 10/1/2026 (UCOP T18). GSR 1 min $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9748,7 +10375,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://pmb.berkeley.edu/graduate-programs/frequently-asked-questions",
+            "quote": "The estimated funding offer for 2026-2027 is about $52,000.",
+            "note": "Plant & Microbial Biology dept FAQ; annual funding offer, months not stated; 'about'. Tuition and fees covered separately.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9788,7 +10426,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3890.7,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $4,217.78 $3,796.00 $4,323.00 $3,890.70 T18C, Grade 1",
+            "note": "No dept figure. UC-UAW minimum for 1st-time GSI (TA 1) at 50%, Berkeley semester monthly rate eff. 10/1/2026 (UCOP T18). GSR 1 min $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9829,7 +10478,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 40000,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": null,
+            "scope": "program",
+            "source": "https://grad.neuroscience.ucdavis.edu/financial-support",
+            "quote": "Current stipend (for living expenses) is ~$40,000 per year.",
+            "note": "approximate 'per year' figure, months not specified; year not stated ('current'); funding guaranteed with satisfactory progress",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9870,7 +10530,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; says stipend 'competitive' without amount",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9911,7 +10576,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; 'competitive living allowance', no amount",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9952,7 +10622,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; says stipend 'competitive' without amount",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9993,7 +10668,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 40000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://mcip.ucdavis.edu/applicant-faq",
+            "quote": "The average MCIP PhD student stipend for 2025-26 was ~$40,000.",
+            "note": "AVERAGE (not minimum/entry) annual stipend, approximate; months not specified",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10034,7 +10720,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; funding page lists only external/internal fellowship values",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10075,7 +10766,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; 'competitive living allowance', no amount",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10116,7 +10812,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10157,7 +10858,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10198,7 +10904,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 20000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2007-08",
+            "scope": "program",
+            "source": "https://pbg.ucdavis.edu/financial-support",
+            "quote": "The combination of resources will produce a quarterly stipend (living allowance) of no less than $5,000 per quarter for an annual support package of no less than $20,000.",
+            "note": "MINIMUM under compensation plan 'Effective Fall 2007' ($5,000/quarter); very dated, actual pay likely higher",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10239,7 +10956,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10280,7 +11002,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; says students receive a 'monthly stipend', no amount",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10321,7 +11048,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; 1st-yr fellowship 'equivalent to the Graduate Groups annual compensation plan', no amount",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10362,7 +11094,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10403,7 +11140,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10444,7 +11186,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; only a $25,200 dissertation-year fellowship (Graduate Studies award) is quoted",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10485,7 +11232,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10649,7 +11401,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 35000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://www.eeb.ucla.edu/graduate-student-support/",
+            "quote": "All Doctoral students are offered support packages that provide a minimum of $35,000 annually, plus fees and tuition, composed of a combination of fellowships, teaching assistantships, and research assistantships.",
+            "note": "EEB dept minimum, stated 'annually' incl. summers, Yrs 1-5. Sentence undated; page lists 2025-26 amounts. TA pay 'currently $12,653 per quarter' + fees.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10690,7 +11453,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; MBIDP refers only to 'GSR salary point 4-6 equivalent' funding level, no dollar figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10731,7 +11499,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10772,7 +11545,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; NSIDP/GPB give no figure. (MCIP, another GPB area, lists $44,976 for 2025-26; not applied here.)",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10813,7 +11591,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; only NIH training-grant support mentioned, no program stipend figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10854,7 +11637,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10895,7 +11683,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -11184,7 +11977,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -13874,7 +14672,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "MCB: 'generous stipend', no figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -13915,7 +14724,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "MCB: no figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -13956,7 +14776,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "MCB: 'generous stipend', no figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -13997,7 +14828,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 31500,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": null,
+            "scope": "program",
+            "source": "https://neuroscience.illinois.edu/graduate/graduate-program",
+            "quote": "This amount may vary by student depending on the support package, but will always meet or exceed the program's minimum rate, which is currently $31,500.",
+            "note": "Program minimum annual stipend (months not specified); year not stated ('currently'). Admissions page: 'The current stipend level is at least $31,500.'",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14038,7 +14880,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "PEEC guarantees stipend (9-month appt) 5 yrs, no figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14079,7 +14932,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "No dept figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14120,7 +14984,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "Stipend guaranteed 5 yrs, no figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14161,7 +15036,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "No dept figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14202,7 +15088,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "No dept figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14243,7 +15140,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "No program figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14284,7 +15192,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "No dept figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14325,7 +15244,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "No dept figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14366,7 +15296,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "'Generous stipend', no figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14407,7 +15348,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "No dept figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14734,7 +15686,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 41308,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2024-25",
+            "scope": "program",
+            "source": "https://macro.engin.umich.edu/admissions-2/",
+            "quote": "The GSI/GSRA for 2024-2025 to $41,308 for all 12 months.",
+            "note": "Program FAQ (2024-25). Newer Rackham 2025-26 established stipend: $14,596/term (= $43,788 for 12 months).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14775,7 +15738,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 14596,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://rackham.umich.edu/funding/cost-sharing-by-rackham/",
+            "quote": "(currently in AY 2025–26, the established stipend for each term is $14,596, and 50 percent is $7,298)",
+            "note": "No program figure found; Rackham 2025-26 established per-term stipend (3 terms/yr under 12-month model = $43,788). No 2026-27 rate posted (GEO contract unsettled).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14816,7 +15790,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 43787,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://lsa.umich.edu/eeb/graduates/prospective-students/prospective-student-faqs.html",
+            "quote": "Funding includes academic year and summer support amounting to an annual stipend of a minimum of $43,787 (2025-26 rate), full tuition waiver, and year-round health insurance.",
+            "note": "Stated as a minimum. Same page: during 2025-26 GSIs earn $14,596 per term; summer via dept fellowship or other support.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14857,7 +15842,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 43788,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": null,
+            "scope": "school-standard",
+            "source": "https://medschool.umich.edu/programs-admissions/phd-programs/phd-program-stipend-benefits",
+            "quote": "Each student receives tuition, an annual stipend of $43,788, and health care benefits.",
+            "note": "Michigan Medical School (PIBS) figure for all its PhD students; published as 'annual stipend', year not stated (= 3 x Rackham 2025-26 term rate $14,596).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14898,7 +15894,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 43788,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": null,
+            "scope": "school-standard",
+            "source": "https://medschool.umich.edu/programs-admissions/phd-programs/phd-program-stipend-benefits",
+            "quote": "Each student receives tuition, an annual stipend of $43,788, and health care benefits.",
+            "note": "Michigan Medical School (PIBS) figure for all its PhD students; published as 'annual stipend', year not stated (= 3 x Rackham 2025-26 term rate $14,596).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14939,7 +15946,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 43788,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": null,
+            "scope": "school-standard",
+            "source": "https://medschool.umich.edu/programs-admissions/phd-programs/phd-program-stipend-benefits",
+            "quote": "Each student receives tuition, an annual stipend of $43,788, and health care benefits.",
+            "note": "Michigan Medical School (PIBS) figure for all its PhD students; published as 'annual stipend', year not stated (= 3 x Rackham 2025-26 term rate $14,596).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -14979,7 +15997,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 43788,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": null,
+            "scope": "school-standard",
+            "source": "https://medschool.umich.edu/programs-admissions/phd-programs/phd-program-stipend-benefits",
+            "quote": "Each student receives tuition, an annual stipend of $43,788, and health care benefits.",
+            "note": "Michigan Medical School (PIBS) figure for all its PhD students; published as 'annual stipend', year not stated (= 3 x Rackham 2025-26 term rate $14,596).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -15020,7 +16049,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 43788,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": null,
+            "scope": "school-standard",
+            "source": "https://medschool.umich.edu/programs-admissions/phd-programs/phd-program-stipend-benefits",
+            "quote": "Each student receives tuition, an annual stipend of $43,788, and health care benefits.",
+            "note": "Michigan Medical School (PIBS) figure for all its PhD students; published as 'annual stipend', year not stated (= 3 x Rackham 2025-26 term rate $14,596).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -15060,7 +16100,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 43788,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": null,
+            "scope": "school-standard",
+            "source": "https://medschool.umich.edu/programs-admissions/phd-programs/phd-program-stipend-benefits",
+            "quote": "Each student receives tuition, an annual stipend of $43,788, and health care benefits.",
+            "note": "Michigan Medical School (PIBS) figure for all its PhD students; published as 'annual stipend', year not stated (= 3 x Rackham 2025-26 term rate $14,596).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -15101,7 +16152,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 43788,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": null,
+            "scope": "school-standard",
+            "source": "https://medschool.umich.edu/programs-admissions/phd-programs/phd-program-stipend-benefits",
+            "quote": "Each student receives tuition, an annual stipend of $43,788, and health care benefits.",
+            "note": "Michigan Medical School (PIBS) figure for all its PhD students; published as 'annual stipend', year not stated (= 3 x Rackham 2025-26 term rate $14,596).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -15142,7 +16204,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 41308.5,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": "2024-25",
+            "scope": "program",
+            "source": "https://lsa.umich.edu/mcdb/prospective-students/phd-program.html",
+            "quote": "Financial support includes: Stipend ($41,308.50 in 2024-25), tuition, fees, and health insurance for you, your spouse and dependents.",
+            "note": "Annual figure; months not stated. Newer Rackham 2025-26 established stipend: $14,596/term (x3 terms = $43,788).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -15182,7 +16255,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 43788,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": null,
+            "scope": "school-standard",
+            "source": "https://medschool.umich.edu/programs-admissions/phd-programs/phd-program-stipend-benefits",
+            "quote": "Each student receives tuition, an annual stipend of $43,788, and health care benefits.",
+            "note": "Michigan Medical School (PIBS) figure for all its PhD students; published as 'annual stipend', year not stated (= 3 x Rackham 2025-26 term rate $14,596).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -15222,7 +16306,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 43788,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": null,
+            "scope": "school-standard",
+            "source": "https://medschool.umich.edu/programs-admissions/phd-programs/phd-program-stipend-benefits",
+            "quote": "Each student receives tuition, an annual stipend of $43,788, and health care benefits.",
+            "note": "Michigan Medical School (PIBS) figure for all its PhD students; published as 'annual stipend', year not stated (= 3 x Rackham 2025-26 term rate $14,596).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -15263,7 +16358,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 43788,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": null,
+            "scope": "school-standard",
+            "source": "https://medschool.umich.edu/programs-admissions/phd-programs/phd-program-stipend-benefits",
+            "quote": "Each student receives tuition, an annual stipend of $43,788, and health care benefits.",
+            "note": "Michigan Medical School (PIBS) figure for all its PhD students; published as 'annual stipend', year not stated (= 3 x Rackham 2025-26 term rate $14,596).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17428,7 +18534,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3485,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_variable-RA-salary-schedule.pdf",
+            "quote": "Molecular Engineering $3,485 $5,411 $3,485 $5,411 $3,621 $5,547",
+            "note": "Candidate $3,621. MolES admissions FAQ still cites an outdated 2020-21 stipend of $36,792.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17469,7 +18586,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3449,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_variable-RA-salary-schedule.pdf",
+            "quote": "Aquatic & Fishery Sciences $3,449 $5,375 $3,449 $5,375 $3,621 $5,547",
+            "note": "SAFS funding page: stipend at 50% FTE ASE salary rates (fellowships at RA rate); candidate $3,621.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17510,7 +18638,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3621,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_variable-TA-salary-schedule.pdf",
+            "quote": "Biology $3,621 $5,547 $3,621 $5,547 $3,621 $5,547",
+            "note": "Same rate all levels (RA/TA). Biology FAQ promises 5 years of funding (tuition, stipend, insurance) without a figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17551,7 +18690,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4116,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://mcb-seattle.edu/current-student-resources/",
+            "quote": "The current salary rate (effective July 1, 2026) for MCB students is $49,392 per year; $4,116 per month (gross).",
+            "note": "50% FTE; = $49,392/year. Grad School 2025-26 Biomedical Research rate was $4,035/month.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17592,7 +18742,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4035,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_variable-RA-salary-schedule.pdf",
+            "quote": "Biomedical Research Departments* $4,035 $5,961 $4,035 $5,961 $4,035 $5,961",
+            "note": "GPN page: students paid the Biomedical Research Depts variable RA rate (Sch. 1&3). MCB/Genome Sciences list $4,116/mo from 7/1/2026.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17633,7 +18794,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 49392,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://www.gs.washington.edu/academics/ph-d-program/student-handbook/first-year-information/funding/",
+            "quote": "All eligible GS grads receive a funding package of $49,392 per year (as of 7/1/26), plus a tuition waiver and health insurance.",
+            "note": "Annual figure. First year funded by department, then by the lab.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17674,7 +18846,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4035,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_variable-RA-salary-schedule.pdf",
+            "quote": "Biomedical Research Departments* $4,035 $5,961 $4,035 $5,961 $4,035 $5,961",
+            "note": "Immunology is in the Grad School 'Biomedical Research Departments' group; dept funding page gives no figure. MCB/GS list $4,116/mo from 7/1/2026.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17715,7 +18898,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4035,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_variable-RA-salary-schedule.pdf",
+            "quote": "Biomedical Research Departments* $4,035 $5,961 $4,035 $5,961 $4,035 $5,961",
+            "note": "Microbiology is in the 'Biomedical Research Departments' group; dept pages give no figure. MCB/GS list $4,116/mo from 7/1/2026.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17756,7 +18950,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4035,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_variable-RA-salary-schedule.pdf",
+            "quote": "Biomedical Research Departments* $4,035 $5,961 $4,035 $5,961 $4,035 $5,961",
+            "note": "Pharmacology is in the 'Biomedical Research Departments' group; dept pages give no figure. MCB/GS list $4,116/mo from 7/1/2026.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17797,7 +19002,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4035,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://sites.uw.edu/m3d/prospective-students/admission-faq/",
+            "quote": "The M3D 2025-2026 salary: $48,420 or $4,035/month",
+            "note": "Program funds first three quarters, then PI. Biomedical Research variable RA rate.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17838,7 +19054,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 4035,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_variable-RA-salary-schedule.pdf",
+            "quote": "Pathobiology $4,035 $5,961 $4,035 $5,961 $4,035 $5,961",
+            "note": "Pathobiology RA rate, all levels. Program provides RA salary, tuition waiver, insurance; no figure on program page.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17879,7 +19106,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3473,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_variable-RA-salary-schedule.pdf",
+            "quote": "Pharmaceutics $3,473 $5,399 $3,473 $5,399 $3,621 $5,547",
+            "note": "Pharmaceutics RA rate; candidate $3,621. Dept pages give no figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17920,7 +19158,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 38000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://microbiology.wisc.edu/financial-support/",
+            "quote": "The MDTP is committed to providing a competitive stipend to our students. For 2026-27, the annual stipend will be $38,000.",
+            "note": "Microbiology Doctoral Training Program; matches Grad School 2026-27 sheet RA annual $38,000.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17961,7 +19210,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 30614,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Letters & Sciences (L&S) | Botany | TA academic (50%): $30,614 | PA academic (50%): $30,614 | PA annual (50%): $37,417 | RA academic (50%): $30,614 | RA annual (50%): $40,819",
+            "note": "TA academic (TA is most common support); RA annual $40,819, PA annual $37,417. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18002,7 +19262,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 39500,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://genetics.wisc.edu/prospective-ph-d-students-2-2-2/",
+            "quote": "The stipend for 2026-2027 is $39,500.",
+            "note": "Matches Grad School 2026-27 sheet RA annual $39,500; TA academic $30,614.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18043,7 +19314,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 30614,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Letters & Sciences (L&S) | Integrative Biology | TA academic (50%): $30,614 | PA academic (50%): $30,614 | PA annual (50%): $37,417 | RA academic (50%): NA | RA annual (50%): $40,819",
+            "note": "TA academic (TA is most common support); RA annual $40,819, PA annual $37,417. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18084,7 +19366,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37417,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Agriculture & Life Sciences (CALS) | Entomology | TA academic (50%): $30,614 | PA academic (50%): $30,614 | PA annual (50%): N/A | RA academic (50%): N/A | RA annual (50%): $37,417",
+            "note": "RA annual (50%) 12-month rate; (= campus minimum); TA/PA academic $30,614. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18125,7 +19418,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37417,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://hr.wisc.edu/docs/compensation/approved-graduate-assistant-stipend-rates-for-2026-2027-fiscal-year.pdf",
+            "quote": "Research assistantship (per 50% appointment) Annual: $37,417 Academic: $30,614",
+            "note": "EEB not listed in Grad School 2026-27 program-rate sheet; campus minimum set by UW-Madison Graduate School (UW-1238). TA min $30,614 academic.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18166,7 +19470,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 38500,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://cmb.wisc.edu/financial-health-insurance/",
+            "quote": "All CMB students are awarded a gross, pre-tax stipend of $38,500 for the 2026-27 academic year.",
+            "note": "Yearly stipend, new rates effective July 1; +2.5%/yr stated. Matches Grad School sheet RA annual $38,500.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18207,7 +19522,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 38000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://cmp.wisc.edu/financial-support/",
+            "quote": "All students will receive an annual stipend of $38,000 (pre-tax) for the 2026-2027 year.",
+            "note": "Matches Grad School 2026-27 sheet RA annual $38,000.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18248,7 +19574,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 38000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "School of Medicine & Public Health (SMPH) | Molecular and Cellular Pharmacology | TA academic (50%): N/A | PA academic (50%): N/A | PA annual (50%): N/A | RA academic (50%): N/A | RA annual (50%): $38,000",
+            "note": "RA annual (50%) 12-month rate; program pages state no figure. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18289,7 +19626,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37417,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "School of Veterinary Medicine | Comparative Biomedical Sciences | TA academic (50%): N/A | PA academic (50%): N/A | PA annual (50%): N/A | RA academic (50%): N/A | RA annual (50%): $37,417",
+            "note": "RA annual (50%) 12-month rate; (= campus minimum). Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18330,7 +19678,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 38000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "School of Medicine & Public Health (SMPH) | Cancer Biology | TA academic (50%): N/A | PA academic (50%): N/A | PA annual (50%): N/A | RA academic (50%): N/A | RA annual (50%): $38,000",
+            "note": "RA annual (50%) 12-month rate; program pages state no figure. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18371,7 +19730,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 38000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "School of Medicine & Public Health (SMPH) | Neuroscience | TA academic (50%): N/A | PA academic (50%): N/A | PA annual (50%): N/A | RA academic (50%): N/A | RA annual (50%): $38,000",
+            "note": "RA annual (50%) 12-month rate; NTP financial page still shows outdated $29,000 target (from July 2019). Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18412,7 +19782,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 38000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "School of Medicine & Public Health (SMPH) | Endocrinology-Reproductive Physiology | TA academic (50%): MS: $37,417 PhD: $38,000 | PA academic (50%): N/A | PA annual (50%): N/A | RA academic (50%): N/A | RA annual (50%): MS: $37,417 PhD: $38,000",
+            "note": "PhD RA annual rate (MS $37,417). Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18453,7 +19834,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 38000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "School of Medicine & Public Health (SMPH) | Molecular and Environmental Toxicology | TA academic (50%): N/A | PA academic (50%): N/A | PA annual (50%): N/A | RA academic (50%): N/A | RA annual (50%): $38,000",
+            "note": "RA annual (50%) 12-month rate; METC funding page says \"currently $37, 000/year\" (undated, older). Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18795,7 +20187,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 38000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "School of Pharmacy | Pharmaceutical Sciences | TA academic (50%): N/A | PA academic (50%): N/A | PA annual (50%): N/A | RA academic (50%): N/A | RA annual (50%): $38,000",
+            "note": "RA annual (50%) 12-month rate; program page gives $37,000 for 2025-26 (12-month). Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18836,7 +20239,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 38500,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Agriculture & Life Sciences (CALS) | Nutrition and Metabolism | TA academic (50%): $30,614 | PA academic (50%): N/A | PA annual (50%): N/A | RA academic (50%): N/A | RA annual (50%): $38,500",
+            "note": "RA annual (50%) 12-month rate; TA academic $30,614. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18877,7 +20291,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 38500,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Agriculture & Life Sciences (CALS) | Food Science | TA academic (50%): $30,614 | PA academic (50%): N/A | PA annual (50%): $37,417 | RA academic (50%): N/A | RA annual (50%): $38,500",
+            "note": "RA annual (50%) 12-month rate; TA academic $30,614; PA annual $37,417. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18918,7 +20343,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37917,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Agriculture & Life Sciences (CALS) | Animal Sciences | TA academic (50%): $30,614 | PA academic (50%): $30,614 | PA annual (50%): $37,417 | RA academic (50%): N/A | RA annual (50%): MS: $37,417 Pre-dissertator: $37,917 PhD dissertator: $38,417",
+            "note": "RA annual pre-dissertator rate; PhD dissertator $38,417; TA/PA academic $30,614. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18959,7 +20395,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37917,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Agriculture & Life Sciences (CALS) | Dairy Science | TA academic (50%): $30,614 | PA academic (50%): $30,614 | PA annual (50%): $37,417 | RA academic (50%): N/A | RA annual (50%): MS: $37,417 Pre-dissertator: $37,917 PhD dissertator: $38,417",
+            "note": "RA annual pre-dissertator rate; PhD dissertator $38,417; TA/PA academic $30,614. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -19000,7 +20447,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37417,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Agriculture & Life Sciences (CALS) | Agronomy | TA academic (50%): $30,614 | PA academic (50%): N/A | PA annual (50%): $37,417 | RA academic (50%): N/A | RA annual (50%): Non-dissertator: $37,417 Dissertator: $38,165.34",
+            "note": "RA annual non-dissertator rate (= campus min); dissertator $38,165.34; TA academic $30,614. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -19041,7 +20499,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37417,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Agriculture & Life Sciences (CALS) | Horticulture | TA academic (50%): $30,614 | PA academic (50%): N/A | PA annual (50%): $37,417 | RA academic (50%): N/A | RA annual (50%): Non-dissertator: $37,417 Dissertator: $38,165.34",
+            "note": "RA annual non-dissertator rate (= campus min); dissertator $38,165.34; TA academic $30,614. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -19082,7 +20551,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37417,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Agriculture & Life Sciences (CALS) | Plant Science & Technology | TA academic (50%): $30,614 | PA academic (50%): N/A | PA annual (50%): $37,417 | RA academic (50%): N/A | RA annual (50%): Non-dissertator: $37,417 Dissertator: $38,165.34",
+            "note": "RA annual non-dissertator rate (= campus min); dissertator $38,165.34; TA academic $30,614. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -19123,7 +20603,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37417,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Agriculture & Life Sciences (CALS) | Plant Pathology | TA academic (50%): $30,614 | PA academic (50%): $30,614 | PA annual (50%): N/A | RA academic (50%): N/A | RA annual (50%): $37,417",
+            "note": "RA annual (50%) 12-month rate; (= campus minimum); TA/PA academic $30,614. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -19164,7 +20655,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37417,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Agriculture & Life Sciences (CALS) | Forestry | TA academic (50%): $30,614 | PA academic (50%): $30,614 | PA annual (50%): $37,417 | RA academic (50%): $30,614 | RA annual (50%): $37,417",
+            "note": "RA annual (50%) 12-month rate; (= campus minimum); TA academic $30,614. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -19205,7 +20707,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37417,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Agriculture & Life Sciences (CALS) | Wildlife Ecology | TA academic (50%): $30,614 | PA academic (50%): $30,614 | PA annual (50%): $37,417 | RA academic (50%): $30,614 | RA annual (50%): $37,417",
+            "note": "RA annual (50%) 12-month rate; (= campus minimum); TA academic $30,614. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",

@@ -111,7 +111,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "Dept: 'Full stipends are given for nine months; additional summer support is usually available.' No figure; Grad School min. rate.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -193,7 +204,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/",
+            "quote": "AY26-27: $52,000 effective July 1, 2026. The hourly appointment rate will be $28.11/hour, at minimum",
+            "note": "Dept pages give no figure; JHU–TRU-UE Local 197 CBA (Office of the Provost) sets annual PhD minimum.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -480,7 +502,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://vpge.stanford.edu/guidance-faculty-staff/directors-graduate-admissions",
+            "quote": "Academic Year 2026-2027: $58,460 annualized ($14,615 per quarter)",
+            "note": "No dept figure; SoE: funding at least Stanford 20-hr RA salary + tuition. Univ. 50% RA/TA minimum set under Stanford-SGWU CBA (VPGE).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -521,7 +554,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Graduate Teaching/Research Associateships and fellowships available"
+          "note": "Graduate Teaching/Research Associateships and fellowships available",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). No dept figure; College of Engineering PhD min $2,800/mo as of Autumn 2025 (now superseded).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -561,7 +605,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3890.7,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $4,217.78 $3,796.00 $4,323.00 $3,890.70 T18C, Grade 1",
+            "note": "No dept figure. UC-UAW minimum for 1st-time GSI (TA 1) at 50%, Berkeley semester monthly rate eff. 10/1/2026 (UCOP T18). GSR 1 min $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -602,7 +657,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 30000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": null,
+            "scope": "program",
+            "source": "https://che.engineering.ucdavis.edu/graduate/funding-your-degree",
+            "quote": "The funding guarantee includes full fee payment, including non-resident supplemental tuition (NRST) and a yearly stipend (including summers) of around $30,000.",
+            "note": "'around' figure, 4-yr guarantee; page undated, likely outdated vs current UAW salary scales (identical text on MSE page)",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -683,7 +749,12 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Fully supported (stipend, tuition & fees)"
+          "note": "Fully supported (stipend, tuition & fees)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; dept says PhD candidates are fully supported (stipend, tuition & fees) but states no amount.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -889,7 +960,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Grainger PhD guaranteed funded appointment (tuition waiver + stipend) first 5 years"
+          "note": "Grainger PhD guaranteed funded appointment (tuition waiver + stipend) first 5 years",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "Grainger 5-yr guarantee gives no figure; no dept figure found. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -971,7 +1053,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 14596,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://rackham.umich.edu/funding/cost-sharing-by-rackham/",
+            "quote": "(currently in AY 2025–26, the established stipend for each term is $14,596, and 50 percent is $7,298)",
+            "note": "No program figure found; Rackham 2025-26 established per-term stipend (3 terms/yr under 12-month model = $43,788). No 2026-27 rate posted (GEO contract unsettled).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1343,7 +1436,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Generous financial support; ~5 yrs to degree"
+          "note": "Generous financial support; ~5 yrs to degree",
+          "stipend": {
+            "amount": 3612,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": null,
+            "scope": "program",
+            "source": "https://www.cheme.washington.edu/graduate_students/employment-fellowships",
+            "quote": "The table below shows half-time (50% FTE) monthly rates for Research and Teaching Assistantships in the Department of Chemical Engineering. Level Pay Premaster $3612 Intermediate $3794 Candidate $3984",
+            "note": "Year not stated; exceeds Grad School 2025-26 ChemE rate ($3,504 premaster), so likely 2026-27. Intermediate $3794; candidate $3984.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",

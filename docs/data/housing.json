@@ -1,0 +1,2066 @@
+{
+ "meta": {
+  "generated_at": "2026-09-22",
+  "note": "Average monthly rent near each university. US: mean of HUD FY2026 1-bedroom Fair Market Rents (county, and the residential ZIP next to campus) and the Zillow Observed Rent Index for the city. Elsewhere: mean of published one-bedroom rents (official statistics first). Each figure links to its source."
+ },
+ "places": [
+  {
+   "id": "university-of-wisconsin-madison",
+   "city": "Madison, WI",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1646,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Dane County (Madison, WI HUD Metro FMR Area)",
+     "value": 1482,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 53715",
+     "value": 1840,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Madison, WI",
+     "value": 1616,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-georgia",
+   "city": "Athens, GA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1310,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Clarke County (Athens-Clarke County, GA MSA)",
+     "value": 1183,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 30605",
+     "value": 1140,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Athens, GA",
+     "value": 1607,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "the-ohio-state-university",
+   "city": "Columbus, OH",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1311,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Franklin County (Columbus, OH HUD Metro FMR Area)",
+     "value": 1194,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 43201",
+     "value": 1290,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Columbus, OH",
+     "value": 1450,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-washington",
+   "city": "Seattle, WA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2240,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — King County (Seattle-Bellevue, WA HUD Metro FMR Area)",
+     "value": 2146,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 98105",
+     "value": 2340,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Seattle, WA",
+     "value": 2234,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-california-davis",
+   "city": "Davis, CA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2025,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Yolo County (Yolo, CA HUD Metro FMR Area)",
+     "value": 1615,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 95616",
+     "value": 1930,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Davis, CA",
+     "value": 2529,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-michigan-ann-arbor",
+   "city": "Ann Arbor, MI",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1708,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Washtenaw County (Ann Arbor, MI MSA)",
+     "value": 1387,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 48104",
+     "value": 1650,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Ann Arbor, MI",
+     "value": 2086,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-illinois-urbana-champaign",
+   "city": "Champaign–Urbana, IL",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1174,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Champaign County (Champaign-Urbana, IL HUD Metro FMR Area)",
+     "value": 946,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 61820",
+     "value": 1070,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Champaign, IL",
+     "value": 1506,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "stanford-university",
+   "city": "Stanford / Palo Alto, CA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 3633,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Santa Clara County (San Jose-Sunnyvale-Santa Clara, CA HUD Metro FMR Area)",
+     "value": 2982,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 94306",
+     "value": 3240,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Palo Alto, CA",
+     "value": 4678,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "johns-hopkins-university",
+   "city": "Baltimore, MD",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1588,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Baltimore city (Baltimore-Columbia-Towson, MD MSA)",
+     "value": 1511,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 21218",
+     "value": 1450,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Baltimore, MD",
+     "value": 1802,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-california-los-angeles",
+   "city": "Los Angeles (Westwood), CA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2852,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Los Angeles County (Los Angeles-Long Beach-Glendale, CA HUD Metro FMR Area)",
+     "value": 2328,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 90024",
+     "value": 3450,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Los Angeles, CA",
+     "value": 2778,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-california-berkeley",
+   "city": "Berkeley, CA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2461,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Alameda County (Oakland-Fremont, CA HUD Metro FMR Area)",
+     "value": 2385,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 94704",
+     "value": 2180,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Berkeley, CA",
+     "value": 2818,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "cornell-university",
+   "city": "Ithaca, NY",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1674,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Tompkins County (Ithaca, NY MSA)",
+     "value": 1466,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 14850",
+     "value": 1580,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Ithaca, NY",
+     "value": 1975,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-florida",
+   "city": "Gainesville, FL",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1348,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Alachua County (Gainesville, FL HUD Metro FMR Area)",
+     "value": 1246,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 32603",
+     "value": 1180,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Gainesville, FL",
+     "value": 1618,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "duke-university",
+   "city": "Durham, NC",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1555,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Durham County (Durham-Chapel Hill, NC HUD Metro FMR Area)",
+     "value": 1507,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 27705",
+     "value": 1500,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Durham, NC",
+     "value": 1659,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "california-institute-of-technology",
+   "city": "Pasadena, CA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2697,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Los Angeles County (Los Angeles-Long Beach-Glendale, CA HUD Metro FMR Area)",
+     "value": 2328,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 91106",
+     "value": 2740,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Pasadena, CA",
+     "value": 3022,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "harvard-university",
+   "city": "Cambridge, MA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 3171,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Cambridge city (Boston-Cambridge-Quincy, MA-NH HUD Metro FMR Area)",
+     "value": 2476,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 02138",
+     "value": 3560,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Cambridge, MA",
+     "value": 3476,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-maryland-college-park",
+   "city": "College Park, MD",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2052,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Prince George's County (Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area)",
+     "value": 2015,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 20740",
+     "value": 2150,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — College Park, MD",
+     "value": 1992,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "georgia-institute-of-technology",
+   "city": "Atlanta (Midtown), GA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1825,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Fulton County (Atlanta-Sandy Springs-Roswell, GA HUD Metro FMR Area)",
+     "value": 1660,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 30318",
+     "value": 1870,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Atlanta, GA",
+     "value": 1944,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "purdue-university",
+   "city": "West Lafayette, IN",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1317,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Tippecanoe County (Lafayette-West Lafayette, IN HUD Metro FMR Area)",
+     "value": 1032,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 47906",
+     "value": 1060,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — West Lafayette, IN",
+     "value": 1858,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "vanderbilt-university",
+   "city": "Nashville, TN",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1691,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Davidson County (Nashville-Davidson--Murfreesboro--Franklin, TN HUD Metro FMR Area)",
+     "value": 1578,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 37212",
+     "value": 1660,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Nashville, TN",
+     "value": 1834,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-chicago",
+   "city": "Chicago (Hyde Park), IL",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1761,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Cook County (Chicago-Joliet-Naperville, IL HUD Metro FMR Area)",
+     "value": 1581,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 60637",
+     "value": 1360,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Chicago, IL",
+     "value": 2342,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-southern-california",
+   "city": "Los Angeles (University Park), CA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2309,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Los Angeles County (Los Angeles-Long Beach-Glendale, CA HUD Metro FMR Area)",
+     "value": 2328,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 90007",
+     "value": 1820,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Los Angeles, CA",
+     "value": 2778,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "yale-university",
+   "city": "New Haven, CT",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1752,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — New Haven town (New Haven, CT MSA)",
+     "value": 1591,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 06511",
+     "value": 1650,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — New Haven, CT",
+     "value": 2015,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "rutgers-university-new-brunswick",
+   "city": "New Brunswick, NJ",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2200,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Middlesex County (Middlesex-Somerset-Hunterdon, NJ HUD Metro FMR Area)",
+     "value": 1978,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 08901",
+     "value": 1890,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — New Brunswick, NJ",
+     "value": 2731,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-texas-at-austin",
+   "city": "Austin, TX",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1613,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Travis County (Austin-Round Rock-San Marcos, TX MSA)",
+     "value": 1562,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 78705",
+     "value": 1690,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Austin, TX",
+     "value": 1586,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "carnegie-mellon-university",
+   "city": "Pittsburgh, PA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1337,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Allegheny County (Pittsburgh, PA HUD Metro FMR Area)",
+     "value": 1077,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 15213",
+     "value": 1390,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Pittsburgh, PA",
+     "value": 1545,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "boston-university",
+   "city": "Boston, MA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 3011,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Boston city (Boston-Cambridge-Quincy, MA-NH HUD Metro FMR Area)",
+     "value": 2476,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 02215",
+     "value": 3220,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Boston, MA",
+     "value": 3338,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "columbia-university",
+   "city": "New York (Morningside Heights), NY",
+   "country": "United States",
+   "currency": "USD",
+   "average": 3090,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — New York County (New York, NY HUD Metro FMR Area)",
+     "value": 2655,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 10027",
+     "value": 2460,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — New York, NY",
+     "value": 4154,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-north-carolina-at-chapel-hill",
+   "city": "Chapel Hill, NC",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1626,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Orange County (Durham-Chapel Hill, NC HUD Metro FMR Area)",
+     "value": 1507,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 27514",
+     "value": 1680,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Chapel Hill, NC",
+     "value": 1690,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-virginia",
+   "city": "Charlottesville, VA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1740,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Charlottesville city (Charlottesville, VA MSA)",
+     "value": 1602,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 22903",
+     "value": 1660,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Charlottesville, VA",
+     "value": 1959,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "washington-university-in-st-louis",
+   "city": "St. Louis, MO",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1146,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — St. Louis County (St. Louis, MO-IL HUD Metro FMR Area)",
+     "value": 995,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 63130",
+     "value": 1110,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Saint Louis, MO",
+     "value": 1334,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-rochester",
+   "city": "Rochester, NY",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1374,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Monroe County (Rochester, NY MSA)",
+     "value": 1256,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 14620",
+     "value": 1390,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Rochester, NY",
+     "value": 1476,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "northwestern-university",
+   "city": "Evanston, IL",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2040,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Cook County (Chicago-Joliet-Naperville, IL HUD Metro FMR Area)",
+     "value": 1581,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 60201",
+     "value": 2100,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Evanston, IL",
+     "value": 2438,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "tufts-university",
+   "city": "Medford / Somerville, MA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2931,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Medford city (Boston-Cambridge-Quincy, MA-NH HUD Metro FMR Area)",
+     "value": 2476,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 02155",
+     "value": 2740,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Medford, MA",
+     "value": 3577,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-california-irvine",
+   "city": "Irvine, CA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 3254,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Orange County (Santa Ana-Anaheim-Irvine, CA HUD Metro FMR Area)",
+     "value": 2746,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 92612",
+     "value": 3490,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Irvine, CA",
+     "value": 3527,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-california-san-diego",
+   "city": "San Diego (La Jolla), CA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2908,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — San Diego County (San Diego-Chula Vista-Carlsbad, CA MSA)",
+     "value": 2459,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 92122",
+     "value": 3230,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — San Diego, CA",
+     "value": 3036,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "princeton-university",
+   "city": "Princeton, NJ",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2364,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Mercer County (Trenton-Princeton, NJ MSA)",
+     "value": 1545,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 08540",
+     "value": 2090,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Princeton, NJ",
+     "value": 3456,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "massachusetts-institute-of-technology",
+   "city": "Cambridge, MA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 3107,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Cambridge city (Boston-Cambridge-Quincy, MA-NH HUD Metro FMR Area)",
+     "value": 2476,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 02139",
+     "value": 3370,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Cambridge, MA",
+     "value": 3476,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "northeastern-university",
+   "city": "Boston, MA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2871,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Boston city (Boston-Cambridge-Quincy, MA-NH HUD Metro FMR Area)",
+     "value": 2476,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 02115",
+     "value": 2800,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Boston, MA",
+     "value": 3338,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-pennsylvania",
+   "city": "Philadelphia, PA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1599,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Philadelphia County (Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA)",
+     "value": 1520,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 19104",
+     "value": 1510,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Philadelphia, PA",
+     "value": 1768,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-california-santa-barbara",
+   "city": "Santa Barbara / Goleta, CA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 3229,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Santa Barbara County (Santa Maria-Santa Barbara, CA MSA)",
+     "value": 2746,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 93117",
+     "value": 3030,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Goleta, CA",
+     "value": 3910,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "rice-university",
+   "city": "Houston, TX",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1615,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Harris County (Houston-The Woodlands-Sugar Land, TX HUD Metro FMR Area)",
+     "value": 1323,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 77005",
+     "value": 1980,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Houston, TX",
+     "value": 1542,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "emory-university",
+   "city": "Atlanta (Druid Hills), GA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1911,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — DeKalb County (Atlanta-Sandy Springs-Roswell, GA HUD Metro FMR Area)",
+     "value": 1660,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 30307",
+     "value": 2130,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Atlanta, GA",
+     "value": 1944,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "lehigh-university",
+   "city": "Bethlehem, PA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1528,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Northampton County (Allentown-Bethlehem-Easton, PA HUD Metro FMR Area)",
+     "value": 1341,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 18015",
+     "value": 1360,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Bethlehem, PA",
+     "value": 1884,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "new-york-university",
+   "city": "New York (Greenwich Village), NY",
+   "country": "United States",
+   "currency": "USD",
+   "average": 3600,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — New York County (New York, NY HUD Metro FMR Area)",
+     "value": 2655,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 10012",
+     "value": 3990,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — New York, NY",
+     "value": 4154,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "brown-university",
+   "city": "Providence, RI",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1838,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Providence city (Providence-Fall River, RI-MA HUD Metro FMR Area)",
+     "value": 1402,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 02906",
+     "value": 1900,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Providence, RI",
+     "value": 2213,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-notre-dame",
+   "city": "Notre Dame / South Bend, IN",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1308,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — St. Joseph County (South Bend-Mishawaka, IN HUD Metro FMR Area)",
+     "value": 1105,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 46617",
+     "value": 1520,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — South Bend, IN",
+     "value": 1298,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "dartmouth-college",
+   "city": "Hanover, NH",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1753,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Hanover town (Grafton County, NH)",
+     "value": 1455,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 03755",
+     "value": 2050,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    }
+   ]
+  },
+  {
+   "id": "georgetown-university",
+   "city": "Washington, DC",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2247,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — District of Columbia (Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area)",
+     "value": 2015,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 20007",
+     "value": 2210,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Washington, DC",
+     "value": 2517,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "boston-college",
+   "city": "Chestnut Hill / Newton, MA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 3101,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Newton city (Boston-Cambridge-Quincy, MA-NH HUD Metro FMR Area)",
+     "value": 2476,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 02467",
+     "value": 3420,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Newton, MA",
+     "value": 3408,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-colorado-boulder",
+   "city": "Boulder, CO",
+   "country": "United States",
+   "currency": "USD",
+   "average": 2035,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Boulder County (Boulder, CO MSA)",
+     "value": 1795,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 80302",
+     "value": 1910,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Boulder, CO",
+     "value": 2399,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "oregon-state-university",
+   "city": "Corvallis, OR",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1550,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Benton County (Corvallis, OR MSA)",
+     "value": 1451,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 97330",
+     "value": 1480,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Corvallis, OR",
+     "value": 1718,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "university-of-minnesota",
+   "city": "Minneapolis, MN",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1496,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Hennepin County (Minneapolis-St. Paul-Bloomington, MN-WI HUD Metro FMR Area)",
+     "value": 1405,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 55414",
+     "value": 1400,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — Minneapolis, MN",
+     "value": 1682,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "pennsylvania-state-university",
+   "city": "State College, PA",
+   "country": "United States",
+   "currency": "USD",
+   "average": 1426,
+   "measure": "Monthly rent — mean of HUD 1-bedroom Fair Market Rents (county and campus ZIP) and the Zillow city rent index",
+   "sources": [
+    {
+     "label": "HUD FY2026 Fair Market Rent, 1-bedroom — Centre County (State College, PA MSA)",
+     "value": 1194,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs_revised.xlsx",
+     "note": "Gross rent (rent + utilities) at the 40th percentile of recent movers; set for the whole HUD area."
+    },
+    {
+     "label": "HUD FY2026 Small Area FMR, 1-bedroom — ZIP 16801",
+     "value": 1280,
+     "period": "FY2026 (Oct 2025 – Sep 2026)",
+     "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/fy2026_safmrs_revised.xlsx",
+     "note": "ZIP-level version of the same HUD measure, for the residential ZIP next to campus."
+    },
+    {
+     "label": "Zillow Observed Rent Index — State College, PA",
+     "value": 1804,
+     "period": "2026-08",
+     "url": "https://www.zillow.com/research/data/",
+     "note": "Typical asking rent across all rental homes (35th–65th percentile), smoothed; not bedroom-specific."
+    }
+   ]
+  },
+  {
+   "id": "singapore-sg",
+   "city": "Singapore",
+   "country": "Singapore",
+   "currency": "SGD",
+   "average": 3292,
+   "measure": "Monthly rent of a one-bedroom apartment — mean of the published figures listed",
+   "sources": [
+    {
+     "label": "Numbeo Cost of Living - 1 Bedroom Apartment (city centre / outside of city centre), mean of the two lines",
+     "value": 3292.29,
+     "period": "Numbeo crowd-sourced data, page last updated 21 September 2026 (viewed 2026-09-22)",
+     "url": "https://www.numbeo.com/cost-of-living/in/Singapore?displayCurrency=SGD",
+     "note": "Two lines of one source; value = mean of city-centre (3,820.00) and outside-centre (2,764.58) = 3,292.29. Crowd-sourced, asking-level rents. “1 Bedroom Apartment in City Centre S$3,820.00 | 1 Bedroom Apartment Outside of City Centre S$2,764.58 | Last update: 21 September 2026”"
+    }
+   ],
+   "note": "Only one acceptable source found. No official (URA/HDB) or market-report figure explicitly for a 1-bedroom unit was found in this check; HDB flat-type rents (e.g. '2-room') were not substituted, per the brief's rule. Global Property Guide's '1-Bed Rent Prices' page (https://www.globalpropertyguide.com/asia/singapore/rent, H1 2026) gives only district-level figures in USD, so it was not used. Treat this average as low-confidence (single crowd-sourced source)."
+  },
+  {
+   "id": "hong-kong-hk",
+   "city": "Hong Kong",
+   "country": "Hong Kong SAR, China",
+   "currency": "HKD",
+   "average": 16496,
+   "measure": "Monthly rent of a one-bedroom apartment — mean of the published figures listed",
+   "sources": [
+    {
+     "label": "Rating and Valuation Department (RVD), Hong Kong Property Review Monthly Supplement, Table 1.1 Private Domestic - Average Rents by Class, Class B (40 m2 to 69.9 m2), converted at 45 m2",
+     "value": 17580,
+     "period": "July 2026 (provisional figures; Monthly Supplement September 2026)",
+     "url": "https://www.rvd.gov.hk/doc/en/statistics/full.pdf",
+     "note": "RVD gives only per-m2 rents and only by region (HK Island / Kowloon / New Territories), with no territory-wide figure. Value = unweighted mean of the three regional Class B rents ((446+418+308)/3 = 390.67 HK$/m2) x 45 m2 (the brief's standard 1-bedroom size) = 17,580.00. Same series also in https://www.rvd.gov.hk/doc/en/statistics/his_data_1.xls. Based on new lettings recorded by RVD; saleable area. “PRIVATE DOMESTIC - AVERAGE RENTS BY CLASS ($ / m2 per month) | 2026 7 * | Class B 40 m2 to 69.9 m2: Hong Kong 446 | Kowloon 418 | New Territories 308”"
+    },
+    {
+     "label": "Numbeo Cost of Living - 1 Bedroom Apartment (city centre / outside of city centre), mean of the two lines",
+     "value": 15411.24,
+     "period": "Numbeo crowd-sourced data, page last updated 21 September 2026 (viewed 2026-09-22)",
+     "url": "https://www.numbeo.com/cost-of-living/in/Hong-Kong?displayCurrency=HKD",
+     "note": "Two lines of one source; value = mean of city-centre (17,632.00) and outside-centre (13,190.48) = 15,411.24. Crowd-sourced, asking-level rents. “1 Bedroom Apartment in City Centre HK$17,632.00 | 1 Bedroom Apartment Outside of City Centre HK$13,190.48 | Last update: 21 September 2026”"
+    }
+   ],
+   "note": "Hong Kong as a whole (covers CUHK, HKU, HKUST). The RVD value involves an unweighted mean across three regions plus the 45 m2 conversion; see its note."
+  },
+  {
+   "id": "zurich-ch",
+   "city": "Zurich",
+   "country": "Switzerland",
+   "currency": "CHF",
+   "average": 1739,
+   "measure": "Monthly rent of a one-bedroom apartment — mean of the published figures listed",
+   "sources": [
+    {
+     "label": "Statistik Stadt Zürich, Mietpreiserhebung (MPE) 2024 - median net rent, 2-room flats (Swiss 2-room = one bedroom), whole city",
+     "value": 1424,
+     "period": "Reference date 1 April 2024 (MPE 2024, published November 2024); 2026 MPE not yet published",
+     "url": "https://www.stadt-zuerich.ch/artikel/de/statistik-und-daten/mietpreise-2024-in-der-stadt-zuerich.html",
+     "note": "Median net rent (excluding Nebenkosten; gross is stated to be 10-15% higher) of existing tenancies, all ownership types incl. cooperative/non-profit flats. Official city statistics. “Er liegt für das Total aller Wohnungen mit zwei Zimmern gesamtstädtisch bei monatlich 1424 Franken”"
+    },
+    {
+     "label": "Statistisches Amt Kanton Zürich, Datenblatt Bestandsmieten - Stadt Zürich, 2-Zimmerwohnung, average net rent per flat",
+     "value": 1537,
+     "period": "Pooled BFS Strukturerhebung 2022-2024 (datasheet updated 20.04.2026)",
+     "url": "https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00000717_00001782.xlsx",
+     "note": "Sheet 'Gesamtmieten' (Durchschnitt, 95% CI 1521-1553). Average net rent of all existing tenancies, from the federal structural survey (independent of the city MPE). Landing page: https://www.zh.ch/de/planen-bauen/raumplanung/immobilienmarkt/wohnungsmieten.html “Stadt Zürich | 2-Zimmerwohnung | 1537 | 1521-1553”"
+    },
+    {
+     "label": "Numbeo Cost of Living - 1 Bedroom Apartment (city centre / outside of city centre), mean of the two lines",
+     "value": 2257.06,
+     "period": "Numbeo crowd-sourced data, page last updated 17 September 2026 (viewed 2026-09-22)",
+     "url": "https://www.numbeo.com/cost-of-living/in/Zurich?displayCurrency=CHF",
+     "note": "Two lines of one source; value = mean of city-centre (2,518.50) and outside-centre (1,995.62) = 2,257.06. Crowd-sourced, asking-level rents. “1 Bedroom Apartment in City Centre 2,518.50 Fr. | 1 Bedroom Apartment Outside of City Centre 1,995.62 Fr. | Last update: 17 September 2026”"
+    }
+   ],
+   "note": "Zurich city. The two official figures are existing-tenancy net rents (well below current asking rents for a newly let flat); Numbeo reflects asking-level rents."
+  },
+  {
+   "id": "lausanne-ch",
+   "city": "Lausanne",
+   "country": "Switzerland",
+   "currency": "CHF",
+   "average": 1421,
+   "measure": "Monthly rent of a one-bedroom apartment — mean of the published figures listed",
+   "sources": [
+    {
+     "label": "Statistique Vaud - Loyer moyen des logements occupés selon le nombre de pièces et la commune: Lausanne, logements de 2 pièces (Swiss 2-room = one bedroom)",
+     "value": 1158,
+     "period": "Pooled 2020-2024 (OFS Relevé structurel)",
+     "url": "https://www.vd.ch/fileadmin/user_upload/organisation/dfin/statvd/Dom_09/Tableaux/loyer_moyen_communes_pieces_vd.xlsx",
+     "note": "Row columns: Total, then 1, 2, 3, 4, 5+ pièces, each 'Loyer moyen | ± en CHF'; 2 pièces = CHF 1 158 ± 9. Average rent of occupied (existing-tenancy) dwellings. Landing page: https://www.vd.ch/etat-droit-finances/statistique/statistiques-par-domaine/09-construction-et-logement/conditions-dhabitation “Lausanne | 1 347 | 7 | 876 | 12 | 1 158 | 9 | 1 408 | 10 | 1 714 | 18 | 2 317 | 49”"
+    },
+    {
+     "label": "Numbeo Cost of Living - 1 Bedroom Apartment (city centre / outside of city centre), mean of the two lines",
+     "value": 1683.67,
+     "period": "Numbeo crowd-sourced data, page last updated 21 September 2026 (viewed 2026-09-22)",
+     "url": "https://www.numbeo.com/cost-of-living/in/Lausanne?displayCurrency=CHF",
+     "note": "Two lines of one source; value = mean of city-centre (1,881.50) and outside-centre (1,485.83) = 1,683.67. Crowd-sourced, asking-level rents. “1 Bedroom Apartment in City Centre 1,881.50 Fr. | 1 Bedroom Apartment Outside of City Centre 1,485.83 Fr. | Last update: 21 September 2026”"
+    }
+   ],
+   "note": "Lausanne commune. Official figure is an existing-tenancy average pooled over 2020-2024 and is well below current asking rents; Numbeo reflects asking-level rents."
+  },
+  {
+   "id": "oxford-uk",
+   "city": "Oxford",
+   "country": "United Kingdom",
+   "currency": "GBP",
+   "average": 1421,
+   "measure": "Monthly rent of a one-bedroom apartment — mean of the published figures listed",
+   "sources": [
+    {
+     "label": "ONS Price Index of Private Rents (PIPR) - Oxford, one bed, average monthly private rent",
+     "value": 1351,
+     "period": "August 2026",
+     "url": "https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics/16september2026/priceindexofprivaterentsukmonthlypricestatistics.xlsx",
+     "note": "ONS PIPR monthly price statistics, 16 September 2026 edition (dataset page: https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics); covers new and existing private tenancies; official statistics in development. “Table 1 row: Time period 2026-08-01 | Area code E07000178 | Area name Oxford | Rental price one bed 1351”"
+    },
+    {
+     "label": "Numbeo Cost of Living - 1 Bedroom Apartment (city centre / outside of city centre), mean of the two lines",
+     "value": 1491.25,
+     "period": "Numbeo crowd-sourced data, page last updated 19 June 2026 (viewed 2026-09-22)",
+     "url": "https://www.numbeo.com/cost-of-living/in/Oxford?displayCurrency=GBP",
+     "note": "Two lines of one source; value = mean of city-centre (1,710.00) and outside-centre (1,272.50) = 1,491.25. Crowd-sourced, asking-level rents. “1 Bedroom Apartment in City Centre £1,710.00 | 1 Bedroom Apartment Outside of City Centre £1,272.50 | Last update: 19 June 2026”"
+    }
+   ],
+   "note": "Oxford local authority (ONS) and Numbeo Oxford city page."
+  },
+  {
+   "id": "cambridge-uk",
+   "city": "Cambridge",
+   "country": "United Kingdom",
+   "currency": "GBP",
+   "average": 1350,
+   "measure": "Monthly rent of a one-bedroom apartment — mean of the published figures listed",
+   "sources": [
+    {
+     "label": "ONS Price Index of Private Rents (PIPR) - Cambridge, one bed, average monthly private rent",
+     "value": 1256,
+     "period": "August 2026",
+     "url": "https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics/16september2026/priceindexofprivaterentsukmonthlypricestatistics.xlsx",
+     "note": "ONS PIPR monthly price statistics, 16 September 2026 edition (dataset page: https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics); covers new and existing private tenancies; official statistics in development. “Table 1 row: Time period 2026-08-01 | Area code E07000008 | Area name Cambridge | Rental price one bed 1256”"
+    },
+    {
+     "label": "Numbeo Cost of Living - 1 Bedroom Apartment (city centre / outside of city centre), mean of the two lines",
+     "value": 1443.96,
+     "period": "Numbeo crowd-sourced data, page last updated 15 September 2026 (viewed 2026-09-22)",
+     "url": "https://www.numbeo.com/cost-of-living/in/Cambridge?displayCurrency=GBP",
+     "note": "Two lines of one source; value = mean of city-centre (1,567.92) and outside-centre (1,320.00) = 1,443.96. Crowd-sourced, asking-level rents. “1 Bedroom Apartment in City Centre £1,567.92 | 1 Bedroom Apartment Outside of City Centre £1,320.00 | Last update: 15 September 2026”"
+    }
+   ],
+   "note": "Cambridge local authority (ONS, East of England). Numbeo URL slug 'Cambridge' is the Cambridge, United Kingdom page (breadcrumb: United Kingdom > Cambridge)."
+  },
+  {
+   "id": "london-uk",
+   "city": "London",
+   "country": "United Kingdom",
+   "currency": "GBP",
+   "average": 1849,
+   "measure": "Monthly rent of a one-bedroom apartment — mean of the published figures listed",
+   "sources": [
+    {
+     "label": "ONS Price Index of Private Rents (PIPR) - London, one bed, average monthly private rent",
+     "value": 1760,
+     "period": "August 2026",
+     "url": "https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics/16september2026/priceindexofprivaterentsukmonthlypricestatistics.xlsx",
+     "note": "ONS PIPR monthly price statistics, 16 September 2026 edition (dataset page: https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics); covers new and existing private tenancies; official statistics in development. “Table 1 row: Time period 2026-08-01 | Area code E12000007 | Area name London | Rental price one bed 1760”"
+    },
+    {
+     "label": "Numbeo Cost of Living - 1 Bedroom Apartment (city centre / outside of city centre), mean of the two lines",
+     "value": 1937.59,
+     "period": "Numbeo crowd-sourced data, page last updated 22 September 2026 (viewed 2026-09-22)",
+     "url": "https://www.numbeo.com/cost-of-living/in/London?displayCurrency=GBP",
+     "note": "Two lines of one source; value = mean of city-centre (2,155.17) and outside-centre (1,720.00) = 1,937.59. Crowd-sourced, asking-level rents. “1 Bedroom Apartment in City Centre £2,155.17 | 1 Bedroom Apartment Outside of City Centre £1,720.00 | Last update: 22 September 2026”"
+    }
+   ],
+   "note": "London region as a whole (covers Imperial and UCL)."
+  },
+  {
+   "id": "toronto-ca",
+   "city": "Toronto",
+   "country": "Canada",
+   "currency": "CAD",
+   "average": 2048,
+   "measure": "Monthly rent of a one-bedroom apartment — mean of the published figures listed",
+   "sources": [
+    {
+     "label": "CMHC Rental Market Survey 2025, Table 1.1.2 Private Apartment Average Rents by Zone and Bedroom Type - City of Toronto (Zones 1-17), 1 Bedroom",
+     "value": 1763,
+     "period": "October 2025 (2025 Rental Market Survey, published December 11, 2025)",
+     "url": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-data-tables/rental-market/rental-market-report-data-tables/2025/rmr-toronto-2025-en.xlsx",
+     "note": "Official CMHC survey of purpose-built private apartments, average rent of all occupied and vacant units (existing tenancies, so below current asking rents). Quality indicator 'a' = Excellent. “City of Toronto (Zones 1-17) | 1 Bedroom Oct-25 | 1,763 | a”"
+    },
+    {
+     "label": "Rentals.ca / Urbanation - Toronto, ON rental market trends, average rent, 1 bed",
+     "value": 2234,
+     "period": "July 2026 (page 'Last updated on July 2026')",
+     "url": "https://rentals.ca/market-trends/toronto",
+     "note": "Average asking rent of listings on the Rentals.ca network, data prepared with Urbanation. Page opened in browser (Cloudflare blocks plain fetch). “1 bed $2,234 - ▼ 2.3%”"
+    },
+    {
+     "label": "Numbeo Cost of Living - 1 Bedroom Apartment (city centre / outside of city centre), mean of the two lines",
+     "value": 2146.62,
+     "period": "Numbeo crowd-sourced data, page last updated 22 September 2026 (viewed 2026-09-22)",
+     "url": "https://www.numbeo.com/cost-of-living/in/Toronto?displayCurrency=CAD",
+     "note": "Two lines of one source; value = mean of city-centre (2,263.10) and outside-centre (2,030.14) = 2,146.62. Crowd-sourced, asking-level rents. “1 Bedroom Apartment in City Centre C$2,263.10 | 1 Bedroom Apartment Outside of City Centre C$2,030.14 | Last update: 22 September 2026”"
+    }
+   ],
+   "note": "City of Toronto. CMHC figure is an average of existing tenancies (Oct 2025); Rentals.ca and Numbeo are asking rents."
+  },
+  {
+   "id": "vancouver-ca",
+   "city": "Vancouver",
+   "country": "Canada",
+   "currency": "CAD",
+   "average": 2190,
+   "measure": "Monthly rent of a one-bedroom apartment — mean of the published figures listed",
+   "sources": [
+    {
+     "label": "CMHC Rental Market Survey 2025, Table 1.1.2 Private Apartment Average Rents by Zone and Bedroom Type - City of Vancouver (Zones 1-10), 1 Bedroom",
+     "value": 1860,
+     "period": "October 2025 (2025 Rental Market Survey, published December 11, 2025)",
+     "url": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-data-tables/rental-market/rental-market-report-data-tables/2025/rmr-vancouver-2025-en.xlsx",
+     "note": "Official CMHC survey of purpose-built private apartments, average rent of all occupied and vacant units (existing tenancies, so below current asking rents). Quality indicator 'a' = Excellent. “City of Vancouver (Zones 1-10) | 1 Bedroom Oct-25 | 1,860 | a”"
+    },
+    {
+     "label": "Rentals.ca / Urbanation - Vancouver, BC rental market trends, average rent, 1 bed",
+     "value": 2377,
+     "period": "July 2026 (page 'Last updated on July 2026')",
+     "url": "https://rentals.ca/market-trends/vancouver",
+     "note": "Average asking rent of listings on the Rentals.ca network, data prepared with Urbanation. Page opened in browser (Cloudflare blocks plain fetch). “1 bed $2,377 - ▼ 4.8%”"
+    },
+    {
+     "label": "Numbeo Cost of Living - 1 Bedroom Apartment (city centre / outside of city centre), mean of the two lines",
+     "value": 2331.51,
+     "period": "Numbeo crowd-sourced data, page last updated 20 September 2026 (viewed 2026-09-22)",
+     "url": "https://www.numbeo.com/cost-of-living/in/Vancouver?displayCurrency=CAD",
+     "note": "Two lines of one source; value = mean of city-centre (2,507.24) and outside-centre (2,155.77) = 2,331.51. Crowd-sourced, asking-level rents. “1 Bedroom Apartment in City Centre C$2,507.24 | 1 Bedroom Apartment Outside of City Centre C$2,155.77 | Last update: 20 September 2026”"
+    }
+   ],
+   "note": "City of Vancouver. CMHC figure is an average of existing tenancies (Oct 2025); Rentals.ca and Numbeo are asking rents."
+  },
+  {
+   "id": "utrecht-nl",
+   "city": "Utrecht",
+   "country": "Netherlands",
+   "currency": "EUR",
+   "average": 1238,
+   "measure": "Monthly rent of a one-bedroom apartment — mean of the published figures listed",
+   "sources": [
+    {
+     "label": "Pararius Huurmonitor Q2 2026 - Utrecht (city), average free-sector rent per m2 for new tenants, converted at 45 m2",
+     "value": 972.45,
+     "period": "Q2 2026 (published 10 July 2026)",
+     "url": "https://www.pararius.nl/nieuws/verkoop-van-huurwoningen-breidt-zich-uit-naar-hogere-segmenten",
+     "note": "Source gives only a per-m2 rent (all free-sector dwelling types and sizes). Value = EUR 21.61/m2 x 45 m2 = 972.45. Because small flats rent for more per m2 than the all-size average, this likely understates a 1-bedroom rent. “en in Utrecht op €21,61 (+0,7 procent)”"
+    },
+    {
+     "label": "Numbeo Cost of Living - 1 Bedroom Apartment (city centre / outside of city centre), mean of the two lines",
+     "value": 1502.64,
+     "period": "Numbeo crowd-sourced data, page last updated 12 August 2026 (viewed 2026-09-22)",
+     "url": "https://www.numbeo.com/cost-of-living/in/Utrecht?displayCurrency=EUR",
+     "note": "Two lines of one source; value = mean of city-centre (1,678.00) and outside-centre (1,327.27) = 1,502.64. Crowd-sourced, asking-level rents. “1 Bedroom Apartment in City Centre €1,678.00 | 1 Bedroom Apartment Outside of City Centre €1,327.27 | Last update: 12 August 2026”"
+    }
+   ],
+   "note": "Utrecht city. No CBS or other official 1-bedroom figure found. HousingAnywhere's Q2 2026 Rent Index covers only rooms/studios and not Utrecht; the Kamernet Q2 2026 report covers rooms only; neither was used."
+  },
+  {
+   "id": "tubingen-de",
+   "city": "Tübingen",
+   "country": "Germany",
+   "currency": "EUR",
+   "average": 726,
+   "measure": "Monthly rent of a one-bedroom apartment — mean of the published figures listed",
+   "sources": [
+    {
+     "label": "ImmoScout24 Mietspiegel Tübingen - average net cold asking rent per m2 (apartments), converted at 45 m2",
+     "value": 621,
+     "period": "Q2 2026",
+     "url": "https://www.immobilienscout24.de/immobilienpreise/baden-wuerttemberg/tuebingen-kreis/tuebingen/mietspiegel",
+     "note": "Source gives only a per-m2 rent (all apartment sizes). Value = EUR 13.80/m2 x 45 m2 = 621.00. Market (listing-based) figure, not an official Mietspiegel per §558c/d BGB; likely understates small-flat rents. Page opened in browser. “Die durchschnittliche Kaltmiete in Tübingen liegt im Q2 2026 bei 13,8 €/m².”"
+    },
+    {
+     "label": "Numbeo Cost of Living - 1 Bedroom Apartment (city centre / outside of city centre), mean of the two lines",
+     "value": 830,
+     "period": "Numbeo crowd-sourced data, page last updated 24 August 2026 (viewed 2026-09-22)",
+     "url": "https://www.numbeo.com/cost-of-living/in/Tubingen?displayCurrency=EUR",
+     "note": "Two lines of one source; value = mean of city-centre (895.00) and outside-centre (765.00) = 830.00. Crowd-sourced, asking-level rents. “1 Bedroom Apartment in City Centre €895.00 | 1 Bedroom Apartment Outside of City Centre €765.00 | Last update: 24 August 2026”"
+    }
+   ],
+   "note": "Tübingen city. The official qualified Mietspiegel 2024 (valid 1 Dec 2024 - 30 Nov 2026, https://www.mietspiegel-tuebingen.de/Mietspiegel_Tuebingen_2024.pdf) gives base net rent for 45-46 m2 only by construction-year class (Table 1.1: EUR 10.63-11.49/m2 for buildings up to 2005; Table 1.2: EUR 11.84-15.00/m2 from 2006) plus location/feature adjustments, so no single whole-flat figure could be taken without choosing a building age; it was not used in the average."
+  },
+  {
+   "id": "bonn-de",
+   "city": "Bonn",
+   "country": "Germany",
+   "currency": "EUR",
+   "average": 707,
+   "measure": "Monthly rent of a one-bedroom apartment — mean of the published figures listed",
+   "sources": [
+    {
+     "label": "ImmoScout24 Mietspiegel Bonn - average net cold asking rent per m2 (apartments), converted at 45 m2",
+     "value": 534.6,
+     "period": "Q2 2026",
+     "url": "https://www.immobilienscout24.de/immobilienpreise/nordrhein-westfalen/bonn/mietspiegel",
+     "note": "Source gives only a per-m2 rent (all apartment sizes). Value = EUR 11.88/m2 x 45 m2 = 534.60. Market (listing-based) figure, not an official Mietspiegel; likely understates small-flat rents. Page opened in browser. “Die Kaltmiete in Bonn liegt im Q2 2026 bei durchschnittlich 11,88 €/m².”"
+    },
+    {
+     "label": "Numbeo Cost of Living - 1 Bedroom Apartment (city centre / outside of city centre), mean of the two lines",
+     "value": 879.5,
+     "period": "Numbeo crowd-sourced data, page last updated 7 September 2026 (viewed 2026-09-22)",
+     "url": "https://www.numbeo.com/cost-of-living/in/Bonn?displayCurrency=EUR",
+     "note": "Two lines of one source; value = mean of city-centre (941.78) and outside-centre (817.22) = 879.50. Crowd-sourced, asking-level rents. “1 Bedroom Apartment in City Centre €941.78 | 1 Bedroom Apartment Outside of City Centre €817.22 | Last update: 7 September 2026”"
+    }
+   ],
+   "note": "Bonn city. No official whole-flat 1-bedroom figure was found in this check; the Bonn Mietspiegel was not opened or used (German Mietspiegel tables are per m2 and split by building age/size, cf. Tübingen). Both values are asking-level market figures."
+  }
+ ],
+ "institutions": {
+  "Stanford University": "stanford-university",
+  "Princeton University": "princeton-university",
+  "MIT–WHOI Joint Program": "massachusetts-institute-of-technology",
+  "New York University (Courant)": "new-york-university",
+  "Caltech": "california-institute-of-technology",
+  "ETH Zürich": "zurich-ch",
+  "Utrecht University": "utrecht-nl",
+  "Imperial College London": "london-uk",
+  "University of Tübingen": "tubingen-de",
+  "Massachusetts Institute of Technology": "massachusetts-institute-of-technology",
+  "Brown University": "brown-university",
+  "University of Washington": "university-of-washington",
+  "New York University — Courant Institute": "new-york-university",
+  "University of Oxford": "oxford-uk",
+  "University of California, Los Angeles": "university-of-california-los-angeles",
+  "University of British Columbia": "vancouver-ca",
+  "University of Bonn": "bonn-de",
+  "University of Cambridge": "cambridge-uk",
+  "ETH Zürich (Swiss Federal Institute of Technology Zurich)": "zurich-ch",
+  "Carnegie Mellon University": "carnegie-mellon-university",
+  "University of Toronto": "toronto-ca",
+  "Georgia Institute of Technology": "georgia-institute-of-technology",
+  "École polytechnique fédérale de Lausanne": "lausanne-ch",
+  "California Institute of Technology": "california-institute-of-technology",
+  "University of California, Berkeley": "university-of-california-berkeley",
+  "Harvard University": "harvard-university",
+  "University College London": "london-uk",
+  "Northwestern University": "northwestern-university",
+  "Boston College": "boston-college",
+  "Boston University": "boston-university",
+  "Columbia University": "columbia-university",
+  "Cornell University": "cornell-university",
+  "Dartmouth College": "dartmouth-college",
+  "Duke University": "duke-university",
+  "Emory University": "emory-university",
+  "Georgetown University": "georgetown-university",
+  "Johns Hopkins University": "johns-hopkins-university",
+  "Lehigh University": "lehigh-university",
+  "New York University": "new-york-university",
+  "Northeastern University": "northeastern-university",
+  "Purdue University": "purdue-university",
+  "Rice University": "rice-university",
+  "Rutgers University-New Brunswick": "rutgers-university-new-brunswick",
+  "The Ohio State University": "the-ohio-state-university",
+  "Tufts University": "tufts-university",
+  "University of California, Davis": "university-of-california-davis",
+  "University of California, Irvine": "university-of-california-irvine",
+  "University of California, San Diego": "university-of-california-san-diego",
+  "University of California, Santa Barbara": "university-of-california-santa-barbara",
+  "University of Chicago": "university-of-chicago",
+  "University of Florida": "university-of-florida",
+  "University of Georgia": "university-of-georgia",
+  "University of Illinois Urbana-Champaign": "university-of-illinois-urbana-champaign",
+  "University of Maryland, College Park": "university-of-maryland-college-park",
+  "University of Michigan, Ann Arbor": "university-of-michigan-ann-arbor",
+  "University of North Carolina at Chapel Hill": "university-of-north-carolina-at-chapel-hill",
+  "University of Notre Dame": "university-of-notre-dame",
+  "University of Pennsylvania": "university-of-pennsylvania",
+  "University of Rochester": "university-of-rochester",
+  "University of Southern California": "university-of-southern-california",
+  "University of Texas at Austin": "university-of-texas-at-austin",
+  "University of Virginia": "university-of-virginia",
+  "University of Wisconsin-Madison": "university-of-wisconsin-madison",
+  "Vanderbilt University": "vanderbilt-university",
+  "Washington University in St. Louis": "washington-university-in-st-louis",
+  "Yale University": "yale-university",
+  "University of Colorado Boulder": "university-of-colorado-boulder",
+  "Oregon State University": "oregon-state-university",
+  "University of Minnesota": "university-of-minnesota",
+  "Pennsylvania State University": "pennsylvania-state-university",
+  "The Chinese University of Hong Kong": "hong-kong-hk",
+  "The University of Hong Kong": "hong-kong-hk",
+  "HKUST (Hong Kong University of Science and Technology)": "hong-kong-hk",
+  "Nanyang Technological University": "singapore-sg",
+  "National University of Singapore": "singapore-sg"
+ }
+}

@@ -1195,7 +1195,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": 5,
-          "note": "Caltech guarantees full support (tuition + stipend) for PhD students in good standing — Verify."
+          "note": "Caltech guarantees full support (tuition + stipend) for PhD students in good standing — Verify.",
+          "stipend": {
+            "amount": 50000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradoffice.caltech.edu/financialsupport",
+            "quote": "On September 1, 2026, the stipend rate increases to $50,000, for 12 months.",
+            "note": "Institute-wide rate (Graduate Studies Office). ESE apply FAQ still says $45,000/yr (2023-24); GPS FAQ $46,500 (from Oct 2024); both superseded.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Encouraged",
         "contact_note": "Contacting potential advisors before applying is common at Caltech ESE — Verify current guidance.",
@@ -1293,7 +1304,12 @@
         "funding": {
           "status": "Self-Funded / Mixed",
           "years": null,
-          "note": "Statutory EU tuition ≈€2.5k/yr; non-EU ≈€21k/yr; Utrecht Excellence Scholarships available — Verify."
+          "note": "Statutory EU tuition ≈€2.5k/yr; non-EU ≈€21k/yr; Utrecht Excellence Scholarships available — Verify.",
+          "stipend": {
+            "amount": null,
+            "note": "taught master's — no stipend. Students pay tuition (EU/EEA €2,694, non-EU €25,306 in 2026-27); page lists Bright Minds Fellowships / NL Scholarship, no amounts.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Neutral / Not Required",
         "contact_note": "Not required for admission; useful when choosing an IMAU research group for the thesis year.",
@@ -3721,7 +3737,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "Dept states full funding but no figure; Grad School 2026-27 min. 9-mo rate. 12-mo w/ summer: $48,912 TA/RA/GRA, $44,463 fellowship.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4181,7 +4208,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "Dept states full funding but no figure; Grad School 2026-27 min. 9-mo rate. 12-mo w/ summer: $48,912 TA/RA/GRA, $44,463 fellowship.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4675,7 +4713,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "Dept states full funding but no figure; Grad School 2026-27 min. 9-mo rate. 12-mo w/ summer: $48,912 TA/RA/GRA, $44,463 fellowship.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -5069,7 +5118,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "Dept states full funding but no figure; Grad School 2026-27 min. 9-mo rate. 12-mo w/ summer: $48,912 TA/RA/GRA, $44,463 fellowship.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -5488,7 +5548,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "Dept states full funding but no figure; Grad School 2026-27 min. 9-mo rate. 12-mo w/ summer: $48,912 TA/RA/GRA, $44,463 fellowship.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -11710,7 +11781,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://publichealth.jhu.edu/departments/environmental-health-and-engineering/programs/graduate-programs/phd-in-geography-and-environmental-engineering",
+            "quote": "Per the Collective Bargaining Agreement (CBA) with the Union, PhD students are guaranteed a minimum annual stipend of $52,000 through June 2027.",
+            "note": "EHE 'PhD in Environmental Engineering' page; restates CBA minimum. Same page: 2025-26 minimum $50,000, +4% following year.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -11992,7 +12074,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded"
+          "note": "Fully funded",
+          "stipend": {
+            "amount": 52000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://publichealth.jhu.edu/departments/environmental-health-and-engineering/programs/graduate-programs/phd-in-environmental-health",
+            "quote": "Per the Collective Bargaining Agreement (CBA) with the Union, PhD students are guaranteed a minimum annual stipend of $52,000 through June 2027.",
+            "note": "Restates CBA minimum. Same page: 2025-26 minimum $50,000, +4% following year.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -21323,7 +21416,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://momentous.rice.edu/motion",
+            "quote": "Competitive investment in graduate talent continues with a stipend floor increase to $37,000 for Fall 2026.",
+            "note": "No department-specific figure found; Rice University's university-wide doctoral stipend floor (set by Rice University / Office of the Provost; announced in Rice's 'Momentous' strategic-plan progress update) applies to full-time doctoral students in good standing. The floor is defined as support over 12 months (Provost, Feb 2024; General Announcements), and may be prorated to 9 months for students ",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -21574,7 +21678,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://momentous.rice.edu/motion",
+            "quote": "Competitive investment in graduate talent continues with a stipend floor increase to $37,000 for Fall 2026.",
+            "note": "No department-specific figure found; Rice University's university-wide doctoral stipend floor (set by Rice University / Office of the Provost; announced in Rice's 'Momentous' strategic-plan progress update) applies to full-time doctoral students in good standing. The floor is defined as support over 12 months (Provost, Feb 2024; General Announcements), and may be prorated to 9 months for students ",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -23717,7 +23832,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://vpge.stanford.edu/guidance-faculty-staff/directors-graduate-admissions",
+            "quote": "Academic Year 2026-2027: $58,460 annualized ($14,615 per quarter)",
+            "note": "No dept figure; CEE: funded through thesis at least = Stanford 20-hr RA salary + tuition. Univ. 50% RA/TA minimum set under Stanford-SGWU CBA (VPGE).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -24155,7 +24281,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Generally full financial support for first five years"
+          "note": "Generally full financial support for first five years",
+          "stipend": {
+            "amount": 15125,
+            "currency": "USD",
+            "period": "quarterly",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://earthsystemscience.stanford.edu/academics-admissions/admissions",
+            "quote": "Support typically covers up to 10 units of tuition and a quarterly stipend ($15,125 per quarter for the 26/27 year).",
+            "note": "Per quarter. ESS PhD candidates generally receive full financial support for the first five years.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -24750,7 +24887,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://vpge.stanford.edu/guidance-faculty-staff/directors-graduate-admissions",
+            "quote": "Academic Year 2026-2027: $58,460 annualized ($14,615 per quarter)",
+            "note": "No dept figure found. Univ. 50% RA/TA minimum set under Stanford-SGWU CBA (VPGE).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -25080,7 +25228,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 58460,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://vpge.stanford.edu/guidance-faculty-staff/directors-graduate-admissions",
+            "quote": "Academic Year 2026-2027: $58,460 annualized ($14,615 per quarter)",
+            "note": "No program figure; E-IPER guarantees five years of funding (TA/RA, gifts, endowed funds). Univ. 50% RA/TA minimum set under Stanford-SGWU CBA (VPGE).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -25500,7 +25659,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). No dept figure; College of Engineering PhD min $2,800/mo as of Autumn 2025 (now superseded).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -25860,7 +26030,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "OSU fellowship deadline Dec 1 for U.S. applicants"
+          "note": "OSU fellowship deadline Dec 1 for U.S. applicants",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). No School of Earth Sciences figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -26300,7 +26481,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). Program funding page describes monthly stipend but no figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -26532,7 +26724,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). No program figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -26801,7 +27004,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). ESGP funding page gives no figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -27203,7 +27417,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2897,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.osu.edu/news/2026/01/23/minimum-graduate-associate-and-fellowship-stipend-increase-2026",
+            "quote": "This will set the current minimum stipend for 50% appointments at $2,897 per month.",
+            "note": "OSU Graduate School 50% GA minimum (=$26,073 9-mo / $34,764 12-mo). No SENR figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -28222,7 +28447,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 42500,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://ce.berkeley.edu/grad/finances",
+            "quote": "As of the 2025-2026 academic year, CEE has agreed to maintain the following funding targets for CEE PhD students. These targets are minimums for fellowships and for student in mixed funding sources: Year 1* - 12 months - $42500",
+            "note": "Dept minimum funding target, Year 1 (12 months). Year 2 $46,000; Year 3+ $49,500.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -28664,7 +28900,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3890.7,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $4,217.78 $3,796.00 $4,323.00 $3,890.70 T18C, Grade 1",
+            "note": "No dept figure. UC-UAW minimum for 1st-time GSI (TA 1) at 50%, Berkeley semester monthly rate eff. 10/1/2026 (UCOP T18). GSR 1 min $3,174/mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -28950,7 +29197,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3890.7,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.ucop.edu/academic-personnel-programs/_files/2026-27/represented-oct-2026-scales/t18.pdf",
+            "quote": "Teaching Assistant 1 $4,217.78 $3,796.00 $4,323.00 $3,890.70 T18C, Grade 1",
+            "note": "No dept figure. UC-UAW minimum for 1st-time GSI (TA 1) at 50%, Berkeley semester monthly rate eff. 10/1/2026 (UCOP T18). GSR 1 min $3,174/mo. ESPM policy: $28,000/yr min salary as of AY2019-20 (outdated).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -29389,7 +29647,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -29810,7 +30073,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -31559,7 +31827,12 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "TA/RA and Graduate Division fellowships; most funding to PhD applicants"
+          "note": "TA/RA and Graduate Division fellowships; most funding to PhD applicants",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; CEE funding page lists only specific fellowships (e.g. Dissertation Year $20,000), no base stipend.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -32057,7 +32330,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages (current); AOS RA page shows undated $20,083.50 AY + $13,389 summer (step-4 GSR), older than the 2025-26 UC GSR scale, so not used.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -32490,7 +32768,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -32889,7 +33172,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -40471,7 +40759,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Grainger PhD guaranteed funded appointment (tuition waiver + stipend) first 5 years"
+          "note": "Grainger PhD guaranteed funded appointment (tuition waiver + stipend) first 5 years",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "Grainger 5-yr guarantee gives no figure; no dept figure found. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -40893,7 +41192,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2955.14,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://climas.illinois.edu/admissions/graduate-program-information/graduate-assistantships-and-pay",
+            "quote": "These are the monthly salaries at 0.5 FTE (full-time) for graduate assistants for AY 2025/6: Pre-MS degree RA (pre-tax) Monthly $2,955.14",
+            "note": "Pre-MS RA; post-MS RA $3,035.69/mo; PhD post-prelim RA $3,116.23/mo; TA $3,108.18/mo; paid max 11 months. Dept: Climate, Meteorology & Atmos. Sci.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -41220,7 +41530,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "No figure on ESEC (Geology) pages. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -41527,7 +41848,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 24200,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://answers.uillinois.edu/ihr/159106",
+            "quote": "Graduate Minimum Salaries 2026-2027 TA, GA, RA, PGA, TAR Minimum Wage Rates These rates are effective 8/16/2025 ... 9-Month Appointments FTE | Monthly | Annual ... 50 | $2,688.89 | 24,200.00",
+            "note": "No dept figure. Illinois HR campus minimum for 50% assistantship, 9-mo (12-mo: $32,266.68); rates eff. 8/16/2025, pending GEO renegotiation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -44074,7 +44406,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 14596,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://rackham.umich.edu/funding/cost-sharing-by-rackham/",
+            "quote": "(currently in AY 2025–26, the established stipend for each term is $14,596, and 50 percent is $7,298)",
+            "note": "No program figure found; Rackham 2025-26 established per-term stipend (3 terms/yr under 12-month model = $43,788). No 2026-27 rate posted (GEO contract unsettled).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -44548,7 +44891,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 14596,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://rackham.umich.edu/funding/cost-sharing-by-rackham/",
+            "quote": "(currently in AY 2025–26, the established stipend for each term is $14,596, and 50 percent is $7,298)",
+            "note": "No program figure found; Rackham 2025-26 established per-term stipend (3 terms/yr under 12-month model = $43,788). No 2026-27 rate posted (GEO contract unsettled).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -44968,7 +45322,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 14596,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://rackham.umich.edu/funding/cost-sharing-by-rackham/",
+            "quote": "(currently in AY 2025–26, the established stipend for each term is $14,596, and 50 percent is $7,298)",
+            "note": "No program figure found; Rackham 2025-26 established per-term stipend (3 terms/yr under 12-month model = $43,788). No 2026-27 rate posted (GEO contract unsettled).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -45208,7 +45573,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 43788,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://lsa.umich.edu/earth/graduate-students/application-info.html",
+            "quote": "Financial support includes a stipend – $43,788 for 12 months (as of the 2025 - 2026 academic year).",
+            "note": "Dept also lists $2,000 recruitment bonus, $500 professional development fund and $2,500 research start-up fund.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -52505,7 +52881,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Types of funding available; verify"
+          "note": "Types of funding available; verify",
+          "stipend": {
+            "amount": 3283,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_TA-RA-SA-salary-schedule.pdf",
+            "quote": "Research Assistant PREMASTER $3,283 $5,209 $3,283",
+            "note": "CEE funding page links 'Monthly stipend' to Grad School Regular (base) TA/RA/SA schedule; CEE not on variable-rate list. Intermediate $3,449; candidate $3,621.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -52982,7 +53369,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3730,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_variable-TA-salary-schedule.pdf",
+            "quote": "Earth & Space Sciences $3,730 $5,656 $3,730 $5,656 $3,730 $5,656",
+            "note": "ESS funding page directs to Variable Rate schedule, Schedule 1. Same rate all levels. ESS FAQ cites outdated 2019-20 figures.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -53440,7 +53838,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 42528,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://atmos.uw.edu/students/graduate-program/fellowships-and-support/",
+            "quote": "The salary for beginning Research Assistants in the Dept. of Atmospheric and Climate Science in 2025-2026 is $42,528.",
+            "note": "Stated as an annual RA salary. Grad School 2025-26 ATMS variable rate: $3,544/month premaster, $3,804 candidate.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -53824,7 +54233,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3568,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_variable-RA-salary-schedule.pdf",
+            "quote": "Oceanography $3,568 $5,494 $3,782 $5,708 $4,009 $5,935",
+            "note": "Intermediate $3,782; candidate $4,009 (RA and TA same). No figure on Oceanography pages.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -54204,7 +54624,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3283,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://facstaff.grad.uw.edu/wp-content/uploads/2025-26_TA-RA-SA-salary-schedule.pdf",
+            "quote": "Research Assistant PREMASTER $3,283 $5,209 $3,283",
+            "note": "SEFS pay-policy page: RAs/TAs paid at the 2025-2026 Regular (Non-Variable Rate) TA/RA/SA schedule. Intermediate $3,449; candidate $3,621.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -54664,7 +55095,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3283,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://quantitative.uw.edu/graduate/cqs-academic-student-employee-funding/",
+            "quote": "Research Assistant (RA): $3283/month",
+            "note": "CQS/QERM page: 'Rates are current as of July 1, 2025'. PDRA I $3449, PDRA II $3621/month; TA same.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -55085,7 +55527,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 39312,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Engineering | Civil and Environmental Engineering | TA academic (50%): $30,713 | PA academic (50%): N/A | PA annual (50%): N/A | RA academic (50%): N/A | RA annual (50%): $39.312",
+            "note": "Sheet prints RA annual as \"$39.312\" (evident typo for $39,312). TA academic $30,713. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -55559,7 +56012,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 39312,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Engineering | Geological Engineering | TA academic (50%): $30,614 | PA academic (50%): N/A | PA annual (50%): N/A | RA academic (50%): N/A | RA annual (50%): $39.312",
+            "note": "Sheet prints RA annual as \"$39.312\" (evident typo for $39,312). TA academic $30,614. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -55801,7 +56265,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37417,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Letters & Sciences (L&S) | Geoscience | TA academic (50%): $30,614 | PA academic (50%): $30,614 | PA annual (50%): $37,417 | RA academic (50%): $30,614 | RA annual (50%): $37,417",
+            "note": "RA/PA annual 12-month rate (= campus minimum); TA academic $30,614. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -56280,7 +56755,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 40819,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Letters & Sciences (L&S) | Atmospheric and Oceanic Sciences | TA academic (50%): $30,614 | PA academic (50%): $30,614 | PA annual (50%): $40,819 | RA academic (50%): $30,614 | RA annual (50%): $40,819",
+            "note": "RA/PA annual rate; TA academic $30,614. Dept page (older) gives 2024-25 RA $38,900/12-mo. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -56718,7 +57204,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 40819,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Letters & Sciences (L&S) | Freshwater and Marine Sciences | TA academic (50%): $30,614 | PA academic (50%): $30,614 | PA annual (50%): $37,417 | RA academic (50%): N/A | RA annual (50%): $40,819",
+            "note": "RA annual (50%) 12-month rate; TA academic $30,614; PA annual $37,417. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -57045,7 +57542,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 37417,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "College of Agriculture & Life Sciences (CALS) | Soil Science | TA academic (50%): $30,614 | PA academic (50%): $30,614 | PA annual (50%): $37,417 | RA academic (50%): $30,614 | RA annual (50%): $37,417",
+            "note": "RA annual (50%) 12-month rate; (= campus minimum); TA academic $30,614. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -57447,7 +57955,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 38540,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://docs.google.com/spreadsheets/d/1FCt445LqBhfJxqI2iZkGudgvkj8BySFH/edit",
+            "quote": "Nelson Institute for Environmental Studies | Environment and Resources | TA academic (50%): $31,532 | PA academic (50%): $31,532 | PA annual (50%): $38,540 | RA academic (50%): N/A | RA annual (50%): $38,540",
+            "note": "RA/PA annual rate (Nelson Institute); TA/PA academic $31,532. Grad School 2026-27 program-rate sheet (linked from grad.wisc.edu).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -60153,7 +60672,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "ATOC states: \"Almost all admitted doctoral students are offered financial support from the department in the form of a Teaching Assistant (TA) position or from an advisor's research grant as a Research Assistant (RA) position.\" Positions include tuition remission of 9+ credit hours per semester, ~90% of health insurance costs, most student fees, and a monthly stipend. Incoming PhD students are supported at 50% (20 hours/week) during the first fall and spring semesters and typically work 100% as an RA for 3 months in the summer. 2026-2027 annual salary is no less than $48,870 (pre-comps) to $51,450 (post-comps). No explicit multi-year guarantee is published, so status is Unknown/Verify."
+          "note": "ATOC states: \"Almost all admitted doctoral students are offered financial support from the department in the form of a Teaching Assistant (TA) position or from an advisor's research grant as a Research Assistant (RA) position.\" Positions include tuition remission of 9+ credit hours per semester, ~90% of health insurance costs, most student fees, and a monthly stipend. Incoming PhD students are supported at 50% (20 hours/week) during the first fall and spring semesters and typically work 100% as an RA for 3 months in the summer. 2026-2027 annual salary is no less than $48,870 (pre-comps) to $51,450 (post-comps). No explicit multi-year guarantee is published, so status is Unknown/Verify.",
+          "stipend": {
+            "amount": 48870,
+            "currency": "USD",
+            "period": "other",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://www.colorado.edu/atoc/academics/prospective-graduate-students/funding-opportunities",
+            "quote": "Currently, the academic year 2026-2027 annual salary for ATOC students appointed as teaching assistants or research assistants is no less than $48,870 (pre-comps) to $51,450 (post-comps).",
+            "note": "Published as AY 2026-27 'annual salary' (typically 50% TA/RA Aug-May + 100% RA summer). $51,450 post-comps. ATOC FAQ still shows 2025-26: $47,442-$49,950.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "No official page explicitly tells applicants to contact faculty before applying. The application instructions do ask applicants to name faculty members or scientists they would like to work with in the personal statement.",

@@ -29,7 +29,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)",
+          "stipend": {
+            "amount": 50000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradoffice.caltech.edu/financialsupport",
+            "quote": "On September 1, 2026, the stipend rate increases to $50,000, for 12 months.",
+            "note": "Institute-wide rate set by Caltech Graduate Studies Office (paid monthly, $4,166/mo); 2025-26 rate $48,244. No department-specific figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -70,7 +81,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)",
+          "stipend": {
+            "amount": 50000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradoffice.caltech.edu/financialsupport",
+            "quote": "On September 1, 2026, the stipend rate increases to $50,000, for 12 months.",
+            "note": "Institute-wide rate set by Caltech Graduate Studies Office (paid monthly, $4,166/mo); 2025-26 rate $48,244. No department-specific figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -111,7 +133,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)"
+          "note": "Fully funded: full tuition + stipend ($50,000/yr from Sept 2026)",
+          "stipend": {
+            "amount": 50000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradoffice.caltech.edu/financialsupport",
+            "quote": "On September 1, 2026, the stipend rate increases to $50,000, for 12 months.",
+            "note": "Institute-wide rate set by Caltech Graduate Studies Office (paid monthly, $4,166/mo); 2025-26 rate $48,244. No department-specific figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -276,7 +309,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",

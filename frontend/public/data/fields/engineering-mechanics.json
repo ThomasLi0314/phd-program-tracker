@@ -29,7 +29,12 @@
         "funding": {
           "status": "Partial / Merit-Based",
           "years": 1,
-          "note": "Departmental and CDT-linked studentships for some places; many students self-fund the 1-year MRes — Verify."
+          "note": "Departmental and CDT-linked studentships for some places; many students self-fund the 1-year MRes — Verify.",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages. MRes Fluid Dynamics not in Imperial's current PGT course list; legacy Fluids CDT page: 1-yr MRes (standalone or 1+3 PhD), industry studentships, no figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Encouraged",
         "contact_note": "Because projects are supervisor-attached, emailing potential supervisors before applying is expected practice.",
@@ -126,7 +131,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance) for PhD students"
+          "note": "Fully funded (tuition, stipend, health insurance) for PhD students",
+          "stipend": {
+            "amount": 36684,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.cornell.edu/financial-support/stipend-rates/",
+            "quote": "Appointment Type | Minimum Standard 9-Month Stipend | Summer Stipend | 12-Month Stipend — TA (Teaching Assistant) | $36,684 | $12,228 | $48,912",
+            "note": "Dept states full funding but no figure; Grad School 2026-27 min. 9-mo rate. 12-mo w/ summer: $48,912 TA/RA/GRA, $44,463 fellowship.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
