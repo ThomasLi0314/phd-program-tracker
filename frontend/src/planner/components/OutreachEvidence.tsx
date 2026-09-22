@@ -6,6 +6,7 @@
 
 import type { OutreachRecord } from '../../types'
 import { daysSince, REPLY_TYPE_LABEL } from '../lib/outreachBridge'
+import { gmailLinkFor } from '../../lib/gmailLinks'
 
 function Row({ label, children }: { label: string; children: React.ReactNode }) {
   return (
@@ -16,8 +17,18 @@ function Row({ label, children }: { label: string; children: React.ReactNode }) 
   )
 }
 
-export function OutreachEvidence({ record }: { record: OutreachRecord }) {
+export function OutreachEvidence({
+  record,
+  account,
+  name,
+}: {
+  record: OutreachRecord
+  /** the synced Gmail address, so the link opens that mailbox */
+  account: string | null
+  name?: string
+}) {
   const replied = record.replyState === 'replied'
+  const gmail = gmailLinkFor(record, account, name)
   const waiting = daysSince(record.sentAt)
   const ai = record.ai
 
@@ -51,6 +62,13 @@ export function OutreachEvidence({ record }: { record: OutreachRecord }) {
         {record.source === 'manual' && (
           <Row label="Source">
             <span className="text-slate-500">entered by hand (not Gmail-synced)</span>
+          </Row>
+        )}
+        {gmail && (
+          <Row label="Conversation">
+            <a href={gmail.url} target="_blank" rel="noreferrer" className="font-medium text-indigo-600 hover:underline">
+              {gmail.exact ? 'Open in Gmail ↗' : 'Search Gmail ↗'}
+            </a>
           </Row>
         )}
       </div>

@@ -341,7 +341,7 @@ export function FacultyDetail({
           )}
         </section>
 
-        {record && <OutreachEvidence record={record} />}
+        {record && <OutreachEvidence record={record} account={outreach.selfEmail} name={entry.name} />}
 
         {/* Contact workflow */}
         <section className={`${card} mt-3`}>

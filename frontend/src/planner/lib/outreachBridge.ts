@@ -26,9 +26,17 @@ export interface OutreachSnapshot {
   /** DeepSeek's per-program admissions outlook, keyed by canonical programId. */
   programSummaries: Record<string, { summary: string; updatedAt: number; count: number }>
   lastSync: number | null
+  /** The Gmail address that was synced; links to a thread open that mailbox. */
+  selfEmail: string | null
 }
 
-const EMPTY: OutreachSnapshot = { records: {}, emailToFaculty: {}, programSummaries: {}, lastSync: null }
+const EMPTY: OutreachSnapshot = {
+  records: {},
+  emailToFaculty: {},
+  programSummaries: {},
+  lastSync: null,
+  selfEmail: null,
+}
 
 /** One-shot read. The tracker is the writer; we only ever observe. */
 export function readOutreach(): OutreachSnapshot {
@@ -41,6 +49,7 @@ export function readOutreach(): OutreachSnapshot {
       emailToFaculty: p.emailToFaculty ?? {},
       programSummaries: p.programSummaries ?? {},
       lastSync: p.lastSync ?? null,
+      selfEmail: p.selfEmail ?? null,
     }
   } catch {
     return EMPTY

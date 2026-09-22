@@ -563,6 +563,7 @@ function App() {
           records={outreach.state.records}
           unlinked={outreach.state.unlinked}
           connected={gmailStatus === 'connected'}
+          account={outreach.state.selfEmail}
           lastSync={outreach.state.lastSync}
           scanSince={outreach.state.scanSince}
           onSetScanSince={outreach.setScanSince}

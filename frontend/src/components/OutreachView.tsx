@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import type { Faculty, OutreachRecord, Program, ReplyType, UnlinkedEmail } from '../types'
 import { advisorKey } from '../lib/starredAdvisors'
 import { autoMatch, REPLY_TYPES } from '../lib/outreach'
+import { gmailLinkFor, gmailThreadUrl } from '../lib/gmailLinks'
 import { OutreachBadge } from './OutreachBadge'
 import { PoolLoading } from './PoolLoading'
 
@@ -165,11 +166,14 @@ function ManualAddForm({
 function UnlinkedRow({
   email,
   pool,
+  account,
   onAssign,
   onDismiss,
 }: {
   email: UnlinkedEmail
   pool: Hit[]
+  /** the synced Gmail address, so links open that mailbox */
+  account: string | null
   onAssign: (email: UnlinkedEmail, facultyKey: string) => void
   onDismiss: (messageId: string) => void
 }) {
@@ -186,13 +190,26 @@ function UnlinkedRow({
             to {email.toName} &lt;{email.toAddress}&gt; · {shortDate(email.sentAt)}
           </p>
         </div>
-        <button
-          onClick={() => onDismiss(email.messageId)}
-          className="shrink-0 text-[11px] font-medium text-slate-400 hover:text-rose-600"
-          title="Not outreach — hide this email"
-        >
-          dismiss
-        </button>
+        <div className="flex shrink-0 items-center gap-3">
+          {email.threadId && (
+            <a
+              href={gmailThreadUrl(email.threadId, account)}
+              target="_blank"
+              rel="noreferrer"
+              className="text-[11px] font-medium text-indigo-600 hover:underline"
+              title="Open this conversation in Gmail"
+            >
+              Gmail ↗
+            </a>
+          )}
+          <button
+            onClick={() => onDismiss(email.messageId)}
+            className="text-[11px] font-medium text-slate-400 hover:text-rose-600"
+            title="Not outreach — hide this email"
+          >
+            dismiss
+          </button>
+        </div>
       </div>
 
       {suggestions.length > 0 && (
@@ -225,6 +242,7 @@ export function OutreachView({
   records,
   unlinked,
   connected,
+  account,
   lastSync,
   scanSince,
   onSetScanSince,
@@ -250,6 +268,8 @@ export function OutreachView({
   records: Record<string, OutreachRecord>
   unlinked: UnlinkedEmail[]
   connected: boolean
+  /** The Gmail address last synced — picks that mailbox when a link opens Gmail. */
+  account: string | null
   lastSync: number | null
   scanSince: string
   onSetScanSince: (date: string) => void
@@ -394,6 +414,7 @@ export function OutreachView({
                   key={u.messageId}
                   email={u}
                   pool={pool}
+                  account={account}
                   onAssign={onAssign}
                   onDismiss={onDismiss}
                 />
@@ -443,6 +464,7 @@ export function OutreachView({
           <div className="space-y-2">
             {shown.map((r) => {
               const hit = poolByKey.get(r.facultyKey)
+              const gmail = gmailLinkFor(r, account, hit?.faculty.name)
               return (
                 <article
                   key={r.facultyKey}
@@ -461,6 +483,21 @@ export function OutreachView({
                     <OutreachBadge record={r} />
                   </div>
                   <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] font-medium">
+                    {gmail && (
+                      <a
+                        href={gmail.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-indigo-600 hover:underline"
+                        title={
+                          gmail.exact
+                            ? 'Open this conversation in Gmail'
+                            : 'Added by hand, so there is no synced thread — this searches your Gmail for it'
+                        }
+                      >
+                        {gmail.exact ? 'Open in Gmail ↗' : 'Search Gmail ↗'}
+                      </a>
+                    )}
                     {hit && (
                       <button
                         onClick={() => onOpenProgram(hit.program.id)}
