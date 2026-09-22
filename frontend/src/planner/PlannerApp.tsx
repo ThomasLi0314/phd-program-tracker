@@ -68,6 +68,13 @@ export default function PlannerApp() {
         <div className="flex items-center gap-3">
           <SaveIndicator status={planner.saveStatus} />
           <a
+            href="#/masters/plan"
+            className="rounded border border-teal-400/50 bg-teal-500/15 px-2 py-1 text-[11px] font-medium text-teal-200 transition-colors hover:bg-teal-500/25"
+            title="The application plan for master's programmes abroad"
+          >
+            Master's plan
+          </a>
+          <a
             href="#/"
             className="rounded border border-slate-600 bg-slate-800 px-2 py-1 text-[11px] font-medium text-slate-300 transition-colors hover:bg-slate-700"
             title="Back to Explore — the program and faculty database"

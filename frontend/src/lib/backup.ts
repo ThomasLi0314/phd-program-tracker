@@ -19,6 +19,8 @@ export const BACKUP_KEYS: { key: string; label: string }[] = [
   // untouched planner leaves no key and isLocalEmpty() below stays true — a
   // fresh browser still gets offered the Drive restore. See planner/lib/storage.
   { key: 'planner.state.v1', label: 'Application plan (programs, faculty, notes)' },
+  // Same rule as the planner: an untouched master's plan writes no key.
+  { key: 'masters.plan.v1', label: "Master's plan (programmes, checklists, notes)" },
 ]
 
 export interface BackupFile {
@@ -59,6 +61,8 @@ export function describeBackup(b: BackupFile): { label: string; count: number }[
         const faculty = (o.faculty as unknown[]) ?? []
         return (Array.isArray(programs) ? programs.length : 0) + (Array.isArray(faculty) ? faculty.length : 0)
       }
+      // the master's plan: programmes only
+      if (Array.isArray(o.programs)) return o.programs.length
       if ('records' in o) return Object.keys((o.records as object) ?? {}).length
       if ('facultyHomepage' in o) {
         return (

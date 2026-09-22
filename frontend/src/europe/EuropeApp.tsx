@@ -5,14 +5,26 @@
 // for, so the columns that matter are cost, funding and whether your English
 // certificate clears the bar. It shares the bundle and the hash router with the
 // tracker and the planner, and nothing else.
+//
+// Three tabs, each its own hash route so a reload or a bookmark lands back on
+// the same place:
+//   #/masters                 the programme database
+//   #/masters/countries       country tuition rules
+//   #/masters/plan[/<entry>]  my master's plan (plan/), stored in this browser
+// (#/europe/... is the older address and resolves the same way.)
 
 import { useMemo, useState } from 'react'
+import { navigate, segments, useHashRoute } from '../lib/hashRoute'
 import { useEurope, applyFilters, countryIndex, emptyFilters, groupByCountry } from './lib/dataset'
 import type { Filters } from './lib/dataset'
 import { EURO_FIELDS, effectiveTuition, isUnknown, tuitionLabels } from './types'
 import type { CountryPolicy, EuroField, EuroProgram } from './types'
 import { DetailCell, Fact, FieldChip, Flag, ScholarshipChip } from './components/Bits'
 import { CountryPolicies } from './views/CountryPolicies'
+import { useMastersPlan } from './plan/useMastersPlan'
+import type { MastersPlanEntry } from './plan/types'
+import { PlanView } from './plan/PlanView'
+import { PlanDetail } from './plan/PlanDetail'
 
 function toggle<T>(set: Set<T>, value: T): Set<T> {
   const next = new Set(set)
@@ -123,11 +135,16 @@ function ProgramRow({
   country,
   open,
   onToggle,
+  planned,
+  onPlan,
 }: {
   p: EuroProgram
   country: CountryPolicy | undefined
   open: boolean
   onToggle: () => void
+  /** This programme's entry in my plan, if I added it. */
+  planned: MastersPlanEntry | undefined
+  onPlan: () => void
 }) {
   const tuition = effectiveTuition(p, country)
   const labels = tuitionLabels(country)
@@ -210,15 +227,38 @@ function ProgramRow({
           )}
         </td>
         <td className="py-1.5 pl-2 pr-3 text-right">
-          <a
-            href={p.links.program}
-            target="_blank"
-            rel="noreferrer"
-            onClick={(e) => e.stopPropagation()}
-            className="whitespace-nowrap text-[11px] font-medium text-indigo-600 hover:underline"
-          >
-            Open ↗
-          </a>
+          <div className="flex flex-col items-end gap-0.5">
+            {planned ? (
+              <a
+                href={`#/masters/plan/${planned.id}`}
+                onClick={(e) => e.stopPropagation()}
+                title="In my plan — open its plan page"
+                className="whitespace-nowrap text-[11px] font-medium text-emerald-600 hover:underline"
+              >
+                ✓ Planned
+              </a>
+            ) : (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation()
+                  onPlan()
+                }}
+                title="Add to my master's plan"
+                className="whitespace-nowrap rounded border border-slate-300 bg-white px-1.5 py-px text-[11px] font-medium text-slate-600 hover:border-indigo-400 hover:text-indigo-700"
+              >
+                + Plan
+              </button>
+            )}
+            <a
+              href={p.links.program}
+              target="_blank"
+              rel="noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="whitespace-nowrap text-[11px] font-medium text-indigo-600 hover:underline"
+            >
+              Open ↗
+            </a>
+          </div>
         </td>
       </tr>
 
@@ -313,13 +353,31 @@ const COLUMNS = [
   '',
 ]
 
+type Tab = 'programs' | 'countries' | 'plan'
+
+const TAB_PATH: Record<Tab, string> = {
+  programs: '/masters',
+  countries: '/masters/countries',
+  plan: '/masters/plan',
+}
+
 export default function EuropeApp() {
   const { data, error, loading } = useEurope()
+  const plan = useMastersPlan()
+  const route = useHashRoute()
   const [filters, setFilters] = useState<Filters>(emptyFilters)
-  const [tab, setTab] = useState<'programs' | 'countries'>('programs')
   const [openId, setOpenId] = useState<string | null>(null)
 
-  const countries = useMemo(() => (data ? countryIndex(data) : new Map()), [data])
+  // ['masters', 'plan', '<entry id>'] — the first segment may also be 'europe'.
+  const segs = segments(route)
+  const tab: Tab = segs[1] === 'countries' ? 'countries' : segs[1] === 'plan' ? 'plan' : 'programs'
+  const planEntryId = tab === 'plan' ? (segs[2] ?? null) : null
+
+  const countries = useMemo(
+    () => (data ? countryIndex(data) : new Map<string, CountryPolicy>()),
+    [data],
+  )
+  const byId = useMemo(() => new Map((data?.programs ?? []).map((p) => [p.id, p])), [data])
   const shown = useMemo(() => (data ? applyFilters(data.programs, filters) : []), [data, filters])
   const grouped = useMemo(() => groupByCountry(shown), [shown])
   const counts = useMemo(() => {
@@ -349,13 +407,18 @@ export default function EuropeApp() {
             [
               ['programs', `Programmes${data ? ` (${data.programs.length})` : ''}`],
               ['countries', `Country rules${data ? ` (${data.countries.length})` : ''}`],
+              ['plan', `My plan (${plan.state.programs.length})`],
             ] as const
           ).map(([id, label]) => (
             <button
               key={id}
-              onClick={() => setTab(id)}
+              onClick={() => navigate(TAB_PATH[id])}
               className={`rounded px-2 py-1 text-[11px] font-medium transition-colors ${
-                tab === id ? 'bg-white text-slate-900' : 'text-slate-300 hover:bg-slate-800'
+                tab === id
+                  ? 'bg-white text-slate-900'
+                  : id === 'plan'
+                    ? 'text-teal-200 hover:bg-slate-800'
+                    : 'text-slate-300 hover:bg-slate-800'
               }`}
             >
               {label}
@@ -364,6 +427,11 @@ export default function EuropeApp() {
         </div>
 
         <div className="flex items-center gap-3">
+          {plan.saveStatus !== 'idle' && (
+            <span className={`text-[11px] ${plan.saveStatus === 'saving' ? 'text-slate-400' : 'text-emerald-400'}`}>
+              {plan.saveStatus === 'saving' ? 'Saving…' : 'Saved'}
+            </span>
+          )}
           <a
             href="#/planner"
             className="rounded border border-indigo-400/50 bg-indigo-500/15 px-2 py-1 text-[11px] font-medium text-indigo-200 transition-colors hover:bg-indigo-500/25"
@@ -392,6 +460,17 @@ export default function EuropeApp() {
       )}
 
       {data && tab === 'countries' && <CountryPolicies countries={data.countries} counts={counts} />}
+
+      {/* The plan waits for the dataset (so database entries show live values,
+          not a flash of "Unknown / Verify"), but still opens if it failed —
+          custom entries and my own values don't need it. */}
+      {tab === 'plan' &&
+        !loading &&
+        (planEntryId ? (
+          <PlanDetail id={planEntryId} plan={plan} byId={byId} countries={countries} />
+        ) : (
+          <PlanView data={data} plan={plan} byId={byId} countries={countries} />
+        ))}
 
       {data && tab === 'programs' && (
         <>
@@ -442,6 +521,8 @@ export default function EuropeApp() {
                         country={countries.get(p.country)}
                         open={openId === p.id}
                         onToggle={() => setOpenId(openId === p.id ? null : p.id)}
+                        planned={plan.entryFor(p.id)}
+                        onPlan={() => plan.addFromDatabase(p)}
                       />
                     ))}
                   </tbody>
@@ -452,7 +533,8 @@ export default function EuropeApp() {
 
           <footer className="shrink-0 border-t border-slate-200 bg-white px-4 py-1.5 text-[10.5px] text-slate-400">
             <span className="text-slate-500">
-              Click a row for sources and caveats · <span className="text-slate-300">*</span> = the
+              Click a row for sources and caveats · <span className="font-medium">+ Plan</span> adds a
+              programme to My plan · <span className="text-slate-300">*</span> = the
               figure has a caveat (hover) · <span className="italic text-slate-300">unknown</span> = not
               stated on any page read, never guessed
             </span>
