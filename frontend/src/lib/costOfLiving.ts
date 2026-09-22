@@ -87,9 +87,11 @@ export function money(amount: number, currency: string): string {
 const PERIOD: Record<string, string> = {
   '12-month': ' / year (12 months)',
   '9-month': ' / academic year (9 months)',
+  annual: ' / year',
   monthly: ' / month',
   quarterly: ' / quarter',
   semester: ' / semester',
+  term: ' / term',
   other: '',
 }
 
@@ -107,13 +109,13 @@ export const SCOPE_LABEL: Record<string, string> = {
 /**
  * What the stipend pays over the months you pay rent. A 9-month stipend is
  * taken as the year's pay (summer support is not assumed); a monthly one is
- * multiplied by 12. Per-quarter and per-semester figures are NOT multiplied
+ * multiplied by 12. Per-quarter, per-semester and per-term figures are NOT multiplied
  * out: schools pay three or four quarters (two or three semesters), and the
  * page seldom says which — so no ratio is shown for them.
  */
 export function annualStipend(s: Stipend): number | null {
   if (s.amount == null) return null
-  if (s.period === '12-month' || s.period === '9-month') return s.amount
+  if (s.period === '12-month' || s.period === '9-month' || s.period === 'annual') return s.amount
   if (s.period === 'monthly') return s.amount * 12
   return null
 }

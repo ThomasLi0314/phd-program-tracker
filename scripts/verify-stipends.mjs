@@ -53,7 +53,9 @@ async function chromeText(url) {
   try {
     const { stdout } = await run(
       CHROME,
-      ['--headless=new', '--disable-gpu', '--no-first-run', `--user-data-dir=${join(tmp, 'chrome')}`, `--user-agent=${UA}`, '--virtual-time-budget=8000', '--dump-dom', url],
+      // A profile directory per call: Chrome locks its profile, so parallel
+      // runs sharing one silently returned nothing.
+      ['--headless=new', '--disable-gpu', '--no-first-run', `--user-data-dir=${join(tmp, `chrome-${Math.random().toString(36).slice(2)}`)}`, `--user-agent=${UA}`, '--virtual-time-budget=10000', '--dump-dom', url],
       { maxBuffer: 64 << 20, timeout: 90000 },
     )
     return htmlToText(stdout).replace(/\s+/g, ' ')

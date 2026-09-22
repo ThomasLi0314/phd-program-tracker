@@ -424,7 +424,12 @@
         "funding": {
           "status": "Self-Funded / Mixed",
           "years": null,
-          "note": "Tuition ≈CHF 730/semester; Excellence Scholarship (ESOP) covers full costs for top applicants — Verify."
+          "note": "Tuition ≈CHF 730/semester; Excellence Scholarship (ESOP) covers full costs for top applicants — Verify.",
+          "stipend": {
+            "amount": null,
+            "note": "taught master's — no stipend; ETH: studies are primarily financed by students/families; competitive ESOP excellence scholarships exist.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Neutral / Not Required",
         "contact_note": "MSc admission is committee-based; contact matters mainly when seeking thesis supervision later.",
@@ -562,7 +567,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; CPCB handbook: stipends 'determined at the school level at each University' (CMU side: SCS base $3,650/mo 2026-27; Pitt differs).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -696,7 +706,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)",
+          "stipend": {
+            "amount": 43775.16,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://medschool.duke.edu/education/biomedical-phd-programs/computational-biology-and-bioinformatics-program/admissions-cbb",
+            "quote": "The uniform stipend for academic year 2026-2027 is $43,775.16.",
+            "note": "Annual figure; per TGS schedule paid over 13 months (Aug-Aug) in year 1 and 12 months thereafter. Program funds yr 1; advisor from Sept 1 of yr 2.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -738,7 +759,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2291,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://policylibrary.gatech.edu/academic-affairs/stipends-graduate-assistantships",
+            "quote": "For the 2026-2027 academic year, the minimum stipend level for each doctoral graduate research or teaching assistant shall be $2,291 per month, for any position one-third time or greater.",
+            "note": "No program figure found; Institute minimum for doctoral GRA/GTA set by GT Office of the Provost. Units set own levels at or above it.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1046,7 +1078,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded while in good standing; $37,500 stipend (2025-26) plus tuition, fees, health insurance"
+          "note": "Fully funded while in good standing; $37,500 stipend (2025-26) plus tuition, fees, health insurance",
+          "stipend": {
+            "amount": 38500,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://bbsp.unc.edu/financial-support/",
+            "quote": "The annual stipend for 2026-27 will be $38,500.",
+            "note": "BBSP umbrella annual stipend; BCB: year 1 funded by BBSP, then by mentor(s); support guaranteed. $1,500 first-year bonus.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1212,7 +1255,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "PhD students funded; verify package"
+          "note": "PhD students funded; verify package",
+          "stipend": {
+            "amount": 42436,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://graduateschool.usc.edu/wp-content/uploads/2026/01/Minimum_-Stipend-Memo-AY2026-2027-1-14-2026.pdf",
+            "quote": "Starting AY 2026, the university’s minimum total stipend for students supported by graduate assistantships and fellowships will be $42,436, a 3% increase from the previous minimum.",
+            "note": "No dept figure found; USC Graduate School/Provost memo sets university minimum total stipend for GA/fellowship-supported PhD students (AY 2026-27); months not stated.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1253,7 +1307,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Guaranteed minimum 5 yrs support: stipend, full tuition, health/dental; $750 travel award/yr"
+          "note": "Guaranteed minimum 5 yrs support: stipend, full tuition, health/dental; $750 travel award/yr",
+          "stipend": {
+            "amount": 42436,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://graduateschool.usc.edu/wp-content/uploads/2026/01/Minimum_-Stipend-Memo-AY2026-2027-1-14-2026.pdf",
+            "quote": "Starting AY 2026, the university’s minimum total stipend for students supported by graduate assistantships and fellowships will be $42,436, a 3% increase from the previous minimum.",
+            "note": "No dept figure found; USC Graduate School/Provost memo sets university minimum total stipend for GA/fellowship-supported PhD students (AY 2026-27); months not stated.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1294,7 +1359,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Considered but not explicitly guaranteed. 'All PhD applicants are considered for funding (fellowships and/or research assistantships)' and 'All applicants to the CSEM PhD Program are considered for financial aid as part of the admissions process.' No published multi-year funding guarantee or duration was found; Master's students have no funding. Source: oden.utexas.edu how-to-apply and admissions-faq pages."
+          "note": "Considered but not explicitly guaranteed. 'All PhD applicants are considered for funding (fellowships and/or research assistantships)' and 'All applicants to the CSEM PhD Program are considered for financial aid as part of the admissions process.' No published multi-year funding guarantee or duration was found; Master's students have no funding. Source: oden.utexas.edu how-to-apply and admissions-faq pages.",
+          "stipend": {
+            "amount": 36000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://www.oden.utexas.edu/academics/financial-aid",
+            "quote": "The Oden Institute minimum GRA salary rate for CSEM students for the 2026-27 academic year (08/16/26 - 08/15/27) is $36,000 ($3,000/month).",
+            "note": "Minimum GRA rate. CSEM Fellowship (US citizens) $42,000/yr; NIMS Fellowship $38,000/yr.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Not required",
         "contact_note": "'Applicants are not required to contact faculty directly as part of our application process.' (CSEM Admissions FAQ). The Statement of Purpose does ask applicants to identify faculty they would like to work with.",
@@ -2238,7 +2314,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)"
+          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)",
+          "stipend": {
+            "amount": 53629,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://medicine.yale.edu/bbs/apply/support",
+            "quote": "We provide a stipend ($53,629 in 2026-27), full tuition coverage, free health insurance to you and your family, and discounted dental insurance. This financial aid package is provided to all BBS students independent of citizenship.",
+            "note": "Admits via BBS. CBB's own page states $52,321 for 2025-26 (+$4,000 NRSA/NSF bonus); newer 2026-27 BBS/GSAS rate used.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",

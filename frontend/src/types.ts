@@ -38,7 +38,8 @@ export interface Stipend {
   amount: number | null
   currency?: string
   /** as published — never annualised by the scan */
-  period?: '12-month' | '9-month' | 'monthly' | 'quarterly' | 'semester' | 'other'
+  /** as published; `annual` = per year with the months not stated */
+  period?: '12-month' | '9-month' | 'annual' | 'monthly' | 'quarterly' | 'semester' | 'term' | 'other'
   academic_year?: string | null
   /** whose figure it is: the program's own, or a school/university-wide rate */
   scope?: 'program' | 'school-standard' | 'university-minimum'

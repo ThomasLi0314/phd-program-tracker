@@ -29,7 +29,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 40000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://laborrelations.rutgers.edu/sites/default/files/document/Final_AAUP-AFT%20CNA%202022-2026.pdf",
+            "quote": "Academic Year Appointment: $33,178 for Fiscal Year 2022-23; $35,335 for Fiscal Year 2023-24; $36,395 for Fiscal Year 2024-25; and $40,000 for Fiscal Year 2025-26.",
+            "note": "Listed page 404; JGPES now an Env. Sciences option, no figure. Contract minimum for full-time TA/GA (academic-year appt); 12-month appt $46,000.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",

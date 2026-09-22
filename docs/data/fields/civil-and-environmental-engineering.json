@@ -185,7 +185,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Comprehensive doctoral funding package: stipend, full tuition, health insurance and fees"
+          "note": "Comprehensive doctoral funding package: stipend, full tuition, health insurance and fees",
+          "stipend": {
+            "amount": 50008,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://studentbenefits.columbia.edu/content/compensation-and-student-employee-benefits",
+            "quote": "Minimum stipend support rates for PhD students not on appointment in the academic year (i.e., receiving fellowship support without a service obligation) are currently: $50,008 for those on a 12-month stipend.",
+            "note": "Columbia University minimum eff. 9/1/2026; no SEAS/dept figure found. SEAS PhDs usually on year-round appointments (min $51,008).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -226,7 +237,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Comprehensive doctoral funding package: stipend, full tuition, health insurance and fees"
+          "note": "Comprehensive doctoral funding package: stipend, full tuition, health insurance and fees",
+          "stipend": {
+            "amount": 50008,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://studentbenefits.columbia.edu/content/compensation-and-student-employee-benefits",
+            "quote": "Minimum stipend support rates for PhD students not on appointment in the academic year (i.e., receiving fellowship support without a service obligation) are currently: $50,008 for those on a 12-month stipend.",
+            "note": "Columbia University minimum eff. 9/1/2026; no SEAS/dept figure found. SEAS PhDs usually on year-round appointments (min $51,008).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -268,7 +290,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2545,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://engineering.purdue.edu/CCE/Academics/Graduate/Future/Funding",
+            "quote": "At some point during their program, approximately 60% of our graduate students are supported on assistantships that remit tuition and pay a stipend of $2545 to $2750 per month (2025-26 rates).",
+            "note": "Range $2,545-$2,750/month; funding not guaranteed (about 25% of strong incoming students offered first-semester assistantships).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -437,7 +470,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": 4,
-          "note": "Postgraduate Scholarship HK$19,135/month, rising to HK$19,655 once probationary candidature is confirmed (rates effective 1 Sep 2026). The HKU Presidential PhD Scholar package is worth about HK$439,500 in year one — HK$28,400/month plus a composition-fee waiver. HKPFS pays HK$344,400/yr."
+          "note": "Postgraduate Scholarship HK$19,135/month, rising to HK$19,655 once probationary candidature is confirmed (rates effective 1 Sep 2026). The HKU Presidential PhD Scholar package is worth about HK$439,500 in year one — HK$28,400/month plus a composition-fee waiver. HKPFS pays HK$344,400/yr.",
+          "stipend": {
+            "amount": 19135,
+            "currency": "HKD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/postgraduate_scholarships",
+            "quote": "The basic level of scholarship is HK$19,135 per month (wef 1/9/2026).",
+            "note": "No dept figure; HKU-wide PGS basic rate. Rises to HK$19,655/mo once PhD probation confirmed. HKU-PS and HKPFS awardees receive higher packages.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": null,
@@ -480,7 +524,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": 4,
-          "note": "Postgraduate Studentship HK$229,620/yr, awarded with the offer and needing no separate application. HKPFS pays HK$344,400/yr for 4 years plus HK$14,400 travel. RedBird adds HK$40,000 in year one for international PhDs. Tuition HK$49,500/yr for 2027/28."
+          "note": "Postgraduate Studentship HK$229,620/yr, awarded with the offer and needing no separate application. HKPFS pays HK$344,400/yr for 4 years plus HK$14,400 travel. RedBird adds HK$40,000 in year one for international PhDs. Tuition HK$49,500/yr for 2027/28.",
+          "stipend": {
+            "amount": 229620,
+            "currency": "HKD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://fytgs.hkust.edu.hk/admissions/Admissions-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees",
+            "quote": "Postgraduate Studentship (PGS) HK$229,620 per year (~US$29,420/ year) Up to 2 years for full-time MPhil students Up to 4 years for full-time PhD students",
+            "note": "HKUST FYTGS Postgraduate Studentship standard rate (stated per year); dept page gives no figure. HKPFS awardees: HK$344,400/yr.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": null,
@@ -522,7 +577,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": 4,
-          "note": "NTU Research Scholarship covers tuition and a monthly stipend (amount not published on the pages read). International research students are still eligible for the MOE subsidy with its 3-year Singapore service obligation — that route closed to coursework students."
+          "note": "NTU Research Scholarship covers tuition and a monthly stipend (amount not published on the pages read). International research students are still eligible for the MOE subsidy with its 3-year Singapore service obligation — that route closed to coursework students.",
+          "stipend": {
+            "amount": 3000,
+            "currency": "SGD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss",
+            "quote": "Revised monthly stipend for students with effect from January 2026. [...] Monthly Stipend | S$3,800 | S$3,800 | S$3,400 | S$3,000 | S$3,000 | S$2,900 (columns: Singapore Citizen PhD / Master's; Singapore Permanent Resident PhD / Master's; International Student PhD / Master's)",
+            "note": "NTU Research Scholarship (university-wide), intl PhD rate from Jan 2026; SC S$3,800, SPR S$3,400; up to +S$500/mo after QE. Intl scholars must do GAP teaching duties.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": null,
@@ -564,7 +630,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": 4,
-          "note": "NUS Research Scholarship covers tuition plus a stipend of up to S$3,800/month; the President's Graduate Fellowship goes up to S$4,800/month. Both are open to all nationalities."
+          "note": "NUS Research Scholarship covers tuition plus a stipend of up to S$3,800/month; the President's Graduate Fellowship goes up to S$4,800/month. Both are open to all nationalities.",
+          "stipend": {
+            "amount": 3000,
+            "currency": "SGD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://nusgs.nus.edu.sg/scholarships/nus-research-scholarship",
+            "quote": "All International Students | SGD 3000 / Month | Increased amount after passing PhD Qualifying Examination is SGD 500 / Month [...] The above stipend rates will take effect from 1 January 2026.",
+            "note": "Dept page gives no figure, points to NUSGS. NUS Research Scholarship (set by NUS Graduate School), intl PhD rate from 1 Jan 2026; SPR S$3,400, SC S$3,800; +S$500/mo after PQE. PGF: S$3,900-4,800.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": null,

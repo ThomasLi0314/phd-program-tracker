@@ -70,7 +70,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 21913,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://www.purdue.edu/academics/ogsps/wp-content/uploads/2026/02/graduate-student-employment-manual.pdf",
+            "quote": "APPENDIX B. 2025-26 PURDUE UNIVERSITY GRADUATE STAFF APPOINTMENT ANNUAL MINIMUM SALARIES ... Academic Year | Fiscal Year ... 25.00 CUL 50.00 CUL 75.00 CUL 100.00 CUL ... West Lafayette Graduate Staff* Annual $10,956.50 $21,913.00 $32,869.50 $43,826.00 $14,000.00 $28,000.00 $42,000.00 $56,000.00",
+            "note": "No dept figure found; OGSPS/Graduate School minimum for 0.50 FTE West Lafayette graduate staff (TA/RA). Fiscal-year (12-mo) minimum $28,000.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -367,7 +378,7 @@
           "stipend": {
             "amount": 14596,
             "currency": "USD",
-            "period": "other",
+            "period": "term",
             "academic_year": "2025-26",
             "scope": "university-minimum",
             "source": "https://rackham.umich.edu/funding/cost-sharing-by-rackham/",

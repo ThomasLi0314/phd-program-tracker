@@ -29,7 +29,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend, tuition, insurance)"
+          "note": "Fully funded (stipend, tuition, insurance)",
+          "stipend": {
+            "amount": 47741,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://www.bu.edu/eng/admissions/graduate/financing-your-education/scholarships-fellowships/",
+            "quote": "The 2026/2027 calendar year salary for first-year studies equals a total of $47,741.",
+            "note": "College of Engineering rate; RA/TF paid $17,443 per semester; Dean's & Distinguished Departmental Fellowships also $47,741 (2026/27). No dept-specific figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -319,7 +330,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 30000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2018-19",
+            "scope": "program",
+            "source": "https://www.cmu.edu/bme/Academics/graduate-programs/Resources/documents/miscellaneous/BME_PhD_Financial_Support.pdf",
+            "quote": "For 2018-2019 AY financial aid included: 1. A taxable stipend of $30,000, paid semi-monthly over 12 months.",
+            "note": "STALE: only published figure is for 2018-19; current pages say full tuition + living stipend without an amount.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -360,7 +382,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Comprehensive doctoral funding package: stipend, full tuition, health insurance and fees"
+          "note": "Comprehensive doctoral funding package: stipend, full tuition, health insurance and fees",
+          "stipend": {
+            "amount": 50008,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://studentbenefits.columbia.edu/content/compensation-and-student-employee-benefits",
+            "quote": "Minimum stipend support rates for PhD students not on appointment in the academic year (i.e., receiving fellowship support without a service obligation) are currently: $50,008 for those on a 12-month stipend.",
+            "note": "Columbia Univ. min eff. 9/1/2026. Older BME page: RA 'yearly stipend of approximately $41,520 (as of 2020)'. 12-mo appointment min $51,008.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -453,7 +486,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)",
+          "stipend": {
+            "amount": 43775.16,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gradschool.duke.edu/financial-support/tuition-fees-and-phd-stipend-schedule/",
+            "quote": "Full Year Total - 13 Months, August to August* | 42,500 | 43,775.16",
+            "note": "TGS recommended PhD stipend (Trinity/Nicholas/Pratt/Nursing/Medicine/Sanford); cols 2025-26|2026-27; yr-1 total over 13 mo Aug-Aug, yr 2+ same over 12 mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -535,7 +579,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 2291,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://policylibrary.gatech.edu/academic-affairs/stipends-graduate-assistantships",
+            "quote": "For the 2026-2027 academic year, the minimum stipend level for each doctoral graduate research or teaching assistant shall be $2,291 per month, for any position one-third time or greater.",
+            "note": "Interdisciplinary program; assistantships awarded by home school, no program figure. Institute minimum (GT Provost) applies.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -576,7 +631,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full-time doctoral program, 5-6 years; joint GT/Emory degree"
+          "note": "Full-time doctoral program, 5-6 years; joint GT/Emory degree",
+          "stipend": {
+            "amount": 2291,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://policylibrary.gatech.edu/academic-affairs/stipends-graduate-assistantships",
+            "quote": "For the 2026-2027 academic year, the minimum stipend level for each doctoral graduate research or teaching assistant shall be $2,291 per month, for any position one-third time or greater.",
+            "note": "Joint GT/Emory program; no stipend figure on BME pages. GT Institute minimum (Provost) shown.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -617,7 +683,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (SEAS PhD guarantee: tuition + stipend)"
+          "note": "Fully funded (SEAS PhD guarantee: tuition + stipend)",
+          "stipend": {
+            "amount": 4330,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://seas.harvard.edu/prospective-students/prospective-graduate-students/funding-scholarship-graduate-programs",
+            "quote": "Monthly support includes a combination of stipend, Research Assistant, and Teaching Fellow support; the cost-of-living stipend is $4330 per month before taxes in AY26-27.",
+            "note": "Harvard SEAS-wide PhD rate (no separate figure on the bioengineering page); plus $1,140 transport/dental subsidies; mix of stipend, RA and TF pay.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -873,7 +950,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "All admitted PhD students receive financial support (fellowships/RA/TA)"
+          "note": "All admitted PhD students receive financial support (fellowships/RA/TA)",
+          "stipend": {
+            "amount": 47748,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.tgs.northwestern.edu/funding/index.html",
+            "quote": "$47,748 minimum annual stipend rate for PhD students, 2026–27",
+            "note": "TGS base rate (paid year-round); BME admissions page states all admitted PhD students are funded but gives no figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -913,7 +1001,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 47748,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "program",
+            "source": "https://www.mccormick.northwestern.edu/chemical-biological/academics/graduate/admissions.html",
+            "quote": "Students in the PhD program are offered a competitive annual stipend. For the 2026-2027 academic year, the base stipend is $47,748.",
+            "note": "Annual base stipend; equals TGS 2026-27 minimum. Funding for at least five years; outside fellowships can increase stipend.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1037,7 +1136,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 21913,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://www.purdue.edu/academics/ogsps/wp-content/uploads/2026/02/graduate-student-employment-manual.pdf",
+            "quote": "APPENDIX B. 2025-26 PURDUE UNIVERSITY GRADUATE STAFF APPOINTMENT ANNUAL MINIMUM SALARIES ... Academic Year | Fiscal Year ... 25.00 CUL 50.00 CUL 75.00 CUL 100.00 CUL ... West Lafayette Graduate Staff* Annual $10,956.50 $21,913.00 $32,869.50 $43,826.00 $14,000.00 $28,000.00 $42,000.00 $56,000.00",
+            "note": "No dept figure found; OGSPS/Graduate School minimum for 0.50 FTE West Lafayette graduate staff (TA/RA). Fiscal-year (12-mo) minimum $28,000.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1078,7 +1188,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 21913,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://www.purdue.edu/academics/ogsps/wp-content/uploads/2026/02/graduate-student-employment-manual.pdf",
+            "quote": "APPENDIX B. 2025-26 PURDUE UNIVERSITY GRADUATE STAFF APPOINTMENT ANNUAL MINIMUM SALARIES ... Academic Year | Fiscal Year ... 25.00 CUL 50.00 CUL 75.00 CUL 100.00 CUL ... West Lafayette Graduate Staff* Annual $10,956.50 $21,913.00 $32,869.50 $43,826.00 $14,000.00 $28,000.00 $42,000.00 $56,000.00",
+            "note": "No dept figure found; OGSPS/Graduate School minimum for 0.50 FTE West Lafayette graduate staff (TA/RA). Fiscal-year (12-mo) minimum $28,000.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1119,7 +1240,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 40000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://laborrelations.rutgers.edu/sites/default/files/document/Final_AAUP-AFT%20CNA%202022-2026.pdf",
+            "quote": "Academic Year Appointment: $33,178 for Fiscal Year 2022-23; $35,335 for Fiscal Year 2023-24; $36,395 for Fiscal Year 2024-25; and $40,000 for Fiscal Year 2025-26.",
+            "note": "Rutgers-AAUP-AFT contract minimum for full-time TA/GA; academic-year appt paid Sep 1-Jun 30 (10 mo). 12-month appt $46,000. Contract ran to 6/30/26. No dept figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1654,7 +1786,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "College assistantships; funding tied to Dec 5 priority deadline"
+          "note": "College assistantships; funding tied to Dec 5 priority deadline",
+          "stipend": {
+            "amount": 27467,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://admin.hr.ufl.edu/wp-content/uploads/sites/39/2026/08/UFBOT-GAU-Contract-2026_ADA.pdf",
+            "quote": "10.1. Minimum Stipend. Effective October 1, 2024, each nine-month (9) employee on a .50 FTE appointment shall be guaranteed a minimum stipend of $20,600 or a minimum of $27,467 for each twelve-month (12) employee.",
+            "note": "No dept figure found; UF–GAU CBA (UF HR) 0.50 FTE GA minimum, 12-month; 9-month minimum $20,600. ABE: assistantships competitive, faculty-funded.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1695,7 +1838,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Encourages NSF/NIH fellowships; departmental assistantships"
+          "note": "Encourages NSF/NIH fellowships; departmental assistantships",
+          "stipend": {
+            "amount": 27467,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://admin.hr.ufl.edu/wp-content/uploads/sites/39/2026/08/UFBOT-GAU-Contract-2026_ADA.pdf",
+            "quote": "10.1. Minimum Stipend. Effective October 1, 2024, each nine-month (9) employee on a .50 FTE appointment shall be guaranteed a minimum stipend of $20,600 or a minimum of $27,467 for each twelve-month (12) employee.",
+            "note": "No dept figure found; UF–GAU CBA (UF HR) 0.50 FTE GA minimum, 12-month; 9-month minimum $20,600. BME: most PhD admits get fellowship/RA; no amount stated.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1736,7 +1890,12 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Research assistantships (tuition waiver + stipend), fellowships, TAships"
+          "note": "Research assistantships (tuition waiver + stipend), fellowships, TAships",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages. No standard GRA/GTA figure (CENGR Doctoral Fellowship only: $30k/yr). FY27 Engineering GA rate $75,585 is 100% FTE; stipend = rate x appt %.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1881,7 +2040,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "All Ph.D. students supported at minimum stipend level; Dec 15 priority for funding"
+          "note": "All Ph.D. students supported at minimum stipend level; Dec 15 priority for funding",
+          "stipend": {
+            "amount": 40000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "not stated",
+            "scope": "program",
+            "source": "https://bioe.umd.edu/graduate/prospective-students/financial-support",
+            "quote": "For the first year, top entering students are offered a fellowship financial package comprised of an annual stipend (approximately $40K), tuition remission (10 credits each semester), and access to subsidized employee health benefits.",
+            "note": "Approximate; 'annual' (term unstated); stated for top entering students' yr-1 fellowship, later years via GRA. Grad School FY27 min Step II: 9-mo $27,494, 12-mo $36,660.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1926,7 +2096,7 @@
           "stipend": {
             "amount": 14596,
             "currency": "USD",
-            "period": "other",
+            "period": "term",
             "academic_year": "2025-26",
             "scope": "university-minimum",
             "source": "https://rackham.umich.edu/funding/cost-sharing-by-rackham/",
@@ -1975,7 +2145,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Unknown/Verify (application by Dec 19 for full financial support consideration)"
+          "note": "Unknown/Verify (application by Dec 19 for full financial support consideration)",
+          "stipend": {
+            "amount": 10796,
+            "currency": "USD",
+            "period": "semester",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.unc.edu/funding/stipends/",
+            "quote": "Minimum Stipend 2026-2027 Doctoral and Master’s/Doctoral programs: $10,796/semester (RAs and TAs)",
+            "note": "Per semester. BME guarantees first-year funding (fellowship/TA/RA), then lab-funded; no dept figure. Graduate School minimum for doctoral RAs/TAs.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2141,7 +2322,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "PhD applicants considered for funding (RA/TA/fellowship); verify package"
+          "note": "PhD applicants considered for funding (RA/TA/fellowship); verify package",
+          "stipend": {
+            "amount": 42436,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://graduateschool.usc.edu/wp-content/uploads/2026/01/Minimum_-Stipend-Memo-AY2026-2027-1-14-2026.pdf",
+            "quote": "Starting AY 2026, the university’s minimum total stipend for students supported by graduate assistantships and fellowships will be $42,436, a 3% increase from the previous minimum.",
+            "note": "No dept figure found; USC Graduate School/Provost memo sets university minimum total stipend for GA/fellowship-supported PhD students (AY 2026-27); months not stated.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2182,7 +2374,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "Dept promises a 'competitive stipend' but states no figure; Cockrell School stipend not published; UT HR gives only 100%-FTE pay ranges.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2420,7 +2617,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition, stipend, health insurance)"
+          "note": "Fully funded (tuition, stipend, health insurance)",
+          "stipend": {
+            "amount": 40000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://engineering.vanderbilt.edu/academics/graduate/benefits/",
+            "quote": "TA and RA annual stipend award starting at $40,000 (Fall 2026)",
+            "note": "School of Engineering base TA/RA rate ('starting at'); annual figure paid monthly, months not stated. Dept page gives no own figure; raises above base at advisor discretion.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2461,7 +2669,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (tuition + stipend)"
+          "note": "Fully funded (tuition + stipend)",
+          "stipend": {
+            "amount": 37853,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://bulletin.wustl.edu/grad/phd-policies-requirements/",
+            "quote": "The minimum PhD financial support rate for the 2026-27 academic year is $37,853 annually, dispersed on a monthly basis while the student is enrolled full time.",
+            "note": "BME/McKelvey pages give no figure ('generous stipend'); WashU university-wide PhD minimum set by the Office of the Provost applies. Annual rate paid monthly.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2502,7 +2721,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)"
+          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)",
+          "stipend": {
+            "amount": 52046,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gsas.yale.edu/resources/graduate-financial-aid/phd-stipends",
+            "quote": "The minimum annual stipends for the 2026-2027 academic year are: [...] Physical Sciences: $52,046 stipend",
+            "note": "Yale GSAS 2026-27 minimum (Physical Sciences); dept pages give no figure. Paid semi-monthly over 12 months; first-year also gets one-time $1,500 relocation award.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",

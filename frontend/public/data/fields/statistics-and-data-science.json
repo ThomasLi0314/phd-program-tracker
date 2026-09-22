@@ -497,7 +497,18 @@
         "funding": {
           "status": "Partial / Merit-Based",
           "years": null,
-          "note": "Funding is not guaranteed for all admits; students compete for scholarships (e.g., Clarendon, EPSRC/StatML CDT studentships, departmental awards) covering fees and stipend. Apply by the January deadline for automatic scholarship consideration."
+          "note": "Funding is not guaranteed for all admits; students compete for scholarships (e.g., Clarendon, EPSRC/StatML CDT studentships, departmental awards) covering fees and stipend. Apply by the January deadline for automatic scholarship consideration.",
+          "stipend": {
+            "amount": 20780,
+            "currency": "GBP",
+            "period": "12-month",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
+            "quote": "Scholars on a full-time course will receive an annual grant for living expenses of at least the UKRI minimum doctoral stipend rate, which is normally sufficient to cover the living costs of a single student living in Oxford. In 2025-26, scholars receive at least £20,780.",
+            "note": "Funding not guaranteed. Oxford Clarendon floor = UKRI min doctoral stipend; Stats dept studentships include a stipend but state no £ figure. No 2026-27 figure posted.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Encouraged",
         "contact_note": "Applicants are encouraged to identify and contact potential supervisors before applying to confirm research fit and availability.",
@@ -1185,7 +1196,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 47740,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://www.bu.edu/cas/admissions/phd-mfa/fellowship-aid/frequently-asked-questions/stipends/",
+            "quote": "The new 12-month stipend rate was set at $45,000 per year effective November 15, 2024, at $46,350 effective September 1, 2025, and at $47,740 effective September 1, 2026 for those within their guaranteed funding period.",
+            "note": "GRS degree run with SPH Biostatistics; SPH page promises stipend but no figure. GRS rate (BUGWU CBA); $46,350 in 2025-26.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1707,7 +1729,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs (GRS fellowship)"
+          "note": "Fully funded 5 yrs (GRS fellowship)",
+          "stipend": {
+            "amount": 47740,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://www.bu.edu/cas/admissions/phd-mfa/fellowship-aid/frequently-asked-questions/stipends/",
+            "quote": "The new 12-month stipend rate was set at $45,000 per year effective November 15, 2024, at $46,350 effective September 1, 2025, and at $47,740 effective September 1, 2026 for those within their guaranteed funding period.",
+            "note": "Graduate School of Arts & Sciences rate (BUGWU CBA); dept page gives no figure. Rate was $46,350 in 2025-26.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1889,7 +1922,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs (GRS fellowship)"
+          "note": "Fully funded 5 yrs (GRS fellowship)",
+          "stipend": {
+            "amount": 47740,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://www.bu.edu/cas/admissions/phd-mfa/fellowship-aid/frequently-asked-questions/stipends/",
+            "quote": "The new 12-month stipend rate was set at $45,000 per year effective November 15, 2024, at $46,350 effective September 1, 2025, and at $47,740 effective September 1, 2026 for those within their guaranteed funding period.",
+            "note": "Graduate School of Arts & Sciences rate (BUGWU CBA); dept page gives no figure. Rate was $46,350 in 2025-26.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2648,7 +2692,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Full tuition + stipend (per Statistics dept policy)"
+          "note": "Full tuition + stipend (per Statistics dept policy)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; funded by home dept (apply via Stats or MLD): Stats approx $3,100/mo for 9-mo AY; MLD/SCS base $3,650/mo 2026-27.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3855,7 +3904,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Full tuition scholarship + ~$3,100/month academic-year stipend (TA/RA) for all PhD students"
+          "note": "Full tuition scholarship + ~$3,100/month academic-year stipend (TA/RA) for all PhD students",
+          "stipend": {
+            "amount": 3100,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": null,
+            "scope": "program",
+            "source": "https://www.cmu.edu/dietrich/statistics-datascience/academics/phd/application-process.html",
+            "quote": "We offer financial aid to all Ph.D. students, including full tuition scholarships and a generous monthly stipend (approx. $3,100/month for the nine-month academic year) for teaching or research assistantships.",
+            "note": "Approximate and undated (page for Fall 2027 applicants); paid over 9-month AY as TA/RA; summer support not guaranteed.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4450,7 +4510,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full fellowship up to 5 yrs: tuition, health fees, insurance, 9-month stipend; summer support generally provided"
+          "note": "Full fellowship up to 5 yrs: tuition, health fees, insurance, 9-month stipend; summer support generally provided",
+          "stipend": {
+            "amount": 44259,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://studentbenefits.columbia.edu/content/compensation-and-student-employee-benefits",
+            "quote": "$44,259 for those on a 9-month stipend (this total stipend includes a $37,506, nine-month stipend plus a $6,753 summer stipend).",
+            "note": "Columbia Univ. min: $37,506 9-month AY stipend + $6,753 summer. GSAS E3B/Math/Stats page (2025-26): AY $35,353 + summer $6,365. Dept: summer support generally provided.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -5105,7 +5176,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 50008,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://studentbenefits.columbia.edu/content/compensation-and-student-employee-benefits",
+            "quote": "Minimum stipend support rates for PhD students not on appointment in the academic year (i.e., receiving fellowship support without a service obligation) are currently: $50,008 for those on a 12-month stipend.",
+            "note": "Columbia University minimum eff. 9/1/2026; Mailman dept page gives no figure. Mailman (MSPH) PhDs usually on year-round appointments (min $51,008).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -5812,7 +5894,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)",
+          "stipend": {
+            "amount": 43775.16,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gradschool.duke.edu/financial-support/tuition-fees-and-phd-stipend-schedule/",
+            "quote": "Full Year Total - 13 Months, August to August* | 42,500 | 43,775.16",
+            "note": "TGS recommended PhD stipend (Trinity/Nicholas/Pratt/Nursing/Medicine/Sanford); cols 2025-26|2026-27; yr-1 total over 13 mo Aug-Aug, yr 2+ same over 12 mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -6304,7 +6397,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)"
+          "note": "Fully funded 5 yrs (stipend, tuition, fees, health insurance)",
+          "stipend": {
+            "amount": 43775.16,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://gradschool.duke.edu/financial-support/tuition-fees-and-phd-stipend-schedule/",
+            "quote": "Full Year Total - 13 Months, August to August* | 42,500 | 43,775.16",
+            "note": "TGS recommended PhD stipend (Trinity/Nicholas/Pratt/Nursing/Medicine/Sanford); cols 2025-26|2026-27; yr-1 total over 13 mo Aug-Aug, yr 2+ same over 12 mo.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -7482,7 +7586,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (GSAS PhD guarantee)"
+          "note": "Fully funded (GSAS PhD guarantee)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; pages state full funding incl. stipend, no amount",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -7902,7 +8011,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (GSAS PhD guarantee)"
+          "note": "Fully funded (GSAS PhD guarantee)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9496,7 +9610,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 47748,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.tgs.northwestern.edu/funding/index.html",
+            "quote": "$47,748 minimum annual stipend rate for PhD students, 2026–27",
+            "note": "TGS base rate. Dept guarantees 5 academic years + 5 summers (fellowship yr 1, then TA + summer research fellowship); no dept figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -9816,7 +9941,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 21913,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://www.purdue.edu/academics/ogsps/wp-content/uploads/2026/02/graduate-student-employment-manual.pdf",
+            "quote": "APPENDIX B. 2025-26 PURDUE UNIVERSITY GRADUATE STAFF APPOINTMENT ANNUAL MINIMUM SALARIES ... Academic Year | Fiscal Year ... 25.00 CUL 50.00 CUL 75.00 CUL 100.00 CUL ... West Lafayette Graduate Staff* Annual $10,956.50 $21,913.00 $32,869.50 $43,826.00 $14,000.00 $28,000.00 $42,000.00 $56,000.00",
+            "note": "No dept figure found; OGSPS/Graduate School minimum for 0.50 FTE West Lafayette graduate staff (TA/RA). Fiscal-year (12-mo) minimum $28,000.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -10479,7 +10615,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 40000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://laborrelations.rutgers.edu/sites/default/files/document/Final_AAUP-AFT%20CNA%202022-2026.pdf",
+            "quote": "Academic Year Appointment: $33,178 for Fiscal Year 2022-23; $35,335 for Fiscal Year 2023-24; $36,395 for Fiscal Year 2024-25; and $40,000 for Fiscal Year 2025-26.",
+            "note": "Rutgers-AAUP-AFT contract minimum for full-time TA/GA; academic-year appt paid Sep 1-Jun 30 (10 mo). 12-month appt $46,000. Contract ran to 6/30/26. No dept figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -15465,7 +15612,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded PhD"
+          "note": "Fully funded PhD",
+          "stipend": {
+            "amount": 47741,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://intranet.uchicago.edu/-/media/project/uchicago-tenant/intranet/human-resources/collective-bargaining-agreements/ue-local1103-graduate-students.pdf",
+            "quote": "(A) PhD primary funding research and teaching positions under this Agreement shall be compensated as follows, where the compensation indicated is given as an annualized equivalent and may be from multiple sources, including external to the University. [...] October 1, 2026- $47,741 (3%) September 30, 2027",
+            "note": "No dept/PSD figure published. UChicago-UE (GSU) CBA annualized minimum for PhD RA/TA primary funding, Oct 2026-Sep 2027 (2025-26: $46,350).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -15872,7 +16030,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded PhD"
+          "note": "Fully funded PhD",
+          "stipend": {
+            "amount": 47741,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://intranet.uchicago.edu/-/media/project/uchicago-tenant/intranet/human-resources/collective-bargaining-agreements/ue-local1103-graduate-students.pdf",
+            "quote": "(A) PhD primary funding research and teaching positions under this Agreement shall be compensated as follows, where the compensation indicated is given as an annualized equivalent and may be from multiple sources, including external to the University. [...] October 1, 2026- $47,741 (3%) September 30, 2027",
+            "note": "No dept/PSD figure published. UChicago-UE (GSU) CBA annualized minimum for PhD RA/TA primary funding, Oct 2026-Sep 2027 (2025-26: $46,350).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -16343,7 +16512,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 27467,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://admin.hr.ufl.edu/wp-content/uploads/sites/39/2026/08/UFBOT-GAU-Contract-2026_ADA.pdf",
+            "quote": "10.1. Minimum Stipend. Effective October 1, 2024, each nine-month (9) employee on a .50 FTE appointment shall be guaranteed a minimum stipend of $20,600 or a minimum of $27,467 for each twelve-month (12) employee.",
+            "note": "No dept figure found; UF–GAU CBA (UF HR) 0.50 FTE GA minimum, 12-month; 9-month minimum $20,600. Dept page: typical 20 hr/wk assistant received $19,000 in 2016-17 (outdated).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -16620,7 +16800,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 27467,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://admin.hr.ufl.edu/wp-content/uploads/sites/39/2026/08/UFBOT-GAU-Contract-2026_ADA.pdf",
+            "quote": "10.1. Minimum Stipend. Effective October 1, 2024, each nine-month (9) employee on a .50 FTE appointment shall be guaranteed a minimum stipend of $20,600 or a minimum of $27,467 for each twelve-month (12) employee.",
+            "note": "No dept figure found; UF–GAU CBA (UF HR) 0.50 FTE GA minimum, 12-month; 9-month minimum $20,600. Biostat (PHHP): PhD students expected to have GA/RA/TA funding; no amount stated.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -16934,7 +17125,12 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Assistantships typically available"
+          "note": "Assistantships typically available",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages. Mostly TA-funded, no amount. FY27 Arts & Sciences doctoral GA rate max $72,462 (min $66,980) is 100% FTE; stipend = rate x appt %.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -17367,7 +17563,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages ('limited funded positions'). FY27 Public Health GA rate = UGA doctoral min $66,980 at 100% FTE; stipend = rate x appt %.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18453,7 +18654,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "~20 students supported, mainly teaching assistantships plus some RAs/fellowships"
+          "note": "~20 students supported, mainly teaching assistantships plus some RAs/fellowships",
+          "stipend": {
+            "amount": 33311,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2024-25 (stated 'as of 2024')",
+            "scope": "program",
+            "source": "https://www-math.umd.edu/graduate/prospective-students/faqs.html",
+            "quote": "All of our accepted PhD students (except a few who are supported by employers) are offered support by the University, usually in the form of a Teaching Assistantship. This covers your tuition (up to 10 credits) and, as of 2024, pays a stipend of 28,311 dollars per year. First and second year students usually receive an additional 5,000 dollars per year. This makes the typical total of support for a first year student to be 33,311 dollars.",
+            "note": "Math Dept (home of Statistics program) FAQ, 'per year' TA. Base 28,311 + usual 5,000 yrs 1-2; no funding for Spring PhD admits. FY27 9.5-mo Step II min $29,023.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -18792,7 +19004,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Teaching assistantships with stipend and tuition; research assistantships for doctoral students"
+          "note": "Teaching assistantships with stipend and tuition; research assistantships for doctoral students",
+          "stipend": {
+            "amount": 27494,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.umd.edu/sites/default/files/2026-06/UMD%20GA%20Stipend%20Memo%20FY27.pdf",
+            "quote": "FY2027 Minimum Graduate Assistant Stipends [9 months Full/Half | 9.5 months Full/Half | 12 months Full/Half] Step II $27,494 $13,748 $29,023 $14,512 $36,660 $18,330 — \"step II for doctoral students not advanced to candidacy\"",
+            "note": "Umbrella program, no own figure; most get Math Dept TAs (Math FAQ: $28,311/yr as of 2024). Univ FY27 Step II min 9-mo; 9.5-mo $29,023, 12-mo $36,660.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -19200,7 +19423,7 @@
           "stipend": {
             "amount": 14596,
             "currency": "USD",
-            "period": "other",
+            "period": "term",
             "academic_year": "2025-26",
             "scope": "university-minimum",
             "source": "https://rackham.umich.edu/funding/cost-sharing-by-rackham/",
@@ -19649,7 +19872,7 @@
           "stipend": {
             "amount": 14596,
             "currency": "USD",
-            "period": "other",
+            "period": "term",
             "academic_year": "2025-26",
             "scope": "university-minimum",
             "source": "https://rackham.umich.edu/funding/cost-sharing-by-rackham/",
@@ -20312,7 +20535,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 10796,
+            "currency": "USD",
+            "period": "semester",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.unc.edu/funding/stipends/",
+            "quote": "Minimum Stipend 2026-2027 Doctoral and Master’s/Doctoral programs: $10,796/semester (RAs and TAs)",
+            "note": "Per semester. Graduate School minimum for doctoral RAs/TAs. STOR FAQ: all PhD students admitted with full support incl. stipend, but no dept figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -20887,7 +21121,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 10796,
+            "currency": "USD",
+            "period": "semester",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.unc.edu/funding/stipends/",
+            "quote": "Minimum Stipend 2026-2027 Doctoral and Master’s/Doctoral programs: $10,796/semester (RAs and TAs)",
+            "note": "Per semester. Dept says GRA stipend ranges depend on degree program and funding not guaranteed; no figure. Graduate School minimum for doctoral RAs/TAs.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -21643,7 +21888,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 25000,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": null,
+            "scope": "program",
+            "source": "https://sdis.unc.edu/academics/doctoral/phd-data-science/",
+            "quote": "The nine-month stipend is $25,000.",
+            "note": "Five years guaranteed: TA year 1, RA years 2-5, plus tuition, fees, health insurance. Year not stated (page updated Sept 2026).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -23776,7 +24032,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Full financial support via RA/TA (tuition + monthly stipend); fellowships available"
+          "note": "Full financial support via RA/TA (tuition + monthly stipend); fellowships available",
+          "stipend": {
+            "amount": 42436,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://graduateschool.usc.edu/wp-content/uploads/2026/01/Minimum_-Stipend-Memo-AY2026-2027-1-14-2026.pdf",
+            "quote": "Starting AY 2026, the university’s minimum total stipend for students supported by graduate assistantships and fellowships will be $42,436, a 3% increase from the previous minimum.",
+            "note": "No dept figure found; USC Graduate School/Provost memo sets university minimum total stipend for GA/fellowship-supported PhD students (AY 2026-27); months not stated. Dept: RA/TA with tuition + monthly stipend.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -24129,7 +24396,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3059.5,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://math.utexas.edu/student-employment",
+            "quote": "Tier III $3,059.50 $13,767.75 $9,178.50 Tier III refers to all CNS PhD students and CNS master’s students who received an offer letter that guarantees continuous funding at at least the tier III level during their tenure in a CNS graduate program, regardless of their funding mode (TA, GRA, fellowship).",
+            "note": "SDS (CNS) gives no stipend figure, only Grad School recruitment fellowships of '$28,000-36,000'. CNS Tier III applies to all CNS PhDs.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -27944,7 +28222,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 39000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "current (undated)",
+            "scope": "program",
+            "source": "https://www.vanderbilt.edu/biostatistics-graduate/costs-and-funding/",
+            "quote": "This includes full coverage of tuition, the student health fee , and individual health insurance, with an annual stipend (currently $39,000).",
+            "note": "Annual; year not stated ('currently'); page says specifics may change. Plus one-time $2,000 success stipend.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -28546,7 +28835,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend + tuition waiver)"
+          "note": "Fully funded (stipend + tuition waiver)",
+          "stipend": {
+            "amount": 36000,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2024-25",
+            "scope": "program",
+            "source": "https://math.washu.edu/graduate-financial-support",
+            "quote": "A University Fellowship: a stipend of $36,000 for 12 months (in the 2024-2025 academic year) plus a full-tuition scholarship (tuition remission).",
+            "note": "Dept figure is dated; WashU Bulletin sets a 2026-27 university-wide PhD minimum of $37,853/yr, so the current rate is at least that. First-year University Fellowship.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -28660,7 +28960,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (stipend + tuition waiver)"
+          "note": "Fully funded (stipend + tuition waiver)",
+          "stipend": {
+            "amount": 37853,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://bulletin.wustl.edu/grad/phd-policies-requirements/",
+            "quote": "The minimum PhD financial support rate for the 2026-27 academic year is $37,853 annually, dispersed on a monthly basis while the student is enrolled full time.",
+            "note": "SDS pages give no figure (stipends 'in the top 25%'); WashU university-wide PhD minimum set by the Office of the Provost applies. Annual rate paid monthly.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -28900,7 +29211,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded; all admits receive equal support"
+          "note": "Fully funded; all admits receive equal support",
+          "stipend": {
+            "amount": 41000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://dbbs.wustl.edu/about/stipends-benefits-grants/",
+            "quote": "Graduate student stipend: $41,000",
+            "note": "Set by DBBS for all its PhD programs (under '2026-2027 Financial Support'); annual figure, 9/12-month not stated. Program page gives no own figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -29276,7 +29598,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)"
+          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)",
+          "stipend": {
+            "amount": 52046,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gsas.yale.edu/resources/graduate-financial-aid/phd-stipends",
+            "quote": "The minimum annual stipends for the 2026-2027 academic year are: [...] Physical Sciences: $52,046 stipend",
+            "note": "Yale GSAS 2026-27 minimum (Physical Sciences); dept pages give no figure. Paid semi-monthly over 12 months; first-year also gets one-time $1,500 relocation award.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -29798,7 +30131,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": 4,
-          "note": "Postgraduate Studentship HK$229,200/yr (2026–27), announced with the admission offer. HKPFS pays HK$344,400/yr plus HK$14,400 travel; the Vice-Chancellor's PhD Scholarship Scheme is a further top-up. Tuition HK$49,500/yr for 2027/28."
+          "note": "Postgraduate Studentship HK$229,200/yr (2026–27), announced with the admission offer. HKPFS pays HK$344,400/yr plus HK$14,400 travel; the Vice-Chancellor's PhD Scholarship Scheme is a further top-up. Tuition HK$49,500/yr for 2027/28.",
+          "stipend": {
+            "amount": 229200,
+            "currency": "HKD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships",
+            "quote": "Annual studentship for 2026-27 is HK$229,200 (approx. US$29,400). Payable during the normative period of study.",
+            "note": "Rate set by CUHK Graduate School (published as annual); stats dept pages give no figure. HKPFS: HK$344,400/yr.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": null,
@@ -29840,7 +30184,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": 4,
-          "note": "Postgraduate Scholarship HK$19,135/month, rising to HK$19,655 once probationary candidature is confirmed (rates effective 1 Sep 2026). The HKU Presidential PhD Scholar package is worth about HK$439,500 in year one — HK$28,400/month plus a composition-fee waiver. HKPFS pays HK$344,400/yr."
+          "note": "Postgraduate Scholarship HK$19,135/month, rising to HK$19,655 once probationary candidature is confirmed (rates effective 1 Sep 2026). The HKU Presidential PhD Scholar package is worth about HK$439,500 in year one — HK$28,400/month plus a composition-fee waiver. HKPFS pays HK$344,400/yr.",
+          "stipend": {
+            "amount": 19135,
+            "currency": "HKD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/postgraduate_scholarships",
+            "quote": "The basic level of scholarship is HK$19,135 per month (wef 1/9/2026).",
+            "note": "Dept page lists older PGS rates HK$225,120/yr (HK$231,240 post-probation); newer Grad School rate used. Rises to HK$19,655/mo after probation.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": null,
@@ -29882,7 +30237,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": 4,
-          "note": "NUS Research Scholarship covers tuition plus a stipend of up to S$3,800/month; the President's Graduate Fellowship goes up to S$4,800/month. Both are open to all nationalities."
+          "note": "NUS Research Scholarship covers tuition plus a stipend of up to S$3,800/month; the President's Graduate Fellowship goes up to S$4,800/month. Both are open to all nationalities.",
+          "stipend": {
+            "amount": 3000,
+            "currency": "SGD",
+            "period": "monthly",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://nusgs.nus.edu.sg/scholarships/nus-research-scholarship",
+            "quote": "All International Students | SGD 3000 / Month | Increased amount after passing PhD Qualifying Examination is SGD 500 / Month [...] The above stipend rates will take effect from 1 January 2026.",
+            "note": "Dept page gives no figure. NUS Research Scholarship (set by NUS Graduate School), intl PhD rate from 1 Jan 2026; SPR S$3,400, SC S$3,800; +S$500/mo after PQE. PGF: S$3,900-4,800.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": null,

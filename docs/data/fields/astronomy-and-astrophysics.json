@@ -29,7 +29,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5 yrs (GRS fellowship)"
+          "note": "Fully funded 5 yrs (GRS fellowship)",
+          "stipend": {
+            "amount": 47740,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://www.bu.edu/cas/admissions/phd-mfa/fellowship-aid/frequently-asked-questions/stipends/",
+            "quote": "The new 12-month stipend rate was set at $45,000 per year effective November 15, 2024, at $46,350 effective September 1, 2025, and at $47,740 effective September 1, 2026 for those within their guaranteed funding period.",
+            "note": "Graduate School of Arts & Sciences rate (BUGWU CBA); dept page gives no figure. Rate was $46,350 in 2025-26.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -722,7 +733,12 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; Astro handbook AY26-27: 12-month stipend, amount 'decided at the college level' (MCS), not stated.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -763,7 +779,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Graduate fellowship: full tuition, fees, and stipend for duration of degree"
+          "note": "Graduate fellowship: full tuition, fees, and stipend for duration of degree",
+          "stipend": {
+            "amount": 50008,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://studentbenefits.columbia.edu/content/compensation-and-student-employee-benefits",
+            "quote": "Minimum stipend support rates for PhD students not on appointment in the academic year (i.e., receiving fellowship support without a service obligation) are currently: $50,008 for those on a 12-month stipend.",
+            "note": "Set by Columbia University (3% rise eff. 9/1/2026). Astronomy dept page: ~$45,765 12-mo (2023-24); GSAS Natural Sci page $47,137 (2025-26). 12-mo appointment min $51,008.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1259,7 +1286,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (GSAS PhD guarantee)"
+          "note": "Fully funded (GSAS PhD guarantee)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages; GSAS says amounts vary by program",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -1300,7 +1332,12 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded (GSAS PhD guarantee)"
+          "note": "Fully funded (GSAS PhD guarantee)",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2524,7 +2561,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 47748,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.tgs.northwestern.edu/funding/index.html",
+            "quote": "$47,748 minimum annual stipend rate for PhD students, 2026–27",
+            "note": "TGS base rate. Dept: year 1 on 12-month University Fellowship, then TA/RA, all with monthly stipend; no dept figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2564,7 +2612,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 47748,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.tgs.northwestern.edu/funding/index.html",
+            "quote": "$47,748 minimum annual stipend rate for PhD students, 2026–27",
+            "note": "TGS base rate. Physics & Astronomy: year 1 on 12-month University Fellowship, then TA/RA, all with monthly stipend; no dept figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2605,7 +2664,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 47748,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://www.tgs.northwestern.edu/funding/index.html",
+            "quote": "$47,748 minimum annual stipend rate for PhD students, 2026–27",
+            "note": "TGS base rate (paid year-round). EPS guarantees at least 5 years of stipend, tuition and health insurance; no dept figure.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2729,7 +2799,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 21913,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://www.purdue.edu/academics/ogsps/wp-content/uploads/2026/02/graduate-student-employment-manual.pdf",
+            "quote": "APPENDIX B. 2025-26 PURDUE UNIVERSITY GRADUATE STAFF APPOINTMENT ANNUAL MINIMUM SALARIES ... Academic Year | Fiscal Year ... 25.00 CUL 50.00 CUL 75.00 CUL 100.00 CUL ... West Lafayette Graduate Staff* Annual $10,956.50 $21,913.00 $32,869.50 $43,826.00 $14,000.00 $28,000.00 $42,000.00 $56,000.00",
+            "note": "No dept figure found; OGSPS/Graduate School minimum for 0.50 FTE West Lafayette graduate staff (TA/RA). Fiscal-year (12-mo) minimum $28,000.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2770,7 +2851,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 21913,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2025-26",
+            "scope": "university-minimum",
+            "source": "https://www.purdue.edu/academics/ogsps/wp-content/uploads/2026/02/graduate-student-employment-manual.pdf",
+            "quote": "APPENDIX B. 2025-26 PURDUE UNIVERSITY GRADUATE STAFF APPOINTMENT ANNUAL MINIMUM SALARIES ... Academic Year | Fiscal Year ... 25.00 CUL 50.00 CUL 75.00 CUL 100.00 CUL ... West Lafayette Graduate Staff* Annual $10,956.50 $21,913.00 $32,869.50 $43,826.00 $14,000.00 $28,000.00 $42,000.00 $56,000.00",
+            "note": "No dept figure found; OGSPS/Graduate School minimum for 0.50 FTE West Lafayette graduate staff (TA/RA). Fiscal-year (12-mo) minimum $28,000.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -2917,7 +3009,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 40000,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2025-26",
+            "scope": "program",
+            "source": "https://physics.rutgers.edu/academics/graduate-program/graduate-student-support",
+            "quote": "The academic year (10-month) stipend, paid during the period of September 1 - June 30 of the following year, is $35,335 for AY 2023-24, $36,395 for AY 2024-25, and $40,000 for AY 2025-26.",
+            "note": "10-month TA rate per union contract; 12-month $46,000. Page: no new contract after 2025-26 yet. Fellowship min $30,833, dept tops up to ~TA level.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3294,7 +3397,7 @@
           "stipend": {
             "amount": 40000,
             "currency": "USD",
-            "period": "other",
+            "period": "annual",
             "academic_year": null,
             "scope": "program",
             "source": "https://physics.ucdavis.edu/graduates/financial-aid",
@@ -3609,7 +3712,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded PhD"
+          "note": "Fully funded PhD",
+          "stipend": {
+            "amount": 47741,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://intranet.uchicago.edu/-/media/project/uchicago-tenant/intranet/human-resources/collective-bargaining-agreements/ue-local1103-graduate-students.pdf",
+            "quote": "(A) PhD primary funding research and teaching positions under this Agreement shall be compensated as follows, where the compensation indicated is given as an annualized equivalent and may be from multiple sources, including external to the University. [...] October 1, 2026- $47,741 (3%) September 30, 2027",
+            "note": "No dept/PSD figure published. UChicago-UE (GSU) CBA annualized minimum for PhD RA/TA primary funding, Oct 2026-Sep 2027 (2025-26: $46,350).",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3650,7 +3764,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Fellowships, RA and TA support; ~30 funded grad students"
+          "note": "Fellowships, RA and TA support; ~30 funded grad students",
+          "stipend": {
+            "amount": 27467,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://admin.hr.ufl.edu/wp-content/uploads/sites/39/2026/08/UFBOT-GAU-Contract-2026_ADA.pdf",
+            "quote": "10.1. Minimum Stipend. Effective October 1, 2024, each nine-month (9) employee on a .50 FTE appointment shall be guaranteed a minimum stipend of $20,600 or a minimum of $27,467 for each twelve-month (12) employee.",
+            "note": "No dept figure found; UF–GAU CBA (UF HR) 0.50 FTE GA minimum, 12-month; 9-month minimum $20,600. Astronomy: all grads supported by fellowship/TA/RA; no amount stated.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3692,7 +3817,12 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Financial aid available; apply by Feb 15 for funding consideration; ~5 yr PhD"
+          "note": "Financial aid available; apply by Feb 15 for funding consideration; ~5 yr PhD",
+          "stipend": {
+            "amount": null,
+            "note": "not found on official pages. FAQ: TA support guaranteed 1.5 yrs at 44% (4/9) level, no $. FY27 Physics & Astronomy doctoral GTA rate $72,463, GRA $79,709 at 100% FTE.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3785,7 +3915,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "All students historically funded via TA/RA with tuition waiver and health insurance for 6 years"
+          "note": "All students historically funded via TA/RA with tuition waiver and health insurance for 6 years",
+          "stipend": {
+            "amount": 27494,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.umd.edu/sites/default/files/2026-06/UMD%20GA%20Stipend%20Memo%20FY27.pdf",
+            "quote": "FY2027 Minimum Graduate Assistant Stipends [9 months Full/Half | 9.5 months Full/Half | 12 months Full/Half] Step II $27,494 $13,748 $29,023 $14,512 $36,660 $18,330 — \"step II for doctoral students not advanced to candidacy\"",
+            "note": "UMD Grad School FY27 min, Step II (pre-candidacy PhD), 9-mo full; 9.5-mo $29,023, 12-mo $36,660 (TAs must be 9.5/12-mo). No dept figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3826,7 +3967,18 @@
         "funding": {
           "status": "See note",
           "years": null,
-          "note": "Departmental teaching assistantships, Grad School and grant-supported fellowships/RAs"
+          "note": "Departmental teaching assistantships, Grad School and grant-supported fellowships/RAs",
+          "stipend": {
+            "amount": 27494,
+            "currency": "USD",
+            "period": "9-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.umd.edu/sites/default/files/2026-06/UMD%20GA%20Stipend%20Memo%20FY27.pdf",
+            "quote": "FY2027 Minimum Graduate Assistant Stipends [9 months Full/Half | 9.5 months Full/Half | 12 months Full/Half] Step II $27,494 $13,748 $29,023 $14,512 $36,660 $18,330 — \"step II for doctoral students not advanced to candidacy\"",
+            "note": "UMD Grad School FY27 min, Step II (pre-candidacy PhD), 9-mo full; 9.5-mo $29,023, 12-mo $36,660 (TAs must be 9.5/12-mo). No dept figure found.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -3871,7 +4023,7 @@
           "stipend": {
             "amount": 14596,
             "currency": "USD",
-            "period": "other",
+            "period": "term",
             "academic_year": "2025-26",
             "scope": "university-minimum",
             "source": "https://rackham.umich.edu/funding/cost-sharing-by-rackham/",
@@ -3920,7 +4072,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 10796,
+            "currency": "USD",
+            "period": "semester",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gradschool.unc.edu/funding/stipends/",
+            "quote": "Minimum Stipend 2026-2027 Doctoral and Master’s/Doctoral programs: $10,796/semester (RAs and TAs)",
+            "note": "Per semester. Dept funding page (last updated Feb 2024, undated) lists $18,500 9-month TA/RA stipend, below current Grad School minimum; used newer minimum.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4087,7 +4250,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "PhD students funded via TA/RA/fellowship; verify guarantee"
+          "note": "PhD students funded via TA/RA/fellowship; verify guarantee",
+          "stipend": {
+            "amount": 42436,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://graduateschool.usc.edu/wp-content/uploads/2026/01/Minimum_-Stipend-Memo-AY2026-2027-1-14-2026.pdf",
+            "quote": "Starting AY 2026, the university’s minimum total stipend for students supported by graduate assistantships and fellowships will be $42,436, a 3% increase from the previous minimum.",
+            "note": "No dept figure found; USC Graduate School/Provost memo sets university minimum total stipend for GA/fellowship-supported PhD students (AY 2026-27); months not stated. Physics FAQ: TA appointments carry a 9-month stipend; RA pay approx. the same.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4128,7 +4302,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "PhD students funded via TA/RA/fellowship; verify guarantee"
+          "note": "PhD students funded via TA/RA/fellowship; verify guarantee",
+          "stipend": {
+            "amount": 42436,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://graduateschool.usc.edu/wp-content/uploads/2026/01/Minimum_-Stipend-Memo-AY2026-2027-1-14-2026.pdf",
+            "quote": "Starting AY 2026, the university’s minimum total stipend for students supported by graduate assistantships and fellowships will be $42,436, a 3% increase from the previous minimum.",
+            "note": "No dept figure found; USC Graduate School/Provost memo sets university minimum total stipend for GA/fellowship-supported PhD students (AY 2026-27); months not stated.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4169,7 +4354,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3059.5,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": "2026-27",
+            "scope": "school-standard",
+            "source": "https://math.utexas.edu/student-employment",
+            "quote": "Tier III $3,059.50 $13,767.75 $9,178.50 Tier III refers to all CNS PhD students and CNS master’s students who received an offer letter that guarantees continuous funding at at least the tier III level during their tenure in a CNS graduate program, regardless of their funding mode (TA, GRA, fellowship).",
+            "note": "Astronomy (CNS) states no figure; CNS Tier III applies to all CNS PhDs. Long semester $13,767.75; summer $9,178.50.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4210,7 +4406,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 3080,
+            "currency": "USD",
+            "period": "monthly",
+            "academic_year": null,
+            "scope": "program",
+            "source": "https://www.jsg.utexas.edu/education/graduate/financial-support/",
+            "quote": "The most recent starting salaries for TAs and RAs, as well as fellowship stipends, were $3,080 a month.",
+            "note": "Jackson School 'most recent' starting rate (year not stated). Plus $1,000 Great Start Fellowship and $3,500 PhD professional development support.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4396,7 +4603,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 36500,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "current (undated)",
+            "scope": "program",
+            "source": "https://as.vanderbilt.edu/physics-astronomy/phd-physics-admissions/",
+            "quote": "Competitive stipends (currently $36,500 per year)",
+            "note": "Per year; year not stated ('currently'). Dept aid page lists older range $34,000-$38,000 for 2024-2025.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4437,7 +4655,18 @@
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
-          "note": "Unknown/Verify"
+          "note": "Unknown/Verify",
+          "stipend": {
+            "amount": 36500,
+            "currency": "USD",
+            "period": "annual",
+            "academic_year": "current (undated)",
+            "scope": "program",
+            "source": "https://as.vanderbilt.edu/physics-astronomy/phd-astrophysics-admissions/",
+            "quote": "Competitive stipends (currently $36,500 per year)",
+            "note": "Per year; year not stated ('currently'). Dept aid page lists older range $34,000-$38,000 for 2024-2025.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4478,7 +4707,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5-yr program"
+          "note": "Fully funded 5-yr program",
+          "stipend": {
+            "amount": 37853,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://bulletin.wustl.edu/grad/phd-policies-requirements/",
+            "quote": "The minimum PhD financial support rate for the 2026-27 academic year is $37,853 annually, dispersed on a monthly basis while the student is enrolled full time.",
+            "note": "EEPS pages give no figure (support guaranteed up to 5 yrs); WashU university-wide PhD minimum set by the Office of the Provost applies. Annual rate paid monthly.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4519,7 +4759,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)"
+          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)",
+          "stipend": {
+            "amount": 52046,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gsas.yale.edu/resources/graduate-financial-aid/phd-stipends",
+            "quote": "The minimum annual stipends for the 2026-2027 academic year are: [...] Physical Sciences: $52,046 stipend",
+            "note": "Yale GSAS 2026-27 minimum (Physical Sciences); dept pages give no figure. Paid semi-monthly over 12 months; first-year also gets one-time $1,500 relocation award.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",
@@ -4560,7 +4811,18 @@
         "funding": {
           "status": "Fully Funded",
           "years": null,
-          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)"
+          "note": "Fully funded 5+ yrs (~$52k stipend + full tuition)",
+          "stipend": {
+            "amount": 52046,
+            "currency": "USD",
+            "period": "12-month",
+            "academic_year": "2026-27",
+            "scope": "university-minimum",
+            "source": "https://gsas.yale.edu/resources/graduate-financial-aid/phd-stipends",
+            "quote": "The minimum annual stipends for the 2026-2027 academic year are: [...] Physical Sciences: $52,046 stipend",
+            "note": "Yale GSAS 2026-27 minimum (Physical Sciences); dept pages give no figure. Paid semi-monthly over 12 months; first-year also gets one-time $1,500 relocation award.",
+            "checked_at": "2026-09-22"
+          }
         },
         "pre_application_contact": "Unknown/Verify",
         "contact_note": "",

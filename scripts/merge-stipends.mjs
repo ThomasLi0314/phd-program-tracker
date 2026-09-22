@@ -94,17 +94,38 @@ for (const f of readdirSync(DIR).sort()) {
       continue
     }
 
-    // "other" is kept, but a figure the quote prints as "$11,000/quarter" or
-    // "$14,615 per quarter" is named as such so the app can say so — it is
-    // never multiplied out. Only the words right after the number count: "no
-    // less than $5,000 per quarter for an annual package of $20,000" must not
-    // turn the $20,000 into a quarterly figure. _manual.json may set it too.
-    const amountText = Number(e.amount).toLocaleString('en-US', { maximumFractionDigits: 2 })
-    const after = (unit) =>
-      new RegExp(`${amountText.replace(/[.,]/g, '[.,]?')}0*(\\.\\d+)?\\s*(/|per|a|each)\\s*${unit}`, 'i').test(e.quote ?? '')
+    // The scan's "other" is refined from the quote, never multiplied out:
+    //  - "$11,000/quarter", "each term is $14,596" → quarterly / semester / term.
+    //    Only a unit right next to the number counts: "no less than $5,000 per
+    //    quarter for an annual package of $20,000" must not make the $20,000
+    //    quarterly.
+    //  - a figure the page gives "per year" / "annual" without saying 9 or 12
+    //    months → annual (a year's pay, so it can be set against a year's rent).
+    // _manual.json may set the period outright.
+    const amountRe = Number(e.amount)
+      .toLocaleString('en-US', { maximumFractionDigits: 2 })
+      .replace(/[.,]/g, '[.,]?')
+    const q = e.quote ?? ''
+    const near = (unit) =>
+      new RegExp(`${amountRe}0*(\\.\\d+)?\\s*(/|per|a|each|every)\\s*${unit}`, 'i').test(q) ||
+      new RegExp(`(per|each|every|a)\\s+${unit}\\W{0,3}(is|of|:|=)?\\s*\\S{0,4}${amountRe}(?![0-9])`, 'i').test(q)
+    // "for 2026-27, the stipend is $36,500" is a year's figure too.
+    const yearly =
+      /\b(per year|a year|each year|annual|annually|yearly|per annum|\/\s*yr|academic[- ]year|fiscal year|program year|(9\.5|10|11|12|13|nine|ten|eleven|twelve)[- ]months?|20\d\d\s*[–-]\s*(20)?\d\d)\b/i
     const override = typeof decision === 'object' ? decision.period : undefined
     const period =
-      override ?? (e.period !== 'other' ? e.period : after('quarter') ? 'quarterly' : after('semester') ? 'semester' : 'other')
+      override ??
+      (e.period !== 'other'
+        ? e.period
+        : near('quarter')
+          ? 'quarterly'
+          : near('semester')
+            ? 'semester'
+            : near('term')
+              ? 'term'
+              : yearly.test(`${q} ${e.note ?? ''}`)
+                ? 'annual'
+                : 'other')
     prog.requirements.funding.stipend = {
       amount: e.amount,
       currency: e.currency,
