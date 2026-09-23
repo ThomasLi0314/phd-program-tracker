@@ -14,6 +14,17 @@ function admissionsUrl(p: Program, programPages: Record<string, string>): string
   return p.links.admissions || programPages[p.id] || p.links.program || ''
 }
 
+/**
+ * How a program's GRE policy reads on this table. Same words as the Explore
+ * list, and it follows any edit you made to the field yourself.
+ */
+function greBadge(gre: string): { label: string; tone: 'indigo' | 'rose' | 'amber'; title?: string } {
+  if (gre === 'Not Accepted') return { label: 'Not accepted', tone: 'indigo', title: 'Scores are not considered' }
+  if (gre === 'Optional') return { label: 'Optional', tone: 'indigo', title: 'Optional / not required' }
+  if (gre === 'Required') return { label: 'Required', tone: 'rose', title: 'A GRE score is required' }
+  return { label: 'Not verified', tone: 'amber', title: 'No official statement found yet — check the program page' }
+}
+
 /** One school and every saved program under it — the row group the table sorts. */
 interface SchoolGroup {
   university: string
@@ -191,6 +202,7 @@ export function SavedPrograms({
                 <th className="w-8 px-2 py-1.5" />
                 <th className="px-2 py-1.5">Program</th>
                 <th className="hidden px-2 py-1.5 md:table-cell">Deadline</th>
+                <th className="hidden px-2 py-1.5 md:table-cell">GRE</th>
                 <th className="px-2 py-1.5">Plan</th>
                 <th className="px-2 py-1.5">Apply</th>
                 <th className="px-2 py-1.5 text-right">Advisors</th>
@@ -199,7 +211,7 @@ export function SavedPrograms({
             {groups.map((g) => (
               <tbody key={g.university} className="border-b border-slate-200 last:border-0">
                 <tr className="bg-slate-100/70">
-                  <td colSpan={6} className="px-2 py-1.5">
+                  <td colSpan={7} className="px-2 py-1.5">
                     <div className="flex items-center gap-2">
                       <TierSelect tier={g.tier} onSetTier={(t) => onSetTier(g.university, t)} />
                       <span className="font-serif text-[14px] font-bold text-slate-900">{g.university}</span>
@@ -215,6 +227,7 @@ export function SavedPrograms({
                   const advisors = [...p.faculty, ...(addedFaculty[p.id] ?? [])]
                   const savedCount = advisors.filter((f) => (levels.get(advisorKey(p.id, f.id)) ?? 0) > 0).length
                   const dl = deadlineStatus(p, cycle)
+                  const gre = greBadge(p.requirements.gre)
                   const inPlan = plan.get(p.id)
                   return (
                     <Fragment key={p.id}>
@@ -242,13 +255,21 @@ export function SavedPrograms({
                           </span>
                           <div className="mt-0.5 text-[12px] text-slate-500">
                             {p.discipline.primary}
-                            <span className="md:hidden"> · {dl.text}</span>
+                            <span className="md:hidden">
+                              {' '}
+                              · {dl.text} · GRE {gre.label.toLowerCase()}
+                            </span>
                           </div>
                         </td>
                         <td className="hidden px-2 py-2 md:table-cell">
                           <Badge tone={dl.tone} title={dl.detail}>
                             {dl.kind === 'confirmed' ? '✓ ' : ''}
                             {dl.text}
+                          </Badge>
+                        </td>
+                        <td className="hidden px-2 py-2 md:table-cell">
+                          <Badge tone={gre.tone} title={gre.title}>
+                            {gre.label}
                           </Badge>
                         </td>
                         <td className="px-2 py-2 text-[12.5px]">
@@ -298,7 +319,7 @@ export function SavedPrograms({
                       {isOpen && (
                         <tr className="bg-slate-50/80">
                           <td />
-                          <td colSpan={5} className="pb-2">
+                          <td colSpan={6} className="pb-2">
                             <AdvisorList
                               program={p}
                               addedFaculty={addedFaculty[p.id] ?? []}
