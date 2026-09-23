@@ -4,7 +4,7 @@
     "generated_at": "2026-09-22",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep + Singapore/Hong Kong PhD wave",
-    "note": "1436 STEM PhD/MSc programs across the US, UK, Europe, Canada and Asia-Pacific; faculty rosters on 559 programs (15721 faculty). The 45 Singapore and Hong Kong PhD entries added 2026-09-03 carry admissions and funding; 7 of them now have faculty rosters. Unknown/Verify = not yet confirmed on an official page."
+    "note": "1436 STEM PhD/MSc programs; faculty rosters on 560 programs (15749 faculty). Unknown/Verify = not yet confirmed on an official page."
   },
   "programs": [
     {
@@ -25030,8 +25030,521 @@
       "links": {
         "program": "https://graduateprograms.brown.edu/graduate-program/earth-environmental-and-planetary-sciences-phd"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #13",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #13 · faculty 2026-09-23",
+      "faculty": [
+        {
+          "id": "karianne-bergen",
+          "name": "Karianne Bergen",
+          "title": "Assistant Professor",
+          "sub_field": "Scientific Machine Learning",
+          "tags": [
+            "scientific machine learning",
+            "seismology",
+            "pattern recognition",
+            "sensor data"
+          ],
+          "summary": "Develops scientific machine learning methods for pattern recognition and discovery in large, complex sensor datasets, with applications in earthquake seismology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/karianne-bergen",
+            "scholar": null
+          }
+        },
+        {
+          "id": "sam-birch",
+          "name": "Sam Birch",
+          "title": "Assistant Professor",
+          "sub_field": "Planetary Geology",
+          "tags": [
+            "planetary surfaces",
+            "planetary climates",
+            "spacecraft observations",
+            "modeling",
+            "lab experiments"
+          ],
+          "summary": "Studies the physical processes that shape planetary surfaces and climates across the Solar System using spacecraft observations, mathematical/computational models and laboratory experiments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/sam-birch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kim-cobb",
+          "name": "Kim Cobb",
+          "title": "Professor (Director of the Institute at Brown for Environment and Society)",
+          "sub_field": "Paleoclimate",
+          "tags": [
+            "climate change",
+            "paleoclimate",
+            "climate extremes",
+            "coastal flooding"
+          ],
+          "summary": "Climate scientist who uses observations of past and present climate to understand future climate change impacts, focusing on climate extremes and coastal flooding.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/kim-cobb",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emily-h-g-cooperdock",
+          "name": "Emily H. G. Cooperdock",
+          "title": "Assistant Professor",
+          "sub_field": "Geochemistry",
+          "tags": [
+            "thermochronology",
+            "fluid-rock interaction",
+            "tectonics",
+            "petrology",
+            "volatile cycling"
+          ],
+          "summary": "Uses (U-Th)/He thermochronology, geochemistry and petrology to study exhumation, fluid-rock interactions and volatile cycling, and the thermal history of plate margins.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/emily-h-g-cooperdock",
+            "scholar": null
+          }
+        },
+        {
+          "id": "colleen-dalton",
+          "name": "Colleen Dalton",
+          "title": "Professor (Director of Undergraduate Studies)",
+          "sub_field": "Geophysics",
+          "tags": [
+            "seismology",
+            "seismic imaging",
+            "mantle structure",
+            "Earth interior"
+          ],
+          "summary": "Seismologist imaging Earth’s interior with seismic waves to determine 3-D variations in mantle temperature, composition, partial melt and volatile content.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/colleen-dalton",
+            "scholar": null
+          }
+        },
+        {
+          "id": "emanuele-di-lorenzo",
+          "name": "Emanuele Di Lorenzo",
+          "title": "Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "ocean-atmosphere dynamics",
+            "climate variability",
+            "marine ecosystems",
+            "coastal resilience"
+          ],
+          "summary": "Studies large-scale ocean-atmosphere coupled dynamics, climate and marine ecosystem dynamics, and solutions for coastal resilience.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/emanuele-di-lorenzo",
+            "scholar": null
+          }
+        },
+        {
+          "id": "james-w-dottin-iii",
+          "name": "James W. Dottin III",
+          "title": "Assistant Professor",
+          "sub_field": "Geochemistry",
+          "tags": [
+            "sulfur isotopes",
+            "meteorites",
+            "lunar samples",
+            "planetary volatiles",
+            "ocean island basalts"
+          ],
+          "summary": "Geochemist measuring sulfur isotope variations in ocean island basalts, Martian and pallasite meteorites and lunar materials to understand sulfur and volatile cycling on planetary bodies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/james-w-dottin-iii",
+            "scholar": null
+          }
+        },
+        {
+          "id": "karen-m-fischer",
+          "name": "Karen M. Fischer",
+          "title": "Louis and Elizabeth Scherck Distinguished Professor of Geological Sciences",
+          "sub_field": "Geophysics",
+          "tags": [
+            "seismology",
+            "lithosphere-asthenosphere",
+            "mantle dynamics",
+            "magmatism"
+          ],
+          "summary": "Seismologist studying the structure and dynamics of the lithosphere and asthenosphere, mantle flow and melting using seismic waveform analysis and field seismometer deployments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/karen-m-fischer",
+            "scholar": null
+          }
+        },
+        {
+          "id": "baylor-fox-kemper",
+          "name": "Baylor Fox-Kemper",
+          "title": "Professor",
+          "sub_field": "Physical Oceanography",
+          "tags": [
+            "ocean physics",
+            "climate",
+            "ocean modeling",
+            "parameterization"
+          ],
+          "summary": "Studies the physics of the ocean and its role in past, present and future climate using models from global scale to process models.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/baylor-fox-kemper",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mara-freilich",
+          "name": "Mara Freilich",
+          "title": "Thomas J. and Alice M. Tisch Assistant Professor of Earth, Environmental, and Planetary Sciences and Applied Mathematics",
+          "sub_field": "Physical/Biological Oceanography",
+          "tags": [
+            "fronts and eddies",
+            "microbial ecology",
+            "carbon cycling",
+            "ocean modeling",
+            "environmental justice"
+          ],
+          "summary": "Studies how physical oceanographic processes such as fronts and eddies affect ocean microbial ecology, carbon cycling and nutrients, using numerical models, theory and seagoing observations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/mara-freilich",
+            "scholar": null
+          }
+        },
+        {
+          "id": "meredith-hastings",
+          "name": "Meredith Hastings",
+          "title": "George Ide Chase Professor of Physical Sciences (Chair)",
+          "sub_field": "Atmospheric Chemistry",
+          "tags": [
+            "reactive nitrogen",
+            "nitrate deposition",
+            "isotope geochemistry",
+            "atmospheric chemistry"
+          ],
+          "summary": "Research focuses on the reactive nitrogen cycle with an emphasis on nitrate deposition; joint appointment with IBES.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/meredith-hastings",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tim-herbert",
+          "name": "Tim Herbert",
+          "title": "Professor",
+          "sub_field": "Paleoclimate",
+          "tags": [
+            "paleoceanography",
+            "organic biomarkers",
+            "stable isotopes",
+            "Neogene climate",
+            "sea surface temperature"
+          ],
+          "summary": "Reconstructs past ocean surface temperatures and ecosystems using organic biomarkers and stable isotopes, with emphasis on Neogene climate and its links to greenhouse gas forcing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/tim-herbert",
+            "scholar": null
+          }
+        },
+        {
+          "id": "greg-hirth",
+          "name": "Greg Hirth",
+          "title": "Professor (Vice President for Research)",
+          "sub_field": "Geophysics",
+          "tags": [
+            "rock mechanics",
+            "rock deformation",
+            "structural geology",
+            "mantle rheology"
+          ],
+          "summary": "Works on experimental rock mechanics, deformation mechanisms in crustal and mantle rocks, structural geology, and application of experimental flow laws to geophysical observations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/greg-hirth",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christopher-horvat",
+          "name": "Christopher Horvat",
+          "title": "Assistant Professor",
+          "sub_field": "Polar Oceanography",
+          "tags": [
+            "sea ice",
+            "ocean waves",
+            "ocean turbulence",
+            "remote sensing",
+            "machine learning"
+          ],
+          "summary": "Applied mathematician and physical oceanographer leading the Antipodal Oceanography Group, studying sea ice, ocean waves and turbulence, and rapid climate change in polar and tropical regions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/christopher-horvat",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yongsong-huang",
+          "name": "Yongsong Huang",
+          "title": "Professor",
+          "sub_field": "Organic Geochemistry",
+          "tags": [
+            "organic geochemistry",
+            "stable isotopes",
+            "earth history",
+            "astrobiology"
+          ],
+          "summary": "Research interests are organic geochemistry, stable isotopes, Earth history and astrobiology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/yongsong-huang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "christian-huber",
+          "name": "Christian Huber",
+          "title": "Professor (Director of Graduate Studies)",
+          "sub_field": "Geophysics",
+          "tags": [
+            "volcanology",
+            "geodynamics",
+            "porous media flow",
+            "multiphase processes"
+          ],
+          "summary": "Studies multiphase processes in the dynamics of Earth and other planetary bodies, focusing on volcanology, geodynamics and porous media flow with theoretical, numerical and experimental approaches.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/christian-huber",
+            "scholar": null
+          }
+        },
+        {
+          "id": "daniel-ibarra",
+          "name": "Daniel Ibarra",
+          "title": "George H. Billings Assistant Professor of Earth, Environmental, and Planetary Sciences and Environment and Society; Assistant Professor of Engineering",
+          "sub_field": "Environmental Geochemistry",
+          "tags": [
+            "water cycle",
+            "carbon cycle",
+            "enhanced weathering",
+            "lithium deposits",
+            "paleoclimate"
+          ],
+          "summary": "Works on terrestrial water and carbon cycles and landscape responses to climate using modeling, geochemistry and field observations, plus lithium deposits in lake basins and enhanced weathering for carbon dioxide removal.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/daniel-ibarra",
+            "scholar": null
+          }
+        },
+        {
+          "id": "harriet-lau",
+          "name": "Harriet Lau",
+          "title": "Associate Professor",
+          "sub_field": "Geodynamics",
+          "tags": [
+            "geodynamics",
+            "Earth tides",
+            "glacial isostatic adjustment",
+            "mantle convection"
+          ],
+          "summary": "Explores global-scale geodynamics across time scales, from solid Earth and ocean tides to deformation from ice-sheet melting and mantle convection.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/harriet-lau",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jung-eun-lee",
+          "name": "Jung-Eun Lee",
+          "title": "Associate Professor (Director of Graduate Advising)",
+          "sub_field": "Climate Dynamics",
+          "tags": [
+            "water cycle",
+            "land-atmosphere interaction",
+            "earth system models",
+            "ecohydrology"
+          ],
+          "summary": "Studies the global water cycle and how terrestrial ecosystems influence and respond to the physical climate system, using numerical models from 1-D to Earth system models.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/jung-eun-lee",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yan-liang",
+          "name": "Yan Liang",
+          "title": "Professor",
+          "sub_field": "Geochemistry",
+          "tags": [
+            "petrology",
+            "mass transfer",
+            "experimental geochemistry",
+            "numerical modeling"
+          ],
+          "summary": "Research spans laboratory experiments, theoretical analysis and numerical simulations of mass transfer in fluid systems, with petrologic and geochemical applications.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/yan-liang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "amanda-lynch",
+          "name": "Amanda Lynch",
+          "title": "Sloan Lindemann and George Lindemann, Jr. Distinguished Professor of Environmental Studies",
+          "sub_field": "Climate Dynamics",
+          "tags": [
+            "polar cyclones",
+            "climate system",
+            "extreme weather",
+            "climate policy"
+          ],
+          "summary": "Studies the role of polar cyclones in the climate system and the policy implications of extreme weather for small and indigenous communities; joint appointment with IBES.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/amanda-lynch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ralph-milliken",
+          "name": "Ralph Milliken",
+          "title": "Professor",
+          "sub_field": "Planetary Geology",
+          "tags": [
+            "Mars",
+            "remote sensing",
+            "reflectance spectroscopy",
+            "lunar water",
+            "sedimentary geology"
+          ],
+          "summary": "Explores planetary surface geology with orbital and rover remote sensing, focusing on water in the solar system, reflectance spectroscopy of minerals and volatiles, and Mars sedimentary rocks; Mars Curiosity science team member.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/ralph-milliken",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-mustard",
+          "name": "John Mustard",
+          "title": "Professor",
+          "sub_field": "Planetary Geology",
+          "tags": [
+            "planetary surfaces",
+            "remote sensing",
+            "Mars",
+            "surface processes"
+          ],
+          "summary": "Studies processes that modify solid planetary surfaces and the spatial and temporal scales that control environmental processes on Earth.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/john-mustard",
+            "scholar": null
+          }
+        },
+        {
+          "id": "stephen-parman",
+          "name": "Stephen Parman",
+          "title": "Professor",
+          "sub_field": "Geochemistry",
+          "tags": [
+            "geochemistry",
+            "planetary evolution",
+            "petrology",
+            "mantle"
+          ],
+          "summary": "Research focuses on the chemical evolution of the Earth, moons and planets.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/stephen-parman",
+            "scholar": null
+          }
+        },
+        {
+          "id": "james-russell",
+          "name": "James Russell",
+          "title": "Professor (Deputy Dean of the Faculty)",
+          "sub_field": "Paleoclimate",
+          "tags": [
+            "tropical climate",
+            "lake sediments",
+            "organic geochemistry",
+            "paleoclimate"
+          ],
+          "summary": "Climate scientist and geochemist reconstructing tropical climate and environmental change from lake sediments using organic geochemical and isotopic tools, and testing climate model predictions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/james-russell",
+            "scholar": null
+          }
+        },
+        {
+          "id": "alberto-saal",
+          "name": "Alberto Saal",
+          "title": "Professor",
+          "sub_field": "Geochemistry",
+          "tags": [
+            "geochemistry",
+            "lunar volatiles",
+            "planetary science",
+            "igneous petrology"
+          ],
+          "summary": "Applies geochemistry to problems of Earth, planetary and environmental science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/alberto-saal",
+            "scholar": null
+          }
+        },
+        {
+          "id": "laurence-c-smith",
+          "name": "Laurence C. Smith",
+          "title": "John Atwater and Diana Nelson University Professor of Environmental Studies",
+          "sub_field": "Hydrology & Remote Sensing",
+          "tags": [
+            "Arctic",
+            "water resources",
+            "satellite remote sensing",
+            "rivers"
+          ],
+          "summary": "Research interests include the Arctic, water resources and satellite remote sensing; joint in IBES and DEEPS.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/laurence-c-smith",
+            "scholar": null
+          }
+        },
+        {
+          "id": "victor-tsai",
+          "name": "Victor Tsai",
+          "title": "Professor",
+          "sub_field": "Geophysics",
+          "tags": [
+            "seismology",
+            "geomechanics",
+            "glaciology",
+            "environmental seismology"
+          ],
+          "summary": "Research focuses on seismology and geomechanics, fluid-solid interactions in Earth systems, theoretical glaciology and environmental seismology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://deeps.brown.edu/people/victor-tsai",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "brown-university-ecology-evolution-and-organismal-biology-phd",
