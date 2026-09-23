@@ -18,15 +18,17 @@ import { mergeKey } from './lib/mergeAdvisors'
 import { useAdvisorNotes } from './lib/advisorNotes'
 import { useOutreach, type SyncProgress } from './lib/outreach'
 import { useOverrides } from './lib/overrides'
-import { applyBackup, exportBackup, isLocalEmpty } from './lib/backup'
-import { buildRequests } from './lib/advisorRequests'
 import {
-  driveBackupTime,
-  loadFromDrive,
-  loadSyncEnabled,
-  saveSyncEnabled,
-  saveToDrive,
-} from './lib/drive'
+  backupNow,
+  getSyncState,
+  resolveConflict,
+  restoreFromDrive,
+  startDriveAutoSync,
+  subscribeSyncState,
+  type SyncState,
+} from './lib/driveSync'
+import { buildRequests } from './lib/advisorRequests'
+import { driveBackupTime, loadSyncEnabled, saveSyncEnabled } from './lib/drive'
 import { connect as gmailConnect, disconnect as gmailDisconnect, ensureToken, loadClientId } from './lib/gmail'
 import { navigate, useHashRoute } from './lib/hashRoute'
 import { withOverrides } from './lib/applyOverrides'
@@ -122,6 +124,7 @@ function App() {
   const [syncing, setSyncing] = useState(false)
   const [syncStatus, setSyncStatus] = useState<string | null>(null)
   const [driveSync, setDriveSync] = useState(loadSyncEnabled)
+  const [syncState, setSyncState] = useState<SyncState>(getSyncState)
   const [driveStatus, setDriveStatus] = useState<string | null>(null)
   const [driveTime, setDriveTime] = useState<string | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -353,38 +356,19 @@ function App() {
     }
   }
 
-  /** Write the current snapshot to the Drive app-data folder. */
-  const doDriveBackup = async (silent = false) => {
-    const clientId = loadClientId()
-    if (!clientId) return
-    if (!silent) setDriveStatus('Backing up…')
-    try {
-      const token = await ensureToken(clientId)
-      await saveToDrive(token, exportBackup())
-      setDriveTime(new Date().toISOString())
-      if (!silent) setDriveStatus('Backed up to Drive ✓')
-    } catch (e) {
-      setDriveStatus(`Drive backup failed: ${e instanceof Error ? e.message : String(e)}`)
-    }
+  /** Back up now. lib/driveSync does this by itself after every change. */
+  const doDriveBackup = async () => {
+    setDriveStatus('Backing up…')
+    await backupNow()
+    setDriveStatus(null)
   }
 
   const doDriveRestore = async () => {
-    const clientId = loadClientId()
-    if (!clientId) return
+    if (!confirm('Replace this browser’s data with the Google Drive backup, then reload?')) return
     setDriveStatus('Reading Drive…')
     try {
-      const token = await ensureToken(clientId)
-      const b = await loadFromDrive(token)
-      if (!b) {
-        setDriveStatus('No backup found in Drive yet.')
-        return
-      }
-      if (!confirm('Replace this browser’s data with the Google Drive backup, then reload?')) {
-        setDriveStatus(null)
-        return
-      }
-      applyBackup(b)
-      location.reload()
+      const found = await restoreFromDrive()
+      if (!found) setDriveStatus('No backup found in Drive yet.')
     } catch (e) {
       setDriveStatus(`Restore failed: ${e instanceof Error ? e.message : String(e)}`)
     }
@@ -396,32 +380,18 @@ function App() {
       const email = await gmailConnect(clientId)
       setGmailEmail(email)
       setGmailStatus('connected')
-      // Fresh browser with nothing saved? Offer the Drive backup before anything else.
-      if (isLocalEmpty()) {
-        try {
-          const b = await loadFromDrive(await ensureToken(clientId))
-          if (b && confirm('Found a saved backup in your Google Drive. Restore it now?')) {
-            applyBackup(b)
-            location.reload()
-            return
-          }
-        } catch {
-          /* no drive backup / scope not granted */
-        }
-      }
+      // Hands over to lib/driveSync: an empty browser is restored from Drive,
+      // a browser with data starts backing it up.
+      startDriveAutoSync(true)
       void runSync()
     } catch (e) {
       setGmailError(e instanceof Error ? e.message : String(e))
     }
   }
 
-  // Auto-backup to Drive (debounced) whenever user data changes.
-  useEffect(() => {
-    if (!driveSync || gmailStatus !== 'connected') return
-    const t = setTimeout(() => void doDriveBackup(true), 3000)
-    return () => clearTimeout(t)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [driveSync, gmailStatus, savedPrograms, tiers, starLevels, advisorNotes, outreach.state, overrides])
+  // Backing up is lib/driveSync's job (it runs on every route, including the
+  // planner). Here we only mirror its state into the Settings panel.
+  useEffect(() => subscribeSyncState(setSyncState), [])
 
   // Show when the Drive backup was last written, when Settings opens.
   useEffect(() => {
@@ -498,6 +468,8 @@ function App() {
           }}
           drive={{
             driveSync,
+            syncState,
+            onResolveConflict: (choice: 'restore' | 'keep-local') => void resolveConflict(choice),
             onSetDriveSync: (on) => {
               setDriveSync(on)
               saveSyncEnabled(on)

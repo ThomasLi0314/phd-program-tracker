@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 import { useHashRoute } from './lib/hashRoute'
+import { startDriveAutoSync } from './lib/driveSync'
 
 // The planner and the Europe page are separate applications that share this
 // bundle. They are loaded lazily so the tracker — which most visits only ever
@@ -44,6 +45,10 @@ function Root() {
   }
   return <App />
 }
+
+// Back up to Drive from every route — the planner and the master's plan write
+// their own storage keys, and neither mounts the tracker's App.
+startDriveAutoSync()
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

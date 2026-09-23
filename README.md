@@ -7,9 +7,12 @@ them, plus a private workspace for running your own applications: a shortlist,
 an application plan, cold-email tracking, and a separate planner for taught
 master's programs abroad.
 
-Everything you save stays in your own browser. The published site is a static
-page — there is no server and no account. [Your data](#your-data) explains
-exactly what that means, including the optional Google and AI features.
+Everything you save stays yours: it lives in your own browser, and — if you
+connect a Google account — is backed up automatically to a private folder in
+your own Drive, so clearing your browser or switching computers doesn't lose it.
+The published site is static; there is no server and no account on our side.
+[Your data](#your-data) explains exactly what that means, including the optional
+Google and AI features.
 
 | | |
 |---|---|
@@ -54,20 +57,32 @@ links to it (optional; needs the Google connection).
 
 ## Your data
 
-**By default everything you create lives in your browser's `localStorage`, on
-the device you used.** It is not uploaded anywhere, and whoever publishes the
-site cannot see it. Clearing site data erases it, so use the backup below if it
-matters to you.
+**Everything you create is written to your browser's `localStorage` as you
+work. Connect a Google account and all of it is also copied to your own Google
+Drive, a few seconds after each change** — so clearing browsing data, or moving
+to another computer, does not lose it: connect the same account again and the
+site restores itself. Nothing is uploaded to anyone else's server, and whoever
+publishes the site cannot see any of it.
 
-| What you save | Where it is kept |
-|---|---|
-| Saved programs, school tiers, saved advisors, advisor notes | your browser |
-| Application plan (programs, faculty, notes) | your browser |
-| Master's plan (programs, checklists, notes) | your browser |
-| Contact records synced from Gmail | your browser |
-| Your edits to any program field | your browser |
-| Program note documents | **your Google Drive**, as ordinary Google Docs you own |
-| Backup snapshots, if you switch Drive backup on | **your Google Drive**, in its hidden per-app folder |
+| What you save | In your browser | Copied to your Drive |
+|---|---|---|
+| Saved programs, school tiers, saved advisors, advisor notes | yes | yes |
+| Application plan (programs, faculty, notes) | yes | yes |
+| Master's plan (programs, checklists, notes) | yes | yes |
+| Contact records synced from Gmail | yes | yes |
+| Your edits to any program field | yes | yes |
+| Program note documents | — | yes, as ordinary Google Docs you own |
+| API keys (DeepSeek, OAuth client ID) | yes | **no** — deliberately left out of backups |
+
+The Drive copy lives in `appDataFolder`, a private per-app folder: it does not
+appear among your normal Drive files and no one else can open it. Backups stop
+if you switch them off in Settings, and a browser with nothing in it never
+overwrites a Drive backup. If two devices both saved since the last sync, the
+site pauses and asks which copy to keep rather than overwriting either.
+
+**One thing to keep:** clearing browsing data also erases your OAuth Client ID,
+and you need it to reconnect and pull the backup back. Keep a copy of it
+somewhere outside the browser (it is not a secret).
 
 ### The optional connections, and what leaves your browser
 
@@ -98,9 +113,11 @@ request yourself.
 ### Back up, restore, wipe
 
 - **Settings → Backup** exports one JSON file with everything you have saved
-  (API keys are deliberately left out) and imports it on another machine.
-- With Google connected, the same snapshot can be written to Drive and restored
-  onto a fresh browser.
+  (API keys are deliberately left out) and imports it on another machine — handy
+  if you would rather not connect Google at all.
+- With Google connected this happens by itself: every change is copied to Drive,
+  and a fresh browser restores from it as soon as you reconnect. Settings shows
+  when the last copy was written.
 - To erase everything, clear site data for the page in your browser settings.
 
 ---

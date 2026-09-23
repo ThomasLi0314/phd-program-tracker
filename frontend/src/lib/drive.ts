@@ -10,9 +10,13 @@ const API = 'https://www.googleapis.com/drive/v3'
 const UPLOAD = 'https://www.googleapis.com/upload/drive/v3'
 const SYNC_STORE = 'tracker.driveSync.v1'
 
+/**
+ * On unless the user turned it off. Drive is the only copy that survives
+ * "clear browsing data", so a connected account backs up by default.
+ */
 export function loadSyncEnabled(): boolean {
   try {
-    return localStorage.getItem(SYNC_STORE) === '1'
+    return localStorage.getItem(SYNC_STORE) !== '0'
   } catch {
     return false
   }

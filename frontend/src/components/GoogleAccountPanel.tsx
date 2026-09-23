@@ -4,6 +4,7 @@
 
 import { useState } from 'react'
 import { loadClientId, saveClientId } from '../lib/gmail'
+import type { SyncState } from '../lib/driveSync'
 
 function relTime(ms: number | null): string {
   if (!ms) return 'never'
@@ -25,6 +26,8 @@ export function GoogleAccountPanel({
   onDisconnect,
   onSync,
   driveSync,
+  syncState,
+  onResolveConflict,
   onSetDriveSync,
   onBackupNow,
   onRestoreFromDrive,
@@ -41,6 +44,8 @@ export function GoogleAccountPanel({
   onDisconnect: () => void
   onSync: () => void
   driveSync: boolean
+  syncState: SyncState
+  onResolveConflict: (choice: 'restore' | 'keep-local') => void
   onSetDriveSync: (on: boolean) => void
   onBackupNow: () => void
   onRestoreFromDrive: () => void
@@ -109,6 +114,11 @@ export function GoogleAccountPanel({
               Connect &amp; authorize
             </button>
           </div>
+          <p className="mt-1.5 text-[12px] text-slate-500">
+            Keep a copy of this Client ID somewhere outside the browser. It is not a secret, but
+            clearing browsing data erases it — and you need it to reconnect and pull your backup
+            back from Drive.
+          </p>
           <button
             onClick={() => setShowSetup((v) => !v)}
             className="mt-2 text-[12px] font-medium text-indigo-600 hover:underline"
@@ -169,9 +179,10 @@ export function GoogleAccountPanel({
           </span>
         </div>
         <p className="mt-1 text-[12px] leading-snug text-slate-600">
-          Everything you save here lives only in this browser until it is backed up. Drive keeps a
-          copy in a folder only this app can see; it survives clearing browsing data and follows you
-          across devices.
+          With this on, <b>everything</b> you save — saved programs and advisors, notes, the
+          application plan, the master's plan, contact records and your edits — is copied to a folder
+          in your Drive that only this app can see, a few seconds after each change. It survives
+          clearing browsing data: connect the same account on a fresh browser and it all comes back.
         </p>
         {!connected ? (
           <p className="mt-1.5 text-[12px] font-medium text-indigo-700">
@@ -202,6 +213,48 @@ export function GoogleAccountPanel({
               )}
             </div>
             {driveStatus && <p className="mt-1 text-[12px] font-medium text-slate-600">{driveStatus}</p>}
+
+            {/* What the background sync is doing right now. */}
+            {syncState.kind === 'working' && (
+              <p className="mt-1 text-[12px] text-slate-500">
+                {syncState.what === 'backup' ? 'Backing up…' : 'Restoring from Drive…'}
+              </p>
+            )}
+            {syncState.kind === 'idle' && (
+              <p className="mt-1 text-[12px] text-emerald-700">
+                {syncState.lastBackup
+                  ? `Everything is backed up — Drive copy from ${new Date(syncState.lastBackup).toLocaleString()}.`
+                  : 'Nothing to back up yet.'}
+              </p>
+            )}
+            {syncState.kind === 'error' && (
+              <p className="mt-1 text-[12px] font-medium text-rose-600">{syncState.message}</p>
+            )}
+
+            {/* Both sides moved: the user picks, nothing is overwritten meanwhile. */}
+            {syncState.kind === 'conflict' && (
+              <div className="mt-2 rounded border border-amber-300 bg-amber-50 p-2.5">
+                <p className="text-[12px] font-medium text-amber-900">
+                  Your Drive backup ({new Date(syncState.driveTime).toLocaleString()}) is newer than
+                  what this browser last sent — another device has saved since. Automatic backup is
+                  paused until you choose.
+                </p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  <button
+                    onClick={() => onResolveConflict('restore')}
+                    className="rounded bg-amber-700 px-2.5 py-1 text-[12px] font-semibold text-white hover:bg-amber-800"
+                  >
+                    Use the Drive copy (replaces this browser)
+                  </button>
+                  <button
+                    onClick={() => onResolveConflict('keep-local')}
+                    className="rounded border border-amber-400 px-2.5 py-1 text-[12px] font-medium text-amber-900 hover:bg-amber-100"
+                  >
+                    Keep this browser (overwrites Drive)
+                  </button>
+                </div>
+              </div>
+            )}
           </>
         )}
       </div>

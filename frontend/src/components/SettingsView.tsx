@@ -2,6 +2,7 @@
 // account, backups, the optional AI, and the database itself. It used to be
 // five buttons in the header; here each has room to explain itself.
 
+import type { SyncState } from '../lib/driveSync'
 import type { DataIndex } from '../lib/dataLoader'
 import type { RequestBundle } from '../lib/advisorRequests'
 import { GoogleAccountPanel } from './GoogleAccountPanel'
@@ -29,6 +30,8 @@ export function SettingsView({
   }
   drive: {
     driveSync: boolean
+    syncState: SyncState
+    onResolveConflict: (choice: 'restore' | 'keep-local') => void
     onSetDriveSync: (on: boolean) => void
     onBackupNow: () => void
     onRestoreFromDrive: () => void
@@ -59,6 +62,8 @@ export function SettingsView({
           onDisconnect={gmail.onDisconnect}
           onSync={gmail.onSync}
           driveSync={drive.driveSync}
+          syncState={drive.syncState}
+          onResolveConflict={drive.onResolveConflict}
           onSetDriveSync={drive.onSetDriveSync}
           onBackupNow={drive.onBackupNow}
           onRestoreFromDrive={drive.onRestoreFromDrive}

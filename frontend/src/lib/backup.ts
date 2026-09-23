@@ -23,6 +23,57 @@ export const BACKUP_KEYS: { key: string; label: string }[] = [
   { key: 'masters.plan.v1', label: "Master's plan (programmes, checklists, notes)" },
 ]
 
+/** The keys above, for quick membership tests. */
+const KEY_SET = new Set(BACKUP_KEYS.map((k) => k.key))
+
+/**
+ * Call `cb` whenever any user data changes — in this tab or another one.
+ *
+ * Every app in this bundle (tracker, planner, master's plan) writes through
+ * localStorage, so patching it once here catches all of them, whichever route
+ * is mounted. That is what lets the Drive backup cover the planner too: the old
+ * approach watched React state in App.tsx, which is not even mounted at
+ * #/planner.
+ */
+export function subscribeToUserData(cb: () => void): () => void {
+  listeners.add(cb)
+  patchStorageOnce()
+  if (listeners.size === 1) window.addEventListener('storage', onStorageEvent)
+  return () => {
+    listeners.delete(cb)
+    if (listeners.size === 0) window.removeEventListener('storage', onStorageEvent)
+  }
+}
+
+const listeners = new Set<() => void>()
+const fire = () => {
+  for (const cb of [...listeners]) cb()
+}
+const onStorageEvent = (e: StorageEvent) => {
+  if (e.key === null || KEY_SET.has(e.key)) fire()
+}
+
+let patched = false
+function patchStorageOnce(): void {
+  if (patched) return
+  patched = true
+  try {
+    const proto = Storage.prototype
+    const setItem = proto.setItem
+    const removeItem = proto.removeItem
+    proto.setItem = function (key: string, value: string) {
+      setItem.call(this, key, value)
+      if (this === localStorage && KEY_SET.has(key)) fire()
+    }
+    proto.removeItem = function (key: string) {
+      removeItem.call(this, key)
+      if (this === localStorage && KEY_SET.has(key)) fire()
+    }
+  } catch {
+    /* storage blocked — nothing to watch */
+  }
+}
+
 export interface BackupFile {
   app: 'phd-program-tracker'
   version: 1
