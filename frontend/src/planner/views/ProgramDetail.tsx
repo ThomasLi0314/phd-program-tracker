@@ -26,6 +26,7 @@ import {
   INTEREST_LABELS,
   INTEREST_ORDER,
 } from '../lib/labels'
+import { StipendRent } from '../../components/StipendRent'
 import { FieldRow } from '../components/FieldValue'
 import { StatusSelect } from '../components/StatusChip'
 import { AddFacultyModal } from '../components/AddFacultyModal'
@@ -280,6 +281,12 @@ export function ProgramDetail({
           </div>
         </section>
 
+        {/* What the program pays, and what living there costs — dataset facts,
+            shown here rather than edited. */}
+        <div className="mb-3">
+          <StipendRent university={ident.university} stipend={live?.requirements.funding.stipend} />
+        </div>
+
         <div className="grid gap-3 lg:grid-cols-2">
           <section className={card}>
             <h2 className={heading}>Admissions</h2>
@@ -335,7 +342,7 @@ export function ProgramDetail({
               )}
               {textRow('funding', 'years', 'Guaranteed years')}
               {textRow('funding', 'tuitionWaiver', 'Tuition waiver')}
-              {textRow('funding', 'stipend', 'Stipend')}
+              {textRow('funding', 'stipend', 'Stipend (my note)')}
               {textRow('funding', 'healthInsurance', 'Health insurance')}
               {textRow('funding', 'notes', 'Funding notes')}
             </section>

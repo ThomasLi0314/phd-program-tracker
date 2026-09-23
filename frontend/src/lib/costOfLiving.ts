@@ -6,7 +6,7 @@
 // formats both and relates them — without converting currencies: a ratio is
 // only shown when stipend and rent are in the same currency.
 
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import type { Stipend } from '../types'
 
 export interface RentSource {
@@ -52,8 +52,8 @@ function fetchHousing(): Promise<HousingFile> {
   return cached
 }
 
-/** The rent place for a university, once housing.json has loaded (null: none / not yet). */
-export function useHousingPlace(university: string): { place: HousingPlace | null; generatedAt: string | null } {
+/** Rent by university, once housing.json has loaded. One fetch per session. */
+export function useHousing(): { placeFor: (university: string) => HousingPlace | null; generatedAt: string | null } {
   const [file, setFile] = useState<HousingFile | null>(null)
   useEffect(() => {
     let alive = true
@@ -64,9 +64,21 @@ export function useHousingPlace(university: string): { place: HousingPlace | nul
       alive = false
     }
   }, [])
-  if (!file) return { place: null, generatedAt: null }
-  const id = file.institutions[university]
-  return { place: file.places.find((p) => p.id === id) ?? null, generatedAt: file.meta.generated_at }
+  const placeFor = useCallback(
+    (university: string) => {
+      if (!file) return null
+      const id = file.institutions[university]
+      return file.places.find((p) => p.id === id) ?? null
+    },
+    [file],
+  )
+  return { placeFor, generatedAt: file?.meta.generated_at ?? null }
+}
+
+/** The rent place for one university (null: none, or not loaded yet). */
+export function useHousingPlace(university: string): { place: HousingPlace | null; generatedAt: string | null } {
+  const { placeFor, generatedAt } = useHousing()
+  return { place: placeFor(university), generatedAt }
 }
 
 const SYMBOL: Record<string, string> = {
@@ -118,6 +130,22 @@ export function annualStipend(s: Stipend): number | null {
   if (s.period === '12-month' || s.period === '9-month' || s.period === 'annual') return s.amount
   if (s.period === 'monthly') return s.amount * 12
   return null
+}
+
+/** Compact form for a table cell: "$49,000/yr", "S$3,000/mo", "$14,596/term". */
+export function stipendShort(s: Stipend): string | null {
+  if (s.amount == null || !s.currency) return null
+  const unit: Record<string, string> = {
+    '12-month': '/yr',
+    '9-month': '/yr',
+    annual: '/yr',
+    monthly: '/mo',
+    quarterly: '/qtr',
+    semester: '/sem',
+    term: '/term',
+    other: '',
+  }
+  return `${money(s.amount, s.currency)}${unit[s.period ?? 'other'] ?? ''}`
 }
 
 /** Share of the stipend a year of rent takes, or null when not comparable. */

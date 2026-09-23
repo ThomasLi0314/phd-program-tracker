@@ -20,6 +20,10 @@ export interface ExportProgramRow {
   program: string
   deadline: string
   funding: string
+  /** e.g. "$49,000/yr (university minimum, 2026-27)" */
+  stipend: string
+  /** e.g. "$1,588/mo — 37% of stipend" */
+  rent: string
   status: string
   notes: string
   link: string
@@ -33,8 +37,9 @@ export interface ExportMeta {
 
 type ExcelNS = typeof import('exceljs')
 
-const HEADERS = ['University', 'Program / Advisor', 'Deadline', 'Funding', 'Status', 'Research / Notes', 'Link']
-const WIDTHS = [30, 46, 20, 16, 22, 56, 46]
+const HEADERS = ['University', 'Program / Advisor', 'Deadline', 'Funding', 'Stipend', 'Rent near campus', 'Status', 'Research / Notes', 'Link']
+const WIDTHS = [30, 46, 20, 16, 30, 30, 22, 56, 46]
+const LINK_COL = HEADERS.length
 
 const LINK_FONT = { color: { argb: 'FF2563EB' }, underline: true, size: 11 }
 
@@ -81,13 +86,13 @@ export async function buildWorkbook(rows: ExportProgramRow[], meta: ExportMeta) 
   }
 
   for (const p of rows) {
-    const r = ws.addRow([p.university, p.program, p.deadline, p.funding, p.status, p.notes, ''])
+    const r = ws.addRow([p.university, p.program, p.deadline, p.funding, p.stipend, p.rent, p.status, p.notes, ''])
     r.font = { bold: true, size: 11 }
     r.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF1F5F9' } }
     r.alignment = { vertical: 'top', wrapText: true }
-    linkCell(r.getCell(7), p.link)
-    r.getCell(7).font = { ...LINK_FONT, bold: true }
-    if (!p.link) r.getCell(7).font = { bold: true, size: 11 }
+    linkCell(r.getCell(LINK_COL), p.link)
+    r.getCell(LINK_COL).font = { ...LINK_FONT, bold: true }
+    if (!p.link) r.getCell(LINK_COL).font = { bold: true, size: 11 }
 
     // No advisors → no group. An empty outline would draw a [+] over nothing.
     if (p.advisors.length === 0) {
@@ -96,14 +101,14 @@ export async function buildWorkbook(rows: ExportProgramRow[], meta: ExportMeta) 
     }
     setCollapsed(r, true)
     for (const a of p.advisors) {
-      const ar = ws.addRow(['', a.name, '', '', a.status, a.research, ''])
+      const ar = ws.addRow(['', a.name, '', '', '', '', a.status, a.research, ''])
       ar.outlineLevel = 1
       ar.hidden = true
       setCollapsed(ar, false)
       ar.font = { size: 11 }
       ar.alignment = { vertical: 'top', wrapText: true }
       ar.getCell(2).alignment = { indent: 2, vertical: 'top' }
-      linkCell(ar.getCell(7), a.link)
+      linkCell(ar.getCell(LINK_COL), a.link)
     }
   }
 

@@ -3,12 +3,14 @@
 
 import { useMemo, useState } from 'react'
 import { navigate } from '../../lib/hashRoute'
+import type { Program } from '../../types'
 import type { PlannerFaculty, PlannerProgram, PlannerState } from '../types'
 import type { ReferencePool } from '../lib/useReferencePool'
 import type { PlannerApi } from '../lib/usePlanner'
 import { facultyOccurrences, programIdentity, resolveProgram } from '../lib/referenceBridge'
 import { isLikelyRecruiting } from '../lib/recruitment'
 import { formatDeadline, resolveDeadline } from '../lib/deadlines'
+import { money, rentShare, SCOPE_LABEL, stipendShort, useHousing, type HousingPlace } from '../../lib/costOfLiving'
 import { effectiveContact, findRecord, useOutreachSnapshot } from '../lib/outreachBridge'
 import {
   APPLICATION_LABELS,
@@ -25,6 +27,41 @@ import { AddProgramModal } from '../components/AddProgramModal'
 import { exportPlannerExcel, type ExportProgramRow } from '../lib/exportExcel'
 
 type SortKey = 'university' | 'interest' | 'deadline' | 'status' | 'faculty'
+
+/**
+ * Stipend and rent for one row. The stipend is the dataset's (an official page
+ * states it); rent is the average near that university. A share is shown only
+ * when the two are in the same currency and the stipend covers a whole year.
+ */
+function StipendCell({ live, place }: { live: Program | null; place: HousingPlace | null }) {
+  const s = live?.requirements.funding.stipend
+  const short = s ? stipendShort(s) : null
+  const share = rentShare(s, place)
+  return (
+    <div>
+      {short ? (
+        <span className="font-medium text-slate-800" title={s!.quote ? `"${s!.quote}"` : undefined}>
+          {short}
+        </span>
+      ) : s ? (
+        <span className="italic text-amber-700">None published</span>
+      ) : (
+        <span className="italic text-slate-400">—</span>
+      )}
+      {place?.average != null && (
+        <div className="text-[11px] text-slate-500">
+          rent {money(place.average, place.currency)}
+          {share != null && (
+            <span className={share > 0.5 ? ' text-rose-600' : share > 0.35 ? ' text-amber-700' : ' text-emerald-700'}>
+              {' '}
+              · {Math.round(share * 100)}%
+            </span>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
 
 export function ProgramsTable({
   state,
@@ -43,6 +80,8 @@ export function ProgramsTable({
   const [exporting, setExporting] = useState(false)
   const [exportError, setExportError] = useState<string | null>(null)
   const outreach = useOutreachSnapshot()
+  // Stipends ride on the dataset program; rent comes from data/housing.json.
+  const { placeFor } = useHousing()
 
   const facultyById = useMemo(() => new Map(state.faculty.map((f) => [f.id, f])), [state.faculty])
 
@@ -110,6 +149,19 @@ export function ProgramsTable({
               ? 'Paused'
               : UNKNOWN_LABEL
       const funding = entry.funding.level?.value ? FUNDING_LABELS[entry.funding.level.value] : UNKNOWN_LABEL
+      const s = live?.requirements.funding.stipend
+      const short = s ? stipendShort(s) : null
+      const stipend = short
+        ? `${short}${s!.scope ? ` (${(SCOPE_LABEL[s!.scope] ?? '').toLowerCase()}${s!.academic_year ? `, ${s!.academic_year}` : ''})` : ''}`
+        : s
+          ? 'No official figure found'
+          : UNKNOWN_LABEL
+      const place = placeFor(id.university)
+      const share = rentShare(s, place)
+      const rent =
+        place && place.average != null
+          ? `${money(place.average, place.currency)}/mo — ${place.city}${share != null ? ` — ${Math.round(share * 100)}% of stipend` : ''}`
+          : UNKNOWN_LABEL
       const advisors = linked.map((f) => {
         const occ =
           f.ref.kind === 'database'
@@ -131,6 +183,8 @@ export function ProgramsTable({
         program: `${id.programName}${id.degree ? ` (${id.degree})` : ''}`,
         deadline,
         funding,
+        stipend,
+        rent,
         status: APPLICATION_LABELS[entry.status],
         notes: entry.notes.trim(),
         link: id.website || id.portal || '',
@@ -245,6 +299,9 @@ export function ProgramsTable({
                   <th className="px-2 py-1.5">Deadline</th>
                   <th className="px-2 py-1.5">GRE</th>
                   <th className="px-2 py-1.5">Funding</th>
+                  <th className="px-2 py-1.5" title="Stipend an official page states · a year of rent as a share of it">
+                    Stipend / rent
+                  </th>
                   <th className="px-2 py-1.5 text-right" title="Saved faculty · likely recruiting">
                     Faculty
                   </th>
@@ -252,7 +309,7 @@ export function ProgramsTable({
                 </tr>
               </thead>
               <tbody>
-                {rows.map(({ entry, id, savedFaculty, likelyRecruiting }) => (
+                {rows.map(({ entry, live, id, savedFaculty, likelyRecruiting }) => (
                   <tr key={entry.id} className="border-b border-slate-100 align-top last:border-0 hover:bg-slate-50/60">
                     <td className="px-2 py-2">
                       <button
@@ -298,6 +355,9 @@ export function ProgramsTable({
                       ) : (
                         <span className="italic text-amber-700">{UNKNOWN_LABEL}</span>
                       )}
+                    </td>
+                    <td className="px-2 py-2 text-[12.5px]">
+                      <StipendCell live={live} place={placeFor(id.university)} />
                     </td>
                     <td className="px-2 py-2 text-right text-[12.5px] tabular-nums text-slate-700">
                       {savedFaculty}
