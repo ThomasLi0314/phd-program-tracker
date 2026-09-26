@@ -26,6 +26,7 @@ import {
   INTEREST_LABELS,
   INTEREST_ORDER,
 } from '../lib/labels'
+import { EditableLink } from '../../components/EditableLink'
 import { StipendRent } from '../../components/StipendRent'
 import { FieldRow } from '../components/FieldValue'
 import { StatusSelect } from '../components/StatusChip'
@@ -182,26 +183,42 @@ export function ProgramDetail({
           </div>
 
           <div className="mt-2 flex flex-wrap items-center gap-2">
-            {ident.website && (
-              <a
-                href={ident.website}
-                target="_blank"
-                rel="noreferrer"
-                className="rounded border border-slate-300 bg-white px-2 py-1 text-[11.5px] font-medium text-indigo-700 hover:border-indigo-400"
-              >
-                Official Website ↗
-              </a>
-            )}
-            {ident.portal && (
-              <a
-                href={ident.portal}
-                target="_blank"
-                rel="noreferrer"
-                className="rounded border border-slate-300 bg-white px-2 py-1 text-[11.5px] font-medium text-indigo-700 hover:border-indigo-400"
-              >
-                Application Portal ↗
-              </a>
-            )}
+            {/* Both links are editable: the dataset's URL is the default, and
+                anything typed here wins and is kept with the plan (so it rides
+                along in the Drive backup). Clearing it falls back to the
+                dataset again. */}
+            <span
+              className="rounded border border-slate-300 bg-white px-2 py-1 text-[11.5px] font-medium"
+              title={
+                entry.links.program
+                  ? 'Your own link — clear it to go back to the database’s'
+                  : 'From the database — edit to use your own'
+              }
+            >
+              <EditableLink
+                url={ident.website}
+                label={entry.links.program ? 'Official Website ✎mine' : 'Official Website'}
+                onSave={(url) =>
+                  planner.updateProgram(entry.id, { links: { ...entry.links, program: url } })
+                }
+              />
+            </span>
+            <span
+              className="rounded border border-slate-300 bg-white px-2 py-1 text-[11.5px] font-medium"
+              title={
+                entry.links.portal
+                  ? 'Your own link — clear it to go back to the database’s'
+                  : 'From the database — edit to use your own'
+              }
+            >
+              <EditableLink
+                url={ident.portal}
+                label={entry.links.portal ? 'Application Portal ✎mine' : 'Application Portal'}
+                onSave={(url) =>
+                  planner.updateProgram(entry.id, { links: { ...entry.links, portal: url } })
+                }
+              />
+            </span>
             <button
               onClick={() => setResearching((v) => !v)}
               title="Read this program's official pages and propose values — you review everything before it is saved."
