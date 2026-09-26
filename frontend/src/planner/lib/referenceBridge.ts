@@ -92,6 +92,22 @@ function fundingFromReference(p: Program): FundingResearch {
   }
 }
 
+/** The dataset's own value for one researched field, as the planner seeded it.
+ *  Used to put a database value back after I've overwritten it. */
+export function referenceField(
+  p: Program,
+  section: 'admissions' | 'structure' | 'funding',
+  key: string,
+) {
+  const sec =
+    section === 'admissions'
+      ? admissionsFromReference(p)
+      : section === 'structure'
+        ? structureFromReference(p)
+        : fundingFromReference(p)
+  return (sec as Record<string, ReturnType<typeof databaseField<unknown>> | undefined>)[key]
+}
+
 /** Pull the leading ISO date out of a data_currency sentence, if it has one. */
 function currencyDate(s: string | undefined): string | null {
   const m = s?.match(/\d{4}-\d{2}-\d{2}/)

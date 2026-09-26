@@ -24,6 +24,7 @@ export function FieldRow<T>({
   options,
   onSetValue,
   onToggleLock,
+  onRevert,
   staleAfterDays,
 }: {
   label: string
@@ -35,6 +36,8 @@ export function FieldRow<T>({
   /** Raw editor text; '' means "back to Unknown". Caller parses into T. */
   onSetValue: (raw: string) => void
   onToggleLock: () => void
+  /** Put the database's value back. Only passed when I've replaced one. */
+  onRevert?: () => void
   staleAfterDays: number
 }) {
   const [editing, setEditing] = useState(false)
@@ -55,13 +58,13 @@ export function FieldRow<T>({
   }
 
   return (
-    <div className="border-b border-slate-100 py-1.5 last:border-0">
-      <div className="flex items-baseline justify-between gap-3">
-        <span className="shrink-0 text-[11px] font-medium text-slate-500">{label}</span>
+    <div className="group/row border-b border-slate-100 py-1.5 last:border-0">
+      <div className="flex items-start justify-between gap-3">
+        <span className="shrink-0 pt-px text-[11px] font-medium text-slate-500">{label}</span>
 
-        <div className="flex min-w-0 flex-1 items-baseline justify-end gap-2">
-          {editing ? (
-            options ? (
+        {editing ? (
+          <div className="min-w-0 flex-1">
+            {options ? (
               <select
                 autoFocus
                 value={draft}
@@ -71,7 +74,7 @@ export function FieldRow<T>({
                   setEditing(false)
                 }}
                 onBlur={() => setEditing(false)}
-                className="rounded border border-indigo-300 px-1.5 py-0.5 text-[12px] text-slate-800 focus:outline-none"
+                className="w-full rounded border border-indigo-300 px-1.5 py-0.5 text-[12px] text-slate-800 focus:outline-none"
               >
                 <option value="">{UNKNOWN_LABEL}</option>
                 {options.map((o) => (
@@ -81,45 +84,65 @@ export function FieldRow<T>({
                 ))}
               </select>
             ) : (
-              <input
+              // A textarea, not an input: notes like "Other requirements" run
+              // to a few sentences. Enter saves; Shift+Enter starts a new line.
+              <textarea
                 autoFocus
                 value={draft}
+                rows={Math.min(6, Math.max(1, Math.ceil(draft.length / 40), draft.split(/\n/).length))}
                 onChange={(e) => setDraft(e.target.value)}
+                onFocus={(e) => e.currentTarget.select()}
                 onBlur={commit}
                 onKeyDown={(e) => {
-                  if (e.key === 'Enter') commit()
+                  if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault()
+                    commit()
+                  }
                   if (e.key === 'Escape') setEditing(false)
                 }}
                 placeholder={UNKNOWN_LABEL}
-                className="w-full rounded border border-indigo-300 px-1.5 py-0.5 text-right text-[12px] text-slate-800 focus:outline-none"
+                className="w-full resize-y rounded border border-indigo-300 px-1.5 py-0.5 text-[12px] leading-snug text-slate-800 focus:outline-none"
               />
-            )
-          ) : (
+            )}
+            <div className="mt-0.5 flex items-center justify-end gap-2 text-[10px] text-slate-400">
+              {options ? 'Pick a value' : 'Enter to save · Shift+Enter new line · Esc to cancel'}
+            </div>
+          </div>
+        ) : (
+          <div className="flex min-w-0 flex-1 items-start justify-end gap-1.5">
             <button
               onClick={begin}
               title="Click to edit. Editing marks this field as entered by me."
-              className={`truncate text-right text-[12.5px] hover:underline ${
+              className={`min-w-0 whitespace-pre-wrap text-right text-[12.5px] leading-snug [overflow-wrap:anywhere] hover:underline ${
                 display ? 'font-medium text-slate-800' : 'italic text-amber-700'
               }`}
             >
               {display ?? UNKNOWN_LABEL}
             </button>
-          )}
+            <button
+              onClick={begin}
+              aria-label={`Edit ${label}`}
+              title={`Edit ${label}`}
+              className="shrink-0 text-[12px] leading-snug text-slate-300 transition-colors hover:text-indigo-600 group-hover/row:text-slate-500"
+            >
+              ✎
+            </button>
+          </div>
+        )}
 
-          <button
-            onClick={onToggleLock}
-            title={
-              locked
-                ? 'Locked — future research runs will report a disagreement instead of overwriting this.'
-                : 'Lock this value so future research cannot overwrite it.'
-            }
-            className={`shrink-0 text-[11px] leading-none ${
-              locked ? 'text-indigo-600' : 'text-slate-300 hover:text-slate-500'
-            }`}
-          >
-            {locked ? '🔒' : '🔓'}
-          </button>
-        </div>
+        <button
+          onClick={onToggleLock}
+          title={
+            locked
+              ? 'Locked — future research runs will report a disagreement instead of overwriting this.'
+              : 'Lock this value so future research cannot overwrite it.'
+          }
+          className={`shrink-0 pt-px text-[11px] leading-none ${
+            locked ? 'text-indigo-600' : 'text-slate-300 hover:text-slate-500'
+          }`}
+        >
+          {locked ? '🔒' : '🔓'}
+        </button>
       </div>
 
       {/* Provenance line — only meaningful once something has actually been checked. */}
@@ -151,6 +174,14 @@ export function FieldRow<T>({
           )}
           <span>·</span>
           <span className={CONFIDENCE_TONE[field.confidence]}>{field.confidence}</span>
+          {onRevert && (
+            <>
+              <span>·</span>
+              <button onClick={onRevert} className="text-slate-500 hover:text-rose-600 hover:underline">
+                revert to database
+              </button>
+            </>
+          )}
         </div>
       )}
 

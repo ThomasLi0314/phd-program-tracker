@@ -15,7 +15,7 @@ import type {
 } from '../types'
 import type { ReferencePool } from '../lib/useReferencePool'
 import type { PlannerApi } from '../lib/usePlanner'
-import { programIdentity, resolveProgram } from '../lib/referenceBridge'
+import { programIdentity, referenceField, resolveProgram } from '../lib/referenceBridge'
 import { editedField, isUnknown, toggleLockField } from '../lib/researchField'
 import { RECRUITMENT_DOTS, RECRUITMENT_LABELS } from '../lib/recruitment'
 import {
@@ -114,6 +114,20 @@ export function ProgramDetail({
     } as Partial<PlannerProgram>)
   }
 
+  /** Offered only where I replaced a value the database actually has. Keeps a
+   *  lock I set, since the lock is about future research, not this value. */
+  const revertFor = (section: Section, key: string) => {
+    const sec = entry[section] as Record<string, ResearchField<unknown> | undefined>
+    const cur = sec[key]
+    if (!live || !cur || cur.origin !== 'manual') return undefined
+    const db = referenceField(live, section, key)
+    if (!db || db.value === null) return undefined
+    return () =>
+      planner.updateProgram(entry.id, {
+        [section]: { ...sec, [key]: { ...db, ownership: cur.ownership === 'locked' ? 'locked' : db.ownership } },
+      } as Partial<PlannerProgram>)
+  }
+
   const textRow = (section: Section, key: string, label: string) => {
     const sec = entry[section] as Record<string, ResearchField<unknown> | undefined>
     const f = sec[key]
@@ -124,6 +138,7 @@ export function ProgramDetail({
         display={f?.value == null ? null : String(f.value)}
         onSetValue={(raw) => patchField(section, key, raw.trim() === '' ? null : raw.trim())}
         onToggleLock={() => lockField(section, key)}
+        onRevert={revertFor(section, key)}
         staleAfterDays={state.settings.staleAfterDays}
       />
     )
@@ -146,6 +161,7 @@ export function ProgramDetail({
         options={options}
         onSetValue={(raw) => patchField(section, key, raw === '' ? null : raw)}
         onToggleLock={() => lockField(section, key)}
+        onRevert={revertFor(section, key)}
         staleAfterDays={state.settings.staleAfterDays}
       />
     )
