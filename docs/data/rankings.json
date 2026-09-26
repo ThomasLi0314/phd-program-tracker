@@ -2152,14 +2152,230 @@
   },
   "Industrial Engineering & Operations Research": {
    "source": {
-    "name": "none — no publicly readable ranking found",
-    "edition": "n/a",
-    "url": "",
-    "scope": "n/a",
-    "note": "No publicly readable ranking of US graduate programs in industrial engineering or operations research could be read, so nothing is recorded rather than estimated. Abandoned: U.S. News Best Graduate Schools, Industrial/Manufacturing/Systems Engineering (the correctly scoped source) — usnews.com resets every connection (curl \"Recv failure\", fetch times out) and Internet Archive copies of the page contain no ranking rows; SCImago Institutions Rankings, Industrial and Manufacturing Engineering, USA — HTTP 403 (Cloudflare), via curl and fetch. No subject exists for this field in ShanghaiRanking GRAS 2026 (all 57 subjects checked), QS World University Rankings by Subject or THE. CWUR's 2017 \"Engineering, Industrial\" list is top-10 only and includes no US institution; its separate \"Operations Research & Management Science\" top 10 is a different subject list and was not substituted."
+    "name": "QS World University Rankings by Subject — Statistics & Operational Research",
+    "edition": "2026",
+    "url": "https://www.topuniversities.com/university-subject-rankings/statistics-operational-research",
+    "scope": "world ranking, filtered to US",
+    "note": "QS World University Rankings by Subject is a world ranking: \"rank\" is the position among the 56 US institutions in the published list, numbered in the order QS prints them; \"world_rank\" is the published world position (the first number of a tie or band label) and \"as_printed\" is QS's exact label (e.g. \"=27\", \"51-100\"). Institutions sharing a band are printed alphabetically, so order inside a band carries no meaning. No publicly readable ranking of industrial engineering itself was found: U.S. News (Industrial/Manufacturing/Systems Engineering) resets every connection and archived copies hold no ranking rows; SCImago returns 403; and GRAS 2026 (57 subjects), QS and THE have no industrial-engineering subject. This list therefore covers the operations research half of the field and mixes in statistics departments, so IE-only programs may be absent or under-served."
    },
    "checked_at": "2026-09-26",
-   "ranks": {}
+   "ranks": {
+    "Stanford University": {
+     "rank": 1,
+     "world_rank": 1,
+     "as_printed": "1"
+    },
+    "Massachusetts Institute of Technology": {
+     "rank": 2,
+     "world_rank": 2,
+     "as_printed": "2"
+    },
+    "Harvard University": {
+     "rank": 3,
+     "world_rank": 3,
+     "as_printed": "3"
+    },
+    "University of California, Berkeley": {
+     "rank": 4,
+     "world_rank": 4,
+     "as_printed": "4"
+    },
+    "Georgia Institute of Technology": {
+     "rank": 5,
+     "world_rank": 7,
+     "as_printed": "=7"
+    },
+    "Princeton University": {
+     "rank": 6,
+     "world_rank": 11,
+     "as_printed": "11"
+    },
+    "Carnegie Mellon University": {
+     "rank": 7,
+     "world_rank": 12,
+     "as_printed": "12"
+    },
+    "Columbia University": {
+     "rank": 8,
+     "world_rank": 14,
+     "as_printed": "14"
+    },
+    "Cornell University": {
+     "rank": 9,
+     "world_rank": 17,
+     "as_printed": "17"
+    },
+    "University of Michigan, Ann Arbor": {
+     "rank": 10,
+     "world_rank": 18,
+     "as_printed": "18"
+    },
+    "University of California, Los Angeles": {
+     "rank": 11,
+     "world_rank": 19,
+     "as_printed": "=19"
+    },
+    "University of Chicago": {
+     "rank": 12,
+     "world_rank": 19,
+     "as_printed": "=19"
+    },
+    "Duke University": {
+     "rank": 13,
+     "world_rank": 23,
+     "as_printed": "23"
+    },
+    "University of Pennsylvania": {
+     "rank": 14,
+     "world_rank": 26,
+     "as_printed": "26"
+    },
+    "Johns Hopkins University": {
+     "rank": 15,
+     "world_rank": 27,
+     "as_printed": "=27"
+    },
+    "University of Washington": {
+     "rank": 16,
+     "world_rank": 27,
+     "as_printed": "=27"
+    },
+    "Purdue University": {
+     "rank": 17,
+     "world_rank": 33,
+     "as_printed": "=33"
+    },
+    "Yale University": {
+     "rank": 18,
+     "world_rank": 40,
+     "as_printed": "=40"
+    },
+    "University of Texas at Austin": {
+     "rank": 19,
+     "world_rank": 44,
+     "as_printed": "44"
+    },
+    "New York University": {
+     "rank": 20,
+     "world_rank": 46,
+     "as_printed": "=46"
+    },
+    "Northwestern University": {
+     "rank": 21,
+     "world_rank": 46,
+     "as_printed": "=46"
+    },
+    "University of North Carolina at Chapel Hill": {
+     "rank": 23,
+     "world_rank": 50,
+     "as_printed": "50"
+    },
+    "Pennsylvania State University": {
+     "rank": 27,
+     "world_rank": 51,
+     "as_printed": "51-100"
+    },
+    "University of California, San Diego": {
+     "rank": 28,
+     "world_rank": 51,
+     "as_printed": "51-100"
+    },
+    "University of Illinois Urbana-Champaign": {
+     "rank": 29,
+     "world_rank": 51,
+     "as_printed": "51-100"
+    },
+    "University of Minnesota": {
+     "rank": 30,
+     "world_rank": 51,
+     "as_printed": "51-100"
+    },
+    "University of Southern California": {
+     "rank": 31,
+     "world_rank": 51,
+     "as_printed": "51-100"
+    },
+    "University of Wisconsin-Madison": {
+     "rank": 32,
+     "world_rank": 51,
+     "as_printed": "51-100"
+    },
+    "Boston University": {
+     "rank": 33,
+     "world_rank": 101,
+     "as_printed": "101-150"
+    },
+    "Brown University": {
+     "rank": 34,
+     "world_rank": 101,
+     "as_printed": "101-150"
+    },
+    "Rutgers University-New Brunswick": {
+     "rank": 35,
+     "world_rank": 101,
+     "as_printed": "101-150"
+    },
+    "The Ohio State University": {
+     "rank": 36,
+     "world_rank": 101,
+     "as_printed": "101-150"
+    },
+    "University of California, Davis": {
+     "rank": 37,
+     "world_rank": 101,
+     "as_printed": "101-150"
+    },
+    "University of Florida": {
+     "rank": 38,
+     "world_rank": 101,
+     "as_printed": "101-150"
+    },
+    "University of Maryland, College Park": {
+     "rank": 39,
+     "world_rank": 101,
+     "as_printed": "101-150"
+    },
+    "Rice University": {
+     "rank": 43,
+     "world_rank": 151,
+     "as_printed": "151-200"
+    },
+    "Emory University": {
+     "rank": 45,
+     "world_rank": 201,
+     "as_printed": "201-250"
+    },
+    "Northeastern University": {
+     "rank": 46,
+     "world_rank": 201,
+     "as_printed": "201-250"
+    },
+    "University of California, Irvine": {
+     "rank": 47,
+     "world_rank": 201,
+     "as_printed": "201-250"
+    },
+    "University of California, Santa Barbara": {
+     "rank": 48,
+     "world_rank": 201,
+     "as_printed": "201-250"
+    },
+    "University of Virginia": {
+     "rank": 51,
+     "world_rank": 201,
+     "as_printed": "201-250"
+    },
+    "Washington University in St. Louis": {
+     "rank": 52,
+     "world_rank": 201,
+     "as_printed": "201-250"
+    },
+    "Dartmouth College": {
+     "rank": 54,
+     "world_rank": 251,
+     "as_printed": "251-275"
+    }
+   }
   },
   "Materials Science": {
    "source": {
