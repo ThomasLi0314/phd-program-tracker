@@ -11,7 +11,6 @@ import { facultyOccurrences, programIdentity, resolveProgram } from '../lib/refe
 import { isLikelyRecruiting } from '../lib/recruitment'
 import { formatDeadline, resolveDeadline } from '../lib/deadlines'
 import { money, rentShare, SCOPE_LABEL, stipendShort, useHousing, type HousingPlace } from '../../lib/costOfLiving'
-import { isApproximate, rankTooltip, useRankings, type RankLookup } from '../../lib/rankings'
 import { effectiveContact, findRecord, useOutreachSnapshot } from '../lib/outreachBridge'
 import {
   APPLICATION_LABELS,
@@ -114,53 +113,6 @@ function CategoryHeader({
 }
 
 /**
- * Where this program's subject sits in a published ranking, among US
- * universities. "—" covers three honest cases the tooltip tells apart: the
- * field has no published ranking, the university is not in the one it has, or
- * the entry is one you typed in yourself.
- */
-function RankCell({ live, rankFor }: { live: Program | null; rankFor: RankLookup }) {
-  const { hit, why } = rankFor(live?.discipline.primary, live?.university)
-  if (hit) {
-    return (
-      <div title={rankTooltip(hit)}>
-        <span className="font-medium text-slate-800">
-          #{hit.rank}
-          {/* a band ("51-75") or a tie ("=4") is not a position of its own */}
-          {isApproximate(hit) && <span className="text-slate-400"> *</span>}
-        </span>
-        <div className="text-[10.5px] leading-tight text-slate-500">
-          {hit.source.edition ? `${shortSource(hit.source.name)} ${hit.source.edition}` : shortSource(hit.source.name)}
-        </div>
-      </div>
-    )
-  }
-  const why_ =
-    why === 'loading'
-      ? 'Loading the rankings…'
-      : why === 'no-ranking-for-field'
-        ? 'No published subject ranking for this field'
-        : live
-          ? 'This university is not in the published ranking for its field'
-          : 'Only programs from the database carry a ranking'
-  return (
-    <span className="text-slate-400" title={why_}>
-      —
-    </span>
-  )
-}
-
-/** "ShanghaiRanking Global Ranking of Academic Subjects (GRAS) — Mathematics" → "GRAS". */
-function shortSource(name: string): string {
-  if (/GRAS|ShanghaiRanking/i.test(name)) return 'GRAS'
-  if (/U\.?S\.? ?News/i.test(name)) return 'US News'
-  if (/\bQS\b/.test(name)) return 'QS'
-  if (/Times Higher|\bTHE\b/.test(name)) return 'THE'
-  if (/CSRankings/i.test(name)) return 'CSRankings'
-  return name.split('—')[0].trim().slice(0, 14)
-}
-
-/**
  * Stipend and rent for one row. The stipend is the dataset's (an official page
  * states it); rent is the average near that university. A share is shown only
  * when the two are in the same currency and the stipend covers a whole year.
@@ -213,10 +165,8 @@ export function ProgramsTable({
   const [exporting, setExporting] = useState(false)
   const [exportError, setExportError] = useState<string | null>(null)
   const outreach = useOutreachSnapshot()
-  // Stipends ride on the dataset program; rent comes from data/housing.json,
-  // and the subject ranking from data/rankings.json.
+  // Stipends ride on the dataset program; rent comes from data/housing.json.
   const { placeFor } = useHousing()
-  const { rankFor } = useRankings()
 
   const facultyById = useMemo(() => new Map(state.faculty.map((f) => [f.id, f])), [state.faculty])
 
@@ -332,13 +282,8 @@ export function ProgramsTable({
         }
       })
       const category = state.categories.find((c) => c.id === entry.categoryId)?.name ?? ''
-      const { hit } = rankFor(live?.discipline.primary, live?.university)
-      const rank = hit
-        ? `#${hit.rank} in US — ${hit.field}, ${hit.source.name}${hit.source.edition ? ` ${hit.source.edition}` : ''}`
-        : 'unranked'
       return {
         category,
-        rank,
         university: id.university,
         program: `${id.programName}${id.degree ? ` (${id.degree})` : ''}`,
         deadline,
@@ -496,12 +441,6 @@ export function ProgramsTable({
               <thead>
                 <tr className="border-b border-slate-200 bg-slate-50 text-[11px] font-semibold uppercase tracking-wide text-slate-600">
                   <th className="px-2 py-1.5">University / Program</th>
-                  <th
-                    className="px-2 py-1.5"
-                    title="Where this subject ranks among US universities in a published ranking — the source is named on each figure"
-                  >
-                    US rank
-                  </th>
                   <th className="px-2 py-1.5">Interest</th>
                   <th className="px-2 py-1.5">Deadline</th>
                   <th className="px-2 py-1.5">GRE</th>
@@ -519,7 +458,7 @@ export function ProgramsTable({
               <tbody key={g.id || 'none'}>
                 {grouped && (
                   <tr className="bg-slate-100/70">
-                    <td colSpan={9} className="px-2 py-1.5">
+                    <td colSpan={8} className="px-2 py-1.5">
                       <CategoryHeader
                         name={g.name}
                         count={g.rows.length}
@@ -561,9 +500,6 @@ export function ProgramsTable({
                           ))}
                         </select>
                       )}
-                    </td>
-                    <td className="px-2 py-2 text-[12.5px]">
-                      <RankCell live={live} rankFor={rankFor} />
                     </td>
                     <td className="px-2 py-2">
                       <StatusSelect
