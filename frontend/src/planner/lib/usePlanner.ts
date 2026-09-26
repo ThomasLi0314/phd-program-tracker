@@ -4,8 +4,14 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react'
 import type { Faculty, Program } from '../../types'
-import type { PlannerFaculty, PlannerProgram, PlannerSettings, PlannerState } from '../types'
-import { localPlannerStorage, PLANNER_KEY, type PlannerStorage } from './storage'
+import type {
+  PlannerCategory,
+  PlannerFaculty,
+  PlannerProgram,
+  PlannerSettings,
+  PlannerState,
+} from '../types'
+import { localPlannerStorage, newId, PLANNER_KEY, type PlannerStorage } from './storage'
 import {
   customFaculty,
   customProgram,
@@ -41,6 +47,12 @@ export interface PlannerApi {
 
   setResearchProfile: (text: string) => void
   updateSettings: (patch: Partial<PlannerSettings>) => void
+
+  /** Categories are the user's own: created, renamed and assigned by hand. */
+  addCategory: (name: string) => string | null
+  renameCategory: (id: string, name: string) => void
+  removeCategory: (id: string) => void
+  setProgramCategory: (programEntryId: string, categoryId: string | null) => void
 
   /** Import (spec §31). Replace swaps everything; merge keeps what I already have. */
   replaceAll: (next: PlannerState) => void
@@ -240,6 +252,51 @@ export function usePlanner(storage: PlannerStorage = localPlannerStorage): Plann
     [update],
   )
 
+  const addCategory = useCallback(
+    (name: string): string | null => {
+      const text = name.trim()
+      if (!text) return null
+      const category: PlannerCategory = { id: newId('cat'), name: text.slice(0, 60) }
+      update((s) => ({ ...s, categories: [...s.categories, category] }))
+      return category.id
+    },
+    [update],
+  )
+
+  const renameCategory = useCallback(
+    (id: string, name: string) => {
+      const text = name.trim()
+      if (!text) return
+      update((s) => ({
+        ...s,
+        categories: s.categories.map((c) => (c.id === id ? { ...c, name: text.slice(0, 60) } : c)),
+      }))
+    },
+    [update],
+  )
+
+  /** Deleting a category never deletes programs — they fall back to no category. */
+  const removeCategory = useCallback(
+    (id: string) =>
+      update((s) => ({
+        ...s,
+        categories: s.categories.filter((c) => c.id !== id),
+        programs: s.programs.map((p) => (p.categoryId === id ? { ...p, categoryId: null } : p)),
+      })),
+    [update],
+  )
+
+  const setProgramCategory = useCallback(
+    (programEntryId: string, categoryId: string | null) =>
+      update((s) => ({
+        ...s,
+        programs: s.programs.map((p) =>
+          p.id === programEntryId ? touch({ ...p, categoryId }) : p,
+        ),
+      })),
+    [update],
+  )
+
   const updateSettings = useCallback(
     (patch: Partial<PlannerSettings>) =>
       update((s) => ({ ...s, settings: { ...s.settings, ...patch } })),
@@ -285,6 +342,10 @@ export function usePlanner(storage: PlannerStorage = localPlannerStorage): Plann
     unlinkFaculty,
     setResearchProfile,
     updateSettings,
+    addCategory,
+    renameCategory,
+    removeCategory,
+    setProgramCategory,
     replaceAll,
     mergeIn,
   }

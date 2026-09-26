@@ -4,7 +4,7 @@
 // PlannerStorage, so swapping in IndexedDB or a backend later is a one-file
 // change. The state is versioned and migrated on load.
 
-import type { PlannerState } from '../types'
+import type { PlannerCategory, PlannerState } from '../types'
 
 /** Deliberately NOT under the `tracker.` prefix: this is a separate app's data. */
 export const PLANNER_KEY = 'planner.state.v1'
@@ -30,6 +30,7 @@ export function emptyPlanner(): PlannerState {
     schemaVersion: SCHEMA_VERSION,
     settings: { ...DEFAULT_SETTINGS },
     researchProfile: DEFAULT_PROFILE,
+    categories: [],
     programs: [],
     faculty: [],
     updatedAt: new Date().toISOString(),
@@ -51,6 +52,7 @@ export function isEmptyPlanner(s: PlannerState): boolean {
   return (
     s.programs.length === 0 &&
     s.faculty.length === 0 &&
+    s.categories.length === 0 &&
     s.researchProfile.trim() === DEFAULT_PROFILE.trim() &&
     s.settings.cycle === DEFAULT_SETTINGS.cycle &&
     s.settings.staleAfterDays === DEFAULT_SETTINGS.staleAfterDays
@@ -81,6 +83,13 @@ export function migrate(raw: unknown): PlannerState {
     },
     researchProfile:
       typeof p.researchProfile === 'string' ? p.researchProfile : base.researchProfile,
+    // Categories predate nothing, so a plan saved before they existed simply
+    // has none and every program reads as uncategorised.
+    categories: Array.isArray(p.categories)
+      ? (p.categories as PlannerCategory[]).filter(
+          (c) => !!c && typeof c.id === 'string' && typeof c.name === 'string',
+        )
+      : [],
     programs: Array.isArray(p.programs) ? p.programs.filter(isRecord) : [],
     faculty: Array.isArray(p.faculty) ? p.faculty.filter(isRecord) : [],
     updatedAt: typeof p.updatedAt === 'string' ? p.updatedAt : base.updatedAt,

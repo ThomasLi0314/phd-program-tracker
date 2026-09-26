@@ -29,6 +29,90 @@ import { exportPlannerExcel, type ExportProgramRow } from '../lib/exportExcel'
 type SortKey = 'university' | 'interest' | 'deadline' | 'status' | 'faculty'
 
 /**
+ * The bar above each group of programs. A category is the user's own heading,
+ * so it can be renamed here and deleted without touching the programs under it
+ * — they simply become uncategorised.
+ */
+function CategoryHeader({
+  name,
+  count,
+  onRename,
+  onRemove,
+}: {
+  name: string
+  count: number
+  onRename?: (name: string) => void
+  onRemove?: () => void
+}) {
+  const [editing, setEditing] = useState(false)
+  const [draft, setDraft] = useState(name)
+  const [confirming, setConfirming] = useState(false)
+
+  if (editing && onRename) {
+    return (
+      <input
+        autoFocus
+        value={draft}
+        onChange={(e) => setDraft(e.target.value)}
+        onBlur={() => {
+          onRename(draft)
+          setEditing(false)
+        }}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter') {
+            onRename(draft)
+            setEditing(false)
+          }
+          if (e.key === 'Escape') {
+            setDraft(name)
+            setEditing(false)
+          }
+        }}
+        className="w-56 rounded border border-indigo-300 px-1.5 py-0.5 text-[13px] font-semibold text-slate-900 focus:outline-none"
+      />
+    )
+  }
+  return (
+    <div className="flex flex-wrap items-center gap-2">
+      <span className="font-serif text-[14px] font-bold text-slate-900">{name}</span>
+      <span className="text-[11.5px] text-slate-500">
+        {count} program{count === 1 ? '' : 's'}
+      </span>
+      {onRename && (
+        <button
+          onClick={() => {
+            setDraft(name)
+            setEditing(true)
+          }}
+          className="text-[11.5px] text-slate-500 hover:text-indigo-700"
+        >
+          rename
+        </button>
+      )}
+      {onRemove &&
+        (confirming ? (
+          <span className="flex items-center gap-1.5 text-[11.5px]">
+            <span className="text-slate-600">Delete this category? Its programs stay.</span>
+            <button onClick={onRemove} className="font-semibold text-rose-700 hover:underline">
+              delete
+            </button>
+            <button onClick={() => setConfirming(false)} className="text-slate-500 hover:underline">
+              cancel
+            </button>
+          </span>
+        ) : (
+          <button
+            onClick={() => setConfirming(true)}
+            className="text-[11.5px] text-slate-400 hover:text-rose-600"
+          >
+            delete
+          </button>
+        ))}
+    </div>
+  )
+}
+
+/**
  * Stipend and rent for one row. The stipend is the dataset's (an official page
  * states it); rent is the average near that university. A share is shown only
  * when the two are in the same currency and the stipend covers a whole year.
@@ -73,6 +157,7 @@ export function ProgramsTable({
   planner: PlannerApi
 }) {
   const [adding, setAdding] = useState(false)
+  const [newCategory, setNewCategory] = useState<string | null>(null)
   const [query, setQuery] = useState('')
   const [interestFilter, setInterestFilter] = useState<string>('')
   const [statusFilter, setStatusFilter] = useState<string>('')
@@ -133,6 +218,24 @@ export function ProgramsTable({
   }, [state.programs, pool.byId, facultyById, query, interestFilter, statusFilter, sortBy])
 
   /**
+   * Rows under the user's own headings, in the order they made them, with
+   * whatever is unfiled last. Without categories there is one unnamed group and
+   * the table looks exactly as it did before.
+   */
+  const groups = useMemo(() => {
+    const known = new Set(state.categories.map((c) => c.id))
+    const out = state.categories.map((c) => ({
+      id: c.id,
+      name: c.name,
+      rows: rows.filter((r) => r.entry.categoryId === c.id),
+    }))
+    const rest = rows.filter((r) => !r.entry.categoryId || !known.has(r.entry.categoryId))
+    if (rest.length || out.length === 0) out.push({ id: '', name: 'No category', rows: rest })
+    return out
+  }, [rows, state.categories])
+  const grouped = state.categories.length > 0
+
+  /**
    * The rows exactly as the table shows them — same filter, same order — with
    * each program's linked faculty. Unknown values are written as the same
    * "Unknown / Verify" the planner shows; nothing is guessed to fill a cell.
@@ -178,7 +281,9 @@ export function ProgramsTable({
           link: f.links.faculty || f.links.personal || f.links.lab || f.links.scholar || '',
         }
       })
+      const category = state.categories.find((c) => c.id === entry.categoryId)?.name ?? ''
       return {
+        category,
         university: id.university,
         program: `${id.programName}${id.degree ? ` (${id.degree})` : ''}`,
         deadline,
@@ -232,6 +337,13 @@ export function ProgramsTable({
               {exporting ? 'Exporting…' : `Export Excel${filtersActive ? ` (${rows.length})` : ''}`}
             </button>
             <button
+              onClick={() => setNewCategory('')}
+              className="rounded border border-slate-300 bg-white px-3 py-1.5 text-[12.5px] font-medium text-slate-700 transition-colors hover:border-indigo-400 hover:text-indigo-700"
+              title="Group your programs under headings you name yourself"
+            >
+              + Category
+            </button>
+            <button
               onClick={() => setAdding(true)}
               className="rounded bg-indigo-600 px-3 py-1.5 text-[12.5px] font-semibold text-white transition-colors hover:bg-indigo-700"
             >
@@ -240,6 +352,40 @@ export function ProgramsTable({
           </div>
         </div>
         {exportError && <p className="mb-2 text-[12px] font-medium text-rose-600">Export failed: {exportError}</p>}
+
+        {newCategory !== null && (
+          <form
+            className="mb-2 flex flex-wrap items-center gap-2 rounded border border-indigo-200 bg-indigo-50/60 px-2.5 py-2"
+            onSubmit={(e) => {
+              e.preventDefault()
+              planner.addCategory(newCategory)
+              setNewCategory(null)
+            }}
+          >
+            <span className="text-[12px] font-medium text-slate-700">New category</span>
+            <input
+              autoFocus
+              value={newCategory}
+              onChange={(e) => setNewCategory(e.target.value)}
+              placeholder="e.g. Reach · Ocean modelling · Europe"
+              className="min-w-[220px] flex-1 rounded border border-slate-300 px-2 py-1 text-[12.5px] focus:border-indigo-400 focus:outline-none"
+            />
+            <button
+              type="submit"
+              disabled={!newCategory.trim()}
+              className="rounded bg-indigo-600 px-2.5 py-1 text-[12px] font-semibold text-white hover:bg-indigo-700 disabled:opacity-50"
+            >
+              Create
+            </button>
+            <button
+              type="button"
+              onClick={() => setNewCategory(null)}
+              className="text-[12px] text-slate-500 hover:underline"
+            >
+              cancel
+            </button>
+          </form>
+        )}
 
         <div className="mb-2 flex flex-wrap items-center gap-2">
           <input
@@ -308,8 +454,21 @@ export function ProgramsTable({
                   <th className="px-2 py-1.5">Application</th>
                 </tr>
               </thead>
-              <tbody>
-                {rows.map(({ entry, live, id, savedFaculty, likelyRecruiting }) => (
+              {groups.map((g) => (
+              <tbody key={g.id || 'none'}>
+                {grouped && (
+                  <tr className="bg-slate-100/70">
+                    <td colSpan={8} className="px-2 py-1.5">
+                      <CategoryHeader
+                        name={g.name}
+                        count={g.rows.length}
+                        onRename={g.id ? (name) => planner.renameCategory(g.id, name) : undefined}
+                        onRemove={g.id ? () => planner.removeCategory(g.id) : undefined}
+                      />
+                    </td>
+                  </tr>
+                )}
+                {g.rows.map(({ entry, live, id, savedFaculty, likelyRecruiting }) => (
                   <tr key={entry.id} className="border-b border-slate-100 align-top last:border-0 hover:bg-slate-50/60">
                     <td className="px-2 py-2">
                       <button
@@ -326,6 +485,21 @@ export function ProgramsTable({
                           </span>
                         )}
                       </div>
+                      {grouped && (
+                        <select
+                          value={entry.categoryId ?? ''}
+                          onChange={(e) => planner.setProgramCategory(entry.id, e.target.value || null)}
+                          title="Which of your categories this program belongs to"
+                          className="mt-1 rounded border border-slate-200 bg-white px-1 py-0.5 text-[11px] text-slate-600 focus:border-indigo-400 focus:outline-none"
+                        >
+                          <option value="">No category</option>
+                          {state.categories.map((c) => (
+                            <option key={c.id} value={c.id}>
+                              {c.name}
+                            </option>
+                          ))}
+                        </select>
+                      )}
                     </td>
                     <td className="px-2 py-2">
                       <StatusSelect
@@ -373,6 +547,7 @@ export function ProgramsTable({
                   </tr>
                 ))}
               </tbody>
+              ))}
             </table>
           </div>
         )}

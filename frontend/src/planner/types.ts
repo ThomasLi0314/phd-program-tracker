@@ -191,9 +191,21 @@ export interface FitAnalysis {
   generatedAt: string
 }
 
+/**
+ * A heading the user invents to group their programs — "Reach", "Ocean
+ * modelling", "Europe". The planner never assigns one: the point is that the
+ * grouping is the applicant's own judgement, not a computed bucket.
+ */
+export interface PlannerCategory {
+  id: string
+  name: string
+}
+
 export interface PlannerProgram {
   id: string
   ref: ProgramRef
+  /** PlannerCategory.id, or null for "no category". */
+  categoryId?: string | null
   /**
    * Identity. For `kind:'database'` these are a DISPLAY CACHE so tables can
    * render and sort before the field chunk loads — referenceBridge always
@@ -258,6 +270,8 @@ export interface PlannerSettings {
 export interface PlannerState {
   schemaVersion: 1
   settings: PlannerSettings
+  /** The user's own groupings, in the order they arranged them. */
+  categories: PlannerCategory[]
   /** "My Research Profile" — free text, fully editable (spec §13). */
   researchProfile: string
   programs: PlannerProgram[]
