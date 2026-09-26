@@ -802,8 +802,581 @@
       "links": {
         "program": "https://catalog.gatech.edu/programs/computational-science-engineering-phd/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32 · faculty 2026-09-26",
+      "faculty": [
+        {
+          "id": "srinivas-aluru",
+          "name": "Srinivas Aluru",
+          "title": "Senior Associate Dean and Regents' Professor",
+          "sub_field": "Parallel Algorithms for Bioinformatics & Systems Biology",
+          "tags": [
+            "high performance computing",
+            "bioinformatics",
+            "genome assembly",
+            "systems biology",
+            "combinatorial scientific computing",
+            "parallel algorithms"
+          ],
+          "summary": "Aluru works on high-performance computing, bioinformatics and systems biology, combinatorial scientific computing, and applied algorithms. He pioneered parallel methods in computational biology and contributed to the assembly and analysis of complex plant genomes; his group currently develops bioinformatics methods for high-throughput DNA sequencing, especially error correction and genome assembly, plus network inference using mutual information and Bayesian approaches.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "http://www.cc.gatech.edu/~saluru",
+            "scholar": null
+          }
+        },
+        {
+          "id": "anqi-wu",
+          "name": "Anqi Wu",
+          "title": "Edenfield Early-Career Assistant Professor",
+          "sub_field": "Probabilistic Models for Neural & Behavioral Data",
+          "tags": [
+            "computational neuroscience",
+            "probabilistic modeling",
+            "latent variable models",
+            "animal behavior",
+            "Bayesian inference",
+            "deep generative models"
+          ],
+          "summary": "Wu develops scientifically motivated probabilistic models for neural and behavioral analysis, with scalable inference algorithms to fit them. Her lab builds disentangled generative latent-variable models that mine interpretable representations from neural populations with variational autoencoders, deep Gaussian processes and Bayesian neural nets. A second thread analyses animal behavior, from 3D kinematic models to inverse reinforcement learning of intrinsic motives.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/site/anqiwuresearch",
+            "scholar": null
+          }
+        },
+        {
+          "id": "b-aditya-prakash",
+          "name": "B. Aditya Prakash",
+          "title": "Professor, Associate Chair for Academic Affairs",
+          "sub_field": "Data Science & Machine Learning for Epidemics and Large Networks",
+          "tags": [
+            "epidemic forecasting",
+            "graph mining",
+            "time series",
+            "machine learning",
+            "public health",
+            "urban computing"
+          ],
+          "summary": "Prakash works on data science, machine learning and AI, with emphasis on big-data problems in large real-world networks and time series, applied to epidemiology, health, urban computing, security and the web. Tools from his group are used at ORNL, the CDC, Walmart and Facebook, and his work is funded by NSF, CDC, DOE, NSA and NEH. He was named one of IEEE's 'AI Ten to Watch' in 2017 and received an NSF CAREER award in 2018.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "http://www.cc.gatech.edu/~badityap",
+            "scholar": null
+          }
+        },
+        {
+          "id": "bo-dai",
+          "name": "Bo Dai",
+          "title": "Assistant Professor",
+          "sub_field": "Reinforcement Learning & Generative Models for Agents",
+          "tags": [
+            "reinforcement learning",
+            "generative models",
+            "representation learning",
+            "decision making",
+            "machine learning"
+          ],
+          "summary": "Dai's research centres on agent AI built from generative models, representation learning and reinforcement learning, aiming at agents that can plan and make decisions by modelling the world. He develops principled and practical machine learning techniques for real-world applications. He is also a senior staff research scientist at Google DeepMind, and was previously at Google Brain; he earned his PhD in CSE at Georgia Tech with Le Song.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://bo-dai.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "c-david-sherrill",
+          "name": "C. David Sherrill",
+          "title": "Executive Director, Institute for Data Engineering and Science; Regents' Professor, joint with the School of Chemistry and Biochemistry",
+          "sub_field": "Computational Quantum Chemistry",
+          "tags": [
+            "quantum chemistry",
+            "electronic structure theory",
+            "intermolecular interactions",
+            "scientific software",
+            "algorithm development"
+          ],
+          "summary": "Sherrill is a Regents' Professor jointly appointed in Chemistry and Biochemistry and in CSE, and Executive Director of the Institute for Data Engineering and Science. He has published over 175 peer-reviewed articles on the development and application of new theoretical methods and algorithms in computational quantum chemistry.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.chemistry.gatech.edu/faculty/sherrill/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chao-zhang",
+          "name": "Chao Zhang",
+          "title": "Edenfield Early-Career Associate Professor",
+          "sub_field": "Data Mining, NLP & Label-Efficient Machine Learning",
+          "tags": [
+            "data mining",
+            "natural language processing",
+            "weakly-supervised learning",
+            "out-of-distribution generalization",
+            "interpretable machine learning",
+            "knowledge extraction"
+          ],
+          "summary": "Zhang works on data mining, machine learning and natural language processing, aiming to let machines understand text in more label-efficient and robust ways in open-world settings. Specific topics include weakly-supervised learning, out-of-distribution generalization, interpretable machine learning, and knowledge extraction and reasoning. He has received a Google Faculty Research Award, an Amazon Machine Learning Research Award and the ACM SIGKDD Dissertation Runner-up Award.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "http://chaozhang.org/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "duen-horng-polo-chau",
+          "name": "Duen Horng \"Polo\" Chau",
+          "title": "Professor, Associate Chair",
+          "sub_field": "Scalable Interactive Tools for Machine Learning & Visualization",
+          "tags": [
+            "data visualization",
+            "interpretable AI",
+            "graph mining",
+            "human-centered AI",
+            "cybersecurity",
+            "scalable analytics"
+          ],
+          "summary": "Chau's group bridges machine learning and visualization to build scalable interactive tools for making sense of massive datasets, interpreting complex AI models, and solving real-world problems in cybersecurity, human-centered AI, graph visualization and mining, and social good. He co-directs Georgia Tech's MS Analytics program and has published 200+ refereed articles with 19 best-paper-type awards.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://faculty.cc.gatech.edu/~dchau/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "edmond-chow",
+          "name": "Edmond Chow",
+          "title": "Professor",
+          "sub_field": "Numerical Linear Algebra for High-Performance Scientific Computing",
+          "tags": [
+            "numerical linear algebra",
+            "high performance computing",
+            "molecular dynamics",
+            "uncertainty quantification",
+            "data assimilation",
+            "Gaussian processes"
+          ],
+          "summary": "Chow works on numerical methods, particularly numerical linear algebra, for high-performance computers applied to scientific computing and data science: PDE models, quantum chemistry, molecular dynamics, Brownian/Stokesian dynamics, inverse problems, data assimilation, uncertainty quantification, Gaussian processes and machine learning. He previously held positions at D. E. Shaw Research and Lawrence Livermore National Laboratory.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.cc.gatech.edu/~echow",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elizabeth-cherry",
+          "name": "Elizabeth Cherry",
+          "title": "Professor, Associate Dean for Graduate Education",
+          "sub_field": "Computational Modeling of Cardiac Arrhythmias",
+          "tags": [
+            "cardiac modeling",
+            "modeling and simulation",
+            "high performance computing",
+            "numerical methods",
+            "data assimilation",
+            "nonlinear dynamics"
+          ],
+          "summary": "Cherry's research involves modeling and simulation, high-performance computing and numerical methods. Her group focuses on computational modeling of cardiac arrhythmias: model development, validation and parameter estimation; efficient solution methods implemented on parallel and GPGPU architectures; integration with experiments through data assimilation; and applications to the mechanisms behind complex dynamical states.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cc.gatech.edu/~echerry/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elizabeth-qian",
+          "name": "Elizabeth Qian",
+          "title": "Assistant Professor, joint with the Daniel Guggenheim School of Aerospace Engineering",
+          "sub_field": "Model Reduction & Scientific Machine Learning for Engineering Design",
+          "tags": [
+            "model reduction",
+            "scientific machine learning",
+            "surrogate models",
+            "uncertainty quantification",
+            "multifidelity methods",
+            "optimization and control"
+          ],
+          "summary": "Qian holds a joint appointment in Aerospace Engineering and CSE. Her interdisciplinary research develops computational methods for engineering design and decision-making in complex systems, specializing in efficient surrogate models through model reduction and scientific machine learning, and in multifidelity approaches that accelerate expensive computations in uncertainty quantification, optimization and control.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.elizabethqian.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "felix-herrmann",
+          "name": "Felix Herrmann",
+          "title": "Georgia Research Alliance Scholar Chair in Energy; Professor, joint with Earth & Atmospheric Sciences and ECE",
+          "sub_field": "Computational Imaging, Seismic Inversion & Machine Learning",
+          "tags": [
+            "computational imaging",
+            "seismic imaging",
+            "inverse problems",
+            "compressive sensing",
+            "PDE-constrained optimization",
+            "uncertainty quantification"
+          ],
+          "summary": "Herrmann's cross-disciplinary program spans computational imaging, including seismic and more recently medical imaging. He tackles imaging problems by adapting randomized linear algebra, PDE-constrained and convex optimization, high-performance computing, machine learning and uncertainty quantification, and has produced cost-saving innovations in time-lapse seismic acquisition and wave-equation imaging.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://slim.gatech.edu",
+            "scholar": null
+          }
+        },
+        {
+          "id": "haesun-park",
+          "name": "Haesun Park",
+          "title": "Stephen Fleming Professor, Regents' Professor and Chair, School of Computational Science and Engineering",
+          "sub_field": "Numerical Computing, Large-Scale Data Analysis & Visual Analytics",
+          "tags": [
+            "numerical computing",
+            "matrix factorization",
+            "visual analytics",
+            "text mining",
+            "parallel computing",
+            "large-scale data analysis"
+          ],
+          "summary": "Park chairs the School of CSE and publishes extensively in numerical computing, large-scale data analysis, visual analytics, text mining, parallel computing and bioinformatics. She was elected a SIAM Fellow (2013), IEEE Fellow (2016) and ACM Fellow (2020) for contributions to numerical computing, data analysis and visual analytics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cc.gatech.edu/~hpark/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "helen-xu",
+          "name": "Helen Xu",
+          "title": "Assistant Professor",
+          "sub_field": "Parallel & Cache-Efficient Algorithms and Data Structures",
+          "tags": [
+            "parallel algorithms",
+            "cache-efficient data structures",
+            "high performance computing",
+            "graph processing",
+            "performance engineering"
+          ],
+          "summary": "Xu's main research interests are parallel and cache-friendly algorithms and data structures. She came to Georgia Tech from Lawrence Berkeley National Laboratory, where she was the 2022 Grace Hopper Postdoctoral Scholar, and completed her PhD at MIT in 2022 with Charles E. Leiserson. Her work has been supported by a National Physical Sciences Consortium fellowship and a Chateaubriand fellowship, and she has interned at Microsoft Research, NVIDIA Research and Sandia National Laboratories.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://itshelenxu.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kai-wang",
+          "name": "Kai Wang",
+          "title": "Assistant Professor",
+          "sub_field": "Decision-Focused Learning for Public Health & Conservation",
+          "tags": [
+            "multi-agent systems",
+            "computational game theory",
+            "decision-focused learning",
+            "optimization",
+            "machine learning",
+            "public health"
+          ],
+          "summary": "Wang works on multi-agent systems, computational game theory, machine learning and optimization, and their applications in public health and conservation. A key technical contribution is decision-focused learning, which integrates machine learning with optimization to strengthen learning performance; his algorithms are deployed with a non-profit in India working on maternal and child health.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://guaguakai.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mahdi-roozbahani",
+          "name": "Mahdi Roozbahani",
+          "title": "Lecturer (also School of Computing Instruction)",
+          "sub_field": "Modeling and Simulation, Network Analysis & Machine Learning",
+          "tags": [
+            "modeling and simulation",
+            "network analysis",
+            "machine learning",
+            "teaching faculty"
+          ],
+          "summary": "Roozbahani is a lecturer in the School of CSE and the School of Computing Instruction, and the founder of Filio, a cloud platform for organizing site photos that started in the CREATE-X incubator. His research interests include modeling and simulation, network analysis and machine learning. He earned his PhD in Computational Science and Engineering at Georgia Tech in 2019 under David Frost, along with three master's degrees, and has published over 10 journal and conference papers.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://mahdi-roozbahani.github.io",
+            "scholar": "https://scholar.google.com/citations?user=W8oVUI8AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "mark-borodovsky",
+          "name": "Mark Borodovsky",
+          "title": "Regents' Professor, joint with the Wallace H. Coulter Department of Biomedical Engineering",
+          "sub_field": "Machine Learning for Genome Annotation & Bioinformatics",
+          "tags": [
+            "bioinformatics",
+            "gene prediction",
+            "genome annotation",
+            "probabilistic models",
+            "machine learning",
+            "biological sequence analysis"
+          ],
+          "summary": "Borodovsky's group develops machine learning algorithms for the computational analysis of biological sequences - DNA, RNA and proteins - with a primary focus on predicting protein-coding genes and regulatory sites in genomic DNA. Probabilistic models play a central role in the algorithmic framework, given the probabilistic nature of biological sequence evolution. He also serves as the Bioinformatics PhD coordinator at Georgia Tech.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://bme.gatech.edu/bme/faculty/Mark-Borodovsky",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nabil-imam",
+          "name": "Nabil Imam",
+          "title": "Assistant Professor",
+          "sub_field": "Computational Neuroscience & Neuromorphic Systems",
+          "tags": [
+            "computational neuroscience",
+            "neuromorphic computing",
+            "probability theory",
+            "control systems",
+            "asynchronous circuits"
+          ],
+          "summary": "Imam's lab uses tools from probability theory and control systems to address questions in neuroscience through the lens of computing; he is also interested in process algebras and their applications to asynchronous circuits and systems. He received his PhD in electrical engineering and neuroscience from Cornell, advised by Rajit Manohar and Barbara Finlay, and then worked at IBM Research and Intel Labs on projects at the intersection of neuroscience and AI.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://sites.google.com/cornell.edu/nabil-imam/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "peng-chen",
+          "name": "Peng Chen",
+          "title": "Assistant Professor",
+          "sub_field": "Scientific Machine Learning & Uncertainty Quantification",
+          "tags": [
+            "scientific machine learning",
+            "uncertainty quantification",
+            "Bayesian inverse problems",
+            "reduced-order modeling",
+            "optimization under uncertainty",
+            "computational mathematics"
+          ],
+          "summary": "Chen leads the SciML & UQ group, working on data-driven modeling, learning and optimization of complex systems under uncertainty. Methods developed in the group include projected neural networks and operators, weighted and goal-oriented reduced basis methods, high-order functional Taylor approximation, randomized low-rank tensor and operator decompositions, and adaptive sparse grids.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://faculty.cc.gatech.edu/~pchen402/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "qi-tang",
+          "name": "Qi Tang",
+          "title": "Assistant Professor",
+          "sub_field": "Computational Plasma Physics & Scientific Machine Learning",
+          "tags": [
+            "computational plasma physics",
+            "fusion simulation",
+            "scalable numerical algorithms",
+            "multiphysics",
+            "multiscale problems",
+            "scientific machine learning"
+          ],
+          "summary": "Tang's research interests are computational plasma physics, fusion simulations, scalable numerical algorithms, multi-physics and multi-scale problems, and scientific machine learning. He came to Georgia Tech from Los Alamos National Laboratory, where he was a staff scientist in the Applied Mathematics and Plasma Physics Group, and was previously an Eliza Ricketts Foundation Postdoctoral Fellow at RPI.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://tangqi.github.io/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "raphael-pestourie",
+          "name": "Raphaël Pestourie",
+          "title": "Assistant Professor",
+          "sub_field": "Scientific Machine Learning & Inverse Design",
+          "tags": [
+            "scientific machine learning",
+            "inverse design",
+            "electromagnetic design",
+            "applied mathematics",
+            "surrogate models"
+          ],
+          "summary": "Pestourie's research focuses on scientific machine learning at the intersection of applied mathematics and machine learning, and on inverse design via scientific machine learning and large-scale electromagnetic design. He earned his PhD in applied mathematics and an AM in statistics at Harvard in 2020, and was previously a postdoctoral associate at MIT Mathematics, where he worked closely with the MIT-IBM Watson AI Lab.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.raphaelpestourie.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "richard-vuduc",
+          "name": "Richard Vuduc",
+          "title": "Professor",
+          "sub_field": "High-Performance Computing & Performance Engineering",
+          "tags": [
+            "high performance computing",
+            "performance analysis",
+            "performance engineering",
+            "parallel algorithms",
+            "scientific computing"
+          ],
+          "summary": "Vuduc leads the HPC Garage lab, which works on high-performance computing with an emphasis on algorithms, performance analysis and performance engineering. He holds a DARPA Computer Science Study Group grant, an NSF CAREER award and a collaborative Gordon Bell Prize (2010), plus best paper awards at SIAM SDM 2012 and IEEE IPDPS 2015.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "http://www.cc.gatech.edu/~richie/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "srijan-kumar",
+          "name": "Srijan Kumar",
+          "title": "Associate Professor",
+          "sub_field": "Web Safety, Misinformation & Network Science",
+          "tags": [
+            "misinformation detection",
+            "user modeling",
+            "network science",
+            "social media",
+            "cybersecurity",
+            "data science"
+          ],
+          "summary": "Kumar develops data science solutions for high-stakes challenges on the web and in society, pioneering user models and network science tools that improve people's well-being and safety. His methods to predict malicious users and false information are used in production at Flipkart and Wikipedia and taught in graduate courses worldwide, with applications across e-commerce, social media, finance, health and cybersecurity.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cc.gatech.edu/~skumar498/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "surya-kalidindi",
+          "name": "Surya Kalidindi",
+          "title": "Regents' Professor, joint with the George W. Woodruff School of Mechanical Engineering",
+          "sub_field": "Materials Informatics & Microstructure-Sensitive Design",
+          "tags": [
+            "materials informatics",
+            "crystal plasticity",
+            "multiscale models",
+            "microstructure-sensitive design",
+            "data analytics",
+            "nanoindentation"
+          ],
+          "summary": "Kalidindi designs a material's internal structure, including its composition, for optimal performance in a chosen application, and identifies hybrid processing routes to manufacture it, blending experimental, theoretical and numerical approaches. Topics include physics-based multiscale models, crystal plasticity and texture evolution, microstructure-sensitive design with n-point statistics and spectral methods, materials knowledge systems, and spherical nanoindentation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://matin.gatech.edu/groups/mined_super/research",
+            "scholar": null
+          }
+        },
+        {
+          "id": "umit-v-catalyurek",
+          "name": "Ümit V. Çatalyürek",
+          "title": "Professor",
+          "sub_field": "Parallel Computing & Combinatorial Scientific Computing",
+          "tags": [
+            "parallel computing",
+            "graph and hypergraph partitioning",
+            "combinatorial scientific computing",
+            "scheduling",
+            "runtime systems",
+            "biomedical informatics"
+          ],
+          "summary": "Çatalyürek's main research areas are parallel computing, combinatorial scientific computing and biomedical informatics; he is particularly interested in graph and hypergraph partitioning, workload and data decomposition for irregular domains, scheduling, parallel graph algorithms, and runtime systems for high-performance and data-intensive computing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://faculty.cc.gatech.edu/~umit/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "victor-fung",
+          "name": "Victor Fung",
+          "title": "Assistant Professor",
+          "sub_field": "Machine Learning for Materials & Chemical Discovery",
+          "tags": [
+            "machine learning",
+            "materials discovery",
+            "computational chemistry",
+            "inverse design",
+            "atomistic simulation",
+            "autonomous laboratories"
+          ],
+          "summary": "Fung's group harnesses computing and machine learning to accelerate chemical discovery, with the goal of realizing materials by inverse design. The work develops methods and tools that incorporate chemical information to model phenomena at the atomic scale and to design new materials atom by atom, and establishes automated, data-driven ecosystems for materials discovery on the latest supercomputers. He came to Georgia Tech from Oak Ridge National Laboratory, where he was a Wigner Fellow.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://www.fung-group.org/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xiuwei-zhang",
+          "name": "Xiuwei Zhang",
+          "title": "Associate Professor",
+          "sub_field": "Machine Learning for Single-Cell Genomics",
+          "tags": [
+            "single-cell genomics",
+            "computational biology",
+            "data integration",
+            "spatial omics",
+            "machine learning",
+            "optimization"
+          ],
+          "summary": "Zhang's group applies machine learning and optimization to single-cell RNA-seq and other single-cell data, studying cellular mechanisms in differentiation, development and disease progression. Four directions run through the work: multi-modal, multi-batch and multi-condition data integration (scDART, scMoMaT); temporal analysis over pseudotime and cell divisions (CellPath, LinRace); spatial omics and spatio-temporal dynamics (CLARIFY, TemSOMap); and simulation of single-cell data.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://xiuweizhang.wordpress.com/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yunan-luo",
+          "name": "Yunan Luo",
+          "title": "Assistant Professor",
+          "sub_field": "Machine Learning for Computational Biology",
+          "tags": [
+            "computational biology",
+            "machine learning",
+            "protein engineering",
+            "functional genomics",
+            "generative AI",
+            "drug discovery"
+          ],
+          "summary": "Luo works at the intersection of computational biology and machine learning. Recent interests listed on his group page include geometric deep learning, generative AI and large language models, network and systems biology, functional genomics, cancer genomics, drug repositioning and discovery, and AI-guided protein engineering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://faculty.cc.gatech.edu/~yunan/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "carl-yang",
+          "name": "Carl Yang",
+          "title": "Adjunct Professor (School of CSE); Associate Professor of Computer Science, Emory University",
+          "sub_field": "Graph Mining & Multimodal Foundation Models for Health",
+          "tags": [
+            "data mining",
+            "graph analytics",
+            "deep learning",
+            "foundation models",
+            "trustworthy AI",
+            "biomedicine and healthcare"
+          ],
+          "summary": "Yang is a tenured associate professor of computer science at Emory, jointly appointed in Emory's Rollins School of Public Health and Nell Hodgson Woodruff School of Nursing and in Georgia Tech's School of CSE. His research spans data mining, deep learning, multimodality foundation models and trustworthy AI, applied to graph analytics, neuroscience, biomedicine and healthcare, with 250+ peer-reviewed publications. He is an ACM SIGKDD Rising Star and an ACSIC Rising Star Award recipient (2026).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.cs.emory.edu/~jyang71/",
+            "scholar": "https://scholar.google.com/citations?user=mOINlwcAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "pascal-van-hentenryck",
+          "name": "Pascal Van Hentenryck",
+          "title": "Adjunct Professor (School of CSE); A. Russell Chandler III Chair and Professor, ISyE",
+          "sub_field": "AI & Optimization for Energy, Mobility and Supply Chains",
+          "tags": [
+            "optimization",
+            "artificial intelligence",
+            "constraint programming",
+            "energy systems",
+            "mobility systems",
+            "supply chains"
+          ],
+          "summary": "Van Hentenryck's research is in artificial intelligence and operations research; his current focus is developing AI methodologies, algorithms and systems for energy systems, supply chains and manufacturing, health care, mobility and corporate systems. He directs the NSF AI Institute for Advances in Optimization and Tech AI at Georgia Tech, and is a pioneer of constraint programming and the fusion of AI and optimization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://www.isye.gatech.edu/users/pascal-van-hentenryck",
+            "scholar": "https://scholar.google.com/citations?hl=en&user=GxFQz-4AAAAJ"
+          }
+        }
+      ]
     },
     {
       "id": "massachusetts-institute-of-technology-computational-science-and-engineering-phd",

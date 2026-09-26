@@ -4,7 +4,7 @@
     "generated_at": "2026-09-22",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep + Singapore/Hong Kong PhD wave",
-    "note": "1436 STEM PhD/MSc programs; faculty rosters on 560 programs (15749 faculty). Unknown/Verify = not yet confirmed on an official page."
+    "note": "1436 STEM PhD/MSc programs; faculty rosters on 561 programs (15778 faculty). Unknown/Verify = not yet confirmed on an official page."
   },
   "total": 1436,
   "fields": [
@@ -1769,8 +1769,8 @@
       "primary": "Computational Science",
       "slug": "computational-science",
       "count": 23,
-      "withFaculty": 3,
-      "facultyCount": 75,
+      "withFaculty": 4,
+      "facultyCount": 104,
       "subs": [
         "Applied Mathematics",
         "Bioinformatics",
@@ -1799,7 +1799,9 @@
       "subsWithFaculty": [
         "Applied Mathematics",
         "Computational Science",
+        "Data Science",
         "Fluid Dynamics",
+        "HPC",
         "Machine Learning",
         "Scientific Computing",
         "Uncertainty Quantification"
