@@ -11,6 +11,7 @@
 import type { Program } from '../types'
 import { UNKNOWN } from '../types'
 import type { Tone } from '../components/Badge'
+import { NO_DATE_LABEL, formatDate } from './deadlineFormat'
 
 export type DeadlineKind =
   /** a future date inside the target cycle's application window */
@@ -34,12 +35,9 @@ export interface DeadlineStatus {
   iso: string | null
 }
 
-const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-
+/** A deadline date, in the app's one format (see lib/deadlineFormat). */
 export function formatIso(iso: string): string {
-  const [y, m, d] = iso.split('-').map(Number)
-  if (!y || !m || !d) return iso
-  return `${MONTHS[m - 1]} ${d}, ${y}`
+  return formatDate(iso)
 }
 
 /**
@@ -63,17 +61,22 @@ export function deadlineStatus(p: Program, cycle: string, today = new Date()): D
   const display = (r.deadline_display ?? '').trim()
   const iso = r.deadline && /^\d{4}-\d{2}-\d{2}$/.test(r.deadline) ? r.deadline : null
 
-  if (/\bpaused\b|\bsuspended\b|not admitting|no admissions/i.test(display)) {
-    return { kind: 'paused', text: 'Paused', detail: display, tone: 'rose', iso: null }
-  }
-  if (/\brolling\b|\bcontinuous\b/i.test(display)) {
-    return { kind: 'rolling', text: 'Rolling', detail: display, tone: 'sky', iso: null }
-  }
+  // A confirmed date outranks the prose around it: "HKPFS 1 Dec 2026 · dept
+  // deadlines rolling" has a date to plan around, and showing only "Rolling"
+  // hid it. Rolling and paused are for programs with no date at all.
   if (!iso) {
+    if (/\bpaused\b|\bsuspended\b|not admitting|no admissions/i.test(display)) {
+      return { kind: 'paused', text: NO_DATE_LABEL.paused, detail: display, tone: 'rose', iso: null }
+    }
+    if (/\brolling\b|\bcontinuous\b/i.test(display)) {
+      return { kind: 'rolling', text: NO_DATE_LABEL.rolling, detail: display, tone: 'sky', iso: null }
+    }
     const known = display && display !== UNKNOWN
     return {
       kind: 'unknown',
-      text: known ? display.replace(/\s*\(.*\)\s*/g, '').trim().slice(0, 40) : 'Verify',
+      // The sentence goes in the tooltip, not the badge: a clipped fragment of
+      // it was the one thing on the card that wasn't a date or a state.
+      text: NO_DATE_LABEL.unknown,
       detail: known
         ? `${display} — no machine-readable date; confirm on the program page.`
         : 'No deadline confirmed on an official page yet.',

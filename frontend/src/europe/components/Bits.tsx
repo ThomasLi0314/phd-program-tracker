@@ -1,6 +1,8 @@
 import type { ReactNode } from 'react'
 import type { EuroField, ScholarshipLevel, Sourced } from '../types'
 import { UNKNOWN_LABEL, isUnknown } from '../types'
+import { NO_DATE_LABEL, formatDate } from '../../lib/deadlineFormat'
+import { parseMastersDeadline } from '../plan/resolve'
 
 /**
  * A value that came off a real page, rendered with its source one click away.
@@ -51,6 +53,32 @@ export function Fact({
       {body}
       <span className="ml-0.5 align-super text-[9px] text-slate-300 group-hover/fact:text-indigo-500">↗</span>
     </a>
+  )
+}
+
+/**
+ * A deadline off a programme page, as a date in the app's one format (see
+ * lib/deadlineFormat). Programme pages write dates every way there is — "31
+ * January 2027", "15 February – 31 March", "Priority 31 Dec 2026, final 30 Apr
+ * 2027" — so the date you actually have to hit is parsed out and shown, with
+ * the page's own sentence kept on hover and, in the expanded row, in full.
+ */
+export function DeadlineFact({ value, compact = false }: { value: Sourced | undefined; compact?: boolean }) {
+  if (isUnknown(value)) return <Fact value={value} compact={compact} />
+  const text = String(value!.value)
+  const parsed = parseMastersDeadline(text)
+  const dated = parsed.kind === 'dated' && parsed.iso
+  const label = dated ? formatDate(parsed.iso!) : NO_DATE_LABEL[parsed.kind === 'dated' ? 'unknown' : parsed.kind]
+  return (
+    <span className={dated ? 'whitespace-nowrap tabular-nums' : 'italic text-amber-700'} title={text}>
+      {label}
+      {dated && parsed.yearInferred && (
+        <span className="ml-0.5 text-[10px] not-italic text-slate-400" title="The page gives no year — the next occurrence is assumed">
+          (year?)
+        </span>
+      )}
+      {!compact && text !== label && <span className="ml-1 text-slate-400">({text})</span>}
+    </span>
   )
 }
 

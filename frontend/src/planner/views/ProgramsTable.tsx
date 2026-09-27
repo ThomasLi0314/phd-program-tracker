@@ -9,7 +9,7 @@ import type { ReferencePool } from '../lib/useReferencePool'
 import type { PlannerApi } from '../lib/usePlanner'
 import { facultyOccurrences, programIdentity, resolveProgram } from '../lib/referenceBridge'
 import { isLikelyRecruiting } from '../lib/recruitment'
-import { formatDeadline, resolveDeadline } from '../lib/deadlines'
+import { deadlineLabel, resolveDeadline } from '../lib/deadlines'
 import { money, rentShare, SCOPE_LABEL, stipendShort, useHousing, type HousingPlace } from '../../lib/costOfLiving'
 import { effectiveContact, findRecord, useOutreachSnapshot } from '../lib/outreachBridge'
 import {
@@ -113,6 +113,38 @@ function CategoryHeader({
 }
 
 /**
+ * The deadline for one row, always as a date in the app's one format — the cell
+ * used to print the stored sentence, so a column of deadlines was a column of
+ * three different date styles and the odd paragraph. The sentence stays on
+ * hover, where its caveats can be read in full.
+ */
+function DeadlineCell({
+  field,
+  liveIso,
+}: {
+  field: PlannerProgram['admissions']['deadline']
+  liveIso: string | null | undefined
+}) {
+  const parsed = resolveDeadline(field, liveIso)
+  const raw = field?.value == null ? '' : String(field.value)
+  const dated = parsed.kind === 'dated' && !!parsed.iso
+  const label = parsed.kind === 'unknown' ? UNKNOWN_LABEL : deadlineLabel(parsed)
+  return (
+    <span
+      className={dated ? 'whitespace-nowrap tabular-nums text-slate-700' : 'italic text-amber-700'}
+      title={raw && raw !== label ? raw : undefined}
+    >
+      {label}
+      {dated && parsed.yearInferred && (
+        <span className="ml-1 text-[10px] not-italic text-slate-400" title="The page gives no year — the next occurrence is assumed">
+          (year?)
+        </span>
+      )}
+    </span>
+  )
+}
+
+/**
  * Stipend and rent for one row. The stipend is the dataset's (an official page
  * states it); rent is the average near that university. A share is shown only
  * when the two are in the same currency and the stipend covers a whole year.
@@ -203,10 +235,12 @@ export function ProgramsTable({
         return APPLICATION_ORDER.indexOf(a.entry.status) - APPLICATION_ORDER.indexOf(b.entry.status)
       if (sortBy === 'faculty') return b.savedFaculty - a.savedFaculty
       if (sortBy === 'deadline') {
-        // Unknown deadlines sort last — they're the ones needing work, but they
-        // shouldn't crowd out the dates you can actually plan around.
-        const av = a.entry.admissions.deadline?.value ?? ''
-        const bv = b.entry.admissions.deadline?.value ?? ''
+        // Sort on the parsed date, not the stored sentence: comparing text put
+        // "Apr 1, 2027" above "Dec 1, 2026". Deadlines with no date sort last —
+        // they're the ones needing work, but they shouldn't crowd out the dates
+        // you can actually plan around.
+        const av = resolveDeadline(a.entry.admissions.deadline, a.live?.requirements.deadline).iso ?? ''
+        const bv = resolveDeadline(b.entry.admissions.deadline, b.live?.requirements.deadline).iso ?? ''
         if (!av && !bv) return 0
         if (!av) return 1
         if (!bv) return -1
@@ -245,12 +279,10 @@ export function ProgramsTable({
       const parsed = resolveDeadline(entry.admissions.deadline, live?.requirements.deadline)
       const deadline =
         parsed.kind === 'dated' && parsed.iso
-          ? `${formatDeadline(parsed.iso)}${parsed.yearInferred ? ' (year inferred)' : ''}`
-          : parsed.kind === 'rolling'
-            ? 'Rolling'
-            : parsed.kind === 'paused'
-              ? 'Paused'
-              : UNKNOWN_LABEL
+          ? `${deadlineLabel(parsed)}${parsed.yearInferred ? ' (year inferred)' : ''}`
+          : parsed.kind === 'unknown'
+            ? UNKNOWN_LABEL
+            : deadlineLabel(parsed)
       const funding = entry.funding.level?.value ? FUNDING_LABELS[entry.funding.level.value] : UNKNOWN_LABEL
       const s = live?.requirements.funding.stipend
       const short = s ? stipendShort(s) : null
@@ -510,11 +542,7 @@ export function ProgramsTable({
                       />
                     </td>
                     <td className="px-2 py-2 text-[12.5px]">
-                      {entry.admissions.deadline?.value ? (
-                        <span className="text-slate-700">{entry.admissions.deadline.value}</span>
-                      ) : (
-                        <span className="italic text-amber-700">{UNKNOWN_LABEL}</span>
-                      )}
+                      <DeadlineCell field={entry.admissions.deadline} liveIso={live?.requirements.deadline} />
                     </td>
                     <td className="px-2 py-2 text-[12.5px]">
                       {entry.admissions.gre?.value ? (

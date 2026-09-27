@@ -9,6 +9,7 @@
 import { useState } from 'react'
 import type { ResearchField } from '../types'
 import { ageInDays, bestSource, isStale, originLabel } from '../lib/researchField'
+import { dateInputValue } from '../lib/deadlines'
 import { UNKNOWN_LABEL } from '../lib/labels'
 
 const CONFIDENCE_TONE: Record<string, string> = {
@@ -22,6 +23,7 @@ export function FieldRow<T>({
   field,
   display,
   options,
+  editor = 'text',
   onSetValue,
   onToggleLock,
   onRevert,
@@ -33,6 +35,8 @@ export function FieldRow<T>({
   display: string | null
   /** When given, the editor is a dropdown of [rawValue, label] pairs. */
   options?: { value: string; label: string }[]
+  /** 'date' opens the browser's date picker instead of a text box. */
+  editor?: 'text' | 'date'
   /** Raw editor text; '' means "back to Unknown". Caller parses into T. */
   onSetValue: (raw: string) => void
   onToggleLock: () => void
@@ -42,6 +46,9 @@ export function FieldRow<T>({
 }) {
   const [editing, setEditing] = useState(false)
   const [draft, setDraft] = useState('')
+  // A date field can still need words — "Rolling", or two rounds in one line —
+  // so the picker has a way out rather than being the only option.
+  const [asText, setAsText] = useState(false)
 
   const locked = field?.ownership === 'locked'
   const stale = isStale(field, staleAfterDays)
@@ -49,11 +56,17 @@ export function FieldRow<T>({
   const age = ageInDays(field)
 
   const begin = () => {
-    setDraft(display ?? '')
+    // The picker needs an ISO date or nothing; "Rolling" opens it empty.
+    setDraft(editor === 'date' ? dateInputValue(display) : (display ?? ''))
+    setAsText(false)
     setEditing(true)
   }
   const commit = () => {
     onSetValue(draft)
+    setEditing(false)
+  }
+  const save = (raw: string) => {
+    onSetValue(raw)
     setEditing(false)
   }
 
@@ -83,6 +96,24 @@ export function FieldRow<T>({
                   </option>
                 ))}
               </select>
+            ) : editor === 'date' && !asText ? (
+              // Saved when the field is left, not on change: a date typed rather
+              // than picked passes through complete-but-wrong values on the way
+              // — typing the year of "2027-01-02" hits "0002-01-02" after one
+              // keystroke. The buttons below keep focus so they still get their
+              // click (see onMouseDown).
+              <input
+                type="date"
+                autoFocus
+                value={draft}
+                onChange={(e) => setDraft(e.target.value)}
+                onBlur={commit}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') commit()
+                  if (e.key === 'Escape') setEditing(false)
+                }}
+                className="w-full rounded border border-indigo-300 px-1.5 py-0.5 text-[12px] text-slate-800 focus:outline-none"
+              />
             ) : (
               // A textarea, not an input: notes like "Other requirements" run
               // to a few sentences. Enter saves; Shift+Enter starts a new line.
@@ -105,7 +136,33 @@ export function FieldRow<T>({
               />
             )}
             <div className="mt-0.5 flex items-center justify-end gap-2 text-[10px] text-slate-400">
-              {options ? 'Pick a value' : 'Enter to save · Shift+Enter new line · Esc to cancel'}
+              {editor === 'date' && !asText && (
+                <>
+                  {/* Keep focus in the input so its onBlur doesn't fire first
+                      and close the row before the click lands. */}
+                  <button
+                    onMouseDown={(e) => e.preventDefault()}
+                    onClick={() => save('')}
+                    className="hover:text-rose-600 hover:underline"
+                  >
+                    Clear
+                  </button>
+                  <span>·</span>
+                  <button
+                    onMouseDown={(e) => e.preventDefault()}
+                    onClick={() => setAsText(true)}
+                    className="hover:text-indigo-600 hover:underline"
+                  >
+                    text instead
+                  </button>
+                  <span>·</span>
+                </>
+              )}
+              {options
+                ? 'Pick a value'
+                : editor === 'date' && !asText
+                  ? 'Pick a date · Esc to cancel'
+                  : 'Enter to save · Shift+Enter new line · Esc to cancel'}
             </div>
           </div>
         ) : (

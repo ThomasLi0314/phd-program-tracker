@@ -7,6 +7,7 @@
 
 import type { GreStatus, Program } from '../types'
 import { UNKNOWN } from '../types'
+import { ISO_DATE_RE } from './deadlineFormat'
 
 /** A user's free text mapped back onto the controlled value the chips and the
  *  GRE filter switch on. Unrecognised text keeps the dataset's status, so a
@@ -19,17 +20,23 @@ function normalizeGre(text: string, fallback: GreStatus): GreStatus {
   return fallback
 }
 
-/** "Dec 15, 2026" -> "2026-12-15", so an edited deadline also sorts correctly.
- *  Anything unparseable leaves the dataset's ISO date alone. */
+/** "2026-12-15" (what the date picker writes) or "Dec 15, 2026" -> "2026-12-15",
+ *  so an edited deadline also sorts correctly. Text with no date in it leaves the
+ *  dataset's ISO date alone — unless it says there is no fixed date, where my
+ *  words have to win over a date the database still holds, or the card would keep
+ *  counting down to a deadline I just said doesn't exist. */
 function parseDeadline(text: string, fallback: string | null): string | null {
   const cleaned = text.replace(/\s*\(.*?\)\s*/g, ' ').trim()
+  if (ISO_DATE_RE.test(cleaned)) return cleaned
   const ms = Date.parse(cleaned)
-  if (Number.isNaN(ms)) return fallback
-  const d = new Date(ms)
   // A bare "Dec 15" parses to the current year, which would sort wrong; require
   // the text to actually carry a 4-digit year.
-  if (!/\b(19|20)\d{2}\b/.test(cleaned)) return fallback
-  return d.toISOString().slice(0, 10)
+  if (Number.isNaN(ms) || !/\b(19|20)\d{2}\b/.test(cleaned)) {
+    return /\brolling\b|\bcontinuous\b|\bpaused\b|\bsuspended\b|no fixed|no deadline/i.test(text)
+      ? null
+      : fallback
+  }
+  return new Date(ms).toISOString().slice(0, 10)
 }
 
 /** "$110" / "110 USD" -> 110, for the application-fee slider. */

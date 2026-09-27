@@ -29,6 +29,7 @@ import {
 import { EditableLink } from '../../components/EditableLink'
 import { StipendRent } from '../../components/StipendRent'
 import { FieldRow } from '../components/FieldValue'
+import { deadlineLabel, resolveDeadline } from '../lib/deadlines'
 import { StatusSelect } from '../components/StatusChip'
 import { AddFacultyModal } from '../components/AddFacultyModal'
 import { ProgramResearchPanel } from '../components/ResearchPanel'
@@ -141,6 +142,40 @@ export function ProgramDetail({
         onRevert={revertFor(section, key)}
         staleAfterDays={state.settings.staleAfterDays}
       />
+    )
+  }
+
+  /**
+   * The deadline row. Shown as a date in the app's one format, whatever shape
+   * the source sentence had, with that sentence underneath so its caveats
+   * ("prior cycle", "priority round") stay readable. Editing opens a date
+   * picker, so my own edits arrive in the same format as the database's.
+   */
+  const deadlineRow = () => {
+    const f = entry.admissions.deadline
+    const parsed = resolveDeadline(f, live?.requirements.deadline)
+    const raw = f?.value == null ? '' : String(f.value)
+    const label = raw || parsed.iso ? deadlineLabel(parsed) : null
+    const note = raw && raw !== label ? raw : null
+    return (
+      <>
+        <FieldRow
+          label="Deadline"
+          field={f}
+          display={label}
+          editor="date"
+          onSetValue={(input) => patchField('admissions', 'deadline', input.trim() === '' ? null : input.trim())}
+          onToggleLock={() => lockField('admissions', 'deadline')}
+          onRevert={revertFor('admissions', 'deadline')}
+          staleAfterDays={state.settings.staleAfterDays}
+        />
+        {note && (
+          <div className="-mt-1 pb-1.5 text-right text-[10.5px] leading-snug text-slate-400 [overflow-wrap:anywhere]">
+            {parsed.yearInferred && <span className="text-amber-600">no year on the page — next occurrence assumed · </span>}
+            {note}
+          </div>
+        )}
+      </>
     )
   }
 
@@ -323,7 +358,7 @@ export function ProgramDetail({
         <div className="grid gap-3 lg:grid-cols-2">
           <section className={card}>
             <h2 className={heading}>Admissions</h2>
-            {textRow('admissions', 'deadline', 'Deadline')}
+            {deadlineRow()}
             {optionRow('admissions', 'gre', 'GRE', [
               { value: 'Required', label: 'Required' },
               { value: 'Optional', label: 'Optional' },

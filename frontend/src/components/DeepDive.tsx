@@ -19,7 +19,8 @@ import { AdvisorCard, type AdvisorDensity } from './AdvisorCard'
 import type { ProgramDoc } from '../lib/programDocs'
 import { advisorKey } from '../lib/starredAdvisors'
 import type { ProgramField } from '../lib/overrides'
-import { deadlineStatus, DEADLINE_KIND_LABEL } from '../lib/deadlineStatus'
+import { deadlineStatus, formatIso, DEADLINE_KIND_LABEL } from '../lib/deadlineStatus'
+import { dateInputValue } from '../planner/lib/deadlines'
 import type { PlanSummary } from '../lib/planBridge'
 import { groupByCanonical } from '../lib/subfields'
 import { usePref } from '../lib/viewPrefs'
@@ -37,6 +38,7 @@ function EditableCell({
   onSave,
   wide = false,
   multiline = false,
+  date = false,
   placeholder,
 }: {
   label: string
@@ -46,16 +48,25 @@ function EditableCell({
   onSave: (text: string) => void
   wide?: boolean
   multiline?: boolean
+  /** A calendar date: edit it with the browser's date picker. */
+  date?: boolean
   placeholder?: string
 }) {
   const [editing, setEditing] = useState(false)
   const [draft, setDraft] = useState('')
+  // A date field can still need words — "Rolling", or two rounds in one line —
+  // so the picker has a way out rather than being the only option.
+  const [asText, setAsText] = useState(false)
   const hasOverride = override.trim().length > 0
   const effective = hasOverride ? override : value
+  const picking = date && !asText
 
   useEffect(() => {
-    if (!editing) setDraft(hasOverride ? override : value === UNKNOWN ? '' : value)
-  }, [editing, override, value, hasOverride])
+    if (editing) return
+    const text = hasOverride ? override : value === UNKNOWN ? '' : value
+    setDraft(date ? dateInputValue(text) : text)
+    setAsText(false)
+  }, [editing, override, value, hasOverride, date])
 
   const save = () => {
     onSave(draft)
@@ -90,7 +101,22 @@ function EditableCell({
       </div>
       {editing ? (
         <div className="mt-1">
-          {multiline ? (
+          {picking ? (
+            // Saved on Save, not on change: a date typed rather than picked
+            // passes through complete-but-wrong values on the way — typing the
+            // year of "2027-01-02" hits "0002-01-02" after one keystroke.
+            <input
+              type="date"
+              value={draft}
+              onChange={(e) => setDraft(e.target.value)}
+              autoFocus
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') save()
+                else if (e.key === 'Escape') setEditing(false)
+              }}
+              className="w-full rounded border border-indigo-300 px-2 py-1 text-[13px] leading-snug text-slate-800 focus:outline-none focus:ring-1 focus:ring-indigo-200"
+            />
+          ) : multiline ? (
             <textarea
               value={draft}
               onChange={(e) => setDraft(e.target.value)}
@@ -123,6 +149,22 @@ function EditableCell({
             >
               Save
             </button>
+            {picking && (
+              <>
+                <button
+                  onClick={() => {
+                    onSave('')
+                    setEditing(false)
+                  }}
+                  className="text-slate-500 hover:text-rose-600"
+                >
+                  Clear
+                </button>
+                <button onClick={() => setAsText(true)} className="text-slate-500 hover:text-indigo-600">
+                  text instead
+                </button>
+              </>
+            )}
             <button onClick={() => setEditing(false)} className="text-slate-500 hover:text-slate-700">
               Cancel
             </button>
@@ -178,6 +220,15 @@ function Requirements({
 }) {
   const r = program.requirements
   const dl = deadlineStatus(program, cycle)
+  // What the page actually said, kept beside the date rather than inside it.
+  const deadlineNote = [
+    dl.kind === 'confirmed' ? '' : DEADLINE_KIND_LABEL[dl.kind],
+    r.deadline_display && r.deadline_display !== UNKNOWN && r.deadline_display !== dl.iso
+      ? r.deadline_display
+      : '',
+  ]
+    .filter(Boolean)
+    .join(' · ')
   const fundingValue =
     r.funding.status === UNKNOWN
       ? UNKNOWN
@@ -195,9 +246,12 @@ function Requirements({
       <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 xl:grid-cols-4">
         <EditableCell
           label="Deadline"
-          value={r.deadline_display}
-          note={dl.kind === 'past' || dl.kind === 'upcoming' ? DEADLINE_KIND_LABEL[dl.kind] : undefined}
-          placeholder="e.g. Dec 15, 2026"
+          // The date itself, in the app's one format. The page's own sentence
+          // moves into the note, where its caveats belong.
+          value={dl.iso ? formatIso(dl.iso) : dl.text}
+          note={deadlineNote}
+          date
+          placeholder="YYYY-MM-DD"
           {...cell('deadline_display')}
         />
         <EditableCell label="Application fee" value={r.fee_display} placeholder="e.g. $110, or waived" {...cell('fee_display')} />

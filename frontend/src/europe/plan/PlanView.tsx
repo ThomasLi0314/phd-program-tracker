@@ -4,7 +4,7 @@
 
 import { useMemo, useState } from 'react'
 import { navigate } from '../../lib/hashRoute'
-import { daysUntil, formatDeadline, relativeDeadline } from '../../planner/lib/deadlines'
+import { daysUntil, deadlineLabel, formatDeadline, relativeDeadline } from '../../planner/lib/deadlines'
 import { INTEREST_LABELS, INTEREST_ORDER } from '../../planner/lib/labels'
 import { StatusSelect } from '../../planner/components/StatusChip'
 import type { CountryPolicy, EuroDataset, EuroProgram } from '../types'
@@ -176,11 +176,14 @@ export function PlanView({
   const buildExport = (): MastersExportRow[] =>
     rows.map(({ entry, r }) => {
       const p = r.deadline.parsed
+      // The date first, in the app's one format, then the page's own wording
+      // when it said more than the date does.
+      const label = deadlineLabel(p)
       const deadline = !r.deadline.text
         ? UNKNOWN_LABEL
-        : p.kind === 'dated' && p.iso && formatDeadline(p.iso) !== r.deadline.text
-          ? `${formatDeadline(p.iso)}${p.yearInferred ? ' (year inferred)' : ''} — ${r.deadline.text}`
-          : r.deadline.text
+        : `${label}${p.yearInferred ? ' (year inferred)' : ''}${
+            r.deadline.text === label ? '' : ` — ${r.deadline.text}`
+          }`
       const tuition = r.tuition.text
         ? `${r.tuition.text}${r.tuition.origin === 'country' ? ` (${originLabel(r.tuition, r.countryPolicy)})` : ''}`
         : UNKNOWN_LABEL

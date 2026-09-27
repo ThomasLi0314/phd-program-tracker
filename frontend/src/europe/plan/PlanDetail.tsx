@@ -5,7 +5,7 @@
 import { useState, type ReactNode } from 'react'
 import { navigate } from '../../lib/hashRoute'
 import { INTEREST_LABELS, INTEREST_ORDER } from '../../planner/lib/labels'
-import { daysUntil, formatDeadline } from '../../planner/lib/deadlines'
+import { dateInputValue, daysUntil, deadlineLabel } from '../../planner/lib/deadlines'
 import { StatusSelect } from '../../planner/components/StatusChip'
 import type { CountryPolicy, EuroProgram } from '../types'
 import { DetailCell, Fact, FieldChip, Flag, ScholarshipChip } from '../components/Bits'
@@ -29,6 +29,8 @@ function EditableRow({
   r,
   country,
   placeholder,
+  date = false,
+  display,
   onSave,
   children,
 }: {
@@ -36,11 +38,19 @@ function EditableRow({
   r: Resolved
   country?: CountryPolicy
   placeholder: string
+  /** A calendar date: edit it with the browser's date picker. */
+  date?: boolean
+  /** Shown instead of the stored text — a date normalised to the app's format. */
+  display?: string | null
   onSave: (value: string | null) => void
   children?: ReactNode
 }) {
   const [editing, setEditing] = useState(false)
   const [draft, setDraft] = useState('')
+  // A date field can still need words — a window, two rounds, "closed for this
+  // cycle" — so the picker has a way out rather than being the only option.
+  const [asText, setAsText] = useState(false)
+  const picking = date && !asText
   const commit = () => {
     onSave(draft.trim() ? draft.trim() : null)
     setEditing(false)
@@ -50,23 +60,66 @@ function EditableRow({
       <div className="flex items-baseline justify-between gap-3">
         <span className="shrink-0 text-[11px] font-medium text-slate-500">{label}</span>
         {editing ? (
-          <input
-            autoFocus
-            value={draft}
-            onChange={(e) => setDraft(e.target.value)}
-            onBlur={commit}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter') commit()
-              if (e.key === 'Escape') setEditing(false)
-            }}
-            placeholder={placeholder}
-            className="min-w-0 flex-1 rounded border border-indigo-300 px-1.5 py-0.5 text-right text-[12px] text-slate-800 focus:outline-none"
-          />
+          picking ? (
+            <span className="flex min-w-0 flex-1 items-center justify-end gap-2">
+              {/* Saved when the field is left, not on change: a date typed
+                  rather than picked passes through complete-but-wrong values on
+                  the way — typing the year of "2027-01-02" hits "0002-01-02"
+                  after one keystroke. */}
+              <input
+                type="date"
+                autoFocus
+                value={draft}
+                onChange={(e) => setDraft(e.target.value)}
+                onBlur={commit}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') commit()
+                  if (e.key === 'Escape') setEditing(false)
+                }}
+                className="min-w-0 rounded border border-indigo-300 px-1.5 py-0.5 text-[12px] text-slate-800 focus:outline-none"
+              />
+              {/* Keep focus in the input so its onBlur doesn't fire first and
+                  close the row before the click lands. */}
+              <button
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => {
+                  onSave(null)
+                  setEditing(false)
+                }}
+                className="shrink-0 text-[10px] text-slate-400 hover:text-rose-600 hover:underline"
+              >
+                clear
+              </button>
+              <button
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => setAsText(true)}
+                className="shrink-0 text-[10px] text-slate-400 hover:text-indigo-600 hover:underline"
+              >
+                text
+              </button>
+            </span>
+          ) : (
+            <input
+              autoFocus
+              value={draft}
+              onChange={(e) => setDraft(e.target.value)}
+              onBlur={commit}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') commit()
+                if (e.key === 'Escape') setEditing(false)
+              }}
+              placeholder={placeholder}
+              className="min-w-0 flex-1 rounded border border-indigo-300 px-1.5 py-0.5 text-right text-[12px] text-slate-800 focus:outline-none"
+            />
+          )
         ) : (
           <div className="flex min-w-0 items-baseline justify-end gap-1 text-right">
             <button
               onClick={() => {
-                setDraft(r.text ?? '')
+                // The picker needs an ISO date or nothing; a window or "closed
+                // for this cycle" opens it empty.
+                setDraft(date ? dateInputValue(r.text) : (r.text ?? ''))
+                setAsText(false)
                 setEditing(true)
               }}
               title={r.note ? `${r.note} — click to edit` : 'Click to edit'}
@@ -74,7 +127,7 @@ function EditableRow({
                 r.text ? 'font-medium text-slate-800' : 'italic text-amber-700'
               }`}
             >
-              {r.text ?? UNKNOWN_LABEL}
+              {(display !== undefined ? display : r.text) ?? UNKNOWN_LABEL}
             </button>
             <OriginTag r={r} country={country} />
             {r.source && r.origin !== 'mine' && (
@@ -282,13 +335,22 @@ export function PlanDetail({
         <div className="grid gap-3 lg:grid-cols-2">
           <section className={card}>
             <h2 className={heading}>Dates &amp; costs</h2>
-            <EditableRow label="Application deadline" r={r.deadline} placeholder="e.g. 31 January 2027" onSave={setMine('deadline')}>
+            <EditableRow
+              label="Application deadline"
+              r={r.deadline}
+              // The date, in the app's one format; the programme page's own
+              // wording — a window, two rounds — sits underneath.
+              display={deadlineLabel(r.deadline.parsed)}
+              placeholder="YYYY-MM-DD"
+              date
+              onSave={setMine('deadline')}
+            >
               {r.deadline.text && (
                 <div className="mt-0.5 text-right text-[10.5px] text-slate-500">
                   {r.deadline.parsed.kind === 'dated' && r.deadline.parsed.iso ? (
                     <>
-                      read as {formatDeadline(r.deadline.parsed.iso)}
-                      {r.deadline.parsed.yearInferred && ' (no year given — next occurrence assumed)'} ·{' '}
+                      {r.deadline.text !== deadlineLabel(r.deadline.parsed) && <>from “{r.deadline.text}” · </>}
+                      {r.deadline.parsed.yearInferred && 'no year given — next occurrence assumed · '}
                       <Countdown parsed={r.deadline.parsed} settled={settled} />
                       {!settled && daysUntil(r.deadline.parsed.iso) < 0 && (
                         <div className="text-rose-600">
@@ -298,7 +360,9 @@ export function PlanDetail({
                       )}
                     </>
                   ) : (
-                    <span className="text-amber-700">No date to count down to — enter the {entry.intake} deadline.</span>
+                    <span className="text-amber-700">
+                      “{r.deadline.text}” — no date to count down to. Enter the {entry.intake} deadline.
+                    </span>
                   )}
                 </div>
               )}
@@ -306,12 +370,16 @@ export function PlanDetail({
             <EditableRow
               label="Scholarship deadline"
               r={r.scholarshipDeadline}
-              placeholder="e.g. 1 December 2026"
+              display={r.scholarshipDeadline.text ? deadlineLabel(scholarshipParsed) : null}
+              placeholder="YYYY-MM-DD"
+              date
               onSave={setMine('scholarshipDeadline')}
             >
               {scholarshipParsed.kind === 'dated' && scholarshipParsed.iso && (
                 <div className="mt-0.5 text-right text-[10.5px] text-slate-500">
-                  read as {formatDeadline(scholarshipParsed.iso)} ·{' '}
+                  {r.scholarshipDeadline.text !== deadlineLabel(scholarshipParsed) && (
+                    <>from “{r.scholarshipDeadline.text}” · </>
+                  )}
                   <Countdown
                     parsed={scholarshipParsed}
                     settled={!['undecided', 'planning'].includes(entry.scholarship)}

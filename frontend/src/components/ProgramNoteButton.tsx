@@ -13,7 +13,13 @@ function seedFrom(p: Program): SeedProgram {
     country: p.country,
     region: p.region,
     discipline: [p.discipline.primary, ...p.discipline.subs.slice(0, 3)].join(' · '),
-    deadline: r?.deadline_display ?? r?.deadline ?? null,
+    // The date in the app's one format first, then the page's own wording —
+    // a note you'll reread in three months shouldn't open with a hedge.
+    deadline: r?.deadline
+      ? r.deadline_display && r.deadline_display !== r.deadline
+        ? `${r.deadline} (${r.deadline_display})`
+        : r.deadline
+      : (r?.deadline_display ?? null),
     funding: r?.funding?.status ?? null,
     programUrl: p.links?.program ?? null,
   }

@@ -9,6 +9,8 @@
 // So parse a real date out of the prose, and when that is not possible say so
 // instead of inventing an order.
 
+import { NO_DATE_LABEL, formatDate } from '../../lib/deadlineFormat'
+
 export type DeadlineKind =
   /** a real calendar date we can sort and count down to */
   | 'dated'
@@ -156,9 +158,27 @@ export function resolveDeadline(
   return parseDeadline(storedText, today)
 }
 
-/** Short, sortable label: "Dec 15, 2026". */
+/** A deadline date, in the app's one format (see lib/deadlineFormat). */
 export function formatDeadline(iso: string): string {
-  const [y, m, d] = iso.split('-').map(Number)
-  const name = Object.entries(MONTHS).find(([k, v]) => v === m && k.length === 3)?.[0] ?? String(m)
-  return `${name[0].toUpperCase()}${name.slice(1)} ${d}, ${y}`
+  return formatDate(iso)
+}
+
+/**
+ * What to put in a cell: the date, or the state when there is no date. Never a
+ * fragment of the source sentence — that belongs in a tooltip, where it can be
+ * as long and as hedged as the page it came from.
+ */
+export function deadlineLabel(parsed: ParsedDeadline): string {
+  if (parsed.kind === 'dated' && parsed.iso) return formatDate(parsed.iso)
+  return NO_DATE_LABEL[parsed.kind === 'dated' ? 'unknown' : parsed.kind]
+}
+
+/**
+ * The ISO date to open a date picker on, from whatever is stored — an ISO date,
+ * a sentence with a date in it, or nothing. Empty string means "no date", which
+ * is what <input type="date"> wants.
+ */
+export function dateInputValue(text: string | null | undefined, today = new Date()): string {
+  const parsed = parseDeadline(text, today)
+  return parsed.kind === 'dated' && parsed.iso ? parsed.iso : ''
 }

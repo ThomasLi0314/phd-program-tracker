@@ -1,4 +1,5 @@
 import { daysUntil, formatDeadline, relativeDeadline, type ParsedDeadline } from '../../planner/lib/deadlines'
+import { NO_DATE_LABEL } from '../../lib/deadlineFormat'
 import type { CountryPolicy } from '../types'
 import type { ChecklistItem } from './types'
 import { originLabel, type Resolved } from './resolve'
@@ -51,7 +52,7 @@ export function DeadlineCell({ r, settled }: { r: Resolved & { parsed: ParsedDea
   if (parsed.kind === 'dated' && parsed.iso) {
     return (
       <div title={r.text}>
-        <div className="text-slate-700">
+        <div className="whitespace-nowrap tabular-nums text-slate-700">
           {formatDeadline(parsed.iso)}
           {parsed.yearInferred && (
             <span className="ml-1 text-[10px] text-slate-400" title="The source gives no year — the next occurrence is assumed">
@@ -64,9 +65,11 @@ export function DeadlineCell({ r, settled }: { r: Resolved & { parsed: ParsedDea
       </div>
     )
   }
+  // No date in it — say which state it is, not a clipped version of the
+  // sentence. The sentence is on hover, where it can be read whole.
   return (
-    <span className="line-clamp-2 text-[11.5px] text-slate-500" title={r.text}>
-      {r.text}
+    <span className="text-[11.5px] italic text-amber-700" title={r.text}>
+      {NO_DATE_LABEL[parsed.kind === 'dated' ? 'unknown' : parsed.kind]}
     </span>
   )
 }

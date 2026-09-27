@@ -19,7 +19,7 @@ import { useEurope, applyFilters, countryIndex, emptyFilters, groupByCountry } f
 import type { Filters } from './lib/dataset'
 import { EURO_FIELDS, effectiveTuition, isUnknown, tuitionLabels } from './types'
 import type { CountryPolicy, EuroField, EuroProgram } from './types'
-import { DetailCell, Fact, FieldChip, Flag, ScholarshipChip } from './components/Bits'
+import { DeadlineFact, DetailCell, Fact, FieldChip, Flag, ScholarshipChip } from './components/Bits'
 import { CountryPolicies } from './views/CountryPolicies'
 import { useMastersPlan } from './plan/useMastersPlan'
 import type { MastersPlanEntry } from './plan/types'
@@ -211,7 +211,7 @@ function ProgramRow({
           <Fact value={p.english} compact />
         </td>
         <td className="px-2 py-1.5 text-[11.5px] text-slate-600">
-          <Fact value={p.deadline} compact />
+          <DeadlineFact value={p.deadline} compact />
         </td>
         <td className="px-2 py-1.5 text-center text-[11.5px]">
           {p.phd.value === 'yes' ? (
@@ -293,7 +293,7 @@ function ProgramRow({
                 <Fact value={p.english} />
               </DetailCell>
               <DetailCell label="Deadline">
-                <Fact value={p.deadline} />
+                <DeadlineFact value={p.deadline} />
               </DetailCell>
               <DetailCell label="Doctoral study">
                 {p.phd.value === 'yes' ? 'Yes — ' : p.phd.value === 'no' ? 'No — ' : ''}
