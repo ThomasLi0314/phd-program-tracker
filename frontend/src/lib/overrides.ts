@@ -1,5 +1,7 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import type { Faculty } from '../types'
+import { mergeOverrides, plannerOverrides } from './plannerOverrides'
+import { subscribeToUserData } from './backup'
 
 const STORAGE_KEY = 'tracker.overrides.v1'
 
@@ -161,8 +163,15 @@ export function useOverrides(): {
     [],
   )
 
+  // What I filled in on the Plan shows here too, under anything I typed on this
+  // page. Re-read on every write to either store so the two stay in step within
+  // a session (lib/plannerOverrides explains the precedence).
+  const [fromPlan, setFromPlan] = useState(plannerOverrides)
+  useEffect(() => subscribeToUserData(() => setFromPlan(plannerOverrides())), [])
+  const merged = useMemo(() => mergeOverrides(fromPlan, overrides), [fromPlan, overrides])
+
   return {
-    overrides,
+    overrides: merged,
     setFacultyHomepage,
     setProgramPage,
     setProgramContact,

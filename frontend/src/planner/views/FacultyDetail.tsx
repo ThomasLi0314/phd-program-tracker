@@ -12,6 +12,7 @@ import { RECRUITMENT_DOTS, RECRUITMENT_LABELS, RECRUITMENT_ORDER } from '../lib/
 import { CONTACT_LABELS, CONTACT_ORDER, CONTACT_TONES, UNKNOWN_LABEL } from '../lib/labels'
 import { FieldRow } from '../components/FieldValue'
 import { StatusChip, StatusSelect } from '../components/StatusChip'
+import { BackButton } from '../../components/BackButton'
 import { FacultyResearchPanel } from '../components/ResearchPanel'
 import { OutreachEvidence } from '../components/OutreachEvidence'
 import { effectiveContact, findRecord, useOutreachSnapshot } from '../lib/outreachBridge'
@@ -73,12 +74,7 @@ export function FacultyDetail({
   return (
     <main className="h-full flex-1 overflow-y-auto">
       <div className="mx-auto max-w-4xl px-5 py-4">
-        <button
-          onClick={() => navigate('/planner/faculty')}
-          className="mb-2 text-[11.5px] text-slate-500 hover:text-indigo-700"
-        >
-          ← Faculty
-        </button>
+        <BackButton fallback="/planner/faculty" fallbackLabel="Faculty" />
 
         <header className="mb-3 flex items-start justify-between gap-3">
           <div className="min-w-0">

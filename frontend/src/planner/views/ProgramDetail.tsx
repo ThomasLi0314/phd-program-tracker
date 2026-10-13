@@ -28,6 +28,7 @@ import {
 } from '../lib/labels'
 import { EditableLink } from '../../components/EditableLink'
 import { StipendRent } from '../../components/StipendRent'
+import { BackButton } from '../../components/BackButton'
 import { FieldRow } from '../components/FieldValue'
 import { deadlineLabel, resolveDeadline } from '../lib/deadlines'
 import { StatusSelect } from '../components/StatusChip'
@@ -208,12 +209,7 @@ export function ProgramDetail({
   return (
     <main className="h-full flex-1 overflow-y-auto">
       <div className="mx-auto max-w-4xl px-5 py-4">
-        <button
-          onClick={() => navigate('/planner/programs')}
-          className="mb-2 text-[11.5px] text-slate-500 hover:text-indigo-700"
-        >
-          ← Programs
-        </button>
+        <BackButton fallback="/planner/programs" fallbackLabel="Programs" />
 
         <header className="mb-3">
           <div className="flex items-start justify-between gap-3">

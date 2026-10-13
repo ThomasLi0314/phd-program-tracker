@@ -22,6 +22,7 @@ import {
   type MineValues,
 } from './types'
 import { Countdown, OriginTag, UNKNOWN_LABEL } from './PlanBits'
+import { BackButton } from '../../components/BackButton'
 
 /** A value I can override. Empty input clears my value and the database's shows again. */
 function EditableRow({
@@ -209,9 +210,7 @@ export function PlanDetail({
   return (
     <main className="min-h-0 flex-1 overflow-y-auto">
       <div className="mx-auto max-w-4xl px-5 py-4">
-        <button onClick={() => navigate('/masters/plan')} className="mb-2 text-[11.5px] text-slate-500 hover:text-indigo-700">
-          ← My plan
-        </button>
+        <BackButton fallback="/masters/plan" fallbackLabel="My plan" />
 
         <header className="mb-3">
           <h1 className="font-serif text-xl font-bold leading-tight text-slate-900">{r.university}</h1>

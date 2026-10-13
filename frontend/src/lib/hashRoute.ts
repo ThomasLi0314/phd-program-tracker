@@ -36,9 +36,45 @@ export function useHashRoute(): string {
   return route
 }
 
+// Where I came from, so a back arrow can return there.
+//
+// Every detail page used to send its back arrow to one fixed list, so opening a
+// professor from a program's page and pressing back landed on the Faculty list
+// — not the program I was reading. The browser's own history would be exact,
+// but history.back() can walk out of the site entirely when the page was opened
+// cold on a detail route, so keep our own trail of the routes this session
+// actually visited.
+const trail: string[] = []
+
 /** Navigate; pushes a history entry so Back works. */
 export function navigate(path: string): void {
-  window.location.hash = path.startsWith('/') ? path : `/${path}`
+  const to = path.startsWith('/') ? path : `/${path}`
+  const from = currentRoute()
+  if (from !== to) trail.push(from)
+  window.location.hash = to
+}
+
+/**
+ * Back to wherever I opened this page from, or `fallback` when it was opened
+ * cold (a bookmark, a refresh, a pasted link).
+ */
+export function goBack(fallback: string): void {
+  const prev = trail.pop()
+  window.location.hash = prev ?? (fallback.startsWith('/') ? fallback : `/${fallback}`)
+}
+
+/** The route the back arrow would return to, for labelling it. */
+export function backTarget(): string | null {
+  return trail.length ? trail[trail.length - 1] : null
+}
+
+// The browser's own Back button moves the hash without going through
+// navigate(); drop the trail entry it just consumed so our arrow doesn't send
+// the user forward again.
+if (typeof window !== 'undefined') {
+  window.addEventListener('hashchange', () => {
+    if (trail.length && trail[trail.length - 1] === currentRoute()) trail.pop()
+  })
 }
 
 /** Split a route into its non-empty segments: '/planner/programs/x' → [planner, programs, x]. */
