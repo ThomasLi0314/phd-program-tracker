@@ -46,11 +46,70 @@ export function useHashRoute(): string {
 // actually visited.
 const trail: string[] = []
 
+// ── Where I was on the page, not just which page ─────────────────────────────
+//
+// Going back landed at the top of the list every time, so returning to a
+// program forty rows down meant scrolling forty rows again. Each route's scroll
+// position is remembered as I leave it and put back when I return.
+//
+// These views don't scroll the window: each one is an `overflow-y-auto` <main>
+// (or the tracker's <nav> column), so the positions are taken from the scroll
+// containers themselves, in document order — stable for a given route, and no
+// component has to opt in. Mark any other scroller with `data-scroll` to
+// include it.
+interface ScrollSnapshot {
+  window: number
+  containers: number[]
+}
+const scrollMemory = new Map<string, ScrollSnapshot>()
+
+function scrollContainers(): HTMLElement[] {
+  return Array.from(document.querySelectorAll<HTMLElement>('main, nav, [data-scroll]'))
+}
+
+function rememberScroll(route: string): void {
+  scrollMemory.set(route, {
+    window: window.scrollY,
+    containers: scrollContainers().map((el) => el.scrollTop),
+  })
+}
+
+/**
+ * Put a remembered position back. The content often isn't there yet — the
+ * planner's tables and the tracker's field chunks render after the route
+ * changes — so this retries briefly until the page is tall enough to hold the
+ * position, then stops.
+ */
+function restoreScroll(route: string): void {
+  const snap = scrollMemory.get(route)
+  if (!snap) return
+  let tries = 0
+  const apply = () => {
+    const els = scrollContainers()
+    let short = false
+    snap.containers.forEach((top, i) => {
+      if (!top) return
+      const el = els[i]
+      if (!el) {
+        short = true
+        return
+      }
+      el.scrollTop = top
+      if (Math.abs(el.scrollTop - top) > 2) short = true
+    })
+    if (snap.window) window.scrollTo(0, snap.window)
+    if (short && tries++ < 12) setTimeout(apply, 50)
+  }
+  requestAnimationFrame(apply)
+}
+
 /** Navigate; pushes a history entry so Back works. */
 export function navigate(path: string): void {
   const to = path.startsWith('/') ? path : `/${path}`
   const from = currentRoute()
-  if (from !== to) trail.push(from)
+  if (from === to) return
+  rememberScroll(from)
+  trail.push(from)
   window.location.hash = to
 }
 
@@ -60,6 +119,7 @@ export function navigate(path: string): void {
  */
 export function goBack(fallback: string): void {
   const prev = trail.pop()
+  rememberScroll(currentRoute())
   window.location.hash = prev ?? (fallback.startsWith('/') ? fallback : `/${fallback}`)
 }
 
@@ -74,7 +134,26 @@ export function backTarget(): string | null {
 if (typeof window !== 'undefined') {
   window.addEventListener('hashchange', () => {
     if (trail.length && trail[trail.length - 1] === currentRoute()) trail.pop()
+    // Covers the browser's own Back button too, not just our arrow.
+    restoreScroll(currentRoute())
   })
+
+  // Keep the current route's position up to date as I scroll, so leaving by any
+  // route — our arrow, a link, the browser's Back — finds it already recorded.
+  // Capture phase: these scrolls happen inside containers, and scroll events
+  // from an element don't bubble.
+  let pending = 0
+  window.addEventListener(
+    'scroll',
+    () => {
+      if (pending) return
+      pending = requestAnimationFrame(() => {
+        pending = 0
+        rememberScroll(currentRoute())
+      })
+    },
+    true,
+  )
 }
 
 /** Split a route into its non-empty segments: '/planner/programs/x' → [planner, programs, x]. */
