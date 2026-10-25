@@ -3498,8 +3498,751 @@
       "links": {
         "program": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/mechanical-aerospace-engineering-department/mechanical-engineering/"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #17",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17 · faculty 2026-10-26",
+      "faculty": [
+        {
+          "id": "adrienne-lavine",
+          "name": "Adrienne Lavine",
+          "title": "Professor Emeritus",
+          "sub_field": "Thermal Science & Engineering",
+          "tags": [
+            "solar thermal energy storage",
+            "thermal energy harvesting",
+            "thermal control of nanoscale manufacturing",
+            "thermomechanical behavior of shape memory alloys",
+            "plasma thermal spray"
+          ],
+          "summary": "Solar thermal energy storage, thermal energy harvesting, thermal control of nanoscale manufacturing, thermomechanical behavior of shape memory alloys, thermal aspects of manufacturing processes including machining and plasma thermal spray.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/adrienne-lavine/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "ann-karagozian",
+          "name": "Ann Karagozian",
+          "title": "Distinguished Professor; Director, Collaborative Center for Aerospace Sciences",
+          "sub_field": "Fluid Mechanics",
+          "tags": [
+            "fluid mechanics",
+            "combustion",
+            "improved engine efficiency",
+            "reduced emissions",
+            "alternative fuels",
+            "rocket propulsion systems"
+          ],
+          "summary": "Fluid mechanics and combustion, with applications to improved engine efficiency, reduced emissions, alternative fuels, and advanced high speed air breathing and rocket propulsion systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/ann-karagozian/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "anushri-dixit",
+          "name": "Anushri Dixit",
+          "title": "Assistant Professor",
+          "sub_field": "Design, Robotics & Manufacturing · Systems & Control",
+          "tags": [
+            "autonomy",
+            "robotics",
+            "safety-critical decision-making",
+            "stochastic control",
+            "model predictive control",
+            "risk-aware planning"
+          ],
+          "summary": "Autonomy, robotics, safety-critical decision-making, stochastic control, model predictive control, and risk-aware planning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/anushri-dixit/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "artur-davoyan",
+          "name": "Artur Davoyan",
+          "title": "Associate Professor",
+          "sub_field": "Fluid Mechanics · Micro-Nano Engineering · Structural & Solid Mechanics",
+          "tags": [
+            "energy",
+            "communications",
+            "breakthrough propulsion",
+            "high power",
+            "high energy lasers",
+            "laser materials interaction"
+          ],
+          "summary": "Advanced materials and systems for applications in space, energy and communications. Advanced and breakthrough propulsion. High power and high energy lasers, laser materials interaction. Nanoscale and two-dimensional materials, metamaterials, plasmonics, metasurfaces. Optoelectronics and photonic devices.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/artur-davoyan/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "brett-lopez",
+          "name": "Brett Lopez",
+          "title": "Assistant Professor",
+          "sub_field": "Design, Robotics & Manufacturing · Systems & Control",
+          "tags": [
+            "autonomy",
+            "aerospace robotics",
+            "nonlinear",
+            "adaptive control",
+            "predictive control",
+            "trajectory planning"
+          ],
+          "summary": "Autonomy, aerospace robotics, nonlinear and adaptive control, predictive control, trajectory planning, localization and mapping.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/brett-lopez/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "chang-jin-kim",
+          "name": "Chang-Jin Kim",
+          "title": "Distinguished Professor; joint with Bioengineering",
+          "sub_field": "Micro-Nano Engineering",
+          "tags": [
+            "microelectromechanical systems (mems)",
+            "surface-tension-based microactuation",
+            "nanotechnology for surface control",
+            "microdevices including microfluidic applications",
+            "full spectrum of micromachining technologies"
+          ],
+          "summary": "Microelectromechanical systems (MEMS), surface-tension-based microactuation, nanotechnology for surface control, microdevices including microfluidic applications, full spectrum of micromachining technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/chang-jin-kim/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "dennis-hong",
+          "name": "Dennis Hong",
+          "title": "Professor",
+          "sub_field": "Design, Robotics & Manufacturing",
+          "tags": [
+            "humanoids & bipedal robots",
+            "robot locomotion & manipulation",
+            "soft actuators",
+            "robotic platforms",
+            "autonomous vehicles",
+            "machine design"
+          ],
+          "summary": "Humanoids & Bipedal Robots, Robot Locomotion & Manipulation, Soft Actuators, Robotic Platforms, Autonomous Vehicles, Machine Design, Kinematics & Mechanisms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/dennis-hong/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "elisa-franco",
+          "name": "Elisa Franco",
+          "title": "Professor; joint with Bioengineering",
+          "sub_field": "Design, Robotics & Manufacturing · Systems & Control",
+          "tags": [
+            "convergence of structural biology",
+            "dynamics",
+            "controls using specialized biomolecular frameworks"
+          ],
+          "summary": "Convergence of structural biology, dynamics and controls using specialized biomolecular frameworks.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/elisa-franco/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "greg-carman",
+          "name": "Greg Carman",
+          "title": "Distinguished Professor; Director, TANMS Center; joint with Materials Science",
+          "sub_field": "Design, Robotics & Manufacturing · Micro-Nano Engineering · Structural & Solid Mechanics",
+          "tags": [
+            "nanoscale multiferroic materials",
+            "piezoelectric materials",
+            "magnetostrictive materials",
+            "thin film shape memory alloys",
+            "fiber optic sensors"
+          ],
+          "summary": "Nanoscale multiferroic materials, piezoelectric materials, magnetostrictive materials, thin film shape memory alloys, fiber optic sensors.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/gregory-carman/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jacob-rosen",
+          "name": "Jacob Rosen",
+          "title": "Professor; joint with Bioengineering",
+          "sub_field": "Design, Robotics & Manufacturing · Systems & Control",
+          "tags": [
+            "biorobotics",
+            "human centered robotics",
+            "medical robotics (surgery",
+            "rehabilitation)",
+            "wearable robotics (exoskeleton)",
+            "teleoperation"
+          ],
+          "summary": "Biorobotics; Human centered robotics, medical robotics (surgery and rehabilitation), wearable robotics (exoskeleton), teleoperation, haptics and virtual reality, biomechanics, neuromuscular control, and human-machine interfaces.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/jacob-rosen/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jason-l-speyer",
+          "name": "Jason L. Speyer",
+          "title": "Distinguished Professor; Ronald and Valerie Sugar Endowed Professor of Engineering",
+          "sub_field": "Systems & Control",
+          "tags": [
+            "stochastic",
+            "deterministic optimal control",
+            "estimation with application to aerospace systems",
+            "guidance",
+            "flight control",
+            "flight mechanics"
+          ],
+          "summary": "Stochastic and deterministic optimal control and estimation with application to aerospace systems; guidance, flight control, and flight mechanics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/jason-l-speyer/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jeff-eldredge",
+          "name": "Jeff Eldredge",
+          "title": "Professor",
+          "sub_field": "Fluid Mechanics",
+          "tags": [
+            "computational",
+            "theoretical investigations of fluid dynamics",
+            "unsteady aerodynamics",
+            "bio-inspired locomotion",
+            "fluid-structure interactions",
+            "biomedical flows"
+          ],
+          "summary": "Computational and theoretical investigations of fluid dynamics, including unsteady aerodynamics, bio-inspired locomotion, fluid-structure interactions, and biomedical flows.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/jeff-eldredge/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "jonathan-b-hopkins",
+          "name": "Jonathan B. Hopkins",
+          "title": "Professor",
+          "sub_field": "Design, Robotics & Manufacturing · Systems & Control · Structural & Solid Mechanics",
+          "tags": [
+            "design",
+            "analysis"
+          ],
+          "summary": "Design, analysis, and fabrication of sophisticated flexible structures that possess extraordinary capabilities.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/jonathan-hopkins/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "kunihiko-taira",
+          "name": "Kunihiko Taira",
+          "title": "Professor; Vice Chair, Industry Relations and Outreach",
+          "sub_field": "Fluid Mechanics",
+          "tags": [
+            "analysis",
+            "modeling",
+            "dynamical systems theory",
+            "network science",
+            "data science"
+          ],
+          "summary": "Analysis, modeling, and control of fluid flows using high-performance computing by combining concepts from fluid mechanics, dynamical systems theory, network science, and data science.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/kunihiko-taira/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "laurent-pilon",
+          "name": "Laurent Pilon",
+          "title": "Professor",
+          "sub_field": "Micro-Nano Engineering · Thermal Science & Engineering",
+          "tags": [
+            "radiation transfer",
+            "applied optics",
+            "interfacial",
+            "transport phenomena",
+            "energy storage systems",
+            "photosynthetic production of biofuels"
+          ],
+          "summary": "Radiation transfer, applied optics, interfacial and transport phenomena, nanostructured materials for energy applications such as pyroelectric energy conversion, energy storage systems, photosynthetic production of biofuels.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/laurent-pilon/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "lihua-jin",
+          "name": "Lihua Jin",
+          "title": "Associate Professor",
+          "sub_field": "Micro-Nano Engineering · Structural & Solid Mechanics",
+          "tags": [
+            "mechanics of soft materials: instability",
+            "fracture",
+            "stimuli-responsive materials",
+            "continuum mechanics",
+            "soft robotics",
+            "stretchable electronics"
+          ],
+          "summary": "Mechanics of soft materials: instability, fracture, and stimuli-responsive materials. Continuum mechanics and applications in technologies: additive manufacturing, soft robotics, and stretchable electronics. Nanomechanics and multiscale modeling. Biomechanics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/lihua-jin/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "m-khalid-jawed",
+          "name": "M. Khalid Jawed",
+          "title": "Associate Professor",
+          "sub_field": "Design, Robotics & Manufacturing · Structural & Solid Mechanics",
+          "tags": [
+            "data-driven approach to modeling the mechanics of structures",
+            "fluid-structure interaction using robotics",
+            "automation",
+            "computation",
+            "machine learning"
+          ],
+          "summary": "Data-driven approach to modeling the mechanics of structures and fluid-structure interaction using robotics, automation, computation, and machine learning.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/m-khalid-jawed/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mitchell-spearrin",
+          "name": "Mitchell Spearrin",
+          "title": "Professor; Vice Chair, Graduate Education",
+          "sub_field": "Fluid Mechanics · Thermal Science & Engineering",
+          "tags": [
+            "spectroscopy",
+            "gas dynamics",
+            "laser absorption",
+            "fluorescence",
+            "energy systems",
+            "other reacting flow fields"
+          ],
+          "summary": "Spectroscopy and gas dynamics; advanced optical sensors, including laser absorption and fluorescence, with experimental application to propulsion, energy systems, and other reacting flow fields.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/mitchell-spearrin/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "neil-lin",
+          "name": "Neil Lin",
+          "title": "Associate Professor; joint with Bioengineering",
+          "sub_field": "Micro-Nano Engineering",
+          "tags": [
+            "mechanical properties",
+            "functionality of human organs",
+            "detailed",
+            "complex model tissues for drug screening",
+            "artificial organs that could be transplanted into humans"
+          ],
+          "summary": "Developing 3D-printed tissues that mimic the geometric structure, mechanical properties, and functionality of human organs. Detailed and complex model tissues for drug screening. Artificial organs that could be transplanted into humans.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/neil-lin/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "pei-yu-chiou",
+          "name": "Pei-Yu Chiou",
+          "title": "Professor; joint with Bioengineering",
+          "sub_field": "Micro-Nano Engineering",
+          "tags": [
+            "biophotonics",
+            "nanophotonics",
+            "biomems/nems",
+            "electrokinetics",
+            "microfluidics",
+            "biofluidics"
+          ],
+          "summary": "Biophotonics, nanophotonics, BioMEMS/NEMS, electrokinetics, microfluidics and biofluidics, guided self-assembly, high throughput single cell analysis.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/pei-yu-eric-chiou/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "pirouz-kavehpour",
+          "name": "Pirouz Kavehpour",
+          "title": "Professor; joint with Bioengineering",
+          "sub_field": "Fluid Mechanics · Micro-Nano Engineering · Thermal Science & Engineering",
+          "tags": [
+            "microfluidics",
+            "biofluidics",
+            "biofuel cells",
+            "cardiovascular flow",
+            "complex fluids",
+            "interfacial physics"
+          ],
+          "summary": "Microfluidics and biofluidics, biofuel cells, cardiovascular flow, complex fluids, interfacial physics, micro-tribology, non-isothermal flows, drug delivery systems, and artificial organs.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/pirouz-kavehpour/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "rajit-gadh",
+          "name": "Rajit Gadh",
+          "title": "Professor",
+          "sub_field": "Design, Robotics & Manufacturing",
+          "tags": [
+            "smart grid",
+            "electric vehicle and grid integration",
+            "microgrid",
+            "distributed energy resource",
+            "solar-",
+            "renewable- grid integration"
+          ],
+          "summary": "Smart Grid, Electric Vehicle and Grid Integration, Microgrid, Distributed Energy Resource, Solar- and renewable- grid integration, Demand Response, Autonomous Electric Vehicle, Radio Frequency Identification (RFID), Wireless sensors and sensor fusion, Internet of Things, CAD/VR.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/rajit-gadh/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "robert-m-closkey",
+          "name": "Robert M’Closkey",
+          "title": "Professor",
+          "sub_field": "Systems & Control",
+          "tags": [
+            "nonlinear control theory",
+            "design with application to mechanical",
+            "aerospace systems",
+            "real-time implementation"
+          ],
+          "summary": "Nonlinear control theory and design with application to mechanical and aerospace systems, real-time implementation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/robert-mcloskey/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "shahriar-talebi",
+          "name": "Shahriar Talebi",
+          "title": "Assistant Professor",
+          "sub_field": "Design, Robotics & Manufacturing · Systems & Control",
+          "tags": [
+            "geometry-informed learning",
+            "control",
+            "data-driven inference",
+            "decision-making",
+            "reinforcement learning",
+            "risk-aware"
+          ],
+          "summary": "Geometry-informed learning and control, data-driven inference and decision-making, reinforcement learning, risk-aware and distributed control, and trustworthy autonomy in complex and uncertain environments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/shahriar-talebi/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tetsuya-iwasaki",
+          "name": "Tetsuya Iwasaki",
+          "title": "Professor",
+          "sub_field": "Systems & Control",
+          "tags": [
+            "neuronal control mechanism of animal locomotion",
+            "nonlinear oscillators",
+            "robust/nonlinear control theory",
+            "aerospace",
+            "electrical systems"
+          ],
+          "summary": "Neuronal control mechanism of animal locomotion, nonlinear oscillators, and robust/nonlinear control theory and its applications to mechanical, aerospace, and electrical systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/tetsuya-iwasaki/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tim-fisher",
+          "name": "Tim Fisher",
+          "title": "Professor; John P. and Claudia H. Schauerman Endowed Chair in Engineering",
+          "sub_field": "Micro-Nano Engineering · Thermal Science & Engineering",
+          "tags": [
+            "transport processes by electrons",
+            "phonons",
+            "photons",
+            "fluids",
+            "conversion",
+            "storage relevant to major industrial segments (aerospace"
+          ],
+          "summary": "Transport processes by electrons, phonons, photons, and fluids; applications in energy transport, conversion, and storage relevant to major industrial segments (aerospace, micro/nanoelectronics, sensors).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/tim-fisher/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tiwei-wei",
+          "name": "Tiwei Wei",
+          "title": "Assistant Professor",
+          "sub_field": "Micro-Nano Engineering · Thermal Science & Engineering",
+          "tags": [
+            "processing",
+            "materials",
+            "reliability characterizations",
+            "power electronic modules",
+            "photonics",
+            "quantum computing"
+          ],
+          "summary": "Focus on the processing, materials, and architecture development for future advanced semiconductor interconnects and 2.5D/3D packaging , as well as efficient thermal management technologies and reliability characterizations. The applications cover microelectronics chips, LED, power electronic modules, Photonics, Quantum computing, and X-ray and high-power laser optics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/tiwei-wei-starting-july-2025/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tsu-chin-tsao",
+          "name": "Tsu-Chin Tsao",
+          "title": "Distinguished Professor",
+          "sub_field": "Design, Robotics & Manufacturing · Systems & Control",
+          "tags": [
+            "modeling",
+            "manufacturing processes",
+            "automotive systems",
+            "energy systems",
+            "digital control",
+            "repetitive"
+          ],
+          "summary": "Modeling and control of dynamic systems with applications in mechanical systems, manufacturing processes, automotive systems, and energy systems, digital control; repetitive and learning control, adaptive and optimal control, mechatronics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/tsu-chin-tsao/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "tyler-clites",
+          "name": "Tyler Clites",
+          "title": "Associate Professor; joint with Bioengineering",
+          "sub_field": "Design, Robotics & Manufacturing",
+          "tags": [
+            "bionic systems to rehabilitate",
+            "augment human function",
+            "neural interfacing",
+            "control",
+            "advancements in orthopaedic",
+            "plastic surgery"
+          ],
+          "summary": "Bionic systems to rehabilitate and augment human function; neural interfacing and control; advancements in orthopaedic and plastic surgery.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/tyler-clites/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "veronica-santos",
+          "name": "Veronica Santos",
+          "title": "Professor; Associate Dean for Inclusive Excellence and Faculty Affairs; joint with Bioengineering",
+          "sub_field": "Design, Robotics & Manufacturing · Systems & Control",
+          "tags": [
+            "human-machine systems",
+            "robotics",
+            "prosthetics",
+            "tactile sensors",
+            "haptics",
+            "hand biomechanics"
+          ],
+          "summary": "Human-machine systems, robotics, prosthetics, tactile sensors, haptics, hand biomechanics, neural control of movement, stochastic modeling, and clinical applications of biomechanical modeling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/veronica-santos/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "vijay-dhir",
+          "name": "Vijay Dhir",
+          "title": "Distinguished Professor Emeritus; joint with Chemical and Biomolecular Engineering",
+          "sub_field": "Thermal Science & Engineering",
+          "tags": [
+            "two-phase heat transfer",
+            "boiling",
+            "condensation",
+            "thermal",
+            "hydrodynamic stability",
+            "thermal hydraulics of nuclear reactors"
+          ],
+          "summary": "Two-phase heat transfer, boiling and condensation, thermal and hydrodynamic stability, thermal hydraulics of nuclear reactors, microgravity heat transfer, soil remediation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/vijay-dhir/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "vijay-gupta",
+          "name": "Vijay Gupta",
+          "title": "Distinguished Professor; joint with Materials Science and Bioengineering",
+          "sub_field": "Micro-Nano Engineering · Structural & Solid Mechanics",
+          "tags": [
+            "experimental mechanics",
+            "fracture of engineering solids",
+            "mechanics of thin films",
+            "interfaces",
+            "failure mechanisms",
+            "characterization of composite materials"
+          ],
+          "summary": "Experimental mechanics, fracture of engineering solids, mechanics of thin films and interfaces, failure mechanisms and characterization of composite materials, ice mechanics, use of high frequency laser-generated acoustic pulses for dissociation of intercellular and cell-to-Ti bonds for the treatment of arrhythmias and development of efficient titanium implants.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/vijay-gupta/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xiaochun-li",
+          "name": "Xiaochun Li",
+          "title": "Professor; Raytheon Endowed Professor in Manufacturing Engineering; joint with Materials Science",
+          "sub_field": "Design, Robotics & Manufacturing · Micro-Nano Engineering",
+          "tags": [
+            "scifacturing (science-driven manufacturing)",
+            "super metals by nanoparticles self-dispersion",
+            "scalable nanomanufacturing",
+            "smart manufacturing",
+            "additive manufacturing"
+          ],
+          "summary": "Scifacturing (science-driven manufacturing), Super Metals by Nanoparticles Self-Dispersion, Scalable Nanomanufacturing, Smart Manufacturing, Additive Manufacturing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/xiaochun-li/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "xiaolin-zhong",
+          "name": "Xiaolin Zhong",
+          "title": "Professor",
+          "sub_field": "Fluid Mechanics",
+          "tags": [
+            "computational fluid dynamics",
+            "hypersonic flows",
+            "stability",
+            "transition",
+            "numerical simulation of real-gas hypersonic flow",
+            "dns of strong shock interaction with turbulence"
+          ],
+          "summary": "Computational fluid dynamics; hypersonic flows, development of new very high-order numerical methods; numerical simulation of hypersonic boundary layer receptivity, stability, and transition; numerical simulation of real-gas hypersonic flow; development of high-order immersed interface method for flow simulations; DNS of strong shock interaction with turbulence; numerical simulation studies of wave energy harvesting devices.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/xiaolin-zhong/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "y-sungtaek-ju",
+          "name": "Y. Sungtaek Ju",
+          "title": "Professor",
+          "sub_field": "Micro-Nano Engineering · Thermal Science & Engineering",
+          "tags": [
+            "micro-",
+            "nanoscale thermosciencs",
+            "energy",
+            "biomems/nems",
+            "nanofabrication"
+          ],
+          "summary": "Micro- and nanoscale thermosciencs, energy, bioMEMS/NEMS, nanofabrication.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/sungtaek-ju/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yong-chen",
+          "name": "Yong Chen",
+          "title": "Professor; joint with Materials Science",
+          "sub_field": "Micro-Nano Engineering",
+          "tags": [
+            "nanofabrication",
+            "nanoscale electronic materials",
+            "devices",
+            "micro-nano electronic/optical/bio/mechanical systems",
+            "ultra-scale spatial",
+            "temporal characterization"
+          ],
+          "summary": "Nanofabrication. Nanoscale electronic materials and devices. Micro-Nano electronic/optical/bio/mechanical systems. Ultra-scale spatial and temporal characterization.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/yong-chen/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yongjie-hu",
+          "name": "Yongjie Hu",
+          "title": "Professor",
+          "sub_field": "Micro-Nano Engineering · Thermal Science & Engineering",
+          "tags": [
+            "heat transfer",
+            "electron transport in nanostructures",
+            "interfaces & packaging",
+            "thermal",
+            "electronic",
+            "optoelectronic"
+          ],
+          "summary": "Heat transfer and electron transport in nanostructures, interfaces & packaging. Thermal, electronic, optoelectronic, thermoelectric devices and systems. Energy conversion, storage and thermal management. Ultrafast optical spectroscopy and high-frequency electronics. Nanomaterials design, processing and manufacturing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/yongjie-hu/",
+            "scholar": null
+          }
+        },
+        {
+          "id": "yue-liu",
+          "name": "Yue Liu",
+          "title": "Assistant Professor; joint with Bioengineering",
+          "sub_field": "Micro-Nano Engineering · Structural & Solid Mechanics",
+          "tags": [
+            "physical",
+            "biological driving forces",
+            "mechanisms responsible for the fates",
+            "forms",
+            "functions of organisms in the human body",
+            "nature"
+          ],
+          "summary": "The Life Logic Laboratory (L3) strives to decipher the fundamental mechanical, physical, and biological driving forces and mechanisms responsible for the fates, forms, and functions of organisms in the human body and nature. Via exploiting such knowledge, L 3 also seeks to rescue defective human organs by developing novel therapeutics and engineer living structures for the next-gen biomedical technologies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://samueli.ucla.edu/people/yue-liu/",
+            "scholar": null
+          }
+        }
+      ]
     },
     {
       "id": "university-of-california-san-diego-mechanical-and-aerospace-engineering-phd-engi",
