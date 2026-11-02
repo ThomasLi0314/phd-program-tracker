@@ -365,7 +365,9 @@
         "subs": [
           "Chemical Engineering",
           "Biomolecular Engineering",
-          "Soft Matter"
+          "Soft Matter",
+          "Physical Oceanography",
+          "Climate Modeling"
         ]
       },
       "requirements": {
@@ -375,9 +377,9 @@
         "fee_display": "$90",
         "gre": "Optional",
         "letters": 2,
-        "english": "Unknown/Verify",
+        "english": "TOEFL iBT ≥90 / IELTS 7.0 / Duolingo 125 / PTE Academic 65 (Tandon minimums); no test needed after four years and a bachelor's degree at a US institution, or with a master's degree",
         "admission_model": "Unknown/Verify",
-        "admission_model_note": "",
+        "admission_model_note": "The department's Ph.D. Research Advisor Preference Form, linked from the program page, asks each student (by NYU Net ID) to interview at least 6 faculty and rank at least 4 as potential dissertation advisors. A BS in chemical engineering or a related field of science or engineering is generally required; applicants from other fields may be admitted with deficiencies evaluated by the graduate adviser, and at least one differential equations course is needed.",
         "funding": {
           "status": "Unknown/Verify",
           "years": null,
@@ -395,15 +397,698 @@
           }
         },
         "pre_application_contact": "Unknown/Verify",
-        "contact_note": "",
+        "contact_note": "No program-wide rule on the program page. Alistair Adcroft's NYU profile encourages students from engineering, geoscience, applied mathematics and data science backgrounds to get in touch, and Juanita Hidalgo's lab page asks interested Fall 2027 PhD applicants to email.",
         "ects": null,
         "duration": "Unknown/Verify"
       },
       "links": {
         "program": "https://engineering.nyu.edu/academics/programs/chemical-engineering-phd"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #32",
-      "faculty": []
+      "data_currency": "2026-07-05 · top-50 sweep · US News #32 · faculty 2026-11-02",
+      "faculty": [
+        {
+          "id": "lashanda-korley",
+          "name": "LaShanda Korley",
+          "title": "Professor; Chair, Chemical and Biomolecular Engineering",
+          "sub_field": "Polymers & Sustainable Materials",
+          "tags": [
+            "sustainable materials",
+            "plastics waste valorization",
+            "bio-inspired engineering",
+            "polymeric systems",
+            "renewable resources"
+          ],
+          "summary": "Department chair and leader of the DOE-funded Center for Plastics Innovation. Works on sustainable materials, plastics waste valorization and bio-inspired engineering, using polymeric systems to study how renewable resources can serve as building blocks for new materials and how biological systems can inspire synthetic materials with exceptional function.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/lashanda-korley",
+            "scholar": "https://scholar.google.com/citations?user=Pmd_nXIAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "alistair-adcroft",
+          "name": "Alistair Adcroft",
+          "title": "Professor of Chemical and Biomolecular Engineering and Earth System Science and Engineering",
+          "sub_field": "Ocean & Climate Modeling",
+          "tags": [
+            "ocean circulation modeling",
+            "MOM6",
+            "ML parameterization",
+            "AI emulators",
+            "Earth system models",
+            "coastal risk"
+          ],
+          "summary": "Computational oceanographer who joined Tandon in 2026 from Princeton and NOAA GFDL, where he led the team behind OM4 and co-created MOM6; earlier a lead developer of MITgcm. Co-leads M2LInES. His NYU profile says he is recruiting Ph.D. students for ocean and climate modeling, machine learning for Earth system models, and bringing climate projections to engineering scales; engineering, geoscience, applied math and data science backgrounds are encouraged to get in touch.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/alistair-adcroft",
+            "scholar": "https://scholar.google.com/citations?user=jRfIcNMAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "stephen-arnold",
+          "name": "Stephen Arnold",
+          "title": "University Professor; Thomas Potts Professor of Applied Physics",
+          "sub_field": "Biosensing & Diagnostics",
+          "tags": [
+            "microparticle photophysics",
+            "whispering gallery mode biosensing",
+            "organic molecular crystals"
+          ],
+          "summary": "Appointed in Applied Physics and Chemical and Biomolecular Engineering. Research interests listed on the NYU profile: microparticle photophysics, whispering gallery mode biosensing and organic molecular crystals.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/stephen-arnold",
+            "scholar": "https://scholar.google.com/citations?user=mP4psFcAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "eray-aydil",
+          "name": "Eray Aydil",
+          "title": "Senior Vice Dean, NYU Tandon; Alstadt Lord Mark Professor",
+          "sub_field": "Energy Materials",
+          "tags": [
+            "photovoltaics",
+            "solar cells",
+            "plasmas",
+            "materials synthesis",
+            "catalytic materials"
+          ],
+          "summary": "Senior Vice Dean of NYU Tandon. The group studies electronic, optoelectronic, magnetic and catalytic materials synthesis and characterization, with an emphasis on synthesis-structure-property-performance relations; listed research interests are photovoltaics, solar cells and plasmas.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/eray-aydil",
+            "scholar": "https://scholar.google.com/citations?user=P6BSUWAAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "paola-bardetti",
+          "name": "Paola Bardetti",
+          "title": "Industry Assistant Professor",
+          "sub_field": "Biosensing & Diagnostics",
+          "tags": [
+            "rapid diagnostics",
+            "biomarker detection",
+            "nucleic acid-based receptors",
+            "molecular tools"
+          ],
+          "summary": "Industry-track faculty teaching in Biomolecular Science. At Tandon, developed rapid diagnostics for biomarker detection in human bodily fluids, creating molecular tools to detect small proteins, cells and other targets using nucleic acid-based receptors and antibodies.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/paola-bardetti",
+            "scholar": "https://scholar.google.com/citations?user=hRb_3EAAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "justin-bui",
+          "name": "Justin Bui",
+          "title": "Assistant Professor",
+          "sub_field": "Electrochemical Engineering",
+          "tags": [
+            "electrochemistry",
+            "ion-conducting polymer membranes",
+            "machine learning",
+            "reaction engineering",
+            "decarbonization",
+            "environmental remediation"
+          ],
+          "summary": "Works at the intersection of electrochemistry, polymer science, machine learning and reaction engineering to build electrochemical technologies for decarbonization and environmental remediation. Focus areas include multi-layer ion-conducting polymer membranes for electrodialytic ion separation and porous electrode reactors for high-rate electrochemical oxidations.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/justin-bui",
+            "scholar": "https://scholar.google.com/citations?user=rghrdnYAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "juan-de-pablo",
+          "name": "Juan de Pablo",
+          "title": "Executive Dean, NYU Tandon; Executive Vice President for Global Science and Technology, NYU",
+          "sub_field": "Soft Matter & Molecular Modeling",
+          "tags": [
+            "polymers",
+            "proteins and DNA",
+            "glasses",
+            "liquid crystals",
+            "molecular modeling"
+          ],
+          "summary": "Executive Dean of NYU Tandon and NYU Executive Vice President for Global Science and Technology. Materials scientist and chemical engineer whose research covers polymers, biological macromolecules such as proteins and DNA, glasses and liquid crystals, developing molecular models and advanced computational approaches for complex molecular processes across wide length and time scales.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/juan-de-pablo",
+            "scholar": "https://scholar.google.com/citations?user=_Q1HH6gAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "giuseppe-maria-de-peppo",
+          "name": "Giuseppe Maria de Peppo",
+          "title": "Industry Associate Professor",
+          "sub_field": "Biomaterials & Bioengineering",
+          "tags": [
+            "biomaterials",
+            "medical devices",
+            "stem cells",
+            "tissue engineering",
+            "nanotechnology",
+            "biosensing"
+          ],
+          "summary": "Industry-track faculty teaching undergraduate and graduate biotechnology courses; previously a Principal Investigator at the New York Stem Cell Foundation Research Institute. Research interests include biomaterials, medical devices, stem cells, tissue engineering, nanotechnology and biosensing.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/giuseppe-maria-de-peppo",
+            "scholar": "https://scholar.google.com/citations?user=wkKX4gEAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "bruce-garetz",
+          "name": "Bruce Garetz",
+          "title": "Professor and Associate Chair",
+          "sub_field": "Soft Matter & Molecular Modeling",
+          "tags": [
+            "laser light scattering",
+            "laser-induced nucleation",
+            "block copolymers",
+            "polymer blends",
+            "crystallization"
+          ],
+          "summary": "The research group studies how light interacts with materials through laser light scattering and laser-induced nucleation: depolarized light scattering to probe the grain structure of block copolymers, static light scattering from polymer blends, and pulsed lasers to initiate nucleation in supersaturated solutions, including in microfluidic devices with Ryan Hartman.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/bruce-garetz",
+            "scholar": "https://scholar.google.com/citations?user=gbYZ69AAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "ryan-hartman",
+          "name": "Ryan Hartman",
+          "title": "Professor; Director of Faculty Awards, Office of the Provost",
+          "sub_field": "Catalysis & Reaction Engineering",
+          "tags": [
+            "chemical reaction engineering",
+            "continuous-flow microreactors",
+            "machine learning",
+            "in-situ spectroscopy",
+            "microfluidics",
+            "sustainability"
+          ],
+          "summary": "The Hartman Research Laboratory applies chemical reaction engineering principles to sustainability problems. A central theme is combining artificial intelligence and machine learning with continuous-flow microreactors, in-situ spectroscopy and microfluidics for faster discovery of reaction kinetics and mechanisms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/ryan-hartman",
+            "scholar": "https://scholar.google.com/citations?user=0GlMilUAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "juanita-hidalgo",
+          "name": "Juanita Hidalgo",
+          "title": "Assistant Professor",
+          "sub_field": "Energy Materials",
+          "tags": [
+            "energy material circularity",
+            "end-of-life mechanisms",
+            "separation processes",
+            "device manufacturing",
+            "interface characterization"
+          ],
+          "summary": "Leads the Circularity in Energy Materials (CEM) lab, which works on closing the lifecycle of energy materials such as solar cells and solid-state electrochemical systems, from atomic-level understanding to device performance. The lab contact page says: \"We're currently looking for a PhD student to join our lab in the Fall 2027!\"",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/juanita-hidalgo",
+            "scholar": "https://scholar.google.com/citations?user=mlHl8OcAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "jeffrey-a-hubbell",
+          "name": "Jeffrey A. Hubbell",
+          "title": "Professor, Chemical and Biomolecular Engineering and Biology; Vice President, Life Sciences and Engineering, NYU; Interim Chair, Biomedical Engineering",
+          "sub_field": "Biomaterials & Bioengineering",
+          "tags": [
+            "immuno-modulatory materials",
+            "protein engineering",
+            "regenerative medicine",
+            "immunotherapeutics",
+            "inverse vaccines"
+          ],
+          "summary": "Leads the Institute for Engineering Health. Uses biomaterials and engineered proteins to investigate regenerative medicine and immunotherapeutics, from chronic wound healing and bone repair to nanomaterial vaccines, inverse vaccines for antigen-specific tolerance in autoimmunity and allergy, and protein therapy in immuno-oncology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/jeffrey-hubbell",
+            "scholar": "https://scholar.google.com/citations?user=uhH97lkAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "jin-ryoun-kim",
+          "name": "Jin Ryoun Kim",
+          "title": "Associate Professor; Academic Director, Chemical Engineering Ph.D.",
+          "sub_field": "Protein Engineering",
+          "tags": [
+            "protein design",
+            "protein sensors",
+            "neurodegenerative disease",
+            "stable enzymes"
+          ],
+          "summary": "Academic Director of the Ph.D. program. Creates novel proteins for complex functionality, such as a protein sensor for detecting toxic molecules in neurodegenerative diseases and a highly stable enzyme for industrial use.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/jin-ryoun-kim",
+            "scholar": "https://scholar.google.com/citations?user=IyzKSScAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "pavel-kots",
+          "name": "Pavel Kots",
+          "title": "Assistant Professor",
+          "sub_field": "Catalysis & Reaction Engineering",
+          "tags": [
+            "plastic upcycling",
+            "heterogeneous catalysis",
+            "reactor design",
+            "process intensification",
+            "in situ spectroscopy",
+            "circular economy"
+          ],
+          "summary": "Leads the Laboratory for Sustainable Catalytic Processes, which uses catalysis and reaction engineering to recycle and upcycle waste plastic, through reactor and catalyst design for intensified conversion of commodity plastics and new reaction discovery. The lab contact page says: \"We are actively looking for graduate students to join our research team!\"",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/pavel-kots",
+            "scholar": "https://scholar.google.com/citations?user=7ZPtSugAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "rastislav-levicky",
+          "name": "Rastislav Levicky",
+          "title": "Professor",
+          "sub_field": "Biosensing & Diagnostics",
+          "tags": [
+            "biointerfacial engineering",
+            "electrochemistry",
+            "sensors",
+            "biomolecular diagnostics",
+            "polymers"
+          ],
+          "summary": "Research advances technologies for analyzing interactions between biologically relevant molecules, including the molecular processes behind devices such as microarrays. Current projects include assays based on synthetic DNA mimics for pathogen and gene expression analysis and scalable platforms for rapid assessment of small molecule-nucleic acid interactions.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/rastislav-levicky",
+            "scholar": "https://scholar.google.com/citations?user=I02j2WYAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "dharik-mallapragada",
+          "name": "Dharik Mallapragada",
+          "title": "Assistant Professor",
+          "sub_field": "Energy Systems Modeling",
+          "tags": [
+            "energy system decarbonization",
+            "low-carbon technologies",
+            "mathematical optimization",
+            "data-driven modeling",
+            "energy transitions"
+          ],
+          "summary": "Leads the Sustainable Energy Transitions group, which develops mathematical models to analyze low-carbon technologies and their energy system integration under different policy and geographical contexts, using first-principle and data-driven modeling, mixed integer optimization and data analytics for variability and uncertainty.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/dharik-mallapragada",
+            "scholar": "https://scholar.google.com/citations?user=lnmhM0QAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "miguel-modestino",
+          "name": "Miguel Modestino",
+          "title": "Donald F. Othmer Professor of Chemical Engineering; Director, Sustainable Engineering Initiative",
+          "sub_field": "Electrochemical Engineering",
+          "tags": [
+            "chemical manufacturing decarbonization",
+            "energy storage and conversion",
+            "electrochemistry",
+            "reaction engineering",
+            "polymers",
+            "sustainability"
+          ],
+          "summary": "Research lies at the interface of multifunctional material development and electrochemical engineering: composite materials development, processing and characterization used to improve and redefine electrochemical reactors with direct industrial applications, grounded in how self-assembly, morphology and surface properties affect mass transport and device performance.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/miguel-modestino",
+            "scholar": "https://scholar.google.com/citations?user=0zfdancAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "jin-kim-montclare",
+          "name": "Jin Kim Montclare",
+          "title": "Professor of Chemical and Biomolecular Engineering",
+          "sub_field": "Protein Engineering",
+          "tags": [
+            "protein engineering",
+            "artificial proteins",
+            "drug delivery",
+            "tissue regeneration",
+            "nanomaterials"
+          ],
+          "summary": "Engineers proteins to mimic nature, customizing artificial proteins to target human disorders, drug delivery and tissue regeneration, and to create nanomaterials for electronics, using multidisciplinary expertise in chemistry and genetic engineering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/jin-kim-montclare",
+            "scholar": "https://scholar.google.com/citations?user=_V-WQykAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "david-pine",
+          "name": "David Pine",
+          "title": "Professor",
+          "sub_field": "Soft Matter & Molecular Modeling",
+          "tags": [
+            "soft materials",
+            "colloids",
+            "emulsions",
+            "self-assembly",
+            "rheology",
+            "photonics"
+          ],
+          "summary": "Studies soft mesoscopic materials including colloids, emulsions, polymers, surfactant solutions, non-Brownian suspensions and gels. Current topics include self-assembly, DNA-coated colloids, colloidal swimmers, lock-and-key colloids, random organization and colloidal glasses.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/david-pine",
+            "scholar": "https://scholar.google.com/citations?user=lc5f21oAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "nathalie-pinkerton",
+          "name": "Nathalie Pinkerton",
+          "title": "Assistant Professor",
+          "sub_field": "Biomaterials & Bioengineering",
+          "tags": [
+            "responsive soft materials",
+            "drug delivery",
+            "vaccines",
+            "medical imaging",
+            "nanotechnology"
+          ],
+          "summary": "The Pinkerton Research Group develops responsive soft materials for bioapplications from controlled drug delivery to vaccines to medical imaging, using scalable synthetic processes and studying how process parameters control material properties and behavior in biological systems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/nathalie-pinkerton",
+            "scholar": null
+          }
+        },
+        {
+          "id": "mahla-poudineh",
+          "name": "Mahla Poudineh",
+          "title": "Associate Professor",
+          "sub_field": "Biosensing & Diagnostics",
+          "tags": [
+            "wearable biosensing",
+            "closed-loop drug delivery",
+            "machine learning for health monitoring",
+            "diabetes",
+            "cancer"
+          ],
+          "summary": "Directs the IDEATION Lab, which moved to NYU from the University of Waterloo in September 2026 and aims to combine real-time health monitoring with targeted drug delivery using functional nano/biomaterials. The lab's open-positions page lists positions for graduate students in wearable biosensing, closed-loop sensing and drug delivery, machine learning for health monitoring, and diabetes and cancer research.",
+          "recruitment_status": "Looking for Students",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/mahla-poudineh",
+            "scholar": "https://scholar.google.com/citations?user=Wp5r-LYAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "phillip-rauscher",
+          "name": "Phillip Rauscher",
+          "title": "Assistant Professor",
+          "sub_field": "Soft Matter & Molecular Modeling",
+          "tags": [
+            "polymer physics",
+            "composite materials",
+            "rheology",
+            "nonequilibrium thermodynamics",
+            "interfaces",
+            "machine learning"
+          ],
+          "summary": "The group pursues \"Practical Soft Matter Physics\", combining mathematical theory, molecular simulation and machine learning on industrially inspired problems: thermophysical properties of complex formulations, nonequilibrium interfaces, and fluoropolymer replacement and remediation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/phillip-rauscher",
+            "scholar": "https://scholar.google.com/citations?user=ZyM6pZ4AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "elisa-riedo",
+          "name": "Elisa Riedo",
+          "title": "Herman F. Mark Professor in Chemical and Biomolecular Engineering; Professor of Physics, NYU Arts & Science",
+          "sub_field": "Nanoscience & Surfaces",
+          "tags": [
+            "thermal scanning probe lithography",
+            "nanomechanics",
+            "2D materials",
+            "biosensing",
+            "wearables",
+            "nanofabrication"
+          ],
+          "summary": "Known for thermal scanning probe lithography, a sustainable nanofabrication technique with applications in biomedicine, nanoelectronics and magnetic materials, and for contributions in nanomechanics, graphene, diamene, 2D materials and nano-confined water. The PicoForce Lab page says it welcomes motivated PhD students interested in AFM, nanomechanics, nanofabrication and 2D materials.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/elisa-riedo",
+            "scholar": "https://scholar.google.com/citations?user=fMkjyP8AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "ayaskanta-sahu",
+          "name": "Ayaskanta Sahu",
+          "title": "Associate Professor; Undergraduate Studies Director",
+          "sub_field": "Energy Materials",
+          "tags": [
+            "hybrid nanomaterials",
+            "colloidal semiconductor nanocrystals",
+            "energy transport",
+            "thermoelectrics",
+            "thin films"
+          ],
+          "summary": "Investigates transport phenomena in new classes of nanostructured hybrid materials with promise for optoelectronic and thermoelectric energy conversion, including interfacial doping of colloidal semiconductor nanocrystals and thermoelectric nanostructure devices.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/ayaskanta-sahu",
+            "scholar": "https://scholar.google.com/citations?user=1zho70UAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "andre-taylor",
+          "name": "André Taylor",
+          "title": "Professor",
+          "sub_field": "Energy Materials",
+          "tags": [
+            "nanomaterials",
+            "energy conversion and storage",
+            "perovskite solar cells",
+            "microsystems",
+            "catalysis",
+            "sustainability"
+          ],
+          "summary": "Leads the Transformative Materials and Devices Lab. Research interests: design and assembly of nanomaterials for energy conversion and storage; MEMS, microsystems, micro energy conversion devices and advanced sensors; catalysis, materials and semiconductor processing; and sustainability.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/andre-taylor",
+            "scholar": "https://scholar.google.com/citations?user=1pj_RWoAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "iwao-teraoka",
+          "name": "Iwao Teraoka",
+          "title": "Professor",
+          "sub_field": "Biosensing & Diagnostics",
+          "tags": [
+            "photonic sensors",
+            "whispering gallery modes",
+            "polymer solutions"
+          ],
+          "summary": "Research interests listed on the NYU profile: photonic sensors and whispering gallery modes. Author of Polymer Solutions: An Introduction to Physical Properties (Wiley, 2002).",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/iwao-teraoka",
+            "scholar": "https://scholar.google.com/citations?user=VB7IHIAAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "xin-wang",
+          "name": "Xin Wang",
+          "title": "Industry Associate Professor",
+          "sub_field": "Energy Materials",
+          "tags": [
+            "polymer electrolytes",
+            "batteries",
+            "computer vision",
+            "edge computing",
+            "chemical engineering practice"
+          ],
+          "summary": "Industry-track faculty. Listed research interests: thermodynamics and optical characterization of polymer electrolytes and batteries; computer vision, edge computing and simulation in chemical engineering and materials science; chemical engineering practice; curriculum development and innovation.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/xin-wang",
+            "scholar": null
+          }
+        },
+        {
+          "id": "nidal-hilal",
+          "name": "Nidal Hilal",
+          "title": "Professor of Engineering, NYU Abu Dhabi; Director, NYUAD Water Research Center",
+          "sub_field": "Water & Membrane Separations",
+          "tags": [
+            "desalination",
+            "water treatment",
+            "membrane technology"
+          ],
+          "summary": "Global Network faculty in the department, based at NYU Abu Dhabi, where Hilal directs the Water Research Center. Research interests: desalination, water treatment and membrane technology.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/nidal-hilal",
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrew-stuart",
+          "name": "Andrew Stuart",
+          "title": "Professor of Mathematics; Professor of Chemical and Biological Engineering",
+          "sub_field": "Applied & Computational Mathematics",
+          "tags": [
+            "applied mathematics",
+            "computational mathematics",
+            "mechanistic models",
+            "data-model fusion"
+          ],
+          "summary": "Affiliated with the department. Research in applied and computational mathematics, particularly how to optimally combine complex mechanistic models with data. Joined NYU in 2026 after 10 years at Caltech as Bren Professor of Computing and Mathematical Sciences.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/andrew-stuart",
+            "scholar": "https://scholar.google.com/citations?user=BQwkpB0AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "elizabeth-henaff",
+          "name": "Elizabeth Hénaff",
+          "title": "Assistant Professor, Technology, Culture and Society and Center for Urban Science + Progress (CBE affiliated)",
+          "sub_field": "Environmental Microbiology & Genomics",
+          "tags": [
+            "environmental microbiome",
+            "bioinformatics",
+            "genome structure",
+            "plant biology"
+          ],
+          "summary": "Affiliated with the department; profile appointments are in Technology, Culture and Society and the Center for Urban Science + Progress. Research centers on how living beings interact with their environment, including how plants respond to gravity, how genome structure changes under stress, and the microbial component of the environment.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/elizabeth-henaff",
+            "scholar": "https://scholar.google.com/citations?user=b1pfAY8AAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "katsuo-kurabayashi",
+          "name": "Katsuo Kurabayashi",
+          "title": "Professor; Chair, Mechanical and Aerospace Engineering (CBE affiliated)",
+          "sub_field": "Biosensing & Diagnostics",
+          "tags": [
+            "micro/nanoscale biosensors",
+            "biochemical reactors",
+            "microfluidics",
+            "nanofabrication",
+            "protein engineering"
+          ],
+          "summary": "Affiliated with the department; profile appointments are in Mechanical and Aerospace Engineering and Biomedical Engineering. Expertise in micro/nanoscale biosensors, biochemical reactors and analytical instrumentation using nanofabrication, microfluidic devices and semiconductor processing, for infectious disease screening, environmental monitoring and protein engineering.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/katsuo-kurabayashi",
+            "scholar": null
+          }
+        },
+        {
+          "id": "stephanie-lee",
+          "name": "Stephanie Lee",
+          "title": "Professor of Chemistry, NYU Arts & Science (CBE affiliated)",
+          "sub_field": "Energy Materials",
+          "tags": [
+            "solid-state chemistry",
+            "organic semiconductors",
+            "optoelectronics",
+            "solar energy harvesting",
+            "crystal engineering",
+            "x-ray diffraction"
+          ],
+          "summary": "Affiliated with the department; primary appointment in Chemistry at NYU Arts & Science. Areas of research interest: materials and solid-state chemistry, organic and hybrid semiconductors, optoelectronics, solar energy harvesting, crystal engineering and x-ray diffraction.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://as.nyu.edu/faculty/stephanie-lee.html",
+            "scholar": null
+          }
+        },
+        {
+          "id": "john-mcdevitt",
+          "name": "John McDevitt",
+          "title": "Professor and Chair, Biomaterials & Biomimetics, College of Dentistry (CBE affiliated)",
+          "sub_field": "Biosensing & Diagnostics",
+          "tags": [
+            "programmable bio-nano-chips",
+            "bioengineering",
+            "biomaterials",
+            "diagnostics",
+            "bio-MEMS"
+          ],
+          "summary": "Affiliated with the department; chairs Biomaterials and Biomimetics at the NYU College of Dentistry. Known for programmable bio-nano-chip technologies. Research interests: bioengineering, biomaterials, diagnostics and bio-MEMS.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/faculty/john-mcdevitt",
+            "scholar": "https://scholar.google.com/citations?user=Z9N8R3wAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "mark-green",
+          "name": "Mark Green",
+          "title": "Professor Emeritus",
+          "sub_field": "Polymers & Sustainable Materials",
+          "tags": [
+            "polymer chemistry",
+            "cooperative properties of polymers"
+          ],
+          "summary": "Emeritus. Began investigating the cooperative properties of polymers at the Herman Mark Polymer Research Institute of Brooklyn Poly (now NYU Tandon) in 1980.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/mark-green",
+            "scholar": "https://scholar.google.com/citations?user=ahynY3gAAAAJ&hl=en"
+          }
+        },
+        {
+          "id": "jovan-mijovic",
+          "name": "Jovan Mijovic",
+          "title": "Professor Emeritus",
+          "sub_field": "Polymers & Sustainable Materials",
+          "tags": [
+            "polymer dynamics",
+            "glass formers",
+            "complex fluids",
+            "nanocomposites"
+          ],
+          "summary": "Emeritus. Research interests: molecular motion and relaxation in synthetic and biological polymers, dynamics of glass formers and complex fluids, and nanocomposites in electrical and mechanical fields.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/jovan-mijovic",
+            "scholar": null
+          }
+        },
+        {
+          "id": "abraham-ulman",
+          "name": "Abraham Ulman",
+          "title": "Professor Emeritus",
+          "sub_field": "Nanoscience & Surfaces",
+          "tags": [
+            "self-assembled monolayers",
+            "surface engineering",
+            "polymers at interfaces",
+            "nonlinear optics",
+            "nanoparticles",
+            "conducting polymers"
+          ],
+          "summary": "Emeritus. Research interests: self-assembled monolayers, surface engineering and interfacial phenomena including wetting, adhesion and friction, polymers at engineered interfaces, materials for nonlinear optics, nanoparticles and conducting polymers.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://engineering.nyu.edu/abraham-ulman",
+            "scholar": "https://scholar.google.com/citations?user=y9dLrDcAAAAJ&hl=en"
+          }
+        }
+      ]
     },
     {
       "id": "northeastern-university-chemical-engineering-phd",
