@@ -8,7 +8,8 @@
 const GIS_SRC = 'https://accounts.google.com/gsi/client'
 /** gmail.readonly for outreach sync; drive.appdata for the backup file (a
  *  private, app-only folder in the user's Drive — we cannot see their real files);
- *  drive.file for the per-program note Docs. drive.file is per-file consent: it
+ *  drive.file for the per-program note Docs and the plan's live Google Sheet
+ *  (planner/lib/googleSheet). drive.file is per-file consent: it
  *  grants access ONLY to files this app itself creates, so adding it does not
  *  open the user's existing Drive to us. */
 const SCOPE =
@@ -61,6 +62,8 @@ let clientIdInUse = ''
 let accessToken: string | null = null
 let tokenExpiry = 0
 let pending: { resolve: (t: string) => void; reject: (e: Error) => void } | null = null
+/** The token request in flight, shared by every caller that asks meanwhile. */
+let inflight: Promise<string> | null = null
 
 async function ensureClient(clientId: string): Promise<void> {
   await loadGis()
@@ -79,22 +82,45 @@ async function ensureClient(clientId: string): Promise<void> {
       }
       pending = null
     },
+    // A closed or blocked popup never reaches `callback`; without this the
+    // request would wait forever and hold up every caller sharing it.
+    error_callback: (err: any) => {
+      pending?.reject(new Error(`Google sign-in ${err?.type ?? 'failed'} — reconnect`))
+      pending = null
+    },
   })
   clientIdInUse = clientId
 }
 
 /** Request a token. `interactive` shows the consent/account picker; otherwise it
- *  tries silently (works within the 7-day testing-mode grant). */
+ *  tries silently (works within the 7-day testing-mode grant).
+ *
+ *  GIS answers through one callback, so two overlapping requests (the Drive
+ *  backup and the plan's Google Sheet both start on page load) would leave the
+ *  first one unanswered. Callers who arrive while a request is out share it. */
 function requestToken(interactive: boolean): Promise<string> {
-  return new Promise((resolve, reject) => {
+  if (inflight) return inflight
+  let timer: ReturnType<typeof setTimeout> | undefined
+  inflight = new Promise<string>((resolve, reject) => {
     pending = { resolve, reject }
+    // Belt and braces: should GIS answer neither callback, don't let one lost
+    // request block every later one. A token that arrives after this still
+    // lands in `accessToken` for the next caller.
+    timer = setTimeout(() => {
+      if (pending?.reject === reject) pending = null
+      reject(new Error('Google sign-in timed out — reconnect'))
+    }, 120_000)
     try {
       tokenClient.requestAccessToken({ prompt: interactive ? 'consent' : '' })
     } catch (e) {
       pending = null
       reject(e as Error)
     }
+  }).finally(() => {
+    clearTimeout(timer)
+    inflight = null
   })
+  return inflight
 }
 
 /** Interactive connect: prompts for consent and returns the account email. */

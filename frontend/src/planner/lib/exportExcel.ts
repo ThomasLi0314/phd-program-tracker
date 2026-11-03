@@ -1,10 +1,11 @@
-// Excel export of the application plan: one sheet, programs as summary rows,
-// each program's saved faculty grouped underneath with Excel's own outline
-// controls, collapsed by default.
+// The application plan as a workbook: one sheet, programs as summary rows,
+// each program's saved faculty grouped underneath with the spreadsheet's own
+// outline controls, collapsed by default.
 //
-// The workbook is built separately from the download so it can be exercised
-// outside a browser. ExcelJS is imported on demand — it is a ~1 MB library
-// that only the export button needs.
+// It is what the live Google Sheet is made from (googleSheet.ts uploads it and
+// Drive converts it), and is kept free of browser APIs so it can be exercised
+// outside one. ExcelJS is imported on demand — it is a ~1 MB library that only
+// the Sheet sync and the letter checklist need.
 
 export interface ExportAdvisorRow {
   name: string
@@ -37,7 +38,7 @@ export interface ExportMeta {
   exportedAt: Date
 }
 
-type ExcelNS = typeof import('exceljs')
+export type ExcelNS = typeof import('exceljs')
 
 const HEADERS = ['Category', 'University', 'Program / Advisor', 'Deadline', 'Funding', 'Stipend', 'Rent near campus', 'Status', 'Research / Notes', 'Link']
 const WIDTHS = [20, 30, 46, 20, 16, 30, 30, 22, 56, 46]
@@ -45,7 +46,7 @@ const LINK_COL = HEADERS.length
 
 const LINK_FONT = { color: { argb: 'FF2563EB' }, underline: true, size: 11 }
 
-async function loadExcelJS(): Promise<ExcelNS> {
+export async function loadExcelJS(): Promise<ExcelNS> {
   const mod = (await import('exceljs')) as unknown as ExcelNS & { default?: ExcelNS }
   return mod.default ?? mod
 }
@@ -117,21 +118,8 @@ export async function buildWorkbook(rows: ExportProgramRow[], meta: ExportMeta) 
   return wb
 }
 
-export function excelFilename(exportedAt: Date): string {
-  return `phd-plan-programs-${exportedAt.toISOString().slice(0, 10)}.xlsx`
-}
-
-/** Build the workbook and hand it to the browser as a download. */
-export async function exportPlannerExcel(rows: ExportProgramRow[], meta: ExportMeta): Promise<void> {
+/** The workbook as .xlsx bytes. */
+export async function workbookBytes(rows: ExportProgramRow[], meta: ExportMeta): Promise<ArrayBuffer> {
   const wb = await buildWorkbook(rows, meta)
-  const buffer = await wb.xlsx.writeBuffer()
-  const blob = new Blob([buffer], {
-    type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-  })
-  const url = URL.createObjectURL(blob)
-  const a = document.createElement('a')
-  a.href = url
-  a.download = excelFilename(meta.exportedAt)
-  a.click()
-  setTimeout(() => URL.revokeObjectURL(url), 1000)
+  return (await wb.xlsx.writeBuffer()) as ArrayBuffer
 }

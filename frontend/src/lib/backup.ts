@@ -21,6 +21,9 @@ export const BACKUP_KEYS: { key: string; label: string }[] = [
   { key: 'planner.state.v1', label: 'Application plan (programs, faculty, notes)' },
   // Same rule as the planner: an untouched master's plan writes no key.
   { key: 'masters.plan.v1', label: "Master's plan (programmes, checklists, notes)" },
+  // A pointer only, like the note Docs: restored, the plan keeps writing to the
+  // same Google Sheet instead of making a second one. See planner/lib/googleSheet.
+  { key: 'planner.sheet.v1', label: 'Plan Google Sheet (link)' },
 ]
 
 /** The keys above, for quick membership tests. */
@@ -106,6 +109,8 @@ export function describeBackup(b: BackupFile): { label: string; count: number }[
     if (Array.isArray(v)) return v.length
     if (v && typeof v === 'object') {
       const o = v as Record<string, unknown>
+      // a single link (the plan's Google Sheet), not a collection
+      if (typeof o.fileId === 'string') return 1
       // outreach/overrides/planner are nested containers — count their rows
       if ('programs' in o && 'faculty' in o) {
         const programs = (o.programs as unknown[]) ?? []

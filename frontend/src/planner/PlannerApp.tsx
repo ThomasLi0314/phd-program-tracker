@@ -7,8 +7,12 @@
 
 import { useMemo } from 'react'
 import { navigate, segments, useHashRoute } from '../lib/hashRoute'
+import { useHousing } from '../lib/costOfLiving'
 import { usePlanner } from './lib/usePlanner'
 import { useReferencePool } from './lib/useReferencePool'
+import { useOutreachSnapshot } from './lib/outreachBridge'
+import { buildExportRows, sheetOrder } from './lib/exportRows'
+import { useSheetSync } from './lib/googleSheet'
 import { Dashboard } from './views/Dashboard'
 import { ProgramsTable } from './views/ProgramsTable'
 import { ProgramDetail } from './views/ProgramDetail'
@@ -38,6 +42,25 @@ export default function PlannerApp() {
   const route = useHashRoute()
   const planner = usePlanner()
   const pool = useReferencePool()
+  const { placeFor, ready: housingReady } = useHousing()
+  const outreach = useOutreachSnapshot()
+
+  // The Google Sheet follows the plan from here rather than from the Programs
+  // page, so an edit made on any planner page reaches it. Rows wait for the
+  // database and rent figures: a Sheet written half-filled would be rewritten
+  // a moment later.
+  const sheetRows = useMemo(() => {
+    const s = planner.state
+    if (!s || pool.loading || !housingReady) return null
+    return buildExportRows(sheetOrder(s, pool.byId), {
+      state: s,
+      byId: pool.byId,
+      programs: pool.programs,
+      placeFor,
+      outreach,
+    })
+  }, [planner.state, pool.loading, pool.byId, pool.programs, housingReady, placeFor, outreach])
+  useSheetSync(sheetRows, planner.state?.settings.cycle ?? '')
 
   // '/planner/programs/prog_x' → ['programs', 'prog_x']
   const parts = useMemo(() => segments(route).slice(1), [route])

@@ -37,9 +37,18 @@ You can also search advisors across every school, or browse school by school.
 notes on each.
 
 **Plan** (`#/planner`) — your application tracker: interest level and status per
-program, deadlines with countdowns, the faculty you saved there, contact state,
-a research profile, and **Export Excel** — one sheet with advisors grouped under
-each program, including stipend and rent columns.
+program, deadlines with countdowns, the faculty you saved there, contact state
+and a research profile. Two ways to get it out:
+
+- **Google Sheet** — one click makes a Sheet of the plan in your own Drive
+  (advisors grouped under each program, stipend and rent columns), and from then
+  on it rewrites itself a few seconds after every change. Its link never
+  changes, so it can be bookmarked or shared; File → Download still gives an
+  .xlsx. The Sheet is a mirror of the plan — edit in the plan, not the Sheet.
+- **Letter checklist** — an Excel file for your recommenders: the programs
+  listed (filters apply; Drop and Withdrawn are left out), soonest deadline
+  first, each with a checkbox to tick once the letter is in. The boxes are
+  Excel's own in-cell checkboxes (Microsoft 365); older Excel shows TRUE/FALSE.
 
 **Contact** — connect Gmail (optional) and the site reads your *Sent* mail
 headers to work out which professors you emailed and who replied, then links
@@ -72,6 +81,7 @@ publishes the site cannot see any of it.
 | Contact records synced from Gmail | yes | yes |
 | Your edits to any program field | yes | yes |
 | Program note documents | — | yes, as ordinary Google Docs you own |
+| The plan's Google Sheet | the link only | yes, as an ordinary Google Sheet you own |
 | API keys (DeepSeek, OAuth client ID) | yes | **no** — deliberately left out of backups |
 
 The Drive copy lives in `appDataFolder`, a private per-app folder: it does not
@@ -95,8 +105,10 @@ Each is off until you set it up in **Settings**, with **your own** credentials:
   reply-reading feature below. Drive backups go to `appDataFolder`, a private
   folder that only this app, signed in as you, can read: it does not show up
   among your normal Drive files and no one else can open it. The note documents
-  use Google's per-file scope, which grants access only to files this app itself
-  creates — connecting it does not open the rest of your Drive.
+  and the plan's Google Sheet use Google's per-file scope, which grants access
+  only to files this app itself creates — connecting it does not open the rest
+  of your Drive. The Sheet is written through the Drive API (Drive converts the
+  uploaded workbook), so nothing beyond the Gmail and Drive APIs needs enabling.
 - **DeepSeek AI (optional).** If you add a DeepSeek API key, the features that
   summarise a professor's research or interpret a reply send that text to
   `api.deepseek.com`, and pages read for those summaries are fetched through the
@@ -194,7 +206,7 @@ Cloudflare tunnel. You do not need them to use or publish the site.
 
 | Path | What it is |
 |---|---|
-| `frontend/src/` | the app: `components/` (Explore, program pages, advisors, contact), `planner/` (application plan), `europe/` (master's database + plan), `lib/` (data loading, storage, Google, backup, Excel) |
+| `frontend/src/` | the app: `components/` (Explore, program pages, advisors, contact), `planner/` (application plan, its Google Sheet and letter checklist), `europe/` (master's database + plan), `lib/` (data loading, storage, Google, backup, Excel) |
 | `frontend/src/data/mock_data.json` | **the database** — every program and advisor, the single source of truth |
 | `frontend/public/data/` | what the site loads: `index.json`, one file per field, `europe.json` (master's), `housing.json` (rent) |
 | `docs/` | the built site GitHub Pages serves — generated, don't edit by hand |

@@ -1,5 +1,6 @@
-// Planner-focused program table (spec §22): dense, sortable, filterable — and
-// exportable to a real spreadsheet in the same order it is shown.
+// Planner-focused program table (spec §22): dense, sortable, filterable. The
+// plan lives on in a Google Sheet that keeps itself current (SheetControls),
+// and the rows shown here can go out as a recommendation-letter checklist.
 
 import { useMemo, useState } from 'react'
 import { navigate } from '../../lib/hashRoute'
@@ -7,16 +8,14 @@ import type { Program } from '../../types'
 import type { PlannerFaculty, PlannerProgram, PlannerState } from '../types'
 import type { ReferencePool } from '../lib/useReferencePool'
 import type { PlannerApi } from '../lib/usePlanner'
-import { facultyOccurrences, programIdentity, resolveProgram } from '../lib/referenceBridge'
+import { programIdentity, resolveProgram } from '../lib/referenceBridge'
 import { isLikelyRecruiting } from '../lib/recruitment'
 import { deadlineLabel, resolveDeadline } from '../lib/deadlines'
-import { money, rentShare, SCOPE_LABEL, stipendShort, useHousing, type HousingPlace } from '../../lib/costOfLiving'
-import { effectiveContact, findRecord, useOutreachSnapshot } from '../lib/outreachBridge'
+import { money, rentShare, stipendShort, useHousing, type HousingPlace } from '../../lib/costOfLiving'
 import {
   APPLICATION_LABELS,
   APPLICATION_ORDER,
   APPLICATION_TONES,
-  CONTACT_LABELS,
   FUNDING_LABELS,
   INTEREST_LABELS,
   INTEREST_ORDER,
@@ -24,7 +23,9 @@ import {
 } from '../lib/labels'
 import { StatusChip, StatusSelect } from '../components/StatusChip'
 import { AddProgramModal } from '../components/AddProgramModal'
-import { exportPlannerExcel, type ExportProgramRow } from '../lib/exportExcel'
+import { downloadLetterChecklist, type LetterRow } from '../lib/letterChecklist'
+import { SheetControls } from '../components/SheetControls'
+import { programLabel } from '../lib/exportRows'
 
 type SortKey = 'university' | 'interest' | 'deadline' | 'status' | 'faculty'
 
@@ -196,7 +197,6 @@ export function ProgramsTable({
   const [sortBy, setSortBy] = useState<SortKey>('university')
   const [exporting, setExporting] = useState(false)
   const [exportError, setExportError] = useState<string | null>(null)
-  const outreach = useOutreachSnapshot()
   // Stipends ride on the dataset program; rent comes from data/housing.json.
   const { placeFor } = useHousing()
 
@@ -270,70 +270,30 @@ export function ProgramsTable({
   const grouped = state.categories.length > 0
 
   /**
-   * The rows exactly as the table shows them — same filter, same order — with
-   * each program's linked faculty. Unknown values are written as the same
-   * "Unknown / Verify" the planner shows; nothing is guessed to fill a cell.
+   * The letter checklist covers the programs the table is showing, so a filter
+   * or category narrows it — minus any marked Drop or Withdrawn, which no one
+   * needs a letter for. The file sorts them by deadline itself.
    */
-  const buildExport = (): ExportProgramRow[] =>
-    rows.map(({ entry, live, id, linked }) => {
-      const parsed = resolveDeadline(entry.admissions.deadline, live?.requirements.deadline)
-      const deadline =
-        parsed.kind === 'dated' && parsed.iso
-          ? `${deadlineLabel(parsed)}${parsed.yearInferred ? ' (year inferred)' : ''}`
-          : parsed.kind === 'unknown'
-            ? UNKNOWN_LABEL
-            : deadlineLabel(parsed)
-      const funding = entry.funding.level?.value ? FUNDING_LABELS[entry.funding.level.value] : UNKNOWN_LABEL
-      const s = live?.requirements.funding.stipend
-      const short = s ? stipendShort(s) : null
-      const stipend = short
-        ? `${short}${s!.scope ? ` (${(SCOPE_LABEL[s!.scope] ?? '').toLowerCase()}${s!.academic_year ? `, ${s!.academic_year}` : ''})` : ''}`
-        : s
-          ? 'No official figure found'
-          : UNKNOWN_LABEL
-      const place = placeFor(id.university)
-      const share = rentShare(s, place)
-      const rent =
-        place && place.average != null
-          ? `${money(place.average, place.currency)}/mo — ${place.city}${share != null ? ` — ${Math.round(share * 100)}% of stipend` : ''}`
-          : UNKNOWN_LABEL
-      const advisors = linked.map((f) => {
-        const occ =
-          f.ref.kind === 'database'
-            ? facultyOccurrences(f.ref.mergeKey, pool.programs).map((o) => ({
-                programId: o.program.id,
-                facultyId: o.faculty.id,
-              }))
-            : []
-        const eff = effectiveContact(f, findRecord(f, outreach, occ))
+  const letterRows = (): LetterRow[] =>
+    rows
+      .filter(({ entry }) => entry.interest !== 'drop' && entry.status !== 'withdrawn')
+      .map(({ entry, live, id }) => {
+        const parsed = resolveDeadline(entry.admissions.deadline, live?.requirements.deadline)
         return {
-          name: f.name,
-          status: CONTACT_LABELS[eff.status],
-          research: f.themes.slice(0, 5).join('; '),
-          link: f.links.faculty || f.links.personal || f.links.lab || f.links.scholar || '',
+          university: id.university,
+          program: programLabel(id.programName, id.degree),
+          deadlineIso: parsed.kind === 'dated' ? parsed.iso : null,
+          deadlineNote:
+            parsed.kind === 'rolling' ? 'Rolling' : parsed.kind === 'paused' ? 'Paused' : 'To be confirmed',
         }
       })
-      const category = state.categories.find((c) => c.id === entry.categoryId)?.name ?? ''
-      return {
-        category,
-        university: id.university,
-        program: `${id.programName}${id.degree ? ` (${id.degree})` : ''}`,
-        deadline,
-        funding,
-        stipend,
-        rent,
-        status: APPLICATION_LABELS[entry.status],
-        notes: entry.notes.trim(),
-        link: id.website || id.portal || '',
-        advisors,
-      }
-    })
+  const letterCount = rows.filter(({ entry }) => entry.interest !== 'drop' && entry.status !== 'withdrawn').length
 
-  const doExport = async () => {
+  const doLetters = async () => {
     setExporting(true)
     setExportError(null)
     try {
-      await exportPlannerExcel(buildExport(), { cycle: state.settings.cycle, exportedAt: new Date() })
+      await downloadLetterChecklist(letterRows(), { cycle: state.settings.cycle, preparedAt: new Date() })
     } catch (e) {
       setExportError(e instanceof Error ? e.message : String(e))
     } finally {
@@ -355,18 +315,15 @@ export function ProgramsTable({
               {state.programs.length} in your plan · target cycle {state.settings.cycle}
             </p>
           </div>
-          <div className="flex shrink-0 flex-wrap items-center justify-end gap-2">
+          <div className="flex shrink-0 flex-wrap items-start justify-end gap-2">
+            <SheetControls />
             <button
-              onClick={() => void doExport()}
-              disabled={exporting || rows.length === 0}
+              onClick={() => void doLetters()}
+              disabled={exporting || letterCount === 0}
               className="rounded border border-slate-300 bg-white px-3 py-1.5 text-[12.5px] font-medium text-slate-700 transition-colors hover:border-emerald-500 hover:text-emerald-700 disabled:opacity-50"
-              title={
-                filtersActive
-                  ? `Export the ${rows.length} programs currently listed, in this order, with their saved faculty`
-                  : 'Export every program in the plan, in the current order, with its saved faculty'
-              }
+              title={`An Excel file for your recommenders: ${letterCount} program${letterCount === 1 ? '' : 's'} with their deadlines and a checkbox to tick once each letter is submitted. Uses the programs listed below${filtersActive ? ' (filtered)' : ''}; programs marked Drop or Withdrawn are left out.`}
             >
-              {exporting ? 'Exporting…' : `Export Excel${filtersActive ? ` (${rows.length})` : ''}`}
+              {exporting ? 'Preparing…' : `Letter checklist${filtersActive ? ` (${letterCount})` : ''}`}
             </button>
             <button
               onClick={() => setNewCategory('')}
@@ -383,7 +340,7 @@ export function ProgramsTable({
             </button>
           </div>
         </div>
-        {exportError && <p className="mb-2 text-[12px] font-medium text-rose-600">Export failed: {exportError}</p>}
+        {exportError && <p className="mb-2 text-[12px] font-medium text-rose-600">Letter checklist failed: {exportError}</p>}
 
         {newCategory !== null && (
           <form

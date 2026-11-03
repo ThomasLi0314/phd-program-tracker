@@ -53,13 +53,20 @@ function fetchHousing(): Promise<HousingFile> {
 }
 
 /** Rent by university, once housing.json has loaded. One fetch per session. */
-export function useHousing(): { placeFor: (university: string) => HousingPlace | null; generatedAt: string | null } {
+export function useHousing(): {
+  placeFor: (university: string) => HousingPlace | null
+  generatedAt: string | null
+  /** True once the fetch has settled, loaded or failed — rent is final from here. */
+  ready: boolean
+} {
   const [file, setFile] = useState<HousingFile | null>(null)
+  const [ready, setReady] = useState(false)
   useEffect(() => {
     let alive = true
     fetchHousing()
       .then((f) => alive && setFile(f))
       .catch(() => {})
+      .finally(() => alive && setReady(true))
     return () => {
       alive = false
     }
@@ -72,7 +79,7 @@ export function useHousing(): { placeFor: (university: string) => HousingPlace |
     },
     [file],
   )
-  return { placeFor, generatedAt: file?.meta.generated_at ?? null }
+  return { placeFor, generatedAt: file?.meta.generated_at ?? null, ready }
 }
 
 /** The rent place for one university (null: none, or not loaded yet). */
