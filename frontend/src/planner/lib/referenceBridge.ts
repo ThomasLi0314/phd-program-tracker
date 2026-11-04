@@ -275,6 +275,32 @@ export function facultyOccurrences(
   return out
 }
 
+type Occurrence = { programId: string; facultyId: string }
+
+/**
+ * facultyOccurrences as bare (programId, facultyId) pairs — the shape the
+ * outreach lookup takes — from an index built once per loaded dataset. Views
+ * that look up every saved advisor on each render (the program page, the
+ * Google Sheet rows) would otherwise scan all ~16k advisors per person.
+ */
+const occurrenceIndex = new WeakMap<Program[], Map<string, Occurrence[]>>()
+export function facultyOccurrencePairs(key: string, programs: Program[]): Occurrence[] {
+  let index = occurrenceIndex.get(programs)
+  if (!index) {
+    index = new Map()
+    for (const p of programs) {
+      for (const f of p.faculty) {
+        const k = mergeKey(f.name, p.university)
+        const list = index.get(k)
+        if (list) list.push({ programId: p.id, facultyId: f.id })
+        else index.set(k, [{ programId: p.id, facultyId: f.id }])
+      }
+    }
+    occurrenceIndex.set(programs, index)
+  }
+  return index.get(key) ?? []
+}
+
 /**
  * advisorKeys for a planner faculty entry — the handles under which the main
  * tracker stores their stars, notes, homepage override and outreach record.

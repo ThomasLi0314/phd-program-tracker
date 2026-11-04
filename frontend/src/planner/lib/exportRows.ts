@@ -7,8 +7,7 @@
 
 import type { Program } from '../../types'
 import type { PlannerFaculty, PlannerProgram, PlannerState } from '../types'
-import { programIdentity, resolveProgram } from './referenceBridge'
-import { mergeKey } from '../../lib/mergeAdvisors'
+import { facultyOccurrencePairs, programIdentity, resolveProgram } from './referenceBridge'
 import { deadlineLabel, resolveDeadline, type ParsedDeadline } from './deadlines'
 import { money, rentShare, SCOPE_LABEL, stipendShort, type HousingPlace } from '../../lib/costOfLiving'
 import { effectiveContact, findRecord, type OutreachSnapshot } from './outreachBridge'
@@ -21,33 +20,6 @@ export interface ExportContext {
   programs: Program[]
   placeFor: (university: string) => HousingPlace | null
   outreach: OutreachSnapshot
-}
-
-type Occurrence = { programId: string; facultyId: string }
-
-/**
- * Every (program, advisor) pair in the database, by advisor mergeKey — the
- * same identity referenceBridge.facultyOccurrences matches on, indexed once
- * per loaded dataset. The Sheet rebuilds its rows on every edit to the plan,
- * and scanning all ~16k advisors once per saved advisor each time was the
- * slow part.
- */
-const occurrenceIndex = new WeakMap<Program[], Map<string, Occurrence[]>>()
-function occurrencesOf(key: string, programs: Program[]): Occurrence[] {
-  let index = occurrenceIndex.get(programs)
-  if (!index) {
-    index = new Map()
-    for (const p of programs) {
-      for (const f of p.faculty) {
-        const k = mergeKey(f.name, p.university)
-        const list = index.get(k)
-        if (list) list.push({ programId: p.id, facultyId: f.id })
-        else index.set(k, [{ programId: p.id, facultyId: f.id }])
-      }
-    }
-    occurrenceIndex.set(programs, index)
-  }
-  return index.get(key) ?? []
 }
 
 /**
@@ -103,7 +75,7 @@ export function buildExportRows(entries: PlannerProgram[], ctx: ExportContext): 
         : UNKNOWN_LABEL
 
     const advisors = linked.map((f) => {
-      const occ = f.ref.kind === 'database' ? occurrencesOf(f.ref.mergeKey, programs) : []
+      const occ = f.ref.kind === 'database' ? facultyOccurrencePairs(f.ref.mergeKey, programs) : []
       const eff = effectiveContact(f, findRecord(f, outreach, occ))
       return {
         name: f.name,

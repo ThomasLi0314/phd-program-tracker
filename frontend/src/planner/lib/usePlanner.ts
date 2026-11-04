@@ -44,6 +44,15 @@ export interface PlannerApi {
 
   linkFaculty: (programEntryId: string, facultyEntryId: string) => void
   unlinkFaculty: (programEntryId: string, facultyEntryId: string) => void
+  /**
+   * Take an advisor off one program's list. Someone still listed under another
+   * program stays in the plan for it; someone listed nowhere else is removed
+   * from the plan entirely, rather than lingering on the Faculty page with no
+   * program.
+   */
+  dropFacultyFromProgram: (programEntryId: string, facultyEntryId: string) => void
+  /** Undo dropFacultyFromProgram: put the entry back, at its old place in the list. */
+  restoreFacultyToProgram: (faculty: PlannerFaculty, programEntryId: string, index: number) => void
 
   setResearchProfile: (text: string) => void
   updateSettings: (patch: Partial<PlannerSettings>) => void
@@ -247,6 +256,54 @@ export function usePlanner(storage: PlannerStorage = localPlannerStorage): Plann
     [update],
   )
 
+  const dropFacultyFromProgram = useCallback(
+    (programEntryId: string, facultyEntryId: string) =>
+      update((s) => {
+        const elsewhere = s.programs.some((p) => p.id !== programEntryId && p.facultyIds.includes(facultyEntryId))
+        return {
+          ...s,
+          programs: s.programs.map((p) =>
+            p.id === programEntryId ? { ...p, facultyIds: p.facultyIds.filter((x) => x !== facultyEntryId) } : p,
+          ),
+          faculty: elsewhere
+            ? s.faculty.map((f) =>
+                f.id === facultyEntryId ? { ...f, programIds: f.programIds.filter((x) => x !== programEntryId) } : f,
+              )
+            : s.faculty.filter((f) => f.id !== facultyEntryId),
+        }
+      }),
+    [update],
+  )
+
+  const restoreFacultyToProgram = useCallback(
+    (faculty: PlannerFaculty, programEntryId: string, index: number) =>
+      update((s) => {
+        const present = s.faculty.some((f) => f.id === faculty.id)
+        return {
+          ...s,
+          faculty: present
+            ? s.faculty.map((f) =>
+                f.id === faculty.id && !f.programIds.includes(programEntryId)
+                  ? { ...f, programIds: [...f.programIds, programEntryId] }
+                  : f,
+              )
+            : [
+                ...s.faculty,
+                faculty.programIds.includes(programEntryId)
+                  ? faculty
+                  : { ...faculty, programIds: [...faculty.programIds, programEntryId] },
+              ],
+          programs: s.programs.map((p) => {
+            if (p.id !== programEntryId || p.facultyIds.includes(faculty.id)) return p
+            const ids = [...p.facultyIds]
+            ids.splice(Math.min(Math.max(index, 0), ids.length), 0, faculty.id)
+            return { ...p, facultyIds: ids }
+          }),
+        }
+      }),
+    [update],
+  )
+
   const setResearchProfile = useCallback(
     (text: string) => update((s) => ({ ...s, researchProfile: text })),
     [update],
@@ -340,6 +397,8 @@ export function usePlanner(storage: PlannerStorage = localPlannerStorage): Plann
     removeFaculty,
     linkFaculty,
     unlinkFaculty,
+    dropFacultyFromProgram,
+    restoreFacultyToProgram,
     setResearchProfile,
     updateSettings,
     addCategory,

@@ -2,12 +2,13 @@
 // page reads the same way every time: header → status → admissions → funding →
 // faculty → my notes → sources → research metadata.
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { navigate } from '../../lib/hashRoute'
 import type { GreStatus } from '../../types'
 import type {
   AdmissionModel,
   FundingLevel,
+  PlannerFaculty,
   PlannerProgram,
   PlannerState,
   ResearchField,
@@ -15,13 +16,15 @@ import type {
 } from '../types'
 import type { ReferencePool } from '../lib/useReferencePool'
 import type { PlannerApi } from '../lib/usePlanner'
-import { programIdentity, referenceField, resolveProgram } from '../lib/referenceBridge'
+import { facultyOccurrencePairs, programIdentity, referenceField, resolveProgram } from '../lib/referenceBridge'
 import { editedField, isUnknown, toggleLockField } from '../lib/researchField'
 import { RECRUITMENT_DOTS, RECRUITMENT_LABELS } from '../lib/recruitment'
 import {
   ADMISSION_MODEL_LABELS,
   APPLICATION_LABELS,
   APPLICATION_ORDER,
+  CONTACT_LABELS,
+  CONTACT_TONES,
   FUNDING_LABELS,
   INTEREST_LABELS,
   INTEREST_ORDER,
@@ -31,12 +34,75 @@ import { StipendRent } from '../../components/StipendRent'
 import { BackButton } from '../../components/BackButton'
 import { FieldRow } from '../components/FieldValue'
 import { deadlineLabel, resolveDeadline } from '../lib/deadlines'
-import { StatusSelect } from '../components/StatusChip'
+import { StatusChip, StatusSelect } from '../components/StatusChip'
 import { AddFacultyModal } from '../components/AddFacultyModal'
 import { ProgramResearchPanel } from '../components/ResearchPanel'
-import { useOutreachSnapshot } from '../lib/outreachBridge'
+import {
+  daysSince,
+  effectiveContact,
+  findRecord,
+  REPLY_TYPE_LABEL,
+  useOutreachSnapshot,
+  type EffectiveContact,
+} from '../lib/outreachBridge'
+import { gmailLinkFor } from '../../lib/gmailLinks'
 
 type Section = 'admissions' | 'structure' | 'funding'
+
+const isoDay = (ms: number) => new Date(ms).toISOString().slice(0, 10)
+
+/**
+ * Where my emails with this professor stand: the combined status (Gmail's
+ * evidence or my own intent, whichever is further along), then what Gmail saw
+ * — when I wrote, whether and when they answered — and a link to the thread.
+ */
+function ContactLine({
+  name,
+  eff,
+  account,
+}: {
+  name: string
+  eff: EffectiveContact
+  account: string | null
+}) {
+  const rec = eff.record
+  const gmail = rec ? gmailLinkFor(rec, account, name) : null
+  const replied = rec?.replyState === 'replied'
+  const waited = rec ? daysSince(rec.sentAt) : 0
+  return (
+    <div className="mt-0.5 flex flex-wrap items-center gap-x-1.5 gap-y-0.5 text-[11px] text-slate-500">
+      <StatusChip
+        label={CONTACT_LABELS[eff.status]}
+        tone={CONTACT_TONES[eff.status]}
+        title={eff.source === 'gmail' ? 'From your Gmail sync' : 'Set by you in the plan'}
+      />
+      {rec && (
+        <>
+          <span>sent {isoDay(rec.sentAt)}</span>
+          {replied ? (
+            <span className="text-emerald-700">
+              · replied{rec.repliedAt ? ` ${isoDay(rec.repliedAt)}` : ''}
+              {rec.replyType ? ` · ${REPLY_TYPE_LABEL[rec.replyType]}` : ''}
+            </span>
+          ) : (
+            <span className={waited > 21 ? 'text-rose-600' : 'text-amber-700'}>· no reply yet ({waited}d)</span>
+          )}
+          {gmail && (
+            <a
+              href={gmail.url}
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium text-indigo-600 hover:underline"
+              title={gmail.exact ? 'Open this conversation in Gmail' : 'Search Gmail for this professor'}
+            >
+              · {gmail.exact ? 'Open in Gmail ↗' : 'Search Gmail ↗'}
+            </a>
+          )}
+        </>
+      )}
+    </div>
+  )
+}
 
 export function ProgramDetail({
   id,
@@ -58,9 +124,32 @@ export function ProgramDetail({
   const live = entry ? resolveProgram(entry, pool.byId) : null
 
   const linkedFaculty = useMemo(
-    () => (entry ? entry.facultyIds.map((fid) => state.faculty.find((f) => f.id === fid)).filter(Boolean) : []),
+    () =>
+      entry
+        ? entry.facultyIds
+            .map((fid) => state.faculty.find((f) => f.id === fid))
+            .filter((f): f is PlannerFaculty => !!f)
+        : [],
     [entry, state.faculty],
   )
+
+  /** Each advisor's email status, matched the same way the Faculty page does. */
+  const contactById = useMemo(() => {
+    const m = new Map<string, EffectiveContact>()
+    for (const f of linkedFaculty) {
+      const occ = f.ref.kind === 'database' ? facultyOccurrencePairs(f.ref.mergeKey, pool.programs) : []
+      m.set(f.id, effectiveContact(f, findRecord(f, outreach, occ)))
+    }
+    return m
+  }, [linkedFaculty, outreach, pool.programs])
+
+  /** The advisor just taken off this list, kept for a few seconds' Undo. */
+  const [removed, setRemoved] = useState<{ faculty: PlannerFaculty; index: number; leftPlan: boolean } | null>(null)
+  useEffect(() => {
+    if (!removed) return
+    const t = setTimeout(() => setRemoved(null), 8000)
+    return () => clearTimeout(t)
+  }, [removed])
 
   /** Every source cited anywhere on this program (spec §6 "Sources"). */
   const allSources = useMemo(() => {
@@ -96,6 +185,8 @@ export function ProgramDetail({
   }
 
   const ident = programIdentity(entry, live)
+  const emailedCount = [...contactById.values()].filter((c) => c.record).length
+  const repliedCount = [...contactById.values()].filter((c) => c.record?.replyState === 'replied').length
 
   // The tracker summarises this program's admissions outlook from the replies you
   // actually received. Keyed by canonical program id, so it only exists for
@@ -415,43 +506,86 @@ export function ProgramDetail({
 
         {/* Faculty */}
         <section className={`${card} mt-3`}>
-          <div className="mb-1.5 flex items-center justify-between">
-            <h2 className={heading + ' mb-0'}>Faculty ({linkedFaculty.length})</h2>
+          <div className="mb-1.5 flex items-center justify-between gap-2">
+            <div className="flex flex-wrap items-baseline gap-x-2">
+              <h2 className={heading + ' mb-0'}>Faculty ({linkedFaculty.length})</h2>
+              {linkedFaculty.length > 0 && (
+                <span className="text-[10.5px] text-slate-400">
+                  {emailedCount} emailed · {repliedCount} replied ·{' '}
+                  {outreach.lastSync
+                    ? `Gmail synced ${isoDay(outreach.lastSync)}`
+                    : 'Gmail not synced yet — sync it in Explore → Contact'}
+                </span>
+              )}
+            </div>
             <button
               onClick={() => setAddingFaculty(true)}
-              className="rounded border border-slate-300 bg-white px-2 py-0.5 text-[11.5px] font-medium text-slate-700 hover:border-indigo-400 hover:text-indigo-700"
+              className="shrink-0 rounded border border-slate-300 bg-white px-2 py-0.5 text-[11.5px] font-medium text-slate-700 hover:border-indigo-400 hover:text-indigo-700"
             >
               + Add Faculty
             </button>
           </div>
+          {removed && (
+            <div className="mb-1.5 flex flex-wrap items-center justify-between gap-2 rounded border border-slate-200 bg-slate-50 px-2.5 py-1.5 text-[11.5px] text-slate-600">
+              <span>
+                Removed <b className="font-medium text-slate-800">{removed.faculty.name}</b>
+                {removed.leftPlan
+                  ? ' from this program and from your plan.'
+                  : ' from this program — still saved under your other programs.'}
+              </span>
+              <button
+                onClick={() => {
+                  planner.restoreFacultyToProgram(removed.faculty, entry.id, removed.index)
+                  setRemoved(null)
+                }}
+                className="font-semibold text-indigo-700 hover:underline"
+              >
+                Undo
+              </button>
+            </div>
+          )}
           {linkedFaculty.length === 0 ? (
             <p className="py-3 text-center text-[12px] text-slate-400">
               No faculty saved for this program yet.
             </p>
           ) : (
             <ul className="divide-y divide-slate-100">
-              {linkedFaculty.map(
-                (f) =>
-                  f && (
-                    <li key={f.id} className="flex items-center justify-between gap-3 py-1.5">
-                      <button
-                        onClick={() => navigate(`/planner/faculty/${f.id}`)}
-                        className="min-w-0 text-left"
-                      >
+              {linkedFaculty.map((f, i) => {
+                const eff = contactById.get(f.id)
+                return (
+                  <li key={f.id} className="flex items-start justify-between gap-3 py-1.5">
+                    <div className="min-w-0">
+                      <button onClick={() => navigate(`/planner/faculty/${f.id}`)} className="text-left">
                         <span className="text-[13px] font-medium text-slate-800 hover:text-indigo-700 hover:underline">
                           {f.name}
                         </span>
-                        <span className="ml-2 text-[11px] text-slate-500">
-                          {f.themes.slice(0, 3).join(' · ')}
-                        </span>
+                        <span className="ml-2 text-[11px] text-slate-500">{f.themes.slice(0, 3).join(' · ')}</span>
                       </button>
-                      <span className="shrink-0 text-[11px] text-slate-500">
+                      {eff && <ContactLine name={f.name} eff={eff} account={outreach.selfEmail} />}
+                    </div>
+                    <div className="flex shrink-0 items-center gap-2 pt-0.5">
+                      <span className="text-[11px] text-slate-500">
                         {RECRUITMENT_DOTS[f.recruiting.value ?? 'unknown']}{' '}
                         {RECRUITMENT_LABELS[f.recruiting.value ?? 'unknown']}
                       </span>
-                    </li>
-                  ),
-              )}
+                      <button
+                        onClick={() => {
+                          const leftPlan = !state.programs.some(
+                            (p) => p.id !== entry.id && p.facultyIds.includes(f.id),
+                          )
+                          planner.dropFacultyFromProgram(entry.id, f.id)
+                          setRemoved({ faculty: f, index: i, leftPlan })
+                        }}
+                        title={`Remove ${f.name} from this program (Undo stays available for a few seconds)`}
+                        aria-label={`Remove ${f.name}`}
+                        className="rounded px-1.5 py-0.5 text-[13px] leading-none text-slate-400 transition-colors hover:bg-rose-50 hover:text-rose-600"
+                      >
+                        ✕
+                      </button>
+                    </div>
+                  </li>
+                )
+              })}
             </ul>
           )}
         </section>
