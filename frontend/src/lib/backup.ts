@@ -24,6 +24,8 @@ export const BACKUP_KEYS: { key: string; label: string }[] = [
   // A pointer only, like the note Docs: restored, the plan keeps writing to the
   // same Google Sheet instead of making a second one. See planner/lib/googleSheet.
   { key: 'planner.sheet.v1', label: 'Plan Google Sheet (link)' },
+  // One link per letter writer — see planner/lib/letterSheets.
+  { key: 'planner.letterSheets.v1', label: 'Letter writer checklist Sheets (links)' },
 ]
 
 /** The keys above, for quick membership tests. */

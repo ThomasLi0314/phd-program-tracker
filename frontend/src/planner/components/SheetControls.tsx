@@ -1,10 +1,12 @@
-// The plan's Google Sheet, on the Programs page: make it, open it, and see
-// whether it has caught up with the last edit. The syncing itself happens in
-// planner/lib/googleSheet, driven from PlannerApp.
+// A live Google Sheet's controls: make it, open it, and see whether it has
+// caught up with the last edit. Used for the plan's Sheet (Programs page) and
+// each letter writer's checklist. The syncing itself happens in the mirror
+// (planner/lib/sheetMirror), driven from PlannerApp.
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, type ReactNode } from 'react'
 import { loadClientId } from '../../lib/gmail'
-import { createSheet, syncNow, unlinkSheet, useSheetView, type SheetStatus } from '../lib/googleSheet'
+import { planSheet } from '../lib/googleSheet'
+import { useMirrorView, type SheetMirror, type SheetStatus } from '../lib/sheetMirror'
 
 function ago(iso: string | null): string {
   if (!iso) return ''
@@ -45,10 +47,23 @@ function StatusText({ status }: { status: SheetStatus }) {
 
 const linkBtn = 'text-[11.5px] font-medium text-slate-500 hover:text-indigo-700 hover:underline disabled:opacity-50'
 
-export function SheetControls() {
-  const { link, status, ready } = useSheetView()
+export function SheetControls<S, P>({
+  mirror = planSheet as unknown as SheetMirror<S, P>,
+  createTitle = 'Make a Google Sheet of your plan in your Drive. It then updates itself after every change — no more exporting.',
+  align = 'end',
+  linkedHint,
+}: {
+  mirror?: SheetMirror<S, P>
+  createTitle?: string
+  align?: 'start' | 'end'
+  /** shown under the controls once the Sheet exists */
+  linkedHint?: ReactNode
+}) {
+  const { link, status, ready, notice } = useMirrorView(mirror)
   const [busy, setBusy] = useState(false)
   const [note, setNote] = useState<string | null>(null)
+  const items = align === 'end' ? 'items-end text-right' : 'items-start text-left'
+  const justify = align === 'end' ? 'justify-end' : 'justify-start'
 
   const make = async () => {
     setNote(null)
@@ -58,7 +73,7 @@ export function SheetControls() {
     }
     setBusy(true)
     try {
-      await createSheet()
+      await mirror.create()
     } catch (e) {
       setNote(e instanceof Error ? e.message : String(e))
     } finally {
@@ -69,7 +84,7 @@ export function SheetControls() {
   const resync = async () => {
     setBusy(true)
     try {
-      await syncNow()
+      await mirror.syncNow()
     } finally {
       setBusy(false)
     }
@@ -77,21 +92,17 @@ export function SheetControls() {
 
   if (!link) {
     return (
-      <div className="flex flex-col items-end gap-1">
+      <div className={`flex flex-col gap-1 ${items}`}>
         <button
           onClick={() => void make()}
           disabled={busy || !ready}
           className="rounded border border-slate-300 bg-white px-3 py-1.5 text-[12.5px] font-medium text-slate-700 transition-colors hover:border-emerald-500 hover:text-emerald-700 disabled:opacity-50"
-          title={
-            ready
-              ? 'Make a Google Sheet of your plan in your Drive. It then updates itself after every change — no more exporting.'
-              : 'Waiting for the program database to load…'
-          }
+          title={ready ? createTitle : 'Waiting for the program database to load…'}
         >
           {busy ? 'Creating Sheet…' : 'Create Google Sheet'}
         </button>
         {note && (
-          <span className="max-w-[340px] text-right text-[11px] leading-snug text-rose-600" role="alert">
+          <span className="max-w-[340px] text-[11px] leading-snug text-rose-600" role="alert">
             {note}
           </span>
         )}
@@ -101,7 +112,7 @@ export function SheetControls() {
 
   const gone = status.kind === 'error' && status.gone
   return (
-    <div className="flex flex-col items-end gap-0.5">
+    <div className={`flex flex-col gap-0.5 ${items}`}>
       <div className="flex items-center gap-2">
         {!gone && (
           <a
@@ -124,7 +135,7 @@ export function SheetControls() {
           </button>
         )}
       </div>
-      <div className="flex flex-wrap items-center justify-end gap-x-2 text-[11.5px]">
+      <div className={`flex flex-wrap items-center gap-x-2 text-[11.5px] ${justify}`}>
         <StatusText status={status} />
         {!gone && (
           <button
@@ -143,7 +154,7 @@ export function SheetControls() {
                 'Stop updating this Google Sheet?\n\nThe Sheet is NOT deleted — it stays in your Drive as it is now. You can make a new one afterwards.',
               )
             ) {
-              unlinkSheet()
+              mirror.unlink()
             }
           }}
           className={linkBtn}
@@ -153,10 +164,12 @@ export function SheetControls() {
         </button>
       </div>
       {note && (
-        <span className="max-w-[340px] text-right text-[11px] leading-snug text-rose-600" role="alert">
+        <span className="max-w-[340px] text-[11px] leading-snug text-rose-600" role="alert">
           {note}
         </span>
       )}
+      {notice && !gone && <span className="max-w-[420px] text-[11px] leading-snug text-amber-700">{notice}</span>}
+      {linkedHint && !gone && <span className="max-w-[420px] text-[11px] leading-snug text-slate-500">{linkedHint}</span>}
     </div>
   )
 }

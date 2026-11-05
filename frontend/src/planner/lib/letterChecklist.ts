@@ -21,6 +21,11 @@ export interface LetterRow {
   deadlineNote: string
   /** start with the box ticked — the letter is already in */
   submitted?: boolean
+  /**
+   * A stable id for the row (the plan's program id), written to a hidden
+   * column so a live Google copy can tell which program a tick belongs to.
+   */
+  ref?: string
 }
 
 export interface LetterMeta {
@@ -28,7 +33,18 @@ export interface LetterMeta {
   preparedAt: Date
   /** the writer this copy is for; omitted for a list that covers everyone */
   recommender?: string
+  /** a Google Sheet that keeps itself up to date, rather than a one-off file */
+  live?: boolean
 }
+
+/** Where things are, for code that reads or decorates the sheet afterwards. */
+export const CHECKLIST_LAYOUT = {
+  /** 1-based row of the table header; programs start on the row below */
+  headerRow: 5,
+  /** 0-based column of the boxes */
+  boxColumn: 4,
+  headers: { box: 'Letter submitted', ref: 'ref' },
+} as const
 
 type ExcelNS = typeof import('exceljs')
 
@@ -53,7 +69,7 @@ const localIso = (d: Date) =>
   `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
 
 /** Layout. The table header sits on HEADER_ROW; programs follow it. */
-const HEADER_ROW = 5
+const HEADER_ROW = CHECKLIST_LAYOUT.headerRow
 const FIRST = HEADER_ROW + 1
 /** The column holding the boxes, and its first cell — used to find its style. */
 const BOX_COL = 'E'
@@ -83,10 +99,20 @@ const SLATE_500 = 'FF64748B'
 const LINE = { style: 'thin' as const, color: { argb: 'FFCBD5E1' } }
 const BOXED = { top: LINE, left: LINE, bottom: LINE, right: LINE }
 
-/** The workbook as .xlsx bytes, checkboxes included. */
-export async function buildLetterChecklist(input: LetterRow[], meta: LetterMeta): Promise<ArrayBuffer> {
-  if (input.length === 0) throw new Error('No programs to list')
+/**
+ * The workbook as .xlsx bytes. `excelCheckboxes` adds Excel's in-cell
+ * checkbox format; the Google copy leaves it out, since Google Sheets gets its
+ * checkboxes another way (letterSheets.ts).
+ */
+export async function buildLetterChecklist(
+  input: LetterRow[],
+  meta: LetterMeta,
+  { excelCheckboxes = true }: { excelCheckboxes?: boolean } = {},
+): Promise<ArrayBuffer> {
+  // A live Sheet exists before its writer has programs; a one-off file doesn't.
+  if (input.length === 0 && !meta.live) throw new Error('No programs to list')
   const rows = sortLetterRows(input)
+  const withRefs = rows.some((r) => r.ref)
   const ExcelJS = await loadExcelJS()
   const wb = new ExcelJS.Workbook()
   wb.creator = 'PhD Program Tracker'
@@ -111,7 +137,10 @@ export async function buildLetterChecklist(input: LetterRow[], meta: LetterMeta)
     { key: 'program', width: PROGRAM_WIDTH },
     { key: 'deadline', width: 15 },
     { key: 'box', width: 18 },
+    { key: 'ref', width: 16 },
   ]
+  // Bookkeeping for the live copy, out of sight.
+  ws.getColumn(6).hidden = true
 
   ws.mergeCells('A1:E1')
   ws.getCell('A1').value = meta.recommender
@@ -123,30 +152,37 @@ export async function buildLetterChecklist(input: LetterRow[], meta: LetterMeta)
   ws.mergeCells('A2:E2')
   ws.getCell('A2').value =
     `${meta.cycle} applications · ${rows.length} program${rows.length === 1 ? '' : 's'}, ` +
-    `by deadline · list prepared ${localIso(meta.preparedAt)}`
+    `by deadline · ${meta.live ? 'kept up to date' : 'list prepared'} ${localIso(meta.preparedAt)}`
   ws.getCell('A2').font = font({ size: 10.5, color: { argb: SLATE_500 } })
 
   ws.mergeCells('A3:E3')
-  ws.getCell('A3').value = 'Please tick the box next to each program once your letter for it has been submitted. Thank you!'
+  ws.getCell('A3').value = meta.live
+    ? 'Please tick the box next to each program once your letter for it has been submitted — this list updates itself as programs are added or deadlines change. Thank you!'
+    : 'Please tick the box next to each program once your letter for it has been submitted. Thank you!'
   ws.getCell('A3').font = font({ size: 11, color: { argb: SLATE_900 } })
   ws.getCell('A3').alignment = { wrapText: true, vertical: 'middle' }
-  ws.getRow(3).height = 20
+  ws.getRow(3).height = meta.live ? 32 : 20
 
   // How many are in, counted from the boxes themselves.
   ws.getCell('D4').value = 'Submitted'
   ws.getCell('D4').font = font({ bold: true, size: 11, color: { argb: SLATE_500 } })
   ws.getCell('D4').alignment = { horizontal: 'right', vertical: 'middle' }
-  ws.getCell('E4').value = {
-    formula: `COUNTIF(${BOX_COL}${FIRST}:${BOX_COL}${last},TRUE)&" of ${rows.length}"`,
-    result: `0 of ${rows.length}`,
-  }
+  ws.getCell('E4').value =
+    rows.length > 0
+      ? {
+          formula: `COUNTIF(${BOX_COL}${FIRST}:${BOX_COL}${last},TRUE)&" of ${rows.length}"`,
+          result: `${rows.filter((r) => r.submitted).length} of ${rows.length}`,
+        }
+      : '0 of 0'
   ws.getCell('E4').font = font({ bold: true, size: 11, color: { argb: SLATE_900 } })
   ws.getCell('E4').alignment = { horizontal: 'center', vertical: 'middle' }
 
   const head = ws.getRow(HEADER_ROW)
-  head.values = ['#', 'University', 'Program', 'Deadline', 'Letter submitted']
+  head.values = ['#', 'University', 'Program', 'Deadline', CHECKLIST_LAYOUT.headers.box]
+  if (withRefs) head.getCell(6).value = CHECKLIST_LAYOUT.headers.ref
   head.height = 20
   head.eachCell((c, col) => {
+    if (col > 5) return
     c.font = font({ bold: true, size: 11, color: { argb: 'FFFFFFFF' } })
     c.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF1E293B' } }
     c.alignment = { vertical: 'middle', horizontal: col === 1 || col >= 4 ? 'center' : 'left' }
@@ -186,9 +222,18 @@ export async function buildLetterChecklist(input: LetterRow[], meta: LetterMeta)
     box.font = font({ size: 14 })
     box.alignment = { horizontal: 'center', vertical: 'middle' }
 
+    if (r.ref) row.getCell(6).value = r.ref
+
     for (let c = 1; c <= 5; c++) row.getCell(c).border = BOXED
     row.height = rowHeight(r.university, r.program)
   })
+
+  if (rows.length === 0) {
+    ws.getCell(`B${FIRST}`).value = 'No programs yet — they appear here as they are added.'
+    ws.getCell(`B${FIRST}`).font = font({ italic: true, size: 11, color: { argb: SLATE_500 } })
+    const bytes = (await wb.xlsx.writeBuffer()) as ArrayBuffer
+    return bytes
+  }
 
   const rowsRef = `A${FIRST}:E${last}`
   const r1 = `$${BOX_COL}${FIRST}`
@@ -231,7 +276,7 @@ export async function buildLetterChecklist(input: LetterRow[], meta: LetterMeta)
   ws.getCell(`A${last + 2}`).font = font({ size: 9.5, italic: true, color: { argb: SLATE_500 } })
 
   const bytes = (await wb.xlsx.writeBuffer()) as ArrayBuffer
-  return addCellCheckboxes(bytes, 'xl/worksheets/sheet1.xml', PROBE_CELL)
+  return excelCheckboxes ? addCellCheckboxes(bytes, 'xl/worksheets/sheet1.xml', PROBE_CELL) : bytes
 }
 
 // ---- Excel in-cell checkboxes ----

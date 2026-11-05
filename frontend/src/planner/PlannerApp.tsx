@@ -13,6 +13,7 @@ import { useReferencePool } from './lib/useReferencePool'
 import { useOutreachSnapshot } from './lib/outreachBridge'
 import { buildExportRows, sheetOrder } from './lib/exportRows'
 import { useSheetSync } from './lib/googleSheet'
+import { useLetterSheetSync } from './lib/letterSheets'
 import { Dashboard } from './views/Dashboard'
 import { ProgramsTable } from './views/ProgramsTable'
 import { ProgramDetail } from './views/ProgramDetail'
@@ -63,6 +64,8 @@ export default function PlannerApp() {
     })
   }, [planner.state, pool.loading, pool.byId, pool.programs, housingReady, placeFor, outreach])
   useSheetSync(sheetRows, planner.state?.settings.cycle ?? '')
+  // Each letter writer's live checklist Sheet, and the ticks they make in it.
+  useLetterSheetSync(planner.state, pool.byId, !pool.loading, planner)
 
   // '/planner/programs/prog_x' → ['programs', 'prog_x']
   const parts = useMemo(() => segments(route).slice(1), [route])

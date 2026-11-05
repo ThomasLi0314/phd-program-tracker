@@ -14,6 +14,8 @@ import { LETTER_LABELS, LETTER_ORDER, LETTER_TONES } from '../lib/labels'
 import { isLetterIn, lettersOf } from '../lib/letters'
 import { programLabel } from '../lib/exportRows'
 import { downloadLetterChecklist } from '../lib/letterChecklist'
+import { letterSheetFor } from '../lib/letterSheets'
+import { SheetControls } from '../components/SheetControls'
 import { StatusSelect } from '../components/StatusChip'
 import { RecommenderForm } from '../components/RecommenderForm'
 
@@ -107,7 +109,11 @@ function WriterCard({
             <span className="flex items-center gap-1.5">
               <span className="text-rose-700">Delete, and remove from every program?</span>
               <button
-                onClick={() => planner.removeRecommender(rec.id)}
+                onClick={() => {
+                  // The Sheet stays in Drive; only the link to it goes.
+                  letterSheetFor(rec.id).unlink()
+                  planner.removeRecommender(rec.id)
+                }}
                 className="rounded bg-rose-600 px-2 py-0.5 font-semibold text-white hover:bg-rose-700"
               >
                 Delete
@@ -233,6 +239,24 @@ function WriterCard({
             {busy ? 'Preparing…' : 'Checklist for this writer (Excel)'}
           </button>
           {error && <span className="text-[11px] text-rose-600">{error}</span>}
+        </div>
+
+        <div className="mt-2.5 rounded border border-emerald-100 bg-emerald-50/40 px-2.5 py-2">
+          <div className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-emerald-800">
+            Live checklist (Google Sheet)
+          </div>
+          <SheetControls
+            mirror={letterSheetFor(rec.id)}
+            align="start"
+            createTitle={`Make a Google Sheet of ${rec.name || 'this writer'}’s programs and deadlines, with a box to tick per program. It updates itself whenever their list changes.`}
+            linkedHint={
+              <>
+                Share it with {rec.email ? <b className="font-medium">{rec.email}</b> : 'them'} as an <b className="font-medium">editor</b>{' '}
+                (Share button in Google Sheets). It updates itself when their programs, deadlines or statuses change, and a box
+                they tick marks that letter “Letter received” here.
+              </>
+            }
+          />
         </div>
       </div>
     </section>

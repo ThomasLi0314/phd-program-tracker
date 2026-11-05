@@ -46,7 +46,13 @@ track every letter: Not requested → Asked → Agreed to write → Invitation s
 Reminder sent → Letter received (or Declined). Each program's page shows its
 writers against the number of letters it asks for, the program list has a
 Letters column, and each writer can be sent their own checklist of programs and
-deadlines, with the letters already in ticked.
+deadlines, with the letters already in ticked — as an Excel file, or as a live
+**Google Sheet** that updates itself whenever their list changes. Share that
+Sheet with the writer as an editor: a box they tick marks the letter "Letter
+received" in the plan (the plan reads the Sheet back before every rewrite, so
+their ticks are never overwritten). Clickable checkboxes in the Sheet need the
+Google Sheets API turned on in your Google Cloud project; without it the column
+reads TRUE/FALSE and still works.
 
 Two ways to get the plan out:
 
