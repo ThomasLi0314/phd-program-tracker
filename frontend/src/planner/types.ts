@@ -33,6 +33,47 @@ export type ContactStatus =
   | 'not_contacting'
 
 /**
+ * Where one recommender's letter for one program stands, in the order it
+ * usually goes: ask them, they agree, the portal emails them its upload link,
+ * perhaps a nudge, then the letter arrives. Declined sits apart at the end.
+ */
+export type LetterStatus =
+  | 'not_requested'
+  | 'requested'
+  | 'agreed'
+  | 'invitation_sent'
+  | 'reminded'
+  | 'received'
+  | 'declined'
+
+/**
+ * Someone writing me a recommendation letter. Entered by hand once and shared
+ * by every program, so their details live in one place.
+ */
+export interface Recommender {
+  id: string
+  name: string
+  /** e.g. "Associate Professor of Mathematics" */
+  title: string
+  institution: string
+  email: string
+  /** how they know me, e.g. "Undergraduate thesis advisor" */
+  relationship: string
+  /** My own writing. */
+  notes: string
+  createdAt: string
+  updatedAt: string
+}
+
+/** One recommender's letter for one program. */
+export interface ProgramLetter {
+  recommenderId: string
+  status: LetterStatus
+  /** When the status last changed (ISO). */
+  updatedAt: string
+}
+
+/**
  * Normalized planner recruiting vocabulary (spec §34). The reference dataset
  * uses a coarser 3-value vocabulary; lib/recruitment.ts maps into this one and
  * NEVER invents a positive status from silence (spec §12).
@@ -228,6 +269,9 @@ export interface PlannerProgram {
   funding: FundingResearch
   /** PlannerFaculty.id — many-to-many with faculty (spec §7). */
   facultyIds: string[]
+  /** My recommenders for this program and where each letter stands. Absent on
+   *  plans saved before letters were tracked — read it through lettersOf(). */
+  letters?: ProgramLetter[]
   createdAt: string
   updatedAt: string
   lastResearchedAt: string | null
@@ -276,5 +320,7 @@ export interface PlannerState {
   researchProfile: string
   programs: PlannerProgram[]
   faculty: PlannerFaculty[]
+  /** The people writing my recommendation letters. */
+  recommenders: Recommender[]
   updatedAt: string
 }

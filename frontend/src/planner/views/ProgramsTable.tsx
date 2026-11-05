@@ -5,7 +5,7 @@
 import { useMemo, useState } from 'react'
 import { navigate } from '../../lib/hashRoute'
 import type { Program } from '../../types'
-import type { PlannerFaculty, PlannerProgram, PlannerState } from '../types'
+import type { PlannerFaculty, PlannerProgram, PlannerState, Recommender } from '../types'
 import type { ReferencePool } from '../lib/useReferencePool'
 import type { PlannerApi } from '../lib/usePlanner'
 import { programIdentity, resolveProgram } from '../lib/referenceBridge'
@@ -19,8 +19,12 @@ import {
   FUNDING_LABELS,
   INTEREST_LABELS,
   INTEREST_ORDER,
+  LETTER_LABELS,
+  LETTER_TONES,
+  TONE_CLASSES,
   UNKNOWN_LABEL,
 } from '../lib/labels'
+import { letterSummary, lettersOf } from '../lib/letters'
 import { StatusChip, StatusSelect } from '../components/StatusChip'
 import { AddProgramModal } from '../components/AddProgramModal'
 import { downloadLetterChecklist, type LetterRow } from '../lib/letterChecklist'
@@ -180,6 +184,51 @@ function StipendCell({ live, place }: { live: Program | null; place: HousingPlac
   )
 }
 
+/** "Jane Q. Lee" → "JL" */
+const initials = (name: string) => {
+  const words = name.trim().split(/\s+/).filter(Boolean)
+  if (words.length === 0) return '?'
+  return (words[0][0] + (words.length > 1 ? words[words.length - 1][0] : '')).toUpperCase()
+}
+
+/**
+ * Letters for one row: how many are in against how many are needed, and a
+ * badge per writer coloured by where their letter stands (hover for who and
+ * what). "Needed" is the program's own number when known.
+ */
+function LettersCell({ entry, writers }: { entry: PlannerProgram; writers: Map<string, Recommender> }) {
+  const letters = lettersOf(entry)
+  const sum = letterSummary(entry)
+  if (letters.length === 0) {
+    return (
+      <span className="italic text-slate-400" title="No letter writers assigned yet — add them on the program’s page">
+        {sum.required != null ? `0/${sum.required}` : '—'}
+      </span>
+    )
+  }
+  return (
+    <div>
+      <span className={sum.complete ? 'font-medium text-emerald-700' : 'text-slate-700'}>
+        {sum.received}/{sum.target}
+      </span>
+      <div className="mt-0.5 flex flex-wrap gap-0.5">
+        {letters.map((l) => {
+          const name = writers.get(l.recommenderId)?.name ?? 'Unknown writer'
+          return (
+            <span
+              key={l.recommenderId}
+              title={`${name}: ${LETTER_LABELS[l.status]}`}
+              className={`rounded border px-1 text-[9.5px] font-semibold leading-[14px] ${TONE_CLASSES[LETTER_TONES[l.status]]}`}
+            >
+              {initials(name)}
+            </span>
+          )
+        })}
+      </div>
+    </div>
+  )
+}
+
 export function ProgramsTable({
   state,
   pool,
@@ -201,6 +250,7 @@ export function ProgramsTable({
   const { placeFor } = useHousing()
 
   const facultyById = useMemo(() => new Map(state.faculty.map((f) => [f.id, f])), [state.faculty])
+  const writers = useMemo(() => new Map(state.recommenders.map((r) => [r.id, r])), [state.recommenders])
 
   const rows = useMemo(() => {
     const terms = query.toLowerCase().split(/\s+/).filter(Boolean)
@@ -440,6 +490,9 @@ export function ProgramsTable({
                   <th className="px-2 py-1.5 text-right" title="Saved faculty · likely recruiting">
                     Faculty
                   </th>
+                  <th className="px-2 py-1.5" title="Recommendation letters received · one badge per writer">
+                    Letters
+                  </th>
                   <th className="px-2 py-1.5">Application</th>
                 </tr>
               </thead>
@@ -447,7 +500,7 @@ export function ProgramsTable({
               <tbody key={g.id || 'none'}>
                 {grouped && (
                   <tr className="bg-slate-100/70">
-                    <td colSpan={8} className="px-2 py-1.5">
+                    <td colSpan={9} className="px-2 py-1.5">
                       <CategoryHeader
                         name={g.name}
                         count={g.rows.length}
@@ -525,6 +578,9 @@ export function ProgramsTable({
                           ({likelyRecruiting})
                         </span>
                       )}
+                    </td>
+                    <td className="px-2 py-2 text-[12.5px] tabular-nums">
+                      <LettersCell entry={entry} writers={writers} />
                     </td>
                     <td className="px-2 py-2">
                       <StatusChip label={APPLICATION_LABELS[entry.status]} tone={APPLICATION_TONES[entry.status]} />

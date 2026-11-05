@@ -13,6 +13,7 @@ import { money, rentShare, SCOPE_LABEL, stipendShort, type HousingPlace } from '
 import { effectiveContact, findRecord, type OutreachSnapshot } from './outreachBridge'
 import { APPLICATION_LABELS, CONTACT_LABELS, FUNDING_LABELS, UNKNOWN_LABEL } from './labels'
 import type { ExportProgramRow } from './exportExcel'
+import { lettersText } from './letters'
 
 export interface ExportContext {
   state: PlannerState
@@ -50,6 +51,7 @@ export function buildExportRows(entries: PlannerProgram[], ctx: ExportContext): 
   const { state, byId, programs, placeFor, outreach } = ctx
   const facultyById = new Map(state.faculty.map((f) => [f.id, f]))
   const categoryName = new Map(state.categories.map((c) => [c.id, c.name]))
+  const writers = new Map(state.recommenders.map((r) => [r.id, r]))
 
   return entries.map((entry) => {
     const live = resolveProgram(entry, byId)
@@ -94,6 +96,7 @@ export function buildExportRows(entries: PlannerProgram[], ctx: ExportContext): 
       stipend,
       rent,
       status: APPLICATION_LABELS[entry.status],
+      letters: lettersText(entry, writers),
       notes: entry.notes.trim(),
       link: id.website || id.portal || '',
       advisors,

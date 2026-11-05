@@ -38,10 +38,20 @@ notes on each.
 
 **Plan** (`#/planner`) — your application tracker: interest level and status per
 program, deadlines with countdowns, the faculty you saved there, contact state
-and a research profile. Two ways to get it out:
+and a research profile.
+
+**Letter Writers** (`#/planner/letters`) — enter each recommender once (title,
+institution, email, how they know you, notes), attach them to programs, and
+track every letter: Not requested → Asked → Agreed to write → Invitation sent →
+Reminder sent → Letter received (or Declined). Each program's page shows its
+writers against the number of letters it asks for, the program list has a
+Letters column, and each writer can be sent their own checklist of programs and
+deadlines, with the letters already in ticked.
+
+Two ways to get the plan out:
 
 - **Google Sheet** — one click makes a Sheet of the plan in your own Drive
-  (advisors grouped under each program, stipend and rent columns), and from then
+  (advisors grouped under each program, stipend, rent and letter columns), and from then
   on it rewrites itself a few seconds after every change. Its link never
   changes, so it can be bookmarked or shared; File → Download still gives an
   .xlsx. The Sheet is a mirror of the plan — edit in the plan, not the Sheet.

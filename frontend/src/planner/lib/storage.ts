@@ -4,7 +4,7 @@
 // PlannerStorage, so swapping in IndexedDB or a backend later is a one-file
 // change. The state is versioned and migrated on load.
 
-import type { PlannerCategory, PlannerState } from '../types'
+import type { PlannerCategory, PlannerState, Recommender } from '../types'
 
 /** Deliberately NOT under the `tracker.` prefix: this is a separate app's data. */
 export const PLANNER_KEY = 'planner.state.v1'
@@ -33,6 +33,7 @@ export function emptyPlanner(): PlannerState {
     categories: [],
     programs: [],
     faculty: [],
+    recommenders: [],
     updatedAt: new Date().toISOString(),
   }
 }
@@ -53,6 +54,7 @@ export function isEmptyPlanner(s: PlannerState): boolean {
     s.programs.length === 0 &&
     s.faculty.length === 0 &&
     s.categories.length === 0 &&
+    s.recommenders.length === 0 &&
     s.researchProfile.trim() === DEFAULT_PROFILE.trim() &&
     s.settings.cycle === DEFAULT_SETTINGS.cycle &&
     s.settings.staleAfterDays === DEFAULT_SETTINGS.staleAfterDays
@@ -92,6 +94,23 @@ export function migrate(raw: unknown): PlannerState {
       : [],
     programs: Array.isArray(p.programs) ? p.programs.filter(isRecord) : [],
     faculty: Array.isArray(p.faculty) ? p.faculty.filter(isRecord) : [],
+    // Letters arrived after v1 shipped: older plans have none, and a recommender
+    // missing a field gets an empty one rather than being dropped.
+    recommenders: Array.isArray(p.recommenders)
+      ? (p.recommenders as Partial<Recommender>[])
+          .filter((r) => !!r && typeof r.id === 'string' && typeof r.name === 'string')
+          .map((r) => ({
+            id: r.id!,
+            name: r.name!,
+            title: typeof r.title === 'string' ? r.title : '',
+            institution: typeof r.institution === 'string' ? r.institution : '',
+            email: typeof r.email === 'string' ? r.email : '',
+            relationship: typeof r.relationship === 'string' ? r.relationship : '',
+            notes: typeof r.notes === 'string' ? r.notes : '',
+            createdAt: typeof r.createdAt === 'string' ? r.createdAt : base.updatedAt,
+            updatedAt: typeof r.updatedAt === 'string' ? r.updatedAt : base.updatedAt,
+          }))
+      : [],
     updatedAt: typeof p.updatedAt === 'string' ? p.updatedAt : base.updatedAt,
   }
 }

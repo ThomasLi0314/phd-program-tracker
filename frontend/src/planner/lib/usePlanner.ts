@@ -5,12 +5,15 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import type { Faculty, Program } from '../../types'
 import type {
+  LetterStatus,
   PlannerCategory,
   PlannerFaculty,
   PlannerProgram,
   PlannerSettings,
   PlannerState,
+  Recommender,
 } from '../types'
+import { lettersOf } from './letters'
 import { localPlannerStorage, newId, PLANNER_KEY, type PlannerStorage } from './storage'
 import {
   customFaculty,
@@ -62,6 +65,16 @@ export interface PlannerApi {
   renameCategory: (id: string, name: string) => void
   removeCategory: (id: string) => void
   setProgramCategory: (programEntryId: string, categoryId: string | null) => void
+
+  /** Letter writers: entered once, then attached to programs one by one. */
+  addRecommender: (input: Partial<Omit<Recommender, 'id' | 'createdAt' | 'updatedAt'>> & { name: string }) => string
+  updateRecommender: (id: string, patch: Partial<Omit<Recommender, 'id' | 'createdAt'>>) => void
+  /** Deletes the person and their letters from every program. */
+  removeRecommender: (id: string) => void
+  /** Ask this person for a letter for these programs (ones already listing them are left alone). */
+  assignLetters: (recommenderId: string, programEntryIds: string[]) => void
+  setLetterStatus: (programEntryId: string, recommenderId: string, status: LetterStatus) => void
+  unassignLetter: (programEntryId: string, recommenderId: string) => void
 
   /** Import (spec §31). Replace swaps everything; merge keeps what I already have. */
   replaceAll: (next: PlannerState) => void
@@ -360,6 +373,101 @@ export function usePlanner(storage: PlannerStorage = localPlannerStorage): Plann
     [update],
   )
 
+  const addRecommender = useCallback(
+    (input: Partial<Omit<Recommender, 'id' | 'createdAt' | 'updatedAt'>> & { name: string }): string => {
+      const now = new Date().toISOString()
+      const r: Recommender = {
+        id: newId('rec'),
+        name: input.name.trim(),
+        title: input.title?.trim() ?? '',
+        institution: input.institution?.trim() ?? '',
+        email: input.email?.trim() ?? '',
+        relationship: input.relationship?.trim() ?? '',
+        notes: input.notes ?? '',
+        createdAt: now,
+        updatedAt: now,
+      }
+      update((s) => ({ ...s, recommenders: [...s.recommenders, r] }))
+      return r.id
+    },
+    [update],
+  )
+
+  const updateRecommender = useCallback(
+    (id: string, patch: Partial<Omit<Recommender, 'id' | 'createdAt'>>) =>
+      update((s) => ({
+        ...s,
+        recommenders: s.recommenders.map((r) => (r.id === id ? touch({ ...r, ...patch }) : r)),
+      })),
+    [update],
+  )
+
+  const removeRecommender = useCallback(
+    (id: string) =>
+      update((s) => ({
+        ...s,
+        recommenders: s.recommenders.filter((r) => r.id !== id),
+        programs: s.programs.map((p) =>
+          lettersOf(p).some((l) => l.recommenderId === id)
+            ? { ...p, letters: lettersOf(p).filter((l) => l.recommenderId !== id) }
+            : p,
+        ),
+      })),
+    [update],
+  )
+
+  const assignLetters = useCallback(
+    (recommenderId: string, programEntryIds: string[]) => {
+      const now = new Date().toISOString()
+      const targets = new Set(programEntryIds)
+      update((s) => ({
+        ...s,
+        programs: s.programs.map((p) =>
+          targets.has(p.id) && !lettersOf(p).some((l) => l.recommenderId === recommenderId)
+            ? {
+                ...p,
+                letters: [...lettersOf(p), { recommenderId, status: 'not_requested' as const, updatedAt: now }],
+              }
+            : p,
+        ),
+      }))
+    },
+    [update],
+  )
+
+  const setLetterStatus = useCallback(
+    (programEntryId: string, recommenderId: string, status: LetterStatus) =>
+      update((s) => ({
+        ...s,
+        programs: s.programs.map((p) =>
+          p.id === programEntryId
+            ? {
+                ...p,
+                letters: lettersOf(p).map((l) =>
+                  l.recommenderId === recommenderId && l.status !== status
+                    ? { ...l, status, updatedAt: new Date().toISOString() }
+                    : l,
+                ),
+              }
+            : p,
+        ),
+      })),
+    [update],
+  )
+
+  const unassignLetter = useCallback(
+    (programEntryId: string, recommenderId: string) =>
+      update((s) => ({
+        ...s,
+        programs: s.programs.map((p) =>
+          p.id === programEntryId
+            ? { ...p, letters: lettersOf(p).filter((l) => l.recommenderId !== recommenderId) }
+            : p,
+        ),
+      })),
+    [update],
+  )
+
   const replaceAll = useCallback((next: PlannerState) => update(() => next), [update])
 
   const mergeIn = useCallback(
@@ -375,10 +483,12 @@ export function usePlanner(storage: PlannerStorage = localPlannerStorage): Plann
 
         const haveProgs = new Set(s.programs.map(progKey))
         const haveFac = new Set(s.faculty.map(facKey))
+        const haveRec = new Set(s.recommenders.map((r) => r.id))
         return {
           ...s,
           programs: [...s.programs, ...incoming.programs.filter((p) => !haveProgs.has(progKey(p)))],
           faculty: [...s.faculty, ...incoming.faculty.filter((f) => !haveFac.has(facKey(f)))],
+          recommenders: [...s.recommenders, ...incoming.recommenders.filter((r) => !haveRec.has(r.id))],
         }
       }),
     [update],
@@ -405,6 +515,12 @@ export function usePlanner(storage: PlannerStorage = localPlannerStorage): Plann
     renameCategory,
     removeCategory,
     setProgramCategory,
+    addRecommender,
+    updateRecommender,
+    removeRecommender,
+    assignLetters,
+    setLetterStatus,
+    unassignLetter,
     replaceAll,
     mergeIn,
   }

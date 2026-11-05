@@ -7,6 +7,7 @@ import type {
   ContactStatus,
   FundingLevel,
   InterestLevel,
+  LetterStatus,
 } from '../types'
 
 export type Tone = 'slate' | 'indigo' | 'emerald' | 'amber' | 'rose' | 'sky'
@@ -99,6 +100,36 @@ export const CONTACT_TONES: Record<ContactStatus, Tone> = {
   meeting_scheduled: 'emerald',
   no_response: 'rose',
   not_contacting: 'slate',
+}
+
+export const LETTER_ORDER: LetterStatus[] = [
+  'not_requested',
+  'requested',
+  'agreed',
+  'invitation_sent',
+  'reminded',
+  'received',
+  'declined',
+]
+
+export const LETTER_LABELS: Record<LetterStatus, string> = {
+  not_requested: 'Not requested',
+  requested: 'Asked',
+  agreed: 'Agreed to write',
+  invitation_sent: 'Invitation sent',
+  reminded: 'Reminder sent',
+  received: 'Letter received',
+  declined: 'Declined',
+}
+
+export const LETTER_TONES: Record<LetterStatus, Tone> = {
+  not_requested: 'slate',
+  requested: 'sky',
+  agreed: 'indigo',
+  invitation_sent: 'amber',
+  reminded: 'amber',
+  received: 'emerald',
+  declined: 'rose',
 }
 
 export const ADMISSION_MODEL_LABELS: Record<AdmissionModel, string> = {

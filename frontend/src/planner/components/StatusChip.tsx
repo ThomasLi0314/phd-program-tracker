@@ -27,19 +27,23 @@ export function StatusSelect<T extends string>({
   labels,
   onChange,
   title,
+  tones,
 }: {
   value: T
   options: T[]
   labels: Record<T, string>
   onChange: (next: T) => void
   title?: string
+  /** colour the closed select by its current value, like a StatusChip */
+  tones?: Record<T, Tone>
 }) {
+  const look = tones ? TONE_CLASSES[tones[value]] : 'border-slate-300 bg-white text-slate-700'
   return (
     <select
       value={value}
       title={title}
       onChange={(e) => onChange(e.target.value as T)}
-      className="rounded border border-slate-300 bg-white px-1.5 py-0.5 text-[11px] font-medium text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-1 focus:ring-indigo-200"
+      className={`rounded border px-1.5 py-0.5 text-[11px] font-medium focus:border-indigo-400 focus:outline-none focus:ring-1 focus:ring-indigo-200 ${look}`}
     >
       {options.map((o) => (
         <option key={o} value={o}>

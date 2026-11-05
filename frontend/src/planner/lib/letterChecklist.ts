@@ -19,11 +19,15 @@ export interface LetterRow {
   deadlineIso: string | null
   /** what to show when there is no date: "Rolling", "Paused", "To be confirmed" */
   deadlineNote: string
+  /** start with the box ticked — the letter is already in */
+  submitted?: boolean
 }
 
 export interface LetterMeta {
   cycle: string
   preparedAt: Date
+  /** the writer this copy is for; omitted for a list that covers everyone */
+  recommender?: string
 }
 
 type ExcelNS = typeof import('exceljs')
@@ -110,7 +114,9 @@ export async function buildLetterChecklist(input: LetterRow[], meta: LetterMeta)
   ]
 
   ws.mergeCells('A1:E1')
-  ws.getCell('A1').value = 'Recommendation letter checklist'
+  ws.getCell('A1').value = meta.recommender
+    ? `Recommendation letter checklist — ${meta.recommender}`
+    : 'Recommendation letter checklist'
   ws.getCell('A1').font = font({ bold: true, size: 16, color: { argb: SLATE_900 } })
   ws.getRow(1).height = 26
 
@@ -176,7 +182,7 @@ export async function buildLetterChecklist(input: LetterRow[], meta: LetterMeta)
     // The box. Size 14 makes it easy to hit, and keeps this cell's style unique
     // in the file, which is how addCellCheckboxes finds it.
     const box = row.getCell(5)
-    box.value = false
+    box.value = !!r.submitted
     box.font = font({ size: 14 })
     box.alignment = { horizontal: 'center', vertical: 'middle' }
 
@@ -316,8 +322,11 @@ export async function addCellCheckboxes(bytes: ArrayBuffer, sheetPath: string, p
 }
 
 export function checklistFilename(meta: LetterMeta): string {
-  const cycle = meta.cycle.trim().replace(/\s+/g, '-').replace(/[^\w-]/g, '') || 'plan'
-  return `recommendation-letters-${cycle}-${localIso(meta.preparedAt)}.xlsx`
+  const slug = (t: string) => t.trim().replace(/\s+/g, '-').replace(/[^\w-]/g, '')
+  const cycle = slug(meta.cycle) || 'plan'
+  // A name in another script slugs to nothing; leave it out rather than write "--".
+  const who = meta.recommender && slug(meta.recommender) ? `-${slug(meta.recommender)}` : ''
+  return `recommendation-letters${who}-${cycle}-${localIso(meta.preparedAt)}.xlsx`
 }
 
 /** Build the checklist and hand it to the browser as a download. */

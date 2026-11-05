@@ -37,6 +37,7 @@ import { deadlineLabel, resolveDeadline } from '../lib/deadlines'
 import { StatusChip, StatusSelect } from '../components/StatusChip'
 import { AddFacultyModal } from '../components/AddFacultyModal'
 import { ProgramResearchPanel } from '../components/ResearchPanel'
+import { ProgramLetters } from '../components/ProgramLetters'
 import {
   daysSince,
   effectiveContact,
@@ -435,6 +436,11 @@ export function ProgramDetail({
             </label>
           </div>
         </section>
+
+        {/* Who is writing my letters for this program, and how far each has got. */}
+        <div className="-mt-3 mb-3">
+          <ProgramLetters entry={entry} state={state} planner={planner} />
+        </div>
 
         {/* What the program pays, and what living there costs — dataset facts,
             shown here rather than edited. */}

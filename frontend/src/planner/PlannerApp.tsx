@@ -18,6 +18,7 @@ import { ProgramsTable } from './views/ProgramsTable'
 import { ProgramDetail } from './views/ProgramDetail'
 import { FacultyTable } from './views/FacultyTable'
 import { FacultyDetail } from './views/FacultyDetail'
+import { LetterWritersView } from './views/LetterWriters'
 import { ResearchProfileView } from './views/ResearchProfile'
 import { SettingsView } from './views/Settings'
 
@@ -25,6 +26,7 @@ const NAV = [
   { path: '/planner', label: 'Dashboard' },
   { path: '/planner/programs', label: 'Programs' },
   { path: '/planner/faculty', label: 'Faculty' },
+  { path: '/planner/letters', label: 'Letter Writers' },
   { path: '/planner/profile', label: 'Research Profile' },
   { path: '/planner/settings', label: 'Settings' },
 ]
@@ -152,6 +154,8 @@ export default function PlannerApp() {
           ) : (
             <FacultyTable state={state} pool={pool} planner={planner} />
           )
+        ) : section === 'letters' ? (
+          <LetterWritersView state={state} pool={pool} planner={planner} />
         ) : section === 'profile' ? (
           <ResearchProfileView state={state} planner={planner} />
         ) : section === 'settings' ? (
