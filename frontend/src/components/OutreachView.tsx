@@ -3,6 +3,7 @@ import type { Faculty, OutreachRecord, Program, ReplyType, UnlinkedEmail } from 
 import { advisorKey } from '../lib/starredAdvisors'
 import { autoMatch, REPLY_TYPES } from '../lib/outreach'
 import { gmailLinkFor, gmailThreadUrl } from '../lib/gmailLinks'
+import { plannerFacultyIdOf } from '../planner/lib/outreachBridge'
 import { OutreachBadge } from './OutreachBadge'
 import { PoolLoading } from './PoolLoading'
 
@@ -54,6 +55,11 @@ function ProfessorPicker({ pool, onPick }: { pool: Hit[]; onPick: (key: string) 
             >
               <span className="font-medium">{h.faculty.name}</span>
               <span className="text-slate-400"> — {h.program.university}</span>
+              {plannerFacultyIdOf(h.program.id) && (
+                <span className="ml-1.5 rounded bg-amber-50 px-1.5 py-0.5 text-[10px] font-medium text-amber-700">
+                  added in plan
+                </span>
+              )}
             </button>
           ))}
         </div>
@@ -503,7 +509,7 @@ export function OutreachView({
                         onClick={() => onOpenProgram(hit.program.id)}
                         className="text-indigo-600 hover:underline"
                       >
-                        Open program ↗
+                        {plannerFacultyIdOf(hit.program.id) ? 'Open in plan ↗' : 'Open program ↗'}
                       </button>
                     )}
                     <span className="text-slate-400">

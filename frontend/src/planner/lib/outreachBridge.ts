@@ -57,6 +57,19 @@ export function readOutreach(): OutreachSnapshot {
 }
 
 /**
+ * A professor I added to the plan by hand isn't in the database, so the Contact
+ * tab files their emails under a synthetic program of their own:
+ * advisorKey(`plan~<plannerFacultyId>`, plannerFacultyId). One program per person
+ * keeps the key stable however their program links change, and lets "open"
+ * jump straight to their planner page.
+ */
+export const PLAN_PROGRAM_PREFIX = 'plan~'
+export const planProgramId = (plannerFacultyId: string) => `${PLAN_PROGRAM_PREFIX}${plannerFacultyId}`
+/** The planner faculty id behind a synthetic program id, or null for a database program. */
+export const plannerFacultyIdOf = (programId: string): string | null =>
+  programId.startsWith(PLAN_PROGRAM_PREFIX) ? programId.slice(PLAN_PROGRAM_PREFIX.length) : null
+
+/**
  * Every advisorKey this planner person could be filed under in the tracker.
  *
  * `seenAs` holds the (programId, facultyId) pairs captured when they were added,
@@ -65,7 +78,10 @@ export function readOutreach(): OutreachSnapshot {
  * occurrence resolved from the reference dataset.
  */
 export function keysForFaculty(entry: PlannerFaculty, extra: { programId: string; facultyId: string }[] = []): string[] {
-  const pairs = entry.ref.kind === 'database' ? [...entry.ref.seenAs, ...extra] : extra
+  const pairs =
+    entry.ref.kind === 'database'
+      ? [...entry.ref.seenAs, ...extra]
+      : [{ programId: planProgramId(entry.id), facultyId: entry.id }, ...extra]
   return [...new Set(pairs.map((p) => advisorKey(p.programId, p.facultyId)))]
 }
 

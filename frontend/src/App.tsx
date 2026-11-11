@@ -36,6 +36,7 @@ import { loadProgramDocs, saveProgramDocs } from './lib/programDocs'
 import type { ProgramDoc, ProgramDocMap } from './lib/programDocs'
 import { usePref } from './lib/viewPrefs'
 import { addProgramToPlan, usePlanSnapshot } from './lib/planBridge'
+import { plannerFacultyIdOf } from './planner/lib/outreachBridge'
 import { parseLocation, pathFor, PrimaryNav, SubNav, type Section } from './components/AppNav'
 import { FilterSidebar } from './components/FilterSidebar'
 import { ActiveFilters } from './components/ActiveFilters'
@@ -273,6 +274,14 @@ function App() {
     return hits
   }, [index, loaded])
 
+  // The Contact tab also links emails to professors I added to the plan by
+  // hand, who aren't in the database. Kept out of outreachPool, which the
+  // Saved tab and advisor requests read as "the database".
+  const contactPool = useMemo(
+    () => (plan.customAdvisors.length ? [...outreachPool, ...plan.customAdvisors] : outreachPool),
+    [outreachPool, plan.customAdvisors],
+  )
+
   // Starring a professor writes to every program entry they appear under, so the
   // raw key count double-counts people. The Saved tab lists merged people, and
   // the badge must agree with it. Before the chunks land there's nothing to merge
@@ -323,6 +332,12 @@ function App() {
   }
 
   const openProgram = (id: string) => {
+    // A hand-added plan professor's synthetic program: open their planner page.
+    const plannerFacultyId = plannerFacultyIdOf(id)
+    if (plannerFacultyId) {
+      navigate(`/planner/faculty/${plannerFacultyId}`)
+      return
+    }
     // Tick the program's field so the detail is visible in the programs view.
     const prog = fullPool.find((p) => p.id === id) ?? savedProgramList.find((p) => p.id === id)
     if (prog && !selectedPrimaries.has(prog.discipline.primary)) {
@@ -345,7 +360,7 @@ function App() {
     setGmailError(null)
     try {
       await ensureToken(clientId)
-      await outreach.sync(outreachPool, (p) => setSyncStatus(formatProgress(p)))
+      await outreach.sync(contactPool, (p) => setSyncStatus(formatProgress(p)))
     } catch (e) {
       const msg = e instanceof Error ? e.message : String(e)
       setGmailError(msg)
@@ -523,7 +538,7 @@ function App() {
       return loc.view === 'summary' ? (
         <OutreachOverview
           loading={poolIncomplete}
-          pool={outreachPool}
+          pool={contactPool}
           records={outreach.state.records}
           programSummaries={outreach.state.programSummaries}
           onOpenProgram={openProgram}
@@ -531,7 +546,7 @@ function App() {
       ) : (
         <OutreachView
           loading={poolIncomplete}
-          pool={outreachPool}
+          pool={contactPool}
           records={outreach.state.records}
           unlinked={outreach.state.unlinked}
           connected={gmailStatus === 'connected'}
