@@ -25,6 +25,9 @@ import {
   APPLICATION_ORDER,
   CONTACT_LABELS,
   CONTACT_TONES,
+  FEE_WAIVER_LABELS,
+  FEE_WAIVER_ORDER,
+  FEE_WAIVER_TONES,
   FUNDING_LABELS,
   INTEREST_LABELS,
   INTEREST_ORDER,
@@ -38,6 +41,7 @@ import { StatusChip, StatusSelect } from '../components/StatusChip'
 import { AddFacultyModal } from '../components/AddFacultyModal'
 import { ProgramResearchPanel } from '../components/ResearchPanel'
 import { ProgramLetters } from '../components/ProgramLetters'
+import { feeWaiverOf } from '../lib/feeWaiver'
 import {
   daysSince,
   effectiveContact,
@@ -272,6 +276,42 @@ export function ProgramDetail({
     )
   }
 
+  /**
+   * The fee waiver, as the two things one line of text used to stand for: where
+   * it stands — a status that reads at a glance and that the Programs table
+   * shows — and what it takes, which stays my note. Until I pick a status it is
+   * read off the note, and says so.
+   */
+  const feeWaiverRows = () => {
+    const w = feeWaiverOf(entry)
+    return (
+      <div className="border-b border-slate-100">
+        <div className="flex items-center justify-between gap-3 pt-1.5">
+          <span className="text-[11px] font-medium text-slate-500">Fee waiver</span>
+          <span className="flex items-center gap-1.5">
+            {w.inferred && (
+              <span
+                className="text-[10px] text-slate-400"
+                title="Nothing is picked yet, so this is read from your waiver note below. Choose a status to set it yourself."
+              >
+                from your note
+              </span>
+            )}
+            <StatusSelect
+              value={w.status}
+              options={FEE_WAIVER_ORDER}
+              labels={FEE_WAIVER_LABELS}
+              tones={FEE_WAIVER_TONES}
+              onChange={(v) => planner.updateProgram(entry.id, { feeWaiverStatus: v })}
+              title="Where the application-fee waiver stands for this program"
+            />
+          </span>
+        </div>
+        {textRow('admissions', 'feeWaiver', 'Waiver note')}
+      </div>
+    )
+  }
+
   const optionRow = (
     section: Section,
     key: string,
@@ -462,7 +502,7 @@ export function ProgramDetail({
             {textRow('admissions', 'ielts', 'IELTS')}
             {textRow('admissions', 'minGpa', 'Minimum GPA')}
             {textRow('admissions', 'applicationFee', 'Application fee')}
-            {textRow('admissions', 'feeWaiver', 'Fee waiver')}
+            {feeWaiverRows()}
             {textRow('admissions', 'letters', 'Recommendation letters')}
             {textRow('admissions', 'sop', 'Statement of purpose')}
             {textRow('admissions', 'cv', 'CV / resume')}

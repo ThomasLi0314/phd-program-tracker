@@ -47,6 +47,20 @@ export type LetterStatus =
   | 'declined'
 
 /**
+ * Where an application-fee waiver stands for one program. The first four are
+ * what the program offers me — nothing looked up yet, no waiver, one I get
+ * without asking, one I have to ask for — and the last three follow a request.
+ */
+export type FeeWaiverStatus =
+  | 'unknown'
+  | 'not_available'
+  | 'automatic'
+  | 'to_request'
+  | 'requested'
+  | 'granted'
+  | 'denied'
+
+/**
  * Someone writing me a recommendation letter. Entered by hand once and shared
  * by every program, so their details live in one place.
  */
@@ -272,6 +286,9 @@ export interface PlannerProgram {
   /** My recommenders for this program and where each letter stands. Absent on
    *  plans saved before letters were tracked — read it through lettersOf(). */
   letters?: ProgramLetter[]
+  /** Where the fee waiver stands. Absent until I pick one — read it through
+   *  feeWaiverOf(), which until then reads it off my waiver note. */
+  feeWaiverStatus?: FeeWaiverStatus
   createdAt: string
   updatedAt: string
   lastResearchedAt: string | null

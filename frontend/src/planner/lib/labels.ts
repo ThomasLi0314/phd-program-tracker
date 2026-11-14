@@ -5,6 +5,7 @@ import type {
   AdmissionModel,
   ApplicationStatus,
   ContactStatus,
+  FeeWaiverStatus,
   FundingLevel,
   InterestLevel,
   LetterStatus,
@@ -130,6 +131,38 @@ export const LETTER_TONES: Record<LetterStatus, Tone> = {
   reminded: 'amber',
   received: 'emerald',
   declined: 'rose',
+}
+
+export const FEE_WAIVER_ORDER: FeeWaiverStatus[] = [
+  'unknown',
+  'not_available',
+  'automatic',
+  'to_request',
+  'requested',
+  'granted',
+  'denied',
+]
+
+/** Short enough for a table cell, and readable there without the row's label. */
+export const FEE_WAIVER_LABELS: Record<FeeWaiverStatus, string> = {
+  unknown: 'Not checked',
+  not_available: 'No waiver',
+  automatic: 'Auto-waived',
+  to_request: 'To request',
+  requested: 'Requested',
+  granted: 'Granted',
+  denied: 'Denied',
+}
+
+/** Amber is the one that wants something from me; green means nothing to pay. */
+export const FEE_WAIVER_TONES: Record<FeeWaiverStatus, Tone> = {
+  unknown: 'slate',
+  not_available: 'slate',
+  automatic: 'emerald',
+  to_request: 'amber',
+  requested: 'sky',
+  granted: 'emerald',
+  denied: 'rose',
 }
 
 export const ADMISSION_MODEL_LABELS: Record<AdmissionModel, string> = {

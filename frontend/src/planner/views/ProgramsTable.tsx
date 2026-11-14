@@ -16,6 +16,8 @@ import {
   APPLICATION_LABELS,
   APPLICATION_ORDER,
   APPLICATION_TONES,
+  FEE_WAIVER_LABELS,
+  FEE_WAIVER_TONES,
   FUNDING_LABELS,
   INTEREST_LABELS,
   INTEREST_ORDER,
@@ -25,6 +27,7 @@ import {
   UNKNOWN_LABEL,
 } from '../lib/labels'
 import { letterSummary, lettersOf } from '../lib/letters'
+import { feeShort, feeWaiverOf, isFeeWaived } from '../lib/feeWaiver'
 import { StatusChip, StatusSelect } from '../components/StatusChip'
 import { AddProgramModal } from '../components/AddProgramModal'
 import { downloadLetterChecklist, type LetterRow } from '../lib/letterChecklist'
@@ -146,6 +149,56 @@ function DeadlineCell({
         </span>
       )}
     </span>
+  )
+}
+
+/**
+ * The application fee and its waiver for one row: the amount, a chip for where
+ * the waiver stands, and under it my note on what the waiver takes — so the
+ * waivers still to ask for, and what each one needs, can be read down a column
+ * instead of by opening every program. The fee is struck through once there is
+ * nothing to pay.
+ */
+function FeeCell({ entry }: { entry: PlannerProgram }) {
+  const raw = entry.admissions.applicationFee?.value
+  const full = raw == null ? '' : String(raw)
+  const short = feeShort(full)
+  const w = feeWaiverOf(entry)
+  // "Negative" under a "No waiver" chip says the same thing twice.
+  const showNote = w.note !== '' && !(w.inferred && w.status === 'not_available')
+  return (
+    <div className="max-w-[11rem]">
+      {short ? (
+        <span
+          className={`block truncate ${isFeeWaived(w.status) ? 'text-slate-400 line-through' : 'text-slate-700'}`}
+          title={full !== short ? full : undefined}
+        >
+          {short}
+        </span>
+      ) : (
+        <span className="italic text-amber-700" title={full || undefined}>
+          {UNKNOWN_LABEL}
+        </span>
+      )}
+      <div className="mt-0.5">
+        {w.status === 'unknown' ? (
+          <span className="text-[11px] italic text-slate-400" title="Set the waiver’s status on the program’s page">
+            waiver not checked
+          </span>
+        ) : (
+          <StatusChip
+            label={FEE_WAIVER_LABELS[w.status]}
+            tone={FEE_WAIVER_TONES[w.status]}
+            title={w.inferred ? 'Read from your waiver note — set it yourself on the program’s page' : undefined}
+          />
+        )}
+      </div>
+      {showNote && (
+        <div className="mt-0.5 line-clamp-2 text-[11px] leading-snug text-slate-500" title={w.note}>
+          {w.note}
+        </div>
+      )}
+    </div>
   )
 }
 
@@ -357,7 +410,7 @@ export function ProgramsTable({
 
   return (
     <main className="h-full flex-1 overflow-y-auto">
-      <div className="mx-auto max-w-6xl px-5 py-4">
+      <div className="mx-auto max-w-7xl px-5 py-4">
         <div className="mb-3 flex items-start justify-between gap-3">
           <div>
             <h1 className="font-serif text-lg font-bold text-slate-900">Programs</h1>
@@ -483,6 +536,9 @@ export function ProgramsTable({
                   <th className="px-2 py-1.5">Interest</th>
                   <th className="px-2 py-1.5">Deadline</th>
                   <th className="px-2 py-1.5">GRE</th>
+                  <th className="px-2 py-1.5" title="Application fee · where its waiver stands · what the waiver takes">
+                    Fee / waiver
+                  </th>
                   <th className="px-2 py-1.5">Funding</th>
                   <th className="px-2 py-1.5" title="Stipend an official page states · a year of rent as a share of it">
                     Stipend / rent
@@ -500,7 +556,7 @@ export function ProgramsTable({
               <tbody key={g.id || 'none'}>
                 {grouped && (
                   <tr className="bg-slate-100/70">
-                    <td colSpan={9} className="px-2 py-1.5">
+                    <td colSpan={10} className="px-2 py-1.5">
                       <CategoryHeader
                         name={g.name}
                         count={g.rows.length}
@@ -560,6 +616,9 @@ export function ProgramsTable({
                       ) : (
                         <span className="italic text-amber-700">{UNKNOWN_LABEL}</span>
                       )}
+                    </td>
+                    <td className="px-2 py-2 text-[12.5px]">
+                      <FeeCell entry={entry} />
                     </td>
                     <td className="px-2 py-2 text-[12.5px]">
                       {entry.funding.level?.value ? (
