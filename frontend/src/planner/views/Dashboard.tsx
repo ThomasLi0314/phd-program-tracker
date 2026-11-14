@@ -13,7 +13,7 @@
 //     is one specific, actionable thing, ordered by how much it costs to ignore,
 //     and it links to the item rather than dumping you on a list to re-find it.
 
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { navigate } from '../../lib/hashRoute'
 import type { PlannerProgram, PlannerState } from '../types'
 import type { ReferencePool } from '../lib/useReferencePool'
@@ -59,13 +59,24 @@ interface DeadlineRow {
   submitted: boolean
 }
 
+interface UndatedRow {
+  program: PlannerProgram
+  parsed: ParsedDeadline
+}
+
+/** How many upcoming deadlines the card shows before it has to be expanded. */
+const DEADLINE_PREVIEW = 8
+
 export function Dashboard({ state, pool }: { state: PlannerState; pool: ReferencePool }) {
   const outreach = useOutreachSnapshot()
+  // The card opens on the next few dates, because that is the glance it is for.
+  // Expanded, it is the whole season: every date, then the programs with none.
+  const [allDeadlines, setAllDeadlines] = useState(false)
 
   /** Every program's deadline, actually parsed. */
   const deadlines = useMemo(() => {
     const dated: DeadlineRow[] = []
-    const other: { program: PlannerProgram; parsed: ParsedDeadline }[] = []
+    const other: UndatedRow[] = []
     for (const p of state.programs) {
       const live = resolveProgram(p, pool.byId)
       const parsed = resolveDeadline(p.admissions.deadline, live?.requirements.deadline)
@@ -269,6 +280,33 @@ export function Dashboard({ state, pool }: { state: PlannerState; pool: Referenc
     </li>
   )
 
+  // Programs with no date still belong in the full list — named, under what they
+  // are, rather than slotted into the date order as if they had a position in it.
+  const undatedGroup = (label: string, rows: UndatedRow[]) =>
+    rows.length > 0 && (
+      <>
+        <div className="mt-2 text-[10px] font-semibold uppercase tracking-wide text-slate-400">{label}</div>
+        <ul>
+          {rows.map((o) => (
+            <li key={o.program.id} className="py-0.5">
+              <button
+                onClick={() => navigate(`/planner/programs/${o.program.id}`)}
+                title={o.parsed.raw || undefined}
+                className="block max-w-full truncate text-left text-[12.5px] text-slate-700 hover:text-indigo-700 hover:underline"
+              >
+                {o.program.university}
+                <span className="text-slate-400"> — {o.program.programName}</span>
+              </button>
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+
+  const furtherOut = Math.max(0, deadlines.upcoming.length - DEADLINE_PREVIEW)
+  const undatedCount = deadlines.rolling.length + deadlines.paused.length + deadlines.unknown.length
+  const canExpandDeadlines = furtherOut + undatedCount > 0
+
   return (
     <main className="h-full flex-1 overflow-y-auto">
       <div className="mx-auto max-w-5xl px-5 py-4">
@@ -302,9 +340,20 @@ export function Dashboard({ state, pool }: { state: PlannerState; pool: Referenc
 
             <div className="mt-4 grid gap-3 lg:grid-cols-2">
               <section className="rounded-lg border border-slate-200 bg-white p-3.5">
-                <h2 className="mb-1.5 text-[10px] font-semibold uppercase tracking-wide text-slate-400">
-                  Deadlines
-                </h2>
+                <div className="mb-1.5 flex items-baseline justify-between gap-3">
+                  <h2 className="text-[10px] font-semibold uppercase tracking-wide text-slate-400">
+                    Deadlines
+                  </h2>
+                  {canExpandDeadlines && (
+                    <button
+                      onClick={() => setAllDeadlines((v) => !v)}
+                      aria-expanded={allDeadlines}
+                      className="text-[11px] text-indigo-600 hover:underline"
+                    >
+                      {allDeadlines ? 'Show fewer' : `Show all ${state.programs.length}`}
+                    </button>
+                  )}
+                </div>
 
                 {deadlines.overdue.length === 0 && deadlines.upcoming.length === 0 ? (
                   <p className="text-[12px] text-slate-400">
@@ -321,26 +370,44 @@ export function Dashboard({ state, pool }: { state: PlannerState; pool: Referenc
                       </>
                     )}
                     <ul>
-                      {deadlines.upcoming
-                        .slice(0, 8)
-                        .map((d) => deadlineRow(d, d.days <= 14 ? 'text-rose-600' : d.days <= 30 ? 'text-amber-600' : 'text-slate-400'))}
+                      {(allDeadlines ? deadlines.upcoming : deadlines.upcoming.slice(0, DEADLINE_PREVIEW)).map((d) =>
+                        deadlineRow(d, d.days <= 14 ? 'text-rose-600' : d.days <= 30 ? 'text-amber-600' : 'text-slate-400'),
+                      )}
                     </ul>
-                    {deadlines.upcoming.length > 8 && (
-                      <p className="mt-1 text-[10.5px] text-slate-400">
-                        + {deadlines.upcoming.length - 8} further out
-                      </p>
+                    {!allDeadlines && furtherOut > 0 && (
+                      <button
+                        onClick={() => setAllDeadlines(true)}
+                        className="mt-1 text-[10.5px] text-slate-400 hover:text-indigo-700 hover:underline"
+                      >
+                        + {furtherOut} further out
+                      </button>
                     )}
                   </>
                 )}
 
-                {/* Things that genuinely have no date, kept out of the ordered list. */}
-                {(deadlines.rolling.length > 0 || deadlines.paused.length > 0 || deadlines.unknown.length > 0) && (
-                  <p className="mt-2 border-t border-slate-100 pt-1.5 text-[10.5px] leading-relaxed text-slate-400">
-                    {deadlines.rolling.length > 0 && <>{deadlines.rolling.length} rolling · </>}
-                    {deadlines.paused.length > 0 && <>{deadlines.paused.length} paused · </>}
-                    {deadlines.unknown.length > 0 && <>{deadlines.unknown.length} with no usable date</>}
-                  </p>
-                )}
+                {/* Things that genuinely have no date, kept out of the ordered list:
+                    a count at a glance, the programs themselves once expanded. */}
+                {undatedCount > 0 &&
+                  (allDeadlines ? (
+                    <div className="mt-2 border-t border-slate-100">
+                      {undatedGroup('Rolling', deadlines.rolling)}
+                      {undatedGroup('Paused', deadlines.paused)}
+                      {undatedGroup('No usable date', deadlines.unknown)}
+                    </div>
+                  ) : (
+                    <button
+                      onClick={() => setAllDeadlines(true)}
+                      className="mt-2 block w-full border-t border-slate-100 pt-1.5 text-left text-[10.5px] leading-relaxed text-slate-400 hover:text-indigo-700"
+                    >
+                      {[
+                        deadlines.rolling.length > 0 && `${deadlines.rolling.length} rolling`,
+                        deadlines.paused.length > 0 && `${deadlines.paused.length} paused`,
+                        deadlines.unknown.length > 0 && `${deadlines.unknown.length} with no usable date`,
+                      ]
+                        .filter(Boolean)
+                        .join(' · ')}
+                    </button>
+                  ))}
               </section>
 
               <section className="rounded-lg border border-slate-200 bg-white p-3.5">
