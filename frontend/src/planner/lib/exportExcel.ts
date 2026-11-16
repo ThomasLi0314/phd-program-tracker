@@ -9,6 +9,8 @@
 
 export interface ExportAdvisorRow {
   name: string
+  /** e.g. "🟢 Actively Recruiting" — "⚪ Unknown" when nothing is known */
+  recruiting: string
   /** contact status label, or '' */
   status: string
   /** short research keywords, or '' */
@@ -21,6 +23,8 @@ export interface ExportProgramRow {
   category: string
   university: string
   program: string
+  /** its advisors' recruiting statuses counted up, e.g. "🟢 1 · ⚪ 3"; '' with no advisors */
+  recruiting: string
   deadline: string
   funding: string
   /** e.g. "$49,000/yr (university minimum, 2026-27)" */
@@ -42,8 +46,8 @@ export interface ExportMeta {
 
 export type ExcelNS = typeof import('exceljs')
 
-const HEADERS = ['Category', 'University', 'Program / Advisor', 'Deadline', 'Funding', 'Stipend', 'Rent near campus', 'Status', 'Letters', 'Research / Notes', 'Link']
-const WIDTHS = [20, 30, 46, 20, 16, 30, 30, 22, 40, 56, 46]
+const HEADERS = ['Category', 'University', 'Program / Advisor', 'Advisor recruiting', 'Deadline', 'Funding', 'Stipend', 'Rent near campus', 'Status', 'Letters', 'Research / Notes', 'Link']
+const WIDTHS = [20, 30, 46, 24, 20, 16, 30, 30, 22, 40, 56, 46]
 const LINK_COL = HEADERS.length
 
 const LINK_FONT = { color: { argb: 'FF2563EB' }, underline: true, size: 11 }
@@ -91,7 +95,7 @@ export async function buildWorkbook(rows: ExportProgramRow[], meta: ExportMeta) 
   }
 
   for (const p of rows) {
-    const r = ws.addRow([p.category, p.university, p.program, p.deadline, p.funding, p.stipend, p.rent, p.status, p.letters, p.notes, ''])
+    const r = ws.addRow([p.category, p.university, p.program, p.recruiting, p.deadline, p.funding, p.stipend, p.rent, p.status, p.letters, p.notes, ''])
     r.font = { bold: true, size: 11 }
     r.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF1F5F9' } }
     r.alignment = { vertical: 'top', wrapText: true }
@@ -106,7 +110,7 @@ export async function buildWorkbook(rows: ExportProgramRow[], meta: ExportMeta) 
     }
     setCollapsed(r, true)
     for (const a of p.advisors) {
-      const ar = ws.addRow(['', '', a.name, '', '', '', '', a.status, '', a.research, ''])
+      const ar = ws.addRow(['', '', a.name, a.recruiting, '', '', '', '', a.status, '', a.research, ''])
       ar.outlineLevel = 1
       ar.hidden = true
       setCollapsed(ar, false)

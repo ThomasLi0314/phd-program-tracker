@@ -12,6 +12,7 @@ import { deadlineLabel, resolveDeadline, type ParsedDeadline } from './deadlines
 import { money, rentShare, SCOPE_LABEL, stipendShort, type HousingPlace } from '../../lib/costOfLiving'
 import { effectiveContact, findRecord, type OutreachSnapshot } from './outreachBridge'
 import { APPLICATION_LABELS, CONTACT_LABELS, FUNDING_LABELS, UNKNOWN_LABEL } from './labels'
+import { RECRUITMENT_DOTS, RECRUITMENT_LABELS, RECRUITMENT_ORDER } from './recruitment'
 import type { ExportProgramRow } from './exportExcel'
 import { lettersText } from './letters'
 
@@ -79,18 +80,32 @@ export function buildExportRows(entries: PlannerProgram[], ctx: ExportContext): 
     const advisors = linked.map((f) => {
       const occ = f.ref.kind === 'database' ? facultyOccurrencePairs(f.ref.mergeKey, programs) : []
       const eff = effectiveContact(f, findRecord(f, outreach, occ))
+      const recruiting = f.recruiting.value ?? 'unknown'
       return {
         name: f.name,
+        recruiting: `${RECRUITMENT_DOTS[recruiting]} ${RECRUITMENT_LABELS[recruiting]}`,
         status: CONTACT_LABELS[eff.status],
         research: f.themes.slice(0, 5).join('; '),
         link: f.links.faculty || f.links.personal || f.links.lab || f.links.scholar || '',
       }
     })
 
+    // The program row is what stays visible while its advisors are folded away,
+    // so it carries their statuses counted up — "🟢 1 · ⚪ 3" — and the column
+    // isn't blank until a group is opened. Statuses nobody has are left out.
+    const recruiting = RECRUITMENT_ORDER.map((status) => ({
+      status,
+      n: linked.filter((f) => (f.recruiting.value ?? 'unknown') === status).length,
+    }))
+      .filter((t) => t.n > 0)
+      .map((t) => `${RECRUITMENT_DOTS[t.status]} ${t.n}`)
+      .join(' · ')
+
     return {
       category: (entry.categoryId && categoryName.get(entry.categoryId)) || '',
       university: id.university,
       program: programLabel(id.programName, id.degree),
+      recruiting,
       deadline,
       funding,
       stipend,
