@@ -11,7 +11,7 @@
 // are overwritten. The plan is the place to edit.
 
 import { useEffect } from 'react'
-import { workbookBytes, type ExportProgramRow } from './exportExcel'
+import { WORKBOOK_LAYOUT, workbookBytes, type ExportProgramRow } from './exportExcel'
 import { flushOnHide, parseLink, readJson, SheetMirror, useMirrorView, writeJson, type SheetLink, type SheetSyncView } from './sheetMirror'
 
 export type { SheetLink, SheetStatus, SheetSyncView } from './sheetMirror'
@@ -27,6 +27,8 @@ export function loadSheetLink(): SheetLink | null {
 interface PlanSnapshot {
   cycle: string
   rows: ExportProgramRow[]
+  /** not read when building — here so a change of layout counts as a change */
+  layout: number
 }
 
 export const planSheet = new SheetMirror<PlanSnapshot>({
@@ -57,7 +59,7 @@ export function useSheetSync(rows: ExportProgramRow[] | null, cycle: string): vo
     listenOnce()
   }, [])
   useEffect(() => {
-    if (rows) planSheet.offer({ cycle, rows })
+    if (rows) planSheet.offer({ cycle, rows, layout: WORKBOOK_LAYOUT })
   }, [rows, cycle])
 }
 

@@ -90,9 +90,9 @@ export function buildExportRows(entries: PlannerProgram[], ctx: ExportContext): 
       }
     })
 
-    // The program row is what stays visible while its advisors are folded away,
-    // so it carries their statuses counted up — "🟢 1 · ⚪ 3" — and the column
-    // isn't blank until a group is opened. Statuses nobody has are left out.
+    // The program row heads its group of advisors, and is all that is left to
+    // read once an editor folds the group, so it carries their statuses counted
+    // up — "🟢 1 · ⚪ 3". Statuses nobody has are left out.
     const recruiting = RECRUITMENT_ORDER.map((status) => ({
       status,
       n: linked.filter((f) => (f.recruiting.value ?? 'unknown') === status).length,
