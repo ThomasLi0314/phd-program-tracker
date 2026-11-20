@@ -4,7 +4,7 @@
     "generated_at": "2026-09-22",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep + Singapore/Hong Kong PhD wave",
-    "note": "1436 STEM PhD/MSc programs; faculty rosters on 563 programs (15852 faculty). Unknown/Verify = not yet confirmed on an official page."
+    "note": "1436 STEM PhD/MSc programs; faculty rosters on 563 programs (15863 faculty). Unknown/Verify = not yet confirmed on an official page."
   },
   "total": 1436,
   "fields": [
@@ -717,7 +717,7 @@
       "slug": "mathematics",
       "count": 98,
       "withFaculty": 93,
-      "facultyCount": 3277,
+      "facultyCount": 3288,
       "subs": [
         "Algebra",
         "Algebraic Geometry",

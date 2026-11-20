@@ -4,7 +4,7 @@
     "generated_at": "2026-09-22",
     "cycle": "Fall 2027",
     "source": "curated + top-50 sweep + Singapore/Hong Kong PhD wave",
-    "note": "1436 STEM PhD/MSc programs; faculty rosters on 563 programs (15852 faculty). Unknown/Verify = not yet confirmed on an official page."
+    "note": "1436 STEM PhD/MSc programs; faculty rosters on 563 programs (15863 faculty). Unknown/Verify = not yet confirmed on an official page."
   },
   "programs": [
     {
@@ -149581,7 +149581,7 @@
       "links": {
         "program": "https://cmor.rice.edu/academics/graduate-programs/phd-program"
       },
-      "data_currency": "2026-07-05 · top-50 sweep · US News #17 · faculty 2026-07-09",
+      "data_currency": "2026-07-05 · top-50 sweep · US News #17 · faculty 2026-11-20",
       "faculty": [
         {
           "id": "lydia-kavraki",
@@ -149804,6 +149804,202 @@
           "recruitment_status": "Unknown/Verify",
           "links": {
             "homepage": "https://profiles.rice.edu/faculty/nai-hui-chia",
+            "scholar": null
+          }
+        },
+        {
+          "id": "thomas-g-anderson",
+          "name": "Thomas G. Anderson",
+          "title": "Assistant Professor",
+          "sub_field": "Numerical Analysis & Integral Equations",
+          "tags": [
+            "numerical analysis",
+            "spectral methods",
+            "scientific computing",
+            "PDEs"
+          ],
+          "summary": "Works on high-order discretization schemes and fast algorithms for singular integral operators in potential theory and integral equations, with applications to wave propagation and fluid dynamics.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://profiles.rice.edu/faculty/thomas-g-anderson",
+            "scholar": null
+          }
+        },
+        {
+          "id": "shuvomoy-das-gupta",
+          "name": "Shuvomoy Das Gupta",
+          "title": "Assistant Professor",
+          "sub_field": "Optimization & Operations Research",
+          "tags": [
+            "optimization",
+            "operations research",
+            "computation",
+            "first-order methods"
+          ],
+          "summary": "Research at the intersection of optimization, operations research and computation; PhD from MIT ORC (2024), joined Rice CMOR in 2025.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": "https://shuvomoy.github.io",
+            "scholar": null
+          }
+        },
+        {
+          "id": "maarten-de-hoop",
+          "name": "Maarten de Hoop",
+          "title": "Simons Chair in Computational and Applied Mathematics and Earth Science",
+          "sub_field": "Inverse Problems & Seismology",
+          "tags": [
+            "inverse problems",
+            "microlocal analysis",
+            "seismology",
+            "geophysics",
+            "deep learning"
+          ],
+          "summary": "Works on inverse problems, microlocal analysis and computation, with applications to exploration and global seismology and geodynamics, including deep learning for seismic inverse problems.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "matthias-heinkenschloss",
+          "name": "Matthias Heinkenschloss",
+          "title": "Professor",
+          "sub_field": "PDE-Constrained Optimization & Control",
+          "tags": [
+            "PDE-constrained optimization",
+            "optimal control",
+            "numerical optimization",
+            "digital twins"
+          ],
+          "summary": "Research centers on PDE-constrained optimization, optimal control and large-scale nonlinear programming algorithms.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "illya-v-hicks",
+          "name": "Illya V. Hicks",
+          "title": "Professor",
+          "sub_field": "Discrete Optimization",
+          "tags": [
+            "discrete optimization",
+            "graph theory",
+            "combinatorial optimization",
+            "healthcare operations"
+          ],
+          "summary": "Professor in Rice CMOR (INFORMS Fellow) working on discrete optimization theory and practice, including optimization models for healthcare scheduling.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "shiqian-ma",
+          "name": "Shiqian Ma",
+          "title": "Adjunct Faculty (Rice CMOR; appears to have moved to Johns Hopkins)",
+          "sub_field": "Optimization & Machine Learning",
+          "tags": [
+            "optimization",
+            "Riemannian optimization",
+            "machine learning",
+            "AI foundations"
+          ],
+          "summary": "Optimization researcher (Riemannian optimization, ML foundations). Listed as adjunct at Rice CMOR; public sources suggest he is now at Johns Hopkins, so verify before contacting for a Rice position.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "guodong-pang",
+          "name": "Guodong Pang",
+          "title": "Professor",
+          "sub_field": "Applied Probability & Stochastic Systems",
+          "tags": [
+            "applied probability",
+            "queueing",
+            "stochastic networks",
+            "stochastic control",
+            "quantitative finance"
+          ],
+          "summary": "Works on queueing and stochastic network models using stochastic process limit theory, optimization and control; also interested in quantitative finance and econometrics. (Listed on the CMOR page as 'Gordon Pang'.)",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "sebastian-perez-salazar",
+          "name": "Sebastian Perez-Salazar",
+          "title": "Assistant Professor",
+          "sub_field": "Optimization & Decision-Making under Uncertainty",
+          "tags": [
+            "optimization",
+            "operations research",
+            "online algorithms",
+            "decision-making under uncertainty"
+          ],
+          "summary": "Develops mathematical models and algorithms to support decision-making in uncertain environments.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "beatrice-riviere",
+          "name": "Béatrice Rivière",
+          "title": "Professor",
+          "sub_field": "Numerical PDEs & Discontinuous Galerkin Methods",
+          "tags": [
+            "discontinuous Galerkin",
+            "porous media flow",
+            "numerical PDEs",
+            "scientific computing"
+          ],
+          "summary": "Develops and analyzes discontinuous Galerkin methods for flow and transport in porous media, two-phase flow and bound-preserving schemes; author of the SIAM text on DG methods.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "andrew-schaefer",
+          "name": "Andrew Schaefer",
+          "title": "Noah Harding Chair and Professor",
+          "sub_field": "Stochastic & Integer Optimization",
+          "tags": [
+            "stochastic optimization",
+            "inverse optimization",
+            "integer programming",
+            "healthcare OR",
+            "cancer care"
+          ],
+          "summary": "Noah Harding Chair working on stochastic optimization, inverse optimization and integer programming; co-leads the Rice–MD Anderson Center for Operations Research in Cancer.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
+            "scholar": null
+          }
+        },
+        {
+          "id": "lu-zhang",
+          "name": "Lu Zhang",
+          "title": "Unknown/Verify",
+          "sub_field": "Unknown/Verify",
+          "tags": [],
+          "summary": "Listed as a CMOR PhD advisor on the program's advisors page; no official profile was found, so title and research area are unverified.",
+          "recruitment_status": "Unknown/Verify",
+          "links": {
+            "homepage": null,
             "scholar": null
           }
         }
