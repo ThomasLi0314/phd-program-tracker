@@ -42,6 +42,7 @@ import { StatusChip, StatusSelect } from '../components/StatusChip'
 import { AddFacultyModal } from '../components/AddFacultyModal'
 import { ProgramResearchPanel } from '../components/ResearchPanel'
 import { ProgramLetters } from '../components/ProgramLetters'
+import { CurriculumSection } from '../components/CurriculumSection'
 import { feeWaiverOf } from '../lib/feeWaiver'
 import {
   daysSince,
@@ -165,6 +166,7 @@ export function ProgramDetail({
       const fields = entry[sec] as Record<string, ResearchField<unknown> | undefined>
       for (const f of Object.values(fields)) if (f) out.push(...f.sources)
     }
+    if (entry.curriculum?.source) out.push(entry.curriculum.source)
     const seen = new Set<string>()
     return out.filter((s) => !seen.has(s.url) && seen.add(s.url))
   }, [entry])
@@ -582,6 +584,17 @@ export function ProgramDetail({
             </section>
           </div>
         </div>
+
+        {/* What the coursework is. Keyed, so another program never shows this
+            one's unsaved summary. */}
+        <CurriculumSection
+          key={entry.id}
+          value={entry.curriculum ?? null}
+          university={ident.university}
+          programName={ident.programName}
+          degree={ident.degree}
+          onSave={(curriculum) => planner.updateProgram(entry.id, { curriculum })}
+        />
 
         {/* Faculty */}
         <section className={`${card} mt-3`}>

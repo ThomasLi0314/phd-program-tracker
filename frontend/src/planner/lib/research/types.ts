@@ -4,7 +4,15 @@
 // reaches the planner without passing through the review queue, so a model can
 // never silently overwrite something I verified (spec §20).
 
-import type { Confidence, PlannerRecruitmentStatus, SourceEvidence } from '../../types'
+import type { Confidence, Curriculum, PlannerRecruitmentStatus, SourceEvidence } from '../../types'
+
+export interface CurriculumInput {
+  university: string
+  programName: string
+  degree: string | null
+  /** A link to the curriculum page, or that page's text. */
+  page: string
+}
 
 export type ResearchStatus = 'idle' | 'running' | 'complete' | 'partial' | 'failed'
 
@@ -96,6 +104,9 @@ export interface ResearchProvider {
     onProgress?: ProgressFn,
     signal?: AbortSignal,
   ): Promise<ProgramResearchResult>
+  /** Summarize the one page given, checked against it. Throws with a message
+   *  for the user; saves nothing. */
+  summarizeCurriculum(input: CurriculumInput, onProgress?: ProgressFn, signal?: AbortSignal): Promise<Curriculum>
   researchFaculty(
     input: { name: string; university: string; cycle: string; urls: string[] },
     onProgress?: ProgressFn,

@@ -263,6 +263,51 @@ export interface PlannerCategory {
   name: string
 }
 
+/** A statement in a curriculum summary, with the page's words for it. */
+export interface CurriculumClaim {
+  text: string
+  quote: string
+  /** The quote is on the page and carries every number the statement gives. */
+  onPage: boolean
+}
+
+export interface CurriculumCourse {
+  code: string
+  title: string
+  credits: string
+  /** This code and title appear together on the page. */
+  onPage: boolean
+}
+
+export interface CurriculumGroup {
+  title: string
+  /** Required of every student, as opposed to electives or a track's own courses. */
+  core: boolean
+  /** "All four required", "Choose 2", "12 credits". */
+  rule: CurriculumClaim | null
+  courses: CurriculumCourse[]
+}
+
+/**
+ * A program's curriculum, summarised from one page I gave it. Only the summary
+ * is kept, not the page: the plan lives in localStorage and the Drive backup.
+ */
+export interface Curriculum {
+  /** The model's own wording, so the one part with no quote behind it. */
+  overview: string
+  /** Which degree the page is about, in the page's words. */
+  appliesTo: string
+  totalCredits: CurriculumClaim | null
+  groups: CurriculumGroup[]
+  /** Exams, grade minimums, teaching, residence: what isn't a course. */
+  requirements: CurriculumClaim[]
+  /** null when I pasted the text rather than a link. */
+  source: SourceEvidence | null
+  /** The page was longer than what was read. */
+  truncated: boolean
+  summarizedAt: string
+}
+
 export interface PlannerProgram {
   id: string
   ref: ProgramRef
@@ -296,6 +341,8 @@ export interface PlannerProgram {
   /** Where the fee waiver stands. Absent until I pick one — read it through
    *  feeWaiverOf(), which until then reads it off my waiver note. */
   feeWaiverStatus?: FeeWaiverStatus
+  /** The core curriculum, once I've had a page summarised and kept the result. */
+  curriculum?: Curriculum | null
   createdAt: string
   updatedAt: string
   lastResearchedAt: string | null

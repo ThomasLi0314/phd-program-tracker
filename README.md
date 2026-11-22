@@ -61,6 +61,12 @@ quote behind it. Accept one — or type it under the program's Admissions — an
 every checklist gains a "Letter due" column: the date, or the rule in words
 where the page gives none. A date that looks like another cycle's is left off.
 
+**Core curriculum** (on each program's page in the plan; needs a DeepSeek key) —
+paste the link to the curriculum page, or the page's text if it needs a login,
+and get its core courses, elective rules, credits and other requirements. Each
+course and rule is checked against the page and marked when it isn't there;
+nothing is saved until you accept it, and the pasted text itself is never stored.
+
 Two ways to get the plan out:
 
 - **Google Sheet** — one click makes a Sheet of the plan in your own Drive

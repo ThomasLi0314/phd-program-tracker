@@ -178,7 +178,7 @@ function proposalFrom(
 }
 
 /** First markdown heading or the "Title:" line r.jina.ai emits. */
-function titleOf(text: string, url: string): string {
+export function titleOf(text: string, url: string): string {
   const t = text.match(/^Title:\s*(.+)$/m)?.[1] ?? text.match(/^#\s+(.+)$/m)?.[1]
   return (t ?? url).trim().slice(0, 120)
 }

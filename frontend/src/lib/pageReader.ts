@@ -80,7 +80,7 @@ export function isProbablyUrl(raw: string): boolean {
  * callers surface it verbatim, since "couldn't read that page" is a fact the
  * user needs, not something to paper over with a guessed card.
  */
-export async function readPage(rawUrl: string, signal?: AbortSignal): Promise<PageContent> {
+export async function readPage(rawUrl: string, signal?: AbortSignal, maxChars = MAX_CHARS): Promise<PageContent> {
   const url = normalizeUrl(rawUrl)
   if (!isProbablyUrl(url)) throw new Error(`"${rawUrl}" doesn't look like a URL.`)
 
@@ -122,8 +122,8 @@ export async function readPage(rawUrl: string, signal?: AbortSignal): Promise<Pa
 
   return {
     url,
-    text: text.slice(0, MAX_CHARS),
+    text: text.slice(0, maxChars),
     fetchedAt: Date.now(),
-    truncated: text.length > MAX_CHARS,
+    truncated: text.length > maxChars,
   }
 }

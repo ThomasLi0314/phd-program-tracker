@@ -8,6 +8,7 @@
 import { hasCredentials, loadBaseUrl } from './llm'
 import { researchLetterDeadline, researchProgram } from './programResearch'
 import { researchFaculty } from './facultyResearch'
+import { summarizeCurriculum } from './curriculum'
 import type { ResearchProvider } from './types'
 
 /** Reads real pages via r.jina.ai, then extracts with an OpenAI-compatible model. */
@@ -19,6 +20,7 @@ export const pageAndModelProvider: ResearchProvider = {
     'everything else in the planner works without it.',
   researchProgram,
   researchLetterDeadline,
+  summarizeCurriculum,
   researchFaculty,
 }
 
@@ -32,5 +34,6 @@ export function providerSummary(): { name: string; endpoint: string; ready: bool
 }
 
 export * from './types'
+export { isPageLink, unconfirmedCount } from './curriculum'
 export { buildProgramReview, buildFacultyReview, defaultAccepted, defaultAcceptedFaculty, applyProgramReview, applyFacultyReview } from './reviewQueue'
 export type { ReviewItem, FacultyReviewItem, ReviewAction } from './reviewQueue'
