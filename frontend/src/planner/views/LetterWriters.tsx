@@ -5,25 +5,24 @@
 
 import { useState } from 'react'
 import { navigate } from '../../lib/hashRoute'
-import type { PlannerProgram, PlannerState, Recommender } from '../types'
+import type { PlannerState, Recommender } from '../types'
 import type { ReferencePool } from '../lib/useReferencePool'
 import type { PlannerApi } from '../lib/usePlanner'
 import { programIdentity, resolveProgram } from '../lib/referenceBridge'
-import { daysUntil, deadlineLabel, resolveDeadline } from '../lib/deadlines'
+import { daysUntil, deadlineLabel, formatDeadline, resolveDeadline } from '../lib/deadlines'
 import { LETTER_LABELS, LETTER_ORDER, LETTER_TONES } from '../lib/labels'
-import { isLetterIn, lettersOf } from '../lib/letters'
+import { isLetterIn, lettersOf, stillApplying } from '../lib/letters'
+import { letterDueCells, letterDueOf, writerDueIso } from '../lib/letterDeadline'
 import { programLabel } from '../lib/exportRows'
 import { downloadLetterChecklist } from '../lib/letterChecklist'
 import { letterSheetFor } from '../lib/letterSheets'
 import { SheetControls } from '../components/SheetControls'
 import { StatusSelect } from '../components/StatusChip'
 import { RecommenderForm } from '../components/RecommenderForm'
+import { LetterDeadlineCheck } from '../components/LetterDeadlineCheck'
 
 const field =
   'w-full rounded border border-transparent bg-transparent px-1.5 py-0.5 text-[12.5px] text-slate-800 hover:border-slate-200 focus:border-indigo-400 focus:bg-white focus:outline-none'
-
-/** Programs that still need letters: not dropped, not withdrawn. */
-const stillApplying = (p: PlannerProgram) => p.interest !== 'drop' && p.status !== 'withdrawn'
 
 function WriterCard({
   rec,
@@ -40,7 +39,9 @@ function WriterCard({
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
-  // Every program listing this writer, soonest deadline first.
+  // Every program listing this writer, the letter due soonest first. `iso` is
+  // the day this writer goes by: the letters' own deadline where the program
+  // has one, else the application's.
   const rows = state.programs
     .map((p) => {
       const letter = lettersOf(p).find((l) => l.recommenderId === rec.id)
@@ -48,7 +49,8 @@ function WriterCard({
       const live = resolveProgram(p, pool.byId)
       const id = programIdentity(p, live)
       const deadline = resolveDeadline(p.admissions.deadline, live?.requirements.deadline)
-      return { p, letter, id, deadline, iso: deadline.kind === 'dated' ? deadline.iso : null }
+      const due = letterDueOf(p, deadline)
+      return { p, letter, id, deadline, due, iso: writerDueIso(deadline, due) }
     })
     .filter((r): r is NonNullable<typeof r> => !!r)
     .sort((a, b) => {
@@ -74,9 +76,10 @@ function WriterCard({
         active.map((r) => ({
           university: r.id.university,
           program: programLabel(r.id.programName, r.id.degree),
-          deadlineIso: r.iso,
+          deadlineIso: r.deadline.kind === 'dated' ? r.deadline.iso : null,
           deadlineNote:
             r.deadline.kind === 'rolling' ? 'Rolling' : r.deadline.kind === 'paused' ? 'Paused' : 'To be confirmed',
+          ...letterDueCells(r.due),
           submitted: isLetterIn(r.letter.status),
         })),
         { cycle: state.settings.cycle, preparedAt: new Date(), recommender: rec.name.trim() || undefined },
@@ -103,7 +106,7 @@ function WriterCard({
         <div className="flex items-center gap-2 text-[11.5px]">
           <span className={received === active.length && active.length > 0 ? 'font-medium text-emerald-700' : 'text-slate-500'}>
             {received} of {active.length} received
-            {nextDue?.iso && ` · next due ${deadlineLabel(nextDue.deadline)}`}
+            {nextDue?.iso && ` · next due ${formatDeadline(nextDue.iso)}`}
           </span>
           {confirmDelete ? (
             <span className="flex items-center gap-1.5">
@@ -161,8 +164,10 @@ function WriterCard({
           <p className="py-1 text-[12px] text-slate-400">Not assigned to any program yet.</p>
         ) : (
           <ul className="divide-y divide-slate-100">
-            {rows.map(({ p, letter, id, deadline, iso }) => {
+            {rows.map(({ p, letter, id, deadline, due, iso }) => {
               const left = iso ? daysUntil(iso) : null
+              // The letters' own date, when it is not simply the application's.
+              const ownDate = due?.iso && due.iso !== (deadline.kind === 'dated' ? deadline.iso : null)
               return (
                 <li key={p.id} className="flex items-start justify-between gap-3 py-1.5">
                   <button onClick={() => navigate(`/planner/programs/${p.id}`)} className="min-w-0 text-left">
@@ -173,6 +178,11 @@ function WriterCard({
                   </button>
                   <div className="flex shrink-0 items-center gap-2">
                     <span
+                      title={
+                        due
+                          ? `Letter deadline: ${due.note}${due.offCycle ? ' (looks like another cycle’s date, so not on the checklist)' : ''}\nApplication deadline: ${deadlineLabel(deadline)}`
+                          : undefined
+                      }
                       className={`whitespace-nowrap text-[11px] tabular-nums ${
                         !iso
                           ? 'italic text-amber-700'
@@ -183,7 +193,9 @@ function WriterCard({
                               : 'text-slate-500'
                       }`}
                     >
-                      {deadlineLabel(deadline)}
+                      {ownDate && due?.iso ? `letter due ${formatDeadline(due.iso)}` : deadlineLabel(deadline)}
+                      {/* A rule in words has no date to show here; mark that there is one. */}
+                      {due && !due.iso && <span className="ml-0.5 cursor-help text-indigo-500">＊</span>}
                     </span>
                     <StatusSelect
                       value={letter.status}
@@ -320,11 +332,14 @@ export function LetterWritersView({
             </button>
           </div>
         ) : (
-          <div className="space-y-3">
-            {state.recommenders.map((r) => (
-              <WriterCard key={r.id} rec={r} state={state} pool={pool} planner={planner} />
-            ))}
-          </div>
+          <>
+            <LetterDeadlineCheck state={state} pool={pool} planner={planner} />
+            <div className="space-y-3">
+              {state.recommenders.map((r) => (
+                <WriterCard key={r.id} rec={r} state={state} pool={pool} planner={planner} />
+              ))}
+            </div>
+          </>
         )}
       </div>
     </main>

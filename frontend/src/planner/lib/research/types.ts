@@ -89,6 +89,13 @@ export interface ResearchProvider {
     onProgress?: ProgressFn,
     signal?: AbortSignal,
   ): Promise<ProgramResearchResult>
+  /** One fact — when the program's recommendation letters are due — cheaply
+   *  enough to run over every program in the plan. At most one proposal. */
+  researchLetterDeadline(
+    input: { university: string; programName: string; cycle: string; urls: string[] },
+    onProgress?: ProgressFn,
+    signal?: AbortSignal,
+  ): Promise<ProgramResearchResult>
   researchFaculty(
     input: { name: string; university: string; cycle: string; urls: string[] },
     onProgress?: ProgressFn,

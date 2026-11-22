@@ -31,6 +31,7 @@ import { feeShort, feeWaiverOf, isFeeWaived } from '../lib/feeWaiver'
 import { StatusChip, StatusSelect } from '../components/StatusChip'
 import { AddProgramModal } from '../components/AddProgramModal'
 import { downloadLetterChecklist, type LetterRow } from '../lib/letterChecklist'
+import { letterDueCells, letterDueOf } from '../lib/letterDeadline'
 import { SheetControls } from '../components/SheetControls'
 import { programLabel } from '../lib/exportRows'
 
@@ -388,6 +389,7 @@ export function ProgramsTable({
           deadlineIso: parsed.kind === 'dated' ? parsed.iso : null,
           deadlineNote:
             parsed.kind === 'rolling' ? 'Rolling' : parsed.kind === 'paused' ? 'Paused' : 'To be confirmed',
+          ...letterDueCells(letterDueOf(entry, parsed)),
         }
       })
   const letterCount = rows.filter(({ entry }) => entry.interest !== 'drop' && entry.status !== 'withdrawn').length

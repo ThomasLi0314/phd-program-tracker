@@ -54,6 +54,13 @@ their ticks are never overwritten). Clickable checkboxes in the Sheet need the
 Google Sheets API turned on in your Google Cloud project; without it the column
 reads TRUE/FALSE and still works.
 
+Some programs want letters on a day other than the application deadline. **Look
+up letter deadlines** (Letter Writers page; needs a DeepSeek key) reads each
+program's official pages and proposes what they say about letters, with the
+quote behind it. Accept one — or type it under the program's Admissions — and
+every checklist gains a "Letter due" column: the date, or the rule in words
+where the page gives none. A date that looks like another cycle's is left off.
+
 Two ways to get the plan out:
 
 - **Google Sheet** — one click makes a Sheet of the plan in your own Drive

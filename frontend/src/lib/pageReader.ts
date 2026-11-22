@@ -19,6 +19,10 @@ const READER = 'https://r.jina.ai/'
  *  DeepSeek bill and stays well inside the context window. */
 const MAX_CHARS = 24_000
 
+/** The reader's free tier allows a limited number of pages a minute; a caller
+ *  reading many in a row can wait this out and try again. */
+export class RateLimitError extends Error {}
+
 export interface PageContent {
   url: string
   text: string
@@ -93,11 +97,23 @@ export async function readPage(rawUrl: string, signal?: AbortSignal): Promise<Pa
     )
   }
 
-  if (res.status === 429) throw new Error('The page reader is rate-limiting us. Wait a minute and retry.')
+  if (res.status === 429) throw new RateLimitError('The page reader is rate-limiting us. Wait a minute and retry.')
   if (!res.ok) throw new Error(`The page reader returned HTTP ${res.status} for ${url}.`)
 
   const body = await res.text()
   const text = body.trim()
+
+  // A dead link still comes back 200 from the reader — its reply opens with
+  // "Warning: Target URL returned error 404: Not Found", followed by whatever
+  // the site's error page says. Reading that as the page would report "this
+  // page doesn't mention X" about a page that was never seen.
+  const refused = text.slice(0, 800).match(/^Warning: Target URL returned error (\d{3})(?::[ \t]*([^\n]*))?/m)
+  if (refused) {
+    throw new Error(
+      `${url} answered with an error (${[refused[1], refused[2]?.trim()].filter(Boolean).join(' ')}) — the link may be out of date.`,
+    )
+  }
+
   if (text.length < 200) {
     throw new Error(
       `That page returned almost no text (${text.length} chars). It may need a login, or be the wrong URL.`,

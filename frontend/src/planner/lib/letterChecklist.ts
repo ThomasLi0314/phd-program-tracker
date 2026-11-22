@@ -2,6 +2,12 @@
 // writing letters, listing each program with its deadline and a box to tick
 // once the letter for it is in.
 //
+// Some programs want letters on a day of their own — a week's grace after the
+// application deadline, or a date before it. When any program on the list has
+// such a rule, the sheet gains a "Letter due" column beside the application
+// deadline, and the colours follow that date where there is one. A list with
+// no such rule looks exactly as it did before the column existed.
+//
 // The boxes are Excel's own in-cell checkboxes (Insert → Checkbox): a TRUE /
 // FALSE cell drawn as a box that toggles on click, in Excel for Microsoft 365
 // on Windows, Mac and the web. Older Excel shows the same cell as the word
@@ -19,6 +25,10 @@ export interface LetterRow {
   deadlineIso: string | null
   /** what to show when there is no date: "Rolling", "Paused", "To be confirmed" */
   deadlineNote: string
+  /** YYYY-MM-DD, when the program gives letters a date of their own */
+  letterDueIso?: string | null
+  /** the program's rule for letters when it gives no date: "Up to 2 weeks after the deadline" */
+  letterDueNote?: string
   /** start with the box ticked — the letter is already in */
   submitted?: boolean
   /**
@@ -41,10 +51,19 @@ export interface LetterMeta {
 export const CHECKLIST_LAYOUT = {
   /** 1-based row of the table header; programs start on the row below */
   headerRow: 5,
-  /** 0-based column of the boxes */
-  boxColumn: 4,
   headers: { box: 'Letter submitted', ref: 'ref' },
 } as const
+
+/** Does any program say when its letters are due? Only then is there a column for it. */
+const hasLetterDue = (rows: LetterRow[]) => rows.some((r) => r.letterDueIso || r.letterDueNote)
+
+/** 0-based column of the boxes — one further right when "Letter due" sits before it. */
+export function boxColumnOf(rows: LetterRow[]): number {
+  return hasLetterDue(rows) ? 5 : 4
+}
+
+/** The day to have a letter in by: its own date where the program gives one. */
+const dueIso = (r: LetterRow) => r.letterDueIso || r.deadlineIso
 
 type ExcelNS = typeof import('exceljs')
 
@@ -53,14 +72,14 @@ async function loadExcelJS(): Promise<ExcelNS> {
   return mod.default ?? mod
 }
 
-/** Dated deadlines first, soonest at the top; then the rest by university. */
+/** Dated rows first, the letter due soonest at the top; then the rest by university. */
 export function sortLetterRows(rows: LetterRow[]): LetterRow[] {
   return [...rows].sort((a, b) => {
-    if (a.deadlineIso && b.deadlineIso) {
-      return a.deadlineIso.localeCompare(b.deadlineIso) || a.university.localeCompare(b.university)
-    }
-    if (a.deadlineIso) return -1
-    if (b.deadlineIso) return 1
+    const da = dueIso(a)
+    const db = dueIso(b)
+    if (da && db) return da.localeCompare(db) || a.university.localeCompare(b.university)
+    if (da) return -1
+    if (db) return 1
     return a.university.localeCompare(b.university)
   })
 }
@@ -71,27 +90,33 @@ const localIso = (d: Date) =>
 /** Layout. The table header sits on HEADER_ROW; programs follow it. */
 const HEADER_ROW = CHECKLIST_LAYOUT.headerRow
 const FIRST = HEADER_ROW + 1
-/** The column holding the boxes, and its first cell — used to find its style. */
-const BOX_COL = 'E'
-const PROBE_CELL = `${BOX_COL}${FIRST}`
+/** A 1-based column number as its letter. The sheet never gets past G. */
+const colLetter = (n: number) => String.fromCharCode(64 + n)
 
 /** Named on every font: without one, Excel picks the system's default UI font,
  *  which on a Chinese-locale Windows is a CJK monospace face. */
 const FONT = 'Calibri'
 const font = (f: Partial<import('exceljs').Font>): Partial<import('exceljs').Font> => ({ name: FONT, ...f })
 
-/** Column widths, in characters; B and C wrap within these. */
+/** Column widths, in characters; university, program and "Letter due" wrap within these. */
 const UNI_WIDTH = 38
 const PROGRAM_WIDTH = 52
+const DUE_WIDTH = 24
+
+const wrappedLines = (text: string, width: number) => Math.max(1, Math.ceil(text.length / (width * 0.9)))
 
 /**
  * Rows are given a height rather than left to autofit: Excel autofits wrapped
  * text only when a cell is edited, so a long program name would otherwise sit
  * clipped behind its row until someone touched it.
  */
-function rowHeight(university: string, program: string): number {
-  const lines = (text: string, width: number) => Math.max(1, Math.ceil(text.length / (width * 0.9)))
-  return Math.max(22, 15 * Math.max(lines(university, UNI_WIDTH), lines(program, PROGRAM_WIDTH)) + 7)
+function rowHeight(r: LetterRow): number {
+  const tallest = Math.max(
+    wrappedLines(r.university, UNI_WIDTH),
+    wrappedLines(r.program, PROGRAM_WIDTH),
+    r.letterDueIso ? 1 : wrappedLines(r.letterDueNote ?? '', DUE_WIDTH),
+  )
+  return Math.max(22, 15 * tallest + 7)
 }
 
 const SLATE_900 = 'FF0F172A'
@@ -113,6 +138,11 @@ export async function buildLetterChecklist(
   if (input.length === 0 && !meta.live) throw new Error('No programs to list')
   const rows = sortLetterRows(input)
   const withRefs = rows.some((r) => r.ref)
+  const withDue = hasLetterDue(rows)
+  // 1-based columns. "Letter due" is there only when some program has one.
+  const C = { deadline: 4, due: withDue ? 5 : 0, box: withDue ? 6 : 5, ref: withDue ? 7 : 6 }
+  const BOX_COL = colLetter(C.box)
+  const DEADLINE_WIDTH = withDue ? 21 : 15
   const ExcelJS = await loadExcelJS()
   const wb = new ExcelJS.Workbook()
   wb.creator = 'PhD Program Tracker'
@@ -135,54 +165,70 @@ export async function buildLetterChecklist(
     { key: 'n', width: 5 },
     { key: 'university', width: UNI_WIDTH },
     { key: 'program', width: PROGRAM_WIDTH },
-    { key: 'deadline', width: 15 },
+    { key: 'deadline', width: DEADLINE_WIDTH },
+    ...(withDue ? [{ key: 'due', width: DUE_WIDTH }] : []),
     { key: 'box', width: 18 },
     { key: 'ref', width: 16 },
   ]
   // Bookkeeping for the live copy, out of sight.
-  ws.getColumn(6).hidden = true
+  ws.getColumn(C.ref).hidden = true
 
-  ws.mergeCells('A1:E1')
+  ws.mergeCells(`A1:${BOX_COL}1`)
   ws.getCell('A1').value = meta.recommender
     ? `Recommendation letter checklist — ${meta.recommender}`
     : 'Recommendation letter checklist'
   ws.getCell('A1').font = font({ bold: true, size: 16, color: { argb: SLATE_900 } })
   ws.getRow(1).height = 26
 
-  ws.mergeCells('A2:E2')
+  ws.mergeCells(`A2:${BOX_COL}2`)
   ws.getCell('A2').value =
     `${meta.cycle} applications · ${rows.length} program${rows.length === 1 ? '' : 's'}, ` +
     `by deadline · ${meta.live ? 'kept up to date' : 'list prepared'} ${localIso(meta.preparedAt)}`
   ws.getCell('A2').font = font({ size: 10.5, color: { argb: SLATE_500 } })
 
-  ws.mergeCells('A3:E3')
-  ws.getCell('A3').value = meta.live
-    ? 'Please tick the box next to each program once your letter for it has been submitted — this list updates itself as programs are added or deadlines change. Thank you!'
-    : 'Please tick the box next to each program once your letter for it has been submitted. Thank you!'
+  ws.mergeCells(`A3:${BOX_COL}3`)
+  const ask =
+    (meta.live
+      ? 'Please tick the box next to each program once your letter for it has been submitted — this list updates itself as programs are added or deadlines change. Thank you!'
+      : 'Please tick the box next to each program once your letter for it has been submitted. Thank you!') +
+    (withDue
+      ? ' “Letter due” is filled in where a program has its own deadline for letters; for the others, go by the application deadline.'
+      : '')
+  ws.getCell('A3').value = ask
   ws.getCell('A3').font = font({ size: 11, color: { argb: SLATE_900 } })
   ws.getCell('A3').alignment = { wrapText: true, vertical: 'middle' }
-  ws.getRow(3).height = meta.live ? 32 : 20
+  // Given a height for the same reason the rows are (see rowHeight).
+  const across = 5 + UNI_WIDTH + PROGRAM_WIDTH + DEADLINE_WIDTH + (withDue ? DUE_WIDTH : 0) + 18
+  ws.getRow(3).height = Math.max(20, 15 * wrappedLines(ask, across) + 2)
 
   // How many are in, counted from the boxes themselves.
-  ws.getCell('D4').value = 'Submitted'
-  ws.getCell('D4').font = font({ bold: true, size: 11, color: { argb: SLATE_500 } })
-  ws.getCell('D4').alignment = { horizontal: 'right', vertical: 'middle' }
-  ws.getCell('E4').value =
+  const countLabel = `${colLetter(C.box - 1)}4`
+  const count = `${BOX_COL}4`
+  ws.getCell(countLabel).value = 'Submitted'
+  ws.getCell(countLabel).font = font({ bold: true, size: 11, color: { argb: SLATE_500 } })
+  ws.getCell(countLabel).alignment = { horizontal: 'right', vertical: 'middle' }
+  ws.getCell(count).value =
     rows.length > 0
       ? {
           formula: `COUNTIF(${BOX_COL}${FIRST}:${BOX_COL}${last},TRUE)&" of ${rows.length}"`,
           result: `${rows.filter((r) => r.submitted).length} of ${rows.length}`,
         }
       : '0 of 0'
-  ws.getCell('E4').font = font({ bold: true, size: 11, color: { argb: SLATE_900 } })
-  ws.getCell('E4').alignment = { horizontal: 'center', vertical: 'middle' }
+  ws.getCell(count).font = font({ bold: true, size: 11, color: { argb: SLATE_900 } })
+  ws.getCell(count).alignment = { horizontal: 'center', vertical: 'middle' }
 
   const head = ws.getRow(HEADER_ROW)
-  head.values = ['#', 'University', 'Program', 'Deadline', CHECKLIST_LAYOUT.headers.box]
-  if (withRefs) head.getCell(6).value = CHECKLIST_LAYOUT.headers.ref
+  head.values = [
+    '#',
+    'University',
+    'Program',
+    ...(withDue ? ['Application deadline', 'Letter due'] : ['Deadline']),
+    CHECKLIST_LAYOUT.headers.box,
+  ]
+  if (withRefs) head.getCell(C.ref).value = CHECKLIST_LAYOUT.headers.ref
   head.height = 20
   head.eachCell((c, col) => {
-    if (col > 5) return
+    if (col > C.box) return
     c.font = font({ bold: true, size: 11, color: { argb: 'FFFFFFFF' } })
     c.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF1E293B' } }
     c.alignment = { vertical: 'middle', horizontal: col === 1 || col >= 4 ? 'center' : 'left' }
@@ -202,11 +248,15 @@ export async function buildLetterChecklist(
     row.getCell(3).font = font({ size: 11 })
     for (const c of [2, 3]) row.getCell(c).alignment = { vertical: 'middle', wrapText: true }
 
-    const d = row.getCell(4)
+    // A real date, so the sheet can sort on it and the overdue rule can compare it.
+    const asDate = (iso: string) => {
+      const [y, m, day] = iso.split('-').map(Number)
+      return new Date(Date.UTC(y, m - 1, day))
+    }
+
+    const d = row.getCell(C.deadline)
     if (r.deadlineIso) {
-      const [y, m, day] = r.deadlineIso.split('-').map(Number)
-      // A real date, so the sheet can sort on it and the overdue rule can compare it.
-      d.value = new Date(Date.UTC(y, m - 1, day))
+      d.value = asDate(r.deadlineIso)
       d.numFmt = 'yyyy-mm-dd'
       d.font = font({ size: 11 })
     } else {
@@ -215,17 +265,33 @@ export async function buildLetterChecklist(
     }
     d.alignment = { horizontal: 'center', vertical: 'middle' }
 
+    // The letters' own deadline: a date where the program gives one, else its
+    // rule in words. Left empty for a program with no rule of its own.
+    if (C.due) {
+      const due = row.getCell(C.due)
+      if (r.letterDueIso) {
+        due.value = asDate(r.letterDueIso)
+        due.numFmt = 'yyyy-mm-dd'
+        // Bold when it is not the application deadline — the reason the column exists.
+        due.font = font({ size: 11, bold: r.letterDueIso !== r.deadlineIso })
+      } else if (r.letterDueNote) {
+        due.value = r.letterDueNote
+        due.font = font({ size: 10 })
+      }
+      due.alignment = { horizontal: 'center', vertical: 'middle', wrapText: true }
+    }
+
     // The box. Size 14 makes it easy to hit, and keeps this cell's style unique
     // in the file, which is how addCellCheckboxes finds it.
-    const box = row.getCell(5)
+    const box = row.getCell(C.box)
     box.value = !!r.submitted
     box.font = font({ size: 14 })
     box.alignment = { horizontal: 'center', vertical: 'middle' }
 
-    if (r.ref) row.getCell(6).value = r.ref
+    if (r.ref) row.getCell(C.ref).value = r.ref
 
-    for (let c = 1; c <= 5; c++) row.getCell(c).border = BOXED
-    row.height = rowHeight(r.university, r.program)
+    for (let c = 1; c <= C.box; c++) row.getCell(c).border = BOXED
+    row.height = rowHeight(r)
   })
 
   if (rows.length === 0) {
@@ -235,9 +301,13 @@ export async function buildLetterChecklist(
     return bytes
   }
 
-  const rowsRef = `A${FIRST}:E${last}`
+  const rowsRef = `A${FIRST}:${BOX_COL}${last}`
   const r1 = `$${BOX_COL}${FIRST}`
-  const dl = `$D${FIRST}`
+  // The date the colours go by: the letter's own where that cell holds a date
+  // (not a rule in words, not nothing), else the application deadline.
+  const appDate = `$${colLetter(C.deadline)}${FIRST}`
+  const dueDate = `$${colLetter(C.due)}${FIRST}`
+  const dl = withDue ? `IF(ISNUMBER(${dueDate}),${dueDate},${appDate})` : appDate
   ws.addConditionalFormatting({
     ref: rowsRef,
     rules: [
@@ -276,7 +346,7 @@ export async function buildLetterChecklist(
   ws.getCell(`A${last + 2}`).font = font({ size: 9.5, italic: true, color: { argb: SLATE_500 } })
 
   const bytes = (await wb.xlsx.writeBuffer()) as ArrayBuffer
-  return excelCheckboxes ? addCellCheckboxes(bytes, 'xl/worksheets/sheet1.xml', PROBE_CELL) : bytes
+  return excelCheckboxes ? addCellCheckboxes(bytes, 'xl/worksheets/sheet1.xml', `${BOX_COL}${FIRST}`) : bytes
 }
 
 // ---- Excel in-cell checkboxes ----

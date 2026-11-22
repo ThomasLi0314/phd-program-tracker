@@ -36,7 +36,8 @@ import { EditableLink } from '../../components/EditableLink'
 import { StipendRent } from '../../components/StipendRent'
 import { BackButton } from '../../components/BackButton'
 import { FieldRow } from '../components/FieldValue'
-import { deadlineLabel, resolveDeadline } from '../lib/deadlines'
+import { deadlineLabel, formatDeadline, resolveDeadline } from '../lib/deadlines'
+import { letterDueOf } from '../lib/letterDeadline'
 import { StatusChip, StatusSelect } from '../components/StatusChip'
 import { AddFacultyModal } from '../components/AddFacultyModal'
 import { ProgramResearchPanel } from '../components/ResearchPanel'
@@ -277,6 +278,37 @@ export function ProgramDetail({
   }
 
   /**
+   * When the letters themselves are due. Most programs don't say, and then it
+   * is the application deadline; where one gives letters their own date or a
+   * grace period, this is what each writer's checklist shows them. Kept as the
+   * program's words, so the line underneath says what a writer will see of it.
+   */
+  const letterDeadlineRow = () => {
+    const due = letterDueOf(entry, resolveDeadline(entry.admissions.deadline, live?.requirements.deadline))
+    return (
+      <>
+        {textRow('admissions', 'letterDeadline', 'Letter deadline')}
+        <div className="-mt-1 border-b border-slate-100 pb-1.5 text-right text-[10.5px] leading-snug text-slate-400">
+          {due?.iso ? (
+            <>
+              Writers’ checklists show <span className="font-medium text-slate-500">{formatDeadline(due.iso)}</span>
+              {due.yearInferred && <span className="text-amber-600"> · no year given — taken from the deadline’s</span>}
+            </>
+          ) : due?.offCycle ? (
+            <span className="text-amber-600">
+              That date looks like another cycle’s, so checklists leave it out — correct it to show it
+            </span>
+          ) : due ? (
+            'Writers’ checklists show this as a note — start it with a date to give them one'
+          ) : (
+            'Only if letters are due on a different day — look them all up under Letter Writers'
+          )}
+        </div>
+      </>
+    )
+  }
+
+  /**
    * The fee waiver, as the two things one line of text used to stand for: where
    * it stands — a status that reads at a glance and that the Programs table
    * shows — and what it takes, which stays my note. Until I pick a status it is
@@ -504,6 +536,7 @@ export function ProgramDetail({
             {textRow('admissions', 'applicationFee', 'Application fee')}
             {feeWaiverRows()}
             {textRow('admissions', 'letters', 'Recommendation letters')}
+            {letterDeadlineRow()}
             {textRow('admissions', 'sop', 'Statement of purpose')}
             {textRow('admissions', 'cv', 'CV / resume')}
             {textRow('admissions', 'transcript', 'Transcript')}

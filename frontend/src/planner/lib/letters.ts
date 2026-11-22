@@ -24,6 +24,9 @@ export function requiredLetters(p: PlannerProgram): number | null {
   return null
 }
 
+/** Programs that still need letters: not dropped, not withdrawn. */
+export const stillApplying = (p: PlannerProgram) => p.interest !== 'drop' && p.status !== 'withdrawn'
+
 /** Done, from the applicant's side: nothing left to chase. */
 export const isLetterIn = (s: LetterStatus) => s === 'received'
 

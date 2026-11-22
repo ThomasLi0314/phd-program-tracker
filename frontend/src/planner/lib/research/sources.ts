@@ -116,6 +116,8 @@ export function discoverProgramUrls(
   university: string,
   alreadyHave: string[],
   cap = 3,
+  /** Links whose text or path match this go first — for a run after one fact. */
+  prefer?: RegExp,
 ): string[] {
   const seen = new Set(alreadyHave.map((u) => u.replace(/[#?].*$/, '').replace(/\/$/, '')))
   const scored: { url: string; score: number }[] = []
@@ -131,6 +133,9 @@ export function discoverProgramUrls(
     if (ADMISSIONS_HINTS.some((h) => hay.includes(h))) score += 3
     if (FUNDING_HINTS.some((h) => hay.includes(h))) score += 2
     if (/deadline|requirement|gre|toefl/.test(hay)) score += 2
+    // Enough to lift a link that matches nothing else ("Recommendation letters")
+    // over a general admissions page.
+    if (prefer?.test(hay)) score += 6
     if (score === 0) continue
 
     seen.add(clean)

@@ -178,6 +178,13 @@ export interface AdmissionsResearch {
   applicationFee?: ResearchField<string>
   feeWaiver?: ResearchField<string>
   letters?: ResearchField<number>
+  /**
+   * When the letters themselves are due, where the program says so: a date of
+   * their own, or a rule in words ("up to 2 weeks after the deadline"). Absent
+   * for most programs, and then the application deadline is what writers go by
+   * — read it through lib/letterDeadline.
+   */
+  letterDeadline?: ResearchField<string>
   sop?: ResearchField<string>
   personalStatement?: ResearchField<string>
   cv?: ResearchField<string>

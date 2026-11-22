@@ -31,7 +31,8 @@ const ACTION_STYLE: Record<string, { chip: string; label: string }> = {
   agree: { chip: 'border-slate-200 bg-slate-50 text-slate-500', label: 'Confirms what you have' },
 }
 
-function Row({
+/** One proposed value: what I have, what research found, and the quote behind it. */
+export function ReviewRow({
   item,
   checked,
   onToggle,
@@ -248,7 +249,7 @@ function PanelShell({
           </div>
           <ul className="mt-1 rounded border border-slate-200 bg-white px-2.5">
             {items.map((i) => (
-              <Row
+              <ReviewRow
                 key={i.id}
                 item={i}
                 checked={accepted.has(i.id)}

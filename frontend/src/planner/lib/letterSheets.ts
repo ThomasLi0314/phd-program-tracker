@@ -1,6 +1,7 @@
 // Each letter writer's checklist as a live Google Sheet: their programs and
-// deadlines, kept up to date as the plan changes, with a box per program for
-// them to tick once their letter is in.
+// deadlines — including the letters' own deadline, where a program has one —
+// kept up to date as the plan changes, with a box per program for them to tick
+// once their letter is in.
 //
 // Unlike the plan's Sheet this one is two-way, because the point of it is that
 // the writer ticks boxes in it. Every rewrite replaces the Sheet's contents, so
@@ -22,7 +23,8 @@ import { programIdentity, resolveProgram } from './referenceBridge'
 import { resolveDeadline } from './deadlines'
 import { programLabel } from './exportRows'
 import { isLetterIn, lettersOf } from './letters'
-import { buildLetterChecklist, CHECKLIST_LAYOUT, type LetterRow } from './letterChecklist'
+import { boxColumnOf, buildLetterChecklist, CHECKLIST_LAYOUT, type LetterRow } from './letterChecklist'
+import { letterDueCells, letterDueOf } from './letterDeadline'
 import {
   exportCsv,
   failure,
@@ -57,6 +59,8 @@ export function writerChecklistRows(rec: Recommender, state: PlannerState, byId:
         program: programLabel(id.programName, id.degree),
         deadlineIso: d.kind === 'dated' ? d.iso : null,
         deadlineNote: d.kind === 'rolling' ? 'Rolling' : d.kind === 'paused' ? 'Paused' : 'To be confirmed',
+        // Only where the program has its own rule for letters (see letterDeadline).
+        ...letterDueCells(letterDueOf(p, d)),
         submitted: isLetterIn(letter.status),
         ref: p.id,
       },
@@ -150,8 +154,12 @@ const SHEETS_API_HELP =
   '(the one holding your OAuth client: APIs & Services → Library → Google Sheets API → Enable), then click Sync now. ' +
   'Until then the column reads TRUE/FALSE, and typing TRUE works as a tick.'
 
-/** Turn the TRUE/FALSE column into checkboxes. Returns a notice for the UI, or null. */
-async function applyCheckboxes(token: string, fileId: string, count: number): Promise<string | null> {
+/**
+ * Turn the TRUE/FALSE column into checkboxes. `boxColumn` is where the sheet
+ * just written has it (0-based) — it moves when a "Letter due" column appears.
+ * Returns a notice for the UI, or null.
+ */
+async function applyCheckboxes(token: string, fileId: string, count: number, boxColumn: number): Promise<string | null> {
   if (count === 0) return null
   try {
     const auth = { Authorization: `Bearer ${token}` }
@@ -168,13 +176,20 @@ async function applyCheckboxes(token: string, fileId: string, count: number): Pr
       body: JSON.stringify({
         requests: [
           {
+            // No rule clears it: boxes left in the other layout's column would
+            // sit on top of the "Letter due" dates.
+            setDataValidation: {
+              range: { sheetId, startRowIndex: CHECKLIST_LAYOUT.headerRow, startColumnIndex: 4, endColumnIndex: 6 },
+            },
+          },
+          {
             setDataValidation: {
               range: {
                 sheetId,
                 startRowIndex: CHECKLIST_LAYOUT.headerRow,
                 endRowIndex: CHECKLIST_LAYOUT.headerRow + count,
-                startColumnIndex: CHECKLIST_LAYOUT.boxColumn,
-                endColumnIndex: CHECKLIST_LAYOUT.boxColumn + 1,
+                startColumnIndex: boxColumn,
+                endColumnIndex: boxColumn + 1,
               },
               rule: { condition: { type: 'BOOLEAN' }, strict: true },
             },
@@ -223,7 +238,7 @@ export function letterSheetFor(recId: string): SheetMirror<WriterSnapshot, Set<s
     },
     afterWrite: (token, fileId, s) => {
       writeJson(WRITTEN_PREFIX + recId, pendingTicks)
-      return applyCheckboxes(token, fileId, s.rows.length)
+      return applyCheckboxes(token, fileId, s.rows.length, boxColumnOf(s.rows))
     },
     onUnlink: () => writeJson(WRITTEN_PREFIX + recId, null),
   })

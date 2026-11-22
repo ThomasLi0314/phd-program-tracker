@@ -6,7 +6,7 @@
 // research button does anything, and the reason is shown rather than a failure.
 
 import { hasCredentials, loadBaseUrl } from './llm'
-import { researchProgram } from './programResearch'
+import { researchLetterDeadline, researchProgram } from './programResearch'
 import { researchFaculty } from './facultyResearch'
 import type { ResearchProvider } from './types'
 
@@ -18,6 +18,7 @@ export const pageAndModelProvider: ResearchProvider = {
     'No model API key is configured. Add one in the tracker’s 📊 Overview → DeepSeek settings, then come back — ' +
     'everything else in the planner works without it.',
   researchProgram,
+  researchLetterDeadline,
   researchFaculty,
 }
 
