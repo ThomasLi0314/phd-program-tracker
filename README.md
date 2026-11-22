@@ -66,6 +66,11 @@ paste the link to the curriculum page, or the page's text if it needs a login,
 and get its core courses, elective rules, credits and other requirements. Each
 course and rule is checked against the page and marked when it isn't there;
 nothing is saved until you accept it, and the pasted text itself is never stored.
+Where the page gives only a course's number, its name is looked up: on that
+page, in the catalog entry it links to, then by DeepSeek's web search of the
+university's own site ($0.75 per 1,000 searches). A name is kept only if it is
+printed beside that exact number, and links to where it was found; "Find course
+names" does the same for a summary saved earlier.
 
 Two ways to get the plan out:
 

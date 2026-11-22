@@ -14,6 +14,35 @@ export interface CurriculumInput {
   page: string
 }
 
+/** The page a curriculum was read from. Passed along for one run, never stored. */
+export interface CurriculumPage {
+  /** '' when the text was pasted. */
+  url: string
+  /** With its links, which lead to each course's catalog entry. */
+  markdown: string
+}
+
+export interface CurriculumRun {
+  curriculum: Curriculum
+  page: CurriculumPage
+}
+
+export interface CourseNamesInput {
+  university: string
+  /** The program's official website: one way to know which domains are the university's. */
+  website: string
+  curriculum: Curriculum
+  /** With empty markdown, the url is read again. */
+  page: CurriculumPage
+}
+
+export interface CourseNamesResult {
+  curriculum: Curriculum
+  found: number
+  /** How it went, for the user; '' when there was nothing to find. */
+  note: string
+}
+
 export type ResearchStatus = 'idle' | 'running' | 'complete' | 'partial' | 'failed'
 
 /** Which group on the program detail page a proposal belongs to. */
@@ -106,7 +135,10 @@ export interface ResearchProvider {
   ): Promise<ProgramResearchResult>
   /** Summarize the one page given, checked against it. Throws with a message
    *  for the user; saves nothing. */
-  summarizeCurriculum(input: CurriculumInput, onProgress?: ProgressFn, signal?: AbortSignal): Promise<Curriculum>
+  summarizeCurriculum(input: CurriculumInput, onProgress?: ProgressFn, signal?: AbortSignal): Promise<CurriculumRun>
+  /** Names for the courses a summary has only numbers for, each checked against
+   *  where it was found. Throws only on abort; saves nothing. */
+  findCourseNames(input: CourseNamesInput, onProgress?: ProgressFn, signal?: AbortSignal): Promise<CourseNamesResult>
   researchFaculty(
     input: { name: string; university: string; cycle: string; urls: string[] },
     onProgress?: ProgressFn,

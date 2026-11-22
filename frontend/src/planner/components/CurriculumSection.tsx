@@ -3,8 +3,9 @@
 // it, and whatever the page didn't bear out says so.
 
 import { useEffect, useRef, useState } from 'react'
-import type { Curriculum, CurriculumClaim } from '../types'
-import { getProvider, isPageLink, unconfirmedCount } from '../lib/research'
+import type { Curriculum, CurriculumClaim, CurriculumCourse } from '../types'
+import { coursesWithoutNames, getProvider, isPageLink, unconfirmedCount } from '../lib/research'
+import type { CurriculumPage } from '../lib/research'
 
 const btn =
   'rounded border border-slate-300 bg-white px-2 py-1 text-[11.5px] font-medium text-slate-700 hover:border-indigo-400 hover:text-indigo-700 disabled:opacity-50'
@@ -27,6 +28,22 @@ function Claim({ claim }: { claim: CurriculumClaim }) {
       <span title={claim.quote ? `From the page: “${claim.quote}”` : undefined}>{claim.text}</span>
       {!claim.onPage && <NotOnPage />}
     </>
+  )
+}
+
+/** Where a name came from, when it wasn't the page. */
+function NameFrom({ source }: { source: CurriculumCourse['nameSource'] }) {
+  if (!source || !/^https?:\/\//i.test(source.url)) return null
+  return (
+    <a
+      href={source.url}
+      target="_blank"
+      rel="noreferrer"
+      title={`The page gave only the number. This name is printed beside it at “${source.title}”.`}
+      className="ml-1.5 whitespace-nowrap text-[10px] text-indigo-500 hover:underline"
+    >
+      looked up ↗
+    </a>
   )
 }
 
@@ -65,7 +82,8 @@ function Summary({ value }: { value: Curriculum }) {
                 <li key={j} className="flex items-baseline gap-2 py-1 text-[12px]">
                   {course.code && <span className="w-24 shrink-0 font-medium text-slate-800">{course.code}</span>}
                   <span className="min-w-0 flex-1">
-                    {course.title}
+                    {course.title || <span className="italic text-slate-400">name not given</span>}
+                    <NameFrom source={course.nameSource} />
                     {!course.onPage && <NotOnPage />}
                   </span>
                   {course.credits && (
@@ -122,12 +140,14 @@ export function CurriculumSection({
   university,
   programName,
   degree,
+  website,
   onSave,
 }: {
   value: Curriculum | null
   university: string
   programName: string
   degree: string | null
+  website: string
   onSave: (next: Curriculum | null) => void
 }) {
   const [editing, setEditing] = useState(false)
@@ -136,6 +156,9 @@ export function CurriculumSection({
   const [progress, setProgress] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [confirmRemove, setConfirmRemove] = useState(false)
+  const [note, setNote] = useState('')
+  /** The draft's page, for looking names up without reading it again. */
+  const pageRef = useRef<CurriculumPage | null>(null)
   const abort = useRef<AbortController | null>(null)
   useEffect(() => () => abort.current?.abort(), [])
 
@@ -144,27 +167,56 @@ export function CurriculumSection({
   const running = progress !== null
   const asking = !draft && (editing || !value)
   const typed = input.trim()
+  const shown = draft ?? (asking ? null : value)
+  const nameless = shown ? coursesWithoutNames(shown).length : 0
 
-  const run = async () => {
+  /** One cancellable piece of work, with its progress shown. */
+  const work = async (job: (signal: AbortSignal) => Promise<void>) => {
     const ctrl = new AbortController()
     abort.current = ctrl
     setError(null)
+    setNote('')
     setProgress('Starting…')
     try {
-      const result = await provider.summarizeCurriculum(
-        { university, programName, degree, page: input },
-        setProgress,
-        ctrl.signal,
-      )
-      if (!ctrl.signal.aborted) setDraft(result)
+      await job(ctrl.signal)
     } catch (e) {
-      if ((e as Error)?.name !== 'AbortError') setError(e instanceof Error ? e.message : String(e))
+      if (!ctrl.signal.aborted) setError(e instanceof Error ? e.message : String(e))
     } finally {
       setProgress(null)
     }
   }
 
+  const addNames = async (curriculum: Curriculum, page: CurriculumPage, signal: AbortSignal) => {
+    setProgress('Looking up course names…')
+    const named = await provider.findCourseNames({ university, website, curriculum, page }, setProgress, signal)
+    if (signal.aborted) return
+    if (named.found > 0) setDraft(named.curriculum)
+    setNote(named.note)
+  }
+
+  const run = () =>
+    work(async (signal) => {
+      const { curriculum, page } = await provider.summarizeCurriculum(
+        { university, programName, degree, page: input },
+        setProgress,
+        signal,
+      )
+      if (signal.aborted) return
+      pageRef.current = page
+      // Shown first, so stopping the lookup keeps the summary.
+      setDraft(curriculum)
+      if (coursesWithoutNames(curriculum).length > 0) await addNames(curriculum, page, signal)
+    })
+
+  const findNames = (curriculum: Curriculum) =>
+    work((signal) => {
+      const page = (draft && pageRef.current) || { url: curriculum.source?.url ?? '', markdown: '' }
+      return addNames(curriculum, page, signal)
+    })
+
   const close = () => {
+    setNote('')
+    pageRef.current = null
     setDraft(null)
     setEditing(false)
     setInput('')
@@ -175,7 +227,7 @@ export function CurriculumSection({
     <section className="mt-3 rounded-lg border border-slate-200 bg-white p-3.5">
       <div className="mb-1.5 flex flex-wrap items-center justify-between gap-2">
         <h2 className="text-[10px] font-semibold uppercase tracking-wide text-slate-400">Core curriculum</h2>
-        {value && !asking && !draft && (
+        {value && !asking && !draft && !running && (
           <div className="flex items-center gap-2 text-[11px]">
             {confirmRemove ? (
               <>
@@ -198,6 +250,8 @@ export function CurriculumSection({
               <>
                 <button
                   onClick={() => {
+                    setNote('')
+                    setError(null)
                     setInput(value.source?.url ?? '')
                     setEditing(true)
                   }}
@@ -254,7 +308,8 @@ export function CurriculumSection({
               <span className="text-[10.5px] text-slate-400">
                 {isPageLink(typed)
                   ? 'A link: the page will be read for you.'
-                  : 'Pasted text: sent to the model as it is, and not stored.'}
+                  : 'Pasted text: sent to the model as it is, and not stored.'}{' '}
+                Course numbers without names are looked up on the university’s site.
               </span>
             )}
           </div>
@@ -279,16 +334,22 @@ export function CurriculumSection({
                   onSave(draft)
                   close()
                 }}
-                className="rounded border border-emerald-300 bg-white px-3 py-1 text-[12px] font-semibold text-emerald-700 hover:bg-emerald-50"
+                disabled={running}
+                className="rounded border border-emerald-300 bg-white px-3 py-1 text-[12px] font-semibold text-emerald-700 hover:bg-emerald-50 disabled:opacity-40"
               >
                 Save to the plan
               </button>
-              {/* Back to the box with what was pasted still in it. */}
+              {/* Back to the box with what was pasted still in it, or, when only
+                  names were looked up, to the saved summary. */}
               <button
                 onClick={() => {
+                  if (!typed) return close()
                   setDraft(null)
+                  setNote('')
+                  setError(null)
                   setEditing(true)
                 }}
+                disabled={running}
                 className={btn}
               >
                 Discard
@@ -300,6 +361,32 @@ export function CurriculumSection({
       )}
 
       {!draft && !asking && value && <Summary value={value} />}
+
+      {shown && (running || nameless > 0 || note || error) && (
+        <div className="mt-2 flex flex-wrap items-center gap-2 text-[11.5px]">
+          {running ? (
+            <>
+              <span className="font-medium text-indigo-600">{progress}</span>
+              <button onClick={() => abort.current?.abort()} className={btn}>
+                Stop
+              </button>
+            </>
+          ) : (
+            nameless > 0 && (
+              <button
+                onClick={() => void findNames(shown)}
+                disabled={!ready}
+                title={ready ? 'Checks the linked catalog, then searches the university’s site' : provider.unavailableReason()}
+                className={btn}
+              >
+                Find {nameless} course name{nameless === 1 ? '' : 's'}
+              </button>
+            )
+          )}
+          {!running && note && <span className="text-slate-500 [overflow-wrap:anywhere]">{note}</span>}
+          {error && <span className="text-rose-600 [overflow-wrap:anywhere]">{error}</span>}
+        </div>
+      )}
     </section>
   )
 }

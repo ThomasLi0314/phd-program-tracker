@@ -593,6 +593,7 @@ export function ProgramDetail({
           university={ident.university}
           programName={ident.programName}
           degree={ident.degree}
+          website={ident.website}
           onSave={(curriculum) => planner.updateProgram(entry.id, { curriculum })}
         />
 

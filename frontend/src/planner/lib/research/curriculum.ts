@@ -13,7 +13,7 @@ import type { Curriculum, CurriculumClaim, CurriculumCourse, CurriculumGroup } f
 import { complete, LlmError, parseJson } from './llm'
 import { titleOf } from './programResearch'
 import { classifyTier, makeSource } from './sources'
-import type { CurriculumInput, ProgressFn } from './types'
+import type { CurriculumInput, CurriculumRun, ProgressFn } from './types'
 
 /**
  * Catalog pages are long and their course tables come last: MIT's EAPS page is
@@ -37,11 +37,17 @@ export function isPageLink(input: string): boolean {
   return !/\s/.test(s) && isProbablyUrl(s)
 }
 
+/** A markdown link; its text may itself hold brackets, as in "[12.410[J]](…)". */
+const LINK = /\[((?:[^[\]]|\[[^[\]]*\])*)\]\([^)]*\)/g
+
 /** Markdown without its images and link addresses: what the model and the checks both see. */
 export function readableText(markdown: string): string {
   return markdown
     .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
-    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+    .replace(LINK, (link, label: string, at: number, all: string) =>
+      // MIT's tables run a linked number straight into the name: "12.307Weather and Climate".
+      /\d|\.\p{Lu}/u.test(label) && /^[\p{L}\p{N}]/u.test(all.charAt(at + link.length)) ? `${label} ` : label,
+    )
     .replace(/\n{3,}/g, '\n\n')
     .trim()
 }
@@ -100,7 +106,7 @@ function claimOnPage(page: string, text: string, quote: string): boolean {
   return (text.match(/\d+/g) ?? []).every((n) => quoted.has(String(Number(n))))
 }
 
-const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&')
+export const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&')
 
 /** Where a course code appears, allowing "PHYS 501, 502 and 503" for PHYS 502. */
 function codePositions(page: string, code: string): number[] {
@@ -132,6 +138,10 @@ function courseOnPage(page: string, code: string, title: string): boolean {
   if (!name.trim()) return positions.length > 0
   return positions.some((i) => page.slice(Math.max(0, i - 250), i + name.length + 250).includes(name))
 }
+
+/** "EAS 6305", "MATH-GA 2010", "12.800": a number, put where the title goes. */
+const BARE_CODE = /^(?:(?:\p{Lu}[\p{Lu}&]{1,7}[ .-]?){1,2}\d{2,4}\p{Lu}?|\d{1,2}\.\d{2,4})$/u
+const squeezed = (s: string) => words(s).replace(/ /g, '')
 
 // ---- the model's reply ----
 
@@ -166,9 +176,18 @@ export function checkedCurriculum(
       const courses = list(g.courses)
         .slice(0, MAX_COURSES)
         .map((c): CurriculumCourse => {
-          const code = str(obj(c).code, 40)
-          const title = str(obj(c).title, 160)
-          return { code, title, credits: str(obj(c).credits, 20), onPage: courseOnPage(page, code, title) }
+          let code = str(obj(c).code, 40)
+          let title = str(obj(c).title, 160)
+          if (!code && BARE_CODE.test(title)) [code, title] = [title, '']
+          if (title && squeezed(title) === squeezed(code)) title = ''
+          let onPage = courseOnPage(page, code, title)
+          // The number is here and the name is nowhere: the name was remembered.
+          // Without it the course is as the page has it, and can be looked up.
+          if (!onPage && title && /\d/.test(code) && !page.includes(words(title)) && courseOnPage(page, code, '')) {
+            title = ''
+            onPage = true
+          }
+          return { code, title, credits: str(obj(c).credits, 20), onPage }
         })
         .filter((c) => c.code || c.title)
       return {
@@ -230,7 +249,9 @@ function buildPrompt(input: CurriculumInput, text: string): string {
     ` "groups": [{"title": "e.g. Core courses", "core": true, "rule": "e.g. All four required / Choose 2", "quote": "...",\n` +
     `             "courses": [{"code": "exactly as printed", "title": "exactly as printed", "credits": "if printed"}]}],\n` +
     ` "requirements": [{"text": "one requirement that is not a course, under 20 words", "quote": "..."}]}\n\n` +
-    `"core" is true only for courses every student must take or choose among. List EVERY core course. ` +
+    `"core" is true only for courses every student must take or choose among. List EVERY core course, including those ` +
+    `given only by number, in a list or inside a sentence: give each its own entry with its department prefix ` +
+    `("PHYS 501, 502" is PHYS 501 and PHYS 502), and "title": "" where the page prints no name — never fill one in. ` +
     `For elective groups give the rule, and list courses only if there are 12 or fewer. ` +
     `"requirements" covers exams, grade minimums, seminars, teaching, residence and candidacy deadlines. ` +
     `Write numbers as digits.`
@@ -241,7 +262,7 @@ export async function summarizeCurriculum(
   input: CurriculumInput,
   onProgress?: ProgressFn,
   signal?: AbortSignal,
-): Promise<Curriculum> {
+): Promise<CurriculumRun> {
   let url = ''
   let raw = input.page.trim()
   let cut = false
@@ -277,9 +298,12 @@ export async function summarizeCurriculum(
     )
   }
   return {
-    ...summary,
-    source: url ? makeSource(url, titleOf(raw, url), '', classifyTier(url, input.university, 'program')) : null,
-    truncated: cut || full.length > MAX_CHARS,
-    summarizedAt: new Date().toISOString(),
+    curriculum: {
+      ...summary,
+      source: url ? makeSource(url, titleOf(raw, url), '', classifyTier(url, input.university, 'program')) : null,
+      truncated: cut || full.length > MAX_CHARS,
+      summarizedAt: new Date().toISOString(),
+    },
+    page: { url, markdown: raw },
   }
 }

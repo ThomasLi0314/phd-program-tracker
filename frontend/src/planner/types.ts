@@ -275,8 +275,10 @@ export interface CurriculumCourse {
   code: string
   title: string
   credits: string
-  /** This code and title appear together on the page. */
+  /** This code and title appear together on the page (or the code, where it gives no title). */
   onPage: boolean
+  /** Where the title was looked up, when the page gave only the number. */
+  nameSource?: { url: string; title: string }
 }
 
 export interface CurriculumGroup {

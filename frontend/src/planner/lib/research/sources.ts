@@ -1,9 +1,9 @@
 // Source ranking and candidate-URL discovery.
 //
-// WHY THERE IS NO SEARCH ENGINE HERE: s.jina.ai (the only CORS-reachable search
-// from this static origin) returns 401 without a paid key, and university sites
-// send no CORS header so we cannot crawl them directly. But we don't actually
-// need search — the reference dataset already stores each program's official
+// WHY THERE IS NO SEARCH ENGINE HERE: s.jina.ai returns 401 without a paid key,
+// and university sites send no CORS header so we cannot crawl them directly.
+// (DeepSeek's paid search, in webSearch.ts, is used only for course names.)
+// Program and faculty research don't need search — the reference dataset already stores each program's official
 // program and admissions URLs, and r.jina.ai returns markdown whose links let us
 // walk from there to the pages that matter. Verified working with no API key.
 
@@ -48,7 +48,7 @@ function pathOf(url: string): string {
 }
 
 /** Domains we know belong to this university, from the shared seed map. */
-function domainsFor(university: string): string[] {
+export function domainsFor(university: string): string[] {
   const exact = UNIVERSITY_DOMAINS[university]
   if (exact) return exact
   const key = Object.keys(UNIVERSITY_DOMAINS).find(

@@ -9,6 +9,7 @@ import { hasCredentials, loadBaseUrl } from './llm'
 import { researchLetterDeadline, researchProgram } from './programResearch'
 import { researchFaculty } from './facultyResearch'
 import { summarizeCurriculum } from './curriculum'
+import { findCourseNames } from './courseNames'
 import type { ResearchProvider } from './types'
 
 /** Reads real pages via r.jina.ai, then extracts with an OpenAI-compatible model. */
@@ -21,6 +22,7 @@ export const pageAndModelProvider: ResearchProvider = {
   researchProgram,
   researchLetterDeadline,
   summarizeCurriculum,
+  findCourseNames,
   researchFaculty,
 }
 
@@ -35,5 +37,6 @@ export function providerSummary(): { name: string; endpoint: string; ready: bool
 
 export * from './types'
 export { isPageLink, unconfirmedCount } from './curriculum'
+export { coursesWithoutNames } from './courseNames'
 export { buildProgramReview, buildFacultyReview, defaultAccepted, defaultAcceptedFaculty, applyProgramReview, applyFacultyReview } from './reviewQueue'
 export type { ReviewItem, FacultyReviewItem, ReviewAction } from './reviewQueue'

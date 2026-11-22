@@ -39,7 +39,7 @@ export function saveBaseUrl(url: string): void {
 }
 
 /** DeepSeek's own API, as opposed to whatever else the base URL was pointed at. */
-const isDeepSeek = () => /^https?:\/\/api\.deepseek\.com(?:[/:]|$)/i.test(loadBaseUrl())
+export const isDeepSeek = () => /^https?:\/\/api\.deepseek\.com(?:[/:]|$)/i.test(loadBaseUrl())
 
 /** Planner model override; falls back to whatever the tracker is configured with. */
 export function loadPlannerModel(): string {
