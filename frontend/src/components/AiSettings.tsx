@@ -83,8 +83,8 @@ export function AiSettings() {
             >
               platform.deepseek.com
             </a>
-            . Note: <code>deepseek-chat</code> retires 2026/07/24 → switch to{' '}
-            <code>deepseek-v4-flash</code>.
+            . Model: <code>deepseek-flash</code> (cheap, the default) or <code>deepseek-v4-pro</code>.{' '}
+            <code>deepseek-chat</code> was retired on 2026-07-24; a saved one uses the default instead.
           </p>
         </div>
       )}

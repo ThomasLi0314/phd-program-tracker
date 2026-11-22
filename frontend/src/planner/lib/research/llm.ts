@@ -13,7 +13,7 @@
 // personal-use key in a personal browser, not a shipped secret — and the
 // baseUrl override is the seam where a proxy can be introduced later.
 
-import { loadKey, loadModel } from '../../../lib/deepseek'
+import { currentModelName, loadKey, loadModel, NO_THINKING } from '../../../lib/deepseek'
 
 const BASE_URL_STORE = 'planner.llm.baseUrl.v1'
 const MODEL_STORE = 'planner.llm.model.v1'
@@ -38,10 +38,16 @@ export function saveBaseUrl(url: string): void {
   }
 }
 
+/** DeepSeek's own API, as opposed to whatever else the base URL was pointed at. */
+const isDeepSeek = () => /^https?:\/\/api\.deepseek\.com(?:[/:]|$)/i.test(loadBaseUrl())
+
 /** Planner model override; falls back to whatever the tracker is configured with. */
 export function loadPlannerModel(): string {
   try {
-    return localStorage.getItem(MODEL_STORE) || loadModel()
+    const own = localStorage.getItem(MODEL_STORE)
+    if (!own) return loadModel()
+    // Another vendor or a proxy may still serve a name DeepSeek retired.
+    return isDeepSeek() ? currentModelName(own) : own
   } catch {
     return loadModel()
   }
@@ -91,6 +97,8 @@ export async function complete(
         temperature: 0.1,
         max_tokens: opts.maxTokens ?? 1400,
         response_format: { type: 'json_object' },
+        // DeepSeek's own switch; other OpenAI-compatible APIs may refuse it.
+        ...(isDeepSeek() ? NO_THINKING : {}),
       }),
       signal: opts.signal,
     })
@@ -105,10 +113,23 @@ export async function complete(
   if (res.status === 401) throw new LlmError('The API key was rejected (401). Check it in the tracker’s DeepSeek settings.')
   if (res.status === 402) throw new LlmError('The provider says the account is out of balance (402).')
   if (res.status === 429) throw new LlmError('Rate-limited by the provider (429). Wait a moment and retry.')
+  if (res.status === 400 || res.status === 404 || res.status === 422) {
+    // These name their cause (an unknown model, a bad parameter), so pass it on.
+    const reason = await res
+      .json()
+      .then((body) => String(body?.error?.message ?? '').slice(0, 200))
+      .catch(() => '')
+    throw new LlmError(
+      `The model API rejected the request (${res.status})${reason ? `: ${reason}` : ''}. Check the model name in Plan → Settings.`,
+    )
+  }
   if (!res.ok) throw new LlmError(`Model API error ${res.status}.`)
 
   const data = await res.json()
-  const text = data?.choices?.[0]?.message?.content
+  const choice = data?.choices?.[0]
+  // Half a JSON object would parse as "nothing found", which is a different answer.
+  if (choice?.finish_reason === 'length') throw new LlmError('The model’s answer was cut off before it finished.')
+  const text = choice?.message?.content
   if (typeof text !== 'string' || !text.trim()) throw new LlmError('The model returned an empty response.')
   return text
 }

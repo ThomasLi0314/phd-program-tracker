@@ -11,9 +11,27 @@ const MODEL_STORE = 'tracker.deepseek.model.v1'
 const ENABLED_STORE = 'tracker.deepseek.enabled.v1'
 const ENDPOINT = 'https://api.deepseek.com/chat/completions'
 
-/** `deepseek-chat` maps to v4-flash (non-thinking); retires 2026/07/24, after
- *  which use `deepseek-v4-flash`. Cheap + fine for extraction. */
-export const DEFAULT_MODEL = 'deepseek-chat'
+/** DeepSeek's cheap model, fine for extraction. The name follows their current
+ *  Flash release, so it needn't change with each one. */
+export const DEFAULT_MODEL = 'deepseek-flash'
+
+/**
+ * Names DeepSeek switched off on 2026-07-24. `deepseek-chat` was this app's
+ * default and got written into browsers' storage, so a saved one is read as
+ * the current default rather than failing every request.
+ */
+const RETIRED_MODELS = new Set(['deepseek-chat', 'deepseek-reasoner'])
+
+export function currentModelName(name: string): string {
+  return RETIRED_MODELS.has(name.trim()) ? DEFAULT_MODEL : name
+}
+
+/**
+ * Sent with every DeepSeek request. Its models think by default and count the
+ * thinking against max_tokens, which would leave the short answers asked for
+ * here empty.
+ */
+export const NO_THINKING = { thinking: { type: 'disabled' } } as const
 
 export function loadKey(): string {
   try {
@@ -31,7 +49,7 @@ export function saveKey(k: string): void {
 }
 export function loadModel(): string {
   try {
-    return localStorage.getItem(MODEL_STORE) || DEFAULT_MODEL
+    return currentModelName(localStorage.getItem(MODEL_STORE) || DEFAULT_MODEL)
   } catch {
     return DEFAULT_MODEL
   }
@@ -79,6 +97,7 @@ async function chat(
         messages,
         temperature: 0.2,
         max_tokens: 400,
+        ...NO_THINKING,
         ...(opts.json ? { response_format: { type: 'json_object' } } : {}),
       }),
     })
