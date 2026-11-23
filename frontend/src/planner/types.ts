@@ -61,6 +61,20 @@ export type FeeWaiverStatus =
   | 'denied'
 
 /**
+ * Where my statement of purpose for one program stands, in the order the work
+ * usually goes: write it, have someone read it, revise, settle on the final
+ * version, upload it to the portal. Not required sits apart at the end.
+ */
+export type SopStatus =
+  | 'not_started'
+  | 'drafting'
+  | 'feedback'
+  | 'revising'
+  | 'final'
+  | 'uploaded'
+  | 'not_required'
+
+/**
  * Someone writing me a recommendation letter. Entered by hand once and shared
  * by every program, so their details live in one place.
  */
@@ -343,6 +357,9 @@ export interface PlannerProgram {
   /** Where the fee waiver stands. Absent until I pick one — read it through
    *  feeWaiverOf(), which until then reads it off my waiver note. */
   feeWaiverStatus?: FeeWaiverStatus
+  /** Where my statement of purpose stands. Absent until I pick one, which reads
+   *  as not started — read it through sopStatusOf(). */
+  sopStatus?: SopStatus
   /** The core curriculum, once I've had a page summarised and kept the result. */
   curriculum?: Curriculum | null
   createdAt: string

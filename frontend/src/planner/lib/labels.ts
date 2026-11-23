@@ -9,6 +9,8 @@ import type {
   FundingLevel,
   InterestLevel,
   LetterStatus,
+  PlannerProgram,
+  SopStatus,
 } from '../types'
 
 export type Tone = 'slate' | 'indigo' | 'emerald' | 'amber' | 'rose' | 'sky'
@@ -164,6 +166,41 @@ export const FEE_WAIVER_TONES: Record<FeeWaiverStatus, Tone> = {
   granted: 'emerald',
   denied: 'rose',
 }
+
+export const SOP_ORDER: SopStatus[] = [
+  'not_started',
+  'drafting',
+  'feedback',
+  'revising',
+  'final',
+  'uploaded',
+  'not_required',
+]
+
+export const SOP_LABELS: Record<SopStatus, string> = {
+  not_started: 'Not started',
+  drafting: 'Drafting',
+  feedback: 'Getting feedback',
+  revising: 'Revising',
+  final: 'Final version',
+  uploaded: 'Uploaded',
+  not_required: 'Not required',
+}
+
+/** Amber is mine to write; sky is waiting on readers; green is in the portal. */
+export const SOP_TONES: Record<SopStatus, Tone> = {
+  not_started: 'slate',
+  drafting: 'amber',
+  feedback: 'sky',
+  revising: 'amber',
+  final: 'indigo',
+  uploaded: 'emerald',
+  not_required: 'slate',
+}
+
+/** A program's SOP status: the one I picked, or not started until I pick one. */
+export const sopStatusOf = (p: PlannerProgram): SopStatus =>
+  p.sopStatus && SOP_ORDER.includes(p.sopStatus) ? p.sopStatus : 'not_started'
 
 export const ADMISSION_MODEL_LABELS: Record<AdmissionModel, string> = {
   program_based: 'Program-based',

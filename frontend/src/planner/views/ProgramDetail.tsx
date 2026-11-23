@@ -31,6 +31,10 @@ import {
   FUNDING_LABELS,
   INTEREST_LABELS,
   INTEREST_ORDER,
+  SOP_LABELS,
+  SOP_ORDER,
+  SOP_TONES,
+  sopStatusOf,
 } from '../lib/labels'
 import { EditableLink } from '../../components/EditableLink'
 import { StipendRent } from '../../components/StipendRent'
@@ -498,6 +502,20 @@ export function ProgramDetail({
                 options={APPLICATION_ORDER}
                 labels={APPLICATION_LABELS}
                 onChange={(v) => planner.updateProgram(entry.id, { status: v })}
+              />
+            </label>
+            <label className="flex items-center gap-2 text-[11px] font-medium text-slate-500">
+              SOP
+              <StatusSelect
+                value={sopStatusOf(entry)}
+                options={SOP_ORDER}
+                labels={SOP_LABELS}
+                tones={SOP_TONES}
+                onChange={(v) => planner.updateProgram(entry.id, { sopStatus: v })}
+                title={
+                  'Where your statement of purpose for this program stands' +
+                  (entry.admissions.sop?.value ? ` — the program asks for: ${entry.admissions.sop.value}` : '')
+                }
               />
             </label>
             <label className="flex items-center gap-2 text-[11px] font-medium text-slate-500">
