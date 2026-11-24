@@ -38,6 +38,7 @@ export const APPLICATION_ORDER: ApplicationStatus[] = [
   'researching',
   'contacting_faculty',
   'preparing',
+  'fee_unpaid',
   'submitted',
   'interview',
   'offer',
@@ -50,6 +51,7 @@ export const APPLICATION_LABELS: Record<ApplicationStatus, string> = {
   researching: 'Researching',
   contacting_faculty: 'Contacting Faculty',
   preparing: 'Preparing Application',
+  fee_unpaid: 'Applied, Fee Unpaid',
   submitted: 'Submitted',
   interview: 'Interview',
   offer: 'Offer',
@@ -62,6 +64,7 @@ export const APPLICATION_TONES: Record<ApplicationStatus, Tone> = {
   researching: 'sky',
   contacting_faculty: 'indigo',
   preparing: 'amber',
+  fee_unpaid: 'amber',
   submitted: 'emerald',
   interview: 'emerald',
   offer: 'emerald',
@@ -69,7 +72,8 @@ export const APPLICATION_TONES: Record<ApplicationStatus, Tone> = {
   withdrawn: 'slate',
 }
 
-/** Statuses that mean the application actually went out (dashboard tile). */
+/** Statuses that mean the application actually went out (dashboard tile). Not
+ *  fee_unpaid: until the fee is paid, the school doesn't have it. */
 export const SUBMITTED_STATUSES: ApplicationStatus[] = ['submitted', 'interview', 'offer', 'rejected']
 
 export const CONTACT_ORDER: ContactStatus[] = [

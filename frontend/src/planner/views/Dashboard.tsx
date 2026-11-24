@@ -23,6 +23,7 @@ import { SUBMITTED_STATUSES, UNKNOWN_LABEL } from '../lib/labels'
 import { isStale } from '../lib/researchField'
 import { daysUntil, formatDeadline, relativeDeadline, resolveDeadline, type ParsedDeadline } from '../lib/deadlines'
 import { effectiveContact, findRecord, useOutreachSnapshot } from '../lib/outreachBridge'
+import { feeShort, feeWaiverOf, isFeeWaived } from '../lib/feeWaiver'
 import { facultyOccurrences } from '../lib/referenceBridge'
 
 function Tile({ label, value, hint }: { label: string; value: string | number; hint?: string }) {
@@ -116,17 +117,51 @@ export function Dashboard({ state, pool }: { state: PlannerState; pool: Referenc
     const likely = state.faculty.filter((f) => isLikelyRecruiting(f.recruiting.value ?? 'unknown'))
     const replied = contacts.filter((c) => c.record?.replyState === 'replied')
     const submitted = state.programs.filter((p) => SUBMITTED_STATUSES.includes(p.status))
-    return { likely, replied, submitted }
+    const feeUnpaid = state.programs.filter((p) => p.status === 'fee_unpaid')
+    return { likely, replied, submitted, feeUnpaid }
   }, [state, contacts])
 
   const attention = useMemo(() => {
     const items: AttentionItem[] = []
     const one = (p: PlannerProgram) => () => navigate(`/planner/programs/${p.id}`)
 
+    // 0. Applied but the fee isn't paid: the school doesn't count the application
+    //    until it is, and paying takes a minute. One row per program, carrying
+    //    its deadline, so it doesn't also get a deadline row below. Red unless
+    //    the deadline is known to be more than two weeks off.
+    const dated = new Map([...deadlines.overdue, ...deadlines.upcoming].map((d) => [d.program.id, d]))
+    for (const p of state.programs) {
+      if (p.status !== 'fee_unpaid') continue
+      const d = dated.get(p.id)
+      const w = feeWaiverOf(p)
+      const fee = isFeeWaived(w.status) ? null : feeShort(String(p.admissions.applicationFee?.value ?? ''))
+      const when = !d
+        ? ''
+        : d.days < 0
+          ? ` · the deadline was ${relativeDeadline(d.parsed.iso!)}`
+          : ` · closes ${relativeDeadline(d.parsed.iso!)}`
+      items.push({
+        id: `fee/${p.id}`,
+        severity: d && d.days > 14 ? 'soon' : 'urgent',
+        text:
+          `${p.university} — ${p.programName}: applied, but the fee${fee ? ` (${fee})` : ''} isn’t paid` +
+          (w.status === 'requested'
+            ? ' · waiver requested'
+            : w.status === 'granted'
+              ? ' · waiver granted'
+              : w.status === 'automatic'
+                ? ' · the fee is auto-waived'
+                : '') +
+          when,
+        action: 'open',
+        go: one(p),
+      })
+    }
+
     // 1. A deadline that has passed while the application is unsent is the most
     //    expensive thing on this page to not notice.
     for (const d of deadlines.overdue) {
-      if (d.submitted) continue
+      if (d.submitted || d.program.status === 'fee_unpaid') continue
       items.push({
         id: `overdue/${d.program.id}`,
         severity: 'urgent',
@@ -138,7 +173,7 @@ export function Dashboard({ state, pool }: { state: PlannerState; pool: Referenc
 
     // 2. Closing soon and not sent.
     for (const d of deadlines.upcoming) {
-      if (d.submitted || d.days > 30) continue
+      if (d.submitted || d.program.status === 'fee_unpaid' || d.days > 30) continue
       items.push({
         id: `soon/${d.program.id}`,
         severity: d.days <= 14 ? 'urgent' : 'soon',
@@ -335,7 +370,11 @@ export function Dashboard({ state, pool }: { state: PlannerState; pool: Referenc
               <Tile label="Faculty" value={state.faculty.length} />
               <Tile label="Likely Recruiting" value={stats.likely.length} hint="actively or possibly" />
               <Tile label="Replied" value={stats.replied.length} hint="from Gmail" />
-              <Tile label="Submitted" value={`${stats.submitted.length} / ${state.programs.length}`} />
+              <Tile
+                label="Submitted"
+                value={`${stats.submitted.length} / ${state.programs.length}`}
+                hint={stats.feeUnpaid.length ? `+ ${stats.feeUnpaid.length} with the fee unpaid` : undefined}
+              />
             </div>
 
             <div className="mt-4 grid gap-3 lg:grid-cols-2">

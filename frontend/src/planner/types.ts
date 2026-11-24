@@ -16,6 +16,9 @@ export type ApplicationStatus =
   | 'researching'
   | 'contacting_faculty'
   | 'preparing'
+  /** Sent in the portal, but the application fee isn't paid — most schools
+   *  don't count it as submitted until it is. */
+  | 'fee_unpaid'
   | 'submitted'
   | 'interview'
   | 'offer'
