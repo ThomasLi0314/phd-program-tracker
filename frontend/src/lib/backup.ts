@@ -26,6 +26,8 @@ export const BACKUP_KEYS: { key: string; label: string }[] = [
   { key: 'planner.sheet.v1', label: 'Plan Google Sheet (link)' },
   // One link per letter writer — see planner/lib/letterSheets.
   { key: 'planner.letterSheets.v1', label: 'Letter writer checklist Sheets (links)' },
+  // Written only once letters are checked against Gmail — see planner/components/LetterMailSync.
+  { key: 'planner.letterMail.v1', label: 'Letter email check (undone and ignored emails)' },
 ]
 
 /** The keys above, for quick membership tests. */

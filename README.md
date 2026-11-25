@@ -54,6 +54,18 @@ their ticks are never overwritten). Clickable checkboxes in the Sheet need the
 Google Sheets API turned on in your Google Cloud project; without it the column
 reads TRUE/FALSE and still works.
 
+**Check Gmail now** (Letter Writers page; needs the Google connection) reads the
+emails application portals send you about letters, such as "request sent",
+"reminder sent", "recommendation received" and "writer declined", and moves
+each letter forward. An email updates a letter on its own only when it names one
+of your writers, plainly comes from (or names) one school where that writer has
+exactly one of your programs, and says in so many words what happened. Each
+update is listed with the sentence it came from, a link to the email, and an
+Undo. A letter is never moved backwards. Emails that fit two programs at one
+school, name no writer, or come from a writer directly ("I've submitted my
+letter to Berkeley") wait in a list for you to apply or ignore. An undone or
+ignored email stays out of later checks.
+
 Some programs want letters on a day other than the application deadline. **Look
 up letter deadlines** (Letter Writers page; needs a DeepSeek key) reads each
 program's official pages and proposes what they say about letters, with the
@@ -136,7 +148,11 @@ Each is off until you set it up in **Settings**, with **your own** credentials:
   and paste it in. The access token is held in memory only and never stored.
   Gmail is requested read-only, and the sync asks for **message headers**
   (To/From/Subject/Date) — not message bodies, unless you switch on the AI
-  reply-reading feature below. Drive backups go to `appDataFolder`, a private
+  reply-reading feature below. The one exception is **Check Gmail now** on the
+  Letter Writers page: it reads the text of mail that mentions recommendations
+  or references, plus mail from your letter writers, from the June before your
+  entry year onward (June 2026 for Fall 2027). That
+  text is read in your browser and sent nowhere, not even to DeepSeek. Drive backups go to `appDataFolder`, a private
   folder that only this app, signed in as you, can read: it does not show up
   among your normal Drive files and no one else can open it. The note documents
   and the plan's Google Sheet use Google's per-file scope, which grants access

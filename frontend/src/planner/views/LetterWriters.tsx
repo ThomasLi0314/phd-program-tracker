@@ -20,6 +20,7 @@ import { SheetControls } from '../components/SheetControls'
 import { StatusSelect } from '../components/StatusChip'
 import { RecommenderForm } from '../components/RecommenderForm'
 import { LetterDeadlineCheck } from '../components/LetterDeadlineCheck'
+import { LetterMailSync } from '../components/LetterMailSync'
 
 const field =
   'w-full rounded border border-transparent bg-transparent px-1.5 py-0.5 text-[12.5px] text-slate-800 hover:border-slate-200 focus:border-indigo-400 focus:bg-white focus:outline-none'
@@ -333,6 +334,7 @@ export function LetterWritersView({
           </div>
         ) : (
           <>
+            <LetterMailSync state={state} pool={pool} planner={planner} />
             <LetterDeadlineCheck state={state} pool={pool} planner={planner} />
             <div className="space-y-3">
               {state.recommenders.map((r) => (

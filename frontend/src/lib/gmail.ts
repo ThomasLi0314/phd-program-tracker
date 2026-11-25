@@ -1,9 +1,13 @@
 // Client-side Gmail access via Google Identity Services (token model).
 // No backend, no client secret: initTokenClient() issues a ~1h access token in
-// the browser, which we send as a Bearer to the Gmail REST API. We only ever
-// request format=metadata — headers only (To/Cc/From/Subject/Date/threadId),
-// never message bodies. The access token lives in memory only (never persisted);
-// only the public OAuth Client ID is stored in localStorage.
+// the browser, which we send as a Bearer to the Gmail REST API. The outreach
+// sync requests format=metadata — headers only (To/Cc/From/Subject/Date/
+// threadId), never message bodies. Bodies are read in two places only: the
+// opt-in DeepSeek reply reading, and the letter-status check
+// (planner/lib/letterMail), which reads the text of mail that mentions
+// recommendations in the browser and sends it nowhere. The access token lives
+// in memory only (never persisted); only the public OAuth Client ID is stored
+// in localStorage.
 
 const GIS_SRC = 'https://accounts.google.com/gsi/client'
 /** gmail.readonly for outreach sync; drive.appdata for the backup file (a
@@ -160,7 +164,7 @@ export async function ensureToken(clientId: string): Promise<string> {
   return requestToken(false)
 }
 
-// ---- REST helpers (all metadata-only) ----
+// ---- REST helpers ----
 
 async function gget(path: string): Promise<any> {
   if (!accessToken) throw new Error('Not connected')
@@ -286,4 +290,78 @@ export async function getThreadFull(threadId: string): Promise<ThreadMessageFull
     const from = (m.payload?.headers || []).find((h: any) => h.name.toLowerCase() === 'from')?.value
     return { from: from ?? '', date: Number(m.internalDate), body: extractBody(m.payload) }
   })
+}
+
+// ---- message text (the letter-status check: planner/lib/letterMail) ----
+
+/** Message stubs matching `query`, newest first, at most `limit` of them. */
+export async function listMessages(query: string, limit: number): Promise<{ id: string; threadId: string }[]> {
+  const out: { id: string; threadId: string }[] = []
+  let pageToken: string | undefined
+  do {
+    const qs =
+      `/messages?maxResults=${Math.min(500, limit - out.length)}&q=${encodeURIComponent(query)}` +
+      (pageToken ? `&pageToken=${pageToken}` : '')
+    const page = await gget(qs)
+    for (const m of page.messages || []) out.push({ id: m.id, threadId: m.threadId })
+    pageToken = page.nextPageToken
+  } while (pageToken && out.length < limit)
+  return out.slice(0, limit)
+}
+
+const ENTITIES: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' }
+
+/** HTML to text that keeps its line structure: a table cell, paragraph or
+ *  list item ends a line, so "Smith | Received" stays apart from the next row. */
+export function htmlToText(html: string): string {
+  return html
+    .replace(/<(style|script|head)\b[\s\S]*?<\/\1\s*>/gi, ' ')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/(p|div|li|tr|td|th|h[1-6]|table|ul|ol|blockquote|section)\s*>/gi, '\n')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (m, e: string) => {
+      if (e[0] === '#') {
+        const n = e[1] === 'x' || e[1] === 'X' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10)
+        return Number.isFinite(n) ? String.fromCodePoint(n) : m
+      }
+      return ENTITIES[e.toLowerCase()] ?? m
+    })
+    .replace(/[ \t\u00a0]+/g, ' ')
+    .replace(/ *\n[ \n]*/g, '\n')
+    .trim()
+}
+
+export interface MessageText {
+  id: string
+  threadId: string
+  sentAt: number
+  /** the From header as sent, e.g. "Graduate Admissions <gradapp@mit.edu>" */
+  from: string
+  subject: string
+  /** the body as text, line breaks kept; plain-text part preferred */
+  text: string
+}
+
+/** One message's headers and body text. */
+export async function getMessageText(id: string): Promise<MessageText> {
+  const m = await gget(`/messages/${id}?format=full`)
+  const header = (name: string) =>
+    (m.payload?.headers || []).find((h: any) => h.name.toLowerCase() === name)?.value ?? ''
+  const plain = findPartData(m.payload, 'text/plain')
+  const html = plain ? null : findPartData(m.payload, 'text/html')
+  const text = plain
+    ? decodeB64Url(plain).replace(/\r\n?/g, '\n')
+    : html
+      ? htmlToText(decodeB64Url(html))
+      : m.payload?.body?.data
+        ? decodeB64Url(m.payload.body.data)
+        : (m.snippet ?? '')
+  return {
+    id: m.id,
+    threadId: m.threadId,
+    sentAt: Number(m.internalDate),
+    from: header('from'),
+    subject: header('subject'),
+    text,
+  }
 }
